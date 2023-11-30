@@ -1,0 +1,18 @@
+# Description: The Lightning Memory-Mapped Database Manager
+# URL: https://github.com/LMDB/lmdb
+# Maintainer: Petar Petrov, slackware at gmail dot com
+
+name=lmdb
+version=0.9.31
+release=1
+source=(https://git.openldap.org/openldap/openldap/-/archive/LMDB_$version/openldap_LMDB_$version.tar.gz
+  lmdb.pc)
+
+build() {
+  sed -i "s|@@VERSION@@|$version|" -i $SRC/lmdb.pc
+
+  cd openldap-LMDB_$version-*/libraries/liblmdb
+  make CFLAGS+=" -fPIC"
+  make DESTDIR=$PKG prefix=/usr install
+  install -Dm0644 $SRC/lmdb.pc -t $PKG/usr/lib/pkgconfig
+}

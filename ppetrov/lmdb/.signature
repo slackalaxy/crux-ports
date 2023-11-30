@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZT4gxvDIm/lcS3pgInewnx4zN2pqA8TY7igpXLEyHNN8XB+TRCJe9lspJLHUipDKWNFjbnx4BwQD/HiCtgfMzw4=
+SHA256 (Pkgfile) = d7aac152bd546756a9de280a7c71d4c536b28aaa9fdc14dff7ecb92f79cc196e
+SHA256 (.footprint) = 38006a49d6f83bb37af31bd12ddb9f0873bd9c235a6c21733ee704ab12e91bcf
+SHA256 (openldap_LMDB_0.9.31.tar.gz) = 669cdf15af8a806f5132995bff9370e79b19876d46abab1b95e84294c0fefa7b
+SHA256 (lmdb.pc) = effc8326ab5cd4be01867fc1bcbb2347d1b99b31f38811dbe3e26b969db9dfc3
