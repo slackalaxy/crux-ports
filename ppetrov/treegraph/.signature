@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZS85KC5znHUBQbQQh0npxjhux5E+xmcv79p1q1TaFB/sjPPGkbUy4gvg0zkSiW4DeAIiUIla2XBK4emt8MfhCQg=
+SHA256 (Pkgfile) = 4084cc9163615933d388464087d037f402f9013b94e26a7a04b0000bfb08d997
+SHA256 (.footprint) = 8d933e8ee944755228f8392892acd180c3cc935dda770856928d446c07b23f13
+SHA256 (TreeGraph_2.15.0-887_beta.zip) = 6e0445ce128e03178dd18d48e5393f10d62023315b3c306bbcc04fc21d74efe3
+SHA256 (treegraph.desktop) = 590359960340fd8b5969c5d8c4553e63a8f3becd2a841a05e860af58addb8739
+SHA256 (treegraph.png) = 15d4437f50f7ca5211acfee529b0ae60c43feac74414a3e91557de0e745afbcf
+SHA256 (treegraph.sh) = bb2ffc07ca38361de00864756fe25481ad1fb6b759aef00e338f9bd69f5dfc4f

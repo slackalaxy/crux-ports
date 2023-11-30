@@ -1,0 +1,19 @@
+# Description: SMPlayer icon themes
+# URL: https://downloads.sourceforge.net/smplayer
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: smplayer
+
+name=smplayer-themes
+version=20.11.0
+release=1
+source=(https://downloads.sourceforge.net/smplayer/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	make
+	mkdir -p $PKG/usr/share/smplayer
+	
+	make PREFIX=/usr DESTDIR=$PKG install
+	
+	find $PKG/ -name "README.txt" -delete
+}

@@ -1,0 +1,292 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/apple/
+-rw-r--r--	root/root	usr/share/fonts/apple/Al Nile.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Al Tarikh.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/AlBayan.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/AlFirat.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/AlKhalil.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/AlRafidain.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/AlRafidainAlFanni.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Algiers.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/AmericanTypewriter.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Andale Mono.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple Braille Outline 6 Dot.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple Braille Outline 8 Dot.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple Braille Pinpoint 6 Dot.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple Braille Pinpoint 8 Dot.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple Braille.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple Chancery.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple Color Emoji.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple LiGothic Medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple LiSung Light.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple Symbols.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Apple-Farrington-7B-005.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleGothic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleMyungjo.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-Bold.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-ExtraBold.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-Heavy.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-Light.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-Medium.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-Regular.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-SemiBold.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-Thin.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleSDGothicNeo-UltraLight.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/AquaKana.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/ArialHB.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Athelas.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir Next Condensed.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir Next.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Ayuthaya.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Baghdad.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bangla MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bangla Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bank Gothic Light.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Bank Gothic Medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/BankGothic.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Baoli.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Basra.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Beirut.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/BiauKai.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/BigCaslon.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Blair Medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Bodoni 72 OS.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bodoni 72 Smallcaps Book.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Bodoni 72.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bodoni Ornaments.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Bodoni SvtyTwo OS.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bodoni SvtyTwo SC Book.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Bodoni SvtyTwo.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/BookAntiqua.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bradley Hand Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Braganza.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Brush Script.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Chalkboard.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/ChalkboardSE.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Chalkduster.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Charter.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Cochin.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Coolvetica.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Copperplate.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Corsiva.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/DIN Alternate Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/DIN Condensed Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Damascus.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/DearJoe.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/DearJoeSmallFace.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/DecoTypeNaskh.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Devanagari Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/DevanagariMT.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Didot.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Dijla.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Diwan Kufi.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Diwan Thuluth.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/EuphemiaCAS.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Farah.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Farisi.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Futura.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Garamond.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/GeezaPro.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Geneva.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/GillSans.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Gujarati Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/GujaratiMT.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/GujaratiMTBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Gungseouche.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Gurmukhi MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Gurmukhi Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Gurmukhi.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Hannotate.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Hanzipen.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/HeadlineA.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Hei.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaNeue.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaNeueDeskInterface.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Herculanum.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HiraKakuInterface-W1.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/HiraKakuInterface-W2.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Hiragino Sans GB W3.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Hiragino Sans GB W6.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Hoefler Text Ornaments.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Hoefler Text.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Hopper Script.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HopperScript.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/ITFDevanagari.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/InaiMathi.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Iowan Old Style.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Kai.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kailasa.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kaiti.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Kannada MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Kannada Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Kefa.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Keyboard.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Khmer MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Khmer Sangam MN.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kohinoor.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Kokonor.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/KoufiAbjadi.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Krungthep.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/KufiStandardGK.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Laimoon.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Lantinghei.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Lao MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Lao Sangam MN.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/LastResort.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Libian.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/LucidaGrande.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Luminari.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Malayalam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Malayalam Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Marion Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Marion Regular Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Marion Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Marion.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/MarkerFelt.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Menlo.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Mishafi Gold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Mishafi.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Monaco.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/MshtakanBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/MshtakanBoldOblique.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/MshtakanOblique.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/MshtakanRegular.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Muna.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Myanmar MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Myanmar Sangam MN.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/NISC18030.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Nadeem.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/NanumGothic.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/NanumMyeongjo.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/NanumScript.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/NewPeninimMT.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Nisan.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Noteworthy.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Optima.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Oriya MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Oriya Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Osaka.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/OsakaMono.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/PCmyoungjo.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/PTMono.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/PTSans.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/PTSerif.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/PTSerifCaption.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino Regular Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/PartyLET-plain.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Phosphate.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Pilgiche.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/PlantagenetCherokee.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Proxima Nova Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Raanana.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Raya.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/STHeiti Light.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/STHeiti Medium.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/STHeiti Thin.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/STHeiti UltraLight.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/STHeitiInterface.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXGeneral.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXGeneralBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXGeneralBolIta.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXGeneralItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntDBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntDReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntSmBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntSmReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntUpBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntUpDBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntUpDReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntUpReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntUpSmBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXIntUpSmReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXNonUni.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXNonUniBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXNonUniBolIta.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXNonUniIta.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizFiveSymReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizFourSymBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizFourSymReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizOneSymBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizOneSymReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizThreeSymBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizThreeSymReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizTwoSymBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXSizTwoSymReg.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXVar.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/STIXVarBol.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Sana.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Sathu.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Savoye LET.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Scancardium_2.0.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Seravek.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Shree714.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/SignPainter.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Silom.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Sinhala MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Sinhala Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Skia.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/SnellRoundhand.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Somer.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Songti.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Stone Sans.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/SukhumvitSet.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/SuperClarendon.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Black Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Black.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Light Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Light.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Tamil MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Tamil Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Telugu MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Telugu Sangam MN.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Thonburi.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Thonburi.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Times.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Trattatello.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/TwentiethCentury.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Waseem.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/WawaSC-Regular.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/WawaTC-Regular.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/WeibeiSC-Bold.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/WeibeiTC-Bold.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Xingkai.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Yaziji.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Yu Gothic Bold.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Yu Gothic Medium.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Yu Mincho Demibold.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Yu Mincho Medium.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/Yuanti.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/YuppySC-Regular.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/YuppyTC-Regular.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ZapfDingbats.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Zapfino.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Zawra.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ丸ゴ Pro W4.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ丸ゴ ProN W4.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ明朝 Pro W3.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ明朝 Pro W6.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ明朝 ProN W3.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ明朝 ProN W6.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ角ゴ Pro W3.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ角ゴ Pro W6.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ角ゴ ProN W3.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ角ゴ ProN W6.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ角ゴ Std W8.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/ヒラギノ角ゴ StdN W8.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/儷宋 Pro.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/儷黑 Pro.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/华文仿宋.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/华文细黑.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/华文黑体.ttf

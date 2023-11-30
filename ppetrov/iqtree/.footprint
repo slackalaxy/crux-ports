@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/iqtree -> iqtree2
+-rwxr-xr-x	root/root	usr/bin/iqtree2
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/iqtree/
+-rw-r--r--	root/root	usr/share/iqtree/example.cf
+-rw-r--r--	root/root	usr/share/iqtree/example.nex
+-rw-r--r--	root/root	usr/share/iqtree/example.phy
+-rw-r--r--	root/root	usr/share/iqtree/models.nex

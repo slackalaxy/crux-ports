@@ -1,0 +1,25 @@
+From b1c2d3e9b1eb9f5a20f17b36be7659ba2bf642e0 Mon Sep 17 00:00:00 2001
+From: Slaven Rezic <slaven@rezic.de>
+Date: Fri, 8 Apr 2016 08:27:25 +0200
+Subject: [PATCH] fix my in my redeclaration (RT #106756)
+
+---
+ Bio/Tools/Alignment/Consed.pm | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Bio/Tools/Alignment/Consed.pm b/Bio/Tools/Alignment/Consed.pm
+index 455acb2..7aa46a8 100644
+--- a/Bio/Tools/Alignment/Consed.pm
++++ b/Bio/Tools/Alignment/Consed.pm
+@@ -1709,7 +1709,7 @@ Recursion is kewl, but this sub should likely be _reverse_recurse.
+ 
+ 
+ sub reverse_recurse($$) {
+-    my ($r_source,my $r_destination) = @_;
++    my ($r_source,$r_destination) = @_;
+     if (!@$r_source) {
+         return $r_destination;
+     }
+-- 
+2.1.2
+

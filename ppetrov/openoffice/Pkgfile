@@ -1,0 +1,71 @@
+# Description: Apache OpenOffice
+# URL: https://www.openoffice.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gconf gdk-pixbuf-xlib gtk python glu gst0-plugins-base jdk8-bin orbit2 gnome-vfs db43
+
+name=openoffice
+version=4.1.14
+release=1
+source=(https://sourceforge.net/projects/openofficeorg.mirror/files/$version/binaries/en-US/Apache_OpenOffice_${version}_Linux_x86-64_install-rpm_en-US.tar.gz
+	$name.directory $name.menu $name.conf)
+
+build() {
+	cd en-US/RPMS
+	
+	# We don't want this
+	rm -f *onlineupdate*.rpm
+
+	# Extract the files from the *.rpm
+	rpms=$(ls *.rpm)
+	for r in ${rpms[@]} ; do bsdtar -xf $r ; done
+	bsdtar -xf desktop-integration/openoffice${version}-freedesktop-menus-${version}-????.noarch.rpm
+	
+	# The handbook says packages should not put stuff in /opt
+	mkdir -p $PKG/usr/lib/$name
+	mv opt/openoffice4/* $PKG/usr/lib/$name
+	
+	# Use the wrapper, but change path accordingly
+	mkdir -p $PKG/usr/bin
+	mv usr/bin/openoffice4* $PKG/usr/bin
+	sed -i "s:/opt/openoffice4/:/usr/lib/$name/:" $PKG/usr/bin/openoffice4*
+	
+	# Change icon name a bit, so it is recognised by Gnome colors.
+	sed -i "s:Icon=openoffice4-:Icon=ooo-:" $PKG/usr/lib/$name/share/xdg/*.desktop
+	
+	# We do not need the version number in the icon
+	sed -i "s:$version ::" $PKG/usr/lib/$name/share/xdg/*.desktop
+	
+	# We use a sub-menu for OOo, so no need of this:
+	sed -i "s:Categories=:#Categories=:g" $PKG/usr/lib/$name/share/xdg/*.desktop
+	
+	mkdir -p $PKG/usr/share/{applications,desktop-directories,pixmaps}
+	cp -a $PKG/usr/lib/$name/share/xdg/*.desktop $PKG/usr/share/applications
+	cp $SRC/$name.directory $PKG/usr/share/desktop-directories
+	
+	mkdir -p $PKG/usr/etc/xdg/menus/applications-merged
+	cp $SRC/$name.menu $PKG/usr/etc/xdg/menus/applications-merged
+	
+	# Install icons. Help from here for changing the suffix:
+	# https://unix.stackexchange.com/questions/47367/bulk-rename-change-prefix
+	cd usr/share/icons/gnome/48x48/apps/
+	for icon in openoffice4-* ; do cp "$icon" $PKG/usr/share/pixmaps/"ooo-${icon#openoffice4-}" ; done
+	
+	# take care of jdk
+	mkdir -p $PKG/etc/ld.so.conf.d
+	cp $SRC/$name.conf $PKG/etc/ld.so.conf.d
+	
+	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/$name
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/$name:" $PKG/etc/revdep.d/$name
+	
+	JUNK=( README README.html README.txt README.ctypes ChangeLog TODO.txt NEWS.txt )
+	for i in ${JUNK[@]}; do
+		find $PKG/ -name "$i" -delete
+	done
+	
+	rm -rf $PKG/usr/lib/openoffice/readmes
+	rm -rf $PKG/usr/lib/openoffice/share/readme
+	
+}

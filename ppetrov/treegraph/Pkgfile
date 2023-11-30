@@ -1,0 +1,25 @@
+# Description: A feature rich phylogenetic tree editor
+# URL: http://treegraph.bioinfweb.info/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: jdk8-bin
+
+name=treegraph
+version=2.15.0.887_beta
+release=1
+source=(https://ponce.cc/slackware/download_cache/TreeGraph_2.15.0-887_beta.zip
+	$name.desktop $name.png $name.sh)
+
+build() {
+	mkdir -p $PKG/usr/lib/$name
+	cp -a icons lib *.jar $PKG/usr/lib/$name
+	
+	# Install our simple wrapper
+	install -D -m755 $SRC/$name.sh $PKG/usr/bin/$name
+
+	# Include our own icon and desktop file
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	rm -rf $PKG/usr/lib/treegraph/lib/batik/{README.*,LICENSE.*}
+}

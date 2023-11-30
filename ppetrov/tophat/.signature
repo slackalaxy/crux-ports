@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZS+B9FWc3LcVVKqFI/jk1XTf7EXaW3qvy41/Gj0evIOD55x5xYL+VrI0uU5EU2MORpTyC8nyhvnhQR2+NbEFBg0=
+SHA256 (Pkgfile) = 11d51172586fe17b18b9f3e61d2abdc6494d171e7d5aec4bd4a621f6b7a810b1
+SHA256 (.footprint) = 10affa0cb4e80c1a927a682ea706945c89f5381a169126fddb12b28474756ff2
+SHA256 (tophat-2.1.2.tar.gz) = 15016b82255dad085d4ee7d970e50f0e53a280d466335553d47790d8344ff4b1
+SHA256 (make_pair.patch) = a5f6155be5081bff5154616d0ff3dbbecf0c99c529be59d0bc6d1f591cb851c2
+SHA256 (configure.patch) = 5f0981408b5524caaa7cf53409f35a97c63ee4314b4a9aa1146734e1b4243a39

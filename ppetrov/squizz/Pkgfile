@@ -1,0 +1,19 @@
+# Description: A sequence/alignment format checker and converter
+# URL: ftp://ftp.pasteur.fr/pub/gensoft/projects/squizz/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=squizz
+version=0.99d
+release=1
+source=(ftp://ftp.pasteur.fr/pub/gensoft/projects/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/doc
+}

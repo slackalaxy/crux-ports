@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/wps-office/
+drwxr-xr-x	root/root	usr/lib/wps-office/office6/
+drwxr-xr-x	root/root	usr/lib/wps-office/office6/dicts/
+drwxr-xr-x	root/root	usr/lib/wps-office/office6/dicts/spellcheck/
+drwxr-xr-x	root/root	usr/lib/wps-office/office6/dicts/spellcheck/bg_BG/
+-rw-r--r--	root/root	usr/lib/wps-office/office6/dicts/spellcheck/bg_BG/dict.conf
+-rw-r--r--	root/root	usr/lib/wps-office/office6/dicts/spellcheck/bg_BG/main.aff
+-rw-r--r--	root/root	usr/lib/wps-office/office6/dicts/spellcheck/bg_BG/main.dic

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZZrEoHaj/xSySK4Y/uHTNSwF9qMKPl3FQwjQ+Uno7TKi1wixjnKXMOaMh1U8nhL9wpV2n05TbGV600YVUH1JMAs=
+SHA256 (Pkgfile) = ed02ba251b2478d4f136bb8181ef5cbec7ec5e323046f0e42ef9326a2f3d725e
+SHA256 (.footprint) = cd23c6e3b60c8a9e724ad06a70596f7af20bf2ce367079b1bd6f2df17d8d3db7
+SHA256 (libgnomeui-2.24.5.tar.bz2) = ae352f2495889e65524c979932c909f4629a58e64290fb0c95333373225d3c0f

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZfkoXFQogVQMq4u1Lv82A1to3t2RlY/qQ2r7v1zO8vH/fFg9piUydVdrD4D+E8oi7Ufk0NyRp2n42xXRox9UwQs=
+SHA256 (Pkgfile) = 8b7bf573be08935c5c7055938352f20f151aef5dffbfaa635accb766e71dffdb
+SHA256 (.footprint) = a0a8591d8ae6073dd6d48d8ad38bf07984b524922e89b7ae72b8f298729c152c
+SHA256 (osmo-0.2.14.tar.gz) = 052c3509e9e5ee3f7692fc0d456bebd3a13727acb985901f08c0e2e86bf64a6d

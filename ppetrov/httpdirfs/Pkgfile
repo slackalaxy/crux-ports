@@ -1,0 +1,16 @@
+# Description: HTTP Directory Filesystem
+# URL: https://github.com/fangfufu/httpdirfs
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gumbo-parser help2man fuse doxygen
+
+name=httpdirfs
+version=1.2.5
+release=1
+source=(https://github.com/fangfufu/httpdirfs/archive/$version.tar.gz)
+
+build() {
+	cd $name-$version
+	make
+	make man
+	make prefix=/usr DESTDIR=$PKG install
+}

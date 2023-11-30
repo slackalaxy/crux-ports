@@ -1,0 +1,25 @@
+# Description: A status docklet for XMMS
+# URL: https://www.hellion.org.uk/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-status-plugin
+version=1.0
+release=1
+source=(https://www.hellion.org.uk/source/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	# Force the Makefile to use the installed version of libtool.
+	# Thanks to Larry Hajali for the fix.
+	sed -i 's|^LIBTOOL =.*|LIBTOOL = /usr/bin/libtool|' $(find . -iname "Makefile.*")
+
+	./configure --prefix=/usr \
+	--disable-nls \
+	--disable-more-warnings \
+	--disable-fatal-warnings
+
+	make
+	make install DESTDIR=$PKG
+}

@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/apple/
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleGaramond-Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleGaramond-BoldItalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleGaramond-Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleGaramond-Light.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleGaramond-LightItalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/AppleGaramond.ttf

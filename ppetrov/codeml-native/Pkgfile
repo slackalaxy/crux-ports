@@ -1,0 +1,19 @@
+# Description: CodeML built with native CPU arch
+# URL: http://abacus.gene.ucl.ac.uk/software/paml.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=codeml-native
+version=4.10.6
+release=1
+source=(https://github.com/abacus-gene/paml/archive/v4.10.6/paml-4.10.6.tar.gz)
+renames=($name-$version.tar.gz)
+
+build() {
+	cd paml-$version/src
+	
+	# Use our CFLAGS
+	sed -i "s:-O3:-O3 -march=native:" Makefile
+	make codeml
+
+	install -D -m 755 codeml $PKG/usr/bin/codeml-native
+}

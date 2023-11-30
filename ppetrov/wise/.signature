@@ -1,0 +1,18 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZSwufAvPMr610evWgF2CkpaoGbhpLz21CfM9oLImRYxy6mTPn+a2BPo01PmQyq1uC+aZT52OgcvBYK2X1qHDNQE=
+SHA256 (Pkgfile) = 387f12baf22780f96f1e39d912717db3e695b9b3673bfe1f7bc8e5b30bd85077
+SHA256 (.footprint) = 2a9603a8cffeea18a468c529572781d43ca10ed5b8a46ad23caf898c412763c9
+SHA256 (wise_2.4.1.orig.tar.gz) = 0aec5e30739110783517a429606249fc6c5fd0d65171c1a6d79ecc5ff81d2935
+SHA256 (01_welcome-csh.patch) = 2b68b830657b6ac4659abd390058ae69f11cf6d7cebeb55e85f4054cf0033b4b
+SHA256 (02_isnumber.patch) = f8ab1c4493b3def1363530b28e7dee7735ad60bba993d3870a005566e530b2fa
+SHA256 (03_doc-nodycache.patch) = 6fd61b4c9bfcdc57753ee2c6d57c50d8fe6a4bb91abe3c53cab679bb09c07470
+SHA256 (04_wise2-pdflatex-update.patch) = 06fc8c4e16702d4ed88d3c23e6979714a2884d0e2d703e1a8c831dfcd9f1b48f
+SHA256 (05_glib2.patch) = 29d8ae193c246a0e74ced2a009f4f3ca9f005573ca53d052a47b0e816a12c4ea
+SHA256 (06_getline.patch) = 56c450def61c8cd59c8a038435bfff4966a9729c4292dd1fa57ec4aa7c3d286a
+SHA256 (07_ld--as-needed.patch) = 9aa337f1178cc09d70f2bef7db315525d56f0e40ad25de5168c7116124286cea
+SHA256 (08_mayhem.patch) = 3067fbfed3cb657acfe365070dfcc211c06b92739ea5131546f7b32b7e01183f
+SHA256 (09_dnal-add-return-statement.patch) = 5ed11479b44c913512b080a45b5ead346c5cf4f0699cd6268ec389a6f4aee714
+SHA256 (10_fix_path_to_data_files.patch) = 10e8234521a0a930a749ddb4f75c1de7a27a311c74e57ba74dd319f856d967b7
+SHA256 (11_consistent_manual_dates.patch) = 3afdf5c374080748e675c5530a59c3facca9d972f5b98b7a1a2e18cad84f1e23
+SHA256 (cross.patch) = 362908c123d5edd846261efebe42ec5c54b896de3e4f0145f74d040d6ea0a35c
+SHA256 (spelling.patch) = 58a1a07780ebe9110a9d690d91c2058b9affcaf9e1255f589e46bcb395af81f1

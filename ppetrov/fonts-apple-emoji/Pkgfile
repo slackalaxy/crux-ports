@@ -1,0 +1,12 @@
+# Description: Apple Color Emoji for Linux
+# URL: https://github.com/samuelngs/apple-emoji-linux
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=fonts-apple-emoji
+version=16.4
+release=1
+source=(https://github.com/samuelngs/apple-emoji-linux/releases/download/v${version}/AppleColorEmoji.ttf)
+
+build() {
+	install -D -m644 AppleColorEmoji.ttf $PKG/usr/share/fonts/apple/AppleColorEmoji.ttf
+}

@@ -1,0 +1,20 @@
+# Description: A tool for producing computational artwork
+# URL: http://slackware.uk/sbosrcarch/by-name/graphics/fyre/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libglade
+
+name=fyre
+version=1.0.1
+release=1
+source=(http://slackware.uk/sbosrcarch/by-name/graphics/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/mime
+	rm -rf $PKG/usr/share/icons/hicolor/48x48
+}

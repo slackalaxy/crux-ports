@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchuAdNMWrqSvPlEo0xLba1PPLD7+V7T7/TZdqPoPJNlDf+nD05rhqoa/caQ3txMw9VRvYIk/WTVjEjA+V+hyuRwY=
+SHA256 (Pkgfile) = 699f5c1f307fc61798e955b4d08cd896560fb7714df9e5da3a40e8c35cd3d3c2
+SHA256 (.footprint) = 0359e3ba2830fe5cf2997382b5f06ad15a4597933ef03a5ae594523c1ea66d53
+SHA256 (libxfce4util-4.12.1.tar.bz2) = 876bdefa2e13cbf68b626b2158892fb93e824e1ef59cf951123a96cefbc8881d

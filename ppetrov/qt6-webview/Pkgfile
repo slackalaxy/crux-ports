@@ -1,0 +1,21 @@
+# Description: Display web content inside a QML application
+# URL: https://www.qt.io
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: icu keyutils krb5 qt6-declarative
+
+name=qt6-webview
+version=6.6.1
+release=1
+source=(https://download.qt.io/official_releases/qt/${version%.*}/$version/submodules/qtwebview-everywhere-src-$version.tar.xz)
+
+build() {
+	prt-get isinst ninja && PKGMK_QT6+=' -G Ninja'
+	prt-get isinst ccache && PKGMK_QT6+=' -D QT_USE_CCACHE=ON' && PATH="$(echo ${PATH} | awk -v RS=: -v ORS=: '/ccache/ {next} {print}' | sed 's/:*$//')"
+
+	cmake -S qtwebview-everywhere-src-$version -B build $PKGMK_QT6 \
+		-D CMAKE_BUILD_TYPE=Release \
+		-D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+		-D CMAKE_C_FLAGS_RELEASE="$CFLAGS"
+	cmake --build build
+	DESTDIR=$PKG cmake --install build
+}

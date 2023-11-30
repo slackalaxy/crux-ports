@@ -1,0 +1,22 @@
+# Description:	HTML::TableExtract
+# URL:		http://search.cpan.org/~msisk/HTML-TableExtract/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-html-element-extended p5-html-parser
+
+name=p5-html-tableextract
+version=2.15
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/M/MS/MSISK/HTML-TableExtract-${version}.tar.gz)
+
+build() {
+	cd HTML-TableExtract-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

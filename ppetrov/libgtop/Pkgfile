@@ -1,0 +1,22 @@
+# Description: A library to get system-specific data
+# URL: https://download.gnome.org/sources/libgtop/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glib gobject-introspection
+
+name=libgtop
+version=2.40.0
+release=2
+source=(https://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	-disable-nls
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{gtk-doc,info}
+	rm -f $PKG/{,usr/}lib/*.la
+}

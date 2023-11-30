@@ -1,0 +1,23 @@
+# Description: Source code documentation generator tool
+# URL: https://www.doxygen.nl/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: cmake python3
+
+name=doxygen
+version=1.9.6
+release=1
+source=(https://www.doxygen.nl/files/${name}-${version}.src.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	-D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+	-D CMAKE_BUILD_TYPE=Release ..
+	
+	make
+	make install DESTDIR=$PKG
+}

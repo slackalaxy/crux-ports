@@ -1,0 +1,31 @@
+# Description: Gstreamer legacy
+# URL: https://gstreamer.freedesktop.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glib libxml2
+
+name=gstreamer0
+version=0.10.36
+release=3
+source=(https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-$version.tar.xz
+	bison.patch)
+
+build() {
+	cd gstreamer-$version
+	patch -p1 < $SRC/bison.patch
+	export PKG_CONFIG_PATH="/usr/lib/libxml210/pkgconfig:$PKG_CONFIG_PATH"
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib \
+	--disable-static \
+	--disable-debug \
+	--disable-nls \
+	--disable-gst-debug \
+	--enable-glib-asserts=no \
+	--with-package-name='gstreamer' \
+	--with-package-origin='http://gstreamer.freedesktop.org'
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/gtk-doc
+	rm -f $PKG/{,usr/}lib/*.la
+}

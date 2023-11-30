@@ -1,0 +1,22 @@
+# Description: A graphical viewer of phylogenetic trees
+# URL: http://tree.bio.ed.ac.uk/software/figtree/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: jdk8-bin
+
+name=figtree
+version=1.4.4
+release=1
+source=(https://github.com/rambaut/figtree/releases/download/v${version}/FigTree_v${version}.tgz
+	$name.desktop)
+
+build() {
+	cd FigTree_v${version}
+	
+	install -D -m 755 bin/$name $PKG/usr/bin/$name
+	install -D -m 644 lib/$name.jar $PKG/usr/lib/$name/$name.jar
+	install -D -m 644 images/$name.png $PKG/usr/share/pixmaps/$name.png
+	install -D -m 644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+	
+	sed -i "s:-Xmx512m:-Xmx1024m:" $PKG/usr/bin/$name
+	sed -i "s:lib:/usr/lib/$name:" $PKG/usr/bin/$name
+}

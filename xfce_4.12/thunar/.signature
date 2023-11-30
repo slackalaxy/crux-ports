@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchix+2oOCGYb7me9rHh13ARta/qk+FHx7h/ggXdoVCLLijD6xVYQDyarJ0sLXuXSTX/rpFz78/aI9RdRlPV7b+g8=
+SHA256 (Pkgfile) = 7222e98d2829e6f607bef0c6a19227b53f13c7448136b3a38957e4a20dc37537
+SHA256 (.footprint) = 585579b357b6acfd50c02b5340cd6b9b8a2b1c19d759f19ebd824807d1b4d8f4
+SHA256 (Thunar-1.6.18.tar.bz2) = ea09e097d40757d63a39af349fbd5b23f398269e118c9651e8994e1d380e37dd
+SHA256 (01-Deactivate-SEND_MOVED-code-paths.patch) = 82304b324bde72d1154c6b2d64a3a11321f560e78c40b3a69d0f32137efcd739
+SHA256 (bug16093.diff) = 3dfd39c31301f9b9b596834801c79dfe8c5cf4a9d91b1d47e17ce7a5c882e657
+SHA256 (check-thunar-file-instance-when-comparing-filenames.patch) = 8e09b815c8cb3f2ff9945052466df5481645627a099c39cd3dbe2514857e74fb

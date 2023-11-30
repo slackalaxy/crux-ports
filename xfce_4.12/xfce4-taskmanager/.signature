@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchrIDyQ/KWskro+x1MVu6C8guoarNNOwy5NceQJGllpWh16bzrC/BvRiEUK8uA70PbiUTexMq39mhjxwvqepQhg8=
+SHA256 (Pkgfile) = afcd627866598be5b768272a969a8721ce81f2af6b3bd0beb94c57155990dd4b
+SHA256 (.footprint) = f703b5a848e8c97fa842451c6824adf7555d2c2c1c350688cbb90d51afc6ac86
+SHA256 (xfce4-taskmanager-1.2.3.tar.bz2) = dcfc44da7c1f61d03e2c4bd1cdc8f92ce0d48b013bd0d140b3745d79b75dc3c4

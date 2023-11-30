@@ -1,0 +1,22 @@
+# Description: A Qt 5 implementation of freedesktop.org XDG specifications
+# URL: https://github.com/lxqt/libqtxdg
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion graphite2 icu libpcre2 qt5 lxqt-build-tools
+
+name=libqtxdg
+version=3.12.0
+release=1
+source=(https://github.com/lxqt/libqtxdg/releases/download/$version/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_INSTALL_LIBDIR=lib \
+	-DPULL_TRANSLATIONS=no ..
+	
+	make
+	make DESTDIR=$PKG install
+}

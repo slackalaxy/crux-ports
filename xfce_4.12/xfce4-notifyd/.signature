@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchqfLE2Xr6mg8xlLZ7UfvZ9nFk6w7sbm/0MTr4YjnE4ypePZ4tPdYUZn29PtByDRhaO6AnjBbdr0sw8mFP6+ABgw=
+SHA256 (Pkgfile) = 70c4cd9dd5f1766ed9d8b6a3818d7d661e8cd3a35234775abc82b623de2398b7
+SHA256 (.footprint) = af242b7f757efa90a6cbb24d55fe60addb5849e63f56cbfb257f36df027e0d78
+SHA256 (xfce4-notifyd-0.2.4.tar.bz2) = 8c7ed62f9496816d1391281f77d1b32216f9bf6fd22fbe4f6f3f4e07a6bbced0
+SHA256 (0001-Set-notifications-as-override-redirect-windows-bug-1.patch) = b15547911fa1da6a419c3ed2287e2238f878e5d0e362311b9ffd61b11ea19f04
+SHA256 (0002-Use-accessor-function-to-get-the-GdkWindow.patch) = 451135ee24849908ca3ce31c8f0c5346d49cab179db90e23dae1ec5a9a794e8a

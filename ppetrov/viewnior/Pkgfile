@@ -1,0 +1,22 @@
+# Description: Viewnior is a fast and simple image viewer for GNU/Linux.
+# URL: https://github.com/hellosiyan/Viewnior
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: exiv2 gtk xorg-libxdamage 
+
+name=viewnior
+version=1.8
+release=2
+source=(https://github.com/hellosiyan/$name/archive/$name-$version.tar.gz
+	exiv2-0.28.patch)
+
+build() {
+	cd Viewnior-$name-$version
+
+	# Fix build with exiv2 0.28
+	patch -p1 < $SRC/exiv2-0.28.patch
+
+	meson build --prefix=/usr
+	DESTDIR=$PKG ninja -C build install
+	
+	rm -rf $PKG/usr/share/locale
+}

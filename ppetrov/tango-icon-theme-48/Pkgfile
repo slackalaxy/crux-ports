@@ -1,0 +1,19 @@
+# Description: Tango theme including 48x48 PNG icons
+# URL: http://tango.freedesktop.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk imagemagick
+
+name=tango-icon-theme-48
+version=7097f74
+release=1
+source=(https://github.com/slackalaxy/$name-src/archive/$version/$name-src-7097f74a67620057764e568016d3d5037a1c415d.tar.gz)
+
+build() {
+	cd $name-src-${version}*
+
+	./configure --prefix=/usr \
+	--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+}

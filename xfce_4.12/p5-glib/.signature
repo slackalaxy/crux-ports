@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchsnJ3IxZ1MDECP05w0LpuQHL65mYc6VHCotmhyr5QsFfpze+b7qDldSUoShjZLOGGQgUN5rDll4Ej4xVVYh/UAI=
+SHA256 (Pkgfile) = decf5d2cc727f33e37a4992a91bd4a549a9f2578cb546a119594b21a31ac5213
+SHA256 (.footprint) = c14ec00debca0e164c4ae4e1d19ed927f8b93e2302e2adfc9c77537b61c662aa
+SHA256 (Glib-1.3293.tar.gz) = 7316a0c1e7cc5cb3db7211214f45d7bdc2354365a680ac4bd3ac8bf06d1cb500

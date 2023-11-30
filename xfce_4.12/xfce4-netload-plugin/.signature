@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchoO0RC4lUm0FQ/O6wbxngWGFt0bJyQGQ1SZ5wzawQzsm6eXqIMorHGNnLN8cA7EY/rvqTh/61/VhQPOEsz4CQwc=
+SHA256 (Pkgfile) = a5022c67329b36ee4078e80c880f6d775cc4fa3a15f39cc6d6c8df454ca56494
+SHA256 (.footprint) = f9940dd406d44590e6d4c82e66ecb22ec3b32ddb87898c92ce6d7211b4218364
+SHA256 (xfce4-netload-plugin-1.2.4.tar.bz2) = fface918822c012d806717116566e54947ad7613b9290b45a18e2d5ffb8730d3
+SHA256 (no_sysctl.patch) = 6f85a1e38d4f3c5906f09d090e874279835e5626cdeb6a3770d2bfc4a2d21f2c

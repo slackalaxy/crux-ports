@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=GtkLife
+Comment=Conway's Life program for *nix
+Exec=gtklife
+Icon=gtklife
+StartupNotify=false
+Type=Application
+Categories=Game;

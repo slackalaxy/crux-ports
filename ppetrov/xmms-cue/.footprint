@@ -1,0 +1,7 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/xmms/
+drwxr-xr-x	root/root	usr/lib/xmms/General/
+-rwxr-xr-x	root/root	usr/lib/xmms/General/libgcueplayer.so
+drwxr-xr-x	root/root	usr/lib/xmms/Input/
+-rwxr-xr-x	root/root	usr/lib/xmms/Input/libvcue.so

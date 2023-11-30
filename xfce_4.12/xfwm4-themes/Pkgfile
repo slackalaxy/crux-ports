@@ -1,0 +1,19 @@
+# Description: XFWM4 themes collection (old)
+# URL: https://archive.xfce.org/src/art/xfwm4-themes/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xfwm4
+
+name=xfwm4-themes
+version=4.10.0
+release=4
+source=(https://mirrors.slackware.com/slackware/slackware64-14.1/source/xfce/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--disable-debug
+	make
+	make DESTDIR=$PKG install
+	
+	find $PKG/ -name "README" -delete
+}

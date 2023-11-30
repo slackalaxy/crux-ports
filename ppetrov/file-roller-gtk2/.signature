@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZcyzUS51hii6335XQ3Vr0Z+LZGaiVX2AeKtHajU4pPvUgB5kiCFTVKyXz2o465y63F+ap3xajr4Y08KZDjW8YwQ=
+SHA256 (Pkgfile) = 4dcef7b5d9a8ba145be7c43316a625453f1e74db32d442fa14e034c311672d9e
+SHA256 (.footprint) = 6a897736eff1feddf12297640c29754f702903cb173e99941e70b48c3c2740f9
+SHA256 (file-roller-2.32.2.tar.bz2) = 3ddbe4e4134eab4ff8e97789a1626aec6cbc588190f2f520850d0697037e5755
+SHA256 (no_GPtrArray.patch) = 650b79f11188f4ce0843c39c984efe070783f5e7c0ce41d5ec7b2ec98be52ab1

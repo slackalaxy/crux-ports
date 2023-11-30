@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZZwI8/7mltKnbCY8J3cKKCksIiDgsz6bRLm6WeE9L5QeiYGzkKGn6e/Z6lgArvMsyF7Ypc+hoQ5xoTUJdWN1QQc=
+SHA256 (Pkgfile) = b242f873c6492e9320c25810940dd4de588b8c58727e2347c8f5757f03447b90
+SHA256 (.footprint) = 0489faf604014f9efe79b2169edc62a418d1688f8384b281858a8d806727ffe0
+SHA256 (gcalctool-5.32.2.tar.bz2) = b281cc545f27b37a0fd120366b1be517574d9f505b59dfc34f9860007df0b788

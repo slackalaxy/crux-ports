@@ -1,0 +1,24 @@
+# Description: Automatic management of removable drives and media for Xfce file manager
+# URL: https://goodies.xfce.org/projects/thunar-plugins/thunar-volman
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: thunar
+
+name=thunar-volman
+version=0.8.1
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2
+        0001-Fix-return-with-no-value-in-function-returning-non-v.patch)
+build () {
+	cd $name-$version
+
+	patch -p1 < $SRC/0001-Fix-return-with-no-value-in-function-returning-non-v.patch
+	./configure --prefix=/usr \
+	--disable-nls \
+	--libexecdir=/usr/bin \
+	--enable-debug=no \
+	--disable-dependency-tracking
+	
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

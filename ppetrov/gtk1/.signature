@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZdJl+aTbn58BBd8Gbm0hGdvpQP4CCSAd2ATU6pZEGy0SFIXu37nPbFoHeZOpBEqBAyYm7nqdbciajf5GrDZmow8=
+SHA256 (Pkgfile) = aca1703b6a56d1f75aa8b364b69b541ff805b68ee9d0f37ad8414f207809fe1d
+SHA256 (.footprint) = 2e2bdc2564284a26622435fb24504cdc250bb42416ab969e4ba043ebadfe5341
+SHA256 (gtk+-1.2.10.tar.gz) = 3fb843ea671c89b909fd145fa09fd2276af3312e58cbab29ed1c93b462108c34
+SHA256 (aclocal-fixes.patch) = 5836b331f224f950b73edebd3029487ff13dcb33b9d47ad4f6566059494c418f

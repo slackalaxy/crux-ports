@@ -1,0 +1,21 @@
+This packages the Linux kernel distributed with CRUX 3.7. The build
+uses the user-contributed modular config file, available from here:
+
+http://ftp.spline.inf.fu-berlin.de/pub/crux/loop/crux/kernel/contrib/
+
+The port adds "-m" as local version, including the source folder.
+
+Inspect the config if you want to make any modifications and if your
+filesystem is supported. Ata a glance, these are built into the kernel:
+
+	EXT4
+	XFS
+	BTRFS
+
+It is up to you to create a symlink for System.map:
+
+	/boot/System.map -> /boot/System.map-5.15.55-m
+
+Same goes for the krenel itself (disputed if needed):
+	
+	/usr/src/linux-5.15.55-m/ -> /usr/src/linux

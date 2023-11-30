@@ -1,0 +1,20 @@
+# Description: Xfce D-Bus-based configuration storage system
+# URL: https://docs.xfce.org/xfce/xfconf/start
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: dbus-glib libxfce4util p5-glib
+
+name=xfconf
+version=4.12.1
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+build () {
+  cd $name-$version
+  ./configure --prefix=/usr \
+              --libexecdir=/usr/bin
+  make
+  make DESTDIR=$PKG install
+  install -d $PKG/usr/bin
+  ln -sf /usr/lib/xfce4/xfconf/xfconfd $PKG/usr/bin/xfconfd
+  rm -r $PKG/usr/share/{gtk-doc,locale}
+   find $PKG -name perllocal.pod -o -name .packlist | xargs rm
+}

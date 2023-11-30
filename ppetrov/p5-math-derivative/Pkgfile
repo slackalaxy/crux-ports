@@ -1,0 +1,22 @@
+# Description:	Numeric 1st and 2nd order differentiation.
+# URL:		http://search.cpan.org/~jgamble/Math-Derivative/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-math-utils p5-module-build
+
+name=p5-math-derivative
+version=1.01
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/J/JG/JGAMBLE/Math-Derivative-${version}.tar.gz)
+
+build() {
+	cd Math-Derivative-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

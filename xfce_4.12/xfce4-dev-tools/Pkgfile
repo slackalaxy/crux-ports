@@ -1,0 +1,15 @@
+# Description: xfce4-dev-tools
+# URL: archive.xfce.org
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glib
+
+name=xfce4-dev-tools
+version=4.12.0
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

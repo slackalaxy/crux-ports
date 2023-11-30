@@ -1,0 +1,36 @@
+# Description: Session manager core
+# URL: https://docs.xfce.org/xfce/xfce4-session/start
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: consolekit libwnck libxfce4ui polkit sudo xorg-iceauth xorg-xinit pm-utils
+
+name=xfce4-session
+version=4.12.1
+release=3
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2
+	xfce-shutdown.rules xinitrc.sample bashrc.sample bash_profile.sample)
+
+build () {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib/xfce4 \
+        --disable-debug
+	#--disable-legacy-sm
+	make
+	make DESTDIR=$PKG install
+
+	# Use these polkit rules, if you happen to not want pm-utils.
+	# Then, add your user to the polkitd group. For more info:
+	# https://forums.freebsd.org/threads/xfce4-no-abiltiy-to-shutdown-and-reboot-that-went-away.72671/
+	#mkdir -p $PKG/etc/polkit-1/rules.d
+	#cat $SRC/xfce-shutdown.rules > $PKG/etc/polkit-1/rules.d/xfce-shutdown.rules
+    
+	# Include user-only configuration examples
+	cp $SRC/xinitrc.sample $PKG/usr/etc/xdg/xfce4
+	#cp $SRC/profile.sample $PKG/usr/etc/xdg/xfce4
+	cp $SRC/bashrc.sample $PKG/usr/etc/xdg/xfce4
+	cp $SRC/bash_profile.sample $PKG/usr/etc/xdg/xfce4
+  
+	rm -rf $PKG/usr/share/{locale,doc}
+	find $PKG/usr/share -type f -name '*.desktop' \
+	-exec sed -r '/\[.+\]=/d' -i {} \;
+}

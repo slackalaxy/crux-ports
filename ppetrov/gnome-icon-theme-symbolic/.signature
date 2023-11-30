@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZS3+ysEuFKyWLKkq6e0bKrx3YzU1+Ny5rjjIJGbyyr/e+GljURpNBvaLMXyRLgtVRQ8uM41OwUPxidszuy7+9QY=
+SHA256 (Pkgfile) = f741f433567f482becbcd564e7e021687a4cee499d44af01d9673393207ae79f
+SHA256 (.footprint) = 8a5765435b451705928b9d62948b946e44b12b9cb092d2e42c72f15a37dadafe
+SHA256 (gnome-icon-theme-symbolic-3.12.0.tar.xz) = 851a4c9d8e8cb0000c9e5e78259ab8b8e67c5334e4250ebcc8dfdaa33520068b
+SHA256 (fix_gits_configure.patch) = e3011e05419039beff2b0f0e420d62617b7e125ade767882061c55627c600313

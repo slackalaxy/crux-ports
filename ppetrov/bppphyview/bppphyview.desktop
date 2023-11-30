@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=BppPhyview
+Comment=Bio++ Phylogenetic viewer
+Exec=phyview
+Icon=bppphyview
+StartupNotify=false
+Type=Application
+Categories=Education

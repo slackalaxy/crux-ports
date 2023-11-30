@@ -1,0 +1,18 @@
+# Description: A small script to refresh a few system things
+# URL: https://github.com/slackalaxy/freshenup
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=freshenup
+version=98c8c06
+release=1
+source=(https://github.com/slackalaxy/freshenup/archive/$version/$name-98c8c0679b088765920f9059ac0de161b05dbff0.tar.gz)
+
+build() {
+	cd $name-${version}*
+	
+	# Pick one...
+	#install -D -m755 $name.sh $PKG/etc/cron/daily/$name
+	#install -D -m755 $name.sh $PKG/etc/cron/hourly/$name
+	#install -D -m755 $name.sh $PKG/etc/cron/monthly/$name
+	install -D -m755 $name.sh $PKG/etc/cron/weekly/$name
+}

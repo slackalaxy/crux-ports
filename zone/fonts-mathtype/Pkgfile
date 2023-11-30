@@ -1,0 +1,22 @@
+# Description: MathType fonts
+# URL: https://www.wiris.com/en/mathtype/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p7zip
+
+name=fonts-mathtype
+version=7.4.10.53
+release=2
+source=(https://downloads.wiris.com/mathtype/windows/MathType-win-en-${version}.exe)
+
+build() {
+	mkdir -p $PKG/usr/share/fonts/mathtype
+	cd $PKG/usr/share/fonts/mathtype
+	
+	# These return error and cna be excluded from unarchiving like:
+	# -xr!*.dotm -xr!*.ppam -xr!*.jar
+	# Better, just specify what to unarchive with directly:
+	7z e $SRC/MathType-win-en-${version}.exe -ir!*.ttf
+	
+	# this is provided from elsewhere
+	rm LucidaSansRegular.ttf
+}

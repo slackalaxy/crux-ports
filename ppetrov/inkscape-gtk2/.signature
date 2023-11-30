@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZS7gmTYJvXay+eNKH50AmVCOQ3DWJlsIioV5q01iK7dR2GbCnMezg98Bh2X7EhOaA5eG0V3Hp7AO/YIKF0pKZQk=
+SHA256 (Pkgfile) = bf4a7b8ea04b90abe9f7a4c9071fcb6d8ce3f3c76b7139d64f6699723c274928
+SHA256 (.footprint) = 11fb9f60946f9ab7e98f05e93930f22e57294964446edcb5fb15744aa5d6b458
+SHA256 (inkscape-0.92.5.tar.bz2) = 81ee7f69e2bd64a97343d8395a4a7a7905b21b861566ed5e5d9179178d519a0b
+SHA256 (im7.patch) = 787722e73931df3b4565ebcf68072905eed46bfdd8652836fdd2be8997ccf24c
+SHA256 (poppler-21.11.0.patch) = 76bd1cc64ce7abef0f1758a7f05d9ca9e2cf44506318fb8ae9da029543aa1762
+SHA256 (gcc9.patch) = b8ca7064d17cb512fd8b66f6ad7a9138e1ce73a931c0bb581ea4aec12c1364d2
+SHA256 (gdl_dock_item_grip_realize.patch) = f62345c817664b461122fe21a101b21c89291f88519a68fe89715d29c8c6ebfc

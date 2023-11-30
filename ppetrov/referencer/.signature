@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZYzahbtozv2nyRyEN6SmqHxKojSUFLaWgyQa9vpgrzLSgzeZUjwrgM3WkwnZF3VpnRsAplHMQS3Vjfz8k+zAiA0=
+SHA256 (Pkgfile) = 0c785832ea4651f4fdafac671d6cca166d4d35fca655ae560fe510bc10064491
+SHA256 (.footprint) = aa202d46ad52ddef6f0b6d62481a77ea94c951f199807b5bb45be35cc5cf30cf
+SHA256 (referencer-1.2.2.tar.gz) = 992d36a2cc10347704e4c77ead94d5e8952b0512a8885e0991461df88b31d964
+SHA256 (referencer-lib_path.patch) = 6731242e7ec529185540baf7b64a48f28407bfac44e95eae261dd4d776dc408f

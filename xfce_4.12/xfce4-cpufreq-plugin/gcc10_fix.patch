@@ -1,0 +1,24 @@
+diff -pruN old/panel-plugin/xfce4-cpufreq-plugin.c new/panel-plugin/xfce4-cpufreq-plugin.c
+--- old/panel-plugin/xfce4-cpufreq-plugin.c	2014-12-22 19:50:31.000000000 +0200
++++ new/panel-plugin/xfce4-cpufreq-plugin.c	2021-05-11 15:57:37.462863144 +0300
+@@ -98,6 +98,8 @@ cpufreq_cpus_calc_max (void)
+ 	return cpuFreq->cpu_max;
+ }
+ 
++CpuFreqPlugin *cpuFreq;
++
+ void
+ cpufreq_label_set_font (void)
+ {
+diff -pruN old/panel-plugin/xfce4-cpufreq-plugin.h new/panel-plugin/xfce4-cpufreq-plugin.h
+--- old/panel-plugin/xfce4-cpufreq-plugin.h	2014-12-22 19:50:31.000000000 +0200
++++ new/panel-plugin/xfce4-cpufreq-plugin.h	2021-05-11 15:58:15.198864944 +0300
+@@ -90,7 +90,7 @@ typedef struct
+ 	gint 		      timeoutHandle;
+ } CpuFreqPlugin;
+ 
+-CpuFreqPlugin *cpuFreq;
++extern CpuFreqPlugin *cpuFreq;
+ 
+ G_BEGIN_DECLS
+ 

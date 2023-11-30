@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZXbw3JsfXYG+k/igjM3uNDK1SPbkmGQ1rlOYztA1GTuwt7wDO51Z+Ld01sFJs7SYqCziALytaMuCiT/IHu3z7Q4=
+SHA256 (Pkgfile) = f533e5b8324b70922423fd418c715b3600b80d24388cfdc84aa4c804b0da136a
+SHA256 (.footprint) = f96f8e880139d1ebbf2fd15abb672c5237c3d5b99e40437608c0edfbeaf7fef9
+SHA256 (Digest-Perl-MD5-1.9.tar.gz) = 7100cba1710f45fb0e907d8b1a7bd8caef35c64acd31d7f225aff5affeecd9b1

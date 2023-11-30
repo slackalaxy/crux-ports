@@ -1,0 +1,26 @@
+# Description: Stream Directory Browser
+# URL: http://www.nongnu.org/streamtuner/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtk libglvnd libpsl openldap python rtmpdump taglib xorg-libxdamage gnome-icon-theme-stock
+
+name=streamtuner
+version=0.99.99
+release=2
+source=(http://savannah.nongnu.org/download/streamtuner/$name-$version.tar.gz
+	$name-$version-live365.diff)
+
+build() {
+	cd $name-$version
+	
+	# Apply official streamtuner-0.99.99-live365.diff patch:
+	patch -p0 < $SRC/$name-$version-live365.diff
+	
+	# http://bugs.archlinux.org/task/11463
+	#sed -i "s|http://www.shoutcast.com/|https://directory.shoutcast.com/|" src/plugins/shoutcast/shoutcast.c
+
+	./configure --prefix=/usr
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/{help,locale,gtk-doc,omf}
+}

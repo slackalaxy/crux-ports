@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZWk5VBcZTlHFK1H7ANp+CpPTHNyfbR8LxElQJww2C8OAhcHq+LdL+ujPPZ6ICJJLfr7D9m8CkVcLovsis5H3SgM=
+SHA256 (Pkgfile) = 1f8943126783daa9327fbc9625f2ef03179abb5d15234eb0fa1d0d7973db9cff
+SHA256 (.footprint) = 4f2291a031c908a97e63d1351b878d35e49cd533452b9964d02e037e66ee3982
+SHA256 (physfs-3.2.0.tar.gz) = 1991500eaeb8d5325e3a8361847ff3bf8e03ec89252b7915e1f25b3f8ab5d560

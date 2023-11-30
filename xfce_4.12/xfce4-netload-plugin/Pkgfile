@@ -1,0 +1,25 @@
+# Description: Netload plugin
+# URL: https://archive.xfce.org/src/panel-plugins
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xfce4-session xfce4-panel
+
+name=xfce4-netload-plugin
+version=1.2.4
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2
+	no_sysctl.patch)
+
+build() {
+	cd $name-$version
+	
+	patch -p1 -i $SRC/no_sysctl.patch
+	
+	./configure --prefix=/usr \
+	--enable-debug=no \
+	--disable-nls
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/locale
+}

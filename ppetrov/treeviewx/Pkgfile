@@ -1,0 +1,52 @@
+# Description: Program to display phylogenetic trees
+# URL: https://github.com/rdmpage
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: wxpython2
+
+name=treeviewx
+version=0.5.1
+release=2
+source=(https://slackware.uk/sbosrcarch/by-name/academic/$name/${name}_${version}+20100823.orig.tar.gz
+	70_choose_tree.patch
+	fix_loading_crash.patch
+	wx3.0-compat.patch
+	treeview-xpm-not-xbm.patch
+	wxstring-maxlen.patch
+	$name.1 $name.desktop $name.png)
+
+build() {
+	cd tv-${version%.*}
+	
+	# Disable SVG support, since it is not compiled in wxgtk
+	sed "s:USE_SVG=1:USE_SVG=0:" -i configure
+
+	# Thanks Debian
+	patch -p1 -i $SRC/70_choose_tree.patch
+	patch -p1 -i $SRC/fix_loading_crash.patch
+	patch -p1 -i $SRC/wx3.0-compat.patch
+	patch -p1 -i $SRC/treeview-xpm-not-xbm.patch
+	patch -p1 -i $SRC/wxstring-maxlen.patch
+
+	# wxpython has this changed
+	sed -i "s:wx-config:wx-config-2.8:g" configure
+	
+	CFLAGS="$CFLAGS -fpermissive" \
+	CXXFLAGS="$CXXFLAGS -fpermissive" \
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+
+	# Let's rename the executable
+	cd $PKG/usr/bin
+	mv tv $name
+	cd -
+	
+	# Thanks Debian for the man page
+	install -D -m644 $SRC/$name.1 $PKG/usr/share/man/man1/$name.1
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	cp bitmaps/treeview.xpm $PKG/usr/share/pixmaps/$name.xpm
+}

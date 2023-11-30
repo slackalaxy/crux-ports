@@ -1,0 +1,18 @@
+This is adapted from Arch linux:
+
+https://aur.archlinux.org/packages/ttf-ms-win11-auto
+
+Obligatory: CHECK EULA ABOUT THE FONTS!
+
+This uses `httpdirfs` to mount over http the Windows 11 Enterprise
+90-day evaluation edition iso, downloadable from here:
+
+https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
+
+The Pkgfile mounts the iso using `loop`, so you should have the module
+loaded:
+
+	modprobe loop
+
+Upon completion the Pkgfile unmounts the iso, so make sure you do not
+have the mount dir used by some other program (e.g. opened terminal).

@@ -1,0 +1,40 @@
+# Description: A Mapped Sequence Analysis tool
+# URL: https://www.bioinformatics.babraham.ac.uk/projects/seqmonk/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r
+
+name=seqmonk
+version=1.48.1
+release=2
+source=(https://www.bioinformatics.babraham.ac.uk/projects/seqmonk/${name}_v${version}_linux64.tar.gz)
+
+build() {
+	cd SeqMonk
+	
+	# Make sure SeqMonk finds its own java environment
+	sed -i 's:java -version:$RealBin/jre/bin/java -version:' seqmonk
+
+	# Change icon path and category in the desktop file
+	sed -i "s:/usr/local/SeqMonk/uk/ac/bbsrc/babraham/SeqMonk/Resources/monk.svg:$name:" $name.desktop
+	sed -i "s:Categories=Application:Categories=Education:" $name.desktop
+	sed -i '/Encoding=UTF-8/d' $name.desktop
+	
+	mkdir -p $PKG/usr/lib/$name
+	cp -a com edu Help jre net Scripts Templates uk *.jar seqmonk seqmonk_import \
+	$PKG/usr/lib/$name
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a uk/ac/babraham/SeqMonk/Resources/monk_logo.png $PKG/usr/share/pixmaps/$name.png
+	cp -a $name.desktop $PKG/usr/share/applications
+
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/$name .
+	
+	rm $PKG/usr/lib/seqmonk/jre/conf/security/policy/README.txt
+	
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/$name
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/$name:" $PKG/etc/revdep.d/$name
+}

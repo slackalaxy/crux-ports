@@ -1,0 +1,31 @@
+# Description: Ebook manager
+# URL: https://calibre-ebook.com
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: hyphen icu keyutils krb5 libgpg-error libtiff4.4 libwebp nss openjpeg2 openssl11 qt6-declarative qt6-wayland qt6-pdfwidgets qt6-svg tslib wayland xorg-libsm xorg-libxcomposite xorg-xcb-util-image xorg-xcb-util-keysyms xorg-xcb-util-renderutil xorg-xcb-util-wm
+
+name=calibre-bin
+version=7.1.0
+release=1
+source=(https://download.calibre-ebook.com/$version/calibre-$version-x86_64.txz
+	$name.desktop)
+
+build() {
+	mkdir -p $PKG/usr/{bin,lib/calibre}
+	cp -a $SRC/* $PKG/usr/lib/calibre/
+	
+	# Actually, we don't need this
+	rm -rf $PKG/usr/lib/calibre/translations
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp resources/content-server/calibre.png $PKG/usr/share/pixmaps/$name.png
+	
+	cd $PKG/usr/bin
+	ln -s ../lib/calibre/calibre $name
+	
+	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/calibre
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/calibre:g" $PKG/etc/revdep.d/$name
+}

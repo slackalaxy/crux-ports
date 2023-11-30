@@ -1,0 +1,41 @@
+At compile time, meme-suite checks if its database folder folder exists:
+
+	/var/lib/meme-suite
+
+If you have installed any of the meme-db-* packages, this folder will be
+present. If you, however, want to install meme-suite first and later set
+the databases you need, just make sure that the folder is present before
+building meme-suite:
+
+	mkdir -p /var/lib/meme-suite
+
+If you want to install the databases manually, they can be downloaded
+from here:
+
+	http://meme-suite.org/doc/download.html
+
+------------------------------------------------------------------------
+
+It is a good practice to run the series of tests provided by the MEME
+Suite developers once the executables are built. Unfortunatelly, they
+cannot be run properly as root (at least here).
+
+You can, however, run them once the package is built, as a normal user.
+Just copy the folder where the meme suite was built (pkgmk -kw) as your
+normal user, navigate there and run:
+
+	make test
+
+You should receive a summary, like this:
+
+========================================================================
+Testsuite summary for meme 5.1.0
+========================================================================
+# TOTAL: 152
+# PASS:  152
+# SKIP:  0
+# XFAIL: 0
+# FAIL:  0
+# XPASS: 0
+# ERROR: 0
+========================================================================

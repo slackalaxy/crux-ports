@@ -1,0 +1,29 @@
+# Description: GTK1 theme switch
+# URL: http://www.muhri.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk1
+
+name=gtk1-theme-switch
+version=1.0.1
+release=1
+source=(http://www.muhri.net/gtk-theme-switch-$version.tar.gz
+	gtk1-theme-switch.desktop)
+
+build() {
+	cd gtk-theme-switch-$version
+	
+	# Use our CFLAGS
+	sed -i "/^CFLAGS/s/=/+=/" Makefile
+	make
+	
+	# Such a generic name, let's change it
+	install -D -m755 switch $PKG/usr/bin/gtk1-switch
+	
+	# Put manpages to their proper place
+	mkdir -p $PKG/usr/share/man/man1
+	cp switch.1 $PKG/usr/share/man/man1/gtk1-switch.1
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp expand.xpm $PKG/usr/share/pixmaps/gtk1-switch.xpm
+}

@@ -1,0 +1,21 @@
+# Description: Clustal Omega
+# URL: http://www.clustal.org/omega/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: argtable
+
+name=clustalo
+version=1.2.4
+release=1
+source=(http://www.clustal.org/omega/clustal-omega-$version.tar.gz)
+
+build() {
+	cd clustal-omega-$version
+	AM_CFLAGS="$CFLAGS" \
+	AM_CXXFLAGS="$CXXFLAGS" \
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share
+}

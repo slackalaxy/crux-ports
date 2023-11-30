@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchgxhTFS3GWIYEXCfOp7t4q8yiPNasNaVAgh20feQGo9Udub9gXLosMak4RgrigxoU10WeshR8U96xDDn3banrAI=
+SHA256 (Pkgfile) = b47e2e05993dab927648ba903ac36a39c46e82e1f2433f4de2a83a1c92e24e97
+SHA256 (.footprint) = 61a9356b02f45da3b6cac497d59904393d014873f3c759ad085621c11d06f430
+SHA256 (xfwm4-murrine.tar.xz) = 87c3f653b8c40cf651e28328e22f4ccce3bf0da4aae8df3d43d7c8e2791c5464

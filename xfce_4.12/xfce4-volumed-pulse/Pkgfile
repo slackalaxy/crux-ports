@@ -1,0 +1,22 @@
+# Description: PulseAudio volumed
+# URL: https://archive.xfce.org/src/apps/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xfce4-session keybinder pulseaudio
+
+name=xfce4-volumed-pulse
+version=0.2.3
+release=2
+source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--disable-debug \
+	--disable-unique \
+	--libexecdir=/usr/lib/xfce4 \
+	--disable-nls
+	
+	make
+	make install DESTDIR=$PKG
+
+}

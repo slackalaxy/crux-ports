@@ -1,0 +1,22 @@
+# Description:	Supporting module for SOAP::Lite
+# URL:		http://search.cpan.org/~phred/IO-SessionData/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	perl
+
+name=p5-io-sessiondata
+version=1.03
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/P/PH/PHRED/IO-SessionData-${version}.tar.gz)
+
+build() {
+	cd IO-SessionData-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

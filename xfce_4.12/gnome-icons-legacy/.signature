@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchqWER5RIo56Resmdd5xkaRg/7hoCYd3Sfe2BY10rHM+8APjsMgyvZjiNWlbyC43AD8dbH/kQWsLecF7FUaAd8A0=
+SHA256 (Pkgfile) = 86f10cb426585c7e711f09db4b591b5a45c187c0fc491af016f21f2b6c2b016a
+SHA256 (.footprint) = 86da9f0543d1e8f8b136ecb70b8565e8af2933f2e62f6ac076dd43a909d663f5
+SHA256 (gnome-icons-legacy-c01034ee58ef2595437248615f0ae5964eeaef05.tar.gz) = 683b598d7c7a3adb61e415559f61371d01706bc2d5d556817b4b64fe94037c5c

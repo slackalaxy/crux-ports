@@ -1,0 +1,23 @@
+diff -pruN old/thunar/thunar-file.c new/thunar/thunar-file.c
+--- old/thunar/thunar-file.c	2019-11-10 00:20:09.000000000 +0200
++++ new/thunar/thunar-file.c	2021-05-10 18:56:13.068778224 +0300
+@@ -881,7 +881,7 @@ thunar_file_watch_reconnect (ThunarFile
+         }
+
+       /* create a file or directory monitor */
+-      file_watch->monitor = g_file_monitor (file->gfile, G_FILE_MONITOR_WATCH_MOUNTS | G_FILE_MONITOR_SEND_MOVED, NULL, NULL);
++      file_watch->monitor = g_file_monitor (file->gfile, G_FILE_MONITOR_WATCH_MOUNTS, NULL, NULL);
+       if (G_LIKELY (file_watch->monitor != NULL))
+         {
+           /* watch monitor for file changes */
+diff -pruN old/thunar/thunar-folder.c new/thunar/thunar-folder.c
+--- old/thunar/thunar-folder.c	2019-11-10 00:20:09.000000000 +0200
++++ new/thunar/thunar-folder.c	2021-05-10 18:56:41.923777776 +0300
+@@ -139,7 +139,7 @@ thunar_folder_constructed (GObject *obje
+
+   /* add us to the folder alteration monitor */
+   folder->monitor = g_file_monitor_directory (thunar_file_get_file (folder->corresponding_file),
+-                                          G_FILE_MONITOR_SEND_MOVED, NULL, NULL);
++                                          G_FILE_MONITOR_NONE, NULL, NULL);
+   if (G_LIKELY (folder->monitor != NULL))
+       g_signal_connect (folder->monitor, "changed", G_CALLBACK (thunar_folder_monitor), folder);

@@ -1,0 +1,8 @@
+This is the last GTK2 version of the program. It cannot be installed
+along its modern version.
+
+Make sure to have fuse module loaded:
+	modprobe fuse
+
+e.g. by adding to:
+	/etc/rc.modules

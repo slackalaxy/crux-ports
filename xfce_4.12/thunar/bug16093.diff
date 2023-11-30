@@ -1,0 +1,14 @@
+diff --git a/thunar/thunar-folder.c b/thunar/thunar-folder.c
+index 7acd0f1e..3ad862ad 100644
+--- a/thunar/thunar-folder.c
++++ b/thunar/thunar-folder.c
+@@ -862,6 +862,9 @@ thunar_folder_monitor (GFileMonitor     *monitor,
+           thunar_file_reload (folder->corresponding_file);
+         }
+     }
++
++  if (thunar_file_exists (folder->corresponding_file))
++    thunar_file_reload (folder->corresponding_file);
+ }
+ 
+ 

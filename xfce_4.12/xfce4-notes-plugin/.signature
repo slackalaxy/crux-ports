@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchmTW3vVNyK7zLSpAudPCoC6fjrhOz+pRW08ZKyQdv659mA7qM0LlV9M5ivG/S3dL2cbgKKca4w9kItbyyN6FHAY=
+SHA256 (Pkgfile) = 3bd8e45df3d6bad490411e33ab0bd1ee918b072dc73886fe736c0a1b0f509cec
+SHA256 (.footprint) = fe39a9b0b4ebc0aaef2219753fc79622105941a8cae155152d78c8e5bc2baeb3
+SHA256 (xfce4-notes-plugin-1.8.1.tar.bz2) = 07a4c3e71431c24f97d2e270452dd0fa51ff0bdb6219a13a20d0bfa8d9de54b2

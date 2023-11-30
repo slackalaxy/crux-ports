@@ -1,0 +1,13 @@
+# Description: T-Gene Databases to be used with MEME Suite
+# URL: https://meme-suite.org/db/tgene
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=meme-db-tgene
+version=1.0
+release=1
+source=(https://meme-suite.org/meme/meme-software/Databases/tgene/tgene_databases.${version}.tgz)
+
+build() {
+	mkdir -p $PKG/var/lib/meme-suite
+	cp -a $SRC/* $PKG/var/lib/meme-suite
+}

@@ -1,0 +1,29 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/aiksaurus
+-rwxr-xr-x	root/root	usr/bin/caiksaurus
+-rwxr-xr-x	root/root	usr/bin/gaiksaurus
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/Aiksaurus/
+-rw-r--r--	root/root	usr/include/Aiksaurus/Aiksaurus.h
+-rw-r--r--	root/root	usr/include/Aiksaurus/AiksaurusC.h
+-rw-r--r--	root/root	usr/include/Aiksaurus/AiksaurusGTK-C.h
+-rw-r--r--	root/root	usr/include/Aiksaurus/AiksaurusGTK.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libAiksaurus-1.2.so.0 -> libAiksaurus-1.2.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libAiksaurus-1.2.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/libAiksaurus.so -> libAiksaurus-1.2.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/libAiksaurusGTK-1.2.so.0 -> libAiksaurusGTK-1.2.so.0.0.1
+-rwxr-xr-x	root/root	usr/lib/libAiksaurusGTK-1.2.so.0.0.1
+lrwxrwxrwx	root/root	usr/lib/libAiksaurusGTK.so -> libAiksaurusGTK-1.2.so.0.0.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/aiksaurus-1.0.pc
+-rw-r--r--	root/root	usr/lib/pkgconfig/gaiksaurus-1.0.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/aiksaurus/
+-rw-r--r--	root/root	usr/share/aiksaurus/meanings.dat
+-rw-r--r--	root/root	usr/share/aiksaurus/words.dat
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/gaiksaurus.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/gaiksaurus.png

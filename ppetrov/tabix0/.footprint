@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/bgzip0
+-rwxr-xr-x	root/root	usr/bin/tabix0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/tabix0.1.gz
+drwxr-xr-x	root/root	usr/share/tabix0/
+-rw-rw----	root/root	usr/share/tabix0/example.gtf.gz
+-rw-rw----	root/root	usr/share/tabix0/example.gtf.gz.tbi

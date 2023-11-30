@@ -1,0 +1,26 @@
+# Description: A Crossfade/Gapless plugin for XMM
+# URL: http://www.eisenlohr.org/xmms-crossfade
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-crossfade
+version=0.3.14
+release=1
+source=(http://www.eisenlohr.org/xmms-crossfade/xmms-crossfade-0.3.14.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	LDFLAGS="-Wl,-s" \
+	CFLAGS="$CFLAGS -fgnu89-inline" \
+	./configure --prefix=/usr \
+	--enable-player=xmms \
+	--enable-samplerate=yes \
+	--enable-fftw=no \
+	--enable-id3=no
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/lib/xmms/Output/libcrossfade.la
+}

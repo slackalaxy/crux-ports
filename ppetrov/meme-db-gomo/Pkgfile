@@ -1,0 +1,13 @@
+# Description: GOMo Databases to be used with MEME Suite
+# URL: https://meme-suite.org/meme/db/gomo
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=meme-db-gomo
+version=3.2
+release=1
+source=(https://meme-suite.org/meme/meme-software/Databases/gomo/gomo_databases.${version}.tgz)
+
+build() {
+	mkdir -p $PKG/var/lib/meme-suite
+	cp -a $SRC/* $PKG/var/lib/meme-suite
+}

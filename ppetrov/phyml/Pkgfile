@@ -1,0 +1,50 @@
+# Description: Phylogenetic estimation using Maximum Likelihood
+# URL: https://github.com/stephaneguindon/phyml/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: openmpi
+
+name=phyml
+version=3.3.20220408
+release=1
+source=(https://github.com/stephaneguindon/phyml/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./autogen.sh
+	./configure --prefix=/usr \
+	--enable-mpi
+
+	# Use our CFLAGS
+	sed -i "/^CFLAGS/s/=/+=/" Makefile src/Makefile
+
+	CFLAGS="$CFLAGS -mfma" \
+	CXXFLAGS="$CXXFLAGS -mfma" \
+	make
+	make install DESTDIR=$PKG
+	mv $PKG/usr/bin/phyml $PKG/usr/bin/phyml-mpi
+	
+	./autogen.sh
+	./configure --prefix=/usr \
+	--enable-phyml
+
+	# Use our CFLAGS
+	sed -i "/^CFLAGS/s/=/+=/" Makefile src/Makefile
+
+	CFLAGS="$CFLAGS -mfma" \
+	CXXFLAGS="$CXXFLAGS -mfma" \
+	make
+	make install DESTDIR=$PKG
+	
+	./autogen.sh
+	./configure --prefix=/usr \
+	--enable-phyrex
+
+	# Use our CFLAGS
+	sed -i "/^CFLAGS/s/=/+=/" Makefile src/Makefile
+
+	CFLAGS="$CFLAGS -mfma" \
+	CXXFLAGS="$CXXFLAGS -mfma" \
+	make
+	make install DESTDIR=$PKG
+}

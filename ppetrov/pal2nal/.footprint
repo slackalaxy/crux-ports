@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/pal2nal.pl
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/pal2nal/
+drwxr-xr-x	root/root	usr/share/pal2nal/for_paml/
+-rw-r--r--	root/root	usr/share/pal2nal/for_paml/test.cnt
+-rw-r--r--	root/root	usr/share/pal2nal/for_paml/test.codeml.ori
+-rw-r--r--	root/root	usr/share/pal2nal/for_paml/test.tree
+-rw-r--r--	root/root	usr/share/pal2nal/test.aln
+-rw-r--r--	root/root	usr/share/pal2nal/test.nuc

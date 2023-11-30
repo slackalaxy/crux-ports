@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/xmms/
+drwxr-xr-x	root/root	usr/share/xmms/Skins/
+-rw-r--r--	root/root	usr/share/xmms/Skins/ATER-Blue.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/ATER-Green.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/ATER-InfraRed.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/ATER-Red.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/ATER-White.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/ATER-Yellow.wsz

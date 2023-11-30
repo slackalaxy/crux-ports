@@ -1,0 +1,28 @@
+# Description: D-Bus interfaces and tools for querying and manipulating storage devices
+# URL: http://www.freedesktop.org/wiki/Software/udisks/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libatasmart libgudev polkit libblockdev docbook-xsl
+
+name=udisks2
+version=2.9.4
+release=1
+source=(https://github.com/storaged-project/udisks/releases/download/udisks-$version/udisks-$version.tar.bz2)
+
+build() {
+	cd udisks-$version
+	
+	export CFLAGS="${CFLAGS} -Wno-deprecated-declarations"
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--libexecdir=/usr/lib/$name \
+	--enable-fhs-media \
+	--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+
+	install -d -m 0755 $PKG/media/{hd,hd0,hd1,hd2,hd3,cdrom,cdrom0,cdrom1,cdrom2,cdrom3,memory,memory0,memory1,memory2,memory3}
+
+	rm -r $PKG/usr/share/gtk-doc
+	rm -f $PKG/{,usr/}lib/*.la
+}

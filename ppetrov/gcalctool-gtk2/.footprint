@@ -1,0 +1,20 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/gcalccmd
+-rwxr-xr-x	root/root	usr/bin/gcalctool
+lrwxrwxrwx	root/root	usr/bin/gnome-calculator -> gcalctool
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/gcalctool.desktop
+drwxr-xr-x	root/root	usr/share/gcalctool/
+-rw-r--r--	root/root	usr/share/gcalctool/buttons-advanced.ui
+-rw-r--r--	root/root	usr/share/gcalctool/buttons-basic.ui
+-rw-r--r--	root/root	usr/share/gcalctool/buttons-financial.ui
+-rw-r--r--	root/root	usr/share/gcalctool/buttons-programming.ui
+-rw-r--r--	root/root	usr/share/gcalctool/preferences.ui
+drwxr-xr-x	root/root	usr/share/glib-2.0/
+drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
+-rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gnome.gcalctool.gschema.xml
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/gcalctool.1.gz

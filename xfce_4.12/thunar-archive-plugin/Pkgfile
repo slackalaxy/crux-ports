@@ -1,0 +1,22 @@
+# Description: File manager plugin to deal with archives for Xfce
+# URL: https://git.xfce.org/thunar-plugins/thunar-archive-plugin
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: thunar
+# Nice to have: file-roller
+
+name=thunar-archive-plugin
+version=0.3.1
+release=2
+source=(http://archive.xfce.org/src/thunar-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+build () {
+	
+	cd $name-$version
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib/thunar \
+	--disable-static \
+	--disable-nls
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/locale
+}

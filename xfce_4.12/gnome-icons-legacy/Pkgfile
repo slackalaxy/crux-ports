@@ -1,0 +1,16 @@
+# Description: Gnome Legacy Icon Theme
+# URL: https://github.com/slackalaxy/gnome-icons-legacy
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=gnome-icons-legacy
+version=c01034e
+release=2
+source=(https://github.com/slackalaxy/$name/archive/$version/$name-c01034ee58ef2595437248615f0ae5964eeaef05.tar.gz)
+
+build() {
+	cd $name-${version}*
+	mkdir -p $PKG/usr/share/icons/$name
+	cp -a * $PKG/usr/share/icons/$name
+	
+	rm -rf $PKG/usr/share/icons/gnome-icons-legacy/README.md
+}

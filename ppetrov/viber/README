@@ -1,0 +1,12 @@
+Viber will not run if you have an "exotic" keyboard layout. Check this
+for more information:
+
+https://forums.linuxmint.com/viewtopic.php?t=379565
+
+In my case, I have Finnish and Bulgarian (phonetic) layouts, so to make
+Viber start, I needed to first execute this:
+
+	setxkbmap -variant ' ,phonetic'
+
+Note the space in ' ,phonetic'. I use Xfce, so I put the above command
+among the start up applications.

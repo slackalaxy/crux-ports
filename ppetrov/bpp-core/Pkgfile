@@ -1,0 +1,26 @@
+# Description: Bio++ Core Library.
+# URL: https://github.com/BioPP/bpp-seq/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=bpp-core
+version=2.4.1
+release=1
+source=(https://github.com/BioPP/bpp-core/archive/v${version}/$name-$version.tar.gz
+	gcc11.patch)
+
+build() {
+	cd $name-$version
+	
+	patch -p1 -i $SRC/gcc11.patch
+	
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+	make
+	make install DESTDIR=$PKG
+}

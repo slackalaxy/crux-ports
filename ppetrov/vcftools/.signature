@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZctV0WCgO+ffCM9oetMhcf7HIYN5xIWyiztYRfqghVBc5H4kIFuRck0CGUOP+FiN7zRLei9lebFRMsBwsjGF9gk=
+SHA256 (Pkgfile) = e12cb51f6862bdc0f50241b7775f0089f2ab392def7cecb39c2237d7193b0ec6
+SHA256 (.footprint) = ed50570c0388e0c2240f7673b10e1fbdf42a39c2e1e0c627530f07bc505ecde7
+SHA256 (vcftools-0.1.16.tar.gz) = 575c13073efe65cbff6e2ab99eef12fe04536f5dc1f98de6674c848ca83cf302

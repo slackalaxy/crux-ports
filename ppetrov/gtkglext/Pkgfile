@@ -1,0 +1,30 @@
+# Description: GtkGLExt is an OpenGL extension to GTK.
+# URL: https://sourceforge.net/projects/gtkglext/files/gtkglext/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glu gtk pangox-compat xorg-libxmu
+
+name=gtkglext
+version=1.2.0
+release=2
+source=(https://downloads.sourceforge.net/gtkglext/gtkglext-1.2.0.tar.bz2
+	gtkglext-no-deprecated-flags.patch 0002-GCC-8-fixes.patch)
+
+build() {
+	cd $name-$version
+	
+	# Don't disable deprecated stuff
+	patch -p1 < $SRC/gtkglext-no-deprecated-flags.patch
+	# From fedora - conflicting definition
+	patch -p1 < $SRC/0002-GCC-8-fixes.patch	
+
+	./configure --prefix=/usr \
+	--disable-static \
+	--disable-gtk-doc \
+	--enable-debug=no
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/gtk-doc/
+	rm -f $PKG/{,usr/}lib/*.la
+}

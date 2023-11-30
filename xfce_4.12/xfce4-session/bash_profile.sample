@@ -1,0 +1,18 @@
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
+## Use these Freetype properties? Don't forget to remove from /etc/fonts/conf.d/
+## 10-hinting-* and 10-autohint
+# export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
+
+## Do we have QT5CT installed?
+# export QT_QPA_PLATFORMTHEME=qt5ct
+
+## Source the contents of this if it exists
+#if test -d /etc/profile.d/; then
+#        for profile in /etc/profile.d/*.sh; do
+#                test -r "$profile" && . "$profile"
+#        done
+#        unset profile
+#fi

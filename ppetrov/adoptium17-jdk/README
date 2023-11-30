@@ -1,0 +1,5 @@
+Some programs expect to find the following symlink:
+
+	/usr/lib/jdk -> /usr/lib/java
+
+This is provided by jdk8-bin from opt.

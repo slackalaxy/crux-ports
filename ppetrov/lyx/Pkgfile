@@ -1,0 +1,24 @@
+# Description: document processor
+# URL: http://www.lyx.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: texlive qt5 python imagemagick ghostscript
+# Optional: aspell-en enchant
+
+name=lyx
+version=2.3.7
+release=2
+source=(https://ftp.lip6.fr/pub/lyx/stable/2.3.x/lyx-$version-1.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--enable-qt5
+
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/$name/doc/{??,??_??}
+	rm -rf $PKG/usr/share/$name/examples/{??,??_??}
+	rm -rf $PKG/usr/share/locale/
+	find $PKG/ -name "*README*" -delete
+}

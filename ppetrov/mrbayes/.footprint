@@ -1,0 +1,18 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/mb
+lrwxrwxrwx	root/root	usr/bin/mrbayes -> mb
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/mrbayes/
+-rw-r--r--	root/root	usr/share/mrbayes/MBDating.pdf
+-rw-r--r--	root/root	usr/share/mrbayes/Manual_MrBayes_v3.2.pdf
+drwxr-xr-x	root/root	usr/share/mrbayes/examples/
+-rw-r--r--	root/root	usr/share/mrbayes/examples/avian_ovomucoids.nex
+-rw-r--r--	root/root	usr/share/mrbayes/examples/codon.nex
+-rw-r--r--	root/root	usr/share/mrbayes/examples/cynmix.nex
+-rw-r--r--	root/root	usr/share/mrbayes/examples/finch.nex
+-rw-r--r--	root/root	usr/share/mrbayes/examples/hym.nex
+-rw-r--r--	root/root	usr/share/mrbayes/examples/hymfossil.nex
+-rw-r--r--	root/root	usr/share/mrbayes/examples/primates.nex
+-rw-r--r--	root/root	usr/share/mrbayes/examples/replicase.nex
+-rw-r--r--	root/root	usr/share/mrbayes/examples/sceloporus.nex

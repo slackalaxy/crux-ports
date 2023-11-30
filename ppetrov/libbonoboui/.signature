@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZXMBPB1TbHmB12ookKED/KsZFrHog62jX6BovLU6C7XvO5xGH5NNqO4BB/uwnC0POQw2865AVni4jR71qeTHdwE=
+SHA256 (Pkgfile) = ffe9fd5ff891efac4e57f9180fdfa2e91c67c2d1ae413943fffffba1a9e8d3b4
+SHA256 (.footprint) = 3804e8a37dd499d8411e779b69e6b6d8295df222d1ce55362c5eb4e90c7fd3ff
+SHA256 (libbonoboui-2.24.5.tar.bz2) = fab5f2ac6c842d949861c07cb520afe5bee3dce55805151ce9cd01be0ec46fcd

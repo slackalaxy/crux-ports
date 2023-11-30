@@ -1,0 +1,25 @@
+# Description: Blobby Volley 2
+# URL: http://blobbyvolley.de/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glu libsdl2 physfs
+
+name=blobby2
+version=1.1
+release=2
+source=(http://downloads.sourceforge.net/blobby/blobby2-linux-$version.tar.gz)
+
+build() {
+	cd blobby-$version
+
+	mkdir -p build
+	cd build
+	cmake \
+	-D CMAKE_C_FLAGS="$CFLAGS" \
+	-D CMAKE_CXX_FLAGS="$CXXFLAGS" \
+	-D CMAKE_INSTALL_PREFIX=/usr ..
+	
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/blobby/{lang_it.xml,lang_fr.xml,lang_es.xml,lang_de.xml,lang_cs.xml}
+}

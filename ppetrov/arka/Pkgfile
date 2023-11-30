@@ -1,0 +1,40 @@
+# Description: A GUI for genpak
+# URL: http://www.bioinformatics.org/genpak/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: genpak gtk1
+
+name=arka
+version=0.11
+release=1
+source=(http://www.bioinformatics.org/genpak/download/$name-$version.tgz
+	$name.desktop)
+
+build() {
+	cd $name-$version
+	
+	# A few path fixes to the Makefile, although it will work anyway
+	sed "s:/usr/X11R6/bin:/usr/bin:" -i Makefile
+	sed "s:/usr/X11R6/man:/usr/share/man:" -i Makefile
+	sed "s:/usr/X11R6/include/X11/pixmaps:/usr/share/pixmaps:" -i Makefile
+
+	# Use our CFLAGS
+	sed -i "/^CFLAGS/s/=/+=/" src/Makefile
+
+	# Fix configuration path
+	sed -i "s:/etc/arkarc:/usr/etc/arkarc:g" src/main.h
+	
+	# Fix for gcc-5.2.0 linker errors: add -fgnu89-inline
+	CFLAGS="$CFLAGS -fgnu89-inline -fcommon" \
+	CXXFLAGS="$CXXFLAGS -fgnu89-inline -fcommon" \
+	make
+
+	# The Makefile does not support "make DESTDIR install". So...
+	install -D -m755 $name $PKG/usr/bin/$name
+	install -D -m644 arkarc $PKG/usr/etc/arkarc
+	install -D -m644 $name.1.gz $PKG/usr/share/man/man1/$name.1.gz
+
+	# Menu item and icon
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp ./icons/${name}_100x100.xpm $PKG/usr/share/pixmaps/$name.xpm
+}

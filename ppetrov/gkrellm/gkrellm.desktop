@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Gkrellm
+Comment=System monitor
+Exec=gkrellm
+Icon=gkrellm
+StartupNotify=false
+Type=Application
+Categories=System

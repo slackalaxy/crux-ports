@@ -1,0 +1,23 @@
+# Description: A free multimedia player
+# URL: https://www.xine-project.org
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xine-lib xorg-libxscrnsaver xorg-libxtst
+
+name=xine-ui
+version=0.99.14
+release=1
+source=(https://downloads.sourceforge.net/xine/${name}-${version}.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--with-x \
+	--without-caca \
+	--disable-nls
+	
+	make
+	make DESTDIR="$PKG" install
+	
+	rm -rf $PKG/usr/share/{doc,locale}
+	rm -rf $PKG/usr/share/man/??
+}

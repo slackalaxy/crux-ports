@@ -1,0 +1,14 @@
+#!/bin/sh
+/etc/hotplug/usb/hplj1000 install-usermap
+/etc/hotplug/usb/hplj1005 install-usermap
+/etc/hotplug/usb/hplj1018 install-usermap
+/etc/hotplug/usb/hplj1020 install-usermap
+/etc/hotplug/usb/hpljP1005 install-usermap
+/etc/hotplug/usb/hpljP1006 install-usermap
+/etc/hotplug/usb/hpljP1007 install-usermap
+/etc/hotplug/usb/hpljP1008 install-usermap
+/etc/hotplug/usb/hpljP1505 install-usermap
+
+/etc/hotplug/usb/hplj1000 install-usblp
+
+/etc/rc.d/cups restart

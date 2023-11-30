@@ -1,0 +1,29 @@
+# Description: Microsoft Edge stable
+# URL: https://www.microsoft.com/en-us/edge
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: cups graphite2 icu libsecret nss qt5 qt6-base wayland
+
+name=microsoft-edge
+version=119.0.2151.97
+release=1
+source=(https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_${version}-1_amd64.deb)
+
+build() {
+	bsdtar -xf microsoft-edge-stable_${version}-1_amd64.deb
+	bsdtar -xf data.tar.xz
+	
+	mkdir -p $PKG/usr/lib/$name
+	cp -a $SRC/opt/microsoft/msedge/* $PKG/usr/lib/$name
+	
+	# Copy data
+	mkdir -p $PKG/usr/share/pixmaps
+	cp -a $SRC/usr/share/{appdata,applications,man} $PKG/usr/share
+	
+	cp $SRC/opt/microsoft/msedge/product_logo_48.png $PKG/usr/share/pixmaps/$name.png
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/msedge $name-stable
+	
+	find $PKG/usr/lib/$name/locales/ -type f -not -name "en-US.pak" -delete
+}

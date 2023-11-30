@@ -1,0 +1,18 @@
+# Description: Create a codon-based DNA alignment
+# URL: http://www.bork.embl.de/pal2nal/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: perl
+
+name=pal2nal
+version=14.1
+release=1
+source=(https://sourceforge.net/projects/sboppetrov/files/pal2nal/$name.v${version}.tar.gz)
+
+build() {
+	cd $name.v${version}
+	install -D -m755 $name.pl $PKG/usr/bin/$name.pl
+	
+	# Copy some examples
+	mkdir -p $PKG/usr/share/$name
+	cp -a for_paml test.aln test.nuc $PKG/usr/share/$name
+}

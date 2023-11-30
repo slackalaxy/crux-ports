@@ -1,0 +1,21 @@
+# Description: Provide notes capability in the panel
+# URL: http://goodies.xfce.org/projects/panel-plugins/xfce4-notes-plugin
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libunique xfce4-panel
+
+name=xfce4-notes-plugin
+version=1.8.1
+release=1
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--disable-debug \
+	--disable-nls
+	
+	make
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/locale
+}

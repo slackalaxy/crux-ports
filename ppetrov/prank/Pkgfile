@@ -1,0 +1,20 @@
+# Description: A probabilistic multiple alignment program
+# URL: http://wasabiapp.org/software/prank/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: mafft exonerate bppsuite
+
+name=prank
+version=170427
+release=1
+source=(http://wasabiapp.org/download/$name/$name.source.$version.tgz)
+
+build() {
+	cd $name-msa/src
+
+	sed -i "/^CFLAGS/s/=/+=/" Makefile
+	sed -i "/^CXXFLAGS/s/=/+=/" Makefile
+
+	make
+	install -D -m755 $name $PKG/usr/bin/$name
+	install -D -m644 $name.1 $PKG/usr/share/man/man1/$name.1
+}

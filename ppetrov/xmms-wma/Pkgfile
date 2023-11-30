@@ -1,0 +1,24 @@
+# Description: Plug-in support of format WMA V1/V2 for XMMS
+# URL: https://web.archive.org/web/20130715120646/http://mcmcc.bat.ru/xmms-wma/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-wma
+version=1.0.5
+release=1
+source=(http://sourceforge.net/projects/sboppetrov/files/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	# Use our CFLAGS
+	sed -i "/OPTFLAGS/s/=/+=/" ffmpeg-strip-wma/config.mak
+	sed -i "/SHCFLAGS/s/=/+=/" ffmpeg-strip-wma/config.mak
+
+	make \
+	OPTFLAGS="$CFLAGS" \
+	SHCFLAGS="$CFLAGS" \
+	CC='gcc -fgnu89-inline -fPIC -fcommon'
+
+	install -D -m644 libwma.so $PKG/usr/lib/xmms/Input/libwma.so
+}

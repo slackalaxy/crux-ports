@@ -1,0 +1,30 @@
+# Description: File roller archive manager
+# URL: https://download.gnome.org/sources/file-roller/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gconf gnome-doc-utils gtk xorg-libxdamage
+
+name=file-roller-gtk2
+version=2.32.2
+release=1
+source=(https://download.gnome.org/sources/file-roller/${version%.*}/file-roller-$version.tar.bz2
+	no_GPtrArray.patch)
+
+build() {
+	cd file-roller-$version
+	
+	patch -p1 -i $SRC/no_GPtrArray.patch
+	
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc/file-roller \
+	--libexecdir=/usr/lib \
+	--disable-scrollkeeper \
+	--with-gtk=2.0 \
+	--disable-static \
+	--enable-shared \
+	--disable-nls
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{omf,gnome}
+}

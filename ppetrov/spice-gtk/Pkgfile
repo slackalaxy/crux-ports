@@ -1,0 +1,25 @@
+# Description: Spice GTK client and libraries
+# URL: https://www.spice-space.org
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: cyrus-sasl graphite2 gst-plugins-base gtk3 json-glib libva polkit xorg-libxcomposite xorg-libxcursor xorg-libxinerama spice
+
+name=spice-gtk
+version=0.41
+release=2
+source=(https://www.spice-space.org/download/gtk/spice-gtk-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir build
+	cd build
+	meson setup \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		-D gtk=enabled \
+		-D gtk_doc=disabled \
+		-D usb-ids-path=/usr/share/hwdata/usb.ids \
+	
+	DESTDIR=$PKG ninja install
+	
+	rm -rf $PKG/usr/share/locale
+}

@@ -1,0 +1,70 @@
+Description: Build with wxwidgets3.0
+Author: Olly Betts <olly@survex.com>
+Bug-Debian: https://bugs.debian.org/751255
+Forwarded: no
+--- tv-0.5.orig/tv.cpp
++++ tv-0.5/tv.cpp
+@@ -162,9 +162,9 @@
+ {
+ 	// Optional command line argument is name of file to open
+ #if wxUSE_UNICODE
+-	wchar_t *InputFile = NULL;
++	const wchar_t *InputFile = NULL;
+ #else
+-	char *InputFile = NULL;
++	const char *InputFile = NULL;
+ #endif
+ 	// Read input/output files
+ 	if (argc > 1)
+--- tv-0.5.orig/tview.cpp
++++ tv-0.5/tview.cpp
+@@ -63,9 +63,13 @@
+ #ifdef __WXMSW__
+ #else
+ #ifdef USE_SVG
++#if wxMAJOR_VERSION >= 3
++	#include <wx/dcsvg.h>
++#else
+ 	#include <wx/svg/dcsvg.h>
+ #endif
+ #endif
++#endif
+ 
+ // GUI interface
+ #include "tv.h"
+@@ -187,7 +191,7 @@
+ 	wxFrame *f = GetMainFrame();
+    	wxFileDialog dialog((wxWindow *)f, wxT("Save Picture as"), wxT(""), pictureFileName,
+         wxT("Enhanced metafile (*.emf)|*.emf"),
+-        wxSAVE|wxOVERWRITE_PROMPT);
++        wxFD_SAVE|wxFD_OVERWRITE_PROMPT);
+     
+     if (dialog.ShowModal() == wxID_OK)
+     {
+@@ -207,7 +211,7 @@
+ 	#endif 
+     wxFileDialog dialog((wxWindow *)f, wxT("Save Picture as"), wxT(""), pictureFileName,
+         wxT("SVG vector picture files (*.svg)|*.svg"),
+-        wxSAVE|wxOVERWRITE_PROMPT);
++        wxFD_SAVE|wxFD_OVERWRITE_PROMPT);
+ 
+     if ((dialog.ShowModal() == wxID_OK) && (p.GetNumTrees() != 0))
+     {
+@@ -362,7 +366,7 @@
+ 
+ 	// Clear the canvas in  case we're in single-window mode,
+ 	// and the canvas stays.
+-#if (wxMINOR_VERSION > 4) // from 2.5 Clear is deprecated
++#if (wxMAJOR_VERSION >= 3 || wxMINOR_VERSION > 4) // from 2.5 Clear is deprecated
+ 	canvas->ClearBackground();
+ #else
+ 	canvas->Clear();
+@@ -687,7 +691,7 @@
+ 	wxFontData data;
+ 	data.SetInitialFont (LeafFont);
+ 
+-#ifdef __WXMAC__
++#if wxMAJOR_VERSION >= 3 || defined __WXMAC__
+ 	wxFontDialog dialog((wxWindow *)GetFrame(), data);
+ #else
+ 	wxFontDialog dialog((wxWindow *)GetMainFrame(), &data);

@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/bodr/
+-rw-r--r--	root/root	usr/share/bodr/crystalstructures.xml
+drwxr-xr-x	root/root	usr/share/bodr/dicts/
+-rw-r--r--	root/root	usr/share/bodr/dicts/blueobelisk-dictionary.xml
+-rw-r--r--	root/root	usr/share/bodr/elements.xml
+-rw-r--r--	root/root	usr/share/bodr/isotopes.xml
+-rw-r--r--	root/root	usr/share/bodr/space-groups.xml
+drwxr-xr-x	root/root	usr/share/pkgconfig/
+-rw-r--r--	root/root	usr/share/pkgconfig/bodr.pc

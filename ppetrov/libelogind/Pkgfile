@@ -1,0 +1,45 @@
+# Description: Elogind libs only
+# URL: https://github.com/elogind/elogind
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=libelogind
+version=246.10
+release=1
+source=(https://github.com/elogind/elogind/archive/refs/tags/v${version}.tar.gz)
+
+build() {
+	cd elogind-$version
+	mkdir build
+	cd build
+	meson \
+	--buildtype release \
+	--prefix /usr \
+	--libdir /usr/lib \
+	-D rootlibdir="/usr/lib" \
+	-D rootlibexecdir="/lib/elogind" \
+	-D udevrulesdir="/lib/udev/rules.d" \
+	-D man=false \
+	-D html=false \
+	-D bashcompletiondir="/usr/share/bash-completion/completions" \
+	-D nobody-group=nogroup \
+	-D pam=false \
+	-D pamlibdir="/lib/security" \
+	-D pamconfdir="/etc/pam.d" \
+	-D acl=false \
+	-D smack=false \
+	-D utmp=false \
+	-D default-hierarchy=legacy \
+	-D cgroup-controller=elogind \
+	-D halt-path=/sbin/halt \
+	-D poweroff-path=/sbin/poweroff \
+	-D reboot-path=/sbin/reboot \
+	-D default-kill-user-processes=false ..
+	ninja
+	DESTDIR=$PKG ninja install
+	
+	rm -rf $PKG/{bin,etc,lib}
+	rm -rf $PKG/usr/{bin,include,share}
+	cd $PKG/usr/lib
+	ln -s libelogind.so.0 libsystemd.so.0
+}

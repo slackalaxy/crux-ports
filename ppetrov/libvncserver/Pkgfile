@@ -1,0 +1,25 @@
+# Description: VNC server or client libraries
+# URL: https://libvnc.github.io/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli cyrus-sasl gnutls libgcrypt libjpeg-turbo libpng p11-kit
+
+name=libvncserver
+version=0.9.14
+release=1
+source=(https://github.com/LibVNC/libvncserver/archive/LibVNCServer-$version.tar.gz)
+
+build() {
+	cd $name-LibVNCServer-$version
+	mkdir -p build
+	cd build
+	
+	cmake \
+	-D CMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-D CMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_INSTALL_LIBDIR=lib \
+	-D CMAKE_BUILD_TYPE=Release ..
+
+	make
+	make install DESTDIR=$PKG
+}

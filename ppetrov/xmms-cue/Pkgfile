@@ -1,0 +1,41 @@
+# Description: XMMS Cuesheet reader plugin
+# URL: http://virtualcuexmms.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-cue
+version=0.2
+release=1
+source=(https://slackware.uk/sbosrcarch/by-name/multimedia/xmms-cue/VirtualCueXmms-0.2.tar.gz)
+
+build() {
+	cd VirtualCueXmms
+	
+	# Adapted from the xmms-cue.SlackBuild. Thanks Jay!
+	
+	# The object file CueParser.o is 32-bit.
+	# Thus, it must be recompiled for
+	# 64-bit build to work.
+	cd Cueparser
+        gcc -v -g $CFLAGS -fPIC -c CueParser.c
+
+	# Compile general plugin
+	cd ../GeneralPlayer
+	./configure --prefix=/usr
+
+	sed -i "6s/-O/$CFLAGS/" Makefile
+	sed -i "10i\
+	INSTALLPATH = $PKG\/usr\/lib\/xmms\/General" Makefile
+	make
+	make install
+
+	# Compile input plugin
+	cd ../InPlayer
+	./configure --prefix=/usr
+
+	sed -i "6s/-O/$SLKCFLAGS/" Makefile
+	sed -i "10i\
+	INSTALLPATH = $PKG\/usr\/lib\/xmms\/Input" Makefile
+	make
+	make install
+}

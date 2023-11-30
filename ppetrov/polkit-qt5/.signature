@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZdPG1M+JlVGbIBwoDvMqESaP+Aj1IS/JWnojAQ6oDYEP3yvDQCxf4fOBJOrwkKsNO9RyfymZzFCPjVTPOnHAdgw=
+SHA256 (Pkgfile) = 8cc5004100baea32e77de6b07c30a6f7f80b417285c2f7d772f88c968eab3cc9
+SHA256 (.footprint) = 5b2488891ffee37d813d16dd1ed474f60fe7e63a369733cb93ffd1ba465aacd8
+SHA256 (polkit-qt-1-0.112.0.tar.bz2) = 67fb03bf6ca3e0bdbd98d374dfb5b1651a07d17ae6c23e11a81b4b084447e7c6

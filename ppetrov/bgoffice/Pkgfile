@@ -1,0 +1,14 @@
+# Description: GBGoffice dictionaries
+# URL: http://bgoffice.sourceforge.net/assistant/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gbgoffice
+
+name=bgoffice
+version=20140827
+release=1
+source=(http://downloads.sourceforge.net/$name/full-pack.tar.bz2)
+
+build() {
+	cd full-pack
+	make DATA_DIR=$PKG/usr/share/$name install
+}

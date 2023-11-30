@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/wehi-cellsymphony.jar
+drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/xdg/
+drwxr-xr-x	root/root	usr/etc/xdg/menus/
+drwxr-xr-x	root/root	usr/etc/xdg/menus/applications-merged/
+-rw-r--r--	root/root	usr/etc/xdg/menus/applications-merged/wehi-cellsymphony.menu
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/wehi-cellsymphony.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/wehi-cellsymphony.png

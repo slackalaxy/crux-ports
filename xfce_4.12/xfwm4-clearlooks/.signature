@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchmwJ6o42jNCJOPggVRoQcP4OuHjHSEnlIDXNqAeoFgJbnYhSLz3j4YlP0xskK8uiVkZlUc2ZSJRDGMcXLH5UaAc=
+SHA256 (Pkgfile) = 63500cff7666addef116ef71ce2588624293e0e4f4770ea2a7f64f791692b438
+SHA256 (.footprint) = f8105b8e8871b9fb4c67a25e4afddb5e49d8528b308d7d64a5632f4ea280d3ac
+SHA256 (xfwm4-clearlooks-0.01.tar.xz) = 9a4b20bed004df875e9ea3eaba42b1406e67b534db039085ac4a9333cc0e7f99

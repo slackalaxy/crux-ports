@@ -1,0 +1,81 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/einsi -> mafft
+lrwxrwxrwx	root/root	usr/bin/fftns -> mafft
+lrwxrwxrwx	root/root	usr/bin/fftnsi -> mafft
+lrwxrwxrwx	root/root	usr/bin/ginsi -> mafft
+lrwxrwxrwx	root/root	usr/bin/linsi -> mafft
+-rwxr-xr-x	root/root	usr/bin/mafft
+lrwxrwxrwx	root/root	usr/bin/mafft-distance -> ../lib/mafft/mafft-distance
+lrwxrwxrwx	root/root	usr/bin/mafft-einsi -> mafft
+lrwxrwxrwx	root/root	usr/bin/mafft-fftns -> mafft
+lrwxrwxrwx	root/root	usr/bin/mafft-fftnsi -> mafft
+lrwxrwxrwx	root/root	usr/bin/mafft-ginsi -> mafft
+-rwxr-xr-x	root/root	usr/bin/mafft-homologs.rb
+lrwxrwxrwx	root/root	usr/bin/mafft-linsi -> mafft
+lrwxrwxrwx	root/root	usr/bin/mafft-nwns -> mafft
+lrwxrwxrwx	root/root	usr/bin/mafft-nwnsi -> mafft
+lrwxrwxrwx	root/root	usr/bin/mafft-profile -> ../lib/mafft/mafft-profile
+lrwxrwxrwx	root/root	usr/bin/mafft-qinsi -> mafft
+-rwxr-xr-x	root/root	usr/bin/mafft-sparsecore.rb
+lrwxrwxrwx	root/root	usr/bin/mafft-xinsi -> mafft
+lrwxrwxrwx	root/root	usr/bin/nwns -> mafft
+lrwxrwxrwx	root/root	usr/bin/nwnsi -> mafft
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/mafft/
+-rwxr-xr-x	root/root	usr/lib/mafft/addsingle
+-rwxr-xr-x	root/root	usr/lib/mafft/contrafoldwrap
+-rwxr-xr-x	root/root	usr/lib/mafft/countlen
+-rwxr-xr-x	root/root	usr/lib/mafft/disttbfast
+-rwxr-xr-x	root/root	usr/lib/mafft/dndblast
+-rwxr-xr-x	root/root	usr/lib/mafft/dndfast7
+-rwxr-xr-x	root/root	usr/lib/mafft/dndpre
+-rwxr-xr-x	root/root	usr/lib/mafft/dvtditr
+-rwxr-xr-x	root/root	usr/lib/mafft/f2cl
+-rwxr-xr-x	root/root	usr/lib/mafft/filter
+-rwxr-xr-x	root/root	usr/lib/mafft/getlag
+-rwxr-xr-x	root/root	usr/lib/mafft/hex2maffttext
+-rwxr-xr-x	root/root	usr/lib/mafft/mafft-distance
+-rwxr-xr-x	root/root	usr/lib/mafft/mafft-profile
+-rwxr-xr-x	root/root	usr/lib/mafft/mafftash_premafft.pl
+-rwxr-xr-x	root/root	usr/lib/mafft/maffttext2hex
+-rwxr-xr-x	root/root	usr/lib/mafft/makedirectionlist
+-rwxr-xr-x	root/root	usr/lib/mafft/mccaskillwrap
+-rwxr-xr-x	root/root	usr/lib/mafft/multi2hat3s
+-rwxr-xr-x	root/root	usr/lib/mafft/mxscarnamod
+-rwxr-xr-x	root/root	usr/lib/mafft/nodepair
+-rwxr-xr-x	root/root	usr/lib/mafft/pairash
+-rwxr-xr-x	root/root	usr/lib/mafft/pairlocalalign
+-rwxr-xr-x	root/root	usr/lib/mafft/regtable2seq
+-rwxr-xr-x	root/root	usr/lib/mafft/replaceu
+-rwxr-xr-x	root/root	usr/lib/mafft/restoreu
+-rwxr-xr-x	root/root	usr/lib/mafft/score
+-rwxr-xr-x	root/root	usr/lib/mafft/seekquencer_premafft.pl
+-rwxr-xr-x	root/root	usr/lib/mafft/seq2regtable
+-rwxr-xr-x	root/root	usr/lib/mafft/setcore
+-rwxr-xr-x	root/root	usr/lib/mafft/setdirection
+-rwxr-xr-x	root/root	usr/lib/mafft/sextet5
+-rwxr-xr-x	root/root	usr/lib/mafft/splittbfast
+-rwxr-xr-x	root/root	usr/lib/mafft/tbfast
+-rwxr-xr-x	root/root	usr/lib/mafft/version
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/mafft/
+drwxrwxr-x	root/root	usr/share/mafft/test/
+-rw-r--r--	root/root	usr/share/mafft/test/sample
+-rw-r--r--	root/root	usr/share/mafft/test/sample.dpparttree
+-rw-r--r--	root/root	usr/share/mafft/test/sample.fftns2
+-rw-r--r--	root/root	usr/share/mafft/test/sample.fftnsi
+-rw-r--r--	root/root	usr/share/mafft/test/sample.gins1
+-rw-r--r--	root/root	usr/share/mafft/test/sample.ginsi
+-rw-r--r--	root/root	usr/share/mafft/test/sample.ginsi.allowshift
+-rw-r--r--	root/root	usr/share/mafft/test/sample.lins1
+-rw-r--r--	root/root	usr/share/mafft/test/sample.linsi
+-rw-r--r--	root/root	usr/share/mafft/test/sample.parttree
+-rw-r--r--	root/root	usr/share/mafft/test/samplerna
+-rw-r--r--	root/root	usr/share/mafft/test/samplerna.qinsi
+-rw-r--r--	root/root	usr/share/mafft/test/samplerna.xinsi
+-rw-r--r--	root/root	usr/share/mafft/test/script
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/mafft-homologs.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/mafft.1.gz

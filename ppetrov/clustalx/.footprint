@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/clustalx
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/clustalx.desktop
+drwxr-xr-x	root/root	usr/share/clustalx/
+-rw-r--r--	root/root	usr/share/clustalx/clustalx.hlp
+-rw-r--r--	root/root	usr/share/clustalx/coldna.xml
+-rw-r--r--	root/root	usr/share/clustalx/colprint.xml
+-rw-r--r--	root/root	usr/share/clustalx/colprot.xml
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/clustalx.png

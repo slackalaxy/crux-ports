@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZSWrXS5CZ1f5lAtZG+sXgGiIqsu8e0/WLDcUcfScUP/HEdTMLVFMX62BAUMPRnE48Rmxz5r9gOfh8OJnagM+YgA=
+SHA256 (Pkgfile) = 35b9fea6112ade6b9d05223da7308c29283e5c2f9a38e6cea425571bbb1dbef0
+SHA256 (.footprint) = 53c5a00d5139b675c5bb20131b767d33755a9be89bc6ac4c1049a7f388415c57
+SHA256 (samtools-0.1.19.tar.bz2) = d080c9d356e5f0ad334007e4461cbcee3c4ca97b8a7a5a48c44883cf9dee63d4

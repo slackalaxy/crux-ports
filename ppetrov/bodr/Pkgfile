@@ -1,0 +1,19 @@
+# Description: Blue Obelisk Data Repository
+# URL: https://sourceforge.net/projects/bodr/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=bodr
+version=10
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/doc
+}

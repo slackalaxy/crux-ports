@@ -1,0 +1,14 @@
+# Description: Pango modules
+# URL: https://www.gtk.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: pango
+
+name=pango-querymodules
+version=1.8.0
+release=1
+source=()
+
+build() {
+	mkdir -p $PKG/usr/etc/pango
+	pango-querymodules > $PKG/usr/etc/pango/pango.modules
+}

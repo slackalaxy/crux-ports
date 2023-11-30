@@ -1,0 +1,22 @@
+# Description: Genetic variant annotation and effect prediction toolbox
+# URL: https://pcingola.github.io/SnpEff/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: adoptium11-jdk
+
+name=snpeff
+version=4_3t
+release=1
+source=(https://sourceforge.net/projects/snpeff/files/snpEff_v${version}_core.zip)
+
+build() {
+	cd snpEff
+	
+	mkdir -p $PKG/usr/lib/$name
+	cp -a examples galaxy scripts snpEff.config snpEff.jar SnpSift.jar \
+	$PKG/usr/lib/$name
+
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/snpEff.jar
+	ln -s ../lib/$name/SnpSift.jar
+}

@@ -1,0 +1,21 @@
+Do not install hpcups. Check this link for more info:
+
+	https://bbs.archlinux.org/viewtopic.php?pid=908323#p908323
+
+I have LaserJet P1005. In my particular case, I did the following:
+
+	modprobe usblp
+	sleep 3
+	cat /usr/share/foo2xqx/firmware/sihpP1005.dl > /dev/usb/lp0
+	sleep 3
+	rmmod usblp
+	/etc/rc.d/cups restart
+
+Despite what cups README says, you may wish to keep the `usblp` module
+loaded at boot time, by adding it to:
+
+	/etc/rc.modules
+
+In this case, make sure it is NOT blacklisted in:
+
+	/etc/modprobe.d/cups.conf

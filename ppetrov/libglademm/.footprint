@@ -1,0 +1,24 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/libglademm-2.4/
+-rw-r--r--	root/root	usr/include/libglademm-2.4/libglademm.h
+drwxr-xr-x	root/root	usr/include/libglademm-2.4/libglademm/
+-rw-r--r--	root/root	usr/include/libglademm-2.4/libglademm/init.h
+drwxr-xr-x	root/root	usr/include/libglademm-2.4/libglademm/private/
+-rw-r--r--	root/root	usr/include/libglademm-2.4/libglademm/private/xml_p.h
+-rw-r--r--	root/root	usr/include/libglademm-2.4/libglademm/variablesmap.h
+-rw-r--r--	root/root	usr/include/libglademm-2.4/libglademm/wrap_init.h
+-rw-r--r--	root/root	usr/include/libglademm-2.4/libglademm/xml.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libglademm-2.4.so -> libglademm-2.4.so.1.0.5
+lrwxrwxrwx	root/root	usr/lib/libglademm-2.4.so.1 -> libglademm-2.4.so.1.0.5
+-rwxr-xr-x	root/root	usr/lib/libglademm-2.4.so.1.0.5
+drwxr-xr-x	root/root	usr/lib/libglademm-2.4/
+drwxr-xr-x	root/root	usr/lib/libglademm-2.4/include/
+-rw-r--r--	root/root	usr/lib/libglademm-2.4/include/libglademmconfig.h
+drwxr-xr-x	root/root	usr/lib/libglademm-2.4/proc/
+drwxr-xr-x	root/root	usr/lib/libglademm-2.4/proc/m4/
+-rw-r--r--	root/root	usr/lib/libglademm-2.4/proc/m4/convert.m4
+-rw-r--r--	root/root	usr/lib/libglademm-2.4/proc/m4/convert_libglademm.m4
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libglademm-2.4.pc

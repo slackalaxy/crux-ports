@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=jDiskReport
+Comment=Disk space analyzer
+Exec=java -jar /usr/bin/jdiskreport.jar
+Icon=jdiskreport
+StartupNotify=false
+Type=Application
+Categories=System;

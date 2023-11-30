@@ -1,0 +1,21 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>Education</Name>
+    <Directory>xfce4-education.directory</Directory>
+  <Menu>
+    <Name>Gnome Chemistry Utilities</Name>
+    <Directory>gchemutils.directory</Directory>
+    <Include>
+	<Filename>gchem3d-0.12.desktop</Filename>
+	<Filename>gchemcalc-0.12.desktop</Filename>
+	<Filename>gchempaint-0.12.desktop</Filename>
+	<Filename>gchemtable-0.12.desktop</Filename>
+	<Filename>gcrystal-0.12.desktop</Filename>
+	<Filename>gspectrum-0.12.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+</Menu>

@@ -1,0 +1,21 @@
+# Description: Design primers for PCR and sequencing
+# URL: https://github.com/owenjm/perlprimer/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p5-tk p5-json p5-lwp-protocol-https spidey
+
+name=perlprimer
+version=f415ea6
+release=1
+source=(https://github.com/owenjm/perlprimer/archive/$version/perlprimer-f415ea6d0170f2f62f10c678adac8fdc69a3298f.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-${version}*
+	install -D -m755 $name $PKG/usr/bin/${name}.pl
+	install -D -m644 gcg.603 $PKG/usr/share/$name/gcg.603
+	cp -a tutorial.html tutorial_files $PKG/usr/share/$name
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications/
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

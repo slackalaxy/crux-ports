@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZbc+TY2+MK9nyGyI+7cg/L0lEjapUNAyuExmKLO6Kuf02jgS1WUSJk4wCNf2i3/JC2jPpzwDqFGGrI8iKd2SPAw=
+SHA256 (Pkgfile) = c6a837d83ecd365ed9be325119ce1b17bb8ca9fb24b8b4347a16576ab357eb81
+SHA256 (.footprint) = f091ab64ebd6df7b215cd9de7cc71e7265cb83870ac8af0bf159033eb4df7334
+SHA256 (poppler-21.11.0.tar.xz) = 31b76b5cac0a48612fdd154c02d9eca01fd38fb8eaa77c1196840ecdeb53a584

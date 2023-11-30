@@ -1,0 +1,24 @@
+# Description: RStudio is an integrated development environment (IDE) for R
+# URL: https://posit.co
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib cups gtk3 icu keyutils krb5 libxkbcommon nss openssl11 postgresql r xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+
+name=rstudio-desktop
+version=2023.09.1+494
+release=1
+source=(https://download1.rstudio.org/electron/rhel8/x86_64/rstudio-${version/+/-}-x86_64.rpm)
+
+build() {
+	cp -a $SRC/usr $PKG
+
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/rstudio/rstudio .
+
+	find $PKG/ -name "*README*" -delete
+	find $PKG/ -name "*COPYING*" -delete
+	find $PKG/ -name "*INSTALL*" -delete
+
+	sed -i "s:/usr/lib/rstudio/rstudio:rstudio:" $PKG/usr/share/applications/rstudio.desktop
+	sed -i "s:Development:Education:" $PKG/usr/share/applications/rstudio.desktop
+}

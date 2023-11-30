@@ -1,0 +1,86 @@
+# Description: MPlayer extra skins 
+# URL: http://www.mplayerhq.hu/MPlayer/skins/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: mplayer
+
+name=mplayer-skins
+version=0.68
+release=2
+source=(http://www.mplayerhq.hu/MPlayer/skins/Abyss-1.7.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/AlienMind-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Ater-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Blue-small-1.11.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/BlueHeart-1.6.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Canary-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Clearlooks-2.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Corelian-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/CornerMP-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/CornerMP-aqua-1.5.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/CubicPlayer-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Cyrus-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/DVDPlayer-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/ICY-1.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Industrial-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/JiMPlayer-1.4.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/KDE-0.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Linea-1.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/MidnightLove-1.7.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/OSX-Brushed-2.4.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/OSX-Mod-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/OpenDoh-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Orange-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/PowerPlayer-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/QPlayer-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/QuickSilver-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Terminator3-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/XFce4-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/avifile-1.8.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/bluecurve-1.4.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/brushedGnome-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/changuito-0.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/clearplayer-0.10.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/disappearer-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/divxplayer-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/gnome-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/handheld-1.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/hayraphon-1.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/hwswskin-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/iTunes-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/iTunes-mini-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/krystal-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/mentalic-1.4.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/mini-0.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/moonphase-1.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/mplayer_red-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/nativeRed-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/neutron-1.6.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/new-age-1.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/pcland-1.1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/phony-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/plastic-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/plastik-2.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/productive-1.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/proton-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/sessene-1.0.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/slim-1.3.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/smoothwebby-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/softgrip-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/standard-1.11.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/standard-1.12.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/trium-1.4.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/tvisor-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/ultrafina-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/webby-1.4.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/xanim-1.8.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/xine-lcd-1.2.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/xmmplayer-1.5.tar.bz2)
+
+build() {
+	mkdir -p $PKG/usr/share/mplayer/skins
+	cp -a $SRC/* $PKG/usr/share/mplayer/skins
+	
+	find $PKG/ -name "*README*" -delete
+	find $PKG/ -name "*VERSION*" -delete
+	find $PKG/ -type f -exec chmod 644 {} \;
+
+}

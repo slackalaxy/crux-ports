@@ -1,0 +1,29 @@
+# Description: Free/Libre Open Source Software Binaries of VS Code
+# URL: https://vscodium.com/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib cups gtk3 libsecret libxkbcommon nss xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+
+name=vscodium
+version=1.84.2.23319
+release=1
+source=(https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-linux-x64-$version.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	mkdir -p $PKG/usr/lib/$name
+	cp -a * $PKG/usr/lib/$name
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
+	cp -a $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/bin/codium $name
+	
+	find $PKG/ -name "README.*" -delete
+	chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.nls.js
+	chmod 0644 $PKG/usr/lib/vscodium/resources/app/extensions/markdown-language-features/dist/extension.js
+	chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/api/worker/extensionHostWorker.nls.js
+	chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/base/common/worker/simpleWorker.nls.js
+}

@@ -1,0 +1,21 @@
+# Description: A userspace virtual filesystem designed to work with the I/O abstractions of gio (glib)
+# URL: http://download.gnome.org/sources/gvfs/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fuse gcr3 gtk-doc libexif libgphoto2 libsecret libsoup samba udisks2
+
+name=gvfs
+version=1.36.3
+release=1
+source=(http://download.gnome.org/sources/$name/${version:0:4}/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	sed -i -e '/gtkdocize/d' autogen.sh
+	NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib/$name \
+	--enable-udisks2 \
+	--disable-nls
+	make
+	make DESTDIR=$PKG install
+}

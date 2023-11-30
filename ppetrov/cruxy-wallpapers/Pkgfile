@@ -1,0 +1,15 @@
+# Description: CRUX logo wallpapers
+# URL: https://github.com/slackalaxy/cruxy
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=cruxy-wallpapers
+version=ef9e044
+release=2
+source=(https://github.com/slackalaxy/cruxy/archive/$version/cruxy-ef9e0447b315a9e392266c417f67a7661a5c24c9.tar.gz)
+
+build() {
+	cd cruxy-${version}*
+	mkdir -p $PKG/usr/share/wallpapers
+	cp -a *.png $PKG/usr/share/wallpapers
+	chmod 0644 $PKG/usr/share/wallpapers/*
+}

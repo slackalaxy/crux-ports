@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=VSCodium
+Comment=OSS VS Code
+Exec=vscodium
+Icon=vscodium
+StartupNotify=false
+Type=Application
+Categories=Utility;

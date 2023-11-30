@@ -1,0 +1,32 @@
+# Description: A graphical tool for merging and comparing text files
+# URL: https://sourceforge.net/projects/diffuse
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: pygtk
+
+name=diffuse
+version=0.4.8
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.bz2
+	$name.png)
+
+build() {
+	cd $name-$version
+
+	python install.py \
+	--files-only \
+	--prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--destdir=$PKG
+
+	rm -rf $PKG/usr/share/{omf,locale,gnome}
+
+	sed -i "s:Diffuse Merge Tool:Merge Diffuse:" $PKG/usr/share/applications/$name.desktop
+	sed -i "s:Development:Utility:" $PKG/usr/share/applications/$name.desktop
+	
+	# I really do not like the default icon
+	mkdir -p $PKG/usr/share/pixmaps
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	rm -rf $PKG/usr/share/icons
+	
+	rm -rf $PKG/usr/share/man/{cs,it,ru}
+}

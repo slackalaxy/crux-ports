@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZXGFhhwAxyWVItDQmg+WkDEcI9udk5PpCdG6kIhz2txepWp+ysXCCGDFi1n5elrXsbF12bXq6SJjQqEQs/curgk=
+SHA256 (Pkgfile) = ee3659156424b38d49ed1a033d8a5114474a3d8042b88fa9b56f0b52ab13ca13
+SHA256 (.footprint) = a2cf00d16b5794ca85f3381322f42904fc57263992916a23964c844f42482088
+SHA256 (chemtool-1.6.14.tar.gz) = 86161a0461386b334a5ffb17cdf094a491941884678272f45749813514ddafcb
+SHA256 (chemtool.desktop) = 1e5e918d5d8ceb1254310064e190df22fca898c2a9bc37ac4236cf06f346fd30
+SHA256 (chemtool.png) = 75e126021676d6459c62390cb197fa735ed831efac8ab07e957dff426e34e4fb

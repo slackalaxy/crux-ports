@@ -1,0 +1,39 @@
+# Description: Tree Building guidEd by Species Tree
+# URL: https://github.com/Ensembl/treebest
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fltk xorg-libxcursor
+
+name=treebest
+version=347fa82
+release=1
+source=(https://github.com/Ensembl/$name/archive/$version/$name-347fa82a0ce1c169849053fdc9ff7d19d221f290.tar.gz
+	$name.png $name.desktop)
+
+build() {
+	cd $name-347fa82a0ce1c169849053fdc9ff7d19d221f290
+	
+	# Use our CFLAGS
+	sed -i "/^CFLAGS/s/=/+=/" Makefile
+	
+	CFLAGS="$CFLAGS -fcommon"
+	make
+	
+	CFLAGS="$CFLAGS -fcommon"
+	make fltreebest
+
+	install -D -m755 treebest $PKG/usr/bin/treebest
+	install -D -m755 fltreebest $PKG/usr/bin/fltreebest
+	install -D -m755 make_ng86 $PKG/usr/bin/make_ng86
+
+	# Pack some exmples
+	mkdir -p $PKG/usr/share/$name
+	cp -a examples $PKG/usr/share/$name
+	
+	mkdir -p $PKG/usr/lib/$name
+	cp -a scripts/* $PKG/usr/lib/$name
+
+	# Use our icon
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

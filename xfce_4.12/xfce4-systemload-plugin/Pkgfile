@@ -1,0 +1,25 @@
+# Description: Display CPU load, memory, swap, and uptime in the panel
+# URL: http://goodies.xfce.org/projects/panel-plugins/xfce4-systemload-plugin
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: upower xfce4-panel
+
+name=xfce4-systemload-plugin
+version=1.1.2
+release=1
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2
+	0001-g_free-on-a-GtkWidget-is-wrong-on-so-many-levels.-bu.patch)
+build () {
+  cd $name-$version
+  
+  # g_free() on a GtkWidget is wrong on so many levels.. (bug #11713)
+  patch -p1 < $SRC/0001-g_free-on-a-GtkWidget-is-wrong-on-so-many-levels.-bu.patch
+  
+  ./configure --prefix=/usr \
+              --libexecdir=/usr/lib \
+              --disable-debug
+  make
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/locale
+  find $PKG/usr/share/xfce4/panel/plugins -type f -name '*.desktop' \
+       -exec sed -r '/\[.+\]=/d' -i {} \;
+}

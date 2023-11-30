@@ -1,0 +1,757 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/icons/
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Blue/
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleNE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleNE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleNE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleNW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleNW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleSE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleSE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleSE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleSW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleSW.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AngleSW.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner0.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner1.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner10.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner11.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner12.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner13.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner14.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner15.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner16.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner17.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner2.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner3.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner4.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner5.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner6.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner7.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner8.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppSpinner/AppSpinner9.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppStarting.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/AppStarting.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Arrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Arrow.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Arrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ArrowR.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ArrowRight.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ArrowRight.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/BaseE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/BaseN.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/BaseN.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/BaseN.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/BaseS.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/BaseS.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/BaseW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Build.sh
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Build.sh~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Buildwand.sh~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Circle.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Circle.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Circle.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Copy.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Copy.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Copy.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Cross.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Cross.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Cross.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Crosshair.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Crosshair.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-ask.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-ask.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-ask.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-copy.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-copy.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-copy.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-link.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-link.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DND-link.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DownArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/DownArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/HDoubleArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/HDoubleArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Hand.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Hand.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Hand.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/HandPointer.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Handgrab.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Handgrab.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Handsqueezed.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Handsqueezed.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Handsqueezed.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Handwriting.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Handwriting.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Handwriting.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Help.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Help.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Help.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/IBeam.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/IBeam.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/IBeam.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/LeftArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/LeftArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Link.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Link.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Link.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Move.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Move.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Move.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/NO.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/NO.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/NO.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/RightArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/RightArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeAll.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeAll.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeAll.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNESW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNESW.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNESW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNS.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNS.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNS.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNWSE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNWSE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeNWSE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeWE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeWE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/SizeWE.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/HueShifter.bash~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner0.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner1.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner10.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner11.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner12.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner13.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner14.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner15.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner16.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner17.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner2.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner3.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner4.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner5.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner6.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner7.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner8.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Spinner/Spinner9.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/UpArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/UpArrow.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/UpArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/VDoubleArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/VDoubleArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Wait.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Wait.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Wand.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Wand.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/Wand.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/X.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/X.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/X.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ZoomIn.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ZoomIn.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ZoomIn.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ZoomOut.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ZoomOut.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/Source/ZoomOut.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/00008160000006810000408080010102 -> double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/028006030e0e7ebffc7f7070c0600140 -> right_side
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/03b6e0fcb3499374a867c041f52298f0 -> crossed_circle
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/0876e1c15ff2fc01f906f1c363074c0f -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> left_ptr_watch
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/08ffe1cb5fe6fc01f906f1c063814ccf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/1081e37283d90000800003c07f3ef6bf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/14fef782d02440884392942c11205230 -> sb_h_double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/208530c400c041818281048008011002 -> HandSqueezed
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/2870a09082c103050810ffdffffe0204 -> sb_v_double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/3085a0e285430894940527032f8b26df -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/3ecb610c1bf2410f44200f48c40d3599 -> left_ptr_watch
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/4498f0e0c1937ffe01fd06f973665830 -> move
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/5aca4d189052212118709018842178c0 -> HandGrab
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> question_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/6407b0e94181790501fd1e167b474872 -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/640fb0e74195791501fd1ed57b41487f -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/9081237383d90e509aa00f00170e968f -> move
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/9d800788f1b08800ae810202380a0822 -> HandGrab
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/HDoubleArrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/HandGrab
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/HandSqueezed
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/VDoubleArrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/X_cursor
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/base_arrow_down
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/base_arrow_up
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/based_arrow_down
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/based_arrow_up
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/bd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/bottom_left_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/bottom_right_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/bottom_side
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> bd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/center_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/copy
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/cross
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/cross_reverse
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/crossed_circle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/crosshair
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/d9ce0ab605698f320427677b458ad60b -> question_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/dnd-ask
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/dnd-copy
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/dnd-link
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/dnd-move
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/dnd-none
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/draft_large
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/draft_small
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/e29285e634086352946a0e7090d73106 -> hand2
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/f41c0e382c94c0958e07017e42b00462 -> zoomIn
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/f41c0e382c97c0938e07017e42800402 -> zoomOut
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/fcf1c3c7cd4491d801f1e1c78f100000 -> fd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/fd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/h_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/hand
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/hand1
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/hand2
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/left_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/left_ptr_watch
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/left_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/link
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/ll_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/lr_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/move
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/pencil
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/plus
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/question_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/right_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/right_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/sb_down_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/sb_h_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/sb_left_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/sb_right_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/sb_up_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/sb_v_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/tcross
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/top_left_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/top_left_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/top_right_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/top_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/ul_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/ur_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/v_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/watch
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/zoomIn
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/cursors/zoomOut
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Blue/index.theme
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Green/
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Green/Source/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleNE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleNE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleNE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleNW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleNW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleSE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleSE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleSE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleSW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleSW.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AngleSW.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner0.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner1.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner10.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner11.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner12.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner13.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner14.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner15.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner16.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner17.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner2.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner3.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner4.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner5.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner6.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner7.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner8.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppSpinner/AppSpinner9.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppStarting.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/AppStarting.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Arrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Arrow.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Arrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ArrowR.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ArrowRight.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ArrowRight.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/BaseE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/BaseN.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/BaseN.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/BaseN.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/BaseS.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/BaseS.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/BaseW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Build.sh
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Build.sh~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Buildwand.sh~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Circle.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Circle.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Circle.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Copy.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Copy.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Copy.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Cross.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Cross.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Cross.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Crosshair.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Crosshair.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-ask.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-ask.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-ask.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-copy.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-copy.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-copy.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-link.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-link.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DND-link.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DownArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/DownArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/HDoubleArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/HDoubleArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Hand.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Hand.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Hand.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/HandPointer.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Handgrab.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Handgrab.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Handsqueezed.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Handsqueezed.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Handsqueezed.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Handwriting.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Handwriting.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Handwriting.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Help.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Help.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Help.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/IBeam.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/IBeam.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/IBeam.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/LeftArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/LeftArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Link.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Link.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Link.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Move.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Move.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Move.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/NO.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/NO.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/NO.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/RightArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/RightArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeAll.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeAll.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeAll.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNESW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNESW.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNESW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNS.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNS.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNS.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNWSE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNWSE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeNWSE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeWE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeWE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/SizeWE.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/HueShifter.bash~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner0.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner1.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner10.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner11.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner12.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner13.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner14.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner15.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner16.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner17.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner2.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner3.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner4.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner5.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner6.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner7.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner8.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Spinner/Spinner9.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/UpArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/UpArrow.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/UpArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/VDoubleArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/VDoubleArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Wait.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Wait.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Wand.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Wand.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/Wand.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/X.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/X.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/X.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ZoomIn.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ZoomIn.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ZoomIn.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ZoomOut.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ZoomOut.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/Source/ZoomOut.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/00008160000006810000408080010102 -> double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/028006030e0e7ebffc7f7070c0600140 -> right_side
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/03b6e0fcb3499374a867c041f52298f0 -> crossed_circle
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/0876e1c15ff2fc01f906f1c363074c0f -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> left_ptr_watch
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/08ffe1cb5fe6fc01f906f1c063814ccf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/1081e37283d90000800003c07f3ef6bf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/14fef782d02440884392942c11205230 -> sb_h_double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/208530c400c041818281048008011002 -> HandSqueezed
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/2870a09082c103050810ffdffffe0204 -> sb_v_double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/3085a0e285430894940527032f8b26df -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/3ecb610c1bf2410f44200f48c40d3599 -> left_ptr_watch
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/4498f0e0c1937ffe01fd06f973665830 -> move
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/5aca4d189052212118709018842178c0 -> HandGrab
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> question_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/6407b0e94181790501fd1e167b474872 -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/640fb0e74195791501fd1ed57b41487f -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/9081237383d90e509aa00f00170e968f -> move
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/9d800788f1b08800ae810202380a0822 -> HandGrab
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/HDoubleArrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/HandGrab
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/HandSqueezed
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/VDoubleArrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/X_cursor
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/base_arrow_down
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/base_arrow_up
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/based_arrow_down
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/based_arrow_up
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/bd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/bottom_left_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/bottom_right_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/bottom_side
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> bd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/center_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/copy
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/cross
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/cross_reverse
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/crossed_circle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/crosshair
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/d9ce0ab605698f320427677b458ad60b -> question_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/dnd-ask
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/dnd-copy
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/dnd-link
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/dnd-move
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/dnd-none
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/draft_large
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/draft_small
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/e29285e634086352946a0e7090d73106 -> hand2
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/f41c0e382c94c0958e07017e42b00462 -> zoomIn
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/f41c0e382c97c0938e07017e42800402 -> zoomOut
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/fcf1c3c7cd4491d801f1e1c78f100000 -> fd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/fd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/h_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/hand
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/hand1
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/hand2
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/left_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/left_ptr_watch
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/left_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/link
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/ll_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/lr_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/move
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/pencil
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/plus
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/question_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/right_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/right_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/sb_down_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/sb_h_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/sb_left_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/sb_right_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/sb_up_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/sb_v_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/tcross
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/top_left_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/top_left_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/top_right_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/top_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/ul_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/ur_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/v_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/watch
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/zoomIn
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/cursors/zoomOut
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme-Green/index.theme
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme/
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme/Source/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleNE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleNE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleNE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleNW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleNW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleSE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleSE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleSE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleSW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleSW.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AngleSW.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner0.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner1.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner10.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner11.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner12.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner13.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner14.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner15.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner16.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner17.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner2.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner3.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner4.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner5.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner6.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner7.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner8.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppSpinner/AppSpinner9.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppStarting.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/AppStarting.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Arrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Arrow.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Arrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ArrowR.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ArrowRight.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ArrowRight.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/BaseE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/BaseN.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/BaseN.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/BaseN.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/BaseS.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/BaseS.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/BaseW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Build.sh
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Build.sh~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Buildwand.sh~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Circle.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Circle.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Circle.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Copy.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Copy.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Copy.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Cross.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Cross.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Cross.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Crosshair.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Crosshair.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Cursors.svg
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-ask.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-ask.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-ask.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-copy.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-copy.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-copy.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-link.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-link.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DND-link.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DownArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/DownArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/HDoubleArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/HDoubleArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Hand.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Hand.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Hand.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/HandPointer.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Handgrab.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Handgrab.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Handsqueezed.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Handsqueezed.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Handsqueezed.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Handwriting.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Handwriting.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Handwriting.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Help.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Help.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Help.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/IBeam.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/IBeam.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/IBeam.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/LeftArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/LeftArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Link.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Link.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Link.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Move.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Move.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Move.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/NO.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/NO.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/NO.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/RightArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/RightArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeAll.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeAll.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeAll.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNESW.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNESW.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNESW.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNS.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNS.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNS.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNWSE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNWSE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeNWSE.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeWE.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeWE.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/SizeWE.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/HueShifter.bash~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner0.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner1.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner10.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner11.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner12.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner13.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner14.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner15.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner16.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner17.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner2.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner3.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner4.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner5.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner6.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner7.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner8.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Spinner/Spinner9.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/UpArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/UpArrow.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/UpArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/VDoubleArrow.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/VDoubleArrow.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Wait.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Wait.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Wand.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Wand.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/Wand.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/X.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/X.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/X.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ZoomIn.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ZoomIn.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ZoomIn.png
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ZoomOut.conf
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ZoomOut.conf~
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/Source/ZoomOut.png
+drwxr-xr-x	root/root	usr/share/icons/PolarCursorTheme/cursors/
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/00008160000006810000408080010102 -> double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/028006030e0e7ebffc7f7070c0600140 -> right_side
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/03b6e0fcb3499374a867c041f52298f0 -> crossed_circle
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/0876e1c15ff2fc01f906f1c363074c0f -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/08e8e1c95fe2fc01f976f1e063a24ccd -> left_ptr_watch
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/08ffe1cb5fe6fc01f906f1c063814ccf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/1081e37283d90000800003c07f3ef6bf -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/14fef782d02440884392942c11205230 -> sb_h_double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/208530c400c041818281048008011002 -> HandSqueezed
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/2870a09082c103050810ffdffffe0204 -> sb_v_double_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/3085a0e285430894940527032f8b26df -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/3ecb610c1bf2410f44200f48c40d3599 -> left_ptr_watch
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/4498f0e0c1937ffe01fd06f973665830 -> move
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/5aca4d189052212118709018842178c0 -> HandGrab
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 -> question_arrow
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/6407b0e94181790501fd1e167b474872 -> copy
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/640fb0e74195791501fd1ed57b41487f -> link
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/9081237383d90e509aa00f00170e968f -> move
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/9d800788f1b08800ae810202380a0822 -> HandGrab
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/HDoubleArrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/HandGrab
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/HandSqueezed
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/VDoubleArrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/X_cursor
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/base_arrow_down
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/base_arrow_up
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/based_arrow_down
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/based_arrow_up
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/bd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/bottom_left_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/bottom_right_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/bottom_side
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> bd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/center_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/circle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/copy
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/cross
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/cross_reverse
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/crossed_circle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/crosshair
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/d9ce0ab605698f320427677b458ad60b -> question_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/dnd-ask
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/dnd-copy
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/dnd-link
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/dnd-move
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/dnd-none
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/draft_large
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/draft_small
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/e29285e634086352946a0e7090d73106 -> hand2
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/f41c0e382c94c0958e07017e42b00462 -> zoomIn
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/f41c0e382c97c0938e07017e42800402 -> zoomOut
+lrwxrwxrwx	root/root	usr/share/icons/PolarCursorTheme/cursors/fcf1c3c7cd4491d801f1e1c78f100000 -> fd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/fd_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/fleur
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/h_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/hand
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/hand1
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/hand2
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/left_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/left_ptr_watch
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/left_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/link
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/ll_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/lr_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/move
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/pencil
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/plus
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/question_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/right_ptr
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/right_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/sb_down_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/sb_h_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/sb_left_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/sb_right_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/sb_up_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/sb_v_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/tcross
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/top_left_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/top_left_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/top_right_corner
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/top_side
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/ul_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/ur_angle
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/v_double_arrow
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/watch
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/xterm
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/zoomIn
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/cursors/zoomOut
+-rw-r--r--	root/root	usr/share/icons/PolarCursorTheme/index.theme

@@ -1,0 +1,86 @@
+# Description: EMBOSS associated software
+# URL: http://emboss.sourceforge.net/embassy/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: emboss xorg-libxaw
+
+name=embassy
+version=6.6.0
+release=3
+source=(https://sourceforge.net/projects/sboppetrov/files/EMBOSS/CBSTOOLS-1.0.0.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/CLUSTALOMEGA-1.1.0.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/DOMAINATRIX-0.1.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/DOMALIGN-0.1.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/DOMSEARCH-0.1.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/EMNU-1.05.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/ESIM4-1.0.0.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/HMMER-2.3.2.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/IPRSCAN-4.3.1.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/MEME-4.7.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/MSE-3.0.0.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/MYEMBOSS-6.5.1.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/MYEMBOSSDEMO-6.5.0.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/PHYLIPNEW-3.69.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/SIGNATURE-0.1.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/STRUCTURE-0.1.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/TOPO-2.0.650.tar.gz \
+	https://sourceforge.net/projects/sboppetrov/files/EMBOSS/VIENNA-1.7.2.650.tar.gz)
+
+build() {
+
+	# EMBASSY components and their versions
+embassy=(CBSTOOLS-1.0.0.650
+	CLUSTALOMEGA-1.1.0
+	DOMAINATRIX-0.1.650
+	DOMALIGN-0.1.650
+	DOMSEARCH-0.1.650
+	EMNU-1.05.650
+	ESIM4-1.0.0.650
+	HMMER-2.3.2.650
+	IPRSCAN-4.3.1.650
+	MEME-4.7.650
+	MSE-3.0.0.650
+	MYEMBOSS-6.5.1
+	MYEMBOSSDEMO-6.5.0
+	SIGNATURE-0.1.650
+	STRUCTURE-0.1.650
+	TOPO-2.0.650)
+	
+	LIBDIRPATH="-Wl,-rpath,/usr/lib/emboss"
+	
+	for component in ${embassy[@]} ; do
+	  cd $SRC/$component
+	  CFLAGS="$CFLAGS $LIBDIRPATH" \
+	  CXXFLAGS="$CXXFLAGS $LIBDIRPATH" \
+	  LDFLAGS="-L/usr/lib/emboss" \
+	  ./configure --prefix=/usr \
+	  --libdir=/usr/lib/emboss \
+	  --bindir=/usr/lib/emboss/bin
+	  make
+	  make install DESTDIR=$PKG
+	  cd ..
+	done
+	
+	# These two need some extra flags...
+	cd $SRC/VIENNA-1.7.2.650
+	LDFLAGS="-L/usr/lib/emboss" \
+	CFLAGS="$CFLAGS -std=gnu89 $LIBDIRPATH" \
+	CXXFLAGS="$CXXFLAGS -std=gnu89 $LIBDIRPATH" \
+	./configure --prefix=/usr \
+	--libdir=/usr/lib/emboss \
+	--bindir=/usr/lib/emboss/bin
+	make
+	make install DESTDIR=$PKG
+	
+	cd $SRC/PHYLIPNEW-3.69.650
+	LDFLAGS="-L/usr/lib/emboss" \
+	CFLAGS="$CFLAGS -fcommon $LIBDIRPATH" \
+	CXXFLAGS="$CXXFLAGS -fcommon $LIBDIRPATH" \
+	./configure --prefix=/usr \
+	--libdir=/usr/lib/emboss \
+	--bindir=/usr/lib/emboss/bin
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/lib/emboss/*.la	
+	rm -rf $PKG/usr/share/EMBOSS/doc
+}

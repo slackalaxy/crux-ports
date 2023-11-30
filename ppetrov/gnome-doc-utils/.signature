@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZUY9RLna8izGApMP+QinZ0beu/0UwZEzmDlxSzKPSU1m6h1SXc2eA2SksnAMGZGH4u23t5jwpembg9eGT568xQ4=
+SHA256 (Pkgfile) = 29ae5580b15b37650f2535b87098b62b593f9301bd56fcfc289696e0dc09a1d4
+SHA256 (.footprint) = a956900dc036f3f65e5481916a25f8f9d16eb93d2c7eed4e034d9ec900a94aef
+SHA256 (gnome-doc-utils-0.20.10.tar.xz) = cb0639ffa9550b6ddf3b62f3b1add92fb92ab4690d351f2353cffe668be8c4a6
+SHA256 (gnome-doc-utils-0.20.10-python3.patch) = cf9bdb057cef5877a884117a607bf850df357c75c30a13d01ed77b2c36f78ee7

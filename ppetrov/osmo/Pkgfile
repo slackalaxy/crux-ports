@@ -1,0 +1,29 @@
+# Description: Osmo PIM
+# URL: http://clayo.org/osmo/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk libnotify
+
+name=osmo
+version=0.2.14
+release=1
+source=(https://sourceforge.net/projects/$name-pim/files/$name-pim/$name-$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr
+
+	make
+	
+	# Step 'make install' below expects to find *.mo files, or it will fail.
+	# What an idiotic way to make it work, considering this will be removed
+	# from the package anyway...
+	cd po
+	for i in *.po ; do
+	  cp $i ${i%.*}.mo
+	done
+	cd ..
+	
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

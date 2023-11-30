@@ -1,0 +1,72 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/masterpdfeditor4 -> ../lib/masterpdfeditor4/masterpdfeditor4
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/masterpdfeditor4/
+drwxrwxr-x	root/root	usr/lib/masterpdfeditor4/fonts/
+drwxrwxr-x	root/root	usr/lib/masterpdfeditor4/fonts/standard/
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Courier-Bold.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Courier-BoldOblique.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Courier-Oblique.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Courier.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Helvetica-Bold.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Helvetica-BoldOblique.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Helvetica-Oblique.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Helvetica.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Times-Bold.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Times-BoldItalic.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Times-Italic.ttf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/fonts/standard/Times-Roman.ttf
+-rw-rw-r--	root/root	usr/lib/masterpdfeditor4/license.txt
+-rwxr-xr-x	root/root	usr/lib/masterpdfeditor4/masterpdfeditor4
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/masterpdfeditor4.desktop
+-rw-rw-r--	root/root	usr/lib/masterpdfeditor4/masterpdfeditor4.png
+drwxrwxr-x	root/root	usr/lib/masterpdfeditor4/stamps/
+drwxrwxr-x	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Accepted.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Approved.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Completed.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Confidential.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Draft.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Emergency.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Expired.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Final.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Initial.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Received.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Reviewed.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Revised.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Verified.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Void.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Dynamic/Witness.pdf
+drwxrwxr-x	root/root	usr/lib/masterpdfeditor4/stamps/Standard/
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Accepted.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Approved.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Completed.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Confidential.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Draft.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Emergency.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Expired.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Final.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Initial.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Received.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Reviewed.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Revised.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Verified.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Void.pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/stamps/Standard/Witness.pdf
+drwxrwxr-x	root/root	usr/lib/masterpdfeditor4/templates/
+drwxrwxr-x	root/root	usr/lib/masterpdfeditor4/templates/stamps/
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Arrow Stamp(blue).pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Arrow Stamp(green).pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Arrow Stamp(red).pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Rectangle Stamp(blue).pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Rectangle Stamp(green).pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Rectangle Stamp(red).pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Square Stamp(blue).pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Square Stamp(green).pdf
+-rw-r--r--	root/root	usr/lib/masterpdfeditor4/templates/stamps/Square Stamp(red).pdf
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/masterpdfeditor4.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/masterpdfeditor4.png

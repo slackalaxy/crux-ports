@@ -1,0 +1,17 @@
+# Description: Infers approximately-ML phylogenetic trees
+# URL: http://www.microbesonline.org/fasttree/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=fasttree
+version=2.1.11
+release=1
+source=(http://www.microbesonline.org/fasttree/FastTree.c)
+
+build() {
+	gcc $CFLAGS -o FastTree FastTree.c -lm
+	install -D -m755 FastTree $PKG/usr/bin/FastTree
+	
+	cd $PKG/usr/bin
+	ln -s FastTree $name
+}

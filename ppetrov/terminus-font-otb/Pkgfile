@@ -1,0 +1,18 @@
+# Description: Terminus font
+# URL: http://terminus-font.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xorg-bdftopcf xorg-mkfontscale
+
+name=terminus-font-otb
+version=4.49.1
+release=1
+source=(http://downloads.sourceforge.net/terminus-font/terminus-font-$version.tar.gz)
+
+build() {
+	cd terminus-font-$version
+	
+	chmod +x configure
+	./configure --prefix=/usr		
+	make otb
+	make install-otb DESTDIR=$PKG
+}

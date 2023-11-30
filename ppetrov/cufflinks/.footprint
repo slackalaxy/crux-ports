@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/compress_gtf
+-rwxr-xr-x	root/root	usr/bin/cuffcompare
+-rwxr-xr-x	root/root	usr/bin/cuffdiff
+-rwxr-xr-x	root/root	usr/bin/cufflinks
+-rwxr-xr-x	root/root	usr/bin/cuffmerge
+-rwxr-xr-x	root/root	usr/bin/cuffnorm
+-rwxr-xr-x	root/root	usr/bin/cuffquant
+-rwxr-xr-x	root/root	usr/bin/gffread
+-rwxr-xr-x	root/root	usr/bin/gtf_to_sam

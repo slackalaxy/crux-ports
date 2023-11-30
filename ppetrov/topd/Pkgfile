@@ -1,0 +1,13 @@
+# Description: TOPD/FMTS is a new software for comparing phylogenetic trees
+# URL: http://ppuigbo.me/programs/topd/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=topd
+version=4.6
+release=1
+source=(http://ppuigbo.me/programs/$name/download/${name}_v${version}.tar.gz)
+
+build() {
+	install -D -m755 ${name}_v${version}.pl $PKG/usr/bin/$name.pl
+}

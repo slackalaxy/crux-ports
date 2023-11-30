@@ -1,0 +1,22 @@
+diff -pruN old/driver/XScreenSaver.ad.in new/driver/XScreenSaver.ad.in
+--- old/driver/XScreenSaver.ad.in	2021-06-09 15:47:14.611683094 +0000
++++ new/driver/XScreenSaver.ad.in	2021-08-15 13:27:53.264905867 +0000
+@@ -411,6 +411,7 @@ XScreenSaver.bourneShell:		/bin/sh
+ 				squiral -root				    \n\
+ 				wander -root				    \n\
+ -				webcollage -root			    \n\
++				electricsheep --root 1			    \n\
+ 				xflame -root				    \n\
+ 				xmatrix -root				    \n\
+ @GL_KLUDGE@ GL: 				gflux -root				    \n\
+diff -pruN old/driver/XScreenSaver_ad.h new/driver/XScreenSaver_ad.h
+--- old/driver/XScreenSaver_ad.h	2021-03-29 15:36:54.355879412 +0000
++++ new/driver/XScreenSaver_ad.h	2021-08-15 13:27:13.416906485 +0000
+@@ -266,6 +266,7 @@
+ 				squiral -root				    \\n\
+ 				wander -root				    \\n\
+ -				webcollage -root			    \\n\
++				electricsheep --root 1                      \\n\
+ 				xflame -root				    \\n\
+ 				xmatrix -root				    \\n\
+   GL: 				gflux -root				    \\n\

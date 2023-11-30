@@ -1,0 +1,38 @@
+# Description: eXtensible ARchiver
+# URL: https://opensource.apple.com/source/xar/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libxml2
+
+name=xar
+version=452
+release=1
+source=(https://github.com/apple-oss-distributions/xar/archive/$name-$version/$name-$name-$version.tar.gz
+	xar-1.6.1-ext2.patch
+	xar-1.8-arm-ppc.patch
+	xar-1.8-openssl-1.1.patch
+	xar-1.8-safe_dirname.patch
+	xar-1.8.0.0.452-linux.patch)
+
+build() {
+	cd $name-$name-$version/$name
+	
+	# adapted from xar.SlackBuild
+	# https://slackbuilds.org/repository/15.0/system/xar/
+	patch -p1 < $SRC/xar-1.6.1-ext2.patch
+	patch -p1 < $SRC/xar-1.8-arm-ppc.patch
+	patch -p1 < $SRC/xar-1.8-openssl-1.1.patch
+	patch -p1 < $SRC/xar-1.8-safe_dirname.patch
+	patch -p1 < $SRC/xar-1.8.0.0.452-linux.patch
+	
+	sed -i 's,"\(\(util\|filetree\)\.h\)",<\1>,' src/xar.c
+	bash autogen.sh --noconfigure
+
+	LIBS="$( pkg-config --libs openssl )" \
+	CFLAGS="$CFLAGS -Wl,-s -I$(pwd)/lib" \
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+
+	rm -f $PKG/usr/lib/*.la
+}

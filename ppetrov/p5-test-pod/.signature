@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZWZEWTPXJ0IWLL2ZfawjKPo1LWee2jRlMtQZ36udnamkJxLJoDR/a+YKUrrATsCO2JRUugX7y9gqo21zy8flPg0=
+SHA256 (Pkgfile) = 91006f0d5926dead53e378943102240c2587c773b9b2a582caca9a0def2a7442
+SHA256 (.footprint) = 034639b5a16a57c0a320c3ed85d9b535ae4facb06ed1a9f4b1f1758bb3677407
+SHA256 (Test-Pod-1.52.tar.gz) = 60a8dbcc60168bf1daa5cc2350236df9343e9878f4ab9830970a5dde6fe8e5fc

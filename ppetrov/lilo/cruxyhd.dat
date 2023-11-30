@@ -1,0 +1,14 @@
+# Lilo boot menu background configuration  (Lilo 23)
+#
+# color palette: 0 dark grey, 1 dark grey, 2 dim blue, 3 dark blue,
+#                4 blue, 5 dark magenta, 6 pink, 7 grey
+#
+# bmp-table  = <x>,<y>;<ncol>,<nrow>,<xsep>,<spill>
+# bmp-colors = <fg>,<bg>,<sh>;<high-fg>,<high-bg>,<high-sh>
+# bmp-timer  = <x>,<y>;<fg>,<bg>,<sh>
+
+bitmap = cruxyhd.bmp
+
+  bmp-table = 60,6,1,16
+  bmp-colors = 7,,0;6,,0
+  bmp-timer  = 60,27;7,,0

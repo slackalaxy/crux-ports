@@ -1,0 +1,3 @@
+#!/bin/bash
+update-desktop-database
+gdk-pixbuf-query-loaders --update-cache

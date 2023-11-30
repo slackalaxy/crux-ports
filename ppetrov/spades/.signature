@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZSCoVIfptLuOT1u4cPsF8aP5YipSM+jUl0weALzjrOstqS3wbfNdvnNGEX8W/sLRCkL5O7Oj6D6ZA0MO3dNmEAE=
+SHA256 (Pkgfile) = 5b64d4489847e4aab4d1ca2d558a52d3dc8c929fe17cc01e947db55d883a28df
+SHA256 (.footprint) = d563bd7a1b86dfcf00aa015cc5a7556c7b194cdf39109e2397c9f8050df90a6d
+SHA256 (SPAdes-3.15.4.tar.gz) = 3b241c528a42a8bdfdf23e5bf8f0084834790590d08491decea9f0f009d8589f

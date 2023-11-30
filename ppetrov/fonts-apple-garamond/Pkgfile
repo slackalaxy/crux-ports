@@ -1,0 +1,18 @@
+# Description: Apple TTF
+# URL: https://svn.code.sf.net/p/macbuntu/code/Macbuntu/fonts/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=fonts-apple-garamond
+version=134
+release=1
+source=(https://svn.code.sf.net/p/macbuntu/code/Macbuntu/fonts/mac/AppleGaramond-Bold.ttf
+	https://svn.code.sf.net/p/macbuntu/code/Macbuntu/fonts/mac/AppleGaramond-BoldItalic.ttf
+	https://svn.code.sf.net/p/macbuntu/code/Macbuntu/fonts/mac/AppleGaramond-Italic.ttf
+	https://svn.code.sf.net/p/macbuntu/code/Macbuntu/fonts/mac/AppleGaramond-Light.ttf
+	https://svn.code.sf.net/p/macbuntu/code/Macbuntu/fonts/mac/AppleGaramond-LightItalic.ttf
+	https://svn.code.sf.net/p/macbuntu/code/Macbuntu/fonts/mac/AppleGaramond.ttf)
+
+build() {
+	mkdir -p $PKG/usr/share/fonts/apple
+	cp -a *.ttf $PKG/usr/share/fonts/apple
+}

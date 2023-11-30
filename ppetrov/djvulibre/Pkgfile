@@ -1,0 +1,20 @@
+# Description: DjVu decoding api
+# URL: http://djvu.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libwebp
+
+name=djvulibre
+version=3.5.28
+release=2
+source=(https://sourceforge.net/projects/djvu/files/DjVuLibre/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/djvu
+	
+	rm -f $PKG/{,usr/}lib/*.la
+}

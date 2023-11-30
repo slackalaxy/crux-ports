@@ -1,0 +1,25 @@
+# Description: Display mainboard sensors, fan speeds, and hard drive temperatures in the panel
+# URL: http://goodies.xfce.org/projects/panel-plugins/xfce4-sensors-plugin
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libnotify lm_sensors xfce4-panel
+
+name=xfce4-sensors-plugin
+version=1.2.6
+release=1
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+build () { 
+	cd $name-$version
+	sed -i panel-plugin/* -e 's|panel-plugins|panel/plugins|g'
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CXXFLAGS -fcommon" \
+	CONFIG_SHELL=/bin/bash \
+	./configure --prefix=/usr \
+                --libexecdir=/usr/lib \
+                --disable-static \
+                --disable-debug
+  make
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/locale
+  find $PKG -type f -name '*.desktop' \
+       -exec sed -r '/\[.+\]=/d' -i {} \;
+}

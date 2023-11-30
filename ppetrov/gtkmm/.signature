@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQSpghhHVlVbjYksTrAqVh/i20BO6SQDqIJpMkd38R1JWE/M6oCqNafHMw88pic3peKaWUGOr8S7GlkE/QQgDAE=
+SHA256 (Pkgfile) = 5510e4f87d6c1c1514694b4ecf486c26889ec6d62f23fa137487c0505033d2ef
+SHA256 (.footprint) = c236d26397609eb03de8bf391c3a983208305af175812977df8be99dcaf63844
+SHA256 (gtkmm-2.24.5.tar.xz) = 0680a53b7bf90b4e4bf444d1d89e6df41c777e0bacc96e9c09fc4dd2f5fe6b72

@@ -1,0 +1,186 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/icons/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/16x16/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/16x16/places/
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/desktop.png -> user-desktop.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/folder-documents.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/folder-download.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/folder-music.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/folder-pictures.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/folder-publicshare.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/folder-templates.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/folder-videos.png -> gnome-fs-directory.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/16x16/places/folder_home.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/16x16/places/gnome-fs-desktop.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/16x16/places/gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/gnome-fs-home.png -> folder_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/go-home.png -> stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/gohome.png -> stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/gtk-home.png -> go-home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/inode-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/stock_folder.png -> gnome-fs-directory.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/16x16/places/stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/user-bookmarks.png -> gnome-fs-directory.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/16x16/places/user-desktop.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/16x16/places/user-home.png -> folder_home.png
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/22x22/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/22x22/places/
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/folder-documents.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/folder-download.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/folder-music.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/folder-pictures.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/folder-publicshare.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/folder-templates.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/folder-videos.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/22x22/places/folder_home.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/22x22/places/gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/gnome-fs-home.png -> folder_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/go-home.png -> stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/gohome.png -> stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/gtk-home.png -> go-home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/inode-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/stock_folder.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/22x22/places/stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/user-bookmarks.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/22x22/places/user-home.png -> folder_home.png
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/24x24/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/24x24/places/
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/desktop.png -> gnome-fs-desktop.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/folder-documents.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/folder-download.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/folder-music.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/folder-pictures.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/folder-publicshare.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/folder-templates.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/folder-videos.png -> gnome-fs-directory.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/24x24/places/folder_home.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/24x24/places/gnome-fs-desktop.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/24x24/places/gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/gnome-fs-home.png -> folder_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/go-home.png -> stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/gohome.png -> stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/gtk-home.png -> go-home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/inode-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/stock_folder.png -> gnome-fs-directory.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/24x24/places/stock_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/user-bookmarks.png -> gnome-fs-directory.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/24x24/places/user-desktop.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/24x24/places/user-home.png -> folder_home.png
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/32x32/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/32x32/places/
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/folder-documents.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/folder-download.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/folder-music.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/folder-pictures.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/folder-publicshare.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/folder-templates.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/folder-videos.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/32x32/places/folder_home.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/32x32/places/gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/gnome-fs-home.png -> folder_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/inode-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/stock_folder.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/user-bookmarks.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/32x32/places/user-home.png -> folder_home.png
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/36x36/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/36x36/places/
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/folder-documents.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/folder-download.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/folder-music.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/folder-pictures.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/folder-publicshare.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/folder-templates.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/folder-videos.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/36x36/places/folder_home.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/36x36/places/gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/gnome-fs-home.png -> folder_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/inode-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/stock_folder.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/user-bookmarks.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/36x36/places/user-home.png -> folder_home.png
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/48x48/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/48x48/emblems/
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/emblems/emblem-nowrite.png
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/48x48/places/
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/desktop.png -> user-desktop.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-documents.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-download.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-drag-accept.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-music.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-open.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-pictures.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-publicshare.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-remote.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-templates.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder-videos.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/folder_open.png -> folder-open.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-desktop.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-directory-72.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-directory-96.png
+-rwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-directory-accept.icon
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-directory-accept.png -> folder-drag-accept.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-ftp.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-home.png -> folder_home.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-share.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-smb.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-ssh.png -> gnome-fs-nfs.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-trash-empty-accept.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-trash-empty.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-trash-full-accept.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-trash-full.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-fs-windows.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gnome-mime-x-directory-smb-share.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gtk-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/gtk-open.png -> gtk-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/inode-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/network.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/stock_folder.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/trashcan_empty.png -> gnome-fs-trash-empty.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/trashcan_full.png -> gnome-fs-trash-full.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/user-bookmarks.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/48x48/places/user-desktop.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/user-home.png -> folder_home.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/user-trash-full.png -> gnome-fs-trash-full.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/xfce-trash_empty.png -> gnome-fs-trash-empty.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/48x48/places/xfce-trash_full.png -> gnome-fs-trash-full.png
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/64x64/
+drwxrwxr-x	root/root	usr/share/icons/SmokeyBlue/64x64/places/
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder-documents.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder-download.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder-music.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder-pictures.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder-publicshare.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder-remote.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder-templates.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder-videos.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/folder.png -> gnome-fs-directory.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-ftp.png -> gnome-fs-nfs.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-share.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-smb.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-ssh.png -> gnome-fs-nfs.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-trash-empty-accept.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-trash-empty.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-trash-full-accept.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-fs-trash-full.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-mime-x-directory-smb-share.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/gnome-stock-trash.png -> gnome-fs-trash-empty.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/gtk-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/inode-directory.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/network.png -> gnome-fs-nfs.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/stock_folder.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/trashcan_empty.png -> gnome-fs-trash-empty.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/trashcan_full.png -> gnome-fs-trash-full.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/user-bookmarks.png -> gnome-fs-directory.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/user-trash-full.png -> gnome-fs-trash-full.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/64x64/places/user-trash.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/xfce-trash_empty.png -> gnome-fs-trash-empty.png
+lrwxrwxrwx	root/root	usr/share/icons/SmokeyBlue/64x64/places/xfce-trash_full.png -> gnome-fs-trash-full.png
+-rw-rw-r--	root/root	usr/share/icons/SmokeyBlue/index.theme

@@ -1,0 +1,23 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>Office</Name>
+    <Directory>xfce4-office.directory</Directory>
+  <Menu>
+    <Name>OpenOffice</Name>
+    <Directory>openoffice.directory</Directory>
+    <Include>
+    <Filename>base.desktop</Filename>
+	<Filename>calc.desktop</Filename>
+	<Filename>draw.desktop</Filename>
+	<Filename>impress.desktop</Filename>
+	<Filename>math.desktop</Filename>
+	<Filename>printeradmin.desktop</Filename>
+	<Filename>startcenter.desktop</Filename>
+	<Filename>writer.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+</Menu>

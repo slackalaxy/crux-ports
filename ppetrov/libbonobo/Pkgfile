@@ -1,0 +1,32 @@
+# Description: Independant CORBA interface support library
+# URL: https://download.gnome.org/sources/libbonobo/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: orbit2
+
+name=libbonobo
+version=2.32.1
+release=1
+source=(https://download.gnome.org/sources/$name/${version%.*}/$name-$version.tar.bz2
+	remove_use_of_G_DISABLE_DEPRECATED.patch
+	test_no_srcdir.patch)
+
+build() {
+	cd $name-$version
+	
+	# Apply patch from upstream to build with the newer glib
+	patch -p1 < $SRC/remove_use_of_G_DISABLE_DEPRECATED.patch
+	patch -p1 < $SRC/test_no_srcdir.patch
+
+	autoreconf -fi
+
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--libexecdir=/usr/lib/$name \
+	--disable-nls
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+	rm -f $PKG/{,usr/}lib/*.la
+}

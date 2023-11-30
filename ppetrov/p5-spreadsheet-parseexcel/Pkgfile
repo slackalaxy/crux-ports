@@ -1,0 +1,22 @@
+# Description:	Read information from an Excel file.
+# URL:		http://github.com/runrig/spreadsheet-parseexcel/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-crypt-rc4 p5-digest-perl-md5 p5-io-stringy p5-ole-storage_lite
+
+name=p5-spreadsheet-parseexcel
+version=0.65
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/D/DO/DOUGW/Spreadsheet-ParseExcel-${version}.tar.gz)
+
+build() {
+	cd Spreadsheet-ParseExcel-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

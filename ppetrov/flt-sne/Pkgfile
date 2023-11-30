@@ -1,0 +1,25 @@
+# Description: FFT-accelerated Interpolation-based t-SNE (FIt-SNE)
+# URL: https://github.com/KlugerLab/FIt-SNE
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fftw
+
+name=flt-sne
+version=1.2.1
+release=2
+source=(https://github.com/KlugerLab/FIt-SNE/archive/refs/tags/v1.2.1.tar.gz)
+
+build() {
+	cd FIt-SNE-$version
+	
+	g++ -std=c++11 $CXXFLAGS  src/sptree.cpp src/tsne.cpp src/nbodyfft.cpp  -o bin/fast_tsne -pthread -lfftw3 -lm -Wno-address-of-packed-member
+	
+	install -D -m755 bin/fast_tsne $PKG/usr/bin/fast_tsne
+	
+	mkdir -p $PKG/usr/lib/$name
+	cp -a fast_tsne.* $PKG/usr/lib/$name
+	chmod 0755 $PKG/usr/lib/$name/*
+	
+	mkdir -p $PKG/usr/share/$name
+	cp -a examples/* $PKG/usr/share/$name
+	chmod 0644 $PKG/usr/share/$name/*
+}

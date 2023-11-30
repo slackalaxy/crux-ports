@@ -1,0 +1,28 @@
+# Description: Flow cytometry data analysis and display program
+# URL: https://frankbattye.com.au/Weasel/WeaselDownload.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: jdk8-bin facsdir
+
+name=wehi-weasel
+version=38118
+release=1
+source=(https://frankbattye.com.au/Weasel/WeaselDownload.html $name.sh $name.desktop $name.png $name.menu)
+renames=(wsl${version}unix.zip SKIP SKIP SKIP SKIP)
+
+build() {
+	cd Weasel
+	
+	mkdir -p $PKG/usr/lib/$name
+	cp -a *.{jar,gif,ico,doc} $PKG/usr/lib/$name
+
+	# You may wish to check this simple wrapper for the amount of RAM that
+	# is allocated to the program.
+	install -D -m755 $SRC/$name.sh $PKG/usr/bin/$name
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	mkdir -p $PKG/usr/etc/xdg/menus/applications-merged
+	cp $SRC/$name.menu $PKG/usr/etc/xdg/menus/applications-merged
+}

@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZddXceNy7/m1z6ekDLc+G8ybwQ8oU2w/24ju+uVUHwQa3Vy7SYHcnc+vgT2i8EgR+cS9ykHyEqz2GpD2tIx+mg4=
+SHA256 (Pkgfile) = 06183218f4df8c45b3f72a675e0508da0472b502ce39f54621bc49ff9dddbbfe
+SHA256 (.footprint) = 4314469b9e59c47811f7d6eb9674c5204f557cc4a601d547495459db5c6e8568
+SHA256 (streamtuner-0.99.99.tar.gz) = 5c223a5e8dab9e504617bd221914e97bd2f0ae5f6ed8fe78b8ea8b427fee9123
+SHA256 (streamtuner-0.99.99-live365.diff) = 3605841bda8a7571d447b25c46b36181ee3c2b03c0d6211ff91e6c82f0cf7758

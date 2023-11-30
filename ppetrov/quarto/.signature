@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZStUaWHBwpkeMPm6BXpaNQ8yqumJNhi9cp/oSmzdz/VZUR3vfWuA+JR6oOUrXBfrkFr6PjREislEqLj0J3GcWQ8=
+SHA256 (Pkgfile) = a79215a19d2b1372b174df8deee135f0bc1424c7552a29630f9ef2d74bdf400f
+SHA256 (.footprint) = 8bffbd82095ccf5f425a1bc0152e7415600966732970a5d286b8c437880eadd5
+SHA256 (quarto-1.3.450-linux-amd64.tar.gz) = 6dc8fb4b31067d0c6cc3d3fc5a470bacabab3eea73c298081adc68137295c005

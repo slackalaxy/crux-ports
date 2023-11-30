@@ -1,0 +1,11 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZb0tfUfW6Hx8W0q5e9pEQv9NiOcNtvVQzsDp8vbSXfwDY9kksWhTI0e8h9dyXkfU4d+iIwoQLmLrTj7PCFuwPQw=
+SHA256 (Pkgfile) = b32e4fd217cb1d69186808c50767d594d26bd2ab53d553b0ada843b5433b0402
+SHA256 (.footprint) = a4ff79b1d7a91372f930aaec6a2578b8d8aa3fa763d8ec308614921f11abb53f
+SHA256 (gst-plugins-base-0.10.36.tar.xz) = 1fe45c3894903001d4d008b0713dab089f53726dcb5842d5b40c2595a984e64a
+SHA256 (00-fix-crash-0-byte-ogg.patch) = a6a01035ea9627737f9c17f72919857ed43ccc7c2cb08b645b43ed89f78d0f4f
+SHA256 (01-colorbalance-fix-abi.patch) = 7442c5c68068428b8c7ac1d3825ce29f1bb152b75b77047b9e806c7d322b780c
+SHA256 (02-ayuv64-lanczos.patch) = 3792dfe80c69f51c0db98533e8fb16707b5dd2ee6933ea6098583af873ceb44a
+SHA256 (03-videoscale-fix-negotiation.patch) = ae27f7be58997217f67898b37b138a485c203389e56b65e6b31c23f769ef39ca
+SHA256 (04-gstaudio-symbols.patch) = 56e7a988df39d2ec4befa265536ad8c30d3c8d18d136cebef64e8d6baac1abae
+SHA256 (05-enum_headers.patch) = 0e2a6ef0479621d522c7dbaeb577df3e422c8f7111f5892540f8437475a38932

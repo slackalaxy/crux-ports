@@ -1,0 +1,4 @@
+I use ktsuss, therefore the desktop file calls it. If you do not like
+that, just edit the "Exec=" line of:
+
+	/usr/share/applications/lshw.desktop

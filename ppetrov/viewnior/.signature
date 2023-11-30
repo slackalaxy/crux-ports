@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZfhHHrGBdHvfWlyIBkJSQjitQ1DfXe/mhcU6fxVseqvHFmSxZosaQM1Se7CB08kBpWKd7HY5Wz1b8wxcG13CcAQ=
+SHA256 (Pkgfile) = d4bd4d2125ac6e97d632d91a2572c432439fdbd3595728a021da1029b952dca2
+SHA256 (.footprint) = b761eb26901d4c7fb126f55ce6de8e01563c26ec167a9c06eecaa7e5a62d32e6
+SHA256 (viewnior-1.8.tar.gz) = b9319171ebca23929e6ea8039c194b1595d92e764db5e3890836fb5c36e233b0
+SHA256 (exiv2-0.28.patch) = 307550f68decc1d2bd67bb0c5ec52205c654446fcd06c6ea14973406790535c3

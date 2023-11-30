@@ -1,0 +1,10 @@
+To make PNMixer work with PulseAudio, set in /etc/alsa/conf.d
+99-pulseaudio-default.conf.example as 99-pulseaudio-default.conf
+
+Then in PNMixer, go to:
+
+Preferences > Card > default
+Channel: master
+
+Behaviour
+pavucontrol-qt (e.g.)

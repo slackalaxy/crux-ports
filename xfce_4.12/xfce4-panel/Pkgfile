@@ -1,0 +1,43 @@
+# Description: Xfce panel core
+# URL: https://docs.xfce.org/xfce/xfce4-panel/start
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: exo garcon libwnck
+
+name=xfce4-panel
+version=4.12.2
+release=2
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2
+	applicationsmenu.patch)
+
+build () {
+	cd $name-$version
+  
+	# This builds the applicationsmenu plugin for the panel from Xfce 4.10.
+	# The one from 4.12 does not obey custom sizes for the icons in the menu
+	# set in ~/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml by the
+	# option "panel-applications-menu=22", for example like this:
+	# https://slackalaxy.com/2012/11/11/bigger-menu-icons-in-xfce/
+	# There's this discussion, where trash4inbox just made a patch:
+	# https://bugzilla.xfce.org/show_bug.cgi?id=11757#c10
+	# I decided to give it a try. It works, but I do not know if this is the
+	# right way to do things.
+
+	patch -p1 -i $SRC/applicationsmenu.patch
+
+	# Blink to notify 4 times (4 on, 4 off), not G_MAXUINT times:
+	sed -i "s:#define MAX_BLINKING_COUNT (G_MAXUINT):#define MAX_BLINKING_COUNT (8):" libxfce4panel/xfce-arrow-button.c
+
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib \
+	--enable-gtk3 \
+	--disable-nls \
+	--disable-gtk-doc \
+	--disable-gtk-doc-html
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{locale,gtk-doc}
+	find $PKG/usr/share/xfce4/panel/plugins -type f -name '*.desktop' \
+	-exec sed -r '/\[.+\]=/d' -i {} \;
+}

@@ -1,0 +1,31 @@
+# Description: Utilities to manipulate DNA sequences
+# URL: http://www.bioinformatics.org/genpak/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=genpak
+version=0.26
+release=1
+source=(http://www.bioinformatics.org/$name/download/gp-$version.tgz)
+
+build() {
+	cd gp-$version
+	
+	# arch-independent data files belong in /usr/share:
+	sed -i "s,usr/lib/,usr/share/,g" src/* man1/* html/* *.TXT
+
+	make \
+	CFLAGS="$CFLAGS -fcommon"
+	TREE=/usr \
+	BINDIR=/usr/bin \
+	DATADIR=/usr/share \
+	MANDIR=/usr/share/man
+
+	mkdir -p $PKG/usr/{bin,share/man/man1}
+
+	make install \
+	TREE=$PKG/usr \
+	BINDIR=$PKG/usr/bin \
+	DATADIR=$PKG/usr/share \
+	MANDIR=$PKG/usr/share/man
+}

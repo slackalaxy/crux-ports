@@ -1,0 +1,26 @@
+# Description: Chemical Molecule Drawing Program
+# URL: http://ruby.chemie.uni-freiburg.de/~martin/chemtool/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=chemtool
+version=1.6.14
+release=1
+source=(http://ruby.chemie.uni-freiburg.de/~martin/$name/$name-$version.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-$version
+	
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CXXFLAGS -fcommon" \
+	./configure --prefix=/usr \
+	--disable-nls
+
+	make
+	make install DESTDIR=$PKG
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+	cp $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
+}

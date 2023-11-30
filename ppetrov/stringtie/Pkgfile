@@ -1,0 +1,22 @@
+# Description: Transcript assembly and quantification for RNA-Seq
+# URL: http://ccb.jhu.edu/software/stringtie/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=stringtie
+version=2.2.1
+release=1
+source=(http://ccb.jhu.edu/software/stringtie/dl/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	make release \
+	CFLAGS="$CFLAGS"
+	
+	install -D -m755 $name $PKG/usr/bin/$name
+	
+	install -D -m755 prepDE.py $PKG/usr/lib/$name/prepDE.py
+	install -D -m755 prepDE.py3 $PKG/usr/lib/$name/prepDE.py3
+	install -D -m755 run_tests.sh $PKG/usr/lib/$name/run_tests.sh 
+}

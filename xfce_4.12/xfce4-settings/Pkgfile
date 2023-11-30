@@ -1,0 +1,27 @@
+# Description: Xfce configuration settings core
+# URL: https://docs.xfce.org/xfce/xfce4-settings/start
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: exo garcon libnotify libxklavier upower
+
+name=xfce4-settings
+version=4.12.4
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2
+	xfce4-settings.theme.diff.gz
+	xfce4-settings.xft.defaults.diff.gz)
+build () {
+  cd $name-$version
+  zcat $PWD/xfce4-settings.theme.diff.gz | patch -p1 --verbose || exit 1
+  zcat $PWD/xfce4-settings.xft.defaults.diff.gz | patch -p1 --verbose || exit 1
+  ./configure --prefix=/usr \
+              --disable-nls \
+              --enable-xrandr \
+              --enable-sound-settings \
+              --enable-libnotify \
+              --enable-libxklavier \
+              --enable-xcursor \
+              --enable-pluggable-dialogs
+  make
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/{locale,doc}
+}

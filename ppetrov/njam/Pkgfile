@@ -1,0 +1,34 @@
+# Description: A full-featured cross-platform pac-man like game.
+# URL: https://ecsoft2.org/njam
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: sdl_image sdl_mixer sdl_net
+
+name=njam
+version=1.25
+release=1
+source=(http://ftp.de.debian.org/debian/pool/main/n/njam/njam_${version}.orig.tar.gz
+	changed_hiscore_name.patch
+	drop_gda.patch
+	gcc_46.patch
+	$name.desktop
+	$name.png)
+
+build() {
+	cd $name-$version-src
+	
+	# Thanks to Debian for the patches (and the source tarball!)
+	patch -p1 < $SRC/changed_hiscore_name.patch
+	patch -p1 < $SRC/drop_gda.patch
+	patch -p1 < $SRC/gcc_46.patch
+
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	rm -rf $PKG/usr/share/njam/{README,html}
+}

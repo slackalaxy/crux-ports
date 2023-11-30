@@ -1,0 +1,9 @@
+drwxr-xr-x	root/root	etc/
+-rw-r--r--	root/root	etc/firewall.conf
+-rw-r--r--	root/root	etc/hosts.allow
+-rw-r--r--	root/root	etc/hosts.deny
+drwxr-xr-x	root/root	etc/rc.d/
+-rwxr-xr-x	root/root	etc/rc.d/firewalld
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/sbin/
+-rwxr-xr-x	root/root	usr/sbin/firewall

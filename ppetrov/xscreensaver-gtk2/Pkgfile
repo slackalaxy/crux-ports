@@ -1,0 +1,41 @@
+# Description: XScreenSaver patched to work with electricsheep and rss-glx
+# URL: https://www.jwz.org/xscreensaver/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bc electricsheep gdk-pixbuf-xlib linux-pam xorg-libxi xorg-libxmu
+
+name=xscreensaver-gtk2
+version=6.04
+release=2
+source=(https://ftp.osuosl.org/pub/blfs/conglomeration/xscreensaver/xscreensaver-$version.tar.gz
+	xscreensaver.pam 01_electricsheep.patch 02_rss.patch)
+
+build() {
+	cd xscreensaver-$version
+
+	patch -p1 -i $SRC/01_electricsheep.patch
+	patch -p1 -i $SRC/02_rss.patch
+	./configure --prefix=/usr \
+	--libdir=/usr/lib \
+	--libexecdir=/usr/lib \
+	--with-pam \
+	--with-login-manager \
+	--with-gtk \
+	--with-gl \
+	--without-gle \
+	--with-pixbuf \
+	--with-jpeg
+
+	make
+	make install_prefix=$PKG install
+	chmod 755 $PKG/usr/bin/xscreensaver
+	install -d $PKG/usr/share/wallpapers
+
+	echo "NotShowIn=KDE;GNOME;" >> $PKG/usr/share/applications/xscreensaver-settings.desktop
+	sed -i "s:Screensaver;::" $PKG/usr/share/applications/xscreensaver-settings.desktop
+	rm -rf $PKG/usr/share/applications/xscreensaver.desktop
+	
+	# PAM service file
+	install -D -m 0644 $SRC/xscreensaver.pam $PKG/etc/pam.d/xscreensaver
+
+	rm -rf $PKG/usr/share/{locale,xscreensaver/config/README}
+}

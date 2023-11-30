@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQBSxnhv+pJX0K61V1oMI23KU1apBcAzbEhIP5aE/pYA6CfAzIBoEVmqp+zRzEbqMmTTXxFb7xYboNcXOEST4QY=
+SHA256 (Pkgfile) = 18a48af2f450065752f56f1cd4c3f8ada728ffced5e50c31ff64f1e8dd560f7c
+SHA256 (.footprint) = 51d387b5ad194696e6d937181f4f3824b50c5230c26eab8b2753700f7b012bd2
+SHA256 (FCSalyzer%200.9.22-alpha.zip) = 7895bca2a8ecf4105662a328c0587c9aa93aa06db8788d1eeacf6544ff64b9cd
+SHA256 (FCSalyzer.desktop) = 4aab1ff56dca458e2b2ca69dd1d4d7bcac6aff8f0c90ec65ee66b5cbbd7d6def
+SHA256 (FCSalyzer.png) = f3e125b2488a2c71ea925b8d1f883f7aa47f6b17e5dbbfa7e7102de24fb05c20
+SHA256 (fcsalyzer.menu) = 7e41cfdcb1a6a16b20de4d70fdca50934bcb25032da2c627e6f97dfaada049d0

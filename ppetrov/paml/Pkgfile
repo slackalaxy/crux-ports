@@ -1,0 +1,65 @@
+# Description: PAML: Phylogenetic Analysis by Maximum Likelihood
+# URL: http://abacus.gene.ucl.ac.uk/software/paml.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=paml
+version=4.10.6
+release=1
+source=(https://github.com/abacus-gene/paml/archive/v${version}/$name-$version.tar.gz
+	https://awarnach.mathstat.dal.ca/~joeb/PAML_lab/resources/pamlDEMO_2023.pdf
+	https://awarnach.mathstat.dal.ca/~joeb/PAML_lab/resources/Bielawski_book_chapter.pdf)
+
+build() {
+	cd $name-$version/src
+	
+	# Use our CFLAGS
+	sed -i "/^C.*.*FLAGS/s/=/+=/" Makefile
+	make -f Makefile
+
+	# These are the main components, and most likely this will be all you
+	# need. Check the next sections if you need some optional components.
+	# They will be installed to /usr/lib/paml in case you want them.
+	install -D -m 755 baseml $PKG/usr/bin/baseml
+	install -D -m 755 basemlg $PKG/usr/bin/basemlg
+	install -D -m 755 chi2 $PKG/usr/bin/chi2
+	install -D -m 755 codeml $PKG/usr/bin/codeml
+	install -D -m 755 evolver $PKG/usr/bin/evolver
+	install -D -m 755 mcmctree $PKG/usr/bin/mcmctree
+	install -D -m 755 pamp $PKG/usr/bin/pamp
+	install -D -m 755 yn00 $PKG/usr/bin/yn00
+
+	# Evolver variations
+	cc $CFLAGS -fcommon -DCodonNSbranches -o evolverNSbranches evolver.c tools.c -lm
+	cc $CFLAGS -fcommon -DCodonNSsites -o evolverNSsites evolver.c tools.c -lm
+	cc $CFLAGS -fcommon -DCodonNSbranchsites -o evolverNSbranchsites evolver.c tools.c -lm
+
+	install -D -m 755 evolverNSbranches $PKG/usr/lib/$name/evolverNSbranches
+	install -D -m 755 evolverNSbranchsites $PKG/usr/lib/$name/evolverNSbranchsites
+	install -D -m 755 evolverNSsites $PKG/usr/lib/$name/evolverNSsites
+
+	# NEB, BEB and BranchSite
+	cd $SRC/$name-$version/Technical/Simulation/Codon
+	cc $CFLAGS -fcommon -DNEB -o PositiveSitesNEB PositiveSites.c -lm
+	cc $CFLAGS -fcommon -DBEB -o PositiveSitesBEB PositiveSites.c -lm
+	cc $CFLAGS -fcommon -DBranchSite -o PositiveSitesBS  PositiveSites.c -lm
+
+	install -D -m755 PositiveSitesBEB $PKG/usr/lib/$name/PositiveSitesBEB
+	install -D -m755 PositiveSitesBS $PKG/usr/lib/$name/PositiveSitesBS
+	install -D -m755 PositiveSitesNEB $PKG/usr/lib/$name/PositiveSitesNEB
+	install -D -m 644 README.txt $PKG/usr/share/$name/MCcodonNS/README.txt
+	cp -a codeml.ctl *.dat $PKG/usr/share/$name/MCcodonNS
+	
+	# Multiruns
+	cd $SRC/$name-$version/Technical/Simulation/
+	cc -o multiruns $CFLAGS -fcommon multiruns.c -lm
+	install -D -m 755 multiruns $PKG/usr/lib/$name/multiruns
+	install -D -m 644 multiruns.txt $PKG/usr/share/$name/Multiruns.txt
+
+	# Include sample system files and example experimental data.
+	cd $SRC/$name-$version
+	cp -a dat examples $PKG/usr/share/$name
+	cp -a doc/* $PKG/usr/share/$name
+	cp -a Technical/Pt/eigenQREV.pdf $PKG/usr/share/$name
+	cp $SRC/pamlDEMO_2023.pdf $PKG/usr/share/$name
+	cp $SRC/Bielawski_book_chapter.pdf $PKG/usr/share/$name
+}

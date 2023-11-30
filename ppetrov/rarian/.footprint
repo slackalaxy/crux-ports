@@ -1,0 +1,58 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/rarian-example
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-config
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-extract
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-gen-uuid
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-get-cl
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-get-content-list
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-get-extended-content-list
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-get-scripts
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-install
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-migrate
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-preinstall
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-rebuild
+-rwxr-xr-x	root/root	usr/bin/rarian-sk-update
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-config -> rarian-sk-config
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-extract -> rarian-sk-extract
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-gen-seriesid -> rarian-sk-gen-uuid
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-get-cl -> rarian-sk-get-cl
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-get-content-list -> rarian-sk-get-content-list
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-get-extended-content-list -> rarian-sk-get-extended-content-list
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-get-index-from-docpath -> rarian-sk-get-scripts
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-get-toc-from-docpath -> rarian-sk-get-scripts
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-get-toc-from-id -> rarian-sk-get-scripts
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-install -> rarian-sk-install
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-preinstall -> rarian-sk-preinstall
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-rebuilddb -> rarian-sk-rebuild
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-uninstall -> rarian-sk-install
+lrwxrwxrwx	root/root	usr/bin/scrollkeeper-update -> rarian-sk-update
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/rarian/
+-rw-r--r--	root/root	usr/include/rarian/rarian-info.h
+-rw-r--r--	root/root	usr/include/rarian/rarian-main.h
+-rw-r--r--	root/root	usr/include/rarian/rarian-man.h
+-rw-r--r--	root/root	usr/include/rarian/rarian-reg-utils.h
+-rw-r--r--	root/root	usr/include/rarian/rarian.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/librarian.a
+lrwxrwxrwx	root/root	usr/lib/librarian.so -> librarian.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/librarian.so.0 -> librarian.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/librarian.so.0.0.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/rarian.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/librarian/
+drwxr-xr-x	root/root	usr/share/librarian/Templates/
+drwxr-xr-x	root/root	usr/share/librarian/Templates/C/
+-rw-r--r--	root/root	usr/share/librarian/Templates/C/scrollkeeper_cl.xml
+drwxr-xr-x	root/root	usr/share/librarian/manual/
+-rw-r--r--	root/root	usr/share/librarian/manual/help-spec-0.2.xml
+-rw-r--r--	root/root	usr/share/librarian/manual/index.xhtml
+-rw-r--r--	root/root	usr/share/librarian/manual/rar-lib.xhtml
+-rw-r--r--	root/root	usr/share/librarian/manual/rar-mdf.xhtml
+-rw-r--r--	root/root	usr/share/librarian/manual/rar-skcompat.xhtml
+-rw-r--r--	root/root	usr/share/librarian/rarian-sk-cl.xml
+drwxr-xr-x	root/root	usr/var/
+drwxr-xr-x	root/root	usr/var/lib/
+drwxr-xr-x	root/root	usr/var/lib/rarian/

@@ -1,0 +1,20 @@
+# Description: Power manager core
+# URL: http://goodies.xfce.org/projects/applications/xfce4-power-manager
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libnotify upower xfce4-panel
+
+name=xfce4-power-manager
+version=1.4.4
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+build () { 
+  cd $name-$version
+  ./configure --prefix=/usr \
+              --disable-nls \
+              --disable-network-manager
+  make
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/{locale,doc}
+  find $PKG/usr -type f -name '*.desktop' \
+       -exec sed -r '/\[.+\]=/d' -i {} \;
+}

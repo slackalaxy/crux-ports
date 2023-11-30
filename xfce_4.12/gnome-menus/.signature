@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchukZ1qDcGoMo76FO96CQJ110FQ4eyZx1TNi04fGH5W/L9vU1mVp8ACI8rKMsNaFehJhD/fi9pPuaGaKM8bmpcgY=
+SHA256 (Pkgfile) = 087d9e94ec8de6257ad766dadff13689a7d2019ddf6a410967f95955b593870d
+SHA256 (.footprint) = 51e46aa9df947f09ea301b8964b84ddbe4691bc440a7d8dfadd50d296e6d475e
+SHA256 (gnome-menus-2.30.5.tar.bz2) = 6dcc565006d6e8c2025ae83ab1f82edf6bd04d61c804c0dc9bf5ea50629c4caa

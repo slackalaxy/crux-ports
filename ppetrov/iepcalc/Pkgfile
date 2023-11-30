@@ -1,0 +1,29 @@
+# Description: Isoelectric pint calculator
+# URL: http://ipc.netmark.pl/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: qt4
+
+name=iepcalc
+version=1.0
+release=1
+source=(http://ipc.netmark.pl/files/isoelectric-point-linux.tar.gz
+	$name.desktop)
+
+build() {
+	cd isoelectric-point-linux/sources
+	qmake-qt4 -project
+	qmake-qt4
+
+	# Use our CFLAGS
+	sed -i "/^C.*.*FLAGS/s/=/+=/" Makefile
+
+	make
+
+	# Weird name for the binary, let's change it
+	install -D -m755 sources $PKG/usr/bin/$name
+	
+	# Menu item and icon
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications/
+	cp ./icons/ip_64.png $PKG/usr/share/pixmaps/$name.png
+}

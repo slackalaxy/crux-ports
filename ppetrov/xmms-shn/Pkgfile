@@ -1,0 +1,19 @@
+# Description: Playback for shorten (.shn) files with xmms
+# URL: http://shnutils.freeshell.org/xmms-shn/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-shn
+version=2.4.1
+release=1
+source=(http://shnutils.freeshell.org/$name/dist/src/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	CFLAGS="$CFLAGS -fgnu89-inline -Wno-overflow" \
+	./configure --prefix=/usr
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/lib/xmms/Input/libshn.la
+}

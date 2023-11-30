@@ -1,0 +1,24 @@
+# Description: Xfce GUI4 compatibility library
+# URL: https://archive.xfce.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 libglade libxfce4util startup-notification
+
+name=libxfcegui4
+version=4.10.0
+release=1
+source=(https://archive.xfce.org/src/archive/$name/${version%.*}/$name-$version.tar.bz2
+	libxfcegui4-4.10.0-no-xfce_setenv.patch)
+
+build() {
+	cd $name-$version
+	patch -p1 -i $SRC/libxfcegui4-4.10.0-no-xfce_setenv.patch
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--disable-desktop-docs \
+	--disable-nls
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}

@@ -1,0 +1,13 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZe0PJ+9rtT89z6w12gl/Kgr3rCWuaZlo9i13iRz6ukjE96JMeL3Wni/uIGHwwyg2KX/Az28NWbCJExlvIyJaXwA=
+SHA256 (Pkgfile) = 10961284bfc2f1068501d5f6e4b6dd4a836df140f78159f188441ffba9be61b8
+SHA256 (.footprint) = ba65c298cdcb8b9f2c1cf920355d9ab9255f58f8a07c96410467f63b0f869907
+SHA256 (treeviewx_0.5.1+20100823.orig.tar.gz) = 2c0f41cb398a183155bed658c9e7e8ac880b2b75554901feddb2ea3ca97ff2eb
+SHA256 (70_choose_tree.patch) = 99733776abfb7fe3db2ac3dcca5051e8f11f216442206cd7f49d4b7e910a584e
+SHA256 (fix_loading_crash.patch) = 13cbf0f6f660fdd54a332aaa13c7ae0f4ee333a8288d98f52ce1a49cf91b2596
+SHA256 (wx3.0-compat.patch) = a3e7ea9534050584b72aab8a56596185f5c8a92bc30d59f9389e3f273b609b45
+SHA256 (treeview-xpm-not-xbm.patch) = 1b7c1843f0fed0873198f4e0222eea54f7f98107424b6765bac01a2557207b81
+SHA256 (wxstring-maxlen.patch) = 03a26b907f0c25c276aa2b9ec36034c803a778d1b9e349d2f3868fbb7036844e
+SHA256 (treeviewx.1) = 2cd5862581606d5253bda5fa85d38662b0860809972fd6a3e82345952c859797
+SHA256 (treeviewx.desktop) = 1e98766e890422cc34ff49b7c8149c69587ded83af6b7730b6464e70bff5a56e
+SHA256 (treeviewx.png) = d9fecfac8e5919f721b2e457917810e79a9fb868d4ed189b62faae6e5f07e24b

@@ -1,0 +1,27 @@
+# Description: GNU Paint: a small-scale GTK2 painting program
+# URL: http://www.gnu.org/software/gpaint/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 libglade libglvnd
+
+name=gpaint
+version=0.3.4
+release=1
+source=(https://alpha.gnu.org/gnu/gpaint/$name-2-$version.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-2-$version
+	
+	./configure --prefix=/usr \
+	--disable-nls
+	
+	make
+	make install DESTDIR=$PKG
+	
+	# Menu item and icon
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	rm -rf $PKG/usr/share/locale
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZfTsEkJWdH6hIFl8QoB+GjlyMdvOZhilC1a+WhucqM/JgimAXT/0PQDk6SLPTqKxFgO9D8NusP5Nxxr2spvHeAw=
+SHA256 (Pkgfile) = 9810c90311e598a26b67f081495b77f2afecf7f93da0a3c65631d80a09956456
+SHA256 (.footprint) = 737f779bb97141746d5662d932e697403510e292acd20370a08099b0895a28ec
+SHA256 (wxPython-src-2.8.12.1.tar.bz2) = 1f3f153d9f1504c6ce2d2c4b23e940b8f58b81f4cba35cda1a5bb31142243cd0

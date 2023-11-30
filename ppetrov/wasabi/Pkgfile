@@ -1,0 +1,29 @@
+# Description: Graphical environment for evolutionary sequence analysis
+# URL: http://wasabiapp.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=wasabi
+version=151112
+release=2
+source=(http://wasabiapp.org/download/wasabi/wasabi_linux.zip
+	$name.sh $name.desktop default_settings.cfg)
+
+build() {
+	cd $name
+	mkdir -p $PKG/usr/lib/$name
+	cp -a * $PKG/usr/lib/$name
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
+	cp -a images/icon.png $PKG/usr/share/pixmaps/$name.png
+
+	install -D -m 755 $SRC/$name.sh $PKG/usr/bin/$name
+	cp -a $SRC/default_settings.cfg $PKG/usr/lib/$name
+	
+	# fix perm
+	binaries=( bppancestor bppdist bppphysamp exonerate mafft pagan raxml )
+	for b in ${binaries[@]}; do
+		chmod 0755 $PKG/usr/lib/$name/plugins/pagan/$b
+	done
+}

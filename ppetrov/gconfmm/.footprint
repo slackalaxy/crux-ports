@@ -1,0 +1,30 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/gconfmm-2.6/
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm.h
+drwxr-xr-x	root/root	usr/include/gconfmm-2.6/gconfmm/
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/callback.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/changeset.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/client.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/entry.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/init.h
+drwxr-xr-x	root/root	usr/include/gconfmm-2.6/gconfmm/private/
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/private/changeset_p.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/private/client_p.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/private/entry_p.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/private/schema_p.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/private/value_p.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/schema.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/setinterface.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/value.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/value_listhelpers.h
+-rw-r--r--	root/root	usr/include/gconfmm-2.6/gconfmm/wrap_init.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/gconfmm-2.6/
+drwxr-xr-x	root/root	usr/lib/gconfmm-2.6/include/
+-rw-r--r--	root/root	usr/lib/gconfmm-2.6/include/gconfmmconfig.h
+lrwxrwxrwx	root/root	usr/lib/libgconfmm-2.6.so -> libgconfmm-2.6.so.1.0.6
+lrwxrwxrwx	root/root	usr/lib/libgconfmm-2.6.so.1 -> libgconfmm-2.6.so.1.0.6
+-rwxr-xr-x	root/root	usr/lib/libgconfmm-2.6.so.1.0.6
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/gconfmm-2.6.pc

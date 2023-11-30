@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchvdJ8iXx6WHGSGauxfAFVyshdmkQRXMrUcxbEHu6CVJRwNCCWV6qmEF1X9UDEjdUkOc38rEHJSxAZPhM7qpBYAQ=
+SHA256 (Pkgfile) = 77f96da2ceedfd4129f2d5196d5f2acd0350992bcf88e21a241d6d2c9a478950
+SHA256 (.footprint) = 32a7e5a98015b144f92c0ef8a1055a640c0d85cd4ae2401c05b59bb95b4b7fcd
+SHA256 (gtk-xfce-engine-2.10.1.tar.bz2) = 4a92910205881f707f2cc8d3c9b00a95feb58eb9084d932c841f3ed027f7063d

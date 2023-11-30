@@ -1,0 +1,22 @@
+# Description: PulseAudio plugin for XMMS
+# URL: http://0pointer.de/lennart/projects/xmms-pulse/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-pulse
+version=0.9.4
+release=1
+source=(http://0pointer.de/lennart/projects/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+	--disable-bmp \
+	--disable-lynx \
+	--disable-static
+
+	make
+	make install DESTDIR=$PKG
+
+}

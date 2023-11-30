@@ -1,0 +1,22 @@
+# Description: Design PCR primers on aligned sequences
+# URL: http://amplicon.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: tk python
+
+name=amplicon
+version=b09.1
+release=1
+source=(http://downloads.sourceforge.net/amplicon/Amplicon-Linux-$version.py.gz
+	$name.desktop $name.png)
+
+build() {
+	gunzip -c $SRC/Amplicon-Linux-$version.py.gz > $name.py
+	install -D -m755 $SRC/$name.py $PKG/usr/bin/$name.py
+	
+	# Fix the window size
+	sed "s:root.maxsize(965,570):root.maxsize(1400,800):" -i $PKG/usr/bin/$name.py
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications/
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

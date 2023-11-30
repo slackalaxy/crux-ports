@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/xmms/
+drwxr-xr-x	root/root	usr/share/xmms/Skins/
+-rw-r--r--	root/root	usr/share/xmms/Skins/Bunjee-blue.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Bunjee-blue2.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Bunjee-grey-green.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Bunjee-grey.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Bunjee-grey2.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Bunjee-orange-dest.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Bunjee-orange.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Bunjee-orange2.wsz

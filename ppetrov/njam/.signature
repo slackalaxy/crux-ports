@@ -1,0 +1,10 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZdNkmX1XpsUfzKa7KtsuycwVz9iJslwKg2Q3eJNWV6FxKDnMpQcfZXXIrjTl2D/vOmaLr1yhQRojQYS7VAR5hQ0=
+SHA256 (Pkgfile) = 3d464fc7aa755bbee4aad0eb8b62876819538655407efbc74b367737190f73c6
+SHA256 (.footprint) = 42da22bfc82615ed805181b2bdbe9d97afee028dc76bb76ebf32d80469022327
+SHA256 (njam_1.25.orig.tar.gz) = 8ed3eee3f387ce5ecdab7dd528f98cf77f65971510964000f2f1dfbf8b6f3000
+SHA256 (changed_hiscore_name.patch) = 851f56ccc952ff1c85b68515dc6ce18679c0a657ee03f537499cfdeda3496124
+SHA256 (drop_gda.patch) = c234638aa5091c950944e473d709ee3b12effa8c0011fe4730b55dd56eea7993
+SHA256 (gcc_46.patch) = e7807686ab11d1ef4d305ef2d7af95f3f5502d51b5b824153934791f8bac34fb
+SHA256 (njam.desktop) = 963dc3daf1364401a47ddacec29402ed0230760e1448d87a03ec3909c5a82c46
+SHA256 (njam.png) = 856a80f2522ae64b54506b8682161dbe75c76e7a59f6c9d9321728e9a8c849f9

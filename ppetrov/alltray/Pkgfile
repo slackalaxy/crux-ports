@@ -1,0 +1,21 @@
+# Description: Minimize any window to tray
+# URL: https://launchpad.net/alltray/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libgtop libwnck startup-notification xorg-libxdamage xorg-libxpm xorg-libxres
+
+name=alltray
+version=0.7.5.1dev
+release=1
+source=(https://launchpad.net/$name/trunk/$version/+download/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/locale
+	
+	sed -i "s:AllTray 0.7.5.1dev:AllTray:" $PKG/usr/share/applications/$name.desktop
+}

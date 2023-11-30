@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchs/+5H/KOp4aTAnbih/FEzBwmqsR8ncX7vp2v6vIya98jNd8SDQNdMncuj+clO+iSamj5LUp9CR/O5G3RZ7oCw4=
+SHA256 (Pkgfile) = 34ca2e9c8b31fc7af6ad92628e5bbd3aec3479c8aedbb9cca3101f9ae4206623
+SHA256 (.footprint) = 3ead5b0cded364f54891b642a9376084eb82d34fab528e26ec72b3a60f920dfb
+SHA256 (xfwm4-crystal.tar.xz) = 2b67e188c48e357744b86a96da5ba2e4212315206c5506e66fb231838502b9dc

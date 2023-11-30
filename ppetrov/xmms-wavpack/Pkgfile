@@ -1,0 +1,17 @@
+# Description: WavPack playback for xmms
+# URL: http://www.wavpack.com/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: wavpack xmms
+
+name=xmms-wavpack
+version=1.0.3
+release=1
+source=(http://www.wavpack.com/xmms-wavpack-1.0.3.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make install DESTDIR=$PKG
+	rm -rf $PKG/usr/lib/xmms/Input/libwavpack.la
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZUePALl7NW11rwWEhyaUcOGlNTQx2wT7eUTGXfnrBWC7i/yRqpHkNMXfmW5W6/UaXSjoDyZAz7FZE75/SztDfwQ=
+SHA256 (Pkgfile) = 2a576ac329313daa7132f71309b9d58f0f91068e443a27083ca46ac3a330398e
+SHA256 (.footprint) = f870a8bac38ebcd203e998b909613916a76ad0022d20866d33d73bcc70fe04c4
+SHA256 (lxqt-build-tools-0.13.0.tar.xz) = fd3c199d0d7c61f23040a45ead57cc9a4f888af5995371f6b0ce1fa902eb59ce

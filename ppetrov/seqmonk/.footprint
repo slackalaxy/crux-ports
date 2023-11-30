@@ -1,0 +1,1860 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/revdep.d/
+-rw-r--r--	root/root	etc/revdep.d/seqmonk
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/seqmonk -> ../lib/seqmonk/seqmonk
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/seqmonk/
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/1 Introduction/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/1 Introduction/1.1 What is SeqMonk.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/1 Introduction/1.2 Terminology.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/2 Opening a Project/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.1 Opening an Existing Project.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2 Starting a New Project.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.1 Selecting a Genome.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2 Importing Data.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.1 BED Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.10 Importing Probes as Data.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.3 Bowtie Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.4 Eland Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.5 GFF Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.6 Maq Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.7 SAM or BAM Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.8 Generic Text Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/2.2.2.9 Reimporting Existing Data.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/bowtie_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/edit_data_sets.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/eland_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/import_warnings.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/maq_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/reimport_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/sam_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.2 Importing Data/text_file_import.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.3 Grouping Samples.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.4 Importing Extra Annotation/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.4 Importing Extra Annotation/2.2.4 Importing Extra Annotation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.4 Importing Extra Annotation/2.2.4.1 Importing Annotation from GFF or GTF Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.4 Importing Extra Annotation/2.2.4.2 Importing Annotation from a Probe List.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.4 Importing Extra Annotation/2.2.4.3 Importing Annotation from Generic Text Files.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.4 Importing Extra Annotation/annotation_sets_folder.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/2.2.4 Importing Extra Annotation/generic_text_import_annotation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/auto_split_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/data_groups.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/genome_selector.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/2 Opening a Project/2.2 Starting a New Project/remote_genome_selector.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/3 Visualisation/
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/3.1 The Main Display.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/3.1.1 The Data View.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/3.1.2 The Genome View.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/3.1.3 The Chromosome View.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/3.1.4 The Toolbar.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/3.1.5 The Status Bar.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/chromosome_view.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/data_track_display_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/data_view.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/data_view_datastore_popup.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/data_zoom_level.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/feature_annotation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/genome_view.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/main_display.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/probe_list_view.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/set_annotation_tracks.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/set_data_tracks.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/status_bar.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/toolbar_change_density.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/toolbar_change_packing.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/toolbar_change_tracks.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/toolbar_data_zoom.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/toolbar_display_type.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/toolbar_origin_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/toolbar_search.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.1 The Main Display/whole_toolbar.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2 Figures and Graphs.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.1 The BoxWhisker Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.10 The Correlation Matrix.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.11 The Cumulative Distribution Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.12 The HiC Heatmap Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.13 The MA Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.14 The HiC Length Histogram.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.15 The Hierarchical Cluster Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.16 The HiC Cis-Trans Scatterplot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.17 The Domainogram Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.18 The Quantitation Trend Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.19 The Probe List Overlap Matrix.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.2 The DataStore Tree.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.20 The Star Wars Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.22 The RNA-Seq QC Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.23 The Small RNA QC Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.24 The Variation Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.25 The Bean Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.25 The PCA Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.26 The TSNE Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.27 The Strand Bias Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.27 The Volcano Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.3 The Probe Value Histogram.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.4 The Probe Length Histogram.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.5 The Reading Length Histogram.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.6 The Probe Trend Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.7 The Aligned Probes Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.8 The Scatter Plot.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/3.2.9 The Line Graph.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/aligned_probes_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/aligned_probes_preferences.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/bean_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/boxwhisker_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/correlation_matrix.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/datastore_tree.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/distribution_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/domainogram.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/domainogram_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/hic_cis-trans_scatterplot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/hic_heatmap.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/hic_heatmap_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/hic_length_histogram.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/hierarchical_clusters.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/line_graph.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/ma_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/pca_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/pca_variances.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/probe_list_overlap_matrix.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/probe_trend_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/probe_trend_preferences.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/probe_value_histogram.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/quantitation_trend_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/quantitation_trend_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/rna_seq_qc_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/rna_seq_qc_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/scatter_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/scatter_plot_sublists.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/small_rna_qc_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/small_rna_qc_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/starwars_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/strand_bias_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/tsne_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/variation_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.2 Figures and Graphs/volcano_plot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.3 Movement Controls.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/3.4 Searching.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/after_zooming.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/find_features.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/goto_position.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/goto_window.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/3 Visualisation/whilst_zooming.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/4 Quantitation/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4 Quantitation.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.1 Running Window Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.10 Merge Consecutive Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.11 MACS Peak Caller Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.12 Random Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.13 Shuffle Existing List Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.14 Even Coverage Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.2 Contig Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.3 Feature Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.4 Feature Percentile Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.5 Create Probes from Existing List Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.6 Interstitial Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.7 Deduplication Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.8 Read Position Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/4.1.9 Current Region Probe Generator.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/contig_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/contig_probe_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/deduplication_probe_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/even_coverage_probe_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/feature_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/feature_percentile_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/interstitial_probe_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/macs_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/merge_consecutive_probe_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/read_position_probe_generator.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.1 Probe Generators/running_window_generator.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.1 Read Count Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.10 Per Probe Normalisation Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.11 Exact Overlap Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.12 Z-Score Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.13 Match Distribution Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.14 Fixed Value Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.15 HiC Read Count Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.16 HiC Trans Cis Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.17 HiC Prev Next Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.18 HiC PCA Domain Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.19 4C Enrichment Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.2 Base Pair Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.20 Distance to Feature Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.21 Smoothing Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.22 Probe Length Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.23 Smoothing Subtraction Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.24 Log Transform Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.25 Subset Normalisation Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.26 Enrichment Normalisation Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.27 Linear Regression Normalisation Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.28 Duplication Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.3 Enrichment Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.4 Difference Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.5 Coverage Depth Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.6 Percentage Coverage Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.7 Relative Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.8 Manual Correction Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.9 Percentile Normalisation Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/4.2.9 Rank Quantitation.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/Coverage Depth Quantitationpic.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/base_pair_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/coverage_depth_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/difference_quantitationpic.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/distance_to_feature_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/exact_overlap_count_quantitiation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/hic_pca_domain_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/hic_prev_next_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/hic_read_count_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/hic_trans_cis_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/manual_correction_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/percent_coverage_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/percentile_normalisation_quantitation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/read_count_quanititation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.2 Quantitation Methods/z_score_quantitation.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/4.3.1 RNA-Seq quantitation pipeline.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/4.3.2 Wiggle pipeline.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/4.3.3 Bisulphite feature methylation pipeline.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/4.3.4 Splicing Efficiency pipeline.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/4.3.5 Antisense Transcription pipeline.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/4.3.6 Genetrap quantitation pipeline.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/4.3.7 Active transcription quantitation pipeline.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/4.3.8 Transcription termination quantitation pipeline.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/bsseq_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/genetrap_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/rpkm_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/splicing_efficiency_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/splicing_efficiency_quantitiation.PNG
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/4.3 Pipelines/termination_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/define_probes.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/4 Quantitation/quantitation_options.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/5 Filtering/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5 Filtering.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/5.1.1 Individual Probe Value Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/5.1.2 Windowed Value Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/5.1.3 Individual Probe Value Difference Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/5.1.4 Windowed Value Difference Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/5.1.5 Value Distribution Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/individual_probe_value_difference_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/individual_probe_value_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/value_distribution_filter_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/windowed_probe_value_difference_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.1 Value Filters/windowed_value_options.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/5.2.1 BoxWhisker Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/5.2.2 Windowed Replicate Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/5.2.3 Replicate Set Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/5.2.4 Intensity Difference Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/5.2.6 Monte Carlo Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/5.2.7 Chi Square Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/5.2.8 Binomial Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/5.2.9 Proportion of Library Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/boxwhisker_filter_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/replicate_filter_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.2 Statistical Filters/replicate_set_filter_options.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/5 Filtering/5.3 R Statistical Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.3 R Statistical Filters/5.3.1 DESeq2 Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.3 R Statistical Filters/5.3.2 EdgeR Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.3 R Statistical Filters/5.3.4 EdgeR for-rev Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.3 R Statistical Filters/5.3.4 Logistic Regression Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.3 R Statistical Filters/5.3.5 Logistic Regression Splicing Filter.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/5 Filtering/5.4 Correlation Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.4 Correlation Filters/5.4.1 Correlation Cluster Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.4 Correlation Filters/5.4.2 Probe List Correlation Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.4 Correlation Filters/5.4.3 Manual Probe Correlation Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.4 Correlation Filters/manual_correlation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.5 Manging Probe Lists.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/5 Filtering/5.5 Variance Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.5 Variance Filters/5.5.1 Individual Replicate Set Variance Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.5 Variance Filters/individual_probe_variance_options.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.1 Feature Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.10 Segmentation Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.11 Duplicate List Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.2 Position Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.3 Probe Length Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.5 Random Probes Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.7 Deduplication Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.8 Feature Name Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/5.6.9 Probe Name Filter.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/deduplication_filter_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/feature_filter_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/feature_name_filter_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.6 Other Filters/position_filter_options.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/5 Filtering/5.7 List Intersection Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.7 List Intersection Filters/5.7.1 Logically Combine Existing Lists.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.7 List Intersection Filters/5.7.2 Collate Existing Lists.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.7 List Intersection Filters/5.7.3 Intersect Existing Lists.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/5 Filtering/5.7 List Intersection Filters/combine_list_options.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/6 Reports/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/6.1 The Annotated Probe Report.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/6.2 The Probe Group Report.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/6.3 The Feature Report.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/6.4 The DataStore Summary Report.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/6.5 The Probe List Description Report.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/6.6 Vistories.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/annotated_probe_report.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/annotated_probe_report_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/feature_report.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/feature_report_options.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/probe_group_report.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/6 Reports/probe_group_report_options.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/7 Saving Data/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/7 Saving Data/7.1 Saving a Project.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/7 Saving Data/7.2 Saving Images.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/7 Saving Data/7.3 Saving Text.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/7 Saving Data/7.4 Saving Quantitation Annotation Tracks.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/7 Saving Data/save_before_exit.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/7 Saving Data/select_image_type.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/8 Configuration/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/8 Configuration/8.1 SeqMonk Preferences.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/8 Configuration/8.2 Memory Settings.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/8 Configuration/preferences_dialog.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/Help/9 Troubleshooting/
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/9 Troubleshooting/9.1 Common Problems.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/9 Troubleshooting/9.2 Reporting Bugs.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/9 Troubleshooting/9.3 OSX Full Disk Access.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Help/9 Troubleshooting/osx_disk_permissions.png
+-rw-r--r--	root/root	usr/lib/seqmonk/Jama-1.0.2.jar
+drwxr-xr-x	root/root	usr/lib/seqmonk/Scripts/
+-rwxr-xr-x	root/root	usr/lib/seqmonk/Scripts/build_seqmonk_release.sh
+-rwxr-xr-x	root/root	usr/lib/seqmonk/Scripts/export_annotated_embl_from_assembly.pl
+-rwxr-xr-x	root/root	usr/lib/seqmonk/Scripts/export_annotated_embl_from_plant_or_bacteria.pl
+drwxr-xr-x	root/root	usr/lib/seqmonk/Templates/
+-rw-r--r--	root/root	usr/lib/seqmonk/Templates/vistory_footer.html
+-rw-r--r--	root/root	usr/lib/seqmonk/Templates/vistory_header.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/com/
+drwxr-xr-x	root/root	usr/lib/seqmonk/com/sun/
+drwxr-xr-x	root/root	usr/lib/seqmonk/com/sun/java/
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter$Arrow.class
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter$Directive.class
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter$MouseHandler.class
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter$Row.class
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter$SortableHeaderRenderer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter$TableModelHandler.class
+-rw-r--r--	root/root	usr/lib/seqmonk/com/sun/java/TableSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/commons-math3-3.5.jar
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/at/
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/FileUtils.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/Formatters.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/PrintfFormat$ConversionSpecification.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/PrintfFormat.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/Sorting.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/StringUtils.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/ArithUtils.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/Complex.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/Constants.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/DyadicFunction.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/Factorial.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/MonadicFunction.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/NumberOps.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/Polynomial.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/SplitDouble.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/Beta$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/Beta.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/ChiSquare.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/ErrorFunction.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/FishersF.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/Gamma.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/Normal.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/Sig.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/Studentst.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/distributions/package.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/AbstractMatrix.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/CholeskyDecomposition.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/ColumnTransformation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/ColumnTransformer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/DenseMatrix.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/EigenvalueDecomposition.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/LUDecomposition.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$10.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$11.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$12.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$13.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$14.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$5.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$6.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$7.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$8.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices$9.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrices.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatricesMeasure.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/Matrix.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixConditionalEBETransformation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixEBEOperation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixEBETransformation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixEBETransformer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixFactory$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixFactory$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixFactory$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixFactory$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixFactory.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixFromString$MatrixFromStringParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixFromString.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixMeasure$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixMeasure$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixMeasure$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixMeasure.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixMismatchedSizeException.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixOperator$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixOperator$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixOperator$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixOperator$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixOperator$5.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixOperator$6.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixOperator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixProperty.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixSingularException.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixToString.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixTransformer$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixTransformer$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/MatrixTransformer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/QRDecomposition.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/RowTransformer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/SingularValueDecomposition.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/matrix/SparseMatrix.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/randomnumbers/
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/randomnumbers/MersenneTwister.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/randomnumbers/RandomVariable.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/Bisection.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/BracketRoot.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/Brent.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/MonadicFunctionRootFinder.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/NewtonRaphson.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/RootFinderConvergenceTest.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/RootFinderIterationInformation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/Secant.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/StandardRootFinderConvergenceTest.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/rootfinders/package.html
+drwxr-xr-x	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/ContingencyTable.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/Covar.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/Descriptive.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/FishersExactTest.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/OneWayTable.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/PrincipalComponents.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/RankOrder.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/SpearmanCorr.class
+-rw-r--r--	root/root	usr/lib/seqmonk/edu/northwestern/at/utils/math/statistics/Standardize.class
+-rw-r--r--	root/root	usr/lib/seqmonk/htsjdk.jar
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/jaotc
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/java
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/jfr
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/jjs
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/jrunscript
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/keytool
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/pack200
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/rmid
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/rmiregistry
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/bin/unpack200
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/conf/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/logging.properties
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/conf/management/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/management/jmxremote.access
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/management/jmxremote.password.template
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/management/management.properties
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/net.properties
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/conf/sdp/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/sdp/sdp.conf.template
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/conf/security/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/security/java.policy
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/security/java.security
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/conf/security/policy/
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/conf/security/policy/limited/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/security/policy/limited/default_US_export.policy
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/security/policy/limited/default_local.policy
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/security/policy/limited/exempt_local.policy
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/conf/security/policy/unlimited/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/security/policy/unlimited/default_US_export.policy
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/security/policy/unlimited/default_local.policy
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/conf/sound.properties
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.base/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/aes.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/asm.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/c-libutl.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/cldr.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/icu.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/public_suffix.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.base/unicode.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.compiler/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.compiler/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.compiler/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.compiler/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.datatransfer/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.datatransfer/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.datatransfer/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.desktop/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/colorimaging.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/freetype.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/giflib.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/harfbuzz.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/jpeg.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/lcms.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/libpng.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/mesa3d.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/opengl.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.desktop/xwd.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.instrument/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.instrument/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.instrument/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.instrument/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.logging/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.logging/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.logging/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.logging/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.management.rmi/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.management.rmi/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.management.rmi/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.management/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.management/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.management/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.management/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.naming/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.naming/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.naming/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.naming/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.net.http/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.net.http/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.net.http/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.net.http/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.prefs/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.prefs/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.prefs/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.prefs/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.rmi/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.rmi/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.rmi/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.rmi/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.scripting/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.scripting/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.scripting/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.scripting/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.se/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.se/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.se/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.se/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.security.jgss/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.security.jgss/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.security.jgss/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.security.sasl/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.security.sasl/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.security.sasl/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.smartcardio/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.smartcardio/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.smartcardio/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.smartcardio/pcsclite.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.sql.rowset/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.sql.rowset/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.sql.rowset/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.sql/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.sql/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.sql/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.sql/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.transaction.xa/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.transaction.xa/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.transaction.xa/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.xml.crypto/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml.crypto/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml.crypto/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml.crypto/santuario.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/java.xml/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml/bcel.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml/dom.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml/jcup.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml/xalan.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/java.xml/xerces.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.accessibility/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.accessibility/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.accessibility/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.aot/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.aot/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.aot/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.aot/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.charsets/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.charsets/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.charsets/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.cryptoki/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.cryptoki/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.cryptoki/pkcs11cryptotoken.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.cryptoki/pkcs11wrapper.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.ec/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.ec/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.crypto.ec/ecc.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.dynalink/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.dynalink/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.dynalink/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.dynalink/dynalink.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.httpserver/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.httpserver/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.httpserver/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.ed/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.ed/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.ed/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.le/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.le/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.le/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.le/jline.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.ci/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.ci/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.compiler.management/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.compiler.management/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.compiler/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.internal.vm.compiler/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.jdwp.agent/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jdwp.agent/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.jfr/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jfr/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jfr/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.jsobject/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jsobject/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.jsobject/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.localedata/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.localedata/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.localedata/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.localedata/cldr.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.localedata/thaidict.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.management.agent/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management.agent/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management.agent/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.management.jfr/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management.jfr/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.management/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.management/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.naming.dns/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.naming.dns/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.naming.rmi/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.naming.rmi/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.net/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.net/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.net/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.net/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.pack/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.pack/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.pack/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.pack/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn.shell/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn.shell/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn.shell/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn.shell/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn/LICENSE
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn/double-conversion.md
+-r--r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.scripting.nashorn/joni.md
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.sctp/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.sctp/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.sctp/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.security.auth/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.security.auth/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.security.auth/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.security.jgss/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.security.jgss/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.unsupported/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.unsupported/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.unsupported/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.xml.dom/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.xml.dom/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/legal/jdk.zipfs/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.zipfs/ASSEMBLY_EXCEPTION
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/legal/jdk.zipfs/LICENSE
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/lib/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/classlist
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/lib/jexec
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/lib/jfr/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/jfr/default.jfc
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/jfr/profile.jfc
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/jrt-fs.jar
+-rwxr-xr-x	root/root	usr/lib/seqmonk/jre/lib/jspawnhelper
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/jvm.cfg
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libawt.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libawt_headless.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libawt_xawt.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libdt_socket.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libextnet.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libfontmanager.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libfreetype.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libinstrument.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libj2gss.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libj2pcsc.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libj2pkcs11.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjaas.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjava.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjavajpeg.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjawt.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjdwp.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjimage.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjli.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjsig.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libjsound.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/liblcms.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libmanagement.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libmanagement_agent.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libmanagement_ext.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libmlib_image.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libnet.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libnio.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libprefs.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/librmi.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libsctp.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libsplashscreen.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libsunec.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libunpack.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libverify.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/libzip.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/modules
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/psfont.properties.ja
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/psfontj2d.properties
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/lib/security/
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/security/blacklisted.certs
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/security/cacerts
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/security/default.policy
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/security/public_suffix_list.dat
+drwxr-xr-x	root/root	usr/lib/seqmonk/jre/lib/server/
+-r--r--r--	root/root	usr/lib/seqmonk/jre/lib/server/classes.jsa
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/server/libjsig.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/server/libjvm.so
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/lib/tzdb.dat
+-rw-r--r--	root/root	usr/lib/seqmonk/jre/release
+drwxr-xr-x	root/root	usr/lib/seqmonk/net/
+drwxr-xr-x	root/root	usr/lib/seqmonk/net/sourceforge/
+drwxr-xr-x	root/root	usr/lib/seqmonk/net/sourceforge/iharder/
+drwxr-xr-x	root/root	usr/lib/seqmonk/net/sourceforge/iharder/base64/
+-rw-r--r--	root/root	usr/lib/seqmonk/net/sourceforge/iharder/base64/Base64$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/net/sourceforge/iharder/base64/Base64$InputStream.class
+-rw-r--r--	root/root	usr/lib/seqmonk/net/sourceforge/iharder/base64/Base64$OutputStream.class
+-rw-r--r--	root/root	usr/lib/seqmonk/net/sourceforge/iharder/base64/Base64.class
+-rwxr-xr-x	root/root	usr/lib/seqmonk/seqmonk
+-rwxr-xr-x	root/root	usr/lib/seqmonk/seqmonk_import
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/.DS_Store
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/.DS_Store
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/.DS_Store
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/.DS_Store
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Correlation/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Correlation/DistanceMatrix.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Correlation/PearsonCorrelation.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/AnovaTest.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/BenjHochFDR.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/BoxWhisker$ProbeValueComparator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/BoxWhisker.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/ChiSquareTest.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/FDistribution.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/IndexTTestValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/MappedGeneSetTTestValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/PCA$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/PCA.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/ProbeGroupTTestValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/ProbeTTestValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/SimpleStats.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/SmoothedVarianceDataset$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/SmoothedVarianceDataset.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/StarWars$ProbeValueComparator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/StarWars.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/TDistribution.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Analysis/Statistics/TTest.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/AnnotationParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/AnnotationParserRunner.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GFF3AnnotationParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GFF3AnnotationParser$FeatureGroup.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GFF3AnnotationParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenericAnnotationParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenericAnnotationParser$GenericAnnotationParserOptions$MyTableCellRenderer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenericAnnotationParser$GenericAnnotationParserOptions$ProbeTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenericAnnotationParser$GenericAnnotationParserOptions.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenericAnnotationParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenomeParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenomeParser$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenomeParser$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenomeParser$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/GenomeParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/ProbeListAnnotationParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/SeqMonkAnnotationReimportParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/SeqMonkAnnotationReimportParser$AnnotationSetSelector$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/SeqMonkAnnotationReimportParser$AnnotationSetSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/AnnotationParsers/SeqMonkAnnotationReimportParser.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/ActiveProbeListParser$ActiveDataParserOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/ActiveProbeListParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BAMFileParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BAMFileParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BedFileParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BedFileParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BedPEFileParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BedPEFileParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BismarkCovFileParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BismarkCovFileParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BowtieFileParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/BowtieFileParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/DataParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/DataParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/DataParserOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/DataParserOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/GenericSeqReadParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/GenericSeqReadParser$GenericSeqReadParserOptions$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/GenericSeqReadParser$GenericSeqReadParserOptions$MyTableCellRenderer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/GenericSeqReadParser$GenericSeqReadParserOptions$ProbeTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/GenericSeqReadParser$GenericSeqReadParserOptions.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/GenericSeqReadParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/GffFileParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/GffFileParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/HiCOtherEndExtractor$HiCOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/HiCOtherEndExtractor$HiCOptionsPanel$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/HiCOtherEndExtractor$HiCOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/HiCOtherEndExtractor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/MethylKitFileParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/MethylKitFileParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/QuasRFileParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/QuasRFileParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/SeqMonkDataReimportParser$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/SeqMonkDataReimportParser$DataSetSelector$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/SeqMonkDataReimportParser$DataSetSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/SeqMonkDataReimportParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/SeqMonkParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$5.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$6.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$7.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$8.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel$9.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser$VisibleStoresOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataParsers/VisibleStoresParser.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/CacheListener.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Cluster/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Cluster/ClusterDataSource.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Cluster/ClusterPair.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Cluster/HierarchicalClusterSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/DataChangeListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/DataCollection.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/DataGroup.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/DataSet$ChromosomeDataStore.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/DataSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/DataStore.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/AnnotationCollection$CaseInsensitiveSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/AnnotationCollection.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/AnnotationCollectionListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/AnnotationSet$FeatureSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/AnnotationSet$FeatureTypeCollection.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/AnnotationSet$FeatureTypeFeatureSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/AnnotationSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/AnnotationTagValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/Chromosome.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/CoreAnnotationSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/Feature.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/Genome.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/Location.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/MultiGenome.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/SingleGenome.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Genome/SplitLocation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/HiCDataStore.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Interaction/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Interaction/HeatmapMatrix$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Interaction/HeatmapMatrix$ProbeWithIndex.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Interaction/HeatmapMatrix.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Interaction/HeatmapMatrixListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Interaction/HiCInteractionStrengthCalculator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Interaction/InteractionClusterMatrix.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Interaction/InteractionProbePair.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/PairedDataSet$ChromosomeDataStore.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/PairedDataSet.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Probes/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Probes/Probe.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Probes/ProbeList.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Probes/ProbeSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Probes/ProbeSetChangeListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Probes/ProbeStrandType.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/ProgressListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/ReplicateSet.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Sequence/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Sequence/HiCHitCollection.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Sequence/QuantitationStrandType.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Sequence/ReadStrandType.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Sequence/ReadsWithCounts.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Sequence/SequenceRead.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataTypes/Sequence/SequenceReadWithChromosome.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataWriters/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataWriters/BedDataWriter$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataWriters/BedDataWriter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataWriters/BedGraphDataWriter$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataWriters/BedGraphDataWriter$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataWriters/BedGraphDataWriter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataWriters/SeqMonkDataWriter$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/DataWriters/SeqMonkDataWriter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AboutDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AboutDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AnnotationSetEditor/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AnnotationSetEditor/AnnotationSetEditor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AnnotationSetPropertiesDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AnnotationSetPropertiesDialog$AnnotationSetTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AnnotationSetPropertiesDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AnnotationTrackSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AutoSplitDataDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AutoSplitDataDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AutoSplitDataDialog$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AutoSplitDataDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AxisScaleEditor$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AxisScaleEditor$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AxisScaleEditor$axisPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/AxisScaleEditor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/Cancellable.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/CrashReporter/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/CrashReporter/CrashReporter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/CrashReporter/CrashReporterDialog$ReportSender.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/CrashReporter/CrashReporterDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataParser/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataParser/DataParserOptionsDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataSetEditor/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataSetEditor/CollectDataSetNamesDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataSetEditor/DataSetEditor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataSetEditor/MultiDataSetRenameDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataSetEditor/MultiDataSetRenameDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataSetEditor/MultiDataSetRenameDialog$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataSetEditor/MultiDataSetRenameDialog$renameTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataSetEditor/MultiDataSetRenameDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataStorePropertiesDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataTrackSelector/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataTrackSelector/DataStoreListModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataTrackSelector/DataTrackSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/DataZoomSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/EditPreferencesDialog$FeatureSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/EditPreferencesDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/Filters/FilterOptionsDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/FindFeatureDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/FindFeaturesByNameDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeDownloadSelector$ButtonListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeDownloadSelector$TreeListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeDownloadSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeSelector$AssemblyNode.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeSelector$AssemblySetNode.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeSelector$ButtonListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeSelector$TreeListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeSelector$VersionedAssembly.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GenomeSelector.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GotoDialog/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GotoDialog/GotoDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GotoDialog/GotoWindowDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GotoDialog/RecentLocation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GroupEditor$NameGatherer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/GroupEditor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/LicenseDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ListOverlapsDialog$HitListModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ListOverlapsDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/OrderedListSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/OrderedReplicateSetSelector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProbeListCommentEditDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProbeListSelectorDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProbeListSelectorDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProbeListSelectorDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProbeListViewer$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProbeListViewer$ProbeTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProbeListViewer.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProgressDialog/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProgressDialog/CountedException.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProgressDialog/ProgressDialog$ProgressBar.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProgressDialog/ProgressDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProgressDialog/WarningDisplayDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProgressRecordDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ProgressRecordDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/Renderers/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/Renderers/QuantitationTypeRenderer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/Renderers/TypeColourRenderer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ReplicateSetEditor$NameGatherer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ReplicateSetEditor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ReplicateSetSelector$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/ReplicateSetSelector.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/SeqMonkPreview/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/SeqMonkPreview/SeqMonkPreview.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/SeqMonkPreview/SeqMonkPreviewPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/SimilarProbeListsDialog$HitListModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/SimilarProbeListsDialog$ProbeListHit.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Dialogs/SimilarProbeListsDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/AlignedSummaryDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/AlignedSummaryDialog$CountSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/AlignedSummaryDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/AlignedSummaryPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/AlignedSummaryPanel$Smoother.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/AlignedSummaryPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/AlignedSummaryPreferences.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/AlignedSummaryPreferencesDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/CorrelationPair.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/AlignedProbePlot/CorrelationSet.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BeanPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BeanPlot/BeanPlotPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BeanPlot/BeanPlotScaleBar.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BeanPlot/MultiBeanPlotDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BeanPlot/MultiBeanPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BeanPlot/MultiBeanPlotPanel$NoWidthLabel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BeanPlot/MultiBeanPlotPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BoxWhisker/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BoxWhisker/BoxWhiskerPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BoxWhisker/MultiBoxWhiskerDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BoxWhisker/MultiBoxWhiskerDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BoxWhisker/MultiBoxWhiskerDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BoxWhisker/MultiBoxWhiskerPanel$NoWidthLabel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/BoxWhisker/MultiBoxWhiskerPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeDataTrack$DrawnProbe.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeDataTrack$DrawnRead.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeDataTrack.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeFeatureTrack$DrawnFeature.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeFeatureTrack$FeatureListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeFeatureTrack.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomePositionScrollBar.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeScaleTrack.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeViewer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/ChromosomeViewerLayout.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ChromosomeViewer/MinSizeDataTrack.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CisTransScatterplot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CisTransScatterplot/CisTransScatterPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CisTransScatterplot/CisTransScatterPlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CisTransScatterplot/CisTransScatterPlotPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CodonBiasPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CodonBiasPlot/CodonBiasDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CodonBiasPlot/CodonBiasPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CodonBiasPlot/SingleFeatureSelector$FeatureTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CodonBiasPlot/SingleFeatureSelector.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/CorrelationMatrix$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/CorrelationMatrix$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/CorrelationMatrix$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/CorrelationMatrix$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/CorrelationMatrix$CorrelationNamePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/CorrelationMatrix$CorrelationPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/CorrelationMatrix$DistanceTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CorrelationMatrix/CorrelationMatrix.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CumulativeDistribution/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CumulativeDistribution/CumulativeDistributionDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/CumulativeDistribution/CumulativeDistributionPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreClusterPanel$xyPosition.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreClusterPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreCorrelationDataSource.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreTreeDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreTreeDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreTreeDialog$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreTreeDialog$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreTreeDialog$5.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreTreeDialog$6.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataStoreTree/DataStoreTreeDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataCollectionTreeModel$folderNode.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataCollectionTreeModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataTreeRenderer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataViewer$AnnotationPopupMenu.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataViewer$DataPopupMenu.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataViewer$GroupPopupMenu.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataViewer$ProbePopupMenu.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataViewer$ReplicatePopupMenu.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataViewer$UnfocusableTree.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/DataViewer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/ProbeSetTreeModel$folderNode.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DataViewer/ProbeSetTreeModel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DesignEditor/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DesignEditor/InvalidFactorException.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DesignEditor/StatisticalDesign.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DesignEditor/StatisticalDesignEditorDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Domainogram/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Domainogram/DomainogramChromosomePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Domainogram/DomainogramDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Domainogram/DomainogramDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Domainogram/DomainogramDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Domainogram/DomainogramPreferencesDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DuplicationPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DuplicationPlot/DuplicationPlotDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DuplicationPlot/DuplicationPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DuplicationPlot/DuplicationPlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DuplicationPlot/DuplicationPlotPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DuplicationPlot/RestrictedDataStoreSelector$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/DuplicationPlot/RestrictedDataStoreSelector.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeatureListViewer/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeatureListViewer/FeatureListViewer$FeatureTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeatureListViewer/FeatureListViewer.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeaturePositionSelector/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeaturePositionSelector/FeaturePercentileSelectorPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeaturePositionSelector/FeaturePercentileSelectorPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeaturePositionSelector/FeaturePositionSelectorPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeaturePositionSelector/FeaturePositionSelectorPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeatureViewer/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeatureViewer/FeatureAnnotationTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/FeatureViewer/FeatureViewer.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GenomeViewer/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GenomeViewer/ChromosomeDisplay$PanelListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GenomeViewer/ChromosomeDisplay.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GenomeViewer/ChromosomeScale.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GenomeViewer/GenomeViewer$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GenomeViewer/GenomeViewer.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GiraphPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GiraphPlot/GiraphPlot.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GiraphPlot/GiraphPlotCluster.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GiraphPlot/GiraphPlotClusterPair.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GiraphPlot/GiraphPlotPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GiraphPlot/GiraphPlotPanel$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GiraphPlot/GiraphPlotPanel$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GiraphPlot/GiraphPlotPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GradientScaleBar/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GradientScaleBar/GradientPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GradientScaleBar/GradientScaleAxis.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/GradientScaleBar/GradientScaleBar.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HTMLDisplay/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HTMLDisplay/HTMLDisplayDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Help/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Help/HelpDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Help/HelpIndexRoot$FileSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Help/HelpIndexRoot.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Help/HelpPage.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Help/HelpPageDisplay$HelpEditor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Help/HelpPageDisplay.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Help/HelpSearchPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapFilterOptions.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapGenomePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapGenomePanelCollection.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapGenomeWindow$HeatmapOptionsDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapGenomeWindow$HeatmapOptionsDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapGenomeWindow$HeatmapOptionsDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapGenomeWindow.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapPositionListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapProbeListPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapProbeListPanelCollection.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapProbeListWindow$HeatmapOptionsDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapProbeListWindow$HeatmapOptionsDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapProbeListWindow$HeatmapOptionsDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HeatmapProbeListWindow.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HiCHeatmap/HiCGradientPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HierarchicalClusterPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HierarchicalClusterPlot/HierarchicalClusterCorrelationDataSource.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HierarchicalClusterPlot/HierarchicalClusterDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HierarchicalClusterPlot/HierarchicalClusterDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HierarchicalClusterPlot/HierarchicalClusterDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HierarchicalClusterPlot/HierarchicalClusterDistanceDataSource.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HierarchicalClusterPlot/HierarchicalClusterPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/HiCLengthHistogramPlot.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/HistogramPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/HistogramPanel$HistogramCategory.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/HistogramPanel$MainHistogramPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/HistogramPanel$StatusPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/HistogramPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/ProbeLengthHistogramPlot.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/ProbeValueHistogramPlot.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/HistogramPlot/ReadLengthHistogramPlot.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/LineGraph/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/LineGraph/LineGraphDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/LineGraph/LineGraphPanel$ProbeSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/LineGraph/LineGraphPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/MAPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/MAPlot/MAPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/MAPlot/MAPlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/MAPlot/MAPlotPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualGenome.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualGenomeBuilderDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualGenomeBuilderPanel$SimpleFastaReader$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualGenomeBuilderPanel$SimpleFastaReader$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualGenomeBuilderPanel$SimpleFastaReader.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualGenomeBuilderPanel$SimpleGFFReader.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualGenomeBuilderPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualGenomeChromosome.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ManualGenomeBuilder/ManualPseudoGenome.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/MemoryMonitor/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/MemoryMonitor/MemoryMonitor.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/PCADataCalculator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/PCAHistogramPanel$HistogramCategory.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/PCAHistogramPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/PCAScatterPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/PCAScatterPlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/PCAScatterPlotPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/PCASource.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/PCAVarianceDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/VarianceLineGraphPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/PCAPlot/pca_template.r
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeListAnnotationSelector/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeListAnnotationSelector/ProbeListAnnotation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeListAnnotationSelector/ProbeListAnnotationSelectorDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeListReport/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeListReport/ProbeListReport.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeListReport/ProbeListReportCreator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeSelectionListener.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeTrendPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeTrendPlot/TrendOverProbeDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeTrendPlot/TrendOverProbeDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeTrendPlot/TrendOverProbePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeTrendPlot/TrendOverProbePreferences.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ProbeTrendPlot/TrendOverProbePreferencesDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QQDistributionPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QQDistributionPlot/QQDistributionDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QQDistributionPlot/QQDistributionPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/AxisScalePanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/HeatmapPanel/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/HeatmapPanel/QuantitationHeatmapPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/HeatmapPanel/QuantitationHeatmapPanelGroup$sameWidthJLabel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/HeatmapPanel/QuantitationHeatmapPanelGroup.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/NamePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendData.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendHeatmapDialog$1$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendHeatmapDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendHeatmapDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendHeatmapDialog$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendHeatmapDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendHeatmapPreferencesDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendPlotDialog$1$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendPlotDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendPlotPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendPlotPreferencesDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendPlotPreferencesDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/QuantitationTrendPlot/QuantitationTrendPlotPreferencesPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/DataStoreNamePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/PercentileStripChart.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCCalcualtor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCPreferencesDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCPreferencesDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCPreferencesDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCResult.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCResultsDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCResultsDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCResultsDialog$3$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCResultsDialog$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCResultsDialog$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/RNAQCResultsDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/RNASeqQCPlot/SampleSelectionListener.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Report/
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Report/InteractionReport/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Report/InteractionReport/InteractionReportOptions.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Report/InteractionReport/InteractionReportTableDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Report/InteractionReport/InteractionReportTableDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Report/ReportOptions.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Report/ReportTableDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ScatterPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ScatterPlot/ScatterPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ScatterPlot/ScatterPlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/ScatterPlot/ScatterPlotPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallDoubleCellRenderer.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/FeatureNamePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAQCCalcualtor.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAQCPreferencesDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAQCResult.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAResultPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAResultsDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAResultsDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAResultsDialog$3$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAResultsDialog$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/SmallRNAQCPlot/SmallRNAResultsDialog.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StarWars/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StarWars/MultiStarWarsDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StarWars/MultiStarWarsDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StarWars/MultiStarWarsPanel$NoWidthLabel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StarWars/MultiStarWarsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StarWars/StarWarsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StatusPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StrandBias/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StrandBias/StrandBiasPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StrandBias/StrandBiasPlotPanel$DirectionPoint.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StrandBias/StrandBiasPlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/StrandBias/StrandBiasPlotPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/TsneDataStorePlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/TsneDataStorePlot/TsneDataStoreResult.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/TsneDataStorePlot/TsneOptionsDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/TsneDataStorePlot/tsne_template.r
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/VariancePlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/VariancePlot/VariancePlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/VariancePlot/VariancePlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/VariancePlot/VariancePlotPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Vistory/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Vistory/BlankPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Vistory/ScrollablePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Vistory/VistoryBlockButtons.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Vistory/VistoryDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/Vistory/VistoryToolbar.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/VolcanoPlot/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/VolcanoPlot/VolcanoPlotDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/VolcanoPlot/VolcanoPlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/VolcanoPlot/VolcanoPlotPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/InitialSetupPanel$SmoothJLabel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/InitialSetupPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/SeqMonkInformationPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/SeqMonkInformationPanel$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/SeqMonkInformationPanel$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/SeqMonkInformationPanel$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/SeqMonkInformationPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/SeqMonkTitlePanel$SmoothJLabel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/SeqMonkTitlePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Displays/WelcomePanel/WelcomePanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ErrorCatcher.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/BinomialFilterForRev$BinomialOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/BinomialFilterForRev.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/BoxWhiskerFilter$BoxWhiskerOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/BoxWhiskerFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilter$ChiSqareOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilter$DataStorePair.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilter$GroupMakerPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilter$GroupMakerPanel$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilter$GroupMakerPanel$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilter$GroupMakerPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilterForRev$ChiSqareOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilterForRev.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilterFrontBack$ChiSqareOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ChiSquareFilterFrontBack.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CollateListsFilter$CollateListsOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CollateListsFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CombineFilter$CombineFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CombineFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CorrelationCluster/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CorrelationCluster/CorrelationCluster.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CorrelationCluster/CorrelationClusterFilter$CorrelationFilterOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CorrelationCluster/CorrelationClusterFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CorrelationFilter$CorrelationFilterOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/CorrelationFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DESeqFilter/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DESeqFilter/DESeqFilter$DESeqOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DESeqFilter/DESeqFilter$DESeqOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DESeqFilter/DESeqFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DESeqFilter/deseq_template.r
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DeduplicationFilter$DeduplicationFilterOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DeduplicationFilter$DeduplicationFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DeduplicationFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DifferencesFilter$DifferencesOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DifferencesFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DistributionPositionFilter$DistributionPositionFilterOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DistributionPositionFilter$ProbeValueSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DistributionPositionFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/DuplicateListFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/EdgeRFilter/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/EdgeRFilter/EdgeRFilter$EdgeROptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/EdgeRFilter/EdgeRFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/EdgeRFilter/EdgeRForRevFilter$EdgeRForRevOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/EdgeRFilter/EdgeRForRevFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/EdgeRFilter/edger_for_rev_template.r
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/EdgeRFilter/edger_template.r
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/FeatureFilter$FeatureFilterOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/FeatureFilter$FeatureFilterOptionsPanel$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/FeatureFilter$FeatureFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/FeatureFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/FeatureNameFilter$FeatureFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/FeatureNameFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/GeneSetDisplay$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/GeneSetDisplay$GeneSetTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/GeneSetDisplay.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/GeneSetIntensityDifferenceFilter$AverageIntensityComparator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/GeneSetIntensityDifferenceFilter$DifferencesOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/GeneSetIntensityDifferenceFilter$DifferencesOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/GeneSetIntensityDifferenceFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/GeneSetScatterPlotPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/ZScoreScatterPlotPanel$ProbePairValue.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/GeneSetFilter/ZScoreScatterPlotPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/IntensityDifferenceFilter$AverageIntensityComparator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/IntensityDifferenceFilter$DifferencesOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/IntensityDifferenceFilter$SingleComparison.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/IntensityDifferenceFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/IntersectListsFilter$CollateListsOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/IntersectListsFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LimmaFilter/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LimmaFilter/LimmaFilter$LimmaOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LimmaFilter/LimmaFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LimmaFilter/limma_template.r
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ListAnnotationValuesFilter$ValuesFilterOptionPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ListAnnotationValuesFilter$ValuesFilterOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ListAnnotationValuesFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LogisticRegressionFilter/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LogisticRegressionFilter/LogisticRegressionFilter$LogisticRegressionOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LogisticRegressionFilter/LogisticRegressionFilter$LogisticRegressionOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LogisticRegressionFilter/LogisticRegressionFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LogisticRegressionFilter/LogisticRegressionSplicingFilter$LogisticRegressionOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LogisticRegressionFilter/LogisticRegressionSplicingFilter$ProbePair.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LogisticRegressionFilter/LogisticRegressionSplicingFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/LogisticRegressionFilter/logistic_regression_template.r
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ManualCorrelation/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ManualCorrelation/CorrelationProfileGraph$DataStoreDrawnPosition.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ManualCorrelation/CorrelationProfileGraph.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ManualCorrelation/ManualCorrelationFilter$CorrelationFilterOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ManualCorrelation/ManualCorrelationFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/MonteCarloFilter$MoneteCarloOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/MonteCarloFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/OptionsListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/PositionFilter$PositionFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/PositionFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeGroupGenerator/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeGroupGenerator/ConsecutiveProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeGroupGenerator/FeatureProbeGroupGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeGroupGenerator/ProbeGroupGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeGroupGenerator/ProbeWindowGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeLengthFilter$ValuesFilterOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeLengthFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeNameFilter$ProbeNameFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProbeNameFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProportionOfLibraryStatisticsFilter$ProportionStatsOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ProportionOfLibraryStatisticsFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/RandomFilter$RandomFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/RandomFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ReplicateSetStatsFilter$ReplicateSetOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ReplicateSetStatsFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/ClusteredSegment.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/SegmentClusteringDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/SegmentClusteringDialog$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/SegmentClusteringDialog$BoundaryGraph.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/SegmentClusteringDialog$DrawnBoundary.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/SegmentClusteringDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/SegmentationFilter$SegmentationOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/SegmentationFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/SegmentationFilter/segmentation_template.r
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ValuesFilter$ValuesFilterOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/ValuesFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/Variance/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/Variance/VarianceIntensityDifferenceFilter$VarianceIntensityOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/Variance/VarianceIntensityDifferenceFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/Variance/VarianceValuesFilter$VarianceFilterOptionPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/Variance/VarianceValuesFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/WindowedDifferencesFilter$WindowedDifferencesFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/WindowedDifferencesFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/WindowedReplicateStatsFilter$WindowedReplicateOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/WindowedReplicateStatsFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/WindowedValuesFilter$WindowedValuesFilterOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Filters/WindowedValuesFilter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/GeneSets/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/GeneSets/GeneSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/GeneSets/GeneSetCollection.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/GeneSets/GeneSetCollectionParser.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/GeneSets/MappedGeneSet.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/ColourGradient.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/ColourIndexSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/GradientFactory.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/GreyscaleColourGradient.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/HotColdColourGradient.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/InvertedGradient.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/MagentaGreenColourGradient.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/RGB.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/RedGreenColourGradient.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/RedWhiteBlueColourGradient.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/RedWhiteColourGradient.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Gradients/WhiteCyanBlueRedColourGradient.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Importer/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Importer/SeqMonkImporter.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/HiCSeqMonkToolbar.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/MainSeqMonkToolbar.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/SeqMonkMenu$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/SeqMonkMenu$FileOpener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/SeqMonkMenu.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/SeqMonkToolbar.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/ToolbarPanel$ModifiedFlowLayout.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Menu/ToolbarPanel.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/DownloadableGenomes/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/DownloadableGenomes/DownloadableGenomeSet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/DownloadableGenomes/DownloadableGenomeTreeModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/DownloadableGenomes/GenomeAssembly.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/DownloadableGenomes/GenomeAssemblySet.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/DownloadableGenomes/GenomeSpecies.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/GenomeDownloader.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/GenomeUpgrader.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Network/UpdateChecker.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/AntisenseTranscriptionPipeline$AntisenseOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/AntisenseTranscriptionPipeline.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/BisulphiteFeaturePipeline$BisulphiteOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/BisulphiteFeaturePipeline.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/CodonBiasPipeline$CodonBiasOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/CodonBiasPipeline.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/GeneTrapQuantitationPipeline$FeatureGroup.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/GeneTrapQuantitationPipeline$GeneTrapOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/GeneTrapQuantitationPipeline$GeneTrapOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/GeneTrapQuantitationPipeline.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/IntronRegressionPipeline$IntronRegressionOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/IntronRegressionPipeline.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Options/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Options/DefinePipelineOptions.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Pipeline.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/SplicingEfficiencyPipeline$SplicingEfficiencyOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/SplicingEfficiencyPipeline.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/ActiveTranscriptionPipeline.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/FeatureGroup.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/IntronFeatureGroup.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/RNASeqParametersModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/RNASeqPipeline$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/RNASeqPipeline$RNASeqOptionsPanel$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/RNASeqPipeline$RNASeqOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/Transcription/RNASeqPipeline.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/TranscriptionTerminationPipeline$TranscriptionTerminationOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/TranscriptionTerminationPipeline.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/WigglePipeline$WiggleOptionsPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Pipelines/WigglePipeline.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/ColourScheme.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/DisplayPreferences.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/DisplayPreferencesListener.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/Editor/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/Editor/DisplayPreferencesEditorDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/Editor/DisplayPreferencesEditorPanel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/Editor/NamedValueObject.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/Editor/PreferencesListCellRenderer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Preferences/SeqMonkPreferences.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ContigProbeGenerator$SequenceReadWithCount.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ContigProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/CurrentRegionProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/DeduplicationProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/DefineProbeOptions.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/EvenCoverageProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/FeaturePercentileProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/FeatureProbeGenerator$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/FeatureProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/InterstitialProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/MacsPeakCaller.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/MergeConsecutiveProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ProbeGeneratorListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ProbeGeneratorProgressDialog$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ProbeGeneratorProgressDialog$ProgressBar.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ProbeGeneratorProgressDialog.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ProbeGeneratorUtilities.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ProbeListProbeGenerator$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ProbeListProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/RandomProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ReadPositionProbeGenerator$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ReadPositionProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/RunningWindowProbeGenerator$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/RunningWindowProbeGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ShuffleListProbeGenerator$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/ProbeGenerators/ShuffleListProbeGenerator.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/BasePairQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/BasePairQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/CoverageDepthQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/CoverageQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/DifferenceQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/DifferenceQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/DistanceToFeatureQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/DuplicationQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/EnrichmentNormalisationQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/EnrichmentQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ExactOverlapQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ExactOverlapQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/FixedValueQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/FourCEnrichmentQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/HiCCisTransQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/HiCCisTransQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/HiCPCADomainQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/HiCPrevNextQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/HiCReadCountQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/HiCReadCountQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/LinearRegressionNormalisationQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/LinearRegressionNormalisationQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/LogTransformQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/LogTransformQuantitation$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/LogTransformQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ManualCorrectionQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ManualCorrectionQuantitation$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ManualCorrectionQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/MatchDistributionsQuantitation$DataIndexValueSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/MatchDistributionsQuantitation.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/Options/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/Options/DefineQuantitationOptions.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/PerProbeNormalisationQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/PercentileNormalisationQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/PercentileNormalisationQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ProbeLengthQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/Quantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/RankQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ReadCountQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ReadCountQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/RelativeQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/RelativeQuantitation$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/RelativeQuantitation$ReferencePairingTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/RelativeQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/SizeFactorNormalisationQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/SmoothingQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/SmoothingQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/SmoothingSubtractionQuantitation$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/SmoothingSubtractionQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/SubsetNormalisationQuantitation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Quantitation/ZScoreQuantitation.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/R/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/R/RException.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/R/RProgressListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/R/RScriptRunner.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/R/RVersionTest.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/AnnotatedProbeReport$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/AnnotatedProbeReport$AnnotationTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/AnnotatedProbeReport$ProbeAnnotation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/AnnotatedProbeReport.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/ChromosomeViewReport.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/DataStoreSummaryReport$AnnotationTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/DataStoreSummaryReport$StoreSummary.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/DataStoreSummaryReport.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/FeatureReport$AnnotationTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/FeatureReport$FeatureAnnotation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/FeatureReport.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/Interaction/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/Interaction/AnnotatedInteractionReport$AnnotationTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/Interaction/AnnotatedInteractionReport.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/Interaction/InteractionReport.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/ProbeGroupReport$AnnotationTableModel.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/ProbeGroupReport$ProbeGroupAnnotation.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/ProbeGroupReport.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/Report$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Reports/Report.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Bars.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Blocks.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Cold - Hot.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Combined Strands.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Gradient Colours.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Greyscale.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/High Density.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Indexed Colours.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Lines.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Low Density.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Magenta - Green.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Medium Density.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Points.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Positive Only.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Positive and Negative.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Probes Only.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Reads Only.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Reads and Probes.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Red - Green.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Red - White.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/DisplayPrefsIcons/Separated Strands.png
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/error.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/error.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/information.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/information.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/tick.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/tick.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/warning.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/StatusIcons/warning.svg
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/add_text.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/add_title.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/change_annotation.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/change_data.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/change_data_zoom.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/clear_vistory.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/combine_pack_reads.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/display_prefs.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/export_to_web.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/export_to_web.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/find_feature.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/hiC_genome_heatmap.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/hiC_probe_heatmap.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/jump_to_position.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/launch_vistory.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/launch_vistory.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/load_project.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/make_4c_dataset.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/new_project.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/paste_image.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/paste_image.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/project_status.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/save_project.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/Toolbar/split_pack_reads.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/annotation_set_icon.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/annotation_set_icon.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/babraham_bioinf_logo.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/bi_logo.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/datagroup_icon.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/datagroup_icon.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/dataset_icon.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/dataset_icon.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/hic_dataset_icon.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/hic_dataset_icon.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/monk.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/monk100.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/monk_dmg_background.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/monk_dmg_background.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/monk_icon.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/monk_logo.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/monk_vistory.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/monk_vistory.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/probelist_icon.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/probelist_icon.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/replicate_set_icon.png
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/replicate_set_icon.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/sad_monk.svg
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/sad_monk100.png
+-rwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Resources/seqmonk.icns
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/SeqMonkApplication$1.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/SeqMonkApplication$2.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/SeqMonkApplication$3.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/SeqMonkApplication$4.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/SeqMonkApplication$5.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/SeqMonkApplication.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/SeqMonkException.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/AxisScale.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ChromosomeNameTranslator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ChromosomeWithOffset.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/DoubleVector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/EscapeHTML.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/Features/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/Features/FeatureMerging.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/BEDFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/EmbededSeqMonkFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/FastaFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/GFFFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/HTMLFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/PNGFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/SVGFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/SeqMonkFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/TxtFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FileFilters/VistoryFileFilter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/FloatVector.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ImageSaver/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ImageSaver/ImageSaver.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ImageSaver/SVGGenerator$SVGGraphics.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ImageSaver/SVGGenerator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ImageSaver/SVGProducer.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ImageSaver/TransferrableImage.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ImageToBase64.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/IntVector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ListDefaultSelector.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/LongSorter/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/LongSorter/HiCLongComparator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/LongSorter/IntComparator.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/LongSorter/IntSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/LongSorter/LongSetSorter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/LongVector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/NonThreadSafeIntCounter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/NumberKeyListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/OrderPreservingJList.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/PositionFormat.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/PrefsPrinter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ReportMemoryUsage.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ShortVector.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/TempDirectory.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/Templates/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/Templates/Template.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ThreadSafeIntCounter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ThreadSafeLongCounter.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ThreadSafeMinMax.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Utilities/ValidFileNameGenerator.class
+drwxr-xr-x	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/Vistory.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/VistoryBlock.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/VistoryEvent.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/VistoryImage.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/VistoryListener.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/VistoryProjectSummary.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/VistoryTable.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/VistoryText.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/Vistory/VistoryTitle.class
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/create_local_library.r
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/load_required_modules.r
+-rw-r--r--	root/root	usr/lib/seqmonk/uk/ac/babraham/SeqMonk/r_dependencies.r
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/seqmonk.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/seqmonk.png

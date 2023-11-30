@@ -1,0 +1,22 @@
+# Description:	Perl Implementation of Rivest's MD5 algorithm
+# URL:		http://search.cpan.org/~delta/Digest-Perl-MD5/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	perl
+
+name=p5-digest-perl-md5
+version=1.9
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/D/DE/DELTA/Digest-Perl-MD5-${version}.tar.gz)
+
+build() {
+	cd Digest-Perl-MD5-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

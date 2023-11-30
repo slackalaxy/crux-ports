@@ -1,0 +1,33 @@
+diff -pruN old/libs/gccv/text.cc new/libs/gccv/text.cc
+--- old/libs/gccv/text.cc	2012-08-11 15:41:27.000000000 +0300
++++ new/libs/gccv/text.cc	2021-07-27 22:09:18.396990003 +0300
+@@ -1208,7 +1208,7 @@ bool Text::OnKeyPressed (GdkEventKey *ev
+ 	case GDK_Delete:
+ 	case GDK_KP_Delete: {
+ 		if (m_CurPos != m_StartSel) {
+-			ReplaceText (empty_st, MIN (m_CurPos, m_StartSel), abs (m_CurPos - m_StartSel));
++			ReplaceText (empty_st, MIN (m_CurPos, m_StartSel), abs ((int)(m_CurPos - m_StartSel)));
+ 			if (client)
+ 				client->TextChanged (m_CurPos);
+ 			break;
+@@ -1228,7 +1228,7 @@ bool Text::OnKeyPressed (GdkEventKey *ev
+ 		break;
+ 	case GDK_BackSpace: {
+ 		if (m_CurPos != m_StartSel) {
+-			ReplaceText (empty_st, MIN (m_CurPos, m_StartSel), abs (m_CurPos - m_StartSel));
++			ReplaceText (empty_st, MIN (m_CurPos, m_StartSel), abs ((int)(m_CurPos - m_StartSel)));
+ 			if (client)
+ 				client->TextChanged (m_CurPos);
+ 			break;
+diff -pruN old/programs/crystal/document.cc new/programs/crystal/document.cc
+--- old/programs/crystal/document.cc	2012-08-11 15:41:30.000000000 +0300
++++ new/programs/crystal/document.cc	2021-07-27 23:23:17.178201660 +0300
+@@ -607,7 +607,7 @@ void gcDocument::OnExportVRML (const str
+ 		if (error) {
+ 			cerr << "gio error: " << error->message << endl;
+ 			g_error_free (error);
+-			g_object_unref (file);
++			g_object_unref (stream);
+ 			throw (int) 1;
+ 		}
+ 		std::map<std::string, sAtom>AtomsMap;

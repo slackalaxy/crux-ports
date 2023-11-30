@@ -1,0 +1,33 @@
+# Description: Abstraction for enumerating power devices, listening to device events and querying history and statistics.
+# URL: https://upower.freedesktop.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: dbus-glib intltool libgudev libusb
+# Optional: gtk-doc
+
+name=upower
+version=0.99.13
+release=1
+source=(https://gitlab.freedesktop.org/upower/upower/-/archive/UPOWER_${version//[\.]/_}/upower-UPOWER_${version//[\.]/_}.tar.bz2
+	upower.1 UPower.7 upowerd.8 disable-gtk-docs.patch)
+
+build() {
+	cd $name-UPOWER_${version//[\.]/_}
+	patch -Np1 -i $SRC/disable-gtk-docs.patch
+
+	NOCONFIGURE=1 ./autogen.sh
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--libexecdir=/usr/lib/$name \
+		--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+
+	if [ ! -e 'usr/share/pkgconfig/gtk-doc.pc' ]; then
+		install -Dm644 $SRC/upower.1 $PKG/usr/share/man/man1/upower.1
+		install -Dm644 $SRC/UPower.7 $PKG/usr/share/man/man7/UPower.7
+		install -Dm644 $SRC/upowerd.8 $PKG/usr/share/man/man8/upowerd.8
+	fi
+}

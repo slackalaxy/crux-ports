@@ -1,0 +1,66 @@
+diff -pruN old/driver/XScreenSaver.ad.in new/driver/XScreenSaver.ad.in
+--- old/driver/XScreenSaver.ad.in	2021-08-15 13:27:53.264905867 +0000
++++ new/driver/XScreenSaver.ad.in	2021-08-15 14:21:16.609856159 +0000
+@@ -412,6 +412,29 @@ XScreenSaver.bourneShell:		/bin/sh
+ 				wander -root				    \n\
+ -				webcollage -root			    \n\
+ 				electricsheep --root 1			    \n\
++				cyclone --root                              \n\
++				euphoria --root                             \n\
++				fieldlines --root                           \n\
++				flocks --root                               \n\
++				flux --root                                 \n\
++				helios --root                               \n\
++				hyperspace --root                           \n\
++				lattice --root                              \n\
++				plasma --root                               \n\
++				skyrocket --root                            \n\
++				solarwinds --root                           \n\
++				colorfire --root                            \n\
++				hufo_smoke --root                           \n\
++				hufo_tunnel --root                          \n\
++				sundancer2 --root                           \n\
++				biof --root                                 \n\
++				busyspheres --root                          \n\
++				spirographx --root                          \n\
++				matrixview --root                           \n\
++				lorenz --root                               \n\
++				drempels --root                             \n\
++				feedback --root                             \n\
++				pixelcity --root                            \n\
+ 				xflame -root				    \n\
+ 				xmatrix -root				    \n\
+ @GL_KLUDGE@ GL: 				gflux -root				    \n\
+diff -pruN old/driver/XScreenSaver_ad.h new/driver/XScreenSaver_ad.h
+--- old/driver/XScreenSaver_ad.h	2021-08-15 13:27:13.416906485 +0000
++++ new/driver/XScreenSaver_ad.h	2021-08-15 14:22:43.345854813 +0000
+@@ -267,6 +267,29 @@
+ 				wander -root				    \\n\
+ -				webcollage -root			    \\n\
+ 				electricsheep --root 1                      \\n\
++				cyclone --root                              \\n\
++				euphoria --root                             \\n\
++				fieldlines --root                           \\n\
++				flocks --root                               \\n\
++				flux --root                                 \\n\
++				helios --root                               \\n\
++				hyperspace --root                           \\n\
++				lattice --root                              \\n\
++				plasma --root                               \\n\
++				skyrocket --root                            \\n\
++				solarwinds --root                           \\n\
++				colorfire --root                            \\n\
++				hufo_smoke --root                           \\n\
++				hufo_tunnel --root                          \\n\
++				sundancer2 --root                           \\n\
++				biof --root                                 \\n\
++				busyspheres --root                          \\n\
++				spirographx --root                          \\n\
++				matrixview --root                           \\n\
++				lorenz --root                               \\n\
++				drempels --root                             \\n\
++				feedback --root                             \\n\
++				pixelcity --root                            \\n\
+ 				xflame -root				    \\n\
+ 				xmatrix -root				    \\n\
+   GL: 				gflux -root				    \\n\

@@ -1,0 +1,27 @@
+# Description: GTK+ text editor
+# URL: http://mooedit.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk python xorg-libxdamage
+
+name=medit
+version=1.2.0
+release=1
+source=(https://downloads.sourceforge.net/mooedit/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	# Python2 fix
+	sed -i 's@^#!.*python$@#!/usr/bin/python2@' moo/moopython/plugins/lib/pyconsole.py
+
+	# Recognise Pkgfile as shell script, thanks Chris Farrell
+	sed -i 's/*.sh/*.sh;Pkgfile/' moo/mooedit/langs/sh.lang
+
+	./configure --prefix=/usr \
+	--disable-install-hooks PYTHON=python2
+	
+	make
+	make DESTDIR="$PKG" install
+  
+	rm -fr $PKG/usr/share/{locale,doc}
+}

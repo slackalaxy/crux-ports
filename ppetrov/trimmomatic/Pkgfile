@@ -1,0 +1,16 @@
+# Description: A flexible read trimming tool for Illumina NGS data
+# URL: http://www.usadellab.org/cms/?page=trimmomatic
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=trimmomatic
+version=0.39
+release=1
+source=(http://www.usadellab.org/cms/uploads/supplementary/Trimmomatic/Trimmomatic-$version.zip)
+
+build() {
+	cd Trimmomatic-$version
+	install -D -m755 $name-$version.jar $PKG/usr/bin/$name.jar
+	mkdir -p $PKG/usr/share/$name
+	cp -a adapters $PKG/usr/share/$name
+}

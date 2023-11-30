@@ -1,0 +1,15 @@
+# Description: Stop XScreenSaver when fullscreen is playing
+# URL: https://slackalaxy.com/2022/05/07/stop-xscreensaver-when-fullscreen-is-playing/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=xscreensaver-stopper
+version=94d9723
+release=1
+source=(https://github.com/slackalaxy/xscreensaver-stopper/archive/$version/$name-94d9723b795c9ad9f2efeb9180e703099593024e.tar.gz)
+
+build() {
+	cd $name-${version}*
+	install -D -m755 $name.sh $PKG/usr/bin/$name
+	install -D -m644 $name.desktop $PKG/usr/etc/xdg/autostart/$name.desktop
+	sed -i "s:$name.sh:$name:" $PKG/usr/etc/xdg/autostart/$name.desktop
+}

@@ -1,0 +1,39 @@
+# Description: Apple San Francisco fonts
+# URL: https://developer.apple.com/fonts/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p7zip
+
+name=fonts-apple-sf
+version=wwdc23
+release=2
+source=(https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg
+	https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg
+	https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg)
+
+build() {
+	7z x $SRC/SF-Compact.dmg
+	7z x $SRC/SF-Mono.dmg
+	7z x $SRC/SF-Pro.dmg
+	
+	mkdir -p $PKG/usr/share/fonts/apple
+	
+	cd $SRC/SFCompactFonts
+	7z x SF\ Compact\ Fonts.pkg
+	7z x Payload~
+	cd Library/Fonts
+	#cp -a *.ttf $PKG/usr/share/fonts/apple
+	cp -a *.otf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/SFMonoFonts
+	7z x SF\ Mono\ Fonts.pkg
+	7z x Payload~
+	cd Library/Fonts
+	cp -a *.otf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/SFProFonts
+	7z x SF\ Pro\ Fonts.pkg
+	7z x Payload~
+	cd Library/Fonts
+	#cp -a *.ttf $PKG/usr/share/fonts/apple
+	cp -a *.otf $PKG/usr/share/fonts/apple
+}

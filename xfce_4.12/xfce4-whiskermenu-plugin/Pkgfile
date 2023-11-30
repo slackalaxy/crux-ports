@@ -1,0 +1,23 @@
+# Description: Alternate application launcher menu from the panel
+# URL: https://goodies.xfce.org/projects/panel-plugins/xfce4-whiskermenu-plugin
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xfce4-panel
+
+name=xfce4-whiskermenu-plugin
+version=1.7.5
+release=1
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build () {
+  cd $name-$version
+  mkdir build
+  cd build
+  cmake -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_INSTALL_LIBDIR=lib \
+        -DCMAKE_INSTALL_MANDIR=/usr/share/man \
+        -GNinja ../
+  ninja
+  DESTDIR=$PKG ninja install
+  rm -rf $PKG/usr/share/locale
+}

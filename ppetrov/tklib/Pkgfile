@@ -1,0 +1,18 @@
+# Description: utility modules for TCL/Tk
+# URL: http://www.tcl.tk/software/tklib/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: tcllib
+
+name=tklib
+version=0.7
+release=1
+source=(https://core.tcl-lang.org/$name/tarball/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+
+	make
+	make install DESTDIR=$PKG
+}

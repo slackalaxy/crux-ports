@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchs4BB0nbcmgygsYLF49WHI+O3sBDjyktpFYP7nRsj0Lv+LdMSfDoa0fIkA2SCIu8ekyfWnlkz0DyjTuLomIziAU=
+SHA256 (Pkgfile) = a235b5ebc2db9f5e226a1b250853f556d0e18d3a6f6df057689923c38509515a
+SHA256 (.footprint) = f9cc8707bcc77bdf76f63bb02e0cc98931d05890ab12b4b1b85512c1aca2e10a
+SHA256 (gnome-desktop-2.32.1.tar.bz2) = 55cbecf67efe1fa1e57ac966520a7c46d799c8ba3c652a1219f60cafccb3739d

@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/trimmomatic.jar
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/trimmomatic/
+drwxr-xr-x	root/root	usr/share/trimmomatic/adapters/
+-rw-r--r--	root/root	usr/share/trimmomatic/adapters/NexteraPE-PE.fa
+-rw-r--r--	root/root	usr/share/trimmomatic/adapters/TruSeq2-PE.fa
+-rw-r--r--	root/root	usr/share/trimmomatic/adapters/TruSeq2-SE.fa
+-rw-r--r--	root/root	usr/share/trimmomatic/adapters/TruSeq3-PE-2.fa
+-rw-r--r--	root/root	usr/share/trimmomatic/adapters/TruSeq3-PE.fa
+-rw-r--r--	root/root	usr/share/trimmomatic/adapters/TruSeq3-SE.fa

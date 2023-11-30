@@ -1,0 +1,4 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/jdk/
+lrwxrwxrwx	root/root	usr/lib/jdk/openjdk8 -> /usr/lib/jdk/adoptium8-jdk

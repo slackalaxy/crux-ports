@@ -1,0 +1,29 @@
+# Description: MPlayer/MPV frontend
+# URL: http://smplayer.sf.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: double-conversion libpcre2 qt5 mpv
+
+name=smplayer
+version=23.6.0
+release=1
+source=(https://downloads.sourceforge.net/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	# Disable -Werror (helps building with the newer gcc)
+	sed -i "s|-W\ -Wall\ -Werror|-W -Wall|" webserver/Makefile
+	
+	make \
+	QMAKE=qmake-qt5 \
+	LRELEASE=lrelease-qt5 \
+	PREFIX=/usr \
+	QMAKE_OPTS="QMAKE_CXXFLAGS=\"$CFLAGS\""
+
+	make install \
+	PREFIX=/usr \
+	DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/smplayer/translations
+}

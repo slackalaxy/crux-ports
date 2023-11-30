@@ -1,0 +1,21 @@
+# Description: PlugiX keyboard layout switching in the panel
+# URL: http://goodies.xfce.org/projects/panel-plugins/xfce4-xkb-plugin
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xfce4-session libxklavier xfce4-panel librsvg
+
+name=xfce4-xkb-plugin
+version=0.7.1
+release=2
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+build () { 
+	cd $name-$version
+	./configure --prefix=/usr \
+	--disable-nls \
+	--disable-debug \
+	--libexecdir=/usr/lib
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/locale
+}

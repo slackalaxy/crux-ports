@@ -1,0 +1,34 @@
+# Description: File manager for XFCE
+# URL: https://git.xfce.org/xfce/thunar/tree/README
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: desktop-file-utils libnotify tumbler xfce4-panel
+# Nice to have: gnome-colors-48 gvfs
+
+name=thunar
+version=1.6.18
+release=3
+source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/Thunar-$version.tar.bz2
+	01-Deactivate-SEND_MOVED-code-paths.patch
+	bug16093.diff
+	check-thunar-file-instance-when-comparing-filenames.patch)
+build () {
+	cd Thunar-$version
+
+	# This patch is adapted from from Slackware 14.2
+	patch -p1 -i $SRC/01-Deactivate-SEND_MOVED-code-paths.patch
+	
+	# https://bugzilla.xfce.org/show_bug.cgi?id=12264#c1
+	patch -p1 -i $SRC/check-thunar-file-instance-when-comparing-filenames.patch
+
+	# https://bugzilla.xfce.org/show_bug.cgi?id=16093#c5
+	patch -p1 -i $SRC/bug16093.diff
+	
+	./configure --prefix=/usr \
+	--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{locale,doc,gtk-doc}
+	rm -rf $PKG/usr/lib/systemd
+}

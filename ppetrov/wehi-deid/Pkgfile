@@ -1,0 +1,21 @@
+# Description: Flow cytometry De-Identifier
+# URL: http://www.frankbattye.com.au/freesoftware.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: jdk8-bin facsdir
+
+name=wehi-deid
+version=20130720
+release=1
+source=(http://www.frankbattye.com.au/downloads/DeID.jar
+	$name.desktop $name.png $name.menu)
+
+build() {
+	install -D -m755 $SRC/DeID.jar $PKG/usr/bin/$name.jar
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	mkdir -p $PKG/usr/etc/xdg/menus/applications-merged
+	cp $SRC/$name.menu $PKG/usr/etc/xdg/menus/applications-merged
+}

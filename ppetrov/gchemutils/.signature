@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZSS/eYAEAA/ZimnvmUWEl0VGraa4isBkd529C9OeZylE0+dlH+X8FpGTa1+HWv4mk0izRnAcrHLhfbfeoB4MZAg=
+SHA256 (Pkgfile) = 831dfd218ad182aba538eb4319c9782800e670954e721d4bdbc9066d08fac687
+SHA256 (.footprint) = bb2f9228d3df922950b18147234e09d5c17210093528d8514d5db8d53f887744
+SHA256 (gnome-chemistry-utils-0.12.13.tar.xz) = a570b951e83c444c150eb1b1340004bb1610bc88c8ff4121caf58e1f77d3b451
+SHA256 (gchemutils.directory) = dfa918581d8a07f005357e8c1629042c52d870a48c8a2fd528d7e5347378ca95
+SHA256 (gchemutils.menu) = e0aaca5ebe6c204d942ebe5729d8cedbb5c4525eb2d5553f0563e1e3d2eac7e0
+SHA256 (stream.patch) = 7c3564e2215c813985ca8ad83a69720d3f293e04d6cdf16d82b8788f805e7831

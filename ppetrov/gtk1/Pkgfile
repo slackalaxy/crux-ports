@@ -1,0 +1,34 @@
+# Description: GTK1
+# URL: https://download.gnome.org/sources/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glib1 xorg-libxi
+
+name=gtk1
+version=1.2.10
+release=2
+source=(https://download.gnome.org/sources/gtk+/${version%.*}/gtk+-$version.tar.gz
+	aclocal-fixes.patch)
+
+build() {
+	cd gtk+-$version
+	
+	cp /usr/share/libtool/build-aux/config.guess .
+	cp /usr/share/libtool/build-aux/config.sub .
+	
+	# Thanks to Arch
+	patch -p0 -i "$SRC/aclocal-fixes.patch"
+	sed -i "/ac_cpp=/s/\$CPPFLAGS/\$CPPFLAGS -O2/" configure
+	
+	./configure --prefix=/usr \
+	--infodir=/usr/share/info \
+	--with-xinput=xfree
+
+	make
+	make install DESTDIR=$PKG
+	
+	# Put manpages to their proper place
+	mv $PKG/usr/man $PKG/usr/share
+	
+	rm -rf $PKG/usr/share/{locale,info}
+	rm -f $PKG/{,usr/}lib/*.la
+}

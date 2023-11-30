@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchqlN0nQzcVgjEdbOIM0Gla3Qz/4/047eJJJJtsYPXKWBApVjFGWxvVMALOEZyq4VbnD44RMYXsqQt2C5FPMEOwA=
+SHA256 (Pkgfile) = b5d5119d1b337702f021c48eb99636e48835d5917d5967719d6611b0c3db68ff
+SHA256 (.footprint) = 3dd30b21a0c0a38081e7ae3c69d53049195810d09fe84972ad8cc1cff135a1f5
+SHA256 (xfce4-screenshooter-1.8.2.tar.bz2) = 9dce2ddfaa87f703e870e29bae13f3fc82a1b3f06b44f8386640e45a135f5f69

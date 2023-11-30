@@ -1,0 +1,16 @@
+# Description: mRNA-to-genomic alignment
+# URL: https://www.ncbi.nlm.nih.gov/spidey/index.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=spidey
+version=20060601
+release=1
+source=(https://sourceforge.net/projects/sboppetrov/files/spidey/spidey.linux.64.gz
+	$name.1)
+
+build() {
+	gunzip -c $SRC/$name.linux.64.gz > $name
+	install -D -m755 $name $PKG/usr/bin/$name
+	install -D -m644 $name.1 $PKG/usr/share/man/man1/$name.1
+}

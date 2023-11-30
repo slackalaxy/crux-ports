@@ -1,0 +1,22 @@
+# Description: An open source thesaurus
+# URL: http://artha.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage wordnet
+
+name=artha
+version=1.0.3
+release=1
+source=(http://ponce.cc/slackware/sources/repo/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	sed -i "s:Utility:Office:" data/$name.desktop
+	
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CXXCFLAGS -fcommon"
+	./configure --prefix=/usr
+
+	make LDFLAGS="-lgio-2.0"
+	make install DESTDIR=$PKG
+}

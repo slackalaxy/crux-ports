@@ -1,0 +1,16 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>Education</Name>
+    <Directory>xfce4-education.directory</Directory>
+  <Menu>
+    <Name>Flow Cytometry</Name>
+    <Directory>facsdir.directory</Directory>
+    <Include>
+	<Filename>wehi-hackit.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+</Menu>

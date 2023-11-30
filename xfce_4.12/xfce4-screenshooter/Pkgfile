@@ -1,0 +1,21 @@
+# Description: Take screenshots of your desktop or active window
+# URL: https://docs.xfce.org/apps/screenshooter/start
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libsoup xfce4-panel
+
+name=xfce4-screenshooter
+version=1.8.2
+release=1
+source=(http://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
+build () { 
+  cd $name-$version
+  ./configure --prefix=/usr \
+              --libexecdir=/usr/lib \
+              --disable-nls
+  make
+  make install DESTDIR=$PKG
+  rm -rf $PKG/usr/share/locale
+  rm -rf $PKG/usr/share/xfce4/doc/{??,??_??,???}
+  find $PKG/usr/share -type f -name '*.desktop' \
+       -exec sed -r '/\[.+\]=/d' -i {} \;
+}

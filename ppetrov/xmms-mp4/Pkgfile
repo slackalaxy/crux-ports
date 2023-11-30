@@ -1,0 +1,28 @@
+# Description: Plugin to support .mp4/.m4a/.aac files in XMMS
+# URL: http://fondriest.frederic.free.fr/realisations/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: faad2 xmms
+
+name=xmms-mp4
+version=20050213
+release=1
+source=(https://slackware.uk/sbosrcarch/by-name/audio/xmms-mp4/xmms-mp4_20050213.tar.bz2
+	compilefix.diff)
+
+build() {
+	cd ${name}_${version}
+	
+	# modern gcc doesn't allow a header to declare a static function when
+	# the function isn't defined as static, fix.
+	patch -p1 < $SRC/compilefix.diff
+
+	# Ancient configure script, generate a new one.
+	autoreconf -fi
+
+	CFLAGS="$CFLAGS -std=gnu89" \
+	CXXFLAGS="$CFLAGS -std=gnu89" \
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc
+	make
+	make install DESTDIR=$PKG
+}

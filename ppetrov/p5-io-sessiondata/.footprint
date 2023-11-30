@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/perl5/
+drwxr-xr-x	root/root	usr/lib/perl5/5.36/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.36/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.36/IO/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.36/IO/SessionData.pm
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.36/IO/SessionSet.pm
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.36/linux-thread-multi/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.36/linux-thread-multi/auto/
+drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.36/linux-thread-multi/auto/IO/

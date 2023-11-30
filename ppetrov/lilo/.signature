@@ -1,0 +1,12 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZaWIqmboMD7bgiaNemq736o1kLZxUP3Vmm1hXyd4JRfuj0j4HlaAwnqADRcX4mXdSg5N/bPETvnAc3nqCqYc2wc=
+SHA256 (Pkgfile) = 1bf07416767fe46842a28a43a93ea5669e5e769b20a0282209dfa17e74e8ddf7
+SHA256 (lilo-24.2.tar.gz) = e158f19de4560c935ebe0507c21b79bff17618b9230d8076fe8c5fff9fdbd5b1
+SHA256 (lilo.gcc10.diff.gz) = 0de77019dfa5d03708aef382e2b33df225be2ea3a44eb1dad6d49f9a7194bc91
+SHA256 (lilo.ignore.usable.memory.above.4G.diff.gz) = 8ad661ca9ddc8f99c4b6c8df011f105a91a01ffe9dd975cb55b6ee0799f9f17b
+SHA256 (lilo.nvme.support.diff.gz) = 44346cfe5dde2319a99eea2e1b98ee1303ba0191655ab906f3b6b9099ecaea0b
+SHA256 (lilo.allow.colons.in.by-id.diff.gz) = 41f42ce2d4b0ce6a059fc0853921faca91d22eb7af944d92c1eccb55631268b5
+SHA256 (cruxyhd.dat) = 260887ddd54431eaa86af3b03ce1fe33db7eac622f7bf71d389a77e0aed9d99b
+SHA256 (cruxyhd.bmp) = 4ab394bcaabc23da70344c6b504e621cd22618fe8adae0e67c47d6b60164784d
+SHA256 (lilo.conf_default) = 2b9b399a3318920a45208e98bdcd521e7a7c2cdfc7e398d628295c3c93ebecb7
+SHA256 (lilo.conf_image) = d438f4b343d937275cfdeb01df2caefac4a024950f54b4cbf4e09ba53dec0218

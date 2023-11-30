@@ -1,0 +1,36 @@
+# Description: Bayesian inference of phylogeny
+# URL: https://github.com/NBISweden/MrBayes
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=mrbayes
+version=3.2.7a
+release=1
+source=(https://github.com/NBISweden/MrBayes/archive/v${version}/MrBayes-${version}.tar.gz)
+
+build() {
+	cd MrBayes-$version
+
+	./configure --prefix=/usr \
+	--with-beagle=no
+
+	# Fix the examples path
+	sed -i "s:/share:/share/$name:" examples/Makefile
+	sed -i 's:examples/${PACKAGE}:examples:g' examples/Makefile
+
+	# GCC warns -mmpx is no longer supported. Also, use our CFLAGS
+	sed -i "s/-mmpx//g" Makefile src/Makefile
+	sed -i "/^CFLAGS/s/=/+=/" Makefile src/Makefile
+
+	make CFLAGS="$CFLAGS"
+	make install DESTDIR=$PKG
+
+	# symlink the executable
+	cd $PKG/usr/bin
+	ln -s mb $name
+	
+	# Keep the manual
+	cp $PKG/usr/share/doc/$name/*.pdf $PKG/usr/share/$name
+	cp $PKG/usr/share/doc/$name/*.nex $PKG/usr/share/$name/examples
+	rm -rf $PKG/usr/share/doc
+}

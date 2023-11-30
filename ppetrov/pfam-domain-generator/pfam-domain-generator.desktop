@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Pfam Domain Generator
+Comment=Pfam domains custom generator
+Exec=exo-open --launch WebBrowser /usr/lib/pfam-domain-generator/Pfam_\ Generate\ domain\ images.html
+Icon=pfam-domain-generator
+StartupNotify=false
+Type=Application
+Categories=Education

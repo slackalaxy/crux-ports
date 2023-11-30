@@ -1,0 +1,16 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZbmCITfnUQuL0gt/r9hlODrlcvFVjtXD3xyhqJwHtI2JPr9FlSzyMgJfZ6Wbx36aFmpBS/BEkHeAb3P3o3reMgA=
+SHA256 (Pkgfile) = 92736e621baf691f0b595975fdb50804ab99ab1f9982669edc3963989901804b
+SHA256 (.footprint) = e4ec51c6cba57c27f8ff00a87fefa1ba988bcccccc9095b08262ac1297eef524
+SHA256 (gbgoffice_1.4.orig.tar.gz) = e4459bdde092eefb8bf84d9a915fcf07760d51c36ded3b74f280c614e0ae3561
+SHA256 (03_multidir.patch) = ae1e026d98ff7bf6d4cb42f7af757b934c61da7ff4451dc6fb713f1b7fbe76c3
+SHA256 (04_fix_fsf_address.patch) = 97330234b90ba45690506ae8e177d0ff11c19f57f0966ddd0a19a388e177183c
+SHA256 (05_gcc4.1.patch) = 8d2b1fe2a5a98baf69bf426cc6b88281852dbbe0385926bdad24ac09aa424d97
+SHA256 (06_const-chars.patch) = 947901d7c61c80c37fd76f2c5c39467592ff0612638a306fbdee2e5196d79669
+SHA256 (07_gcc4.3.patch) = c54723d8169bf2cc5839303eb8ffd5b90f14ed266996dff97691e75f5076a247
+SHA256 (08_fix_const_conversion.patch) = dadd6bbf5702962eb04aad2b1131b882c2eb685c6f00f09fcfa672f991765dd5
+SHA256 (09_deprecated_SigC.patch) = 1a9ecc9c1d402b36a4311772e31be1b09ec371e9bca08a4ad616b5795da36080
+SHA256 (10_workhelper-buttonbox.patch) = f25579caf30452e7682226ff8a3be85b33320779b92d069ae84e5cf8bfaeab91
+SHA256 (11_explicit-linkage.patch) = 164b2251f84ec4f915cd2e9829abc4050ac00a6d5b8aa5126913b0c237983b4e
+SHA256 (12_gcc6.patch) = 9d3e032616674f6d87cae5859a7a350445b81af570a80f1847c0a47a44726a85
+SHA256 (gbgoffice.desktop) = 13fcae8880e83acebf21286d37049a245b3d974caf9bfd124753d84ba819f2b7

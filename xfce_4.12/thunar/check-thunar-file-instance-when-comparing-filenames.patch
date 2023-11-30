@@ -1,0 +1,30 @@
+From 33a6c1ee40265da51c1fe3209244675ed33da69f Mon Sep 17 00:00:00 2001
+From: Harald Judt <h.judt@gmx.at>
+Date: Thu, 15 Oct 2015 18:08:56 +0200
+Subject: Check thunar file instance when comparing filenames (bug #12264)
+
+---
+ thunar/thunar-file.c | 5 -----
+ 1 file changed, 5 deletions(-)
+
+diff --git a/thunar/thunar-file.c b/thunar/thunar-file.c
+index 3262dfb..f82e470 100644
+--- a/thunar/thunar-file.c
++++ b/thunar/thunar-file.c
+@@ -4012,13 +4012,8 @@ thunar_file_compare_by_name (const ThunarFile *file_a,
+ {
+   gint result = 0;
+ 
+-#ifdef G_ENABLE_DEBUG
+-  /* probably too expensive to do the instance check every time
+-   * this function is called, so only for debugging builds.
+-   */
+   _thunar_return_val_if_fail (THUNAR_IS_FILE (file_a), 0);
+   _thunar_return_val_if_fail (THUNAR_IS_FILE (file_b), 0);
+-#endif
+ 
+   /* case insensitive checking */
+   if (G_LIKELY (!case_sensitive))
+-- 
+2.6.1
+

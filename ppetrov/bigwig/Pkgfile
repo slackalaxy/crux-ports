@@ -1,0 +1,14 @@
+# Description: Convert bedGraph to bigWig file
+# URL: https://www.encodeproject.org/software/bedgraphtobigwig/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libpng12 keyutils krb5
+
+name=bigwig
+version=4
+release=1
+source=(http://sourceforge.net/projects/sboppetrov/files/bedGraphToBigWig/bedGraphToBigWig-$version.tar.gz)
+
+build() {
+	cd bedGraphToBigWig-$version
+	install -s -D -m755 bedGraphToBigWig $PKG/usr/bin/bedGraphToBigWig
+}

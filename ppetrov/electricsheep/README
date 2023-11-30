@@ -1,0 +1,5 @@
+Electricsheep from GitHub does not build against boost 1.78. I lack the
+skills to fix it, therefore I use as a workaround the old sources from
+Slackware, which build just fine, but require mplayer.
+
+Read mplayer's README about the screensaver aspect ratio.

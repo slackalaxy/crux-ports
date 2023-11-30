@@ -1,0 +1,26 @@
+# Description: Convert gp files to fasta
+# URL: http://gp2fasta.netmark.pl/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: qt4
+
+name=gp2fasta
+version=0.2
+release=1
+source=(http://$name.netmark.pl/$name.zip
+	$name.desktop $name.png)
+
+build() {
+	cd $name
+	qmake-qt4 -project
+	qmake-qt4
+
+	# Use our CFLAGS
+	sed -i "/^C.*.*FLAGS/s/=/+=/" Makefile
+	make
+	install -D -m755 $name $PKG/usr/bin/$name
+	
+	# Menu item and icon
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications/
+	cp $SRC/$name.png $PKG/usr/share/pixmaps/
+}

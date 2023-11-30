@@ -1,0 +1,20 @@
+# Description: Digger remastered!
+# URL: http://www.digger.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=digger
+version=20020314
+release=1
+source=(http://www.$name.org/$name-$version.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-$version
+	make -f Makefile.sdl
+	install -D -m755 $name $PKG/usr/bin/$name
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

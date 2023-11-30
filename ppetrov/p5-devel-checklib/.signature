@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZb+dx6ioWDkSH4f5/ukjje25pwzUwLXDAg2YZiPAKo753DRxSvDOyskD7agNyHRzk7gK+sZjXV3TIapo9GF+bAo=
+SHA256 (Pkgfile) = 454fa729ef8aa08abe7c87bd445c71e88ed0e82c89387bd01fac935b02d0ba9d
+SHA256 (.footprint) = f91299b1ceaecd0b84f313f65d57509c1ee9d979732aab368b9aad6a61d18f72
+SHA256 (Devel-CheckLib-1.16.tar.gz) = 869d38c258e646dcef676609f0dd7ca90f085f56cf6fd7001b019a5d5b831fca

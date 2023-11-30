@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Education;
+Exec=java -jar /usr/bin/seq-ana.jar -Xms512m -Xmx1024m
+Icon=seq-ana
+Name=Sequence Analysis
+StartupNotify=false
+Type=Application

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchmEYO2k/cwADZhjkzTcG3GHBcHdM9c1hp2GB9Vaotulb4xJpJ7ZtAdQ7CFkaedIr5GvhhCl4fhmw+fk0R0jqYQg=
+SHA256 (Pkgfile) = 9b97806f4a7d84400701d965b24c3e9010a382f74d112da2fe560919f14de718
+SHA256 (.footprint) = 132f82584d5c66363dafd49a9a0541517a4c386d5d9d8c9f326f7d29ea596c4e
+SHA256 (exo-0.10.7.tar.bz2) = 521581481128af93e815f9690020998181f947ac9e9c2b232b1f144d76b1b35c

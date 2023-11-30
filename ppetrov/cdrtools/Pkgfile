@@ -1,0 +1,33 @@
+# Description: Highly portable CD/DVD/BluRay recording software
+# URL: http://cdrecord.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: lame mpg123 pulseaudio xorg-libxcb
+
+name=cdrtools
+version=3.02a09
+release=1
+source=(https://downloads.sourceforge.net/cdrtools/cdrtools-$version.tar.bz2)
+
+build() {
+	cd $name-${version%%a*}
+	
+	# set... ehm, settings
+	sed -i "s:static:dynamic:" DEFAULTS/Defaults.linux
+	sed -i "s:/opt/schily:/usr:g" DEFAULTS/Defaults.linux
+	sed -i "s:444:644:" DEFAULTS/Defaults.linux
+	sed -i "s:bin:root:" DEFAULTS/Defaults.linux
+	sed -i 's:INSDIR=.*:INSDIR=bin:' rscsi/Makefile
+	
+	make -j1
+	make DESTDIR=$PKG install
+	
+	# do not conflict with installed stuff, such as cdrkit
+	rm -rf $PKG/usr/bin/{cdda2mp3,cdda2ogg,devdump,isodebug,isodump,isoinfo,isovfy}
+	rm -rf $PKG/usr/share/man/man1/{cdda2mp3.1,cdda2ogg.1}
+	rm -rf $PKG/usr/share/man/man3/{error.3,fexecve.3,fnmatch.3,fprintf.3,getline.3,printf.3,sprintf.3,strlen.3}
+	rm -rf $PKG/usr/share/doc
+	
+	# Fix permissions (no bin group, pls)
+	chown root:root -R $PKG
+	chmod 0755 $PKG/usr/bin/*
+}

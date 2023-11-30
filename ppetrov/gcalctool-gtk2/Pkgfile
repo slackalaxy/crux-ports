@@ -1,0 +1,23 @@
+# Description: GNOME calculator
+# URL: https://download.gnome.org/sources/gcalctool/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gconf gtk xorg-libxdamage
+
+name=gcalctool-gtk2
+version=5.32.2
+release=2
+source=(https://download.gnome.org/sources/gcalctool/${version%.*}/gcalctool-$version.tar.bz2)
+
+build() {
+	cd gcalctool-$version
+	./configure --prefix=/usr \
+	--disable-schemas-compile \
+	--disable-scrollkeeper \
+	--disable-nls
+
+	sed -i "s:help::g" Makefile
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/gnome
+}

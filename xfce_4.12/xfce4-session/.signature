@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchibmxz4RtqK9ql2kEDq8sCn58Gz4IEQbOGhwajUxg5oh4ygXA2iojxLLV4dXzMjAApbOSwF+QvaanNMIdG7IJQU=
+SHA256 (Pkgfile) = e35ae5b8b890245c522fbad2936f7082e05ad035e138d0b0c841d004a184bfa6
+SHA256 (.footprint) = b40971741553df86096333d6d147a3987ce85f885b08e8d35efd26b0fbcbb7eb
+SHA256 (xfce4-session-4.12.1.tar.bz2) = 97d7f2a2d0af7f3623b68d1f04091e02913b28f9555dab8b0d26c8a1299d08fd
+SHA256 (xfce-shutdown.rules) = b11b29524d04e0224c6684bb1d0e8c4732966015394cce11b9e82679cc79b3df
+SHA256 (xinitrc.sample) = 1f33b63b003c489eab33a4a66698c819f52f0f019be6d327c7f2092b5b5b8538
+SHA256 (bashrc.sample) = ebad0e6a8419579bcb4e17cf5d54599070e5676cfe06f2a234c7a97d52e3c38b
+SHA256 (bash_profile.sample) = e757caa16f1049476e43cbc97683fa83054e86a5f75251081d2fa482db72068d

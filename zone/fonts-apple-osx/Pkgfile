@@ -1,0 +1,67 @@
+# Description: Apple OS X fonts
+# URL: https://archive.org/details/macos-collection
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p7zip pbzx
+
+name=fonts-apple-osx
+version=10.10.5
+release=2
+source=(https://archive.org/download/macos-collection/Releases/Yosemite%2010.10.5%20v1.6.43.iso
+	microsoft.txt)
+renames=(Yosemite_10.10.5_v1.6.43.iso SKIP)
+
+build() {
+	7z x $SRC/Yosemite_10.10.5_v1.6.43.iso
+	cd Install\ OS\ X\ Yosemite/Install\ OS\ X\ Yosemite.app/Contents/SharedSupport
+	7z x InstallESD.dmg
+	cd OS\ X\ Install\ ESD
+	7z x BaseSystem.dmg
+
+	mkdir -p $PKG/usr/share/fonts/apple
+
+	# Base system fonts
+	cp -a OS\ X\ Base\ System/System/Library/Fonts/Base/*.{ttf,ttc} \
+	$PKG/usr/share/fonts/apple
+
+	# all fonts
+	cd Packages
+	xar -x -f Essentials.pkg
+	pbzx -n Payload  | cpio -i
+
+	cp -a System/Library/CoreServices/Photo\ Library\ Migration\ Utility.app/Contents/Resources/Fonts/*.ttf \
+	$PKG/usr/share/fonts/apple
+
+	cp -a System/Library/PrivateFrameworks/CoreRecognition.framework/Versions/A/Resources/Fonts/*.ttf \
+	$PKG/usr/share/fonts/apple
+
+	cp -a System/Library/PrivateFrameworks/Slideshows.framework/Versions/A/Resources/Content/Fonts/*.ttf \
+	$PKG/usr/share/fonts/apple
+
+	cp -a Library/Application\ Support/Apple/Fonts/{Deprecated,iLife}/*.ttf \
+	$PKG/usr/share/fonts/apple
+
+	cp -a Library/Application\ Support/Apple/Fonts/iWork/*.{ttf,ttc} \
+	$PKG/usr/share/fonts/apple
+
+	cp -a Library/Application\ Support/Apple/Fonts/iWork\ Arabic\ Support/*.ttc \
+	$PKG/usr/share/fonts/apple
+  
+	cp -a System/Library/Fonts/*.{ttf,ttc} \
+	$PKG/usr/share/fonts/apple
+
+	cp -a System/Library/Fonts/*.otf \
+	$PKG/usr/share/fonts/apple
+
+	cp -a Library/Fonts/*.{ttf,ttc} \
+	$PKG/usr/share/fonts/apple
+
+	cp -a Library/Fonts/*.otf \
+	$PKG/usr/share/fonts/apple
+
+	OLD=$IFS
+	IFS=$(echo -en "\n\b")
+	cat $SRC/microsoft.txt | while read -r f ; do
+		rm -rf $PKG/usr/share/fonts/apple/$f
+	done
+	IFS=$OLD
+}

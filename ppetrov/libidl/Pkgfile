@@ -1,0 +1,19 @@
+# Description: A library for creating trees of CORBA Interface Definition Language (IDL) files
+# URL: https://www.gnome.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glib
+
+name=libidl
+version=0.8.14
+release=1
+source=(https://download.gnome.org/sources/libIDL/${version%.*}/libIDL-$version.tar.bz2)
+
+build() {
+  cd libIDL-$version
+
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+
+  rm -rf $PKG/usr/share
+}

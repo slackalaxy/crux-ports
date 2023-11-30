@@ -1,0 +1,27 @@
+# Description: Bio++ PhyViewer
+# URL: https://github.com/BioPP/bppphyview
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: double-conversion graphite2 icu bpp-qt bpp-phyl
+
+name=bppphyview
+version=0.6.1
+release=1
+source=(https://github.com/BioPP/$name/archive/v${version}/$name-$version.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+	make
+	make install DESTDIR=$PKG
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

@@ -1,0 +1,14 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/chemtool
+lrwxrwxrwx	root/root	usr/bin/chemtoolbg -> chemtool
+-rwxr-xr-x	root/root	usr/bin/cht
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/chemtool.desktop
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/chemtool.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/cht.1.gz
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/chemtool.png

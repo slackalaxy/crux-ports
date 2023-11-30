@@ -1,0 +1,30 @@
+# Description: System tray mixer application
+# URL: https://github.com/nicklan/pnmixer/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-oss alsa-plugins alsa-utils brotli graphite2 gtk libnotify
+
+name=pnmixer
+version=0.7.2
+release=2
+source=(https://github.com/nicklan/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	cmake \
+	-D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	-D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_SKIP_RPATH=ON \
+	-DENABLE_NLS=OFF \
+	-DWITH_GTK3=OFF \
+	-DCMAKE_BUILD_TYPE=Release .
+	
+	make
+	make install DESTDIR=$PKG
+	
+	mkdir -p $PKG/usr/etc/xdg/autostart
+	mv $PKG/usr/share/applications/$name.desktop \
+	$PKG/usr/etc/xdg/autostart
+	rm -rf $PKG/usr/share/applications/
+}

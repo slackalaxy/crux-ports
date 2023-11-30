@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZRy9kYyNKVdaZSp8QK3ZR3/Ary2RudyC8bhiGfTLpvIorNOOYdjYMGXc7sOEDCtfJLOejxcTkKMgEQYrfq5u5AM=
+SHA256 (Pkgfile) = 03cb51b8ea91895b840e2c411c571d21a664ebe3029d486f471780a48a302431
+SHA256 (.footprint) = 17ccc17780c4dabda0647429818b44a343eb5d77b358f6f713811eb8a6c6e1da
+SHA256 (connman-1.42.tar.gz) = 6d643ca15deb223654d61f5a75a5374ced447eb6bdb6f7d1c92b32ae9e4c4a15
+SHA256 (connman.rc) = 23ec2687d0cdec5e6529b5306da7f44194b8b2b842b01f14c43fa8e032b53b78
+SHA256 (allow_group_network.diff) = 829c96c7c231acc3c70f94cd1e285a0744084c3365f0349a828702cacee261ba

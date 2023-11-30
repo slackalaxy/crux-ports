@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZdafeA29wEIIB7EsmSpri4iUHWvB0PVha8mtMs7bFejJKvYS4QPhiC3VaBdHvO5wyCJNXGGrkyMVVUh8tmF+rww=
+SHA256 (Pkgfile) = f9023e25ef2e3972b1563ac3c91c1914d074f311c2af2e71706d696426a42ec9
+SHA256 (.footprint) = 14c6858dd582745e47bd156b3ee76897ef143cbc48cd3dccc737c68e1634d115
+SHA256 (goffice-0.8.17.tar.xz) = 165070beb67b84580afe80a8a100b674a81d553ab791acd72ac0c655f4fadb15
+SHA256 (disable-linking-pcre.patch) = 8ece0839168c8e83a94a9ce38a06aee7f8a201b42c033f5b502a5f53de496a0e
+SHA256 (go-conf-gsettings.c) = 09f883d905a3846b60f4b7689b5d28b63da5e049520c93c865cd4a7ce8434572

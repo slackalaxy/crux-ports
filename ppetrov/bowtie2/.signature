@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZTpyvz9+LqupQ72HB0Z+yyQk9Tc7PLHBV02j5qUKXlLQGrzq+nJWcYCKQGgrMu+5iFT63j3irwK0w8ox7GCxdww=
+SHA256 (Pkgfile) = df04252c7a887d6f0796a03ee9645e451f95abaff5fe8ff63efee2bcb9ce215b
+SHA256 (.footprint) = 4752e3b2d3a8366441824357e5facf8f0ca8473fbc42db20837ecf03266e7b0d
+SHA256 (bowtie2-2.5.2.tar.gz) = 2f86dbfbf3dcb8521d559f830594fe28ac6e4c40d81313a8c2bfb17c82a501e0

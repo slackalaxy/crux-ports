@@ -1,0 +1,21 @@
+# Description: Xfce's window manager
+# URL: https://docs.xfce.org/xfce/xfwm4/start
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libxfce4ui xorg-libxres exo
+
+name=xfwm4
+version=4.12.5
+release=1
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+build () {
+   cd $name-$version
+  ./configure --prefix=/usr \
+              --disable-nls \
+              --libexecdir=/usr/bin \
+              --disable-static
+  make
+  make DESTDIR=$PKG install
+  
+  rm -rf $PKG/usr/share/{locale,doc}
+  find $PKG/usr/share/themes -name README -delete
+}

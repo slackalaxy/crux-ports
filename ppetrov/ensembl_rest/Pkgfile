@@ -1,0 +1,16 @@
+# Description: An interface to the Ensembl REST APIs
+# URL: https://pypi.org/project/ensembl-rest/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=ensembl_rest
+version=0.3.3
+release=2
+source=(https://files.pythonhosted.org/packages/7c/3d/0c078aa6208360093deb69977b2c5980c71417cde6f382a33f5ef772f41f/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	python3 setup.py install --root=$PKG
+	chmod 0644 $PKG/usr/lib/python3.10/site-packages/ensembl_rest-0.3.3-py3.10.egg-info/*
+	chmod 0644 $PKG/usr/lib/python3.10/site-packages/ensembl_rest/data/ensembl_*
+}

@@ -1,0 +1,22 @@
+# Description: ClustalW
+# URL: http://www.clustal.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=clustalw
+version=2.1
+release=1
+source=(http://www.clustal.org/download/current/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+
+	# Some programs expect the executable to be called clustalw, not clustalw2
+	cd $PKG/usr/bin
+	ln -s clustalw2 clustalw
+}

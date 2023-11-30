@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZUQN+753dVO4zSup639QfOOZl8NrNSWiwMMgaK8bT++Uh6VbyNgE41fDhnwhMJuBd0rikNem9kz7KgFptGmyTgA=
+SHA256 (Pkgfile) = ac9281c83f05d72caf3384b340940c73d71832921db8b0a408cb84164b49ef69
+SHA256 (.footprint) = 7df02819fa798500a3e575a2a52bdfd8e314bb88fee29e0569213a72bf6d37c6
+SHA256 (DBD-Pg-3.16.0.tar.gz) = 2c31163d8bdaaf8beaef9c97b8f260432d67a534bc7b69e7265c21cb841432b8

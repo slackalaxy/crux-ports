@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/xmms/
+drwxr-xr-x	root/root	usr/share/xmms/Skins/
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_1.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_2.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_3.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_AMP.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_Amp.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_KGP.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_Visopimus.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_fraxyl.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Fruity_Loops_win.wsz

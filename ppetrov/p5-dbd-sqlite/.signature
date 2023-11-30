@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQhqJ6AG14SdzeaEriWNjnIy3HK2cMTfrCbP5wF1WBo2rvVpNtmcLe/3t48L6nz564rJeQSvktaeZ2oomYfFVwI=
+SHA256 (Pkgfile) = 6fcdb7435bd32f1ac81a4896471a0039953a0b568371485566e7a3a3e1b6e323
+SHA256 (.footprint) = d92e56464985de5cf1a7300a5205d7d6646f083e4aa007a9ec8cf096f96e6664
+SHA256 (DBD-SQLite-1.72.tar.gz) = 5ca41e61eb52b52bd862a3088b912a75fe70910ac789b9a9983e0a449e94f551

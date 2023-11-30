@@ -1,0 +1,45 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/squizz
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/squizz/
+-rw-r--r--	root/root	usr/include/squizz/align.h
+drwxr-xr-x	root/root	usr/include/squizz/align/
+-rw-r--r--	root/root	usr/include/squizz/align/clustal.h
+-rw-r--r--	root/root	usr/include/squizz/align/fasta2.h
+-rw-r--r--	root/root	usr/include/squizz/align/mega.h
+-rw-r--r--	root/root	usr/include/squizz/align/msf.h
+-rw-r--r--	root/root	usr/include/squizz/align/nexusi.h
+-rw-r--r--	root/root	usr/include/squizz/align/phylipi.h
+-rw-r--r--	root/root	usr/include/squizz/align/phylips.h
+-rw-r--r--	root/root	usr/include/squizz/align/stock.h
+-rw-r--r--	root/root	usr/include/squizz/sequence.h
+drwxr-xr-x	root/root	usr/include/squizz/sequence/
+-rw-r--r--	root/root	usr/include/squizz/sequence/codata.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/embl.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/fasta.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/gcg.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/gde.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/genbank.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/ig.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/nbrf.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/raw.h
+-rw-r--r--	root/root	usr/include/squizz/sequence/sprot.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libbioali.a
+-rwxr-xr-x	root/root	usr/lib/libbioali.la
+lrwxrwxrwx	root/root	usr/lib/libbioali.so -> libbioali.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libbioali.so.0 -> libbioali.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libbioali.so.0.0.0
+-rw-r--r--	root/root	usr/lib/libbioseq.a
+-rwxr-xr-x	root/root	usr/lib/libbioseq.la
+lrwxrwxrwx	root/root	usr/lib/libbioseq.so -> libbioseq.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libbioseq.so.0 -> libbioseq.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libbioseq.so.0.0.0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/squizz.1.gz
+drwxr-xr-x	root/root	usr/share/man/man5/
+-rw-r--r--	root/root	usr/share/man/man5/alifmt.5.gz
+-rw-r--r--	root/root	usr/share/man/man5/seqfmt.5.gz

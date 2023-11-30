@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQSKC2JP7M6ADMe3Hrp36QAKoSfpIWDYysF1G0JrJSLnEPaTnskTBuiWnR93xAt7BOUtG1Xi2wrvwlWTrBL9wgg=
+SHA256 (Pkgfile) = d00f60d3a70e9b627bf292e335954c5a1c5b0ebd19ef7e5d78db50e791a2938f
+SHA256 (.footprint) = 9fa90ccdc63917c652e6220188bd86fd25d261b4daf64c5d0f33f9fb05d75edb
+SHA256 (libglademm-2.6.7.tar.bz2) = 38543c15acf727434341cc08c2b003d24f36abc22380937707fc2c5c687a2bc3

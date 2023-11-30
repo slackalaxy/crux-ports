@@ -1,0 +1,35 @@
+# Description: A lightweight and featureful Word Processor
+# URL: http://www.abisource.com
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: boost dbus-glib libgcrypt libgsf librsvg libxslt wv libxml210
+
+name=abiword
+version=3.0.5
+release=3
+source=(https://slackware.uk/sbosrcarch/by-name/office/$name/$name-$version.tar.gz
+	enchant-2.1.patch)
+
+build() {
+	cd $name-$version
+	export PKG_CONFIG_PATH="/usr/lib/libxml210/pkgconfig:$PKG_CONFIG_PATH"
+	patch -p1 < $SRC/enchant-2.1.patch
+
+	# 20200622 bkw: don't let abiword create /root/.config/abiword/profile
+	# during the build process. Don't break ccache in the process.
+	mkdir -p tmphome
+	export CCACHE_DIR=${CCACHE_DIR:-$HOME/.ccache}
+	export HOME=$( pwd )/tmphome
+	
+	CPPFLAGS="-I$SRC/$name-$version" \
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CXXCFLAGS -fcommon" \
+	./configure --prefix=/usr \
+	--disable-static \
+	--with-gtk2
+	
+	make
+	make install DESTDIR=$PKG
+	
+	rm -f $PKG/{,usr/}lib/*.la
+	rm -rf $PKG/usr/share/$name-${version%.*}/{strings,templates/normal.awt-*,system.profile-*}
+}

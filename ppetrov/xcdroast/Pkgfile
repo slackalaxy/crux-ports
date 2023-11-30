@@ -1,0 +1,35 @@
+# Description: X-CD-Roast is a flexible frontend for optical disc authoring
+# URL: http://www.xcdroast.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib cdrkit cdrtools graphite2 gtk xorg-libxdamage
+
+name=xcdroast
+version=1.19
+release=2
+source=(https://sourceforge.net/projects/xcdroast/files/xcdroast-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--libexecdir=/usr/lib/$name \
+	--mandir=/usr/share/man \
+	--sharedstatedir=/usr/share/$name \
+	--enable-gtk2 \
+	--disable-nls
+	
+	make
+	make -k check
+	make DESTDIR=$PKG install
+	
+	# empty
+	rm -rf $PKG/usr/etc
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp extra/$name.desktop $PKG/usr/share/applications
+	cp xpms/ico_cdwriter.xpm $PKG/usr/share/pixmaps/$name.xpm
+	echo "Categories=AudioVideo;" >> $PKG/usr/share/applications/$name.desktop
+	sed -i "s:Icon=/usr/lib/xcdroast/icons/xcdrlogo_icon.png:Icon=$name.xpm:" $PKG/usr/share/applications/$name.desktop
+	
+	# this happens automatically
+	#chmod 4711 $PKG/usr/lib/xcdroast/bin/xcdrwrap
+}

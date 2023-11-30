@@ -1,0 +1,12 @@
+diff -pruN old/panel-plugin/os.h new/panel-plugin/os.h
+--- old/panel-plugin/os.h	2014-11-02 13:50:26.000000000 +0200
++++ new/panel-plugin/os.h	2021-05-13 17:31:08.585068190 +0300
+@@ -170,7 +170,6 @@
+ #elif __linux__             /* L I N U X */
+ #  include <stdio.h>
+ #  include <sys/param.h>
+-#  include <sys/sysctl.h>
+ #  include <stdlib.h>
+ #  include <stdarg.h>
+ #  include <unistd.h>
+ 

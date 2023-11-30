@@ -1,0 +1,32 @@
+# Description: Integrative Genomics Viewer
+# URL: https://software.broadinstitute.org/software/igv/home
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: adoptium11-jdk
+
+name=igv
+version=2.16.2
+release=1
+source=(https://data.broadinstitute.org/igv/projects/downloads/${version%.*}/IGV_${version}.zip
+	$name.desktop $name.png)
+
+build() {
+	cd IGV_${version}
+
+	mkdir -p $PKG/usr/lib/$name
+	cp -a * $PKG/usr/lib/$name
+
+	# Find JDK 11
+	sed -i 's:${prefix}/jdk-11:/usr/lib/jdk/adoptium11-jdk/:g' $PKG/usr/lib/$name/{$name.command,$name.sh,${name}_hidpi.sh,igvtools,igvtools_gui,igvtools_gui.command,igvtools_gui_hidpi}
+	sed -i "s:echo echo:echo:" $PKG/usr/lib/$name/{$name.command,$name.sh,${name}_hidpi.sh,igvtools,igvtools_gui,igvtools_gui.command,igvtools_gui_hidpi}
+	sed -i "s:bundled:AdoptOpen:" $PKG/usr/lib/$name/{$name.command,$name.sh,${name}_hidpi.sh,igvtools,igvtools_gui,igvtools_gui.command,igvtools_gui_hidpi}
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	
+	#install -D -m755 $name.sh $PKG/usr/bin/$name
+	#sed -i 's:prefix=`dirname $(readlink $0 || echo $0)`:prefix=/usr/lib/igv:' $PKG/usr/bin/$name
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/$name.sh $name	
+}

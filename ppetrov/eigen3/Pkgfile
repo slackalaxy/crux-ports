@@ -1,0 +1,20 @@
+# Description: C++ template library for linear algebra
+# URL: https://gitlab.com/libeigen/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: cmake
+
+name=eigen3
+version=3.4.0
+release=1
+source=(https://gitlab.com/libeigen/eigen/-/archive/$version/eigen-$version.tar.gz)
+
+build(){
+
+	mkdir build
+	cd build
+	cmake -Wno-dev ../eigen* \
+		-DCMAKE_INSTALL_PREFIX=/usr \
+		-DCMAKE_BUILD_TYPE=Release
+	make
+	make DESTDIR=$PKG install
+}

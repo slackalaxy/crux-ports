@@ -1,0 +1,5 @@
+The "-stable" option had a bug, which sometimes resulted in incorrect
+alignments to be produced. The author has created a python script to
+be used as a workaround. The Prtfile includes it and its usage is:
+
+  python muscle-stable.py input.fasta aligned.fasta > stable.fasta

@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/raxml
+-rwxr-xr-x	root/root	usr/bin/raxml-MPI
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/raxml/
+drwxrwxr-x	root/root	usr/share/raxml/usefulScripts/
+-rw-rw-r--	root/root	usr/share/raxml/usefulScripts/ProteinModelSelection.pl
+-rw-rw-r--	root/root	usr/share/raxml/usefulScripts/applyRAxML2AllFilesInDirectory.pl
+-rw-rw-r--	root/root	usr/share/raxml/usefulScripts/bsBranchLengths.pl
+-rw-rw-r--	root/root	usr/share/raxml/usefulScripts/convertFasta2Phylip.sh

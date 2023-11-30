@@ -1,0 +1,12 @@
+Configure interfaces in:
+
+	/etc/firewall.conf
+
+Also check:
+
+	/etc/hosts.allow
+	/etc/hosts.deny
+
+See more at:
+
+	https://slackalaxy.com/2012/06/07/firewall/

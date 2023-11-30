@@ -1,0 +1,19 @@
+# Description: How much space the files and directories consume?
+# URL: http://www.jgoodies.com/freeware/jdiskreport/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: jdk8-bin
+
+name=jdiskreport
+version=1.4.1
+release=1
+source=(http://www.jgoodies.com/download/jdiskreport/$name-${version//./_}.zip
+	$name.desktop $name.png)
+
+build() {
+	cd $name-$version
+	install -D -m755 $name-$version.jar $PKG/usr/bin/$name.jar
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
+	cp -a $SRC/$name.png $PKG/usr/share/pixmaps
+}

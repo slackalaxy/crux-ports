@@ -1,0 +1,22 @@
+# Description: Efficient software for phylogenomic inference
+# URL: https://github.com/iqtree/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=iqtree
+version=2.2.2.7
+release=1
+source=(https://github.com/iqtree/iqtree2/releases/download/v${version}/$name-$version-Linux.tar.gz)
+
+build() {
+	cd $name-$version-Linux
+	
+	install -D -m755 bin/iqtree2 $PKG/usr/bin/iqtree2
+
+	cd $PKG/usr/bin/
+	ln -s iqtree2 $name
+	cd -
+	
+	mkdir -p $PKG/usr/share/$name
+	cp -a example.* models.* $PKG/usr/share/$name
+}

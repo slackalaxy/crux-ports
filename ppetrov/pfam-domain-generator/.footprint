@@ -1,0 +1,43 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/pfam-domain-generator/
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images.html
+drwxr-xr-x	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/analytics.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/blank.gif
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/builder.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/buttons.css
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/controls.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/domain_graphics.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/dragdrop.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/ebi-notification-banner.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/ebi.css
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/effects.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/element-min.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/elixir_kitemark-60px.png
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/excanvas.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/graphicTools.css
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/graphic_generator.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/history-min.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/pfFunctions.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/pfam.css
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/prototip(1).css
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/prototip.css
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/prototip.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/prototype.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/scriptaculous.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/sharedFunctions.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/slider.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/sound.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/styles.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/tabview-min.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/tabview.css
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/treeview-min.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/treeview.css
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/utilities.js
+-rw-r--r--	root/root	usr/lib/pfam-domain-generator/Pfam_ Generate domain images_files/yahoo-dom-event.js
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/pfam-domain-generator.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/pfam-domain-generator.png

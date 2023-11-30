@@ -1,0 +1,25 @@
+# Description: A CORBA 2.4-compliant Object Request Broker
+# URL: http://orbit-resource.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libidl
+
+name=orbit2
+version=2.14.19
+release=2
+source=(https://download.gnome.org/sources/ORBit2/${version%.*}/ORBit2-$version.tar.bz2)
+
+build() {
+	cd ORBit2-$version
+
+	CFLAGS=-UG_DISABLE_DEPRECATED \
+	./configure --prefix=/usr \
+	--sysconfdir=/etc \
+	--libexecdir=/usr/lib/$name \
+	--disable-gtk-doc
+
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/gtk-doc
+	rm -f $PKG/{,usr/}lib/*.la
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchlV6vf9OPmg3SP19i+/2pvEwh9sg0ES4RFDleHK9bh/MZdkJDetLb2MVoz9iQQhm2bVCN/S5dgrPEHnV/cYONgU=
+SHA256 (Pkgfile) = 09d61936643e60a1c16da966f6778c2a01b73dd40d78aa633f46984378da1991
+SHA256 (.footprint) = 6e3ee3dfa319f0065fd7782e2fea3db20a3ac7b2d54ed3eda2eb7d33c00805f7
+SHA256 (udisks-2.9.4.tar.bz2) = b6b60ebab0d5e09624120c5d158882e87d8c2473db60783b63deeba74cb18d1c

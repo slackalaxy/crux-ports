@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchvU4i8rtHQexQy0irERsY+2MMLeF0QgAtOy6qoTX4qqyWSU6lCBKKEAIoB1rBPb4D+quTYMmxQsfRnhkxV8AZA8=
+SHA256 (Pkgfile) = 5324b957d30ce9a54a1802b5de42dbb3c16803a13fcbd2bfc47996be44b8f4cf
+SHA256 (.footprint) = b450b71ea7df7ceef44c12f28ca4c34bd331a205cb199eb86b248c931a5ac117
+SHA256 (thunar-volman-0.8.1.tar.bz2) = 5a08bb5ce32c296a64dfbdb2406d4e45a208b2c91e4efa831dc28f1d6c2ac2bd
+SHA256 (0001-Fix-return-with-no-value-in-function-returning-non-v.patch) = 7d11d2aec57cda2517d3c90185df8a67b5907491f8987c25011d1af7bfc5350c

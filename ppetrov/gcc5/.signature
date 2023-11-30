@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZb9R81J7P2mPRhHwzYWHRVMq1BrRxA/cRVjkInjI58LCvDII+k/shh7227NywgzXIV0zIdue/EOB4E2RUV5BdAU=
+SHA256 (Pkgfile) = 34a6c998b0267a6f0f56411e167bc59b7858d362a57239f24bb369d08d30660a
+SHA256 (.footprint) = cb129a178f4f04cd76757955056b188bc6842e0b58d7d0c2305bfd1f213924f7
+SHA256 (gcc-5.5.0.tar.xz) = 530cea139d82fe542b358961130c69cfde8b3d14556370b65823d2f91f0ced87
+SHA256 (isl-0.18.tar.bz2) = 6b8b0fd7f81d0a957beb3679c81bbb34ccc7568d5682844d8924424a0dadcb1b
+SHA256 (glibc2.28-ustat.patch) = 335839750f0cf15ce0f6099673daf164db674c6442b00efcbc46c4f195cfa29d
+SHA256 (glibc2.30-ipc_perm.patch) = 95d619636a2bae64acc01fdbe18ad61b4b0483217ee00eac372f0b0bec073f32

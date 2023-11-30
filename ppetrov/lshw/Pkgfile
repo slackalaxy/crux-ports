@@ -1,0 +1,26 @@
+# Description: lshw: HardWare LiSter for Linux
+# URL: https://github.com/lyonel/lshw
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtk libglvnd xorg-libxdamage
+
+name=lshw
+version=B.02.19
+release=1
+source=(https://github.com/lyonel/lshw/archive/$version/$name-$version.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-$version
+  	
+	RPM_OPT_FLAGS="$CXXFLAGS" \
+	make 
+	make gui
+	make DESTDIR=$PKG install
+	make DESTDIR=$PKG install-gui
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
+	cp -a $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	rm -rf $PKG/usr/share/locale
+}

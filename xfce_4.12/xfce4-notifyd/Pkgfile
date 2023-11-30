@@ -1,0 +1,31 @@
+# Description: Themable notification daemon with transparency effects
+# URL: http://goodies.xfce.org/projects/applications/xfce4-notifyd
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libnotify xfce4-panel
+# Xfce git (https://git.xfce.org/) group: apps
+name=xfce4-notifyd
+version=0.2.4
+release=1
+source=(http://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2
+	0001-Set-notifications-as-override-redirect-windows-bug-1.patch
+	0002-Use-accessor-function-to-get-the-GdkWindow.patch
+)
+
+build () {  
+  cd $SRC/$name-$version
+  
+  # These are the patches from Slackware 14.2
+  patch -p1 < $SRC/0001-Set-notifications-as-override-redirect-windows-bug-1.patch
+  patch -p1 < $SRC/0002-Use-accessor-function-to-get-the-GdkWindow.patch
+  
+  ./configure --prefix=/usr \
+              --disable-nls \
+              --libexecdir=/usr/lib \
+              --mandir=/usr/share/man
+  make
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/{locale,doc}
+  rm -rf $PKG/usr/lib/systemd
+  find $PKG/usr/share/applications -type f -name '*.desktop' \
+       -exec sed -r '/\[.+\]=/d' -i {} \;
+}

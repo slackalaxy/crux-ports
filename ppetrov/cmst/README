@@ -1,0 +1,8 @@
+To enable autostart:
+1. Preferences
+2. Program Control: Enable Autostart
+
+To make the program start minimized:
+1. Preferences
+2. Interface: Enable Start Options from GUI
+3. Start Up Options: Start minimized

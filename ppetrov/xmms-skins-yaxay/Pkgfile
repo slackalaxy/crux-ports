@@ -1,0 +1,15 @@
+# Description: yaXay skins for Xmms
+# URL: https://skins.webamp.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-skins-yaxay
+version=c8e864b
+release=1
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/yaxay.tar.xz)
+
+build() {
+	cd yaxay
+	mkdir -p $PKG/usr/share/xmms/Skins
+	cp *.wsz $PKG/usr/share/xmms/Skins
+}

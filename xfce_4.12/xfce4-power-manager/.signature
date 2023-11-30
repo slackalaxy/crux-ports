@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchm75UyO9kRnZ8cZibngBDO1eOP+V+iMlTyFeq0IMAvUojcaSMICJoMm6CZPc0Ae/B4m2JGBGe8vW2zzbUts4HAo=
+SHA256 (Pkgfile) = 4fbdb7bff7443baa54d8cb864cd60c73cf24282be5ffc3e47bcbb8037cbf639a
+SHA256 (.footprint) = f7aca9c16f8a8a260cc891dfd1642dd0e58b45689c26e34cf1a5fdc6ca9a3f13
+SHA256 (xfce4-power-manager-1.4.4.tar.bz2) = c50ec8aa7e7848c57c0f856dceb8132eb5f37585f0ac1627459ab8c882c73b07

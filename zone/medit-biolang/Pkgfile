@@ -1,0 +1,15 @@
+# Description: FASTA syntax highlight for medit
+# URL: https://github.com/slackalaxy/medit-biolang
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: medit
+
+name=medit-biolang
+version=fe0a75c
+release=1
+source=(https://github.com/slackalaxy/$name/archive/$version/$name-fe0a75cf934a4efe5f937c1154d601a6dfae4ad5.tar.gz)
+
+build() {
+	cd $name-${version}*
+	mkdir -p $PKG/usr/share/medit-1/language-specs/
+	cp -a biotango.xml fasta.lang $PKG/usr/share/medit-1/language-specs/
+}

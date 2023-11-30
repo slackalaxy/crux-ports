@@ -1,0 +1,270 @@
+diff -pruN old/Makefile new/Makefile
+--- old/Makefile	2021-04-26 10:46:47.000000000 +0300
++++ new/Makefile	2022-04-13 17:26:33.773693146 +0300
+@@ -39,7 +39,7 @@ INSTALL=install
+ ROOT=root
+ 
+ # Pathnames for referenced packages...
+-FOODB=$(DESTDIR)/usr/share/foomatic/db/source
++FOODB=$(PREFIX)/share/foomatic/db/source
+ 
+ # User ID's
+ LPuid=-oroot
+@@ -245,8 +245,8 @@ FILES	=	\
+ 
+ # CUPS vars
+ CUPS_SERVERBIN := $(DESTDIR)$(shell cups-config --serverbin 2>/dev/null)
+-CUPS_DEVEL := $(shell grep cupsSideChannelDoRequest /usr/include/cups/sidechannel.h 2>/dev/null)
+-CUPS_GOODAPI := $(shell cups-config --api-version 2>/dev/null | sed "s/1\.[0123].*//")
++CUPS_DEVEL := $(DESTDIR)$(shell grep cupsSideChannelDoRequest /usr/include/cups/sidechannel.h 2>/dev/null)
++CUPS_GOODAPI := $(DESTDIR)$(shell cups-config --api-version 2>/dev/null | sed "s/1\.[0123].*//")
+ 
+ # hpclj2600n-0.icm km2430_0.icm km2430_1.icm km2430_2.icm samclp300-0.icm
+ # sihp1000.img sihp1005.img sihp1020.img sihp1018.img
+@@ -642,7 +642,7 @@ install-test:
+ 	#
+     
+ 
+-UDEVBIN=$(DESTDIR)/bin/
++UDEVBIN=$(DESTDIR)/usr/bin/
+ 
+ install-prog:
+ 	#
+@@ -706,10 +706,10 @@ install-foo:
+ 	#
+ 	# Clear foomatic cache and rebuild database if needed
+ 	#
+-	rm -rf /var/cache/foomatic/*/*
+-	rm -f /var/cache/foomatic/printconf.pickle
+-	if [ -d /var/cache/foomatic/compiled ]; then \
+-	    cd /var/cache/foomatic/compiled; \
++	rm -rf $(DESTDIR)/var/cache/foomatic/*/*
++	rm -f $(DESTDIR)/var/cache/foomatic/printconf.pickle
++	if [ -d $(DESTDIR)/var/cache/foomatic/compiled ]; then \
++	    cd $(DESTDIR)/var/cache/foomatic/compiled; \
+ 	    foomatic-combo-xml -O >overview.xml; \
+ 	fi
+ 
+@@ -838,83 +838,80 @@ install-extra:
+ 	    fi; \
+ 	done
+ 
+-MODEL=$(DESTDIR)/usr/share/cups/model
+-LOCALMODEL=$(DESTDIR)/usr/local/share/cups/model
++MODEL=/usr/share/cups/model
++LOCALMODEL=/usr/local/share/cups/model
+ MACMODEL=/Library/Printers/PPDs/Contents/Resources
+-PPD=$(DESTDIR)/usr/share/ppd
++PPD=/usr/share/ppd
+ VARPPD=/var/lp/ppd
+ install-ppd:
+ 	#
+ 	# Install PPD files for CUPS
+ 	#
+ 	export PATH=$$PATH:`pwd`:; \
+-	if [ -x /usr/sbin/ppdmgr -a -s $(VARPPD)/ppdcache ]; then \
+-	    $(INSTALL) $(LPgid) -d $(VARPPD)/user; \
++	if [ -x /usr/sbin/ppdmgr -a -s $(DESTDIR)$(VARPPD)/ppdcache ]; then \
++	    $(INSTALL) $(LPgid) -d $(DESTDIR)$(VARPPD)/user; \
+ 	    cd PPD; \
+ 	    for ppd in *.ppd; do \
+ 		manuf=`echo "$$ppd" | sed 's/-.*//'`; \
+-		$(INSTALL) $(LPgid) -d $(VARPPD)/user/$$manuf; \
+-		modify-ppd <$$ppd | gzip > $(VARPPD)/user/$$manuf/$$ppd.gz; \
+-		chmod 664 $(VARPPD)/user/$$manuf/$$ppd.gz; \
++		$(INSTALL) $(LPgid) -d $(DESTDIR)$(VARPPD)/user/$$manuf; \
++		modify-ppd <$$ppd | gzip > $(DESTDIR)$(VARPPD)/user/$$manuf/$$ppd.gz; \
++		chmod 664 $(DESTDIR)$(VARPPD)/user/$$manuf/$$ppd.gz; \
+ 	    done; \
+ 	    ppdmgr -u; \
+-	elif [ -d $(PPD) ]; then \
+-	    find $(PPD) -name '*foo2zjs*' | xargs rm -rf; \
+-	    find $(PPD) -name '*foo2hp*' | xargs rm -rf; \
+-	    find $(PPD) -name '*foo2xqx*' | xargs rm -rf; \
+-	    find $(PPD) -name '*foo2lava*' | xargs rm -rf; \
+-	    find $(PPD) -name '*foo2qpdl*' | xargs rm -rf; \
+-	    find $(PPD) -name '*foo2slx*' | xargs rm -rf; \
+-	    find $(PPD) -name '*foo2hiperc*' | xargs rm -rf; \
+-	    find $(PPD) -name '*foo2hbpl*' | xargs rm -rf; \
+-	    [ -d $(PPD)/foo2zjs ] || mkdir $(PPD)/foo2zjs; \
++	elif [ -d $(DESTDIR)$(PPD) ]; then \
++	    find $(DESTDIR)$(PPD) -name '*foo2zjs*' | xargs rm -rf; \
++	    find $(DESTDIR)$(PPD) -name '*foo2hp*' | xargs rm -rf; \
++	    find $(DESTDIR)$(PPD) -name '*foo2xqx*' | xargs rm -rf; \
++	    find $(DESTDIR)$(PPD) -name '*foo2lava*' | xargs rm -rf; \
++	    find $(DESTDIR)$(PPD) -name '*foo2qpdl*' | xargs rm -rf; \
++	    find $(DESTDIR)$(PPD) -name '*foo2slx*' | xargs rm -rf; \
++	    find $(DESTDIR)$(PPD) -name '*foo2hiperc*' | xargs rm -rf; \
++	    find $(DESTDIR)$(PPD) -name '*foo2hbpl*' | xargs rm -rf; \
++	    [ -d $(DESTDIR)$(PPD)/foo2zjs ] || mkdir -p $(DESTDIR)$(PPD)/foo2zjs; \
+ 	    cd PPD; \
+ 	    for ppd in *.ppd; do \
+-		modify-ppd <$$ppd | gzip > $(PPD)/foo2zjs/$$ppd.gz; \
+-		chmod 664 $(PPD)/foo2zjs/$$ppd.gz; \
++		modify-ppd <$$ppd | gzip > $(DESTDIR)$(PPD)/foo2zjs/$$ppd.gz; \
++		chmod 664 $(DESTDIR)$(PPD)/foo2zjs/$$ppd.gz; \
+ 	    done; \
+ 	fi
+ 	#
+ 	export PATH=$$PATH:`pwd`:; \
+-	if [ -d $(MODEL) ]; then \
+-	    rm -f $(MODEL)/KonicaMinolta*; \
++	if [ -d $(DESTDIR)$(MODEL) ]; then \
++	    rm -f $(DESTDIR)$(MODEL)/KonicaMinolta*; \
+ 	    cd PPD; \
+ 	    for ppd in *.ppd; do \
+-		modify-ppd <$$ppd | gzip > $(MODEL)/$$ppd.gz; \
+-		chmod 664 $(MODEL)/$$ppd.gz; \
++		modify-ppd <$$ppd | gzip > $(DESTDIR)$(MODEL)/$$ppd.gz; \
++		chmod 664 $(DESTDIR)$(MODEL)/$$ppd.gz; \
+ 	    done; \
+-	elif [ -d $(LOCALMODEL) ]; then \
+-	    rm -f $(LOCALMODEL)/KonicaMinolta*; \
++	elif [ -d $(DESTDIR)$(LOCALMODEL) ]; then \
++	    rm -f $(DESTDIR)$(LOCALMODEL)/KonicaMinolta*; \
+ 	    cd PPD; \
+ 	    for ppd in *.ppd; do \
+-		modify-ppd <$$ppd | gzip > $(LOCALMODEL)/$$ppd.gz; \
+-		chmod 664 $(LOCALMODEL)/$$ppd.gz; \
++		modify-ppd <$$ppd | gzip > $(DESTDIR)$(LOCALMODEL)/$$ppd.gz; \
++		chmod 664 $(DESTDIR)$(LOCALMODEL)/$$ppd.gz; \
+ 	    done; \
+-	elif [ -d $(MACMODEL) ]; then \
+-	    rm -f $(MACMODEL)/KonicaMinolta*; \
++	elif [ -d $(DESTDIR)$(MACMODEL) ]; then \
++	    rm -f $(DESTDIR)$(MACMODEL)/KonicaMinolta*; \
+ 	    cd PPD; \
+ 	    for ppd in *.ppd; do \
+-		modify-ppd <$$ppd | gzip > $(MACMODEL)/$$ppd.gz; \
+-		chmod 664 $(MACMODEL)/$$ppd.gz; \
++		modify-ppd <$$ppd | gzip > $(DESTDIR)$(MACMODEL)/$$ppd.gz; \
++		chmod 664 $(DESTDIR)$(MACMODEL)/$$ppd.gz; \
+ 	    done; \
+ 	fi
+ 
+-APPL=$(DESTDIR)/usr/share/applications
+-OLDAPPL=$(DESTDIR)/usr/share/gnome/apps/System
+-PIXMAPS=$(DESTDIR)/usr/share/pixmaps
++APPL=/usr/share/applications
++OLDAPPL=/usr/share/gnome/apps/System
++PIXMAPS=/usr/share/pixmaps
+ 
+ install-desktop:
+ 	#
+ 	# Install GNOME desktop
+ 	#
+-	if [ -d $(APPL) ]; then \
+-	    $(INSTALL) -c -m 644 hplj1020.desktop $(APPL); \
++	if [ -d $(DESTDIR)$(APPL) ]; then \
++	    $(INSTALL) -c -m 644 hplj1020.desktop $(DESTDIR)$(APPL); \
+ 	fi
+-	if [ -d $(OLDAPPL) ]; then \
+-	    $(INSTALL) -c -m 644 hplj1020.desktop $(OLDAPPL); \
+-	fi
+-	if [ -d $(PIXMAPS) ]; then \
+-	    $(INSTALL) -c -m 644 hplj1020_icon.png $(PIXMAPS); \
++	if [ -d $(DESTDIR)$(PIXMAPS) ]; then \
++	    $(INSTALL) -c -m 644 hplj1020_icon.png $(DESTDIR)$(PIXMAPS); \
+ 	fi
+ 
+ install-gui:
+@@ -975,21 +972,21 @@ install-hotplug-prog:
+ 	#
+ 	#	remove HPLIP (proprietary) files and install our version
+ 	#
+-	if [ -d $(UDEVDIR) ]; then \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_1000*; \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_1005*; \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_1018*; \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_1020*; \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_p1005*; \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_p1006*; \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_p1007*; \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_p1008*; \
+-	    rm -f $(UDEVDIR)/*hpmud*laserjet_p1505*; \
+-	    rm -f $(UDEVDIR)/*hpmud_support.rules; \
+-	    rm -f $(UDEVDIR)/*hpmud_plugin.rules; \
+-	    rm -f $(LIBUDEVDIR)/*hpmud_support.rules; \
+-	    rm -f $(LIBUDEVDIR)/*hpmud_plugin.rules; \
+-	    rm -f $(LIBUDEVDIR)/*-hplj10xx.rules; \
++	if [ -d $(DESTDIR)$(UDEVDIR) ]; then \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_1000*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_1005*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_1018*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_1020*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_p1005*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_p1006*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_p1007*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_p1008*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud*laserjet_p1505*; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud_support.rules; \
++	    rm -f $(DESTDIR)$(UDEVDIR)/*hpmud_plugin.rules; \
++	    rm -f $(DESTDIR)$(LIBUDEVDIR)/*hpmud_support.rules; \
++	    rm -f $(DESTDIR)$(LIBUDEVDIR)/*hpmud_plugin.rules; \
++	    rm -f $(DESTDIR)$(LIBUDEVDIR)/*-hplj10xx.rules; \
+ 	    if [ -x /sbin/udevd ]; then \
+ 		version=`/sbin/udevd --version 2>/dev/null`; \
+ 	    elif [ -x /usr/lib/udev/udevd ]; then \
+@@ -1000,35 +997,24 @@ install-hotplug-prog:
+ 	    if [ "$$version" = "" ]; then version=0; fi; \
+ 	    echo "*** udev version $$version"; \
+ 	    if [ "$$version" -lt 148 ]; then \
+-		$(INSTALL) -c -m 644 $(RULES).old $(UDEVDIR)/11-$(RULES); \
++		$(INSTALL) -c -m 644 $(RULES).old $(DESTDIR)$(UDEVDIR)/11-$(RULES); \
+ 	    else \
+-		$(INSTALL) -c -m 644 $(RULES) $(UDEVDIR)/11-$(RULES); \
++		$(INSTALL) -c -m 644 $(RULES) $(DESTDIR)$(UDEVDIR)/11-$(RULES); \
+ 	    fi \
+ 	fi
+-	if [ -d $(DEVDDIR) ]; then \
+-	    $(INSTALL) -c -m 644 hplj10xx.conf $(DEVDDIR)/; \
++	if [ -d $(DESTDIR)$(DEVDDIR) ]; then \
++	    $(INSTALL) -c -m 644 hplj10xx.conf $(DESTDIR)$(DEVDDIR)/; \
+ 	fi
+-	[ -d $(USBDIR) ] || $(INSTALL) -d -m 755 $(USBDIR)/
+-	$(INSTALL) -c -m 755 hplj1000 $(USBDIR)/
+-	ln -sf $(USBDIR)/hplj1000 $(USBDIR)/hplj1005
+-	ln -sf $(USBDIR)/hplj1000 $(USBDIR)/hplj1018
+-	ln -sf $(USBDIR)/hplj1000 $(USBDIR)/hplj1020
+-	ln -sf $(USBDIR)/hplj1000 $(USBDIR)/hpljP1005
+-	ln -sf $(USBDIR)/hplj1000 $(USBDIR)/hpljP1006
+-	ln -sf $(USBDIR)/hplj1000 $(USBDIR)/hpljP1007
+-	ln -sf $(USBDIR)/hplj1000 $(USBDIR)/hpljP1008
+-	ln -sf $(USBDIR)/hplj1000 $(USBDIR)/hpljP1505
+-	$(USBDIR)/hplj1000 install-usermap
+-	$(USBDIR)/hplj1005 install-usermap
+-	$(USBDIR)/hplj1018 install-usermap
+-	$(USBDIR)/hplj1020 install-usermap
+-	$(USBDIR)/hpljP1005 install-usermap
+-	$(USBDIR)/hpljP1006 install-usermap
+-	$(USBDIR)/hpljP1007 install-usermap
+-	$(USBDIR)/hpljP1008 install-usermap
+-	$(USBDIR)/hpljP1505 install-usermap
+-	# modprobe usblp
+-	$(USBDIR)/hplj1000 install-usblp
++	[ -d $(DESTDIR)$(USBDIR) ] || $(INSTALL) -d -m 755 $(DESTDIR)$(USBDIR)/
++	$(INSTALL) -c -m 755 hplj1000 $(DESTDIR)$(USBDIR)/
++	ln -sf $(USBDIR)/hplj1000 $(DESTDIR)$(USBDIR)/hplj1005
++	ln -sf $(USBDIR)/hplj1000 $(DESTDIR)$(USBDIR)/hplj1018
++	ln -sf $(USBDIR)/hplj1000 $(DESTDIR)$(USBDIR)/hplj1020
++	ln -sf $(USBDIR)/hplj1000 $(DESTDIR)$(USBDIR)/hpljP1005
++	ln -sf $(USBDIR)/hplj1000 $(DESTDIR)$(USBDIR)/hpljP1006
++	ln -sf $(USBDIR)/hplj1000 $(DESTDIR)$(USBDIR)/hpljP1007
++	ln -sf $(USBDIR)/hplj1000 $(DESTDIR)$(USBDIR)/hpljP1008
++	ln -sf $(USBDIR)/hplj1000 $(DESTDIR)$(USBDIR)/hpljP1505
+ 
+ install-hotplug-osx:
+ 	cd osx-hotplug; $(MAKE) PREFIX=$(PREFIX) install-hotplug
+@@ -1038,9 +1024,9 @@ install-filter:
+ 	    ln -sf $(DESTBIN)/command2foo2lava-pjl $(CUPS_SERVERBIN)/filter/; \
+ 	fi
+ 
+-CUPSDCONF=/etc/cups/cupsd.conf
+-CUPSFILESCONF=/etc/cups/cups-files.conf
+-CUPSPRINTERS=/etc/cups/printers.conf
++CUPSDCONF=$(DESTDIR)/etc/cups/cupsd.conf
++CUPSFILESCONF=$(DESTDIR)/etc/cups/cups-files.conf
++CUPSPRINTERS=$(DESTDIR)/etc/cups/printers.conf
+ MACLOAD=/System/Library/LaunchDaemons/org.cups.cupsd.plist
+ # cups-config doesn't exist on Ubuntu unless apt-get install libcups2-dev ...
+ CUPSMAJVER=cups-config --version | sed "s/[.].*//"

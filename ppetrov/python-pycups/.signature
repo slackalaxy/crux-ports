@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZazSf4aKNOPy3JeiXtqiQB7Puo1HjpMpMYAXHT5BlNLmWMV5PuNkKv80slFtXfenvSXL6scIUSSok8LJml2WBQE=
+SHA256 (Pkgfile) = ed4be0c42f4a437996aa91c621fd520162534ff04caca31378c5db086e6af761
+SHA256 (.footprint) = 748e24234cbc79e9c7d14606b7ed7fb87e74c93028826341b6200d5ebb9a57c2
+SHA256 (pycups-1.9.74.tar.bz2) = 86090f259a7c5d0d5caa3407a0e57c9e134027620cbc8f90bf4e37c8b53ed7b9

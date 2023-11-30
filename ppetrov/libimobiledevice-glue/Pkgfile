@@ -1,0 +1,20 @@
+# Description: Library used by the libimobiledevice project
+# URL: https://github.com/libimobiledevice/libimobiledevice-glue/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libplist
+
+name=libimobiledevice-glue
+version=e314faa
+release=1
+source=(https://github.com/libimobiledevice/$name/archive/$version/$name-e314faac7850ebe9076b7cf5807f87ae6bd122fa.tar.gz)
+
+build() {
+	cd $name-${version}*
+	
+	echo "1.0.0" > .tarball-version
+	./autogen.sh --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	
+	rm -f $PKG/{,usr/}lib/*.la
+}

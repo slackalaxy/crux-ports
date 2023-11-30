@@ -1,0 +1,47 @@
+# Description: The European Molecular Biology Open Software Suite
+# URL: http://emboss.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 jdk8-bin keyutils krb5 libgd libwebp mariadb
+
+name=emboss
+version=6.6.0
+release=2
+source=(https://sourceforge.net/projects/sboppetrov/files/EMBOSS/EMBOSS-$version.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd EMBOSS-$version
+
+	# Do not try to update on runtime
+	sed -i "/embossupdate/d" Makefile.am Makefile.in
+	
+	# Some of the files have the same names of files from other
+	# packages. Let's install in a custom location.
+	./configure --prefix=/usr \
+	--bindir=/usr/lib/$name/bin \
+	--libdir=/usr/lib/$name \
+	--with-x
+	
+	make
+	make install DESTDIR=$PKG
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	# Make jEmboss find the binaries
+	sed -i "s|/usr/bin/|/usr/lib/emboss/bin/|g" $PKG/usr/share/EMBOSS/jemboss/resources/jemboss.properties
+	sed -i "s|/usr/bin:|/usr/lib/emboss/bin:/usr/bin:|g" $PKG/usr/share/EMBOSS/jemboss/resources/jemboss.properties
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	mv $PKG/usr/lib/$name/bin/runJemboss.sh .
+	
+	# remove docs
+	rm -rf $PKG/usr/share/EMBOSS/doc
+	
+	# remove la files
+	rm -rf $PKG/usr/lib/$name/*.la
+	
+	find $PKG/ -name "README" -delete
+}

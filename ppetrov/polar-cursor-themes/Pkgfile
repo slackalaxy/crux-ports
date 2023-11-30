@@ -1,0 +1,23 @@
+# Description: Polar cursor themes
+# URL: http://gnome-look.org/content/show.php/Polar+Cursor+Theme?content=27913
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xorg-server
+
+name=polar-cursor-themes
+version=1.4
+release=1
+source=(https://sourceforge.net/projects/sboppetrov/files/$name/27913-PolarCursorThemes.tar.bz2)
+
+build() {
+	mkdir -p $PKG/usr/share/icons
+	cp -a PolarCursorTheme $PKG/usr/share/icons
+	cp -a PolarCursorTheme-Blue $PKG/usr/share/icons
+	cp -a PolarCursorTheme-Green $PKG/usr/share/icons
+
+	# Clean up (a little bit)
+	rm -rf $PKG/usr/share/icons/PolarCursorTheme/{COPYRIGHT~,index.theme~}
+	rm -rf $PKG/usr/share/icons/PolarCursorTheme-Blue/{COPYRIGHT~,index.theme~}
+	rm -rf $PKG/usr/share/icons/PolarCursorTheme-Green/{COPYRIGHT~,index.theme~}
+
+	find $PKG -type f -exec chmod 0644 {} \;
+}

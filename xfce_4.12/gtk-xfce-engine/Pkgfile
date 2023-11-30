@@ -1,0 +1,19 @@
+# Description: GTK2 engines and themes for Xfce
+# URL: https://archive.xfce.org/src/archive
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 xfce4-session
+
+name=gtk-xfce-engine
+version=2.10.1
+release=1
+source=(https://archive.xfce.org/src/archive/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--disable-static \
+	--disable-debug \
+
+	make
+	make install DESTDIR=$PKG
+}

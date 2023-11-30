@@ -1,0 +1,56 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/aline
+-rwxr-xr-x	root/root	usr/bin/convertdump
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/aline/
+drwxr-xr-x	root/root	usr/lib/aline/plugins/
+-rw-r--r--	root/root	usr/lib/aline/plugins/AlinePlugin.pm
+-rw-r--r--	root/root	usr/lib/aline/plugins/aColourPicker.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/aDeleteResidues.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/aProtTool.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/cCalCons.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/cCalSim.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/cClearSeq.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/cColBfac.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/cColRes.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/eAddBlast.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/eSeqList.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/fInputPDB.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/fInputPIR.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/mDefaultCM.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/mDefaultTooltips.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/mKeycodeTest.inactive
+-rw-r--r--	root/root	usr/lib/aline/plugins/sPrint.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tAddConsensus.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tAddDisEmbl.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tAddGraph.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tAddNumbers.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tAddSecStruct.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tAddSignalP.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tAlignment.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tClearGapCols.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tCorrMutations.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tFixDbnames.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tMatchPattern.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tPymolColors.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tRunChainsaw.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tUnattachAll.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/tUndupe.plugin
+-rw-r--r--	root/root	usr/lib/aline/plugins/test.dat
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/aline/
+drwxr-xr-x	root/root	usr/share/aline/colourschemes/
+-rw-r--r--	root/root	usr/share/aline/colourschemes/Cyan to Red (50 levels).alc
+-rw-r--r--	root/root	usr/share/aline/colourschemes/Greyscale (10 levels).alc
+-rw-r--r--	root/root	usr/share/aline/colourschemes/Saturation (Blue, 50 levels).alc
+-rw-r--r--	root/root	usr/share/aline/colourschemes/Saturation (Red, 50 levels).alc
+-rw-r--r--	root/root	usr/share/aline/colourschemes/Saturation (Yellow, 50 levels).alc
+drwxr-xr-x	root/root	usr/share/aline/example/
+-rw-r--r--	root/root	usr/share/aline/example/rada.aline
+-rw-r--r--	root/root	usr/share/aline/example/rada.eps
+-rw-r--r--	root/root	usr/share/aline/example/rada.png
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/aline.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/aline.png
