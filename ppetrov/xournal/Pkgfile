@@ -1,11 +1,11 @@
 # Description: An application for notetaking and sketching
 # URL: https://sourceforge.net/p/xournal/wiki/Home/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk libart_lgpl poppler-glib libgnomecanvas xorg-libxdamage
+# Depends on: gtk libart_lgpl glib libgnomecanvas xorg-libxdamage
 
 name=xournal
 version=0.4.8.2016
-release=2
+release=3
 source=(https://downloads.sourceforge.net/$name/$name-$version.tar.gz)
 
 build() {
