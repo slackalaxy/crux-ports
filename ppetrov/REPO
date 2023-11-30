@@ -285,7 +285,6 @@ d:gbgoffice
 d:gnome-doc-utils
 d:gtk1
 d:adoptium8-jdk
-d:blueman
 d:ifuse
 d:libgnomecanvas
 d:lshw
@@ -405,6 +404,8 @@ d:guidance
 d:leafpad
 d:libgsf
 d:lmdb
+d:gtktetris
+d:blueman.pa
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:988c2e3fd5ba0ea4492d3ba7273af295:acpid/acpid-2.0.34.tar.xz
@@ -1494,11 +1495,6 @@ f:2d57d900c11e4543930b17b7944eb9c4:adoptium8-jdk/.footprint
 f:dfe52000b42249a2fd1b3c9ba1d7e19f:adoptium8-jdk/.signature
 f:8fc379addbf7f0e2c63898a61c0b38f4:adoptium8-jdk/README
 f:1f466e39a00e7d1ea1a44eab22556ad0:adoptium8-jdk/Pkgfile
-f:2a5760246693aef41a80f0961c76a646:blueman/.footprint
-f:d59a61b557ed1f0958b84d9cee94cc12:blueman/.signature
-f:b3db934fed89ba46dce964a08c79d07e:blueman/Pkgfile
-f:e86534abf27395097658280f7e10091b:blueman/README
-f:288c497e1bcc3e3c84c7a83082d3a5bf:blueman/post-install
 f:ba4dddc72b5d2652025d4fc9a3da7124:ifuse/Pkgfile
 f:3f4122498d23a7e247b2d01e2b44e5ae:ifuse/README
 f:e88d327a3d255b2f99214d3b95c9a585:ifuse/.footprint
@@ -1958,3 +1954,10 @@ f:be1f8bb00764161c9e9379df0362cc0b:lmdb/lmdb.pc
 f:54050338119f4783979721df3d93224f:lmdb/.md5sum
 f:760ab939fb5d307e4b89a0f4807b0e7e:lmdb/.footprint
 f:aacda366dc7a30f5650d56ae5ab7bdf9:lmdb/.signature
+f:35b0472ee24ea88afa9826d33c6ede3c:gtktetris/Pkgfile
+f:ceb13b78b8cfc594e4a5497de4f8c722:gtktetris/.footprint
+f:29f5f44043bcebddad8b31b4d6a5496c:gtktetris/.signature
+f:1df26b3348ba1db46ca790b5401f50e2:blueman.pa/Pkgfile
+f:4b9a06baf1785a80dc00300c83dfff67:blueman.pa/.footprint
+f:fb0d9cb0e4ab1e69b307ed5d816e8fb3:blueman.pa/.signature
+f:e86534abf27395097658280f7e10091b:blueman.pa/README
