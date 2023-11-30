@@ -6,7 +6,7 @@
 name=viber
 version=current
 #version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
-release=5
+release=6
 source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb)
 
 build() {
@@ -26,5 +26,7 @@ build() {
 	ln -s ViberPC $PKG/usr/bin/$name
 	chmod +x $PKG/usr/bin/ViberPC
 	
+	chmod 755 $PKG/usr
+	chmod 755 $PKG/usr/share
 	find $PKG/usr/lib/viber/translations/ -type f -not -name "*_en.qm" -delete
 }

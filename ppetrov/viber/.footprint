@@ -1,4 +1,4 @@
-drwxrwxr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/ViberPC
 lrwxrwxrwx	root/root	usr/bin/viber -> ViberPC
@@ -995,7 +995,7 @@ drwxr-xr-x	root/root	usr/lib/viber/translations/
 -rw-r--r--	root/root	usr/lib/viber/translations/qtwebengine_en.qm
 drwxr-xr-x	root/root	usr/lib/viber/translations/qtwebengine_locales/
 -rw-r--r--	root/root	usr/lib/viber/translations/qtwebsockets_en.qm
-drwxrwxr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/
 drwxrwxr-x	root/root	usr/share/applications/
 -rw-rw-r--	root/root	usr/share/applications/viber.desktop
 drwxrwxr-x	root/root	usr/share/icons/
