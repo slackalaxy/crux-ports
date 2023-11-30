@@ -5,13 +5,12 @@
 
 name=usbmuxd
 version=360619c
-release=1
+release=2
 source=(https://github.com/libimobiledevice/$name/archive/$version/$name-360619c5f721f93f0b9d8af1a2df0b926fbcf281.tar.gz
-	$name.rc libimobiledevice-libplist-2.3.0.patch)
+	$name.rc)
 
 build() {
 	cd $name-${version}*
-	patch -Np1 -i $SRC/libimobiledevice-libplist-2.3.0.patch
 	echo "1.1.2" > .tarball-version
 	./autogen.sh
 	./configure --prefix=/usr \

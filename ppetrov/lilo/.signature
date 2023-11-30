@@ -1,6 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZaWIqmboMD7bgiaNemq736o1kLZxUP3Vmm1hXyd4JRfuj0j4HlaAwnqADRcX4mXdSg5N/bPETvnAc3nqCqYc2wc=
+RWToVVsIkzFIZfyaAxF2I7O3/+1E4G9sa6a3wN3yWal1twKNDZ2wGUbgwrDjBvKYfcOvYiImiLkaUyJErqRLWvbu5jFdrfSqkAY=
 SHA256 (Pkgfile) = 1bf07416767fe46842a28a43a93ea5669e5e769b20a0282209dfa17e74e8ddf7
+SHA256 (.footprint) = d1c1dbd346a39314b3aa30d389954c1b48e9f71cb01cf796b9212436f1afb0d0
 SHA256 (lilo-24.2.tar.gz) = e158f19de4560c935ebe0507c21b79bff17618b9230d8076fe8c5fff9fdbd5b1
 SHA256 (lilo.gcc10.diff.gz) = 0de77019dfa5d03708aef382e2b33df225be2ea3a44eb1dad6d49f9a7194bc91
 SHA256 (lilo.ignore.usable.memory.above.4G.diff.gz) = 8ad661ca9ddc8f99c4b6c8df011f105a91a01ffe9dd975cb55b6ee0799f9f17b
