@@ -1,11 +1,11 @@
 # Description: pamlX: the graphical user interface for PAML
 # URL: http://abacus.gene.ucl.ac.uk/software/paml.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: paml
+# Depends on: paml qt4
 
 name=pamlx
 version=1.3.1
-release=1
+release=2
 source=(https://raw.githubusercontent.com/slackalaxy/sources/main/pamlX${version}-src.tgz
 	$name.desktop)
 
