@@ -5,7 +5,7 @@
 
 name=qt4
 version=4.8.7
-release=1
+release=2
 source=(https://download.qt.io/archive/qt/${version:0:3}/$version/qt-everywhere-opensource-src-$version.tar.gz
         disable-root-include.patch
 	improve-cups-support.patch 
@@ -85,68 +85,62 @@ build() {
 	# http://www.mail-archive.com/openembedded-devel@lists.openembedded.org/msg24436.html
 	patch -p1 -i $SRC/disable-root-include.patch
   
-	# Paths are from Alan's port, options are from Arch Linux
+	# Options are from Arch Linux
 	# https://aur.archlinux.org/packages/qt4/
 	
-	#-no-phonon \
-	#-no-phonon-backend \
-	#-no-webkit \
-	
-	./configure -prefix /usr/share/qt4 \
-        -bindir /usr/share/qt4/bin \
-        -headerdir /usr/share/qt4/include \
-        -libdir /usr/share/qt4/lib \
-        -plugindir /usr/share/qt4/plugins \
-        -platform linux-g++ -release -shared -sm \
-	-system-sqlite \
-	-graphicssystem raster \
-	-openssl-linked \
-	-no-phonon \
-	-no-phonon-backend \
-	-no-webkit \
-	-nomake demos \
-	-nomake examples \
-	-nomake docs \
-	-xmlpatterns \
-	-silent \
-	-no-rpath \
-	-optimized-qmake \
-	-no-reduce-relocations \
-	-dbus-linked \
-	-no-openvg \
-	-opensource \
-	-confirm-license \
-	-little-endian -host-little-endian
+	./configure -prefix /usr/lib/$name \
+		-bindir /usr/lib/$name/bin \
+		-headerdir /usr/include/$name \
+		-libdir /usr/lib/$name/lib \
+		-plugindir /usr/lib/$name/plugins \
+		-platform linux-g++ -release -shared -sm \
+		-system-sqlite \
+		-graphicssystem raster \
+		-openssl-linked \
+		-no-phonon \
+		-no-phonon-backend \
+		-no-webkit \
+		-nomake demos \
+		-nomake examples \
+		-nomake docs \
+		-xmlpatterns \
+		-silent \
+		-no-rpath \
+		-optimized-qmake \
+		-no-reduce-relocations \
+		-dbus-linked \
+		-no-openvg \
+		-opensource \
+		-confirm-license \
+		-little-endian -host-little-endian
 
 	# From Alan's port...
 	LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$PWD/lib" make
 	make INSTALL_ROOT=$PKG install
 
 	rm -rf `find $PKG/usr/share/qt4/mkspecs/* | grep -v linux-g++ | grep -v common | grep -v pri | grep -v features`
-	rm -f $PKG/usr/share/qt4/mkspecs/linux-g++/linux-g++
-	rm -rf $PKG/usr/share/qt4/mkspecs/features/{mac,win32}
-	rm -rf $PKG/usr/share/qt4/mkspecs/common/mac*
-	rm -rf $PKG/usr/share/qt4/phrasebooks
+	rm -f $PKG/usr/lib/$name/mkspecs/linux-g++/linux-g++
+	rm -rf $PKG/usr/lib/$name/mkspecs/features/{mac,win32}
+	rm -rf $PKG/usr/lib/$name/mkspecs/common/mac*
+	rm -rf $PKG/usr/lib/$name/phrasebooks
 
-	install -d $PKG/{etc/ld.so.conf.d,usr/{bin,lib,include}}
-	echo "/usr/share/qt4/lib" > $PKG/etc/ld.so.conf.d/qt4.conf
+	install -d $PKG/{etc/ld.so.conf.d,usr/{bin,lib}}
+	echo "/usr/lib/$name/lib" > $PKG/etc/ld.so.conf.d/qt4.conf
 
-	ln -s ../share/qt4/include     $PKG/usr/include/qt4
-	ln -s ../share/qt4/lib         $PKG/usr/lib/qt4
-	ln -s linux-g++                $PKG/usr/share/qt4/mkspecs/default
+	ln -s linux-g++ $PKG/usr/lib/$name/mkspecs/default
 
-	mv $PKG/usr/share/qt4/lib/pkgconfig $PKG/usr/lib
+	mv $PKG/usr/lib/$name/lib/pkgconfig $PKG/usr/lib
 
 	sed -i -e "s|-L$SRC/qt-everywhere-opensource-src-$version/lib ||g" \
-        -e "s|$SRC/qt-everywhere-opensource-src-$version/bin|/usr/share/qt4/bin|g" \
+        -e "s|$SRC/qt-everywhere-opensource-src-$version/bin|/usr/$name/qt4/bin|g" \
 	$PKG/usr/lib/pkgconfig/*.pc
 
 	for f in assistant designer linguist lrelease lupdate moc qmake qtconfig uic \
 	  pixeltool qdbus qdbuscpp2xml qdbusxml2cpp qt3to4 rcc uic3; do
-	  ln -s ../share/qt4/bin/$f $PKG/usr/bin/$f-qt4
+	  ln -s ../lib/$name/bin/$f $PKG/usr/bin/$f-qt4
 	done
 	
-	rm -rf $PKG/usr/share/qt4/translations
+	rm -rf $PKG/usr/lib/$name/translations
 	
 	mkdir -p $PKG/usr/share/applications
 	cp $SRC/qtconfig-qt4.desktop $PKG/usr/share/applications

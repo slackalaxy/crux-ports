@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcK+BRe3eV9zgMv6T+HUNtDtpL1v8I0ZvclzjFOBXYrhR9fk9PWMnGywvNkU8q9/yI86AvRAvLRWWzdo+CvjnwU=
-SHA256 (Pkgfile) = 6d6d23958f45ce351c8cdd936a414b28bbcd3b9c98c0fe840bd75168753ad442
-SHA256 (.footprint) = dafe15a7c3ac4441ca3d0691501830afea0f59421757dd9fa65bb7a17fd01608
+RWToVVsIkzFIZYFH5A3c1digMl/q1zsJRQf8hzB+Ep6L9ME1SYrSn1WN6RSYjAgVB9LXP0S5TPF7Z1yJIZI7aH2o59FDxPn+JgY=
+SHA256 (Pkgfile) = e9a553eb14f6f6852a75a9970fcf8a3b8cbb0028268868ca06e401a06f931fd0
+SHA256 (.footprint) = 3bd084dab33b61a443724ed7c136fcf99278c748efe104c6dcb87d818bf68e7a
 SHA256 (qt-everywhere-opensource-src-4.8.7.tar.gz) = e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
 SHA256 (disable-root-include.patch) = 7d812b1ec2903fc1c60493b211d322a3a034d9484bb425da615f0df6dba301aa
 SHA256 (improve-cups-support.patch) = 3ccfefb432015e4a4ea967b030c51b10dcdfb1f63445557908ddae5e75012d33
