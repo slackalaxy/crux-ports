@@ -406,6 +406,8 @@ d:libgsf
 d:lmdb
 d:gtktetris
 d:blueman.pa
+d:wps-office-dicts
+d:skype
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:988c2e3fd5ba0ea4492d3ba7273af295:acpid/acpid-2.0.34.tar.xz
@@ -1961,3 +1963,11 @@ f:1df26b3348ba1db46ca790b5401f50e2:blueman.pa/Pkgfile
 f:4b9a06baf1785a80dc00300c83dfff67:blueman.pa/.footprint
 f:fb0d9cb0e4ab1e69b307ed5d816e8fb3:blueman.pa/.signature
 f:e86534abf27395097658280f7e10091b:blueman.pa/README
+f:f9ae3634bc79077f7b11b59aa5d11d18:wps-office-dicts/Pkgfile
+f:93fb9b4484559a0603a03629e508d911:wps-office-dicts/DICTIONARIES
+f:c2986e5bce4acfee8c362a65c1f4e681:wps-office-dicts/README
+f:8d1989164a93f6d655f0dd55eed475aa:wps-office-dicts/.footprint
+f:1c950e7f8fef623fbaefde4fbb388b05:wps-office-dicts/.signature
+f:8ec89dbcd4bd0bbffbfc0c3906692bc4:skype/Pkgfile
+f:a340b854eabbd7b8a724a5bb41f7ac97:skype/.footprint
+f:fd3fb91f1ee050a956dacdc993e505ee:skype/.signature
