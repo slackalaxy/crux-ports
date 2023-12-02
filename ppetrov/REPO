@@ -1680,7 +1680,7 @@ f:eb63d351deb907f52572dd5198b3a46f:p5-xml-twig/.signature
 f:8c9efcae5380947547f30ab6437ea889:pidgin-opensteamworks/Pkgfile
 f:ca92ae87934dd4cd67b20df8ab74f988:pidgin-opensteamworks/.footprint
 f:d0ae10db461c2833998ccd8049738bcf:pidgin-opensteamworks/.signature
-f:b0e34b4c9fcb2015f26bff6fdb1442c4:qt4/Pkgfile
+f:3dfd88d03ef956ceea9050355b10c495:qt4/Pkgfile
 f:24d8706eae8189476ad3d92696773e33:qt4/disable-root-include.patch
 f:1803ab6313df762d807678e58fc85f53:qt4/disable-sslv3.patch
 f:85679531c8a7310317adfb7002d9f99a:qt4/glib-honor-ExcludeSocketNotifiers-flag.diff
@@ -1698,8 +1698,8 @@ f:296a06554222ff5839cccc41c5d3987e:qt4/qt4-glibc-2.25.patch
 f:dbd1bec8c33c27ec0ae640b25801d25b:qt4/qt4-icu59.patch
 f:543b8d1f220bfe6116c3d08584c260e6:qt4/qt4-openssl-1.1.patch
 f:8cdb46c9852a8f9c8917fe7e080bde4f:qt4/qtconfig-qt4.desktop
-f:583ca2bcd83dd0e62b875b6e22531201:qt4/.footprint
-f:a187837510d8080db0168f2ae60144e3:qt4/.signature
+f:89832a0421a7206adadb89530b922f31:qt4/.footprint
+f:98ac6643450867f999af9cf98db0bc08:qt4/.signature
 f:76d6d9aca722178afbf6a8b66a7e0019:seqmonk/Pkgfile
 f:fec50e3428a9d8423eaed3fba440461b:seqmonk/.footprint
 f:0dda4243595ac0998ceea21a0d59271a:seqmonk/.signature
@@ -1877,10 +1877,10 @@ f:2c3a2612c713a42475c8bd7640c8289a:p5-postscript/.signature
 f:c812635a69323e784185567a7e174c15:p5-test-simple/Pkgfile
 f:25fe3019ecd87369d428655471a2cde6:p5-test-simple/.footprint
 f:9d165eba2fad0502b07440e68d56d2f1:p5-test-simple/.signature
-f:cdae36bfba289d1d3dce390377a2bfb1:pamlx/Pkgfile
+f:93edbc362dc77f99a77340ee81220751:pamlx/Pkgfile
 f:454088438459ce261f4e838632771ad5:pamlx/pamlx.desktop
 f:fd3e10ca71966c02ee1582625836400a:pamlx/.footprint
-f:e2db5e7214ccba3d5f2b2835e70fa72d:pamlx/.signature
+f:e0f7d91a80214d772ec89f8a8aef6654:pamlx/.signature
 f:0d80dc69fac0fa0b499f353ad36ce135:poppler21/Pkgfile
 f:c97769e63fa6fb9a13e6cf159bffed70:poppler21/.footprint
 f:71f17fad4d484d7665c63640e4c94f86:poppler21/.signature
