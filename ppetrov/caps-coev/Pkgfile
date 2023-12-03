@@ -1,11 +1,11 @@
 # Description: Coevolution Analysis using Protein Sequences
 # URL: http://bioinf.gen.tcd.ie/~faresm/software/software.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gsl bpp1.9-phyl
+# Depends on: gsl bpp1-phyl
 
 name=caps-coev
 version=2.0
-release=1
+release=2
 source=(https://raw.githubusercontent.com/slackalaxy/sources/main/caps2_src.zip
 	01_caps_verbose.patch 02_caps_sort_input.patch)
 
@@ -16,16 +16,16 @@ build() {
 	sed -i "s:CC=g++ -g:CC=g++-5 -g -std=c++11:" Makefile
 		
 	# This is needed for vCAPS to find its libraries at runtime. Thanks Urchlay!
-	LIBDIRPATH="-Wl,-rpath,/usr/lib/Bpp1.9"
+	LIBDIRPATH="-Wl,-rpath,/usr/lib/Bpp1"
 	
 	# Use our CFLAGS and the custom (legacy) lib path
 	sed -i "s:CFLAGS=:CFLAGS=$CFLAGS $LIBDIRPATH:" Makefile
 
 	# Find the legacy bpp libraries
-	sed -i "s:-lbpp-phyl:-L/usr/lib/Bpp1.9 -lbpp-phyl:g" Makefile
-	sed -i "s:-lbpp-numcalc:-L/usr/lib/Bpp1.9 -lbpp-numcalc:g" Makefile
-	sed -i "s:-lbpp-utils:-L/usr/lib/Bpp1.9 -lbpp-utils:g" Makefile
-	sed -i "s:-lbpp-seq:-L/usr/lib/Bpp1.9 -lbpp-seq:g" Makefile
+	sed -i "s:-lbpp-phyl:-L/usr/lib/Bpp1 -lbpp-phyl:g" Makefile
+	sed -i "s:-lbpp-numcalc:-L/usr/lib/Bpp1 -lbpp-numcalc:g" Makefile
+	sed -i "s:-lbpp-utils:-L/usr/lib/Bpp1 -lbpp-utils:g" Makefile
+	sed -i "s:-lbpp-seq:-L/usr/lib/Bpp1 -lbpp-seq:g" Makefile
 
 	# Rename the produced executable 
 	sed -i "s:-o caps:-o vCAPS:" Makefile
