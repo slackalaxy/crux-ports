@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: grub
 
-name=grub.default
+name=grub-default
 version=6ba8d3f
 release=1
 source=($name crux-1366x768.png)

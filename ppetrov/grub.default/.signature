@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdICLA9vk5zy1RdDqLvPI7LLhlUZ2oZ4IGcdfzrZVZsDTobMcJEz4BEZAq8TfPD90hqSQtyKEpdmQaKgTJ9q4w4=
-SHA256 (Pkgfile) = 2111faba224cf6e5acde556d25ebe1af47d3bce792e45f67ea6b5b5412f93d2e
-SHA256 (.footprint) = 78ff7f70c054972db2d7ec06132c3d8aa2d4e3cb0e251e3f37ce5c98c74e603f
-SHA256 (grub.default) = 6ba8d3f72658eeb4c3042342f4056d47fc1d6652a5672f1ca70e2b941a8df987
-SHA256 (crux-1366x768.png) = 3139eb6cfbe349a6e2720b44b63cc90aa66b350fe27415f726580f0778df70e0
