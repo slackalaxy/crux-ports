@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQzxc5lL5SRDeBF7rOkEIxd39TOTenhvIuINgcc+9R0+6DUQWpjTxaq8tup+kbz/JfKd6bfbv1bECQy4UW+ziQE=
+SHA256 (Pkgfile) = 5a3f3b58ac778137b5236ed469c17120108cd13767e956f76b297ba984a0d860
+SHA256 (.footprint) = 276fd73e67c3781747218e0949e4811e7ee1c0199e1ac55a4b02bc22fceaa339
+SHA256 (bpp-phyl-1.9.0.tar.gz) = 85fd314d32e35c4678dc6d0a5fe19638939ef2e424b70baceb834121060f4252
+SHA256 (caps_TreeTemplateTools.patch) = f56f67c27588291f974ea38777266f6aa7d5262be93573a7064960c4f6b9f92f
