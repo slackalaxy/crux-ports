@@ -1,12 +1,12 @@
 # Description: GNOME Chemistry Utilities
 # URL: http://download.savannah.gnu.org/releases/gchemutils
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: bodr chemical-mime-data goffice0.8 gtkglext openbabel pango-querymodules libxml210
-# Optional: gnumeric abiword seamonkey-bin
+# Depends on: bodr chemical-mime-data goffice08 gtkglext openbabel pango-querymodules libxml210
+# Optional: gnumeric abiword
 
 name=gchemutils
 version=0.12.13
-release=2
+release=3
 source=(http://download.savannah.gnu.org/releases/gchemutils/0.12/gnome-chemistry-utils-0.12.13.tar.xz
 	$name.directory $name.menu stream.patch)
 
