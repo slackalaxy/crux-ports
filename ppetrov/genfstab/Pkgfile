@@ -1,0 +1,16 @@
+# Description: Generate output suitable for addition to an fstab file
+# URL: https://gitlab.archlinux.org/archlinux/arch-install-scripts
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: asciidoc
+
+name=genfstab
+version=28
+release=1
+source=(https://gitlab.archlinux.org/archlinux/arch-install-scripts/-/archive/v${version}/arch-install-scripts-v${version}.tar.gz)
+
+build() {
+	cd arch-install-scripts-v${version}
+	make
+	install -D -m755 $name $PKG/usr/bin/$name
+	install -D -m644 doc/$name.8 $PKG/usr/share/man/man8/$name.8
+}
