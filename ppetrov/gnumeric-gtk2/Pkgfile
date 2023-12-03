@@ -1,11 +1,11 @@
 # Description: Gnumeric spreadsheet -- last GTK2 release
 # URL: http://www.gnumeric.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: goffice0.8 python
+# Depends on: goffice08 python
 
 name=gnumeric-gtk2
 version=1.10.17
-release=2
+release=3
 source=(https://download-fallback.gnome.org/sources/gnumeric/${version%.*}/gnumeric-$version.tar.bz2)
 
 build() {
