@@ -1,0 +1,38 @@
+# Description: Bio++ 1 Seq Library
+# URL: http://biopp.univ-montp2.fr/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bpp1-numcalc
+
+name=bpp1-seq
+version=1.7.0
+release=1
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/bpp-seq-$version.tar.gz)
+
+build() {
+	cd bpp-seq-$version
+	
+	# build fails with gcc 12
+	export CXX=g++-5
+	
+	LIBDIRPATH="-Wl,-rpath,/usr/lib/Bpp1"
+
+	# Use custom install place, so libs can coexist with latest bpp
+	export PATH="/usr/lib/Bpp1/:$PATH"
+	sed -i "s:/lib/:/lib/Bpp1/:g" Seq.spec
+
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_CXX_FLAGS:STRING="$CFLAGS $LIBDIRPATH" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+
+	sed -i "s:/lib\b:/lib/Bpp1:g" Seq/cmake_install.cmake
+	sed -i "s:Bpp1/Bpp1:Bpp1:g" Seq/cmake_install.cmake
+
+	make
+	make DESTDIR=$PKG install
+	
+	mkdir -p $PKG/etc/revdep.d
+	echo "/usr/lib/Bpp1" > $PKG/etc/revdep.d/$name
+}
