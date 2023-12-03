@@ -1,0 +1,37 @@
+# Description: A planetarium for your computer
+# URL: https://stellarium.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: double-conversion icu keyutils qt5
+# Optional: krb5 lame pulseaudio
+
+name=stellarium
+version=23.3
+release=1
+source=(https://github.com/Stellarium/stellarium/releases/download/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+		-D CMAKE_INSTALL_PREFIX=/usr \
+		-D CMAKE_CXX_FLAGS:STRING="$CFLAGS" \
+		-D CMAKE_C_FLAGS:STRING="$CXXFLAGS" \
+		-D ENABLE_QT6=OFF \
+		-D ENABLE_TESTING=OFF \
+		-D ENABLE_XLSX=OFF \
+		-D ENABLE_NLS=OFF \
+		-D ENABLE_QTWEBENGINE=OFF \
+		-D PREFER_SYSTEM_INDILIB=Yes \
+		-D CMAKE_BUILD_TYPE="release" ..
+	make
+	make install DESTDIR=$PKG
+	 
+	sed -i "s:Education:Game:" $PKG/usr/share/applications/org.$name.Stellarium.desktop
+	rm -rf $PKG/usr/share/stellarium/translations
+	
+	# Leave only "en"...
+	find $PKG/usr/share/stellarium/ -type f -name "*[^e][^n].utf8" -delete
+	find $PKG/usr/share/stellarium/ -type f -name "*[^e][n].utf8" -delete
+	find $PKG/usr/share/stellarium/ -type f -name "*[e][^n].utf8" -delete
+}
