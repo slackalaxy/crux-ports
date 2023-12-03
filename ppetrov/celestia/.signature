@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZUxBxzGqVW1hSIia4/W4otLjbJ3KlB3iOfXdCQsOBki9+CB2aLrkGLsW484dE9tvUXOjbJQWL6SLh1hi0b/G4gw=
-SHA256 (Pkgfile) = 1d59bd290691d95e5b92286408bef0b0ebf73186ca86c57a10203c158ce0de08
-SHA256 (.footprint) = 9c6d5e367e447f4954a3cb06cd898fad4d37be0346e63e70f57709f0c72c6e00
+RWToVVsIkzFIZa/tWJr7ln0cMq4E9I0Iq8qYU6iiOslLozaOtpufbecmVMtDfc4ALXqySepb1ciC0FaSROI7jxfgJzigDRDBAws=
+SHA256 (Pkgfile) = 6a215d6e3cf3af3a13ba599d01761bf81cb76725c832fdf24a6d9f1e9ddf522c
+SHA256 (.footprint) = b877321a763a1b2ff79cdaa7b4892f62af372890ba008229eae696c2af71e55d
 SHA256 (celestia-1.6.4.tar.gz) = 554abf90aa19c53ed1cfa43b5c7deee52e81a5fe7504a439c88423dc34085838

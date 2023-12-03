@@ -25,5 +25,5 @@ build() {
 	sed -i "s:celestia-gtk:$name:" $PKG/usr/share/applications/$name.desktop
 	sed -i "s:Education:Game:" $PKG/usr/share/applications/$name.desktop
 	
-	rm -rf $PKG/usr/share/$name/{COPYING_*,controls_*,demo_*,guide_*,start_*,fonts/*_*.txf}
+	rm -rf $PKG/usr/share/$name/{COPYING*,controls_*,demo_*,guide_*,start_*,fonts/*_*.txf}
 }
