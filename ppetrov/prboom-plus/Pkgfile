@@ -1,0 +1,24 @@
+# Description: Doom source port
+# URL: https://github.com/coelckers/prboom-plus/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib glu libmad libvorbis sdl2_image
+
+name=prboom-plus
+version=2.6.66
+release=1
+source=(https://github.com/coelckers/prboom-plus/archive/v${version}/$name-${version}.tar.gz)
+
+build() {
+	cd $name-$version/prboom2
+	
+	cmake \
+		-D CMAKE_C_FLAGS:STRING="$CFLAGS" \
+		-D CMAKE_CXX_FLAGS:STRING="$CXXCFLAGS" \
+		-D CMAKE_INSTALL_PREFIX=/usr \
+		-D CMAKE_BUILD_TYPE=Release
+	
+	make
+	make install DESTDIR=$PKG
+
+	rm -rf $PKG/usr/share/doc
+}
