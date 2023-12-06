@@ -1,0 +1,23 @@
+# Description: A simple GTK2 manual page viewer
+# URL: https://github.com/gapan/gtkman
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python gtk
+
+name=gtkman
+version=1.0.1
+release=1
+source=(https://github.com/gapan/gtkman/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	# Shall we modify the default font used by GTKman and set the size?
+	sed -i "s:monospace:monospace 10:" src/gtkman
+	sed -i "s:/usr/local:/usr:g" Makefile
+	
+	make
+	touch man/gtkman.man
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/{locale,man}
+}
