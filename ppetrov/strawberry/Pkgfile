@@ -6,7 +6,7 @@
 
 name=strawberry
 version=1.0.21
-release=1
+release=2
 source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
 
 build() {
@@ -21,4 +21,8 @@ build() {
 
 	make all PMFLAGS="-DNEWBUFFER"
 	make install DESTDIR=$PKG
+	
+	mkdir -p $PKG/usr/share/pixmaps/
+	cp -a $PKG/usr/share/icons/hicolor/48x48/apps/$name.png \
+	$PKG/usr/share/pixmaps/$name.png
 }
