@@ -1,6 +1,0 @@
-drwxr-xr-x	root/root	boot/
-drwxr-xr-x	root/root	boot/grub/
--rw-r--r--	root/root	boot/grub/crux-1366x768.png
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/default/
--rw-r--r--	root/root	etc/default/grub
