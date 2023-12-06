@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Doom Plutonia
+Exec=prboom-plus -iwad '/usr/share/prboom-plus/PLUTONIA.WAD'
+Icon=plutonia
+Terminal=false
+Type=Application
+#Categories=Game;
+StartupNotify=false

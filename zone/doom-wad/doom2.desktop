@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Doom II
+Exec=prboom-plus -iwad '/usr/share/prboom-plus/DOOM2.WAD'
+Icon=doom2
+Terminal=false
+Type=Application
+#Categories=Game;
+StartupNotify=false
