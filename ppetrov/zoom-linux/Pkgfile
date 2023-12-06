@@ -1,12 +1,12 @@
 # Description: Online conference
 # URL: https://zoom.us/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli graphite2 gtk3 keyutils krb5 lame libinput pulseaudio qt5 wayland
+# Depends on: brotli double-conversion ffmpeg gnutls gtk3 icu keyutils krb5 lame libcef libidn2 libinput libva libvdpau pulseaudio qt5 tslib wayland
 
 name=zoom-linux
 version=latest
 #version=$(tar -xOf zoom_x86_64.tar.xz zoom/version.txt)
-release=6
+release=7
 source=(https://zoom.us/client/latest/zoom_x86_64.tar.xz
 	$name.desktop $name.png $name.xml)
 
