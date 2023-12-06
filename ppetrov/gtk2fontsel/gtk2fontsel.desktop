@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=gtk2fontsel
+Comment=A sketchpad for protein topology diagrams
+Exec=gtk2fontsel
+Icon=fonts
+StartupNotify=false
+Type=Application
+Categories=Utility;

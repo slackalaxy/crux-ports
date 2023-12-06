@@ -1,0 +1,20 @@
+# Description: Font selection tool similar to xfontsel implemented using GTK+ 2
+# URL: https://gtk2fontsel.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage
+
+name=gtk2fontsel
+version=0.1
+release=1
+source=(https://sourceforge.net/projects/gtk2fontsel/files/$name/$version/$name-$version.tar.gz
+	$name.desktop)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	
+	mkdir -p $PKG/usr/share/applications
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+}
