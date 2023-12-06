@@ -1,12 +1,12 @@
 # Description: Viber for PC
 # URL: https://viber.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cups double-conversion graphite2 gst-libav gst-plugins-bad gst-plugins-good gst-plugins-ugly keyutils krb5 libmng libtiff44 libxkbcommon minizip mtdev openssl11 snappy tslib wayland xorg-libxcomposite xorg-libxscrnsaver xorg-libxtst xorg-xcb-util-image xorg-xcb-util-keysyms xorg-xcb-util-renderutil xorg-xcb-util-wm
+# Depends on: cups gst-plugins-bad gtk3 krb5 libevent libidn2 libmng libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy tslib xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsaver xorg-xcb-uti
 
 name=viber
 version=current
 #version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
-release=7
+release=8
 source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb)
 
 build() {
@@ -28,5 +28,6 @@ build() {
 	
 	chmod 755 $PKG/usr
 	chmod 755 $PKG/usr/share
-	find $PKG/usr/lib/viber/translations/ -type f -not -name "*_en.qm" -delete
+	
+	find $PKG/usr/lib/viber/translations/ -maxdepth 1 -type f -not -name "*_en.qm" -delete
 }
