@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Quake III
+GenericName=Quake III ioquake port
+Exec=ioq3
+Type=Application
+Categories=Game;
+Icon=ioq3
+StartupNotify=false
+Terminal=false
