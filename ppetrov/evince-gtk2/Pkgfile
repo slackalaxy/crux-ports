@@ -1,11 +1,11 @@
 # Description: Old Evince
 # URL: https://download.gnome.org/sources/evince/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk glib xorg-libpixman xorg-libxdamage libxml210
+# Depends on: gtk glib poppler xorg-libpixman xorg-libxdamage libxml210
 
 name=evince-gtk2
 version=2.32.0
-release=3
+release=4
 source=(https://download.gnome.org/sources/evince/${version%.*}/evince-$version.tar.bz2)
 
 build() {
