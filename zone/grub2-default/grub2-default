@@ -1,0 +1,88 @@
+# If you change this file, run grub-mkconfig -o /boot/grub/grub.cfg
+# afterwards to update /boot/grub/grub.cfg.
+
+########################################################################
+# https://wiki.gentoo.org/wiki/GRUB/Configuration_variables ############
+########################################################################
+# Default menu entry selected on boot. The entry may be identified by
+# number (starting from 0), title, or id. When using submenus, it is
+# specified by menu>submenu, like 0>1, or other>minix>minix-3.4.0.
+#GRUB_DEFAULT=0
+
+# Delay (in seconds) before booting default menu entry. Set to 0 to boot
+# immediately or -1 to wait indefinitely.
+#GRUB_TIMEOUT=12
+
+# Device node for the volume containing the root filesystem. Set this to
+# override the grub2-mkconfig command's root device auto-detection. For
+# example, GRUB_DEVICE=/dev/ram0 will force root=/dev/ram0 to be used
+# in the kernel command line. (detected)
+#GRUB_DEVICE=
+
+# UUID of the root filesystem. (detected)
+#GRUB_DEVICE_UUID=
+
+# If true, recovery menu entries will not be generated. On Linux,
+# recovery entries pass "single" on the kernel command-line. (false)
+#GRUB_DISABLE_RECOVERY=false
+
+# Use a custom font (converted using grub-mkfont) on the graphical
+# terminal. Font should be in pf2 format to be used during gfxmode
+# display. See the port's README for more info. 
+#GRUB_FONT=/usr/share/grub/unicode.pf2
+
+# When true, the os-prober utility is bypassed meaning additional OS
+# loaders will not be searched. Setting GRUB_DISABLE_OS_PROBER=false
+# will have grub-mkconfig search for additional installations when
+# os-prober is installed.
+#GRUB_DISABLE_OS_PROBER=true
+
+# List of GRUB module names separated by spaces that will be loaded at
+# the start of grub.cfg. This may be needed if the GRUB boot is in a LVM
+# partition.
+#GRUB_PRELOAD_MODULES=""
+
+# Parameters to be passed on the kernel command line for all Linux menu
+# entries. For instance, to support hibernation, users will need to add
+# GRUB_CMDLINE_LINUX="resume=/dev/sdXY" with /dev/sdXY being the swap
+# partition:
+#GRUB_CMDLINE_LINUX=""
+
+# Parameters to be passed on the kernel command line for non-recovery
+# Linux menu entries:
+#GRUB_CMDLINE_LINUX_DEFAULT=""
+
+# If true, ${GRUB_DEVICE} is passed in the root parameter on the kernel
+# command line. If false, ${GRUB_DEVICE_UUID} is passed in the root
+# parameter on the kernel command line when an initramfs is available.
+# (false)
+#GRUB_DISABLE_LINUX_UUID=true
+
+# If set to false, and if there is either no initramfs, or GRUB_DISABLE_LINUX_UUID=true,
+# ${GRUB_DEVICE_PARTUUID} is passed in the root parameter on the kernel
+# command line. (true)
+#GRUB_DISABLE_LINUX_PARTUUID=true
+
+# Controls the video mode in which the Linux kernel starts. May be set
+# to "text", "keep", or a display resolution. Set to "keep", in order to
+# keep the resolution when loading the kernel. (text)
+#GRUB_GFXPAYLOAD_LINUX=text
+
+# Set resolution and color depth
+# Note that you can use only modes which your graphic card supports via
+# VBE you can see them in real GRUB with the command 'vbeinfo':
+#GRUB_GFXMODE=
+
+# Set a background image
+#GRUB_BACKGROUND=
+
+# Uncomment to disable graphical terminal (grub-pc only)
+#GRUB_TERMINAL=console
+
+# If this option is set to true, flat menu with all entries on top level
+# will be generated. (false)
+#GRUB_DISABLE_SUBMENU=true
+
+# Set by distributors of GRUB to their identifying name. This is used to
+# generate more informative menu entry titles.
+#GRUB_DISTRIBUTOR="CRUX"
