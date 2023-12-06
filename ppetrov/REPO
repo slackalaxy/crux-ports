@@ -410,7 +410,6 @@ d:celestia
 d:stellarium
 d:strawberry
 d:genfstab
-d:grub-default
 d:bpp1-numcalc
 d:bpp1-seq
 d:bpp1-utils
@@ -1987,12 +1986,6 @@ f:2f4f91eb3564c08871236d380610b003:strawberry/.footprint
 f:93cf7520c06c23cd8af01dac07142044:genfstab/Pkgfile
 f:616cda1139ea2f1d26c0b32937065e69:genfstab/.footprint
 f:5768b1e34e7229ca94b96b46ded2e358:genfstab/.signature
-f:79c06c75b1bc361b0914449d12d9cc02:grub-default/Pkgfile
-f:b95c66be425fac0c3ab535b09ef44f21:grub-default/README
-f:6ac20a00cf6bea8ffcf921d899f5519c:grub-default/.footprint
-f:6465604d513a31179ffcbd08a59d3e6b:grub-default/.signature
-f:5470b17b4db57d68fccf1e490eaace71:grub-default/crux-1366x768.png
-f:1e5bf7e60471d97da1bcdbaa9cb9459e:grub-default/grub-default
 f:5144252167b9a820eebf6c01c3414d4c:bpp1-numcalc/Pkgfile
 f:3b1e5ed67868e2691f9048cfa3ab2319:bpp1-numcalc/.footprint
 f:7b771ee02e091d697f064ed33f32472e:bpp1-numcalc/.signature
