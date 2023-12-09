@@ -5,53 +5,31 @@
 
 name=connman
 version=1.42
-release=2
+release=3
 source=(https://www.kernel.org/pub/linux/network/connman/$name-$version.tar.gz
-	connman.rc allow_group_network.diff)
+	connmand.rc allow_group_network.diff)
 
 build() {
 	cd $name-$version
-	
 	patch -Np1 -i $SRC/allow_group_network.diff
 	
 	./configure --prefix=/usr \
-	--sysconfdir=/etc \
-	--localstatedir=/var \
-	--disable-vpnc \
-	--disable-openconnect \
-	--disable-pptp \
-	--enable-polkit \
-	--enable-openvpn \
-	--enable-client \
-	--enable-pie \
-	--disable-nmcompat \
-	--enable-test
-
-
-	# Optional
-	#--enable-pptp \
-	#--enable-openconnect \
-	#--enable-vpnc \
-	#--enable-openvpn \
-	#--enable-client \
-	#--enable-nmcompat \
-	#--enable-test \
-	#--enable-pie \
-	#--enable-polkit \
-	#--enable-iwd \	
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--enable-polkit \
+		--enable-openvpn \
+		--enable-client \
+		--enable-pie \
+		--enable-nmcompat \
+		--enable-test \
+		--disable-vpnc \
+		--disable-openconnect \
+		--disable-pptp \
+		--disable-iwd
 	
 	make
 	make install DESTDIR=$PKG
 	
-	mkdir -p $PKG/etc/polkit-1/rules.d
-	cp -a src/connman-polkit.conf $PKG/etc/polkit-1/rules.d
-	# update dbus rules, thanks Wawrzek
-	mkdir -p $PKG/etc/dbus-1/system.d
-	cp -a $PKG/usr/share/dbus-1/system.d/connman.conf $PKG/etc/dbus-1/system.d/
-	sed -i 's/user="root"/group="wheel"/' $PKG/etc/dbus-1/system.d/connman.conf
-
-	#mkdir -p $PKG/run/$name
-	
-	# rc script, thanks Wawrzek
-	install -D -m 0755 $SRC/connman.rc $PKG/etc/rc.d/connman
+	install -Dm644 src/main.conf $PKG/etc/connman/main.conf
+	install -D -m 0755 $SRC/connmand.rc $PKG/etc/rc.d/connmand
 }
