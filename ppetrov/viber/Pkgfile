@@ -1,12 +1,12 @@
 # Description: Viber for PC
 # URL: https://viber.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cups gst-plugins-bad gtk3 krb5 libevent libidn2 libmng libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy tslib xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsaver xorg-xcb-uti
+# Depends on: cups gst-plugins-bad gtk3 krb5 libevent libidn2 libmng libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy tslib xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsaver xorg-xcb-util
 
 name=viber
 version=current
 #version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
-release=8
+release=9
 source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb)
 
 build() {
