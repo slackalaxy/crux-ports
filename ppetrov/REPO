@@ -147,6 +147,7 @@ d:pygtk
 d:raxml
 d:spice-protocol
 d:topd
+d:gftp
 d:xine-ui
 d:xmms-skins-ximian
 d:chemtool
@@ -953,6 +954,9 @@ f:98646fb4f8a243ef243667e7dc122355:spice-protocol/.signature
 f:bdc3f19aac683e5fe9ba6fc4ee4ed40f:topd/Pkgfile
 f:5deea2c43db3a3cc373130da11fbd002:topd/.footprint
 f:deac97ba0db7a58601e1ecad29d7ef8d:topd/.signature
+f:39bae0571881572bd2e4fd7be802bb7f:gftp/Pkgfile
+f:dd2984fb0e807083fde8f285009e000f:gftp/.footprint
+f:3fe7659ebf76664c12cdcea20b5fbf58:gftp/.signature
 f:7eff7f781aa5f0d2c1ace4276fa84a69:xine-ui/Pkgfile
 f:376d9f92b52e27fab48884f656e2de43:xine-ui/.footprint
 f:de4d60bba0322fc953fedf236a73b203:xine-ui/.signature
@@ -1058,11 +1062,11 @@ f:e2b3837dbc2b18a0e2ab0f4073316102:xmms-crossfade/.signature
 f:e7bf9ec5a3c10b469ccdd214f3ad630d:xmms-skins-yaxay/Pkgfile
 f:d1ac94fe16dff6fb1a32bfdf8f7ef06e:xmms-skins-yaxay/.footprint
 f:acd85df873ea0fab7e7b20c77514287f:xmms-skins-yaxay/.signature
-f:95c63f438bc8edcf097c1816e7e9052c:chimerax/Pkgfile
+f:63afd0321d80f01d59ca8cb67ab6bca5:chimerax/Pkgfile
 f:c2f99dd24917319c3f379fd4598492ff:chimerax/README
 f:17daf852f3de0bd03b66dc666c18e54a:chimerax/chimerax.desktop
-f:85762b93f3bec2e180ede58a6d7594ec:chimerax/.footprint
-f:111efe55d71369f3c64c78d83135aaaa:chimerax/.signature
+f:a9c980125133807c89314bc4669506c3:chimerax/.footprint
+f:c9fb178406ec03dbd1783eb5375b4129:chimerax/.signature
 f:17c24705c805c7f9db8d8d1fd5d27893:diffuse/Pkgfile
 f:f87fcdcab45759bbabf8ad60d20f9012:diffuse/diffuse.png
 f:01147dc7e87a8ed802050cba881cbc7d:diffuse/.footprint
@@ -1677,7 +1681,7 @@ f:eb63d351deb907f52572dd5198b3a46f:p5-xml-twig/.signature
 f:8c9efcae5380947547f30ab6437ea889:pidgin-opensteamworks/Pkgfile
 f:ca92ae87934dd4cd67b20df8ab74f988:pidgin-opensteamworks/.footprint
 f:d0ae10db461c2833998ccd8049738bcf:pidgin-opensteamworks/.signature
-f:3dfd88d03ef956ceea9050355b10c495:qt4/Pkgfile
+f:8af639acc113ce1f2798321b922be202:qt4/Pkgfile
 f:24d8706eae8189476ad3d92696773e33:qt4/disable-root-include.patch
 f:1803ab6313df762d807678e58fc85f53:qt4/disable-sslv3.patch
 f:85679531c8a7310317adfb7002d9f99a:qt4/glib-honor-ExcludeSocketNotifiers-flag.diff
@@ -1696,7 +1700,7 @@ f:dbd1bec8c33c27ec0ae640b25801d25b:qt4/qt4-icu59.patch
 f:543b8d1f220bfe6116c3d08584c260e6:qt4/qt4-openssl-1.1.patch
 f:8cdb46c9852a8f9c8917fe7e080bde4f:qt4/qtconfig-qt4.desktop
 f:89832a0421a7206adadb89530b922f31:qt4/.footprint
-f:98ac6643450867f999af9cf98db0bc08:qt4/.signature
+f:8b3e5db3eec543ba5d38be22145d5a06:qt4/.signature
 f:76d6d9aca722178afbf6a8b66a7e0019:seqmonk/Pkgfile
 f:fec50e3428a9d8423eaed3fba440461b:seqmonk/.footprint
 f:0dda4243595ac0998ceea21a0d59271a:seqmonk/.signature
@@ -1907,7 +1911,6 @@ f:b971899feaabb3e5893597af6f24b03d:cmst/overlay.tar.xz
 f:521c5e5500e295c57fd3616f89362504:cmst/raw_art.tar.xz
 f:db29ddf7a113ac8c42be402e1f1d8bc8:cmst/.footprint
 f:15748ae4b7b80a254738c8b66fd5c84d:cmst/.signature
-f:5b9dc8326bca859f64ceec82dcb5d971:edirect/README
 f:786561ab309334c05e21859dc4c927d1:edirect/Pkgfile
 f:c4f6a56fe9ad663b3857cbb23c56585c:edirect/.footprint
 f:624338cfeba23c33c30d6027c08f2d80:edirect/.signature
