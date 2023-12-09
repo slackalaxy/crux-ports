@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Wasabi Server
-Comment=A web application for phylogenetic analyses
-Exec=wasabi
-Icon=wasabi
-StartupNotify=false
-Type=Application
-Categories=Education

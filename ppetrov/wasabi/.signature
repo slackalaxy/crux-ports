@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZSqWN9WqUur+/uTpW1TT0vgi/UUGyPeCZyFtbnWt6KQPx28dhwueocJK58/mKpqUZRIU856Woqqf08Z9R/hdjQ4=
-SHA256 (Pkgfile) = 2b3f97d639c04c976719cb7e618483c96a41f8af79d12abc79dc0677dfa267e1
-SHA256 (.footprint) = 9830227599193490b9b9ecc655d650cd76e9094cf38e5991df7a17967bb85250
-SHA256 (wasabi_linux.zip) = dc6d8a377c40e63959a259ee59ea38b3dc5b7e42e2312b15ad020a9188d1b38c
-SHA256 (wasabi.sh) = 393f9f11959453a9cd6ff724a42c1f9950fe32fb91e391dd5d3e9b8161a2782d
-SHA256 (wasabi.desktop) = 618c732f73b05ab3703ef7a9621d56fb7828797b55eda843285e35e18ad895af
-SHA256 (default_settings.cfg) = 59864bda0d4a46907d345141c202e980f536864f27e8e39c0d179a2a47bfed94
