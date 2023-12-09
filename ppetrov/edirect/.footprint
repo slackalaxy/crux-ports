@@ -43,6 +43,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/fetch-pubmed
 -rwxr-xr-x	root/root	usr/bin/fetch-taxonomy
 -rwxr-xr-x	root/root	usr/bin/filter-columns
+-rwxr-xr-x	root/root	usr/bin/filter-genbank
+-rwxr-xr-x	root/root	usr/bin/filter-record
 -rwxr-xr-x	root/root	usr/bin/filter-stop-words
 -rwxr-xr-x	root/root	usr/bin/find-in-gene
 -rwxr-xr-x	root/root	usr/bin/fuse-ranges
