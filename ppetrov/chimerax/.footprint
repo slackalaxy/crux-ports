@@ -378,7 +378,6 @@ lrwxrwxrwx	root/root	usr/lib/chimerax/lib/libffi.so -> libffi.so.6.0.4
 lrwxrwxrwx	root/root	usr/lib/chimerax/lib/libffi.so.6 -> libffi.so.6.0.4
 -rwxr-xr-x	root/root	usr/lib/chimerax/lib/libffi.so.6.0.4
 lrwxrwxrwx	root/root	usr/lib/chimerax/lib/libmysqlclient.so.21 -> /usr/lib/libmysqlclient.so
-lrwxrwxrwx	root/root	usr/lib/chimerax/lib/libncurses.so -> /lib/libncurses.so
 lrwxrwxrwx	root/root	usr/lib/chimerax/lib/libpython3.9.so -> libpython3.9.so.1.0
 -rwxr-xr-x	root/root	usr/lib/chimerax/lib/libpython3.9.so.1.0
 -rwxr-xr-x	root/root	usr/lib/chimerax/lib/libpython3.so

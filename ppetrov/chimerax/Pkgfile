@@ -5,7 +5,7 @@
 
 name=chimerax
 version=1.6.1
-release=2
+release=3
 source=(https://www.cgl.ucsf.edu/chimerax/cgi-bin/secure/chimerax-get.py?file=1.6/linux/ChimeraX-$version.tar.gz
 	https://sourceware.org/pub/libffi/libffi-3.2.tar.gz
 	$name.desktop)
@@ -40,7 +40,7 @@ build() {
 		$PKG/usr/lib/chimerax/lib/python3.9/lib-dynload/_curses.cpython-39-x86_64-linux-gnu.so
 	patchelf --replace-needed "libtinfo.so.6" "libncurses.so.6" \
 		$PKG/usr/lib/chimerax/lib/python3.9/lib-dynload/_curses_panel.cpython-39-x86_64-linux-gnu.so
-	ln -s /lib/libncurses.so .
+	#ln -s /usr/lib/libncurses.so .
 	
 	# use this from mariadb
 	ln -s /usr/lib/libmysqlclient.so libmysqlclient.so.21
