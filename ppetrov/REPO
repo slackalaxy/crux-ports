@@ -386,7 +386,6 @@ d:poppler21
 d:quarto
 d:spades
 d:terminus-font-otb
-d:vivaldi
 d:xdg-user-dirs
 d:xmms-skins-vortigo
 d:caps-coev
@@ -1681,7 +1680,7 @@ f:eb63d351deb907f52572dd5198b3a46f:p5-xml-twig/.signature
 f:8c9efcae5380947547f30ab6437ea889:pidgin-opensteamworks/Pkgfile
 f:ca92ae87934dd4cd67b20df8ab74f988:pidgin-opensteamworks/.footprint
 f:d0ae10db461c2833998ccd8049738bcf:pidgin-opensteamworks/.signature
-f:8af639acc113ce1f2798321b922be202:qt4/Pkgfile
+f:218a72b925feb12605a39a8c0e8608b6:qt4/Pkgfile
 f:24d8706eae8189476ad3d92696773e33:qt4/disable-root-include.patch
 f:1803ab6313df762d807678e58fc85f53:qt4/disable-sslv3.patch
 f:85679531c8a7310317adfb7002d9f99a:qt4/glib-honor-ExcludeSocketNotifiers-flag.diff
@@ -1699,8 +1698,8 @@ f:296a06554222ff5839cccc41c5d3987e:qt4/qt4-glibc-2.25.patch
 f:dbd1bec8c33c27ec0ae640b25801d25b:qt4/qt4-icu59.patch
 f:543b8d1f220bfe6116c3d08584c260e6:qt4/qt4-openssl-1.1.patch
 f:8cdb46c9852a8f9c8917fe7e080bde4f:qt4/qtconfig-qt4.desktop
-f:89832a0421a7206adadb89530b922f31:qt4/.footprint
-f:8b3e5db3eec543ba5d38be22145d5a06:qt4/.signature
+f:1b067efc36762f90114b576c71dfd64b:qt4/.footprint
+f:522875ebab5b56591a4648f7e85859b2:qt4/.signature
 f:76d6d9aca722178afbf6a8b66a7e0019:seqmonk/Pkgfile
 f:fec50e3428a9d8423eaed3fba440461b:seqmonk/.footprint
 f:0dda4243595ac0998ceea21a0d59271a:seqmonk/.signature
@@ -1886,10 +1885,6 @@ f:99bb230451e8ce964ebda1f79f6851d7:terminus-font-otb/Pkgfile
 f:e0d75b8289a7a524ef69f4fb873280e0:terminus-font-otb/post-install
 f:759868c73d9c01ea68ca49aaf49d4347:terminus-font-otb/.footprint
 f:ab5348a56155ee21df91609aeef82f07:terminus-font-otb/.signature
-f:2d7dac370ff04faba951bee9da41b696:vivaldi/vivaldi.desktop
-f:d5b81012015574456b1c9e0f5adbacb3:vivaldi/.footprint
-f:d265808690adda779480b462973737e9:vivaldi/.signature
-f:6e7535ae9e095a872df41eb927189dd7:vivaldi/Pkgfile
 f:ef7f39d2a1c9c5f4476a9b54ddbc9f88:xdg-user-dirs/.signature
 f:c4fb698fb1169885865731d07d5ebeda:xdg-user-dirs/Pkgfile
 f:698e151378259848c24a37f67edb1760:xdg-user-dirs/.footprint
