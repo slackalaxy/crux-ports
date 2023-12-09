@@ -5,7 +5,7 @@
 
 name=openvpn
 version=2.6.8
-release=1
+release=2
 source=(https://github.com/OpenVPN/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
@@ -16,7 +16,10 @@ build() {
 	--sysconfdir=/etc/openvpn \
 	--enable-lzo \
 	--enable-lz4 \
-	--enable-iproute2
+	--enable-plugins \
+	--disable-systemd \
+	--enable-iproute2 \
+	--enable-x509-alt-username
   
 	make
 	make DESTDIR=$PKG install
