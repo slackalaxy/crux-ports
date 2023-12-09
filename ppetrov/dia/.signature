@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZVdcCX987cmbg6ApAvy1KmCxE1AdMRbCsQv2HVOR1sY4JZPup7vquGSCgVsW/biwoEd1ezMxM+crlbGdYGGV8As=
+SHA256 (Pkgfile) = b9fb6018bfebeac25c36b2f98e77d63bf72de598b600371eaf680e82502a587b
+SHA256 (.footprint) = 0d17fe7cf87933811344bc14d5c6d63c483aea256307b0f2a9687ebe6a3b1f8d
+SHA256 (dia-0.97.3.tar.xz) = 22914e48ef48f894bb5143c5efc3d01ab96e0a0cde80de11058d3b4301377d34
+SHA256 (dia-0.97.2-underlinking.patch) = e7681b719c8ddf8c099c58ab16d521a570c36b24a8fcbe24309f398af965f1f4
+SHA256 (dia-0.97.0-gnome-doc.patch) = 5a0161a8da6991c65eb85cda4fbb00e65d897a13ab17ca2d1924167d316fa7a6
