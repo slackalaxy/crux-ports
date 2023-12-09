@@ -1,10 +1,10 @@
 # Description: Microsoft Edge stable
 # URL: https://www.microsoft.com/en-us/edge
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cups graphite2 icu libsecret nss qt5 qt6-base wayland
+# Depends on: cups gnutls icu libidn2 libsecret nss qt5 qt6-base wayland
 
 name=microsoft-edge
-version=119.0.2151.97
+version=120.0.2210.61
 release=1
 source=(https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_${version}-1_amd64.deb)
 

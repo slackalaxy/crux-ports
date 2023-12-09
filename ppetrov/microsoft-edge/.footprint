@@ -25,7 +25,6 @@ drwxr-xr-x	root/root	usr/lib/microsoft-edge/cron/
 -rw-r--r--	root/root	usr/lib/microsoft-edge/liboneds.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libqt5_shim.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libqt6_shim.so
--rw-r--r--	root/root	usr/lib/microsoft-edge/libsmartscreenn.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libtelclient.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libvk_swiftshader.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libvulkan.so.1
