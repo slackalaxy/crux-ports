@@ -112,6 +112,8 @@ drwxr-xr-x	root/root	usr/lib/meme-suite/perl/
 -rwxr-xr-x	root/root	usr/lib/meme-suite/perl/Alphabet.pm
 -rwxr-xr-x	root/root	usr/lib/meme-suite/perl/CheckingSAX.pm
 -rwxr-xr-x	root/root	usr/lib/meme-suite/perl/Citation.pm
+-rwxr-xr-x	root/root	usr/lib/meme-suite/perl/DiffJSON.pm
+-rwxr-xr-x	root/root	usr/lib/meme-suite/perl/DiffXML.pm
 -rwxr-xr-x	root/root	usr/lib/meme-suite/perl/DremeSAX.pm
 -rwxr-xr-x	root/root	usr/lib/meme-suite/perl/ExecUtils.pm
 -rwxr-xr-x	root/root	usr/lib/meme-suite/perl/Globals.pm
@@ -518,6 +520,7 @@ drwxr-xr-x	root/root	usr/share/meme-suite/doc/examples/sea_example_output_files/
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/sea_example_output_files/sea.html
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/sea_example_output_files/sea.tsv
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/sea_example_output_files/sequences.tsv
+-rw-r--r--	root/root	usr/share/meme-suite/doc/examples/sea_example_output_files/sites.tsv
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/small-tide-mod.txt
 drwxr-xr-x	root/root	usr/share/meme-suite/doc/examples/spamo_example_output_files/
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/spamo_example_output_files/spamo.html
@@ -681,11 +684,11 @@ drwxr-xr-x	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_fi
 drwxr-xr-x	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_disc_out/
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_disc_out/sea.html
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_disc_out/sea.tsv
--rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_disc_out/sequences.tsv (EMPTY)
 drwxr-xr-x	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_out/
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_out/sea.html
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_out/sea.tsv
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_out/sequences.tsv
+-rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/sea_out/sites.tsv
 drwxr-xr-x	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/streme_out/
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/streme_out/sequences.tsv
 -rw-r--r--	root/root	usr/share/meme-suite/doc/examples/xstreme_example_output_files/streme_out/sites.tsv
@@ -843,7 +846,6 @@ drwxr-xr-x	root/root	usr/share/meme-suite/doc/js/
 -rw-r--r--	root/root	usr/share/meme-suite/doc/motif-shuffle-columns.html
 -rw-r--r--	root/root	usr/share/meme-suite/doc/motif_conversion.html
 -rw-r--r--	root/root	usr/share/meme-suite/doc/motiph.html
--rw-r--r--	root/root	usr/share/meme-suite/doc/news.txt
 -rw-r--r--	root/root	usr/share/meme-suite/doc/nmica2meme.html
 -rw-r--r--	root/root	usr/share/meme-suite/doc/overview.html
 -rw-r--r--	root/root	usr/share/meme-suite/doc/pmp_bf.html

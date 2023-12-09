@@ -4,7 +4,7 @@
 # Depends on: libxslt meme-db-gomo meme-db-motif meme-db-tgene openmpi p5-html-template p5-json xorg-libpciaccess
 
 name=meme-suite
-version=5.5.4
+version=5.5.5
 release=1
 source=(https://meme-suite.org/meme-software/$version/meme-$version.tar.gz)
 
