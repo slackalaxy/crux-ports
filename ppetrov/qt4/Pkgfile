@@ -118,12 +118,6 @@ build() {
 	LD_LIBRARY_PATH="$LD_LIBRARY_PATH:$PWD/lib" make
 	make INSTALL_ROOT=$PKG install
 
-	rm -rf `find $PKG/usr/share/qt4/mkspecs/* | grep -v linux-g++ | grep -v common | grep -v pri | grep -v features`
-	rm -ff $PKG/usr/lib/$name/mkspecs/linux-g++/linux-g++
-	rm -rf $PKG/usr/lib/$name/mkspecs/features/{mac,win32}
-	rm -rf $PKG/usr/lib/$name/mkspecs/common/mac*
-	rm -rf $PKG/usr/lib/$name/phrasebooks
-
 	install -d $PKG/{etc/ld.so.conf.d,usr/{bin,lib}}
 	echo "/usr/lib/$name/lib" > $PKG/etc/ld.so.conf.d/qt4.conf
 	
@@ -141,8 +135,13 @@ build() {
 	  ln -s ../lib/$name/bin/$f $PKG/usr/bin/$f-qt4
 	done
 	
-	rm -rf $PKG/usr/lib/$name/translations
-	
 	mkdir -p $PKG/usr/share/applications
 	cp $SRC/qtconfig-qt4.desktop $PKG/usr/share/applications
+	
+	rm -rf `find $PKG/usr/share/qt4/mkspecs/* | grep -v linux-g++ | grep -v common | grep -v pri | grep -v features`
+	rm -rf $PKG/usr/lib/$name/mkspecs/linux-g++/linux-g++
+	rm -rf $PKG/usr/lib/$name/mkspecs/features/{mac,win32}
+	rm -rf $PKG/usr/lib/$name/mkspecs/common/mac*
+	rm -rf $PKG/usr/lib/$name/phrasebooks
+	rm -rf $PKG/usr/lib/$name/translations
 }

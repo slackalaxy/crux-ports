@@ -3415,7 +3415,6 @@ drwxr-xr-x	root/root	usr/lib/qt4/mkspecs/linux-g++-maemo/
 -rw-r--r--	root/root	usr/lib/qt4/mkspecs/linux-g++-maemo/qmake.conf
 -rw-r--r--	root/root	usr/lib/qt4/mkspecs/linux-g++-maemo/qplatformdefs.h
 drwxr-xr-x	root/root	usr/lib/qt4/mkspecs/linux-g++/
-lrwxrwxrwx	root/root	usr/lib/qt4/mkspecs/linux-g++/linux-g++ -> linux-g++
 -rw-r--r--	root/root	usr/lib/qt4/mkspecs/linux-g++/qmake.conf
 -rw-r--r--	root/root	usr/lib/qt4/mkspecs/linux-g++/qplatformdefs.h
 drwxr-xr-x	root/root	usr/lib/qt4/mkspecs/linux-icc-32/
