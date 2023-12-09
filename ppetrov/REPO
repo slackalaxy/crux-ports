@@ -413,7 +413,6 @@ d:bpp1-utils
 d:gtkman
 d:ioq3
 d:prboom-plus
-d:grub-default
 d:dia
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
