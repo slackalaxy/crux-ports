@@ -4,7 +4,7 @@
 # Depends on: libpcre2 qt5
 
 name=qt5ct
-version=1.7
+version=1.8
 release=1
 source=(https://sourceforge.net/projects/qt5ct/files/$name-$version.tar.bz2)
 
