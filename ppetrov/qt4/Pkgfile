@@ -5,7 +5,7 @@
 
 name=qt4
 version=4.8.7
-release=2
+release=3
 source=(https://download.qt.io/archive/qt/${version:0:3}/$version/qt-everywhere-opensource-src-$version.tar.gz
         disable-root-include.patch
 	improve-cups-support.patch 
@@ -119,15 +119,16 @@ build() {
 	make INSTALL_ROOT=$PKG install
 
 	rm -rf `find $PKG/usr/share/qt4/mkspecs/* | grep -v linux-g++ | grep -v common | grep -v pri | grep -v features`
-	rm -f $PKG/usr/lib/$name/mkspecs/linux-g++/linux-g++
+	rm -ff $PKG/usr/lib/$name/mkspecs/linux-g++/linux-g++
 	rm -rf $PKG/usr/lib/$name/mkspecs/features/{mac,win32}
 	rm -rf $PKG/usr/lib/$name/mkspecs/common/mac*
 	rm -rf $PKG/usr/lib/$name/phrasebooks
 
 	install -d $PKG/{etc/ld.so.conf.d,usr/{bin,lib}}
 	echo "/usr/lib/$name/lib" > $PKG/etc/ld.so.conf.d/qt4.conf
-
-	ln -s linux-g++ $PKG/usr/lib/$name/mkspecs/default
+	
+	cd $PKG/usr/lib/$name/mkspecs/
+	ln -s linux-g++ default
 
 	mv $PKG/usr/lib/$name/lib/pkgconfig $PKG/usr/lib
 
