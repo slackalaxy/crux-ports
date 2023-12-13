@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5lpuiImo+y6E19kq/MONh1hcdW+goMD9AeUIVBvpHBU6SMHURw38CuoGcjhOZvxK9BtX6oCV8jn9YLugKzJgXLg4=
+SHA256 (Pkgfile) = 6d1b576deed5d696f220902281fa4301db295a46dcbaea26d06ed54ddc851e62
+SHA256 (.footprint) = 17de799fe5a1fcd3d7189d6a65c70a040d141049de50427786461cc2a7b40b0e
+SHA256 (vctrs_0.6.5.tar.gz) = 43167d2248fd699594044b5c8f1dbb7ed163f2d64761e08ba805b04e7ec8e402

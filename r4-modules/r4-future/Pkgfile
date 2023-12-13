@@ -1,0 +1,16 @@
+# Description: R module future
+# URL: https://cran.r-project.org/web/packages/future
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-digest r4-globals r4-listenv r4-parallelly
+# Optional: r4-markdown r4-r-rsp r4-rhpcblasctl
+
+name=r4-future
+version=1.33.0
+release=1
+source=(https://cran.rstudio.com/src/contrib/future_${version}.tar.gz)
+
+build() {
+	cd future
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module curl
+# URL: https://cran.r-project.org/web/packages/curl
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-httpuv r4-jsonlite r4-knitr r4-later r4-magrittr r4-rmarkdown r4-spelling r4-testthat r4-webutils
+
+name=r4-curl
+version=5.2.0
+release=1
+source=(https://cran.rstudio.com/src/contrib/curl_${version}.tar.gz)
+
+build() {
+	cd curl
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

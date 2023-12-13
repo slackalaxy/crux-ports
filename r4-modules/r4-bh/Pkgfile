@@ -1,0 +1,16 @@
+# Description: R module BH
+# URL: https://cran.r-project.org/web/packages/BH
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: 
+
+name=r4-bh
+version=1.81.0.1
+release=1
+source=(https://cran.rstudio.com/src/contrib/BH_1.81.0-1.tar.gz)
+
+build() {
+	cd BH
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

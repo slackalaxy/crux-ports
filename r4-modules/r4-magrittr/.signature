@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5lmrsYaAoFNo0l9mZQr/bk9RZNZWsYJYch4RQXl7syiog5szsfSGvIG8QsgwmbT2zaXrJvohkNE1RXnB0WgfCYQQ=
+SHA256 (Pkgfile) = ac55eda46615432c10b225e49e5c7d07b048d973829261a240ec1bc49f25537c
+SHA256 (.footprint) = b80a93149f7db464e8580465d9b1c6495cdd497206139caa3291ff90726be341
+SHA256 (magrittr_2.0.3.tar.gz) = a2bff83f792a1acb801bfe6330bb62724c74d5308832f2cb6a6178336ace55d2

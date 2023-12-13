@@ -1,0 +1,16 @@
+# Description: R module gridExtra
+# URL: https://cran.r-project.org/web/packages/gridExtra
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-gtable
+# Optional: r4-egg r4-ggplot2 r4-knitr r4-lattice r4-testthat
+
+name=r4-gridextra
+version=2.3
+release=1
+source=(https://cran.rstudio.com/src/contrib/gridExtra_${version}.tar.gz)
+
+build() {
+	cd gridExtra
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

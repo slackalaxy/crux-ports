@@ -1,0 +1,16 @@
+# Description: R module sys
+# URL: https://cran.r-project.org/web/packages/sys
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-spelling r4-testthat r4-unix
+
+name=r4-sys
+version=3.4.2
+release=1
+source=(https://cran.rstudio.com/src/contrib/sys_${version}.tar.gz)
+
+build() {
+	cd sys
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

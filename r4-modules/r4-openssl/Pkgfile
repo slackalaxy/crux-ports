@@ -1,0 +1,16 @@
+# Description: R module openssl
+# URL: https://cran.r-project.org/web/packages/openssl
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-askpass
+# Optional: r4-curl r4-digest r4-jose r4-jsonlite r4-knitr r4-rmarkdown r4-sodium r4-testthat
+
+name=r4-openssl
+version=2.1.1
+release=1
+source=(https://cran.rstudio.com/src/contrib/openssl_${version}.tar.gz)
+
+build() {
+	cd openssl
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

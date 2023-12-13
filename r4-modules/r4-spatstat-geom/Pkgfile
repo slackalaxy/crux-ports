@@ -1,0 +1,16 @@
+# Description: R module spatstat.geom
+# URL: https://cran.r-project.org/web/packages/spatstat.geom
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-deldir r4-polyclip r4-spatstat-data r4-spatstat-utils
+# Optional: r4-fftwtools r4-spatial r4-spatstat r4-spatstat-explore r4-spatstat-linnet r4-spatstat-model r4-spatstat-random
+
+name=r4-spatstat-geom
+version=3.2.7
+release=1
+source=(https://cran.rstudio.com/src/contrib/spatstat.geom_3.2-7.tar.gz)
+
+build() {
+	cd spatstat.geom
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

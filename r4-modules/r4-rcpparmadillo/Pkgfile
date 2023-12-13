@@ -1,0 +1,16 @@
+# Description: R module RcppArmadillo
+# URL: https://cran.r-project.org/web/packages/RcppArmadillo
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-rcpp
+# Optional: r4-matrix r4-pkgkitten r4-reticulate r4-slam r4-tinytest
+
+name=r4-rcpparmadillo
+version=0.12.6.6.1
+release=1
+source=(https://cran.rstudio.com/src/contrib/RcppArmadillo_${version}.tar.gz)
+
+build() {
+	cd RcppArmadillo
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module deldir
+# URL: https://cran.r-project.org/web/packages/deldir
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-polyclip
+
+name=r4-deldir
+version=2.0.2
+release=1
+source=(https://cran.rstudio.com/src/contrib/deldir_2.0-2.tar.gz)
+
+build() {
+	cd deldir
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

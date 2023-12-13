@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5llJTfsx0k5WLcaTB4W7e5hGh6PZ+icTJis6YKFaQgCKOCo7jwHpb1fz2kEnD7erR/EgYypNdZulGvOJIdVUpfAw=
+SHA256 (Pkgfile) = 9005b1d7200ff4ac9f0733d99e32c3a57673efc4aaf791a1a8092d0e7cd7fad0
+SHA256 (.footprint) = 23837a6fb59ecffe6db38e4c1810d5a00b0d8c1a029562eed7563967980fa21a
+SHA256 (RSpectra_0.16-1.tar.gz) = cba5d3403d6a7d0e27abf6279fbfea6e0d0fe36b28c688bbadb8eafb3841329a

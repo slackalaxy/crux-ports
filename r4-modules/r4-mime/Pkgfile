@@ -1,0 +1,16 @@
+# Description: R module mime
+# URL: https://cran.r-project.org/web/packages/mime
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: 
+
+name=r4-mime
+version=0.12
+release=1
+source=(https://cran.rstudio.com/src/contrib/mime_${version}.tar.gz)
+
+build() {
+	cd mime
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

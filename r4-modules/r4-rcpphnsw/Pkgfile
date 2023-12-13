@@ -1,0 +1,16 @@
+# Description: R module RcppHNSW
+# URL: https://cran.r-project.org/web/packages/RcppHNSW
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-rcpp
+# Optional: r4-covr r4-testthat
+
+name=r4-rcpphnsw
+version=0.5.0
+release=1
+source=(https://cran.rstudio.com/src/contrib/RcppHNSW_${version}.tar.gz)
+
+build() {
+	cd RcppHNSW
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

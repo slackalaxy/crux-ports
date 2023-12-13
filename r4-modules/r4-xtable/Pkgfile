@@ -1,0 +1,16 @@
+# Description: R module xtable
+# URL: https://cran.r-project.org/web/packages/xtable
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-knitr r4-plm r4-survival r4-zoo
+
+name=r4-xtable
+version=1.8.4
+release=1
+source=(https://cran.rstudio.com/src/contrib/xtable_1.8-4.tar.gz)
+
+build() {
+	cd xtable
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

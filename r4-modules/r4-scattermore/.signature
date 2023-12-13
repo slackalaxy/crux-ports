@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5lgEfHdebg4GJFXzdBoTQRpKuUemrtkRuH0M+T8SvtV2OcsXJzkzlPwSUoGhP/Vpx2YQrZCCb+H3fi0y7cypPtwE=
+SHA256 (Pkgfile) = 7cee3b8f31be07649b5ff1c710f82cb182a28f1946121554f863425b6ed643cd
+SHA256 (.footprint) = 5b4746235e0131d11843b1fa0420aaf41447c89a6c34450a2939691989f47ece
+SHA256 (scattermore_1.2.tar.gz) = 5534a87b0bdd1375f0fbffc1a5c980ad64e33a108435a67469b8324b580602d1

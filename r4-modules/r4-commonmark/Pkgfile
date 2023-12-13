@@ -1,0 +1,16 @@
+# Description: R module commonmark
+# URL: https://cran.r-project.org/web/packages/commonmark
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-curl r4-testthat r4-xml2
+
+name=r4-commonmark
+version=1.9.0
+release=1
+source=(https://cran.rstudio.com/src/contrib/commonmark_${version}.tar.gz)
+
+build() {
+	cd commonmark
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module rlang
+# URL: https://cran.r-project.org/web/packages/rlang
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-cli r4-covr r4-crayon r4-fs r4-glue r4-knitr r4-magrittr r4-pillar r4-rmarkdown r4-testthat r4-tibble r4-usethis r4-vctrs r4-withr
+
+name=r4-rlang
+version=1.1.2
+release=1
+source=(https://cran.rstudio.com/src/contrib/rlang_${version}.tar.gz)
+
+build() {
+	cd rlang
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

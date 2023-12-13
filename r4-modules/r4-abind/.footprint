@@ -1,0 +1,30 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/R/
+drwxr-xr-x	root/root	usr/lib/R/library/
+drwxr-xr-x	root/root	usr/lib/R/library/abind/
+-rw-r--r--	root/root	usr/lib/R/library/abind/DESCRIPTION
+-rw-r--r--	root/root	usr/lib/R/library/abind/INDEX
+drwxr-xr-x	root/root	usr/lib/R/library/abind/Meta/
+-rw-r--r--	root/root	usr/lib/R/library/abind/Meta/Rd.rds
+-rw-r--r--	root/root	usr/lib/R/library/abind/Meta/features.rds
+-rw-r--r--	root/root	usr/lib/R/library/abind/Meta/hsearch.rds
+-rw-r--r--	root/root	usr/lib/R/library/abind/Meta/links.rds
+-rw-r--r--	root/root	usr/lib/R/library/abind/Meta/nsInfo.rds
+-rw-r--r--	root/root	usr/lib/R/library/abind/Meta/package.rds
+-rw-r--r--	root/root	usr/lib/R/library/abind/NAMESPACE
+drwxr-xr-x	root/root	usr/lib/R/library/abind/R/
+-rw-r--r--	root/root	usr/lib/R/library/abind/R/abind
+-rw-r--r--	root/root	usr/lib/R/library/abind/R/abind.rdb
+-rw-r--r--	root/root	usr/lib/R/library/abind/R/abind.rdx
+drwxr-xr-x	root/root	usr/lib/R/library/abind/help/
+-rw-r--r--	root/root	usr/lib/R/library/abind/help/AnIndex
+-rw-r--r--	root/root	usr/lib/R/library/abind/help/abind.rdb
+-rw-r--r--	root/root	usr/lib/R/library/abind/help/abind.rdx
+-rw-r--r--	root/root	usr/lib/R/library/abind/help/aliases.rds
+-rw-r--r--	root/root	usr/lib/R/library/abind/help/paths.rds
+drwxr-xr-x	root/root	usr/lib/R/library/abind/html/
+-rw-r--r--	root/root	usr/lib/R/library/abind/html/00Index.html
+-rw-r--r--	root/root	usr/lib/R/library/abind/html/R.css
+-rw-r--r--	root/root	usr/lib/R/library/abind/sccversion.txt (EMPTY)
+-rw-r--r--	root/root	usr/lib/R/library/abind/svnversion.txt (EMPTY)

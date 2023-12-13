@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5lq+amLH9xgpl1PR6k90j2zqLocRg2gVsY96E+DKHhLcPA6xLVByyfUVxl0hgwBP1qiyN5Mz1NpCs4ircdvmesQE=
+SHA256 (Pkgfile) = eabbb3a9ec2ce4c0f2531bbd3465adfac0aaa919d5d5eca28ab2ac1ad4a238c2
+SHA256 (.footprint) = 7a316b5e972b3943bdc544dd73e92b9751b7a721a609258d8be1f6f0e8d18fc2
+SHA256 (promises_1.2.1.tar.gz) = 3ce0a26df39ea27536877ec6db13083b2952108245024baa8b40ae856d2ce5be

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5lnRl7inNOwWFlSjD9bz+GB9nEqeEn1HGFRcRxvIQikNx+hFhBx7TMv8yoniHxxc6mU4de17nFxNtpmfiIJsiggo=
+SHA256 (Pkgfile) = 29364a387bfe3b4110ad42562bbc643139c728855dae98fc23659b920a3c0e97
+SHA256 (.footprint) = 9c71c7a2a1636d0ce97fb7cac7ed6b55e20eab1fb5d941f6fc86cb531a5aba20
+SHA256 (cachem_1.0.8.tar.gz) = ea9ca919fe615dce8770758ecc2fc88ac99074f66ff1cde3a0b95d40007f45c2

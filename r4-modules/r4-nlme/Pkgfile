@@ -1,0 +1,16 @@
+# Description: R module nlme
+# URL: https://cran.r-project.org/web/packages/nlme
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-lattice
+# Optional: r4-hmisc r4-mass r4-sasmixed
+
+name=r4-nlme
+version=3.1.164
+release=1
+source=(https://cran.rstudio.com/src/contrib/nlme_3.1-164.tar.gz)
+
+build() {
+	cd nlme
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

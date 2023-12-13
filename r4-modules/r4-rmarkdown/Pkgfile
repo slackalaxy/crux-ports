@@ -1,0 +1,16 @@
+# Description: R module rmarkdown
+# URL: https://cran.r-project.org/web/packages/rmarkdown
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-bslib r4-evaluate r4-fontawesome r4-htmltools r4-jquerylib r4-jsonlite r4-knitr r4-stringr r4-tinytex r4-xfun r4-yaml
+# Optional: r4-cleanrmd r4-digest r4-downlit r4-dygraphs r4-fs r4-katex r4-rsconnect r4-sass r4-shiny r4-testthat r4-tibble r4-vctrs r4-withr
+
+name=r4-rmarkdown
+version=2.25
+release=1
+source=(https://cran.rstudio.com/src/contrib/rmarkdown_${version}.tar.gz)
+
+build() {
+	cd rmarkdown
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

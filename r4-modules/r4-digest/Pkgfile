@@ -1,0 +1,16 @@
+# Description: R module digest
+# URL: https://cran.r-project.org/web/packages/digest
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-simplermarkdown r4-tinytest
+
+name=r4-digest
+version=0.6.33
+release=1
+source=(https://cran.rstudio.com/src/contrib/digest_${version}.tar.gz)
+
+build() {
+	cd digest
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module ggrepel
+# URL: https://cran.r-project.org/web/packages/ggrepel
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggplot2 r4-rcpp r4-rlang r4-scales r4-withr
+# Optional: r4-devtools r4-dplyr r4-ggbeeswarm r4-gridextra r4-knitr r4-magrittr r4-prettydoc r4-readr r4-rmarkdown r4-stringr r4-svglite r4-testthat r4-vdiffr
+
+name=r4-ggrepel
+version=0.9.4
+release=1
+source=(https://cran.rstudio.com/src/contrib/ggrepel_${version}.tar.gz)
+
+build() {
+	cd ggrepel
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

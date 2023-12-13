@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5ltA7bCkgcw/PaeDUQmgRFseiAnuyyRvSpkx8mFExooYyh2bBTtjWltQCk3Vjj+ntL9rDDd2nkQSm4GtF60GapAQ=
+SHA256 (Pkgfile) = 32c8bc4e8f4c81fb7475fe38d14a9b1cdcaaa76072091cba2c95818c861289e6
+SHA256 (.footprint) = 4eb652362ae2394de6d98cdd9bb5b24c3a0d1db65828d1d945acd457b9cb771c
+SHA256 (spam_2.10-0.tar.gz) = 719c86a23801ecf051ffd8291912ee3567af4010e74af470fbf09e274728ac79

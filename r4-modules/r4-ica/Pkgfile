@@ -1,0 +1,16 @@
+# Description: R module ica
+# URL: https://cran.r-project.org/web/packages/ica
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: 
+
+name=r4-ica
+version=1.0.3
+release=1
+source=(https://cran.rstudio.com/src/contrib/ica_1.0-3.tar.gz)
+
+build() {
+	cd ica
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

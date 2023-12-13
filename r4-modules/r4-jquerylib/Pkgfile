@@ -1,0 +1,16 @@
+# Description: R module jquerylib
+# URL: https://cran.r-project.org/web/packages/jquerylib
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-htmltools
+# Optional: r4-testthat
+
+name=r4-jquerylib
+version=0.1.4
+release=1
+source=(https://cran.rstudio.com/src/contrib/jquerylib_${version}.tar.gz)
+
+build() {
+	cd jquerylib
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

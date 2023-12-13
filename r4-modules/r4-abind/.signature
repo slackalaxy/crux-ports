@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5luaawmJ7noZtuSYBZXQFMLIdyUrynb811nYM4lKFdrqfCOji8W8A8rJ4PMZrnMahuJeuTnrA+KBCJUtCD9mfPAs=
+SHA256 (Pkgfile) = 4aa749d7bc7d256cd1d0a87768887381f20fe108f56201fb8f499e73df66ab88
+SHA256 (.footprint) = 014cff7827a82f664ea5cd210720d28eea6896968260b92832a697cb05c8ae50
+SHA256 (abind_1.4-5.tar.gz) = 3a3ace5afbcb86e56889efcebf3bf5c3bb042a282ba7cc4412d450bb246a3f2c

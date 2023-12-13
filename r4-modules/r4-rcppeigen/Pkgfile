@@ -1,0 +1,16 @@
+# Description: R module RcppEigen
+# URL: https://cran.r-project.org/web/packages/RcppEigen
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-rcpp
+# Optional: r4-inline r4-matrix r4-microbenchmark r4-pkgkitten r4-tinytest
+
+name=r4-rcppeigen
+version=0.3.3.9.4
+release=1
+source=(https://cran.rstudio.com/src/contrib/RcppEigen_${version}.tar.gz)
+
+build() {
+	cd RcppEigen
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

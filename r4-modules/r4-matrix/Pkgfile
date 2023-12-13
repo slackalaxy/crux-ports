@@ -1,0 +1,16 @@
+# Description: R module Matrix
+# URL: https://cran.r-project.org/web/packages/Matrix
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-lattice
+# Optional: r4-mass r4-sfsmisc
+
+name=r4-matrix
+version=1.6.4
+release=1
+source=(https://cran.rstudio.com/src/contrib/Matrix_1.6-4.tar.gz)
+
+build() {
+	cd Matrix
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

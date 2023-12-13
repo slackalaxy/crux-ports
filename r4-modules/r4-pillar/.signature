@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5ltCKF/6sJkTTQB9Pay/M5wEB0wB3kjXTV1CmupdyGIAD7j2HCrDsl4xKVcDHxFPMsPV3LqfXunYF+MMTjZB+UgQ=
+SHA256 (Pkgfile) = 973e9ff987bc9d475407c2088cf5580cc679ecec412a40b58bce4f8f78b8cff0
+SHA256 (.footprint) = c452db8c16cabad7af5b9d4e0e235046f410590cb138d430e58cbec861d8dabf
+SHA256 (pillar_1.9.0.tar.gz) = f23eb486c087f864c2b4072d5cba01d5bebf2f554118bcba6886d8dbceb87acc

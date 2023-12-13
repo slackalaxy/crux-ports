@@ -1,0 +1,16 @@
+# Description: R module future.apply
+# URL: https://cran.r-project.org/web/packages/future.apply
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-future r4-globals
+# Optional: r4-listenv r4-markdown r4-r-rsp
+
+name=r4-future-apply
+version=1.11.0
+release=1
+source=(https://cran.rstudio.com/src/contrib/future.apply_${version}.tar.gz)
+
+build() {
+	cd future.apply
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

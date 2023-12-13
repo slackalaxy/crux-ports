@@ -1,0 +1,16 @@
+# Description: R module uwot
+# URL: https://cran.r-project.org/web/packages/uwot
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-dqrng r4-fnn r4-irlba r4-matrix r4-rcpp r4-rcppannoy r4-rcppprogress
+# Optional: r4-bigstatsr r4-covr r4-rspectra r4-testthat
+
+name=r4-uwot
+version=0.1.16
+release=1
+source=(https://cran.rstudio.com/src/contrib/uwot_${version}.tar.gz)
+
+build() {
+	cd uwot
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

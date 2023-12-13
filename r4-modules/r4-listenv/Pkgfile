@@ -1,0 +1,16 @@
+# Description: R module listenv
+# URL: https://cran.r-project.org/web/packages/listenv
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-markdown r4-r-rsp r4-r-utils
+
+name=r4-listenv
+version=0.9.0
+release=1
+source=(https://cran.rstudio.com/src/contrib/listenv_${version}.tar.gz)
+
+build() {
+	cd listenv
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

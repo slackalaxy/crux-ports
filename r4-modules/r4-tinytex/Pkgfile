@@ -1,0 +1,16 @@
+# Description: R module tinytex
+# URL: https://cran.r-project.org/web/packages/tinytex
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-xfun
+# Optional: r4-rstudioapi r4-testit
+
+name=r4-tinytex
+version=0.49
+release=1
+source=(https://cran.rstudio.com/src/contrib/tinytex_${version}.tar.gz)
+
+build() {
+	cd tinytex
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

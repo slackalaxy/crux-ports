@@ -1,0 +1,16 @@
+# Description: R module httpuv
+# URL: https://cran.r-project.org/web/packages/httpuv
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-later r4-promises r4-r6 r4-rcpp
+# Optional: r4-callr r4-curl r4-testthat r4-websocket
+
+name=r4-httpuv
+version=1.6.13
+release=1
+source=(https://cran.rstudio.com/src/contrib/httpuv_${version}.tar.gz)
+
+build() {
+	cd httpuv
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module fastmap
+# URL: https://cran.r-project.org/web/packages/fastmap
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-testthat
+
+name=r4-fastmap
+version=1.1.1
+release=1
+source=(https://cran.rstudio.com/src/contrib/fastmap_${version}.tar.gz)
+
+build() {
+	cd fastmap
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

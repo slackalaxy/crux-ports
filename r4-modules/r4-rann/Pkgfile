@@ -1,0 +1,16 @@
+# Description: R module RANN
+# URL: https://cran.r-project.org/web/packages/RANN
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-testthat
+
+name=r4-rann
+version=2.6.1
+release=1
+source=(https://cran.rstudio.com/src/contrib/RANN_${version}.tar.gz)
+
+build() {
+	cd RANN
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

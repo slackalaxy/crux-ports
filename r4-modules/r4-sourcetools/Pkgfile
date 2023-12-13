@@ -1,0 +1,16 @@
+# Description: R module sourcetools
+# URL: https://cran.r-project.org/web/packages/sourcetools
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-testthat
+
+name=r4-sourcetools
+version=0.1.7.1
+release=1
+source=(https://cran.rstudio.com/src/contrib/sourcetools_0.1.7-1.tar.gz)
+
+build() {
+	cd sourcetools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

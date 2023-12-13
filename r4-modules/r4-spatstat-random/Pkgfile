@@ -1,0 +1,16 @@
+# Description: R module spatstat.random
+# URL: https://cran.r-project.org/web/packages/spatstat.random
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-spatstat-data r4-spatstat-geom r4-spatstat-utils
+# Optional: r4-gsl r4-spatial r4-spatstat r4-spatstat-explore r4-spatstat-linnet r4-spatstat-model
+
+name=r4-spatstat-random
+version=3.2.2
+release=1
+source=(https://cran.rstudio.com/src/contrib/spatstat.random_3.2-2.tar.gz)
+
+build() {
+	cd spatstat.random
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

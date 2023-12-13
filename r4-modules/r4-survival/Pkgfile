@@ -1,0 +1,16 @@
+# Description: R module survival
+# URL: https://cran.r-project.org/web/packages/survival
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-matrix
+# Optional: 
+
+name=r4-survival
+version=3.5.7
+release=1
+source=(https://cran.rstudio.com/src/contrib/survival_3.5-7.tar.gz)
+
+build() {
+	cd survival
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

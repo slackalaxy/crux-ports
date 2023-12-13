@@ -1,0 +1,16 @@
+# Description: R module gtools
+# URL: https://cran.r-project.org/web/packages/gtools
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-car r4-gplots r4-knitr r4-rstudioapi r4-sgp r4-taxize
+
+name=r4-gtools
+version=3.9.5
+release=1
+source=(https://cran.rstudio.com/src/contrib/gtools_${version}.tar.gz)
+
+build() {
+	cd gtools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

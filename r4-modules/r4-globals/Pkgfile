@@ -1,0 +1,16 @@
+# Description: R module globals
+# URL: https://cran.r-project.org/web/packages/globals
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-codetools
+# Optional: 
+
+name=r4-globals
+version=0.16.2
+release=1
+source=(https://cran.rstudio.com/src/contrib/globals_${version}.tar.gz)
+
+build() {
+	cd globals
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

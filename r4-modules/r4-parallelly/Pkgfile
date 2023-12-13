@@ -1,0 +1,16 @@
+# Description: R module parallelly
+# URL: https://cran.r-project.org/web/packages/parallelly
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: 
+
+name=r4-parallelly
+version=1.36.0
+release=1
+source=(https://cran.rstudio.com/src/contrib/parallelly_${version}.tar.gz)
+
+build() {
+	cd parallelly
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module evaluate
+# URL: https://cran.r-project.org/web/packages/evaluate
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-covr r4-ggplot2 r4-lattice r4-rlang r4-testthat r4-withr
+
+name=r4-evaluate
+version=0.23
+release=1
+source=(https://cran.rstudio.com/src/contrib/evaluate_${version}.tar.gz)
+
+build() {
+	cd evaluate
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

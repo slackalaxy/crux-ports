@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5ll6jtLJqzHLBnZ36wnAuvB9mOC7vtTScrzGBMiDEuwVxOq3ljz9NgbimhtcrSH82oLH5GqB7DRMOMDBou3x4/wo=
+SHA256 (Pkgfile) = a967bf8d06c096aa5122f7217cd7c607c71bb50eaf20b5b69ed405a70029d4bd
+SHA256 (.footprint) = 2c6ebe91cfc66d382365e1de6c861d681007bfd3fef6988a884928e1219f4846
+SHA256 (caTools_1.18.2.tar.gz) = 75d61115afec754b053ed1732cc034f2aeb27b13e6e1932aa0f26bf590cf0293

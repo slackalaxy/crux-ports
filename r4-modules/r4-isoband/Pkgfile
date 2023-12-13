@@ -1,0 +1,16 @@
+# Description: R module isoband
+# URL: https://cran.r-project.org/web/packages/isoband
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-covr r4-ggplot2 r4-knitr r4-magick r4-microbenchmark r4-rmarkdown r4-sf r4-testthat r4-xml2
+
+name=r4-isoband
+version=0.2.7
+release=1
+source=(https://cran.rstudio.com/src/contrib/isoband_${version}.tar.gz)
+
+build() {
+	cd isoband
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

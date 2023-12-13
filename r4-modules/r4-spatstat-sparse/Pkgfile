@@ -1,0 +1,16 @@
+# Description: R module spatstat.sparse
+# URL: https://cran.r-project.org/web/packages/spatstat.sparse
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-abind r4-matrix r4-spatstat-utils r4-tensor
+# Optional: 
+
+name=r4-spatstat-sparse
+version=3.0.3
+release=1
+source=(https://cran.rstudio.com/src/contrib/spatstat.sparse_3.0-3.tar.gz)
+
+build() {
+	cd spatstat.sparse
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

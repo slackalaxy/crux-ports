@@ -1,0 +1,16 @@
+# Description: R module Rtsne
+# URL: https://cran.r-project.org/web/packages/Rtsne
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-rcpp
+# Optional: r4-irlba r4-testthat
+
+name=r4-rtsne
+version=0.17
+release=1
+source=(https://cran.rstudio.com/src/contrib/Rtsne_${version}.tar.gz)
+
+build() {
+	cd Rtsne
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQB0VYXJ2v5lkVrEtRVUkHuqPi0autpb9nczFPb0E3eSpc9sbx/6SVkJB6om/73/syFbpNXYmzg+btZSPZ5V17tWqos7foXHwY=
+SHA256 (Pkgfile) = 7bf45cd9e4c1fda56da5ac0005ab82623f5e29b72a64463caaf8790bb363333a
+SHA256 (.footprint) = fc01ec1088097026cd71288d7e2065a7a417e49a43924b49edb325c32a4b5dc7
+SHA256 (sitmo_2.0.2.tar.gz) = 448ef8d56e36783354011845daf33f1efb83ea3b9685eea75eaf5134e24fa8c2

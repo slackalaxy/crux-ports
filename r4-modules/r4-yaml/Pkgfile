@@ -1,0 +1,16 @@
+# Description: R module yaml
+# URL: https://cran.r-project.org/web/packages/yaml
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-runit
+
+name=r4-yaml
+version=2.3.8
+release=1
+source=(https://cran.rstudio.com/src/contrib/yaml_${version}.tar.gz)
+
+build() {
+	cd yaml
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
