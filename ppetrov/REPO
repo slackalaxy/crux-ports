@@ -414,6 +414,8 @@ d:gtkman
 d:ioq3
 d:prboom-plus
 d:dia
+d:cran2crux
+d:scwrl
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:988c2e3fd5ba0ea4492d3ba7273af295:acpid/acpid-2.0.34.tar.xz
@@ -1991,3 +1993,11 @@ f:5e718d09dfc4b10d20f54e44bd8263da:dia/.signature
 f:e5814e76ede7bca25a539a287e7fc8df:dia/Pkgfile
 f:586e365a0640857f0bffa765e3330519:dia/dia-0.97.0-gnome-doc.patch
 f:3ca71280b2c4c7bfe565fbe4358d179e:dia/dia-0.97.2-underlinking.patch
+f:fbc94e14423c96ba82249287d55fd0e3:cran2crux/Pkgfile
+f:eb6cccd94ad16b94213b657a259895d3:cran2crux/.md5sum
+f:76081360accc4da084e04707864425ac:cran2crux/.footprint
+f:b7fe4ecfe8aa2838b791b81cb03ede8c:cran2crux/.signature
+f:711d8abd591ec3846259421899f45a7c:scwrl/Pkgfile
+f:9d4b7aa46afcdd98b3e7027059ba2750:scwrl/.footprint
+f:0ee2691a32b9d22aaf82787b3b8993a1:scwrl/.signature
+f:7e40b49f7fee0e3a4a075e4d7f9417c3:scwrl/README
