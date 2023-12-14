@@ -7,7 +7,7 @@
 name=r4-cpp11
 version=0.4.7
 release=1
-source=(https://cran.rstudio.com/src/contrib/cpp11_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/cpp11_${version}.tar.gz)
 
 build() {
 	cd cpp11

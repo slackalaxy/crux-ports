@@ -7,7 +7,7 @@
 name=r4-digest
 version=0.6.33
 release=1
-source=(https://cran.rstudio.com/src/contrib/digest_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/digest_${version}.tar.gz)
 
 build() {
 	cd digest

@@ -7,7 +7,7 @@
 name=r4-sctransform
 version=0.4.1
 release=1
-source=(https://cran.rstudio.com/src/contrib/sctransform_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/sctransform_${version}.tar.gz)
 
 build() {
 	cd sctransform

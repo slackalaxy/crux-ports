@@ -7,7 +7,7 @@
 name=r4-openssl
 version=2.1.1
 release=1
-source=(https://cran.rstudio.com/src/contrib/openssl_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/openssl_${version}.tar.gz)
 
 build() {
 	cd openssl

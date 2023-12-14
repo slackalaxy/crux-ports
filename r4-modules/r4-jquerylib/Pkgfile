@@ -7,7 +7,7 @@
 name=r4-jquerylib
 version=0.1.4
 release=1
-source=(https://cran.rstudio.com/src/contrib/jquerylib_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/jquerylib_${version}.tar.gz)
 
 build() {
 	cd jquerylib

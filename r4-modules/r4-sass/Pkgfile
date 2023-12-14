@@ -7,7 +7,7 @@
 name=r4-sass
 version=0.4.8
 release=1
-source=(https://cran.rstudio.com/src/contrib/sass_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/sass_${version}.tar.gz)
 
 build() {
 	cd sass

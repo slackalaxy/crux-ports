@@ -7,7 +7,7 @@
 name=r4-zoo
 version=1.8.12
 release=1
-source=(https://cran.rstudio.com/src/contrib/zoo_1.8-12.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/zoo_1.8-12.tar.gz)
 
 build() {
 	cd zoo

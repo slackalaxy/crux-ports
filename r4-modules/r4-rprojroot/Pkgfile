@@ -7,7 +7,7 @@
 name=r4-rprojroot
 version=2.0.4
 release=1
-source=(https://cran.rstudio.com/src/contrib/rprojroot_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/rprojroot_${version}.tar.gz)
 
 build() {
 	cd rprojroot

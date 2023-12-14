@@ -7,7 +7,7 @@
 name=r4-bitops
 version=1.0.7
 release=1
-source=(https://cran.rstudio.com/src/contrib/bitops_1.0-7.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/bitops_1.0-7.tar.gz)
 
 build() {
 	cd bitops

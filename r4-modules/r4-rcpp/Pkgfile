@@ -7,7 +7,7 @@
 name=r4-rcpp
 version=1.0.11
 release=1
-source=(https://cran.rstudio.com/src/contrib/Rcpp_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/Rcpp_${version}.tar.gz)
 
 build() {
 	cd Rcpp

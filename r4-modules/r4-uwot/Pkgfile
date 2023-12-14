@@ -7,7 +7,7 @@
 name=r4-uwot
 version=0.1.16
 release=1
-source=(https://cran.rstudio.com/src/contrib/uwot_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/uwot_${version}.tar.gz)
 
 build() {
 	cd uwot

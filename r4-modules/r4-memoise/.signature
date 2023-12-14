@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQB0VYXJ2v5lvTr3B2q+i2m3LSYQMOFhFgpvK6p0WBpMdnYn8BjT4lyUyyEe054L0zGgFNDrQAqHCQqrgVPdOjqk9kTljLbRAg=
-SHA256 (Pkgfile) = a6fea418ad4d5857caed97ea76593ace72b758cf2df1df86a8d6b7dcbb6b8a2a
+RWQ2oTreAss89Dx3MZe30OzQ9/BiNLBOlXyMhgSPs5dbFAP5jKR0q3FqtNQNV0qLS4sOY09/wyeRDTJ6Df/TE8peUCKFmOn3XAs=
+SHA256 (Pkgfile) = 81a6e17fd6f8071c521f58423e7723abb3578e14bdb5fa39aad647fb55271c80
 SHA256 (.footprint) = d94f7b3ace24af6523373b3a2ecce8da151cb9327e479aa45037a7d5aa855648
 SHA256 (memoise_2.0.1.tar.gz) = f85034ee98c8ca07fb3cd826142c1cd1e1e5747075a94c75a45783bbc4fe2deb

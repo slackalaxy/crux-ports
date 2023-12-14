@@ -7,7 +7,7 @@
 name=r4-mass
 version=7.3.60
 release=1
-source=(https://cran.rstudio.com/src/contrib/MASS_7.3-60.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/MASS_7.3-60.tar.gz)
 
 build() {
 	cd MASS

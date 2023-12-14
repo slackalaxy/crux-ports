@@ -7,7 +7,7 @@
 name=r4-data-table
 version=1.14.10
 release=1
-source=(https://cran.rstudio.com/src/contrib/data.table_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/data.table_${version}.tar.gz)
 
 build() {
 	cd data.table

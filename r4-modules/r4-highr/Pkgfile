@@ -7,7 +7,7 @@
 name=r4-highr
 version=0.10
 release=1
-source=(https://cran.rstudio.com/src/contrib/highr_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/highr_${version}.tar.gz)
 
 build() {
 	cd highr

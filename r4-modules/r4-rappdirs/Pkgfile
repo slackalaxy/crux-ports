@@ -7,7 +7,7 @@
 name=r4-rappdirs
 version=0.3.3
 release=1
-source=(https://cran.rstudio.com/src/contrib/rappdirs_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/rappdirs_${version}.tar.gz)
 
 build() {
 	cd rappdirs

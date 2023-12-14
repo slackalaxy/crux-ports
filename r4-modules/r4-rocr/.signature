@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQB0VYXJ2v5lsMxZW5YL6xoJnA0P33Ba9DXKhuP8+QmMyPA9jylp3OLFQtppEeocwPhlByPSIEWrpisQgM2fIHp1raPJiTEfwk=
-SHA256 (Pkgfile) = 03110a90ad978dfe018390bb6e649543f1835e5d9cdf305ad4637be12963a404
+RWQ2oTreAss89G9UQVYixSQmeGFt1JxyowcEvEcwZgBn8FG/iVXytCpCsECXvug2VO9IMCLnfkjiN2eo3vohwppEqTtVYJBSug0=
+SHA256 (Pkgfile) = c8bfa0ca9e6b7cb45e815171cde72cba7f427c837fbc792f6b201bc4e161ad09
 SHA256 (.footprint) = c3c857f03163af99c984102ecbb0e826d79b246aea47fb3756967cca844c3f65
 SHA256 (ROCR_1.0-11.tar.gz) = 57385a773220a3aaef5b221a68b2d9c2a94794d4f9e9fc3c1eb9521767debb2a

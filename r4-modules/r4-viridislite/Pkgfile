@@ -7,7 +7,7 @@
 name=r4-viridislite
 version=0.4.2
 release=1
-source=(https://cran.rstudio.com/src/contrib/viridisLite_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/viridisLite_${version}.tar.gz)
 
 build() {
 	cd viridisLite

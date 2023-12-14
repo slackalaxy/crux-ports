@@ -7,7 +7,7 @@
 name=r4-ggplot2
 version=3.4.4
 release=1
-source=(https://cran.rstudio.com/src/contrib/ggplot2_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/ggplot2_${version}.tar.gz)
 
 build() {
 	cd ggplot2

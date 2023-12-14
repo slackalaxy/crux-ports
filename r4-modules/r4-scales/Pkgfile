@@ -7,7 +7,7 @@
 name=r4-scales
 version=1.3.0
 release=1
-source=(https://cran.rstudio.com/src/contrib/scales_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/scales_${version}.tar.gz)
 
 build() {
 	cd scales

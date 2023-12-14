@@ -7,7 +7,7 @@
 name=r4-xtable
 version=1.8.4
 release=1
-source=(https://cran.rstudio.com/src/contrib/xtable_1.8-4.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/xtable_1.8-4.tar.gz)
 
 build() {
 	cd xtable

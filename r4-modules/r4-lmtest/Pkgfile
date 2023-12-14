@@ -7,7 +7,7 @@
 name=r4-lmtest
 version=0.9.40
 release=1
-source=(https://cran.rstudio.com/src/contrib/lmtest_0.9-40.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/lmtest_0.9-40.tar.gz)
 
 build() {
 	cd lmtest

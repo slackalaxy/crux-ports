@@ -7,7 +7,7 @@
 name=r4-plotly
 version=4.10.3
 release=1
-source=(https://cran.rstudio.com/src/contrib/plotly_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/plotly_${version}.tar.gz)
 
 build() {
 	cd plotly

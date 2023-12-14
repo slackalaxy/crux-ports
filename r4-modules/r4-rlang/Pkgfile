@@ -7,7 +7,7 @@
 name=r4-rlang
 version=1.1.2
 release=1
-source=(https://cran.rstudio.com/src/contrib/rlang_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/rlang_${version}.tar.gz)
 
 build() {
 	cd rlang

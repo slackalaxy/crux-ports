@@ -7,7 +7,7 @@
 name=r4-polyclip
 version=1.10.6
 release=1
-source=(https://cran.rstudio.com/src/contrib/polyclip_1.10-6.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/polyclip_1.10-6.tar.gz)
 
 build() {
 	cd polyclip

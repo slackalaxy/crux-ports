@@ -7,7 +7,7 @@
 name=r4-cluster
 version=2.1.6
 release=1
-source=(https://cran.rstudio.com/src/contrib/cluster_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/cluster_${version}.tar.gz)
 
 build() {
 	cd cluster

@@ -7,7 +7,7 @@
 name=r4-spatstat-sparse
 version=3.0.3
 release=1
-source=(https://cran.rstudio.com/src/contrib/spatstat.sparse_3.0-3.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spatstat.sparse_3.0-3.tar.gz)
 
 build() {
 	cd spatstat.sparse

@@ -1,0 +1,16 @@
+# Description: R module pixmap
+# URL: https://cran.r-project.org/web/packages/pixmap
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: 
+
+name=r4-pixmap
+version=0.4.12
+release=1
+source=(https://cloud.r-project.org/src/contrib/pixmap_0.4-12.tar.gz)
+
+build() {
+	cd pixmap
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

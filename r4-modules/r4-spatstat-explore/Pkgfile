@@ -7,7 +7,7 @@
 name=r4-spatstat-explore
 version=3.2.5
 release=1
-source=(https://cran.rstudio.com/src/contrib/spatstat.explore_3.2-5.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spatstat.explore_3.2-5.tar.gz)
 
 build() {
 	cd spatstat.explore

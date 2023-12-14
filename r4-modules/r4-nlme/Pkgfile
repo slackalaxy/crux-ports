@@ -7,7 +7,7 @@
 name=r4-nlme
 version=3.1.164
 release=1
-source=(https://cran.rstudio.com/src/contrib/nlme_3.1-164.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/nlme_3.1-164.tar.gz)
 
 build() {
 	cd nlme

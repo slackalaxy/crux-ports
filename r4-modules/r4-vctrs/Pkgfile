@@ -7,7 +7,7 @@
 name=r4-vctrs
 version=0.6.5
 release=1
-source=(https://cran.rstudio.com/src/contrib/vctrs_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/vctrs_${version}.tar.gz)
 
 build() {
 	cd vctrs

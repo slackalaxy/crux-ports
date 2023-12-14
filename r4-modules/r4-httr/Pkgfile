@@ -7,7 +7,7 @@
 name=r4-httr
 version=1.4.7
 release=1
-source=(https://cran.rstudio.com/src/contrib/httr_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/httr_${version}.tar.gz)
 
 build() {
 	cd httr

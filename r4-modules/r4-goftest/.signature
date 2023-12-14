@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQB0VYXJ2v5lgoyOeoVjrfAhMzCLqiWoFbhr+T9pB8Cz6cBeWuXSQgSBfrYxIFgbT2CAMYY+NzdKdrswdr87LYhxQ5dK1T88gY=
-SHA256 (Pkgfile) = 35081986bd6f2004f6657373f98cebb651f19e0cc70c2d40ec2d5499142bd277
+RWQ2oTreAss89CEXMHplAeBPcDxfw6v/JqfPsoeFJdzb5AiRChC1DqGyjB1AyZvRp5fmLCMcd3z9+YMb+j47gIxnqt1Wtn1PswA=
+SHA256 (Pkgfile) = bc1e54162e6172ffd081241c2187c56ec5e7628e183d76ff81e85c92fed39e2a
 SHA256 (.footprint) = 17bd074f6ced3abc537f38bb5782b585afdbe3e611622d67c15b2627dc614385
 SHA256 (goftest_1.2-3.tar.gz) = 3a5f74b6ae7ece5b294781ae57782abe12375d61789c55ff5e92e4aacf347f19

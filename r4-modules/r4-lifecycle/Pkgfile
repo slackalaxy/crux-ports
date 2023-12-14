@@ -7,7 +7,7 @@
 name=r4-lifecycle
 version=1.0.4
 release=1
-source=(https://cran.rstudio.com/src/contrib/lifecycle_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/lifecycle_${version}.tar.gz)
 
 build() {
 	cd lifecycle

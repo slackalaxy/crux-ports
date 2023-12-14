@@ -7,7 +7,7 @@
 name=r4-parallelly
 version=1.36.0
 release=1
-source=(https://cran.rstudio.com/src/contrib/parallelly_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/parallelly_${version}.tar.gz)
 
 build() {
 	cd parallelly

@@ -7,7 +7,7 @@
 name=r4-memoise
 version=2.0.1
 release=1
-source=(https://cran.rstudio.com/src/contrib/memoise_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/memoise_${version}.tar.gz)
 
 build() {
 	cd memoise

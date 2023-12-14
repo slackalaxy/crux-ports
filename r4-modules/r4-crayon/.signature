@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQB0VYXJ2v5lsqdJD+nG36GTv/N17qWIC7wF/IwZW5w0uGopTcdnQxjtorYG7Cys8ZMFHRsu6T7uGg13NI33W5v42tE3qmu6w0=
-SHA256 (Pkgfile) = 601a7f37f20ec04015fb323a3864a60d2aedfe59bfa43bd5404c4c07623766fb
+RWQ2oTreAss89PIG6QNl+mpMcTNdA7Beby3l3prM+MXSsmD87+aoXR0luc0BlokENeK3AsdyPp3iI+GmBUhIKdQpV9fMAB/XdQU=
+SHA256 (Pkgfile) = e5eb4fd177d9407de5b42f5571e674b4899f4d33a06e4770c91ef982dcf96522
 SHA256 (.footprint) = 29a946d1ee8c8408fdcce5e5e691327e352ca44daa6895aa2575f4aebe398099
 SHA256 (crayon_1.5.2.tar.gz) = 70a9a505b5b3c0ee6682ad8b965e28b7e24d9f942160d0a2bad18eec22b45a7a

@@ -7,7 +7,7 @@
 name=r4-isoband
 version=0.2.7
 release=1
-source=(https://cran.rstudio.com/src/contrib/isoband_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/isoband_${version}.tar.gz)
 
 build() {
 	cd isoband

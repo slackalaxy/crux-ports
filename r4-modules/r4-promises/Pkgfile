@@ -7,7 +7,7 @@
 name=r4-promises
 version=1.2.1
 release=1
-source=(https://cran.rstudio.com/src/contrib/promises_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/promises_${version}.tar.gz)
 
 build() {
 	cd promises

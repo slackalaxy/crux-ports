@@ -7,7 +7,7 @@
 name=r4-r6
 version=2.5.1
 release=1
-source=(https://cran.rstudio.com/src/contrib/R6_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/R6_${version}.tar.gz)
 
 build() {
 	cd R6

@@ -7,7 +7,7 @@
 name=r4-jsonlite
 version=1.8.8
 release=1
-source=(https://cran.rstudio.com/src/contrib/jsonlite_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/jsonlite_${version}.tar.gz)
 
 build() {
 	cd jsonlite

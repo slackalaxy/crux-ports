@@ -7,7 +7,7 @@
 name=r4-survival
 version=3.5.7
 release=1
-source=(https://cran.rstudio.com/src/contrib/survival_3.5-7.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/survival_3.5-7.tar.gz)
 
 build() {
 	cd survival

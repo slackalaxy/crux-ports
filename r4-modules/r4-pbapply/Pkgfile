@@ -7,7 +7,7 @@
 name=r4-pbapply
 version=1.7.2
 release=1
-source=(https://cran.rstudio.com/src/contrib/pbapply_1.7-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/pbapply_1.7-2.tar.gz)
 
 build() {
 	cd pbapply

@@ -7,7 +7,7 @@
 name=r4-goftest
 version=1.2.3
 release=1
-source=(https://cran.rstudio.com/src/contrib/goftest_1.2-3.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/goftest_1.2-3.tar.gz)
 
 build() {
 	cd goftest

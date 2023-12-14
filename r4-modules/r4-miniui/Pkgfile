@@ -7,7 +7,7 @@
 name=r4-miniui
 version=0.1.1.1
 release=1
-source=(https://cran.rstudio.com/src/contrib/miniUI_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/miniUI_${version}.tar.gz)
 
 build() {
 	cd miniUI

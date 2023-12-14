@@ -7,7 +7,7 @@
 name=r4-utf8
 version=1.2.4
 release=1
-source=(https://cran.rstudio.com/src/contrib/utf8_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/utf8_${version}.tar.gz)
 
 build() {
 	cd utf8

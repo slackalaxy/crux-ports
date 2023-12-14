@@ -7,7 +7,7 @@
 name=r4-mgcv
 version=1.9.0
 release=1
-source=(https://cran.rstudio.com/src/contrib/mgcv_1.9-0.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/mgcv_1.9-0.tar.gz)
 
 build() {
 	cd mgcv

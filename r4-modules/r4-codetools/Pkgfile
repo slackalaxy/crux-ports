@@ -7,7 +7,7 @@
 name=r4-codetools
 version=0.2.19
 release=1
-source=(https://cran.rstudio.com/src/contrib/codetools_0.2-19.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/codetools_0.2-19.tar.gz)
 
 build() {
 	cd codetools

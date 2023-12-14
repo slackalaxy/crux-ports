@@ -7,7 +7,7 @@
 name=r4-matrixstats
 version=1.2.0
 release=1
-source=(https://cran.rstudio.com/src/contrib/matrixStats_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/matrixStats_${version}.tar.gz)
 
 build() {
 	cd matrixStats

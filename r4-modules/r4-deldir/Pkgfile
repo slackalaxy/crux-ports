@@ -7,7 +7,7 @@
 name=r4-deldir
 version=2.0.2
 release=1
-source=(https://cran.rstudio.com/src/contrib/deldir_2.0-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/deldir_2.0-2.tar.gz)
 
 build() {
 	cd deldir

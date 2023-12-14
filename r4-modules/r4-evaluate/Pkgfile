@@ -7,7 +7,7 @@
 name=r4-evaluate
 version=0.23
 release=1
-source=(https://cran.rstudio.com/src/contrib/evaluate_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/evaluate_${version}.tar.gz)
 
 build() {
 	cd evaluate

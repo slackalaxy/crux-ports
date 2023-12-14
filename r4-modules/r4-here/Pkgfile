@@ -7,7 +7,7 @@
 name=r4-here
 version=1.0.1
 release=1
-source=(https://cran.rstudio.com/src/contrib/here_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/here_${version}.tar.gz)
 
 build() {
 	cd here

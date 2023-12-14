@@ -7,7 +7,7 @@
 name=r4-rann
 version=2.6.1
 release=1
-source=(https://cran.rstudio.com/src/contrib/RANN_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/RANN_${version}.tar.gz)
 
 build() {
 	cd RANN

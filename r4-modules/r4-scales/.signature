@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQB0VYXJ2v5lugHbCnfmMXn8I9OW+K/5qb98Pm3PzTKhQJ/Myxm4o9QPQygQAhyEK7sGUWFs2riTSsJ15M8tAIHYkPSBNbT+Q4=
-SHA256 (Pkgfile) = 3fa2152773e4f76f88a967eb77e1a7cc12de9ac98b0048de09c719b9b8b5965c
+RWQ2oTreAss89B0vf83NfZ5dnLi8MK1EF9VPI8NmmDcTuxA7gGWryqOJSV8tA5J5Ed4FtjuTa0dxyBhgMF6fzM1qcP7jDGqYwAI=
+SHA256 (Pkgfile) = edf820c7e3a7eb4cc6c18945ad93805eeb2c1eafb9b1fe5aead7aa34b635777d
 SHA256 (.footprint) = 65b679093ac207e372ca853cf62da433148e42e5f5e676dfbc4d12caf6d6978d
 SHA256 (scales_1.3.0.tar.gz) = b33e0f6b44259551ce02befd52eac53602509fbfdd903920620c658c50f35888

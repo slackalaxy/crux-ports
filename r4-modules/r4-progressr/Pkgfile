@@ -7,7 +7,7 @@
 name=r4-progressr
 version=0.14.0
 release=1
-source=(https://cran.rstudio.com/src/contrib/progressr_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/progressr_${version}.tar.gz)
 
 build() {
 	cd progressr

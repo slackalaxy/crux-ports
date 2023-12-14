@@ -7,7 +7,7 @@
 name=r4-dqrng
 version=0.3.2
 release=1
-source=(https://cran.rstudio.com/src/contrib/dqrng_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/dqrng_${version}.tar.gz)
 
 build() {
 	cd dqrng

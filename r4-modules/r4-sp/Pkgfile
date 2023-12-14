@@ -7,7 +7,7 @@
 name=r4-sp
 version=2.1.2
 release=1
-source=(https://cran.rstudio.com/src/contrib/sp_2.1-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/sp_2.1-2.tar.gz)
 
 build() {
 	cd sp

@@ -7,7 +7,7 @@
 name=r4-labeling
 version=0.4.3
 release=1
-source=(https://cran.rstudio.com/src/contrib/labeling_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/labeling_${version}.tar.gz)
 
 build() {
 	cd labeling

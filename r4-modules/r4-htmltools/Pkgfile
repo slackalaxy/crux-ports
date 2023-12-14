@@ -7,7 +7,7 @@
 name=r4-htmltools
 version=0.5.7
 release=1
-source=(https://cran.rstudio.com/src/contrib/htmltools_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/htmltools_${version}.tar.gz)
 
 build() {
 	cd htmltools
