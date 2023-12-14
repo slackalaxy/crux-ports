@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQGf5Cb6FU8VAGVinlVy0dUNPRA//uHVgHaaubxMdc8w4OnOGxNVheR67S3njGwo4gTd9cKUTUU15BzUr+dTKQI=
+SHA256 (Pkgfile) = 495897a985260f7ef5f25b4e32983fa26855c5cb845ebf2ea09af21682e1cec7
+SHA256 (.footprint) = 99d310272c4d555e559a889b19e9aa5574bafb8754b244452452d2c25cb4dda5
+SHA256 (cran2crux-1233ba78d94361f53e436bad458d05e3971a2dd4.tar.gz) = caa6f25904b46daa78619db4955dc34b6c79303eb2102335d42f649439e960cb
