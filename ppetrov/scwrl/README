@@ -1,0 +1,6 @@
+For non-profit institutions, you should apply for license from:
+
+	http://dunbrack.fccc.edu/lab/SCWRLlic
+	
+After approval, save "install_scwrl4.0.2_64bit_2020_linux" in the folder
+defined by PKGMK_SOURCE_DIR
