@@ -1,7 +1,7 @@
 # Description: R module matrixStats
 # URL: https://cran.r-project.org/web/packages/matrixStats
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-base64enc r4-ggplot2 r4-knitr r4-markdown r4-microbenchmark r4-r-devices r4-r-rsp
 
 name=r4-matrixstats

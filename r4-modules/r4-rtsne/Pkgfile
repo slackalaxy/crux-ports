@@ -1,7 +1,7 @@
 # Description: R module Rtsne
 # URL: https://cran.r-project.org/web/packages/Rtsne
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-rcpp
+# Depends on: gcc-fortran r r4-rcpp
 # Optional: r4-irlba r4-testthat
 
 name=r4-rtsne

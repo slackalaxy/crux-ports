@@ -1,7 +1,7 @@
 # Description: R module vctrs
 # URL: https://cran.r-project.org/web/packages/vctrs
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-glue r4-lifecycle r4-rlang
+# Depends on: gcc-fortran r r4-cli r4-glue r4-lifecycle r4-rlang
 # Optional: r4-bit64 r4-covr r4-crayon r4-dplyr r4-generics r4-knitr r4-pillar r4-pkgdown r4-rmarkdown r4-testthat r4-tibble r4-waldo r4-withr r4-xml2 r4-zeallot
 
 name=r4-vctrs

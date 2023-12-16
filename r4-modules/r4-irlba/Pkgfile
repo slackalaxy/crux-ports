@@ -1,7 +1,7 @@
 # Description: R module irlba
 # URL: https://cran.r-project.org/web/packages/irlba
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-matrix
+# Depends on: gcc-fortran r r4-matrix
 # Optional: 
 
 name=r4-irlba

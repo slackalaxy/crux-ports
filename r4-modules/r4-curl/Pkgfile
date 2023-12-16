@@ -1,7 +1,7 @@
 # Description: R module curl
 # URL: https://cran.r-project.org/web/packages/curl
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-httpuv r4-jsonlite r4-knitr r4-later r4-magrittr r4-rmarkdown r4-spelling r4-testthat r4-webutils
 
 name=r4-curl

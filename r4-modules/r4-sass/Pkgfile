@@ -1,7 +1,7 @@
 # Description: R module sass
 # URL: https://cran.r-project.org/web/packages/sass
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-fs r4-htmltools r4-r6 r4-rappdirs r4-rlang
+# Depends on: gcc-fortran r r4-fs r4-htmltools r4-r6 r4-rappdirs r4-rlang
 # Optional: r4-curl r4-knitr r4-rmarkdown r4-shiny r4-testthat r4-withr
 
 name=r4-sass

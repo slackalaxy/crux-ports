@@ -1,7 +1,7 @@
 # Description: R module fastmap
 # URL: https://cran.r-project.org/web/packages/fastmap
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-testthat
 
 name=r4-fastmap

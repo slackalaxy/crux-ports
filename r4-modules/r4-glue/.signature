@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IeuqLUyXxXFfL5/xYD6kHvN9eEz96if5I9z52bK2ivqKTbij7bUjycwICjqx44KQq+VjFYsTndUozBZvJlaNAE=
-SHA256 (Pkgfile) = 601ad6b6df165d38a3542a524f4f5e8b2b85da4c2eb6cdbedc6f105043412180
+RWQ2oTreAss89Ci7REMeLewPwlRblqG951tessF+E53iRBtLjxRRibWO3mQ2IbMfezDBRKB6f/mr3WchuTqFURohjHAT4GiNzQg=
+SHA256 (Pkgfile) = a0ffdd16e403c0cd9bd58e34928a441ea67bf65030a4f22fdbad7cf2a3c0be6f
 SHA256 (.footprint) = c311a1ccf39ea80a1751bf0f63097bd8594155305c98f77aa6f45a98a4775501
 SHA256 (glue_1.6.2.tar.gz) = 9da518f12be584c90e75fe8e07f711ee3f6fc0d03d817f72c25dc0f66499fdbf

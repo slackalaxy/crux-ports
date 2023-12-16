@@ -1,7 +1,7 @@
 # Description: R module lmtest
 # URL: https://cran.r-project.org/web/packages/lmtest
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-zoo
+# Depends on: gcc-fortran r r4-zoo
 # Optional: r4-aer r4-car r4-dynlm r4-sandwich r4-strucchange r4-survival
 
 name=r4-lmtest

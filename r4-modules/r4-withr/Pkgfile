@@ -1,7 +1,7 @@
 # Description: R module withr
 # URL: https://cran.r-project.org/web/packages/withr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r
 # Optional: r4-callr r4-covr r4-dbi r4-knitr r4-lattice r4-rlang r4-rmarkdown r4-rsqlite r4-testthat
 
 name=r4-withr

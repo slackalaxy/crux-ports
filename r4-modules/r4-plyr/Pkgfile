@@ -1,7 +1,7 @@
 # Description: R module plyr
 # URL: https://cran.r-project.org/web/packages/plyr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-rcpp
+# Depends on: gcc-fortran r r4-rcpp
 # Optional: r4-abind r4-covr r4-doparallel r4-foreach r4-iterators r4-itertools r4-testthat
 
 name=r4-plyr

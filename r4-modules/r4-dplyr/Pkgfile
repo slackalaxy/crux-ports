@@ -1,7 +1,7 @@
 # Description: R module dplyr
 # URL: https://cran.r-project.org/web/packages/dplyr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-generics r4-glue r4-lifecycle r4-magrittr r4-pillar r4-r6 r4-rlang r4-tibble r4-tidyselect r4-vctrs
+# Depends on: gcc-fortran r r4-cli r4-generics r4-glue r4-lifecycle r4-magrittr r4-pillar r4-r6 r4-rlang r4-tibble r4-tidyselect r4-vctrs
 # Optional: r4-bench r4-broom r4-callr r4-covr r4-dbi r4-dbplyr r4-ggplot2 r4-knitr r4-lahman r4-lobstr r4-microbenchmark r4-nycflights13 r4-purrr r4-rmarkdown r4-rmysql r4-rpostgresql r4-rsqlite r4-stringi r4-testthat r4-tidyr r4-withr
 
 name=r4-dplyr

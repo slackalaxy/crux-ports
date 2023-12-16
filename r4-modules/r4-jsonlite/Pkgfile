@@ -1,7 +1,7 @@
 # Description: R module jsonlite
 # URL: https://cran.r-project.org/web/packages/jsonlite
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-httr r4-knitr r4-r-rsp r4-rmarkdown r4-sf r4-testthat r4-vctrs
 
 name=r4-jsonlite

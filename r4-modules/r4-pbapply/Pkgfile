@@ -1,7 +1,7 @@
 # Description: R module pbapply
 # URL: https://cran.r-project.org/web/packages/pbapply
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r
 # Optional: r4-future r4-future-apply r4-shiny
 
 name=r4-pbapply

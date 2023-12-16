@@ -1,7 +1,7 @@
 # Description: R module ica
 # URL: https://cran.r-project.org/web/packages/ica
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r
 # Optional: 
 
 name=r4-ica

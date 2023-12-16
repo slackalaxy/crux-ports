@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-dplyr r4-forcats r4-ggplot2movies r4-knitr r4-patchwork r4-rmarkdown r4-testthat r4-vdiffr
 
 name=r4-ggridges
-version=0.5.4
+version=0.5.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggridges_${version}.tar.gz)
 

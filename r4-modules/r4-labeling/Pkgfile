@@ -1,7 +1,7 @@
 # Description: R module labeling
 # URL: https://cran.r-project.org/web/packages/labeling
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r
 # Optional: 
 
 name=r4-labeling

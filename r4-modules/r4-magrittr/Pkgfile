@@ -1,7 +1,7 @@
 # Description: R module magrittr
 # URL: https://cran.r-project.org/web/packages/magrittr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-covr r4-knitr r4-rlang r4-rmarkdown r4-testthat
 
 name=r4-magrittr

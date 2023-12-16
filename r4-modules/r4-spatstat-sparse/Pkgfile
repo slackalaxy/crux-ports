@@ -1,7 +1,7 @@
 # Description: R module spatstat.sparse
 # URL: https://cran.r-project.org/web/packages/spatstat.sparse
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-abind r4-matrix r4-spatstat-utils r4-tensor
+# Depends on: gcc-fortran r r4-abind r4-matrix r4-spatstat-utils r4-tensor
 # Optional: 
 
 name=r4-spatstat-sparse

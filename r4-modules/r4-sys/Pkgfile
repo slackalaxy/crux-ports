@@ -1,7 +1,7 @@
 # Description: R module sys
 # URL: https://cran.r-project.org/web/packages/sys
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-spelling r4-testthat r4-unix
 
 name=r4-sys

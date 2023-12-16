@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Ml6C101RsKkCx29FwW7iGq39X1jSnBUXKLly8fR8H1J6kujdS3jtjxNjt8r6Qp7fSuO/bXTh9eoLIbHQFeWYQQ=
-SHA256 (Pkgfile) = 78da227cb18ab7c20a531342e098a12bcf58bca2bdd444f09ee2bb4e8a5e4a7a
+RWQ2oTreAss89KXgsD/weJuzg5P3JZ8diMJL2wdTBolv6pYxP6ocSeQka+klGRn0YmnmGhcwozezdaYuINxgLSwQ4qKoecPr3As=
+SHA256 (Pkgfile) = 89859d4e86302b8212382da73472d2f2f387021669cab9cf6e41bbcd8e7c5795
 SHA256 (.footprint) = 0a31b0fb9afb66fc2f2918abffe818290f311db6304a9bd6e6c78540d97d6847
 SHA256 (pbapply_1.7-2.tar.gz) = aeed8c8c308c7e3827daf10b01b8ed4b88c1d68cea57d72d67c600c0ce0dae13

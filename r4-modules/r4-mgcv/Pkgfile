@@ -1,7 +1,7 @@
 # Description: R module mgcv
 # URL: https://cran.r-project.org/web/packages/mgcv
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-matrix r4-nlme
+# Depends on: gcc-fortran r r4-matrix r4-nlme
 # Optional: r4-mass r4-survival
 
 name=r4-mgcv

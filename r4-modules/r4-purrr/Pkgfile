@@ -1,7 +1,7 @@
 # Description: R module purrr
 # URL: https://cran.r-project.org/web/packages/purrr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-lifecycle r4-magrittr r4-rlang r4-vctrs
+# Depends on: gcc-fortran r r4-cli r4-lifecycle r4-magrittr r4-rlang r4-vctrs
 # Optional: r4-covr r4-dplyr r4-httr r4-knitr r4-lubridate r4-rmarkdown r4-testthat r4-tibble r4-tidyselect
 
 name=r4-purrr

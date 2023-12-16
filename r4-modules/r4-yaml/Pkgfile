@@ -1,7 +1,7 @@
 # Description: R module yaml
 # URL: https://cran.r-project.org/web/packages/yaml
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-runit
 
 name=r4-yaml

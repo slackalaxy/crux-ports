@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89K8lXlt5xVoZNPATs2d1eBUle51lYpbke4ulcqEjbRNKn+WDVXJOUSe1Asuiwo0AK9xmHKpY1LeLRu/UFLchcwg=
-SHA256 (Pkgfile) = f1237f4a712119423e957a539879bc7b3881e3d98b723bd2722bcfec5baf4eef
+RWQ2oTreAss89B3aVFYMtQ3OmnxelDyYFdAE21ecN/BjJrVIc2hG8yW3vQGKg/r+/ImmgJJ+mbejxBwsIefQ6qK9uXZENUnRwg8=
+SHA256 (Pkgfile) = e424b82f3b1f7da7707a04cdfce7552f28a803593ac9878578a864a370ae6069
 SHA256 (.footprint) = 2b1a2329242270e03b31e717ab40bf91195f7cce75efc98a2862236104c883ba
 SHA256 (rappdirs_0.3.3.tar.gz) = 49959f65b45b0b189a2792d6c1339bef59674ecae92f8c2ed9f26ff9e488c184

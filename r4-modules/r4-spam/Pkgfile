@@ -1,7 +1,7 @@
 # Description: R module spam
 # URL: https://cran.r-project.org/web/packages/spam
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-dotcall64 r4-rcpp
+# Depends on: gcc-fortran r r4-dotcall64 r4-rcpp
 # Optional: r4-fields r4-knitr r4-matrix r4-r-rsp r4-rmarkdown r4-spam64 r4-testthat r4-truncdist
 
 name=r4-spam

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BLEYoH8gKhhNz2b42Qh0rgeUDoz1Pw4An4M6uswKrQH14M2wn2RZQfaXXs6ERkqkHGMVzCxs5Moc9gkJm41TAA=
-SHA256 (Pkgfile) = 39bcd61cd63cbc56e9581b348c009181504301eddb00f5914c9ad600b6ac27ef
+RWQ2oTreAss89H6uJz+SDwvd5vurrGZK+bNV7SY9fdH6DtaF0wq/HJBOO8YupZ4bZfhfC34mbfd2xRknzCfhInxEh4WCOtCZbAQ=
+SHA256 (Pkgfile) = 77e94638576baff87870cec1cbb35e8c0cdf37759e75accfc4daa1450aea7210
 SHA256 (.footprint) = e42419ca54f0c5235052da85492a005bee401ba97892cda850067ce3b50d3a58
 SHA256 (tensor_1.5.tar.gz) = e1dec23e3913a82e2c79e76313911db9050fb82711a0da227f94fc6df2d3aea6

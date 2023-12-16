@@ -1,7 +1,7 @@
 # Description: R module gtools
 # URL: https://cran.r-project.org/web/packages/gtools
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-car r4-gplots r4-knitr r4-rstudioapi r4-sgp r4-taxize
 
 name=r4-gtools

@@ -1,7 +1,7 @@
 # Description: R module Matrix
 # URL: https://cran.r-project.org/web/packages/Matrix
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-lattice
+# Depends on: gcc-fortran r r4-lattice
 # Optional: r4-mass r4-sfsmisc
 
 name=r4-matrix

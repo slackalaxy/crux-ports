@@ -1,7 +1,7 @@
 # Description: R module Rcpp
 # URL: https://cran.r-project.org/web/packages/Rcpp
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-inline r4-pkgkitten r4-rbenchmark r4-tinytest
 
 name=r4-rcpp

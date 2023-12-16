@@ -1,7 +1,7 @@
 # Description: R module fs
 # URL: https://cran.r-project.org/web/packages/fs
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: r4-covr r4-crayon r4-knitr r4-pillar r4-rmarkdown r4-spelling r4-testthat r4-tibble r4-vctrs r4-withr
 
 name=r4-fs

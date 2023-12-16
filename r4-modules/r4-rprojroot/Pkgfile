@@ -1,7 +1,7 @@
 # Description: R module rprojroot
 # URL: https://cran.r-project.org/web/packages/rprojroot
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r
 # Optional: r4-covr r4-knitr r4-lifecycle r4-mockr r4-rlang r4-rmarkdown r4-testthat r4-withr
 
 name=r4-rprojroot

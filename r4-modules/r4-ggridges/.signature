@@ -1,5 +1,4 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89L1NtCcdF3eOxclG3UI1eJ386DwlrZ2ClZjFwlBhCN2dewK5u6/1OSKnHsXCPmdCpLKupZGxoVxApwO1iD4DSQw=
-SHA256 (Pkgfile) = 94b717cc5c1a961b48d622f5cca94e1d59e7ac454a0b2419e7425e71ce64027a
-SHA256 (.footprint) = f71f8b6b2ae8df1951e1f62f7e74dcc4993d3dca92fd0155ff8d5817f882ba9f
-SHA256 (ggridges_0.5.4.tar.gz) = 2bf71c2034804cec637e6748dc51d8cadad01d3ea4d14ace754327f082e8d851
+RWQ2oTreAss89KAX44MfL9hficKB5CEsNENCB/os3JBiY0/ZKCEPzHhoZxgglbx1idy4OnDkcxx+uraMWgjhr1+R9IzeGA/dZAY=
+SHA256 (Pkgfile) = 960c7e35eb164b05319fc1e3ac94c26c5a3835f5cdfe22690d2c3ef7feb87f2a
+SHA256 (ggridges_0.5.5.tar.gz) = 7577a43824ff413f5499fce22b2218268177d5867adf8cb885a19c760b5e75a1

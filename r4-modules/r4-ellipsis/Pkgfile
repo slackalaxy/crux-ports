@@ -1,7 +1,7 @@
 # Description: R module ellipsis
 # URL: https://cran.r-project.org/web/packages/ellipsis
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-rlang
+# Depends on: gcc-fortran r r4-rlang
 # Optional: r4-covr r4-testthat
 
 name=r4-ellipsis

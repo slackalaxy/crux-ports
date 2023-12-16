@@ -1,7 +1,7 @@
 # Description: R module listenv
 # URL: https://cran.r-project.org/web/packages/listenv
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r
 # Optional: r4-markdown r4-r-rsp r4-r-utils
 
 name=r4-listenv

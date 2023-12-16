@@ -1,7 +1,7 @@
 # Description: R module base64enc
 # URL: https://cran.r-project.org/web/packages/base64enc
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: 
 
 name=r4-base64enc

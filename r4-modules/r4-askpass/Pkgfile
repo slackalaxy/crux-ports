@@ -1,7 +1,7 @@
 # Description: R module askpass
 # URL: https://cran.r-project.org/web/packages/askpass
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-sys
+# Depends on: gcc-fortran r r4-sys
 # Optional: r4-testthat
 
 name=r4-askpass
