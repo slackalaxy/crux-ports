@@ -74,11 +74,11 @@ f:a162e2f13de804c3cac36771b32e4d42:fonts-apple-osx/Pkgfile
 f:cd98737feba8f699dc98f53cece56ec4:fonts-apple-osx/.signature
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
 f:50a066d23f7b253e9cd0b6a9ed314ce5:fonts-conf/Pkgfile
-f:f4dc7f9a660dc5b1f0b92c2026e84159:fonts-conf/README
+f:00ed35084250268075e059f0d7bc984f:fonts-conf/README
 f:9487056f8f9340f96d463c057b96d66f:fonts-conf/.signature
-f:03c739bfb34092002011bd07cd54364f:depsck/.signature
-f:f4e707147bf141a5175e09d21a245704:depsck/.footprint
-f:aa57b11b83f39a476554481a6fa96dad:depsck/Pkgfile
+f:51960356f17d053a4cb7e101267cb8a8:depsck/.signature
+f:96f4215dc57e67cc2f0d710ec5f703bb:depsck/.footprint
+f:c88d4063c9d8790e6b509ec569e5cc6c:depsck/Pkgfile
 f:c6c59cd37ca99de898a5c73dedc594e1:firewall-basic/.signature
 f:310432a43ad2ec419ed65477a3267564:firewall-basic/.footprint
 f:93c00559c642750d50a2dc4f0d180ce8:firewall-basic/Pkgfile
