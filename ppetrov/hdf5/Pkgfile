@@ -3,13 +3,14 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=hdf5
-version=1.14.1_2
+version=1.14.3
 release=1
-source=(https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-${version:0:4}/hdf5-${version%_*}/src/hdf5-${version/_/-}.tar.bz2)
+source=(https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-${version:0:4}/hdf5-${version}/src/hdf5-${version}.tar.bz2)
 
 build() {
 	cd $name-${version/_/-}
 	./configure --prefix=/usr \
+	--enable-cxx \
 	--with-examplesdir=/usr/share/$name
 	make
 	make DESTDIR=$PKG install
