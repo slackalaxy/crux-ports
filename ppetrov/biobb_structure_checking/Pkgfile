@@ -1,0 +1,14 @@
+# Description: Functions to check the quality of a 3D structure
+# URL: https://pypi.org/project/biobb-structure-checking/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-psutil
+
+name=biobb_structure_checking
+version=3.13.4
+release=1
+source=(https://files.pythonhosted.org/packages/52/c8/fbde8e5c8502699a5f85837298acefc14a198b31d30e3d87fde18fa6f169/biobb_structure_checking-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	python3 setup.py install --root=$PKG
+}
