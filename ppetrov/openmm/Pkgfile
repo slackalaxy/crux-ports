@@ -1,0 +1,29 @@
+# Description: High performance, customizable molecular simulation.
+# URL: https://openmm.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fftw
+
+name=openmm
+version=8.0.0
+release=1
+source=(https://github.com/pandegroup/openmm/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-D CMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-D OPENMM_GENERATE_API_DOCS=OFF \
+	-D PYTHON_EXECUTABLE=/usr/bin/python3 \
+	-D CMAKE_BUILD_TYPE=Release ..
+
+	make
+	make DESTDIR=$PKG install
+	
+	sed -i 's:ENV{OPENMM_LIB_PATH} ":ENV{OPENMM_LIB_PATH} "$ENV{DESTDIR}:g' wrappers/python/pysetupinstall.cmake
+	make DESTDIR=$PKG PythonInstall
+	rm -rf $PKG/usr/{bin,docs,examples,licenses}
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZUsEP4BHcI2MoEgSbW11k6iu9bGZB9E8bWFwQt+8vzyV0n4Q6Dd9FDyp6OsPotXXlh1JIRYMXVOru6TCluBVcwk=
+SHA256 (Pkgfile) = 3138e672c585dda4316045a45bc2c3db63c5872f01189230ce57e910fe44b706
+SHA256 (.footprint) = 4a2bb4f58df87f28e3970292193027e693b82c5b9eb3f7f618b3dc27c8bf6930
+SHA256 (openmm-8.0.0.tar.gz) = dc63d7b47c8bb7b169c409cfd63d909ed0ce1ae114d37c627bf7a4231acf488e
