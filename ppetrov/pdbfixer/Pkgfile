@@ -1,0 +1,22 @@
+# Description: Fix problems in PDB files in preparation for simulating them
+# URL: https://github.com/openmm/pdbfixer/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: openmm
+
+name=pdbfixer
+version=1.9.0
+release=1
+source=(https://github.com/openmm/pdbfixer/archive/${version%.*}/$name-${version%.*}.tar.gz)
+
+build() {
+	cd $name-${version%.*}
+	python3 setup.py install --prefix=$PKG/usr
+	
+	# fucking fix this crap
+	cd $PKG/usr/lib/python3.10/site-packages/
+	mv pdbfixer-$version-py3.10.egg/$name .
+	mv pdbfixer-$version-py3.10.egg/EGG-INFO/* pdbfixer-$version-py3.10.egg/
+	rm -rf pdbfixer-$version-py3.10.egg/EGG-INFO/
+	mv pdbfixer-$version-py3.10.egg pdbfixer-$version-py3.10.egg-info
+	rm $PKG/usr/bin/f2py
+}
