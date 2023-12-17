@@ -4,7 +4,7 @@
 # Depends on: jdk8-bin gtk libglvnd xorg-libxdamage xorg-libxxf86vm
 
 name=fiji
-version=20231107_1617
+version=20231211_1317
 release=1
 source=(https://downloads.imagej.net/fiji/archive/${version/_/-}/fiji-nojre.zip
 	ImageJ2.desktop $name.sh)
