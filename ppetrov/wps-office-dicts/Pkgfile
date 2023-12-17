@@ -5,7 +5,7 @@
 
 name=wps-office-dicts
 version=7.5.4.1
-release=1
+release=2
 source=(https://github.com/LibreOffice/dictionaries/archive/libreoffice-$version/dictionaries-libreoffice-$version.tar.gz
 	DICTIONARIES)
 
@@ -20,7 +20,7 @@ build() {
 
 	for i in ${LANGS[@]} ; do
 		# get the description
-		d=$(grep "$i" $CWD/DICTIONARIES | awk '{print $2}')
+		d=$(grep "$i" $SRC/DICTIONARIES | awk '{print $2}')
 		mkdir -p $DICTDIR/$i
   
 		# create the dictionary config
