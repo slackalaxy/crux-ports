@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbGVwDHDmyMrcKi7W1jVPv065qKj2I2eD2hdOgeaAo2Car8BVqH8MSSyDQeYEJ8NPn3M1Osnm6Iw4HGMvqnLmgc=
+RWToVVsIkzFIZV21cye0D9yT1NCauey/terQVA7i9w6OCrt5R4atmXuO0D6LVIGZp48oDcjV7BKyogV6hgN0GuMx5EIbDnWavg0=
 SHA256 (Pkgfile) = e2e23f7e286e28db45e694d183971fc116af86a6782700cf41df79a4acc0513c
 SHA256 (.footprint) = 66f731df69072c7813526b6e7b0e5218a7a1da8bac63cf21578d55994a91635e
-SHA256 (mplayer-export-snapshot.tar.bz2) = 316e360d4563cbe7b9fd7b0dcee4152ffc8a5288c69aba3f19018e0f5c6a2c40
+SHA256 (mplayer-export-snapshot.tar.bz2) = 80880bf1c80b81923d73b4279a706e43885cbd30b8762d7da84d45294054260d
 SHA256 (font-arial-iso-8859-1.tar.bz2) = 9730f481764f367c9089d0166fb6ccf9148808ffbbfeca635cf0e6db75765d29
 SHA256 (Blue-1.13.tar.bz2) = 1c916d81827e6368a3a8db0c3aab8a82ef2e9f864db780a194cf7689eec2cdc5
 SHA256 (mplayer.conf) = 594275750252e1e5bf4c906a284087eec508d9772913a276b6c9ff36410dbf5b
