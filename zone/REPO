@@ -18,14 +18,14 @@ d:doom-wad
 d:quake3-pk3
 d:grub2-default
 f:8d049dc8245b44caf15cae645fb724fa:fonts-microsoft-win11/.footprint
-f:18174adbfee78946a3684edc9f7c3ead:fonts-microsoft-win11/Pkgfile
-f:99e2b76e714c0e4a6914ea8930c51bf6:fonts-microsoft-win11/README
-f:95ce12b31563e64cd508e56b8ede6ec5:fonts-microsoft-win11/post-install
-f:f48f7e54dbef7acd81cd89be15bc51f0:fonts-microsoft-win11/.signature
+f:b54d53547deb93695671190f8f44ebf5:fonts-microsoft-win11/Pkgfile
+f:404146f2cb37374398b80efe38ca9ca5:fonts-microsoft-win11/README
+f:39cc4032937a8a4dfe97aaed58894ea3:fonts-microsoft-win11/post-install
+f:ccddeb0ded633c562a2f3a00de31f16a:fonts-microsoft-win11/.signature
 f:6102a434bebf5d40eb4298ea2f2c391d:fonts-msoffice/.footprint
 f:e8da4a3fa22696617e6a73fdd1ae9fd2:fonts-msoffice/Pkgfile
 f:ba49d43668421a4c0bfbaa791ca40e08:fonts-msoffice/README
-f:95ce12b31563e64cd508e56b8ede6ec5:fonts-msoffice/post-install
+f:39cc4032937a8a4dfe97aaed58894ea3:fonts-msoffice/post-install
 f:0bdd3fd783b10cbf378c5d315f6ab640:fonts-msoffice/.signature
 f:9ab7ce3a073cedaa0512a6b404896247:freshenup/.footprint
 f:a636a5b447f397258b0959a7b4ba71cd:freshenup/Pkgfile
@@ -34,7 +34,7 @@ f:550b4a619ddb2320622e4e9e02e40af4:fonts-mathtype/.signature
 f:084c370cd4274827ed689d654e65c9d0:fonts-mathtype/.footprint
 f:f6091d978017affeca2ebd260dfb68e9:fonts-mathtype/Pkgfile
 f:269d229bb5554bf53c539d56df82782b:fonts-mathtype/README
-f:e10fc9a2df84e6169364db2228478f64:fonts-mathtype/post-install
+f:d63e24a4c9b99f106335a4b9b5a7ad9f:fonts-mathtype/post-install
 f:b1fcde73ceefaa3e2d79542108024538:jdk17-sym/.footprint
 f:f292d3f423e2280335eae546b6c474a0:jdk17-sym/Pkgfile
 f:5beed95e1b39cbcd959ede2adba56bf1:jdk17-sym/.signature
@@ -69,7 +69,7 @@ f:50b4112a34c03f147c1d24a787a278a9:medit-biolang/Pkgfile
 f:78b5c19c4711636690f9f8565fc13101:fonts-apple-osx/.footprint
 f:33345441a862388eda867fe9f469ce97:fonts-apple-osx/README
 f:ca006602970aa8017cbf17e89deed38e:fonts-apple-osx/microsoft.txt
-f:051f21aae29276970a556e22d27610ba:fonts-apple-osx/post-install
+f:187548d673a33dd5a85ce015baea238e:fonts-apple-osx/post-install
 f:a162e2f13de804c3cac36771b32e4d42:fonts-apple-osx/Pkgfile
 f:cd98737feba8f699dc98f53cece56ec4:fonts-apple-osx/.signature
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
