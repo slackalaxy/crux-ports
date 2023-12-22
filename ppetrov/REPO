@@ -1479,11 +1479,12 @@ f:ec2bc39363b96cd06c18d9b81858e082:clustalx/.signature
 f:5abad51c2cad9889cd0c882eabe32d46:doxygen/Pkgfile
 f:b8c3a047b8afa582c84a940dd3319a7b:doxygen/.footprint
 f:e60f383af5c4d9af5024601ef1ab86cb:doxygen/.signature
-f:3fb2b4d1d5287055b005eee1f1791921:fonts-apple-emoji/Pkgfile
+f:c17afcae8fa82348820e04394adf7efb:fonts-apple-emoji/Pkgfile
 f:1ad0078717e1a5a3b3e5457c215ae843:fonts-apple-emoji/post-install
-f:b27c956b3a05b416dc38572e45c36463:fonts-apple-emoji/.footprint
-f:7dc7f238a066c5f50445cf40c0044041:fonts-apple-emoji/.signature
+f:a5f4de8138f4aece9e8a08ce6d6eee1d:fonts-apple-emoji/.footprint
+f:7d2119b9365cfb5e06a56d981ad77f79:fonts-apple-emoji/.signature
 f:bb049b0ad55d81663701c92261391744:fonts-apple-emoji/README
+f:a017b1337b94d1a06dfc70beb4b7e87d:fonts-apple-emoji/32-apple-emoji.conf
 f:7c3376cdc5723bcdbe67ba9377ac5cd5:gbgoffice/03_multidir.patch
 f:56403a9a0670fbf42e1d0b6c778bbac0:gbgoffice/04_fix_fsf_address.patch
 f:0bce3c14e1821355b35e15757ba079f7:gbgoffice/05_gcc4.1.patch
