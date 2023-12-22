@@ -1,0 +1,4 @@
+To prefer these over other emojis (provided by, e.g. Noto), create this
+symlink:
+
+ln -s /usr/share/fontconfig/conf.avail/32-apple-emoji.conf /etc/etc/fonts/conf.d/32-apple-emoji.conf

@@ -4,9 +4,10 @@
 
 name=fonts-apple-emoji
 version=16.4
-release=1
+release=2
 source=(https://github.com/samuelngs/apple-emoji-linux/releases/download/v${version}/AppleColorEmoji.ttf)
 
 build() {
 	install -D -m644 AppleColorEmoji.ttf $PKG/usr/share/fonts/apple/AppleColorEmoji.ttf
+	install -D -m644 $SRC/32-apple-emoji.conf $PKG/usr/share/fontconfig/conf.avail/32-apple-emoji.conf
 }
