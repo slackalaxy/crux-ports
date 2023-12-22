@@ -1,38 +1,21 @@
 # Description: Microsoft Windows 11 fonts
-# URL: https://www.microsoft.com/typography/fonts/product.aspx?PID=164
+# URL: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: httpdirfs p7zip
+# Depends on: p7zip
 
 name=fonts-microsoft-win11
 version=22H2
-_url=https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751
-_iso=22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us
-release=1
-source=()
+release=2
+source=(https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso)
 
 build() {
-	mkdir -p $name-$version/{httpdirfs,iso,mnt}
+	mkdir -p $name-$version
 	cd $name-$version
 
-	httpdirfs \
-		--cache \
-		--cache-location="$SRC/$name-$version/httpdirfs" \
-		--single-file-mode \
-		-o auto_unmount \
-		 "${_url}/${_iso}.iso" iso
-	
-	mount -o loop iso/${_iso}.iso mnt
-	
-	# determine the loopdev, so we unmount it in the end
-	loopdevice=$(losetup --list | grep "${_iso}" | awk '{ print $1 }')
+	7z x $SRC/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
 	
 	mkdir -p $PKG/usr/share/fonts/microsoft
 	cd $PKG/usr/share/fonts/microsoft
-	7z e -aoa "$SRC/$name-$version/mnt/sources/install.wim" Windows/Fonts/*.{ttf,ttc}
-	
-	cd -
-	
-	# unmount "device" and http
-	umount $loopdevice
-	fusermount -uz $SRC/$name-$version/iso
+	7z e -aoa $SRC/$name-$version/sources/install.wim Windows/Fonts/"*".{ttf,ttc}
+	chmod 0644 *.{ttf,ttc}
 }
