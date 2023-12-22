@@ -1,5 +1,5 @@
 #!/bin/sh
 
-fc-cache /usr/share/fonts/mathtype
-mkfontscale /usr/share/fonts/mathtype
 mkfontdir /usr/share/fonts/mathtype
+mkfontscale /usr/share/fonts/mathtype
+fc-cache
