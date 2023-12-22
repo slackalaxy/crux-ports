@@ -1,6 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
-lrwxrwxrwx	root/root	usr/bin/scwrl -> ../lib/scwrl/Scwrl4
+lrwxrwxrwx	root/root	usr/bin/Scwrl4 -> ../lib/scwrl/Scwrl4
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/scwrl/
 -rwxr-xr-x	root/root	usr/lib/scwrl/Scwrl4

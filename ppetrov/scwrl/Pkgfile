@@ -4,7 +4,7 @@
 
 name=scwrl
 version=4.0.2
-release=1
+release=2
 source=(http://dunbrack.fccc.edu/lab/SCWRLlic)
 renames=(install_scwrl4.0.2_64bit_2020_linux)
 
@@ -25,5 +25,5 @@ build() {
 	
 	mkdir -p $PKG/usr/bin
 	cd $PKG/usr/bin
-	ln -s ../lib/$name/Scwrl4 $name
+	ln -s ../lib/$name/Scwrl4 Scwrl4
 }
