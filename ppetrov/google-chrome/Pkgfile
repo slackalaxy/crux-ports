@@ -1,12 +1,12 @@
 # Description: web browser by Google (Stable Channel)
-# URL: https://www.google.com/chrome
+# URL: https://chromereleases.googleblog.com/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: cups graphite2 icu nss qt5 qt6-base wayland
 
 name=google-chrome
 version=current
 #version=$(ar p $name-stable_current_amd64.deb control.tar.xz 2> /dev/null | tar JxO ./control 2> /dev/null | grep Version | awk '{print $2}' | cut -d- -f1)
-release=4
+release=5
 source=(https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb)
 
 build() {
@@ -36,7 +36,7 @@ build() {
 	cp -a $SRC/usr/share $PKG/usr
 	
 	# Remove docs
-	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/{doc,menu}
 
 	# Remove locales, except for en_US
 	find $PKG/usr/lib/google-chrome/locales/ -type f -not -name "en-US.pak" -delete
