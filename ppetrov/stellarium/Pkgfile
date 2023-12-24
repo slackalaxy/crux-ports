@@ -1,12 +1,12 @@
 # Description: A planetarium for your computer
 # URL: https://stellarium.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: double-conversion icu keyutils qt5
+# Depends on: double-conversion exiv2 icu keyutils krb5 lame nlopt pulseaudio qt5
 # Optional: krb5 lame pulseaudio
 
 name=stellarium
 version=23.4
-release=1
+release=2
 source=(https://github.com/Stellarium/stellarium/releases/download/v${version}/$name-$version.tar.gz)
 
 build() {
