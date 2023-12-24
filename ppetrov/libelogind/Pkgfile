@@ -1,11 +1,11 @@
-# Description: Elogind libs only
+# Description: Elogind libs (only) in a non-standard location
 # URL: https://github.com/elogind/elogind
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on:
 
 name=libelogind
 version=246.10
-release=1
+release=2
 source=(https://github.com/elogind/elogind/archive/refs/tags/v${version}.tar.gz)
 
 build() {
@@ -15,9 +15,9 @@ build() {
 	meson \
 	--buildtype release \
 	--prefix /usr \
-	--libdir /usr/lib \
-	-D rootlibdir="/usr/lib" \
-	-D rootlibexecdir="/lib/elogind" \
+	--libdir /usr/lib/$name \
+	-D rootlibdir="/usr/lib/$name" \
+	-D rootlibexecdir="/lib/$name/elogind" \
 	-D udevrulesdir="/lib/udev/rules.d" \
 	-D man=false \
 	-D html=false \
@@ -40,6 +40,6 @@ build() {
 	
 	rm -rf $PKG/{bin,etc,lib}
 	rm -rf $PKG/usr/{bin,include,share}
-	cd $PKG/usr/lib
+	cd $PKG/usr/lib/$name
 	ln -s libelogind.so.0 libsystemd.so.0
 }
