@@ -426,6 +426,7 @@ d:xmms-skins-carbonate
 d:wps-office
 d:bluecurve-gtk-themes
 d:xmms-skins-garetjax
+d:nlopt
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:988c2e3fd5ba0ea4492d3ba7273af295:acpid/acpid-2.0.34.tar.xz
@@ -1963,9 +1964,9 @@ f:0c93423b7ca0e9f4099b0cd836b04a7d:skype/README
 f:cc6142308091043591ca90a3bb0030f7:celestia/Pkgfile
 f:4f469d7283976e65bc4a1a08c33ebfd5:celestia/.footprint
 f:24584e1985f1a2a171fc4a25b50ba032:celestia/.signature
-f:c94ad4f39ee7c25603bb66cf5df3aa36:stellarium/Pkgfile
+f:189a3f1f80c6580de8c05fda58730109:stellarium/Pkgfile
 f:af726c3666986b233fbc286bc9f7041a:stellarium/.footprint
-f:ec4a9a583852aaadc3f26f4ad54aefb7:stellarium/.signature
+f:f74d503a9180e42a3f72041448c62c00:stellarium/.signature
 f:404074bbebeb529a7f5b2f7bcd8b75fb:strawberry/Pkgfile
 f:47395286f39b95cf0a180fd9adae7421:strawberry/.signature
 f:9fe47c5bbb00ed7e84f5a1a5de5deefe:strawberry/.footprint
@@ -2043,3 +2044,6 @@ f:e3377c3f4483b396533b5bfc9d25d329:bluecurve-gtk-themes/.signature
 f:84ee1b64999285958be643022be989e0:xmms-skins-garetjax/Pkgfile
 f:041e8d66a4a3556a31a526277863afd0:xmms-skins-garetjax/.footprint
 f:d203683d4ef784f2111f8d647662d625:xmms-skins-garetjax/.signature
+f:130f118b8afe3987e981d90327b22b8b:nlopt/Pkgfile
+f:2c636130006702ab1893413da4f20e70:nlopt/.footprint
+f:48c72baa203816050b884826f5806e12:nlopt/.signature
