@@ -4,7 +4,7 @@
 # Depends on: alsa-lib cups gtk3 icu keyutils krb5 libxkbcommon nss openssl11 postgresql r xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=rstudio-desktop
-version=2023.09.1+494
+version=2023.12.0+369
 release=1
 source=(https://download1.rstudio.org/electron/rhel8/x86_64/rstudio-${version/+/-}-x86_64.rpm)
 
