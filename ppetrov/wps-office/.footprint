@@ -1767,6 +1767,7 @@ lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libswresample.so.3 -> libswresam
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libswscale.so -> libswscale.so.5.7.100
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libswscale.so.5 -> libswscale.so.5.7.100
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libswscale.so.5.7.100
+lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libsystemd.so.0 -> /usr/lib/libelogind/libelogind.so
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libtcmalloc_minimal.so -> libtcmalloc_minimal.so.4.5.5
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libtcmalloc_minimal.so.4 -> libtcmalloc_minimal.so.4.5.5
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libtcmalloc_minimal.so.4.5.5
@@ -4032,12 +4033,12 @@ drwxr-xr-x	root/root	usr/lib/wps-office/office6/wpsart/quickstyle/
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/wpspdf
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
--rw-r--r--	root/root	usr/share/applications/et.desktop
--rw-r--r--	root/root	usr/share/applications/wpdf.desktop
--rw-r--r--	root/root	usr/share/applications/wpp.desktop
--rw-r--r--	root/root	usr/share/applications/wps.desktop
+-rw-r--r--	root/root	usr/share/applications/wps-office-et.desktop
+-rw-r--r--	root/root	usr/share/applications/wps-office-wpdf.desktop
+-rw-r--r--	root/root	usr/share/applications/wps-office-wpp.desktop
+-rw-r--r--	root/root	usr/share/applications/wps-office-wps.desktop
 drwxr-xr-x	root/root	usr/share/pixmaps/
--rw-r--r--	root/root	usr/share/pixmaps/wps-office-etmain.png
--rw-r--r--	root/root	usr/share/pixmaps/wps-office-wpdfmain.png
--rw-r--r--	root/root	usr/share/pixmaps/wps-office-wppmain.png
--rw-r--r--	root/root	usr/share/pixmaps/wps-office-wpsmain.png
+-rw-r--r--	root/root	usr/share/pixmaps/wps-office-et.png
+-rw-r--r--	root/root	usr/share/pixmaps/wps-office-wpdf.png
+-rw-r--r--	root/root	usr/share/pixmaps/wps-office-wpp.png
+-rw-r--r--	root/root	usr/share/pixmaps/wps-office-wps.png
