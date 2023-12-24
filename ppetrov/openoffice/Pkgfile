@@ -4,10 +4,10 @@
 # Depends on: gconf gdk-pixbuf-xlib gtk python glu gst0-plugins-base jdk8-bin orbit2 gnome-vfs db43
 
 name=openoffice
-version=4.1.14
+version=4.1.15
 release=1
 source=(https://sourceforge.net/projects/openofficeorg.mirror/files/$version/binaries/en-US/Apache_OpenOffice_${version}_Linux_x86-64_install-rpm_en-US.tar.gz
-	$name.directory $name.menu $name.conf)
+	$name.directory $name.menu)
 
 build() {
 	cd en-US/RPMS
@@ -51,8 +51,8 @@ build() {
 	for icon in openoffice4-* ; do cp "$icon" $PKG/usr/share/pixmaps/"ooo-${icon#openoffice4-}" ; done
 	
 	# take care of jdk
-	mkdir -p $PKG/etc/ld.so.conf.d
-	cp $SRC/$name.conf $PKG/etc/ld.so.conf.d
+	#mkdir -p $PKG/etc/ld.so.conf.d
+	#cp $SRC/$name.conf $PKG/etc/ld.so.conf.d
 	
 	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
 	mkdir -p $PKG/etc/revdep.d
@@ -68,4 +68,6 @@ build() {
 	rm -rf $PKG/usr/lib/openoffice/readmes
 	rm -rf $PKG/usr/lib/openoffice/share/readme
 	
+	# find this from java
+	ln -s /usr/lib/jdk/lib/amd64/libjawt.so libjawt.so
 }
