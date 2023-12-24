@@ -5,7 +5,7 @@
 # Optional: krb5 lame pulseaudio
 
 name=stellarium
-version=23.3
+version=23.4
 release=1
 source=(https://github.com/Stellarium/stellarium/releases/download/v${version}/$name-$version.tar.gz)
 
