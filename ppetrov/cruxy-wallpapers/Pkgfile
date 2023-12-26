@@ -3,9 +3,9 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=cruxy-wallpapers
-version=ef9e044
-release=2
-source=(https://github.com/slackalaxy/cruxy/archive/$version/cruxy-ef9e0447b315a9e392266c417f67a7661a5c24c9.tar.gz)
+version=b8cd643
+release=1
+source=(https://github.com/slackalaxy/cruxy/archive/$version/cruxy-b8cd643af3ecae96685a88feaf27a56eb6557e85.tar.gz)
 
 build() {
 	cd cruxy-${version}*
