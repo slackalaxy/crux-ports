@@ -1121,8 +1121,8 @@ f:05381ce648b1b17811f545b6e28dfcb1:libbonoboui/.signature
 f:0605133e3ef6f73ff578fd646b401611:pdb-tools/Pkgfile
 f:aadd295b237cac9e80258e6a30751716:pdb-tools/.footprint
 f:1e414d97197947255d58fc036c0bd942:pdb-tools/.signature
-f:cf844373283f600c230a3eeb6e8fc01e:microsoft-edge/Pkgfile
-f:2ac716a81a1f1e1e41ec60a1c5bd19ed:microsoft-edge/.signature
+f:ca2ae0047c460ad0c7f410ae29d1e516:microsoft-edge/Pkgfile
+f:e9a15cbb05b20b668474c0b6eb882271:microsoft-edge/.signature
 f:6257865c4283f32a41578a471bf36a8d:microsoft-edge/README
 f:5cded75370d2bdf4c3e7a5d8987d5580:microsoft-edge/.footprint
 f:6b29fd9b7eb60cad8692abc0e67ea60e:openvpn/Pkgfile
@@ -1825,9 +1825,9 @@ f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver-gtk2/xscreensaver.pam
 f:42b09485ec52f969e1e72b49d4b3181d:xscreensaver-gtk2/.footprint
 f:502c845c248c74acd81b0240de54c9a2:xscreensaver-gtk2/.signature
 f:17408aeba59922bd9b0979fa141066a0:xscreensaver-gtk2/Pkgfile
-f:a4bbaada8e5f0349a60edd607c446422:cruxy-wallpapers/Pkgfile
-f:9e4e8eb1edcc4a76fa703fad84ae28df:cruxy-wallpapers/.footprint
-f:385da1a61462c9a24f59ebb9d59a2cc3:cruxy-wallpapers/.signature
+f:9f5c859f450f776d8217b5182a077dad:cruxy-wallpapers/Pkgfile
+f:68c51d16acb2056a64ebe2c9a505c913:cruxy-wallpapers/.footprint
+f:fd8a2bb293547e775a6087529ad3ea90:cruxy-wallpapers/.signature
 f:fdce549b84e15d68e8ddf9cd07b7c3c7:embassy/Pkgfile
 f:16cbb8f308e5f5e18aab7e67e6d5f701:embassy/.footprint
 f:6c15f8db8cbae2be6d26a3be0cbf85f4:embassy/.signature
