@@ -695,9 +695,9 @@ f:e93f8095f1a5bf2ebbc60eedee1b2730:viewnior/Pkgfile
 f:975eeae744a613e326b89b5dd4ef1fbe:viewnior/exiv2-0.28.patch
 f:b89deec4f49c6073ad34e49bd561a529:viewnior/.footprint
 f:418911e1a95686743e02ad95d9380e2a:viewnior/.signature
-f:36e51ce4055bb65663336bfa8b1e9e73:xcdroast/.signature
+f:881808cd1578b19c9a05025f1beec857:xcdroast/.signature
 f:1a78e47afe25fe4a272bcff03682b5c5:xcdroast/.footprint
-f:577f5d7f99e95e2e4f37700a87ba21ab:xcdroast/Pkgfile
+f:c503af26959ababbe9e44553638bb20d:xcdroast/Pkgfile
 f:baec7698b28284363d958f23e6606401:xmms-skins-nostalgia/Pkgfile
 f:b7418e55503f4038a165b9b39c22349a:xmms-skins-nostalgia/.footprint
 f:d287ebd47be7356e919a01b05dab4ef2:xmms-skins-nostalgia/.signature
@@ -807,9 +807,9 @@ f:42e869ef213debedb54053478c0ecc41:amplicon/.signature
 f:858f632fb0ab5ab32bfc94121df84363:bpp-phyl-omics/Pkgfile
 f:cf66458e366a6bf40308a07aacaa3402:bpp-phyl-omics/.footprint
 f:a44bec8f7d711a7b1f6f45f07fc1853b:bpp-phyl-omics/.signature
-f:78136ffe874cde5dc95048fc11ab9026:cdrtools/Pkgfile
-f:87d35b3eac8ef1f9c04296045ca70711:cdrtools/.footprint
-f:bcca3fc58ce276485e46279b43be5ba7:cdrtools/.signature
+f:49d2f873428a3f02d10ea81f420fd3ee:cdrtools/Pkgfile
+f:a77917d71b9c5953ab4691c5d4e775ce:cdrtools/.footprint
+f:c98a68d146798a8113f8f9c3fee33cfd:cdrtools/.signature
 f:949fed21500075152d80236f9dfa341b:db43/Pkgfile
 f:973ef447ead4ef0cb5c29eb85786b3c2:db43/.footprint
 f:06a134a3e521f5dcc203880441cb1155:db43/.signature
@@ -1825,9 +1825,9 @@ f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver-gtk2/xscreensaver.pam
 f:42b09485ec52f969e1e72b49d4b3181d:xscreensaver-gtk2/.footprint
 f:502c845c248c74acd81b0240de54c9a2:xscreensaver-gtk2/.signature
 f:17408aeba59922bd9b0979fa141066a0:xscreensaver-gtk2/Pkgfile
-f:9f5c859f450f776d8217b5182a077dad:cruxy-wallpapers/Pkgfile
-f:68c51d16acb2056a64ebe2c9a505c913:cruxy-wallpapers/.footprint
-f:fd8a2bb293547e775a6087529ad3ea90:cruxy-wallpapers/.signature
+f:fa3cbd4e7cfbb320f688e2cf1f7d8fd7:cruxy-wallpapers/Pkgfile
+f:92f8211690ff09a8a18279e89cf0e87e:cruxy-wallpapers/.footprint
+f:879935fb15efe70d44fe9a91dc5d451c:cruxy-wallpapers/.signature
 f:fdce549b84e15d68e8ddf9cd07b7c3c7:embassy/Pkgfile
 f:16cbb8f308e5f5e18aab7e67e6d5f701:embassy/.footprint
 f:6c15f8db8cbae2be6d26a3be0cbf85f4:embassy/.signature
