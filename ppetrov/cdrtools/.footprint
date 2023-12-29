@@ -5,8 +5,15 @@ drwxr-xr-x	root/root	etc/default/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/btcflash
+-rwxr-xr-x	root/root	usr/bin/cdda2mp3
+-rwxr-xr-x	root/root	usr/bin/cdda2ogg
 -rwxr-xr-x	root/root	usr/bin/cdda2wav
 -rwxr-xr-x	root/root	usr/bin/cdrecord
+-rwxr-xr-x	root/root	usr/bin/devdump
+-rwxr-xr-x	root/root	usr/bin/isodebug
+-rwxr-xr-x	root/root	usr/bin/isodump
+-rwxr-xr-x	root/root	usr/bin/isoinfo
+-rwxr-xr-x	root/root	usr/bin/isovfy
 lrwxrwxrwx	root/root	usr/bin/mkhybrid -> mkisofs
 -rwxr-xr-x	root/root	usr/bin/mkisofs
 -rwxr-xr-x	root/root	usr/bin/readcd
@@ -257,6 +264,8 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/btcflash.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/cdda2mp3.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/cdda2ogg.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/cdda2wav.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/cdrecord.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/readcd.1.gz

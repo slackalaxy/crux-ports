@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZaTTULhWFEPabhup4hbZlXAfKHvZP71NXwze/jaigBPeD4gk2SZF3XepEcCKcL58SZ1HQH/DSBK3QM6gr+pP9gU=
-SHA256 (Pkgfile) = 07e34510cfa99a289faf2ae14152bbaf44b5300e81171be477616bc44333c8fc
-SHA256 (.footprint) = 0d787de3c00b204b7c966b86aa51bdcd8f064299bdf17a5cfea4a42ec5819ebc
+RWToVVsIkzFIZcG8dDAH7pvP5IyvFwcR3P1NNzkApUwcq45UIep3dmi+DkI1draciHa0zT+sFQFTWYH19xTUi3fTlo+hKSlDpQo=
+SHA256 (Pkgfile) = 0db7c3795d26393853f2f21ec728e7c752de38841d377222b93e9fb1b1e4053f
+SHA256 (.footprint) = a80ecfa43b080929d37eee0a35d7b6a743887ecf14df3eeb4caf47fb13387564
 SHA256 (cdrtools-3.02a09.tar.bz2) = aa28438f458ef3f314b79f2029db27679dae1d5ffe1569b6de57742511915e81

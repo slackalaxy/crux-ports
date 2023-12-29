@@ -2,10 +2,11 @@
 # URL: http://cdrecord.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: lame mpg123 pulseaudio xorg-libxcb
+# Conflicts: cdrkit
 
 name=cdrtools
 version=3.02a09
-release=1
+release=2
 source=(https://downloads.sourceforge.net/cdrtools/cdrtools-$version.tar.bz2)
 
 build() {
@@ -22,8 +23,8 @@ build() {
 	make DESTDIR=$PKG install
 	
 	# do not conflict with installed stuff, such as cdrkit
-	rm -rf $PKG/usr/bin/{cdda2mp3,cdda2ogg,devdump,isodebug,isodump,isoinfo,isovfy}
-	rm -rf $PKG/usr/share/man/man1/{cdda2mp3.1,cdda2ogg.1}
+	#rm -rf $PKG/usr/bin/{cdda2mp3,cdda2ogg,devdump,isodebug,isodump,isoinfo,isovfy}
+	#rm -rf $PKG/usr/share/man/man1/{cdda2mp3.1,cdda2ogg.1}
 	rm -rf $PKG/usr/share/man/man3/{error.3,fexecve.3,fnmatch.3,fprintf.3,getline.3,printf.3,sprintf.3,strlen.3}
 	rm -rf $PKG/usr/share/doc
 	
