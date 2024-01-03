@@ -1,0 +1,16 @@
+# Description: R module shades
+# URL: https://cran.r-project.org/web/packages/shades
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-covr r4-ggplot2 r4-testthat
+
+name=r4-shades
+version=1.4.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/shades_${version}.tar.gz)
+
+build() {
+	cd shades
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

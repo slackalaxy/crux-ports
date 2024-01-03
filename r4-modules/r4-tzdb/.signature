@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89Pgid+ome40y7JoT9qUTgoZRQuifWcy8Mezn+tlJbOP50S1hfr+WhzU5oa/QILMUgSqK1h2xKKzzlxSBMAQLoA4=
+SHA256 (Pkgfile) = c2d3714874b0fe90de74d1f6fe23c18618634a0354c4598b60e37f8ac7e135ce
+SHA256 (.footprint) = 95c2e2ba044ca4ed7540fbe44d25cc7b4162c6465746bbeaa8643e27c5fd2f87
+SHA256 (tzdb_0.4.0.tar.gz) = 4253c66041bdddfd463c98183bf0052fbcacdb7c5cff9eadbb858b3dcf9d3a23

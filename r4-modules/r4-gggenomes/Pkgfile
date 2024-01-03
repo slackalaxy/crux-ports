@@ -1,0 +1,15 @@
+# Description: R module gggenomes
+# URL: https://github.com/thackl/gggenomes
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-readr r4-gggenes r4-snakecase
+
+name=r4-gggenomes
+version=f29495a
+release=1
+source=(https://github.com/thackl/gggenomes/archive/f29495a/gggenomes-f29495a25cc4168946ab7897852e920f926e208a.tar.gz)
+
+build() {
+	cd gggenomes-$version*
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

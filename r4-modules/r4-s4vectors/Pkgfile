@@ -1,0 +1,15 @@
+# Description: R module S4Vectors
+# URL: https://bioconductor.org/packages/release/bioc/html/S4Vectors.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-biocgenerics
+
+name=r4-s4vectors
+version=0.40.2
+release=1
+source=(https://bioconductor.org/packages/release/bioc/src/contrib/S4Vectors_${version}.tar.gz)
+
+build() {
+	cd S4Vectors
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

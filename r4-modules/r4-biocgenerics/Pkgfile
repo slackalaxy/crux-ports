@@ -1,0 +1,15 @@
+# Description: R module BiocGenerics
+# URL: https://www.bioconductor.org/packages/release/bioc/html/BiocGenerics.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r
+
+name=r4-biocgenerics
+version=0.48.1
+release=1
+source=(https://bioconductor.org/packages/release/bioc/src/contrib/BiocGenerics_${version}.tar.gz)
+
+build() {
+	cd BiocGenerics
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

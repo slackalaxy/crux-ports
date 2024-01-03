@@ -1,0 +1,16 @@
+# Description: R module vroom
+# URL: https://cran.r-project.org/web/packages/vroom
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-bit64 r4-cli r4-cpp11 r4-crayon r4-glue r4-hms r4-lifecycle r4-progress r4-rlang r4-tibble r4-tidyselect r4-tzdb r4-vctrs r4-withr
+# Optional: r4-archive r4-bench r4-covr r4-curl r4-dplyr r4-forcats r4-fs r4-ggplot2 r4-knitr r4-patchwork r4-prettyunits r4-purrr r4-rmarkdown r4-rstudioapi r4-scales r4-spelling r4-testthat r4-tidyr r4-waldo r4-xml2
+
+name=r4-vroom
+version=1.6.5
+release=1
+source=(https://cloud.r-project.org/src/contrib/vroom_${version}.tar.gz)
+
+build() {
+	cd vroom
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
