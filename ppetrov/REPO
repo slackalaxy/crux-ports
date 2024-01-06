@@ -427,6 +427,7 @@ d:wps-office
 d:bluecurve-gtk-themes
 d:xmms-skins-garetjax
 d:nlopt
+d:r4-biocmanager
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:988c2e3fd5ba0ea4492d3ba7273af295:acpid/acpid-2.0.34.tar.xz
@@ -1999,9 +2000,9 @@ f:5e718d09dfc4b10d20f54e44bd8263da:dia/.signature
 f:e5814e76ede7bca25a539a287e7fc8df:dia/Pkgfile
 f:586e365a0640857f0bffa765e3330519:dia/dia-0.97.0-gnome-doc.patch
 f:3ca71280b2c4c7bfe565fbe4358d179e:dia/dia-0.97.2-underlinking.patch
-f:fbc94e14423c96ba82249287d55fd0e3:cran2crux/Pkgfile
-f:76081360accc4da084e04707864425ac:cran2crux/.footprint
-f:b7fe4ecfe8aa2838b791b81cb03ede8c:cran2crux/.signature
+f:8dfacd63f8024b45a3930354030682d9:cran2crux/Pkgfile
+f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
+f:1361a83f63e9714b665c4ebd94240681:cran2crux/.signature
 f:97ca9e97970563c331562c585503079e:scwrl/Pkgfile
 f:2ab0b0b3277fbf49d9b315b99827e931:scwrl/.footprint
 f:d63b3bb176933b0d7dd39c0d50d5b5f7:scwrl/.signature
@@ -2047,3 +2048,6 @@ f:d203683d4ef784f2111f8d647662d625:xmms-skins-garetjax/.signature
 f:130f118b8afe3987e981d90327b22b8b:nlopt/Pkgfile
 f:2c636130006702ab1893413da4f20e70:nlopt/.footprint
 f:48c72baa203816050b884826f5806e12:nlopt/.signature
+f:70d00b6dd98fcf055f4749e6533fe724:r4-biocmanager/.footprint
+f:e4ef5aa5bad1e968b1d09d271983f70b:r4-biocmanager/Pkgfile
+f:0ff0fea9b6cbbc8e97d51cdfd7baec8b:r4-biocmanager/.signature
