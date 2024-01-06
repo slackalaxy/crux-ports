@@ -1,17 +1,18 @@
 # Description: Write CRUX ports for CRAN R modules
 # URL: https://github.com/slackalaxy/cran2crux
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r4-biocmanager
 
 name=cran2crux
-version=1233ba7
+version=588ad6f
 release=1
-source=(https://github.com/slackalaxy/cran2crux/archive/$version/$name-1233ba78d94361f53e436bad458d05e3971a2dd4.tar.gz)
+source=(https://github.com/slackalaxy/cran2crux/archive/$version/$name-588ad6f291e762e5c1d14824decb780d514ceecd.tar.gz)
 
 build() {
 	cd $name-${version}*
 	install -D -m755 $name $PKG/usr/bin/$name
 	install -D -m644 $name.conf $PKG/etc/$name.conf
 	install -D -m644 cran2pkgfile.R $PKG/usr/lib/$name/cran2pkgfile.R
+	install -D -m644 old2new.R $PKG/usr/lib/$name/old2new.R
 	install -D -m644 $name.1 $PKG/usr/share/man/man1/$name.1
 }

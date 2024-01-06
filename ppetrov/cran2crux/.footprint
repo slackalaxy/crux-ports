@@ -6,6 +6,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cran2crux/
 -rw-r--r--	root/root	usr/lib/cran2crux/cran2pkgfile.R
+-rw-r--r--	root/root	usr/lib/cran2crux/old2new.R
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
