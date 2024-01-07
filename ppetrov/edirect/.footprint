@@ -87,6 +87,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/rchive.Linux
 -rwxr-xr-x	root/root	usr/bin/ref2pmid
 -rwxr-xr-x	root/root	usr/bin/refseq-nm-starts
+-rwxr-xr-x	root/root	usr/bin/refseq-nm-subseq
 -rwxr-xr-x	root/root	usr/bin/reorder-columns
 -rwxr-xr-x	root/root	usr/bin/run-ncbi-converter
 -rwxr-xr-x	root/root	usr/bin/scn2xml
