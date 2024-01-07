@@ -4,7 +4,7 @@
 # Depends on: python3-numpy
 
 name=biopython
-version=1.81
+version=1.82
 release=1
 source=(http://biopython.org/DIST/$name-$version.tar.gz)
 
