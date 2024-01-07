@@ -4,7 +4,7 @@
 # Depends on: hyphen icu keyutils krb5 libgpg-error libtiff44 libwebp nss openjpeg2 openssl11 qt6-declarative qt6-wayland qt6-pdfwidgets qt6-svg tslib wayland xorg-libsm xorg-libxcomposite xorg-xcb-util-image xorg-xcb-util-keysyms xorg-xcb-util-renderutil xorg-xcb-util-wm
 
 name=calibre-bin
-version=7.2.0
+version=7.3.0
 release=1
 source=(https://download.calibre-ebook.com/$version/calibre-$version-x86_64.txz
 	$name.desktop)
