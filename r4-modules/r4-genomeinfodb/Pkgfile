@@ -1,0 +1,16 @@
+# Description: R module GenomeInfoDb
+# URL: https://bioconductor.org/packages/GenomeInfoDb
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocgenerics r4-genomeinfodbdata r4-iranges r4-rcurl r4-s4vectors
+# Optional: r4-biocstyle r4-bsgenome r4-bsgenome-celegans-ucsc-ce2 r4-bsgenome-hsapiens-ncbi-grch38 r4-bsgenome-scerevisiae-ucsc-saccer2 r4-data-table r4-genomicalignments r4-genomicfeatures r4-genomicranges r4-knitr r4-r-utils r4-rsamtools r4-runit r4-txdb-dmelanogaster-ucsc-dm3-ensgene
+
+name=r4-genomeinfodb
+version=1.38.5
+release=1
+source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/GenomeInfoDb_${version}.tar.gz)
+
+build() {
+	cd GenomeInfoDb
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

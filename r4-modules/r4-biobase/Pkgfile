@@ -1,0 +1,16 @@
+# Description: R module Biobase
+# URL: https://bioconductor.org/packages/Biobase
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-biocgenerics
+# Optional: r4-all r4-biocstyle r4-golubesets r4-knitr r4-runit r4-tkwidgets
+
+name=r4-biobase
+version=2.62.0
+release=1
+source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/Biobase_${version}.tar.gz)
+
+build() {
+	cd Biobase
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

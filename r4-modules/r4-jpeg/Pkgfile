@@ -1,7 +1,7 @@
 # Description: R module jpeg
 # URL: https://cran.r-project.org/web/packages/jpeg
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: gcc-fortran r
 # Optional: 
 
 name=r4-jpeg

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89FWk0e+0g28FjFrHYI8BqlxLL32ZNtglkr7xn22UCOoOCmtgfrQAATi9R1xVxzfDvxZ6Vy35OcBeDAjDUNYAqAg=
+SHA256 (Pkgfile) = b174368a21f42937e25220e760dcc7a3bdac1bab75999e80b0fa382a601d1a4c
+SHA256 (.footprint) = d8388428b635bf6db19169d191e20dbdc924ff05f2ea66c218368221305b6d4d
+SHA256 (DBI_1.2.0.tar.gz) = f63622fb9298e7decdfad8be51ac25e690d36b1f68c2cff4e27271e91d168cbc

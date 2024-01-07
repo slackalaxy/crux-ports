@@ -5,7 +5,7 @@
 # Optional: r4-markdown r4-r-rsp r4-rhpcblasctl
 
 name=r4-future
-version=1.33.0
+version=1.33.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/future_${version}.tar.gz)
 

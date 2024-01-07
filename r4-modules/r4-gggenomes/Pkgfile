@@ -1,7 +1,7 @@
 # Description: R module gggenomes
 # URL: https://github.com/thackl/gggenomes
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-readr r4-gggenes r4-snakecase
+# Depends on: gcc-fortran r r4-gggenes r4-readr r4-snakecase
 
 name=r4-gggenomes
 version=f29495a

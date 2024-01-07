@@ -1,7 +1,7 @@
 # Description: R module tzdb
 # URL: https://cran.r-project.org/web/packages/tzdb
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cpp11
+# Depends on: gcc-fortran r r4-cpp11
 # Optional: r4-covr r4-testthat
 
 name=r4-tzdb

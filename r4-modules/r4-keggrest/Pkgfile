@@ -1,0 +1,16 @@
+# Description: R module KEGGREST
+# URL: https://bioconductor.org/packages/KEGGREST
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biostrings r4-httr r4-png
+# Optional: r4-biocgenerics r4-knitr r4-markdown r4-runit
+
+name=r4-keggrest
+version=1.42.0
+release=1
+source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/KEGGREST_${version}.tar.gz)
+
+build() {
+	cd KEGGREST
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

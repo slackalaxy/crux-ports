@@ -1,0 +1,16 @@
+# Description: R module BiocManager
+# URL: https://cran.r-project.org/web/packages/BiocManager
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r
+# Optional: r4-curl r4-knitr r4-remotes r4-rmarkdown r4-testthat r4-withr
+
+name=r4-biocmanager
+version=1.30.22
+release=1
+source=(https://cloud.r-project.org/src/contrib/BiocManager_${version}.tar.gz)
+
+build() {
+	cd BiocManager
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

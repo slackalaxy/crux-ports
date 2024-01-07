@@ -1,7 +1,7 @@
 # Description: R module xml2
 # URL: https://cran.r-project.org/web/packages/xml2
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-rlang
+# Depends on: gcc-fortran r r4-cli r4-rlang
 # Optional: r4-covr r4-curl r4-httr r4-knitr r4-magrittr r4-mockery r4-rmarkdown r4-testthat
 
 name=r4-xml2

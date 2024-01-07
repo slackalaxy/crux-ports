@@ -1,7 +1,7 @@
 # Description: R module clipr
 # URL: https://cran.r-project.org/web/packages/clipr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r
 # Optional: r4-covr r4-knitr r4-rmarkdown r4-rstudioapi r4-testthat
 
 name=r4-clipr

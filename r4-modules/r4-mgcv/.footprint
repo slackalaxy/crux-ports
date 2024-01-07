@@ -46,10 +46,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/mgcv/po/fr/
 drwxr-xr-x	root/root	usr/lib/R/library/mgcv/po/fr/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/mgcv/po/fr/LC_MESSAGES/R-mgcv.mo
 -rw-r--r--	root/root	usr/lib/R/library/mgcv/po/fr/LC_MESSAGES/mgcv.mo
-drwxr-xr-x	root/root	usr/lib/R/library/mgcv/po/it/
-drwxr-xr-x	root/root	usr/lib/R/library/mgcv/po/it/LC_MESSAGES/
--rw-r--r--	root/root	usr/lib/R/library/mgcv/po/it/LC_MESSAGES/R-mgcv.mo
--rw-r--r--	root/root	usr/lib/R/library/mgcv/po/it/LC_MESSAGES/mgcv.mo
 drwxr-xr-x	root/root	usr/lib/R/library/mgcv/po/ko/
 drwxr-xr-x	root/root	usr/lib/R/library/mgcv/po/ko/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/mgcv/po/ko/LC_MESSAGES/R-mgcv.mo

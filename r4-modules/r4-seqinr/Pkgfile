@@ -1,7 +1,7 @@
 # Description: R module seqinr
 # URL: https://cran.r-project.org/web/packages/seqinr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-ade4 r4-segmented
+# Depends on: gcc-fortran r r4-ade4 r4-segmented
 # Optional: 
 
 name=r4-seqinr

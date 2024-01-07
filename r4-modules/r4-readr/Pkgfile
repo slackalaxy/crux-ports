@@ -1,7 +1,7 @@
 # Description: R module readr
 # URL: https://cran.r-project.org/web/packages/readr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-clipr r4-cpp11 r4-crayon r4-hms r4-lifecycle r4-r6 r4-rlang r4-tibble r4-tzdb r4-vroom
+# Depends on: gcc-fortran r r4-cli r4-clipr r4-cpp11 r4-crayon r4-hms r4-lifecycle r4-r6 r4-rlang r4-tibble r4-tzdb r4-vroom
 # Optional: r4-covr r4-curl r4-knitr r4-rmarkdown r4-spelling r4-stringi r4-testthat r4-tzdb r4-waldo r4-withr r4-xml2
 
 name=r4-readr
