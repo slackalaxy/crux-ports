@@ -2000,9 +2000,9 @@ f:5e718d09dfc4b10d20f54e44bd8263da:dia/.signature
 f:e5814e76ede7bca25a539a287e7fc8df:dia/Pkgfile
 f:586e365a0640857f0bffa765e3330519:dia/dia-0.97.0-gnome-doc.patch
 f:3ca71280b2c4c7bfe565fbe4358d179e:dia/dia-0.97.2-underlinking.patch
-f:8dfacd63f8024b45a3930354030682d9:cran2crux/Pkgfile
+f:62a1705e84c767c651048bdc78d17b51:cran2crux/Pkgfile
 f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
-f:1361a83f63e9714b665c4ebd94240681:cran2crux/.signature
+f:ea2626eabad6dd7f08dd906f2b0193a1:cran2crux/.signature
 f:97ca9e97970563c331562c585503079e:scwrl/Pkgfile
 f:2ab0b0b3277fbf49d9b315b99827e931:scwrl/.footprint
 f:d63b3bb176933b0d7dd39c0d50d5b5f7:scwrl/.signature
