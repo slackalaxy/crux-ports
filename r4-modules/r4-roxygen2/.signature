@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89JPlQhWWMm10u1VvKGQIOaeu9ls8ZaW2VreZoMxOWNDFLOT39tnMxiX1F0ygWfithxUIb3DKHpLWnou7D0bvYA0=
+SHA256 (Pkgfile) = 2ea0523e108546b8d6d09aa739db2bef9a5bee0dd2d1091b489ffc5bc731337a
+SHA256 (.footprint) = 787e93ad6f49f98781cba2a14f4fbbe722f787b3a866c167710ed6476ce2b43a
+SHA256 (roxygen2_7.2.3.tar.gz) = d844fab977d2575ab942fa1309ac7ff67f35f099a75d8b41c79efe6ea10416da

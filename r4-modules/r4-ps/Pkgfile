@@ -1,0 +1,16 @@
+# Description: R module ps
+# URL: https://cran.r-project.org/web/packages/ps
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r
+# Optional: r4-callr r4-covr r4-curl r4-pillar r4-pingr r4-processx r4-r6 r4-rlang r4-testthat r4-webfakes
+
+name=r4-ps
+version=1.7.5
+release=1
+source=(https://cloud.r-project.org/src/contrib/ps_${version}.tar.gz)
+
+build() {
+	cd ps
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

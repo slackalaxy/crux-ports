@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89IToenAZ30ERzF32uChUU5Z0R2nHBN84n5/xd8KYqMfDCuywWQPGa1gTZu7xN2eEPbT1haGyThaG/c5uBbi8FwM=
+SHA256 (Pkgfile) = 7b1b7aa13ff3611aafa4d5624db1ba544172bbdb2832ac5260be62b5e9776957
+SHA256 (.footprint) = cf4f29f85e212c5905fd4751e113df136a7772147901f05e2aaef16cca7d4c47
+SHA256 (callr_3.7.3.tar.gz) = 567bfedf073a1d4c5785f0553341608a214938110567b9a6495ff20ebb2fd04e

@@ -1,0 +1,16 @@
+# Description: R module processx
+# URL: https://cran.r-project.org/web/packages/processx
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-ps r4-r6
+# Optional: r4-callr r4-cli r4-codetools r4-covr r4-curl r4-debugme r4-rlang r4-testthat r4-webfakes r4-withr
+
+name=r4-processx
+version=3.8.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/processx_${version}.tar.gz)
+
+build() {
+	cd processx
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

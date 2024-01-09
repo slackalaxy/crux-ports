@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89POKn9GatkigD2SLoxuEPMtaN26UBVOK5utUAmm/uLCTWdaSaFVJpGQXkbzp5NIz+CGbHGBxPF40DbijbKLoGgQ=
+SHA256 (Pkgfile) = 86c8a6e7496cfed09c4a09c536903f7f34bf14bebc62de73f8dd67a27cbd4587
+SHA256 (.footprint) = 399c8c0be3e4fa1340778c425b5070d6d788cbaaca55a7f88a82c26edb6725fd
+SHA256 (whisker_0.4.1.tar.gz) = bf5151494508032f68ac41e211bda80da9087c65c7068ffdd12f16669bf1f2bc

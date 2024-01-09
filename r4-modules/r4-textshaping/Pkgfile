@@ -1,0 +1,16 @@
+# Description: R module textshaping
+# URL: https://cran.r-project.org/web/packages/textshaping
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-cpp11 r4-systemfonts
+# Optional: r4-covr r4-knitr r4-rmarkdown
+
+name=r4-textshaping
+version=0.3.7
+release=1
+source=(https://cloud.r-project.org/src/contrib/textshaping_${version}.tar.gz)
+
+build() {
+	cd textshaping
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

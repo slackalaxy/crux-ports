@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89Jd2h6ptoT9e9tC2yN5e93fT09Z8RZGz1M7JuOv9qjc1bMAMk8YKTw+xDvIVhtMA8OTxHBbFO65oZh+U9i4ZLQs=
+SHA256 (Pkgfile) = 335835f597de02ef537bc7c60b2096c54204ae297f87058b4c378215f81fd651
+SHA256 (.footprint) = 9d49c3041c6ea2da1190c2d899bd028be33fdfedaba5bc515ebdf88ee0d396ac
+SHA256 (rstudioapi_0.15.0.tar.gz) = 935bc81dca37d3d6e77982bfe6e7fbd779e8606e5b7e00d0ba4c80fec0416ccf

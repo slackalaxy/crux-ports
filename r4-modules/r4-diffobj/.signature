@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89N4CEUU3Wn/5VXIGUcsg/IByEc9WIrlvExsg0gm8vqO5KGXvWIu/IfZ1BlAxe12SVzwbu747+lWYp70nYQXhHgQ=
+SHA256 (Pkgfile) = 69ff2788173144f0f57566396e87a356e999debb6fa16811c4a1285484e4844a
+SHA256 (.footprint) = 3a50935391fdad5cea6028c490f1ddac07c9193df9c49272e0d5e0d56ae9628c
+SHA256 (diffobj_0.3.5.tar.gz) = d860a79b1d4c9e369282d7391b539fe89228954854a65ba47181407c53e3cf60

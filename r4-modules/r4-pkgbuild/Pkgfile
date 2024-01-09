@@ -1,0 +1,16 @@
+# Description: R module pkgbuild
+# URL: https://cran.r-project.org/web/packages/pkgbuild
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-callr r4-cli r4-desc r4-processx r4-r6
+# Optional: r4-covr r4-cpp11 r4-knitr r4-mockery r4-rcpp r4-rmarkdown r4-testthat r4-withr
+
+name=r4-pkgbuild
+version=1.4.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/pkgbuild_${version}.tar.gz)
+
+build() {
+	cd pkgbuild
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

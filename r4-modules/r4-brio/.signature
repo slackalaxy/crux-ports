@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89JnbpypxNqWVsitpQ3aKfyYwZdFFjOunEaCtCGpyVM2Wn9KK26t6JuHIrPHezYniXnlRsz95OSVHAE2dN2d3sQw=
+SHA256 (Pkgfile) = ee17f4b4f2870f9e3177b04ebbb590be9fc32529cb25324f1c4849a980503c9d
+SHA256 (.footprint) = a18f395b6de25c79f853d7b426e93f759044ae19a8e2c6ebb60825237a928245
+SHA256 (brio_1.1.4.tar.gz) = 0cbbf38948682b2435eea69b04be59187b149183dc7562df71dc0d3e260e18e8

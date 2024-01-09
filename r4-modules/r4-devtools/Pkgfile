@@ -1,0 +1,16 @@
+# Description: R module devtools
+# URL: https://cran.r-project.org/web/packages/devtools
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-desc r4-ellipsis r4-fs r4-lifecycle r4-memoise r4-miniui r4-pkgbuild r4-pkgdown r4-pkgload r4-profvis r4-rcmdcheck r4-remotes r4-rlang r4-roxygen2 r4-rversions r4-sessioninfo r4-testthat r4-urlchecker r4-usethis r4-withr
+# Optional: r4-biocmanager r4-callr r4-covr r4-curl r4-digest r4-dt r4-foghorn r4-gh r4-gmailr r4-httr r4-knitr r4-lintr r4-mass r4-mockery r4-pingr r4-rhub r4-rmarkdown r4-rstudioapi r4-spelling
+
+name=r4-devtools
+version=2.4.5
+release=1
+source=(https://cloud.r-project.org/src/contrib/devtools_${version}.tar.gz)
+
+build() {
+	cd devtools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

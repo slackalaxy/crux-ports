@@ -1,0 +1,16 @@
+# Description: R module testthat
+# URL: https://cran.r-project.org/web/packages/testthat
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-brio r4-callr r4-cli r4-desc r4-digest r4-evaluate r4-jsonlite r4-lifecycle r4-magrittr r4-pkgload r4-praise r4-processx r4-ps r4-r6 r4-rlang r4-waldo r4-withr
+# Optional: r4-covr r4-curl r4-diffviewer r4-knitr r4-rmarkdown r4-rstudioapi r4-shiny r4-usethis r4-vctrs r4-xml2
+
+name=r4-testthat
+version=3.2.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/testthat_${version}.tar.gz)
+
+build() {
+	cd testthat
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

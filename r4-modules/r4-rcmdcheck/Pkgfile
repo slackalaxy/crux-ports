@@ -1,0 +1,16 @@
+# Description: R module rcmdcheck
+# URL: https://cran.r-project.org/web/packages/rcmdcheck
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-callr r4-cli r4-curl r4-desc r4-digest r4-pkgbuild r4-prettyunits r4-r6 r4-rprojroot r4-sessioninfo r4-withr r4-xopen
+# Optional: r4-covr r4-knitr r4-mockery r4-processx r4-ps r4-rmarkdown r4-svglite r4-testthat r4-webfakes
+
+name=r4-rcmdcheck
+version=1.4.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/rcmdcheck_${version}.tar.gz)
+
+build() {
+	cd rcmdcheck
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
