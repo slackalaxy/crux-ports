@@ -5,9 +5,9 @@
 # Optional: r4-xml
 
 name=r4-rcurl
-version=1.98.1.13
+version=1.98.1.14
 release=1
-source=(https://cloud.r-project.org/src/contrib/RCurl_1.98-1.13.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/RCurl_1.98-1.14.tar.gz)
 
 build() {
 	cd RCurl

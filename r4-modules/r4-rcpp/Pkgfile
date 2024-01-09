@@ -5,7 +5,7 @@
 # Optional: r4-inline r4-pkgkitten r4-rbenchmark r4-tinytest
 
 name=r4-rcpp
-version=1.0.11
+version=1.0.12
 release=1
 source=(https://cloud.r-project.org/src/contrib/Rcpp_${version}.tar.gz)
 
