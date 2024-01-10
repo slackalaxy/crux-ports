@@ -428,6 +428,7 @@ d:bluecurve-gtk-themes
 d:xmms-skins-garetjax
 d:nlopt
 d:r4-biocmanager
+d:xdg-user-dirs
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:988c2e3fd5ba0ea4492d3ba7273af295:acpid/acpid-2.0.34.tar.xz
@@ -2000,9 +2001,9 @@ f:5e718d09dfc4b10d20f54e44bd8263da:dia/.signature
 f:e5814e76ede7bca25a539a287e7fc8df:dia/Pkgfile
 f:586e365a0640857f0bffa765e3330519:dia/dia-0.97.0-gnome-doc.patch
 f:3ca71280b2c4c7bfe565fbe4358d179e:dia/dia-0.97.2-underlinking.patch
-f:62a1705e84c767c651048bdc78d17b51:cran2crux/Pkgfile
+f:161c2ec2d61ddbd9d35e92b4a2780951:cran2crux/Pkgfile
 f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
-f:ea2626eabad6dd7f08dd906f2b0193a1:cran2crux/.signature
+f:c784c56b6e6cb18b692efec3fa217c3e:cran2crux/.signature
 f:97ca9e97970563c331562c585503079e:scwrl/Pkgfile
 f:2ab0b0b3277fbf49d9b315b99827e931:scwrl/.footprint
 f:d63b3bb176933b0d7dd39c0d50d5b5f7:scwrl/.signature
@@ -2035,8 +2036,8 @@ f:dd63fe4c39bb27bf7934fb58ab3834ba:xmms-skins-carbonate/Pkgfile
 f:732248d7cd6b5d7c48534ce86a4c5a15:xmms-skins-carbonate/.footprint
 f:41c7b8b23174b651ace895dfe9603791:xmms-skins-carbonate/.signature
 f:9d98b7588aa18ec6e2152b7c44384777:wps-office/.footprint
-f:c156c2ca31918fc35028c4bda28e3dfa:wps-office/.signature
-f:b4fa47adcea40b0fdc43b45355711513:wps-office/Pkgfile
+f:cdbfbaeff9ffcac8cae455a9c872df33:wps-office/.signature
+f:52bc7281f8077f469c4b4b58e0225513:wps-office/Pkgfile
 f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
 f:eb2b4f1ed0245da7f0de62d0d197fb79:wps-office/desktop.tar
 f:bd9fc6112a79813e1c6e4985d51b7894:bluecurve-gtk-themes/Pkgfile
