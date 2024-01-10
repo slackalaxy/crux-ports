@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-crayon r4-dbi r4-dplyr r4-forcats r4-ggplot2 r4-knitr r4-magrittr r4-microbenchmark r4-r-utils r4-rmarkdown r4-rprintf r4-rsqlite r4-stringr r4-testthat r4-vctrs r4-waldo r4-withr
 
 name=r4-glue
-version=1.6.2
+version=1.7.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/glue_${version}.tar.gz)
 

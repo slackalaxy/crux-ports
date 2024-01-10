@@ -25,9 +25,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/glue/doc/
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/engines.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/engines.html
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/index.html
--rw-r--r--	root/root	usr/lib/R/library/glue/doc/speed.R
--rw-r--r--	root/root	usr/lib/R/library/glue/doc/speed.Rmd
--rw-r--r--	root/root	usr/lib/R/library/glue/doc/speed.html
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/transformers.R
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/transformers.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/transformers.html
