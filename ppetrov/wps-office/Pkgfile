@@ -5,7 +5,7 @@
 
 name=wps-office
 version=11.1.0.11711.XA
-release=3
+release=4
 source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
 	desktop.tar)
 
@@ -29,7 +29,7 @@ build() {
 	
 	# use GTK (try to...)
 	# https://wiki.archlinux.org/title/WPS_Office
-	sed -i 's:gOpt=:gOpt=-style=gtk+ :g' $PKG/usr/bin/*
+	sed -i 's:gOpt=:gOpt="-style=gtk+":g' $PKG/usr/bin/*
 	sed -i 's:#gOptExt=-multiply:export GTK2_RC_FILES=/usr/share/themes/Raleigh/gtk-2.0/gtkrc:' $PKG/usr/bin/*
 	
  	# Use my desktop entries and I do not want any file associations
