@@ -1,0 +1,16 @@
+# Description: R module clock
+# URL: https://cran.r-project.org/web/packages/clock
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-cli r4-cpp11 r4-lifecycle r4-rlang r4-tzdb r4-vctrs
+# Optional: r4-covr r4-knitr r4-magrittr r4-pillar r4-rmarkdown r4-slider r4-testthat r4-withr
+
+name=r4-clock
+version=0.7.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/clock_${version}.tar.gz)
+
+build() {
+	cd clock
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

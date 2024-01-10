@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89BQGHrSJPYjX+FgEaAtWMVktxMdtj1MZPpXlUUnAXpXB691CupccwC6aYHHGhAB6Qk4pu3zoeeBWhCdyO/4x9g0=
+SHA256 (Pkgfile) = 44fcfb8e37db24713883da04c369e3d1c894ccea8957aff2cab63502abf070c9
+SHA256 (.footprint) = 0037480ba95469bee134e1b970659ece966808f87309e055e54d89e2474e963c
+SHA256 (clock_0.7.0.tar.gz) = 54e57a3b3f8c308d67536e2a75d48f3493cf7fe821bfa4da9159b4fb2ceca874

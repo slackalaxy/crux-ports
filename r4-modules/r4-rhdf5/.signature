@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89BCJ+BHEcbxNxa6dqm5zQJtYmZclurZK9aqmh3iAU+jQZVtPeEv9WcOngIfLGZRloFdGxMjTcA4B/uepHlVvGA4=
+SHA256 (Pkgfile) = 29de64838ea4cf72695dec683db6f69dfdb01c00545726155f32f84688f31788
+SHA256 (.footprint) = 14f7a54c85f60e584dd3560b9921cc875649fe7985a19c33fa0bcf4f8f5342d3
+SHA256 (rhdf5_2.46.1.tar.gz) = b68f4960bf8498e83984467b07ed8fa10b3ef68fb5abbc776d6b7dee9307de79

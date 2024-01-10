@@ -1,7 +1,7 @@
 # Description: R module nlme
 # URL: https://cran.r-project.org/web/packages/nlme
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-lattice
+# Depends on: r r4-lattice
 # Optional: r4-hmisc r4-mass r4-sasmixed
 
 name=r4-nlme

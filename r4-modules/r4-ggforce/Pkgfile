@@ -1,0 +1,16 @@
+# Description: R module ggforce
+# URL: https://cran.r-project.org/web/packages/ggforce
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-cli r4-ggplot2 r4-gtable r4-lifecycle r4-mass r4-polyclip r4-rcpp r4-rcppeigen r4-rlang r4-scales r4-systemfonts r4-tidyselect r4-tweenr r4-vctrs r4-withr
+# Optional: r4-concaveman r4-covr r4-deldir r4-latex2exp r4-reshape2 r4-sessioninfo r4-units
+
+name=r4-ggforce
+version=0.4.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/ggforce_${version}.tar.gz)
+
+build() {
+	cd ggforce
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

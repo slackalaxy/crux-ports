@@ -1,0 +1,16 @@
+# Description: R module shadowtext
+# URL: https://cran.r-project.org/web/packages/shadowtext
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggplot2 r4-scales
+# Optional: r4-knitr r4-prettydoc r4-rmarkdown
+
+name=r4-shadowtext
+version=0.1.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/shadowtext_${version}.tar.gz)
+
+build() {
+	cd shadowtext
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

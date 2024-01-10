@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89LrdFaLQTBtvA0RHZvW2sOgtZSRR3FWo4ym8uppibsdtZRNQGHgRlj2Xsh9S+8A3/HQ0m6E605c5hI5oG6LfaQc=
+SHA256 (Pkgfile) = a3921db53582264b453c6bfaef5dc424438a97764cabb8f832dd77df85b20661
+SHA256 (.footprint) = 816cfdae32c97696d0d9673c6b6c3108701cc46d3c97ba8959983e0e95cc9da7
+SHA256 (caret_6.0-94.tar.gz) = 2715e83ca260bb739cd926a55b0d2da1e3f6308b17b56862466e738d930d29a8

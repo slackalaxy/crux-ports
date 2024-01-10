@@ -1,0 +1,16 @@
+# Description: R module fontLiberation
+# URL: https://cran.r-project.org/web/packages/fontLiberation
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r
+# Optional: 
+
+name=r4-fontliberation
+version=0.1.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/fontLiberation_${version}.tar.gz)
+
+build() {
+	cd fontLiberation
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

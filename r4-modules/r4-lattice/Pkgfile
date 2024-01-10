@@ -1,7 +1,7 @@
 # Description: R module lattice
 # URL: https://cran.r-project.org/web/packages/lattice
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-colorspace r4-kernsmooth r4-latticeextra r4-mass
 
 name=r4-lattice

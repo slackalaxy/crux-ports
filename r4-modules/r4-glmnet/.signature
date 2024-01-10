@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89ACAuJwQXJ3H6yKhcXxfIouFlcytprLYBJpUkjyjJErfpOxRrN/J/Udp6t/l23LK7axOxdHAJFsNreerHW7htA8=
+SHA256 (Pkgfile) = d4a7e3206c9a110271e7fb991cea598c49f410367f0daa80e379e27a603660a3
+SHA256 (.footprint) = 3c9e7dd99f5022fb9cf7ffc7eb1848d0ed3bb8bb5556ef64085f2b1c9d2945f9
+SHA256 (glmnet_4.1-8.tar.gz) = 1ddbe5ce07076d1bdf58b0202ebd0ceac8eeb4796c5175681adb9e58c30ddcfe

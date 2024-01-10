@@ -1,0 +1,16 @@
+# Description: R module crul
+# URL: https://cran.r-project.org/web/packages/crul
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-curl r4-httpcode r4-jsonlite r4-mime r4-r6 r4-urltools
+# Optional: r4-fauxpas r4-knitr r4-rmarkdown r4-roxygen2 r4-testthat r4-webmockr
+
+name=r4-crul
+version=1.4.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/crul_${version}.tar.gz)
+
+build() {
+	cd crul
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

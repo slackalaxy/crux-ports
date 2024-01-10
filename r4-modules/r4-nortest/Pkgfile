@@ -1,0 +1,16 @@
+# Description: R module nortest
+# URL: https://cran.r-project.org/web/packages/nortest
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r
+# Optional: 
+
+name=r4-nortest
+version=1.0.4
+release=1
+source=(https://cloud.r-project.org/src/contrib/nortest_1.0-4.tar.gz)
+
+build() {
+	cd nortest
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89FQZCq608ZPdyTZeVWadocogeObqAAevIU9uSjq8ZAAXKq1qpD/PcNXky9prIPS0hTXkoQB4GMDBG1jtuBPWJg4=
+SHA256 (Pkgfile) = 8dec9c5c195fae5695ea9fed75af4f1f1b4ce36a21ef182de51b64ad3c1a4c5d
+SHA256 (.footprint) = 51d15b9777159a323a5f09cfe6439cfb3fcecb543f9572567db8863ade521617
+SHA256 (pROC_1.18.5.tar.gz) = 5593c841a6df5a2f2d209d0c14401971eb9427092ed9c3ac2059273807b42c89

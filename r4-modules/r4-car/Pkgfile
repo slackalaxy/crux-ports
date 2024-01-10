@@ -1,0 +1,16 @@
+# Description: R module car
+# URL: https://cran.r-project.org/web/packages/car
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-abind r4-cardata r4-lme4 r4-mass r4-mgcv r4-nlme r4-nnet r4-pbkrtest r4-quantreg r4-scales
+# Optional: r4-alr4 r4-boot r4-coxme r4-effects r4-knitr r4-leaps r4-lmtest r4-matrix r4-matrixmodels r4-mvtnorm r4-rgl r4-rio r4-sandwich r4-sparsem r4-survey r4-survival
+
+name=r4-car
+version=3.1.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/car_3.1-2.tar.gz)
+
+build() {
+	cd car
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

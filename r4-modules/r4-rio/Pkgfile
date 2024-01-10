@@ -1,0 +1,16 @@
+# Description: R module rio
+# URL: https://cran.r-project.org/web/packages/rio
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-curl r4-data-table r4-foreign r4-haven r4-lifecycle r4-readxl r4-r-utils r4-stringi r4-tibble r4-writexl
+# Optional: r4-arrow r4-bit64 r4-clipr r4-fst r4-hexview r4-jsonlite r4-knitr r4-magrittr r4-pzfx r4-qs r4-readods r4-readr r4-rmarkdown r4-rmatio r4-testthat r4-xml2 r4-yaml
+
+name=r4-rio
+version=1.0.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/rio_${version}.tar.gz)
+
+build() {
+	cd rio
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

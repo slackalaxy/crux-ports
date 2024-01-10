@@ -1,0 +1,16 @@
+# Description: R module tweenr
+# URL: https://cran.r-project.org/web/packages/tweenr
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-cpp11 r4-farver r4-magrittr r4-rlang r4-vctrs
+# Optional: r4-covr r4-testthat
+
+name=r4-tweenr
+version=2.0.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/tweenr_${version}.tar.gz)
+
+build() {
+	cd tweenr
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module rstatix
+# URL: https://cran.r-project.org/web/packages/rstatix
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-broom r4-car r4-corrplot r4-dplyr r4-generics r4-magrittr r4-purrr r4-rlang r4-tibble r4-tidyr r4-tidyselect
+# Optional: r4-boot r4-coin r4-emmeans r4-ggpubr r4-knitr r4-rmarkdown r4-spelling r4-testthat
+
+name=r4-rstatix
+version=0.7.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/rstatix_${version}.tar.gz)
+
+build() {
+	cd rstatix
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

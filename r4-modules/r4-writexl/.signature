@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89PX2HRxSpA8JybTm+gJ8hdkRokQF3wZIJUrS/x8BpWSXDhwjebm1zQ5vHYuLoYstMmoN5DyO561Fzuck4OkLhAI=
+SHA256 (Pkgfile) = fdcfa81d2c336a2d6911ae2eaa5548ebfda90a27033503d328528ec836146623
+SHA256 (.footprint) = ec3d4af56bc7cb988d987dd9434c61269d59c02e39060188cbb7958f4a231470
+SHA256 (writexl_1.4.2.tar.gz) = 8f75633eb2b6349a07db347d5b6bf40781a8dab63b6cb858849a616e9b629027

@@ -1,0 +1,16 @@
+# Description: R module fdrtool
+# URL: https://cran.r-project.org/web/packages/fdrtool
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r
+# Optional: 
+
+name=r4-fdrtool
+version=1.2.17
+release=1
+source=(https://cloud.r-project.org/src/contrib/fdrtool_${version}.tar.gz)
+
+build() {
+	cd fdrtool
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

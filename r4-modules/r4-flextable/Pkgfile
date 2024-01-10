@@ -1,0 +1,16 @@
+# Description: R module flextable
+# URL: https://cran.r-project.org/web/packages/flextable
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-data-table r4-gdtools r4-htmltools r4-knitr r4-officer r4-ragg r4-rlang r4-rmarkdown r4-uuid r4-xml2
+# Optional: r4-bookdown r4-broom r4-broom-mixed r4-cluster r4-commonmark r4-doconv r4-equatags r4-ggplot2 r4-lme4 r4-magick r4-mgcv r4-nlme r4-officedown r4-pdftools r4-pkgdown r4-scales r4-svglite r4-tables r4-testthat r4-webshot2 r4-xtable
+
+name=r4-flextable
+version=0.9.4
+release=1
+source=(https://cloud.r-project.org/src/contrib/flextable_${version}.tar.gz)
+
+build() {
+	cd flextable
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

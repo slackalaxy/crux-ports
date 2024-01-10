@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89G9VSzTaFJRnVYLUnjd+GiYePIg+LEuFRNd476fn/Df0GNXX65m9Z8q8L2IlWRRNg0LAWA5OmmxOZn47YpZvlwM=
+SHA256 (Pkgfile) = e95cf288bbef1d9ed730d6d9f80243f5f32b52122801fabfc942612634e54c14
+SHA256 (.footprint) = f0c8eca0558642e0890122012ddc29aad99eceea07ba8275c03613303c300522
+SHA256 (rematch_2.0.0.tar.gz) = 15daf7bf2907aef8503635bc8631fce9fd75248a1fc2496825588c4bdf785c26

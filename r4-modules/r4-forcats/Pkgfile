@@ -1,0 +1,16 @@
+# Description: R module forcats
+# URL: https://cran.r-project.org/web/packages/forcats
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-glue r4-lifecycle r4-magrittr r4-rlang r4-tibble
+# Optional: r4-covr r4-dplyr r4-ggplot2 r4-knitr r4-readr r4-rmarkdown r4-testthat r4-withr
+
+name=r4-forcats
+version=1.0.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/forcats_${version}.tar.gz)
+
+build() {
+	cd forcats
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

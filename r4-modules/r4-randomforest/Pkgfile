@@ -1,0 +1,16 @@
+# Description: R module randomForest
+# URL: https://cran.r-project.org/web/packages/randomForest
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r
+# Optional: r4-mass r4-rcolorbrewer
+
+name=r4-randomforest
+version=4.7.1.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/randomForest_4.7-1.1.tar.gz)
+
+build() {
+	cd randomForest
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

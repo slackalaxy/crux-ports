@@ -1,0 +1,16 @@
+# Description: R module foreach
+# URL: https://cran.r-project.org/web/packages/foreach
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-codetools r4-iterators
+# Optional: r4-domc r4-doparallel r4-knitr r4-randomforest r4-rmarkdown r4-testthat
+
+name=r4-foreach
+version=1.5.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/foreach_${version}.tar.gz)
+
+build() {
+	cd foreach
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

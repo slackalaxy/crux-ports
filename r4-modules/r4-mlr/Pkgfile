@@ -1,0 +1,16 @@
+# Description: R module mlr
+# URL: https://cran.r-project.org/web/packages/mlr
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-backports r4-bbmisc r4-checkmate r4-data-table r4-ggplot2 r4-parallelmap r4-paramhelpers r4-stringi r4-survival r4-xml
+# Optional: r4-ada r4-adabag r4-bartmachine r4-batchtools r4-bit64 r4-brnn r4-bst r4-c50 r4-care r4-caret r4-class r4-clue r4-cluster r4-clusterr r4-clustersim r4-cmaes r4-cowplot r4-crs r4-cubist r4-deepnet r4-dicekriging r4-e1071 r4-earth r4-elasticnet r4-emoa r4-evtree r4-fda-usc r4-fdboost r4-fnn r4-forecast r4-fpc r4-frbs r4-fselector r4-fselectorrcpp r4-gbm r4-gensa r4-ggpubr r4-glmnet r4-gpfit r4-h2o r4-hmisc r4-irace r4-kernlab r4-kknn r4-klar r4-knitr r4-lagp r4-liblinear r4-lintr r4-mass r4-mboost r4-mco r4-mda r4-memoise r4-mlbench r4-mldr r4-mlrmbo r4-mmpf r4-modeltools r4-mrmre r4-neuralnet r4-nnet r4-numderiv r4-pamr r4-pander r4-party r4-pec r4-penalized r4-pls r4-pmcmrplus r4-praznik r4-randomforest r4-ranger r4-rappdirs r4-refund r4-rex r4-rferns r4-rgenoud r4-rmarkdown r4-rmpi r4-rocr r4-rotationforest r4-rpart r4-rrf r4-rsm r4-rsnns r4-rucrdtw r4-rweka r4-sda r4-sf r4-smoof r4-sparselda r4-stepplr r4-survauc r4-svglite r4-swarmsvm r4-testthat r4-tgp r4-th-data r4-tidyr r4-tsfeatures r4-vdiffr r4-wavelets r4-xgboost
+
+name=r4-mlr
+version=2.19.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/mlr_${version}.tar.gz)
+
+build() {
+	cd mlr
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

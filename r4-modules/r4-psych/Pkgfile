@@ -1,0 +1,16 @@
+# Description: R module psych
+# URL: https://cran.r-project.org/web/packages/psych
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-lattice r4-mnormt r4-nlme
+# Optional: r4-gparotation r4-graph r4-knitr r4-lavaan r4-lme4 r4-psychtools r4-rcsdp r4-rgraphviz
+
+name=r4-psych
+version=2.3.12
+release=1
+source=(https://cloud.r-project.org/src/contrib/psych_${version}.tar.gz)
+
+build() {
+	cd psych
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

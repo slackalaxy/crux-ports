@@ -1,0 +1,16 @@
+# Description: R module foreign
+# URL: https://cran.r-project.org/web/packages/foreign
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r
+# Optional: 
+
+name=r4-foreign
+version=0.8.86
+release=1
+source=(https://cloud.r-project.org/src/contrib/foreign_0.8-86.tar.gz)
+
+build() {
+	cd foreign
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

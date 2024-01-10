@@ -1,0 +1,16 @@
+# Description: R module carData
+# URL: https://cran.r-project.org/web/packages/carData
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r
+# Optional: r4-car
+
+name=r4-cardata
+version=3.0.5
+release=1
+source=(https://cloud.r-project.org/src/contrib/carData_3.0-5.tar.gz)
+
+build() {
+	cd carData
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

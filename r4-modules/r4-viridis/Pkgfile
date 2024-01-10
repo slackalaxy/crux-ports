@@ -1,0 +1,16 @@
+# Description: R module viridis
+# URL: https://cran.r-project.org/web/packages/viridis
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggplot2 r4-gridextra r4-viridislite
+# Optional: r4-colorspace r4-covr r4-dichromat r4-hexbin r4-httr r4-knitr r4-mapproj r4-maps r4-mass r4-rmarkdown r4-scales r4-svglite r4-terra r4-testthat r4-vdiffr
+
+name=r4-viridis
+version=0.6.4
+release=1
+source=(https://cloud.r-project.org/src/contrib/viridis_${version}.tar.gz)
+
+build() {
+	cd viridis
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89KXtlUg2ZXOttJqiM5wFtpJiv0jZbcbXwado1eEz255OaOmFE5HWMOMG+tTbUUCkUoabDpKOU+7tYUoEsn/M/Qw=
+SHA256 (Pkgfile) = f4fab8063f8bb95e328158bd9d8bc1b8e8270f45f620d5f603d521eb9f939bee
+SHA256 (.footprint) = 8720d3d013c10fd31b6acf4b74624b9763ecbac1af816c8f30b17ca20f0b5d22
+SHA256 (doParallel_1.0.17.tar.gz) = b96a25ad105a654d70c7b4ca27290dc9967bc47f4668b2763927a886b178abd7

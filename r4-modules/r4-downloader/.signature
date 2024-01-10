@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89HBy+Lps0ufdyG6x5WMpCdhfRpWNfeN7F73ehKeZ7GqIAMnl1Hxo3q7M2UzM3aSieGKDFJr3iWBl9ca93CWpUwY=
+SHA256 (Pkgfile) = b8c07c31ce25ef46ba94faed01887cde792c4ed0d709eb4d06f81bfda563e108
+SHA256 (.footprint) = 220b3d238b049f5a9b305daf4163a5403dc51bd6eee2fe0629f94bea4a6845b0
+SHA256 (downloader_0.4.tar.gz) = 1890e75b028775154023f2135cafb3e3eed0fe908138ab4f7eff1fc1b47dafab

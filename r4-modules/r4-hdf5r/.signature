@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89Bw1vLKfBpOs2Lc0lCbTPFuu3P648PmBraR8nciMbslN4m2GsKLHFw+b29AwJ5R32tGHLXBebGgFxCCD0aZwGgA=
+SHA256 (Pkgfile) = ffff91052aa5789d19ee218ea8d01b2d310e3c99e02484c739c54fc895075af5
+SHA256 (.footprint) = 3c9ab046ebffb45dae6da2a911d4583a9903fb82ae1b8a330e45fe045cb897c6
+SHA256 (hdf5r_1.3.8.tar.gz) = b53281e2cf57447965849748e972de2f7fe8df0cee3538ef5813c33c7ed2302b

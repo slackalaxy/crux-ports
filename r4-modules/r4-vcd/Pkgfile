@@ -1,0 +1,16 @@
+# Description: R module vcd
+# URL: https://cran.r-project.org/web/packages/vcd
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-colorspace r4-lmtest r4-mass
+# Optional: r4-coin r4-hsaur3 r4-kernlab r4-kernsmooth r4-mvtnorm
+
+name=r4-vcd
+version=1.4.12
+release=1
+source=(https://cloud.r-project.org/src/contrib/vcd_1.4-12.tar.gz)
+
+build() {
+	cd vcd
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module clue
+# URL: https://cran.r-project.org/web/packages/clue
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-cluster
+# Optional: r4-e1071 r4-lpsolve r4-quadprog r4-relations
+
+name=r4-clue
+version=0.3.65
+release=1
+source=(https://cloud.r-project.org/src/contrib/clue_0.3-65.tar.gz)
+
+build() {
+	cd clue
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

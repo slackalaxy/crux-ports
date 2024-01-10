@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89MgRKppR67VExQ9YQepfHVYKjLVtnQLe52YqIN9NMbwpEm85QikXPSWFsZKjW1DUK5GUiEuDGGx8clsgK7BgsgE=
+SHA256 (Pkgfile) = dff266aa5b22c8e5d91be57357e37902514d11b4fd8851aa8b7042d784feec25
+SHA256 (.footprint) = b11b87e55b1bd50cee0644fc001707a9b8edc0f0920b2493081bda8126028f3b
+SHA256 (R.methodsS3_1.8.2.tar.gz) = 822d5e61dad4c91e8883be2b38d7b89f87492046d0fe345704eb5d2658927c2e

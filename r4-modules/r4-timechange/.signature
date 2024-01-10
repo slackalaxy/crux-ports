@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89LMbu9GvZEGK0GSh14r5iNtONtAQmFwnyWTDB9GpxyW62lk27TzlcBJa7UfYVE8ry1C9zYQlweXG5Mlyon8zmgI=
+SHA256 (Pkgfile) = dc84f6792b9c5733c4fe96de99a83344b4432819d26643f83f3402856081fd17
+SHA256 (.footprint) = b1d5d097801f094b57bdcb846ff0b16b458c3c92e20f5df0474bc3963c07e50c
+SHA256 (timechange_0.2.0.tar.gz) = 3d602008052123daef94a5c3f5154c5461b4ec0432ab70c37273d7ddd252f7f1

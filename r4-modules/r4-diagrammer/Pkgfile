@@ -1,0 +1,16 @@
+# Description: R module DiagrammeR
+# URL: https://cran.r-project.org/web/packages/DiagrammeR
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-downloader r4-dplyr r4-glue r4-htmltools r4-htmlwidgets r4-igraph r4-magrittr r4-purrr r4-rcolorbrewer r4-readr r4-rlang r4-rstudioapi r4-scales r4-stringr r4-tibble r4-tidyr r4-viridis r4-visnetwork
+# Optional: r4-covr r4-diagrammersvg r4-knitr r4-rmarkdown r4-rsvg r4-testthat
+
+name=r4-diagrammer
+version=1.0.10
+release=1
+source=(https://cloud.r-project.org/src/contrib/DiagrammeR_${version}.tar.gz)
+
+build() {
+	cd DiagrammeR
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

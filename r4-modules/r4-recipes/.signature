@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89P6ORyC5GMo+OpfJ7kt8hXR/nfUcwa57byB1mPWewg8RZI/1CsjIN9T+ydaJlf/FTWy8GQDhyUfwlt/ngHcmEgM=
+SHA256 (Pkgfile) = 870df204a0d766a2e901de0a9fafd65a094d158971c793ec481754f300ab1c20
+SHA256 (.footprint) = 7b191f87e5dbb18855511c28541889dffb2925b5207bd96c241b7c6a0e52186c
+SHA256 (recipes_1.0.9.tar.gz) = 111ab7f1d3fd60a088c32cc54316e685ab88fea9d49c5d94fa359328644cd790

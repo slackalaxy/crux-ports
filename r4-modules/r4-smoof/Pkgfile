@@ -1,0 +1,16 @@
+# Description: R module smoof
+# URL: https://cran.r-project.org/web/packages/smoof
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-bbmisc r4-checkmate r4-ggplot2 r4-paramhelpers r4-rcpp r4-rcpparmadillo
+# Optional: r4-covr r4-mco r4-plot3d r4-plotly r4-rcolorbrewer r4-reticulate r4-testthat
+
+name=r4-smoof
+version=1.6.0.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/smoof_${version}.tar.gz)
+
+build() {
+	cd smoof
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

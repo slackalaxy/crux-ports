@@ -1,0 +1,16 @@
+# Description: R module class
+# URL: https://cran.r-project.org/web/packages/class
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-mass
+# Optional: 
+
+name=r4-class
+version=7.3.22
+release=1
+source=(https://cloud.r-project.org/src/contrib/class_7.3-22.tar.gz)
+
+build() {
+	cd class
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

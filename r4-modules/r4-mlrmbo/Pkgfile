@@ -1,0 +1,16 @@
+# Description: R module mlrMBO
+# URL: https://cran.r-project.org/web/packages/mlrMBO
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-backports r4-bbmisc r4-checkmate r4-data-table r4-lhs r4-mlr r4-parallelmap r4-paramhelpers r4-smoof
+# Optional: r4-cmaesr r4-covr r4-dicekriging r4-earth r4-emoa r4-ggally r4-ggplot2 r4-gridextra r4-kernlab r4-kknn r4-knitr r4-mco r4-nnet r4-party r4-randomforest r4-reshape2 r4-rgenoud r4-rmarkdown r4-rpart r4-testthat
+
+name=r4-mlrmbo
+version=1.1.5.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/mlrMBO_${version}.tar.gz)
+
+build() {
+	cd mlrMBO
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

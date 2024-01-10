@@ -1,0 +1,16 @@
+# Description: R module lme4
+# URL: https://cran.r-project.org/web/packages/lme4
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r r4-boot r4-lattice r4-mass r4-matrix r4-minqa r4-nlme r4-nloptr r4-rcpp r4-rcppeigen
+# Optional: r4-car r4-dfoptim r4-gamm4 r4-ggplot2 r4-hsaur3 r4-knitr r4-memss r4-merderiv r4-mgcv r4-mlmrev r4-numderiv r4-optimx r4-pbkrtest r4-rmarkdown r4-rr2 r4-semeff r4-statmod r4-testthat r4-tibble
+
+name=r4-lme4
+version=1.1.35.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/lme4_1.1-35.1.tar.gz)
+
+build() {
+	cd lme4
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

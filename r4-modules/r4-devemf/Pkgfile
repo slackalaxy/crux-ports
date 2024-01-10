@@ -1,0 +1,17 @@
+# Description: R module devEMF
+# URL: https://cran.r-project.org/web/packages/devEMF
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r
+# Optional: 
+
+name=r4-devemf
+version=4.4.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/devEMF_4.4-1.tar.gz)
+
+build() {
+	cd devEMF
+	sed -i 's:/bin/sh:/bin/bash:' configure
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

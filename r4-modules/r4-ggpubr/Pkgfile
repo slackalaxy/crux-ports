@@ -1,0 +1,16 @@
+# Description: R module ggpubr
+# URL: https://cran.r-project.org/web/packages/ggpubr
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cowplot r4-dplyr r4-ggplot2 r4-ggrepel r4-ggsci r4-ggsignif r4-glue r4-gridextra r4-magrittr r4-polynom r4-purrr r4-rlang r4-rstatix r4-scales r4-tibble r4-tidyr
+# Optional: r4-gtable r4-knitr r4-rcolorbrewer r4-testthat
+
+name=r4-ggpubr
+version=0.6.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/ggpubr_${version}.tar.gz)
+
+build() {
+	cd ggpubr
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
