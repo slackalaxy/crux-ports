@@ -1,0 +1,35 @@
+# Description: gtk+2 terminal emulator widget
+# URL: http://ftp.gnome.org/pub/gnome/sources/vte/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage xorg-libxrende
+
+name=vte
+version=0.28.2
+release=1
+source=(http://ftp.gnome.org/pub/gnome/sources/vte/0.28/$name-$version.tar.xz
+	fix_meta_alt_keybinding.patch vte.escape.cpu.usage.diff)
+
+build() {
+	cd $name-$version
+	
+	# https://bugzilla.gnome.org/show_bug.cgi?id=663779
+	patch -p1 < $SRC/fix_meta_alt_keybinding.patch
+
+	# Escape sequences can cause high CPU usage (CVE-2012-2738):
+	patch -p1 < $SRC/vte.escape.cpu.usage.diff
+
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--libexecdir=/usr/lib/$name \
+	--disable-introspection \
+	--enable-python \
+	--enable-gnome-pty-helper \
+	--with-gtk=2.0 \
+	--with-default-emulation=xterm \
+	--disable-nls
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}
