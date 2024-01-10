@@ -11,17 +11,14 @@ source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$ve
 
 build() {
 	cd $name-$version
-	
 	# Based on https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=970259#10
 	patch -p1 -i $SRC/fix_api.patch
 	
-	GEONAMES_USERNAME="crux" \
 	./configure --prefix=/usr \
 	--disable-nls \
 	--sysconfdir=/usr/etc/xdg/xfce4 \
 	--enable-shared=yes \
-	--enable-static=no \
-	--enable-debug=no
+	--enable-debug=yes
 	
 	make
 	make DESTDIR=$PKG install
