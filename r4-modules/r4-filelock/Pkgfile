@@ -1,0 +1,16 @@
+# Description: R module filelock
+# URL: https://cran.r-project.org/web/packages/filelock
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran r
+# Optional: r4-callr r4-covr r4-testthat
+
+name=r4-filelock
+version=1.0.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/filelock_${version}.tar.gz)
+
+build() {
+	cd filelock
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

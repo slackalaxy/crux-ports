@@ -1,0 +1,16 @@
+# Description: R module biomaRt
+# URL: https://bioconductor.org/packages/biomaRt
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-annotationdbi r4-biocfilecache r4-digest r4-httr r4-progress r4-rappdirs r4-stringr r4-xml r4-xml2
+# Optional: r4-biocstyle r4-knitr r4-mockery r4-rmarkdown r4-testthat r4-webmockr
+
+name=r4-biomart
+version=2.58.0
+release=1
+source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/biomaRt_${version}.tar.gz)
+
+build() {
+	cd biomaRt
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

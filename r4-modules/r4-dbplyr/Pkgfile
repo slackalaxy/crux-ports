@@ -1,0 +1,16 @@
+# Description: R module dbplyr
+# URL: https://cran.r-project.org/web/packages/dbplyr
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-blob r4-cli r4-dbi r4-dplyr r4-glue r4-lifecycle r4-magrittr r4-pillar r4-purrr r4-r6 r4-rlang r4-tibble r4-tidyr r4-tidyselect r4-vctrs r4-withr
+# Optional: r4-bit64 r4-covr r4-knitr r4-lahman r4-nycflights13 r4-odbc r4-rmariadb r4-rmarkdown r4-rpostgres r4-rpostgresql r4-rsqlite r4-testthat
+
+name=r4-dbplyr
+version=2.4.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/dbplyr_${version}.tar.gz)
+
+build() {
+	cd dbplyr
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
