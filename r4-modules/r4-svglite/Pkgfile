@@ -1,0 +1,16 @@
+# Description: R module svglite
+# URL: https://cran.r-project.org/web/packages/svglite
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cpp11 r4-systemfonts
+# Optional: r4-covr r4-fontquiver r4-htmltools r4-knitr r4-rmarkdown r4-testthat r4-xml2
+
+name=r4-svglite
+version=2.1.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/svglite_${version}.tar.gz)
+
+build() {
+	cd svglite
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

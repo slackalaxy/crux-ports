@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-curl r4-knitr r4-rmarkdown r4-spelling r4-stringi r4-testthat r4-tzdb r4-waldo r4-withr r4-xml2
 
 name=r4-readr
-version=2.1.4
+version=2.1.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/readr_${version}.tar.gz)
 

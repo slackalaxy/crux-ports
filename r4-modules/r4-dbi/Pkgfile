@@ -5,7 +5,7 @@
 # Optional: r4-blob r4-covr r4-dbitest r4-dbplyr r4-downlit r4-dplyr r4-glue r4-hms r4-knitr r4-magrittr r4-nanoarrow r4-rmariadb r4-rmarkdown r4-rprojroot r4-rsqlite r4-testthat r4-vctrs r4-xml2
 
 name=r4-dbi
-version=1.2.0
+version=1.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/DBI_${version}.tar.gz)
 
