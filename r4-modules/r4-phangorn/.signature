@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89NQyb0CSdGdnVxDwAv1lp7Zqib/CRdp2tusBIOoRAQWLKzZ1rv7gXrunnxg4sIzVVM1vhWD9CaGwSnwO7waV4gA=
+SHA256 (Pkgfile) = ab357aa706d641922adc30e154e2eef4b239559fa5acab34ded2b59fe44d32ba
+SHA256 (.footprint) = fc42a8086c1257587e2d128c000397ecfae9b319fe694784ee690ba070c62712
+SHA256 (phangorn_2.11.1.tar.gz) = 10096ecae03e118aa4dbc60d9866175fad4849c948e004cf10c3868e3feed420
