@@ -1422,11 +1422,9 @@ f:529509acd8fc568957a987a4ff3712f2:r4-mnormt/Pkgfile
 f:b3cd51ba3ddec91d85eb1151c0431310:r4-mnormt/.footprint
 f:40d8b6debae0ed209ea2963c83bdde55:r4-mnormt/.signature
 f:3cc389932648a64b2559da5013bf4886:r4-ape/Pkgfile
-f:f2b20c11b0d5ae714c36c0afef0d17b1:r4-ape/.md5sum
 f:2aa18954d0c9a95ccf64141904425077:r4-ape/.footprint
 f:220b1cb328bd8bb8a49fde21aefb801d:r4-ape/.signature
 f:691088198514d7ee1919e41c7c3742f2:r4-svglite/Pkgfile
-f:8b59c93137587fba9a39572e17812965:r4-svglite/.md5sum
 f:39aa2a46d48018b24972c8109e25bae4:r4-svglite/.footprint
 f:27606f0dfac065a90cbdf36f135c030e:r4-svglite/.signature
 f:536279f6834c0b347fa1058fbc233ad7:r4-clustergeneration/Pkgfile
