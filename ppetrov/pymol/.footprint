@@ -601,7 +601,6 @@ drwxrwxr-x	root/root	usr/lib/python3.10/site-packages/pymol/pymol_path/data/shad
 -rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pymol/pymol_path/data/shaders/webgl_header.fs
 -rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pymol/pymol_path/data/shaders/webgl_header.vs
 drwxrwxr-x	root/root	usr/lib/python3.10/site-packages/pymol/pymol_path/data/startup/
--rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pymol/pymol_path/data/startup/README.txt
 drwxrwxr-x	root/root	usr/lib/python3.10/site-packages/pymol/pymol_path/data/startup/lightingsettings_gui/
 -rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pymol/pymol_path/data/startup/lightingsettings_gui/__init__.py
 -rw-rw-r--	root/root	usr/lib/python3.10/site-packages/pymol/pymol_path/data/startup/lightingsettings_gui/main.py

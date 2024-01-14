@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbawoLdnZj8P8lodikHqHANPmAtfZYmDFfEN7M1owM73uRMaUAhpWJI104cIE4jc6v/b0/X2xjlk/vQpQ3Zccgc=
-SHA256 (Pkgfile) = 842221c705582f7a45cb4174fcbc254486bc9e4bda4be92f3a32f18227c3fdd1
-SHA256 (.footprint) = ae0985434ce1c53bd786d3910f7813180ba327620908437e16c4f203d5adf0c2
+RWToVVsIkzFIZdRpXJxN0SSvMwYoolgqEE40bmcQVZpNyha6UbOdgULHnZy6d9J7ru8hv1UWr0BbS+uyEMWP23iB49i7vXcEJAA=
+SHA256 (Pkgfile) = 1215b5d2a1a1114d433052cc466d1add82918bf25bc4a6e5fa340f8408ee19b3
+SHA256 (.footprint) = 5d1b3044cdbdb47266ecca8489561255d283ac64964e379730a37db1c21d5a73
 SHA256 (pymol-open-source-2.5.0.tar.gz) = aa828bf5719bd9a14510118a93182a6e0cadc03a574ba1e327e1e9780a0e80b3
 SHA256 (pymol.desktop) = a8ec35d337d532da67e0766cf8b24ead3b992fc41d8b627298004daf3ad77a05
 SHA256 (pymol.png) = f086f4f1f8df8dbeed30fea750a7fb043144533d43b66c5715880f15b65a304a

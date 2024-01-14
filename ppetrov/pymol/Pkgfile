@@ -5,7 +5,7 @@
 
 name=pymol
 version=2.5.0
-release=1
+release=2
 source=(https://github.com/schrodinger/$name-open-source/archive/v$version/$name-open-source-$version.tar.gz
 	$name.desktop $name.png)
 
@@ -19,5 +19,5 @@ build() {
 	cp $SRC/$name.desktop $PKG/usr/share/applications
 	cp $SRC/$name.png $PKG/usr/share/pixmaps
 	
-	rm $PKG/usr/lib/python3.10/site-packages/pymol/pymol_path/examples/launching/README
+	rm $PKG/usr/lib/python3.10/site-packages/pymol/pymol_path/{examples/launching/README,data/startup/README.txt}
 }
