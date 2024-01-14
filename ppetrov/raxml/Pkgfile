@@ -4,7 +4,7 @@
 # Depends on: openmpi
 
 name=raxml
-version=8.2.12
+version=8.2.13
 release=1
 source=(https://github.com/stamatak/standard-RAxML/archive/v${version}/standard-RAxML-${version}.tar.gz)
 
