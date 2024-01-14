@@ -1,11 +1,11 @@
 # Description: MPlayer
 # URL: http://www.mplayerhq.hu/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli faac faad2 ffmpeg graphite2 gtk icu lame libass libdv libdvdnav libmad libmng libmpeg2 libtheora libva libvdpau libvpx libwebp mpg123 openal pulseaudio rtmpdump speex x264 x265 xorg-libxscrnsaver xorg-libxxf86vm
+# Depends on: brotli dav1d faac faad2 fdk-aac ffmpeg gtk icu keyutils lame libass libdv libdvdnav libidn2 libmad libmng libmpeg2 libtheora libva libvdpau libvpx libwebp mpg123 openal pulseaudio rtmpdump samba speex x264 x265 xorg-libxscrnsaver
 
 name=mplayer
 version=latest
-release=3
+release=4
 source=(https://mplayerhq.hu/MPlayer/releases/mplayer-export-snapshot.tar.bz2
 	http://www1.mplayerhq.hu/MPlayer/releases/fonts/font-arial-iso-8859-1.tar.bz2
 	http://www.mplayerhq.hu/MPlayer/skins/Blue-1.13.tar.bz2
