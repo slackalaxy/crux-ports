@@ -1,7 +1,7 @@
 # Description: gtk+2 terminal emulator widget
 # URL: http://ftp.gnome.org/pub/gnome/sources/vte/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk xorg-libxdamage xorg-libxrende
+# Depends on: gtk xorg-libxdamage xorg-libxrender
 
 name=vte
 version=0.28.2
@@ -11,7 +11,7 @@ source=(http://ftp.gnome.org/pub/gnome/sources/vte/0.28/$name-$version.tar.xz
 
 build() {
 	cd $name-$version
-	
+
 	# https://bugzilla.gnome.org/show_bug.cgi?id=663779
 	patch -p1 < $SRC/fix_meta_alt_keybinding.patch
 
@@ -26,6 +26,7 @@ build() {
 	--enable-gnome-pty-helper \
 	--with-gtk=2.0 \
 	--with-default-emulation=xterm \
+	--disable-gtk-doc-html \
 	--disable-nls
 
 	make
