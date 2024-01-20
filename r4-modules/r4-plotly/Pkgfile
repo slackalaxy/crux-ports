@@ -5,7 +5,7 @@
 # Optional: r4-broom r4-cairo r4-curl r4-dendextend r4-forcats r4-ggalluvial r4-ggally r4-ggthemes r4-hexbin r4-irdisplay r4-knitr r4-listviewer r4-maps r4-mass r4-palmerpenguins r4-plotlygeoassets r4-png r4-processx r4-reticulate r4-rmarkdown r4-rsvg r4-rversions r4-sf r4-shiny r4-shinytest r4-testthat r4-webshot r4-withr
 
 name=r4-plotly
-version=4.10.3
+version=4.10.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/plotly_${version}.tar.gz)
 

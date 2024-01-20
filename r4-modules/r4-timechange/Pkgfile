@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-testthat
 
 name=r4-timechange
-version=0.2.0
+version=0.3.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/timechange_${version}.tar.gz)
 

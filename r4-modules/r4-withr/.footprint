@@ -30,6 +30,15 @@ drwxr-xr-x	root/root	usr/lib/R/library/withr/help/
 -rw-r--r--	root/root	usr/lib/R/library/withr/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/withr/help/figures/
 -rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/README-unnamed-chunk-3-1.png
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-archived.svg
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-defunct.svg
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-deprecated.svg
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-experimental.svg
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-maturing.svg
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-questioning.svg
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-soft-deprecated.svg
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-stable.svg
+-rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/lifecycle-superseded.svg
 -rw-r--r--	root/root	usr/lib/R/library/withr/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/withr/help/paths.rds
 -rw-r--r--	root/root	usr/lib/R/library/withr/help/withr.rdb

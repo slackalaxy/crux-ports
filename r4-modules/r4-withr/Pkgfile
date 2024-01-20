@@ -5,7 +5,7 @@
 # Optional: r4-callr r4-covr r4-dbi r4-knitr r4-lattice r4-rlang r4-rmarkdown r4-rsqlite r4-testthat
 
 name=r4-withr
-version=2.5.2
+version=3.0.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/withr_${version}.tar.gz)
 

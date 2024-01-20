@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IO19EQLD6bCJ9sY4rT8Am5wpCCjlKs6Af7ATk9lchsV2jKqe3lWxutRv+t3KBoMSq0Ch6tgEj0wNydGVxnv5gc=
-SHA256 (Pkgfile) = 73bdfcdcbaa69d1218330674a9df2f64ec0cda2b6b0718e73df64937300989c9
-SHA256 (.footprint) = 4b14e811bc21be6134e7e07b20d7fc9843392f7b920a0615eb2422464def2ebb
-SHA256 (withr_2.5.2.tar.gz) = d5b6fa6d728fda5201310d6ad5921a43aae1c23029c25334bfc1e54cb13d4205
+RWQ2oTreAss89KpLomnRUoC6MQ2YTHj6I6vMhBTMGnwjhklxPbr56FcwJpQucqFGWvUsy+/0BxfnF51r9EVl+q/zooFYnklX3AA=
+SHA256 (Pkgfile) = befd66bc244e87b1fafeded6898d127bb86f21c93b39376dba0070c3644d46db
+SHA256 (.footprint) = 0f20953fc0b348e20e2224a5ce99d7471024811a1e6c655680bba3cd8602482b
+SHA256 (withr_3.0.0.tar.gz) = 8c78eede6d0e648c23d38a6695f642aed2819ef708239d00b36cbc15eabbe0e7
