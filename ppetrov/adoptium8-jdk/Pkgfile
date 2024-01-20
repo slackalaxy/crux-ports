@@ -4,7 +4,7 @@
 # Depends on: alsa-lib brotli graphite2 harfbuzz xorg-libxtst
 
 name=adoptium8-jdk
-version=8u392-b08
+version=8u402-b06
 release=1
 source=(https://github.com/adoptium/temurin8-binaries/releases/download/jdk${version/_/-}/OpenJDK8U-jdk_x64_linux_hotspot_${version//-/}.tar.gz)
 
