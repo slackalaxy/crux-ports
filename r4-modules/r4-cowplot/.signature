@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Ibi+WkPkcwywacdW9/3bQO1bhhGEZUpQYsibkbTT7+Cjpp5cCiKaPQ5z2LstIz8XN9X8WHZgiaMtUm+FMJbowk=
-SHA256 (Pkgfile) = eaa7bfb2392df38c3761d6d2e804d1f1962b72424d6abaae012e0a5c7915dcc0
+RWQ2oTreAss89LPitXhMEvRa0Qg3jt4bjU5r0txAXuzavXu/GCs6g0tkQrKfBhJOmbcTIBQMLHLhIql9VWdlM6d9go9cZUoRNgE=
+SHA256 (Pkgfile) = 7c07db3514a90336035f57b98f517f986f1d8401c7f352edafe9a5d238f71525
 SHA256 (.footprint) = 054c64a04db5f25a95ef81de474311fe3a0cda9e91ea73651bbad70957b886e8
-SHA256 (cowplot_1.1.2.tar.gz) = c6915d091476d43303587d846d96348b7ac48b6c3f1e84bf092a7dbcf278fade
+SHA256 (cowplot_1.1.3.tar.gz) = 8756971af5c50381cf00ec7ed622fd5cf3d70f534bdfa3ebadd157b5aef5b273

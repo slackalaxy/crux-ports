@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89J43A2siqZBLasMN2CjStgcQca0uBShEBZ3/+eFG9prLMgVpg0/yRYBE1rZX3YPw64m04wsCgxk8I6wkW+9bXAA=
-SHA256 (Pkgfile) = 706e7c710104ca3eb110ee8d0c6778f89a38ff615e93f94ed37875c71c733bf5
+RWQ2oTreAss89CCq38mvceup1d27yrpL8PDQ2tvLZziOLkmyNkjDHvXBqk0L9ynq+NmBADCkWY8toe5oe0ZEqnezMfVEldvBJwM=
+SHA256 (Pkgfile) = 041b51acdaab395e578131176bd08d9ab3ef6a90513ed1b67bee39d002edde8f
 SHA256 (.footprint) = 7c62a8e293a5c1973366c6fcc577450e0ddb32fa83303e5cdad46738b64866ad
-SHA256 (RSQLite_2.3.4.tar.gz) = 73cdc81bb3cfce6f680a8ee384927867520a883e6d0705f6d6c79dccd4fbc4eb
+SHA256 (RSQLite_2.3.5.tar.gz) = 81537effcb5a00a0544bd7848d0c4597e0060cddd7b576cd073ba2cc78536ef3

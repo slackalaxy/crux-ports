@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Dl7RS7JUFvArv5qF4hMpHu3Xu9taVwwBdaaIBiCnBBO59Kw5qpabBDIIHfdL5wqxvlZ3JY/gT9sv25B1yZf4Qg=
-SHA256 (Pkgfile) = 75f98b1e1be28a1befca84ac18aca8db2b7b39111ae1a7c959f566a2a00a28ac
-SHA256 (.footprint) = f97a38d3de7540573193897a207f6b8af688fe3714d43784bc48bd72c36f0822
-SHA256 (emoa_0.5-0.2.tar.gz) = d9e8bd286c4578be76a3dc7a1110bbb751eb8d0e451143273f0ced09878a243b
+RWQ2oTreAss89GzHSxl7uhVvWTF3EwqFp5/g1ONPe+BWuY+6OYoiWnqUjXtFqiBfiRK4FxiGOu3jUw548pZ0xYoFce06IiwYjwc=
+SHA256 (Pkgfile) = 91cf6d0d7e15584f824a23db87c3d3babd579c26540de13e1655361674abc948
+SHA256 (.footprint) = c31707026ed397715b2550738b3380fd1b79fe14a2e643eb21eba43e73aded0e
+SHA256 (emoa_0.5-2.tar.gz) = e9ef9bf0058b63b43a4bc7aa2f696ef1b4c3a0dc8aa804bc6347f8f650ebe1a8

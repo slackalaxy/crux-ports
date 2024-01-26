@@ -33,14 +33,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/emoa/html/
 -rw-r--r--	root/root	usr/lib/R/library/emoa/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/emoa/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/emoa/libs/emoa.so
-drwxr-xr-x	root/root	usr/lib/R/library/emoa/unittests/
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-cec2009.r
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-ei.r
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-front_edge.R
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-hypervolume.r
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-id.r
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-nds.r
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-poly.r
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-sbx.r
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runit-utilities.r
--rw-r--r--	root/root	usr/lib/R/library/emoa/unittests/runner.r

@@ -1,13 +1,13 @@
 # Description: R module XML
 # URL: https://cran.r-project.org/web/packages/XML
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-bitops r4-rcurl
 
 name=r4-xml
-version=3.99.0.16
+version=3.99.0.16.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/XML_3.99-0.16.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/XML_3.99-0.16.1.tar.gz)
 
 build() {
 	cd XML
