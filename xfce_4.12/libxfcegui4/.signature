@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchs/Xiw4B0k+mmxvtw1RvdnbkpZph1Mb06hmetkikYTPlpy5X51M4oAJp4RMHHQvdHut5sDp8fEyLbikVcVhhYwU=
-SHA256 (Pkgfile) = a3ba2c9b8df9fe17b9881cacaf8f3f0e48326fc6cf5402123a4d837d8f6ac6d9
-SHA256 (.footprint) = 60ab9e0077e44bc785b39c36753e35ffcae2ef4eec2ac0f6cdc856a64f3decd5
-SHA256 (libxfcegui4-4.10.0.tar.bz2) = 2b82f9979175d8856880c8f349e6eede491ca92fe6940c69c8958115418d4533
-SHA256 (libxfcegui4-4.10.0-no-xfce_setenv.patch) = f4004a36107900250a89e6be1cda36d410bb570e9ca130d809cd00a4d9fad0c3
