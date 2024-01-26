@@ -1,0 +1,16 @@
+# Description: R module googledrive
+# URL: https://cran.r-project.org/web/packages/googledrive
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-gargle r4-glue r4-httr r4-jsonlite r4-lifecycle r4-magrittr r4-pillar r4-purrr r4-rlang r4-tibble r4-uuid r4-vctrs r4-withr
+# Optional: r4-curl r4-dplyr r4-knitr r4-mockr r4-rmarkdown r4-spelling r4-testthat
+
+name=r4-googledrive
+version=2.1.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/googledrive_${version}.tar.gz)
+
+build() {
+	cd googledrive
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module gargle
+# URL: https://cran.r-project.org/web/packages/gargle
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-fs r4-glue r4-httr r4-jsonlite r4-lifecycle r4-openssl r4-rappdirs r4-rlang r4-withr
+# Optional: r4-aws-ec2metadata r4-aws-signature r4-covr r4-httpuv r4-knitr r4-rmarkdown r4-sodium r4-spelling r4-testthat
+
+name=r4-gargle
+version=1.5.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/gargle_${version}.tar.gz)
+
+build() {
+	cd gargle
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

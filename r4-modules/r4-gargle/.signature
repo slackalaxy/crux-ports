@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89AmDhS8sbFhWpIL9b5Xee8W8swgHQ7SQMgGALk6rGiXi61P8FIHZqk/wt5jqWuwuYFcvZjjEmHbqklXHilboAAM=
+SHA256 (Pkgfile) = efc7aa9e1be02b64f1c2a04735966e69ecb9635ca3ae4f65e4182e899d65ad74
+SHA256 (.footprint) = d28aab741e65030b856e17097dd6e3525d8696b67da824c4b09795392bbb668f
+SHA256 (gargle_1.5.2.tar.gz) = 4a5beb046eb50a168b4baf5d1fcd8ac20d698e7fcb6b6ef46a436ded5b039001
