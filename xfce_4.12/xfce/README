@@ -1,12 +1,20 @@
 I like to have a GTK2-only desktop, so here it is.
 
-Ports that are part of CRUX, but need to be locked at an older version, because of Xfce 4.12 are:
+Ports that are part of CRUX, but need to be locked at an older version,
+because of Xfce 4.12 are:
 
-upower (0.99.13): the latest version with which xfce4-power-manager battery status works
-xorg-libx11 (1.8): Xfce 4.12 themes settings do not get applied with version >1.8
+upower (0.99.13): for xfce4-power-manager battery status
+xorg-libx11 (1.8): Xfce 4.12 themes settings to be applied
+libblockdev (2.28): for udisks2 proper work
 
-Make sure you install the locked ports first, then you can build the whole desktop with:
+Make sure you have these installed and locked first; or you place in 
+/etc/prt-get.conf the following line before contrib, core, opt, xorg:
+
+	prtdir /usr/ports/xfce_4.12
+
+Then you can build the whole desktop with:
 
 	prt-get depinst xfce
 
-Check /usr/etc/xdg/xfce4, there are examples for .bashrc_profile, .bashrc and Xfce's .xinitrc
+This installs example .xinitrc and .xprofile, as well as basic .config
+in /etc/skel. If you are not making a new user, just copy these to ~/.
