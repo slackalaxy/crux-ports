@@ -1,0 +1,14 @@
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
+## Use these Freetype properties. Make sure to
+## rm /etc/fonts/conf.d/10-hinting-*.conf
+export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
+
+## Do we have QT5CT installed?
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+## Locale
+export LANG=en_US.utf-8
+export LC_ALL=en_US.utf-8

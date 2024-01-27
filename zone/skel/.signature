@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwekCdUVFR83QLOuMh11X/fR+kszhT5y6Dw/+rSKh826lDgK0KdfL9FucIjYJmBsbGPibzMe5j8JNXvjjkh+gww0=
+SHA256 (Pkgfile) = ed8bbd4b5f747d7449f281937ebd33e673b6db1434eea09149405a970ae2285d
+SHA256 (.footprint) = 5c35af499fcdce959f125a7d856cd78c3399acb627aa64988f4ced954ecb5b03
+SHA256 (bash_logout) = 3f17d3234a6e806f9152d7545ffad38ae054fdfab4ad30ca172a79b22cab0ea3
+SHA256 (bash_profile) = 31ca0b9be737afa5fe36ac2aab83e29770569273922a034c3d93e7f34748016b
+SHA256 (bashrc) = e6823777385daf1139dbf890c74bb2d3f508a083d73b0fb8ad32d5ef574edcb4
+SHA256 (Xresources) = 5627a423e2815496fbbb3f5d047a1356f0b734799d88c65485c413a73158ba50
