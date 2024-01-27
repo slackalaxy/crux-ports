@@ -174,11 +174,10 @@ f:3e7bd2d29119551b3464b2678c5fb9f5:upower/disable-gtk-docs.patch
 f:802dd0b38656ac7f23b8b10864310495:upower/upower.1
 f:1f07d698cc3049f8862e4562eaa6385a:upower/upowerd.8
 f:ccadd8b7d487f23a818f9b0a95983791:upower/.signature
-f:d915d49c7e327ed4b5701c7b6af2d086:xfce4-session/Pkgfile
+f:061eee693b55dceca7cf833e47c3a765:xfce4-session/Pkgfile
 f:fc2faccd457c7e74c4f1b2d4ddcec636:xfce4-session/xfce-shutdown.rules
-f:f3e779807a38ad0f17ebfaf16dac8a1e:xfce4-session/.signature
+f:be258030cbf6a36d7f344e40583f6558:xfce4-session/.signature
 f:d99ef7bf049f5ae542a488bb034b7de0:xfce4-session/.footprint
-f:818f703dc7a61f9c66f68123e39046da:xfce4-session/.md5sum
 f:497cb49d728cc4640a3b8923a413c304:xfce4-session/xinitrc.xfce
 f:6db8633052136d44214225b4fd8893b9:xfce4-clipman-plugin/.footprint
 f:94adbe7704ec9cd28df84e395e13a446:xfce4-clipman-plugin/Pkgfile
