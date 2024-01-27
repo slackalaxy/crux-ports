@@ -17,6 +17,7 @@ d:firewall-basic
 d:doom-wad
 d:quake3-pk3
 d:grub2-default
+d:skel
 f:8d049dc8245b44caf15cae645fb724fa:fonts-microsoft-win11/.footprint
 f:b54d53547deb93695671190f8f44ebf5:fonts-microsoft-win11/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-microsoft-win11/README
@@ -107,3 +108,11 @@ f:b95c66be425fac0c3ab535b09ef44f21:grub2-default/README
 f:a1d3d84872a9817454e68a65b34f7d72:grub2-default/.footprint
 f:1141bca78953ef52f5d031a56ea14a27:grub2-default/.signature
 f:a8852b229cb5948aea93727853c4c325:grub2-default/grub2-default
+f:ee6e3d102e2e0a1685fec57e40108b61:skel/Xresources
+f:021c05876e5f85f18c48ff7c3338199b:skel/bash_profile
+f:01af4cdc68ff1f9c825e79eb8717f21e:skel/bashrc
+f:05cac50f47bd9793a1578ddc85de1393:skel/bash_logout
+f:ffbb5c7d23b98de2fa4a7ae7ccbf95ea:skel/Pkgfile
+f:e896ad9541df32a18beea5d958fd265b:skel/README
+f:6be6d15e1c25c0ebb43aa41fcc85a53a:skel/.footprint
+f:f54efa5e6a369a5c1662a09f63641d1e:skel/.signature
