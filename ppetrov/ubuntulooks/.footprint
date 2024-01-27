@@ -1,0 +1,12 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/gtk-2.0/
+drwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/
+drwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/engines/
+-rwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/engines/libubuntulooks.la
+-rwxr-xr-x	root/root	usr/lib/gtk-2.0/2.10.0/engines/libubuntulooks.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/themes/
+drwxr-xr-x	root/root	usr/share/themes/Human/
+drwxr-xr-x	root/root	usr/share/themes/Human/gtk-2.0/
+-rw-r--r--	root/root	usr/share/themes/Human/gtk-2.0/gtkrc

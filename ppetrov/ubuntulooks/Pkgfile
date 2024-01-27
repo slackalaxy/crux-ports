@@ -1,0 +1,16 @@
+# Description: An engine forked from Clearlooks 2.7 to bring a unique look to Ubuntu
+# URL: https://answers.launchpad.net/ubuntu/+source/ubuntulooks/0.9.12-12
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage
+
+name=ubuntulooks
+version=0.9.12
+release=1
+source=(https://answers.launchpad.net/ubuntu/+archive/primary/+sourcefiles/ubuntulooks/${version}-12/ubuntulooks_${version}.orig.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install	
+}
