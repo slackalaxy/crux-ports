@@ -5,9 +5,9 @@
 
 name=xfce4-session
 version=4.12.1
-release=3
+release=5
 source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2
-	xfce-shutdown.rules xinitrc.sample bashrc.sample bash_profile.sample)
+	xfce-shutdown.rules xinitrc.xfce)
 
 build () {
 	cd $name-$version
@@ -23,13 +23,9 @@ build () {
 	# https://forums.freebsd.org/threads/xfce4-no-abiltiy-to-shutdown-and-reboot-that-went-away.72671/
 	#mkdir -p $PKG/etc/polkit-1/rules.d
 	#cat $SRC/xfce-shutdown.rules > $PKG/etc/polkit-1/rules.d/xfce-shutdown.rules
-    
-	# Include user-only configuration examples
-	cp $SRC/xinitrc.sample $PKG/usr/etc/xdg/xfce4
-	#cp $SRC/profile.sample $PKG/usr/etc/xdg/xfce4
-	cp $SRC/bashrc.sample $PKG/usr/etc/xdg/xfce4
-	cp $SRC/bash_profile.sample $PKG/usr/etc/xdg/xfce4
-  
+
+	install -D -m 0644 $SRC/xinitrc.xfce $PKG/etc/X11/xinit/xinitrc.xfce
+
 	rm -rf $PKG/usr/share/{locale,doc}
 	find $PKG/usr/share -type f -name '*.desktop' \
 	-exec sed -r '/\[.+\]=/d' -i {} \;

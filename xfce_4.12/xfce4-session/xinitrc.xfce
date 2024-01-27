@@ -2,12 +2,6 @@
 #  xinitrc.xfce - modified to work around xfce4session bug
 #                 https://bugzilla.xfce.org/show_bug.cgi?id=8841
 
-# Clean up session cache first?
-# rm -rf ~/.cache/sessions
-
-# Set a different value for Xgamma?
-# xgamma -gamma 0.8
-
 ########################################################################
 ##  Merge in defaults and keymaps                                     ##
 ########################################################################
