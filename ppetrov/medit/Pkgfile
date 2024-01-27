@@ -5,7 +5,7 @@
 
 name=medit
 version=1.2.0
-release=1
+release=2
 source=(https://downloads.sourceforge.net/mooedit/$name-$version.tar.bz2)
 
 build() {
@@ -14,8 +14,8 @@ build() {
 	# Python2 fix
 	sed -i 's@^#!.*python$@#!/usr/bin/python2@' moo/moopython/plugins/lib/pyconsole.py
 
-	# Recognise Pkgfile as shell script, thanks Chris Farrell
-	sed -i 's/*.sh/*.sh;Pkgfile/' moo/mooedit/langs/sh.lang
+	# Recognise Pkgfiles, .*rsync and *.httpup as shell script, thanks Chris Farrell
+	sed -i 's/*.sh/*.sh;*.rsync;*.httpup;Pkgfile/' moo/mooedit/langs/sh.lang
 
 	./configure --prefix=/usr \
 	--disable-install-hooks PYTHON=python2
