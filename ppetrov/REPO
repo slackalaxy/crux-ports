@@ -424,10 +424,12 @@ d:netcdf
 d:xmms-skins-glassworx
 d:xmms-skins-carbonate
 d:wps-office
+d:ubuntulooks
 d:bluecurve-gtk-themes
 d:xmms-skins-garetjax
 d:nlopt
 d:r4-biocmanager
+d:ubuntulooks-themes
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:988c2e3fd5ba0ea4492d3ba7273af295:acpid/acpid-2.0.34.tar.xz
@@ -562,9 +564,10 @@ f:8b719c25fde77185606011503ec90206:lyx/.footprint
 f:2ab9ee0166b9f53fdbd8987b28c64252:lyx/.signature
 f:a98c658ccf2cdff63ddc08833937711d:murrine-themes/MurrinaGilouche2.tar.xz
 f:e729dd26179cf404671efb71de3f699d:murrine-themes/Murrine-LightBlue.tar.xz
-f:507aafc58bd3ff2adca5b2d1eae398fc:murrine-themes/Pkgfile
-f:36652603cef54a1d0383aa2bc8cb0aa7:murrine-themes/.footprint
-f:247c76f8e40aef6afa5a16191f863386:murrine-themes/.signature
+f:5da533ab198156b3818a25aea23b55c6:murrine-themes/Pkgfile
+f:655c1bc3fcf65c28aa6fec4ca9a59992:murrine-themes/.footprint
+f:f9408f2b30583b310350021fafe39f7e:murrine-themes/.signature
+f:d30f27639be002faacf56abbbcfe4819:murrine-themes/MurrineBlubuntu.tar.xz
 f:184c11ef042b1a03ebd9653f0f734ee7:p5-bioperl/BioPerl-1.006924-RT106756.patch
 f:d58f8fc9afad29ba7461e50c314e61a2:p5-bioperl/Pkgfile
 f:0a590f444b8e5e27dccd6997509b50d1:p5-bioperl/.footprint
@@ -1574,8 +1577,8 @@ f:2d56b62615a5d89a55cbab832ebde6b5:xmms-skins-fruity/.signature
 f:ca0c509f2622a480c00f803f20d427d6:xscreensaver-stopper/Pkgfile
 f:a8d65bca4d563778eb2cd1c7ad6c6793:xscreensaver-stopper/.footprint
 f:06a5d833439f5a129ea2a5fd841057eb:xscreensaver-stopper/.signature
-f:8218b2dcb08852f247e471df73442d47:medit/Pkgfile
-f:f5b2f6371b7ac5e761995ec9f3dc0b44:medit/.footprint
+f:88dcabf217f82a8ba88875595dbb201d:medit/Pkgfile
+f:e30667825386f96161607ef1bf05fe98:medit/.footprint
 f:a2636c50dacb14c62393c35329dcd248:medit/.signature
 f:fb56104123ffdf047471a81c132f4c12:ncbi-blast-plus/Pkgfile
 f:ef2293b8806ae8e6765fc94d3b8ae31b:ncbi-blast-plus/.footprint
@@ -1657,9 +1660,9 @@ f:877b3330e822a4be69a0f8a8c268cfd7:glib1/gcc340.patch
 f:1630c96b603136732064dc4f3ea677bf:glib1/glib1-autotools.patch
 f:cbc6cd29f5da6d68e79c53439dcd4fec:glib1/.footprint
 f:3e27487ea12341b3ee53cae81059127c:glib1/.signature
-f:5d25451511066fd5f446663fc2982379:gtk1-industrial-engine/Pkgfile
+f:60ab5c93c0aee0b8316dbc98096e246b:gtk1-industrial-engine/Pkgfile
 f:b9b8250a09b9a6ed7af70ab133c7201a:gtk1-industrial-engine/.footprint
-f:63dc8c1a62cfa87ff82cca7b7affc59c:gtk1-industrial-engine/.signature
+f:0801cee300147665629e1c58147cf516:gtk1-industrial-engine/.signature
 f:3215522c588ba6d3828195165e8fb7aa:inkscape-gtk2/README
 f:355025fc573f89b511f9768b2b2219e5:inkscape-gtk2/gcc9.patch
 f:08943731c13238031c3e8dc12405a760:inkscape-gtk2/gdl_dock_item_grip_realize.patch
@@ -2039,6 +2042,9 @@ f:cdbfbaeff9ffcac8cae455a9c872df33:wps-office/.signature
 f:52bc7281f8077f469c4b4b58e0225513:wps-office/Pkgfile
 f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
 f:eb2b4f1ed0245da7f0de62d0d197fb79:wps-office/desktop.tar
+f:1f581d559f9ac7370e59efc69027063d:ubuntulooks/Pkgfile
+f:49e7534023b483e4fe5beeb40f21c7d4:ubuntulooks/.footprint
+f:325cf5d6100aea9003f90709dc7cb947:ubuntulooks/.signature
 f:bd9fc6112a79813e1c6e4985d51b7894:bluecurve-gtk-themes/Pkgfile
 f:6c130af932dcf416b2130bc26edae7f7:bluecurve-gtk-themes/.footprint
 f:e3377c3f4483b396533b5bfc9d25d329:bluecurve-gtk-themes/.signature
@@ -2051,3 +2057,7 @@ f:48c72baa203816050b884826f5806e12:nlopt/.signature
 f:70d00b6dd98fcf055f4749e6533fe724:r4-biocmanager/.footprint
 f:e4ef5aa5bad1e968b1d09d271983f70b:r4-biocmanager/Pkgfile
 f:0ff0fea9b6cbbc8e97d51cdfd7baec8b:r4-biocmanager/.signature
+f:4fcc4a3443767d08909a36e347056a8c:ubuntulooks-themes/Pkgfile
+f:f89be60a67ec8e6cbfb0a91ffbd51cd7:ubuntulooks-themes/.footprint
+f:588383f8bfac1e0e72ab752ab8759c0c:ubuntulooks-themes/.signature
+f:d8a11c1dab89924fb8c9a0f591099908:ubuntulooks-themes/ubuntulooks-themes-0.16.tar.xz
