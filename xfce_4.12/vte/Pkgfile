@@ -5,9 +5,9 @@
 
 name=vte
 version=0.28.2
-release=3
+release=4
 source=(http://ftp.gnome.org/pub/gnome/sources/vte/0.28/$name-$version.tar.xz
-	fix_meta_alt_keybinding.patch vte.escape.cpu.usage.diff stream-mem.patch attachment_362458.patch)
+	fix_meta_alt_keybinding.patch vte.escape.cpu.usage.diff stream-mem.patch)
 
 build() {
 	cd $name-$version

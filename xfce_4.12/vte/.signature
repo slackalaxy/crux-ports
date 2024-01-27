@@ -1,7 +1,8 @@
 untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchgeY7/G6OA9O24oScAdyQ7JqAfFZW/5OaJI4Issqx4oAwzLpaOzF0y7NlU7CmwsoVkcUJPVfEs75EFrEGvNh6QY=
-SHA256 (Pkgfile) = 5546022df8e2b2443aef609bad37cb93c4104b6ac514e174b3193925a9291ebc
+RWTBbqF9F6zchutZp5fPOGWRCUp2wuMZdGjXi7yMsZoYlftLu722CinSWAx2nVOJWrxIHOAhSZQ2euaDcU2rpUY8lLfUdc41pg8=
+SHA256 (Pkgfile) = cf50a12e551f495d8442ee55b98d1e01534f9ca416551cb9301035217f929ef2
 SHA256 (.footprint) = 3b10e3e09eb3d41d67f25b4b87312f65a9c7da40f3034907571841d72c7ec588
 SHA256 (vte-0.28.2.tar.xz) = 86cf0b81aa023fa93ed415653d51c96767f20b2d7334c893caba71e42654b0ae
 SHA256 (fix_meta_alt_keybinding.patch) = 31a46fee8fe59bd1d6df54bc502b608fe80da57bf3786e2dc6e9856a4e793ed6
 SHA256 (vte.escape.cpu.usage.diff) = b83e820f6d319f6e33bc98cbbae6089fdf8aba44eee344efe3c2168ddd3ed20c
+SHA256 (stream-mem.patch) = 59cbeeec0dd7a6b2887f83e47681638271789c9aa16bca79bc0a4fc8442afa0c
