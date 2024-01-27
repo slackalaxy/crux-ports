@@ -5,7 +5,7 @@
 
 name=gtk1-industrial-engine
 version=0.2.36
-release=1
+release=2
 source=(http://sourceforge.net/projects/sboppetrov/files/$name/gtk-industrial-engine_${version}-2.tar.gz)
 
 build() {
@@ -21,7 +21,7 @@ build() {
 	make install DESTDIR=$PKG
 	
 	# Remove unnecessary things, as we only want the gtk1 engine and theme
-	rm -rf $PKG/usr/lib${LIBDIRSUFFIX}/gtk-2.0
+	rm -rf $PKG/usr/lib/gtk-2.0
 	rm -rf $PKG/usr/share/{icons,locale}
 	rm -rf $PKG/usr/share/themes/Industrial/{gtk-2.0,metacity-1,index.theme}
 }
