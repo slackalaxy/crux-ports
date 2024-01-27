@@ -5,15 +5,22 @@
 
 name=murrine-themes
 version=0.98.11
-release=3
+release=4
 source=(http://sourceforge.net/projects/sboppetrov/files/$name/${name}_0.98.11.tar.xz
-	MurrinaGilouche2.tar.xz Murrine-LightBlue.tar.xz)
+	MurrinaGilouche2.tar.xz Murrine-LightBlue.tar.xz MurrineBlubuntu.tar.xz)
 
 build() {
 	mkdir -p $PKG/usr/share/themes
 	cp -a $name/usr/share/themes/* $PKG/usr/share/themes
-	cp -a MurrinaGilouche2 Murrine-LightBlue $PKG/usr/share/themes
-	rm $PKG/usr/share/themes/shearwater/gtk-2.0/Panel
+	cp -a MurrineBlubuntu MurrinaGilouche2 Murrine-LightBlue $PKG/usr/share/themes
+	
 	find $PKG/ -name "*README*" -delete
 	find $PKG/ -name "COPYING" -delete
+	find $PKG/ -name "*AUTHOR*" -delete
+	
+	chmod 0644 $PKG/usr/share/themes/MurrinaBlue/xfwm4/*
+	
+	rm -rf $PKG/usr/share/themes/shearwater/gtk-2.0/Panel
+	rm -rf $PKG/usr/share/themes/MurrineRounded*
+	rm -rf $PKG/usr/share/themes/Orangine/openbox-3
 }

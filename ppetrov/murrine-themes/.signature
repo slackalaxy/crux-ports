@@ -1,7 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRNhDlsCRaPI7H788Qq8ajQS6lGk72qpY4yNOYeDpB15qmRXrQqdETG2jhgUxbB4cLVhRwsUodVDdYka6X43wQc=
-SHA256 (Pkgfile) = 02ab909ae510553d03d7a11dd4b38c1d3a71f6d80eb11895827486b3a07c4e70
-SHA256 (.footprint) = 5e6b1a67e0b15d5d3e0cb22fddf2966b3d4ad7f304159f350aa569549ae667ed
+RWToVVsIkzFIZaTnU4Zxfm7SSBaY9aMbVaagJnGx10v0fdsRujHGtmCavdNL7zERnlB2QjgqMWpAOWBfZkBPn1T6meGOzuEE7Qg=
+SHA256 (Pkgfile) = 0c308dc0c042979a85cb24924213a9b10e01dfeaf97dd6ab796a57f0950086e5
+SHA256 (.footprint) = 416ed33d1a9e871bb1c46cd0274952d393b05a406b326577328ab1dabd989143
 SHA256 (murrine-themes_0.98.11.tar.xz) = dd9320f0d64669cc3a08d1ee46b6493ae06e15d28ab55b8d37ff94ada465bc25
 SHA256 (MurrinaGilouche2.tar.xz) = ff011007817c0ae7d020a8dd73a753cef9585fc516718ceac5f8a6fb4e5fd9ab
 SHA256 (Murrine-LightBlue.tar.xz) = b2a7e504d5ef08b4dec561ea875383ccb121e35403c31dd3acb70367c3206a17
+SHA256 (MurrineBlubuntu.tar.xz) = 6673b7513691b92831bb65243a733f7f5d1910136a0cdb72f376af8cf2b87166
