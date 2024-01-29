@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LXDM Config
+Comment=LXDM Configuration tool
+GenericName=LXDM Configuration
+Exec=lxdm-config
+Icon=lxdm-config
+Categories=System
+Type=Application
+Terminal=false
+StartupNotify=false

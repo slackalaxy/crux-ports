@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LXDM Config (admin)
+Comment=LXDM Configuration tool (root)
+GenericName=LXDM Configuration (root)
+Exec=ktsuss lxdm-config
+Icon=lxdm-config
+Categories=System
+Type=Application
+Terminal=false
+StartupNotify=false
