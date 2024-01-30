@@ -5,8 +5,8 @@
 
 name=xfce
 version=4.12
-release=3
-source=(config.tar.xz gtkrc-2.0 xinitrc xprofile)
+release=4
+source=(config.tar.xz gtkrc-2.0 xinitrc)
 
 build() {
 	mkdir -p $PKG/usr/etc
@@ -15,7 +15,6 @@ build() {
 	mkdir -p $PKG/etc/skel
 	install -m 0644 $SRC/gtkrc-2.0 $PKG/etc/skel/.gtkrc-2.0
 	install -m 0644 $SRC/xinitrc $PKG/etc/skel/.xinitrc
-	install -m 0644 $SRC/xprofile $PKG/etc/skel/.xprofile
 	
 	cp -a $SRC/config $PKG/etc/skel/.config
 }

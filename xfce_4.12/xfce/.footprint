@@ -1,9 +1,6 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/skel/
 drwxr-xr-x	root/root	etc/skel/.config/
--rw-r--r--	root/root	etc/skel/.config/Trolltech.conf
-drwxr-xr-x	root/root	etc/skel/.config/qt5ct/
--rw-r--r--	root/root	etc/skel/.config/qt5ct/qt5ct.conf
 drwxr-xr-x	root/root	etc/skel/.config/xfce4/
 drwxr-xr-x	root/root	etc/skel/.config/xfce4/panel/
 -rw-r--r--	root/root	etc/skel/.config/xfce4/panel/cpufreq-2.rc
@@ -30,7 +27,6 @@ drwxr-xr-x	root/root	etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/
 -rw-r--r--	root/root	etc/skel/.config/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml
 -rw-r--r--	root/root	etc/skel/.gtkrc-2.0
 -rw-r--r--	root/root	etc/skel/.xinitrc
--rw-r--r--	root/root	etc/skel/.xprofile
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/etc/
 -rw-r--r--	root/root	usr/etc/xfce_version
