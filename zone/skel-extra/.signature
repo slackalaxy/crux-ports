@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImweSRChT0GQ3UO+3tT+Yf6uxUnIcH44ezWiCjXgT/bjtSE/pLeMTBCdT9yNcQzzUXCmJKtGKnG+RIRcXgsY2m5wY=
+SHA256 (Pkgfile) = 14f15932cda5295f5c4fad63d406cfff1f8d3cf39cc5c805b49c2d4443208994
+SHA256 (.footprint) = 6f02cf78ea02c770109546138b4685cf2d3f30b3663ef67c77b0d7ca68438c0f
+SHA256 (config.tar.xz) = c14e8743a0339fd770e3a9d5a61276ab232a867ba57eacdf82aa5da2d0228081
+SHA256 (local.tar.xz) = 6e48770d13e85c7dd5f58adfffb8020a1e7705bc78e71cb125e1568ec81b394b

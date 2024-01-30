@@ -1,0 +1,16 @@
+# Description: Extra configurations
+# URL: /etc/skel
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gigolo-gtk2 leafpad medit qt5ct viewnior gnome-colors-48
+
+name=skel-extra
+version=0.1
+release=1
+source=(config.tar.xz local.tar.xz)
+
+build() {
+	mkdir -p $PKG/etc/skel
+
+	cp -a config $PKG/etc/skel/.config
+	cp -a local $PKG/etc/skel/.local
+}
