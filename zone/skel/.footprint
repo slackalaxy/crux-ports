@@ -4,3 +4,4 @@ drwxr-xr-x	root/root	etc/skel/
 -rw-r--r--	root/root	etc/skel/.bash_logout
 -rw-r--r--	root/root	etc/skel/.bash_profile
 -rw-r--r--	root/root	etc/skel/.bashrc
+-rw-r--r--	root/root	etc/skel/.xprofile
