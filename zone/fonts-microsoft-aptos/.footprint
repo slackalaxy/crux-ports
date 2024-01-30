@@ -1,0 +1,19 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/microsoft/
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Black.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Display Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Display Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Display Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Display.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos ExtraBold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos ExtraBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Narrow Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Narrow Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Narrow Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Narrow.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos.ttf
