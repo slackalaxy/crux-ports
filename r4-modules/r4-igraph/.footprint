@@ -72,6 +72,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/igraph/html/
 -rw-r--r--	root/root	usr/lib/R/library/igraph/igraph2.gif
 drwxr-xr-x	root/root	usr/lib/R/library/igraph/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/igraph/libs/igraph.so
+drwxr-xr-x	root/root	usr/lib/R/library/igraph/lifecycle/
+-rw-r--r--	root/root	usr/lib/R/library/igraph/lifecycle/deprecated-table-creation.R
+-rw-r--r--	root/root	usr/lib/R/library/igraph/lifecycle/deprecated.csv
 -rw-r--r--	root/root	usr/lib/R/library/igraph/my_html_library.tcl
 drwxr-xr-x	root/root	usr/lib/R/library/igraph/tkigraph_help/
 -rw-r--r--	root/root	usr/lib/R/library/igraph/tkigraph_help/communities.html

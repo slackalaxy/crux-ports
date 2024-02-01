@@ -1,13 +1,13 @@
 # Description: R module sp
 # URL: https://cran.r-project.org/web/packages/sp
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-lattice
+# Depends on: r r4-lattice
 # Optional: r4-deldir r4-gstat r4-knitr r4-raster r4-rcolorbrewer r4-rmarkdown r4-sf r4-terra
 
 name=r4-sp
-version=2.1.2
+version=2.1.3
 release=1
-source=(https://cloud.r-project.org/src/contrib/sp_2.1-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/sp_2.1-3.tar.gz)
 
 build() {
 	cd sp

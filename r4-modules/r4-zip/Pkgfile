@@ -1,11 +1,11 @@
 # Description: R module zip
 # URL: https://cran.r-project.org/web/packages/zip
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-covr r4-processx r4-r6 r4-testthat r4-withr
 
 name=r4-zip
-version=2.3.0
+version=2.3.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/zip_${version}.tar.gz)
 

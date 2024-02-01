@@ -1,13 +1,13 @@
 # Description: R module spatstat.explore
 # URL: https://cran.r-project.org/web/packages/spatstat.explore
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-abind r4-goftest r4-matrix r4-nlme r4-spatstat-data r4-spatstat-geom r4-spatstat-random r4-spatstat-sparse r4-spatstat-utils
+# Depends on: r r4-abind r4-goftest r4-matrix r4-nlme r4-spatstat-data r4-spatstat-geom r4-spatstat-random r4-spatstat-sparse r4-spatstat-utils
 # Optional: r4-fftwtools r4-gsl r4-locfit r4-sm r4-spatial r4-spatstat r4-spatstat-linnet r4-spatstat-model
 
 name=r4-spatstat-explore
-version=3.2.5
+version=3.2.6
 release=1
-source=(https://cloud.r-project.org/src/contrib/spatstat.explore_3.2-5.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spatstat.explore_3.2-6.tar.gz)
 
 build() {
 	cd spatstat.explore

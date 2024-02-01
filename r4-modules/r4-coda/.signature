@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FT5S63296F2Qni0hts+7+gAUfB9wA1oiIdmw1Vtpic26qJIoxFPOvbIo9QgBesliML8OkkZXs/e0WNjwpwM6wo=
-SHA256 (Pkgfile) = a4efd4edaa7ed607932d5f4fbf6ee3b0f131acf9ec3d847f04c3f2b2439ac8e4
+RWQ2oTreAss89GN2sTXv+w5hRiy+iO5bmfgD1F3FICESELv7e7GVr6+2kawq/i7YrZvQLGAV1/WRT7+aE0HNvxERTCbWQ4IJSw0=
+SHA256 (Pkgfile) = b28cea0121b02dfe74d9d7886f72c11bacd8b19a3e787eaeea81566db631db11
 SHA256 (.footprint) = e372635e933e1ff454c6ec4bdf03929e79b8792d5e8ad919e5cd33ff5ec43c97
-SHA256 (coda_0.19-4.tar.gz) = 422d3cfd34797a3631e9c4812431940599c0ca4bb9937797bed07b7b1d6fe58f
+SHA256 (coda_0.19-4.1.tar.gz) = f4b451d86fbb56ff9ade043ddd6b0944368c37d0dad12d02837750ecdc708ad6

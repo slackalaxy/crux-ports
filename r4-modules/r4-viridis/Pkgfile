@@ -5,7 +5,7 @@
 # Optional: r4-colorspace r4-covr r4-dichromat r4-hexbin r4-httr r4-knitr r4-mapproj r4-maps r4-mass r4-rmarkdown r4-scales r4-svglite r4-terra r4-testthat r4-vdiffr
 
 name=r4-viridis
-version=0.6.4
+version=0.6.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/viridis_${version}.tar.gz)
 

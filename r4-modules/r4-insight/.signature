@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AvK9fm+aJ7vfgl+o0fM8ADMiiIFDlks87r6pgl+DBK50MCQ4n2tV7KdcrXymX3KAWLCiRzz8J+bg5MuxHIZlwM=
-SHA256 (Pkgfile) = 335c4e971e6e19d042a747355bb084c3a5e836dd327900d7eb89ea6c3ab54e2a
+RWQ2oTreAss89ASrKzKZggJaTa272UT13BfSoa5EFU2mPJJwcOhGFLLf+WRboW/fz7rfVBcJVmCy+oLv9juCxM54QHBQezm9PA0=
+SHA256 (Pkgfile) = 624b58425562fc12ca8b263dcfa1145ca22af856fa3d9dc1bfbcb3576504c2f0
 SHA256 (.footprint) = 18f49d22669567cfbf6b72c86a89834abebe892a829e4a081aab3da4ed07f410
-SHA256 (insight_0.19.7.tar.gz) = 41a54c13a3f04108c79469cf35c41161f37e2d89e6d70791eb13fd5fc0e71f06
+SHA256 (insight_0.19.8.tar.gz) = 98ef4e647dcfc9fa84758ed88bad01321037a0f6862c2b7e009494cd3276e6b8
