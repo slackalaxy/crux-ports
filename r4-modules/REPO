@@ -383,6 +383,9 @@ d:r4-reprex
 d:r4-rvest
 d:r4-selectr
 d:r4-tidyverse
+d:r4-shinybs
+d:r4-shinybusy
+d:r4-shinycssloaders
 f:faf96b44e95dabeefc15401dc3d7f527:r4-bslib/Pkgfile
 f:ceed53a7213158f0ebb97236226385ba:r4-bslib/.footprint
 f:12acbdcd28e3feeaa23b74319ed6582f:r4-bslib/.signature
@@ -1539,3 +1542,12 @@ f:44d9406d165ef851a637d28d8c7bf02d:r4-selectr/.signature
 f:fb39910ddd3d1cd8c91bb0d7fa9eeb2d:r4-tidyverse/Pkgfile
 f:67c992469722629611968b25b991b7a7:r4-tidyverse/.footprint
 f:276245e8809c3e0419323175f8256d7a:r4-tidyverse/.signature
+f:2a706ad9a3e795169b02e7e61d07ae39:r4-shinybs/Pkgfile
+f:adaa9312284c0fdc02dc129cd20f1d34:r4-shinybs/.footprint
+f:ac413e965853d00db3e9daac02c88f51:r4-shinybs/.signature
+f:698c6011883d76b0999b79a692a59157:r4-shinybusy/Pkgfile
+f:e4c6893020bf556bee926116e65b8b7b:r4-shinybusy/.footprint
+f:02cf90664f2525e6bb5c00ba41d2c324:r4-shinybusy/.signature
+f:a1f62ba1fe6cc1ca7cda837e500b9b9b:r4-shinycssloaders/Pkgfile
+f:d4ad9adde4b40e3b9e4d01311dee14a6:r4-shinycssloaders/.footprint
+f:8d78cce44bba0644b84bb17394c9cf8e:r4-shinycssloaders/.signature

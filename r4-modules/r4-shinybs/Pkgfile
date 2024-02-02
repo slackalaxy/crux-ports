@@ -1,0 +1,16 @@
+# Description: R module shinyBS
+# URL: https://cran.r-project.org/web/packages/shinyBS
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-htmltools r4-shiny
+# Optional: 
+
+name=r4-shinybs
+version=0.61.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/shinyBS_${version}.tar.gz)
+
+build() {
+	cd shinyBS
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
