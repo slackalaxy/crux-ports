@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-crayon r4-devtools r4-knitr r4-matrix r4-modeldata r4-recipes r4-rmarkdown r4-roxygen2 r4-testthat r4-usethis
 
 name=r4-hardhat
-version=1.3.0
+version=1.3.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/hardhat_${version}.tar.gz)
 

@@ -35,6 +35,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppHNSW/include/RcppPerpendicular/
 -rw-r--r--	root/root	usr/lib/R/library/RcppHNSW/include/hnswlib.h
 -rw-r--r--	root/root	usr/lib/R/library/RcppHNSW/include/space_ip.h
 -rw-r--r--	root/root	usr/lib/R/library/RcppHNSW/include/space_l2.h
+-rw-r--r--	root/root	usr/lib/R/library/RcppHNSW/include/stop_condition.h
 -rw-r--r--	root/root	usr/lib/R/library/RcppHNSW/include/visited_list_pool.h
 drwxr-xr-x	root/root	usr/lib/R/library/RcppHNSW/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/RcppHNSW/libs/RcppHNSW.so

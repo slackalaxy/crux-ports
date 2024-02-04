@@ -1,11 +1,11 @@
 # Description: R module RcppHNSW
 # URL: https://cran.r-project.org/web/packages/RcppHNSW
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-rcpp
+# Depends on: r r4-rcpp
 # Optional: r4-covr r4-testthat
 
 name=r4-rcpphnsw
-version=0.5.0
+version=0.6.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/RcppHNSW_${version}.tar.gz)
 
