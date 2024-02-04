@@ -1,16 +1,21 @@
 # Description: Extra configurations
 # URL: /etc/skel
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gigolo-gtk2 leafpad medit qt5ct viewnior gnome-colors-48
+# Depends on: fonts-conf gigolo-gtk2 gnome-colors-48 leafpad medit qt5ct viewnior xscreensaver-gtk2 inkscape-gtk2 gimp wps-office
 
 name=skel-extra
-version=0.1
+version=0.4
 release=1
-source=(config.tar.xz local.tar.xz)
+source=(config.tar.xz local.tar.xz mplayer.tar.xz hidden xscreensaver)
 
 build() {
 	mkdir -p $PKG/etc/skel
-
+	cp -a hidden $PKG/etc/skel/.hidden
 	cp -a config $PKG/etc/skel/.config
 	cp -a local $PKG/etc/skel/.local
+	
+	# these are my xscreensaver preferences
+	install -m 0644 xscreensaver $PKG/etc/skel/.xscreensaver
+	mkdir -p $PKG/var/tmp/electricsheep
+	chmod 777 $PKG/var/tmp/electricsheep
 }

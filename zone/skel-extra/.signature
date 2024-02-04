@@ -1,6 +1,9 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImweSRChT0GQ3UO+3tT+Yf6uxUnIcH44ezWiCjXgT/bjtSE/pLeMTBCdT9yNcQzzUXCmJKtGKnG+RIRcXgsY2m5wY=
-SHA256 (Pkgfile) = 14f15932cda5295f5c4fad63d406cfff1f8d3cf39cc5c805b49c2d4443208994
-SHA256 (.footprint) = 6f02cf78ea02c770109546138b4685cf2d3f30b3663ef67c77b0d7ca68438c0f
-SHA256 (config.tar.xz) = c14e8743a0339fd770e3a9d5a61276ab232a867ba57eacdf82aa5da2d0228081
-SHA256 (local.tar.xz) = 6e48770d13e85c7dd5f58adfffb8020a1e7705bc78e71cb125e1568ec81b394b
+RWRPokwW0IImwYu+rK9lntBmt88WZTfa5kze1M4JJdZ1y6Fh0mJcdx7mwYNYXgoS5wnOUbgOWVU9FTCIOsla0JgjuIs0spQAUAY=
+SHA256 (Pkgfile) = 190f433db6ac3fa874d024ca27ee0e3600fe470a33a81019cee613ef4b502ce1
+SHA256 (.footprint) = b7a10e0d16e839d37080bdc2edd0a98bb80d75aa094a2838bf59905175829a0c
+SHA256 (config.tar.xz) = 658d8a631365dad0bebd8598acff466da77ae0818c2a9dcf7a587fa0447c2a4a
+SHA256 (local.tar.xz) = c4f0df0e16cc1f943b1bd45088ced243221ae111e32d7c4c65cfca662fb2babe
+SHA256 (mplayer.tar.xz) = b6a0618aece8852cc3c7b70496c3f5167849985d5df85bf023e0106a3c3b24f6
+SHA256 (hidden) = 4efce5ff85c6964e53cff331de3cb51c1341ef8e2fb823e0c3ac7b6805b9d714
+SHA256 (xscreensaver) = c9802b3d92ad6873f044094ce7880cd9013c58875252ff36a7f3c6514072a38a
