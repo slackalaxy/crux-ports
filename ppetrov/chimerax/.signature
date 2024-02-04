@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZWx0sJtTfX0FWHFrJmmlnaAzdyx4rbQvfwlwLFbWwMS8Temt/d41YPzJxKwJPk5RZkI6CRr6k56viWvX7JK0Mg4=
-SHA256 (Pkgfile) = db2decffe9180de40f49902e615ca493f7054128e58cff025d336978cdae10d0
-SHA256 (.footprint) = fa003ccfd9d790edb873593204f722ded83be18545e30f168606b2365d74b3c8
-SHA256 (ChimeraX-1.7.tar.gz) = 005bd0b6942b5e8c3a32ad39bb6ea1118da173217c2c0c51d3e0c665913e6c3a
+RWToVVsIkzFIZUKnvJ4yznaZ24FCZEOcJjsgEaDl0IfVsSx7PAObdZ5LpEYTcmewcQWXLCJKvAmgYdZjx8+3aSVhYsxHbCGqxwY=
+SHA256 (Pkgfile) = 999103f20a08942b86644b00976404fd4adc8ae756638efc38172be95a60a612
+SHA256 (.footprint) = b87640d1f3313429bd5ea7ef22c3391494cdd1d8026a607fcaeb973c56c97dcf
+SHA256 (ChimeraX-1.7.1.tar.gz) = 035d6b19ae7794d4b2872ecdafdaee02408533e3d3ebd32c34f048dbae08c09c
 SHA256 (libffi-3.2.tar.gz) = 6b2680fbf6ae9c2381d381248705857de22e05bae191889298f8e6bfb2ded4ef
 SHA256 (chimerax.desktop) = 3b72718e6c3e32622ae2558bc0cfb5434cb5f9df2030e5d2d14e7816ce13ba07
