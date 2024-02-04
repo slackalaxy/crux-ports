@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/pywrap
 -rwxr-xr-x	root/root	usr/bin/pywxrc
 lrwxrwxrwx	root/root	usr/bin/wx-config -> /usr/lib/wx/config/gtk2-unicode-release-2.8
+-rwxr-xr-x	root/root	usr/bin/wx-config-2.8
 lrwxrwxrwx	root/root	usr/bin/wxrc -> wxrc-2.8
 -rwxr-xr-x	root/root	usr/bin/wxrc-2.8
 -rwxr-xr-x	root/root	usr/bin/xrced

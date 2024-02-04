@@ -5,7 +5,7 @@
 
 name=wxpython2
 version=2.8.12.1
-release=3
+release=4
 source=(http://downloads.sourceforge.net/wxpython/wxPython-src-$version.tar.bz2)
 
 build() {
@@ -89,7 +89,7 @@ build() {
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/applications
 	#rm $PKG/usr/bin/wxrc
-	#mv $PKG/usr/bin/wx-config $PKG/usr/bin/wx-config-2.8
+	cp $PKG/usr/bin/wx-config $PKG/usr/bin/wx-config-2.8
 	find $PKG/ -name "*README*" -delete
 	find $PKG/ -name "*TODO*" -delete
 }
