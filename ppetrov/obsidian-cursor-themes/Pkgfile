@@ -1,0 +1,15 @@
+# Description: Obsidian cursor themes
+# URL: https://www.gnome-look.org/p/999984
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xorg-server
+
+name=obsidian-cursor-themes
+version=1.0
+release=1
+source=(https://slackware.uk/salix/x86_64/15.0/salix/l/obsidian-cursors-$version-noarch-1gv.txz)
+
+build() {
+	cd usr/share/icons/obsidian-cursors
+	mkdir -p $PKG/usr/share/icons/ObsidianCursorTheme
+	cp -a cursors *.theme $PKG/usr/share/icons/ObsidianCursorTheme
+}
