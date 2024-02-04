@@ -1,8 +1,10 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZUMluhR9uHCQV/H7qGev5Ze84cLU9GzR3spDuHcH3vb1i2P0ZoK1iRdNFU+fd0zdxlrwRJvhNjZXwss9kML8Vww=
-SHA256 (Pkgfile) = c0116839a6f3395eee273c56b0d4132c7ee9f60f31c8f1e380068c33dd68bd6b
-SHA256 (.footprint) = 9acc5aed608940dcc49d6fe7df8c9620635a8123a30c8ed23d1f49b15687e668
+RWToVVsIkzFIZbz3v8WSg/ItuvH7awjuHxDohrRzVvJeSfbhinISa063CdUzePtiw8q3MsKFU51pka9lBE0BtIPXESnWFWEiaAE=
+SHA256 (Pkgfile) = 44a6ee625e3d4c3247d0ef2a954c4004eddd469f2bb22244a4d79fc2e43c0ab4
+SHA256 (.footprint) = 35ae617e64cd9d6d50e9a5c0da5552c7797adb167a8b89e3f3171335dbdfe45e
 SHA256 (cmst-2023.03.14.tar.xz) = eba0ec46b3f79fa6cb29e9d6adae25ec366ed6c619ab5737b9fad0b1d3ff5d54
 SHA256 (interface.tar.xz) = 7ae7c44d83bea56c8d5249d6954a58b0e0410c60ca536d9e31f6dab6fc986615
 SHA256 (overlay.tar.xz) = 51bc65f73b752e2f9540ac2a30c23e9401514bcf3159ea64415ee2f44ec2865f
 SHA256 (raw_art.tar.xz) = 084ec7840926d2fddfd3401ecedd7cca226df48f141740f2fe816680e3f4daac
+SHA256 (0001-Use-preferences-system-network-as-icon.patch) = 050037201b7c87ef64c564d81d8b95e193be1e47e9394e0ae36144fb54b94c71
+SHA256 (0002-Update-D-Bus-policy-configuration-location.patch) = f6cfb519b38ddec1f471013ac2fef692946e2e024b4b5990f2c8a1fc9d4c6cca

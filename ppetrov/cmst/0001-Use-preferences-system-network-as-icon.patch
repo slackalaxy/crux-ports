@@ -1,0 +1,36 @@
+From: Alf Gaida <agaida@siduction.org>
+Date: Fri, 16 Sep 2022 03:36:29 +0800
+Subject: Use preferences-system-network as icon
+
+Let the icon change with the chosen icon theme
+---
+ misc/desktop/cmst-autostart.desktop | 2 +-
+ misc/desktop/cmst.desktop           | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/misc/desktop/cmst-autostart.desktop b/misc/desktop/cmst-autostart.desktop
+index 25d609e..184b376 100644
+--- a/misc/desktop/cmst-autostart.desktop
++++ b/misc/desktop/cmst-autostart.desktop
+@@ -2,7 +2,7 @@
+ Type=Application
+ Version=1.0
+ Categories=Settings;System;Qt;Network;
+-Icon=cmst
++Icon=preferences-system-network
+ Exec=cmst -w5
+ Terminal=false
+ StartupNotify=false
+diff --git a/misc/desktop/cmst.desktop b/misc/desktop/cmst.desktop
+index 7c8b1d7..5c99bbb 100644
+--- a/misc/desktop/cmst.desktop
++++ b/misc/desktop/cmst.desktop
+@@ -2,7 +2,7 @@
+ Type=Application
+ Version=1.0
+ Categories=Settings;System;Qt;Network;
+-Icon=cmst
++Icon=preferences-system-network
+ Terminal=false
+ Exec=cmst
+ StartupNotify=false
