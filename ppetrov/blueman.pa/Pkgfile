@@ -1,11 +1,11 @@
 # Description: Module-bluetooth-discover works only if started 'later' 
 # URL: https://www.linuxquestions.org/questions/linux-hardware-18/br-connection-profile-unavailable-4175720918/#post6406579
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: blueman pulseaudio
+# Depends on: blueman bluez pulseaudio sbc
 
 name=blueman.pa
 version=post6406579
-release=1
+release=2
 source=()
 
 build() {
