@@ -5,15 +5,16 @@
 
 name=connman
 version=1.42
-release=3
+release=4
 source=(https://www.kernel.org/pub/linux/network/connman/$name-$version.tar.gz
-	connmand.rc allow_group_network.diff)
+	connmand.rc dbus.wheel.patch eduroam.config)
 
 build() {
 	cd $name-$version
-	patch -Np1 -i $SRC/allow_group_network.diff
+	patch -Np1 -i $SRC/dbus.wheel.patch
 	
-	./configure --prefix=/usr \
+	./configure \
+		--prefix=/usr \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
 		--enable-polkit \
@@ -30,6 +31,9 @@ build() {
 	make
 	make install DESTDIR=$PKG
 	
-	install -Dm644 src/main.conf $PKG/etc/connman/main.conf
+	mkdir -p $PKG/etc/connman/
+	install -m 0644 src/main.conf $PKG/etc/connman/main.conf
 	install -D -m 0755 $SRC/connmand.rc $PKG/etc/rc.d/connmand
+	
+	install -D -m 700 $SRC/eduroam.config $PKG/var/lib/connman/eduroam.config
 }

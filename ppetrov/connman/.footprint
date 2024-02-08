@@ -103,3 +103,7 @@ drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/net.connman.policy
 -rw-r--r--	root/root	usr/share/polkit-1/actions/net.connman.vpn.policy
+drwxr-xr-x	root/root	var/
+drwxr-xr-x	root/root	var/lib/
+drwxr-xr-x	root/root	var/lib/connman/
+-rwx------	root/root	var/lib/connman/eduroam.config

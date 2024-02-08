@@ -1,34 +1,64 @@
 #!/bin/sh
-# Start/stop/restart the connman daemon.
-# Thanks to Samuel Young (https://slackbuilds.org/repository/15.0/network/connman/)
+#
+# /etc/rc.d/connmand: start/stop connmand
+#
 
-connmand_start() {
-  if [ -x /usr/sbin/connmand ]; then
-    echo "Starting connman daemon: /usr/sbin/connmand "
-    /usr/sbin/connmand
-  fi
+DAEMON=/usr/sbin/connmand
+DESC="Connection Manager"
+
+if [ -f /etc/default/connman ] ; then
+	. /etc/default/connman
+fi
+
+set -e
+
+do_start() {
+	start-stop-daemon --start --oknodo --exec $DAEMON
 }
 
-connmand_stop() {
-  killall connmand 2> /dev/null
+do_stop() {
+	start-stop-daemon --stop --oknodo --quiet --exec $DAEMON
 }
 
-connmand_restart() {
-  connmand_stop
-  sleep 1
-  connmand_start
+# thanks Debian
+get_pid() {
+	[ -n "$1" ] || return 0
+	[ -S /run/dbus/system_bus_socket ] || return 0
+
+	dbus-send --system --dest=org.freedesktop.DBus --print-reply \
+		/org/freedesktop/DBus org.freedesktop.DBus.GetConnectionUnixProcessID \
+		string:$1 2>/dev/null | awk '/uint32/ {print $2}'
 }
 
 case "$1" in
-'start')
-  connmand_start
-  ;;
-'stop')
-  connmand_stop
-  ;;
-'restart')
-  connmand_restart
-  ;;
-*)
-  echo "usage $0 start|stop|restart"
+  start)
+	echo "Starting $DESC"
+	do_start
+	;;
+  stop)
+	echo "Stopping $DESC"
+	do_stop
+	;;
+  restart|force-reload)
+	echo "Restarting $DESC"
+	do_stop
+	sleep 1
+	do_start
+	;;
+  status)
+	pid=$(get_pid net.connman)
+	if [ -n "$pid" ]; then
+		echo "$DAEMON is running"
+		return 0
+	else
+		echo "$DAEMON is not running"
+		return 3 # LSB exit code for "program is not running"
+	fi
+	;;
+  *)
+	echo "Usage: $0 {start|stop|restart|force-reload|status}" >&2
+	exit 1
+	;;
 esac
+
+exit 0
