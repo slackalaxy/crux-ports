@@ -1,0 +1,4 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/X11/
+drwxr-xr-x	root/root	etc/X11/xorg.conf.d/
+-rw-r--r--	root/root	etc/X11/xorg.conf.d/70-synaptics.conf
