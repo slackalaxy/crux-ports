@@ -6,3 +6,7 @@ To make the program start minimized:
 1. Preferences
 2. Interface: Enable Start Options from GUI
 3. Start Up Options: Start minimized
+
+NOTE:
+If you restart /etc/rc.d/connmand, then better exit cmst and start it
+again for DBUS rules to reapply.
