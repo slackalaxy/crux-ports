@@ -1,0 +1,16 @@
+Make sure your user is in the `wheel` group, if you want to use connman
+via cmst, as a regular user.
+
+For wifi, you may need to do this as your regular user
+
+	$ connmanctl
+	connmanctl> agent on
+	connmanctl> exit
+
+A connman cli cheatsheet can be found here:
+	
+	https://gist.github.com/kylemanna/6930087
+
+If you are using Eduroam, fill your details in:
+
+	/var/lib/connman/eduroam.config
