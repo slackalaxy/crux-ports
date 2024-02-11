@@ -5,7 +5,7 @@
 
 name=vte
 version=0.28.2
-release=4
+release=5
 source=(http://ftp.gnome.org/pub/gnome/sources/vte/0.28/$name-$version.tar.xz
 	fix_meta_alt_keybinding.patch vte.escape.cpu.usage.diff stream-mem.patch)
 
@@ -19,18 +19,20 @@ build() {
 	patch -p1 < $SRC/vte.escape.cpu.usage.diff
 
 	# https://bugs.launchpad.net/ubuntu/+source/vte/+bug/778872/comments/5
-	patch -p1 < $SRC/stream-mem.patch
+	# this does not seem to fix the issue...
+	#patch -p1 < $SRC/stream-mem.patch
 	
-	./configure --prefix=/usr \
-	--sysconfdir=/usr/etc \
-	--libexecdir=/usr/lib/$name \
-	--disable-introspection \
-	--enable-python \
-	--enable-gnome-pty-helper \
-	--with-gtk=2.0 \
-	--with-default-emulation=xterm \
-	--disable-gtk-doc-html \
-	--disable-nls
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--libexecdir=/usr/lib/$name \
+		--disable-introspection \
+		--enable-python \
+		--enable-gnome-pty-helper \
+		--with-gtk=2.0 \
+		--with-default-emulation=xterm \
+		--disable-gtk-doc-html \
+		--disable-nls
 
 	make
 	make install DESTDIR=$PKG
