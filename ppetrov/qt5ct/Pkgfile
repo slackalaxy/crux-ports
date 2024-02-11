@@ -5,7 +5,7 @@
 
 name=qt5ct
 version=1.8
-release=1
+release=2
 source=(https://sourceforge.net/projects/qt5ct/files/$name-$version.tar.bz2)
 
 build(){
@@ -15,4 +15,6 @@ build(){
 	QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS"
 	make
 	make INSTALL_ROOT="$PKG" install
+	
+	sed -i "s:Settings;DesktopSettings;Qt;:Settings;X-XFCE-SettingsDialog;:" $PKG/usr/share/applications/qt5ct.desktop
 }
