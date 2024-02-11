@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZe20Ps+TdfRjxM0qv+4RZKRBSTw/+Biv3UTHcmLCc3Xo2bdPOgGKkgHwcm67cjqa756Pwkufnj4l6T5EUPplrwg=
-SHA256 (Pkgfile) = 3cb1f3f6d89ceff399e21d56f2d70b64159a52cbf720813c4713a4eb5c39bb8b
+RWToVVsIkzFIZaLsNBOeZ3mGExSfvFVRfMb4fgYIEFQf7DpMkMZhr9mhW0UDBsl3c2G2gJXBkKZF9cz/wCTJcukh79JkbRlo/A4=
+SHA256 (Pkgfile) = cab47825b9c11766e2d99f02cb41a35952ab5eb50c3c6758603aaa65aed277d0
 SHA256 (.footprint) = 57a67aadcd928e94a3915a6032e6d361549c5e4f34fb60234647e5ca089f68ab
 SHA256 (qt-everywhere-opensource-src-4.8.7.tar.gz) = e2882295097e47fe089f8ac741a95fef47e0a73a3f3cdf21b56990638f626ea0
 SHA256 (disable-root-include.patch) = 7d812b1ec2903fc1c60493b211d322a3a034d9484bb425da615f0df6dba301aa
@@ -19,4 +19,4 @@ SHA256 (qt4-gcc11.patch) = ce710612c89b47fc4a070bcce355855f899349b995e2654f342c8
 SHA256 (qt4-glibc-2.25.patch) = e6555f4a681227447e94e9f14e11626d50b7e5108aad06088311e87063bc0347
 SHA256 (qt4-icu59.patch) = 61d6bf45649c728dec5f8d22be5b496ed9d40f52c2c70102696d07133cd1750d
 SHA256 (qt4-openssl-1.1.patch) = ff3ddb5428cd2ff243558dc0c75b35f470077e9204bbc989ddcba04c866c1b68
-SHA256 (qtconfig-qt4.desktop) = 223c1ba72e39a1c7545ce03a269c443c8f9aa844a92fdfaab2a632ba6013bd82
+SHA256 (qtconfig-qt4.desktop) = 8caa2605efdaae7ef219d29afdf529d07de9c60c3ac0df6b6899c8c2313b7937

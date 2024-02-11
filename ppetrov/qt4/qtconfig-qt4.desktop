@@ -5,4 +5,4 @@ Exec=qtconfig-qt4
 Icon=preferences-desktop-theme
 Terminal=false
 Type=Application
-Categories=Qt;Settings;
+Categories=Qt;Settings;X-XFCE-SettingsDialog;
