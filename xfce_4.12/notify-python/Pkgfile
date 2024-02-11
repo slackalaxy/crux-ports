@@ -1,0 +1,27 @@
+# Description: Python interface to DBus notifications
+# URL: https://slackware.uk/slackware/slackware-14.2/source/l/notify-python/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtk libnotify
+
+name=notify-python
+version=0.1.1
+release=1
+source=(https://slackware.uk/slackware/slackware-14.2/source/l/notify-python/notify-python-0.1.1.tar.bz2
+	https://slackware.uk/slackware/slackware-14.2/source/l/notify-python/libnotify07.patch.gz)
+
+build() {
+	cd $name-$version
+	
+	# Thanks Slackware for the source, patch and fixes.
+	# Fix http://trac.galago-project.org/ticket/121
+	rm -f src/pynotify.c
+
+	# Fix build with libnotify-0.7 (thanks, Fedora)
+	zcat $SRC/libnotify07.patch.gz | patch -p1 --verbose || exit 1
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CXXFLAGS -fcommon" \
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+}

@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchv8jix+kMwYNsbusZC7TpVqYXFyhu0wT+h5Me1d/1zdRF8rpixqlXso7e9j9TDXa1DPamjeGNBYX6LODWLF5VAc=
+SHA256 (Pkgfile) = 93e48bfe290bec9fae31b9787f4c270cc29746f612627fbbf061e07adca5ca6b
+SHA256 (.footprint) = 523e874d04828d43d171baa13faec3b5a642c7488e6ed1f98169d28d29ac7a37
+SHA256 (notify-python-0.1.1.tar.bz2) = 7d3bbb7c3d8f56c922cc31d02ef9057a4f06998cc2fd4f3119a576fcf8d504ce
+SHA256 (libnotify07.patch.gz) = ea9d5a91a1960a020236e8c81ae721a6026348d8c01d98e712d4d66e1aec3e0c
