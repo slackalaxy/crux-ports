@@ -10,7 +10,6 @@ d:hyphy
 d:libcap-ng
 d:liblxqt
 d:meme-db-motif
-d:notify-python
 d:p5-dbd-sqlite
 d:p5-io-sessiondata
 d:p5-sort-naturally
@@ -64,7 +63,6 @@ d:p5-io-tty
 d:p5-statistics-descriptive
 d:p5-xml-filter-buffertext
 d:pfam-domain-generator
-d:python-pycurl
 d:cap3
 d:bgoffice
 d:bpp1-phyl
@@ -131,7 +129,6 @@ d:goffice08
 d:codeml-native
 d:eigen3
 d:flam3
-d:gconf-editor
 d:gnome-vfsmm
 d:hdf5
 d:libatasmart
@@ -237,7 +234,6 @@ d:p5-io-stringy
 d:p5-spreadsheet-parseexcel
 d:p5-xml-dom
 d:perlprimer
-d:python-pycups
 d:samtools0
 d:staden
 d:treegraph
@@ -362,11 +358,9 @@ d:referencer
 d:argtable
 d:bpp-popgen
 d:sharutils
-d:system-config-printer
 d:ugene
 d:xmms-skins-bunjee
 d:xscreensaver-gtk2
-d:cruxy-wallpapers
 d:embassy
 d:foo2zjs
 d:gchemutils
@@ -480,9 +474,6 @@ f:0aefe36fa8d50389c848b9b67c07c623:liblxqt/.signature
 f:ce9759b3978a5527d96baf5602862175:meme-db-motif/Pkgfile
 f:69dfa1f5667309a5e3a27ab65fb6b352:meme-db-motif/.footprint
 f:7bbd00342a16b60513ea6ca145afc57f:meme-db-motif/.signature
-f:2eaaed7814f32a3329919b7064c9312e:notify-python/Pkgfile
-f:354c0cdd727465dd4827c32abdb19ae2:notify-python/.footprint
-f:7caf4f6f37dee4eecf2f92f078156a70:notify-python/.signature
 f:915bd17595250a89dbd704ffa36b33dc:p5-dbd-sqlite/Pkgfile
 f:9e856d7c4a0a382560ff4483d748eb2d:p5-dbd-sqlite/.footprint
 f:34108053f1c52ff63184eb727d03bbee:p5-dbd-sqlite/.signature
@@ -678,9 +669,6 @@ f:2fcecf7da41344e1ceb801b101bb6be0:pfam-domain-generator/pfam-domain-generator.p
 f:56c01b36689c561914b284540d3033b7:pfam-domain-generator/pfam-domain-generator.tar.xz
 f:886ab3c58aa11a1c1a6cd163e291ed9c:pfam-domain-generator/.footprint
 f:ec8c2a7947c34d79ce00e97b936b0d35:pfam-domain-generator/.signature
-f:c08ea54a103644a2476fe89b17f1f3b0:python-pycurl/Pkgfile
-f:910e377ded102ba5811f63819bad5a47:python-pycurl/.footprint
-f:567ac10b91cd009a20e159d0e0d9274e:python-pycurl/.signature
 f:d0b772ef1fb120d7e02fe586738f9330:cap3/Pkgfile
 f:863e0f3825e3ad6c68e58e8a39f7934d:cap3/.footprint
 f:4adfa344f070f5797f9d6375bbfe4f8f:cap3/.signature
@@ -918,9 +906,6 @@ f:47b1a84c47e013cbb33dc17acba60c89:eigen3/.signature
 f:894e9534a3fac264074d2ed2bc38d533:flam3/Pkgfile
 f:28637818972b8078a42132da54628de4:flam3/.footprint
 f:cfa079a7a4d0dc23f629c37acece57b3:flam3/.signature
-f:261505e267cb5b185f969d362cd2eea1:gconf-editor/.signature
-f:e482f3688b154df6a6a58b9fcb2186b1:gconf-editor/Pkgfile
-f:04a5e24dcbb90d66b3b5fedf8ca3bc21:gconf-editor/.footprint
 f:6d80204a1a62517ef29a8687e6c2aca0:gnome-vfsmm/Pkgfile
 f:7d093fd204c699c0572a9f406aeb515d:gnome-vfsmm/.footprint
 f:a3364a05fe95c8673560e0acc549ecb6:gnome-vfsmm/.signature
@@ -1312,9 +1297,6 @@ f:ef12aa4e60238478fccc12ab51660784:perlprimer/perlprimer.desktop
 f:9689e089bb57d9da64d63f57af5e22e2:perlprimer/perlprimer.png
 f:86dfb7dc5a47b7d8d37378e51fe3ad31:perlprimer/.footprint
 f:f2d4fc41780fa12a77e8d48c497c6e79:perlprimer/.signature
-f:49b2b91c4d8d0e8c557637f4430c88a4:python-pycups/Pkgfile
-f:5d4c8eb4678f20cc886b5c85cf4c6cf1:python-pycups/.footprint
-f:0e58ed9df3f488c20b06c9db46bfb2b9:python-pycups/.signature
 f:c8dd096120a1006e27480aba0c4f09cd:samtools0/Pkgfile
 f:99a7fd73356cfc25861b0c4bb95f3cc8:samtools0/.footprint
 f:b3ecf6d74d98ef980a9f1172f0c8d93f:samtools0/.signature
@@ -1819,9 +1801,6 @@ f:b455f99ac103f83bdd2f269fc9bed2df:sharutils/Pkgfile
 f:9083f8b9d93f72ee22870f272abe1c69:sharutils/sharutils.glibc228.diff.gz
 f:f9228d6e58f3328d0b29db4bd4b7dcd5:sharutils/.signature
 f:3f2753f51ab94daa567dd51f47f50d08:sharutils/.footprint
-f:e7bde951d64debe3b76bd9727c0923c7:system-config-printer/Pkgfile
-f:249d945e3312edd33c5f509a0559dc39:system-config-printer/.footprint
-f:2a00f16f91a2f849fbd50c0423750c3b:system-config-printer/.signature
 f:8ac83f4930fecd634655004762fc553c:ugene/Pkgfile
 f:21080262ce21cc36686b5a96238fe520:ugene/.footprint
 f:6384c81df757d388012f733b828c524b:ugene/.signature
@@ -1832,13 +1811,10 @@ f:d996d65ecfdf5f3d2d2216ee25ca6416:xscreensaver-gtk2/01_electricsheep.patch
 f:bd054dff3d8167d23005ab4b6f78cc4c:xscreensaver-gtk2/02_rss.patch
 f:0989d3302204f225f99318b612d8770b:xscreensaver-gtk2/README
 f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver-gtk2/xscreensaver.pam
-f:42b09485ec52f969e1e72b49d4b3181d:xscreensaver-gtk2/.footprint
-f:8c272c395cb92bc83c50d36c39efd8cb:xscreensaver-gtk2/.signature
-f:4efc2901715b1e893f278a789962c467:xscreensaver-gtk2/Pkgfile
+f:b44a268c4e065e53179e69da0222e8b7:xscreensaver-gtk2/.footprint
+f:019bb73be93e3a50bb640fa16a7ae56f:xscreensaver-gtk2/.signature
+f:25c9a65e214bb41283746e34d61795c3:xscreensaver-gtk2/Pkgfile
 f:4094170c3af28ce4642282ac6ca1c5a1:xscreensaver-gtk2/nonag.patch
-f:fa3cbd4e7cfbb320f688e2cf1f7d8fd7:cruxy-wallpapers/Pkgfile
-f:92f8211690ff09a8a18279e89cf0e87e:cruxy-wallpapers/.footprint
-f:879935fb15efe70d44fe9a91dc5d451c:cruxy-wallpapers/.signature
 f:fdce549b84e15d68e8ddf9cd07b7c3c7:embassy/Pkgfile
 f:16cbb8f308e5f5e18aab7e67e6d5f701:embassy/.footprint
 f:6c15f8db8cbae2be6d26a3be0cbf85f4:embassy/.signature
