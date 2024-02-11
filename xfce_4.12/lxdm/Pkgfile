@@ -5,7 +5,7 @@
 
 name=lxdm
 version=20220124_f662906
-release=1
+release=2
 
 source=(http://ponce.cc/slackware/sources/repo/lxde/$name-$version.tar.xz
 	default.jpg lxdm.rc lxdm-config.desktop lxdm-config-root.desktop Xsession)
