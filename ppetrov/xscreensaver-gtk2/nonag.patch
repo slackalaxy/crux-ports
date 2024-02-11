@@ -1,0 +1,54 @@
+diff -pruN orig/driver/demo-Gtk.c new/driver/demo-Gtk.c
+--- orig/driver/demo-Gtk.c	2022-05-29 20:58:04.065926168 +0300
++++ new/driver/demo-Gtk.c	2024-02-10 19:33:57.743489294 +0200
+@@ -5012,7 +5012,7 @@ main (int argc, char **argv)
+     gtk_timeout_add (5 * 1000, the_network_is_not_the_computer, s);
+ 
+ 
+-  if (time ((time_t *) 0) - XSCREENSAVER_RELEASED > 60*60*24*30*17)
++  /*   if (time ((time_t *) 0) - XSCREENSAVER_RELEASED > 60*60*24*30*17)
+     warning_dialog (s->toplevel_widget,
+       _("Warning:\n\n"
+         "This version of xscreensaver is VERY OLD!\n"
+@@ -5024,7 +5024,7 @@ main (int argc, char **argv)
+         "your distro is doing you a disservice. Build from source.)\n"
+         ),
+       D_NONE, 7);
+-
++   */
+   /* Run the Gtk event loop, and not the Xt event loop.  This means that
+      if there were Xt timers or fds registered, they would never get serviced,
+      and if there were any Xt widgets, they would never have events delivered.
+diff -pruN orig/driver/dialog.c new/driver/dialog.c
+--- orig/driver/dialog.c	2022-02-21 22:04:57.721246900 +0200
++++ new/driver/dialog.c	2024-02-10 19:35:45.909487616 +0200
+@@ -1372,6 +1372,7 @@ window_draw (window_state *ws)
+   lines[i].align = CENTER;
+   i++;
+ 
++ /*
+   if (time ((time_t *) 0) - XSCREENSAVER_RELEASED > 60*60*24*30*17)
+     {
+       lines[i].text  = _("Update available!\nThis version is very old.\n");
+@@ -1383,7 +1384,8 @@ window_draw (window_state *ws)
+       lines[i].align = CENTER;
+       i++;
+     }
+-  else if (strstr (ws->version, "a") ||
++  */
++  if (strstr (ws->version, "a") ||
+       strstr (ws->version, "b"))
+     {
+       lines[i].text  = _("PRE-RELEASE VERSION");
+diff -pruN orig/driver/prefsw.c new/driver/prefsw.c
+--- orig/driver/prefsw.c	2022-03-23 00:52:48.105821848 +0200
++++ new/driver/prefsw.c	2024-02-10 19:36:44.220486711 +0200
+@@ -1518,6 +1518,8 @@ senescent_p (void)
+      of date.
+   */
+ 
++  return 0;
++
+   time_t now = time ((time_t *) 0);				/*   d   */
+   struct tm *tm = localtime (&now);				/*   o   */
+   const char *s = screensaver_id;				/*   n   */
