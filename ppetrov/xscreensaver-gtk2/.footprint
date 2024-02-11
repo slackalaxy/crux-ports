@@ -270,6 +270,7 @@ drwxr-xr-x	root/root	usr/share/X11/app-defaults/
 -rw-r--r--	root/root	usr/share/X11/app-defaults/XScreenSaver
 drwxr-xr-x	root/root	usr/share/applications/
 -rwxr-xr-x	root/root	usr/share/applications/xscreensaver-settings.desktop
+drwxr-xr-x	root/root	usr/share/backgrounds/
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/xscreensaver/
 -rw-r--r--	root/root	usr/share/fonts/xscreensaver/OCRAStd.otf
@@ -539,7 +540,6 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/zoom.6.gz
 drwxr-xr-x	root/root	usr/share/pixmaps/
 -rw-r--r--	root/root	usr/share/pixmaps/xscreensaver.png
-drwxr-xr-x	root/root	usr/share/wallpapers/
 drwxr-xr-x	root/root	usr/share/xscreensaver/
 drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/abstractile.xml

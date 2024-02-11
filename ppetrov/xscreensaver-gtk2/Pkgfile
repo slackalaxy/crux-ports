@@ -5,7 +5,7 @@
 
 name=xscreensaver-gtk2
 version=6.04
-release=3
+release=4
 source=(https://ftp.osuosl.org/pub/blfs/conglomeration/xscreensaver/xscreensaver-$version.tar.gz
 	xscreensaver.pam 01_electricsheep.patch 02_rss.patch nonag.patch)
 
@@ -26,12 +26,13 @@ build() {
 		--with-gl \
 		--without-gle \
 		--with-pixbuf \
-		--with-jpeg
+		--with-jpeg \
+		--with-image-directory=/usr/share/backgrounds
 
 	make
 	make install_prefix=$PKG install
 	chmod 755 $PKG/usr/bin/xscreensaver
-	install -d $PKG/usr/share/wallpapers
+	install -d $PKG/usr/share/backgrounds
 
 	echo "NotShowIn=KDE;GNOME;" >> $PKG/usr/share/applications/xscreensaver-settings.desktop
 	sed -i "s:Screensaver;::" $PKG/usr/share/applications/xscreensaver-settings.desktop
