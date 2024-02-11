@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchvdkERxAOblokOvTRxOaRJ6/vP2Py94a6zuZReR7AC6M5DeTnpkIbCdRx7s5Q1Tlrw0HgbllTgYtXbkxb6PDbwc=
+SHA256 (Pkgfile) = 0e44915f6fa7afd6e42c328501bb567ee8204c2dff75dc5a6058d9c4016bc5e6
+SHA256 (.footprint) = 94f800f7f38e2fa96acf93cf4b3862c7b57b5531209f3e8bcbdf12a26d9e53b5
+SHA256 (pycurl-7.45.1.tar.gz) = a863ad18ff478f5545924057887cdae422e1b2746e41674615f687498ea5b88a
