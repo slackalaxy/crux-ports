@@ -49,9 +49,9 @@ d:xfce4-xkb-plugin
 d:vte
 d:lxdm
 f:5ec1b92f7f81c954cffe5ec604ee515d:orage/.footprint
-f:0dbf6bbb5e797f943ecc0f6dbc59eda1:orage/Pkgfile
+f:d6eb268abf4c2fe1b3dfeeb0024277b6:orage/Pkgfile
 f:46a029d1007c1d9f7fb854f77cc76255:orage/orage.libical3.patch
-f:564f0184edea892b36ca684f68c669c4:orage/.signature
+f:8f244a8763703b7d6cd2c4679756a814:orage/.signature
 f:e977e5cd67c982a2c4850f9b41ab8ba8:exo/.footprint
 f:f8d68064dc6fbf2f0b73cc2a8da47a3b:exo/Pkgfile
 f:dcd72af43108d9f9be4bf5ce7540de95:exo/.signature
@@ -230,11 +230,11 @@ f:28dd67d2a28f54e677eac2bc8c564954:vte/vte.escape.cpu.usage.diff
 f:956329f080368daeaeb7ed368aca9895:vte/.footprint
 f:23b5412b5660256ebe96e6f4eadcec1b:vte/.signature
 f:51dc3a6f6f1911fe6b5123690188ad6d:vte/stream-mem.patch
-f:7d5a67f9c4550e7c333c05a62a0a2982:lxdm/Pkgfile
+f:8be9fde94c94e32ecd8c741252169704:lxdm/Pkgfile
 f:f3bf75c816f211922b9c0ae8c2540b21:lxdm/lxdm.rc
 f:0607bf78024693c51ca9d757fd6708eb:lxdm/.footprint
-f:2df5aa2ca308818edb0f7549a5caf99c:lxdm/.signature
-f:7f012bb1a3da2cc34e73b78fa948af24:lxdm/lxdm-config.desktop
-f:1131a358c529a6db9fb9fad2ca8c603c:lxdm/lxdm-config-root.desktop
+f:9f6ac0d34f61e163c2cc1a0fffc98dc5:lxdm/.signature
+f:34ccd8aabca17c50846ac863be3bda64:lxdm/lxdm-config.desktop
+f:43e86db457f55369ae7999543621dd75:lxdm/lxdm-config-root.desktop
 f:bf237846ef6566e4ecde950dadf900a1:lxdm/default.jpg
 f:03af4f63348d98a4aab75aaa114e4f6f:lxdm/Xsession
