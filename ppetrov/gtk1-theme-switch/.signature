@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRkOyxKWfYXlMW8XnsqMKqJqELqz6ytDjNQHY9/IuzkUOR/QugbD2ZgSmULZt8JcVolkmAhtGim4DmWTEdPzFgI=
-SHA256 (Pkgfile) = 39aeddc8f478feaacad1287d944f6dcc90a194187389fa2a1400a44baa37692f
-SHA256 (.footprint) = 567a0792c1d0fae4e5691cf9c7517d66d0ef81ccd7f2dd3d9460b4a355aa142b
+RWToVVsIkzFIZRBxvs9AsftT3qVvRu5PZc4F8SNotFyjcNrimzMxb8XKhejY0ivItbX3seyzJpXqqvx1jj4jeIcPyLmfJe4YNw4=
+SHA256 (Pkgfile) = 779cb3f5be1dfab34874d39331f07466cb06f095770782dac435b429bdf4dca2
+SHA256 (.footprint) = d08f4ea7818f9c313a4767a3c48e1b75f61b01c6150cf54df709a6ebeb361cfe
 SHA256 (gtk-theme-switch-1.0.1.tar.gz) = 86a1bd848ae435b359b86e57d7e54c225c4de714f32f924c96f1ea8d189c885d
-SHA256 (gtk1-theme-switch.desktop) = 528cbc041878850f1233b638a78dac62b2c6db592ce5262d0829553ba30dc121
+SHA256 (gtk1-theme-switch.desktop) = e1dcfc95aaf63fe31ed675e7fcac40bbdcdc1b2d68ded4b4222c7442067bf778

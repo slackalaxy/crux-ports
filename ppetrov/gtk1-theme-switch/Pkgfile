@@ -5,7 +5,7 @@
 
 name=gtk1-theme-switch
 version=1.0.1
-release=1
+release=2
 source=(http://www.muhri.net/gtk-theme-switch-$version.tar.gz
 	gtk1-theme-switch.desktop)
 
@@ -25,5 +25,4 @@ build() {
 	
 	mkdir -p $PKG/usr/share/{applications,pixmaps}
 	cp $SRC/$name.desktop $PKG/usr/share/applications
-	cp expand.xpm $PKG/usr/share/pixmaps/gtk1-switch.xpm
 }
