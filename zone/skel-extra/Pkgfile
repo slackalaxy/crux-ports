@@ -4,7 +4,7 @@
 # Depends on: fonts-conf gigolo-gtk2 gnome-colors-48 leafpad medit qt5ct viewnior xscreensaver-gtk2 inkscape-gtk2 gimp wps-office
 
 name=skel-extra
-version=0.4
+version=0.5
 release=1
 source=(config.tar.xz local.tar.xz mplayer.tar.xz hidden xscreensaver)
 

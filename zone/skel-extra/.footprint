@@ -85,11 +85,11 @@ drwxr-xr-x	root/root	etc/skel/.config/viewnior/
 -rw-r--r--	root/root	etc/skel/.config/viewnior/viewnior.conf
 -rw-r--r--	root/root	etc/skel/.hidden
 drwxr-xr-x	root/root	etc/skel/.local/
-drwxr-xr-x	root/root	etc/skel/.local/medit-1/
--rw-r--r--	root/root	etc/skel/.local/medit-1/file-list-config.xml~
-drwxr-xr-x	root/root	etc/skel/.local/medit-1/share/
--rw-r--r--	root/root	etc/skel/.local/medit-1/share/file-list-config.xml
--rw-r--r--	root/root	etc/skel/.local/medit-1/share/prefs.xml
+drwxr-xr-x	root/root	etc/skel/.local/share/
+drwxr-xr-x	root/root	etc/skel/.local/share/medit-1/
+drwxr-xr-x	root/root	etc/skel/.local/share/medit-1/share/
+-rw-r--r--	root/root	etc/skel/.local/share/medit-1/share/file-list-config.xml
+-rw-r--r--	root/root	etc/skel/.local/share/medit-1/share/prefs.xml
 -rw-r--r--	root/root	etc/skel/.xscreensaver
 drwxr-xr-x	root/root	var/
 drwxr-xr-x	root/root	var/tmp/

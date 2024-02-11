@@ -27,7 +27,7 @@ dpmsOff:	4:00:00
 grabDesktopImages:  True
 grabVideoFrames:    False
 chooseRandomImages: True
-imageDirectory:	/usr/share/wallpapers
+imageDirectory:	/usr/share/backgrounds
 
 mode:		one
 selected:	87
