@@ -5,7 +5,7 @@
 
 name=pavucontrol-qt
 version=1.4.0
-release=1
+release=2
 source=(https://github.com/lxqt/$name/releases/download/$version/$name-$version.tar.xz)
 
 build() {
@@ -20,5 +20,10 @@ build() {
 	
 	make
 	make DESTDIR=$PKG install
+	
+	# add to Xfce's Settings panel
+	sed -i "s:DesktopSettings:DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings:" \
+	$PKG/usr/share/applications/pavucontrol-qt.desktop
+	
 	rm -rf $PKG/usr/share/$name/translations
 }
