@@ -5,7 +5,7 @@
 
 name=system-config-printer
 version=1.3.13
-release=2
+release=3
 source=(https://slackware.uk/slackware/slackware-14.2/source/l/system-config-printer/system-config-printer-1.3.13.tar.xz)
 
 build() {
@@ -20,4 +20,7 @@ build() {
 	# Build and install:
 	make
 	make install DESTDIR=$PKG
+	
+	sed -i "s:System;Settings;HardwareSettings;Printing;GTK:System;Settings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings:" \
+	$PKG/usr/share/applications/system-config-printer.desktop
 }
