@@ -5,7 +5,7 @@
 
 name=electricsheep
 version=20090306
-release=2
+release=3
 source=(https://slackware.uk/slackware/slackware64-15.0/source/xap/$name/$name-$version.tar.xz
 	$name-preferences.desktop)
 

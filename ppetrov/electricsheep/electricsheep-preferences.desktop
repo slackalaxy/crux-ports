@@ -5,4 +5,4 @@ Exec=electricsheep-preferences
 Icon=electricsheep
 StartupNotify=false
 Type=Application
-Categories=Settings
+Categories=System
