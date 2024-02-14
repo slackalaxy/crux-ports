@@ -1,0 +1,22 @@
+# Description: WPC Xfce wallpapers
+# URL: https://wallpapercave.com/xfce-wallpapers
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: wget
+
+name=wpc-xfce
+version=0.10
+release=1
+source=($name.list)
+
+build() {
+	mkdir $name-$version
+	cd $name-$version
+	
+	cat $SRC/$name.list | while read -r a ; do
+		wget -c https://wallpapercave.com/wp/$a
+	done
+	
+	mkdir -p $PKG/usr/share/backgrounds/xfce
+	cp -a *.{png,jpg} $PKG/usr/share/backgrounds/xfce
+	chmod 0644 $PKG/usr/share/backgrounds/xfce/*
+}
