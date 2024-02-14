@@ -1,0 +1,15 @@
+# Description: Preselected desktop wallpapers
+# URL: https://github.com/slackalaxy/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=wp-selected
+version=0.08
+release=1
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/selected-$version.tar.xz)
+
+build() {
+	cd selected-$version
+	
+	mkdir -p $PKG/usr/share/backgrounds/selected
+	cp -a * $PKG/usr/share/backgrounds/selected
+}
