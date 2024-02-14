@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchrn+AdNLtNT7nm3Z45LpY3ryFyb1HhX72TddUhEPQR6iktsGovLO3Adz9WltWl7Ky/hwFX6rfiWhpiSGRnBOogI=
+SHA256 (Pkgfile) = 54accd6a8830703d15b919b31ff47949117710dd5095cdd735b190e3879d7d4b
+SHA256 (.footprint) = d6b032f0bd5570d2c5898af24973e1fc19756e26823f060329197869f6c50297
+SHA256 (wpc-minimalist.list) = bcb0ba2abcdd18377524de0a416922f4adfb40c10c036678ac9bec9bfe961ad7
