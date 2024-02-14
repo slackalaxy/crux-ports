@@ -5,16 +5,17 @@
 
 name=xfce4-session
 version=4.12.1
-release=6
+release=7
 source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2
-	xfce-shutdown.rules xinitrc.xfce)
+	xfce-shutdown.rules xinitrc.xfce xflock4.desktop)
 
 build () {
 	cd $name-$version
-	./configure --prefix=/usr \
-	--libexecdir=/usr/lib/xfce4 \
-        --disable-debug
-	#--disable-legacy-sm
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/xfce4 \
+		--disable-debug
+		#--disable-legacy-sm
 	make
 	make DESTDIR=$PKG install
 
@@ -25,6 +26,8 @@ build () {
 	#cat $SRC/xfce-shutdown.rules > $PKG/etc/polkit-1/rules.d/xfce-shutdown.rules
 
 	install -D -m 0644 $SRC/xinitrc.xfce $PKG/etc/X11/xinit/xinitrc.xfce
+	install -D -m 0644 $SRC/xflock4.desktop $PKG/usr/share/applications/xflock4.desktop
+	
 	sed -i "s:Icon=:Icon=xfce4_xicon1:g" $PKG/usr/share/xsessions/xfce.desktop
 	
 	rm -rf $PKG/usr/share/{locale,doc}
