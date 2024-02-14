@@ -5,19 +5,26 @@
 
 name=xfce4-clipman-plugin
 version=1.2.6
-release=1
-source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+release=2
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2
+	xfce4-clipman-settings.desktop)
+	
 build () { 
-  cd $SRC/$name-$version
-  ./configure --prefix=/usr \
-              --libexecdir=/usr/lib \
-              --disable-static \
-              --disable-debug \
-              --disable-nls \
-              --disable-dependency-tracking
-  make
-  make DESTDIR=$PKG install
-  rm -rf $PKG/usr/share/{doc,locale}
-  find $PKG/usr -type f -name '*.desktop' \
-       -exec sed -r '/\[.+\]=/d' -i {} \;
+	cd $SRC/$name-$version
+	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib \
+		--disable-static \
+		--disable-debug \
+		--disable-nls \
+		--disable-dependency-tracking
+  
+	make
+	make DESTDIR=$PKG install
+	
+	cp -a $SRC/xfce4-clipman-settings.desktop $PKG/usr/share/applications
+	
+	rm -rf $PKG/usr/share/{doc,locale}
+	find $PKG/usr -type f -name '*.desktop' \
+	-exec sed -r '/\[.+\]=/d' -i {} \;
 }
