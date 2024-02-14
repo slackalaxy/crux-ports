@@ -5,15 +5,20 @@
 
 name=xfce4-terminal
 version=0.6.3
-release=1
-source=(http://archive.xfce.org/src/apps/xfce4-terminal/${version:0:3}/$name-$version.tar.bz2)
+release=2
+source=(http://archive.xfce.org/src/apps/xfce4-terminal/${version:0:3}/$name-$version.tar.bz2
+	xfce4-terminal-dropdown.desktop)
+	
 build (){
 	cd $name-$version
-	./configure --prefix=/usr \
-	--disable-nls \
+	./configure \
+		--prefix=/usr \
+		--disable-nls
 	
 	make
 	make DESTDIR=$PKG install
+	
+	cp -a $SRC/xfce4-terminal-dropdown.desktop $PKG/usr/share/applications
 	
 	rm -rf $PKG/usr/share/locale
 	rm -rf $PKG/usr/share/man/{??,??_??}
