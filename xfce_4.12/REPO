@@ -146,9 +146,9 @@ f:b82cc912d35cd44ce91a24eba702ad5f:keybinder/.footprint
 f:4213a2b85a67e35b81880fc599d61eab:keybinder/Pkgfile
 f:c6e6109b527d53a65dc5079c8ed8772d:keybinder/.signature
 f:2c514f988b031766edbf6e8536ee0894:xfce/.footprint
-f:5ce9f0ff9899c0d79d048d7a7097793a:xfce/Pkgfile
+f:2165cdc368437abce20b359dde728e76:xfce/Pkgfile
 f:fafc316a6807f63f148898658feeb2aa:xfce/README
-f:5e76e99e48569903d91e16d65312a1af:xfce/.signature
+f:c6f1b71bf8b291d988daca1ca811f33d:xfce/.signature
 f:52a0a98cac9c9cea94697e28cb8475f6:xfce/gtkrc-2.0
 f:cc02dda9e93c8afcfadfc2fbb68f795f:xfce/xinitrc
 f:d2dacf0695b2007450582894d5a6a36b:xfce/config.tar.xz
