@@ -5,17 +5,21 @@
 
 name=xfce4-notes-plugin
 version=1.8.1
-release=1
-source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+release=2
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2
+	xfce4-notes-settings.desktop)
 
 build () {
 	cd $name-$version
-	./configure --prefix=/usr \
-	--disable-debug \
-	--disable-nls
+	./configure \
+		--prefix=/usr \
+		--disable-debug \
+		--disable-nls
 	
 	make
 	make DESTDIR=$PKG install
+
+	cp -a $SRC/xfce4-notes-settings.desktop $PKG/usr/share/applications
 
 	rm -rf $PKG/usr/share/locale
 }

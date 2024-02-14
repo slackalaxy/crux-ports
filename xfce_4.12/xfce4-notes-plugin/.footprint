@@ -15,6 +15,7 @@ drwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/
 -rwxr-xr-x	root/root	usr/lib/xfce4/panel/plugins/libnotes.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/xfce4-notes-settings.desktop
 -rw-r--r--	root/root	usr/share/applications/xfce4-notes.desktop
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
