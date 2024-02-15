@@ -8,7 +8,6 @@ d:kernel-modular
 d:jdk11-sym
 d:repgen
 d:trimssd
-d:wallpapers-gnome-archive
 d:medit-biolang
 d:fonts-apple-osx
 d:fonts-conf
@@ -64,10 +63,6 @@ f:676720c6b82c88d57c65bfd9c21b78d0:trimssd/.footprint
 f:5b534aeff9406501b311e087b5348844:trimssd/Pkgfile
 f:de43ed3a531c44a785b8bc04204e4637:trimssd/README
 f:2d91ceefef1c8c7240c209ba88d74ada:trimssd/.signature
-f:c1a646aed935d6a213592155cf652524:wallpapers-gnome-archive/.footprint
-f:3cb45d715e5b5feea7b9c8089bef5e0c:wallpapers-gnome-archive/Pkgfile
-f:e8271120ea1ae4f7501d89f6c210efad:wallpapers-gnome-archive/wallpapers-gnome-archive.list
-f:661ff4e7879ff34e07254594023f1622:wallpapers-gnome-archive/.signature
 f:27a32e9d502c2db1efa2eb7841688f57:medit-biolang/.signature
 f:a1d1ec59dade39d11d4c04a9fe47d72c:medit-biolang/.footprint
 f:50b4112a34c03f147c1d24a787a278a9:medit-biolang/Pkgfile
@@ -137,9 +132,9 @@ f:2662ec08aa09037e72cf1bb0e8918fca:fonts-microsoft-aptos/Pkgfile
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-microsoft-aptos/post-install
 f:168a1336ea107a0200314f89cb289fdd:fonts-microsoft-aptos/.footprint
 f:9f393cea947e3db034e16383c646b683:fonts-microsoft-aptos/.signature
-f:3902f8de391280ba009e5f35acca4580:slackalaxy-repos/Pkgfile
-f:4af5cc9205c6d084b544cbb5a09e04a2:slackalaxy-repos/.footprint
-f:8b04fa5ce46e1730876d6c946e8771b7:slackalaxy-repos/.signature
+f:6bb15d3e4f4bfb43679b292f5cd99134:slackalaxy-repos/Pkgfile
+f:013cfbab9b8ed5f2f3ea9f981ab0c6d3:slackalaxy-repos/.footprint
+f:f6d4cd3cf01f97711e565f1e245290ab:slackalaxy-repos/.signature
 f:cda9c51da8fcdfc3a623ef041f820f30:xorg-conf-synaptics/70-synaptics.conf
 f:3e6e6869d963c1654bfb8c875aa17a80:xorg-conf-synaptics/Pkgfile
 f:61826a76ffb03df5b16a2088c434a590:xorg-conf-synaptics/.footprint

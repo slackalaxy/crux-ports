@@ -5,11 +5,13 @@
 
 name=slackalaxy-repos
 version=3.7
-release=1
+release=2
 source=(https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.httpup
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.pub
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4-modules/r4-modules.httpup
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4-modules/r4-modules.pub
+	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/wallpapers/wallpapers.pub
+	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/wallpapers/wallpapers.httpup
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/xfce_4.12/xfce_4.12.httpup
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/xfce_4.12/xfce_4.12.pub
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/zone/zone.httpup
