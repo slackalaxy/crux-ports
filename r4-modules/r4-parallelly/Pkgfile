@@ -1,11 +1,11 @@
 # Description: R module parallelly
 # URL: https://cran.r-project.org/web/packages/parallelly
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: 
 
 name=r4-parallelly
-version=1.36.0
+version=1.37.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/parallelly_${version}.tar.gz)
 

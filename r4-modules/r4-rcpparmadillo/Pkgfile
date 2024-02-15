@@ -1,11 +1,11 @@
 # Description: R module RcppArmadillo
 # URL: https://cran.r-project.org/web/packages/RcppArmadillo
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-rcpp
+# Depends on: r r4-rcpp
 # Optional: r4-matrix r4-pkgkitten r4-reticulate r4-slam r4-tinytest
 
 name=r4-rcpparmadillo
-version=0.12.6.6.1
+version=0.12.8.0.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/RcppArmadillo_${version}.tar.gz)
 

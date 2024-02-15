@@ -80,15 +80,10 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadillo/inter
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadillo/internal/Row_proto.h
 drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadillo/rng/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadillo/rng/Alt_R_RNG.h
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloAs.h
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloConfig.h
 drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloExtensions/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloExtensions/fixprob.h
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloExtensions/rmultinom.h
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloExtensions/sample.h
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloForward.h
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloSugar.h
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/RcppArmadilloWrap.h
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo
 drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/BaseCube_bones.hpp
@@ -656,6 +651,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/spop_repmat_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/spop_reverse_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/spop_reverse_meat.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/spop_shift_bones.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/spop_shift_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/spop_strans_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/spop_strans_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/spop_sum_bones.hpp

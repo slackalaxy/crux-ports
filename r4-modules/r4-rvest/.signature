@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89PIZHLLm3/u9le6ra7EmihsLp9G1h8cW4zNGIQacMx9rglQmq440Y27ajrMDLlPm0nkQxcK1rV8A6LJyYh4Bqws=
-SHA256 (Pkgfile) = 1ee0dd13bfb030696cce93adeaf61d110eb673ad988762da3314f37850b0f6f4
-SHA256 (.footprint) = 907e245b34f9c51ac9fdeaecb5a1c64d709e86ab3c195ac3323b551b9dcd4a48
-SHA256 (rvest_1.0.3.tar.gz) = a465ef7391afaa3c26eebe8c61db02314ac04c4d8de5aa53f090716763d21c1e
+RWQ2oTreAss89B/qmHgvOXhjuhVE4Skxh0OiYKGTatxIqNnmiA0efJtWMwuAzN4e4cYaDrshE1i5O3OcBXGTuEgTrxdh4BjrKQ4=
+SHA256 (Pkgfile) = ea97ab1bbc81b1e15f95503e39ba0a7df4d3bd3a8d71eef477f07707194d5ecf
+SHA256 (.footprint) = 135bc9c8dbe2e88863272a99248e9bef0e4f87a565b2f95e17e5138be2afdde1
+SHA256 (rvest_1.0.4.tar.gz) = 7d707c6b2994cf7b6c1d665bec872d2ef5c55f30e7c343c447a8a386a6049ca6

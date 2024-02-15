@@ -36,6 +36,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/xfun/html/
 -rw-r--r--	root/root	usr/lib/R/library/xfun/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/xfun/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/xfun/libs/xfun.so
+drwxr-xr-x	root/root	usr/lib/R/library/xfun/resources/
+-rw-r--r--	root/root	usr/lib/R/library/xfun/resources/record.css
+-rw-r--r--	root/root	usr/lib/R/library/xfun/resources/record.html
 drwxr-xr-x	root/root	usr/lib/R/library/xfun/scripts/
 -rw-r--r--	root/root	usr/lib/R/library/xfun/scripts/call-fun.R
 -rw-r--r--	root/root	usr/lib/R/library/xfun/scripts/child-pids.sh

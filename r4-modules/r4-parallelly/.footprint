@@ -31,3 +31,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/parallelly/help/figures/
 drwxr-xr-x	root/root	usr/lib/R/library/parallelly/html/
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/parallelly/libs/
+-rwxr-xr-x	root/root	usr/lib/R/library/parallelly/libs/parallelly.so

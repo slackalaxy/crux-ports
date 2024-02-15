@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89HQzAcPv9ZUIW/dG4D/p9kvlnLqrMfoC+H7FEo5ewjq1bNf328vxYUqbSzDwrXxpZgbiZRdPfHDepnlqr0Tszgk=
-SHA256 (Pkgfile) = 909c41a14e68b4c697193fa389c6122b7f0464e59735fc1e9e3da0a9cf8ab633
+RWQ2oTreAss89JW5nnE8pTWDWXI1aTSN9oIPUpBd8W5RvhEsIpSmS6mQjjBIUza3tuEB4g7K+44Jo2BXbqVjFrgCAzLQVaM7Jws=
+SHA256 (Pkgfile) = 529d94b219a9ac149470bbb82b68c9d9334d4d7898ddaf81ab88c88866d34977
 SHA256 (.footprint) = ef5835152610da201d0ab76a6d0c2cca6dae6e31ed431e8cd15aa3bb1f63e9e1
-SHA256 (ggnewscale_0.4.9.tar.gz) = 70a1552e8cf829fae7fe2d79580b0ba1a429286c1079eeff33609e329f88c0ef
+SHA256 (ggnewscale_0.4.10.tar.gz) = 9fd61539674d056c7b18d6d6014604ba534c710bcd8c05c77590368845280dc9
