@@ -4,6 +4,7 @@ lrwxrwxrwx	root/root	usr/bin/google-chrome -> ../lib/google-chrome/google-chrome
 lrwxrwxrwx	root/root	usr/bin/google-chrome-stable -> ../lib/google-chrome/google-chrome
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/google-chrome/
+-rw-r--r--	root/root	usr/lib/google-chrome/CHROME_VERSION_EXTRA
 drwxr-xr-x	root/root	usr/lib/google-chrome/MEIPreload/
 -rw-r--r--	root/root	usr/lib/google-chrome/MEIPreload/manifest.json
 -rw-r--r--	root/root	usr/lib/google-chrome/MEIPreload/preloaded_data.pb
@@ -35,9 +36,6 @@ drwxr-xr-x	root/root	usr/lib/google-chrome/default_apps/
 -rw-r--r--	root/root	usr/lib/google-chrome/libvulkan.so.1
 drwxr-xr-x	root/root	usr/lib/google-chrome/locales/
 -rw-r--r--	root/root	usr/lib/google-chrome/locales/en-US.pak
--rwxr-xr-x	root/root	usr/lib/google-chrome/nacl_helper
--rwxr-xr-x	root/root	usr/lib/google-chrome/nacl_helper_bootstrap
--rw-r--r--	root/root	usr/lib/google-chrome/nacl_irt_x86_64.nexe
 -rw-r--r--	root/root	usr/lib/google-chrome/product_logo_128.png
 -rw-r--r--	root/root	usr/lib/google-chrome/product_logo_16.png
 -rw-r--r--	root/root	usr/lib/google-chrome/product_logo_24.png
