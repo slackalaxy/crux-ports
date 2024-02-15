@@ -1,12 +1,12 @@
 # Description: Viber for PC
 # URL: https://viber.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cups gst-plugins-bad gtk3 krb5 libevent libidn2 libmng libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy tslib xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsaver xorg-xcb-util
+# Depends on: cups ffmpeg gst-plugins-bad gtk3 krb5 libevent libidn2 libmng libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy tslib xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsaver xorg-xcb-util
 
 name=viber
 version=current
 #version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
-release=9
+release=10
 source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb)
 
 build() {
@@ -30,4 +30,11 @@ build() {
 	chmod 755 $PKG/usr/share
 	
 	find $PKG/usr/lib/viber/translations/ -maxdepth 1 -type f -not -name "*_en.qm" -delete
+	
+	cd $PKG/usr/lib/$name/lib
+	ln -s /usr/lib/libavformat.so libavformat.so.58
+	ln -s /usr/lib/libavcodec.so libavcodec.so.58
+	ln -s /usr/lib/libswresample.so libswresample.so.3
+	ln -s /usr/lib/libswscale.so libswscale.so.5
+	ln -s /usr/lib/libavutil.so libavutil.so.56
 }
