@@ -1,0 +1,31 @@
+# Description: Graphical partition editor
+# URL: http://gparted.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk gtkmm parted
+
+name=gparted-gtk2
+version=0.33.0
+release=1
+source=(https://sourceforge.net/projects/gparted/files/gparted/gparted-0.33.0/gparted-0.33.0.tar.gz
+	https://slackware.uk/slackware/slackware-14.2/source/xap/gparted/com.slackware.pkexec.gparted.policy
+	https://slackware.uk/slackware/slackware-14.2/source/xap/gparted/gparted_polkit)
+
+build() {
+	cd gparted-$version
+
+	sed -i "s:@gksuprog@ @installdir@/gparted %f:@installdir@/gparted_polkit %f:g" \
+	gparted.desktop.in.in
+
+	./configure \
+		--prefix=/usr \
+		--disable-doc \
+		--disable-nls
+
+	make
+	make install DESTDIR=$PKG
+	
+	install -D -m 0644 $SRC/com.slackware.pkexec.gparted.policy $PKG/usr/share/polkit-1/actions/com.slackware.pkexec.gparted.policy
+	install -D -m 0755 $SRC/gparted_polkit $PKG/usr/sbin/gparted_polkit
+	
+	sed -i "s:Exec=:Exec=ktsuss :" $PKG/usr/share/applications/gparted.desktop
+}
