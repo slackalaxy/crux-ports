@@ -1,0 +1,15 @@
+# Description: Desktop wallpapers -- unobtrusive
+# URL: https://github.com/slackalaxy/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=wp-neutral
+version=0.04
+release=1
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/unobtrusive-$version.tar.xz)
+
+build() {
+	cd unobtrusive-$version
+	
+	mkdir -p $PKG/usr/share/backgrounds/neutral
+	cp -a * $PKG/usr/share/backgrounds/neutral
+}

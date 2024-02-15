@@ -1,0 +1,24 @@
+# Description: Gnome archive backgrounds
+# URL: https://download.gnome.org/teams/art.gnome.org/archive/backgrounds/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=wp-gnome-archive
+version=0.97
+release=1
+source=($name.list)
+
+build() {
+	mkdir -p $PKG/usr/share/backgrounds/gnome-archive
+	cat $SRC/$name.list | while read -r a ; do
+		wget -c https://download.gnome.org/teams/art.gnome.org/archive/backgrounds/$a
+	done
+	
+	for i in *.tar.* ; do
+		tar xvf $i
+	done
+		
+	cp -a *.{jpg,png} $PKG/usr/share/backgrounds/gnome-archive
+	
+	chown root:root -R $PKG
+	chmod 0644 $PKG/usr/share/backgrounds/gnome-archive/*
+}
