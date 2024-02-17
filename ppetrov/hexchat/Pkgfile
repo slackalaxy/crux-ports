@@ -5,9 +5,9 @@
 # Optional: dbus-glib desktop-file-utils enchant libcanberra libnotify libproxy lua pciutils
 
 name=hexchat
-version=2.16.1
+version=2.16.2
 release=1
-source=(https://dl.hexchat.net/hexchat/$name-$version.tar.xz)
+source=(https://github.com/hexchat/hexchat/releases/download/v${version}/hexchat-$version.tar.xz)
 
 build() {
   prt-get isinst lua && PKGMK_HEXCHAT+=' -D with-lua=lua' || PKGMK_HEXCHAT+=' -D with-lua=false'
