@@ -4,12 +4,12 @@
 # Depends on: freerdp gnome-icon-theme-symbolic keyutils krb5 libsecret libsodium libssh libvncserver spice-gtk
 
 name=remmina
-version=1.4.33
+version=1.4.34
 release=1
-source=(https://gitlab.com/Remmina/Remmina/-/archive/v${version}/Remmina-v.${version}.tar.gz)
+source=(https://gitlab.com/Remmina/Remmina/-/archive/v${version}/Remmina-v${version}.tar.gz)
 
 build() {
-	cd Remmina-v.${version}
+	cd Remmina-v${version}
 	mkdir -p build
 	cd build
 	

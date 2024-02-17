@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZaI/qNLAmCVWviPFoDaAMYcGNyrYW5KRgzuRfW1cYfp8AaH6tfzcfRNZ3gH413cVc20uLJU5rUQhk7pbFyQ4Hgo=
-SHA256 (Pkgfile) = 9177baf6e05e76f78bc14b2d5528be9e91e662b82bd5ee9a36e2f08477d2dbc6
+RWToVVsIkzFIZfhHrmpRD09XXsAJiPd80C7FNUrMqwBlItx71Yh61cI3gFVBRmmOWh9hgz7igG+7sJfgUJzyfQVKKEtgq3VPqgs=
+SHA256 (Pkgfile) = ae1afd9bbb2412419c390d73e1c59a77a118dd334ac0c4d5b831f19b3abbd975
 SHA256 (.footprint) = b41fc3929923d2274912f9660777bade21c8e88f454cee7f8fcf91a201e9c21a
-SHA256 (Remmina-v.1.4.33.tar.gz) = 0988f8ec5c97f29b83c7e34dba27058ee382c9d0bafaa6d582008a74a2187053
+SHA256 (Remmina-v1.4.34.tar.gz) = 34362239a6a09db7e0ff80faa1c46de6797ba5696401bc54bcb67ce438d60a3b
