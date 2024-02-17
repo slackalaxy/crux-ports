@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/amino-acid-composition
 -rwxr-xr-x	root/root	usr/bin/archive-ncbinlp
 -rwxr-xr-x	root/root	usr/bin/archive-nihocc
+-rwxr-xr-x	root/root	usr/bin/archive-nmcds
 -rwxr-xr-x	root/root	usr/bin/archive-pmc
 -rwxr-xr-x	root/root	usr/bin/archive-pubmed
 -rwxr-xr-x	root/root	usr/bin/archive-taxonomy
@@ -39,6 +40,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/exclude-uid-lists
 -rwxr-xr-x	root/root	usr/bin/expand-current
 -rwxr-xr-x	root/root	usr/bin/fetch-local
+-rwxr-xr-x	root/root	usr/bin/fetch-nmcds
 -rwxr-xr-x	root/root	usr/bin/fetch-pmc
 -rwxr-xr-x	root/root	usr/bin/fetch-pubmed
 -rwxr-xr-x	root/root	usr/bin/fetch-taxonomy
@@ -69,6 +71,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/intersect-uid-lists
 -rwxr-xr-x	root/root	usr/bin/join-into-groups-of
 -rwxr-xr-x	root/root	usr/bin/json2xml
+-rwxr-xr-x	root/root	usr/bin/jsonl2xml
 -rwxr-xr-x	root/root	usr/bin/just-first-key
 -rwxr-xr-x	root/root	usr/bin/nhance.sh
 -rwxr-xr-x	root/root	usr/bin/nquire
@@ -83,11 +86,11 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/pmc2bioc
 -rwxr-xr-x	root/root	usr/bin/pmc2info
 -rwxr-xr-x	root/root	usr/bin/print-columns
+-rwxr-xr-x	root/root	usr/bin/quote-grouped-elements
 -rwxr-xr-x	root/root	usr/bin/rchive
 -rwxr-xr-x	root/root	usr/bin/rchive.Linux
 -rwxr-xr-x	root/root	usr/bin/ref2pmid
--rwxr-xr-x	root/root	usr/bin/refseq-nm-starts
--rwxr-xr-x	root/root	usr/bin/refseq-nm-subseq
+-rwxr-xr-x	root/root	usr/bin/refseq-nm-cds
 -rwxr-xr-x	root/root	usr/bin/reorder-columns
 -rwxr-xr-x	root/root	usr/bin/run-ncbi-converter
 -rwxr-xr-x	root/root	usr/bin/scn2xml
