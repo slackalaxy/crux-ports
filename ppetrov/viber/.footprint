@@ -114,6 +114,9 @@ drwxr-xr-x	root/root	usr/lib/viber/lib/
 -rw-r--r--	root/root	usr/lib/viber/lib/libQt6XcbQpa.so.6
 -rw-r--r--	root/root	usr/lib/viber/lib/libXcomposite.so.1
 -rw-r--r--	root/root	usr/lib/viber/lib/libXdamage.so.1
+lrwxrwxrwx	root/root	usr/lib/viber/lib/libavcodec.so.58 -> /usr/lib/libavcodec.so
+lrwxrwxrwx	root/root	usr/lib/viber/lib/libavformat.so.58 -> /usr/lib/libavformat.so
+lrwxrwxrwx	root/root	usr/lib/viber/lib/libavutil.so.56 -> /usr/lib/libavutil.so
 -rw-r--r--	root/root	usr/lib/viber/lib/libb2.so.1
 -rw-r--r--	root/root	usr/lib/viber/lib/libcrypto.so.1.1
 -rw-r--r--	root/root	usr/lib/viber/lib/libdouble-conversion.so.3
@@ -126,6 +129,8 @@ drwxr-xr-x	root/root	usr/lib/viber/lib/
 -rw-r--r--	root/root	usr/lib/viber/lib/libpng16.so.16
 -rw-r--r--	root/root	usr/lib/viber/lib/libre2.so.5
 -rw-r--r--	root/root	usr/lib/viber/lib/libssl.so.1.1
+lrwxrwxrwx	root/root	usr/lib/viber/lib/libswresample.so.3 -> /usr/lib/libswresample.so
+lrwxrwxrwx	root/root	usr/lib/viber/lib/libswscale.so.5 -> /usr/lib/libswscale.so
 -rw-r--r--	root/root	usr/lib/viber/lib/libwebp.so.6
 -rw-r--r--	root/root	usr/lib/viber/lib/libxcb-cursor.so.0
 drwxr-xr-x	root/root	usr/lib/viber/libexec/
