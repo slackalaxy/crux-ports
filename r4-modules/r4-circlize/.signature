@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89JnXJpMnVyohymy+vAd1YhwhiFfrnXSCZU/qcHzMHZtvSr8AyOqgAErXf3zslC1hQwSuPZnYlcaqs9/rQb9ZmAc=
-SHA256 (Pkgfile) = e792839c09446c5fa6ec04fe82f594fddb7d64c7ea36445d55aa79bb572e1561
+RWQ2oTreAss89CBpe0/O9nRK5Nd/vngHxmAR/a99QE2cRSxyS9fP4MrNxH5VofFy29tu3knkSyUuI4Q07sUGFuaRZ35ruXXvjws=
+SHA256 (Pkgfile) = 6a97c76daf43cda3093e541d84d23bdf567411048cf222424ecef8da222ab969
 SHA256 (.footprint) = 03387dd24af65a28f83c856c2419c111d750d35038bdbc01a92a83ff9b892c8e
-SHA256 (circlize_0.4.15.tar.gz) = d602d55313fe7c675109153d6ed3b99bdba5292e1deefed71d5a21e0db595cc7
+SHA256 (circlize_0.4.16.tar.gz) = 16dc32c7704906d13a9e5281bb396e92fb89a6b17fa5e201953240726b650b67

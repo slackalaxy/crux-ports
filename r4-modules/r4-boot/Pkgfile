@@ -1,13 +1,13 @@
 # Description: R module boot
 # URL: https://cran.r-project.org/web/packages/boot
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: r4-mass r4-survival
 
 name=r4-boot
-version=1.3.28.1
+version=1.3.29
 release=1
-source=(https://cloud.r-project.org/src/contrib/boot_1.3-28.1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/boot_1.3-29.tar.gz)
 
 build() {
 	cd boot

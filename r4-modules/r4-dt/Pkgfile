@@ -5,7 +5,7 @@
 # Optional: r4-bslib r4-future r4-knitr r4-rmarkdown r4-shiny r4-testit r4-tibble
 
 name=r4-dt
-version=0.31
+version=0.32
 release=1
 source=(https://cloud.r-project.org/src/contrib/DT_${version}.tar.gz)
 

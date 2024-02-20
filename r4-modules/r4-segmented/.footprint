@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/segmented/R/
 -rw-r--r--	root/root	usr/lib/R/library/segmented/R/segmented.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/segmented/data/
 -rw-r--r--	root/root	usr/lib/R/library/segmented/data/down.rda
+-rw-r--r--	root/root	usr/lib/R/library/segmented/data/globTempAnom.rda
 -rw-r--r--	root/root	usr/lib/R/library/segmented/data/plant.rda
 -rw-r--r--	root/root	usr/lib/R/library/segmented/data/stagnant.rda
 drwxr-xr-x	root/root	usr/lib/R/library/segmented/help/

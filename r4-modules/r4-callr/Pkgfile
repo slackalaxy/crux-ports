@@ -5,7 +5,7 @@
 # Optional: r4-asciicast r4-cli r4-covr r4-mockery r4-ps r4-rprojroot r4-spelling r4-testthat r4-withr
 
 name=r4-callr
-version=3.7.3
+version=3.7.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/callr_${version}.tar.gz)
 
