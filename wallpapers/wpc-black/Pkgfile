@@ -1,0 +1,22 @@
+# Description: WPC Black wallpapers
+# URL: https://wallpapercave.com/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: wget
+
+name=wpc-black
+version=0.07
+release=1
+source=($name.list)
+
+build() {
+	mkdir $name-$version
+	cd $name-$version
+	
+	cat $SRC/$name.list | while read -r a ; do
+		wget -c https://wallpapercave.com/wp/$a
+	done
+	
+	mkdir -p $PKG/usr/share/backgrounds/black
+	cp -a *.jpg $PKG/usr/share/backgrounds/black
+	chmod 0644 $PKG/usr/share/backgrounds/black/*
+}
