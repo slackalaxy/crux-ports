@@ -5,15 +5,16 @@
 
 name=gkrellm-skins
 version=20030129
-release=3
+release=4
 source=(http://slackware.uk/sbosrcarch/by-name/desktop/gkrellm-themes/GKrellM-Skins.tar.gz
 	invisible-black.tar.xz
 	invisible-contrast.tar.xz
-	invisible-myrellm.tar.xz)
+	invisible-myrellm.tar.xz
+	Yenjie.tar.xz)
 
 build() {
 	mkdir -p $PKG/usr/share/gkrellm2/themes
-	cp -a $SRC/invisible-* $PKG/usr/share/gkrellm2/themes
+	cp -a $SRC/{invisible-*,Yenjie} $PKG/usr/share/gkrellm2/themes
 
 	cd GKrellM-skins
 	# Directly taken from the SlackBuild by Leo C. Thanks!
