@@ -4,7 +4,7 @@
 # Depends on: wget
 
 name=wpc-minimalist
-version=0.06
+version=0.09
 release=1
 source=($name.list)
 
