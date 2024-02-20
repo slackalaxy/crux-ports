@@ -269,6 +269,7 @@ drwxr-xr-x	root/root	usr/share/X11/
 drwxr-xr-x	root/root	usr/share/X11/app-defaults/
 -rw-r--r--	root/root	usr/share/X11/app-defaults/XScreenSaver
 drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/xscreensaver-command.desktop
 -rwxr-xr-x	root/root	usr/share/applications/xscreensaver-settings.desktop
 drwxr-xr-x	root/root	usr/share/backgrounds/
 drwxr-xr-x	root/root	usr/share/fonts/
