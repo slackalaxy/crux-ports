@@ -1147,7 +1147,7 @@ lrwxrwxrwx	root/root	usr/include/ncbi-tools++/objects/coords/.gitignore -> .cvsi
 drwxrwxr-x	root/root	usr/include/ncbi-tools++/objects/dbsnp/
 drwxrwxr-x	root/root	usr/include/ncbi-tools++/objects/dbsnp/primary_track/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objects/dbsnp/primary_track/dbsnp.grpc.pb.h (EMPTY)
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/dbsnp/primary_track/dbsnp.pb.h (EMPTY)
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objects/dbsnp/primary_track/dbsnp.pb.h
 drwxrwxr-x	root/root	usr/include/ncbi-tools++/objects/dbsnp/primary_track/impl/
 -rw-rw-r--	root/root	usr/include/ncbi-tools++/objects/dbsnp/primary_track/impl/snpptis_impl.hpp
 -rw-rw-r--	root/root	usr/include/ncbi-tools++/objects/dbsnp/primary_track/snpptis.hpp
