@@ -38,9 +38,6 @@ drwxr-xr-x	root/root	usr/lib/microsoft-edge/locales/
 -rw-r--r--	root/root	usr/lib/microsoft-edge/msedge_100_percent.pak
 -rw-r--r--	root/root	usr/lib/microsoft-edge/msedge_200_percent.pak
 -rwxr-xr-x	root/root	usr/lib/microsoft-edge/msedge_crashpad_handler
--rwxr-xr-x	root/root	usr/lib/microsoft-edge/nacl_helper
--rwxr-xr-x	root/root	usr/lib/microsoft-edge/nacl_helper_bootstrap
--rw-r--r--	root/root	usr/lib/microsoft-edge/nacl_irt_x86_64.nexe
 -rw-r--r--	root/root	usr/lib/microsoft-edge/product_logo_128.png
 -rw-r--r--	root/root	usr/lib/microsoft-edge/product_logo_16.png
 -rw-r--r--	root/root	usr/lib/microsoft-edge/product_logo_24.png
