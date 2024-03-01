@@ -134,13 +134,13 @@ drwxr-xr-x	root/root	usr/include/pidgin/
 -rw-r--r--	root/root	usr/include/pidgin/pidginstock.h
 -rw-r--r--	root/root	usr/include/pidgin/pidgintooltip.h
 drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libpurple-client.so -> libpurple-client.so.0.14.12
-lrwxrwxrwx	root/root	usr/lib/libpurple-client.so.0 -> libpurple-client.so.0.14.12
--rwxr-xr-x	root/root	usr/lib/libpurple-client.so.0.14.12
+lrwxrwxrwx	root/root	usr/lib/libpurple-client.so -> libpurple-client.so.0.14.13
+lrwxrwxrwx	root/root	usr/lib/libpurple-client.so.0 -> libpurple-client.so.0.14.13
+-rwxr-xr-x	root/root	usr/lib/libpurple-client.so.0.14.13
 -rwxr-xr-x	root/root	usr/lib/libpurple.la
-lrwxrwxrwx	root/root	usr/lib/libpurple.so -> libpurple.so.0.14.12
-lrwxrwxrwx	root/root	usr/lib/libpurple.so.0 -> libpurple.so.0.14.12
--rwxr-xr-x	root/root	usr/lib/libpurple.so.0.14.12
+lrwxrwxrwx	root/root	usr/lib/libpurple.so -> libpurple.so.0.14.13
+lrwxrwxrwx	root/root	usr/lib/libpurple.so.0 -> libpurple.so.0.14.13
+-rwxr-xr-x	root/root	usr/lib/libpurple.so.0.14.13
 drwxr-xr-x	root/root	usr/lib/perl5/
 drwxr-xr-x	root/root	usr/lib/perl5/linux-thread-multi/
 drwxr-xr-x	root/root	usr/lib/pidgin/
