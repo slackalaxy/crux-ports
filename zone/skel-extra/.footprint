@@ -92,5 +92,5 @@ drwxr-xr-x	root/root	etc/skel/.local/share/medit-1/share/
 -rw-r--r--	root/root	etc/skel/.local/share/medit-1/share/prefs.xml
 -rw-r--r--	root/root	etc/skel/.xscreensaver
 drwxr-xr-x	root/root	var/
-drwxr-xr-x	root/root	var/tmp/
+drwxrwxrwx	root/root	var/tmp/
 drwxrwxrwx	root/root	var/tmp/electricsheep/
