@@ -1,6 +1,6 @@
 # Description: GUI login manager from the LXDE project
 # URL: http://ponce.cc/slackware/sources/repo/lxde
-# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: brotli consolekit graphite2 gtk xorg-libxdamage ktsuss
 
 name=lxdm
