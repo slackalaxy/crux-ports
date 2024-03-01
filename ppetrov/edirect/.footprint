@@ -51,6 +51,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/find-in-gene
 -rwxr-xr-x	root/root	usr/bin/fuse-ranges
 -rwxr-xr-x	root/root	usr/bin/fuse-segments
+-rwxr-xr-x	root/root	usr/bin/gbf2fsa
 -rwxr-xr-x	root/root	usr/bin/gbf2ref
 -rwxr-xr-x	root/root	usr/bin/gbf2xml
 -rwxr-xr-x	root/root	usr/bin/gene2range
@@ -124,6 +125,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/yaml2xml
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/edirect/
+-rwxr-xr-x	root/root	usr/lib/edirect/build.sh
 -rw-r--r--	root/root	usr/lib/edirect/prep-finish.go
 -rw-r--r--	root/root	usr/lib/edirect/prep-geneinfo.go
 -rw-r--r--	root/root	usr/lib/edirect/prep-generif.go
