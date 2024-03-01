@@ -1,5 +1,5 @@
-# If you change this file, run grub-mkconfig -o /boot/grub/grub.cfg
-# afterwards to update /boot/grub/grub.cfg.
+# If you change this file, update grub.cfg by running:
+# grub-mkconfig -o /boot/grub/grub.cfg
 
 ########################################################################
 # https://wiki.gentoo.org/wiki/GRUB/Configuration_variables ############
@@ -24,7 +24,7 @@
 
 # If true, recovery menu entries will not be generated. On Linux,
 # recovery entries pass "single" on the kernel command-line. (false)
-#GRUB_DISABLE_RECOVERY=false
+#GRUB_DISABLE_RECOVERY=true
 
 # Use a custom font (converted using grub-mkfont) on the graphical
 # terminal. Font should be in pf2 format to be used during gfxmode
@@ -35,18 +35,18 @@
 # loaders will not be searched. Setting GRUB_DISABLE_OS_PROBER=false
 # will have grub-mkconfig search for additional installations when
 # os-prober is installed.
-#GRUB_DISABLE_OS_PROBER=true
+#GRUB_DISABLE_OS_PROBER=false
 
 # List of GRUB module names separated by spaces that will be loaded at
 # the start of grub.cfg. This may be needed if the GRUB boot is in a LVM
-# partition.
-#GRUB_PRELOAD_MODULES=""
+# partition. The option below specifically loads all video modes.
+#GRUB_PRELOAD_MODULES="all_video"
 
 # Parameters to be passed on the kernel command line for all Linux menu
 # entries. For instance, to support hibernation, users will need to add
 # GRUB_CMDLINE_LINUX="resume=/dev/sdXY" with /dev/sdXY being the swap
-# partition:
-#GRUB_CMDLINE_LINUX=""
+# partition. The options below set UTF-8 and old network device names:
+#GRUB_CMDLINE_LINUX="vt.default_utf8=1 net.ifnames=0 biosdevname=0"
 
 # Parameters to be passed on the kernel command line for non-recovery
 # Linux menu entries:
@@ -63,15 +63,15 @@
 # command line. (true)
 #GRUB_DISABLE_LINUX_PARTUUID=true
 
+# Set resolution and color depth (some examples below, use with care!).
+# Note that you can use only modes which your graphic card supports via
+# VBE you can see them in real GRUB with the command 'vbeinfo':
+#GRUB_GFXMODE=2560x1440x32,1920x1080x32,1368x768x32,auto
+
 # Controls the video mode in which the Linux kernel starts. May be set
 # to "text", "keep", or a display resolution. Set to "keep", in order to
 # keep the resolution when loading the kernel. (text)
-#GRUB_GFXPAYLOAD_LINUX=text
-
-# Set resolution and color depth
-# Note that you can use only modes which your graphic card supports via
-# VBE you can see them in real GRUB with the command 'vbeinfo':
-#GRUB_GFXMODE=
+#GRUB_GFXPAYLOAD_LINUX=keep
 
 # Set a background image
 #GRUB_BACKGROUND=
