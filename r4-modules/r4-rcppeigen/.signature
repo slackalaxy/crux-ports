@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KDdotGTVElzanG+cUoklqjxWXcgK+NpGqhJuToaYx9iRncwWKdJ1pfPTPcTx0gCUk2Tvp0AdMTiWNY1i+4Dbwk=
-SHA256 (Pkgfile) = aeef9915b284eb4ca7af7572ad0dd9333e9da72c4f9721998ab5845b57f60ab5
-SHA256 (.footprint) = 444b4dccb23b7d41e1278508f1c9cbb4da23d73bf02de30c130d5d7826866d51
-SHA256 (RcppEigen_0.3.3.9.4.tar.gz) = 41eabb8d034ffae0fcfcf23ca92b8f0fba5aec8f1ba108d922e19db7e10d5fb9
+RWQ2oTreAss89BGqCnSu0cCACQrGCjrbEjqrv7qCz3wxY7xySmVJ6VlXd/GnrOmBEl4lZo8KS/pc/4kMeSLMMh9Ti+whynkzKgU=
+SHA256 (Pkgfile) = f053638d42c90d07f7b1d267dfa971513e0e15df553f1fba41e4a10a0d171266
+SHA256 (.footprint) = 1c882464fbba7c2af94d05eaab15b16b13def6f880e37407a1eee480cf180a64
+SHA256 (RcppEigen_0.3.4.0.0.tar.gz) = 28d4a02011129f9b7a2a2bbe69ec4cca7676b072d5aca9dc1cefa8f96af45136

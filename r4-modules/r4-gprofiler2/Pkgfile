@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-prettydoc r4-rmarkdown
 
 name=r4-gprofiler2
-version=0.2.2
+version=0.2.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/gprofiler2_${version}.tar.gz)
 

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89LjQjuIr07usZFEy5I9MHZBCecvuhsvtSiiKEaZUN+G7HubcIr1mZFqLj5KZLWQxoUS4zl6RR3/BwpOVTkWRyAk=
-SHA256 (Pkgfile) = 6050fbffda4f8cc0cb4efb73d0f94ec67bb1fce0905cd28d1850d39276cd6f1a
-SHA256 (.footprint) = bb17428d7a49923ab3862d1ebfbc0ac8aa054e3a84eb72247a9cd756b61a71aa
-SHA256 (ggplot2_3.4.4.tar.gz) = 2d76ec065d3e604d019506f45b3b713ae20f38e47dbebfb5ba1648b47fe63e46
+RWQ2oTreAss89L+Fis6nAJwTx3Oxo9+RM3WksAztI4nLJjUBAhdNkAc9xqk844qRG/6JKxOm+mpJ9S2CcjLE6ofbjahgf6k+Egw=
+SHA256 (Pkgfile) = da4a9b252809dfa3f2f10fc6a7e21577fdd83a44a509001dca25154fbb755b6c
+SHA256 (.footprint) = 58c5cf15fb4dcde43c114de37c6269a85dcd1973961ee976cd8cc8403462329e
+SHA256 (ggplot2_3.5.0.tar.gz) = 07fa1cd4e02d409ade32e69a9088d9209f864c6ddd70fa2f904769dec21090e2

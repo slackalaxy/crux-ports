@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Pv+3EZLXTjhSa0TnfigIvG7KgBRkO+Szf8UfHTbsUhQ3wA+Shr+CYPolo9pBhtsudC2IXxdJ5xafpnnYeAiyAM=
-SHA256 (Pkgfile) = d9361e2a9b18403625504ae514ec2cffd0b33621f54443858422adda7a0ae565
+RWQ2oTreAss89EKCpRMOvv0JSQYZgHHui3ZlOQM2IOTr+yk/j79N5N3T7haWPGOqM4StHEfOSVp3UWk6dHKxexVU8Pgar4XifAs=
+SHA256 (Pkgfile) = 4cd0cb5fd904daef9a4c6ed32de83068d0d36d3de72cfb98759f5ad28d90d386
 SHA256 (.footprint) = e897962c7829493d87325c8a2dd35d81624a76c24d4861cb47d40278631b2e74
-SHA256 (gprofiler2_0.2.2.tar.gz) = b90094f8de25c2953fc14839ac2461d94012bcbf445ff06fdc46624cd6dd6efd
+SHA256 (gprofiler2_0.2.3.tar.gz) = b02ea814a7024aa8f2a01761c964b53f98607df0f7bbf7db3026cf223f7895ce

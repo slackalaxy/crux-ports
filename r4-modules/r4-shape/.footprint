@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shape/demo/
 -rw-r--r--	root/root	usr/lib/R/library/shape/demo/colorshapes.r
 drwxr-xr-x	root/root	usr/lib/R/library/shape/doc/
 -rw-r--r--	root/root	usr/lib/R/library/shape/doc/index.html
+-rw-r--r--	root/root	usr/lib/R/library/shape/doc/shape.R
 -rw-r--r--	root/root	usr/lib/R/library/shape/doc/shape.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/shape/doc/shape.pdf
 drwxr-xr-x	root/root	usr/lib/R/library/shape/help/

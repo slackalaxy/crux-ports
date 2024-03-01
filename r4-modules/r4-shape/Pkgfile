@@ -1,11 +1,11 @@
 # Description: R module shape
 # URL: https://cran.r-project.org/web/packages/shape
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: 
 
 name=r4-shape
-version=1.4.6
+version=1.4.6.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/shape_${version}.tar.gz)
 

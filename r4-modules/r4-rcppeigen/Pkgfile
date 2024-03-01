@@ -1,11 +1,11 @@
 # Description: R module RcppEigen
 # URL: https://cran.r-project.org/web/packages/RcppEigen
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-rcpp
+# Depends on: r r4-rcpp
 # Optional: r4-inline r4-matrix r4-microbenchmark r4-pkgkitten r4-tinytest
 
 name=r4-rcppeigen
-version=0.3.3.9.4
+version=0.3.4.0.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/RcppEigen_${version}.tar.gz)
 

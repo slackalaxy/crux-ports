@@ -1,13 +1,13 @@
 # Description: R module deldir
 # URL: https://cran.r-project.org/web/packages/deldir
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-polyclip
 
 name=r4-deldir
-version=2.0.2
+version=2.0.4
 release=1
-source=(https://cloud.r-project.org/src/contrib/deldir_2.0-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/deldir_2.0-4.tar.gz)
 
 build() {
 	cd deldir
