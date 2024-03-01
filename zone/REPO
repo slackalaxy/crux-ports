@@ -22,6 +22,7 @@ d:skel-extra
 d:fonts-microsoft-aptos
 d:slackalaxy-repos
 d:xorg-conf-synaptics
+d:hostname
 f:8d049dc8245b44caf15cae645fb724fa:fonts-microsoft-win11/.footprint
 f:b54d53547deb93695671190f8f44ebf5:fonts-microsoft-win11/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-microsoft-win11/README
@@ -102,11 +103,11 @@ f:40ef5631c1998ecdc225280d251e4dcf:quake3-pk3/Pkgfile
 f:a02ab8ca872b34b1f2539acafa089345:quake3-pk3/.footprint
 f:cf6a9a9bae8dff674d63663b1563e4a7:quake3-pk3/.signature
 f:c6531d111a4ce6271e64a53408eb90d0:quake3-pk3/README
-f:e977813740c62df188cbc6087ba831ff:grub2-default/Pkgfile
+f:4968ab507563ca2b5865a94d8803bb8f:grub2-default/Pkgfile
 f:b95c66be425fac0c3ab535b09ef44f21:grub2-default/README
 f:a1d3d84872a9817454e68a65b34f7d72:grub2-default/.footprint
-f:1141bca78953ef52f5d031a56ea14a27:grub2-default/.signature
-f:a8852b229cb5948aea93727853c4c325:grub2-default/grub2-default
+f:907e73f4f2966e7a3bb8cfc42ef324c5:grub2-default/.signature
+f:97256cbdf05db6606a9659fc1b0c19b9:grub2-default/grub2-default
 f:ee6e3d102e2e0a1685fec57e40108b61:skel/Xresources
 f:021c05876e5f85f18c48ff7c3338199b:skel/bash_profile
 f:01af4cdc68ff1f9c825e79eb8717f21e:skel/bashrc
@@ -120,9 +121,9 @@ f:84081b72b52870ac7bce16eca825ed3e:xorg-conf-keyboard/Pkgfile
 f:a36cad5494121166b3ee3a9d9d060ecd:xorg-conf-keyboard/00-keyboard.conf
 f:9c0e17a8352fa72d406f04236aab2602:xorg-conf-keyboard/.footprint
 f:01f8d2daa21aee36ccf7284df4bc3d78:xorg-conf-keyboard/.signature
-f:028f2b279b85d09bacf55ea8f11dce82:skel-extra/Pkgfile
-f:35153a919c11b3501f910b00a86dc6e3:skel-extra/.footprint
-f:4c13d325e92e6a8de854c33c8d8a967c:skel-extra/.signature
+f:712e9c4c23a4568ebb8f6034d2b7b9db:skel-extra/Pkgfile
+f:061eaf2a04e28e3efe2c21d6945920ac:skel-extra/.footprint
+f:5ca3458682fd3dfac25a166ca9640422:skel-extra/.signature
 f:404b166726f1cbe1a9bf154765af847b:skel-extra/hidden
 f:90d31be997678da9f143dc928077f846:skel-extra/mplayer.tar.xz
 f:0e73e98d8cd659b06b4a1848967b1cef:skel-extra/config.tar.xz
@@ -139,3 +140,7 @@ f:cda9c51da8fcdfc3a623ef041f820f30:xorg-conf-synaptics/70-synaptics.conf
 f:3e6e6869d963c1654bfb8c875aa17a80:xorg-conf-synaptics/Pkgfile
 f:61826a76ffb03df5b16a2088c434a590:xorg-conf-synaptics/.footprint
 f:df79d0a895394ace700a544c59884864:xorg-conf-synaptics/.signature
+f:cc0cd1197fa4cadfc2dceae246a56d6b:hostname/Pkgfile
+f:60ecc70ff0d782e3717552f478706021:hostname/.footprint
+f:10b07e6500d89c883eaca94bf4b5ea46:hostname/.signature
+f:db5f9575cbd1861fb994c2d2871f022d:hostname/hostname.example
