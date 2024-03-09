@@ -48,6 +48,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/lava/doc/
 -rw-r--r--	root/root	usr/lib/R/library/lava/doc/correlation.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/lava/doc/correlation.html
 -rw-r--r--	root/root	usr/lib/R/library/lava/doc/index.html
+-rw-r--r--	root/root	usr/lib/R/library/lava/doc/influencefunction.R
+-rw-r--r--	root/root	usr/lib/R/library/lava/doc/influencefunction.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/lava/doc/influencefunction.html
 -rw-r--r--	root/root	usr/lib/R/library/lava/doc/nonlinear.R
 -rw-r--r--	root/root	usr/lib/R/library/lava/doc/nonlinear.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/lava/doc/nonlinear.html

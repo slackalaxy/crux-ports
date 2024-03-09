@@ -33,6 +33,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/flextable/help/
 -rw-r--r--	root/root	usr/lib/R/library/flextable/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/flextable/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/flextable/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/flextable/help/figures/README-diamonds-dataset-1.png
+-rw-r--r--	root/root	usr/lib/R/library/flextable/help/figures/README-mtcars-dataset-1.png
+-rw-r--r--	root/root	usr/lib/R/library/flextable/help/figures/README-mtcars-dataset-2.png
 -rw-r--r--	root/root	usr/lib/R/library/flextable/help/figures/fig_formats.png
 -rw-r--r--	root/root	usr/lib/R/library/flextable/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/flextable/help/flextable.rdb

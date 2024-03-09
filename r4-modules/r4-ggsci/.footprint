@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggsci/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/R/sysdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/ggsci/doc/
+-rw-r--r--	root/root	usr/lib/R/library/ggsci/doc/ggsci-faq.R
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/doc/ggsci-faq.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/doc/ggsci-faq.html
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/doc/ggsci.R

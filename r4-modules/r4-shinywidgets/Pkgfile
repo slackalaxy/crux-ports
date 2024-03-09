@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-dt r4-ggplot2 r4-scales r4-shinydashboard r4-shinydashboardplus r4-testthat
 
 name=r4-shinywidgets
-version=0.8.1
+version=0.8.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/shinyWidgets_${version}.tar.gz)
 
