@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZXk79yKmDZRqsi+tEHrI5VBe7LkXb00KkUq5ZZsl2dMSM0NA/SsZh2bdKYzs0uMQS/EAPooLeDqRY0j5I9WW7w8=
-SHA256 (Pkgfile) = 727896f0f1d765a0d6e61cea42f80429d7ae8512faf854f8f7ff655360182483
-SHA256 (.footprint) = fa408a88a9fb4c62fcecc565e57ba5b89240026a62f51befcd75ba19ca4d570e
-SHA256 (bedtools-2.31.0.tar.gz) = a93e6b6bfdd8d33db1e6decbefdd2b03771e0ac63ac69a4059b7b3464efe281d
+RWToVVsIkzFIZcXpAsxP5oUBrctacPpCdf4mZ9mZNosSHR65oxGoVQ7RVMSm1Gpgj1qaPpjhku5dggkNJa0a1aJneA+0LlUjygg=
+SHA256 (Pkgfile) = 2d411a578d4ee23a2e2c2981eb71f96366406efb41343a6349afe0243d9816f5
+SHA256 (.footprint) = ced5133b6de03171e69e14a9fbd1d313ab4220aeb324867ecc43ed8b9c9ce513
+SHA256 (bedtools-2.31.1.tar.gz) = fc7e660c2279b1e008b80aca0165a4a157daf4994d08a533ee925d73ce732b97

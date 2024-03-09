@@ -57,4 +57,3 @@ drwxr-xr-x	root/root	usr/share/bedtools/genomes/
 drwxr-xr-x	root/root	usr/share/bedtools/scripts/
 -rwxr-xr-x	root/root	usr/share/bedtools/scripts/makeBashScripts.py
 -rwxr-xr-x	root/root	usr/share/bedtools/scripts/vcfsort.sh
--rwxr-xr-x	root/root	usr/share/bedtools/scripts/vcfsort2.sh
