@@ -1,0 +1,20 @@
+# Description: A collection of bio-informatics tools
+# URL: http://genometools.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: pango
+
+name=genometools
+version=1.6.5
+release=1
+source=(https://github.com/genometools/genometools/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	make prefix=/usr
+	make prefix=$PKG/usr install
+
+	# Install python scripts
+	cd gtpython
+	python setup.py install --root=$PKG
+}

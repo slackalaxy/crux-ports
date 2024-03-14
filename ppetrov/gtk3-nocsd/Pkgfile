@@ -1,0 +1,17 @@
+# Description: A hack to disable gtk+ 3 client side decoration
+# URL: https://github.com/PCMan/gtk3-nocsd/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk3
+
+name=gtk3-nocsd
+version=82ff5a0
+release=1
+source=(https://github.com/PCMan/gtk3-nocsd/archive/$version/$name-82ff5a0da54aa6da27232b55eb93e5f4b5de22f2.tar.gz)
+
+build() {
+	cd $name-${version}*
+	
+	make prefix=/usr
+	make install DESTDIR=$PKG \
+	prefix=/usr
+}
