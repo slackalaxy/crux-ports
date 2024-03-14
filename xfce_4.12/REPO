@@ -150,10 +150,10 @@ f:07377428e0011159719f18c6d78b771c:xfce4-settings/Pkgfile
 f:86c882b08f5c5503405c3becebdf95a3:xfce4-settings/xfce4-settings.theme.diff.gz
 f:7e44e7233a51eb31b11369b7f6a6792a:xfce4-settings/xfce4-settings.xft.defaults.diff.gz
 f:609872fd4c1e6767d72465294d2dce9a:xfce4-settings/.signature
-f:b1f2ce7031fee886fa9e5b40cff8ed0e:xfwm4-murrine/.footprint
-f:610747740c57a3d50f580f44bfb3ad2e:xfwm4-murrine/Pkgfile
-f:939a8e6d5e4106ec5dc0556ca883ced6:xfwm4-murrine/xfwm4-murrine.tar.xz
-f:134f33e9f5c522350667237d487993a4:xfwm4-murrine/.signature
+f:f07346b76786f59fdb7b0b2a4621bb2c:xfwm4-murrine/.footprint
+f:ba022e5ecfc9d04ea419bd0a40242ec1:xfwm4-murrine/Pkgfile
+f:4ba0579a9d73a7516e92ea925e2c9fb6:xfwm4-murrine/.signature
+f:4ab47c6952b10f70c17290d20c18dafe:xfwm4-murrine/xfwm4-murrine.tar.xz
 f:008e8943fb2128761c5bfdfd6d2990d2:xfce4-dict/.footprint
 f:a11e44eda1dab1046c5b872191af89f6:xfce4-dict/Pkgfile
 f:b682d21d226b7f9e25dc7bc0e6b17b8f:xfce4-dict/post-install
