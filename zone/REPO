@@ -22,7 +22,7 @@ d:skel-extra
 d:fonts-microsoft-aptos
 d:slackalaxy-repos
 d:xorg-conf-synaptics
-d:hostname
+d:hnam
 f:8d049dc8245b44caf15cae645fb724fa:fonts-microsoft-win11/.footprint
 f:b54d53547deb93695671190f8f44ebf5:fonts-microsoft-win11/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-microsoft-win11/README
@@ -140,7 +140,7 @@ f:cda9c51da8fcdfc3a623ef041f820f30:xorg-conf-synaptics/70-synaptics.conf
 f:3e6e6869d963c1654bfb8c875aa17a80:xorg-conf-synaptics/Pkgfile
 f:61826a76ffb03df5b16a2088c434a590:xorg-conf-synaptics/.footprint
 f:df79d0a895394ace700a544c59884864:xorg-conf-synaptics/.signature
-f:cc0cd1197fa4cadfc2dceae246a56d6b:hostname/Pkgfile
-f:60ecc70ff0d782e3717552f478706021:hostname/.footprint
-f:10b07e6500d89c883eaca94bf4b5ea46:hostname/.signature
-f:db5f9575cbd1861fb994c2d2871f022d:hostname/hostname.example
+f:b354b02f237c50d76dfa5d26c0f97736:hnam/Pkgfile
+f:60ecc70ff0d782e3717552f478706021:hnam/.footprint
+f:b3ef8426dbdd699ddbe93bbf468e7d52:hnam/.signature
+f:db5f9575cbd1861fb994c2d2871f022d:hnam/hnam
