@@ -1,0 +1,13 @@
+# Description: hostname file in /etc
+# URL: /etc/hostname
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=hnam
+version=00
+release=1
+source=($name)
+
+build() {
+	install -D -m 0644 $SRC/$name $PKG/etc/hostname
+}
