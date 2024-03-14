@@ -5,14 +5,14 @@
 
 name=murrine-themes
 version=0.98.11
-release=4
+release=5
 source=(http://sourceforge.net/projects/sboppetrov/files/$name/${name}_0.98.11.tar.xz
-	MurrinaGilouche2.tar.xz Murrine-LightBlue.tar.xz MurrineBlubuntu.tar.xz)
+	MurrinaGilouche2.tar.xz Murrine-LightBlue.tar.xz MurrineBlubuntu.tar.xz murrina-dark.tar.xz)
 
 build() {
 	mkdir -p $PKG/usr/share/themes
 	cp -a $name/usr/share/themes/* $PKG/usr/share/themes
-	cp -a MurrineBlubuntu MurrinaGilouche2 Murrine-LightBlue $PKG/usr/share/themes
+	cp -a MurrineBlubuntu MurrinaGilouche2 Murrine-LightBlue murrina-dark/* $PKG/usr/share/themes
 	
 	find $PKG/ -name "*README*" -delete
 	find $PKG/ -name "COPYING" -delete
