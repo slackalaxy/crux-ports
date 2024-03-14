@@ -5,7 +5,7 @@
 # Optional: r4-ape r4-callr r4-decor r4-digest r4-graph r4-igraphdata r4-knitr r4-rgl r4-rmarkdown r4-scales r4-testthat r4-vdiffr r4-withr
 
 name=r4-igraph
-version=2.0.2
+version=2.0.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/igraph_${version}.tar.gz)
 

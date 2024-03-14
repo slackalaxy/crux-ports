@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-crayon r4-dplyr r4-knitr r4-magrittr r4-rmarkdown r4-stringr r4-testthat r4-tibble
 
 name=r4-tidyselect
-version=1.2.0
+version=1.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/tidyselect_${version}.tar.gz)
 

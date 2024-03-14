@@ -1,11 +1,11 @@
 # Description: R module digest
 # URL: https://cran.r-project.org/web/packages/digest
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-simplermarkdown r4-tinytest
 
 name=r4-digest
-version=0.6.34
+version=0.6.35
 release=1
 source=(https://cloud.r-project.org/src/contrib/digest_${version}.tar.gz)
 

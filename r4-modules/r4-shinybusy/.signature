@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89MynYqDNs4KQGl6H5htDhV84HFmuTJuoJn0OnlOYwDU0CQ4x9cE5AK9NbBKPVn98f9f9HGvzxdtkXSDYLataawg=
-SHA256 (Pkgfile) = 7136ac685bc0ba91133ec118889525fb734833f3330f57a15c403f5d2eed58c0
+RWQ2oTreAss89H/6JaI9WfC2cusDiLAmPNcIhtyYrxXhcYuCwbv69AsB+uCkaMHEjq5+RPdFq7c4A30dh/dCfWQFerneyYQAhwk=
+SHA256 (Pkgfile) = d67a363b27113082819567c883049c10db4a1bba926d440917b720713c4cd0cb
 SHA256 (.footprint) = 2387c1281e3cacf92f18515c0a083f22a8d5470ed1de7126c794efbc458383a9
-SHA256 (shinybusy_0.3.2.tar.gz) = 46716b456d8390ec127faab25607a5bedd295458a74bdc67c421c9f244cdcad7
+SHA256 (shinybusy_0.3.3.tar.gz) = 628360c74cc4d454e88ff622398b30cfb3cd6cdef0515f09b248b6d87a894eae
