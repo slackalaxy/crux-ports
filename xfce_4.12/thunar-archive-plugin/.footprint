@@ -1,10 +1,10 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/thunar/
-drwxr-xr-x	root/root	usr/lib/thunar/thunar-archive-plugin/
--rwxr-xr-x	root/root	usr/lib/thunar/thunar-archive-plugin/ark.tap
--rwxr-xr-x	root/root	usr/lib/thunar/thunar-archive-plugin/file-roller.tap
-lrwxrwxrwx	root/root	usr/lib/thunar/thunar-archive-plugin/gnome-file-roller.tap -> file-roller.tap
+drwxr-xr-x	root/root	usr/lib/Thunar/
+drwxr-xr-x	root/root	usr/lib/Thunar/thunar-archive-plugin/
+-rwxr-xr-x	root/root	usr/lib/Thunar/thunar-archive-plugin/ark.tap
+-rwxr-xr-x	root/root	usr/lib/Thunar/thunar-archive-plugin/file-roller.tap
+lrwxrwxrwx	root/root	usr/lib/Thunar/thunar-archive-plugin/gnome-file-roller.tap -> file-roller.tap
 drwxr-xr-x	root/root	usr/lib/thunarx-2/
 -rwxr-xr-x	root/root	usr/lib/thunarx-2/thunar-archive-plugin.la
 -rwxr-xr-x	root/root	usr/lib/thunarx-2/thunar-archive-plugin.so
