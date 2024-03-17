@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchjOO/rCWlssmql3BzF8okwBEoDOvd4tLVt+MxZ9GiPH1Gbnw0bZYDUE+ATFhAQP+XpJlBd+KQxzc6K8HVjxV8ws=
-SHA256 (Pkgfile) = 60369450f0f000ce8c2729cda6b3b57e346d8be8d9303857e551505a8234b9ff
-SHA256 (.footprint) = cd55494cd8241ca2f324a30eca15579330ef3f263835b57be8009e03037b9074
-SHA256 (libblockdev-2.28.tar.gz) = 82c9c841e28a74fecadedebfae6a772df623cecdf652e5376650fa26da5b7df4
-SHA256 (foo.patch) = bf89ef671f4c157b12d307ad41eb69630770c3a9ce14a932d2e22d87f27c8b80
