@@ -5,16 +5,18 @@
 
 name=gigolo-gtk2
 version=0.4.2
-release=1
+release=2
 source=(https://archive.xfce.org/src/apps/gigolo/${version%.*}/gigolo-$version.tar.bz2)
 
 build() {
 	cd gigolo-$version
-	./configure --prefix=/usr \
-	--disable-nls
+	./configure \
+		--prefix=/usr \
+		--disable-nls
 	
 	make
 	make install DESTDIR=$PKG
 	
 	rm -rf $PKG/usr/share/doc
+	sed -i "s:Categories=System:Categories=Network:g" $PKG/usr/share/applications/gigolo.desktop
 }
