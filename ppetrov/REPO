@@ -29,7 +29,6 @@ d:bpp-seq
 d:clustalo
 d:djview
 d:fiji
-d:gcalctool-gtk2
 d:gnome-icon-theme-stock
 d:gtklife
 d:jdiskreport
@@ -245,7 +244,6 @@ d:xmms-mp4
 d:xmms-wma
 d:clustalw
 d:djvulibre
-d:file-roller-gtk2
 d:gcc5
 d:gnome-icon-theme-symbolic
 d:gtkmm
@@ -537,11 +535,6 @@ f:1cb93a5a7ce54cfbfff3f5b4e6493547:fiji/fiji.sh
 f:5aefde1c33466674c7de9c20bfe73081:fiji/Pkgfile
 f:b4f2b441ae4ae35132d082ef9283814f:fiji/.footprint
 f:2c50fdc4ae142b6ad98f1bdde93acfcc:fiji/.signature
-f:0989d3302204f225f99318b612d8770b:gcalctool-gtk2/README
-f:627ed74e27650ad8b5f860f26a174def:gcalctool-gtk2/post-install
-f:c6bbdda4bc9fa8b4e3bdee0e4c6a0297:gcalctool-gtk2/Pkgfile
-f:2f2322076b037a1a27018dddef1923d8:gcalctool-gtk2/.footprint
-f:25d99cd2c7be997dc289fcab313b033b:gcalctool-gtk2/.signature
 f:98f5e666a444ef3f28b9f407b823efb8:gnome-icon-theme-stock/Pkgfile
 f:9e69c2aea74bd322c061849c7f4bd383:gnome-icon-theme-stock/.footprint
 f:33956e7bace0cfd1f43f269dbc2d364f:gnome-icon-theme-stock/.signature
@@ -1346,12 +1339,6 @@ f:4d88c7b5b90efb6e41c3704bdb3f3178:clustalw/.signature
 f:d82f7e01449a5c04615d66f085c84f65:djvulibre/Pkgfile
 f:62d2bf8890a0d51d89241fc99722d088:djvulibre/.footprint
 f:1869cf6e176b8adc231515ab07afdefa:djvulibre/.signature
-f:1afb551cb312207f6f75465d03a65ee9:file-roller-gtk2/Pkgfile
-f:0989d3302204f225f99318b612d8770b:file-roller-gtk2/README
-f:15738a08e35b6d0da1597f85e544f660:file-roller-gtk2/no_GPtrArray.patch
-f:d3633885bdb1db84d29256e9542f9546:file-roller-gtk2/post-install
-f:41aec9d6e7227e5077d62e6c3fce38fb:file-roller-gtk2/.footprint
-f:02271bfd64a490d36e311819448751e3:file-roller-gtk2/.signature
 f:2d468c428d011943b627138e86f1591f:gcc5/Pkgfile
 f:f7eda766d5760376cbb1ee4c7abad7a6:gcc5/README
 f:75b0fabc92d4e2735baa897f231e7d68:gcc5/glibc2.28-ustat.patch
