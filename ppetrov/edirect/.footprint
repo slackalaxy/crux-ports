@@ -61,6 +61,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/idx-affil
 -rwxr-xr-x	root/root	usr/bin/idx-auid
 -rwxr-xr-x	root/root	usr/bin/idx-authors
+-rwxr-xr-x	root/root	usr/bin/idx-doi
 -rwxr-xr-x	root/root	usr/bin/idx-errors
 -rwxr-xr-x	root/root	usr/bin/idx-grant
 -rwxr-xr-x	root/root	usr/bin/idx-journals
@@ -105,6 +106,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/split-at-intron
 -rwxr-xr-x	root/root	usr/bin/stream-local
 -rwxr-xr-x	root/root	usr/bin/stream-pubmed
+-rwxr-xr-x	root/root	usr/bin/systematic-mutations
 -rwxr-xr-x	root/root	usr/bin/tbl2prod
 -rwxr-xr-x	root/root	usr/bin/tbl2xml
 -rwxr-xr-x	root/root	usr/bin/test-edirect
