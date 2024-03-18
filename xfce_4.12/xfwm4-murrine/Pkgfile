@@ -4,7 +4,7 @@
 # Depends on: xfwm4
 
 name=xfwm4-murrine
-version=72eaba9
+version=caa0d02
 release=1
 source=($name.tar.xz)
 
