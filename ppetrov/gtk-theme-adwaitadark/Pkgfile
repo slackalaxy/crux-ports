@@ -1,0 +1,14 @@
+# Description: gtk2 theme matching the default gtk3 theme Adwaita (dark)
+# URL: https://www.gnome-look.org/p/1014995/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk gtk-theme-adwaita
+
+name=gtk-theme-adwaitadark
+version=25b859e
+release=1
+source=($name.tar.xz)
+
+build() {
+	mkdir -p $PKG/usr/share/themes/AdwaitaDark
+	cp -a $name/* $PKG/usr/share/themes/AdwaitaDark	
+}
