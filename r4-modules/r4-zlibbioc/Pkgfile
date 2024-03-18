@@ -1,11 +1,11 @@
 # Description: R module zlibbioc
 # URL: https://bioconductor.org/packages/zlibbioc
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
-# Optional: r4-biocstyle
+# Depends on: r 
+# Optional: r4-biocstyle r4-knitr
 
 name=r4-zlibbioc
-version=1.48.0
+version=1.48.2
 release=1
 source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/zlibbioc_${version}.tar.gz)
 

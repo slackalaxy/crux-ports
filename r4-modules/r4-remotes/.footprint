@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/remotes/
+-rw-r--r--	root/root	usr/lib/R/library/remotes/COPYRIGHTS
 -rw-r--r--	root/root	usr/lib/R/library/remotes/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/remotes/INDEX
 -rw-r--r--	root/root	usr/lib/R/library/remotes/LICENSE

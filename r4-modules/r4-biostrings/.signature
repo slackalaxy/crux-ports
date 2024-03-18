@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89L0svN7V55sFwg6O7NOGHrqDFkyCyMqZXQg7093mxLI+e3zrRrastehVarfbjNlj0jpPJ9X/TU2HKvFh81aJHAw=
-SHA256 (Pkgfile) = 0d311aa2db856032994e219cb1bb65a27ecdf7cff7122217381cfd7db12e0c31
+RWQ2oTreAss89Ecoexz0Gv9qoATvt6MNQaHStMiC4g0fmUI+JYinq1NElQ8Z/7SUfqCcsmyKdrvxURRGdSCm47Fnq8eqG4ZJkwo=
+SHA256 (Pkgfile) = 81722a1903ecbda996349846c1081df0aef22e3a1667038b215cdec1f0dbab2c
 SHA256 (.footprint) = 7f20e32c10101ad11c05e01685e4d65287556bb3cb70084f2fac3059227e5f80
-SHA256 (Biostrings_2.70.2.tar.gz) = ca98ea24130bc9dc4e5e5d62c4c095fff6f259ca5b3523a02169d6c1a99daa52
+SHA256 (Biostrings_2.70.3.tar.gz) = 451c1e0a3d50f2f85a2d2b5b9688d878c5253d8959f04aa32e9e6bda8875049c

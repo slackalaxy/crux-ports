@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89A/t1Az0xbn9XuTMvwZs2TgRJp6Sb2k+zvL22OctI7qm5n+9kImO8V5ERr1DgRJmgtT7JON88liKn+bOGHw7iAM=
-SHA256 (Pkgfile) = 9f34dddf4ae61439431cb935abc6fea1fda35a85181696390eb07eccc16079d6
+RWQ2oTreAss89DkSM4OPtwLuwubkC+2ExisyAtYn9M9tsbKh9R3nk14OfCWujsZoA1CwX90030JeohRcUsRzx3Mq6hMhZ8iVjwc=
+SHA256 (Pkgfile) = 74c9eca9cd3c949344093ecf5bfdd0a2f296c1d3b329bd011600d3e541d5fe6f
 SHA256 (.footprint) = c37ee0922a7ffeb54717600bca3e3fd3a0dca1aa6e6aa7c92e87d8cb50ad98e6
-SHA256 (tinytex_0.49.tar.gz) = 941169ec65445d172658d0fb6ea8d839736f3f1b5f6ce20637d7d8e299663145
+SHA256 (tinytex_0.50.tar.gz) = b4846eae816ff09cd24e95b3f14286fb2e190e5084cf7e2b2793ac7100bd6086
