@@ -5,9 +5,9 @@
 
 name=wps-office
 version=11.1.0.11719.XA
-release=1
+release=2
 source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
-	desktop.tar)
+	desktop.tar.xz)
 
 build() {
 	ar -x $SRC/${name}_${version}_amd64.deb
@@ -32,10 +32,37 @@ build() {
 	sed -i 's:gOpt=:gOpt="-style=gtk+":g' $PKG/usr/bin/*
 	sed -i 's:#gOptExt=-multiply:export GTK2_RC_FILES=/usr/share/themes/Raleigh/gtk-2.0/gtkrc:' $PKG/usr/bin/*
 	
- 	# Use my desktop entries and I do not want any file associations
- 	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	# Do not use WPS file icons, however leave WPS' mimetypes just in case
+	cp -a $SRC/usr/share/{mime,icons} $PKG/usr/share
+	
+	# writer mimetype icons
+	wri=( doc dot wps wpt wpss wpso )
+	for w in ${wri[@]}; do
+		sed -i "s:wps-office-$w:x-office-document:g" $PKG/usr/share/mime/packages/wps-office-wps.xml
+	done
+	
+	# spreadsheet mimetype icons
+	spr=( xls xlt et ett ets eto )
+	for s in ${spr[@]}; do
+		sed -i "s:wps-office-$s:x-office-spreadsheet:g" $PKG/usr/share/mime/packages/wps-office-et.xml
+	done
+	
+	# presentations mimetype icons
+	pre=( ppt pot dps dpt dpss dpso )
+	for p in ${pre[@]}; do
+		sed -i "s:wps-office-$s:x-office-presentation:g" $PKG/usr/share/mime/packages/wps-office-wpp.xml
+	done
+	
+	# Move app desktop icons to their proper place
+	icosize=( 16x16 24x24 32x32 48x48 64x64 96x96 128x128 256x256 512x512 )
+	for size in ${icosize[@]}; do
+		mkdir -p $PKG/usr/share/icons/hicolor/$size/apps
+		mv $PKG/usr/share/icons/hicolor/$size/mimetypes/wps-office2019-* $PKG/usr/share/icons/hicolor/$size/apps
+	done
+	
+ 	# Use our desktop entries
+ 	mkdir -p $PKG/usr/share/applications
  	cp -a $SRC/desktop/*.desktop $PKG/usr/share/applications
-	cp -a $SRC/desktop/*.png $PKG/usr/share/pixmaps
 	
 	mkdir -p $PKG/etc/revdep.d
 	cd $PKG/usr/lib/$name/office6
