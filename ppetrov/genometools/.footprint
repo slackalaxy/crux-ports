@@ -423,7 +423,6 @@ drwxrwxr-x	root/root	usr/share/genometools/gtdata/modules/gtlua/
 -rw-rw-r--	root/root	usr/share/genometools/gtdata/modules/stringext.lua
 -rw-rw-r--	root/root	usr/share/genometools/gtdata/modules/warning.lua
 drwxrwxr-x	root/root	usr/share/genometools/gtdata/obo_files/
--rw-rw-r--	root/root	usr/share/genometools/gtdata/obo_files/README
 -rw-rw-r--	root/root	usr/share/genometools/gtdata/obo_files/so-xp.obo
 -rw-rw-r--	root/root	usr/share/genometools/gtdata/obo_files/so.obo
 -rw-rw-r--	root/root	usr/share/genometools/gtdata/obo_files/sofa.obo

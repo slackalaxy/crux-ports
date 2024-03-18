@@ -5,7 +5,7 @@
 
 name=genometools
 version=1.6.5
-release=1
+release=2
 source=(https://github.com/genometools/genometools/archive/v${version}/$name-$version.tar.gz)
 
 build() {
@@ -17,4 +17,6 @@ build() {
 	# Install python scripts
 	cd gtpython
 	python setup.py install --root=$PKG
+	
+	find $PKG/ -name *README* -delete
 }
