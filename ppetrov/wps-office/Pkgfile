@@ -5,7 +5,7 @@
 
 name=wps-office
 version=11.1.0.11719.XA
-release=2
+release=3
 source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
 	desktop.tar.xz)
 
@@ -50,7 +50,7 @@ build() {
 	# presentations mimetype icons
 	pre=( ppt pot dps dpt dpss dpso )
 	for p in ${pre[@]}; do
-		sed -i "s:wps-office-$s:x-office-presentation:g" $PKG/usr/share/mime/packages/wps-office-wpp.xml
+		sed -i "s:wps-office-$p:x-office-presentation:g" $PKG/usr/share/mime/packages/wps-office-wpp.xml
 	done
 	
 	# Move app desktop icons to their proper place
