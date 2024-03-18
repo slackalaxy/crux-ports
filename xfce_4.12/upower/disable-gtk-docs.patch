@@ -1,0 +1,71 @@
+diff -Naur upower-UPOWER_0_99_12.orig/Makefile.am upower-UPOWER_0_99_12/Makefile.am
+--- upower-UPOWER_0_99_12.orig/Makefile.am	2021-08-06 16:26:55.755525389 +0200
++++ upower-UPOWER_0_99_12/Makefile.am	2021-08-06 16:30:22.687472177 +0200
+@@ -2,7 +2,7 @@
+ 
+ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
+ 
+-SUBDIRS = etc dbus libupower-glib src doc tools po
++SUBDIRS = etc dbus libupower-glib src tools po
+ 
+ if BACKEND_TYPE_LINUX
+ SUBDIRS += rules
+@@ -35,7 +35,6 @@
+ 	build-aux		\
+ 	ChangeLog		\
+ 	config.h.in		\
+-	gtk-doc.make		\
+ 	po/Makefile.in.in~	\
+ 	po/Makevars.template	\
+ 	po/Rules-quot		\
+@@ -51,12 +50,6 @@
+ pkgconfigdir = $(libdir)/pkgconfig
+ pkgconfig_DATA = upower-glib.pc
+ 
+-# xsltproc barfs on 'make distcheck'; disable for now
+-DISTCHECK_CONFIGURE_FLAGS=--enable-man-pages --enable-gtk-doc			\
+-	--with-systemdsystemunitdir=$$dc_install_base/$(systemdsystemunitdir)	\
+-	--with-udevrulesdir='$${libdir}/udev/rules.d-distcheck'			\
+-	--enable-introspection=yes
+-
+ clean-local :
+ 	rm -f *~
+ 
+diff -Naur upower-UPOWER_0_99_12.orig/autogen.sh upower-UPOWER_0_99_12/autogen.sh
+--- upower-UPOWER_0_99_12.orig/autogen.sh	2021-08-06 16:26:55.755525389 +0200
++++ upower-UPOWER_0_99_12/autogen.sh	2021-08-06 16:27:13.529153011 +0200
+@@ -13,13 +13,6 @@
+         exit 1
+ fi
+ 
+-GTKDOCIZE=`which gtkdocize`
+-if test -z $GTKDOCIZE; then
+-        echo "*** No GTK-Doc found, please install it ***"
+-        exit 1
+-fi
+-
+-gtkdocize --copy || exit 1
+ autoreconf --verbose --force --install || exit 1
+ 
+ cd $olddir
+diff -Naur upower-UPOWER_0_99_12.orig/configure.ac upower-UPOWER_0_99_12/configure.ac
+--- upower-UPOWER_0_99_12.orig/configure.ac	2021-08-06 16:26:55.755525389 +0200
++++ upower-UPOWER_0_99_12/configure.ac	2021-08-06 16:30:32.639222344 +0200
+@@ -80,8 +80,6 @@
+ fi
+ AM_CONDITIONAL(MAN_PAGES_ENABLED, test x$enable_man_pages = xyes)
+ 
+-GTK_DOC_CHECK([1.11],[--flavour no-tmpl])
+-
+ AC_ARG_WITH([udevrulesdir],
+             AS_HELP_STRING([--with-udevrulesdir=DIR], [Directory for udev rules]),
+             [],
+@@ -249,8 +247,6 @@
+ src/linux/Makefile
+ src/bsd/Makefile
+ tools/Makefile
+-doc/Makefile
+-doc/version.xml
+ doc/man/Makefile
+ rules/Makefile
+ libupower-glib/Makefile
