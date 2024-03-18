@@ -4,11 +4,11 @@
 # Depends on: xfwm4
 
 name=xfwm4-murrine
-version=caa0d02
+version=637b16d
 release=1
 source=($name.tar.xz)
 
 build() {
 	mkdir -p $PKG/usr/share/themes
-	cp -a $SRC/* $PKG/usr/share/themes/
+	cp -a $SRC/$name/* $PKG/usr/share/themes/
 }

@@ -86,8 +86,8 @@ f:f5fa4c6a917b3e4e81e0325a1a34cec9:xfce4-screenshooter/.footprint
 f:f05a57b01237f9d6ed6c1d961c59c4c3:xfce4-screenshooter/Pkgfile
 f:56217c3e026f49fd82349110968f4bd8:xfce4-screenshooter/.signature
 f:771d712d1678dd1d825c680a1eb63572:thunar-archive-plugin/.footprint
-f:9138466da0a28166b29f6ba09032ae78:thunar-archive-plugin/Pkgfile
-f:22281936bfaadadc815b2d3cc549b9ab:thunar-archive-plugin/.signature
+f:0494e2f4df1337cd0c2e2727bdeadf20:thunar-archive-plugin/Pkgfile
+f:05eb8c0f8bafc5de61c339da306a65ab:thunar-archive-plugin/.signature
 f:01a2d648baa0aeaad8a71692a7abcefc:xfce4-panel/.footprint
 f:47c2cd9f8eb8aa4db8a053c49fa0ed62:xfce4-panel/Pkgfile
 f:252ae1ad7ad306a22802b683eb4909dc:xfce4-panel/applicationsmenu.patch
@@ -133,9 +133,9 @@ f:b82cc912d35cd44ce91a24eba702ad5f:keybinder/.footprint
 f:4213a2b85a67e35b81880fc599d61eab:keybinder/Pkgfile
 f:c6e6109b527d53a65dc5079c8ed8772d:keybinder/.signature
 f:2c514f988b031766edbf6e8536ee0894:xfce/.footprint
-f:e6e8bb2d8597f5b83a19144aa13c29d0:xfce/Pkgfile
+f:78b4c013ef63ddc375b7792510b6eb81:xfce/Pkgfile
 f:a72543dd0a2d0d8683aed8394b37c94d:xfce/README
-f:c7219fdcde2d2885892e981a7bd5c165:xfce/.signature
+f:24a9f17d79c996051c83623138e3f294:xfce/.signature
 f:52a0a98cac9c9cea94697e28cb8475f6:xfce/gtkrc-2.0
 f:cc02dda9e93c8afcfadfc2fbb68f795f:xfce/xinitrc
 f:d2dacf0695b2007450582894d5a6a36b:xfce/config.tar.xz
@@ -144,10 +144,10 @@ f:07377428e0011159719f18c6d78b771c:xfce4-settings/Pkgfile
 f:86c882b08f5c5503405c3becebdf95a3:xfce4-settings/xfce4-settings.theme.diff.gz
 f:7e44e7233a51eb31b11369b7f6a6792a:xfce4-settings/xfce4-settings.xft.defaults.diff.gz
 f:609872fd4c1e6767d72465294d2dce9a:xfce4-settings/.signature
-f:cb91bdbf4fe6ae1c94a0be4d85df3566:xfwm4-murrine/.footprint
-f:d387bfda72bf729d47c91746d30b9b65:xfwm4-murrine/Pkgfile
-f:d404dd2e26b31641969ea11530f8f250:xfwm4-murrine/.signature
-f:a80caf02301eef6556ca6e4f9b10d48a:xfwm4-murrine/xfwm4-murrine.tar.xz
+f:e7fe65c4d4679d7d85b64fb39888e59a:xfwm4-murrine/.footprint
+f:f5731a9b9f1efb1e0da9ea140715c4bb:xfwm4-murrine/Pkgfile
+f:5b50f5064de2cacba2c9e8dbdfd92ec0:xfwm4-murrine/.signature
+f:2852141ac2ac7aabdb788b3ca0ab9b9e:xfwm4-murrine/xfwm4-murrine.tar.xz
 f:008e8943fb2128761c5bfdfd6d2990d2:xfce4-dict/.footprint
 f:a11e44eda1dab1046c5b872191af89f6:xfce4-dict/Pkgfile
 f:b682d21d226b7f9e25dc7bc0e6b17b8f:xfce4-dict/post-install
