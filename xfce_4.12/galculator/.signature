@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/xfce_4.12.pub
+RWTBbqF9F6zchk5qEK9LIoRIrjHen2I2Di0cCdgtBHsm3LzpgT6/ZpQXxhgcIKhbMwlvMU6bCPfK6cHRPhJrbFQLeRV2NpAGBwU=
+SHA256 (Pkgfile) = 243443da3a464090b4bea33a291d42c746450ab973aad2f22b54ff8c02160cbb
+SHA256 (.footprint) = fdbf9230af79947ba11781a41ed2af4730437eb062b30f55741a7e4cedfa1756
+SHA256 (galculator-2.1.4.tar.gz) = dcbdb48ddf8a3f68b9aa5902f880f174fd269de2b7410988148d05871012e142
