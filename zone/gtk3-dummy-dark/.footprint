@@ -1,0 +1,43 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/themes/
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDark/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDark/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDark334/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDark334/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkAlkaline/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkAlkaline/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkAndena/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkAndena/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkAurantium/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkAurantium/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkAvantgarde/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkAvantgarde/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkBlue/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkBlue/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkCerite/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkCerite/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkCrystal/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkCrystal/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkDebra/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkDebra/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkDuftite/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkDuftite/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkForest/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkForest/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkHuman/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkHuman/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkManganite/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkManganite/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkNeon/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkNeon/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkNight/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkNight/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkNighto/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkNighto/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkNox/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkNox/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkTarocco/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkTarocco/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
+drwxr-xr-x	root/root	usr/share/themes/MurrinaDarkTumsoo/
+lrwxrwxrwx	root/root	usr/share/themes/MurrinaDarkTumsoo/gtk-3.0 -> /usr/share/themes/AdwaitaDark/gtk-3.0
