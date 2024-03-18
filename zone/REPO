@@ -23,6 +23,7 @@ d:fonts-microsoft-aptos
 d:slackalaxy-repos
 d:xorg-conf-synaptics
 d:hnam
+d:gtk3-dummy-dark
 f:8d049dc8245b44caf15cae645fb724fa:fonts-microsoft-win11/.footprint
 f:b54d53547deb93695671190f8f44ebf5:fonts-microsoft-win11/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-microsoft-win11/README
@@ -34,8 +35,8 @@ f:ba49d43668421a4c0bfbaa791ca40e08:fonts-msoffice/README
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-msoffice/post-install
 f:0bdd3fd783b10cbf378c5d315f6ab640:fonts-msoffice/.signature
 f:9ab7ce3a073cedaa0512a6b404896247:freshenup/.footprint
-f:a636a5b447f397258b0959a7b4ba71cd:freshenup/Pkgfile
-f:fd897bc7958d5d67a968cb556cf5d0f2:freshenup/.signature
+f:af53b778f9568bcfe66923ee99592eca:freshenup/Pkgfile
+f:a0c7e94a1d43122723901d136497b1f6:freshenup/.signature
 f:550b4a619ddb2320622e4e9e02e40af4:fonts-mathtype/.signature
 f:084c370cd4274827ed689d654e65c9d0:fonts-mathtype/.footprint
 f:f6091d978017affeca2ebd260dfb68e9:fonts-mathtype/Pkgfile
@@ -144,3 +145,6 @@ f:b354b02f237c50d76dfa5d26c0f97736:hnam/Pkgfile
 f:60ecc70ff0d782e3717552f478706021:hnam/.footprint
 f:b3ef8426dbdd699ddbe93bbf468e7d52:hnam/.signature
 f:db5f9575cbd1861fb994c2d2871f022d:hnam/hnam
+f:e34475d5f385ce74205a09aa974a3437:gtk3-dummy-dark/Pkgfile
+f:3537d599367b5070c984ef0596465902:gtk3-dummy-dark/.footprint
+f:2ba448a2f774e3bcede6e53a9bb3dc1b:gtk3-dummy-dark/.signature
