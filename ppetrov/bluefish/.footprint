@@ -5,6 +5,8 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/bluefish/
 -rwxr-xr-x	root/root	usr/lib/bluefish/about.la
 -rwxr-xr-x	root/root	usr/lib/bluefish/about.so
+-rwxr-xr-x	root/root	usr/lib/bluefish/charmap.la
+-rwxr-xr-x	root/root	usr/lib/bluefish/charmap.so
 -rwxr-xr-x	root/root	usr/lib/bluefish/entities.la
 -rwxr-xr-x	root/root	usr/lib/bluefish/entities.so
 -rwxr-xr-x	root/root	usr/lib/bluefish/htmlbar.la
@@ -114,6 +116,7 @@ drwxr-xr-x	root/root	usr/share/bluefish/jsbeautifier/unpackers/
 -rw-r--r--	root/root	usr/share/bluefish/jsbeautifier/unpackers/urlencode.py
 -rwxr-xr-x	root/root	usr/share/bluefish/jsbeautify
 -rwxr-xr-x	root/root	usr/share/bluefish/jsmin.py
+-rwxr-xr-x	root/root	usr/share/bluefish/json_prettyprint.py
 -rwxr-xr-x	root/root	usr/share/bluefish/lorem-ipsum-generator
 drwxr-xr-x	root/root	usr/share/bluefish/plugins/
 drwxr-xr-x	root/root	usr/share/bluefish/plugins/htmlbar/

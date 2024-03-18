@@ -4,7 +4,7 @@
 # Depends on: gtk xorg-libxdamage
 
 name=bluefish
-version=2.2.14
+version=2.2.15
 release=1
 source=(http://sourceforge.net/projects/bluefish/files/bluefish/$version/$name-$version.tar.bz2)
 
