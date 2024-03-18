@@ -47,15 +47,12 @@ I like to have a GTK2-only desktop, so here it is.
 * [xfce_4.12.httpup](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/xfce_4.12/xfce_4.12.httpup)
 * [xfce_4.12.pub](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/xfce_4.12/xfce_4.12.pub)
 
-Ports that are part of CRUX, but need to be locked at an older version,
-because of Xfce 4.12 are:
+This is part of CRUX, but needs to be locked at an older version:
 
 * upower (0.99.13): for xfce4-power-manager battery status
-* xorg-libx11 (1.8): Xfce 4.12 themes settings to be applied
-* libblockdev (2.28): for udisks2 proper work
 
-Make sure you have these installed and locked first; or you place in 
-`/etc/prt-get.conf` the following line *before* `contrib`, `core`, 
+Make sure you have it installed and locked first; or you place in 
+`/etc/prt-get.conf` the repo line *before* `contrib`, `core`, 
 `opt` and `xorg`:
 
 	prtdir /usr/ports/xfce_4.12
