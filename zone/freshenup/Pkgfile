@@ -3,9 +3,9 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=freshenup
-version=98c8c06
+version=00b046b
 release=1
-source=(https://github.com/slackalaxy/freshenup/archive/$version/$name-98c8c0679b088765920f9059ac0de161b05dbff0.tar.gz)
+source=(https://github.com/slackalaxy/freshenup/archive/$version/$name-00b046b24f28ddc37666b146ade80dde7f10d2ad.tar.gz)
 
 build() {
 	cd $name-${version}*
