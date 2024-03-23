@@ -1,7 +1,7 @@
 # Description: R module psych
 # URL: https://cran.r-project.org/web/packages/psych
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r r4-lattice r4-mnormt r4-nlme
 # Optional: r4-gparotation r4-graph r4-knitr r4-lavaan r4-lme4 r4-psychtools r4-rcsdp r4-rgraphviz
 
 name=r4-psych
