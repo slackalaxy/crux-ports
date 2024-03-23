@@ -15,6 +15,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/between-two-genes
 -rwxr-xr-x	root/root	usr/bin/blst2gm
 -rwxr-xr-x	root/root	usr/bin/blst2tkns
+-rwxr-xr-x	root/root	usr/bin/bsmp2info
 -rwxr-xr-x	root/root	usr/bin/cit2pmid
 -rwxr-xr-x	root/root	usr/bin/combine-uid-lists
 -rwxr-xr-x	root/root	usr/bin/csv2xml
@@ -52,6 +53,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/fuse-ranges
 -rwxr-xr-x	root/root	usr/bin/fuse-segments
 -rwxr-xr-x	root/root	usr/bin/gbf2fsa
+-rwxr-xr-x	root/root	usr/bin/gbf2info
 -rwxr-xr-x	root/root	usr/bin/gbf2ref
 -rwxr-xr-x	root/root	usr/bin/gbf2xml
 -rwxr-xr-x	root/root	usr/bin/gene2range
