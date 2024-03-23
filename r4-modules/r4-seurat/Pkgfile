@@ -5,7 +5,7 @@
 # Optional: r4-ape r4-biobase r4-biocgenerics r4-data-table r4-delayedarray r4-deseq2 r4-enrichr r4-genomeinfodb r4-genomicranges r4-ggrastr r4-harmony r4-hdf5r r4-iranges r4-limma r4-mast r4-metap r4-mixtools r4-monocle r4-r-utils r4-rfast2 r4-rsvd r4-rtracklayer r4-s4vectors r4-singlecellexperiment r4-summarizedexperiment r4-testthat r4-vgam
 
 name=r4-seurat
-version=5.0.2
+version=5.0.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/Seurat_${version}.tar.gz)
 

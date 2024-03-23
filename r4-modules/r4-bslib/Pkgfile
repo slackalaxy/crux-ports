@@ -5,7 +5,7 @@
 # Optional: r4-bsicons r4-curl r4-fontawesome r4-ggplot2 r4-knitr r4-magrittr r4-rappdirs r4-rmarkdown r4-shiny r4-testthat r4-thematic r4-withr
 
 name=r4-bslib
-version=0.6.1
+version=0.6.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/bslib_${version}.tar.gz)
 

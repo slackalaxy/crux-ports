@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89HimMq3bb+h1ufwX9WoWqMhCQsAkKH4IFyNDgRNo4pUiaDzCcb/TLtqedubbR8KPLj/lVkwAjRGRGoZkb001Ows=
-SHA256 (Pkgfile) = fb9f7b433681fc3b6650ba36de92af5e892551f7033c62dcb9f488c496a39dac
+RWQ2oTreAss89Ltmpt2blGszAfmRa1owR94dXBXX824c+MKQZFLibf62XPJyTa1KSY3IQAVBAmtunmtjfTQdZnfDFR18yATiGwE=
+SHA256 (Pkgfile) = 7eb10936ffca1af5b3c04b5f19cc0298b5aa77e478499816bdb86482baf61fb5
 SHA256 (.footprint) = 5ad27f31897a687ee11059f212ae4cab265a5c8028f115ea449095e0f2590283
-SHA256 (lattice_0.22-5.tar.gz) = ba1fbe5e18a133507dca9851b7f933002bdb6d1f3ea5f410a0a441103b6da5f1
+SHA256 (lattice_0.22-6.tar.gz) = 4b377211e472ece7872b9d6759f9b9c660b09594500462eb6146312a1d4d00f7

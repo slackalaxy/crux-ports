@@ -527,6 +527,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/packer/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/colorpickr.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/colorpickr.js.LICENSE.txt
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/input-icons.js
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/input-time.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/multi.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/multi.js.LICENSE.txt
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/nouislider.js

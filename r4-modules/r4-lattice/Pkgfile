@@ -5,9 +5,9 @@
 # Optional: r4-colorspace r4-kernsmooth r4-latticeextra r4-mass
 
 name=r4-lattice
-version=0.22.5
+version=0.22.6
 release=1
-source=(https://cloud.r-project.org/src/contrib/lattice_0.22-5.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/lattice_0.22-6.tar.gz)
 
 build() {
 	cd lattice
