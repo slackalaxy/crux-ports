@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZd1y9mZB6MGF6ngr8Ul0cO5nyFXtM6tI0Ss8CrRFqiHwxU4Om35THx35W3b02vvtv/7ZLcyXa/HClrhSrfd85AM=
-SHA256 (Pkgfile) = b45c2b2b3136071d2e240e5c7daef9ecefe4604d583751302536ef70024a56ca
-SHA256 (.footprint) = ecf73e6d6a6028a4cae922d0e8f1e7bf3321985b79813f4ea1d6a6c620bb2a66
-SHA256 (openvpn-2.6.9.tar.gz) = 96a7a63aeea1f64b0ea662ef29aa13b2b4f8fe8cdc8f062a5242362bb63b2231
+RWToVVsIkzFIZf2uzXDk59yelKM4G/D3RYp2xBTcMdkZrUTdn+D1QulaWtZFvXruNshuudg76GoPOoKGeXb2+/JP4eg/sTppDwM=
+SHA256 (Pkgfile) = 06f7660ebe02f269e5a2baeac4ad2ec02288aa09c80b0907d5cb4dbe6b5dc73b
+SHA256 (.footprint) = 4b75386ae0f3241ca01ea9fa3f521108c2e3b243fc362cc180ef19220be306b5
+SHA256 (openvpn-2.6.10.tar.gz) = 8d8d9a4624703d1300913d06ee5498d8a92485f140ebf36ac5c40ec5ecdc68f3
 SHA256 (openvpn.conf) = e578b62ca4f10975b4c605ab53efad306af2d46a2d0d0e7784a30a00b5c05798
 SHA256 (openvpn.rc) = 0ccd005de74afda4361f74ea7330d2c702f3dff34047a5a51ccc8cdc88d2dbe3

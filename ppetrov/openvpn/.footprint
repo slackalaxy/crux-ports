@@ -27,15 +27,11 @@ drwxrwxr-x	root/root	usr/share/openvpn/sample-config-files/
 -rw-rw-r--	root/root	usr/share/openvpn/sample-config-files/README
 -rw-rw-r--	root/root	usr/share/openvpn/sample-config-files/client.conf
 -rwxrwxr-x	root/root	usr/share/openvpn/sample-config-files/firewall.sh
--rwxrwxr-x	root/root	usr/share/openvpn/sample-config-files/home.up
 -rw-rw-r--	root/root	usr/share/openvpn/sample-config-files/loopback-client
 -rw-rw-r--	root/root	usr/share/openvpn/sample-config-files/loopback-server
--rwxrwxr-x	root/root	usr/share/openvpn/sample-config-files/office.up
 -rwxrwxr-x	root/root	usr/share/openvpn/sample-config-files/openvpn-shutdown.sh
 -rwxrwxr-x	root/root	usr/share/openvpn/sample-config-files/openvpn-startup.sh
 -rw-rw-r--	root/root	usr/share/openvpn/sample-config-files/server.conf
--rw-rw-r--	root/root	usr/share/openvpn/sample-config-files/tls-home.conf
--rw-rw-r--	root/root	usr/share/openvpn/sample-config-files/tls-office.conf
 drwxrwxr-x	root/root	usr/share/openvpn/sample-keys/
 -rw-rw-r--	root/root	usr/share/openvpn/sample-keys/README
 -rw-rw-r--	root/root	usr/share/openvpn/sample-keys/ca.crt

@@ -4,7 +4,7 @@
 # Depends on: openssl libcap-ng lzo lz4 python3-docutils
 
 name=openvpn
-version=2.6.9
+version=2.6.10
 release=1
 source=(https://github.com/OpenVPN/$name/archive/v${version}/$name-$version.tar.gz
 	$name.conf $name.rc)
