@@ -4,7 +4,7 @@
 # Depends on: icu keyutils krb5 qt6-quick3d
 
 name=qt6-quick3dphysics
-version=6.6.2
+version=6.6.3
 release=1
 source=(https://download.qt.io/official_releases/qt/${version%.*}/$version/submodules/qtquick3dphysics-everywhere-src-$version.tar.xz)
 
