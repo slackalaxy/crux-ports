@@ -430,6 +430,7 @@ d:xmms-skins-garetjax
 d:nlopt
 d:r4-biocmanager
 d:ubuntulooks-themes
+d:opera
 f:ccbdb324fff7cbaa3c6fca822d43a97e:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:988c2e3fd5ba0ea4492d3ba7273af295:acpid/acpid-2.0.34.tar.xz
@@ -587,9 +588,9 @@ f:d7a55597415a2861932b0a96a2db626b:pal2nal/.signature
 f:6bba3ed467c0bb73fdee126d25fc25e9:polkit-qt5/Pkgfile
 f:541c02d304e1520bd3149c9d50d22296:polkit-qt5/.footprint
 f:a935216ca39017df4d4951cbe99415ee:polkit-qt5/.signature
-f:0ecc058c984f688e21758ec87ca9b365:qt6-quick3dphysics/Pkgfile
-f:9d56fb1cac05fba1900d4014049bdea2:qt6-quick3dphysics/.footprint
-f:649991d03badb3c3b83645286f1a0459:qt6-quick3dphysics/.signature
+f:9c1c560b8f794d75e17c0b518401edff:qt6-quick3dphysics/Pkgfile
+f:08c4c6e4cee9f47d1b86cb408858fdd1:qt6-quick3dphysics/.footprint
+f:2590bce39b88712164a99deb906616d7:qt6-quick3dphysics/.signature
 f:27f0c133bf1675e3ae2be213cc6e7a1e:smplayer/Pkgfile
 f:c836d19d68e9db5ab98e42a21422f3a1:smplayer/.footprint
 f:15a65978407af55871fc980bda8f761e:smplayer/.signature
@@ -869,9 +870,9 @@ f:80896c7f4d7c77c95057cc82b31e0ef7:p5-xml-sax-writer/.signature
 f:4e04987866ff06833d1dd3ac731ad8ea:physamp/Pkgfile
 f:2762cafcda2d5abfe930604b9053b925:physamp/.footprint
 f:7ffa4a1d765aa6101a264cfe049a1956:physamp/.signature
-f:7e477746ec18b943d49c36e9a2edd57a:qt6-pdfwidgets/Pkgfile
-f:c136b1d69cb411f0dd91ce9ffaf86433:qt6-pdfwidgets/.footprint
-f:b5c1bf1dba5f85e4bb5daa96d4779851:qt6-pdfwidgets/.signature
+f:93825c4995504f551cef57d98a4165f1:qt6-pdfwidgets/Pkgfile
+f:6bc48c7884373b1bee2f51df3e43c104:qt6-pdfwidgets/.footprint
+f:f7c06fa7be6f31a56068c356bad74a44:qt6-pdfwidgets/.signature
 f:3c083fe2931499aaa7756d7984c281d6:smplayer-themes/Pkgfile
 f:68e285e22504179b16e7409612ebf946:smplayer-themes/.footprint
 f:9b9e84de7cde014f413fecefd5a3fe30:smplayer-themes/.signature
@@ -1394,9 +1395,9 @@ f:92382e298a2f9e122f4ea1796b9a6f0f:paml/.signature
 f:2eeae4925bf0c8e70f80890fc72e80ff:poppler21-glib/Pkgfile
 f:f8c42b188f07f748bf545e72091a32b0:poppler21-glib/.footprint
 f:57a874a12cfb175b473efc827f12897b:poppler21-glib/.signature
-f:e5a6ca43379c53de130cd28e2e2e90d9:qt6-webview/Pkgfile
-f:26bf373bf925d519a78917c075e87373:qt6-webview/.footprint
-f:dc69152bf8c900b9b3385e92116ffae4:qt6-webview/.signature
+f:5db9e5eba6b6cf28845ffe0b29f4144c:qt6-webview/Pkgfile
+f:ab8d2a1d6474bca3b6035f26fef34473:qt6-webview/.footprint
+f:b86b13e0d05c561076ad7b8e38308dbd:qt6-webview/.signature
 f:3eebde359110333cbbdfab25e5c86099:aliview/Pkgfile
 f:446f99ca5e98ee81bb6c87151dbb22a0:aliview/aliview.desktop
 f:1dc8dba1069b6fa8751c09f5b2df109b:aliview/.footprint
@@ -2069,3 +2070,6 @@ f:4fcc4a3443767d08909a36e347056a8c:ubuntulooks-themes/Pkgfile
 f:f89be60a67ec8e6cbfb0a91ffbd51cd7:ubuntulooks-themes/.footprint
 f:588383f8bfac1e0e72ab752ab8759c0c:ubuntulooks-themes/.signature
 f:d8a11c1dab89924fb8c9a0f591099908:ubuntulooks-themes/ubuntulooks-themes-0.16.tar.xz
+f:450503aa9f6025cb3f2fd2eabfbbac41:opera/Pkgfile
+f:fe2723934167ffcb2f54a56c87838db6:opera/.footprint
+f:59b014a5512bbfd9f70225077d21d83c:opera/.signature
