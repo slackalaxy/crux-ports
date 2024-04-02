@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/callr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-processx r4-r6
-# Optional: r4-asciicast r4-cli r4-covr r4-mockery r4-ps r4-rprojroot r4-spelling r4-testthat r4-withr
+# Optional: r4-asciicast r4-cli r4-mockery r4-ps r4-rprojroot r4-spelling r4-testthat r4-withr
 
 name=r4-callr
-version=3.7.5
+version=3.7.6
 release=1
 source=(https://cloud.r-project.org/src/contrib/callr_${version}.tar.gz)
 

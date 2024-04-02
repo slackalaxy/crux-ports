@@ -1,11 +1,11 @@
 # Description: R module htmltools
 # URL: https://cran.r-project.org/web/packages/htmltools
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-base64enc r4-digest r4-ellipsis r4-fastmap r4-rlang
+# Depends on: r r4-base64enc r4-digest r4-fastmap r4-rlang
 # Optional: r4-cairo r4-markdown r4-ragg r4-shiny r4-testthat r4-withr
 
 name=r4-htmltools
-version=0.5.7
+version=0.5.8
 release=1
 source=(https://cloud.r-project.org/src/contrib/htmltools_${version}.tar.gz)
 

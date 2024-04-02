@@ -29,6 +29,16 @@ drwxr-xr-x	root/root	usr/lib/R/library/gh/doc/
 drwxr-xr-x	root/root	usr/lib/R/library/gh/help/
 -rw-r--r--	root/root	usr/lib/R/library/gh/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/gh/help/aliases.rds
+drwxr-xr-x	root/root	usr/lib/R/library/gh/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-archived.svg
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-defunct.svg
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-deprecated.svg
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-experimental.svg
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-maturing.svg
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-questioning.svg
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-soft-deprecated.svg
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-stable.svg
+-rw-r--r--	root/root	usr/lib/R/library/gh/help/figures/lifecycle-superseded.svg
 -rw-r--r--	root/root	usr/lib/R/library/gh/help/gh.rdb
 -rw-r--r--	root/root	usr/lib/R/library/gh/help/gh.rdx
 -rw-r--r--	root/root	usr/lib/R/library/gh/help/paths.rds

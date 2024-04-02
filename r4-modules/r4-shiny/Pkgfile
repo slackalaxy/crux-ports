@@ -1,11 +1,11 @@
 # Description: R module shiny
 # URL: https://cran.r-project.org/web/packages/shiny
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-bslib r4-cachem r4-commonmark r4-crayon r4-ellipsis r4-fastmap r4-fontawesome r4-glue r4-htmltools r4-httpuv r4-jsonlite r4-later r4-lifecycle r4-mime r4-promises r4-r6 r4-rlang r4-sourcetools r4-withr r4-xtable
-# Optional: r4-cairo r4-dygraphs r4-future r4-ggplot2 r4-knitr r4-magrittr r4-markdown r4-ragg r4-reactlog r4-rmarkdown r4-sass r4-showtext r4-testthat r4-yaml
+# Depends on: r r4-bslib r4-cachem r4-commonmark r4-crayon r4-fastmap r4-fontawesome r4-glue r4-htmltools r4-httpuv r4-jsonlite r4-later r4-lifecycle r4-mime r4-promises r4-r6 r4-rlang r4-sourcetools r4-withr r4-xtable
+# Optional: r4-cairo r4-dt r4-dygraphs r4-future r4-ggplot2 r4-knitr r4-magrittr r4-markdown r4-ragg r4-reactlog r4-rmarkdown r4-sass r4-showtext r4-testthat r4-yaml
 
 name=r4-shiny
-version=1.8.0
+version=1.8.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/shiny_${version}.tar.gz)
 

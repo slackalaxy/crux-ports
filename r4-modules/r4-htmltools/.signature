@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AxdmRharZ1iVMGwrk7aTCy6J1x7n8svAr3ByhHmmiWYY3ng7uZWT7GeKVS/cTYzWTt15Ye4LRHIavqMGt1TbQg=
-SHA256 (Pkgfile) = 9f28b6ea9fb2b17e12beb29ef77649771678b50f50b05c967a4767815791b873
+RWQ2oTreAss89GVurtaM1WqxVuS9eZ5pufncQjGT1uaBcEptevhPt88v3hhx1zz4mMkUTxXFRetCMO17pe8Qa3K9h/kCKHHdPgc=
+SHA256 (Pkgfile) = 27ba3b975c8e5a3c5581cd718ff007746a663f86de07f0c158dbc6e21baf15d1
 SHA256 (.footprint) = 4185a88af87a10a7e3d9bf011e03928a11c6b27c79b8538730be03dd1402f1f1
-SHA256 (htmltools_0.5.7.tar.gz) = ecb0d82619063f49e4d001c44fcc1b811a06928fd66c2bb8c86632798d98b386
+SHA256 (htmltools_0.5.8.tar.gz) = 369ceb18ce8d0b9595dd6f466fd482ad7189a0dfa55e05a370cbe1f4eff3e695

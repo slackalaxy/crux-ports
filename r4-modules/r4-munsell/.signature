@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89MIhCLzYwbKGWD8ROlxozGwK3AoihJWpeJ9JDe4tjDMDjzConWt3nG+XPeRUIGBxaCj4tTeEJJlLmsAKet+GbwY=
-SHA256 (Pkgfile) = 9027d832184e03b261532308c03a53c8f2b6a9c8a44df638894b6b9e7fb0c218
+RWQ2oTreAss89OQNjqtXvkIikyOeljuxXZ1nc3w6tA4G2sXvQTUawoAri365JaSvuTnkcgrfIFc7iBIE9KpqouqkpwCIPMfnowg=
+SHA256 (Pkgfile) = 8a573ca1ae4cac4a2d58673910557acb4eed8805a5400d0ea592699a2b74d9b6
 SHA256 (.footprint) = 62451981c86d9c77a8152db38e9ebf6a393c058f64a761de10d8692573246b37
-SHA256 (munsell_0.5.0.tar.gz) = d0f3a9fb30e2b5d411fa61db56d4be5733a2621c0edf017d090bdfa5e377e199
+SHA256 (munsell_0.5.1.tar.gz) = 03a2fd9ac40766cded96dfe33b143d872d0aaa262a25482ce19161ca959429a6

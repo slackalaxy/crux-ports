@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GWn8GNlnSszyosX3wISSY3Itmt10voOoU4SII4fNlh/KW+W+QYu4Wp0WPeh4cJOa62OUzRm5voYnNqNFWuV4gs=
-SHA256 (Pkgfile) = 6e1a605df16e679a16fa3992a8cd9ff9f62feeb6e08b841379b1aa78a3a3f07b
+RWQ2oTreAss89E6aT48pbpVDiRipuMZc2MJ9AejAp1cmDYKSDhHS463al2NUHi0qg9D5TK3ZTFvMuvFmwB5iHflbgVvrKLIqSAM=
+SHA256 (Pkgfile) = c0c94749276bee867ea634bbdccb3fcc4b62cc9bc09deb3b600cfc128416ef11
 SHA256 (.footprint) = 17ad1d2e22a401d1796023c5190bfe5f677da34a3f7fadcb215afbdbc6aa7e29
-SHA256 (codetools_0.2-19.tar.gz) = c4b7e567c87f33dad85de92f79641e5e5b5deede6d19a9dfa47133d191782dab
+SHA256 (codetools_0.2-20.tar.gz) = 3be6f375ec178723ddfd559d1e8e85bfeee04a5fbaf9f53f2f844e1669fea863
