@@ -1,6 +1,6 @@
 # Description: A library for layout and rendering of text (required for pangox-compat)
 # URL: https://www.gtk.org/
-# Maintainer: unmaintained
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: xorg-libsm xorg-libxft
 
 name=pango-compat

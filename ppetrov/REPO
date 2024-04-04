@@ -1353,8 +1353,8 @@ f:d82f7e01449a5c04615d66f085c84f65:djvulibre/Pkgfile
 f:62d2bf8890a0d51d89241fc99722d088:djvulibre/.footprint
 f:1869cf6e176b8adc231515ab07afdefa:djvulibre/.signature
 f:c0a17c722f85320e7d1e7cf73fcd25ee:pango-compat/.footprint
-f:43a55a25d68fb0dff362b168aa2eadee:pango-compat/.signature
-f:86dc22a7bac6106cfdeeb6188ba0eb08:pango-compat/Pkgfile
+f:73a1c3df9cd9b4e70fcf1a3bc8c5b79c:pango-compat/.signature
+f:5d249d2ec4b8565281adabc3455b706b:pango-compat/Pkgfile
 f:2d468c428d011943b627138e86f1591f:gcc5/Pkgfile
 f:f7eda766d5760376cbb1ee4c7abad7a6:gcc5/README
 f:75b0fabc92d4e2735baa897f231e7d68:gcc5/glibc2.28-ustat.patch
@@ -2012,8 +2012,8 @@ f:e5814e76ede7bca25a539a287e7fc8df:dia/Pkgfile
 f:586e365a0640857f0bffa765e3330519:dia/dia-0.97.0-gnome-doc.patch
 f:3ca71280b2c4c7bfe565fbe4358d179e:dia/dia-0.97.2-underlinking.patch
 f:6801c83853fe69499b2d8f5056b5e930:pangox-compat/.footprint
-f:0e14c3246e366d62b2b09288eb727802:pangox-compat/.signature
-f:8b288812f1ff181a9c18e1cac7e64cbb:pangox-compat/Pkgfile
+f:2afa384c9da67878dd88642c2b539aa3:pangox-compat/.signature
+f:abb32afe22b75029a26711ca36c9cec2:pangox-compat/Pkgfile
 f:f6838cb54322e0a0d9720e2ea30becd6:cran2crux/Pkgfile
 f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
 f:dfe90add62294dbc0c315404a46bce1e:cran2crux/.signature
