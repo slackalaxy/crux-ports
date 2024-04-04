@@ -1,0 +1,16 @@
+# Description: R module slam
+# URL: https://cran.r-project.org/web/packages/slam
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: 
+
+name=r4-slam
+version=0.1.50
+release=1
+source=(https://cloud.r-project.org/src/contrib/slam_0.1-50.tar.gz)
+
+build() {
+	cd slam
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

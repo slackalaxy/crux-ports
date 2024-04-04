@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89E0SFKdSPnHNEQMoEsxKSgxC+On3epENsfLFd2czS23DmZ3KurFt+LcVzhCCaWCyGbvxFW7hryP/yyQHDyWlVg8=
+SHA256 (Pkgfile) = 86827b6d602ce44925d9dfc07c4f80156467176c561bb392e4b72af93a43a57c
+SHA256 (.footprint) = 606ceffbf42fe3c8124b056f977fe1db43d24fed24a1f2466c2b790f7463a9ee
+SHA256 (rgl_1.3.1.tar.gz) = 9fea7b59dd7fef9bbd783c745d68325ec753ef412699d168bb6c664a56506d49

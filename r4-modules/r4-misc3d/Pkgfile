@@ -1,0 +1,16 @@
+# Description: R module misc3d
+# URL: https://cran.r-project.org/web/packages/misc3d
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-mass r4-rgl r4-tkrplot
+
+name=r4-misc3d
+version=0.9.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/misc3d_0.9-1.tar.gz)
+
+build() {
+	cd misc3d
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

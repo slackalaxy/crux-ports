@@ -1,0 +1,16 @@
+# Description: R module IRdisplay
+# URL: https://cran.r-project.org/web/packages/IRdisplay
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-repr
+# Optional: r4-testthat r4-withr
+
+name=r4-irdisplay
+version=1.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/IRdisplay_${version}.tar.gz)
+
+build() {
+	cd IRdisplay
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
