@@ -2,17 +2,17 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/qt6/
 drwxr-xr-x	root/root	usr/include/qt6/QtPdf/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdf/6.6.3/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/
--rw-r--r--	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/qpdfdocument_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/qpdffile_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/qpdflink_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/qpdflinkmodel_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/qpdfsearchmodel_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/qpdfselection_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/qtpdf-config_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/qtpdfexports_p.h
+drwxr-xr-x	root/root	usr/include/qt6/QtPdf/6.7.0/
+drwxr-xr-x	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/
+drwxr-xr-x	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/
+-rw-r--r--	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/qpdfdocument_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/qpdffile_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/qpdflink_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/qpdflinkmodel_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/qpdfsearchmodel_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/qpdfselection_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/qtpdf-config_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdf/6.7.0/QtPdf/private/qtpdfexports_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtPdf/QPdfBookmarkModel
 -rw-r--r--	root/root	usr/include/qt6/QtPdf/QPdfDocument
 -rw-r--r--	root/root	usr/include/qt6/QtPdf/QPdfDocumentRenderOptions
@@ -39,27 +39,27 @@ drwxr-xr-x	root/root	usr/include/qt6/QtPdf/6.6.3/QtPdf/private/
 -rw-r--r--	root/root	usr/include/qt6/QtPdf/qtpdfglobal.h
 -rw-r--r--	root/root	usr/include/qt6/QtPdf/qtpdfversion.h
 drwxr-xr-x	root/root	usr/include/qt6/QtPdfQuick/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdfQuick/6.6.3/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/
--rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/qquickpdfbookmarkmodel_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/qquickpdfdocument_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/qquickpdflinkmodel_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/qquickpdfpageimage_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/qquickpdfpagenavigator_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/qquickpdfsearchmodel_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/qquickpdfselection_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.6.3/QtPdfQuick/private/qtpdfquickglobal_p.h
+drwxr-xr-x	root/root	usr/include/qt6/QtPdfQuick/6.7.0/
+drwxr-xr-x	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/
+drwxr-xr-x	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/
+-rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/qquickpdfbookmarkmodel_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/qquickpdfdocument_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/qquickpdflinkmodel_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/qquickpdfpageimage_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/qquickpdfpagenavigator_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/qquickpdfsearchmodel_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/qquickpdfselection_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/6.7.0/QtPdfQuick/private/qtpdfquickglobal_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/QtPdfQuick
 -rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/QtPdfQuickDepends
 -rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/QtPdfQuickVersion
 -rw-r--r--	root/root	usr/include/qt6/QtPdfQuick/qtpdfquickversion.h
 drwxr-xr-x	root/root	usr/include/qt6/QtPdfWidgets/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdfWidgets/6.6.3/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdfWidgets/6.6.3/QtPdfWidgets/
-drwxr-xr-x	root/root	usr/include/qt6/QtPdfWidgets/6.6.3/QtPdfWidgets/private/
--rw-r--r--	root/root	usr/include/qt6/QtPdfWidgets/6.6.3/QtPdfWidgets/private/qpdfpageselector_p.h
--rw-r--r--	root/root	usr/include/qt6/QtPdfWidgets/6.6.3/QtPdfWidgets/private/qpdfview_p.h
+drwxr-xr-x	root/root	usr/include/qt6/QtPdfWidgets/6.7.0/
+drwxr-xr-x	root/root	usr/include/qt6/QtPdfWidgets/6.7.0/QtPdfWidgets/
+drwxr-xr-x	root/root	usr/include/qt6/QtPdfWidgets/6.7.0/QtPdfWidgets/private/
+-rw-r--r--	root/root	usr/include/qt6/QtPdfWidgets/6.7.0/QtPdfWidgets/private/qpdfpageselector_p.h
+-rw-r--r--	root/root	usr/include/qt6/QtPdfWidgets/6.7.0/QtPdfWidgets/private/qpdfview_p.h
 -rw-r--r--	root/root	usr/include/qt6/QtPdfWidgets/QPdfPageSelector
 -rw-r--r--	root/root	usr/include/qt6/QtPdfWidgets/QPdfView
 -rw-r--r--	root/root	usr/include/qt6/QtPdfWidgets/QtPdfWidgets
@@ -125,16 +125,16 @@ drwxr-xr-x	root/root	usr/lib/cmake/Qt6Qml/QmlPlugins/
 -rw-r--r--	root/root	usr/lib/cmake/Qt6Qml/QmlPlugins/Qt6PdfQuickpluginTargets.cmake
 -rw-r--r--	root/root	usr/lib/libQt6Pdf.prl
 lrwxrwxrwx	root/root	usr/lib/libQt6Pdf.so -> libQt6Pdf.so.6
-lrwxrwxrwx	root/root	usr/lib/libQt6Pdf.so.6 -> libQt6Pdf.so.6.6.3
--rwxr-xr-x	root/root	usr/lib/libQt6Pdf.so.6.6.3
+lrwxrwxrwx	root/root	usr/lib/libQt6Pdf.so.6 -> libQt6Pdf.so.6.7.0
+-rwxr-xr-x	root/root	usr/lib/libQt6Pdf.so.6.7.0
 -rw-r--r--	root/root	usr/lib/libQt6PdfQuick.prl
 lrwxrwxrwx	root/root	usr/lib/libQt6PdfQuick.so -> libQt6PdfQuick.so.6
-lrwxrwxrwx	root/root	usr/lib/libQt6PdfQuick.so.6 -> libQt6PdfQuick.so.6.6.3
--rwxr-xr-x	root/root	usr/lib/libQt6PdfQuick.so.6.6.3
+lrwxrwxrwx	root/root	usr/lib/libQt6PdfQuick.so.6 -> libQt6PdfQuick.so.6.7.0
+-rwxr-xr-x	root/root	usr/lib/libQt6PdfQuick.so.6.7.0
 -rw-r--r--	root/root	usr/lib/libQt6PdfWidgets.prl
 lrwxrwxrwx	root/root	usr/lib/libQt6PdfWidgets.so -> libQt6PdfWidgets.so.6
-lrwxrwxrwx	root/root	usr/lib/libQt6PdfWidgets.so.6 -> libQt6PdfWidgets.so.6.6.3
--rwxr-xr-x	root/root	usr/lib/libQt6PdfWidgets.so.6.6.3
+lrwxrwxrwx	root/root	usr/lib/libQt6PdfWidgets.so.6 -> libQt6PdfWidgets.so.6.7.0
+-rwxr-xr-x	root/root	usr/lib/libQt6PdfWidgets.so.6.7.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/Qt6Pdf.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/Qt6PdfQuick.pc

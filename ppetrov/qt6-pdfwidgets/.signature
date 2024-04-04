@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZShrNk+wqQHvfiKnZsGzj8IzaafhQ8G1vgyNdgrDu1VaTc8R0Inq6h5oJteYXN5ezQ5Yr8/DdoHRN2/CNcJqdAs=
-SHA256 (Pkgfile) = 5240a915854b2653726bec7f408c1dd8d0a6bf291ded7db6e95639f1a69b283c
-SHA256 (.footprint) = ae452b3002a7e89bd3deb3f95f08dff6fbd24e36473a7714e3efe70a07cac41d
-SHA256 (qtwebengine-everywhere-src-6.6.3.tar.xz) = 7c2bdc83b21b82a179a7bf098df47ebf66ba7693d67ebda55a4a28d9eadad804
+RWToVVsIkzFIZQWa4lR8juS6uERlydOH0taJZ19PxgvpdD1yaK9W0xs+cFqYF1wMoY5XdKie5e4GpIq4jQW0M6GdmW6Fa24Nfgk=
+SHA256 (Pkgfile) = 412e584b7f83a713c16f522ac5630f341511a611e565bd96c3444d782d7b7773
+SHA256 (.footprint) = f536ee6455228b6a8214e3e886e3269152e17fad95f50edb6ae402b71299729a
+SHA256 (qtwebengine-everywhere-src-6.7.0.tar.xz) = 1a5ba443635dc1f439ab802ac6d761b8def5ebb24e5219bb7289288e72c147de
