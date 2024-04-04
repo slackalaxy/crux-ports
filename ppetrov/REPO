@@ -246,6 +246,7 @@ d:xmms-mp4
 d:xmms-wma
 d:clustalw
 d:djvulibre
+d:pango-compat
 d:gcc5
 d:gnome-icon-theme-symbolic
 d:gtkmm
@@ -411,6 +412,7 @@ d:gtkman
 d:ioq3
 d:prboom-plus
 d:dia
+d:pangox-compat
 d:cran2crux
 d:scwrl
 d:biobb_structure_checking
@@ -588,9 +590,9 @@ f:d7a55597415a2861932b0a96a2db626b:pal2nal/.signature
 f:6bba3ed467c0bb73fdee126d25fc25e9:polkit-qt5/Pkgfile
 f:541c02d304e1520bd3149c9d50d22296:polkit-qt5/.footprint
 f:a935216ca39017df4d4951cbe99415ee:polkit-qt5/.signature
-f:9c1c560b8f794d75e17c0b518401edff:qt6-quick3dphysics/Pkgfile
-f:08c4c6e4cee9f47d1b86cb408858fdd1:qt6-quick3dphysics/.footprint
-f:2590bce39b88712164a99deb906616d7:qt6-quick3dphysics/.signature
+f:68fcf763ca245848af906b3c58b52dc0:qt6-quick3dphysics/Pkgfile
+f:0f992b5e6e6f25c58d63ad9a78d22c80:qt6-quick3dphysics/.footprint
+f:c675973e4cca52491a78dc85d0c02f7b:qt6-quick3dphysics/.signature
 f:27f0c133bf1675e3ae2be213cc6e7a1e:smplayer/Pkgfile
 f:c836d19d68e9db5ab98e42a21422f3a1:smplayer/.footprint
 f:15a65978407af55871fc980bda8f761e:smplayer/.signature
@@ -870,9 +872,9 @@ f:80896c7f4d7c77c95057cc82b31e0ef7:p5-xml-sax-writer/.signature
 f:4e04987866ff06833d1dd3ac731ad8ea:physamp/Pkgfile
 f:2762cafcda2d5abfe930604b9053b925:physamp/.footprint
 f:7ffa4a1d765aa6101a264cfe049a1956:physamp/.signature
-f:93825c4995504f551cef57d98a4165f1:qt6-pdfwidgets/Pkgfile
-f:6bc48c7884373b1bee2f51df3e43c104:qt6-pdfwidgets/.footprint
-f:f7c06fa7be6f31a56068c356bad74a44:qt6-pdfwidgets/.signature
+f:96da6457e3bbaad561e755ac1eac08b4:qt6-pdfwidgets/Pkgfile
+f:cec634421bcff1cdbd1eac984a2a8563:qt6-pdfwidgets/.footprint
+f:e901f149c5c41f7996bf788366c7aba3:qt6-pdfwidgets/.signature
 f:3c083fe2931499aaa7756d7984c281d6:smplayer-themes/Pkgfile
 f:68e285e22504179b16e7409612ebf946:smplayer-themes/.footprint
 f:9b9e84de7cde014f413fecefd5a3fe30:smplayer-themes/.signature
@@ -1350,6 +1352,9 @@ f:4d88c7b5b90efb6e41c3704bdb3f3178:clustalw/.signature
 f:d82f7e01449a5c04615d66f085c84f65:djvulibre/Pkgfile
 f:62d2bf8890a0d51d89241fc99722d088:djvulibre/.footprint
 f:1869cf6e176b8adc231515ab07afdefa:djvulibre/.signature
+f:c0a17c722f85320e7d1e7cf73fcd25ee:pango-compat/.footprint
+f:43a55a25d68fb0dff362b168aa2eadee:pango-compat/.signature
+f:86dc22a7bac6106cfdeeb6188ba0eb08:pango-compat/Pkgfile
 f:2d468c428d011943b627138e86f1591f:gcc5/Pkgfile
 f:f7eda766d5760376cbb1ee4c7abad7a6:gcc5/README
 f:75b0fabc92d4e2735baa897f231e7d68:gcc5/glibc2.28-ustat.patch
@@ -1395,9 +1400,9 @@ f:92382e298a2f9e122f4ea1796b9a6f0f:paml/.signature
 f:2eeae4925bf0c8e70f80890fc72e80ff:poppler21-glib/Pkgfile
 f:f8c42b188f07f748bf545e72091a32b0:poppler21-glib/.footprint
 f:57a874a12cfb175b473efc827f12897b:poppler21-glib/.signature
-f:5db9e5eba6b6cf28845ffe0b29f4144c:qt6-webview/Pkgfile
-f:ab8d2a1d6474bca3b6035f26fef34473:qt6-webview/.footprint
-f:b86b13e0d05c561076ad7b8e38308dbd:qt6-webview/.signature
+f:0dd0b3ea52673a00af9a4dcc7333808c:qt6-webview/Pkgfile
+f:0ff38999b7d69e120019f86713206e3c:qt6-webview/.footprint
+f:9ffe243603a62f21d411e500129dba89:qt6-webview/.signature
 f:3eebde359110333cbbdfab25e5c86099:aliview/Pkgfile
 f:446f99ca5e98ee81bb6c87151dbb22a0:aliview/aliview.desktop
 f:1dc8dba1069b6fa8751c09f5b2df109b:aliview/.footprint
@@ -2006,6 +2011,9 @@ f:5e718d09dfc4b10d20f54e44bd8263da:dia/.signature
 f:e5814e76ede7bca25a539a287e7fc8df:dia/Pkgfile
 f:586e365a0640857f0bffa765e3330519:dia/dia-0.97.0-gnome-doc.patch
 f:3ca71280b2c4c7bfe565fbe4358d179e:dia/dia-0.97.2-underlinking.patch
+f:6801c83853fe69499b2d8f5056b5e930:pangox-compat/.footprint
+f:0e14c3246e366d62b2b09288eb727802:pangox-compat/.signature
+f:8b288812f1ff181a9c18e1cac7e64cbb:pangox-compat/Pkgfile
 f:f6838cb54322e0a0d9720e2ea30becd6:cran2crux/Pkgfile
 f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
 f:dfe90add62294dbc0c315404a46bce1e:cran2crux/.signature
@@ -2070,6 +2078,6 @@ f:4fcc4a3443767d08909a36e347056a8c:ubuntulooks-themes/Pkgfile
 f:f89be60a67ec8e6cbfb0a91ffbd51cd7:ubuntulooks-themes/.footprint
 f:588383f8bfac1e0e72ab752ab8759c0c:ubuntulooks-themes/.signature
 f:d8a11c1dab89924fb8c9a0f591099908:ubuntulooks-themes/ubuntulooks-themes-0.16.tar.xz
-f:450503aa9f6025cb3f2fd2eabfbbac41:opera/Pkgfile
-f:fe2723934167ffcb2f54a56c87838db6:opera/.footprint
-f:59b014a5512bbfd9f70225077d21d83c:opera/.signature
+f:88376a73fc87c971e7d32d3b5f8be656:opera/Pkgfile
+f:3ec42bb7230ea7ce10e330768b9f984c:opera/.footprint
+f:fd9b33353f4229b95328fa27ba79db62:opera/.signature
