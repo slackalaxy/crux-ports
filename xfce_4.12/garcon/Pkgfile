@@ -1,21 +1,23 @@
 # Description: Freedesktop.org compliant menu library based on old libxfce4menu
-# URL: https://git.xfce.org/xfce/garcon/tree/README http://wiki.xfce.org/dev/garcon
+# URL: http://wiki.xfce.org/dev/garcon
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: libxfce4ui
 
 name=garcon
 version=0.6.4
-release=2
+release=4
 source=(https://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
 build () {
 	cd $SRC/$name-$version
-	./configure --prefix=/usr \
+	./configure \
+		--prefix=/usr \
 		--disable-nls \
 		--disable-static \
 		--disable-dependency-tracking \
 		--disable-gtk-doc \
 		--disable-gtk-doc-html \
-		--disable-gtk-doc-pdf
+		--disable-gtk-doc-pdf \
+		--enable-gtk2
 	make
 	make DESTDIR=$PKG install
 	
