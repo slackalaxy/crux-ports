@@ -10,6 +10,8 @@ drwxr-xr-x	root/root	usr/lib/opera/
 -rw-r--r--	root/root	usr/lib/opera/icudtl.dat
 -rw-r--r--	root/root	usr/lib/opera/libEGL.so
 -rw-r--r--	root/root	usr/lib/opera/libGLESv2.so
+drwxr-xr-x	root/root	usr/lib/opera/lib_extra/
+-rwxr-xr-x	root/root	usr/lib/opera/lib_extra/libffmpeg.so
 -rw-r--r--	root/root	usr/lib/opera/libffmpeg.so
 -rw-r--r--	root/root	usr/lib/opera/libqt5_shim.so
 -rw-r--r--	root/root	usr/lib/opera/libqt6_shim.so

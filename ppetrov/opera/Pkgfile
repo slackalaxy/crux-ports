@@ -6,7 +6,8 @@
 name=opera
 version=109.0.5097.35
 release=1
-source=(https://get.geo.opera.com/pub/opera/desktop/$version/linux/opera-stable_${version}_amd64.deb)
+source=(https://get.geo.opera.com/pub/opera/desktop/$version/linux/opera-stable_${version}_amd64.deb \
+	https://github.com/nwjs-ffmpeg-prebuilt/nwjs-ffmpeg-prebuilt/releases/download/0.85.0/0.85.0-linux-x64.zip)
 
 build() {
 	bsdtar -xf opera-stable_${version}_amd64.deb data.tar.xz
@@ -21,4 +22,7 @@ build() {
 	mkdir -p $PKG/usr/bin
 	cd $PKG/usr/bin
 	ln -s /usr/lib/$name/opera .
+	
+	mkdir -p $PKG/usr/lib/opera/lib_extra
+	cp $SRC/libffmpeg.so $PKG/usr/lib/opera/lib_extra/
 }
