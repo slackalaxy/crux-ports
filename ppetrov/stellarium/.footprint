@@ -1291,6 +1291,7 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/anutan/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/anutan/dso_names.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/anutan/info.ini
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/anutan/planet_names.fab
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/anutan/reference.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/anutan/star_names.fab
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/arabic_al-sufi/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/arabic_al-sufi/And.png
@@ -1440,6 +1441,7 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/babylonian_mulapin/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/babylonian_mulapin/Plough_bg.png
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/babylonian_mulapin/Rooster_bg.png
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/babylonian_mulapin/Scorpion_bg.png
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/babylonian_mulapin/Serpent_bg.png
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/babylonian_mulapin/Spadix_bg.png
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/babylonian_mulapin/Stag_bg.png
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/babylonian_mulapin/Swallow_bg.png
@@ -1551,8 +1553,13 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/chinese/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/constellationship.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/description.en.utf8
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/dso_names.fab
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/dso_names.zh_CN.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/info.ini
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/planet_names.fab
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/planet_names.zh_CN.fab
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/reference.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/star_names.fab
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/star_names.zh_CN.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese/yxkcxt.png
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/chinese_medieval/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/chinese_medieval/constellation_boundaries.dat
@@ -1625,11 +1632,15 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/egyptian_dendera/
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/greek_almagest/
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/greek_almagest/almstars/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/constellation_names.eng.fab
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/constellationsart.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/constellationship.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/corvus_s.png
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/crab_nebMass.jpg
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/description.en.utf8
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/dso_names.fab
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/efeublatt_bg.jpg
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/info.ini
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/ori_nebMass_bg.jpg
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/planet_names.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/reference.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/greek_almagest/star_names.fab
@@ -2429,6 +2440,7 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tikuna/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/constellationship.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/description.en.utf8
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/info.ini
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/reference.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/star_names.fab
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tongan/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tongan/constellation_names.eng.fab

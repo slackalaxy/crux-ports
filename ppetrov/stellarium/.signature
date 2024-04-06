@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZfYVu649756PhdNr23yDGrbtGnZoZEGMyMUOI1HOKmZcyLfNesPJrsdbkV6raVe/Cwk0nIWsVCGqXlAxg8Kr9wc=
-SHA256 (Pkgfile) = 715515fe5ea048243f87415ee49e4f1e8a6f0d5543c7894ce26cf0d24ee6c31f
-SHA256 (.footprint) = d85f714d50a7252298b1939f34c6b63034f4509f3665de06702f9f059166fbef
-SHA256 (stellarium-23.4.tar.gz) = db4db9f205cc13fb68e3f3c4c895754d16868e4d25a14da44db6d0d809e39943
+RWToVVsIkzFIZVeMnHqiXOGnX27P0t8JDhqd1WeeYeZHJjQBbqiNvZaatzrA6kVzAX13RExoTXJLXbn5eylGR57h+QEsAduMBg0=
+SHA256 (Pkgfile) = eef567f8e533b2dc92a121bd273daaac1c79b8d282f5747e9fa36a3409c8bd8b
+SHA256 (.footprint) = 604cfe78cc19c284cd869cc493e7b88a2727bedc33d41a0492ff5131964c44ec
+SHA256 (stellarium-24.1.tar.gz) = 5a48fb2c5b17c9ebfa23153604f470dc87a5eab5fafb0510f71e115ac76072a8
