@@ -268,7 +268,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/git/resources/ico
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github-authentication/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github-authentication/dist/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github-authentication/dist/extension.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github-authentication/dist/extension.js.LICENSE.txt
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github-authentication/images/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github-authentication/images/icon.png
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github-authentication/media/
@@ -698,6 +697,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/type
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.decorators.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.decorators.legacy.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.dom.asynciterable.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.dom.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.dom.iterable.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2015.collection.d.ts
@@ -713,6 +713,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/type
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2016.array.include.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2016.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2016.full.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2016.intl.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2017.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2017.date.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2017.full.d.ts
@@ -766,12 +767,16 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/type
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2023.full.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es6.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.collection.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.decorators.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.disposable.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.full.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.intl.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.object.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.promise.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.webworker.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.webworker.importscripts.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.webworker.iterable.d.ts
@@ -1059,7 +1064,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/typescript-basics
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/dist/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/dist/extension.js.LICENSE.txt
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/media/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/media/icon.png
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/package.json
@@ -1245,6 +1249,8 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilit
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskFailed.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalBell.mp3
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStarted.mp3
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/voiceRecordingStopped.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/warning.mp3
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/files/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/files/node/
