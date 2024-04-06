@@ -1,5 +1,5 @@
 # Description: Highly portable CD/DVD/BluRay recording software
-# URL: http://cdrecord.org/
+# URL: https://sourceforge.net/projects/cdrtools/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: lame mpg123 pulseaudio xorg-libxcb
 # Conflicts: cdrkit
