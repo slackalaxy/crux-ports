@@ -407,6 +407,17 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/data/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/data/Rdata.rds
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/data/Rdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/
+drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/basic.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/close.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/controls.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/default.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/ggplot.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/htmlwidgets.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/htmlwidgets2.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/modal.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/options.R
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/options2.R
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/airDatepicker/
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/airDatepicker/datepicker/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/airDatepicker/datepicker/app.R
@@ -521,6 +532,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/html/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/packer/
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/WinBox.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/air-datepicker.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/autonumeric.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/buttons-group.js

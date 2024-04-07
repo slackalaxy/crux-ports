@@ -5,7 +5,7 @@
 # Optional: r4-cairo r4-dt r4-dygraphs r4-future r4-ggplot2 r4-knitr r4-magrittr r4-markdown r4-ragg r4-reactlog r4-rmarkdown r4-sass r4-showtext r4-testthat r4-yaml
 
 name=r4-shiny
-version=1.8.1
+version=1.8.1.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/shiny_${version}.tar.gz)
 

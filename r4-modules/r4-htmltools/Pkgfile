@@ -5,7 +5,7 @@
 # Optional: r4-cairo r4-markdown r4-ragg r4-shiny r4-testthat r4-withr
 
 name=r4-htmltools
-version=0.5.8
+version=0.5.8.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/htmltools_${version}.tar.gz)
 

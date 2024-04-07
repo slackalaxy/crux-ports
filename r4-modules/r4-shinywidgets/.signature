@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89MgDY99pgTaLjDT+cJJLBCyKRq8SETXx/9jX0k4OuXdoBmnareXChsfqPt/uWcFHzcaW7CSHVWC39HALSpn+sAQ=
-SHA256 (Pkgfile) = 37fd338bdf6cdf74868a9104136b15ba7bc95ceaf919fb0ccf4d79d62f01e9c8
-SHA256 (.footprint) = 80ddb08d71876178ce6ddfb038b0bb132e8f38b5289d0972a22b846e156f3b2e
-SHA256 (shinyWidgets_0.8.3.tar.gz) = 187c43871e3236d3c21e374b78dd26b00e1eaad6dd67133153d4c46a3777e80b
+RWQ2oTreAss89A6jb+t88A5iqSDul+o8EqJNcZB3JcH3Dx0IccSR3RRP5ZAMfQTlKp055l2iK5+wK8v6altANl7qb3vBb5T2Jws=
+SHA256 (Pkgfile) = dffa00bbed03a944f2916ff7e203777e615840c5041fd240cc8f057a6928f3cb
+SHA256 (.footprint) = 0f00363ec92de2db6f85b832355ca4943fa9e993ea08ee9e6f32185b693729c6
+SHA256 (shinyWidgets_0.8.4.tar.gz) = f5ae60fd2c23a1c3fdabcec3ae135951925bfaee818e2819e3e72bd973eac25c
