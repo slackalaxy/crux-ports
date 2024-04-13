@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdQVzCMkVt/CAIlPP4n1/ToQw9RG2riew27z8Qwr/+6oEB5Sc9JeV6XJUwZNWA24u9DXm7LksxXEJomvL5nWygw=
-SHA256 (Pkgfile) = d3aa481e110897085a1c3199b6fb5e2420c67b0510fa8232834b4a3884d0ea7f
-SHA256 (.footprint) = 3541a1f6f49b8f2c93358e1551155dc697ddbba0ff090c4538ffd48eee426542
-SHA256 (libimobiledevice-glue-e314faac7850ebe9076b7cf5807f87ae6bd122fa.tar.gz) = c07923ba36af77f05377f3e8f1a73d63ad8d9a5638dde176a7aedcbefe47d465
+RWToVVsIkzFIZQXYufHwed3ZA1e85uRFk7N+Falt6Cr16FgBZfjyWzCtmwtXqvVA/8CdzrSblzzga/KABIFG1z7WVJ78AahLZwI=
+SHA256 (Pkgfile) = 481bf502693f697d776d2685b8d8c8a7bac611af0dbe55ec89eb66e5fb2e19f0
+SHA256 (.footprint) = c51c7e59a55705f40e344230fb535d4a27e4dd11edccf806ff3356ea24b2722e
+SHA256 (libimobiledevice-glue-fde8946a3988790fd5d3f01fc0a1fd43609ab1d1.tar.gz) = a0b78f08937b3a70b96975cd43de11be1e69895f7c8b2cd9bc4de89872547673

@@ -4,14 +4,14 @@
 # Depends on: libplist
 
 name=libimobiledevice-glue
-version=e314faa
-release=1
-source=(https://github.com/libimobiledevice/$name/archive/$version/$name-e314faac7850ebe9076b7cf5807f87ae6bd122fa.tar.gz)
+version=fde8946
+release=2
+source=(https://github.com/libimobiledevice/$name/archive/$version/$name-fde8946a3988790fd5d3f01fc0a1fd43609ab1d1.tar.gz)
 
 build() {
 	cd $name-${version}*
 	
-	echo "1.0.0" > .tarball-version
+	echo "1.2.0" > .tarball-version
 	./autogen.sh --prefix=/usr
 	make
 	make DESTDIR=$PKG install
