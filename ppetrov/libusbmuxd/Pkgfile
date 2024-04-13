@@ -4,9 +4,9 @@
 # Depends on: libimobiledevice-glue
 
 name=libusbmuxd
-version=30e678d
+version=032bc1f
 release=1
-source=(https://github.com/libimobiledevice/$name/archive/$version/$name-30e678d4e76a9f4f8a550c34457dab73909bdd92.tar.gz)
+source=(https://github.com/libimobiledevice/$name/archive/$version/$name-032bc1f61ddb452c6bc53a8e86bc184240ca30cc.tar.gz)
 
 build() {
 	cd $name-${version}*
