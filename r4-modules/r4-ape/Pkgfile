@@ -5,9 +5,9 @@
 # Optional: r4-expm r4-gee r4-igraph r4-phangorn
 
 name=r4-ape
-version=5.7.1
+version=5.8
 release=1
-source=(https://cloud.r-project.org/src/contrib/ape_5.7-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/ape_${version}.tar.gz)
 
 build() {
 	cd ape

@@ -157,6 +157,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/html/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/po/
+drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/po/ca/
+drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/po/ca/LC_MESSAGES/
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/po/ca/LC_MESSAGES/R-pkgdown.mo
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/po/de/
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/po/de/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/po/de/LC_MESSAGES/R-pkgdown.mo

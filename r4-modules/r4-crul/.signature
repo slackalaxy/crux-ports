@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89OeWc/W9fFwFLw6TNwQ8jCC9xiewomeMrfgQGrwiCWjmaZQVVCDRJzYuymZqOY/p7WqAaf+ujZNKPPfi3rQyqAc=
-SHA256 (Pkgfile) = b4619d58957c476cc55d50bfa29244cfc32a58ebf75e34d2419239dc42aae9d2
+RWQ2oTreAss89IlUh7E1tESGG6T7LZ2/FsaKDrfk4aDbXC7p146S9TqlSd3z2nv+lwRHe6jlKGWvLyxaiN9yKgeSZ0wcPw4bgwE=
+SHA256 (Pkgfile) = cb51303f1d813d16f6d94cc3ad3d7ae2aa4b2eb2c362b95d0cdd612251afb6f6
 SHA256 (.footprint) = 6f7ae69bba2207816dd6c2f48a14956016d372250da991b0b3dbcfc59be9105e
-SHA256 (crul_1.4.0.tar.gz) = 8e50415e415702402473caf622d86b89ddc881f6e5d888079a4818a8807ac9a2
+SHA256 (crul_1.4.2.tar.gz) = 405c77f191f30ffdbf8c05542ff5dff61059e9c731d2dc5ff0bfccb616314147
