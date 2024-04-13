@@ -4,9 +4,9 @@
 # Depends on: libusbmuxd
 
 name=libimobiledevice
-version=04c0233
+version=3969bc9
 release=1
-source=(https://github.com/libimobiledevice/$name/archive/$version/$name-04c023317f616b4b9588cce8c2da3174a7d2086b.tar.gz)
+source=(https://github.com/libimobiledevice/$name/archive/$version/$name-3969bc93e05e0f1f50175cd99b8ecabfd0ba6009.tar.gz)
 
 build() {
 	cd $name-${version}*
