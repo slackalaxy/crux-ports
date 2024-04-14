@@ -1,11 +1,11 @@
-# Description:	Tk - a Graphical User Interface Toolkit
-# URL:		http://search.cpan.org/~srezic/Tk/
+# Description: Tk - a Graphical User Interface Toolkit
+# URL: http://search.cpan.org/~srezic/Tk/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl tk
 
 name=p5-tk
 version=804.036
-release=2
+release=3
 source=(http://search.cpan.org/CPAN/authors/id/S/SR/SREZIC/Tk-${version}.tar.gz)
 
 build() {
