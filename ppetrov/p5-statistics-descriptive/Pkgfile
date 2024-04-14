@@ -1,10 +1,10 @@
-# Description:	Module of basic descriptive statistical functions.
-# URL:		http://metacpan.org/release/Statistics-Descriptive
+# Description: Module of basic descriptive statistical functions.
+# URL: http://metacpan.org/release/Statistics-Descriptive
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-list-moreutils p5-module-build
+# Depends on: p5-list-moreutils p5-module-build
 
 name=p5-statistics-descriptive
-version=3.0800
+version=3.0801
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/S/SH/SHLOMIF/Statistics-Descriptive-${version}.tar.gz)
 
