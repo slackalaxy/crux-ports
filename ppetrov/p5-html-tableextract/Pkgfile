@@ -1,7 +1,7 @@
 # Description: HTML::TableExtract
 # URL: http://search.cpan.org/~msisk/HTML-TableExtract/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p5-html-element-extended p5-html-parser
+# Depends on: p5-html-element-extended
 
 name=p5-html-tableextract
 version=2.15

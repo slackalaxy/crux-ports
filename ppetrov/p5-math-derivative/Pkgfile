@@ -1,7 +1,7 @@
 # Description: Numeric 1st and 2nd order differentiation.
 # URL: http://search.cpan.org/~jgamble/Math-Derivative/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p5-math-utils p5-module-build
+# Depends on: p5-math-utils
 
 name=p5-math-derivative
 version=1.01

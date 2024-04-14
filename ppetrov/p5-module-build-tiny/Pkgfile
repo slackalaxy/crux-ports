@@ -1,7 +1,7 @@
 # Description: A tiny replacement for Module::Build
 # URL: http://search.cpan.org/~leont/Module-Build-Tiny/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p5-extutils-config p5-extutils-helpers p5-extutils-installpaths
+# Depends on: p5-extutils-helpers p5-extutils-installpaths
 
 name=p5-module-build-tiny
 version=0.047
