@@ -1,11 +1,11 @@
-# Description:	Basic utilities for writing tests.
-# URL:		http://search.cpan.org/~exodist/Test-Simple/
+# Description: Basic utilities for writing tests.
+# URL: http://search.cpan.org/~exodist/Test-Simple/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
-# Optional:	p5-module-pluggable
+# Depends on: perl
+# Optional: p5-module-pluggable
 
 name=p5-test-simple
-version=1.302191
+version=1.302198
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/E/EX/EXODIST/Test-Simple-${version}.tar.gz)
 
