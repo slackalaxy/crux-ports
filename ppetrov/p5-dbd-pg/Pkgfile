@@ -1,11 +1,11 @@
-# Description:	DBI PostgreSQL interface
-# URL:		http://search.cpan.org/dist/DBD-Pg/
+# Description: DBI PostgreSQL interface
+# URL: http://search.cpan.org/dist/DBD-Pg/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-dbi postgresql
-# Optional:	p5-module-signature
+# Depends on: p5-dbi postgresql
+# Optional: p5-module-signature
 
 name=p5-dbd-pg
-version=3.16.0
+version=3.18.0
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/T/TU/TURNSTEP/DBD-Pg-${version}.tar.gz)
 
