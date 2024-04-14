@@ -1,10 +1,10 @@
-# Description:	Read and write OLE storage files.
-# URL:		http://search.cpan.org/~jmcnamara/OLE-Storage_Lite/
+# Description: Read and write OLE storage files.
+# URL: http://search.cpan.org/~jmcnamara/OLE-Storage_Lite/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-ole-storage_lite
-version=0.20
+version=0.22
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/J/JM/JMCNAMARA/OLE-Storage_Lite-${version}.tar.gz)
 
