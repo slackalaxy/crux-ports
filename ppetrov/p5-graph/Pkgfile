@@ -1,10 +1,10 @@
-# Description:	Graph
-# URL:		http://search.cpan.org/~etj/Graph/
+# Description: Graph
+# URL: http://search.cpan.org/~etj/Graph/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-heap p5-set-object
+# Depends on: p5-heap p5-set-object
 
 name=p5-graph
-version=0.9725
+version=0.9727
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/E/ET/ETJ/Graph-${version}.tar.gz)
 
