@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZcdjrD1ce8Ve9NLsmxyBXfWPFdJP9wdrRGoLCtGirnfhxfyv7UcC0q+dNmmYweVe41eazZ25GJXjUNkWhAsJws=
-SHA256 (Pkgfile) = a69da24192eeaf60e145f4b6da220d7dd0b882e4dd7190fc99ac46f76920b7df
+RWToVVsIkzFIZY0uglW+wSV1/CvVFveiS+TujPgExSVg3VgCB2s2jWyS431p1NGBPEFR6z6nQVstmebJkcBbzvSlkGQrqr36KQs=
+SHA256 (Pkgfile) = d79e9f711ff99bb1313ff25a2ea147eca88543b31d1a4d897683b630c724c97a
 SHA256 (.footprint) = f567c262a0225fab1b959ed65e2b226436465674989d5dfd088b94906fb6e9c9
-SHA256 (Class-Method-Modifiers-2.14.tar.gz) = 3704ee6e75434f2a48e565a9c418e1593d611105ac6d658227549c6ba260cd1d
+SHA256 (Class-Method-Modifiers-2.15.tar.gz) = 65cd85bfe475d066e9186f7a8cc636070985b30b0ebb1cde8681cf062c2e15fc
