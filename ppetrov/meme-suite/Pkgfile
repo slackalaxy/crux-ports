@@ -1,7 +1,7 @@
 # Description: Motif-based sequence analysis tools
 # URL: https://meme-suite.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: libxslt meme-db-gomo meme-db-motif meme-db-tgene openmpi p5-html-template p5-json xorg-libpciaccess
+# Depends on: libxslt meme-db-gomo meme-db-motif meme-db-tgene openmpi p5-html-template p5-json
 
 name=meme-suite
 version=5.5.5

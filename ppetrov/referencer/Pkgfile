@@ -1,7 +1,7 @@
 # Description: Organize documents or references
 # URL: https://launchpad.net/referencer
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boost libgnomeuimm libpsl libwebp openldap glib rarian rtmpdump
+# Depends on: boost libgnomeuimm libpsl libwebp openldap rarian rtmpdump
 
 name=referencer
 version=1.2.2

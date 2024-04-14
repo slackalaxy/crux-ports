@@ -1,7 +1,7 @@
 # Description: Spice GTK client and libraries
 # URL: https://www.spice-space.org
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cyrus-sasl graphite2 gst-plugins-base gtk3 json-glib libva polkit xorg-libxcomposite xorg-libxcursor xorg-libxinerama spice
+# Depends on: graphite2 gtk3 json-glib libva polkit spice xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=spice-gtk
 version=0.41

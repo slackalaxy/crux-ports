@@ -1,7 +1,7 @@
 # Description: A classic 2D jump'n run sidescroller game
 # URL: https://www.supertux.org
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boost brotli freetype glew glm glu libpsl libvorbis openal openldap rtmpdump sdl2_image
+# Depends on: boost brotli freetype glew glm libpsl libvorbis openal openldap rtmpdump sdl2_image
 
 name=supertux
 version=0.6.3

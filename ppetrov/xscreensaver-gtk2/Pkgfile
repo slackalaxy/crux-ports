@@ -1,7 +1,7 @@
 # Description: XScreenSaver patched to work with electricsheep and rss-glx
 # URL: https://www.jwz.org/xscreensaver/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: bc electricsheep gdk-pixbuf-xlib linux-pam xorg-libxi xorg-libxmu
+# Depends on: bc electricsheep gdk-pixbuf-xlib xorg-libxmu
 
 name=xscreensaver-gtk2
 version=6.04

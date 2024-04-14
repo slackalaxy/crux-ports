@@ -1,7 +1,7 @@
 # Description: GNOME icon theme symbolic
 # URL: https://download.gnome.org/sources/gnome-icon-theme-symbolic
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: intltool icon-naming-utils hicolor-icon-theme gnome-icon-theme
+# Depends on: gnome-icon-theme hicolor-icon-theme
 
 name=gnome-icon-theme-symbolic
 version=3.12.0

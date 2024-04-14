@@ -1,7 +1,7 @@
 # Description: PolicyKit API with a Qt-style API
 # URL: https://www.kde.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli double-conversion graphite2 icu libpcre2 polkit qt5
+# Depends on: brotli double-conversion graphite2 icu polkit qt5
 
 name=polkit-qt5
 version=0.112.0

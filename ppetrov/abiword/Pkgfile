@@ -1,7 +1,7 @@
 # Description: A lightweight and featureful Word Processor
 # URL: http://www.abisource.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boost dbus-glib libgcrypt libgsf librsvg libxslt wv libxml210
+# Depends on: boost dbus-glib libgcrypt librsvg libxslt wv
 
 name=abiword
 version=3.0.5

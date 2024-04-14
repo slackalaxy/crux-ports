@@ -1,7 +1,7 @@
 # Description: ClustalW frontend for X11
 # URL: http://www.clustal.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli double-conversion graphite2 icu libpcre2 qt5
+# Depends on: brotli double-conversion graphite2 icu qt5
 
 name=clustalx
 version=2.1

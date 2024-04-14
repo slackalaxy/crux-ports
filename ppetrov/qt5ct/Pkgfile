@@ -1,7 +1,7 @@
 # Description: Qt5 Configuration Utility
 # URL: https://github.com/desktop-app/qt5ct
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: libpcre2 qt5
+# Depends on: qt5
 
 name=qt5ct
 version=1.8

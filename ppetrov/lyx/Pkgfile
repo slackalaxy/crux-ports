@@ -1,7 +1,7 @@
 # Description: document processor
 # URL: http://www.lyx.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: texlive qt5 python imagemagick ghostscript
+# Depends on: imagemagick python qt5 texlive
 # Optional: aspell-en enchant
 
 name=lyx

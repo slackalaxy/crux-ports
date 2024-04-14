@@ -1,7 +1,7 @@
 # Description: Molecular Evolutionary Genetics Analysis
 # URL: http://www.megasoftware.net/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gconf gtk libgpg-error nss xorg-libxdamage xorg-libxscrnsaver xorg-libxtst
+# Depends on: gconf gtk libgpg-error nss xorg-libxdamage xorg-libxscrnsaver
 
 name=mega
 version=11.0.13

@@ -1,7 +1,7 @@
 # Description: Viber for PC
 # URL: https://viber.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cups ffmpeg gst-plugins-bad gtk3 krb5 libevent libidn2 libmng libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy tslib xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsaver xorg-xcb-util
+# Depends on: cups gst-plugins-bad gtk3 krb5 libevent libidn2 libmng libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy tslib xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsaver
 
 name=viber
 version=current

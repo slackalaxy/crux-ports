@@ -1,7 +1,7 @@
 # Description: Open Babel 3D Library
 # URL: http://openbabel.sourceforge.net
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc5 jdk8-bin boost cairo eigen3 libxml2
+# Depends on: boost eigen3 gcc5 jdk8-bin
 
 name=openbabel
 version=2.4.1

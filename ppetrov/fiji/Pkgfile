@@ -1,7 +1,7 @@
 # Description: Fiji is Just ImageJ, with extras
 # URL: https://fiji.sc/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: jdk8-bin gtk libglvnd xorg-libxdamage xorg-libxxf86vm
+# Depends on: jdk8-bin libglvnd xorg-libxdamage xorg-libxxf86vm
 
 name=fiji
 version=20240318_1717

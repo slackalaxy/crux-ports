@@ -1,7 +1,7 @@
 # Description: Apache OpenOffice
 # URL: https://www.openoffice.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gconf gdk-pixbuf-xlib gtk python glu gst0-plugins-base jdk8-bin orbit2 gnome-vfs db43
+# Depends on: gdk-pixbuf-xlib python glu gst0-plugins-base jdk8-bin gnome-vfs db43
 
 name=openoffice
 version=4.1.15

@@ -1,7 +1,7 @@
 # Description: VNC server or client libraries
 # URL: https://libvnc.github.io/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli cyrus-sasl gnutls libgcrypt libjpeg-turbo libpng p11-kit
+# Depends on: brotli cyrus-sasl gnutls libgcrypt libjpeg-turbo libpng
 
 name=libvncserver
 version=0.9.14

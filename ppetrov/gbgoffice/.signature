@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbmCITfnUQuL0gt/r9hlODrlcvFVjtXD3xyhqJwHtI2JPr9FlSzyMgJfZ6Wbx36aFmpBS/BEkHeAb3P3o3reMgA=
-SHA256 (Pkgfile) = 92736e621baf691f0b595975fdb50804ab99ab1f9982669edc3963989901804b
+RWToVVsIkzFIZZsF3zrSB3Cx/rcOy0vkRjFGYT1uTMtf185WH5zQ+v0vhYj2eMif2HnJF0IPzndKVSdrLWXDNq3uKz2pi72mYAU=
+SHA256 (Pkgfile) = d8bdb8d64f247b61f36ae66d1d89821d65f7b27210ab97d1237d7da115eefd83
 SHA256 (.footprint) = e4ec51c6cba57c27f8ff00a87fefa1ba988bcccccc9095b08262ac1297eef524
 SHA256 (gbgoffice_1.4.orig.tar.gz) = e4459bdde092eefb8bf84d9a915fcf07760d51c36ded3b74f280c614e0ae3561
 SHA256 (03_multidir.patch) = ae1e026d98ff7bf6d4cb42f7af757b934c61da7ff4451dc6fb713f1b7fbe76c3

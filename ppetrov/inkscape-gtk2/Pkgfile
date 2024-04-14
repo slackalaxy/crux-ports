@@ -1,7 +1,7 @@
 # Description: Inkscape SVG ediror last GTK2 version
 # URL: https://inkscape.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boehm-gc boost graphite2 gsl gtkmm libpsl libwebp libxml210 openldap poppler21 poppler21-glib popt potrace python-lxml python3-lxml python3-numpy rtmpdump
+# Depends on: boehm-gc boost graphite2 gsl gtkmm libpsl libwebp libxml210 openldap poppler21-glib popt potrace python-lxml python3-lxml python3-numpy rtmpdump
 # Optional: python-uniconvertor
 
 name=inkscape-gtk2

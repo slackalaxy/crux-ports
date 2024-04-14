@@ -1,7 +1,7 @@
 # Description: X-CD-Roast is a flexible frontend for optical disc authoring
 # URL: http://www.xcdroast.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: alsa-lib cdrtools graphite2 gtk xorg-libxdamage
+# Depends on: cdrtools graphite2 gtk xorg-libxdamage
 
 name=xcdroast
 version=1.19

@@ -1,7 +1,7 @@
 # Description: A collaborative abstract artwork
 # URL: https://electricsheep.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli graphite2 libglade mplayer flam3
+# Depends on: graphite2 libglade mplayer flam3
 
 name=electricsheep
 version=20090306

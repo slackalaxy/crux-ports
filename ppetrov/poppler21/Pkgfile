@@ -1,7 +1,7 @@
 # Description: Compatibility poppler for inkscape 0.92.5
 # URL: https://poppler.freedesktop.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cmake cairo lcms2
+# Depends on: cairo lcms2
 
 name=poppler21
 version=21.11.0

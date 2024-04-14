@@ -1,7 +1,7 @@
 # Description: The core library of LXQt
 # URL: https://github.com/lxqt/liblxqt
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: libqtxdg lxqt-build-tools xorg-libxscrnsaver kwindowsystem
+# Depends on: libqtxdg xorg-libxscrnsaver kwindowsystem
 
 name=liblxqt
 version=1.4.0

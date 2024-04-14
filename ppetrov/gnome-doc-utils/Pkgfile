@@ -1,7 +1,7 @@
 # Description: GNOME doc utilities
 # URL: https://download.gnome.org/sources/gnome-doc-utils/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: libxml2 libxslt intltool
+# Depends on: libxslt intltool
 
 name=gnome-doc-utils
 version=0.20.10

@@ -1,5 +1,5 @@
-# Description:	Perl modules for biology
-# URL:		https://metacpan.org/release/BioPerl
+# Description: Perl modules for biology
+# URL: https://metacpan.org/release/BioPerl
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: p5-algorithm-munkres p5-array-compare p5-bio-phylo p5-cgi p5-clone p5-convert-binary-c p5-data-stag p5-dbd-mysql p5-dbd-pg p5-dbd-sqlite p5-error p5-gd p5-graph p5-graphviz p5-html-tableextract p5-http-message p5-libxml-perl p5-postscript p5-set-scalar p5-soap-lite p5-sort-naturally p5-spreadsheet-parseexcel p5-svg-graph p5-test-most p5-test-simple p5-xml-dom-xpath p5-xml-sax-writer p5-yaml
 # Optional: p5-bio-asn1-entrezgene p5-bio-cluster p5-bio-variation

@@ -1,7 +1,7 @@
 # Description: Bgoffice dictionary frontend
 # URL: http://gbgoffice.info/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: atkmm gtkmm
+# Depends on: gtkmm
 
 name=gbgoffice
 version=1.4

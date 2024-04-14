@@ -1,7 +1,7 @@
 # Description: PavuControl port to QT5
 # URL: https://github.com/lxqt/pavucontrol-qt/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli double-conversion graphite2 icu libpcre2 pulseaudio qt5 polkit-qt5 liblxqt
+# Depends on: liblxqt polkit-qt5 pulseaudio
 
 name=pavucontrol-qt
 version=1.4.0

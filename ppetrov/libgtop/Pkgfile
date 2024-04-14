@@ -1,7 +1,7 @@
 # Description: A library to get system-specific data
 # URL: https://download.gnome.org/sources/libgtop/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: glib gobject-introspection
+# Depends on: gobject-introspection
 
 name=libgtop
 version=2.40.0

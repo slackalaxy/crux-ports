@@ -1,7 +1,7 @@
 # Description: WPS Office for Linux
 # URL: https://linux.wps.com/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: double-conversion gtk libelogind libpcre2 libsdl2 libtiff44 nss qt4 qt5 xorg-libxscrnsaver xorg-libxtst
+# Depends on: double-conversion gtk libelogind libsdl2 libtiff44 nss qt4 qt5 xorg-libxscrnsave
 
 name=wps-office
 version=11.1.0.11698.XA

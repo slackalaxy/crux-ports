@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZoBRV95ddSdx8OFvNMtJoZeJr1jpFAtEpbCFrNxK2zFbM/VDvn3NdG3xhly82zLwM4gUsY1M4OjMoazD5vxoQw=
-SHA256 (Pkgfile) = be7eba313685c395c1893e79bd84a574db484597149cbe24a7f86a22167e0073
+RWToVVsIkzFIZUSUgVvIxeAX52ErEnWRwIB67Uf22FOJ9MGKiUEAuiA00Z4zkmywNQqwoobJkIDvl/JVd5HH4iVtbQ4cJ6T46As=
+SHA256 (Pkgfile) = bddb6155385fe10d5baf9a9986fbc45c36f367766dab86517dd43162f27014d1
 SHA256 (.footprint) = e117ad6f771d5f32b188b489d789d5f82b387010d6099d3f230684143a63f972
 SHA256 (Apache_OpenOffice_4.1.15_Linux_x86-64_install-rpm_en-US.tar.gz) = 6cbfc129c0e908ed0cb6acfc6a112879f79a1b5e7f3fe476e835e71b81f61073
 SHA256 (openoffice.directory) = d4f062d66467e6355de4de39ece381d73a935740c552a7c9a29753ad85fb2381

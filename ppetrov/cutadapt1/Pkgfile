@@ -1,7 +1,7 @@
 # Description: Trim adapters from high-throughput sequencing reads
 # URL: https://pypi.python.org/pypi/cutadapt/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: python-setuptools xopen0
+# Depends on: xopen0
 
 name=cutadapt1
 version=1.14
