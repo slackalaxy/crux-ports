@@ -1,11 +1,11 @@
-# Description:	Perl interface to the gd2 graphics library
-# URL:		http://search.cpan.org/~rurban/GD/
+# Description: Perl interface to the gd2 graphics library
+# URL: http://search.cpan.org/~rurban/GD/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-extutils-pkgconfig libgd
-# Optional:	p5-class-xsaccessor p5-list-moreutils p5-pod-spell-commonmistakes p5-test-kwalitee p5-test-pod p5-text-csv_xs
+# Depends on: p5-extutils-pkgconfig libgd
+# Optional: p5-class-xsaccessor p5-list-moreutils p5-pod-spell-commonmistakes p5-test-kwalitee p5-test-pod p5-text-csv_xs
 
 name=p5-gd
-version=2.76
+version=2.78
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/R/RU/RURBAN/GD-${version}.tar.gz)
 
