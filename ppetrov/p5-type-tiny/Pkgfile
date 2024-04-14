@@ -1,11 +1,11 @@
-# Description:	Tiny, yet Moo(se)-compatible type constraint
-# URL:		https://typetiny.toby.ink/
+# Description: Tiny, yet Moo(se)-compatible type constraint
+# URL: https://metacpan.org/dist/Type-Tiny
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-exporter-tiny
-# Optional:	p5-devel-lexalias p5-devel-stacktrace p5-moo p5-moose p5-mouse p5-ref-util-xs p5-regexp-util p5-reply p5-type-tie p5-type-tiny-xs
+# Depends on: p5-exporter-tiny
+# Optional: p5-devel-lexalias p5-devel-stacktrace p5-moo p5-moose p5-mouse p5-ref-util-xs p5-regexp-util p5-reply p5-type-tie p5-type-tiny-xs
 
 name=p5-type-tiny
-version=2.002001
+version=2.004000
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Type-Tiny-${version}.tar.gz)
 

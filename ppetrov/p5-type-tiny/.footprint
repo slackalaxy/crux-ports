@@ -38,6 +38,7 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.36/Type/Params/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.36/Type/Tie.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.36/Type/Tiny.pm
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.36/Type/Tiny/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.36/Type/Tiny/Bitfield.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.36/Type/Tiny/Class.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.36/Type/Tiny/ConstrainedObject.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.36/Type/Tiny/Duck.pm
@@ -108,6 +109,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -r--r--r--	root/root	usr/share/man/man3/Type::Registry.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Type::Tie.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Type::Tiny.3pm.gz
+-r--r--r--	root/root	usr/share/man/man3/Type::Tiny::Bitfield.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Type::Tiny::Class.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Type::Tiny::ConstrainedObject.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Type::Tiny::Duck.3pm.gz
