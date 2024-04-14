@@ -1,10 +1,10 @@
-# Description:	Self Contained SQLite RDBMS in a DBI Driver
-# URL:		http://search.cpan.org/~ishigaki/DBD-SQLite/
+# Description: Self Contained SQLite RDBMS in a DBI Driver
+# URL: http://search.cpan.org/~ishigaki/DBD-SQLite/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-dbi
+# Depends on: p5-dbi
 
 name=p5-dbd-sqlite
-version=1.72
+version=1.74
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/DBD-SQLite-${version}.tar.gz)
 
