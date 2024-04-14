@@ -1,7 +1,7 @@
-# Description:	Math::Spline
-# URL:		http://search.cpan.org/~chorny/Math-Spline/
+# Description: Math::Spline
+# URL: http://search.cpan.org/~chorny/Math-Spline/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-math-derivative
+# Depends on: p5-math-derivative
 
 name=p5-math-spline
 version=0.02

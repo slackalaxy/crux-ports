@@ -1,7 +1,7 @@
-# Description:	SVG::Graph
-# URL:		http://search.cpan.org/~allenday/SVG-Graph/
+# Description: SVG::Graph
+# URL: http://search.cpan.org/~allenday/SVG-Graph/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-math-derivative p5-math-spline p5-statistics-descriptive p5-svg p5-tree-dag_node
+# Depends on: p5-math-derivative p5-math-spline p5-statistics-descriptive p5-svg p5-tree-dag_node
 
 name=p5-svg-graph
 version=0.02

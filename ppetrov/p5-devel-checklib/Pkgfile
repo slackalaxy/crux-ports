@@ -1,7 +1,7 @@
-# Description:	Check that a library is available
-# URL:		http://search.cpan.org/~mattn/Devel-CheckLib/
+# Description: Check that a library is available
+# URL: http://search.cpan.org/~mattn/Devel-CheckLib/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-devel-checklib
 version=1.16

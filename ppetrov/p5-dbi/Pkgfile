@@ -1,7 +1,7 @@
-# Description:	Database independent interface for Perl
-# URL:		https://metacpan.org/pod/DBI
+# Description: Database independent interface for Perl
+# URL: https://metacpan.org/pod/DBI
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-dbi
 version=1.643

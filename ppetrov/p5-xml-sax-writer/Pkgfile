@@ -1,7 +1,7 @@
-# Description:	SAX2 XML Writer
-# URL:		https://github.com/perigrin/xml-sax-writer
+# Description: SAX2 XML Writer
+# URL: https://github.com/perigrin/xml-sax-writer
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-xml-filter-buffertext p5-xml-namespacesupport p5-xml-sax-base
+# Depends on: p5-xml-filter-buffertext p5-xml-namespacesupport p5-xml-sax-base
 
 name=p5-xml-sax-writer
 version=0.57

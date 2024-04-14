@@ -1,7 +1,7 @@
-# Description:	A MySQL driver for the Perl5 Database Interface (DBI)
-# URL:		https://metacpan.org/pod/DBD::mysql
+# Description: A MySQL driver for the Perl5 Database Interface (DBI)
+# URL: https://metacpan.org/pod/DBD::mysql
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-dbi p5-devel-checklib mariadb
+# Depends on: p5-dbi p5-devel-checklib mariadb
 
 name=p5-dbd-mysql
 version=4.050

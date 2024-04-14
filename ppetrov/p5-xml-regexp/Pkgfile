@@ -1,7 +1,7 @@
-# Description:	XML::RegExp
-# URL:		http://search.cpan.org/~tjmather/XML-RegExp/
+# Description: XML::RegExp
+# URL: http://search.cpan.org/~tjmather/XML-RegExp/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-xml-regexp
 version=0.04

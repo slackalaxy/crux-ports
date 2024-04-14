@@ -1,7 +1,7 @@
-# Description:	Useful mathematical functions not in Perl
-# URL:		http://search.cpan.org/~jgamble/Math-Utils/
+# Description: Useful mathematical functions not in Perl
+# URL: http://search.cpan.org/~jgamble/Math-Utils/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-module-build
+# Depends on: p5-module-build
 
 name=p5-math-utils
 version=1.14

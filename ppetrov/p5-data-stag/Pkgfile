@@ -1,7 +1,7 @@
-# Description:	Structured Tags
-# URL:		http://search.cpan.org/~cmungall/Data-Stag/
+# Description: Structured Tags
+# URL: http://search.cpan.org/~cmungall/Data-Stag/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-io-string
+# Depends on: p5-io-string
 
 name=p5-data-stag
 version=0.14

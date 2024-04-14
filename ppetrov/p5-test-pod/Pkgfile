@@ -1,7 +1,7 @@
-# Description:	Check for POD errors in files
-# URL:		http://search.cpan.org/dist/Test-Pod/
-# Maintainer:	Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Description: Check for POD errors in files
+# URL: http://search.cpan.org/dist/Test-Pod/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: perl
 
 name=p5-test-pod
 version=1.52

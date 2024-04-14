@@ -1,7 +1,7 @@
-# Description:	Facility for creating read-only scalars, arrays, hashes
-# URL:		https://github.com/sanko/readonly
+# Description: Facility for creating read-only scalars, arrays, hashes
+# URL: https://github.com/sanko/readonly
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-module-build-tiny
+# Depends on: p5-module-build-tiny
 
 name=p5-readonly
 version=2.05

@@ -1,7 +1,7 @@
-# Description:	Interface to AT&T's GraphViz. Deprecated. See GraphViz2
-# URL:		http://search.cpan.org/~rsavage/GraphViz/
+# Description: Interface to AT&T's GraphViz. Deprecated. See GraphViz2
+# URL: http://search.cpan.org/~rsavage/GraphViz/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-file-which p5-ipc-run p5-libwww p5-parse-recdescent p5-xml-twig p5-xml-xpath graphviz
+# Depends on: p5-file-which p5-ipc-run p5-libwww p5-parse-recdescent p5-xml-twig p5-xml-xpath graphviz
 
 name=p5-graphviz
 version=2.25

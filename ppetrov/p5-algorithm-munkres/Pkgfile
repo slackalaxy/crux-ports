@@ -1,7 +1,7 @@
-# Description:	Munkres.pm
-# URL:		http://search.cpan.org/~tpederse/Algorithm-Munkres/
+# Description: Munkres.pm
+# URL: http://search.cpan.org/~tpederse/Algorithm-Munkres/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-algorithm-munkres
 version=0.08

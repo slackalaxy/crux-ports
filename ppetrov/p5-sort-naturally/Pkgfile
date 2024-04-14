@@ -1,7 +1,7 @@
-# Description:	Sort lexically, but sort numeral parts numerically
-# URL:		http://search.cpan.org/~bingos/Sort-Naturally/
+# Description: Sort lexically, but sort numeral parts numerically
+# URL: http://search.cpan.org/~bingos/Sort-Naturally/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-sort-naturally
 version=1.03

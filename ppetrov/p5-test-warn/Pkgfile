@@ -1,7 +1,7 @@
-# Description:	Perl extension to test methods for warnings
-# URL:		http://search.cpan.org/~bigj/Test-Warn/
+# Description: Perl extension to test methods for warnings
+# URL: http://search.cpan.org/~bigj/Test-Warn/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-sub-uplevel
+# Depends on: p5-sub-uplevel
 
 name=p5-test-warn
 version=0.37

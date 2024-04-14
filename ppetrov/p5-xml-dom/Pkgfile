@@ -1,7 +1,7 @@
-# Description:	XML::DOM
-# URL:		http://search.cpan.org/~tjmather/XML-DOM/
+# Description: XML::DOM
+# URL: http://search.cpan.org/~tjmather/XML-DOM/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-libwww p5-xml-libxml p5-xml-parser p5-xml-regexp
+# Depends on: p5-libwww p5-xml-libxml p5-xml-parser p5-xml-regexp
 
 name=p5-xml-dom
 version=1.46

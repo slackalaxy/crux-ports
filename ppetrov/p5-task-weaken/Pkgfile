@@ -1,7 +1,7 @@
-# Description:	Ensure that a platform has weaken support
-# URL:		https://github.com/karenetheridge/Task-Weaken
+# Description: Ensure that a platform has weaken support
+# URL: https://github.com/karenetheridge/Task-Weaken
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-task-weaken
 version=1.06

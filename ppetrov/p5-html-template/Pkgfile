@@ -1,7 +1,7 @@
-# Description:	Perl module to use HTML-like templating language
-# URL:		http://search.cpan.org/~samtregar/HTML-Template/
-# Maintainer:	Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-cgi p5-test-pod
+# Description: Perl module to use HTML-like templating language
+# URL: http://search.cpan.org/~samtregar/HTML-Template/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p5-cgi p5-test-pod
 
 name=p5-html-template
 version=2.97

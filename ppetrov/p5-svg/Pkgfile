@@ -1,7 +1,7 @@
-# Description:	Perl extension for generating Scalable Vector Graphics (SVG) documents.
-# URL:		http://search.cpan.org/~manwar/SVG/
+# Description: Perl extension for generating Scalable Vector Graphics (SVG) documents.
+# URL: http://search.cpan.org/~manwar/SVG/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-svg
 version=2.87

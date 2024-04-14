@@ -1,7 +1,7 @@
-# Description:	Test::Most
-# URL:		http://search.cpan.org/~ovid/Test-Most/
+# Description: Test::Most
+# URL: http://search.cpan.org/~ovid/Test-Most/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-exception-class p5-test-deep p5-test-differences p5-test-exception p5-test-warn
+# Depends on: p5-exception-class p5-test-deep p5-test-differences p5-test-exception p5-test-warn
 
 name=p5-test-most
 version=0.38

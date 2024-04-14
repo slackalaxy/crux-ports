@@ -1,7 +1,7 @@
-# Description:	Supporting module for SOAP::Lite
-# URL:		http://search.cpan.org/~phred/IO-SessionData/
+# Description: Supporting module for SOAP::Lite
+# URL: http://search.cpan.org/~phred/IO-SessionData/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-io-sessiondata
 version=1.03

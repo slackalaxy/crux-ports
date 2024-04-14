@@ -1,7 +1,7 @@
-# Description:	A re-usable XPath engine for DOM-like trees
-# URL:		http://search.cpan.org/~mirod/XML-XPathEngine/
+# Description: A re-usable XPath engine for DOM-like trees
+# URL: http://search.cpan.org/~mirod/XML-XPathEngine/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-xml-xpathengine
 version=0.14

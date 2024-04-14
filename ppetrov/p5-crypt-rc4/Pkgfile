@@ -1,7 +1,7 @@
-# Description:	Crypt::RC4
-# URL:		http://search.cpan.org/~sifukurt/Crypt-RC4/
+# Description: Crypt::RC4
+# URL: http://search.cpan.org/~sifukurt/Crypt-RC4/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-crypt-rc4
 version=2.02

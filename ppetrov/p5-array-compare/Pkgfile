@@ -1,7 +1,7 @@
-# Description:	Perl extension for comparing arrays.
-# URL:		http://search.cpan.org/~davecross/Array-Compare/
+# Description: Perl extension for comparing arrays.
+# URL: http://search.cpan.org/~davecross/Array-Compare/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-module-build p5-moo p5-test-nowarnings p5-type-tiny
+# Depends on: p5-module-build p5-moo p5-test-nowarnings p5-type-tiny
 
 name=p5-array-compare
 version=3.0.8

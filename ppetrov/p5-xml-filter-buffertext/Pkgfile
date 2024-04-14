@@ -1,7 +1,7 @@
-# Description:	XML::Filter::BufferText
-# URL:		http://search.cpan.org/~rberjon/XML-Filter-BufferText/
+# Description: XML::Filter::BufferText
+# URL: http://search.cpan.org/~rberjon/XML-Filter-BufferText/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-xml-filter-buffertext
 version=1.01

@@ -1,7 +1,7 @@
-# Description:	Unordered collections (sets) of Perl Objects
-# URL:		http://search.cpan.org/~rurban/Set-Object/
+# Description: Unordered collections (sets) of Perl Objects
+# URL: http://search.cpan.org/~rurban/Set-Object/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-set-object
 version=1.42

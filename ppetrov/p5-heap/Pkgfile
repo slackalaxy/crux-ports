@@ -1,7 +1,7 @@
-# Description:	Heap
-# URL:		http://search.cpan.org/~jmm/Heap/
+# Description: Heap
+# URL: http://search.cpan.org/~jmm/Heap/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-heap
 version=0.80

@@ -1,7 +1,7 @@
-# Description:	Error/exception handling in an OO-ish way
-# URL:		http://metacpan.org/release/Error
+# Description: Error/exception handling in an OO-ish way
+# URL: http://metacpan.org/release/Error
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-module-build
+# Depends on: p5-module-build
 
 name=p5-error
 version=0.17029

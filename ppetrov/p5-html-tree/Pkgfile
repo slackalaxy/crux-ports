@@ -1,8 +1,8 @@
-# Description:	Work with HTML in a DOM-like tree structure
-# URL:		http://search.cpan.org/~kentnl/HTML-Tree/
+# Description: Work with HTML in a DOM-like tree structure
+# URL: http://search.cpan.org/~kentnl/HTML-Tree/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-html-parser p5-html-tagset p5-module-build
-# Optional:	p5-html-formatter p5-libwww-perl
+# Depends on: p5-html-parser p5-html-tagset p5-module-build
+# Optional: p5-html-formatter p5-libwww-perl
 
 name=p5-html-tree
 version=5.07

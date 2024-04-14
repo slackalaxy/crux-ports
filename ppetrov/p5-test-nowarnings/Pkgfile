@@ -1,7 +1,7 @@
-# Description:	Make sure you didn't emit any warnings while testing
-# URL:		http://search.cpan.org/~adamk/Test-NoWarnings/
+# Description: Make sure you didn't emit any warnings while testing
+# URL: http://search.cpan.org/~adamk/Test-NoWarnings/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-test-nowarnings
 version=1.04

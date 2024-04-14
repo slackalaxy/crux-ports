@@ -1,7 +1,7 @@
-# Description:	Build.PL install path logic made easy
-# URL:		http://search.cpan.org/~leont/ExtUtils-InstallPaths/
+# Description: Build.PL install path logic made easy
+# URL: http://search.cpan.org/~leont/ExtUtils-InstallPaths/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-extutils-config
+# Depends on: p5-extutils-config
 
 name=p5-extutils-installpaths
 version=0.012

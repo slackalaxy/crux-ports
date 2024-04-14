@@ -1,7 +1,7 @@
-# Description:	Read information from an Excel file.
-# URL:		http://github.com/runrig/spreadsheet-parseexcel/
+# Description: Read information from an Excel file.
+# URL: http://github.com/runrig/spreadsheet-parseexcel/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-crypt-rc4 p5-digest-perl-md5 p5-io-stringy p5-ole-storage_lite
+# Depends on: p5-crypt-rc4 p5-digest-perl-md5 p5-io-stringy p5-ole-storage_lite
 
 name=p5-spreadsheet-parseexcel
 version=0.65

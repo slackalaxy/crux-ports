@@ -1,8 +1,8 @@
-# Description:	Minimalist Object Orientation (with Moose compatibility)
-# URL:		http://search.cpan.org/~haarg/Moo/
+# Description: Minimalist Object Orientation (with Moose compatibility)
+# URL: http://search.cpan.org/~haarg/Moo/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-class-method-modifiers p5-role-tiny p5-sub-quote
-# Optional:	p5-class-xsaccessor
+# Depends on: p5-class-method-modifiers p5-role-tiny p5-sub-quote
+# Optional: p5-class-xsaccessor
 
 name=p5-moo
 version=2.005005

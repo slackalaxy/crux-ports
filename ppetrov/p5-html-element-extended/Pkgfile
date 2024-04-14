@@ -1,7 +1,7 @@
-# Description:	HTML::Element::Extended
-# URL:		http://search.cpan.org/~msisk/HTML-Element-Extended/
+# Description: HTML::Element::Extended
+# URL: http://search.cpan.org/~msisk/HTML-Element-Extended/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	p5-html-tree
+# Depends on: p5-html-tree
 
 name=p5-html-element-extended
 version=1.18

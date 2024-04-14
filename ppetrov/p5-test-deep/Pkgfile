@@ -1,7 +1,7 @@
-# Description:	Test::Deep
-# URL:		https://metacpan.org/pod/Test::Deep
+# Description: Test::Deep
+# URL: https://metacpan.org/pod/Test::Deep
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-test-deep
 version=1.204

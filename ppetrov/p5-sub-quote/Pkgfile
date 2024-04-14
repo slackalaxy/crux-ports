@@ -1,8 +1,8 @@
-# Description:	Efficient generation of subroutines via string eval
-# URL:		http://search.cpan.org/~haarg/Sub-Quote/
+# Description: Efficient generation of subroutines via string eval
+# URL: http://search.cpan.org/~haarg/Sub-Quote/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
-# Optional:	p5-sub-name
+# Depends on: perl
+# Optional: p5-sub-name
 
 name=p5-sub-quote
 version=2.006008

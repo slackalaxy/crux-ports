@@ -1,7 +1,7 @@
-# Description:	PostScript
-# URL:		http://search.cpan.org/~shawnpw/PostScript/
+# Description: PostScript
+# URL: http://search.cpan.org/~shawnpw/PostScript/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:	perl
+# Depends on: perl
 
 name=p5-postscript
 version=0.06
