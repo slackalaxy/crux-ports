@@ -877,8 +877,14 @@ drwxr-xr-x	root/root	usr/lib/ugene/data/primer3/
 -rw-rw-r--	root/root	usr/lib/ugene/data/primer3/drosophila.w.transposons.txt
 -rw-rw-r--	root/root	usr/lib/ugene/data/primer3/humrep_and_simple.txt
 drwxr-xr-x	root/root	usr/lib/ugene/data/primer3/presets/
+-rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/Annealing Temp.txt
+-rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/Cloning Primers.txt
 -rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/Default.txt
--rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/RPA.txt
+-rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/Default2.txt
+-rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/Probe.txt
+-rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/Recombinase Polymerase Amplification.txt
+-rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/Secondary Structures.txt
+-rw-rw-r--	root/root	usr/lib/ugene/data/primer3/presets/qPCR.txt
 -rw-rw-r--	root/root	usr/lib/ugene/data/primer3/rodent_ref.txt
 -rw-rw-r--	root/root	usr/lib/ugene/data/primer3/rodrep_and_simple.txt
 drwxr-xr-x	root/root	usr/lib/ugene/data/query_samples/
