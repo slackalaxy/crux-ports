@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQEDiheyezLlWbb09NCqPnXTyK+CTDfQ1LYPHTfaR7Jbr5GtqotyQpeGeSICZvmiE18IQIViIOPj1o+sHWP0/go=
-SHA256 (Pkgfile) = 570738303506ca3ea28b9d75c4683ecf3eea574da40075f6408e45253c03bc28
+RWToVVsIkzFIZRsCBxoahc3zRaniKstOI5whurErjngs7AjrGjHFLWO1MUxSrh8rFNKP//C3IBfX6OC1YFEEBzzqO2EJ/Qz1dgU=
+SHA256 (Pkgfile) = 4ee32a54d998ad4d7c532644f3de06c87ccd2e34e358657c019a0ea54e0de2e5
 SHA256 (.footprint) = 23bf1337c449e0a51f3e3b6fb7ddb5e0463911a622c0d2e9e5f1df6251573b71
-SHA256 (OpenJDK8U-jdk_x64_linux_hotspot_8u402b06.tar.gz) = fcfd08abe39f18e719e391f2fc37b8ac1053075426d10efac4cbf8969e7aa55e
+SHA256 (OpenJDK8U-jdk_x64_linux_hotspot_8u412b08.tar.gz) = b9884a96f78543276a6399c3eb8c2fd8a80e6b432ea50e87d3d12d495d1d2808
