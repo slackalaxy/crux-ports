@@ -408,6 +408,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/data/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/data/Rdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/apply-method.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/basic.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/close.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/WinBox/controls.R
