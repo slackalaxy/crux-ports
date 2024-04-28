@@ -1,13 +1,13 @@
 # Description: R module survival
 # URL: https://cran.r-project.org/web/packages/survival
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-matrix
+# Depends on: r 
 # Optional: 
 
 name=r4-survival
-version=3.5.8
+version=3.6.4
 release=1
-source=(https://cloud.r-project.org/src/contrib/survival_3.5-8.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/survival_3.6-4.tar.gz)
 
 build() {
 	cd survival

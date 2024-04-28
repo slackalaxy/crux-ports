@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DQPRDz+kNhWe+fWAEDQlyzkrHpl5GFfbLbNa6xVoYfiQuXPOC3ya4rMVaQ9VrtB30CLcVvYBk6/hF6qAC5hqA8=
-SHA256 (Pkgfile) = 258d538d4b6a35e7f6e4107288dbfc81a49f27fda507c7899de38b51147d6456
+RWQ2oTreAss89MAZPS8a7mwLn5i9IcunIBPrcr8oVDpjfE9bIM7+aPHzWQD+inKIOSnlEkLL7xZdEUG/QzziZINxhlIJRnlPhQE=
+SHA256 (Pkgfile) = ca7143d1701f435a3e695f6bbc7fc7e377d1c5082dc5ebcac4cf44c317d64d79
 SHA256 (.footprint) = 4b03e6e926425545ba024169c9897692aa5a698dc9851ef4b61f9bffbf2ed706
-SHA256 (reticulate_1.36.0.tar.gz) = f48c2174c27d8cf13731447dd635d15bbe83216670a8d12dbfe6f06b236bbd2f
+SHA256 (reticulate_1.36.1.tar.gz) = 7c7d37f4a483d70152870895ed80574dc51b0015c176d18b6c84e38baa33dd30

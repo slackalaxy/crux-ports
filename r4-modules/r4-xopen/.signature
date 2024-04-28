@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Mv0bjq35aq96xcmq6o9zjOygzx/6GA1fq6xuxeTCM1+4wajCYRlMhaevoFa+x6K8E+1WZ1QdKc14gA522xRWQk=
-SHA256 (Pkgfile) = 66f5c099df3d86d4e9a93a5ce8729353663cb7d7e11c8791fe5539d07148692f
+RWQ2oTreAss89CgIRnH6wI+S9MGGU6x6D6IKSGz3+fditfxxwBKOT3OTH9lnURViwCwKS2b0ILGyMqJaM8tRSUexgQjBeVxgiwQ=
+SHA256 (Pkgfile) = 399e7b440bcf57866541b5d4a6fb76c9d7c987ffdd99f0c247e93de9db5d1ecd
 SHA256 (.footprint) = 823a7c7128ed7df9abe0931510a5568341391abb09dea24df48d339280348de0
-SHA256 (xopen_1.0.0.tar.gz) = e207603844d69c226142be95281ba2f4a056b9d8cbfae7791ba60535637b3bef
+SHA256 (xopen_1.0.1.tar.gz) = e3b278b8c324a1aa2650141dd89d01253eea5c2555007422c797915689b29aec

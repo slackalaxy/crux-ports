@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89F2YuWaf7rTzrSX6/Ni+DcD79qOTMqooYuQs4RNoq8VdZPW0UZoiGpSlL8pzpA3PgfrX6sBuG+Gg8Sr0wCBGjg8=
-SHA256 (Pkgfile) = d281fb45505bc5ea51d6b9a9afa3cc64b638aac073d7474d2f0c9415b9faaaa5
+RWQ2oTreAss89DBQmK2dh3txj+KUj7NfGAguiPbB9ZBG+x38fDd8x5aJ/MxpbwwoUwDG+twFRSnQQDGGl0TQbWAtu7Gk0D+/6g0=
+SHA256 (Pkgfile) = aa15bfe263ac1bc33a95442e617be297df346f135bb8a5691a9383585b939b19
 SHA256 (.footprint) = 8fe094c90d2b7d6393e55c4282ec67188d53d43364b313cf14c28b6e5a658839
-SHA256 (uwot_0.2.1.tar.gz) = 6cdf2784d53d2de74aba92b82f8a41b27b6bcf98e549c31e88006352fb0ce2bd
+SHA256 (uwot_0.2.2.tar.gz) = d9938c43d29530d4b36d1b2649cc679b09945a740db2cd3a266242b1aa9a6cd1

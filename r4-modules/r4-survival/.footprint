@@ -18,7 +18,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/survival/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/survival/Meta/vignette.rds
 -rw-r--r--	root/root	usr/lib/R/library/survival/NAMESPACE
 -rw-r--r--	root/root	usr/lib/R/library/survival/NEWS.Rd
--rw-r--r--	root/root	usr/lib/R/library/survival/NEWS.Rd.orig
 drwxr-xr-x	root/root	usr/lib/R/library/survival/R/
 -rw-r--r--	root/root	usr/lib/R/library/survival/R/survival
 -rw-r--r--	root/root	usr/lib/R/library/survival/R/survival.rdb
@@ -40,13 +39,13 @@ drwxr-xr-x	root/root	usr/lib/R/library/survival/doc/
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/concordance.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/concordance.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/concordance.pdf
--rw-r--r--	root/root	usr/lib/R/library/survival/doc/discrim.R
--rw-r--r--	root/root	usr/lib/R/library/survival/doc/discrim.Rnw
--rw-r--r--	root/root	usr/lib/R/library/survival/doc/discrim.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/matrix.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/matrix.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/matrix.pdf
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/methods.R
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/methods.Rnw
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/methods.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/multi.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/multi.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/other.Rnw
