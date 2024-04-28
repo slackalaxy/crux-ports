@@ -4,8 +4,8 @@
 # Depends on: glew glm netcdf-cxx python3-pyqt5
 
 name=pymol
-version=2.5.0
-release=2
+version=3.0.0
+release=1
 source=(https://github.com/schrodinger/$name-open-source/archive/v$version/$name-open-source-$version.tar.gz
 	$name.desktop $name.png)
 
