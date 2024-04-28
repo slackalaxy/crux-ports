@@ -467,7 +467,7 @@ f:4dd1d71ce9deb9915545c8d4a4c1f6fa:geneconv/.footprint
 f:2aa556ac90f600fa45e969d9800f73e0:geneconv/.signature
 f:cc65d819830612bebe1a4285857bb470:google-chrome/Pkgfile
 f:beba675bb51fb5f7d442251e54f63c69:google-chrome/.footprint
-f:285afd670691d99a689785e35204ae57:google-chrome/.signature
+f:efdb2858d1edb72d081f1dda01530638:google-chrome/.signature
 f:8b6f14f1f392e67dec298038f5e3c197:hyphy/Pkgfile
 f:67e5df311d1163766bfd9ac0fa731a25:hyphy/.footprint
 f:47725168f21474d050d7ccbd25f09ddf:hyphy/.signature
@@ -1129,8 +1129,8 @@ f:05381ce648b1b17811f545b6e28dfcb1:libbonoboui/.signature
 f:0605133e3ef6f73ff578fd646b401611:pdb-tools/Pkgfile
 f:aadd295b237cac9e80258e6a30751716:pdb-tools/.footprint
 f:1e414d97197947255d58fc036c0bd942:pdb-tools/.signature
-f:1e96e2d02f8ee56985dce8d15b9efe25:microsoft-edge/Pkgfile
-f:1abc3233bfd4a8babc16e4ed14a3cf7b:microsoft-edge/.signature
+f:70b38e3d2305f6c37b1d927f69c54a27:microsoft-edge/Pkgfile
+f:df9d0dd0187aae67e35347aedd28e23d:microsoft-edge/.signature
 f:6257865c4283f32a41578a471bf36a8d:microsoft-edge/README
 f:3744e6f819d23e971ca1beefad160ca7:microsoft-edge/.footprint
 f:97564831353f8c05ab982fe2f607d552:openvpn/Pkgfile
@@ -1258,10 +1258,10 @@ f:73c8a5e1f6a442dfaa9457e9fbb4d893:aline/.signature
 f:b44d2383627760f2addaea3c21c0fbb4:bowtie/Pkgfile
 f:f961e5e54d5e85749fdf7dd80e0aa6c9:bowtie/.footprint
 f:5de3a22019c7710cbd950a5e8e98a16c:bowtie/.signature
-f:ea1c0fdaec3dcf8a6ffef16f9b75e131:calibre-bin/Pkgfile
+f:4f89eaa7f122419868c4808d4cdfb60c:calibre-bin/Pkgfile
 f:51db8d36d29a1266832d4737d83c94e3:calibre-bin/calibre-bin.desktop
 f:6f8f1645db405f9a06d9c9b7637c8ee7:calibre-bin/.footprint
-f:6f5ee8837ba1846c1f9a8cf89899ec6d:calibre-bin/.signature
+f:c85cc385f245ad5f6767c02686aec797:calibre-bin/.signature
 f:c5eb4f3983aa92649ccc75ed676d83aa:cutadapt1/Pkgfile
 f:69f2789bde6af39c0bb5359cb34be486:cutadapt1/.footprint
 f:39c543377f6fa633f1c23c2916e6f3b1:cutadapt1/.signature
@@ -1684,7 +1684,7 @@ f:7ce2384fe46b34dbdb568f16d6a13e75:mplayer/Pkgfile
 f:3e7b0aee696cb9d0f433f6e0a0451300:mplayer/README
 f:f659e7a1cbd746f613edef058404b575:mplayer/mplayer.conf
 f:9fcd890e76dbd16c31e47cf16ef59334:mplayer/.footprint
-f:444ca88f913d05fa38ca4fcd56e6d725:mplayer/.signature
+f:27bc34a72c6a1e6d9dc833fb20cdec4c:mplayer/.signature
 f:f53d5ad5af80d7f9434aa98ad07b5af9:osmo/Pkgfile
 f:582c6aae5ba58081fc9333769940fb22:osmo/.footprint
 f:bbd7b8889f2df94c9740017a00ae25bd:osmo/.signature
@@ -1924,9 +1924,9 @@ f:6d9c24f08a01295780291cca22a26916:cmst/.footprint
 f:424044cb43229785edbc4762b964252a:cmst/.signature
 f:05afbeaa751d0f1ec56dfac3ee0e0002:cmst/0001-Use-preferences-system-network-as-icon.patch
 f:cfe69377d261ff106c371df5513a2023:cmst/0002-Update-D-Bus-policy-configuration-location.patch
-f:39bb0395dcaffcc322fbf46437f49f55:edirect/Pkgfile
+f:457b158f1bb45c68c0fdff31dc50fa94:edirect/Pkgfile
 f:feffb6fd1d6b8ef5282013e2ec396aa5:edirect/.footprint
-f:95ac1f9115c29d0bc6a6f376c29682af:edirect/.signature
+f:a2683eb2d36d99368c25d17904201c16:edirect/.signature
 f:8d0e7da0ac20f20e173f131723669006:finchtv/Pkgfile
 f:c2881e2de30781980270be410671469f:finchtv/finchtv.desktop
 f:a4490f1b58df9d1c335aa4af280036fc:finchtv/.footprint
@@ -2029,9 +2029,9 @@ f:abd3e6aec197b96a3052cb1942a97062:pdbfixer/.signature
 f:6070089533f9bc01db07cfa57403c64b:openmm/Pkgfile
 f:dbf1ec47aaffbc8b51a4ac06e78233cd:openmm/.footprint
 f:2a76e99e08ba82f8359cc40db9e403b9:openmm/.signature
-f:4136a7acf22255bb2d8e288bf87a462f:pymol/Pkgfile
-f:248e2fbfa0ee1ebf882ac7e143c71afb:pymol/.footprint
-f:e0acf3d927af408e9d288380bd63b847:pymol/.signature
+f:54e79db0078e139dca5ad98a123c7cdc:pymol/Pkgfile
+f:002ce2ab8bbbcad14e9c00e46b2c724f:pymol/.footprint
+f:fb4bb81b54a4964d74d6fc1275cdab3b:pymol/.signature
 f:cf712eef5b27d4635b5c2b7faa5481d5:pymol/pymol.png
 f:a080d933355f782cf8465507095b5ae8:pymol/pymol.desktop
 f:573b836c9ba3620d986577fa0af526fb:netcdf-cxx/Pkgfile
@@ -2077,6 +2077,6 @@ f:4fcc4a3443767d08909a36e347056a8c:ubuntulooks-themes/Pkgfile
 f:f89be60a67ec8e6cbfb0a91ffbd51cd7:ubuntulooks-themes/.footprint
 f:588383f8bfac1e0e72ab752ab8759c0c:ubuntulooks-themes/.signature
 f:d8a11c1dab89924fb8c9a0f591099908:ubuntulooks-themes/ubuntulooks-themes-0.16.tar.xz
-f:5af46692a68223c781e89e15185916a7:opera/Pkgfile
+f:095a84dda057b1790aceccd9449feba9:opera/Pkgfile
 f:3ec42bb7230ea7ce10e330768b9f984c:opera/.footprint
-f:febe3a9f83e5d4955b51461d9270cc64:opera/.signature
+f:bca777a47cf750f6fb9c06be7366d43d:opera/.signature
