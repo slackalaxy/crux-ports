@@ -2,9 +2,10 @@
 # URL: https://posit.co/download/rstudio-desktop/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: alsa-lib cups gtk3 icu keyutils krb5 libxkbcommon nss openssl11 postgresql r xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+# Optional: r4-learnr
 
 name=rstudio-desktop
-version=2023.12.1+402
+version=2024.04.0+735
 release=1
 source=(https://download1.rstudio.org/electron/rhel8/x86_64/rstudio-${version/+/-}-x86_64.rpm)
 

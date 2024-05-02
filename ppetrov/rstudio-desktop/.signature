@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZXq/DjOc1ps5tY35SEh2uSFAcuqw9Y2XSqba7iEdYZWmUItBuGdl7E6H4CdtwPC9lx0LQ+5Xs3v0toHvrBjZKgQ=
-SHA256 (Pkgfile) = a6d18f7eef03ff80b6acebbb2f84724dbebd7d23a7151b8444af720263a7fe9f
-SHA256 (.footprint) = ccc3e0d75a465b905b0abb0803f8ab02e69b0fa8c2055bb17d6526475832076a
-SHA256 (rstudio-2023.12.1-402-x86_64.rpm) = 1f67d80de0480fab3938bc70aea6d0f1d3f73c2194f706e7985636d7d5cae0a5
+RWToVVsIkzFIZYCz8oq75E5psES6V78w0iOSwTY083lGyzLvQUobVq4wlROtxD1Kqsp96WsaHjKxzW7er5ztHJ8R8aSHCCyudww=
+SHA256 (Pkgfile) = c57220d7ed03b17ab0ac20fa2580e52e1333133acb533ffe07151db6bc83a118
+SHA256 (.footprint) = 5d3bee5c77027ed63243dd90401c2f64d49db73da37e4b778e367fdcdab6ad1a
+SHA256 (rstudio-2024.04.0-735-x86_64.rpm) = 68fe51c47c96ae8c93aa6f33037fe5fbd089d5a5f44f900317850db40408acd6
