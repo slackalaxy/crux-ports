@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89IZGthRbMllBT3n0iaUJWFVd0Hto9EE5g5l5IhWOhgWB0TVrtYPJsu5Gusn0LDS7VncumS10ZJDOTrw5eQjwYQ4=
+SHA256 (Pkgfile) = f44efeb51d1ba118c783a3f336fa04565f0d354f212818de031855184cc84005
+SHA256 (.footprint) = c072efef6380237e2f36d2e8ed2b49d10b349c670f2899743ce0a47f071ebdb2
+SHA256 (learnr_0.11.5.tar.gz) = 5e4cf4304a2e1362ec2523af743195b7545c0dbaed0f0065e3d34a2da379b107

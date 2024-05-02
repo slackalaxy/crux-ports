@@ -402,6 +402,8 @@ d:r4-codemodules
 d:r4-funr
 d:r4-folders
 d:r4-config
+d:r4-learnr
+d:r4-renv
 f:06c69512b1cb851a4ff3019f4beaec72:r4-bslib/Pkgfile
 f:f2ccb19b894372a435b7040734ffeea0:r4-bslib/.footprint
 f:61e81dd50845a6bd574acf2ee873cdb6:r4-bslib/.signature
@@ -1612,3 +1614,9 @@ f:94ec8f797a08b0c6ef5cc947d3514b88:r4-folders/Pkgfile
 f:45579c305f2ae3aef9cc2bfb53e2c628:r4-folders/.signature
 f:6e1bebf87fcd8fc7863ab5bd32fe1cb3:r4-config/Pkgfile
 f:c2aefe9ff74e71bb51ccc029d0d2bc25:r4-config/.signature
+f:9f25aa8ec2a6ebd63bf55860d35e9b73:r4-learnr/Pkgfile
+f:e973dfe9f548a6a37f0404b774b0bc0e:r4-learnr/.footprint
+f:1763a01d68245d2bfddcb6279fa07dc6:r4-learnr/.signature
+f:00ab2d066ad5b4059081696f3fe36446:r4-renv/Pkgfile
+f:2966613e28aaad9ae98f431eb2ec8088:r4-renv/.footprint
+f:0e3cb64b72e1638eedd4828404b7cb60:r4-renv/.signature
