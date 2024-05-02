@@ -1,13 +1,13 @@
 # Description: R module rhdf5
 # URL: https://bioconductor.org/packages/rhdf5
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran hdf5 r r4-rhdf5filters r4-rhdf5lib r4-s4vectors
+# Depends on: r r4-rhdf5filters r4-rhdf5lib
 # Optional: r4-bench r4-biocparallel r4-biocstyle r4-bit64 r4-dplyr r4-ggplot2 r4-knitr r4-mockery r4-rmarkdown r4-testthat
 
 name=r4-rhdf5
-version=2.46.1
+version=2.48.0
 release=1
-source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/rhdf5_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/rhdf5_${version}.tar.gz)
 
 build() {
 	cd rhdf5

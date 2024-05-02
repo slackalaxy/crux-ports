@@ -5,9 +5,9 @@
 # Optional: r4-deldir r4-gstat r4-knitr r4-raster r4-rcolorbrewer r4-rmarkdown r4-sf r4-terra
 
 name=r4-sp
-version=2.1.3
+version=2.1.4
 release=1
-source=(https://cloud.r-project.org/src/contrib/sp_2.1-3.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/sp_2.1-4.tar.gz)
 
 build() {
 	cd sp

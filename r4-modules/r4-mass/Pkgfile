@@ -1,13 +1,13 @@
 # Description: R module MASS
 # URL: https://cran.r-project.org/web/packages/MASS
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-lattice r4-nlme r4-nnet r4-survival
 
 name=r4-mass
-version=7.3.60.0.1
+version=7.3.60.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/MASS_7.3-60.0.1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/MASS_7.3-60.2.tar.gz)
 
 build() {
 	cd MASS

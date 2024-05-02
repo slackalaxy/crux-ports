@@ -5,9 +5,9 @@
 # Optional: r4-biocstyle r4-knitr r4-mockery r4-rmarkdown r4-tinytest
 
 name=r4-rhdf5lib
-version=1.24.2
+version=1.26.0
 release=1
-source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/Rhdf5lib_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/Rhdf5lib_${version}.tar.gz)
 
 build() {
 	cd Rhdf5lib

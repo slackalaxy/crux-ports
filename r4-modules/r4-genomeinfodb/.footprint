@@ -105,11 +105,13 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Canis_lupus_familiaris.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Cannabis_sativa.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Catharus_ustulatus.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Cavia_porcellus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Chlamydomonas_reinhardtii.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Danio_rerio.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Drosophila_melanogaster.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Drosophila_virilis.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Equus_caballus.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Escherichia_coli.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Eucalyptus_grandis.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Felis_catus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Fundulus_heteroclitus.R

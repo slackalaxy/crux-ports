@@ -1,13 +1,13 @@
 # Description: R module XVector
 # URL: https://bioconductor.org/packages/XVector
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-biocgenerics r4-iranges r4-s4vectors r4-zlibbioc
+# Depends on: r r4-biocgenerics r4-iranges r4-s4vectors r4-zlibbioc
 # Optional: r4-biostrings r4-drosophila2probe r4-runit
 
 name=r4-xvector
-version=0.42.0
+version=0.44.0
 release=1
-source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/XVector_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/XVector_${version}.tar.gz)
 
 build() {
 	cd XVector

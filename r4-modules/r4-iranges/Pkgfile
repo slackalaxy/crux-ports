@@ -1,13 +1,13 @@
 # Description: R module IRanges
 # URL: https://bioconductor.org/packages/IRanges
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-biocgenerics r4-s4vectors
+# Depends on: r r4-biocgenerics r4-s4vectors
 # Optional: r4-biocstyle r4-bsgenome-celegans-ucsc-ce2 r4-genomicalignments r4-genomicfeatures r4-genomicranges r4-pasillabamsubset r4-rsamtools r4-runit r4-xvector
 
 name=r4-iranges
-version=2.36.0
+version=2.38.0
 release=1
-source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/IRanges_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/IRanges_${version}.tar.gz)
 
 build() {
 	cd IRanges

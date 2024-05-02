@@ -21,19 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Biostrings/R/
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/R/Biostrings.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/R/Biostrings.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/Biostrings/data/
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/BLOSUM100.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/BLOSUM45.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/BLOSUM50.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/BLOSUM62.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/BLOSUM80.rda
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/HNF4alpha.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/PAM120.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/PAM250.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/PAM30.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/PAM40.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/PAM70.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/phiX174Phage.rda
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/srPhiX174.rda
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/yeastSEQCHR1.rda
 drwxr-xr-x	root/root	usr/lib/R/library/Biostrings/doc/
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/doc/Biostrings2Classes.R
@@ -44,7 +32,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/Biostrings/doc/
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/doc/MultipleAlignments.R
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/doc/MultipleAlignments.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/doc/MultipleAlignments.pdf
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/doc/PairwiseAlignments.R
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/doc/PairwiseAlignments.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/doc/PairwiseAlignments.pdf
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/doc/index.html
@@ -88,6 +75,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/Biostrings/unitTests/
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/unitTests/test_findPalindromes.R
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/unitTests/test_matchDNAPattern.R.FIXME
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/unitTests/test_matchPDict.R
--rw-r--r--	root/root	usr/lib/R/library/Biostrings/unitTests/test_pairwiseAlignment.R
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/unitTests/test_seqinfo-methods.R
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/unitTests/test_twoWayAlphabetFrequency.R

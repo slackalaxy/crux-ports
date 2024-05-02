@@ -5,9 +5,9 @@
 # Optional: r4-biocstyle r4-knitr
 
 name=r4-zlibbioc
-version=1.48.2
+version=1.50.0
 release=1
-source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/zlibbioc_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/zlibbioc_${version}.tar.gz)
 
 build() {
 	cd zlibbioc

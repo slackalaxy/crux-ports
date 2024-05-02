@@ -2,12 +2,12 @@
 # URL: https://bioconductor.org/packages/msa
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-biocgenerics r4-biostrings r4-iranges r4-rcpp r4-s4vectors
-# Optional: r4-ape r4-biobase r4-knitr r4-phangorn r4-seqinr
+# Optional: r4-ape r4-biobase r4-knitr r4-phangorn r4-pwalign r4-seqinr
 
 name=r4-msa
-version=1.34.0
+version=1.36.0
 release=1
-source=(https://bioconductor.org/packages/3.18/bioc/src/contrib/msa_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/msa_${version}.tar.gz)
 
 build() {
 	cd msa

@@ -1,13 +1,13 @@
 # Description: R module GenomeInfoDbData
 # URL: https://bioconductor.org/packages/GenomeInfoDbData
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: 
 
 name=r4-genomeinfodbdata
-version=1.2.11
+version=1.2.12
 release=1
-source=(https://bioconductor.org/packages/3.18/data/annotation/src/contrib/GenomeInfoDbData_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.19/data/annotation/src/contrib/GenomeInfoDbData_${version}.tar.gz)
 
 build() {
 	cd GenomeInfoDbData
