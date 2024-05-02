@@ -413,6 +413,7 @@ d:ioq3
 d:prboom-plus
 d:dia
 d:pangox-compat
+d:kwindowsystem
 d:cran2crux
 d:scwrl
 d:biobb_structure_checking
@@ -1604,9 +1605,9 @@ f:f66f4dc729dfa4d65a50c54f99bafe29:pango-querymodules/.signature
 f:9bda5548f8ea5194ee7ec2480968fb0e:prank/Pkgfile
 f:539bed1c5d796de9db1ef4882fb2e443:prank/.footprint
 f:34d3e4d7049256ee4b7cf6ee893d319a:prank/.signature
-f:ef97ac8d2a5376c5238fa352f27a4024:rstudio-desktop/Pkgfile
-f:2be7987ba18b8a373002f4acb44267cd:rstudio-desktop/.footprint
-f:627d02ef8b9be5633f7211c3ef9ff384:rstudio-desktop/.signature
+f:34d1e33211257f4907acb9fbdc5394b3:rstudio-desktop/Pkgfile
+f:ceb95b8fac6929b454170fc298e497f0:rstudio-desktop/.footprint
+f:7fdcd88a7368628aa6e37a91d37b7a36:rstudio-desktop/.signature
 f:cbe5dfae1f4bdb459ba28bd41615ac95:squizz/Pkgfile
 f:c8710388b42134e0fb318832f53bc179:squizz/.footprint
 f:42b08a4231d355893c7d20b85ead7c99:squizz/.signature
@@ -2013,6 +2014,9 @@ f:3ca71280b2c4c7bfe565fbe4358d179e:dia/dia-0.97.2-underlinking.patch
 f:6801c83853fe69499b2d8f5056b5e930:pangox-compat/.footprint
 f:2afa384c9da67878dd88642c2b539aa3:pangox-compat/.signature
 f:abb32afe22b75029a26711ca36c9cec2:pangox-compat/Pkgfile
+f:639c9a9bca3ea6ee58345236afdf48a0:kwindowsystem/Pkgfile
+f:b714c5a1cf8b94cfbec18274ebe8b9a4:kwindowsystem/.footprint
+f:e030b1551201d35b68b123a2d08cdc26:kwindowsystem/.signature
 f:f6838cb54322e0a0d9720e2ea30becd6:cran2crux/Pkgfile
 f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
 f:dfe90add62294dbc0c315404a46bce1e:cran2crux/.signature
@@ -2047,8 +2051,8 @@ f:dd63fe4c39bb27bf7934fb58ab3834ba:xmms-skins-carbonate/Pkgfile
 f:732248d7cd6b5d7c48534ce86a4c5a15:xmms-skins-carbonate/.footprint
 f:41c7b8b23174b651ace895dfe9603791:xmms-skins-carbonate/.signature
 f:6bd0cb477b202f589be8ec476dc0e742:wps-office/.footprint
-f:b6978f8c0c39d126e4eb7a3376cfd4f1:wps-office/.signature
-f:6ccd1b00cc2c0a1cf40a2c0d7e3f2417:wps-office/Pkgfile
+f:e6c4bc85135f3842dd252385f478a788:wps-office/.signature
+f:384f512562daadfdf691f57599113f1e:wps-office/Pkgfile
 f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
 f:389134912dc24609f83900c75f0b3e99:wps-office/post-install
 f:e256100e8aed7ead8216a0a2354f1fd8:wps-office/desktop.tar.xz
