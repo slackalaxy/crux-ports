@@ -1,7 +1,7 @@
 # Description: R module Rhdf5lib
 # URL: https://bioconductor.org/packages/Rhdf5lib
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: hdf5 r 
 # Optional: r4-biocstyle r4-knitr r4-mockery r4-rmarkdown r4-tinytest
 
 name=r4-rhdf5lib

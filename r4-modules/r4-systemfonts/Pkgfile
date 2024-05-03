@@ -1,7 +1,7 @@
 # Description: R module systemfonts
 # URL: https://cran.r-project.org/web/packages/systemfonts
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cpp11
+# Depends on: fontconfig r r4-cpp11
 # Optional: r4-covr r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-systemfonts

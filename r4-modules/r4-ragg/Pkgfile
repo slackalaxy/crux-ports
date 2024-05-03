@@ -1,7 +1,7 @@
 # Description: R module ragg
 # URL: https://cran.r-project.org/web/packages/ragg
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-systemfonts r4-textshaping
+# Depends on: freetype libpng libtiff r r4-systemfonts r4-textshaping
 # Optional: r4-covr r4-testthat
 
 name=r4-ragg

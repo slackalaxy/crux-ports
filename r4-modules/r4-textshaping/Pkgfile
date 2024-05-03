@@ -1,7 +1,7 @@
 # Description: R module textshaping
 # URL: https://cran.r-project.org/web/packages/textshaping
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-cpp11 r4-systemfonts
+# Depends on: freetype fribidi harfbuzz r4-cpp11 r4-systemfonts
 # Optional: r4-covr r4-knitr r4-rmarkdown
 
 name=r4-textshaping
