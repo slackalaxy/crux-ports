@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IaF0BKE0NZFbRiIL6bMTzUnhD4PoFLETFgtDfzrdqxSq1EMqHanan5RCouhRef5VBAkuKI4/rgJLuAgENM02wk=
-SHA256 (Pkgfile) = 417e5a889205a42bb027af8197ccae5739689f0bfb19ceea7ed5eec01e80a708
-SHA256 (.footprint) = 6aa3bf6c59a31f3905086162c47143ad15a169916ecf8c82f8e200522e655319
-SHA256 (pixmap_0.4-12.tar.gz) = 893ba894d4348ba05e6edf9c1b4fd201191816b444a214f7a6b2c0a79b0a2aec
+RWQ2oTreAss89JvJMz3cOLt7+YrQKQkTGQVTrvzuKOXQ/k0co3dCHcLy0iiw3VSHcvEYRF4Ikj+nGsiFAflt34iQ5G50m4cHvws=
+SHA256 (Pkgfile) = 794f2244b5f9a085701d68e086e16d1efa0935aabce97a06f8b32eb52f6a9d50
+SHA256 (.footprint) = a547d36f491f6e7eba3790fe887a5772656ad475eec21607fc6f60f1b0372a7e
+SHA256 (pixmap_0.4-13.tar.gz) = e3dbc641a0497575b45a4140dadc6bf43cdf39b02393f93f1b0ee4f4d026e711

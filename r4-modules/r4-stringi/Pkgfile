@@ -1,11 +1,11 @@
 # Description: R module stringi
 # URL: https://cran.r-project.org/web/packages/stringi
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-stringi
-version=1.8.3
+version=1.8.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/stringi_${version}.tar.gz)
 
