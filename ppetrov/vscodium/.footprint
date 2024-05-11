@@ -663,10 +663,11 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-
 -rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/ThirdPartyNotices.txt
 -rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/ci.yml
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/
--rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/84b6bc62673660f3ffa2.module.wasm
--rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/9.extension.web.js
--rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/94625be35e004f01f9d5.module.wasm
+-rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/425.heapsnapshotWorker.js
+-rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/848.extension.web.js
+-rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/a443ca1a33b96237dd48.module.wasm
 -rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/cpu-client.bundle.js
+-rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/dbd61d846b1102299709.module.wasm
 -rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.js
 -rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/extension.web.js
 -rw-rw-r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/out/heap-client.bundle.js
@@ -1232,7 +1233,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilit
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatRequestSent.mp3
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponsePending.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived1.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived2.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatResponseReceived3.mp3
@@ -1244,6 +1244,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilit
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/error.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/foldedAreas.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/format.mp3
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/progress.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/quickFixes.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/save.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3
