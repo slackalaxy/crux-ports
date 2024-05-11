@@ -211,7 +211,6 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/lxml._elementpath.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/lxml.builder.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/lxml.etree.so
--rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/lxml.html.clean.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/lxml.html.diff.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/lxml.objectify.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/lxml.sax.so
