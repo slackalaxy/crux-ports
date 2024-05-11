@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZglS1pfSucvXXHnv0Ces3dy8wwRVBCLGwhs9P+TpMSqz+J5dH2/3Ul4rSAt+k3ZViT/WaOnxDt68u1UrL4O9gc=
-SHA256 (Pkgfile) = c542161097a744fc2065dbd82719bea9351eaefd130145ea1e5a36455fda3dbb
+RWToVVsIkzFIZX9kFB4HAkbZZhUFSA0By0eZbHmTQZyChKH9EW/0qSbzDX3gur1NnwJ5TQyiwXqeqjFZ9WQxB68QbI+MpPC5Zg0=
+SHA256 (Pkgfile) = 0f4f18a9f28fb1b3709b546d4e055a215ecbdfd193b94c0bacff8ca35e163839
 SHA256 (.footprint) = 53129c9f565a0ea33498818fa2413c5a07e8e3883c91ff7eebdf09972f625cf4
-SHA256 (opera-stable_109.0.5097.68_amd64.deb) = f069c25a7d03c1acc2671e3aa8173aa69825ed4333802821a668eeb7a6e50cf8
+SHA256 (opera-stable_109.0.5097.80_amd64.deb) = dcd4a29c84d88acba5479acd8529f0402dc3f692968f849d06d16dffd3a00afa
 SHA256 (0.85.0-linux-x64.zip) = 95eaa8588ea61ba2d4fbb31f666933b7f1cbe11e3b801a06b77474c1df94f09a
