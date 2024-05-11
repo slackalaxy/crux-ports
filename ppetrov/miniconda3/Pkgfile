@@ -4,14 +4,15 @@
 # Depends on:
 
 name=miniconda3
-version=24.1.2.0
+version=24.3.0
+_python=py310
 release=1
-source=(https://repo.anaconda.com/miniconda/Miniconda3-py311_${version%.*}-${version##*.}-Linux-x86_64.sh)
+source=(https://repo.anaconda.com/miniconda/Miniconda3-${_python}_${version}-${version##*.}-Linux-x86_64.sh)
 
 build() {
 	prefix=$PKG/usr/lib/$name
 	LD_PRELOAD="/usr/lib/libfakeroot.so"
-	bash $SRC/Miniconda3-py311_${version%.*}-${version##*.}-Linux-x86_64.sh -b -p $prefix -f
+	bash $SRC/Miniconda3-${_python}_${version}-${version##*.}-Linux-x86_64.sh -b -p $prefix -f
 	[ "$BREAK_EARLY" = 1 ] && exit 1
 	cd $prefix
 	chmod a+r -R pkgs
