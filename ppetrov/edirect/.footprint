@@ -50,6 +50,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/filter-record
 -rwxr-xr-x	root/root	usr/bin/filter-stop-words
 -rwxr-xr-x	root/root	usr/bin/find-in-gene
+-rwxr-xr-x	root/root	usr/bin/fsa2xml
 -rwxr-xr-x	root/root	usr/bin/fuse-ranges
 -rwxr-xr-x	root/root	usr/bin/fuse-segments
 -rwxr-xr-x	root/root	usr/bin/gbf2fsa
@@ -76,7 +77,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/join-into-groups-of
 -rwxr-xr-x	root/root	usr/bin/json2xml
 -rwxr-xr-x	root/root	usr/bin/jsonl2xml
--rwxr-xr-x	root/root	usr/bin/just-first-key
+-rwxr-xr-x	root/root	usr/bin/just-top-hits
 -rwxr-xr-x	root/root	usr/bin/nhance.sh
 -rwxr-xr-x	root/root	usr/bin/nquire
 -rwxr-xr-x	root/root	usr/bin/phrase-search
