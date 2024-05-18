@@ -1,11 +1,11 @@
 # Description: R module farver
 # URL: https://cran.r-project.org/web/packages/farver
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-covr r4-testthat
 
 name=r4-farver
-version=2.1.1
+version=2.1.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/farver_${version}.tar.gz)
 

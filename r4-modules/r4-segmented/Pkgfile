@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-segmented
-version=2.0.4
+version=2.1.0
 release=1
-source=(https://cloud.r-project.org/src/contrib/segmented_2.0-4.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/segmented_2.1-0.tar.gz)
 
 build() {
 	cd segmented

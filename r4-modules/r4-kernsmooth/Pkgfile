@@ -1,13 +1,13 @@
 # Description: R module KernSmooth
 # URL: https://cran.r-project.org/web/packages/KernSmooth
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-cardata r4-mass
 
 name=r4-kernsmooth
-version=2.23.22
+version=2.23.24
 release=1
-source=(https://cloud.r-project.org/src/contrib/KernSmooth_2.23-22.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/KernSmooth_2.23-24.tar.gz)
 
 build() {
 	cd KernSmooth

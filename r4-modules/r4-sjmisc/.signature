@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89PsdI85YX6nOANM/Cub4BacKsbAPdN2j5cMbnVhufJE0xw8d6WrBgf4nUtDTEFwekWB047/hLRAZed0qTo3E1Aw=
-SHA256 (Pkgfile) = 96b68595cb2cdb81a6bf954652ab3242c9ceebe5490dc5c0f053670a11ec258e
+RWQ2oTreAss89ClGHbp2/1CVrc15mDgBWqvtoMWR6d32/GUTpS7g8U1GJd1/MjgHcSVpitwu7Q86s4MP2j13xL0xgsewjLjXEg8=
+SHA256 (Pkgfile) = 330c1b59190d92276ad6d49a81eacc2cd4c24553182a6c427eebeb5f02e14117
 SHA256 (.footprint) = 637ea78b97a31b8bd0ac045d095a12c192f996c883e920f7fbf468d649e9a202
-SHA256 (sjmisc_2.8.9.tar.gz) = 78b05741ce9e1cc783fda97a0f18caff689822fdd4bdf733dc20f7c94ac2f3bf
+SHA256 (sjmisc_2.8.10.tar.gz) = 2d64ab3551e6ac5993ade0dd269619063018decaa2fd34d56a2541209052c58b

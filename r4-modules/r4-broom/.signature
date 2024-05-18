@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BxuiTVJ6koloB7i1ke1mWEGTpbvAcS3Znc8lo1hTEjGlt8x+mzbWk3Y7QItZsoOH2Giw/iqdAh3FxEJAni/xgM=
-SHA256 (Pkgfile) = 7c7c9ed78e488fb8f64d9d553fd28ab54d11a1608694493e5dceccc434d9a83b
+RWQ2oTreAss89H2ClhjaM/UQnJDnc6/5YY77PFg5RMFXROCXVpkkgBeqZulkpjjzA0RFZVj0PB/EjEstfV3v80/bYT7kVJkjqQg=
+SHA256 (Pkgfile) = ea375258dee3928a3c4e641eb26b536d7edb6d011edcf491a6054f45131c5737
 SHA256 (.footprint) = acd0b2b96c59249f30cf4a8b3f23427ab12142165ca814163ac0d75d276c64ad
-SHA256 (broom_1.0.5.tar.gz) = 9d77ddee9ee32ffefdacddcb35adc0ac83035537c4e5ef5cfbd2f8bbd909d991
+SHA256 (broom_1.0.6.tar.gz) = 24cf36248dffbde38d3d81befa679e362bfd0526b9843bc536a85452a19fbccf

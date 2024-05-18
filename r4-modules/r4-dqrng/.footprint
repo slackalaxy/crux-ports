@@ -5,7 +5,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/dqrng/
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/INDEX
--rw-r--r--	root/root	usr/lib/R/library/dqrng/LICENSE
 drwxr-xr-x	root/root	usr/lib/R/library/dqrng/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/Meta/Rd.rds
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/Meta/features.rds
@@ -21,7 +20,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/dqrng/R/
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/R/dqrng.rdb
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/R/dqrng.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/dqrng/doc/
--rw-r--r--	root/root	usr/lib/R/library/dqrng/doc/cpp-api.R
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/doc/cpp-api.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/doc/cpp-api.html
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/doc/dqrng.R
@@ -49,8 +47,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/dqrng/include/
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/include/dqrng.h
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/include/dqrng_RcppExports.h
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/include/dqrng_distribution.h
+drwxr-xr-x	root/root	usr/lib/R/library/dqrng/include/dqrng_extra/
+-rw-r--r--	root/root	usr/lib/R/library/dqrng/include/dqrng_extra/parallel_generate.h
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/include/dqrng_generator.h
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/include/dqrng_sample.h
+-rw-r--r--	root/root	usr/lib/R/library/dqrng/include/dqrng_threefry.h
+-rw-r--r--	root/root	usr/lib/R/library/dqrng/include/dqrng_types.h
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/include/minimal_int_set.h
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/include/mystdint.h
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/include/pcg_extras.hpp

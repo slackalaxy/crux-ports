@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GYPrmGVlCFBQbM9IJ+lNDOmbY+bEcA53Lp4qnJKBfdm8iAc+KhfuVtfAnwqxTID5UUmsVtBUeI2zrUmaRVnFg0=
-SHA256 (Pkgfile) = 5fd551c73081938583f73b0969758758b9ef5ef952deb31518e6c5cc0904a67f
+RWQ2oTreAss89MYZ4WFbpTGgdGw7QfObJi/im3+g/Sw1U4R+HWy0Ws1st8RFVf7QpPelfBwnDhHjXxV9hQ+439rXaCN0/SxAKgk=
+SHA256 (Pkgfile) = bcbb7dd7ce5e1b7ebe2e83d0638a188b99855ee006837e67d3aeaffaa86f367d
 SHA256 (.footprint) = 9c71c7a2a1636d0ce97fb7cac7ed6b55e20eab1fb5d941f6fc86cb531a5aba20
-SHA256 (cachem_1.0.8.tar.gz) = ea9ca919fe615dce8770758ecc2fc88ac99074f66ff1cde3a0b95d40007f45c2
+SHA256 (cachem_1.1.0.tar.gz) = 550839fc2ae5d865db475ba2c1714144f07fa0c052c72135b0e4a70287492e21

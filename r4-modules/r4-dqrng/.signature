@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IoneE0Qsn1ejjVTqk9BL0pp816dgrYhMNxYUE0RsL0/9NGrziuA2ZKlUCzYE4QIISHfpxbx0Ws03SGRgWeYowI=
-SHA256 (Pkgfile) = 2503f8b3bc0d4197bb7a2557b32a3b4bdb6a7c794c49f27f0f38b7d8d703f849
-SHA256 (.footprint) = a9a2a9013b5fb6d4ef99ee15e7bfd08b6d9b7bc2a3410effd7b231c3d3d9b538
-SHA256 (dqrng_0.3.2.tar.gz) = cd02ca210aa40db5a3dfff317ab721c0eea3a94d6effdaf1068a527710393e9c
+RWQ2oTreAss89CGB1zNfeVxAHfGHDm5NyXFepNkQvwtbVHsNysdXQ0H863c1SY1B2GuJDGkk51W2xLiA92hrIAbHgTfgDztJxQU=
+SHA256 (Pkgfile) = 1725a704e5477d1f01d19d1e5e6f841815bc44fce4b8dac8bb3bdcc20b1e534a
+SHA256 (.footprint) = 5d4e0e692a441c792dc1cc0b9dc3f103935776efe7352b99b10681d7902c405b
+SHA256 (dqrng_0.4.0.tar.gz) = c042068d474cbaa87cb7e17c8568d7d60b5aad4b0a12d876efef036223ba0af8
