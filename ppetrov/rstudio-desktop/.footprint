@@ -3,6 +3,8 @@ drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/rstudio -> ../lib/rstudio/rstudio
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/.build-id/
+drwxr-xr-x	root/root	usr/lib/.build-id/11/
+lrwxrwxrwx	root/root	usr/lib/.build-id/11/aba06cfe812be9dffb398e8f6f97358d2d6039 -> ../../../../usr/lib/rstudio/resources/app/bin/rsession
 drwxr-xr-x	root/root	usr/lib/.build-id/32/
 lrwxrwxrwx	root/root	usr/lib/.build-id/32/c8758e116376782d0e4f60faa607bd6aff96e1 -> ../../../../usr/lib/rstudio/libGLESv2.so
 lrwxrwxrwx	root/root	usr/lib/.build-id/32/de902049a2d31cb4bddb1128deb55324ddb1ae -> ../../../../usr/lib/rstudio/resources/app/bin/node/bin/node
@@ -12,8 +14,6 @@ drwxr-xr-x	root/root	usr/lib/.build-id/5c/
 lrwxrwxrwx	root/root	usr/lib/.build-id/5c/6db9b54e4ed82973661935a0eca0c1415196ff -> ../../../../usr/lib/rstudio/libEGL.so
 drwxr-xr-x	root/root	usr/lib/.build-id/6e/
 lrwxrwxrwx	root/root	usr/lib/.build-id/6e/7a2087ee9cb49246f9b1e67f2ee1617a4c4254 -> ../../../../usr/lib/rstudio/resources/app/bin/diagnostics
-drwxr-xr-x	root/root	usr/lib/.build-id/72/
-lrwxrwxrwx	root/root	usr/lib/.build-id/72/29276a6550f639750ac56ecb702b57c9e79ea7 -> ../../../../usr/lib/rstudio/resources/app/bin/rpostback
 drwxr-xr-x	root/root	usr/lib/.build-id/73/
 lrwxrwxrwx	root/root	usr/lib/.build-id/73/2e24a29d582f7bc4cea91594e5705a473fc762 -> ../../../../usr/lib/rstudio/libvulkan.so.1
 drwxr-xr-x	root/root	usr/lib/.build-id/a2/
@@ -25,8 +25,8 @@ lrwxrwxrwx	root/root	usr/lib/.build-id/c0/5357cf1476781478b000273e22c93a7b1911f2
 lrwxrwxrwx	root/root	usr/lib/.build-id/c0/5fa55274dbc2719d3d82db1b7f9f6dc17a470d -> ../../../../usr/lib/rstudio/resources/app/bin/crashpad_handler
 drwxr-xr-x	root/root	usr/lib/.build-id/cc/
 lrwxrwxrwx	root/root	usr/lib/.build-id/cc/34daf4315e1b8212faa5558d73f036db51b4b1 -> ../../../../usr/lib/rstudio/resources/app/bin/crashpad_http_upload
-drwxr-xr-x	root/root	usr/lib/.build-id/db/
-lrwxrwxrwx	root/root	usr/lib/.build-id/db/d1ba9eafb53fe4aae4d84a28527ea8121f7ab7 -> ../../../../usr/lib/rstudio/resources/app/bin/rsession
+drwxr-xr-x	root/root	usr/lib/.build-id/e5/
+lrwxrwxrwx	root/root	usr/lib/.build-id/e5/19a2c81eb5e7146e3774f049051ff08c280bab -> ../../../../usr/lib/rstudio/resources/app/bin/rpostback
 drwxr-xr-x	root/root	usr/lib/.build-id/f4/
 lrwxrwxrwx	root/root	usr/lib/.build-id/f4/621c3403815feaf0b0e1f04c3cd0a2aa3dddf0 -> ../../../../usr/lib/rstudio/chrome-sandbox
 drwxr-xr-x	root/root	usr/lib/rstudio/
