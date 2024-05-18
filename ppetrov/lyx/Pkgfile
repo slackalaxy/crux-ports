@@ -5,9 +5,9 @@
 # Optional: aspell-en enchant
 
 name=lyx
-version=2.3.7
-release=2
-source=(https://ftp.lip6.fr/pub/lyx/stable/2.3.x/lyx-$version-1.tar.gz)
+version=2.3.8
+release=1
+source=(https://ftp.lip6.fr/pub/lyx/stable/2.3.x/lyx-$version.tar.xz)
 
 build() {
 	cd $name-$version

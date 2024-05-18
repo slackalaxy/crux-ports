@@ -2212,6 +2212,9 @@ drwxr-xr-x	root/root	usr/share/lyx/lyx2lyx/
 -rw-r--r--	root/root	usr/share/lyx/lyx2lyx/lyx_2_3.py
 -rw-r--r--	root/root	usr/share/lyx/lyx2lyx/lyx_2_3.pyc
 -rw-r--r--	root/root	usr/share/lyx/lyx2lyx/lyx_2_3.pyo
+-rw-r--r--	root/root	usr/share/lyx/lyx2lyx/lyx_2_4.py
+-rw-r--r--	root/root	usr/share/lyx/lyx2lyx/lyx_2_4.pyc
+-rw-r--r--	root/root	usr/share/lyx/lyx2lyx/lyx_2_4.pyo
 -rw-r--r--	root/root	usr/share/lyx/lyx2lyx/parser_tools.py
 -rw-r--r--	root/root	usr/share/lyx/lyx2lyx/parser_tools.pyc
 -rw-r--r--	root/root	usr/share/lyx/lyx2lyx/parser_tools.pyo
