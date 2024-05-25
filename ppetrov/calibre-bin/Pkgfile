@@ -4,7 +4,7 @@
 # Depends on: hyphen krb5 libgpg-error libtiff44 libwebp nss openssl11 qt6-pdfwidgets qt6-svg qt6-wayland tslib xorg-libsm
 
 name=calibre-bin
-version=7.10.0
+version=7.11.0
 release=1
 source=(https://download.calibre-ebook.com/$version/calibre-$version-x86_64.txz
 	$name.desktop)

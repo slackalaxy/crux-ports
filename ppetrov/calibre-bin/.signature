@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZb+soEDUkoHXP2kYkj6hoOLacOr48FfmxUuCqY28zpJLeLYa+65Cg+ZR7QvczIYmSN6KtoL6/E7hcWgx76K4Nww=
-SHA256 (Pkgfile) = d0b4d18d76bd6a26aa45c8c81c0da377782fdb84b3a291343906dffb99b645df
+RWToVVsIkzFIZbTRaE8p99iRDZ0PSe6cPAikrIuG+WNxv/8EdDZTXr7Jai03I6RHY1Je4gpRYnIIaFm1kEBNrfy9q4NWhBrp1w8=
+SHA256 (Pkgfile) = e33fc790df0bef40c314fb895cb3529170cb500af25ecd02295e0061782e3883
 SHA256 (.footprint) = 91c9ac668c73945f8a1fe3bdb1147a8f3a90ea7a44c4e50a58fc8bbf3d393748
-SHA256 (calibre-7.10.0-x86_64.txz) = 75d0d2e71191abdb2a6e9aeba8ad403668f54b5b2f2e363893ca376a332dcbcf
+SHA256 (calibre-7.11.0-x86_64.txz) = 0e422c0ed0855561e31ed08417c3e6c38edb650b18483b3423b5acb97f26cd6c
 SHA256 (calibre-bin.desktop) = 10c24204c865e22718146e9a917c00d101f61eeae82408173e42c317b57a42dd
