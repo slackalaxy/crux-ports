@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=seqkit
-version=2.8.1
+version=2.8.2
 release=1
 source=(https://github.com/shenwei356/$name/releases/download/v${version}/${name}_linux_amd64.tar.gz)
 
