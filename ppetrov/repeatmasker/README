@@ -1,0 +1,30 @@
+After install go fo /usr/lib/repeatmasker and run the RepeatMasker
+Configuration Program:
+
+# perl ./configure
+
+Paths are as follows:
+
+**PERL PROGRAM**
+/usr/bin/perl
+
+**REPEATMASKER INSTALLATION DIRECTORY**
+/usr/lib/repeatmasker
+
+**TRF PROGRAM**
+/usr/bin/trf
+
+Add a Search Engine:
+1. CrossMatch: you should obtain this yourself, with the proper
+   license, following the instructions here http://www.phrap.org/
+2. RMBlast - NCBI Blast with RepeatMasker extensions
+3. WUBlast/ABBlast (required by DupMasker): you should obtain this
+   yourself, with the proper license, following the instructions here
+   https://blast.advbiocomp.com/licensing/
+4. HMMER3.1 & DFAM
+
+**RMBlast (rmblastn) INSTALLATION PATH**
+/usr/bin
+
+**HMMER INSTALLATION PATH**
+/usr/bin
