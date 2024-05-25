@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/HGNChelper/
+-rw-r--r--	root/root	usr/lib/R/library/HGNChelper/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/INDEX
 drwxr-xr-x	root/root	usr/lib/R/library/HGNChelper/Meta/
@@ -24,7 +25,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/HGNChelper/data/
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/data/Rdata.rds
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/data/Rdata.rdx
--rw-r--r--	root/root	usr/lib/R/library/HGNChelper/data/datalist
 drwxr-xr-x	root/root	usr/lib/R/library/HGNChelper/doc/
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/doc/index.R
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/doc/index.Rmd
@@ -33,7 +33,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/HGNChelper/extdata/
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/extdata/HGNChelper_mog_map_MGI_AMC_2016_03_30.csv
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/extdata/date_of_last_update.txt
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/extdata/mog_map.csv
--rw-r--r--	root/root	usr/lib/R/library/HGNChelper/extdata/valid_vs_year.R
 drwxr-xr-x	root/root	usr/lib/R/library/HGNChelper/help/
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/HGNChelper/help/HGNChelper.rdb

@@ -1,11 +1,11 @@
 # Description: R module backports
 # URL: https://cran.r-project.org/web/packages/backports
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-backports
-version=1.4.1
+version=1.5.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/backports_${version}.tar.gz)
 

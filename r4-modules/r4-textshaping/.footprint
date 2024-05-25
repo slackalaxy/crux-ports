@@ -35,6 +35,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/textshaping/help/figures/
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/help/figures/lifecycle-experimental.svg
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/help/figures/lifecycle-maturing.svg
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/help/figures/lifecycle-questioning.svg
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/help/figures/lifecycle-soft-deprecated.svg
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/help/figures/lifecycle-stable.svg
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/help/figures/lifecycle-superseded.svg
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/help/paths.rds

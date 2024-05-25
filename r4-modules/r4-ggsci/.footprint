@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggsci/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/R/ggsci.rdx
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggsci/WORDLIST
 drwxr-xr-x	root/root	usr/lib/R/library/ggsci/doc/
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/doc/ggsci-faq.R
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/doc/ggsci-faq.Rmd
@@ -34,6 +35,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggsci/help/
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/ggsci/help/figures/
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/help/figures/README-ggsci-aaas-1.png
+-rw-r--r--	root/root	usr/lib/R/library/ggsci/help/figures/README-ggsci-bmj-1.png
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/help/figures/README-ggsci-cosmic-1.png
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/help/figures/README-ggsci-cosmic-2.png
 -rw-r--r--	root/root	usr/lib/R/library/ggsci/help/figures/README-ggsci-cosmic-3.png
