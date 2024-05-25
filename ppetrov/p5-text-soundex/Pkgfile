@@ -1,0 +1,22 @@
+# Description:	Text::Soundex
+# URL:		http://search.cpan.org/~rjbs/Text-Soundex/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	perl
+
+name=p5-text-soundex
+version=3.05
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Text-Soundex-${version}.tar.gz)
+
+build() {
+	cd Text-Soundex-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}
