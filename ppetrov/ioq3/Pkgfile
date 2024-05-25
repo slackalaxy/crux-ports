@@ -4,9 +4,9 @@
 # Depends on:
 
 name=ioq3
-version=972635e
+version=1fc83e4
 release=1
-source=(https://github.com/ioquake/ioq3/archive/$version/$name-972635ea5a3d1057d9a958c2cb1815dff05ab33b.tar.gz
+source=(https://github.com/ioquake/ioq3/archive/$version/$name-1fc83e4845b53a9b259f5980468c8db15fce8de7.tar.gz
 	$name.desktop
 	$name.sh)
 
