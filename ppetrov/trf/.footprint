@@ -1,0 +1,6 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/trf
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/trf/
+-rw-r--r--	root/root	usr/share/trf/test_seqs.fasta.gz

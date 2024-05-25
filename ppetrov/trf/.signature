@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZYxVQsmvnS6tAd/gErppm+BfE4b0hwTGLI2JrNn34spY1l89IPK2NYJV0IZdhlPlljEKs9Sx9ao1SevUbq5BTwo=
+SHA256 (Pkgfile) = d717788f2f21e52dbcf3d826eb77999144749dcc003738204215aa9892001db2
+SHA256 (.footprint) = 580319e6fa6942547bb33fa742f15e81f49c646ad86a77dfc23d9db6885f0652
+SHA256 (TRF-4.09.1.tar.gz) = 516015b625473350c3d1c9b83cac86baea620c8418498ab64c0a67029c3fb28a

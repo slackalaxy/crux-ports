@@ -1,0 +1,22 @@
+# Description: Tandem repeats finder: a program to analyze DNA sequences
+# URL: https://tandem.bu.edu/trf/trf.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=trf
+version=4.09.1
+release=1
+source=(https://github.com/Benson-Genomics-Lab/TRF/archive/v${version}/TRF-$version.tar.gz)
+
+build() {
+	cd TRF-$version
+	
+	./configure --prefix=/usr
+	make
+	install -D -m755 src/trf $PKG/usr/bin/trf
+	
+	# Include FASTA examples, but let's compress the file first
+	mkdir -p $PKG/usr/share/$name
+	gzip test_seqs.fasta
+	cp test_seqs.fasta.gz $PKG/usr/share/$name
+}
