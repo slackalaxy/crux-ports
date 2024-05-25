@@ -5,8 +5,9 @@
 
 name=gbgoffice
 version=1.4
-release=1
+release=2
 source=(http://ftp.debian.org/debian/pool/main/g/$name/${name}_${version}.orig.tar.gz
+	02_exam-no-dicts.patch
 	03_multidir.patch
 	04_fix_fsf_address.patch
 	05_gcc4.1.patch
@@ -23,6 +24,7 @@ build() {
 	cd $name-$version
 	
 	# Thanks to Debian for the patches
+	patch -p1 -i $SRC/02_exam-no-dicts.patch
 	patch -p1 -i $SRC/03_multidir.patch
 	patch -p1 -i $SRC/05_gcc4.1.patch
 	patch -p1 -i $SRC/06_const-chars.patch

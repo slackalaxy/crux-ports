@@ -1,5 +1,5 @@
 # Description: fix compilation with gcc-4.5 (and corresponding libstdc++)
-#  Some deprecated typedefs are finaly removed
+#  Some deprecated typedefs are finally removed
 #  Constructors need not be explicitly named
 # Author: George Danchev <danchev@debian.org>
 # Forwarded: no
