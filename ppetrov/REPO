@@ -30,6 +30,7 @@ d:bpp-seq
 d:clustalo
 d:djview
 d:fiji
+d:trf
 d:gnome-icon-theme-stock
 d:gtklife
 d:jdiskreport
@@ -366,6 +367,7 @@ d:ugene
 d:xmms-skins-bunjee
 d:xscreensaver-gtk2
 d:gtk-theme-adwaitadark
+d:p5-text-soundex
 d:embassy
 d:foo2zjs
 d:gchemutils
@@ -549,6 +551,9 @@ f:1cb93a5a7ce54cfbfff3f5b4e6493547:fiji/fiji.sh
 f:3b09c2e6d51876132431ba8b50e79fe7:fiji/Pkgfile
 f:b4f2b441ae4ae35132d082ef9283814f:fiji/.footprint
 f:f9605eef5c1e29411c963db10487a5e5:fiji/.signature
+f:2852b5a8a6e955d1ec45458ca4c897fd:trf/Pkgfile
+f:033b0c81a60b5b58ac31c6c9be42a5f9:trf/.footprint
+f:e8fe10cb10f1b17eaead851a11912cab:trf/.signature
 f:98f5e666a444ef3f28b9f407b823efb8:gnome-icon-theme-stock/Pkgfile
 f:9e69c2aea74bd322c061849c7f4bd383:gnome-icon-theme-stock/.footprint
 f:33956e7bace0cfd1f43f269dbc2d364f:gnome-icon-theme-stock/.signature
@@ -1840,6 +1845,9 @@ f:a2c45773b7bb5f666e43917763d9dc58:gtk-theme-adwaitadark/Pkgfile
 f:c78b56ace618558e98d09a68c62c8bc7:gtk-theme-adwaitadark/gtk-theme-adwaitadark.tar.xz
 f:d9b06d26e9a128da7c615f13040b981e:gtk-theme-adwaitadark/.footprint
 f:12d8edcde91ce41775ea16d27248f429:gtk-theme-adwaitadark/.signature
+f:4c068bbb955fbcc5a2e5e6a5e821aa38:p5-text-soundex/Pkgfile
+f:0f6c2c830cfb7d41b33f6b0d343165ec:p5-text-soundex/.footprint
+f:480818e87fa5bc0a09db6161e597fea0:p5-text-soundex/.signature
 f:fdce549b84e15d68e8ddf9cd07b7c3c7:embassy/Pkgfile
 f:16cbb8f308e5f5e18aab7e67e6d5f701:embassy/.footprint
 f:6c15f8db8cbae2be6d26a3be0cbf85f4:embassy/.signature
