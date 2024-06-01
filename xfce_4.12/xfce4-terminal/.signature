@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchrNg5hCONhawcgaxkZNbB8a5IxdKZYcv6dORvDNiarQUgf+8ogP8rPoBWKSmxK1YTZxARO3M59gVl2rOH4NV7A4=
-SHA256 (Pkgfile) = 723fc4264c7b66fa7ac47e1267bdfa4c26991dec96b2083598c51f33bf9152ac
-SHA256 (.footprint) = cc875b55996a8eeb2dd93c9cc5f4f3e01ce420e099336308e5481293e7553150
-SHA256 (xfce4-terminal-0.6.3.tar.bz2) = 912f4716c2395a14a80620ef982b4af1e2a67a8df9a1ef0b802ecae826057e08
+RWTBbqF9F6zchoMFbuSUlqIp/TsBga0uTf6YqOsgYqsfweQi1m+ZMF/kfHx2oUAXbeMSawTDKI54gZr/shgRWJLZNF4SUOOsXAo=
+SHA256 (Pkgfile) = cbd0166c412607a9a1d43a131d25c9a72a45cf41ffd2678851cdcef5bb94c6b0
+SHA256 (.footprint) = 9d26658feefcdc66d297a41f294b7f7cd14af7692d5a378bcce44de69062e5f0
+SHA256 (xfce4-terminal-0.8.9.2.tar.bz2) = 9ba23bf86d350ef8a95d2dfb50bbd1bbb2144d82985a779ec28caf47faaeeeeb
 SHA256 (xfce4-terminal-dropdown.desktop) = 9bb09dff9bde1e8e3b3e6f6f72df5a129084442472150fb80a928d2b61bc0fff

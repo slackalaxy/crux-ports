@@ -56,8 +56,9 @@ f:d6eb268abf4c2fe1b3dfeeb0024277b6:orage/Pkgfile
 f:46a029d1007c1d9f7fb854f77cc76255:orage/orage.libical3.patch
 f:8f244a8763703b7d6cd2c4679756a814:orage/.signature
 f:e977e5cd67c982a2c4850f9b41ab8ba8:exo/.footprint
-f:f8d68064dc6fbf2f0b73cc2a8da47a3b:exo/Pkgfile
-f:dcd72af43108d9f9be4bf5ce7540de95:exo/.signature
+f:855102bc3acabcdf07cfe3f227ab525b:exo/Pkgfile
+f:81676b092a536dc752d0feef74c831a3:exo/.signature
+f:04563ec1cd76b8715f1e97c9ce4f4ddc:exo/0001-exo-open-Only-execute-local-.desktop-files.patch
 f:14ff7e512373b4ad5d64dc44ee5ef679:p5-extutils-pkgconfig/.footprint
 f:d05d410855e68eb828849b8cc5f1a16c:p5-extutils-pkgconfig/Pkgfile
 f:be24b12ea2239b26167dd1af960d7a99:p5-extutils-pkgconfig/.signature
@@ -188,9 +189,9 @@ f:bea6c4413c4d0ca33878396a6e9c41b5:xfce4-cpufreq-plugin/Pkgfile
 f:e40bd56e77a408efdc9dd1aa28cdf696:xfce4-cpufreq-plugin/gcc10_fix.patch
 f:6d5f3ca1bfa60c6a16e8c8ab44db843d:xfce4-cpufreq-plugin/post-install
 f:97d26b0da87031567e4905d5d38330a3:xfce4-cpufreq-plugin/.signature
-f:7e9bb8048a26353feb659ef8b7d7b5b8:xfce4-terminal/.footprint
-f:dabe4109ee06837bbfb784f77e701925:xfce4-terminal/Pkgfile
-f:cf352194e8e2ec6ecb92faf72001960b:xfce4-terminal/.signature
+f:9cd84a65f70780444ec6ee243305f09a:xfce4-terminal/.footprint
+f:babaa7a6463a48bce71e9925dbfe995b:xfce4-terminal/Pkgfile
+f:b6adffabf47ddebfaee95fcbae990645:xfce4-terminal/.signature
 f:23f30504fa14bc0ec0fd1cf6e01faed9:xfce4-terminal/xfce4-terminal-dropdown.desktop
 f:27cf24a19d4dad6f5f45dfde56e5221c:libxfce4util/.footprint
 f:e5a2682dd5c7412a031876b59eb4acd1:libxfce4util/Pkgfile
