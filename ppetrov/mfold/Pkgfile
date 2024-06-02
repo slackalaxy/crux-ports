@@ -1,0 +1,18 @@
+# Description: Unified Nucleic Acid Folding and hybridization package
+# URL: http://www.unafold.org/mfold/software/download-mfold.php
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=mfold
+version=3.6
+release=1
+source=(http://www.unafold.org/download/mfold-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr
+
+  make
+  make DESTDIR="$PKG" install
+
+}
