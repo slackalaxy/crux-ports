@@ -200,7 +200,6 @@ d:streamtuner
 d:treeviewx
 d:wordnet
 d:xmms-shn
-d:xopen0
 d:hexchat
 d:jalview
 d:libgnomecanvasmm
@@ -223,7 +222,6 @@ d:libidl
 d:aline
 d:bowtie
 d:calibre-bin
-d:cutadapt1
 d:ensembl_rest
 d:fonts-apple-ny
 d:genpak
@@ -387,6 +385,7 @@ d:poppler21
 d:quarto
 d:spades
 d:terminus-font-otb
+d:kalign
 d:xmms-skins-vortigo
 d:caps-coev
 d:biopython
@@ -407,6 +406,7 @@ d:celestia
 d:stellarium
 d:strawberry
 d:genfstab
+d:cutadapt
 d:bpp1-numcalc
 d:bpp1-seq
 d:bpp1-utils
@@ -430,6 +430,7 @@ d:wps-office
 d:ubuntulooks
 d:bmz-cursors
 d:obsidian-cursor-themes
+d:mfold
 d:bluecurve-gtk-themes
 d:xmms-skins-garetjax
 d:nlopt
@@ -471,7 +472,7 @@ f:4dd1d71ce9deb9915545c8d4a4c1f6fa:geneconv/.footprint
 f:2aa556ac90f600fa45e969d9800f73e0:geneconv/.signature
 f:cc65d819830612bebe1a4285857bb470:google-chrome/Pkgfile
 f:beba675bb51fb5f7d442251e54f63c69:google-chrome/.footprint
-f:d3aa466b04e9d92cb313c0fcdb7c10f6:google-chrome/.signature
+f:92b52df91fd7db8b452e3666b02cf3ef:google-chrome/.signature
 f:8b6f14f1f392e67dec298038f5e3c197:hyphy/Pkgfile
 f:67e5df311d1163766bfd9ac0fa731a25:hyphy/.footprint
 f:47725168f21474d050d7ccbd25f09ddf:hyphy/.signature
@@ -481,9 +482,9 @@ f:68ac3c2e7b6b36cca20920d4ea4fa60f:libcap-ng/.signature
 f:4fc5712432a95d495c27515d3fb0cfa4:liblxqt/Pkgfile
 f:851a1db8bdbfe0fd77fb644b7a2982a8:liblxqt/.footprint
 f:2649cebca68f4322b58953fac6c9d553:liblxqt/.signature
-f:ce9759b3978a5527d96baf5602862175:meme-db-motif/Pkgfile
-f:69dfa1f5667309a5e3a27ab65fb6b352:meme-db-motif/.footprint
-f:7bbd00342a16b60513ea6ca145afc57f:meme-db-motif/.signature
+f:606dde61c76323b1c18e3774e97e09e2:meme-db-motif/Pkgfile
+f:e38a39742cdbffe12aef1e49e5439d59:meme-db-motif/.footprint
+f:c0c7e8fa93e4f574d82e15bc807558f1:meme-db-motif/.signature
 f:1efc0405138814908ac0b5002223e2e6:file-roller-gtk2/Pkgfile
 f:0989d3302204f225f99318b612d8770b:file-roller-gtk2/README
 f:15738a08e35b6d0da1597f85e544f660:file-roller-gtk2/no_GPtrArray.patch
@@ -548,9 +549,9 @@ f:cef8a0137e126613bbb1e57916844d03:djview/.signature
 f:46bd8e587a31183f5bd250f44c77469d:fiji/ImageJ2.desktop
 f:48014bdca891cb252fb2c68f9559f765:fiji/README
 f:1cb93a5a7ce54cfbfff3f5b4e6493547:fiji/fiji.sh
-f:3b09c2e6d51876132431ba8b50e79fe7:fiji/Pkgfile
+f:3bc849cc166b442cd05a5792913883c6:fiji/Pkgfile
 f:b4f2b441ae4ae35132d082ef9283814f:fiji/.footprint
-f:f9605eef5c1e29411c963db10487a5e5:fiji/.signature
+f:8cbfde1481c57414bf4ae2edc7a625f3:fiji/.signature
 f:2852b5a8a6e955d1ec45458ca4c897fd:trf/Pkgfile
 f:033b0c81a60b5b58ac31c6c9be42a5f9:trf/.footprint
 f:e8fe10cb10f1b17eaead851a11912cab:trf/.signature
@@ -570,9 +571,9 @@ f:bf13932517e2d9482af86d896b2fb9ae:jdiskreport/.signature
 f:e45770a616a53b186ad254ef74e330f9:libgnomemm/Pkgfile
 f:d8d55fe4581f21079db8ab8a7e8ffd2a:libgnomemm/.footprint
 f:b3e7182cf63699776c9f2ab1654b4929:libgnomemm/.signature
-f:899e408ac7f432696977204c4ac3aadc:lyx/Pkgfile
-f:5c5785cc10cd194bddaa7e7af494170a:lyx/.footprint
-f:b7643086bfca685fadd8fa7d811f9292:lyx/.signature
+f:add0677782312530da81e6381c2ec7ce:lyx/Pkgfile
+f:3bf1b78e2433b034f022b44b47143def:lyx/.footprint
+f:fff1ee55837c72bbbe20f2b1625badce:lyx/.signature
 f:5370ea6bf30559e0f06187131018461d:murrine-themes/Pkgfile
 f:1a7fb3f77aee04120423c5b000a10baf:murrine-themes/.footprint
 f:8bae7995019a86fd5a91dccbcfbf6777:murrine-themes/.signature
@@ -992,9 +993,9 @@ f:7e007fa64f54708e3ccb81714777d6c3:chemtool/chemtool.desktop
 f:b990ee24240576f5dacf1afa228accd6:chemtool/chemtool.png
 f:7824709e3134a3b02f305ca39a4a1480:chemtool/.footprint
 f:9aaf5b95420e6f8f2fb91219156cc00f:chemtool/.signature
-f:6355ef90a7688a66f80a06b10f90d088:dendropy/Pkgfile
-f:d8b4daddbe940c5d71eebe0c8c8626d7:dendropy/.footprint
-f:452559c5316de2798fbb0f84e6f4c47b:dendropy/.signature
+f:5f88b04d8edf5368b01f236e62910389:dendropy/Pkgfile
+f:bf364cf022f27b0aebd7555e0e6de5ed:dendropy/.footprint
+f:c762a43855195b2d98fbf2a8bac7c345:dendropy/.signature
 f:607e061c5cff8446a3f2de394087f624:fasttree/Pkgfile
 f:b4b7bdfc28f77796e116afe86d0b118b:fasttree/.footprint
 f:18f2fc8fb0008c6d360127f1aec2b32b:fasttree/.signature
@@ -1136,8 +1137,8 @@ f:05381ce648b1b17811f545b6e28dfcb1:libbonoboui/.signature
 f:0605133e3ef6f73ff578fd646b401611:pdb-tools/Pkgfile
 f:aadd295b237cac9e80258e6a30751716:pdb-tools/.footprint
 f:1e414d97197947255d58fc036c0bd942:pdb-tools/.signature
-f:8994594858b88eb40b35e757f68ae18b:microsoft-edge/Pkgfile
-f:7fe84600ca7df423b687cba54f5eb881:microsoft-edge/.signature
+f:7d0cf58cb87abe92902131da02d530c4:microsoft-edge/Pkgfile
+f:1a9c0caf0071b8e1af4538573c265c92:microsoft-edge/.signature
 f:6257865c4283f32a41578a471bf36a8d:microsoft-edge/README
 f:3744e6f819d23e971ca1beefad160ca7:microsoft-edge/.footprint
 f:97564831353f8c05ab982fe2f607d552:openvpn/Pkgfile
@@ -1190,9 +1191,6 @@ f:8f0d5e702452cb3ccf98f9286597a4a7:wordnet/.signature
 f:6e6852bcc780f196bd6c39a79ae44cdc:xmms-shn/Pkgfile
 f:2771ac5473cad8a51b1195ee5967c458:xmms-shn/.footprint
 f:6525d5163fe6f5e499141e91ed80b41e:xmms-shn/.signature
-f:44c0c90a70364e804a0120bbae1ca10f:xopen0/Pkgfile
-f:4f66d654cc267ed29f346a69a3b41766:xopen0/.footprint
-f:ba0031f0045e81a71e585e0f453dc0bc:xopen0/.signature
 f:04eeb416791cbff920201bf9fd7d5a8d:hexchat/Pkgfile
 f:0c63aaa939691cebfd422ee6b77fb2c2:hexchat/.footprint
 f:3a6bbe9c0ddafe4695ef8009fe25a112:hexchat/.signature
@@ -1265,13 +1263,10 @@ f:73c8a5e1f6a442dfaa9457e9fbb4d893:aline/.signature
 f:b44d2383627760f2addaea3c21c0fbb4:bowtie/Pkgfile
 f:f961e5e54d5e85749fdf7dd80e0aa6c9:bowtie/.footprint
 f:5de3a22019c7710cbd950a5e8e98a16c:bowtie/.signature
-f:7c82acbe439c83bb64e7aae496bee225:calibre-bin/Pkgfile
+f:f199465f56f1a928e7afeadaa137d28f:calibre-bin/Pkgfile
 f:51db8d36d29a1266832d4737d83c94e3:calibre-bin/calibre-bin.desktop
 f:d039393d3a03b756f6ffc613d14c731a:calibre-bin/.footprint
-f:3c3a5a50445f1bc0c7706df8321b5eab:calibre-bin/.signature
-f:c5eb4f3983aa92649ccc75ed676d83aa:cutadapt1/Pkgfile
-f:69f2789bde6af39c0bb5359cb34be486:cutadapt1/.footprint
-f:39c543377f6fa633f1c23c2916e6f3b1:cutadapt1/.signature
+f:371ad61779e887e5ed85f3579964b340:calibre-bin/.signature
 f:eb4bd352841525363a70f17ad2d0e638:ensembl_rest/Pkgfile
 f:8d65e7601aab01982ff5195f6bc7687c:ensembl_rest/.footprint
 f:d44cd66d6146c7d4efc16271bc9f242c:ensembl_rest/.signature
@@ -1692,7 +1687,7 @@ f:7ce2384fe46b34dbdb568f16d6a13e75:mplayer/Pkgfile
 f:3e7b0aee696cb9d0f433f6e0a0451300:mplayer/README
 f:f659e7a1cbd746f613edef058404b575:mplayer/mplayer.conf
 f:9fcd890e76dbd16c31e47cf16ef59334:mplayer/.footprint
-f:c19725016be19bd5d62a2079ab3cdb2f:mplayer/.signature
+f:503e28e14f9d3942c25ee096c72408b9:mplayer/.signature
 f:f53d5ad5af80d7f9434aa98ad07b5af9:osmo/Pkgfile
 f:582c6aae5ba58081fc9333769940fb22:osmo/.footprint
 f:bbd7b8889f2df94c9740017a00ae25bd:osmo/.signature
@@ -1751,7 +1746,7 @@ f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png
 f:9e1209739a01ddd0ca9623cd34ae72e2:zoom-linux/zoom-linux.xml
 f:b06041820f8243e66bf2dba735561e49:zoom-linux/.footprint
-f:b7b2c7ab9b9cb3bc9067898d07475a47:zoom-linux/.signature
+f:57f98a2076c44558a168d87268903d91:zoom-linux/.signature
 f:5d5b1d4feda96e1de827f3a42e1bf69b:connman/Pkgfile
 f:c84dc23a0e09265a1000e39f84d8cf62:connman/.footprint
 f:4a8fb7fe3712c9369230b158da87b22d:connman/.signature
@@ -1915,6 +1910,9 @@ f:99bb230451e8ce964ebda1f79f6851d7:terminus-font-otb/Pkgfile
 f:84aef8e9688514030517afbea67e5305:terminus-font-otb/post-install
 f:759868c73d9c01ea68ca49aaf49d4347:terminus-font-otb/.footprint
 f:ab5348a56155ee21df91609aeef82f07:terminus-font-otb/.signature
+f:a8c7a52eceaf5d4f31675ad9bf0db16c:kalign/Pkgfile
+f:03fc49d665cc7bd8c9b4e7fe471b35f7:kalign/.footprint
+f:dfe9825fbc3c36234241142ee1cc283c:kalign/.signature
 f:a87342e4a1054f70bebd850c972bb05f:xmms-skins-vortigo/Pkgfile
 f:210c5b1a436a9e24eaa2b05b809b4fa5:xmms-skins-vortigo/.footprint
 f:ff5f17bf10fda6c54cd4277ee2df7663:xmms-skins-vortigo/.signature
@@ -1995,6 +1993,9 @@ f:9fe47c5bbb00ed7e84f5a1a5de5deefe:strawberry/.footprint
 f:93cf7520c06c23cd8af01dac07142044:genfstab/Pkgfile
 f:616cda1139ea2f1d26c0b32937065e69:genfstab/.footprint
 f:5768b1e34e7229ca94b96b46ded2e358:genfstab/.signature
+f:4783d0a1303715b7b46d7b75cba5a074:cutadapt/Pkgfile
+f:d4eb4bd71591c5bbbe7439ddf850c171:cutadapt/.footprint
+f:5cea0dfab3614eb0dcccfbd851d6c995:cutadapt/.signature
 f:5144252167b9a820eebf6c01c3414d4c:bpp1-numcalc/Pkgfile
 f:3b1e5ed67868e2691f9048cfa3ab2319:bpp1-numcalc/.footprint
 f:7b771ee02e091d697f064ed33f32472e:bpp1-numcalc/.signature
@@ -2075,6 +2076,9 @@ f:b182304d06c0af992b625591256b3481:bmz-cursors/.signature
 f:0bbe63f32d7f98f56acafaa2412b5e7e:obsidian-cursor-themes/Pkgfile
 f:c9553f7c6a3917a8bfb65c40c4ed6c93:obsidian-cursor-themes/.footprint
 f:ae2bdcd416b708f99ebf66657ea32231:obsidian-cursor-themes/.signature
+f:288c6d6c23e1e9604504b56a19209b5a:mfold/Pkgfile
+f:75e7a8a4f7b7b2a55bfd27ad9e59690f:mfold/.footprint
+f:c6d564cb66997e5e35ae715deac53894:mfold/.signature
 f:bd9fc6112a79813e1c6e4985d51b7894:bluecurve-gtk-themes/Pkgfile
 f:6c130af932dcf416b2130bc26edae7f7:bluecurve-gtk-themes/.footprint
 f:e3377c3f4483b396533b5bfc9d25d329:bluecurve-gtk-themes/.signature
@@ -2091,9 +2095,9 @@ f:4fcc4a3443767d08909a36e347056a8c:ubuntulooks-themes/Pkgfile
 f:f89be60a67ec8e6cbfb0a91ffbd51cd7:ubuntulooks-themes/.footprint
 f:588383f8bfac1e0e72ab752ab8759c0c:ubuntulooks-themes/.signature
 f:d8a11c1dab89924fb8c9a0f591099908:ubuntulooks-themes/ubuntulooks-themes-0.16.tar.xz
-f:b4655dd67f2753fd60bec434d5b56f59:opera/Pkgfile
+f:f5a4529a0ec1858fd7608294e2d1294a:opera/Pkgfile
 f:3ec42bb7230ea7ce10e330768b9f984c:opera/.footprint
-f:b52507ba8f6cbd3989faacd4c39401a5:opera/.signature
+f:d8a3017ae8d88a5fd4a6781be638ded0:opera/.signature
 f:323a76fbfb6626c0c9b723d2b9138448:repeatmasker/Pkgfile
 f:1332a28068c883d2bea4b46daf145e53:repeatmasker/README
 f:c82dfc397b61f0717cd148c166b7f1fa:repeatmasker/.footprint
