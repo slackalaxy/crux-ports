@@ -4,7 +4,7 @@
 # Depends on:
 
 name=dendropy
-version=4.6.1
+version=5.0.1
 release=1
 source=(https://github.com/jeetsukumaran/DendroPy/archive/v${version}/DendroPy-$version.tar.gz)
 
