@@ -5,7 +5,7 @@
 # Optional: r4-bench r4-bh r4-knitr r4-mvtnorm r4-rmarkdown r4-sitmo r4-testthat
 
 name=r4-dqrng
-version=0.4.0
+version=0.4.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/dqrng_${version}.tar.gz)
 

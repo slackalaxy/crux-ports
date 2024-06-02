@@ -1,11 +1,11 @@
 # Description: R module SparseM
 # URL: https://cran.r-project.org/web/packages/SparseM
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
-# Optional: 
+# Depends on: r 
+# Optional: r4-knitr
 
 name=r4-sparsem
-version=1.81
+version=1.83
 release=1
 source=(https://cloud.r-project.org/src/contrib/SparseM_${version}.tar.gz)
 
