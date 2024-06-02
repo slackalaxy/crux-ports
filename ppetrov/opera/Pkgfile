@@ -4,7 +4,7 @@
 # Depends on: cups double-conversion gnutls graphite2 icu libidn2 nss qt5 qt6-base wayland
 
 name=opera
-version=110.0.5130.39
+version=110.0.5130.49
 release=1
 source=(https://get.geo.opera.com/pub/opera/desktop/$version/linux/opera-stable_${version}_amd64.deb \
 	https://github.com/nwjs-ffmpeg-prebuilt/nwjs-ffmpeg-prebuilt/releases/download/0.85.0/0.85.0-linux-x64.zip)
