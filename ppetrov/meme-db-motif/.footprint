@@ -1,7 +1,6 @@
 drwxr-xr-x	root/root	var/
 drwxr-xr-x	root/root	var/lib/
 drwxr-xr-x	root/root	var/lib/meme-suite/
--rw-r--r--	root/root	var/lib/meme-suite/motif_databases.12.24.tgz.tmp
 drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/
 drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/ARABD/
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/ARABD/ArabidopsisDAPv1.meme
