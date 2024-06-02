@@ -5,9 +5,9 @@
 # Optional: aspell-en enchant
 
 name=lyx
-version=2.3.8
+version=2.4.0
 release=1
-source=(https://ftp.lip6.fr/pub/lyx/stable/2.3.x/lyx-$version.tar.xz)
+source=(https://ftp.lip6.fr/pub/lyx/stable/${version:0:3}.x/lyx-$version.tar.xz)
 
 build() {
 	cd $name-$version
@@ -21,4 +21,5 @@ build() {
 	rm -rf $PKG/usr/share/$name/examples/{??,??_??}
 	rm -rf $PKG/usr/share/locale/
 	find $PKG/ -name "*README*" -delete
+	find $PKG/ -name "*COPYING*" -delete
 }
