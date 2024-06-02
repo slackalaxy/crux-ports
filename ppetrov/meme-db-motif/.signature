@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZaHLEQ2XOjNLzTPXSkRvk4Qk6glvay0rayHdbpOUIDUuUnoc0lCxwLzt+J8TJ/c2/mDoZxiwbECmrhuJWaOpkwk=
-SHA256 (Pkgfile) = b46067e3adb281b0e9db134562f0507915676adde4c0f614fa348e2c25f2c217
-SHA256 (.footprint) = 8b87aef613152060a0dcc00c86a836c7118d4157cf70e69172e44df44fdff253
-SHA256 (motif_databases.12.23.tgz) = 5bea8d1f6de5dff8874f9a7f5a3f5cfb3a4ce9e40aff7b0150a3aa079d1371a2
+RWToVVsIkzFIZac2tgHpDA05qnet+oXQ155UhOB3e0SPXMd9syQ03vAuoLEkmOL3TWNkZzv+WVH7mnBGJmZEbEkpW0d6m50oRAw=
+SHA256 (Pkgfile) = 1492c3b402bb326fe54052338956ca6ca0854b599967c817b683dd69578720ec
+SHA256 (.footprint) = b325c7d6f8892294bfa8ff14ae2c7f10649124cf0b0dac0cb2d601e1eb4a1ab8
+SHA256 (motif_databases.12.24.tgz.tmp) = 76d65755eac9ff7d561145aa55007013d805a461238bef216a6ca1fb8ed3f444

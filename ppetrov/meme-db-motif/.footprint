@@ -1,6 +1,7 @@
 drwxr-xr-x	root/root	var/
 drwxr-xr-x	root/root	var/lib/
 drwxr-xr-x	root/root	var/lib/meme-suite/
+-rw-r--r--	root/root	var/lib/meme-suite/motif_databases.12.24.tgz.tmp
 drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/
 drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/ARABD/
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/ARABD/ArabidopsisDAPv1.meme
@@ -1614,6 +1615,11 @@ drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/FLY/
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/FLY/fly_factor_survey.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/FLY/flyreg.v2.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/FLY/idmmpmm2009.meme
+drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/HOCOMOCO/
+-rw-r--r--	root/root	var/lib/meme-suite/motif_databases/HOCOMOCO/H12CORE_meme_format.meme
+-rw-r--r--	root/root	var/lib/meme-suite/motif_databases/HOCOMOCO/H12INVITRO_meme_format.meme
+-rw-r--r--	root/root	var/lib/meme-suite/motif_databases/HOCOMOCO/H12INVIVO_meme_format.meme
+-rw-r--r--	root/root	var/lib/meme-suite/motif_databases/HOCOMOCO/H12RSNP_meme_format.meme
 drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/HUMAN/
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/HUMAN/HOCOMOCOv10_HUMAN_mono_meme_format.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/HUMAN/HOCOMOCOv11_core_HUMAN_mono_meme_format.meme
@@ -2702,13 +2708,15 @@ drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/MOUSE/
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/MOUSE/chen2008.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/MOUSE/uniprobe_mouse.meme
 drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/PROKARYOTE/
+-rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROKARYOTE/._prodoric_2021.9.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROKARYOTE/collectf.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROKARYOTE/fan2020.meme
--rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROKARYOTE/prodoric.meme
+-rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROKARYOTE/prodoric_2021.9.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROKARYOTE/regtransbase.meme
 drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/PROTEIN/
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROTEIN/elm2017.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROTEIN/elm2018.meme
+-rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROTEIN/elm2024.meme
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/PROTEIN/prosite2021_04.meme
 drwxr-xr-x	root/root	var/lib/meme-suite/motif_databases/RNA/
 -rw-r--r--	root/root	var/lib/meme-suite/motif_databases/RNA/Ray2013_rbp_All_Species.dna_encoded.meme
