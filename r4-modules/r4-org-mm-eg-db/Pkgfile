@@ -1,0 +1,16 @@
+# Description: R module org.Mm.eg.db
+# URL: https://bioconductor.org/packages/org.Mm.eg.db
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-annotationdbi
+# Optional: r4-annotate r4-dbi r4-runit
+
+name=r4-org-mm-eg-db
+version=3.19.1
+release=1
+source=(https://bioconductor.org/packages/3.19/data/annotation/src/contrib/org.Mm.eg.db_${version}.tar.gz)
+
+build() {
+	cd org.Mm.eg.db
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -5,7 +5,7 @@
 # Optional: r4-affy r4-affydata r4-biocstyle r4-bsgenome r4-bsgenome-celegans-ucsc-ce2 r4-bsgenome-dmelanogaster-ucsc-dm3 r4-bsgenome-hsapiens-ucsc-hg18 r4-drosophila2probe r4-genomicfeatures r4-hgu133aprobe r4-hgu95av2cdf r4-hgu95av2probe r4-knitr r4-pwalign r4-runit
 
 name=r4-biostrings
-version=2.72.0
+version=2.72.1
 release=1
 source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/Biostrings_${version}.tar.gz)
 

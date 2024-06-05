@@ -1,0 +1,16 @@
+# Description: R module packrat
+# URL: https://cran.r-project.org/web/packages/packrat
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-devtools r4-httr r4-knitr r4-mockery r4-rmarkdown r4-testthat
+
+name=r4-packrat
+version=0.9.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/packrat_${version}.tar.gz)
+
+build() {
+	cd packrat
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
