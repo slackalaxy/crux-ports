@@ -24,11 +24,11 @@ d:slackalaxy-repos
 d:xorg-conf-synaptics
 d:hnam
 d:gtk3-dummy-dark
-f:8d049dc8245b44caf15cae645fb724fa:fonts-microsoft-win11/.footprint
-f:b54d53547deb93695671190f8f44ebf5:fonts-microsoft-win11/Pkgfile
+f:8b82b3dee202ac566d4654b4a65b557d:fonts-microsoft-win11/.footprint
+f:deb3d981c7ce1c1356c8d8fad87d701c:fonts-microsoft-win11/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-microsoft-win11/README
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-microsoft-win11/post-install
-f:ccddeb0ded633c562a2f3a00de31f16a:fonts-microsoft-win11/.signature
+f:9ca68692672bd6cd7434211de2593368:fonts-microsoft-win11/.signature
 f:6102a434bebf5d40eb4298ea2f2c391d:fonts-msoffice/.footprint
 f:e8da4a3fa22696617e6a73fdd1ae9fd2:fonts-msoffice/Pkgfile
 f:ba49d43668421a4c0bfbaa791ca40e08:fonts-msoffice/README
@@ -75,9 +75,9 @@ f:187548d673a33dd5a85ce015baea238e:fonts-apple-osx/post-install
 f:a162e2f13de804c3cac36771b32e4d42:fonts-apple-osx/Pkgfile
 f:cd98737feba8f699dc98f53cece56ec4:fonts-apple-osx/.signature
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
-f:c7f62d08f273394eb73208a1526694dd:fonts-conf/Pkgfile
+f:e5f87c7e5ccc9e476eeb7688de425b43:fonts-conf/Pkgfile
 f:00ed35084250268075e059f0d7bc984f:fonts-conf/README
-f:26e1515448c555a6d6829acf0a4337d2:fonts-conf/.signature
+f:5980d2c655d435294b15b96b2e47796a:fonts-conf/.signature
 f:51960356f17d053a4cb7e101267cb8a8:depsck/.signature
 f:96f4215dc57e67cc2f0d710ec5f703bb:depsck/.footprint
 f:c88d4063c9d8790e6b509ec569e5cc6c:depsck/Pkgfile
