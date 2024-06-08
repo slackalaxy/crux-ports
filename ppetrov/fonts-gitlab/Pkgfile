@@ -1,0 +1,18 @@
+# Description: GitLab Fonts
+# URL: https://gitlab-org.gitlab.io/frontend/fonts/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=fonts-gitlab
+version=4
+release=1
+source=(https://gitlab-org.gitlab.io/frontend/fonts/fonts/GitLabSans.ttf
+	https://gitlab-org.gitlab.io/frontend/fonts/fonts/GitLabSans-Italic.ttf
+	https://gitlab-org.gitlab.io/frontend/fonts/fonts/GitLabMono.ttf
+	https://gitlab-org.gitlab.io/frontend/fonts/fonts/GitLabMono-Italic.ttf)
+
+build() {
+  mkdir -p $PKG/usr/share/fonts/X11/TTF
+  cp -a *.ttf $PKG/usr/share/fonts/X11/TTF
+  chmod 0644 $PKG/usr/share/fonts/X11/TTF/*
+}
