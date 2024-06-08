@@ -4,9 +4,9 @@
 # Depends on: fonts-apple-garamond fonts-apple-ny fonts-apple-sf fonts-mathtype fonts-microsoft-aptos fonts-microsoft-win11 fonts-msoffice
 
 name=fonts-conf
-version=985c5d6
-release=2
-source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-985c5d641955fa9832bd5e01e4891fce94c6e7db.tar.gz)
+version=5f6b2a5
+release=1
+source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-5f6b2a55e57d0b5f4f75c70dbcafa58ac15a3932.tar.gz)
 
 build() {
 	cd $name-${version}*
