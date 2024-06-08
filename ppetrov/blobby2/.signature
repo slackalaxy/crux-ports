@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZT8KJSQ/+Tel+rUujcUpdX8qSpmnNUmv4Ef62T2dG3E81xlrzXLQrnrD5b5rsmOv8hmp4JMrv7gnny0x2iGAbAk=
-SHA256 (Pkgfile) = 34f8339b6a70af988580da3ae821bf61d98e6d04fb292e299e427fc505c7a32f
+RWToVVsIkzFIZcw1MC4NaoTSisXEZ1Owe4v4hJtbg0E1zZD7309RuTWZTuaw/yzVapl+X5XnNYqCd7rLHZy+KxxcSm09lVd1fwA=
+SHA256 (Pkgfile) = 64862affe7eca285e1883dad9778de6f90eb9ef87a439169fecb34ef93626d88
 SHA256 (.footprint) = 87c9b697d17e5777b1588c4692f5afe8ee637925818da70f422ccfceeb6da5a0
-SHA256 (blobby2-linux-1.1.tar.gz) = d56279f4585bd68a578ce722fa7031fc5db0e539c169187142e3ca82698b7ef4
+SHA256 (blobby2-linux-1.1.1.tar.gz) = 357ee513e69d3b50f67fc063d4acb7959a5fe88977817f0aab14ccc70db214ba
