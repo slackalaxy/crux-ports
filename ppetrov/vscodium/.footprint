@@ -1109,6 +1109,10 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@parcel/watcher/build/Release/
 -rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@parcel/watcher/build/Release/watcher.node
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/deviceid/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/deviceid/build/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/deviceid/build/Release/
+-rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/deviceid/build/Release/windows.node
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/policy-watcher/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/policy-watcher/build/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/policy-watcher/build/Release/
@@ -1199,12 +1203,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-main/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-main/main.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-main/main.nls.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/issue/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/issue/issueReporter.html
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/issue/issueReporter.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/issue/issueReporterMain.css
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/issue/issueReporterMain.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/issue/issueReporterMain.nls.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.js
@@ -1247,6 +1245,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilit
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/progress.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/quickFixes.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/save.mp3
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/success.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskCompleted.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/taskFailed.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/terminalBell.mp3
@@ -1261,6 +1260,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/files/node/w
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/profiling/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/profiling/electron-sandbox/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/profiling/electron-sandbox/profileAnalysisWorker.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/profiling/electron-sandbox/profileAnalysisWorker.nls.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/terminal/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/terminal/node/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/terminal/node/ptyHostMain.js
@@ -1289,6 +1289,13 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/ext
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/externalTerminal/node/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/externalTerminal/node/TerminalHelper.scpt
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/externalTerminal/node/iTermHelper.scpt
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.html
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporterMain.css
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporterMain.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporterMain.nls.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/notebook/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/notebook/common/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/notebook/common/services/
