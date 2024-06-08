@@ -1,0 +1,21 @@
+# Description: Plasmid Drawing Program
+# URL: http://www.bioprocess.org/plasmid/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=plasmidomics
+version=0.2
+release=1
+source=(http://www.bioprocess.org/plasmid/plasmidomics-0.2.tar.bz2
+	$name.1 $name.desktop $name.png)
+
+build() {
+  cd $name-$version
+  install -D -m 0755 plasmid $PKG/usr/bin/$name
+  
+  mkdir -p $PKG/usr/share/{applications,pixmaps}
+  cp $SRC/$name.desktop $PKG/usr/share/applications/
+  cp $SRC/$name.png $PKG/usr/share/pixmaps/
+  
+  install -D -m 0644 $SRC/$name.1 $PKG/usr/share/man/man1/$name.1
+}
