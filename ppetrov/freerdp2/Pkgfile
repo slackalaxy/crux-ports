@@ -3,13 +3,13 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: icu libjpeg-turbo xorg-libxcursor xorg-libxdamage xorg-libxinerama xorg-libxkbfile xorg-libxrandr xorg-libxtst xorg-libxv
 
-name=freerdp
+name=freerdp2
 version=2.11.2
 release=1
 source=(https://github.com/FreeRDP/FreeRDP/files/12670558/freerdp-$version.tar.gz)
 
 build() {
-	cd $name-$version
+	cd freerdp-$version
 	mkdir -p build
 	cd build
 
