@@ -1,11 +1,11 @@
 # Description: A remote desktop client
 # URL: https://gitlab.com/Remmina/Remmina
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: freerdp gnome-icon-theme-symbolic keyutils krb5 libsecret libsodium libssh libvncserver spice-gtk
+# Depends on: freerdp2 gnome-icon-theme-symbolic keyutils krb5 libsecret libsodium libssh libvncserver spice-gtk
 
 name=remmina
 version=1.4.35
-release=1
+release=2
 source=(https://gitlab.com/Remmina/Remmina/-/archive/v${version}/Remmina-v${version}.tar.gz)
 
 build() {
