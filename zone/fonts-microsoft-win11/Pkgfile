@@ -5,7 +5,7 @@
 
 name=fonts-microsoft-win11
 version=22H2
-release=2
+release=3
 source=(https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso)
 
 build() {
@@ -18,4 +18,7 @@ build() {
 	cd $PKG/usr/share/fonts/microsoft
 	7z e -aoa $SRC/$name-$version/sources/install.wim Windows/Fonts/"*".{ttf,ttc}
 	chmod 0644 *.{ttf,ttc}
+	
+	# WPS Office has an issue with these
+	rm -rf $PKG/usr/share/fonts/microsoft/{SegUIVar.ttf,SitkaVF.ttf,SitkaVF-Italic.ttf}
 }
