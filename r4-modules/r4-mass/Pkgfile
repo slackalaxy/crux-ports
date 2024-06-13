@@ -5,9 +5,9 @@
 # Optional: r4-lattice r4-nlme r4-nnet r4-survival
 
 name=r4-mass
-version=7.3.60.2
+version=7.3.61
 release=1
-source=(https://cloud.r-project.org/src/contrib/MASS_7.3-60.2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/MASS_7.3-61.tar.gz)
 
 build() {
 	cd MASS

@@ -3,7 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/mlr/
--rwxr-xr-x	root/root	usr/lib/R/library/mlr/CITATION
+-rw-r--r--	root/root	usr/lib/R/library/mlr/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/mlr/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/mlr/INDEX
 -rw-r--r--	root/root	usr/lib/R/library/mlr/LICENSE
@@ -29,7 +29,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mlr/data/
 drwxr-xr-x	root/root	usr/lib/R/library/mlr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/mlr/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/mlr/doc/mlr.R
--rwxr-xr-x	root/root	usr/lib/R/library/mlr/doc/mlr.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/mlr/doc/mlr.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/mlr/doc/mlr.html
 drwxr-xr-x	root/root	usr/lib/R/library/mlr/examples/
 -rw-r--r--	root/root	usr/lib/R/library/mlr/examples/MultilabelWrapper.R
