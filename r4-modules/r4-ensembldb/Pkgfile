@@ -1,0 +1,16 @@
+# Description: R module ensembldb
+# URL: https://bioconductor.org/packages/ensembldb
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-annotationdbi r4-annotationfilter r4-biobase r4-biocgenerics r4-biostrings r4-curl r4-dbi r4-genomeinfodb r4-genomicfeatures r4-genomicranges r4-iranges r4-protgenerics r4-rsamtools r4-rsqlite r4-rtracklayer r4-s4vectors
+# Optional: r4-annotationhub r4-biocstyle r4-bsgenome-hsapiens-ncbi-grch38 r4-ensdb-hsapiens-v86 r4-ggbio r4-gviz r4-knitr r4-rmarkdown r4-testthat
+
+name=r4-ensembldb
+version=2.28.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/ensembldb_${version}.tar.gz)
+
+build() {
+	cd ensembldb
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module BiocParallel
+# URL: https://bioconductor.org/packages/BiocParallel
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-bh r4-codetools r4-cpp11 r4-futile-logger r4-snow
+# Optional: r4-batchtools r4-bbmisc r4-biocgenerics r4-biocstyle r4-data-table r4-doparallel r4-foreach r4-genomicalignments r4-genomicranges r4-knitr r4-rnaseqdata-hnrnpc-bam-chr14 r4-rsamtools r4-runit r4-shortread r4-txdb-hsapiens-ucsc-hg19-knowngene r4-variantannotation
+
+name=r4-biocparallel
+version=1.38.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocParallel_${version}.tar.gz)
+
+build() {
+	cd BiocParallel
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

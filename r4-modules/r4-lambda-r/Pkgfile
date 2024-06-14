@@ -1,0 +1,16 @@
+# Description: R module lambda.r
+# URL: https://cran.r-project.org/web/packages/lambda.r
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-formatr
+# Optional: r4-testit
+
+name=r4-lambda-r
+version=1.2.4
+release=1
+source=(https://cloud.r-project.org/src/contrib/lambda.r_${version}.tar.gz)
+
+build() {
+	cd lambda.r
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

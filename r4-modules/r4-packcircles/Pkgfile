@@ -1,0 +1,16 @@
+# Description: R module packcircles
+# URL: https://cran.r-project.org/web/packages/packcircles
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-rcpp
+# Optional: r4-ggiraph r4-ggplot2 r4-knitr r4-lpsolve r4-rmarkdown
+
+name=r4-packcircles
+version=0.3.6
+release=1
+source=(https://cloud.r-project.org/src/contrib/packcircles_${version}.tar.gz)
+
+build() {
+	cd packcircles
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

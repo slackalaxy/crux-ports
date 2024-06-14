@@ -1,0 +1,16 @@
+# Description: R module futile.logger
+# URL: https://cran.r-project.org/web/packages/futile.logger
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-futile-options r4-lambda-r
+# Optional: r4-jsonlite r4-testthat
+
+name=r4-futile-logger
+version=1.4.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/futile.logger_${version}.tar.gz)
+
+build() {
+	cd futile.logger
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

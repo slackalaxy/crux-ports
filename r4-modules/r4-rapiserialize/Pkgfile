@@ -1,0 +1,16 @@
+# Description: R module RApiSerialize
+# URL: https://cran.r-project.org/web/packages/RApiSerialize
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: 
+
+name=r4-rapiserialize
+version=0.1.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/RApiSerialize_${version}.tar.gz)
+
+build() {
+	cd RApiSerialize
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

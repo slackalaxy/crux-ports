@@ -1,0 +1,16 @@
+# Description: R module shinydashboard
+# URL: https://cran.r-project.org/web/packages/shinydashboard
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-htmltools r4-promises r4-shiny
+# Optional: 
+
+name=r4-shinydashboard
+version=0.7.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/shinydashboard_${version}.tar.gz)
+
+build() {
+	cd shinydashboard
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

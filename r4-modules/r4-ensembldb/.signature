@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89NA/9R8q6AMlI8IvwkAshLrjSIfcyQ304M1Pj2tJ6sMGPddT3wEboqh68CDChRX1WYTZTSYMGXF7g2jCBfJLmAA=
+SHA256 (Pkgfile) = c7a9fb0ebb5d877998a1970969748d28416f867ba04225e44d9f6fa24bea9b1a
+SHA256 (.footprint) = c32158183e54c955786b8334a85a553ff522d25ad70409f53983c04998ae58cd
+SHA256 (ensembldb_2.28.0.tar.gz) = 8750dacf2b39d9c26fc0972bfd43cb6a18c1251e6000a7e768c0a784f9b30382

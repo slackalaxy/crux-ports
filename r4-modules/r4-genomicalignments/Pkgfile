@@ -1,0 +1,16 @@
+# Description: R module GenomicAlignments
+# URL: https://bioconductor.org/packages/GenomicAlignments
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocgenerics r4-biocparallel r4-biostrings r4-genomeinfodb r4-genomicranges r4-iranges r4-rsamtools r4-s4vectors r4-summarizedexperiment
+# Optional: r4-biocstyle r4-bsgenome r4-bsgenome-dmelanogaster-ucsc-dm3 r4-bsgenome-hsapiens-ucsc-hg19 r4-deseq2 r4-edger r4-genomicfeatures r4-knitr r4-pasillabamsubset r4-rnaseqdata-hnrnpc-bam-chr14 r4-rtracklayer r4-runit r4-shortread r4-txdb-dmelanogaster-ucsc-dm3-ensgene r4-txdb-hsapiens-ucsc-hg19-knowngene
+
+name=r4-genomicalignments
+version=1.40.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/GenomicAlignments_${version}.tar.gz)
+
+build() {
+	cd GenomicAlignments
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

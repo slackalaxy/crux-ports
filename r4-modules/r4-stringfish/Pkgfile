@@ -1,0 +1,16 @@
+# Description: R module stringfish
+# URL: https://cran.r-project.org/web/packages/stringfish
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-rcpp r4-rcppparallel
+# Optional: r4-dplyr r4-knitr r4-qs r4-rlang r4-rmarkdown r4-stringr r4-usethis
+
+name=r4-stringfish
+version=0.16.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/stringfish_${version}.tar.gz)
+
+build() {
+	cd stringfish
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
