@@ -4,8 +4,8 @@
 # Depends on: fonts-conf gigolo-gtk2 gnome-colors-48 leafpad medit qt5ct viewnior xscreensaver-gtk2 inkscape-gtk2 gimp wps-office
 
 name=skel-extra
-version=0.5
-release=2
+version=0.6
+release=1
 source=(config.tar.xz local.tar.xz mplayer.tar.xz hidden xscreensaver)
 
 build() {
@@ -15,7 +15,7 @@ build() {
 	cp -a local $PKG/etc/skel/.local
 	
 	# these are my xscreensaver preferences
-	install -m 0644 xscreensaver $PKG/etc/skel/.xscreensaver
+	#install -m 0644 xscreensaver $PKG/etc/skel/.xscreensaver
 	
 	mkdir -p $PKG/var/tmp/electricsheep
 	chmod 777 $PKG/var/tmp/electricsheep

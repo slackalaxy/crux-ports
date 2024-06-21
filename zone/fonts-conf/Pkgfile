@@ -1,12 +1,12 @@
 # Description: Custom fonts configuration
 # URL: https://github.com/slackalaxy/fonts-conf
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fonts-apple-garamond fonts-apple-ny fonts-apple-sf fonts-mathtype fonts-microsoft-aptos fonts-microsoft-win11 fonts-msoffice
+# Depends on: fonts-apple-ny fonts-apple-sf fonts-mscore fonts-msoffice fonts-macsel
 
 name=fonts-conf
-version=5f6b2a5
+version=be907cd
 release=1
-source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-5f6b2a55e57d0b5f4f75c70dbcafa58ac15a3932.tar.gz)
+source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-be907cdef79a6a03515efd7d67b70bff7c1a873c.tar.gz)
 
 build() {
 	cd $name-${version}*

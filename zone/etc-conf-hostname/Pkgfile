@@ -1,13 +1,12 @@
 # Description: hostname file in /etc
 # URL: /etc/hostname
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
 
-name=hnam
-version=00
+name=etc-conf-hostname
+version=0cf986b
 release=1
-source=($name)
+source=(HOSTNAME)
 
 build() {
-	install -D -m 0644 $SRC/$name $PKG/etc/hostname
+	install -D -m 0644 $SRC/HOSTNAME $PKG/etc/HOSTNAME
 }

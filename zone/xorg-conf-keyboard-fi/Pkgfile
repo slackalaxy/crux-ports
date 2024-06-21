@@ -3,8 +3,8 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: xorg
 
-name=xorg-conf-keyboard
-version=00
+name=xorg-conf-keyboard-fi
+version=3ead541
 release=1
 source=(00-keyboard.conf)
 

@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=skel
-version=0.2
+version=0.3
 release=1
 source=(bash_logout bash_profile bashrc xprofile Xresources)
 

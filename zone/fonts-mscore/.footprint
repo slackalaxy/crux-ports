@@ -2,6 +2,21 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/microsoft/
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Black.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Display Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Display Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Display Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Display.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos ExtraBold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos ExtraBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Narrow Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Narrow Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Narrow Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos Narrow.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/Aptos.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/Candara.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/Candarab.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/Candarai.ttf
@@ -10,18 +25,6 @@ drwxr-xr-x	root/root	usr/share/fonts/microsoft/
 -rw-r--r--	root/root	usr/share/fonts/microsoft/Candaraz.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/Gabriola.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/Inkfree.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/LeelUIsl.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/LeelaUIb.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/LeelawUI.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/Nirmala.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/NirmalaB.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/NirmalaS.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/SansSerifCollection.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/SegoeIcons.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/YuGothB.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/YuGothL.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/YuGothM.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/YuGothR.ttc
 -rw-r--r--	root/root	usr/share/fonts/microsoft/arial.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/arialbd.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/arialbi.ttf
@@ -70,39 +73,17 @@ drwxr-xr-x	root/root	usr/share/fonts/microsoft/
 -rw-r--r--	root/root	usr/share/fonts/microsoft/georgiab.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/georgiai.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/georgiaz.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/himalaya.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/holomdl2.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/impact.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/javatext.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/l_10646.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/lucon.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/malgun.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/malgunbd.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/malgunsl.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/marlett.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/micross.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/mingliub.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/mmrtext.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/mmrtextb.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/monbaiti.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/msgothic.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/msjh.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/msjhbd.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/msjhl.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/msyh.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/msyhbd.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/msyhl.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/msyi.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/mtextra.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/mvboli.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/ntailu.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/ntailub.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/pala.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/palab.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/palabi.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/palai.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/phagspa.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/phagspab.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/segmdl2.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/segoepr.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/segoeprb.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/segoesc.ttf
@@ -115,21 +96,19 @@ drwxr-xr-x	root/root	usr/share/fonts/microsoft/
 -rw-r--r--	root/root	usr/share/fonts/microsoft/segoeuiz.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/seguibl.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/seguibli.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/seguiemj.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/seguihis.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/seguili.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/seguisb.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/seguisbi.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/seguisli.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/seguisym.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/simsun.ttc
--rw-r--r--	root/root	usr/share/fonts/microsoft/simsunb.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/seguivar.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/sitkavf.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/sitkavfi.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/sylfaen.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/symbol.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/tahoma.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/tahomabd.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/taile.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/taileb.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/times.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/timesbd.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/timesbi.ttf
