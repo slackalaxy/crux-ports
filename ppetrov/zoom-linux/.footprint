@@ -127,6 +127,10 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/folderlistmodel/
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.so
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/folderlistmodel/plugins.qmltypes
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/folderlistmodel/qmldir
+drwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/lottieqt/
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/lottieqt/liblottieqtplugin.so
+-rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/lottieqt/plugins.qmltypes
+-rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/lottieqt/qmldir
 drwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/platform/
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/platform/libqtlabsplatformplugin.so
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/platform/plugins.qmltypes
@@ -1116,6 +1120,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/QtWayland/Client/TextureSharing/
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/QtWayland/Client/TextureSharing/qmldir
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/builtins.qmltypes
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/ZoomLauncher
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/ZoomWebviewHost
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/aomhost
 -rw-r--r--	root/root	usr/lib/zoom-linux/archival.pcm
 drwxr-xr-x	root/root	usr/lib/zoom-linux/calendar/
