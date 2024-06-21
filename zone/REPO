@@ -122,6 +122,7 @@ f:d107709cb142bef0538c5ef92f10f88e:fonts-macsel/Pkgfile
 f:d54fa5a876d34895a5e1b55b13ad9787:fonts-macsel/post-install
 f:29506e502d30a3462bc5283395736bca:fonts-macsel/.footprint
 f:cdb0882aad0ba649005b447b847519ed:fonts-macsel/.signature
+f:33345441a862388eda867fe9f469ce97:fonts-macsel/README
 f:fe3a998f263da047c3ed2d254afffe7b:fonts-mscore/.footprint
 f:8692df9c418ad09a5b45a8c12adc19c8:fonts-mscore/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-mscore/README
