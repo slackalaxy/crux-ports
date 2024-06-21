@@ -77,7 +77,6 @@ drwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/post/
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_decode_dts.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_decode_dvaudio.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_decode_faad.so
--rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_decode_ff.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_decode_gdk_pixbuf.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_decode_gsm610.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_decode_image.so
@@ -109,7 +108,6 @@ drwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/post/
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_dmx_pva.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_dmx_slave.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_dmx_video.so
--rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_dxr3.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_flac.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_hw_frame_vaapi.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_inp_cdda.so
@@ -129,6 +127,7 @@ drwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/post/
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_tls_openssl.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_va_display_drm.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_va_display_glx.so
+-rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_va_display_wl.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_va_display_x11.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_vdr.so
 -rwxr-xr-x	root/root	usr/lib/xine/plugins/2.11/xineplug_vo_gl_egl_wl.so
