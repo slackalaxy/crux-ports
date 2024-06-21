@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/share/fonts/apple/
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Display-Semibold.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Display-Thin.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Display-Ultralight.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Italic.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Rounded-Black.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Rounded-Bold.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Rounded-Heavy.otf
@@ -38,6 +39,7 @@ drwxr-xr-x	root/root	usr/share/fonts/apple/
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Text-ThinItalic.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Text-Ultralight.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact-Text-UltralightItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/SF-Compact.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Mono-Bold.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Mono-BoldItalic.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Mono-Heavy.otf
@@ -68,6 +70,7 @@ drwxr-xr-x	root/root	usr/share/fonts/apple/
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Display-ThinItalic.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Display-Ultralight.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Display-UltralightItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Italic.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Rounded-Black.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Rounded-Bold.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Rounded-Heavy.otf
@@ -95,3 +98,4 @@ drwxr-xr-x	root/root	usr/share/fonts/apple/
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Text-ThinItalic.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Text-Ultralight.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro-Text-UltralightItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/apple/SF-Pro.ttf
