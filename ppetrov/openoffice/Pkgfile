@@ -5,7 +5,7 @@
 
 name=openoffice
 version=4.1.15
-release=1
+release=2
 source=(https://sourceforge.net/projects/openofficeorg.mirror/files/$version/binaries/en-US/Apache_OpenOffice_${version}_Linux_x86-64_install-rpm_en-US.tar.gz
 	$name.directory $name.menu)
 
@@ -67,6 +67,7 @@ build() {
 	
 	rm -rf $PKG/usr/lib/openoffice/readmes
 	rm -rf $PKG/usr/lib/openoffice/share/readme
+	rm -rf $PKG/usr/lib/openoffice/share/fonts
 	
 	# find this from java
 	ln -s /usr/lib/jdk/lib/amd64/libjawt.so libjawt.so
