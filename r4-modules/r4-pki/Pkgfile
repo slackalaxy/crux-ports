@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-pki
-version=0.1.12
+version=0.1.14
 release=1
-source=(https://cloud.r-project.org/src/contrib/PKI_0.1-12.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/PKI_0.1-14.tar.gz)
 
 build() {
 	cd PKI

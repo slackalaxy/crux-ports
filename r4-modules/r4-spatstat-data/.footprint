@@ -37,6 +37,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/spatstat.data/help/macros/
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.data/html/
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.data/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.data/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/spatstat.data/info/
+-rwxr-xr-x	root/root	usr/lib/R/library/spatstat.data/info/packagesizes.txt
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.data/rawdata/
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.data/rawdata/amacrine/
 -rwxr-xr-x	root/root	usr/lib/R/library/spatstat.data/rawdata/amacrine/amacrine.txt

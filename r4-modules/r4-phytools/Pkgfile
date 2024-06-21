@@ -1,13 +1,13 @@
 # Description: R module phytools
 # URL: https://cran.r-project.org/web/packages/phytools
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-ape r4-clustergeneration r4-coda r4-combinat r4-doparallel r4-expm r4-foreach r4-maps r4-mass r4-mnormt r4-nlme r4-numderiv r4-optimparallel r4-phangorn r4-scatterplot3d
+# Depends on: r r4-ape r4-clustergeneration r4-coda r4-combinat r4-deoptim r4-doparallel r4-expm r4-foreach r4-maps r4-mass r4-mnormt r4-nlme r4-numderiv r4-optimparallel r4-phangorn r4-scatterplot3d
 # Optional: r4-animation r4-geiger r4-plotrix r4-rcolorbrewer r4-rgl
 
 name=r4-phytools
-version=2.1.1
+version=2.3.0
 release=1
-source=(https://cloud.r-project.org/src/contrib/phytools_2.1-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/phytools_2.3-0.tar.gz)
 
 build() {
 	cd phytools

@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/ggsci
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-ggplot2 r4-scales
-# Optional: r4-gridextra r4-knitr r4-ragg r4-reshape2 r4-rmarkdown
+# Optional: r4-gridextra r4-knitr r4-ragg r4-rmarkdown
 
 name=r4-ggsci
-version=3.1.0
+version=3.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggsci_${version}.tar.gz)
 

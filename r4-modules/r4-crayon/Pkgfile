@@ -1,11 +1,11 @@
 # Description: R module crayon
 # URL: https://cran.r-project.org/web/packages/crayon
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: r4-mockery r4-rstudioapi r4-testthat r4-withr
 
 name=r4-crayon
-version=1.5.2
+version=1.5.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/crayon_${version}.tar.gz)
 

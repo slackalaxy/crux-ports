@@ -1,13 +1,13 @@
 # Description: R module spatstat.utils
 # URL: https://cran.r-project.org/web/packages/spatstat.utils
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-spatstat-model
 
 name=r4-spatstat-utils
-version=3.0.4
+version=3.0.5
 release=1
-source=(https://cloud.r-project.org/src/contrib/spatstat.utils_3.0-4.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spatstat.utils_3.0-5.tar.gz)
 
 build() {
 	cd spatstat.utils
