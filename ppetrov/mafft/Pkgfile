@@ -3,12 +3,12 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=mafft
-version=dc90a8b
+version=7.526
 release=1
-source=(https://gitlab.com/sysimm/mafft/-/archive/dc90a8bc4d3396048b08e9f2e24759f06f733a6f/mafft-dc90a8bc4d3396048b08e9f2e24759f06f733a6f.tar.gz)
+source=(https://gitlab.com/sysimm/mafft/-/archive/v${version}/mafft-v${version}.tar.bz2)
 
 build() {
-	cd $name-${version}*
+	cd $name-v${version}
 	
 	cd core
 	make clean
