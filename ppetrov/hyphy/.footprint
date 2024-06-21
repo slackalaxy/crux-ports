@@ -151,6 +151,7 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/GUI/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/LZ_Complexity.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/LocalMolClock.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MGvsGY.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MSS-joint-fitter.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MSS-selector-2.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MSS-selector.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MergeSequences.bf
@@ -217,6 +218,8 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/SingleOmega.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/contrast-fel.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/contrast-meme.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/error-filter.bf
 drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/grid_compute.ibf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/modules/io_functions.ibf
