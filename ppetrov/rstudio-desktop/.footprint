@@ -3,30 +3,32 @@ drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/rstudio -> ../lib/rstudio/rstudio
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/.build-id/
+drwxr-xr-x	root/root	usr/lib/.build-id/05/
+lrwxrwxrwx	root/root	usr/lib/.build-id/05/e7bba156887c99a7291c9fa234fed093622d56 -> ../../../../usr/lib/rstudio/resources/app/bin/rsession
 drwxr-xr-x	root/root	usr/lib/.build-id/11/
-lrwxrwxrwx	root/root	usr/lib/.build-id/11/aba06cfe812be9dffb398e8f6f97358d2d6039 -> ../../../../usr/lib/rstudio/resources/app/bin/rsession
-drwxr-xr-x	root/root	usr/lib/.build-id/32/
-lrwxrwxrwx	root/root	usr/lib/.build-id/32/c8758e116376782d0e4f60faa607bd6aff96e1 -> ../../../../usr/lib/rstudio/libGLESv2.so
-lrwxrwxrwx	root/root	usr/lib/.build-id/32/de902049a2d31cb4bddb1128deb55324ddb1ae -> ../../../../usr/lib/rstudio/resources/app/bin/node/bin/node
+lrwxrwxrwx	root/root	usr/lib/.build-id/11/8cbc23e24a2e5bc984d067fe0a49538544968a -> ../../../../usr/lib/rstudio/resources/app/bin/diagnostics
 drwxr-xr-x	root/root	usr/lib/.build-id/36/
 lrwxrwxrwx	root/root	usr/lib/.build-id/36/7482b7cf3d6ff358f57acd694a1acdd0302596 -> ../../../../usr/lib/rstudio/libffmpeg.so
+drwxr-xr-x	root/root	usr/lib/.build-id/42/
+lrwxrwxrwx	root/root	usr/lib/.build-id/42/906a8e76348de476c39a3e75af92531b42a295 -> ../../../../usr/lib/rstudio/chrome_crashpad_handler
 drwxr-xr-x	root/root	usr/lib/.build-id/5c/
 lrwxrwxrwx	root/root	usr/lib/.build-id/5c/6db9b54e4ed82973661935a0eca0c1415196ff -> ../../../../usr/lib/rstudio/libEGL.so
-drwxr-xr-x	root/root	usr/lib/.build-id/6e/
-lrwxrwxrwx	root/root	usr/lib/.build-id/6e/7a2087ee9cb49246f9b1e67f2ee1617a4c4254 -> ../../../../usr/lib/rstudio/resources/app/bin/diagnostics
 drwxr-xr-x	root/root	usr/lib/.build-id/73/
 lrwxrwxrwx	root/root	usr/lib/.build-id/73/2e24a29d582f7bc4cea91594e5705a473fc762 -> ../../../../usr/lib/rstudio/libvulkan.so.1
+drwxr-xr-x	root/root	usr/lib/.build-id/8f/
+lrwxrwxrwx	root/root	usr/lib/.build-id/8f/3b708ab172a4c6a2f9982ce97210adeca926ff -> ../../../../usr/lib/rstudio/rstudio
+drwxr-xr-x	root/root	usr/lib/.build-id/92/
+lrwxrwxrwx	root/root	usr/lib/.build-id/92/6b625a6907b6f771d9ba100015e40a873713e1 -> ../../../../usr/lib/rstudio/resources/app/bin/rpostback
 drwxr-xr-x	root/root	usr/lib/.build-id/a2/
 lrwxrwxrwx	root/root	usr/lib/.build-id/a2/1553c76c8c586d630a0323710633cdb676ae95 -> ../../../../usr/lib/rstudio/libvk_swiftshader.so
-drwxr-xr-x	root/root	usr/lib/.build-id/a7/
-lrwxrwxrwx	root/root	usr/lib/.build-id/a7/90c747c2c60575294bdd82f8d5b3bb3fcd4827 -> ../../../../usr/lib/rstudio/rstudio
+drwxr-xr-x	root/root	usr/lib/.build-id/b3/
+lrwxrwxrwx	root/root	usr/lib/.build-id/b3/e0f0ed1e5e37a06f0e215609eb981f96b545b9 -> ../../../../usr/lib/rstudio/resources/app/bin/node/bin/node
+drwxr-xr-x	root/root	usr/lib/.build-id/bf/
+lrwxrwxrwx	root/root	usr/lib/.build-id/bf/3c784ddf66343bbdf9408666e83b4a2a53f847 -> ../../../../usr/lib/rstudio/libGLESv2.so
 drwxr-xr-x	root/root	usr/lib/.build-id/c0/
-lrwxrwxrwx	root/root	usr/lib/.build-id/c0/5357cf1476781478b000273e22c93a7b1911f2 -> ../../../../usr/lib/rstudio/chrome_crashpad_handler
 lrwxrwxrwx	root/root	usr/lib/.build-id/c0/5fa55274dbc2719d3d82db1b7f9f6dc17a470d -> ../../../../usr/lib/rstudio/resources/app/bin/crashpad_handler
 drwxr-xr-x	root/root	usr/lib/.build-id/cc/
 lrwxrwxrwx	root/root	usr/lib/.build-id/cc/34daf4315e1b8212faa5558d73f036db51b4b1 -> ../../../../usr/lib/rstudio/resources/app/bin/crashpad_http_upload
-drwxr-xr-x	root/root	usr/lib/.build-id/e5/
-lrwxrwxrwx	root/root	usr/lib/.build-id/e5/19a2c81eb5e7146e3774f049051ff08c280bab -> ../../../../usr/lib/rstudio/resources/app/bin/rpostback
 drwxr-xr-x	root/root	usr/lib/.build-id/f4/
 lrwxrwxrwx	root/root	usr/lib/.build-id/f4/621c3403815feaf0b0e1f04c3cd0a2aa3dddf0 -> ../../../../usr/lib/rstudio/chrome-sandbox
 drwxr-xr-x	root/root	usr/lib/rstudio/
@@ -3170,10 +3172,8 @@ drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/cor
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/corepack
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/corepack.cmd
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/corepack.ps1
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/npm
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/npm.cmd
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/npm.ps1
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/npx
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/npx.cmd
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/npx.ps1
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/pnpm
@@ -3188,10 +3188,8 @@ drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/cor
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/yarnpkg
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/yarnpkg.cmd
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/nodewin/yarnpkg.ps1
--rwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/npm
 -rwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/npm.cmd
 -rwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/npm.ps1
--rwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/npx
 -rwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/npx.cmd
 -rwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/npx.ps1
 -rwxr-xr-x	root/root	usr/lib/rstudio/resources/app/bin/node/lib/node_modules/corepack/shims/pnpm
@@ -8146,7 +8144,7 @@ drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/resources/tutorial_resources/
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/xref.lua
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/rstudio.png
 drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/www-symbolmaps/
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www-symbolmaps/689E0B7CF00AB56FCFB9A3A90BB5674E.symbolMap
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www-symbolmaps/6650922E78FF59963E9FBB27A5792AB2.symbolMap
 drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/www/
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/404.htm
 drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/www/css/
@@ -8204,9 +8202,8 @@ drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/www/rstudio/
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/453ABCDD4755ED1B8928D8A34AB7C9B0.cache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/49BC198A12114D58171AC391219AF704.cache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/4D6AD279FFB931848F13743F0DC7AEAA.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/689E0B7CF00AB56FCFB9A3A90BB5674E.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/6650922E78FF59963E9FBB27A5792AB2.cache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/6F5804270F7E4E3E61123DB7B8D9B1E3.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/7CFD4952F50F410929E0F04C40134EED.cache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/8F7951420339BE404651DAC70BD1C264.cache.css
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/92667398D1615A4FDABC74237BBDC342.cache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/933633B241791C8BCACE4748A824F3E1.cache.js
@@ -8215,41 +8212,42 @@ drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/www/rstudio/
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/A2EB630241A0BFE0FC6785A80D600916.cache.png
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/A8953900838B5E594A1987A5BD352FF4.cache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/AC5AADB35BD3AFF301FEFC583AAFE0E0.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/E08429FD02096EB4676344E7E2503925.cache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/clear.cache.gif
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/compilation-mappings.txt
 drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/
-drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/1.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/10.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/11.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/12.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/13.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/14.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/15.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/16.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/17.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/18.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/19.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/2.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/20.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/21.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/22.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/23.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/24.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/25.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/26.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/27.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/28.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/29.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/3.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/30.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/31.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/4.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/5.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/6.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/7.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/8.cache.js
--rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/689E0B7CF00AB56FCFB9A3A90BB5674E/9.cache.js
+drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/1.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/10.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/11.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/12.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/13.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/14.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/15.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/16.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/17.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/18.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/19.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/2.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/20.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/21.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/22.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/23.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/24.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/25.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/26.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/27.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/28.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/29.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/3.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/30.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/31.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/4.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/5.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/6.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/7.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/8.cache.js
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/deferredjs/6650922E78FF59963E9FBB27A5792AB2/9.cache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/rstudio.devmode.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/rstudio/rstudio.nocache.js
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/www/signin.css
