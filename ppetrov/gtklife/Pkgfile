@@ -1,12 +1,12 @@
 # Description: Conway's Life program for *nix
-# URL: https://ironphoenix.org/gtklife/
+# URL: https://homeforaday.org/gtklife/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: brotli graphite2 gtk libglvnd xorg-libxdamage
 
 name=gtklife
 version=5.3
 release=1
-source=(https://homeforaday.org/$name/$name-$version.tar.gz
+source=(https://homeforaday.org/gtklife/gtklife-$version.tar.gz
 	$name.desktop $name.png)
 
 build() {
