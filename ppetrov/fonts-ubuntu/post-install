@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkfontdir /usr/share/fonts/ubuntu
+mkfontscale /usr/share/fonts/ubuntu
+fc-cache

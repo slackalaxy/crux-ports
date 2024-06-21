@@ -1,0 +1,22 @@
+# Description: The Ubuntu typeface
+# URL: https://design.ubuntu.com/font/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=fonts-ubuntu
+version=0.83
+release=1
+source=(https://assets.ubuntu.com/v1/0cef8205-ubuntu-font-family-$version.zip
+	81-ubuntu.conf)
+
+build() {
+  mkdir -p $PKG/usr/share/fonts/ubuntu
+  cp -a ubuntu-font-family-$version/*.ttf $PKG/usr/share/fonts/ubuntu
+  chmod 0644 $PKG/usr/share/fonts/ubuntu/*.ttf
+  
+  install -D -m 0644 $SRC/81-ubuntu.conf $PKG/usr/share/fontconfig/conf.avail/81-ubuntu.conf
+  
+  mkdir -p $PKG/etc/fonts/conf.d/
+  cd $PKG/etc/fonts/conf.d/
+  ln -s /usr/share/fontconfig/conf.avail/81-ubuntu.conf .
+}
