@@ -2,6 +2,8 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/apple/
+-rw-r--r--	root/root	usr/share/fonts/apple/NewYork-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/NewYork-RegularItalic.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/NewYorkExtraLarge-Black.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/NewYorkExtraLarge-BlackItalic.otf
 -rw-r--r--	root/root	usr/share/fonts/apple/NewYorkExtraLarge-Bold.otf

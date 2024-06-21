@@ -1,11 +1,11 @@
 # Description: Apple New York fonts
 # URL: https://developer.apple.com/fonts/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p7zip
+# Depends on: fontforge p7zip
 
 name=fonts-apple-ny
-version=wwdc23
-release=2
+version=wwdc24
+release=1
 source=(https://devimages-cdn.apple.com/design/resources/download/NY.dmg)
 
 build() {
@@ -19,6 +19,9 @@ build() {
 	cd Library/Fonts
 
 	cp -a *.otf $PKG/usr/share/fonts/apple
+	
 	#These are a bit problematic
-	#cp -a *.ttf $PKG/usr/share/fonts/apple
+	fontforge -lang=ff -c 'Open("NewYork.ttf(NewYork-Regular)"); Generate("NewYork-Regular.ttf"); Close();'
+	fontforge -lang=ff -c 'Open("NewYorkItalic.ttf(NewYork-RegularItalic)"); Generate("NewYork-RegularItalic.ttf"); Close();'
+	cp -a NewYork-Regular.ttf NewYork-RegularItalic.ttf $PKG/usr/share/fonts/apple
 }
