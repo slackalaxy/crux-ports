@@ -17,7 +17,6 @@ drwxr-xr-x	root/root	usr/lib/microsoft-edge/cron/
 -rw-r--r--	root/root	usr/lib/microsoft-edge/icudtl.dat
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libEGL.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libGLESv2.so
--rw-r--r--	root/root	usr/lib/microsoft-edge/libaugloop_client.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/liblearning_tools.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libmip_core.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libmip_protection_sdk.so
