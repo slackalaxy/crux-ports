@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZSr26cklrOWSOQP+bEGQ+PZ0l66YFJzblnnozVb/GqV1L9fluTU2u5TpchMsKXjGDmhCfTJkEZgX8sVBUM+Gigc=
-SHA256 (Pkgfile) = 2e34fcc30b1486b9aea583587ac1f0cb5a2c3c9d2e8780905b712d958057eeb1
-SHA256 (.footprint) = 357aecd0d1ae591509f07458651fda6fe9bade2cf59b70339537ca5182d73769
-SHA256 (qtwebview-everywhere-src-6.7.1.tar.xz) = 64ce8f1b3e3734d6b1ca3a5a0c93b209b34e46e4fcd333c6e702f5dd076c906b
+RWToVVsIkzFIZUhZ5KMFBt3TzePrw8Dx9XNvVKpth7ji9f6m35iOPeY5R7+tsFDRbmFbGeMpQvw1bmgpzinjLWj62RPNg08Dugw=
+SHA256 (Pkgfile) = 3813e996517050b3ebe0a8608516bbd58a28c3227c60e5f07055764b9a7ab607
+SHA256 (.footprint) = 5d9cb35c426fab69a08e5c61ecb49fc5f7cf8b03f5541d9d294cf21277d1eb45
+SHA256 (qtwebview-everywhere-src-6.7.2.tar.xz) = 4ce1096903d4fec39bfcd95d4015acbf105eddf66a384303cb0fe899dd24e4fe
