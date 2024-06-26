@@ -1,11 +1,11 @@
 # Description: R module prodlim
 # URL: https://cran.r-project.org/web/packages/prodlim
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-data-table r4-diagram r4-kernsmooth r4-lava r4-rcpp r4-survival
+# Depends on: r r4-data-table r4-diagram r4-kernsmooth r4-lava r4-rcpp r4-survival
 # Optional: 
 
 name=r4-prodlim
-version=2023.08.28
+version=2024.06.25
 release=1
 source=(https://cloud.r-project.org/src/contrib/prodlim_${version}.tar.gz)
 

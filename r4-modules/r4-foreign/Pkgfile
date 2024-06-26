@@ -1,13 +1,13 @@
 # Description: R module foreign
 # URL: https://cran.r-project.org/web/packages/foreign
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-foreign
-version=0.8.86
+version=0.8.87
 release=1
-source=(https://cloud.r-project.org/src/contrib/foreign_0.8-86.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/foreign_0.8-87.tar.gz)
 
 build() {
 	cd foreign

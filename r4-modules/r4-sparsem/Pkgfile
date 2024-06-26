@@ -5,7 +5,7 @@
 # Optional: r4-knitr
 
 name=r4-sparsem
-version=1.83
+version=1.84
 release=1
 source=(https://cloud.r-project.org/src/contrib/SparseM_${version}.tar.gz)
 
