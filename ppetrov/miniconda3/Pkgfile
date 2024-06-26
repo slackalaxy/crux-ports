@@ -6,7 +6,7 @@
 name=miniconda3
 version=24.4.0
 _python=py310
-release=1
+release=2
 source=(https://repo.anaconda.com/miniconda/Miniconda3-${_python}_${version}-${version##*.}-Linux-x86_64.sh)
 
 build() {
@@ -17,6 +17,14 @@ build() {
 	cd $prefix
 	chmod a+r -R pkgs
 	sed -e "s|${PKG}||g" -i $(grep "${PKG}" . -rIl 2>/dev/null)
+	
+	cd $PKG/usr/lib/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu/lib/
+	rm libgomp.so.1
+	ln -s /usr/lib/miniconda3/lib/libgomp.so.1.0.0 libgomp.so.1
+	
+	cd $PKG/usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/compiler_compat/
+	rm ld
+	ln -s /usr/lib/miniconda3/bin/x86_64-conda-linux-gnu-ld ld
 	
 	mkdir -p $PKG/etc/revdep.d
 	cd $PKG/usr/lib/$name

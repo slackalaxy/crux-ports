@@ -7876,7 +7876,7 @@ drwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu/info/recipe
 drwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu/info/test/
 -rw-r--r--	root/root	usr/lib/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu/info/test/run_test.sh
 drwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu/lib/
-lrwxrwxrwx	root/root	usr/lib/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu/lib/libgomp.so.1 -> libgomp.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/miniconda3/pkgs/_openmp_mutex-5.1-1_gnu/lib/libgomp.so.1 -> /usr/lib/miniconda3/lib/libgomp.so.1.0.0
 -rw-r--r--	root/root	usr/lib/miniconda3/pkgs/anaconda-anon-usage-0.4.4-py310hfc0e8ea_100.conda
 drwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/anaconda-anon-usage-0.4.4-py310hfc0e8ea_100/
 drwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/anaconda-anon-usage-0.4.4-py310hfc0e8ea_100/info/
@@ -17203,7 +17203,7 @@ lrwxrwxrwx	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/bin/pytho
 -rwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/bin/python3.10
 -rwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/bin/python3.10-config
 drwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/compiler_compat/
-lrwxrwxrwx	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/compiler_compat/ld -> ../bin/x86_64-conda-linux-gnu-ld
+lrwxrwxrwx	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/compiler_compat/ld -> /usr/lib/miniconda3/bin/x86_64-conda-linux-gnu-ld
 drwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/include/
 drwxr-xr-x	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/include/python3.10/
 -rw-r--r--	root/root	usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/include/python3.10/Python.h
