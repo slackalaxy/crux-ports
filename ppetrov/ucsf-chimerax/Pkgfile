@@ -1,0 +1,66 @@
+# Description: The next-generation molecular visualization program 
+# URL: https://www.cgl.ucsf.edu/chimerax/download.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion gnutls graphite2 gtk3 lame libidn2 libinput openmm pcsclite postgresql pulseaudio qt6-3d qt6-multimedia qt6-pdfwidgets qt6-quick3dphysics qt6-svg qt6-wayland qt6-webview tslib unixodbc xorg-libxinerama xorg-libxkbfile
+
+name=ucsf-chimerax
+version=1.8
+_ubuntu=22.04
+_python=3.11
+release=1
+source=(https://www.cgl.ucsf.edu/chimerax/cgi-bin/secure/chimerax-get.py?file=${version}/ubuntu-${_ubuntu}/ucsf-chimerax_${version}ubuntu${_ubuntu}_amd64.deb
+	$name.desktop)
+
+build() {
+	cd $PKG
+	bsdtar -xf $SRC/ucsf-chimerax_${version}ubuntu22.04_amd64.deb
+	tar --use-compress-program=unzstd -xvf data.tar.zst
+	rm -rf control.tar.zst data.tar.zst debian-binary
+	rm -rf usr/share/doc
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $PKG/usr/lib/$name/share/ChimeraX-icon64.png $PKG/usr/share/pixmaps/chimerax
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
+	
+	# I don't need the cuda stuff (no hardware), but let's leave the
+	# plugins folder for future releases.
+	rm -rf $PKG/usr/lib/$name/lib/plugins/libOpenMM*
+	
+	# use ncurses instead
+ 	cd $PKG/usr/lib/$name/lib
+ 	patchelf --replace-needed "libtinfo.so.6" "libncurses.so.6" \
+ 		$PKG/usr/lib/$name/lib/python${_python}/lib-dynload/_curses.cpython-${_python//./}-x86_64-linux-gnu.so
+ 	patchelf --replace-needed "libtinfo.so.6" "libncurses.so.6" \
+ 		$PKG/usr/lib/$name/lib/python${_python}/lib-dynload/_curses_panel.cpython-${_python//./}-x86_64-linux-gnu.so
+	
+	# use libnsl.so.3 instead of 2
+	patchelf --replace-needed "libnsl.so.2" "libnsl.so.3" \
+		$PKG/usr/lib/$name/lib/python${_python}/lib-dynload/nis.cpython-${_python//./}-x86_64-linux-gnu.so
+	
+	# use this from mariadb
+	ln -s /usr/lib/libmysqlclient.so libmysqlclient.so.21
+	
+	# other plugins
+	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/texttospeech
+	
+	# libmimerapi.so was forgotten by QT6 during deployment
+	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/sqldrivers/libqsqlmimer.so
+	
+	# no nagware, please
+	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/chimerax/registration
+	
+	# cleanup
+	find $PKG/ -name "*README*" -delete
+	find $PKG/ -name "*INSTALL*" -delete
+	find $PKG/ -name "*ChangeLog*" -delete
+	find $PKG/ -name "*TODO*" -delete
+	find $PKG/ -name "*NEWS*" -delete
+	find $PKG/ -name "*AUTHORS*" -delete
+	find $PKG/ -name "*COPYING*" -delete
+	find $PKG/ -name "*LICENSE*" -delete
+	
+	mkdir -p $PKG/etc/revdep.d
+	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
+	find $PKG/usr/lib/$name/lib -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:$PKG::g" $PKG/etc/revdep.d/$name
+}
