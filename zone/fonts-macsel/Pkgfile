@@ -5,7 +5,7 @@
 
 name=fonts-macsel
 version=1.6.43
-release=1
+release=2
 source=(https://archive.org/download/macos-collection/Releases/Yosemite%2010.10.5%20v1.6.43.iso)
 renames=(Yosemite_10.10.5_v1.6.43.iso)
 
@@ -63,7 +63,7 @@ build() {
 	fontforge -lang=ff -c 'Open("Menlo.ttc(Menlo Regular)"); Generate("Menlo.ttf"); Close(); Open("Menlo.ttc(Menlo Bold)"); Generate("MenloBold.ttf"); Close();'
 	fontforge -lang=ff -c 'Open("Monaco.ttf(Monaco)"); Generate("Monaco.ttf");'
 	
-	cp -a CourierOblique.ttf CourierBoldOblique.ttf CourierBold.ttf Helvetica*.ttf Times.ttc $PKG/usr/share/fonts/apple
+	cp -a Courier.ttf CourierBold.ttf CourierOblique.ttf CourierBoldOblique.ttf Helvetica*.ttf Times.ttc $PKG/usr/share/fonts/apple
 	cp -a Menlo.ttc Monaco.ttf $PKG/usr/share/fonts/apple
 	cp -a Geneva.ttf $PKG/usr/share/fonts/apple
 	

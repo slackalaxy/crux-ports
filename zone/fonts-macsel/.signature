@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwbBJURcpvZB56toAx3jFxeh4NIDYoh5rKHWw+PM6ge7mJcXtXjs8VP1xb3wibcr/bkpLBuIHGZDq1XG6U3Vzggo=
-SHA256 (Pkgfile) = 16acfea9e750bcca13f65acf122c6955d4f151774cfe0220ce21cca8e20b11ae
-SHA256 (.footprint) = 80854a26a0919fae6bc18f1d5692aeadd470a87bfd425dd263e9ce23d89d79fb
+RWRPokwW0IImwdfRVknVj6JfmPPs4cZAjrsZPw5l44CYiKonmYv0tG2tDAHN5XWv5RVMG71K0NLhETgyFclU8XIf9r/NVwK71AQ=
+SHA256 (Pkgfile) = 290d50911a0752508756999c17001da2ca1bc2990ecfebbd642365b2be66f206
+SHA256 (.footprint) = 5bbcbbdd2def442b406516ac74c037676dff450d2a60797a8347f06895bc83ee
 SHA256 (Yosemite_10.10.5_v1.6.43.iso) = 93f3e7d653760e8fc5bd79a1c2446b3ebcd2838b31b43a61cfc4f644a7a32a75
