@@ -57,9 +57,9 @@ f:27a32e9d502c2db1efa2eb7841688f57:medit-biolang/.signature
 f:a1d1ec59dade39d11d4c04a9fe47d72c:medit-biolang/.footprint
 f:50b4112a34c03f147c1d24a787a278a9:medit-biolang/Pkgfile
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
-f:c871a8f886524537f5fe1669b81f39e6:fonts-conf/Pkgfile
+f:cf92d66bca8fb1c1fadb51d9d0646e7f:fonts-conf/Pkgfile
 f:00ed35084250268075e059f0d7bc984f:fonts-conf/README
-f:61925bbc07ce81668041e2d40532f406:fonts-conf/.signature
+f:84c104cbaa21953f2320b2411c600704:fonts-conf/.signature
 f:51960356f17d053a4cb7e101267cb8a8:depsck/.signature
 f:96f4215dc57e67cc2f0d710ec5f703bb:depsck/.footprint
 f:c88d4063c9d8790e6b509ec569e5cc6c:depsck/Pkgfile
@@ -118,10 +118,10 @@ f:df79d0a895394ace700a544c59884864:xorg-conf-synaptics/.signature
 f:e34475d5f385ce74205a09aa974a3437:gtk3-dummy-dark/Pkgfile
 f:3537d599367b5070c984ef0596465902:gtk3-dummy-dark/.footprint
 f:2ba448a2f774e3bcede6e53a9bb3dc1b:gtk3-dummy-dark/.signature
-f:d107709cb142bef0538c5ef92f10f88e:fonts-macsel/Pkgfile
+f:54af00b487fb27556c892b84102b4b43:fonts-macsel/Pkgfile
 f:d54fa5a876d34895a5e1b55b13ad9787:fonts-macsel/post-install
-f:29506e502d30a3462bc5283395736bca:fonts-macsel/.footprint
-f:cdb0882aad0ba649005b447b847519ed:fonts-macsel/.signature
+f:122369691854a6902b7aebbea6f0fc40:fonts-macsel/.footprint
+f:10411f67ed756fb27d67947d90a89470:fonts-macsel/.signature
 f:33345441a862388eda867fe9f469ce97:fonts-macsel/README
 f:fe3a998f263da047c3ed2d254afffe7b:fonts-mscore/.footprint
 f:8692df9c418ad09a5b45a8c12adc19c8:fonts-mscore/Pkgfile
