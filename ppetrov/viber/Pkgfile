@@ -6,8 +6,9 @@
 name=viber
 version=current
 #version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
-release=10
-source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb)
+release=11
+source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
+	$name.fonts.conf)
 
 build() {
 	cd $PKG
@@ -18,7 +19,8 @@ build() {
 	rm -rf $PKG/usr/share/viber
 	
 	# Fix desktop launcher
-	sed -i 's:/opt/viber/Viber:/usr/bin/ViberPC:' $PKG/usr/share/applications/$name.desktop
+	# see about custom fonts config: https://bbs.archlinux.org/viewtopic.php?pid=1924209#p1924209
+	sed -i 's:/opt/viber/Viber:env FONTCONFIG_FILE=/etc/fonts/viber.fonts.conf /usr/bin/ViberPC:' $PKG/usr/share/applications/$name.desktop
 	sed -i 's:/usr/share/pixmaps/viber.png:viber:' $PKG/usr/share/applications/$name.desktop
 	
 	mkdir -p $PKG/usr/bin
@@ -28,6 +30,9 @@ build() {
 	
 	chmod 755 $PKG/usr
 	chmod 755 $PKG/usr/share
+	
+	mkdir -p $PKG/etc/fonts
+	cp -a $SRC/$name.fonts.conf $PKG/etc/fonts/
 	
 	find $PKG/usr/lib/viber/translations/ -maxdepth 1 -type f -not -name "*_en.qm" -delete
 	
