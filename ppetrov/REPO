@@ -173,7 +173,6 @@ d:topdraw
 d:wehi-cellsymphony
 d:xmms-crossfade
 d:xmms-skins-yaxay
-d:chimerax
 d:diffuse
 d:fcsalyzer
 d:bpp-qt
@@ -430,6 +429,7 @@ d:ubuntulooks
 d:bmz-cursors
 d:obsidian-cursor-themes
 d:mfold
+d:ucsf-chimerax
 d:bluecurve-gtk-themes
 d:xmms-skins-garetjax
 d:nlopt
@@ -602,10 +602,11 @@ f:b3a92cde8b62309cd7ae641bf061c74b:smplayer/.signature
 f:892d1a422a70aa46e82c3e0235232b71:tango-icon-theme-48/Pkgfile
 f:dab5c61ef36005213a7c9e2a7a4d8438:tango-icon-theme-48/.footprint
 f:a96430f0b89be4a2b7367b3a46b2d23e:tango-icon-theme-48/.signature
-f:d74c83c6a2e6ce510593b2dcf2f3eba9:viber/Pkgfile
+f:bae3af6d82c3c821d6924ecfa9083aa8:viber/Pkgfile
 f:404e54f40a6eccd0b88e14d339d02694:viber/README
-f:305f96450e1dd98f373760ce81c3be0f:viber/.footprint
-f:f797dfe0fd49b44409e8debb81c06e35:viber/.signature
+f:eda511a9fb8e98d23f5eb419877946d0:viber/.footprint
+f:179035d6be71f507779de81808c54af7:viber/.signature
+f:6282f0683c2f5ee88795a3480acc73b1:viber/viber.fonts.conf
 f:0362a776f330e64e770b5e7816a8b4a0:xar/.footprint
 f:b6e42a363312eb3a385979be03c12d17:xar/Pkgfile
 f:04b9eb5f6fbaf1c12702055d73504972:xar/xar-1.6.1-ext2.patch
@@ -1077,11 +1078,6 @@ f:e2b3837dbc2b18a0e2ab0f4073316102:xmms-crossfade/.signature
 f:e7bf9ec5a3c10b469ccdd214f3ad630d:xmms-skins-yaxay/Pkgfile
 f:d1ac94fe16dff6fb1a32bfdf8f7ef06e:xmms-skins-yaxay/.footprint
 f:acd85df873ea0fab7e7b20c77514287f:xmms-skins-yaxay/.signature
-f:3a10faf7a960c83d0bd5e91fc550799c:chimerax/Pkgfile
-f:c2f99dd24917319c3f379fd4598492ff:chimerax/README
-f:17daf852f3de0bd03b66dc666c18e54a:chimerax/chimerax.desktop
-f:0082fc249b35c0312f3f05a68bcd7a7c:chimerax/.footprint
-f:c29db1592eec6c5a2c557a46e006d017:chimerax/.signature
 f:17c24705c805c7f9db8d8d1fd5d27893:diffuse/Pkgfile
 f:f87fcdcab45759bbabf8ad60d20f9012:diffuse/diffuse.png
 f:01147dc7e87a8ed802050cba881cbc7d:diffuse/.footprint
@@ -1307,9 +1303,9 @@ f:ef12aa4e60238478fccc12ab51660784:perlprimer/perlprimer.desktop
 f:9689e089bb57d9da64d63f57af5e22e2:perlprimer/perlprimer.png
 f:86dfb7dc5a47b7d8d37378e51fe3ad31:perlprimer/.footprint
 f:f2d4fc41780fa12a77e8d48c497c6e79:perlprimer/.signature
-f:03a51721b32892d7b54b82a9276ece26:miniconda3/Pkgfile
-f:2f9cdf9e5ded31f170a298a4560db986:miniconda3/.footprint
-f:6abf7f98db0eb350c2cbaf4eadc1586a:miniconda3/.signature
+f:bb617eb24b6fd5a6076c5ba00ccf4472:miniconda3/Pkgfile
+f:d13d9e4d1de8b30e7926eddb6a95578f:miniconda3/.footprint
+f:6b669b64a839f33d529846fabdda54ce:miniconda3/.signature
 f:c8dd096120a1006e27480aba0c4f09cd:samtools0/Pkgfile
 f:99a7fd73356cfc25861b0c4bb95f3cc8:samtools0/.footprint
 f:b3ecf6d74d98ef980a9f1172f0c8d93f:samtools0/.signature
@@ -2064,8 +2060,8 @@ f:dd63fe4c39bb27bf7934fb58ab3834ba:xmms-skins-carbonate/Pkgfile
 f:732248d7cd6b5d7c48534ce86a4c5a15:xmms-skins-carbonate/.footprint
 f:41c7b8b23174b651ace895dfe9603791:xmms-skins-carbonate/.signature
 f:6bd0cb477b202f589be8ec476dc0e742:wps-office/.footprint
-f:e6c4bc85135f3842dd252385f478a788:wps-office/.signature
-f:384f512562daadfdf691f57599113f1e:wps-office/Pkgfile
+f:cf83584b166e0d942f2f71894a2036dc:wps-office/.signature
+f:896ee25989553d9b4f7c83ef20a6e398:wps-office/Pkgfile
 f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
 f:389134912dc24609f83900c75f0b3e99:wps-office/post-install
 f:e256100e8aed7ead8216a0a2354f1fd8:wps-office/desktop.tar.xz
@@ -2081,6 +2077,10 @@ f:ae2bdcd416b708f99ebf66657ea32231:obsidian-cursor-themes/.signature
 f:288c6d6c23e1e9604504b56a19209b5a:mfold/Pkgfile
 f:75e7a8a4f7b7b2a55bfd27ad9e59690f:mfold/.footprint
 f:c6d564cb66997e5e35ae715deac53894:mfold/.signature
+f:20c1d5a7db75b92b0d9e0e6a85c1192d:ucsf-chimerax/Pkgfile
+f:1777df25a0de190e2ac545074f35cb44:ucsf-chimerax/ucsf-chimerax.desktop
+f:18bae5c4ba4929ba0d0d8309cec71d06:ucsf-chimerax/.footprint
+f:edf1429bb708182ea5503bc0be87bfc5:ucsf-chimerax/.signature
 f:bd9fc6112a79813e1c6e4985d51b7894:bluecurve-gtk-themes/Pkgfile
 f:6c130af932dcf416b2130bc26edae7f7:bluecurve-gtk-themes/.footprint
 f:e3377c3f4483b396533b5bfc9d25d329:bluecurve-gtk-themes/.signature

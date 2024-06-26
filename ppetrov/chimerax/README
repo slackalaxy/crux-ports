@@ -1,5 +1,0 @@
-Download the "Generic Linux 64-bit" from here:
-
-	https://www.cgl.ucsf.edu/chimerax/download.html
-
-Then place it in your $PKGMK_SOURCE_DIR, as defined in /etc/pkgmk.conf
