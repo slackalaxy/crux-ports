@@ -4,9 +4,9 @@
 # Depends on: fonts-apple-ny fonts-apple-sf fonts-mscore fonts-msoffice fonts-macsel
 
 name=fonts-conf
-version=be907cd
+version=87cd0e6
 release=1
-source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-be907cdef79a6a03515efd7d67b70bff7c1a873c.tar.gz)
+source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-87cd0e68cfceb1413e842d4dad18caaddc25f7b4.tar.gz)
 
 build() {
 	cd $name-${version}*
