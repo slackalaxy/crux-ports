@@ -1,2 +1,5 @@
 This is the last GTK2 version of the program. It cannot be installed
 along its modern version.
+
+This uses a legacy version of poppler, poppler21. Therefore, poppler
+should not be installed at build time.
