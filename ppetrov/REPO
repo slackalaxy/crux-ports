@@ -104,6 +104,7 @@ d:bpp-phyl-omics
 d:cdrtools
 d:db43
 d:facsdir
+d:qt6ct
 d:gkrellm
 d:gstreamer0
 d:igv
@@ -118,6 +119,7 @@ d:p5-xml-sax-writer
 d:physamp
 d:qt6-pdfwidgets
 d:smplayer-themes
+d:qt6gtk2
 d:vcftools
 d:wxpython2
 d:xmms-skins-minimalist
@@ -829,6 +831,9 @@ f:36d22b6d5275ff1c2ca064cafbe99803:facsdir/Pkgfile
 f:62fe0a00fcb1b37c28e87e5d9acc2465:facsdir/facsdir.directory
 f:97fd929e2aa0527cd545335ef92a72c0:facsdir/.footprint
 f:28da568fd0eaffa6577f43cc88a33e7c:facsdir/.signature
+f:ac8fc7c4d1126146da3e5c2ac4b40c9b:qt6ct/Pkgfile
+f:5f6da0c70adf9ee16f0a4240988a2c08:qt6ct/.footprint
+f:dbff2e05925a81b2976ef8a4bb75dea6:qt6ct/.signature
 f:ed3ed40e820b006fcb517fff06748495:gkrellm/Pkgfile
 f:b4fa5e1ab74e3e8dac44fa2949efab3b:gkrellm/gkrellm.desktop
 f:c50f83004ef8d432de7bcf12da8c0164:gkrellm/gkrellm.png
@@ -879,6 +884,9 @@ f:314480599597434c9c28bc02b38fa45a:qt6-pdfwidgets/.signature
 f:3c083fe2931499aaa7756d7984c281d6:smplayer-themes/Pkgfile
 f:68e285e22504179b16e7409612ebf946:smplayer-themes/.footprint
 f:9b9e84de7cde014f413fecefd5a3fe30:smplayer-themes/.signature
+f:13d37e9c62fab693b7eab89e8b4513a8:qt6gtk2/Pkgfile
+f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
+f:9a4ca9b537bc7fbe71c534ce48cc6fed:qt6gtk2/.signature
 f:c4ed8522721652bb6810bd384a32ed89:vcftools/Pkgfile
 f:9075987ae12c1fe05df2e2c8de9ef140:vcftools/.footprint
 f:9dd7d13afb80b7f9bed39a16fd0766b8:vcftools/.signature
@@ -1546,9 +1554,9 @@ f:2508497b7a6458da7d583db03897596e:pnmixer/Pkgfile
 f:5ae88bddb949d23081f4c3f4eb9ea537:pnmixer/README
 f:aca547325c7df87750077f244b38b33e:pnmixer/.footprint
 f:7becc0c775549de1531da67d977d2a22:pnmixer/.signature
-f:efe082ebbfdb43ef7bcea71f31dcf6b3:qt5ct/Pkgfile
+f:4e420525f1e6ee555e66895ccc885ddc:qt5ct/Pkgfile
 f:398f6f8a6e51dcb55686482f54af68e2:qt5ct/.footprint
-f:a811e239f7b0a1e6bafd36a71f4c4341:qt5ct/.signature
+f:6b44470c4c409d58bf04d81cda1b4ff6:qt5ct/.signature
 f:18baa46c5ec366eef845320e520cf236:sim/Pkgfile
 f:69edf7f5aa1c58bb3ad37ad761a289c2:sim/sim204.c
 f:d3a83272797ec2f15f6fe5e78ef3409a:sim/.footprint
