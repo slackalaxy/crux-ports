@@ -1,0 +1,18 @@
+# Description: GTK+2.0 integration plugins for Qt6
+# URL: https://github.com/trialuser02/qt6gtk2
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=qt6gtk2
+version=0.2
+release=1
+source=(https://github.com/trialuser02/qt6gtk2/archive/$version/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  qmake6 PREFIX=/usr \
+  QMAKE_CFLAGS_RELEASE="$CFLAGS" \
+  QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS"
+  make
+  make INSTALL_ROOT="$PKG" install
+}
