@@ -5,7 +5,7 @@
 
 name=libxml210
 version=2.10.4
-release=2
+release=3
 source=(https://download.gnome.org/sources/libxml2/${version:0:4}/libxml2-$version.tar.xz)
 
 build() {
@@ -19,6 +19,11 @@ build() {
 		--without-python
 	make
 	make DESTDIR=$PKG install
+	
+	cd $PKG/usr/include/libxml210/libxml2/libxml/
+	for i in * ; do
+		sed -i 's:#include <libxml/:#include <libxml210/libxml2/libxml/:g' $i
+	done
 	
 	#rm -rf $PKG/usr/bin
 	rm -r $PKG/usr/share/{aclocal,doc,gtk-doc,man}
