@@ -1,11 +1,11 @@
 # Description: Qt5 Configuration Utility
 # URL: https://github.com/desktop-app/qt5ct
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: qt5
+# Depends on: double-conversion graphite2 icu qt5
 
 name=qt5ct
 version=1.8
-release=2
+release=3
 source=(https://sourceforge.net/projects/qt5ct/files/$name-$version.tar.bz2)
 
 build(){
