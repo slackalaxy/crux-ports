@@ -1,0 +1,24 @@
+# Description: Qt6 configuration utility
+# URL: https://github.com/trialuser02/qt6ct
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: double-conversion graphite2 icu qt6-base
+
+name=qt6ct
+version=0.9
+release=1
+source=(https://github.com/trialuser02/qt6ct/archive/$version/qt6ct-$version.tar.gz)
+
+build() {
+  cmake -S $name-$version -B build            \
+        -DCMAKE_BUILD_TYPE=Release            \
+        -DCMAKE_INSTALL_PREFIX=/usr           \
+        -DCMAKE_INSTALL_LIBDIR=lib            \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -Wno-dev
+
+  cmake --build build
+  DESTDIR="$PKG" cmake --install build
+
+  sed -i "s:Settings;DesktopSettings;Qt;:Settings;X-XFCE-SettingsDialog;:" $PKG/usr/share/applications/qt6ct.desktop
+}
