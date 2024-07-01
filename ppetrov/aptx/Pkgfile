@@ -6,7 +6,7 @@
 name=aptx
 version=1050
 release=2
-source=(http://www.phyloxml.org/download/forester/forester_${version}.jar
+source=(https://slackware.uk/sbosrcarch/by-name/academic/archaeopteryx/forester_${version}.jar
 	_aptx_configuration_file.txt $name.desktop $name.png)
 
 build() {
