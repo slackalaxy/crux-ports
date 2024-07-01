@@ -1,0 +1,39 @@
+# Description: PDF viewer
+# URL: https://www.xpdfreader.com
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli cups double-conversion gnutls graphite2 icu keyutils krb5 libidn2 paper qt6-base
+
+name=xpdf
+version=4.05
+release=1
+source=(https://dl.xpdfreader.com/$name-$version.tar.gz
+	https://dl.xpdfreader.com/$name-t1fonts.tar.gz
+	xpdfrc.diff $name.desktop $name.png)
+
+build() {
+	cd $name-$version
+	
+	# Thanks Slackware
+	zcat $SRC/patches/xpdfrc.diff.gz | patch -p1 --verbose
+	mkdir build
+	cd build
+	cmake \
+	-DCMAKE_C_FLAGS="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS="$CXXCFLAGS -fpermissive" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DSYSTEM_XPDFRC="/usr/etc/xpdfrc" ..
+	
+	make
+	
+	install -D -m755 xpdf-qt/xpdf $PKG/usr/bin/$name
+	install -D -m644 ../doc/$name.1 $PKG/usr/share/man/man1/$name.1
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	# Install fonts
+	mkdir -p $PKG/usr/share/fonts/X11/Type1
+	cp -a $SRC/$name-t1fonts/*.pfb $PKG/usr/share/fonts/X11/Type1
+	chmod 0644 $PKG/usr/share/fonts/X11/Type1/*.pfb
+}

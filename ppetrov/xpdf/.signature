@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZfIEAMnK8Oszkc97UFii3B1ue7SFMTjkY2KNXYPjhhHfLb70yFy4i/SSEYzDZrnzrn9DQrAApXFpArwvGzQgAw4=
+SHA256 (Pkgfile) = 41279558e25ac742f2fea424a4ce2f962231b0a2f2998e236c76f45cb9893ccd
+SHA256 (.footprint) = 27e7cf472a2a9a13867c81ff5e21ad3adbac3cd152102c66a220f202f065bb9f
+SHA256 (xpdf-4.05.tar.gz) = 92707ed5acb6584fbd73f34091fda91365654ded1f31ba72f0970022cf2a5cea
+SHA256 (xpdf-t1fonts.tar.gz) = 513853afed2a4ada0217bd93d95ab7f1663b6a0f37a07136e22404c6c6eaf342
+SHA256 (xpdfrc.diff) = 393a49cd7da2c81ba369e5854ca45b6f2b5c391530a90b98b39ebef12a2ae8d9
+SHA256 (xpdf.desktop) = 0e924e8c9dece932ab32a7d4d2ada55001a26e141efbd1891de8e3ec0aed156f
+SHA256 (xpdf.png) = e8b0578f15861d0296631341d8dc7b131006be297038a8307a8d8920b574f114

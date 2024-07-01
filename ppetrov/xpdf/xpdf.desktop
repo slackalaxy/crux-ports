@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Xpdf
+Comment=X PDF Viewer
+Exec=xpdf
+Icon=xpdf
+StartupNotify=false
+Type=Application
+Categories=Office
