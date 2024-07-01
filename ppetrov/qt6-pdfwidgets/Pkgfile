@@ -1,6 +1,6 @@
 # Description: PDF Widges Qt6 plugins
 # URL: https://www.qt.io/
-# Maintainer: Petar Petrov, slackalaxt at gmail dot com
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: icu keyutils nodejs openjpeg2 qt6-declarative
 # Conflicts: qt6-webengine
 
