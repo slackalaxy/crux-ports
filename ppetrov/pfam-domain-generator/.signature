@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZU5MtYTqpzHGzgbjOM9fHOtbcAwQsHFa88vidBwxOnyL1q20i2mHSRjWYdfSkC5Is1zv2Q450ualg2rnPmP4gA=
-SHA256 (Pkgfile) = 89d790bff323d782b134d17089f3187d3e29b79c8e9fd8dedd6624f08427a411
-SHA256 (.footprint) = 6dac2ec2c20f38425ce9ef270f64c413c6fc078e78e33e92b1a16ebe7c87bb47
-SHA256 (pfam-domain-generator.tar.xz) = 18a10504522ca98f09ac124705a8ce65998160ef2bd961cfaa93ef897199c874
-SHA256 (pfam-domain-generator.desktop) = 819445fb30885917bfdc6063a78f71db64cf930cc96e70539ac631d99fe351c2
-SHA256 (pfam-domain-generator.png) = 321ac6661cdb89ce5d6456a8fed3b21275ed2eb286cb3ed8ae4d821c5f053ff6
