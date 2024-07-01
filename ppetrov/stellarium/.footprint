@@ -2394,7 +2394,7 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/seri/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/seri/yay_xapi.png
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/seri/zaamth.png
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tibetan/
--rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/MenTseeKhang_Emblem.jpg
+-rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/MenTseeKhang_emblem.jpg
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/StagPhuDisk.jpg
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/StagPhu_01_Ari.jpg
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/StagPhu_02_Tau.jpg
