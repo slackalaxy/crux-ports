@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchqjs+oECwBLq03ex7vEZFIoVSXfKpZgHZeLIVBeC5KmeK5KxhZTHb8gETaLzGMaNQ8BIF3YyHNGgJtDPjOqEaQE=
-SHA256 (Pkgfile) = d1758f0a9aa65659c2a0519a6d740415927445abad40f863c17b48a31fdc5ff7
-SHA256 (.footprint) = 3b10e3e09eb3d41d67f25b4b87312f65a9c7da40f3034907571841d72c7ec588
-SHA256 (vte-0.28.2.tar.xz) = 86cf0b81aa023fa93ed415653d51c96767f20b2d7334c893caba71e42654b0ae
-SHA256 (fix_meta_alt_keybinding.patch) = 31a46fee8fe59bd1d6df54bc502b608fe80da57bf3786e2dc6e9856a4e793ed6
-SHA256 (vte.escape.cpu.usage.diff) = b83e820f6d319f6e33bc98cbbae6089fdf8aba44eee344efe3c2168ddd3ed20c
-SHA256 (stream-mem.patch) = 59cbeeec0dd7a6b2887f83e47681638271789c9aa16bca79bc0a4fc8442afa0c
