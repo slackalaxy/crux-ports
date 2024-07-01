@@ -4,9 +4,9 @@
 # Depends on: icu libjpeg-turbo xorg-libxcursor xorg-libxdamage xorg-libxinerama xorg-libxkbfile xorg-libxrandr xorg-libxtst xorg-libxv
 
 name=freerdp2
-version=2.11.2
+version=2.11.7
 release=1
-source=(https://github.com/FreeRDP/FreeRDP/files/12670558/freerdp-$version.tar.gz)
+source=(https://github.com/FreeRDP/FreeRDP/releases/download/$version/freerdp-$version.tar.gz)
 
 build() {
 	cd freerdp-$version

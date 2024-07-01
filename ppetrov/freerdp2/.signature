@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZYiF+KWo66RvjhjAwU6FtZqWrUnyOVZBsL92ax8nBwcpCaVNe3aEw2fWYfk4RNy4bj9ycTyXkaaAvcXjmZEdewI=
-SHA256 (Pkgfile) = 44fd9369455d05f6ed3f2209b8c48c918be42b3cdee081bf0722f3ac1d8fda75
-SHA256 (.footprint) = 8d0252a91e6dc59d327305a58d5022b016e12ce628f96f12b9934d1bfa25dad9
-SHA256 (freerdp-2.11.2.tar.gz) = 17e36553065cb59126f8fee987ec74783db50232b361574dac86b7a768dea3b4
+RWToVVsIkzFIZS5D9YlUW/GyadHzJ59DZBXXR2BODVEOU4RONku8PLeAv6EeW0VOznPDKFG49VcMchlSlEGA9sUJ/pCfLWp7vgg=
+SHA256 (Pkgfile) = fa5c84a079d0a94e68b4c5f9e8feb6bed97de41f420b79f82b131efd01f36ffd
+SHA256 (.footprint) = 4a1a745d8af620d85db36181a44ffc563071cc29bf56a1628c74674ad108e1b8
+SHA256 (freerdp-2.11.7.tar.gz) = 5a2d54e1ca0f1facd1632bcc94c73b9f071a80c5fdbbb3f26e79f02aaa586ca3
