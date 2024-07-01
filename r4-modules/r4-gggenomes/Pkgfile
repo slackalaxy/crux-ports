@@ -1,15 +1,16 @@
 # Description: R module gggenomes
-# URL: https://github.com/thackl/gggenomes
+# URL: https://cran.r-project.org/web/packages/gggenomes
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-gggenes r4-readr r4-snakecase
+# Depends on: r r4-colorspace r4-dplyr r4-ellipsis r4-ggplot2 r4-jsonlite r4-magrittr r4-purrr r4-readr r4-rlang r4-scales r4-snakecase r4-stringr r4-tibble r4-tidyr r4-tidyselect r4-vctrs
+# Optional: r4-ggrepel r4-ggtree r4-hmisc r4-iranges r4-knitr r4-patchwork r4-testthat
 
 name=r4-gggenomes
-version=f29495a
+version=1.0.0
 release=1
-source=(https://github.com/thackl/gggenomes/archive/f29495a/gggenomes-f29495a25cc4168946ab7897852e920f926e208a.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/gggenomes_${version}.tar.gz)
 
 build() {
-	cd gggenomes-$version*
+	cd gggenomes
 	mkdir -p $PKG/usr/lib/R/library
 	R CMD INSTALL . -l $PKG/usr/lib/R/library
 }

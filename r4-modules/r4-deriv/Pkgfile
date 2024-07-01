@@ -1,0 +1,16 @@
+# Description: R module Deriv
+# URL: https://cran.r-project.org/web/packages/Deriv
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-testthat
+
+name=r4-deriv
+version=4.1.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/Deriv_${version}.tar.gz)
+
+build() {
+	cd Deriv
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

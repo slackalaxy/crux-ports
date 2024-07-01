@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89Dk6WlHdnqD3RKtE01bUBzPwqoDOnHZhgoY51hdTeIkK8Z+FXqkMUGxAOCgzQT99xMUKEpXnwAzJ0hSDpWIZtAs=
+SHA256 (Pkgfile) = d071fe922609edd29655a44fdf84c3a907323ed12384f4e499f11a8d3c148cb8
+SHA256 (.footprint) = 282c0f5e20e3e1e1ccf76c1677d1f42a1b5c8cdd9d66e26d4892ee0995bbe30d
+SHA256 (microbenchmark_1.4.10.tar.gz) = 04cc41be72708dce8d31ff1cb105d88cc9f167250ea00fe9a165c99204b9b481
