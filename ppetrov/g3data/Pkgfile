@@ -4,13 +4,14 @@
 # Depends on: gtk xorg-libxdamage
 
 name=g3data
-version=1.5.4
+version=47a1e64
 release=1
-source=(https://slackware.uk/sbosrcarch/by-name/academic/$name/$name-$version.tar.gz)
+source=(https://github.com/pn2200/g3data/archive/$version/g3data-47a1e648b3e1fa2e2a0f138fe57e23469318bb4e.tar.gz)
 
 build() {
-	cd $name-$version
+	cd $name-${version}*
 	
+	autoreconf -fvi
 	./configure --prefix=/usr
 	make
 	make install DESTDIR=$PKG
