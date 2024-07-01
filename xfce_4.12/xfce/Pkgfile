@@ -1,11 +1,11 @@
 # Description: Dummy port to build the whole XFCE environment and then some...
 # URL: https://xfce.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: clearlooks-classic file-roller-gtk2 galculator gconf-editor gnome-colors-48 gtk-xfce-engine gvfs orage pnmixer polar-cursor-themes system-config-printer terminus-font-otb thunar-archive-plugin thunar-volman xdg-user-dirs xdg-utils xfce4-appfinder xfce4-clipman-plugin xfce4-cpufreq-plugin xfce4-dict xfce4-netload-plugin xfce4-notes-plugin xfce4-notifyd xfce4-places-plugin xfce4-power-manager xfce4-screenshooter xfce4-sensors-plugin xfce4-systemload-plugin xfce4-taskmanager xfce4-terminal xfce4-volumed-pulse xfce4-wavelan-plugin xfce4-whiskermenu-plugin xfce4-xkb-plugin xfwm4-themes
+# Depends on: clearlooks-classic file-roller-gtk2 galculator gconf-editor gnome-colors-48 gtk-xfce-engine gvfs orage pavucontrol-gtk2 pnmixer polar-cursor-themes system-config-printer terminus-font-otb thunar-archive-plugin thunar-volman xdg-user-dirs xdg-utils xfce4-appfinder xfce4-clipman-plugin xfce4-cpufreq-plugin xfce4-dict xfce4-netload-plugin xfce4-notes-plugin xfce4-notifyd xfce4-places-plugin xfce4-power-manager xfce4-pulseaudio-plugin xfce4-screenshooter xfce4-sensors-plugin xfce4-systemload-plugin xfce4-taskmanager xfce4-terminal xfce4-volumed-pulse xfce4-wavelan-plugin xfce4-whiskermenu-plugin xfce4-xkb-plugin xfwm4-themes
 
 name=xfce
 version=4.12
-release=8
+release=9
 source=(config.tar.xz gtkrc-2.0 xinitrc)
 
 build() {
