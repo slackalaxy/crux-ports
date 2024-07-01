@@ -4,7 +4,7 @@
 # Depends on:
 
 name=iqtree
-version=2.3.4
+version=2.3.5
 release=1
 source=(https://github.com/iqtree/iqtree2/releases/download/v${version}/$name-$version-Linux-intel.tar.gz)
 
