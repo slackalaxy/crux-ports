@@ -41,7 +41,6 @@ d:xfce4-dev-tools
 d:xfce4-volumed-pulse
 d:xfce4-notifyd
 d:xfce4-xkb-plugin
-d:vte
 d:lxdm
 d:gconf-editor
 d:system-config-printer
@@ -51,6 +50,7 @@ d:notify-python
 d:gigolo-gtk2
 d:galculator
 d:upower
+d:xfce4-pulseaudio-plugin
 f:5ec1b92f7f81c954cffe5ec604ee515d:orage/.footprint
 f:d6eb268abf4c2fe1b3dfeeb0024277b6:orage/Pkgfile
 f:46a029d1007c1d9f7fb854f77cc76255:orage/orage.libical3.patch
@@ -134,9 +134,9 @@ f:b82cc912d35cd44ce91a24eba702ad5f:keybinder/.footprint
 f:4213a2b85a67e35b81880fc599d61eab:keybinder/Pkgfile
 f:c6e6109b527d53a65dc5079c8ed8772d:keybinder/.signature
 f:2c514f988b031766edbf6e8536ee0894:xfce/.footprint
-f:78b4c013ef63ddc375b7792510b6eb81:xfce/Pkgfile
+f:59e3ff048cfcbf3e85cbbcdaa8459cdc:xfce/Pkgfile
 f:a72543dd0a2d0d8683aed8394b37c94d:xfce/README
-f:24a9f17d79c996051c83623138e3f294:xfce/.signature
+f:e9b63b22534726bdf85a549840aed498:xfce/.signature
 f:52a0a98cac9c9cea94697e28cb8475f6:xfce/gtkrc-2.0
 f:cc02dda9e93c8afcfadfc2fbb68f795f:xfce/xinitrc
 f:d2dacf0695b2007450582894d5a6a36b:xfce/config.tar.xz
@@ -211,12 +211,6 @@ f:0f9c06607baef287ea15845f31e8ea2a:xfce4-notifyd/.signature
 f:f5729bf74f123228f84424034e6eb135:xfce4-xkb-plugin/.footprint
 f:f1cb65cdd3db25107f4379d4c1efe3fb:xfce4-xkb-plugin/Pkgfile
 f:4715875f6cb7d06d51e6bd2b8c04b189:xfce4-xkb-plugin/.signature
-f:f4c92facbeffdb06f3712356d9de2e5c:vte/Pkgfile
-f:6bf2c631a5f51a29d46d63e5333082ce:vte/fix_meta_alt_keybinding.patch
-f:28dd67d2a28f54e677eac2bc8c564954:vte/vte.escape.cpu.usage.diff
-f:956329f080368daeaeb7ed368aca9895:vte/.footprint
-f:cc1e7d1ac9f80e27746b3b9e7e72ed29:vte/.signature
-f:51dc3a6f6f1911fe6b5123690188ad6d:vte/stream-mem.patch
 f:6086e25de14bf50fe69c07ba7627a76b:lxdm/Pkgfile
 f:f3bf75c816f211922b9c0ae8c2540b21:lxdm/lxdm.rc
 f:0607bf78024693c51ca9d757fd6708eb:lxdm/.footprint
@@ -254,3 +248,6 @@ f:b90136d1fc207b3654bdc6e0a1f6eafc:upower/UPower.7
 f:3e7bd2d29119551b3464b2678c5fb9f5:upower/disable-gtk-docs.patch
 f:802dd0b38656ac7f23b8b10864310495:upower/upower.1
 f:1f07d698cc3049f8862e4562eaa6385a:upower/upowerd.8
+f:afe5ebcfd6cba0795e49c45f99bea83c:xfce4-pulseaudio-plugin/Pkgfile
+f:576c61af73b3837854e19cde9d57d2b2:xfce4-pulseaudio-plugin/.footprint
+f:e96e3ed069595d65d0406fae5986ba53:xfce4-pulseaudio-plugin/.signature
