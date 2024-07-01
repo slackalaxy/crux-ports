@@ -4,11 +4,21 @@
 # Depends on: python3-numpy
 
 name=biopython
-version=1.83
+version=1.84
 release=1
 source=(http://biopython.org/DIST/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-	python3 setup.py install --root=$PKG
+  cd $name-$version
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install \
+                   --prefix=/usr    \
+                   --root="$PKG"    \
+                   --skip-build     \
+                   --optimize=1
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE*"   \) -delete
 }
