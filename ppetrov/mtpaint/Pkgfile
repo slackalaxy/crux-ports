@@ -4,12 +4,12 @@
 # Depends on: gtk lcms2 python xorg-libxdamage
 
 name=mtpaint
-version=3.50
-release=3
-source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2)
+version=3.50.10
+release=1
+source=(https://github.com/wjaguar/mtPaint/archive/a0e749d/$name-a0e749d77ae9944974b0a7a98b479052141bd7bb.tar.gz)
 
 build() {
-	cd $name-$version
+	cd mtPaint-a0e749d77ae9944974b0a7a98b479052141bd7bb
 
 	./configure --prefix=/usr \
 	gtk2 thread jpeg tiff lcms2 cflags man nojp2 release

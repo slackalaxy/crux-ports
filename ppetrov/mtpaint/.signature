@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZYhpVdBkg1I/BbeQMlDzAnV4NRwFCv/fS/XfyILlJ1u72/bf4ee9kl3iQELXMbouKcwvjJTnzlRzPbcn1LFZIQ4=
-SHA256 (Pkgfile) = 2282cb96f945254d3b4226ea6794bedf24a4d3378ed6bda8e161a4afe6b7fa6f
+RWToVVsIkzFIZaXwK6Db2Rjw1U7YgAIKVneayaVwi4VR0AeNZcvS/leSvZbJDLo1SA34pEkfxboeT03uyO8rifG0CbRumkyYzAw=
+SHA256 (Pkgfile) = b41e75b12a9440755020ab518b3211b4335041b62be70e1b275c7df5a613b8d8
 SHA256 (.footprint) = 561e94f7f558ba53aa6b871e9671577d3eb26a8d1729edcbdd8fd20b12f4f63b
-SHA256 (mtpaint-3.50.tar.bz2) = 695cea10c428a8f122ed59beee5ffa49dcdcba8d88a4790eaf3c64fd7c73d6ac
+SHA256 (mtpaint-a0e749d77ae9944974b0a7a98b479052141bd7bb.tar.gz) = b24c3b7c66ff1afcf53d7ee6038bbb8ad704f3937c708e5afe8d372ce38f5add
