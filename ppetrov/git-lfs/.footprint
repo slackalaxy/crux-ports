@@ -7,6 +7,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/git-lfs-checkout.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-lfs-clean.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-lfs-clone.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/git-lfs-completion.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-lfs-dedup.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-lfs-env.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/git-lfs-ext.1.gz

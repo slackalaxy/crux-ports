@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbvR9DMPjCS8hMM1Ed1zzkVX2ec2JlYP8DO7UodWDdj6BKbSgvQ9CoCqewLfR6lwU/Zd47QpPXzM9w1oPaAEOQ4=
-SHA256 (Pkgfile) = c449ea8c93ed7e2e5c078fa48cdc2a09946443f79d8ab6622e910fab20473aa1
-SHA256 (.footprint) = c56a6369f0d27f307188c998ae4792521eb28b82584a0dec683ff947f85dbfa4
-SHA256 (git-lfs-linux-amd64-v3.3.0.tar.gz) = 6a4e6bd7d06d5c024bc70c8ee8c9da143ffc37d2646e252a17a6126d30cdebc1
+RWToVVsIkzFIZYs0HGNZ8RkKAAL0qMGorBKoYoWgekh33Lno5wm76BEH3aoI4N+7xM2sEF2//0J/a6RhHGad/dLLj+okzGnzzg8=
+SHA256 (Pkgfile) = 8445d66a5ea440c31d40015facddfebb3af5e86c5db07f1281314051b19010c8
+SHA256 (.footprint) = 6e498e7d4609ef022ec46d7d4246a85daa20aa774db29b57ac8612ad0b19d3f2
+SHA256 (git-lfs-linux-amd64-v3.5.1.tar.gz) = 6f28eb19faa7a968882dca190d92adc82493378b933958d67ceaeb9ebe4d731e

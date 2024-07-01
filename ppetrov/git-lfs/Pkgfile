@@ -4,8 +4,8 @@
 # Depends on: git
 
 name=git-lfs
-version=3.3.0
-release=2
+version=3.5.1
+release=1
 source=(https://github.com/git-lfs/git-lfs/releases/download/v${version}/$name-linux-amd64-v${version}.tar.gz)
 
 build() {
