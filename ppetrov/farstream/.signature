@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQXbbriwojE9sMD6nxWLmUQKGHd8t37eU2XyAcye4JYdnG6OwiM4Q930qrveNxqm4QNK8vu/arH1dHJp3Ai+AAk=
-SHA256 (Pkgfile) = 8b4e5638c36d76143ae875e11fd1699c0503a23168c56e0773d3da0b1cf1bd5a
-SHA256 (.footprint) = d7641957005955e83650f778061f666793865ad675f05eb9aa60067a02e1ba97
-SHA256 (farstream-0.2.9.tar.gz) = cb7d112433cf7c2e37a8ec918fb24f0ea5cb293cfa1002488e431de26482f47b
-SHA256 (farstream-make-4.3.patch) = 39485c842498c57a0b88ced4897e4ac216426cdd8a8416231513af1513208f5c

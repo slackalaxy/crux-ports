@@ -72,7 +72,6 @@ d:xmms-skins-nostalgia
 d:zotero-gtk2
 d:datamash
 d:exonerate
-d:farstream
 d:gelemental
 d:libtiff44
 d:bppsuite
@@ -161,7 +160,6 @@ d:p5-extutils-helpers
 d:p5-math-spline
 d:p5-task-weaken
 d:p5-xml-xpathengine
-d:pidgin
 d:qt5-styleplugins
 d:adoptium17-jdk
 d:bluefish
@@ -219,7 +217,6 @@ d:ensembl_rest
 d:fonts-apple-ny
 d:genpak
 d:gp2fasta
-d:icyque
 d:libcef
 d:libplist
 d:meme-db-tgene
@@ -327,7 +324,6 @@ d:p5-extutils-config
 d:p5-math-derivative
 d:p5-svg
 d:p5-xml-twig
-d:pidgin-opensteamworks
 d:qt4
 d:seqmonk
 d:supertux
@@ -707,10 +703,6 @@ f:ede9bdd67ab298bcd27cdd1c2d9ff349:datamash/.signature
 f:b99ea0bf764764250e28b9795d431215:exonerate/Pkgfile
 f:8ae4e9780e5c3d0eb5e856d1c5950750:exonerate/.footprint
 f:8ef8db510692e9af9975c2c0f922deed:exonerate/.signature
-f:878777844b44f834208cfd0f8db9e2bb:farstream/Pkgfile
-f:362f6500face57cf431ac9063b8de87d:farstream/farstream-make-4.3.patch
-f:3ac162692fcab823f5c64e177f4213d2:farstream/.footprint
-f:f3c1f8325d9e423f885c09d1d9d0189a:farstream/.signature
 f:33a6f5bcd96897bdbbb13787b3914e00:gelemental/Pkgfile
 f:a332021a15ec3f4dd67f53fe41aa810a:gelemental/.footprint
 f:003f99c62295bb09be43b75ae9207724:gelemental/.signature
@@ -1023,11 +1015,6 @@ f:a72d0b192c1cb166160de38d3bcfee8a:p5-task-weaken/.signature
 f:0de1c7a3d1ac98df7e8e3e275b1e8023:p5-xml-xpathengine/Pkgfile
 f:06ba556a81740deb10225b462b8d6822:p5-xml-xpathengine/.footprint
 f:c69158ce24c79766e921a20db7a8ee6b:p5-xml-xpathengine/.signature
-f:2beb36498fa8f9764ee926e0b682dd14:pidgin/Pkgfile
-f:0e7b3285e42a1c76c566f3735eede2ae:pidgin/pidgin.desktop
-f:46943f17d9ae777af373de50b836ab47:pidgin/post-install
-f:3446a499020d56b66299c5ac5613aae9:pidgin/.footprint
-f:341af07d8cdfc9dc7b7acd9cd25d1e73:pidgin/.signature
 f:2af32e0b9bfaa872362639ee8d202532:qt5-styleplugins/0001-fix-build-against-Qt-5.15.patch
 f:b7a01b75f11ca38d8dae6a6f5717fabe:qt5-styleplugins/0002-fix-gtk2-background.patch
 f:b3a0cbc30d8ddb3d931dc2d0f4fa76e3:qt5-styleplugins/Pkgfile
@@ -1254,9 +1241,6 @@ f:0396f6d5d728a0343d6aff25f5146bce:gp2fasta/gp2fasta.desktop
 f:3368a7764f526ea596659d06c45aea95:gp2fasta/gp2fasta.png
 f:77ef3f5038581ff4956d14f5f072f067:gp2fasta/.footprint
 f:7323f30be6d4c63d36b47331c503208a:gp2fasta/.signature
-f:181459afd78e075642dc8f84a348e9a1:icyque/Pkgfile
-f:5cbe8be7b9be611f4e98c96147468f82:icyque/.footprint
-f:deb225f6e983a0845f8784c7732de38c:icyque/.signature
 f:867761c2719ef9ae602150b07c347626:libcef/Pkgfile
 f:53bb0c93c31d67fb02b5442a171745db:libcef/.footprint
 f:148aef4ba8dd822d758e9e445c5fa919:libcef/.signature
@@ -1675,9 +1659,6 @@ f:e2957b947ebb0bb2d3cc6cf1d609ae8c:p5-svg/.signature
 f:903e18495a10fc49c95ed0df75247140:p5-xml-twig/Pkgfile
 f:198a213cda2f68b3e569753838436534:p5-xml-twig/.footprint
 f:e8da24389887a9c5f0ab1e0f5c641cf8:p5-xml-twig/.signature
-f:8c9efcae5380947547f30ab6437ea889:pidgin-opensteamworks/Pkgfile
-f:ca92ae87934dd4cd67b20df8ab74f988:pidgin-opensteamworks/.footprint
-f:d0ae10db461c2833998ccd8049738bcf:pidgin-opensteamworks/.signature
 f:a6919fdd96df4f110d346458c4307721:qt4/Pkgfile
 f:24d8706eae8189476ad3d92696773e33:qt4/disable-root-include.patch
 f:1803ab6313df762d807678e58fc85f53:qt4/disable-sslv3.patch
