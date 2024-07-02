@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZaP8PbefwsBnxajpTdxh8chtQ4uVCUUd70uHftfMsAZ6SSSdiPanvgf2zuIdpgGMwlvjA8FNaYjyXC2XCv5JBA4=
-SHA256 (Pkgfile) = 1e0190f9dc47073b6966c7509962bb412ba734782df324ddc1fb5a3de46361ac
+RWToVVsIkzFIZS+dUivhNOrpCkM7/MbRrBTDJJg3OuJgWktjREYEf8XkRjfTvgwB9dViFZlWneEQj0fCh2rtNwNi2UBXS7Q/Dwg=
+SHA256 (Pkgfile) = 54bf0ae1b81ae7d4d0a6e8f0870b7dc6f1524380361a90098a2fe1bdc02c8f39
 SHA256 (.footprint) = a8630077369381846c02fbb250a9d294afd5179e1ce6d34625dc6fc86e6c63ba
 SHA256 (viber.deb) = 46b39b98ddb540e9b99e4d11d9abe0087d2e96b7e2508a363e7c985af41a195c
 SHA256 (viber.fonts.conf) = 9bbfac341331f3751ed8f64f664ee3521824cd187e41e48c9354fde6e3de14b2
