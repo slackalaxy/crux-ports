@@ -28,3 +28,4 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgload/help/
 drwxr-xr-x	root/root	usr/lib/R/library/pkgload/html/
 -rw-r--r--	root/root	usr/lib/R/library/pkgload/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/pkgload/html/R.css
+-rw-r--r--	root/root	usr/lib/R/library/pkgload/print-var.mk

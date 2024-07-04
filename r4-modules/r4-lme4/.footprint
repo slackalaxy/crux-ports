@@ -91,5 +91,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/testdata/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/tprfm1.RData
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/trees513.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/trees513.RData
-drwxr-xr-x	root/root	usr/lib/R/library/lme4/tinytest/
--rw-r--r--	root/root	usr/lib/R/library/lme4/tinytest/test_lme4.R

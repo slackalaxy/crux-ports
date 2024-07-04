@@ -1,0 +1,16 @@
+# Description: R module animation
+# URL: https://cran.r-project.org/web/packages/animation
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-magick
+# Optional: r4-class r4-mass r4-testit
+
+name=r4-animation
+version=2.7
+release=1
+source=(https://cloud.r-project.org/src/contrib/animation_${version}.tar.gz)
+
+build() {
+	cd animation
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
