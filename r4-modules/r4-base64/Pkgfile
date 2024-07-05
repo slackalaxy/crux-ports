@@ -1,0 +1,16 @@
+# Description: R module base64
+# URL: https://cran.r-project.org/web/packages/base64
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-openssl
+# Optional: 
+
+name=r4-base64
+version=2.0.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/base64_${version}.tar.gz)
+
+build() {
+	cd base64
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

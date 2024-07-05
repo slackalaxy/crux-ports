@@ -1,0 +1,16 @@
+# Description: R module network
+# URL: https://cran.r-project.org/web/packages/network
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-magrittr r4-statnet-common r4-tibble
+# Optional: r4-covr r4-sna r4-testthat
+
+name=r4-network
+version=1.18.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/network_${version}.tar.gz)
+
+build() {
+	cd network
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

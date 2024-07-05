@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89AVBgYbk8iyFBn9p1GErGWBivOmmEOuYg6yU1NHW5gtdEF29maRsYsJNkrk0uvVBJmsGOEYSUEhB8UNm6E6lVAw=
+SHA256 (Pkgfile) = 3ad1cbfc6be2816cfcdbc699ed747a2f5481d5d6687526e6bd604cc7a2b3cda9
+SHA256 (.footprint) = 7992ef29e5c214551a0e24520d73840b357ebaf21868194922dc5bc1c337fa8d
+SHA256 (sna_2.7-2.tar.gz) = 7b214626967feb9389e743e50b919dd4b00e7436b2355fd068c873c45ac7a7cd
