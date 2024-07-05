@@ -473,6 +473,8 @@ d:r4-networklite
 d:r4-sna
 d:r4-statnet-common
 d:r4-tsna
+d:r4-countrycode
+d:r4-echarts4r
 f:06c69512b1cb851a4ff3019f4beaec72:r4-bslib/Pkgfile
 f:f2ccb19b894372a435b7040734ffeea0:r4-bslib/.footprint
 f:61e81dd50845a6bd574acf2ee873cdb6:r4-bslib/.signature
@@ -1898,3 +1900,9 @@ f:1dd3be904b646865a4f6058bd46a100b:r4-statnet-common/.signature
 f:6846addb10a0fbffc07ad51cfde7d012:r4-tsna/Pkgfile
 f:03036de1328261a6b9483ce5d7cc35f0:r4-tsna/.footprint
 f:77c2b59c78f3edfad38c1de6e9ecd6ee:r4-tsna/.signature
+f:8d78d6fc9c83d314e150a56e86a3ae59:r4-countrycode/Pkgfile
+f:f2e1e8bf640fbb3396b1eb92c6241a88:r4-countrycode/.footprint
+f:39d1cebd153e2bb31255ccae30d6717b:r4-countrycode/.signature
+f:0a15190e7aec441c6fafe3b3bdb34880:r4-echarts4r/Pkgfile
+f:c5d9a7e1d63ee10793790f73c8ab5b9e:r4-echarts4r/.footprint
+f:53d390a39d6c2dd8fc6ff9e53d338f8e:r4-echarts4r/.signature

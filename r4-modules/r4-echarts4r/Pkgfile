@@ -1,0 +1,16 @@
+# Description: R module echarts4r
+# URL: https://cran.r-project.org/web/packages/echarts4r
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-broom r4-corrplot r4-countrycode r4-dplyr r4-htmltools r4-htmlwidgets r4-jsonlite r4-purrr r4-rstudioapi r4-scales r4-shiny
+# Optional: r4-covr r4-data-tree r4-knitr r4-leaflet r4-rmarkdown r4-testthat r4-tibble r4-tidyr
+
+name=r4-echarts4r
+version=0.4.5
+release=1
+source=(https://cloud.r-project.org/src/contrib/echarts4r_${version}.tar.gz)
+
+build() {
+	cd echarts4r
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
