@@ -1,12 +1,12 @@
 # Description: Custom fonts configuration
 # URL: https://github.com/slackalaxy/fonts-conf
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fonts-apple-ny fonts-apple-sf fonts-mscore fonts-msoffice fonts-macsel
+# Depends on: fonts-apple-emoji fonts-apple-ny fonts-apple-sf fonts-macsel fonts-mscore fonts-msoffice xorg-font-dejavu-emojiless
 
 name=fonts-conf
-version=87cd0e6
+version=ad1ae16
 release=1
-source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-87cd0e68cfceb1413e842d4dad18caaddc25f7b4.tar.gz)
+source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-ad1ae16ae79c9dd5c6d0cbfa3110aa8c9ee6ec31.tar.gz)
 
 build() {
 	cd $name-${version}*
