@@ -4,9 +4,9 @@
 # Depends on: fonts-apple-emoji fonts-apple-ny fonts-apple-sf fonts-macsel fonts-mscore fonts-msoffice xorg-font-dejavu-emojiless
 
 name=fonts-conf
-version=ad1ae16
+version=8b2f816
 release=1
-source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-ad1ae16ae79c9dd5c6d0cbfa3110aa8c9ee6ec31.tar.gz)
+source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-8b2f8164216e5ab2ed090425810dabbb777dd600.tar.gz)
 
 build() {
 	cd $name-${version}*
