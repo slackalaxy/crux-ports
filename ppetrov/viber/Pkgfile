@@ -6,8 +6,9 @@
 name=viber
 version=current
 #version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
-release=12
+release=13
 source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
+	https://github.com/ChiefMikeK/ttf-symbola/archive/0fdcdd1/ttf-symbola-0fdcdd10ca2c15e03b1d06cc1a80d68fbab258f4.tar.gz
 	$name.fonts.conf)
 
 build() {
@@ -20,7 +21,7 @@ build() {
 	
 	# Fix desktop launcher
 	# see about custom fonts config: https://bbs.archlinux.org/viewtopic.php?pid=1924209#p1924209
-	sed -i 's:/opt/viber/Viber:env FONTCONFIG_FILE=/etc/fonts/viber.fonts.conf /usr/bin/ViberPC:' $PKG/usr/share/applications/$name.desktop
+	sed -i 's:/opt/viber/Viber:env FONTCONFIG_FILE=/etc/fonts/viber.conf /usr/bin/ViberPC:' $PKG/usr/share/applications/$name.desktop
 	sed -i 's:/usr/share/pixmaps/viber.png:viber:' $PKG/usr/share/applications/$name.desktop
 	
 	mkdir -p $PKG/usr/bin
@@ -32,8 +33,9 @@ build() {
 	chmod 755 $PKG/usr/share
 	
 	mkdir -p $PKG/etc/fonts
-	cp -a $SRC/$name.fonts.conf $PKG/etc/fonts/
-	
+	cp -a $SRC/$name.fonts.conf $PKG/etc/fonts/$name.conf
+	install -D -m 0644 $SRC/ttf-symbola-0fdcdd10ca2c15e03b1d06cc1a80d68fbab258f4/Symbola-13.otf $PKG/usr/lib/viber/fonts/Symbola.otf
+
 	find $PKG/usr/lib/viber/translations/ -maxdepth 1 -type f -not -name "*_en.qm" -delete
 	
 	cd $PKG/usr/lib/$name/lib

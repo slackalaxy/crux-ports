@@ -1,6 +1,6 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/fonts/
--rw-r--r--	root/root	etc/fonts/viber.fonts.conf
+-rw-r--r--	root/root	etc/fonts/viber.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/ViberPC
@@ -55,6 +55,8 @@ drwxrwxr-x	root/root	usr/lib/viber/Sound/SecureCalls/
 -rw-rw-r--	root/root	usr/lib/viber/Sound/transfer_confirm.wav
 -rw-rw-r--	root/root	usr/lib/viber/Sound/transfer_in.wav
 -rwxr-xr-x	root/root	usr/lib/viber/Viber
+drwxr-xr-x	root/root	usr/lib/viber/fonts/
+-rw-r--r--	root/root	usr/lib/viber/fonts/Symbola.otf
 drwxrwxr-x	root/root	usr/lib/viber/icons/
 -rw-rw-r--	root/root	usr/lib/viber/icons/128x128.png
 -rw-rw-r--	root/root	usr/lib/viber/icons/16x16.png
