@@ -6,8 +6,9 @@
 name=google-chrome
 version=current
 #version=$(ar p $name-stable_current_amd64.deb control.tar.xz 2> /dev/null | tar JxO ./control 2> /dev/null | grep Version | awk '{print $2}' | cut -d- -f1)
-release=6
-source=(https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb)
+release=7
+source=(https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+	$name.fonts.conf)
 
 build() {
 	bsdtar -xf $name-stable_current_amd64.deb 
@@ -51,4 +52,7 @@ build() {
         ln -s ../lib/$name/$name $name-stable
 	cd -
 
+	mkdir -p $PKG/etc/fonts
+	cp -a $SRC/$name.fonts.conf $PKG/etc/fonts/$name.conf
+	sed -i "3 i export FONTCONFIG_FILE=/etc/fonts/$name.conf" $PKG/usr/lib/$name/$name
 }
