@@ -1,5 +1,7 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwY6Ef5i3QJo4oCNstwiOB6/7Zhq6nVWe09CzXhyVmXS6Gu+WLxxSw+WwPj+lCUhwugJo/IOpmqX/yifbn0BXewU=
-SHA256 (Pkgfile) = dfc41e6ad6d6dc182ae4a69fe9d33d24031f29843c52cccd978e466057b16f7f
+RWRPokwW0IImwVlxbJVZoXRK5mLhb8CY/XLNYFfjW0C54KKKxUyMQn3ugjKXeg75ZrS+6ZWNRHjPn09MKBpk+utKjQSalTIeBg8=
+SHA256 (Pkgfile) = 9ac854923f6ff303b3315567fe7557ccfa24a6d3a00a0ddddf9c70778bf74fd5
 SHA256 (.footprint) = 6a69edf2ae83d8c2e5b1940dbded37137f1ab511ee7727b2c26ea97299c62392
 SHA256 (Microsoft_Office_Professional_Plus_2007.iso) = 8123988014dffb754877f74cdce9f579d2f512ac0cdda5575590cbb7e66433d3
+SHA256 (cleaner_ttf.py) = 67056b33de2550ecbb93d269eacd08d508f47892d5fc582d8bd0c211d5787b78
+SHA256 (emoji-data.txt) = 4822fed8b857ca26490fe13ab504904a1da59ed18f34ed25cc27fcace0fdf88b
