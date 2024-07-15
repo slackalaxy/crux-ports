@@ -5,39 +5,24 @@
 
 name=gbgoffice
 version=1.4
-release=2
-source=(http://ftp.debian.org/debian/pool/main/g/$name/${name}_${version}.orig.tar.gz
-	02_exam-no-dicts.patch
-	03_multidir.patch
-	04_fix_fsf_address.patch
-	05_gcc4.1.patch
-	06_const-chars.patch
-	07_gcc4.3.patch
-	08_fix_const_conversion.patch
-	09_deprecated_SigC.patch
-	10_workhelper-buttonbox.patch
-	11_explicit-linkage.patch
-	12_gcc6.patch
+_debian=12
+release=3
+source=(https://ftp.debian.org/debian/pool/main/g/gbgoffice/gbgoffice_${version}.orig.tar.gz
+	https://ftp.debian.org/debian/pool/main/g/gbgoffice/gbgoffice_${version}-${_debian}.debian.tar.xz
 	$name.desktop)
 
 build() {
 	cd $name-$version
 	
-	# Thanks to Debian for the patches
-	patch -p1 -i $SRC/02_exam-no-dicts.patch
-	patch -p1 -i $SRC/03_multidir.patch
-	patch -p1 -i $SRC/05_gcc4.1.patch
-	patch -p1 -i $SRC/06_const-chars.patch
-	patch -p1 -i $SRC/07_gcc4.3.patch
-	patch -p1 -i $SRC/08_fix_const_conversion.patch
-	patch -p1 -i $SRC/09_deprecated_SigC.patch
-	patch -p1 -i $SRC/10_workhelper-buttonbox.patch
-	patch -p1 -i $SRC/11_explicit-linkage.patch
-	patch -p1 -i $SRC/12_gcc6.patch
+	# Thanks to Debian for the source and patches
+	cat $SRC/debian/patches/series | while read -r i ; do
+		patch -p1 -i $SRC/debian/patches/$i
+	done
 	
 	./configure --prefix=/usr
 
 	make
+	make -k check
 	make install DESTDIR=$PKG
 	
 	mkdir -p $PKG/usr/share/applications

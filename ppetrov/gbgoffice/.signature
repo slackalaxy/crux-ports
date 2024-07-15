@@ -1,17 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZUodmOO/N0h5qcF56/v/bkcRY5Aq5SB9eyYJEpmy5/neYVvyUDO57wXdYGlcq9MpvvbtoPBljhLu4EdzaG+mGQY=
-SHA256 (Pkgfile) = 629fdbb356e8e29334f57dc66460a9ff89158c08d1c6f40ddbd369679bba7e6a
+RWToVVsIkzFIZRuRixpnENaLeppu/2Ko3Hg/VU09IIsFiCTvRhIeaA4GWDGOlw5I9Sm04GPDxfEwm0xH8YjKujUDVV7YKJQKNQ8=
+SHA256 (Pkgfile) = 5c50d6b1b791f327cc4db4d4ec9ab8760581133bce5a9a3924c4add8c77da078
 SHA256 (.footprint) = e4ec51c6cba57c27f8ff00a87fefa1ba988bcccccc9095b08262ac1297eef524
 SHA256 (gbgoffice_1.4.orig.tar.gz) = e4459bdde092eefb8bf84d9a915fcf07760d51c36ded3b74f280c614e0ae3561
-SHA256 (02_exam-no-dicts.patch) = 2e103bf7c656bc31ba42004d140e3d4cdab44259a36a400f3e623ee2968d98fa
-SHA256 (03_multidir.patch) = ae1e026d98ff7bf6d4cb42f7af757b934c61da7ff4451dc6fb713f1b7fbe76c3
-SHA256 (04_fix_fsf_address.patch) = 97330234b90ba45690506ae8e177d0ff11c19f57f0966ddd0a19a388e177183c
-SHA256 (05_gcc4.1.patch) = 8d2b1fe2a5a98baf69bf426cc6b88281852dbbe0385926bdad24ac09aa424d97
-SHA256 (06_const-chars.patch) = 947901d7c61c80c37fd76f2c5c39467592ff0612638a306fbdee2e5196d79669
-SHA256 (07_gcc4.3.patch) = c54723d8169bf2cc5839303eb8ffd5b90f14ed266996dff97691e75f5076a247
-SHA256 (08_fix_const_conversion.patch) = dadd6bbf5702962eb04aad2b1131b882c2eb685c6f00f09fcfa672f991765dd5
-SHA256 (09_deprecated_SigC.patch) = 9add831b5abf49f0ab321116543fa9ef198417a5377280fda7b99718bb07e296
-SHA256 (10_workhelper-buttonbox.patch) = f25579caf30452e7682226ff8a3be85b33320779b92d069ae84e5cf8bfaeab91
-SHA256 (11_explicit-linkage.patch) = 164b2251f84ec4f915cd2e9829abc4050ac00a6d5b8aa5126913b0c237983b4e
-SHA256 (12_gcc6.patch) = 9d3e032616674f6d87cae5859a7a350445b81af570a80f1847c0a47a44726a85
+SHA256 (gbgoffice_1.4-12.debian.tar.xz) = 99c3fb5423252516e84d35271744cae3904c53da6490a5fea5eae61db230ba88
 SHA256 (gbgoffice.desktop) = 13fcae8880e83acebf21286d37049a245b3d974caf9bfd124753d84ba819f2b7
