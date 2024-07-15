@@ -5,10 +5,12 @@
 
 name=fonts-mscore
 version=22H2
-release=1
+release=2
 source=(https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
 	https://download.microsoft.com/download/3/B/C/3BC07D0C-2748-4300-84DD-694857E582F1/MTEXTRA.TTF
-	https://github.com/ironveil/ttf-aptos/archive/$version/ttf-aptos-64f511374b173d0d0618455e57d1e7aacd910818.tar.gz)
+	https://github.com/ironveil/ttf-aptos/archive/$version/ttf-aptos-64f511374b173d0d0618455e57d1e7aacd910818.tar.gz
+	cleaner.py
+	emoji-data.txt)
 
 build() {
 	mkdir -p $name-$version
@@ -28,6 +30,10 @@ build() {
 	
 	# fix this, just in case
 	chmod 0644 *.{ttf,ttc}
+	
+	# convert Cambria to TTF
+	fontforge -lang=ff -c 'Open("cambria.ttc(Cambria)"); Generate("cambria.ttf"); Close(); Open("cambria.ttc(Cambria Math)"); Generate("cambria-math.ttf");Close();'
+	rm -rf $PKG/usr/share/fonts/microsoft/cambria.ttc
 	
 	# WPS Office has an issue with these
 	fontforge -lang=ff -c 'Open("SegUIVar.ttf(SegoeUIVariable)"); Generate("seguivar.ttf"); Close();'
@@ -75,4 +81,10 @@ build() {
 		YuGoth?.ttc)
 	
 	for i in ${remove[@]}; do rm -rf $PKG/usr/share/fonts/microsoft/$i ; done
+	
+	# Remove inbuilt emojis
+	cd $SRC
+	for t in $PKG/usr/share/fonts/microsoft/*.ttf ; do
+		fontforge -script $SRC/cleaner.py "$t"
+	done
 }

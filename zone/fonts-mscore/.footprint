@@ -37,7 +37,8 @@ drwxr-xr-x	root/root	usr/share/fonts/microsoft/
 -rw-r--r--	root/root	usr/share/fonts/microsoft/calibril.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/calibrili.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/calibriz.ttf
--rw-r--r--	root/root	usr/share/fonts/microsoft/cambria.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/cambria-math.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/cambria.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/cambriab.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/cambriai.ttf
 -rw-r--r--	root/root	usr/share/fonts/microsoft/cambriaz.ttf
