@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQWz61gx3xOc0uIvD+cz0HZQlSh6HzIdleCa8ZsDY0AJ9L5FX0RikFyzudF++uK51FMO92yqJg7efh8ojddnogA=
+SHA256 (Pkgfile) = b3a141dca5bff0db2d442ece145fd7544c87f492dd69ae56b18105c35e8d72f3
+SHA256 (.footprint) = 2ab162317709176e0e71dd094ed1b339aacb96339f441bc627cdfee97c999330
+SHA256 (dejavu-fonts-ttf-2.37.tar.bz2) = fa9ca4d13871dd122f61258a80d01751d603b4d3ee14095d65453b4e846e17d7
+SHA256 (emoji-data.txt) = 4822fed8b857ca26490fe13ab504904a1da59ed18f34ed25cc27fcace0fdf88b
+SHA256 (remove-generic-name-assignment-and-aliasing.patch) = 21d85a4f6ea7856074a4eb5c5fce6a10e764d11ff4336e92c4f009815efebb0c
+SHA256 (cleaner_ttf.py) = 67056b33de2550ecbb93d269eacd08d508f47892d5fc582d8bd0c211d5787b78
