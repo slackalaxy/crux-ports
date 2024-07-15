@@ -5,9 +5,10 @@
 
 name=fonts-macsel
 version=1.6.43
-release=2
-source=(https://archive.org/download/macos-collection/Releases/Yosemite%2010.10.5%20v1.6.43.iso)
-renames=(Yosemite_10.10.5_v1.6.43.iso)
+release=3
+source=(https://archive.org/download/macos-collection/Releases/Yosemite%2010.10.5%20v1.6.43.iso
+	cleaner_ttf.py cleaner_ttc.py emoji-data.txt)
+renames=(Yosemite_10.10.5_v1.6.43.iso SKIP SKIP SKIP)
 
 build() {
 	mkdir -p $SRC/$name-$version/{Base,CoreServices,CoreRecognition,Slideshows,Deprecated,iLife,iWork,System,Library}
@@ -86,4 +87,14 @@ build() {
 	cp -a Avenir.ttc Avenir\ Next.ttc Avenir\ Next\ Condensed.ttc Kohinoor.ttc $PKG/usr/share/fonts/apple
 
 	chmod 0644 $PKG/usr/share/fonts/apple/*
+	
+	# Remove B/W emoji symbols
+	cd $SRC
+	for t in $PKG/usr/share/fonts/apple/*.ttf ; do
+		fontforge -script $SRC/cleaner_ttf.py "$t"
+	done
+	
+	for t in $PKG/usr/share/fonts/apple/*.ttc ; do
+		fontforge -script $SRC/cleaner_ttc.py "$t"
+	done
 }
