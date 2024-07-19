@@ -34,5 +34,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/spatstat.explore/help/macros/
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.explore/html/
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.explore/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.explore/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/spatstat.explore/info/
+-rwxr-xr-x	root/root	usr/lib/R/library/spatstat.explore/info/packagesizes.txt
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.explore/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/spatstat.explore/libs/spatstat.explore.so

@@ -1,0 +1,16 @@
+# Description: R module spatstat.univar
+# URL: https://cran.r-project.org/web/packages/spatstat.univar
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-spatstat-utils
+# Optional: 
+
+name=r4-spatstat-univar
+version=3.0.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/spatstat.univar_3.0-0.tar.gz)
+
+build() {
+	cd spatstat.univar
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

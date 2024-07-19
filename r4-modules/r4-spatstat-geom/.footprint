@@ -33,6 +33,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/spatstat.geom/help/macros/
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.geom/html/
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.geom/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.geom/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/spatstat.geom/info/
+-rwxr-xr-x	root/root	usr/lib/R/library/spatstat.geom/info/packagesizes.txt
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.geom/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/spatstat.geom/libs/spatstat.geom.so
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.geom/ratfor/

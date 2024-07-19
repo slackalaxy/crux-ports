@@ -475,6 +475,7 @@ d:r4-statnet-common
 d:r4-tsna
 d:r4-countrycode
 d:r4-echarts4r
+d:r4-spatstat-univar
 f:06c69512b1cb851a4ff3019f4beaec72:r4-bslib/Pkgfile
 f:f2ccb19b894372a435b7040734ffeea0:r4-bslib/.footprint
 f:61e81dd50845a6bd574acf2ee873cdb6:r4-bslib/.signature
@@ -740,8 +741,8 @@ f:920d0b8e9b762a2f063ae324582a7d39:r4-sourcetools/Pkgfile
 f:eac4169f82b07d44c2fc35d884b5bd19:r4-sourcetools/.footprint
 f:817c665917d9b3069f60547585c6eb1c:r4-sourcetools/.signature
 f:c157f90ba1abcfbc116c8b32884fdca9:r4-spatstat-explore/Pkgfile
-f:c1f63826e90adae41125ca2efec7f438:r4-spatstat-explore/.footprint
-f:0f134cdd65bc33c5db8937a83dd5664a:r4-spatstat-explore/.signature
+f:bba55cdcdb944883fa537f4bad72dd9f:r4-spatstat-explore/.footprint
+f:a3404406372810e2925ca43887750969:r4-spatstat-explore/.signature
 f:1ddab534ea145d453c83d8bc174e6f0c:r4-spatstat-utils/Pkgfile
 f:baccd94b21fb3120ca6134feebee1a78:r4-spatstat-utils/.footprint
 f:303f28fd62c08eab75ce990a313c2a3d:r4-spatstat-utils/.signature
@@ -902,8 +903,8 @@ f:73da0d6aeaa94f28f7dc82580406f1af:r4-sp/Pkgfile
 f:787bfaf49f3a0a7580d0dcd60b4eaa0a:r4-sp/.footprint
 f:b8cc05dd43360b7f7ecb17e3a9d9ef4b:r4-sp/.signature
 f:af67a71f0bf596c56aa2b7f42386d738:r4-spatstat-geom/Pkgfile
-f:f33aa025209915b9acc8a1f5c418e83d:r4-spatstat-geom/.footprint
-f:3fddac597b9f1083dfb924b4d76eb4af:r4-spatstat-geom/.signature
+f:7ec87acdc41724c9205857d1dac45205:r4-spatstat-geom/.footprint
+f:43b67e64984f8d2b0c44ba95b2e4591b:r4-spatstat-geom/.signature
 f:0cc568497b26a1f7956586298d483b92:r4-stringi/Pkgfile
 f:2bc4cb52e9c768ec18d0063021adf429:r4-stringi/.footprint
 f:8cc550573e97dbe7d3e538ee34b735c9:r4-stringi/.signature
@@ -998,8 +999,8 @@ f:3f5343fc9033b9b1881a043584773260:r4-spam/Pkgfile
 f:68612a7f1350e3a741cb516b7e93364a:r4-spam/.footprint
 f:d2780af719bb058e36511497b824a6af:r4-spam/.signature
 f:84ecda85f9dfb14150d623654611aec5:r4-spatstat-random/Pkgfile
-f:1d80d5d4ccfda0dcd09e3b96e33990c3:r4-spatstat-random/.footprint
-f:93b2c6c0efeae144632834159671836e:r4-spatstat-random/.signature
+f:40c46bb7012537027b984ef85ab35f50:r4-spatstat-random/.footprint
+f:fe085826b2a3652be115d1bcd60c004f:r4-spatstat-random/.signature
 f:77c17759fb9b231390fbdcd719184301:r4-stringr/Pkgfile
 f:8be896eabe9520b6b610b9775b6cab0a:r4-stringr/.footprint
 f:5a16a74fa8ff691edac24616b1f34333:r4-stringr/.signature
@@ -1906,3 +1907,6 @@ f:39d1cebd153e2bb31255ccae30d6717b:r4-countrycode/.signature
 f:0a15190e7aec441c6fafe3b3bdb34880:r4-echarts4r/Pkgfile
 f:c5d9a7e1d63ee10793790f73c8ab5b9e:r4-echarts4r/.footprint
 f:53d390a39d6c2dd8fc6ff9e53d338f8e:r4-echarts4r/.signature
+f:686df9344d2edbec0dda12cc0f4f4fec:r4-spatstat-univar/Pkgfile
+f:8bca43d907671aa9d269348977b5ce0b:r4-spatstat-univar/.footprint
+f:d553c0f4cda530dd15ab537d3b03e47c:r4-spatstat-univar/.signature

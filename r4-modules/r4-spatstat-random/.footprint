@@ -32,5 +32,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/spatstat.random/help/macros/
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.random/html/
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.random/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.random/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/spatstat.random/info/
+-rwxr-xr-x	root/root	usr/lib/R/library/spatstat.random/info/packagesizes.txt
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.random/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/spatstat.random/libs/spatstat.random.so
