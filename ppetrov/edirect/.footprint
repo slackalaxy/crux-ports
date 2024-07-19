@@ -159,7 +159,6 @@ drwxr-xr-x	root/root	usr/share/edirect/eutils/
 -rw-r--r--	root/root	usr/share/edirect/eutils/citref.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/clean.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/eutils_test.go
--rw-r--r--	root/root	usr/share/edirect/eutils/extern.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/fasta.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/format.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/gbff.go
@@ -181,7 +180,6 @@ drwxr-xr-x	root/root	usr/share/edirect/eutils/
 -rw-r--r--	root/root	usr/share/edirect/eutils/search.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/spdi.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/table.go
--rw-r--r--	root/root	usr/share/edirect/eutils/taxon.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/text.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/toml.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/transmute_test.go
