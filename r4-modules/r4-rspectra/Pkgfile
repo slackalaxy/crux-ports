@@ -1,13 +1,13 @@
 # Description: R module RSpectra
 # URL: https://cran.r-project.org/web/packages/RSpectra
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-matrix r4-rcpp r4-rcppeigen
+# Depends on: r r4-matrix r4-rcpp r4-rcppeigen
 # Optional: r4-knitr r4-prettydoc r4-rmarkdown
 
 name=r4-rspectra
-version=0.16.1
+version=0.16.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/RSpectra_0.16-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/RSpectra_0.16-2.tar.gz)
 
 build() {
 	cd RSpectra

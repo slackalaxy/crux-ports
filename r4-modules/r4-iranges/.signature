@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89CDDmKunEUZPgp2iRu96JS/eHXzF7rYjYOSVGZrqbT6CT9EOfGqIwEeYN5brL3M8CSEodxHOqsrPYMUAYl53iQU=
-SHA256 (Pkgfile) = d0cff67fba827f442754f59912fa78fae2fdff17e4d10526fa22e1ca6e58104a
+RWQ2oTreAss89PM0FPeeRBJaPhqsB62YerbnKbwUHsREmYctCNtvOjjb5JrGo9VtvPd9ipQrEH8EqW7r+ydtS49uUM9sMdXsbgA=
+SHA256 (Pkgfile) = 541640ac01895c367de4abbd8daf7b71b74ccbe9f55a9d894dd77bdf9b2d96db
 SHA256 (.footprint) = 317052f26f08cd73a970dce54174e9e3adb2d45f54e7aeb466242c7502ceaec9
-SHA256 (IRanges_2.38.0.tar.gz) = 62e646697a1dc2f292b2ea374abb1026ccbe2deedc2f1e5a87e2f99e2142e610
+SHA256 (IRanges_2.38.1.tar.gz) = 9b4c833c5ab674e9020ff466a51de9ee019912eb36802b50d9abbd9d0190091f

@@ -1,11 +1,11 @@
 # Description: R module gert
 # URL: https://cran.r-project.org/web/packages/gert
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-askpass r4-credentials r4-openssl r4-rstudioapi r4-sys r4-zip
+# Depends on: r r4-askpass r4-credentials r4-openssl r4-rstudioapi r4-sys r4-zip
 # Optional: r4-knitr r4-rmarkdown r4-spelling r4-testthat
 
 name=r4-gert
-version=2.0.1
+version=2.1.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/gert_${version}.tar.gz)
 

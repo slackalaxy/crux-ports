@@ -37,6 +37,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/BS3/templates/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS3/templates/navbar.html
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/BS5/
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/BS5/assets/
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/assets/katex-auto.js
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/assets/lightswitch.js
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/assets/link.svg
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/assets/pkgdown.js
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/assets/pkgdown.scss
@@ -51,6 +53,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/BS5/templates/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/templates/content-home.html
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/templates/content-news-index.html
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/templates/content-news.html
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/templates/content-quarto.html
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/templates/content-reference-index.html
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/templates/content-reference-topic.html
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/BS5/templates/content-title-body.html
@@ -81,6 +84,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/R/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/R/pkgdown.rdb
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/R/pkgdown.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/doc/
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/accessibility.R
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/accessibility.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/accessibility.html
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/customise.R
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/customise.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/customise.html
@@ -97,9 +103,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/doc/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/pkgdown.R
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/pkgdown.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/pkgdown.html
--rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/search.R
--rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/search.Rmd
--rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/search.html
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/quarto.R
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/quarto.html
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/quarto.qmd
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/translations.R
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/translations.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/translations.html
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/help/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/help/aliases.rds
@@ -187,5 +196,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/po/tr/LC_MESSAGES/
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/po/zh_CN/
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/po/zh_CN/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/po/zh_CN/LC_MESSAGES/R-pkgdown.mo
+drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/quarto/
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/quarto/template.html
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/rstudio/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/rstudio/addins.dcf

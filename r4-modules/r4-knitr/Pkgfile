@@ -5,7 +5,7 @@
 # Optional: r4-bslib r4-codetools r4-dbi r4-digest r4-formatr r4-gifski r4-gridsvg r4-htmlwidgets r4-jpeg r4-juliacall r4-magick r4-markdown r4-png r4-ragg r4-reticulate r4-rgl r4-rlang r4-rmarkdown r4-rstudioapi r4-sass r4-showtext r4-styler r4-svglite r4-targets r4-testit r4-tibble r4-tikzdevice r4-tinytex r4-webshot
 
 name=r4-knitr
-version=1.47
+version=1.48
 release=1
 source=(https://cloud.r-project.org/src/contrib/knitr_${version}.tar.gz)
 

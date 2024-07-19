@@ -5,7 +5,7 @@
 # Optional: r4-biocstyle r4-data-table r4-delayedarray r4-genomicranges r4-graph r4-iranges r4-knitr r4-matrix r4-runit r4-shortread r4-summarizedexperiment
 
 name=r4-s4vectors
-version=0.42.0
+version=0.42.1
 release=1
 source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/S4Vectors_${version}.tar.gz)
 

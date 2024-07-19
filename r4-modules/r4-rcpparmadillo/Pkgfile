@@ -5,9 +5,9 @@
 # Optional: r4-matrix r4-pkgkitten r4-reticulate r4-slam r4-tinytest
 
 name=r4-rcpparmadillo
-version=0.12.8.4.0
+version=14.0.0.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/RcppArmadillo_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/RcppArmadillo_14.0.0-1.tar.gz)
 
 build() {
 	cd RcppArmadillo

@@ -45,6 +45,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/fitdistrplus/doc/
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/doc/fitdistrplus_vignette.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/doc/fitdistrplus_vignette.html
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/doc/index.html
+-rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/doc/starting-values.R
+-rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/doc/starting-values.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/doc/starting-values.html
 drwxr-xr-x	root/root	usr/lib/R/library/fitdistrplus/help/
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/help/aliases.rds

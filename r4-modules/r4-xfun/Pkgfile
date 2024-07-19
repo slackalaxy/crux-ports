@@ -5,7 +5,7 @@
 # Optional: r4-codetools r4-curl r4-htmltools r4-jsonlite r4-knitr r4-magick r4-markdown r4-mime r4-pak r4-qs r4-remotes r4-renv r4-rhub r4-rmarkdown r4-rstudioapi r4-testit r4-tinytex r4-xml2 r4-yaml
 
 name=r4-xfun
-version=0.45
+version=0.46
 release=1
 source=(https://cloud.r-project.org/src/contrib/xfun_${version}.tar.gz)
 

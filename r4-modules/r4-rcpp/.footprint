@@ -242,6 +242,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/include/Rcpp/internal/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/internal/NAEquals.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/internal/Proxy_Iterator.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/internal/SEXP_Iterator.h
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/internal/call.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/internal/caster.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/internal/converter.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/internal/export.h
@@ -310,6 +311,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/include/Rcpp/proxy/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/proxy/TagProxy.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/proxy/proxy.h
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/include/Rcpp/r/
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/r/compat.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/r/headers.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/r_cast.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/routines.h
@@ -483,6 +485,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/has_iterator.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/has_na.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/if_.h
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/index_sequence.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/init_type.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/integral_constant.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/is_arithmetic.h

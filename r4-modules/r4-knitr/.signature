@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IRxqI03hybPrYChYIQV2WIEBBQAypgvFhd/gNp3kGmCuDsEfhwl5aq874nEdT4BWYMf8BiHmba5VLrzPdoFqw0=
-SHA256 (Pkgfile) = 79f0b6b1c6e54616949b46fa19b3a219e8df0f5ab219b0c5d0060d3fd200bdcc
+RWQ2oTreAss89NcH8Zi3uW6LUg8HG0NewMKSKGsBAjImSiIgVjJ2erODyDu7ixEjdx44aa0jNUikcC+nh2PR0DkQHghQbX317gU=
+SHA256 (Pkgfile) = bf1eac91956755afc0ec867bbfab08dc3136348c9ab202e1af1adc24132bd250
 SHA256 (.footprint) = f03bafacf59250c980d2cfec78552cebc7444f98aeb30ae0148f976f7376bd01
-SHA256 (knitr_1.47.tar.gz) = fadd849bf94a4e02520088a6626577c3c636227fe11c5cd7e8fcc5d51a7aa6cf
+SHA256 (knitr_1.48.tar.gz) = 501b5926da7da1e8df61958639537e4c30110a0a8de07381afd92b31b9bff197

@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-fortunes r4-miniui r4-rprojroot r4-sessioninfo r4-shiny r4-spelling r4-styler r4-testthat
 
 name=r4-reprex
-version=2.1.0
+version=2.1.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/reprex_${version}.tar.gz)
 

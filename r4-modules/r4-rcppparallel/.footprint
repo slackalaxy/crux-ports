@@ -194,7 +194,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppParallel/tests/cpp/
 -rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/cpp/innerproduct.cpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/cpp/sum.cpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/cpp/transform.cpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/cpp/truefalse_macros.cpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/runit.distance.R
 -rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/runit.innerproduct.R
 -rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/runit.sum.R
 -rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/runit.transform.R
+-rw-r--r--	root/root	usr/lib/R/library/RcppParallel/tests/runit.truefalse_macros.R
