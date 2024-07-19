@@ -766,8 +766,10 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/type
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2023.collection.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2023.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2023.full.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es2023.intl.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es5.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.es6.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.array.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.collection.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.decorators.d.ts
@@ -776,6 +778,8 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/type
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.intl.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.object.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.promise.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.regexp.d.ts
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.esnext.string.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.scripthost.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.webworker.asynciterable.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/node_modules/typescript/lib/lib.webworker.d.ts
@@ -1069,6 +1073,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/typescript-langua
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/media/icon.png
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/package.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/package.nls.json
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/package.nls.json.rej
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/resources/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/resources/walkthroughs/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/typescript-language-features/resources/walkthroughs/create-a-js-file.svg
