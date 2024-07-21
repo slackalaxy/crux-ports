@@ -460,7 +460,7 @@ f:4dd1d71ce9deb9915545c8d4a4c1f6fa:geneconv/.footprint
 f:2aa556ac90f600fa45e969d9800f73e0:geneconv/.signature
 f:ba4cebf2a5b215b1d61095aa917f2a07:google-chrome/Pkgfile
 f:6bedaf868dcbfe1bf353065942080768:google-chrome/.footprint
-f:c94161200ca31819faddedf5f546a151:google-chrome/.signature
+f:a66ffd14431d2fa79854e67c06a368d3:google-chrome/.signature
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:163f0be1d35c5ab8ca2aafdacbbb86c3:hyphy/Pkgfile
 f:a9e6bcc80f1c38b694a1b38b1bb09e06:hyphy/.footprint
@@ -1634,7 +1634,7 @@ f:7ce2384fe46b34dbdb568f16d6a13e75:mplayer/Pkgfile
 f:3e7b0aee696cb9d0f433f6e0a0451300:mplayer/README
 f:f659e7a1cbd746f613edef058404b575:mplayer/mplayer.conf
 f:9fcd890e76dbd16c31e47cf16ef59334:mplayer/.footprint
-f:8e2b9b29a24dc8ed3400eb460474a3ad:mplayer/.signature
+f:3afd4f815813178ef76d81c174917e1c:mplayer/.signature
 f:f53d5ad5af80d7f9434aa98ad07b5af9:osmo/Pkgfile
 f:582c6aae5ba58081fc9333769940fb22:osmo/.footprint
 f:bbd7b8889f2df94c9740017a00ae25bd:osmo/.signature
