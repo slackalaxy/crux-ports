@@ -1673,6 +1673,9 @@ lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libdbus-1.so.3 -> libdbus-1.so.3
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libexcelrw.so
 -rw-r--r--	root/root	usr/lib/wps-office/office6/libfreebl3.so
 -rw-r--r--	root/root	usr/lib/wps-office/office6/libfreeblpriv3.so
+lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libfreetype.so -> libfreetype.so.6
+lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libfreetype.so.6 -> libfreetype.so.6.20.1
+-rwxr-xr-x	root/root	usr/lib/wps-office/office6/libfreetype.so.6.20.1
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libfriso.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libgriddrawer.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libhtml2.so

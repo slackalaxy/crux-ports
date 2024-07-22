@@ -5,9 +5,11 @@
 
 name=wps-office
 version=11.1.0.11720.XA
-release=1
+_ftver=2.13.2
+release=2
 source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
-	desktop.tar.xz)
+	https://sourceforge.net/projects/freetype/files/freetype2/${_ftver}/freetype-${_ftver}.tar.xz
+	desktop.tar.xz freetype.tar.xz)
 
 build() {
 	ar -x $SRC/${name}_${version}_amd64.deb
@@ -75,4 +77,24 @@ build() {
 	
 	# trick it to think we have systemd
 	ln -s /usr/lib/libelogind/libelogind.so libsystemd.so.0
+	
+	# Use patched version of FreeType, to avoid problems with bold fonts
+	# https://gitlab.freedesktop.org/freetype/freetype/-/merge_requests/304/
+	cd $SRC
+	
+	patch -Np1 -d freetype-${_ftver} -i $SRC/freetype/0001-Enable-table-validation-modules.patch
+	patch -Np1 -d freetype-${_ftver} -i $SRC/freetype/0002-Enable-subpixel-rendering.patch
+	patch -Np1 -d freetype-${_ftver} -i $SRC/freetype/0004-Enable-long-PCF-family-names.patch
+	patch -Np1 -d freetype-${_ftver} -i $SRC/freetype/FT_GlyphSlot_Embolden.patch
+
+	meson setup freetype-${_ftver} build \
+		--prefix=/usr \
+		--buildtype=plain \
+		--wrap-mode=nodownload \
+		-D b_lto=true \
+		-D b_pie=true \
+		-D default_library=shared
+	meson compile -C build -j ${JOBS:-1}
+	
+	cp -a build/{libfreetype.so,libfreetype.so.6,libfreetype.so.6.20.1} $PKG/usr/lib/$name/office6
 }

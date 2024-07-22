@@ -2015,12 +2015,13 @@ f:735912977cbcfacea6cfe1f945e05b8b:xmms-skins-glassworx/.signature
 f:dd63fe4c39bb27bf7934fb58ab3834ba:xmms-skins-carbonate/Pkgfile
 f:732248d7cd6b5d7c48534ce86a4c5a15:xmms-skins-carbonate/.footprint
 f:41c7b8b23174b651ace895dfe9603791:xmms-skins-carbonate/.signature
-f:6bd0cb477b202f589be8ec476dc0e742:wps-office/.footprint
-f:4226d2eb18fd89ddc3f58b5a743441fc:wps-office/.signature
-f:66b516869dd4540252fd6c6a9fc0ac43:wps-office/Pkgfile
+f:0feff7e0cd54e1fa4e39298fe55f158a:wps-office/.footprint
+f:f56e757f4ef696d6008c06da7e7fb579:wps-office/.signature
+f:96eeaf8ea4caa4b8463ac5a76d21ee29:wps-office/Pkgfile
 f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
 f:389134912dc24609f83900c75f0b3e99:wps-office/post-install
 f:e256100e8aed7ead8216a0a2354f1fd8:wps-office/desktop.tar.xz
+f:bb31750b8331bf055f447f055533b49a:wps-office/freetype.tar.xz
 f:1f581d559f9ac7370e59efc69027063d:ubuntulooks/Pkgfile
 f:49e7534023b483e4fe5beeb40f21c7d4:ubuntulooks/.footprint
 f:335174a9f9303e4d904d393636ccb9e0:ubuntulooks/.signature
