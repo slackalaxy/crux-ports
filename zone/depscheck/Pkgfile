@@ -3,15 +3,15 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: prt-utils
 
-name=depsck
-version=ade22b8
+name=depscheck
+version=270a22d
 release=1
-source=(https://github.com/slackalaxy/depsck/archive/$version/$name-ade22b833ed890b9f49f8391da198628d41fe879.tar.gz)
+source=(https://github.com/slackalaxy/depsck/archive/$version/$name-270a22deb3aa235ba21e3c9fd0a08b417f594f53.tar.gz)
 
 build() {
 	cd $name-${version}*
 	install -D -m755 finddepsrow $PKG/usr/bin/finddepsrow
 	install -D -m755 missdeps $PKG/usr/bin/missdeps
 	install -D -m755 revlibpkg $PKG/usr/bin/revlibpkg
-	install -D -m755 prtdepadd $PKG/usr/bin/prtdepadd
+	#install -D -m755 prtdepadd $PKG/usr/bin/prtdepadd
 }

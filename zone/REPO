@@ -1,4 +1,3 @@
-d:depsck
 d:doom-wad
 d:etc-conf-hostname
 d:firewall-basic
@@ -22,9 +21,7 @@ d:trimssd
 d:xorg-conf-keyboard-fi
 d:xorg-conf-synaptics
 d:housecleaning
-f:96f4215dc57e67cc2f0d710ec5f703bb:depsck/.footprint
-f:51960356f17d053a4cb7e101267cb8a8:depsck/.signature
-f:c88d4063c9d8790e6b509ec569e5cc6c:depsck/Pkgfile
+d:depscheck
 f:5eb699369b602aeb891acc4ee2777f5a:doom-wad/.footprint
 f:a4420044065203d649e7416d5ffd69da:doom-wad/.signature
 f:4feae1a9df2967a53227c83998ed6a97:doom-wad/Pkgfile
@@ -151,3 +148,6 @@ f:9ab7ce3a073cedaa0512a6b404896247:housecleaning/.footprint
 f:5bd70092d3a6826f0e5cd45391a2971d:housecleaning/.signature
 f:12782f4816a0b0ef9442384862426417:housecleaning/Pkgfile
 f:aafe1f1f471bf7bfeac65c717a015c8e:housecleaning/housecleaning.sh
+f:f4e707147bf141a5175e09d21a245704:depscheck/.footprint
+f:81d19c2aca7bbc0d116869319d398e0e:depscheck/.signature
+f:822732e9e639ebe2f643af7ecc601d38:depscheck/Pkgfile
