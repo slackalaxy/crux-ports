@@ -3,13 +3,15 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: gnome-icon-theme
 
-name=gnome-colors-48
-version=0830ee5
+name=gnome-colors
+version=a0a026b
 release=1
-source=(https://github.com/slackalaxy/gnome-colors-48/archive/$version/gnome-colors-48-0830ee547fee690bfcaf52c35c6b1d775cfa127e.tar.gz)
+source=(https://github.com/slackalaxy/gnome-colors/archive/$version/gnome-colors-a0a026b3567d54b5321de5c42d0d14bfb4e692a7.tar.gz)
 
 build() {
 	cd $name-${version}*
+	
+	find -L . -perm 664 -exec chmod 644 {} \;
 	mkdir -p $PKG/usr/share/icons
 	cp -a gnome-* $PKG/usr/share/icons/
 }

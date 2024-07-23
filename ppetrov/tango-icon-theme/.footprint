@@ -1,9 +1,9 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/icons/
-drwxr-xr-x	root/root	usr/share/icons/Tango/
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/actions/
+drwxrwxr-x	root/root	usr/share/icons/Tango/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/actions/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/actions/address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/actions/appointment-new.png
@@ -273,10 +273,10 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/actions/up.png -> go-up.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/actions/window_fullscreen.png -> view-fullscreen.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/actions/window_new.png -> window-new.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/actions/xfce-system-lock.png -> system-lock-screen.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/animations/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/animations/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/animations/gnome-spinner.png -> process-working.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/animations/process-working.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/apps/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/apps/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/apps/access.png -> preferences-desktop-accessibility.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/apps/accessibility-directory.png -> preferences-desktop-accessibility.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/apps/accessories-calculator.png
@@ -371,7 +371,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/apps/xfwm4.png -> preferences-s
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/apps/ximian-evolution-calendar.png -> office-calendar.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/apps/xscreensaver.png -> preferences-desktop-screensaver.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/apps/zen-icon.png -> system-software-update.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/categories/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/categories/
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/categories/applications-accessories.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/categories/applications-development.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/categories/applications-games.png
@@ -426,7 +426,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/categories/xfce-office.png -> a
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/categories/xfce-system-settings.png -> preferences-system.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/categories/xfce-utils.png -> applications-accessories.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/categories/xfce4-settings.png -> preferences-desktop.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/devices/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/devices/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/devices/3floppy_unmount.png -> media-floppy.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/devices/audio-card.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/devices/audio-input-microphone.png
@@ -518,7 +518,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/devices/yast_joystick.png -> in
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/devices/yast_mouse.png -> input-mouse.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/devices/yast_printer.png -> printer.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/devices/yast_soundcard.png -> audio-card.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/emblems/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/emblems/
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/emblems/emblem-favorite.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/emblems/emblem-important.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/emblems/emblem-noread.png -> emblem-unreadable.png
@@ -528,7 +528,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/emblems/emblem-nowrite.png -> e
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/emblems/emblem-symbolic-link.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/emblems/emblem-system.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/emblems/emblem-unreadable.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/emotes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/emotes/
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/emotes/face-angel.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/emotes/face-crying.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/emotes/face-devilish.png
@@ -554,7 +554,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/emotes/stock_smiley-5.png -> fa
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/emotes/stock_smiley-6.png -> face-smile-big.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/emotes/stock_smiley-7.png -> face-smile.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/emotes/stock_smiley-8.png -> face-plain.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/mimetypes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/mimetypes/application-certificate.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/mimetypes/application-vnd.ms-excel.sheet.macroEnabled.12.png -> x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.png -> x-office-presentation.png
@@ -723,7 +723,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/mimetypes/www.png -> text-html.
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/mimetypes/x-office-spreadsheet-template.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/mimetypes/x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/mimetypes/zip.png -> package-x-generic.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/places/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/places/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/places/application-x-gnome-saved-search.png -> folder-saved-search.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/places/desktop.png -> user-desktop.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/places/distributor-logo.png -> start-here.png
@@ -766,7 +766,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/places/trashcan_empty.png -> us
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/places/user-home.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/places/user-trash.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/places/xfce-trash_empty.png -> user-trash.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/16x16/status/
+drwxrwxr-x	root/root	usr/share/icons/Tango/16x16/status/
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/status/audio-volume-high.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/status/audio-volume-low.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/status/audio-volume-medium.png
@@ -856,8 +856,8 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/status/trashcan_full.png -> use
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/status/weather-snow.png
 -rw-r--r--	root/root	usr/share/icons/Tango/16x16/status/weather-storm.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/16x16/status/xfce-trash_full.png -> user-trash-full.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/actions/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/actions/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/actions/address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/actions/appointment-new.png
@@ -1127,10 +1127,10 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/actions/up.png -> go-up.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/actions/window_fullscreen.png -> view-fullscreen.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/actions/window_new.png -> window-new.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/actions/xfce-system-lock.png -> system-lock-screen.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/animations/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/animations/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/animations/gnome-spinner.png -> process-working.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/animations/process-working.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/apps/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/apps/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/apps/access.png -> preferences-desktop-accessibility.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/apps/accessibility-directory.png -> preferences-desktop-accessibility.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/apps/accessories-calculator.png
@@ -1225,7 +1225,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/apps/xfwm4.png -> preferences-s
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/apps/ximian-evolution-calendar.png -> office-calendar.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/apps/xscreensaver.png -> preferences-desktop-screensaver.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/apps/zen-icon.png -> system-software-update.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/categories/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/categories/
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/categories/applications-accessories.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/categories/applications-development.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/categories/applications-games.png
@@ -1280,7 +1280,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/categories/xfce-office.png -> a
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/categories/xfce-system-settings.png -> preferences-system.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/categories/xfce-utils.png -> applications-accessories.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/categories/xfce4-settings.png -> preferences-desktop.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/devices/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/devices/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/devices/3floppy_unmount.png -> media-floppy.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/devices/audio-card.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/devices/audio-input-microphone.png
@@ -1372,7 +1372,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/devices/yast_joystick.png -> in
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/devices/yast_mouse.png -> input-mouse.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/devices/yast_printer.png -> printer.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/devices/yast_soundcard.png -> audio-card.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/emblems/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/emblems/
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/emblems/emblem-favorite.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/emblems/emblem-important.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/emblems/emblem-noread.png -> emblem-unreadable.png
@@ -1382,7 +1382,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/emblems/emblem-nowrite.png -> e
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/emblems/emblem-symbolic-link.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/emblems/emblem-system.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/emblems/emblem-unreadable.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/emotes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/emotes/
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/emotes/face-angel.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/emotes/face-crying.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/emotes/face-devilish.png
@@ -1408,7 +1408,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/emotes/stock_smiley-5.png -> fa
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/emotes/stock_smiley-6.png -> face-smile-big.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/emotes/stock_smiley-7.png -> face-smile.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/emotes/stock_smiley-8.png -> face-plain.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/mimetypes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/mimetypes/application-certificate.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/mimetypes/application-vnd.ms-excel.sheet.macroEnabled.12.png -> x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.png -> x-office-presentation.png
@@ -1577,7 +1577,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/mimetypes/www.png -> text-html.
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/mimetypes/x-office-spreadsheet-template.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/mimetypes/x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/mimetypes/zip.png -> package-x-generic.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/places/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/places/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/places/application-x-gnome-saved-search.png -> folder-saved-search.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/places/desktop.png -> user-desktop.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/places/distributor-logo.png -> start-here.png
@@ -1620,7 +1620,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/places/trashcan_empty.png -> us
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/places/user-home.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/places/user-trash.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/places/xfce-trash_empty.png -> user-trash.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/22x22/status/
+drwxrwxr-x	root/root	usr/share/icons/Tango/22x22/status/
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/status/audio-volume-high.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/status/audio-volume-low.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/status/audio-volume-medium.png
@@ -1710,8 +1710,8 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/status/trashcan_full.png -> use
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/status/weather-snow.png
 -rw-r--r--	root/root	usr/share/icons/Tango/22x22/status/weather-storm.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/22x22/status/xfce-trash_full.png -> user-trash-full.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/actions/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/actions/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/actions/address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/actions/appointment-new.png
@@ -1981,7 +1981,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/actions/up.png -> go-up.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/actions/window_fullscreen.png -> view-fullscreen.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/actions/window_new.png -> window-new.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/actions/xfce-system-lock.png -> system-lock-screen.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/apps/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/apps/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/apps/access.png -> preferences-desktop-accessibility.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/apps/accessibility-directory.png -> preferences-desktop-accessibility.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/apps/accessories-calculator.png
@@ -2076,7 +2076,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/apps/xfwm4.png -> preferences-s
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/apps/ximian-evolution-calendar.png -> office-calendar.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/apps/xscreensaver.png -> preferences-desktop-screensaver.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/apps/zen-icon.png -> system-software-update.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/categories/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/categories/
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/categories/applications-accessories.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/categories/applications-development.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/categories/applications-games.png
@@ -2131,7 +2131,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/categories/xfce-office.png -> a
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/categories/xfce-system-settings.png -> preferences-system.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/categories/xfce-utils.png -> applications-accessories.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/categories/xfce4-settings.png -> preferences-desktop.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/devices/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/devices/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/devices/3floppy_unmount.png -> media-floppy.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/devices/audio-card.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/devices/audio-input-microphone.png
@@ -2223,7 +2223,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/devices/yast_joystick.png -> in
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/devices/yast_mouse.png -> input-mouse.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/devices/yast_printer.png -> printer.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/devices/yast_soundcard.png -> audio-card.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/emblems/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/emblems/
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/emblems/emblem-favorite.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/emblems/emblem-important.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/emblems/emblem-noread.png -> emblem-unreadable.png
@@ -2233,7 +2233,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/emblems/emblem-nowrite.png -> e
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/emblems/emblem-symbolic-link.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/emblems/emblem-system.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/emblems/emblem-unreadable.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/emotes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/emotes/
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/emotes/face-angel.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/emotes/face-crying.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/emotes/face-devilish.png
@@ -2259,7 +2259,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/emotes/stock_smiley-5.png -> fa
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/emotes/stock_smiley-6.png -> face-smile-big.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/emotes/stock_smiley-7.png -> face-smile.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/emotes/stock_smiley-8.png -> face-plain.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/mimetypes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/mimetypes/application-certificate.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/mimetypes/application-vnd.ms-excel.sheet.macroEnabled.12.png -> x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.png -> x-office-presentation.png
@@ -2428,7 +2428,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/mimetypes/www.png -> text-html.
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/mimetypes/x-office-spreadsheet-template.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/mimetypes/x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/mimetypes/zip.png -> package-x-generic.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/places/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/places/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/places/application-x-gnome-saved-search.png -> folder-saved-search.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/places/desktop.png -> user-desktop.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/places/distributor-logo.png -> start-here.png
@@ -2471,7 +2471,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/places/trashcan_empty.png -> us
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/places/user-home.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/places/user-trash.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/places/xfce-trash_empty.png -> user-trash.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/24x24/status/
+drwxrwxr-x	root/root	usr/share/icons/Tango/24x24/status/
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/status/audio-volume-high.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/status/audio-volume-low.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/status/audio-volume-medium.png
@@ -2561,8 +2561,8 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/status/trashcan_full.png -> use
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/status/weather-snow.png
 -rw-r--r--	root/root	usr/share/icons/Tango/24x24/status/weather-storm.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/24x24/status/xfce-trash_full.png -> user-trash-full.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/actions/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/actions/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/actions/address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/actions/appointment-new.png
@@ -2832,10 +2832,10 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/actions/up.png -> go-up.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/actions/window_fullscreen.png -> view-fullscreen.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/actions/window_new.png -> window-new.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/actions/xfce-system-lock.png -> system-lock-screen.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/animations/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/animations/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/animations/gnome-spinner.png -> process-working.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/animations/process-working.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/apps/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/apps/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/apps/access.png -> preferences-desktop-accessibility.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/apps/accessibility-directory.png -> preferences-desktop-accessibility.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/apps/accessories-calculator.png
@@ -2930,7 +2930,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/apps/xfwm4.png -> preferences-s
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/apps/ximian-evolution-calendar.png -> office-calendar.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/apps/xscreensaver.png -> preferences-desktop-screensaver.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/apps/zen-icon.png -> system-software-update.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/categories/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/categories/
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/categories/applications-accessories.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/categories/applications-development.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/categories/applications-games.png
@@ -2985,7 +2985,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/categories/xfce-office.png -> a
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/categories/xfce-system-settings.png -> preferences-system.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/categories/xfce-utils.png -> applications-accessories.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/categories/xfce4-settings.png -> preferences-desktop.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/devices/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/devices/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/devices/3floppy_unmount.png -> media-floppy.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/devices/audio-card.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/devices/audio-input-microphone.png
@@ -3077,7 +3077,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/devices/yast_joystick.png -> in
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/devices/yast_mouse.png -> input-mouse.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/devices/yast_printer.png -> printer.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/devices/yast_soundcard.png -> audio-card.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/emblems/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/emblems/
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/emblems/emblem-favorite.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/emblems/emblem-important.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/emblems/emblem-noread.png -> emblem-unreadable.png
@@ -3087,7 +3087,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/emblems/emblem-nowrite.png -> e
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/emblems/emblem-symbolic-link.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/emblems/emblem-system.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/emblems/emblem-unreadable.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/emotes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/emotes/
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/emotes/face-angel.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/emotes/face-crying.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/emotes/face-devilish.png
@@ -3113,7 +3113,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/emotes/stock_smiley-5.png -> fa
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/emotes/stock_smiley-6.png -> face-smile-big.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/emotes/stock_smiley-7.png -> face-smile.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/emotes/stock_smiley-8.png -> face-plain.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/mimetypes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/mimetypes/application-certificate.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/mimetypes/application-vnd.ms-excel.sheet.macroEnabled.12.png -> x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.png -> x-office-presentation.png
@@ -3282,7 +3282,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/mimetypes/www.png -> text-html.
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/mimetypes/x-office-spreadsheet-template.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/mimetypes/x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/mimetypes/zip.png -> package-x-generic.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/places/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/places/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/places/application-x-gnome-saved-search.png -> folder-saved-search.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/places/desktop.png -> user-desktop.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/places/distributor-logo.png -> start-here.png
@@ -3325,7 +3325,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/places/trashcan_empty.png -> us
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/places/user-home.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/places/user-trash.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/places/xfce-trash_empty.png -> user-trash.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/32x32/status/
+drwxrwxr-x	root/root	usr/share/icons/Tango/32x32/status/
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/status/audio-volume-high.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/status/audio-volume-low.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/status/audio-volume-medium.png
@@ -3415,8 +3415,8 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/status/trashcan_full.png -> use
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/status/weather-snow.png
 -rw-r--r--	root/root	usr/share/icons/Tango/32x32/status/weather-storm.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/32x32/status/xfce-trash_full.png -> user-trash-full.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/actions/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/actions/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/actions/add.png -> list-add.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/actions/address-book-new.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/actions/appointment-new.png
@@ -3681,7 +3681,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/actions/up.png -> go-up.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/actions/window_fullscreen.png -> view-fullscreen.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/actions/window_new.png -> window-new.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/actions/xfce-system-lock.png -> system-lock-screen.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/apps/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/apps/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/apps/access.png -> preferences-desktop-accessibility.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/apps/accessibility-directory.png -> preferences-desktop-accessibility.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/apps/accessories-calculator.png
@@ -3776,7 +3776,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/apps/xfwm4.png -> preferences-s
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/apps/ximian-evolution-calendar.png -> office-calendar.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/apps/xscreensaver.png -> preferences-desktop-screensaver.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/apps/zen-icon.png -> system-software-update.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/categories/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/categories/
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/categories/applications-accessories.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/categories/applications-development.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/categories/applications-games.png
@@ -3831,7 +3831,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/categories/xfce-office.png -> a
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/categories/xfce-system-settings.png -> preferences-system.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/categories/xfce-utils.png -> applications-accessories.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/categories/xfce4-settings.png -> preferences-desktop.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/devices/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/devices/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/devices/3floppy_unmount.png -> media-floppy.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/devices/audio-card.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/devices/audio-input-microphone.png
@@ -3923,7 +3923,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/devices/yast_joystick.png -> in
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/devices/yast_mouse.png -> input-mouse.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/devices/yast_printer.png -> printer.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/devices/yast_soundcard.png -> audio-card.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/emblems/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/emblems/
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/emblems/emblem-favorite.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/emblems/emblem-important.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/emblems/emblem-noread.png -> emblem-unreadable.png
@@ -3933,7 +3933,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/emblems/emblem-nowrite.png -> e
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/emblems/emblem-symbolic-link.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/emblems/emblem-system.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/emblems/emblem-unreadable.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/emotes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/emotes/
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/emotes/face-angel.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/emotes/face-crying.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/emotes/face-devilish.png
@@ -3959,7 +3959,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/emotes/stock_smiley-5.png -> fa
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/emotes/stock_smiley-6.png -> face-smile-big.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/emotes/stock_smiley-7.png -> face-smile.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/emotes/stock_smiley-8.png -> face-plain.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/mimetypes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/mimetypes/application-certificate.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/mimetypes/application-vnd.ms-excel.sheet.macroEnabled.12.png -> x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.png -> x-office-presentation.png
@@ -4128,7 +4128,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/mimetypes/www.png -> text-html.
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/mimetypes/x-office-spreadsheet-template.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/mimetypes/x-office-spreadsheet.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/mimetypes/zip.png -> package-x-generic.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/places/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/places/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/places/application-x-gnome-saved-search.png -> folder-saved-search.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/places/desktop.png -> user-desktop.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/places/distributor-logo.png -> start-here.png
@@ -4171,7 +4171,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/places/trashcan_empty.png -> us
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/places/user-home.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/places/user-trash.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/places/xfce-trash_empty.png -> user-trash.png
-drwxr-xr-x	root/root	usr/share/icons/Tango/48x48/status/
+drwxrwxr-x	root/root	usr/share/icons/Tango/48x48/status/
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/status/audio-volume-high.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/status/audio-volume-low.png
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/status/audio-volume-medium.png
@@ -4262,8 +4262,8 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/status/trashcan_full.png -> use
 -rw-r--r--	root/root	usr/share/icons/Tango/48x48/status/weather-storm.png
 lrwxrwxrwx	root/root	usr/share/icons/Tango/48x48/status/xfce-trash_full.png -> user-trash-full.png
 -rw-r--r--	root/root	usr/share/icons/Tango/index.theme
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/actions/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/actions/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/actions/add.svg -> list-add.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/actions/address-book-new.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/actions/appointment-new.svg
@@ -4531,7 +4531,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/actions/up.svg -> go-up.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/actions/window_fullscreen.svg -> view-fullscreen.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/actions/window_new.svg -> window-new.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/actions/xfce-system-lock.svg -> system-lock-screen.svg
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/apps/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/apps/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/apps/access.svg -> preferences-desktop-accessibility.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/apps/accessibility-directory.svg -> preferences-desktop-accessibility.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/apps/accessories-calculator.svg
@@ -4626,7 +4626,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/apps/xfwm4.svg -> preference
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/apps/ximian-evolution-calendar.svg -> office-calendar.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/apps/xscreensaver.svg -> preferences-desktop-screensaver.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/apps/zen-icon.svg -> system-software-update.svg
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/categories/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/categories/
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/categories/applications-accessories.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/categories/applications-development.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/categories/applications-games.svg
@@ -4681,7 +4681,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/categories/xfce-office.svg -
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/categories/xfce-system-settings.svg -> preferences-system.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/categories/xfce-utils.svg -> applications-accessories.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/categories/xfce4-settings.svg -> preferences-desktop.svg
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/devices/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/devices/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/devices/3floppy_unmount.svg -> media-floppy.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/devices/audio-card.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/devices/audio-input-microphone.svg
@@ -4773,7 +4773,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/devices/yast_joystick.svg ->
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/devices/yast_mouse.svg -> input-mouse.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/devices/yast_printer.svg -> printer.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/devices/yast_soundcard.svg -> audio-card.svg
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/emblems/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/emblems/
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/emblems/emblem-favorite.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/emblems/emblem-important.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/emblems/emblem-noread.svg -> emblem-unreadable.svg
@@ -4783,7 +4783,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/emblems/emblem-nowrite.svg -
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/emblems/emblem-symbolic-link.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/emblems/emblem-system.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/emblems/emblem-unreadable.svg
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/emotes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/emotes/
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/emotes/face-angel.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/emotes/face-crying.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/emotes/face-devilish.svg
@@ -4809,7 +4809,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/emotes/stock_smiley-5.svg ->
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/emotes/stock_smiley-6.svg -> face-smile-big.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/emotes/stock_smiley-7.svg -> face-smile.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/emotes/stock_smiley-8.svg -> face-plain.svg
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/mimetypes/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/mimetypes/application-certificate.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/mimetypes/application-vnd.ms-excel.sheet.macroEnabled.12.svg -> x-office-spreadsheet.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/mimetypes/application-vnd.ms-powerpoint.presentation.macroEnabled.12.svg -> x-office-presentation.svg
@@ -4978,7 +4978,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/mimetypes/www.svg -> text-ht
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/mimetypes/x-office-spreadsheet-template.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/mimetypes/x-office-spreadsheet.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/mimetypes/zip.svg -> package-x-generic.svg
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/places/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/places/
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/places/application-x-gnome-saved-search.svg -> folder-saved-search.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/places/desktop.svg -> user-desktop.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/places/distributor-logo.svg -> start-here.svg
@@ -5026,7 +5026,7 @@ lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/places/trashcan_empty.svg ->
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/places/user-home.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/places/user-trash.svg
 lrwxrwxrwx	root/root	usr/share/icons/Tango/scalable/places/xfce-trash_empty.svg -> user-trash.svg
-drwxr-xr-x	root/root	usr/share/icons/Tango/scalable/status/
+drwxrwxr-x	root/root	usr/share/icons/Tango/scalable/status/
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/status/audio-volume-high.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/status/audio-volume-low.svg
 -rw-r--r--	root/root	usr/share/icons/Tango/scalable/status/audio-volume-medium.svg
