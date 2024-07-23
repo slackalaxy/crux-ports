@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IjqOM+Ckj5jOTBkH6p6dPxAf0WW3sNY+ExzVUlfYXrYvtm02TteqZN2LP+9MahuP9zR3lk3O6eYqIgECqBeYwo=
-SHA256 (Pkgfile) = fe53e33c8bb4e823e83a9cedb4499e459d02de55ce730902aa9d69f429c7181b
-SHA256 (.footprint) = bbcf4b71d2d7cd128c3d9ef47d704c5c7079ebaae35a6f60d1348640622e9df4
-SHA256 (curl_5.2.1.tar.gz) = 4a7a4d8c08aa1bca2fcd9c58ade7b4b0ea2ed9076d0521071be29baac8adfa90

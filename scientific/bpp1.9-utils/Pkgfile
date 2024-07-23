@@ -1,0 +1,38 @@
+# Description: Bio++ 1.9 Utils Library
+# URL: http://biopp.univ-montp2.fr/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=bpp1.9-utils
+version=1.5.0
+release=1
+source=(http://biopp.univ-montp2.fr/repos/sources/bpp-utils-1.5.0.tar.gz)
+
+build() {
+	cd bpp-utils-$version
+	
+	# This is needed for vCAPS to find its libraries at runtime. Thanks Urachlay!
+	LIBDIRPATH="-Wl,-rpath,/usr/lib/Bpp1.9"
+	
+	# This is needed on newer systems
+	sed -i "s:file;:file.good();:g" Utils/FileTools.cpp
+
+	# Use custom install place, so libs can coexist with latest Bio++
+	sed -i "s:/lib/:/lib/Bpp1.9/:g" Utils.spec
+
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_CXX_FLAGS:STRING="$CFLAGS $LIBDIRPATH" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+
+	# More about word boundary and sed:
+	# https://linuxize.com/post/how-to-use-sed-to-find-and-replace-string-in-files/
+	sed -i "s:/lib\b:/lib/Bpp1.9:g" Utils/cmake_install.cmake
+
+	make
+	make DESTDIR=$PKG install
+
+	#rm -f $PKG/usr/lib/Bpp1.9/libbpp-utils.a
+}

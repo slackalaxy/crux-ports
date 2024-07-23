@@ -1,0 +1,20 @@
+# Description: Handle Apple Property List files in binary or XML format
+# URL: https://github.com/libimobiledevice/libplist/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python
+
+name=libplist
+version=db93bae
+release=1
+source=(https://github.com/libimobiledevice/$name/archive/$version/$name-db93bae96d64140230ad050061632531644c46ad.tar.gz)
+
+build() {
+	cd $name-${version}*
+	
+	echo "2.2.0" > .tarball-version
+	./autogen.sh --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	
+	rm -f $PKG/{,usr/}lib/*.la
+}

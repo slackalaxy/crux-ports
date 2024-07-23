@@ -1,0 +1,24 @@
+# Description: A free and portable TrueType font rendering engine
+# URL: https://www.freetype.org
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: freetype
+
+name=freetype-config
+version=2.12.1
+release=1
+source=(http://download.savannah.gnu.org/releases/freetype/freetype-$version.tar.xz)
+
+build() {
+	cd freetype-$version
+	./configure \
+	--prefix=/usr \
+	--with-zlib \
+	--with-harfbuzz=no \
+	--enable-freetype-config # w/o breaks grub2
+
+	make
+	make DESTDIR=$PKG install
+	
+	# We want just freetype-config
+	rm -rf $PKG/usr/{include,lib,share}
+}

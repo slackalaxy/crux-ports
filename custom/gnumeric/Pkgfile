@@ -1,0 +1,28 @@
+# Description: Gnumeric spreadsheet -- last GTK2 release
+# URL: http://www.gnumeric.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: goffice python
+
+name=gnumeric
+version=1.10.17
+release=3
+source=(https://download-fallback.gnome.org/sources/gnumeric/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	touch doc/C/gnumeric-C.omf.out
+	
+	./configure --prefix=/usr \
+	--disable-schemas-install \
+	--disable-nls
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{locale,omf,gnome}
+	rm -f $PKG/{,usr/}lib/*.la
+	
+	# Running "update-desktop-database" complains, warning that
+	# usage of MIME type "zz-application/zz-winassoc-xls" is discouraged
+	sed -i "s:zz-application/zz-winassoc-xls:application/vnd.ms-excel:" $PKG/usr/share/applications/$name.desktop
+}

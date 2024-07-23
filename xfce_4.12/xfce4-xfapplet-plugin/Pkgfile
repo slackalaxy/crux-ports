@@ -1,0 +1,26 @@
+# Description: Xfapplet plugin for GNOME panel applets
+# URL: https://archive.xfce.org/src/panel-plugins/xfce4-xfapplet-plugin/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gnome-panel libxfcegui4 xfce4-panel
+
+name=xfce4-xfapplet-plugin
+version=0.1.0
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/xfce4-xfapplet-plugin/0.1/xfce4-xfapplet-plugin-0.1.0.tar.bz2)
+
+build() {
+	cd $name-$version
+	#CFLAGS="$CFLAGS -fcommon -std=c++11" \
+	#CXXFLAGS="$CFLAGS -fcommon -std=c++11" \
+	#LDFLAGS="-Wl,--copy-dt-needed-entries" \
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--libexecdir=/usr/lib/$name \
+	--disable-desktop-docs \
+	--disable-nls
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+}

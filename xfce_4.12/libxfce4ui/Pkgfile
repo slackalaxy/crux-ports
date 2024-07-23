@@ -1,7 +1,7 @@
 # Description: Widgets library for the Xfce desktop environment
 # URL: https://git.xfce.org/xfce/libxfce4ui/tree/README
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk gtk3 startup-notification xfconf
+# Depends on: brotli graphite2 gtk gtk3 libxkbcommon startup-notification wayland xfconf
 
 name=libxfce4ui
 version=4.12.1

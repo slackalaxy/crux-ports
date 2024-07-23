@@ -1,0 +1,2 @@
+The port builds ffmpegthumbianler against ffmpeg4, because this is what
+works for tumbler. At build time, ffmpeg (5) should not be present!

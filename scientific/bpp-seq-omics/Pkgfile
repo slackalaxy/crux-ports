@@ -1,0 +1,22 @@
+# Description: Bio++ Seq Omics Library.
+# URL: https://github.com/BioPP/bpp-seq/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bpp-seq
+
+name=bpp-seq-omics
+version=2.4.1
+release=1
+source=(https://github.com/BioPP/$name/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+	make
+	make install DESTDIR=$PKG
+}

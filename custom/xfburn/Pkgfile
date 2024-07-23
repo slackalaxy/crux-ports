@@ -1,0 +1,24 @@
+# Description: CD/DVD burning tool for Xfce
+# URL: https://archive.xfce.org/src/apps/xfburn
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: exo libburn libgudev libisofs
+
+name=xfburn
+version=0.5.5
+release=1
+source=(https://archive.xfce.org/src/apps/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+	--disable-gstreamer \
+	--disable-nls \
+	--enable-dbus \
+	--disable-hal
+	
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/locale
+}

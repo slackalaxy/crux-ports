@@ -1,0 +1,17 @@
+# Description: Free cross-platform extension loading library for OpenGL
+# URL: http://elf-stone.com/downloads/GLee
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: mesa
+
+
+name=glee
+version=5.4.0
+release=1
+source=(http://elf-stone.com/downloads/GLee/GLee-${version}-src.tar.gz
+	glee.pc Makefile)
+
+build() {
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share
+}

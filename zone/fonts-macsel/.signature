@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwTgLQfOvCcz+BpgCG5HNdDGmCJAyFJvqod0CC7CLh4PZ+cUswV+7h1axAvZkN+iRMVm/cH/WvhonBKNu4eBgEAw=
-SHA256 (Pkgfile) = 6cb7bda6f49518189ab3939641e05e7d4a2882cd38b6e89d2c6e249cc336cd06
-SHA256 (.footprint) = 5bbcbbdd2def442b406516ac74c037676dff450d2a60797a8347f06895bc83ee
-SHA256 (Yosemite_10.10.5_v1.6.43.iso) = 93f3e7d653760e8fc5bd79a1c2446b3ebcd2838b31b43a61cfc4f644a7a32a75
-SHA256 (cleaner_ttf.py) = 67056b33de2550ecbb93d269eacd08d508f47892d5fc582d8bd0c211d5787b78
-SHA256 (cleaner_ttc.py) = 27d731f7662987eb11e32e09808ae354b92f1d2a087974bebd7a7e888e9de68f
-SHA256 (emoji-data.txt) = 4822fed8b857ca26490fe13ab504904a1da59ed18f34ed25cc27fcace0fdf88b

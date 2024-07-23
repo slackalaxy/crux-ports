@@ -1,4 +1,0 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libdb-4.3.so
-lrwxrwxrwx	root/root	usr/lib/libdb-4.so -> libdb-4.3.so

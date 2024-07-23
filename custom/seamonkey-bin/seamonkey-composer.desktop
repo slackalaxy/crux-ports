@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SeaMonkey Composer
+Comment=WYSIWYG HTML Editor
+Exec=seamonkey -edit
+Icon=seamonkey-composer
+Terminal=0
+Type=Application
+#Categories=Application;Network;

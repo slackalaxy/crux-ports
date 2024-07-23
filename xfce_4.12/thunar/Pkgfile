@@ -1,8 +1,7 @@
 # Description: File manager for XFCE
 # URL: https://git.xfce.org/xfce/thunar/tree/README
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: desktop-file-utils libnotify tumbler xfce4-panel
-# Nice to have: gnome-colors-48 gvfs
+# Depends on: desktop-file-utils gnome-colors-48 libnotify tumbler xfce4-panel
 
 name=thunar
 version=1.6.18

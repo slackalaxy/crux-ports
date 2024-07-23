@@ -1,0 +1,18 @@
+# Description: Python bindings for a few GNOME Developer Platform libraries.
+# URL: http://deb.debian.org/debian/pool/main/g/gnome-python/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 libgnome libgnomecanvas
+
+name=gnome-python
+version=2.28.1
+release=1
+source=(http://deb.debian.org/debian/pool/main/g/$name/${name}_${version}+dfsg.orig.tar.xz)
+
+build() {
+	cd $name-$version+dfsg
+	./configure --prefix=/usr \
+		--sysconfdir=/usr/etc \
+		--disable-gtk-doc
+	make
+	make DESTDIR=$PKG install
+}

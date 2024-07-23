@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Gephi
+Comment=The Open Graph Viz Platform
+Exec=gephi --jdkhome /usr/lib/java/adoptium11-jdk
+Icon=gephi
+StartupNotify=false
+Type=Application
+Categories=Education

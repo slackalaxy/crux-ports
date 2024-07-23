@@ -1,0 +1,19 @@
+# Description: simple GTK+1/2 painting program
+# URL: http://mtpaint.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk python xorg-libxdamage
+
+name=mtpaint
+version=3.50
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	gtk2 jpeg tiff lcms2 cflags man nojp2 release
+
+	make
+	make DESTDIR=$PKG install
+}

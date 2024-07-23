@@ -1,0 +1,30 @@
+# Description: old PNG library for compatibility with old software
+# URL: http://www.libpng.org/pub/png/libpng.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=libpng12
+version=1.2.59
+release=1
+source=(https://sourceforge.net/projects/libpng/files/$name/$version/libpng-$version.tar.gz)
+
+build() {
+	cd libpng-$version
+	./configure --prefix=/usr \
+	--libdir=/usr/lib/$name
+	make
+	make DESTDIR=$PKG install
+	
+	# These do not confluct with libpng
+	cd $PKG/usr/lib/
+	ln -s ./$name/libpng.so.3.59.0 libpng.so.3
+	ln -s ./$name/libpng12.so.0.59.0 libpng12.so
+	ln -s ./$name/libpng12.so.0.59.0 libpng12.so.0
+	
+	rm -rf $PKG/usr/bin/libpng-config
+	rm -rf $PKG/usr/share
+	#rm -rf $PKG/usr/lib/libpng.{so,la,a}
+	#rm -rf $PKG/usr/lib/pkgconfig/libpng.pc
+	rm -rf $PKG/usr/include/{png.h,pngconf.h}
+	#rm -rf $PKG/usr/lib/libpng12/*.la
+}

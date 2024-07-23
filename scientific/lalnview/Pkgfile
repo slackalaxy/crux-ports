@@ -1,0 +1,26 @@
+# Description: Visualize local alignments
+# URL: http://pbil.univ-lyon1.fr/software/lalnview.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fltk pdflib-lite xorg-libsm xorg-libxcursor
+
+name=lalnview
+version=3.0
+release=1
+source=(ftp://pbil.univ-lyon1.fr/pub/logiciel/$name/sources/sources20050615.tar
+	$name.desktop $name.png)
+
+build() {
+	# I _do_ want to include this
+	sed -i "s:$name.help:/usr/share/$name/$name.help:" MF_MainWindow.cxx
+
+	OPT="$CFLAGS" make
+	install -D -m755 $name $PKG/usr/bin/$name
+
+	# Couldn't find an icon, so i made one myself.
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+
+	mkdir -p $PKG/usr/share/$name
+	cp -a $name.help $PKG/usr/share/$name
+}

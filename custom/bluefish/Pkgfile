@@ -1,0 +1,29 @@
+# Description: A powerful editor
+# URL: http://bluefish.openoffice.nl/index.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage
+
+name=bluefish
+version=2.2.12
+release=2
+source=(http://sourceforge.net/projects/bluefish/files/bluefish/$version/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+	--disable-nls \
+        --with-gtk2 \
+	--disable-update-databases \
+        --disable-xml-catalog-update \
+	--disable-spell-check
+	
+	make
+	make DESTDIR=$PKG install
+	
+	# Change the category and I also like to have the default icon.
+	sed -i "s:Development:Utility:" $PKG/usr/share/applications/$name.desktop
+	sed -i "s:Icon=bluefish:Icon=/usr/share/pixmaps/bluefish.png:" $PKG/usr/share/applications/$name.desktop
+	
+	rm -rf $PKG/usr/share/{doc,xml}
+}

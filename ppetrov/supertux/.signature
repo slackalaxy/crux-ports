@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRgBFUV9QdVXBthGF66lqaUz7EdAi99Z7D/PAQkoktzK9XNp1+eJkry5dS3lQA1epMKBhIpiAqQlklD44eFtWAw=
-SHA256 (Pkgfile) = 5719e6244d4b5bf1cfe4978c44a3e877dd5d9e3239aa14c563e18756f663941a
-SHA256 (.footprint) = 29969f5f324a96e4abb20129771927849775cb66b6dd6e5fabef8cbbdfd21497
-SHA256 (SuperTux-v0.6.3-Source.tar.gz) = f7940e6009c40226eb34ebab8ffb0e3a894892d891a07b35d0e5762dd41c79f6
-SHA256 (gcc12.patch) = c703ed7f1bfef977f54cc6a2d16d83978aec022b4a23c076ec7563b293169d86
-SHA256 (game_session.patch) = 0b1ca2e9a654ae7256c20034207d57a56551792c47b40b3a3438684aa11f82c2

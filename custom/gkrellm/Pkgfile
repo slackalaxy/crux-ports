@@ -1,0 +1,24 @@
+# Description: A process stack of system monitors
+# URL: http://gkrellm.srcbox.net/
+# Maintainer: Petar Petrov
+# Depends on: brotli graphite2 gtk lm_sensors xorg-libxdamage
+
+name=gkrellm
+version=2.3.11
+release=1
+source=(http://gkrellm.srcbox.net/releases/gkrellm-$version.tar.bz2
+	$name.desktop
+	$name.png)
+
+build() {
+	cd $name-$version
+	
+	make INSTALLROOT=/usr
+	make install INSTALLROOT=$PKG/usr
+	
+	rm -rf $PKG/usr/share/locale
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
+	cp -a $SRC/$name.png $PKG/usr/share/pixmaps
+}

@@ -1,0 +1,24 @@
+# Description: QT GUI for Connman with system tray icon.
+# URL: https://github.com/andrew-bibb/cmst
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli connman double-conversion graphite2 icu keyutils krb5 libpcre2 qt5
+	
+name=cmst
+version=2022.05.01
+release=2
+source=(https://github.com/andrew-bibb/$name/releases/download/$name-$version/$name-$version.tar.xz
+	interface.tar.xz overlay.tar.xz raw_art.tar.xz)
+
+build() {
+	cd $name-$version
+	
+	# This is purely cosmetical, I just want to keep a GTK2-look
+	cp -a $SRC/{interface,overlay,raw_art} images/
+	
+	qmake
+	make
+	make INSTALL_ROOT=$PKG install
+	
+	rm -rf $PKG/usr/share/{licenses,metainfo}
+	sed -i "s:Categories=Settings;System;Qt;Network;:Categories=System;:" $PKG/usr/share/applications/$name.desktop
+}

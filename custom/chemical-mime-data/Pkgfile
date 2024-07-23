@@ -1,0 +1,22 @@
+# Description: Support for various chemical MIME types
+# URL: https://web.archive.org/web/20171012114726/http://chemical-mime.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gnome-mime-data
+
+name=chemical-mime-data
+version=0.1.94
+release=2
+source=(https://sourceforge.net/projects/slackbuildsdirectlinks/files/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+	--enable-update-database=no \
+	--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/doc
+}

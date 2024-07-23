@@ -1,0 +1,23 @@
+# Description:	An object-oriented Perl toolkit for analyzing and manipulating phyloinformatic data.
+# URL:		http://biophylo.blogspot.com/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	perl
+# Optional:	p5-archive-zip p5-gd p5-json p5-math-cdf p5-math-random p5-pdf-api2 p5-rdf-query p5-rdf-trine p5-svg p5-swf-builder p5-xml-libxml p5-xml-twig p5-xml-xml2json
+
+name=p5-bio-phylo
+version=v2.0.1
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/R/RV/RVOSA/Bio-Phylo-${version}.tar.gz)
+
+build() {
+	cd Bio-Phylo-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

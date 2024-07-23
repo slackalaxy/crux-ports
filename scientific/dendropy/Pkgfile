@@ -1,0 +1,14 @@
+# Description: A Phylogenetic Computing Library
+# URL: https://dendropy.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=dendropy
+version=4.5.1
+release=1
+source=(https://github.com/jeetsukumaran/DendroPy/archive/v${version}/DendroPy-$version.tar.gz)
+
+build() {
+	cd DendroPy-$version
+	python3 setup.py install --root=$PKG
+}

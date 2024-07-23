@@ -1,0 +1,22 @@
+# Description:	Structured Tags
+# URL:		http://search.cpan.org/~cmungall/Data-Stag/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-io-string
+
+name=p5-data-stag
+version=0.14
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/C/CM/CMUNGALL/Data-Stag-${version}.tar.gz)
+
+build() {
+	cd Data-Stag-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

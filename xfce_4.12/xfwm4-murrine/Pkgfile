@@ -4,11 +4,12 @@
 # Depends on: xfwm4
 
 name=xfwm4-murrine
-version=637b16d
+version=0.01
 release=1
-source=($name.tar.xz)
+source=(Murrine.tar.xz MurrineX2.tar.xz)
 
 build() {
 	mkdir -p $PKG/usr/share/themes
-	cp -a $SRC/$name/* $PKG/usr/share/themes/
+	cp -a $SRC/Murrine $PKG/usr/share/themes/Murrine
+	cp -a $SRC/MurrineX2 $PKG/usr/share/themes/MurrineX2
 }

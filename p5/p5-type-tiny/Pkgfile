@@ -1,0 +1,23 @@
+# Description:	Tiny, yet Moo(se)-compatible type constraint
+# URL:		https://typetiny.toby.ink/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-exporter-tiny
+# Optional:	p5-devel-lexalias p5-devel-stacktrace p5-moo p5-moose p5-mouse p5-ref-util-xs p5-regexp-util p5-reply p5-type-tie p5-type-tiny-xs
+
+name=p5-type-tiny
+version=1.012003
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Type-Tiny-${version}.tar.gz)
+
+build() {
+	cd Type-Tiny-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

@@ -1,0 +1,32 @@
+# Description: Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research
+# URL: https://www.zotero.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: dbus-glib gtk nss xorg-libxt
+
+name=zotero-gtk2
+version=4.0.28
+release=1
+source=(https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2
+	zotero.desktop zotero.png)
+
+build() {
+	cd Zotero_linux-x86_64
+
+	# Enter path
+	sed -i -e 's:MOZ_PROGRAM="":MOZ_PROGRAM="/usr/lib/zotero/zotero":g' run-zotero.sh
+	
+	mkdir -p $PKG/usr/{bin,lib/zotero}
+	cp -a * $PKG/usr/lib/zotero
+	
+	cd $PKG/usr/bin
+	ln -s ../lib/zotero/run-zotero.sh zotero
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/zotero.desktop $PKG/usr/share/applications
+	cp $SRC/zotero.png $PKG/usr/share/pixmaps
+	
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/zotero
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/zotero:g" $PKG/etc/revdep.d/$name
+}

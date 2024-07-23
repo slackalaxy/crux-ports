@@ -1,0 +1,13 @@
+# Description: Motif Databases to be used with MEME Suite
+# URL: https://meme-suite.org/db/motifs
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=meme-db-motif
+version=12.23
+release=1
+source=(https://meme-suite.org/meme/meme-software/Databases/motifs/motif_databases.${version}.tgz)
+
+build() {
+	mkdir -p $PKG/var/lib/meme-suite
+	cp -a $SRC/* $PKG/var/lib/meme-suite
+}

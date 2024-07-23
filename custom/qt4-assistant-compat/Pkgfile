@@ -1,0 +1,37 @@
+# Description: QT4 Assistant compatibility
+# URL: http://qt-project.org/
+# Maintainer: Petar Petrov
+# Depends on: brotli graphite2 harfbuzz qt4
+
+name=qt4-assistant-compat
+version=4.6.3
+release=2
+source=(http://master.qt.io/archive/qt/4.6/qt-assistant-qassistantclient-library-compat-src-4.6.3.tar.gz
+	debian_patches_01_build_system.diff)
+
+build() {
+	cd qt-assistant-qassistantclient-library-compat-version-$version
+	patch -Np1 -i $SRC/debian_patches_01_build_system.diff
+	
+	cd lib
+	qmake-qt4 CONFIG+=create_prl \
+	QMAKE_CFLAGS_RELEASE="$CFLAGS" \
+	QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS"
+	make
+	make install INSTALL_ROOT=$PKG
+	cd ..
+
+	# Convert XML-based translations files from the TS
+	# format into the "compiled" QM format
+	lrelease translations/assistant_adp_*.ts
+
+	qmake-qt4 CONFIG+=create_prl
+	make
+	make install INSTALL_ROOT=$PKG
+
+	# Fix wrong path in prl file
+	sed -i -e /^QMAKE_PRL_BUILD_DIR/d $PKG/usr/share/qt4/lib/libQtAssistantClient.prl
+
+	cd features
+	install -D -m644 assistant.prf $PKG/usr/share/qt4/mkspecs/features/assistant.prf
+}

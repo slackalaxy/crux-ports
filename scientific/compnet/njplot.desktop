@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CompNet njPlot
+Comment=CompNet Network Analysis
+Exec=njplot
+Icon=njplot
+StartupNotify=false
+Type=Application
+Categories=Education
+Path=

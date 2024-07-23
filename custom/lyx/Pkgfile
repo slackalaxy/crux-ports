@@ -1,0 +1,22 @@
+# Description: document processor
+# URL: http://www.lyx.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: texlive qt5 python imagemagick ghostscript aspell-en enchant
+
+name=lyx
+version=2.3.6.1
+release=1
+source=(https://ftp.lip6.fr/pub/$name/stable/2.3.x/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--enable-qt5
+
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/$name/doc/{ar,ca,cs,da,de,el,es,eu,fr,gl,he,hu,id,it,ja,nb,nl,pl,pt,ro,ru,sk,sl,sv,uk,zh_CN}
+	rm -rf $PKG/usr/share/$name/examples/{ar,ca,cs,da,de,el,es,eu,fa,fr,gl,he,hu,id,it,ja,ko,nb,nl,pl,pt_BR,pt_PT,ro,ru,sk,sl,sr,sv,uk}
+	rm -rf $PKG/usr/share/locale/
+}

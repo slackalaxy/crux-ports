@@ -1,0 +1,27 @@
+# Description:	Perl modules for biology
+# URL:		https://metacpan.org/release/BioPerl
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p5-algorithm-munkres p5-array-compare p5-bio-phylo p5-cgi p5-clone p5-convert-binary-c p5-data-stag p5-dbd-mysql p5-dbd-pg p5-dbd-sqlite p5-error p5-gd p5-graph p5-graphviz p5-html-tableextract p5-http-message p5-libxml-perl p5-postscript p5-set-scalar p5-soap-lite p5-sort-naturally p5-spreadsheet-parseexcel p5-svg-graph p5-test-most p5-test-simple p5-xml-dom-xpath p5-xml-sax-writer p5-yaml
+# Optional: p5-bio-asn1-entrezgene p5-bio-cluster p5-bio-variation
+
+name=p5-bioperl
+version=1.6.924
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/C/CJ/CJFIELDS/BioPerl-${version}.tar.gz
+	BioPerl-1.006924-RT106756.patch)
+
+build() {
+	cd BioPerl-$version
+
+	patch -p1 -i $SRC/BioPerl-1.006924-RT106756.patch
+	perl Build.PL --install_base /usr \
+        --install_path lib=/usr/lib/perl5/site_perl/5.32
+	./Build test
+	./Build --install_base $PKG/usr \
+	--install_path lib=$PKG/usr/lib/perl5/site_perl/5.32 install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

@@ -1,0 +1,22 @@
+# Description:	Crypt::RC4
+# URL:		http://search.cpan.org/~sifukurt/Crypt-RC4/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	perl
+
+name=p5-crypt-rc4
+version=2.02
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/S/SI/SIFUKURT/Crypt-RC4-${version}.tar.gz)
+
+build() {
+	cd Crypt-RC4-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

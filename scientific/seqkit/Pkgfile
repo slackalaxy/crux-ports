@@ -1,0 +1,13 @@
+# Description: Atoolkit for FASTA/Q file manipulation
+# URL: https://bioinf.shenwei.me/seqkit/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=seqkit
+version=2.2.0
+release=1
+source=(https://github.com/shenwei356/$name/releases/download/v${version}/${name}_linux_amd64.tar.gz)
+
+build() {
+	install -D -m755 $name $PKG/usr/bin/$name
+}

@@ -1,0 +1,14 @@
+# Description: Chromium Embedded Framework
+# URL: https://cef-builds.spotifycdn.com/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib at-spi2-atk brotli cups gnutls graphite2 libxkbcommon mesa nss pango wayland xorg-libxcomposite
+
+name=libcef
+version=99.2.15
+release=1
+source=(https://cef-builds.spotifycdn.com/cef_binary_99.2.15%2Bg71e9523%2Bchromium-99.0.4844.84_linux64_minimal.tar.bz2)
+
+build() {
+	cd cef_binary_${version}*
+	install -D -m644 Release/$name.so $PKG/usr/lib/$name.so
+}

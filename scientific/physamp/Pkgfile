@@ -1,0 +1,23 @@
+# Description: Phylogenetic Sampling and Optimization of Sequence Alignments
+# URL: https://github.com/jydu/physamp
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bppsuite
+
+name=physamp
+version=1.1.0
+release=1
+source=(https://github.com/jydu/$name/archive/v${version}/physamp-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+	make
+	make install DESTDIR=$PKG
+}

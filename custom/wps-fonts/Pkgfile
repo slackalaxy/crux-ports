@@ -1,0 +1,15 @@
+# Description: Symbol fonts required by WPS
+# URL: https://github.com/BannedPatriot/ttf-wps-fonts
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=wps-fonts
+version=b3e9353
+release=1
+source=(https://github.com/BannedPatriot/ttf-$name/archive/$version/ttf-$name-b3e935355afcfb5240bac5a99707ffecc35772a2.tar.gz)
+
+build() {
+	cd ttf-$name-${version}*
+	mkdir -p $PKG/usr/share/fonts/$name
+	cp -a *.{ttf,TTF} $PKG/usr/share/fonts/$name
+}

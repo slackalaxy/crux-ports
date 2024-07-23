@@ -1,7 +1,0 @@
-#!/bin/sh
-
-mkfontdir /usr/share/fonts/apple
-mkfontscale /usr/share/fonts/apple
-fc-cache
-
-# ln -s /usr/share/fontconfig/conf.avail/32-apple-emoji.conf /etc/etc/fonts/conf.d/32-apple-emoji.conf

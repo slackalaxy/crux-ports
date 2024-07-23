@@ -1,0 +1,31 @@
+# Description: The best solution for working with PDF files in Linux
+# URL: https://code-industry.net/free-pdf-editor/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion graphite2 icu keyutils krb5 libpcre2 qt5 sane
+
+name=masterpdfeditor4
+version=4.3.89
+release=1
+source=(http://code-industry.net/public/master-pdf-editor-${version}_qt5.amd64.tar.gz)
+
+build() {
+	cd master-pdf-editor-${version%.*.*}
+	
+	mkdir -p $PKG/usr/lib/$name
+	cp -a --no-preserve=ownership * $PKG/usr/lib/$name
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp masterpdfeditor${version%.*.*}.desktop $PKG/usr/share/applications/$name.desktop
+	cp masterpdfeditor${version%.*.*}.png $PKG/usr/share/pixmaps/$name.png
+	
+	sed -i "s:/opt/master-pdf-editor-${version%.*.*}/masterpdfeditor${version%.*.*}:$name:g" \
+		$PKG/usr/share/applications/$name.desktop
+	sed -i "s:Categories=Office;Graphics;:Categories=Office;:" \
+		$PKG/usr/share/applications/$name.desktop
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/masterpdfeditor${version%.*.*} $name
+	
+	rm -rf $PKG/usr/lib/$name/lang
+}

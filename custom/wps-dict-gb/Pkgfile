@@ -1,0 +1,20 @@
+# Description: British English spellcheck
+# URL: https://github.com/LibreOffice/dictionaries/tree/master/en
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: wps-office
+
+name=wps-dict-gb
+version=20200104
+release=1
+source=(en_GB.aff.tar.xz en_GB.dic.tar.xz)
+
+build() {
+	mkdir -p $PKG/usr/lib/wps-office/office6/dicts/spellcheck/en_GB
+	
+	touch $PKG/usr/lib/wps-office/office6/dicts/spellcheck/en_GB/dict.conf
+	echo -e "[Dictionary] \nDisplayName=English (UK) \nDisplayName[en_GB]=English (UK)" > \
+	$PKG/usr/lib/wps-office/office6/dicts/spellcheck/en_GB/dict.conf
+	
+	cat $SRC/en_GB.aff > $PKG/usr/lib/wps-office/office6/dicts/spellcheck/en_GB/main.aff
+	cat $SRC/en_GB.dic > $PKG/usr/lib/wps-office/office6/dicts/spellcheck/en_GB/main.dic
+}

@@ -1,0 +1,35 @@
+# Description: Libre Desktop Publishing
+# URL: https://www.scribus.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli cups double-conversion graphite2 hunspell icu keyutils krb5 libpcre2 libwebp poppler qt5
+
+name=scribus
+version=1.5.8
+release=1
+source=(https://downloads.sourceforge.net/scribus/$name-$version.tar.xz
+	poppler-22.02.0-fixup.patch
+	poppler-22.02.0.patch
+	poppler-22.03.0.patch
+	poppler-22.04.0.patch)
+
+build() {
+	cd $name-$version
+	
+	patch -Np1 -i $SRC/poppler-22.02.0.patch
+	patch -Np1 -i $SRC/poppler-22.02.0-fixup.patch
+	patch -Np1 -i $SRC/poppler-22.03.0.patch
+	patch -Np1 -i $SRC/poppler-22.04.0.patch
+
+	cmake \
+	-D WANT_CPP17=ON \
+	-D CMAKE_C_FLAGS="$CFLAGS" \
+	-D CMAKE_CXX_FLAGS="$CXXFLAGS" \
+	-D CMAKE_INSTALL_PREFIX:PATH=/usr
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/doc
+	
+	sed -i "s:Qt;Graphics;Publishing;:Qt;Office;Publishing;:" $PKG/usr/share/applications/$name.desktop
+}

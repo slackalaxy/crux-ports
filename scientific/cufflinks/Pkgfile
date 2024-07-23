@@ -1,0 +1,36 @@
+# Description: A reference-guided assembler for RNA-Seq experiments
+# URL: http://cufflinks.cbcb.umd.edu/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: boost samtools0
+
+name=cufflinks
+version=2.2.1
+release=1
+source=(http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/$name-$version.tar.gz
+	cufflinks-2.2.1-boost-1.65-tr1-removal.patch
+	cufflinks-2.2.1-gcc5-make_shared.patch
+	cufflinks-2.2.1-gcc6.patch
+	cufflinks-2.2.1-gcc7.patch
+	cufflinks-2.2.1-format-security.patch)
+
+build() {
+	cd $name-$version
+	export EIGEN_CPPFLAGS="-I/usr/include/eigen3"
+	export LDFLAGS="-L/usr/lib -lboost_system"
+	
+	# Thanks gentoo and debian!
+	patch -p1 -i $SRC/cufflinks-2.2.1-gcc5-make_shared.patch
+	patch -p1 -i $SRC/cufflinks-2.2.1-gcc6.patch
+	patch -p1 -i $SRC/cufflinks-2.2.1-gcc7.patch
+	patch -p1 -i $SRC/cufflinks-2.2.1-format-security.patch
+	patch -p1 -i $SRC/cufflinks-2.2.1-boost-1.65-tr1-removal.patch
+
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CXXFLAGS -fcommon" \
+	./configure --prefix=/usr \
+	--with-boost-libdir=/usr/lib \
+	--disable-optim
+
+	make
+	make install DESTDIR=$PKG
+}

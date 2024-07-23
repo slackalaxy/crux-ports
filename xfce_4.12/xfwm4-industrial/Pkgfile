@@ -1,16 +1,15 @@
 # Description: Ximian Destop 2's Industrial window decoration
 # URL: https://github.com/slackalaxy/themes
-# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
 # Depends on: xfwm4
 
 name=xfwm4-industrial
-version=a7c9234
-release=2
+version=0.1
+release=1
 source=($name.tar.xz)
 
 build() {
 	cd $name
 	mkdir -p $PKG/usr/share/themes/Industrial
 	cp -a xfwm4 $PKG/usr/share/themes/Industrial
-	rm -rf $PKG/usr/share/themes/Industrial/xfwm4/README
 }

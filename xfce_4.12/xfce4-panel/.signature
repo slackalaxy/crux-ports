@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchq/gy6ef144cfDs7Sy0uOnRg5f2Zte+/giu2YwSfapYkjNocev8YdBEyhZbGBYw+qGu2m6uXRkZ1NV94OEIl2gg=
-SHA256 (Pkgfile) = dc6358d7fe71e84d0cdc03aa6a7a96192c38476661fca44ed27c1791bea2dea4
-SHA256 (.footprint) = 4b5ea6cb1676a4b629654532db139590b9ab049e7e761180e83e22f7dcdf12c1
-SHA256 (xfce4-panel-4.12.2.tar.bz2) = 42058abb81b8f87691d3999627447de71c3285bcf055f308aab5cefab2de0ce9
-SHA256 (applicationsmenu.patch) = 64370924f3e4ee218ff5642b8a95767d400fe1984c9d7358b0dd35097fe9adb4

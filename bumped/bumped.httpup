@@ -1,0 +1,8 @@
+#
+# /etc/ports/bumped.httpup: bumped ports collection
+#
+ 
+ROOT_DIR=/usr/ports/bumped
+URL=https://raw.githubusercontent.com/slackalaxy/crux-ports/main/bumped
+ 
+# End of file

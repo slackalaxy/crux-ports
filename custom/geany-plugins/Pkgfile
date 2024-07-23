@@ -1,0 +1,24 @@
+# Description: Geany plugins
+# URL: https://github.com/geany/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: geany
+
+name=geany-plugins
+version=1.34.0
+release=2
+source=(https://github.com/geany/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./autogen.sh
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--disable-static \
+	--disable-nls
+	
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/{doc,locale}
+	rm -f $PKG/{,usr/}lib/*.la
+}

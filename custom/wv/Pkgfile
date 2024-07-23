@@ -1,0 +1,20 @@
+# Description: MS Word document import library
+# URL: http://abisource.com/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=wv
+version=1.2.9
+release=2
+source=(http://abisource.com/downloads/$name/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+	--enable-static=no
+
+	make
+	make install DESTDIR=$PKG
+	rm -f $PKG/{,usr/}lib/*.la
+}

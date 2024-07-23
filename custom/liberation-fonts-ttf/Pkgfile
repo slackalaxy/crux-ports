@@ -1,0 +1,21 @@
+# Description: The Liberation(tm) Fonts
+# URL: https://github.com/liberationfonts/liberation-fonts
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=liberation-fonts-ttf
+version=2.1.5
+release=1
+source=(https://github.com/liberationfonts/liberation-fonts/files/7261482/$name-$version.tar.gz
+	57-liberation-mono.conf
+	57-liberation-sans.conf
+	57-liberation-serif.conf)
+
+build() {
+	cd $name-$version
+	mkdir -p $PKG/usr/share/fonts/liberation
+	cp *.ttf $PKG/usr/share/fonts/liberation
+	chmod 0644 $PKG/usr/share/fonts/liberation/*.ttf
+	
+	mkdir -p $PKG/etc/fonts/conf.avail
+	cp -a $SRC/*.conf $PKG/etc/fonts/conf.avail
+}

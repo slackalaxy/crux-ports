@@ -1,0 +1,8 @@
+#
+# /etc/ports/scientific.httpup: scientific ports collection
+#
+ 
+ROOT_DIR=/usr/ports/scientific
+URL=https://raw.githubusercontent.com/slackalaxy/crux-ports/main/scientific/
+ 
+# End of file

@@ -1,0 +1,18 @@
+# Description: Code::Blocks
+# URL: https://www.codeblocks.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: wxpython2
+
+name=codeblocks
+version=20.03
+release=2
+source=(https://sourceforge.net/projects/$name/files/Sources/$version/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	
+	rm -f $PKG/{,usr/}lib/*.la
+}

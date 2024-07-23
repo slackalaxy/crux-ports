@@ -1,0 +1,15 @@
+# Description: Neat theme for xfce4 window manager
+# URL: https://www.xfce-look.org/p/1188381
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: xfwm4
+
+name=xfwm4-neat
+version=0.0.2
+release=1
+source=(https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUwNjIzNTEyNCwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiJhYmViYTczOWFjNTFhYzdkYzRiNjM0OTlkOWYzNTg5MjcyM2RlMzM4NzFkZGZiMWQ1NzQ3NmZiMjY2ZjBhMDQwNDAzODgzMzJhMzg3MWZlM2U4YzIzMDQ0OTdmNDZkODZkYTZkNDg0NTgwNjY2NmU4N2M0ZmU2NmRjYjVhZGJlYyIsInQiOjE2NDU5OTU4MTYsInN0ZnAiOiI4NTFjYmRkZTBkYmM4Yzc4YjRiNWVmMzZkZTcyY2JhYyIsInN0aXAiOiIyMDAxOjE0YmE6YThjOTo1OTAwOjoyIn0.IRw7sQ6bbDU5X-BMj0FS2Io9TE-D1R0957Xba7h1ziQ/Neat-0.0.2.tar.gz)
+
+build() {
+	mkdir -p $PKG/usr/share/themes
+	cp -a Neat-Gloom $PKG/usr/share/themes
+	cp -a Neat-Rhythm $PKG/usr/share/themes
+}

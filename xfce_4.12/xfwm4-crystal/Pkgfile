@@ -1,0 +1,15 @@
+# Description: Crystal native window decoration from KDE3
+# URL: https://github.com/slackalaxy/themes
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: xfwm4
+
+name=xfwm4-crystal
+version=0.1
+release=1
+source=($name.tar.xz)
+
+build() {
+	cd $name
+	mkdir -p $PKG/usr/share/themes/Crystal
+	cp -a xfwm4 $PKG/usr/share/themes/Crystal
+}

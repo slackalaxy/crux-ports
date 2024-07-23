@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=ChimeraX
-Comment=UCSF ChimeraX
-Exec=chimerax
-Icon=chimerax
-StartupNotify=false
-Type=Application
-Categories=Education;

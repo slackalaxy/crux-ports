@@ -1,0 +1,34 @@
+# Description: Molecular Evolutionary Genetics Analysis
+# URL: http://www.megasoftware.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gconf gtk libgpg-error nss xorg-libxdamage xorg-libxscrnsaver xorg-libxtst
+
+name=mega
+version=11.0.11
+release=1
+source=(https://www.megasoftware.net/releases/${name}_${version}-1_amd64.deb
+	$name.desktop)
+
+build() {
+	ar p ${name}_${version}-1_amd64.deb data.tar.xz | tar xJv
+
+	mkdir -p $PKG/usr/lib
+	cp -a usr/lib/$name $PKG/usr/lib
+
+	# Copy man pages to their proper place.
+	mkdir -p $PKG/usr/share/man
+	cp -a usr/local/share/man/man1 $PKG/usr/share/man
+
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/megacc
+	ln -s ../lib/$name/runmega.sh mega
+	cd -
+
+	# Menu entry for MEGA X, use our .desktop file
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp usr/share/pixmaps/mega.png $PKG/usr/share/pixmaps/$name.png
+	
+	rm -rf $PKG/usr/lib/$name/locales
+}

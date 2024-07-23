@@ -1,0 +1,41 @@
+# Description: Coevolution Analysis using Protein Sequences
+# URL: http://bioinf.gen.tcd.ie/~faresm/software/software.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bpp1.9-phyl gsl
+
+name=caps-coev
+version=2.0
+release=2
+source=(http://bioinf.gen.tcd.ie/~faresm/software/files/caps2_src.zip
+	01_caps_verbose.patch 02_caps_sort_input.patch)
+
+build() {
+	cd caps${version}_src
+	
+	# This is needed for vCAPS to find its libraries at runtime. Thanks Urchlay!
+	LIBDIRPATH="-Wl,-rpath,/usr/lib/Bpp1.9"
+	
+	# Use our CFLAGS and the custom (legacy) lib path
+	sed -i "s:CFLAGS=:CFLAGS=$CFLAGS $LIBDIRPATH:" Makefile
+
+	# Find the legacy bpp libraries
+	sed -i "s:-lbpp-phyl:-L/usr/lib/Bpp1.9 -lbpp-phyl:g" Makefile
+	sed -i "s:-lbpp-numcalc:-L/usr/lib/Bpp1.9 -lbpp-numcalc:g" Makefile
+	sed -i "s:-lbpp-utils:-L/usr/lib/Bpp1.9 -lbpp-utils:g" Makefile
+	sed -i "s:-lbpp-seq:-L/usr/lib/Bpp1.9 -lbpp-seq:g" Makefile
+
+	# Rename the produced executable 
+	sed -i "s:-o caps:-o vCAPS:" Makefile
+
+	# Use our patches
+	patch -p1 -i $SRC/01_caps_verbose.patch
+	patch -p1 -i $SRC/02_caps_sort_input.patch
+
+	make all
+
+	# Install the binary produced from our patched source, as "vCAPS"
+	install -D -m755 vCAPS $PKG/usr/bin/vCAPS
+
+	mkdir -p $PKG/usr/share/$name
+	cp -a sample structures trees TLR1.fa.out $PKG/usr/share/$name
+}

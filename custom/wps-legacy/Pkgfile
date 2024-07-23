@@ -1,0 +1,42 @@
+# Description: WPS Office LEGACY version
+# URL: https://www.wps.com/linux
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glu libjpeg-turbo libpng12 libsdl2 pulseaudio qt4 gst0-plugins-base
+# Conflicts: wps-office
+
+name=wps-legacy
+version=10.1.0.5707_a21
+release=1
+source=(https://www.dropbox.com/s/b7m87soanzls380/wps-office_${version}_x86_64.tar.xz
+	wps-presentations.desktop
+	wps-spreadsheet.desktop
+	wps-writer.desktop)
+
+build() {
+	
+	# The handbook says packages should not place stuff in /opt
+	cd $SRC/wps-office_10.1.0.5707~a21_x86_64
+	mkdir -p $PKG/usr/lib/$name
+	cp -a office6 $PKG/usr/lib/$name
+	
+	# Install wrappers
+	install -D -m755 et $PKG/usr/bin/wps-spreadsheet
+	install -D -m755 wps $PKG/usr/bin/wps-writer
+	install -D -m755 wpp $PKG/usr/bin/wps-presentations
+	
+	# Fix paths accordingly
+	sed -i "s:/opt/kingsoft/wps-office:/usr/lib/$name:g" $PKG/usr/bin/*
+	
+	# Use my desktop entries and I do not want _any_ automatic file associations
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/*.desktop $PKG/usr/share/applications
+	cp -a resource/icons/hicolor/48x48/apps/wps-office-wppmain.png $PKG/usr/share/pixmaps/wps-presentations.png
+	cp -a resource/icons/hicolor/48x48/apps/wps-office-wpsmain.png $PKG/usr/share/pixmaps/wps-writer.png
+	cp -a resource/icons/hicolor/48x48/apps/wps-office-etmain.png $PKG/usr/share/pixmaps/wps-spreadsheet.png
+	
+	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/$name/office6
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/$name/office6:g" $PKG/etc/revdep.d/$name
+}

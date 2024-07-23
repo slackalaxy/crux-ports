@@ -1,0 +1,23 @@
+# Description:	Perl's Web Services Toolkit
+# URL:		http://search.cpan.org/~phred/SOAP-Lite/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-class-inspector p5-io-sessiondata p5-io-socket-ssl p5-libwww p5-lwp-protocol-https p5-task-weaken p5-uri p5-xml-parser
+# Optional:	p5-dime-tools p5-fcgi p5-http-daemon p5-mime-tools p5-mod_perl p5-soap-transport-jabber p5-soap-transport-mq
+
+name=p5-soap-lite
+version=1.27
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/P/PH/PHRED/SOAP-Lite-${version}.tar.gz)
+
+build() {
+	cd SOAP-Lite-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

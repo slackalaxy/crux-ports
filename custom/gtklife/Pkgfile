@@ -1,0 +1,27 @@
+# Description: Conway's Life program for *nix
+# URL: http://ironphoenix.org/gtklife/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtk libglvnd xorg-libxdamage
+
+name=gtklife
+version=5.2
+release=1
+source=(http://ironphoenix.org/tril/gtklife/$name-$version.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-$version
+	
+	CFLAGS="$CFLAGS -std=gnu89" \
+	./configure --prefix=/usr \
+	--with-gtk2
+
+	make
+	make install prefix=$PKG/usr
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	rm -rf $PKG/usr/doc
+}

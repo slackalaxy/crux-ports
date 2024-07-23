@@ -1,0 +1,43 @@
+# Description: Base set of GStreamer plugins, v0
+# URL: https://gstreamer.freedesktop.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gstreamer0 orc xorg-libxv
+
+name=gst0-plugins-base
+version=0.10.36
+release=2
+source=(https://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-$version.tar.xz
+	00-fix-crash-0-byte-ogg.patch
+	01-colorbalance-fix-abi.patch
+	02-ayuv64-lanczos.patch
+	03-videoscale-fix-negotiation.patch
+	04-gstaudio-symbols.patch
+	05-enum_headers.patch)
+
+build() {
+	cd gst-plugins-base-$version
+	
+	# Thanks AUR for the patches
+	sed -i -e '/AC_PATH_XTRA/d' -e 's/AM_CONFIG_HEADER/AC_CONFIG_HEADERS/' configure.ac
+	patch -p1 < $SRC/00-fix-crash-0-byte-ogg.patch
+	patch -p1 < $SRC/01-colorbalance-fix-abi.patch
+	patch -p1 < $SRC/02-ayuv64-lanczos.patch
+	patch -p1 < $SRC/03-videoscale-fix-negotiation.patch
+	patch -p1 < $SRC/04-gstaudio-symbols.patch
+	patch -p1 < $SRC/05-enum_headers.patch
+
+
+	NOCONFIGURE=1 ./autogen.sh
+
+	./configure --prefix=/usr \
+	--disable-nls \
+	--disable-debug \
+	--disable-static
+
+	make
+	sed -e 's/^SUBDIRS_EXT =.*/SUBDIRS_EXT =/' -i Makefile
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/gtk-doc
+	rm -f $PKG/{,usr/}lib/*.la
+}

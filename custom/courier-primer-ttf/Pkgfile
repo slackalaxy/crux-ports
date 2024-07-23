@@ -1,0 +1,22 @@
+# Description: Monospace Courier font alternative
+# URL: https://quoteunquoteapps.com/courierprime/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=courier-primer-ttf
+version=1.203
+release=1
+source=(https://quoteunquoteapps.com/courierprime/downloads/courier-prime.zip
+        https://quoteunquoteapps.com/courierprime/downloads/courier-prime-sans.zip
+        https://quoteunquoteapps.com/courierprime/downloads/courier-prime-code.zip
+        https://quoteunquoteapps.com/courierprime/downloads/courier-prime-medium-semi-bold.zip)
+
+build() {
+	mkdir -p "$PKG/usr/share/fonts/TTF"
+	
+	# Courier Prime fonts expand to directory `Courier Prime`
+	# Courier Prime Sans fonts expand to directory `CourierPrimeSans-master/ttf`
+	# Courier Prime Code fonts expand to directory `ttf`
+	# Courier Prime Medium & Semi-Bold fonts expand to base directory
+	install -m644 {Courier\ Prime/,CourierPrimeSans-master/ttf/,ttf/,}*.ttf $PKG/usr/share/fonts/TTF
+}

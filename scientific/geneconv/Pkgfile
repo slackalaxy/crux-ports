@@ -1,0 +1,25 @@
+# Description: Statistical Tests for Detecting Gene Conversion
+# URL: https://www.math.wustl.edu/~sawyer/geneconv/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=geneconv
+version=1.81a
+release=1
+source=(http://slackware.uk/sbosrcarch/by-name/academic/$name/unix.source.tar.gz
+	http://slackware.uk/sbosrcarch/by-name/academic/$name/unix.examples.tar.gz
+	http://slackware.uk/sbosrcarch/by-name/academic/$name/gconvdoc.pdf)
+
+build() {
+	cd unix.source
+	
+	# This is the program
+	gcc -DUNIX -o geneconv $CFLAGS geneconv.c version.c vcalc.c vtcalc.c \
+	vsetopts.c vread.c vdump.c vutil.c -lm
+	install -D -m755 $name $PKG/usr/bin/$name
+	
+	# These are the documentation examples and I _do_ want the manual
+	mkdir -p $PKG/usr/share/$name
+	cp -a $SRC/unix.examples/* $PKG/usr/share/$name
+	cp -a $SRC/gconvdoc.pdf $PKG/usr/share/$name
+}

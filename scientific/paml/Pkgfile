@@ -1,0 +1,86 @@
+# Description: PAML: Phylogenetic Analysis by Maximum Likelihood
+# URL: http://abacus.gene.ucl.ac.uk/software/paml.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=paml
+version=4.9j
+release=1
+source=(http://abacus.gene.ucl.ac.uk/software/${name}${version}.tgz)
+
+build() {
+	cd ${name}${version}
+	
+	# Use our CFLAGS
+	sed -i "/^C.*.*FLAGS/s/=/+=/" src/Makefile
+
+	# These are the main components, and most likely this will be all you
+	# need. Check the next sections if you need some optional components.
+	# They will be installed to /usr/lib/paml in case you want them.
+	cd src
+	
+	CFLAGS="$CFLAGS -fcommon" \
+	make -f Makefile
+
+	install -D -m755 baseml		$PKG/usr/bin/baseml
+	install -D -m755 basemlg	$PKG/usr/bin/basemlg
+	install -D -m755 chi2		$PKG/usr/bin/chi2
+	install -D -m755 codeml		$PKG/usr/bin/codeml
+	install -D -m755 evolver	$PKG/usr/bin/evolver
+	install -D -m755 mcmctree	$PKG/usr/bin/mcmctree
+	install -D -m755 pamp		$PKG/usr/bin/pamp
+	install -D -m755 yn00		$PKG/usr/bin/yn00
+
+	# Compile and install Evolver variations
+	cc $CFLAGS -fcommon -DCodonNSbranches    -o evolverNSbranches evolver.c tools.c -lm
+	cc $CFLAGS -fcommon -DCodonNSsites       -o evolverNSsites evolver.c tools.c -lm
+	cc $CFLAGS -fcommon -DCodonNSbranchsites -o evolverNSbranchsites evolver.c tools.c -lm
+
+	install -D -m755 evolverNSbranches 	$PKG/usr/lib/$name/evolverNSbranches
+	install -D -m755 evolverNSbranchsites 	$PKG/usr/lib/$name/evolverNSbranchsites
+	install -D -m755 evolverNSsites 	$PKG/usr/lib/$name/evolverNSsites
+
+	# This does not build at the moment, so let's disable it for now
+	# # Compile and install TreeTime
+	# cc $CFLAGS -fcommon -o TreeTimeJeff TreeTimeJeff.c tools.c -lm
+	# install -D -m755 TreeTimeJeff 	$PKG/usr/libexec/$PRGNAM/TreeTimeJeff
+
+	# Rename the local README, so we include it in the package.
+	mv README.txt README-compiling.txt
+
+	# Compile and install NEB, BEB and BranchSite
+	cd ../Technical/Simulation/Codon
+	cc $CFLAGS -fcommon -DNEB        -o PositiveSitesNEB PositiveSites.c -lm
+	cc $CFLAGS -fcommon -DBEB        -o PositiveSitesBEB PositiveSites.c -lm
+	cc $CFLAGS -fcommon -DBranchSite -o PositiveSitesBS  PositiveSites.c -lm
+
+	install -D -m755 PositiveSitesBEB 	$PKG/usr/lib/$name/PositiveSitesBEB
+	install -D -m755 PositiveSitesBS 	$PKG/usr/lib/$name/PositiveSitesBS
+	install -D -m755 PositiveSitesNEB 	$PKG/usr/lib/$name/PositiveSitesNEB
+
+	# Rename this README too so we include it in the package.
+	mv README.txt README-codon.txt
+
+	# Compile and install Multiruns
+	cd ..
+	cc -o multiruns $CFLAGS -fcommon multiruns.c -lm
+	install -D -m755 multiruns 	$PKG/usr/lib/$name/multiruns
+
+	cd $SRC/${name}${version}
+
+	# Include sample system files and example experimental data.
+	mkdir -p $PKG/usr/share/$name/{aa,codon,ctl,dat,nuc,paup,trees}
+	cp -a *.dat dat/* $PKG/usr/share/$name/dat
+	cp -a Technical/Simulation/Codon/{codeml.ctl,*.dat} \
+	$PKG/usr/share/$name/codon
+	cp -a examples 	$PKG/usr/share/$name
+	cp -a *.aa 	$PKG/usr/share/$name/aa
+	cp -a *.ctl 	$PKG/usr/share/$name/ctl
+	cp -a *.nuc 	$PKG/usr/share/$name/nuc
+	cp -a paup* 	$PKG/usr/share/$name/paup
+	cp -a *.trees 	$PKG/usr/share/$name/trees
+	
+	cp -a README.txt GeneticCode.txt doc/* src/README-compiling.txt \
+	Technical/{Pt/eigenQREV.pdf,Simulation/{multiruns.txt,Codon/README-codon.txt}}\
+	$PKG/usr/share/$name
+}

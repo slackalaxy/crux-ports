@@ -1,0 +1,87 @@
+# Description: Crossplatform GUI Toolkit
+# URL: http://wxpython.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli gconf graphite2 gst0-plugins-base gtk libsdl libwebp python
+
+name=wxpython2
+version=2.8.12.1
+release=1
+source=(http://downloads.sourceforge.net/wxpython/wxPython-src-$version.tar.bz2)
+
+build() {
+	# Based on wxPython.SlackBuild
+	cd wxPython-src-$version
+	CFLAGS="$SLKCFLAGS" \
+	CXXFLAGS="$SLKCFLAGS -Wno-narrowing" \
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--localstatedir=/var \
+	--with-sdl \
+	--with-opengl \
+	--without-gnomeprint \
+	--enable-unicode \
+	--enable-graphics_ctx \
+	--enable-display \
+	--enable-mediactrl \
+	--enable-sound 
+
+	make
+
+	#Additional stuff from contrib
+	make -C contrib/src/gizmos
+	make -C contrib/src/ogl
+	make -C contrib/src/stc
+
+	make install DESTDIR=$PKG
+	make -C contrib/src/gizmos install DESTDIR=$PKG
+	make -C contrib/src/ogl install DESTDIR=$PKG
+	make -C contrib/src/stc install DESTDIR=$PKG
+
+	cd wxPython
+	python setup.py \
+	WXPORT=gtk2 \
+	UNICODE=1 \
+	EP_ADD_OPTS=1 \
+	EP_FULL_VER=0 \
+	NO_SCRIPTS=0 \
+	WX_CONFIG="$SRC/wxPython-src-$version/wx-config --no_rpath" \
+	build_ext --include-dirs=$SRC/wxPython-src-$version/lib/wx/include/gtk2-unicode-release-2.8 \
+		--library-dirs=$SRC/wxPython-src-$version/lib \
+		--rpath=/usr/lib \
+	build
+
+	python setup.py \
+	WXPORT=gtk2 \
+	UNICODE=1 \
+	EP_ADD_OPTS=1 \
+	EP_FULL_VER=0 \
+	NO_SCRIPTS=0 \
+	WX_CONFIG="$SRC/wxPython-src-$version/wx-config --prefix=$PKG/usr/bin/ --no_rpath" \
+	SYS_WX_CONFIG="wx-config --enable-unicode" \
+	build_ext --include-dirs=$SRC/wxPython-src-$version/lib/wx/include/gtk2-unicode-release-2.8 \
+		--library-dirs=$SRC/wxPython-src-$version/lib \
+		--rpath=/usr/lib \
+	install --root=$PKG
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps} $PKG/usr/share/icons/hicolor/{16x16,32x32}/apps
+	install -m 644 distrib/*.desktop $PKG/usr/share/applications/
+
+	install -m 644 wx/py/PyCrust_16.png $PKG/usr/share/icons/hicolor/16x16/apps/PyCrust.png
+	install -m 644 wx/py/PyCrust_32.png $PKG/usr/share/icons/hicolor/32x32/apps/PyCrust.png
+	 ln -s /usr/share/icons/hicolor/32x32/apps/PyCrust.png $PKG/usr/share/pixmaps/PyCrust.png
+	install -m 644 wx/py/PySlices_16.png $PKG/usr/share/icons/hicolor/16x16/apps/PySlices.png
+	install -m 644 wx/py/PySlices_32.png $PKG/usr/share/icons/hicolor/32x32/apps/PySlices.png
+	ln -s /usr/share/icons/hicolor/32x32/apps/PySlices.png $PKG/usr/share/pixmaps/PySlices.png
+	install -m 644 wx/tools/XRCed/XRCed_16.png $PKG/usr/share/icons/hicolor/16x16/apps/XRCed.png
+	install -m 644 wx/tools/XRCed/XRCed_32.png $PKG/usr/share/icons/hicolor/32x32/apps/XRCed.png
+	ln -s /usr/share/icons/hicolor/32x32/apps/XRCed.png $PKG/usr/share/pixmaps/XRCed.png
+
+	 # don't ship editra - it releases independently and the included version is outdated
+	rm $PKG/usr/bin/editra
+	rm $PKG/usr/share/applications/Editra.desktop
+	rm -rf $PKG/usr/lib/python2.7/site-packages/wx-2.8-gtk2-unicode/wx/tools/Editra
+	cd -
+
+	# install wxPython includes
+	cp -rf include/wx-2.8/wx/wxPython $PKG/usr/include/wx-2.8/wx/
+}

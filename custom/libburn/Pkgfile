@@ -1,0 +1,18 @@
+# Description: Optical media writing library
+# URL: https://dev.lovelyhq.com/libburnia/libburn
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=libburn
+version=1.5.4
+release=1
+source=(http://files.libburnia-project.org/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+	rm -f $PKG/{,usr/}lib/*.la
+}

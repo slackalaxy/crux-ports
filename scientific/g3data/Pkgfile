@@ -1,0 +1,17 @@
+# Description: A tool for extracting data from graphs
+# URL: https://github.com/pn2200/g3data
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage
+
+name=g3data
+version=1.5.4
+release=1
+source=(https://github.com/downloads/pn2200/g3data/g3data-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr
+	make
+	make install DESTDIR=$PKG
+}

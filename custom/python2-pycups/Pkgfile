@@ -1,0 +1,15 @@
+# Description: Python bindings for libcups
+# URL: http://pypi.python.org/pypi/pycups
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: cups gnutls python
+
+name=python2-pycups
+version=1.9.74
+release=2
+source=(https://files.pythonhosted.org/packages/00/ce/836a0deb8b24bcd5f850f8fb97f99fb4abd7374e078b9e6df5a0838f8eb5/pycups-$version.tar.bz2)
+
+build() {
+	cd pycups-$version
+	make
+	make install DESTDIR=$PKG
+}

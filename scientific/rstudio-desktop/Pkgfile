@@ -1,0 +1,95 @@
+# Description: RStudio is an integrated development environment (IDE) for R
+# URL: https://www.rstudio.com/
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: ant brotli dav1d double-conversion fdk-aac gnutls graphite2 hyphen icu keyutils krb5 lame libevent libsoci libva libvdpau mathjax minizip mpg123 npm openjdk8 pandoc-bin pulseaudio qtwebengine r x264 x265 yaml-cpp yarn
+
+name=rstudio-desktop
+version=2022.02.3+492
+_gwtver=2.8.2
+_ginver=2.1.2
+_nodever=14.17.5
+_pandocver=current
+release=1
+source=(https://github.com/rstudio/rstudio/archive/v${version}/rstudio-$version.tar.gz
+	https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/google-gin/gin-${_ginver}.zip
+        https://storage.googleapis.com/gwt-releases/gwt-${_gwtver}.zip
+        https://nodejs.org/dist/v${_nodever}/node-v${_nodever}-linux-x64.tar.gz
+        qt.conf 10952.patch pandoc_version.patch)
+
+build() {
+	# Adapted from https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=rstudio-desktop
+	cd rstudio-${version/+/-}
+	
+	# Fix for quarto/pandoc location
+	# https://github.com/rstudio/rstudio/pull/10952
+	patch -p1 < ${SRC}/10952.patch
+	
+	# Do not use outdated version name of pandoc
+	patch -p1 < ${SRC}/pandoc_version.patch
+	
+	# Extracting dependencies
+	cd ${SRC}/rstudio-${version/+/-}/src/gwt
+	mkdir -p lib/gin/${_ginver}
+	cp -a ${SRC}/{*.jar,javadoc} lib/gin/${_ginver}
+	
+	mkdir -p lib/gwt/${_gwtver}
+	cp -r ${SRC}/gwt-${_gwtver}/* lib/gwt/${_gwtver}
+	
+	cd ${SRC}/rstudio-${version/+/-}/dependencies/common
+	mkdir -p pandoc/${_pandocver}
+ 
+	ln -sfT /usr/share/myspell/dicts dictionaries
+	ln -sfT /usr/share/mathjax mathjax-27
+	ln -sfT /usr/bin/pandoc pandoc/${_pandocver}/pandoc
+	
+	# Nodejs
+	mkdir -p node/${_nodever}
+	cp -r ${SRC}/node-v${_nodever}-linux-x64/* node/${_nodever}
+	
+	cd ${SRC}/rstudio-${version/+/-}/src/gwt/panmirror/src/editor
+	yarn config set ignore-engines true
+	yarn install
+
+	# Fix links for src/cpp/session/CMakeLists.txt
+	cd ${SRC}/rstudio-${version/+/-}/dependencies
+	ln -sfT /usr/share/myspell/dicts dictionaries
+	ln -sfT /usr/share/mathjax mathjax-27
+        
+	install -d pandoc/${_pandocver}/bin/tools
+        ln -sfT /usr/bin/pandoc pandoc/${_pandocver}/bin/tools/pandoc
+	
+	export R_LIBS_USER="${SRC}/rstudio-${version/+/-}/dependencies/R"
+	_JOBS="$(grep -oP -- "-j\s*\K[0-9]+" <<< "${MAKEFLAGS}")" || _JOBS="1"
+	mkdir -p "${R_LIBS_USER}"
+	for RPKG in rmarkdown renv testthat xml2 yaml; do
+          RINSTALLCMD="if("'!'"require($RPKG, quietly = TRUE)) { options(Ncpus = ${_JOBS} ); install.packages('$RPKG', lib='$R_LIBS_USER', repos='https://cran.rstudio.com/') }"
+          echo "> $RINSTALLCMD"
+          Rscript -e "$RINSTALLCMD"
+	done
+    
+	export JAVA_HOME=/usr/lib/java/openjdk8/
+	export PATH="${JAVA_HOME}/bin/:${PATH}"
+    	cmake -S "${SRC}/rstudio-${version/+/-}" -B build \
+          -D RSTUDIO_TARGET=Desktop \
+          -D CMAKE_BUILD_TYPE=Release \
+	  -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	  -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+          -D CMAKE_INSTALL_PREFIX=/usr/lib/rstudio \
+          -D RSTUDIO_USE_SYSTEM_BOOST=yes \
+          -D RSTUDIO_USE_SYSTEM_YAML_CPP=yes \
+          -D QT_QMAKE_EXECUTABLE=/usr/lib/qt5/bin/qmake \
+          -D Boost_NO_BOOST_CMAKE=ON \
+          -D QUARTO_ENABLED=FALSE \
+          -D RSTUDIO_USE_SYSTEM_SOCI=yes \
+          -D RSTUDIO_BUNDLE_QT=FALSE
+	  
+	# Install the program
+	make -C build DESTDIR="${PKG}" install
+
+	# Symlink main binary
+	mkdir -p ${PKG}/usr/bin
+	ln -s /usr/lib/rstudio/bin/rstudio ${PKG}/usr/bin/rstudio
+
+	# BUGFIX: qt5-webengine isn't init'ing properly. Likely an Rstudio bug.
+	install -Dm 644 "${SRC}/qt.conf" "${PKG}/usr/lib/qt/libexec/qt.conf"
+}

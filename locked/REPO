@@ -1,0 +1,12 @@
+d:upower
+d:xorg-libx11
+f:88fa5109b75cbdd2c0172e185e38fe48:upower/.footprint
+f:bbca5508718b09fdd4a119a5bb59c90c:upower/.signature
+f:55dc275f3c0907eeada5773f389d9f32:upower/Pkgfile
+f:b90136d1fc207b3654bdc6e0a1f6eafc:upower/UPower.7
+f:3e7bd2d29119551b3464b2678c5fb9f5:upower/disable-gtk-docs.patch
+f:802dd0b38656ac7f23b8b10864310495:upower/upower.1
+f:1f07d698cc3049f8862e4562eaa6385a:upower/upowerd.8
+f:31900a6d94909c6be54fc28d8ea2d69f:xorg-libx11/.footprint
+f:dfd4a09cac7575c1f66a7c080cf456db:xorg-libx11/.signature
+f:f92395ad46b0b67d14984bade16a40fd:xorg-libx11/Pkgfile

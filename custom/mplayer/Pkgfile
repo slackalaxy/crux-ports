@@ -1,0 +1,48 @@
+# Description: MPlayer
+# URL: http://www.mplayerhq.hu/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli faac faad2 ffmpeg graphite2 gtk icu lame liba52 libass libdca libdv libdvdnav libmad libmng libmpeg2 libtheora libva libvdpau libvpx libwebp mpg123 openal pulseaudio rtmpdump speex x264 x265 xorg-libxscrnsaver xorg-libxxf86dga xorg-libxxf86vm
+
+name=mplayer
+version=1.5
+release=1
+source=(https://mplayerhq.hu/MPlayer/releases/MPlayer-$version.tar.xz
+	http://www1.mplayerhq.hu/MPlayer/releases/fonts/font-arial-iso-8859-1.tar.bz2
+	http://www.mplayerhq.hu/MPlayer/skins/Blue-1.13.tar.bz2	
+	$name.conf)
+
+build() {
+	cd MPlayer-$version
+
+	./configure --prefix=/usr \
+	--mandir=/usr/share/man \
+	--codecsdir=/usr/share/codecs \
+	--enable-gui \
+	--enable-menu \
+	--enable-vdpau \
+	--disable-arts \
+	--disable-ossaudio \
+	--disable-bitmap-font \
+	--disable-ffmpeg_a \
+	--confdir=/usr/etc/$name
+	make
+	make DESTDIR=$PKG install
+
+	# Use the de facto default skin
+	cp -a $SRC/Blue $PKG/usr/share/mplayer/skins/
+	cd $PKG/usr/share/mplayer/skins/
+	ln -s Blue* default
+	cd -
+	
+	# Fonts. Thanks SiFuh!
+	mkdir -p $PKG/usr/share/$name
+	cp -a $SRC/font-arial-iso-8859-1/font-arial-??-iso-8859-1 $PKG/usr/share/$name
+	ln -s font-arial-14-iso-8859-1 $PKG/usr/share/$name/font
+
+	mkdir -p $PKG/usr/etc/$name
+	install -m 644 $SRC/$name.conf $PKG/usr/etc/$name/
+	install -m 644 etc/input.conf $PKG/usr/etc/$name/
+
+	# This is empty
+	rm -rf $PKG/usr/lib
+}

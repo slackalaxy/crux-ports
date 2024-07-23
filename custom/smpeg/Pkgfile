@@ -1,0 +1,23 @@
+# Description: A SDL MPEG player library.
+# URL: http://icculus.org/smpeg/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glu libsdl
+
+name=smpeg
+version=0.4.5
+release=3
+source=(http://crux.ster.zone/downloads/$name/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+
+	LDFLAGS="-Wl,--copy-dt-needed-entries" \
+	CFLAGS+=' -Wno-error=narrowing' \
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/share/man
+
+	make
+	make install DESTDIR=$PKG
+	rm -f $PKG/{,usr/}lib/*.la
+}

@@ -1,0 +1,25 @@
+# Description: GdkPixbuf for GTK1.
+# URL: https://download.gnome.org/sources/gdk-pixbuf/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk1 libpng12 libtiff
+
+name=gdk-pixbuf1
+version=0.22.0
+release=1
+source=(https://download.gnome.org/sources/gdk-pixbuf/${version%.*}/gdk-pixbuf-$version.tar.bz2)
+
+build() {
+	cd gdk-pixbuf-$version
+
+	LDFLAGS="-L/usr/lib/libpng12" \
+	CFLAGS="$CFLAGS -I/usr/include/libpng12/" \
+	CXXFLAGS="$CFLAGS -I/usr/include/libpng12/" \
+	./configure --prefix=/usr \
+	--disable-gnome
+
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/lib/*.la
+	#sed -i -e "s|-L$PKG/usr/lib||g" $PKG/usr/lib/*.la
+	rm -rf $PKG/usr/share/gnome
+}

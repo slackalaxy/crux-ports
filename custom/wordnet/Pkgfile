@@ -1,0 +1,24 @@
+# Description: WordNet database
+# URL: https://wordnet.princeton.edu/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: tk xorg-libxscrnsaver
+
+name=wordnet
+version=3.0
+release=2
+source=(http://wordnetcode.princeton.edu/$version/WordNet-$version.tar.bz2)
+
+build() {
+	cd WordNet-$version
+	
+	sed -i "s:ac_prefix/dict:ac_prefix/share/$name/dict:" configure
+
+	./configure --prefix=/usr
+
+	sed -i 's:(prefix)/dict:(prefix)/share/wordnet/dict:' dict/Makefile
+
+	make CFLAGS="$CFLAGS -DUSE_INTERP_RESULT"
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/doc
+}

@@ -1,0 +1,19 @@
+# Description: A library for generating PDF files
+# URL: http://www.pdflib.com/download/pdflib-family/pdflib-lite-7/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=pdflib-lite
+version=7.0.5p3
+release=2
+source=(http://ponce.cc/slackware/sources/repo/PDFlib-Lite-$version.tar.gz)
+
+build() {
+	cd PDFlib-Lite-$version
+	./configure --prefix=/usr \
+	--with-java=no
+
+	make
+	make install DESTDIR=$PKG
+	rm -f $PKG/{,usr/}lib/*.la
+}

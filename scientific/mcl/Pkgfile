@@ -1,0 +1,22 @@
+# Description: Markov Cluster Algorithm
+# URL: https://micans.org/mcl/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=mcl
+version=14_137
+release=1
+source=(https://micans.org/$name/src/$name-${version/_/-}.tar.gz)
+
+build() {
+	cd $name-${version/_/-}
+	
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CFLAGS -fcommon" \
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/doc
+}

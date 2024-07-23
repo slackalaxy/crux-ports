@@ -1,0 +1,39 @@
+# Description: A unified bioinformatics toolkit
+# URL: http://ugene.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion glu graphite2 icu keyutils krb5 libpcre2 qt5 xorg-libxtst
+
+name=ugene
+version=43.0
+release=1
+source=(https://github.com/ugeneunipro/$name/archive/${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	qmake-qt5 -r CONFIG+=x64 PREFIX=/usr/lib/$name \
+	QMAKE_CFLAGS="$CFLAGS" \
+	QMAKE_CXXFLAGS="$CXXCFLAGS" \
+	UGENE_EXCLUDE_LIST_ENABLED=1
+	make
+	
+	# Apparently, this has to be done twice to generate the right installation files
+	# https://github.com/ugeneunipro/ugene/issues/683#issuecomment-1046370388
+	qmake-qt5 -r CONFIG+=x64 PREFIX=/usr/lib/$name \
+	QMAKE_CFLAGS="$CFLAGS" \
+	QMAKE_CXXFLAGS="$CXXCFLAGS" \
+	UGENE_EXCLUDE_LIST_ENABLED=1
+	make
+	
+	make INSTALL_ROOT=$PKG install
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/$name .
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	mv $PKG/usr/lib/$name/$name.desktop $PKG/usr/share/applications
+	mv $PKG/usr/lib/$name/$name.png $PKG/usr/share/pixmaps
+	
+	# Do not associate with my fasta files...
+	sed -i '/MimeType/d' $PKG/usr/share/applications/$name.desktop
+}

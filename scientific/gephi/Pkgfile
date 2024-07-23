@@ -1,0 +1,28 @@
+# Description: The Open Graph Viz Platform
+# URL: https://gephi.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: adoptium11-jdk
+
+name=gephi
+version=0.9.6
+release=1
+source=(https://github.com/gephi/gephi/releases/download/v${version}/gephi-${version}-linux-x64.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-$version
+	mkdir -p $PKG/usr/lib/$name
+	rm -rf bin/*.exe
+	cp -a bin etc gephi platform $PKG/usr/lib/$name
+	
+	#install -D -m755 bin/$name $PKG/usr/bin/$name
+	#sed -i 's:PRG=$0:PRG=/usr/lib/gephi:' $PKG/usr/bin/$name
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/bin/$name .
+		
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

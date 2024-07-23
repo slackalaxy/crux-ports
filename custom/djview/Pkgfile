@@ -1,0 +1,25 @@
+# Description: A web-centric format for distributing documents
+# URL: http://djvu.sourceforge.net/djview4.html
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: brotli djvulibre double-conversion graphite2 icu keyutils krb5 libpcre2 qt5
+
+name=djview
+version=4.12
+release=3
+source=(https://sourceforge.net/projects/djvu/files/DjView/4.12/djview-4.12.tar.gz)
+
+build() {
+	cd ${name}4-${version}
+	./autogen.sh
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	
+	sed -i "s:Exec=djview4:Exec=djview:" $PKG/usr/share/applications/djvulibre-djview4.desktop
+	sed -i "s:Categories=Qt;Graphics;Viewer;:Categories=Office;:" $PKG/usr/share/applications/djvulibre-djview4.desktop
+	
+	# I don't use Firefox
+	rm -rf $PKG/usr/lib
+	
+	rm -rf $PKG/usr/share/djvu
+}

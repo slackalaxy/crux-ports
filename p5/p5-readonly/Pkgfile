@@ -1,0 +1,23 @@
+# Description:	Facility for creating read-only scalars, arrays, hashes
+# URL:		https://github.com/sanko/readonly
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-module-build-tiny
+
+name=p5-readonly
+version=2.05
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/S/SA/SANKO/Readonly-${version}.tar.gz)
+
+build() {
+	cd Readonly-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Build.PL --destdir="$PKG"
+	perl Build
+	perl Build install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

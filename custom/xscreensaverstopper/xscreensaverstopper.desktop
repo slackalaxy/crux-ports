@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=XScreenSaverStopper
+Comment=Stop XScreenSaver when fullscreen is playing
+Exec=xscreensaverstopper
+Icon=preferences-desktop-screensaver
+Type=Application

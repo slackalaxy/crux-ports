@@ -1,9 +1,0 @@
-[Desktop Entry]
-Categories=Education;
-Comment=PyMOL molecular visualization system
-Exec=pymol
-Icon=pymol
-Name=PyMOL
-StartupNotify=false
-Type=Application
-GenericName=

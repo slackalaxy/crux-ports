@@ -1,0 +1,20 @@
+# Description: A fuse filesystem implementation to access the contents of iOS devices.
+# URL: https://github.com/libimobiledevice/ifuse/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fuse usbmuxd
+
+name=ifuse
+version=6f5b8e4
+release=1
+source=(https://github.com/libimobiledevice/$name/archive/$version/$name-6f5b8e410f9615b3369ca5eb5367745e13d83b92.tar.gz)
+
+build() {
+	cd $name-${version}*
+	
+	echo "1.1.4" > .tarball-version
+	./autogen.sh --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	
+	rm -f $PKG/{,usr/}lib/*.la
+}

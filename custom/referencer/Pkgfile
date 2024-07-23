@@ -1,0 +1,30 @@
+# Description: Organize documents or references
+# URL: https://launchpad.net/referencer
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: boost libgnomeuimm libpsl libwebp openldap poppler-glib rarian rtmpdump
+
+name=referencer
+version=1.2.2
+release=1
+source=(https://launchpad.net/referencer/1./$version/+download/$name-$version.tar.gz
+	referencer-lib_path.patch)
+
+build() {
+	cd $name-$version
+	
+	# Fix comparison with zero - thanks archlinux
+	patch -p1 < $SRC/referencer-lib_path.patch
+	
+	CXXFLAGS="$CFLAGS -std=c++11" \
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--disable-update-mime-database \
+	--enable-python \
+	--disable-nls \
+	--disable-gnome-doc
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/{gnome,omf}
+}

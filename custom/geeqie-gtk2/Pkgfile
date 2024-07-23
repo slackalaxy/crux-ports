@@ -1,0 +1,20 @@
+# Description: Gtk+ based image viewer
+# URL: https://github.com/BestImageViewer/geeqie/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: djvulibre exiv2 ffmpegthumbnailer gtk lua53 openjpeg2 xorg-libxdamage
+
+name=geeqie-gtk2
+version=1.7.3
+release=1
+source=(https://github.com/BestImageViewer/geeqie/releases/download/v$version/geeqie-$version.tar.xz)
+
+build() {
+	cd geeqie-$version
+	./autogen.sh
+	export LINGUAS=" "
+	export CFLAGS+=" -Wno-deprecated-declarations"
+	./configure --prefix=/usr --disable-gtk3
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/{doc,metainfo}
+}

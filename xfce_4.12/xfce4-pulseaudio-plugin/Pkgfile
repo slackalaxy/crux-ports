@@ -1,21 +1,26 @@
 # Description: PulseAudio plugin for Xfce panel
-# URL: https://archive.xfce.org/src/panel-plugins/xfce4-pulseaudio-plugin/
+# URL: https://xfce.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: keybinder libnotify libxkbcommon pulseaudio xfce4-panel
+# Depends on: pavucontrol
 
 name=xfce4-pulseaudio-plugin
-version=0.3.5
+version=0.2.5
 release=1
-source=(https://archive.xfce.org/src/panel-plugins/xfce4-pulseaudio-plugin/${version%.*}/xfce4-pulseaudio-plugin-$version.tar.bz2)
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
 
 build() {
-  cd $name-$version
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--disable-nls \
+	--disable-debug \
+	--enable-libnotify \
+	--enable-keybinder \
+	--with-mixer-command=pavucontrol
 
-  ./configure --prefix=/usr
-
-  make
-  make DESTDIR="$PKG" install
-
-  rm -r $PKG/usr/share/locale
-
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/locale
 }

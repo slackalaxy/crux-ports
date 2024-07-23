@@ -1,0 +1,52 @@
+# Description:
+# URL:
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=samtools0
+version=0.1.19
+release=1
+source=(http://sourceforge.net/projects/samtools/files/samtools/0.1.19/samtools-0.1.19.tar.bz2)
+
+build() {
+	cd samtools-$version
+	
+	# Use our CFLAGS/CXXFLAGS
+	sed -i "/^C.*.*FLAGS/s/=/+=/" Makefile
+
+	make
+	make razip
+
+	# Install samtools, razip and bam library
+	install -D -m755 samtools $PKG/usr/bin/samtools0
+	install -D -m755 razip	  $PKG/usr/bin/razip0
+	install -D -m644 libbam.a $PKG/usr/lib/libbam.a
+
+	# Install bcftools its library and vsfutils
+	cd bcftools
+	install -D -m755 bcftools $PKG/usr/bin/bcftools0
+	install -D -m644 libbcf.a $PKG/usr/lib/libbcf.a
+	install -D -m755 vcfutils.pl $PKG/usr/bin/vcfutils0.pl
+
+	# Include additional executables
+	cd ../misc
+	install -D -m755 ace2sam	$PKG/usr/lib/$name/ace2sam
+	install -D -m755 bamcheck	$PKG/usr/lib/$name/bamcheck
+	install -D -m755 maq2sam-long	$PKG/usr/lib/$name/maq2sam-long
+	install -D -m755 maq2sam-short	$PKG/usr/lib/$name/maq2sam-short
+	install -D -m755 md5fa		$PKG/usr/lib/$name/md5fa
+	install -D -m755 md5sum-lite	$PKG/usr/lib/$name/md5sum-lite
+	install -D -m755 wgsim		$PKG/usr/lib/$name/wgsim
+
+	# Include some scripts
+	mkdir -p $PKG/usr/share/$name
+	cp -a *.pl *.lua *.py plot-bamcheck \
+	$PKG/usr/share/$name
+
+	# Include bam header files
+	cd ..
+	mkdir -p  $PKG/usr/include/bam
+	for f in *.h ; do
+	  install -m644 $f "$PKG/usr/include/bam"
+	done
+}

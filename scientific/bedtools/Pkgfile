@@ -1,0 +1,25 @@
+# Description: A powerful toolset for genome arithmetic
+# URL: https://bedtools.readthedocs.io/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=bedtools
+version=2.30.0
+release=1
+source=(https://github.com/arq5x/bedtools2/releases/download/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd ${name}2
+	CXXFLAGS="$CFLAGS" make
+
+	# Install the binary and scripts
+	cd bin
+	for i in * ; do
+	  install -D -m755 $i $PKG/usr/bin/$i
+	done
+	cd ..
+
+	# Copy additional data
+	mkdir -p $PKG/usr/share/$name
+	cp -a data genomes scripts $PKG/usr/share/$name
+}

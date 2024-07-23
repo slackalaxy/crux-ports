@@ -1,0 +1,20 @@
+# Description: Screen DNA sequence for interspersed repeats
+# URL: http://www.repeatmasker.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p5-text-soundex trf hmmer ncbi-rmblastn
+
+name=repeatmasker
+version=4.1.2_p1
+release=1
+source=(http://www.repeatmasker.org/RepeatMasker/RepeatMasker-${version/_/-}.tar.gz)
+
+build() {
+	cd RepeatMasker
+	mkdir -p $PKG/usr/lib/$name
+	cp -a * $PKG/usr/lib/$name
+
+	# Make a symlink
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/RepeatMasker .
+}

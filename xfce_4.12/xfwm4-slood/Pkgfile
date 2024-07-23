@@ -1,0 +1,14 @@
+# Description: A flat, plain, simple XFCE4 theme
+# URL: https://www.xfce-look.org/p/1016674
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: xfwm4
+
+name=xfwm4-slood
+version=0.1
+release=1
+source=(https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTQ2MDc2NzE0MywidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI3MTZlMDI0ZTMyYzFmNGQ2MWUxM2ZiNTZhMzFjYTIxOTAyYjc1Njc1ZTU1ODRiNjY4YzMxN2IzNjk2NTg2YjEwOTZkZDhhYmVjOWQxMDRkYTBjOWNiNGRkNDM3OTQ4YWQ1NDBjNWM3ZGU0NTY5ZGQyMmQ4Njk0NjFkMGU1MDMyZCIsInQiOjE2NDU5OTU1NDIsInN0ZnAiOiI4NTFjYmRkZTBkYmM4Yzc4YjRiNWVmMzZkZTcyY2JhYyIsInN0aXAiOiIyMDAxOjE0YmE6YThjOTo1OTAwOjoyIn0.Se_61DrE9pypzy_yxtYduBg3BMqXJxaXB9ny9cSOLXc/40503-Slood-0.1.tar.gz)
+
+build() {
+	mkdir -p $PKG/usr/share/themes
+	cp -a $SRC/Slood $PKG/usr/share/themes
+}

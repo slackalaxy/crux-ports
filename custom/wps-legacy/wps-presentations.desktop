@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=WPS Office Presentations
+Comment=WPS Office Presentations
+Exec=wps-presentations
+Icon=wps-presentations
+StartupNotify=false
+Type=Application
+Categories=Office

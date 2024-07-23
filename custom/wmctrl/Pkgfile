@@ -1,0 +1,16 @@
+# Description: Access features defined in the EWMH specification
+# URL: http://tripie.sweb.cz/utils/wmctrl/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=wmctrl
+version=1.07
+release=1
+source=(http://tripie.sweb.cz/utils/$name/dist/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,23 @@
+# Description: Strawberry music player
+# URL: https://www.strawberrymusicplayer.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli chromaprint double-conversion fftw gnutls gst-plugins-bad graphite2 icu keyutils krb5 lame libcdio libidn libpcre2 libva libvdpau libvpx libwebp protobuf pulseaudio taglib vlc x264 x265
+
+name=strawberry
+version=1.0.5
+release=1
+source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir -p strawberry-build
+	cd strawberry-build
+	cmake \
+	-DCMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+
+	make all PMFLAGS="-DNEWBUFFER"
+	make install DESTDIR=$PKG
+}

@@ -1,0 +1,14 @@
+# Description: NCBI RMBlast
+# URL: ftp://ftp.ncbi.nlm.nih.gov/blast/executables/rmblast/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: ncbi-blast-plus
+
+name=ncbi-rmblastn
+version=2.2.28
+release=1
+source=(ftp://ftp.ncbi.nlm.nih.gov/blast/executables/rmblast/$version/ncbi-rmblastn-$version-x64-linux.tar.gz)
+
+build() {
+	cd $name-$version/bin
+	install -D -m755 rmblastn $PKG/usr/bin/rmblastn
+}

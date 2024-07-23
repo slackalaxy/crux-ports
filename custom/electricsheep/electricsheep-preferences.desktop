@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ElectricSheep Preferences
+Comment=ElectricSheep Preferences and Settings
+Exec=electricsheep-preferences
+Icon=electricsheep
+StartupNotify=false
+Type=Application
+Categories=Settings

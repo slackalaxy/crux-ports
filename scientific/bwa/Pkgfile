@@ -1,0 +1,27 @@
+# Description: Burrows-Wheeler Aligner
+# URL: http://bio-bwa.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=bwa
+version=0.7.17
+release=1
+source=(https://sourceforge.net/projects/bio-bwa/files/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	# Use our CFLAGS/CXXFLAGS
+	sed -i "/^C.*.*FLAGS/s/=/+=/" Makefile
+
+	# Thanks to Willy for the -msse2 fix!
+	CFLAGS="$CFLAGS -msse2 -fcommon" \
+	CXXFLAGS="$CXXFLAGS" \
+	make
+
+	install -D -m755 $name $PKG/usr/bin/$name
+	install -D -m644 $name.1 $PKG/usr/man/man1/$name.1
+
+	mkdir -p $PKG/usr/share/$name
+	cp -a qualfa2fq.pl xa2multi.pl $PKG/usr/share/$name
+}

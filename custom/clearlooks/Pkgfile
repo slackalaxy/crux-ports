@@ -1,0 +1,23 @@
+# Description: The classic Clearlooks themes
+# URL: http://clearlooks.sourceforge.net/index-old.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk-engines
+
+name=clearlooks
+version=0.6.2
+release=2
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.bz2
+	Clearlooks-White.tar.xz)
+
+build() {
+	mkdir -p $PKG/usr/share/themes
+	cp -a $SRC/$name-$version/themes/Clearlooks $PKG/usr/share/themes/Clearlooks-Classic
+	cp -a $SRC/$name-$version/themes/Clearlooks-* $PKG/usr/share/themes
+	cp -a $SRC/Clearlooks-White $PKG/usr/share/themes
+	
+	# This is obsolete
+	rm -rf $PKG/usr/share/themes/Clearlooks-Classic/icons
+	
+	# https://www.cyberciti.biz/faq/linux-unix-how-to-find-and-remove-files/
+	find $PKG -type f -name "Makefile*" -delete
+}

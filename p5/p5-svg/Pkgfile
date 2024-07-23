@@ -1,0 +1,22 @@
+# Description:	Perl extension for generating Scalable Vector Graphics (SVG) documents.
+# URL:		http://search.cpan.org/~manwar/SVG/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	perl
+
+name=p5-svg
+version=2.86
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/M/MA/MANWAR/SVG-${version}.tar.gz)
+
+build() {
+	cd SVG-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

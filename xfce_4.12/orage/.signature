@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchkla9cNaB2N5nzXfqOwu2aHMIhTOYiQhUdSIISKscB5vrqz9sV3/U9Aur65Hw2zvEHJ4idmYLapdwBN2rLBYXQU=
-SHA256 (Pkgfile) = f73b208e28e92723fc91d80ba70fe9cb054f139bdbf790cf01d2ba506c978f1e
-SHA256 (.footprint) = d88425b6a12d59d3810bff9a84b7f3c9b9afcbbc7f8a1a208cd9ac037d6c2199
-SHA256 (orage-4.12.1.tar.bz2) = 3cf9aa441ae83c8688865f82217025cdf3ebaa152cce4571777b8c2aa8dd9062
-SHA256 (orage.libical3.patch) = c9da6ce0e03f9072b16a554ea3e30ed453d5bcb3fb0fdab8b4574582cd375602

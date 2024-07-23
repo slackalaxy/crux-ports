@@ -1,0 +1,22 @@
+# Description: Scientific data analysis and visualization
+# URL: https://github.com/narunlifescience/AlphaPlot
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion glu graphite2 gsl icu keyutils krb5 libpcre2 qt5
+
+name=alphaplot
+version=1.02
+release=1
+source=(https://github.com/narunlifescience/AlphaPlot/archive/refs/tags/$version.tar.gz)
+
+build() {
+	cd AlphaPlot-$version
+	qmake-qt5 \
+	QMAKE_CFLAGS_RELEASE="$CFLAGS" \
+	QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS"
+	
+	make
+	make INSTALL_ROOT=$PKG DESTDIR=$PKG install
+	
+	# Make this show in "Education"
+	sed -i "s:Science;DataVisualization;:Science;DataVisualization;Education:" $PKG/usr/share/applications/$name.desktop
+}

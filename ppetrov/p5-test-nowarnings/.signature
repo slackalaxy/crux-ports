@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZHqNmMgQ0VBWFqlLFc/ohPzWzCYoeRn5zOz2Kn/GIal5dwqobAsfvwN96ps+Xsx6j2BrBxaQDS9TzbOd4VZywM=
-SHA256 (Pkgfile) = b52a80b4c942575001cd955acfba0b4ff3fd53e09f3192f5e84794e85fcfba94
-SHA256 (.footprint) = b96dc0ffa5cb9ec5634bddd15128a03d6c0241ea8d109a3b6da4a3b73590221f
-SHA256 (Test-NoWarnings-1.04.tar.gz) = 638a57658cb119af1fe5b15e73d47c2544dcfef84af0c6b1b2e97f08202b686c

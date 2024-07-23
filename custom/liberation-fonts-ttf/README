@@ -1,0 +1,7 @@
+Check /etc/fonts/conf.avail for
+
+57-liberation-mono.conf
+57-liberation-sans.conf
+57-liberation-serif.conf
+
+and make symlinks to /etc/fonts/conf.d if necessary.

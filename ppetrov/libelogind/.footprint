@@ -1,9 +1,0 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/libelogind/
-lrwxrwxrwx	root/root	usr/lib/libelogind/libelogind.so -> libelogind.so.0
-lrwxrwxrwx	root/root	usr/lib/libelogind/libelogind.so.0 -> libelogind.so.0.29.0
--rwxr-xr-x	root/root	usr/lib/libelogind/libelogind.so.0.29.0
-lrwxrwxrwx	root/root	usr/lib/libelogind/libsystemd.so.0 -> libelogind.so.0
-drwxr-xr-x	root/root	usr/lib/libelogind/pkgconfig/
--rw-r--r--	root/root	usr/lib/libelogind/pkgconfig/libelogind.pc

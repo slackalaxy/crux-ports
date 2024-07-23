@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NbqTAzUvGqQYd8uvs4dMzq303oanK8voTogzj8e6svmw+Il2DnmB5Fh1zl143zLZLinWb452hdKAEDWwVeRPQ0=
-SHA256 (Pkgfile) = b023b156955cd155736e28f4e3c7d3f8c99b8d084e645cc55ebaea555019b5e7
-SHA256 (.footprint) = 801d8bbc763380435682bdc472647102dc70dfeeb8527070b21b6636c89a5cef
-SHA256 (BiocFileCache_2.12.0.tar.gz) = 2e716d10a27ecb677095144dd707273c534f8d1f11d248fed63aa45ea285664b

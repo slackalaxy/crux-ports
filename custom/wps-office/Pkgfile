@@ -1,0 +1,37 @@
+# Description: WPS Office for Linux
+# URL: https://linux.wps.com/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: double-conversion gtk libpcre2 libsdl2 nss qt5 xorg-libxscrnsaver xorg-libxtst
+
+name=wps-office
+version=11.1.0.11664.XA
+release=1
+source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
+	desktop.tar)
+
+build() {
+	ar -x $SRC/${name}_${version}_amd64.deb
+	tar xvf data.tar.xz
+	
+	# The handbook says packages should not place stuff in /opt
+	mkdir -p $PKG/usr/lib/$name
+	cp -a $SRC/opt/kingsoft/$name/office6 $PKG/usr/lib/$name
+	
+	mkdir -p $PKG/usr/{bin,share}
+	cp -a $SRC/usr/bin $PKG/usr
+	
+	# Fix paths accordingly
+	sed -i "s:/opt/kingsoft/$name:/usr/lib/$name:g" $PKG/usr/bin/*
+	
+	# Use my desktop entries and I do not want _any_ automatic file associations
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/desktop/*.desktop $PKG/usr/share/applications
+	cp -a $SRC/desktop/*.png $PKG/usr/share/pixmaps
+	
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/$name/office6
+	
+	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/wps-office/office6:g" $PKG/etc/revdep.d/$name
+}

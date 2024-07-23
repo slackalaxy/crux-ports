@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRB7wu40Er5M1N7LFbLeeRM8ZWl30dKUc1uVR3dzL3K01cyHTjXkydykoKVGyROWzZ3+bc1K+32NpW9qac4z8Q4=
-SHA256 (Pkgfile) = 91c0a711bccc38ca3787eb502568127105c52c537b4583a13b36d0dcef2a2815
-SHA256 (.footprint) = 887c0369b2436bf495643d8e3e7ca1188160d5552570d08c38a035786617e708
-SHA256 (gparted-0.33.0.tar.gz) = 5023b8c983f88a22e65bf6f09a12ea09369defc008981b52ee8b96a3879f81d6
-SHA256 (com.slackware.pkexec.gparted.policy) = 0ed732eafebe30b9d4ce7ec88983290f9c63ed0abb0a49b9c5c45bf0227b9df1
-SHA256 (gparted_polkit) = 05fe7a219c7c78add60595a0da0913d72e9c6dd344de9812090245e25a0add32

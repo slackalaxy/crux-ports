@@ -5,19 +5,13 @@
 
 name=exo
 version=0.10.7
-release=3
-source=(http://archive.xfce.org/src/xfce/exo/${version%.*}/$name-$version.tar.bz2
-	0001-exo-open-Only-execute-local-.desktop-files.patch)
-
-build () {
+release=2
+source=(http://archive.xfce.org/src/xfce/$name/${version%.*}/$name-$version.tar.bz2)
+build () { 
 	cd $SRC/$name-$version
-
-	patch -p1 -i $SRC/0001-exo-open-Only-execute-local-.desktop-files.patch
-	
 	./configure --prefix=/usr \
 	--disable-nls \
 	--sysconfdir=/usr/etc \
-	--enable-gtk2 \
 	--libexecdir=/usr/lib/$name
 	
 	make

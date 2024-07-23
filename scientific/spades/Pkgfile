@@ -1,0 +1,23 @@
+# Description: A single-cell genome assembler
+# URL: http://cab.spbu.ru/software/spades/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=spades
+version=3.15.4
+release=1
+source=(http://cab.spbu.ru/files/release${version}/SPAdes-$version.tar.gz)
+
+build() {
+	cd SPAdes-$version
+	
+	mkdir -p build
+	cd build
+	cmake -G "Unix Makefiles" \
+	-D CMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-D CMAKE_CXX_FLAGS:STRING="$CXXCFLAGS" \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_BUILD_TYPE=Release ../src $*
+	make
+	make install DESTDIR=$PKG
+}

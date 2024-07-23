@@ -1,0 +1,22 @@
+# Description:	Perl extension to test methods for warnings
+# URL:		http://search.cpan.org/~bigj/Test-Warn/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-sub-uplevel
+
+name=p5-test-warn
+version=0.36
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/B/BI/BIGJ/Test-Warn-${version}.tar.gz)
+
+build() {
+	cd Test-Warn-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

@@ -1,0 +1,30 @@
+# Description: Cross-platform QtWebEngine browser
+# URL: https://www.falkon.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: double-conversion libevent libgnome-keyring libpcre2 libwebp qtwebengine extra-cmake-modules karchive
+
+name=falkon
+version=3.2.0
+release=1
+
+source=(https://download.kde.org/stable/$name/${version}/$name-$version.tar.xz)
+
+build() 
+{
+	cd $name-$version
+	rm -r po/
+
+	sed -i '/#include <QSettings>/a#include <QFile>' \
+		src/plugins/VerticalTabs/verticaltabsplugin.cpp
+	sed -i '/#include <QPainter>/a #include <QPainterPath>' \
+		src/lib/tools/qztools.cpp
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+    	-DCMAKE_INSTALL_LIBDIR=lib \
+    	-DBUILD_TESTING=OFF
+
+ 	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/locale
+}

@@ -1,0 +1,17 @@
+# Description: Almond skins for XMMS
+# URL: https://www.opendesktop.org/p/1008323/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-skins-almond
+version=1.2
+release=1
+source=(https://sourceforge.net/projects/sboppetrov/files/xmms-skins-almond/107308-Almond-rounded.zip \
+	https://sourceforge.net/projects/sboppetrov/files/xmms-skins-almond/107307-Almond-squared.zip \
+	https://sourceforge.net/projects/sboppetrov/files/xmms-skins-almond/66826-Almond_steel.wsz \
+	https://sourceforge.net/projects/sboppetrov/files/xmms-skins-almond/60117-Almond_dark.wsz)
+
+build() {
+	mkdir -p $PKG/usr/share/xmms/Skins
+	cp $SRC/*.wsz $PKG/usr/share/xmms/Skins
+}

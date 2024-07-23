@@ -1,0 +1,20 @@
+After install, create a folder in your $HOME for example "CompNet", then
+navigate there and create these two symlinks:
+
+ln -s /usr/bin/neighbor .
+ln -s /usr/bin/njplot njplot.linux
+
+Now specify the work dir of the program. Copy its desktop file from:
+
+/usr/share/applications/compnet.desktop
+
+to
+
+~/.local/share/applications
+
+Now edit the "Path=" variable in your local compnet.desktop file to
+point to the work dir, using the full path, such as:
+
+Path=/home/myuser/ComPnet
+
+The program will otherwise write its temporary files in your $HOME.

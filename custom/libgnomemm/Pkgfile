@@ -1,0 +1,26 @@
+# Description: C++ wrappers for libgnome
+# URL: https://download.gnome.org/sources/libgnomemm/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtkmm libgnome
+
+name=libgnomemm
+version=2.30.0
+release=2
+source=(https://download.gnome.org/sources/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	# Move a generated header between the others
+	sed -i "s|(libdir)/libgnomemm-2\.6/include|(includedir)/libgnomemm-2.6|" \
+	libgnome/Makefile.in
+
+	CXXFLAGS="$CFLAGS -std=c++11" \
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--disable-nls
+
+	make
+	make install DESTDIR=$PKG
+	rm -f $PKG/{,usr/}lib/*.la
+}

@@ -1,0 +1,24 @@
+# Description: Audacious Plugins
+# URL: https://audacious-media-player.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: audacious
+
+name=audacious-plugins
+version=4.2_beta1
+release=1
+source=(https://distfiles.audacious-media-player.org/$name-${version/_/-}.tar.bz2)
+
+build() {
+	cd $name-${version/_/-}
+	
+	mkdir meson-build
+	cd meson-build
+	meson setup --prefix=/usr \
+	--buildtype=release \
+	-Dmms=false \
+	-Dpulse=true ..
+
+	DESTDIR=$PKG ninja install
+	
+	rm -rf $PKG/usr/share/locale
+}

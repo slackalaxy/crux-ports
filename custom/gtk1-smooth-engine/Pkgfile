@@ -1,0 +1,21 @@
+# Description: GTK1 Smooth engine
+# URL: https://sourceforge.net/projects/smooth-engine/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gdk-pixbuf1
+
+name=gtk1-smooth-engine
+version=0.6.0.1
+release=2
+source=(https://sourceforge.net/projects/smooth-engine/files/smooth-engine/${version%.*}/gtk-smooth-engine-${version}.tar.gz)
+
+build() {
+	cd gtk-smooth-engine-$version
+	
+	# I want just the gtk1 engine and gtk2 actually does not build
+	./configure --prefix=/usr \
+	--enable-gtk-1 \
+	--disable-gtk-2
+	
+	make
+	make install DESTDIR=$PKG
+}

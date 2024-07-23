@@ -1,0 +1,15 @@
+# Description: Clearlooks for XFWM4
+# URL: https://www.xfce-look.org/p/1016094/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xfwm4
+
+name=xfwm4-clearlooks
+version=0.01
+release=1
+source=($name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir -p $PKG/usr/share/themes/Clearlooks
+	cp -a xfwm4 $PKG/usr/share/themes/Clearlooks	
+}

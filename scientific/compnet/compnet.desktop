@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CompNet
+Comment=CompNet Network Analysis
+Exec=compnet
+Icon=compnet
+StartupNotify=false
+Type=Application
+Categories=Education
+Path=

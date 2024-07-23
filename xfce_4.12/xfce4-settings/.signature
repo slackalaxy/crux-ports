@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchhB5ATH6l2a6olCOj3inf4vj5aL2RMGfda9aOCDz24f++d7Sq63Jn+RZ+pwlQkOVAi3OJrGm0PXk5h5kSACaZAE=
-SHA256 (Pkgfile) = bcd539f7e125957d035fb2fce2c1d9b7be17cb40c2e4629d53bc4a53800bad20
-SHA256 (.footprint) = 29c86902cbada9bec57b253bcffb85f7903afb8340f633e88fbb25972762f063
-SHA256 (xfce4-settings-4.12.4.tar.bz2) = e2a04cad48bf9e951409d0c841829fa3b4ce632cd799082ef82d0506618b6f9b
-SHA256 (xfce4-settings.theme.diff.gz) = d7297d1114023d2c15ecd2c69eea6e8800edacce5bc3459ec4b2df53c46d43b0
-SHA256 (xfce4-settings.xft.defaults.diff.gz) = 521988c0011f7c87f4b411fc2e89c970527d34bb9496b8f8b147a6d4cd575549

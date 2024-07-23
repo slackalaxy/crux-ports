@@ -1,0 +1,18 @@
+# Description: GTK1 Smooth themes
+# URL: https://sourceforge.net/projects/smooth-engine/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk1-smooth-engine
+
+name=gtk1-smooth-themes
+version=0.5.8
+release=1
+source=(https://sourceforge.net/projects/smooth-engine/files/smooth-themes/$version/smooth-themes-$version.tar.gz)
+
+build() {
+	cd smooth-themes-$version
+	./configure --prefix=/usr \
+	--enable-gtk-1 \
+	--disable-gtk-2
+	make
+	make DESTDIR=$PKG install
+}

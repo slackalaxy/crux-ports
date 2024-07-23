@@ -1,0 +1,20 @@
+# Description: Select blocks of evolutionarily conserved sites
+# URL: http://molevol.cmima.csic.es/castresana/Gblocks.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=gblocks
+version=0.91b
+release=1
+source=(http://molevol.cmima.csic.es/castresana/Gblocks/Gblocks_Linux64_${version}.tar.Z)
+
+build() {
+	cd Gblocks_${version}
+	install -D -m755 Gblocks $PKG/usr/bin/Gblocks
+
+	mkdir -p $PKG/usr/share/$name
+	cp -a more_alignments/* $PKG/usr/share/$name
+	
+	cd $PKG/usr/bin
+	ln -s Gblocks $name
+}

@@ -1,0 +1,52 @@
+# Description: web browser by Google (Stable Channel)
+# URL: https://www.google.com/chrome
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib cups gtk3 libxkbcommon nss xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+
+name=google-chrome
+version=current
+#version=$(ar p $name-stable_current_amd64.deb control.tar.xz 2> /dev/null | tar JxO ./control 2> /dev/null | grep Version | awk '{print $2}' | cut -d- -f1)
+release=1
+source=(https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb)
+
+build() {
+	bsdtar -xf $name-stable_current_amd64.deb 
+	bsdtar -xf data.tar.xz
+
+	# Modified from google-chrome.SlackBuild for Slackware from /extra
+	# http://slackware.uk/slackware/slackware64-current/extra/google-chrome/
+	
+	# The handbook explicitly states that packages should not place stuff in /opt
+	mkdir -p $PKG/usr/lib/$name
+	cp -a $SRC/opt/google/chrome/* $PKG/usr/lib/$name
+	
+	# Slackware says this needs to be setuid root:
+	chmod 4711 $PKG/usr/lib/$name/chrome-sandbox
+	
+	# Link to the standard Mozilla library names:
+	sed -i 's,libnss3.so.1d,libnss3.so\x00\x00\x00,g;
+		s,libnssutil3.so.1d,libnssutil3.so\x00\x00\x00,g;
+		s,libsmime3.so.1d,libsmime3.so\x00\x00\x00,g;
+		s,libssl3.so.1d,libssl3.so\x00\x00\x00,g;
+		s,libplds4.so.0d,libplds4.so\x00\x00\x00,g;
+		s,libplc4.so.0d,libplc4.so\x00\x00\x00,g;
+		s,libnspr4.so.0d,libnspr4.so\x00\x00\x00,g;' $PKG/usr/lib/$name/chrome
+	
+	# Copy data
+	cp -a $SRC/usr/share $PKG/usr
+	
+	# Remove docs
+	rm -rf $PKG/usr/share/doc
+	
+	# Install a .desktop launcher:
+	sed -i -e "s#Icon=google-chrome#Icon=/usr/lib/$name/product_logo_48.png#" \
+	$PKG/usr/share/applications/$name.desktop
+
+	# Finally, create a new symlink
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/$name .
+        ln -s ../lib/$name/$name $name-stable
+	cd -
+
+}

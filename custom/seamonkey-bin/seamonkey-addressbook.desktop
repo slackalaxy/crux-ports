@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SeaMonkey Addressbook
+Comment=Address book
+Exec=seamonkey -addressbook
+Icon=seamonkey-addressbook
+Terminal=0
+Type=Application
+#Categories=Application;Network;

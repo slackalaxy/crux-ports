@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# /etc/rc.d/connamnd: start/stop connman daemon
+#
+NAME="/usr/sbin/connmand"
+case $1 in
+start)
+	$NAME
+	;;
+stop)
+	/usr/bin/killall -e $NAME
+	;;
+restart)
+	$0 stop
+	sleep 2
+	$0 start
+	;;
+*)
+	echo "usage: $0 [start|stop|restart]"
+	;;
+esac

@@ -1,0 +1,20 @@
+# Description: Handle usbmux protocol connections with iOS devices
+# URL: https://github.com/libimobiledevice/libusbmuxd/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libimobiledevice-glue
+
+name=libusbmuxd
+version=36ffb7a
+release=1
+source=(https://github.com/libimobiledevice/$name/archive/$version/$name-36ffb7ab6e2a7e33bd1b56398a88895b7b8c615a.tar.gz)
+
+build() {
+	cd $name-${version}*
+	
+	echo "2.0.2" > .tarball-version
+	./autogen.sh --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+	
+	rm -f $PKG/{,usr/}lib/*.la
+}

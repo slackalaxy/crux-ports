@@ -1,0 +1,37 @@
+# Description: gtk audio cd ripper
+# URL: https://sourceforge.net/projects/grip
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk cdparanoia taglib
+# Nice to have: lame vorbis-tools flac fdk-aac ffmpeg
+
+name=grip
+version=4.2.3
+release=2
+source=(https://downloads.sourceforge.net/project/$name/$version/$name-$version.tar.gz 
+	grip-taglib.patch)
+
+build() {
+  cd $name-$version/src
+  
+  ## Thanks <farkuhar>! ##
+  
+  # Force meson to use the C++ compiler for everything, now that we're
+  # replacing id3lib with taglib.
+  for csrc in *.c; do
+    mv "$csrc" "${csrc}c"
+  done
+  # Also get rid of the extern "C" interface for the same reason.
+  sed -i "s/int Cmain/int main/g" main.cc
+  cd ..
+  # Now overhaul the id3.cc source code to use the taglib API.
+  patch -p1 -i $SRC/grip-taglib.patch
+
+  mkdir build && cd build
+  meson --prefix=/usr \
+    --buildtype=release ../
+  ninja
+  DESTDIR=$PKG ninja install
+
+  rm -rf $PKG/usr/share/{gnome,locale}
+}
+

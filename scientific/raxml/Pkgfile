@@ -1,0 +1,80 @@
+# Description: RAxML - Randomized Axelerated Maximum Likelihood
+# URL: https://cme.h-its.org/exelixis/web/software/raxml/index.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: openmpi
+
+name=raxml
+version=8.2.12
+release=1
+source=(https://github.com/stamatak/standard-RAxML/archive/v${version}/standard-RAxML-${version}.tar.gz)
+
+build() {
+	cd standard-RAxML-$version
+	
+	# Sequential version
+	cp Makefile.gcc Makefile
+	sed -i "/^CFLAGS/s/=/+=/" Makefile
+	sed -i "s|raxmlHPC|raxml|g" Makefile
+	make -f Makefile -j1
+	install -D -m755 raxml $PKG/usr/bin/raxml
+
+	# Openmpi version
+	cp Makefile.MPI.gcc Makefile.MPI
+	sed -i "/^CFLAGS/s/=/+=/" Makefile.MPI
+	sed -i "s|raxmlHPC-MPI|raxml-MPI|g" Makefile.MPI
+	make -f Makefile.MPI -j1
+	install -D -m755 raxml-MPI $PKG/usr/bin/raxml-MPI
+
+	# Copy the useful scripts
+	mkdir -p $PKG/usr/share/$name
+	cp -a usefulScripts $PKG/usr/share/$name
+
+##########################################################################
+### You are highly encouraged to try the other optimisations below for ###
+### performance enhancements. Just uncomment the corresponding lines.  ###
+##########################################################################
+
+## Default sequential version
+#make -f Makefile.gcc
+#install -D -m755 raxmlHPC $PKG/usr/bin/raxmlHPC
+
+#make -f Makefile.SSE3.gcc
+#install -D -m755 raxmlHPC-SSE3 $PKG/usr/bin/raxmlHPC-SSE3
+
+#make -f Makefile.AVX.gcc
+#install -D -m755 raxmlHPC-AVX $PKG/usr/bin/raxmlHPC-AVX
+
+## Pthreads version
+#make -f Makefile.PTHREADS.gcc
+#install -D -m755 raxmlHPC-PTHREADS $PKG/usr/bin/raxmlHPC-PTHREADS
+
+#make -f Makefile.SSE3.PTHREADS.gcc
+#install -D -m755 raxmlHPC-PTHREADS-SSE3 $PKG/usr/bin/raxmlHPC-PTHREADS-SSE3
+
+#make -f Makefile.AVX.PTHREADS.gcc
+#install -D -m755 raxmlHPC-PTHREADS-AVX $PKG/usr/bin/raxmlHPC-PTHREADS-AVX
+
+## Default coarse-grain MPI version
+#make -f Makefile.MPI.gcc
+#install -D -m755 raxmlHPC-MPI $PKG/usr/bin/raxmlHPC-MPI
+
+#make -f Makefile.SSE3.MPI.gcc
+#install -D -m755 raxmlHPC-MPI-SSE3 $PKG/usr/bin/raxmlHPC-MPI-SSE3
+
+#make -f Makefile.AVX.MPI.gcc
+#install -D -m755 raxmlHPC-MPI-AVX $PKG/usr/bin/raxmlHPC-MPI-AVX
+
+## Hybrid MPI/Pthreads version
+#  Before using this version, please read this paper here:
+#  http://sco.h-its.org/exelixis/pubs/Exelixis-RRDR-2010-3.pdf
+#  and look at these slides:
+#  http://sco.h-its.org/exelixis/resource/doc/Phylo100225.pdf
+#make -f Makefile.HYBRID.gcc
+#install -D -m755 raxmlHPC-HYBRID $PKG/usr/bin/raxmlHPC-HYBRID
+
+#make -f Makefile.SSE3.HYBRID.gcc
+#install -D -m755 raxmlHPC-HYBRID-SSE3 $PKG/usr/bin/raxmlHPC-HYBRID-SSE3
+
+#make -f Makefile.AVX.HYBRID.gcc
+#install -D -m755 raxmlHPC-HYBRID-AVX $PKG/usr/bin/raxmlHPC-HYBRID-AVX
+}

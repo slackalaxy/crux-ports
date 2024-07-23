@@ -1,0 +1,16 @@
+# Description: A Python extension to parse BibTeX files.
+# URL: http://www.pybliographer.org
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glib python recode
+
+name=python-bibtex
+version=1.2.7
+release=2
+source=(http://downloads.sourceforge.net/pybliographer/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	python2 setup.py build || return 1
+	python2 setup.py install --prefix=$PKG/usr
+}

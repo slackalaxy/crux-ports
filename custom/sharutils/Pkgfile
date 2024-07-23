@@ -1,0 +1,25 @@
+# Description: GNU shell archive packing utilities
+# URL: http://slackware.uk/slackware/slackware64-current/source/a/sharutils/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=sharutils
+version=4.15.2
+release=1
+source=(https://slackware.uk/slackware/slackware64-14.2/source/a/sharutils/sharutils-4.15.2.tar.xz
+	sharutils.glibc228.diff.gz)
+
+build() {
+	cd $name-$version
+	zcat $SRC/sharutils.glibc228.diff.gz | patch -p1 --verbose || exit 1
+	
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CXXFLAGS -fcommon" \
+	./configure --prefix=/usr \
+		--disable-nls
+
+	make -j1
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/info
+}

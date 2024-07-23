@@ -1,0 +1,33 @@
+# Description: BLAST: Basic Local Alignment Search Tool
+# URL: ftp://ftp.ncbi.nih.gov/blast/executables/legacy.NOTSUPPORTED/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=ncbi-blast
+version=2.2.26
+release=1
+source=(ftp://ftp.ncbi.nih.gov/blast/executables/legacy.NOTSUPPORTED/$version/blast-$version-x64-linux.tar.gz)
+
+build() {
+	cd blast-$version
+
+	# Install the precompiled binaries. Change the name of rpsblast and
+	# seedtop as they are also part of the ncbi-blast+ package.
+	install -D -m755 bin/bl2seq	$PKG/usr/bin/bl2seq
+	install -D -m755 bin/blastall $PKG/usr/bin/blastall
+	install -D -m755 bin/blastclust $PKG/usr/bin/blastclust
+	install -D -m755 bin/blastpgp $PKG/usr/bin/blastpgp
+	install -D -m755 bin/copymat $PKG/usr/bin/copymat
+	install -D -m755 bin/fastacmd $PKG/usr/bin/fastacmd
+	install -D -m755 bin/formatdb $PKG/usr/bin/formatdb
+	install -D -m755 bin/formatrpsdb $PKG/usr/bin/formatrpsdb
+	install -D -m755 bin/impala	$PKG/usr/bin/impala
+	install -D -m755 bin/makemat $PKG/usr/bin/makemat
+	install -D -m755 bin/megablast $PKG/usr/bin/megablast
+	install -D -m755 bin/rpsblast $PKG/usr/bin/rpsblast-legacy
+	install -D -m755 bin/seedtop $PKG/usr/bin/seedtop-legacy
+
+	# Copy data dir
+	mkdir -p $PKG/usr/share/$name
+	cp -a data $PKG/usr/share/$name
+}

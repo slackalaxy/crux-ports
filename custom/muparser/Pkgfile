@@ -1,0 +1,23 @@
+# Description: A math parser library
+# URL: http://beltoforion.de/article.php?a=muparser
+# Maintainer: Petar Petrov
+
+name=muparser
+version=2.3.2
+release=1
+source=(https://github.com/beltoforion/muparser/archive/v${version}/muparser-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+	make
+	make install DESTDIR=$PKG
+	cd ..
+}

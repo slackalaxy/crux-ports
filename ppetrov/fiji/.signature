@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZTyettQ1wNPs228MJKxwTghEpm8HVpnRR8PmXqQawO3XKAPFmN9tp/8OrlX/2fv53aOzmbMslHTBbeAQo/s/ZQ0=
-SHA256 (Pkgfile) = a65a08e4e8502c59e2f2816a4c5f54f39a238360ef7bc289f5478ae06fad28c0
-SHA256 (.footprint) = 3fa6b9ead66527b20e036e7dc54919c72c065fee3ffb27d6710ecefb41e516ba
-SHA256 (fiji-nojre.zip) = 478e21604ef2364cb5abbb31bd4f6e1e48d344af2a46a1463acd9dff475e7e28
-SHA256 (ImageJ2.desktop) = 7038fa932810dd4e37643de896eaac54fbdbfc0988183437e21344cf418d78db
-SHA256 (fiji.sh) = d50a9c5a2ede53407661fdb4ccca6c7e66a2c4c8a62bf6e67b67300446bce7a0

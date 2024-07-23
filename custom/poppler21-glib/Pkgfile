@@ -1,0 +1,48 @@
+# Description: Compatibility poppler-glib for inkscape 0.92.5
+# URL: https://poppler.freedesktop.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gobject-introspection poppler
+
+name=poppler21-glib
+version=21.11.0
+release=2
+source=(https://poppler.freedesktop.org/poppler-$version.tar.xz)
+
+build() {
+
+sed -i "s:include/poppler:include/poppler21:g" poppler-$version/CMakeLists.txt
+sed -i "s:include/poppler:include/poppler21:g" poppler-$version/cpp/CMakeLists.txt
+sed -i "s:include/poppler:include/poppler21:g" poppler-$version/glib/CMakeLists.txt
+sed -i "s:include/poppler:include/poppler21:g" poppler-$version/utils/CMakeLists.txt
+
+	cmake -S poppler-$version -B build \
+		-D CMAKE_BUILD_TYPE=Release \
+		-D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+		-D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+		-D CMAKE_INSTALL_PREFIX=/usr \
+		-D CMAKE_INSTALL_LIBDIR=/usr/lib/poppler21 \
+		-D ENABLE_UNSTABLE_API_ABI_HEADERS=OFF \
+		-D ENABLE_UTILS=OFF \
+		-D ENABLE_CPP=OFF \
+		-D ENABLE_GLIB=ON \
+		-D ENABLE_QT5=OFF \
+		-D ENABLE_QT6=OFF \
+		-D ENABLE_ZLIB=ON \
+		-D ENABLE_CMS=lcms2 \
+		-D ENABLE_LIBOPENJPEG=none \
+		-D ENABLE_BOOST=OFF \
+		-D WITH_NSS3=OFF \
+		-D RUN_GPERF_IF_PRESENT=OFF
+
+	cmake --build build -j ${JOBS:-1}
+	DESTDIR=$PKG cmake --install build
+
+	rm -rf $PKG/usr/lib/poppler21/libpoppler.so*
+	rm -rf $PKG/usr/lib/poppler21/pkgconfig/poppler.pc
+	rm -rf $PKG/usr/share
+	
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/poppler21
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/poppler21:" $PKG/etc/revdep.d/$name
+}

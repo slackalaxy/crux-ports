@@ -1,8 +1,0 @@
-[Desktop Entry]
-Categories=System;
-Comment=Xflock4 screen locker
-Exec=xflock4
-Icon=xfce-system-lock
-Name=Screen lock
-StartupNotify=false
-Type=Application

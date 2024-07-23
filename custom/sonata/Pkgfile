@@ -1,0 +1,21 @@
+# Description: An elegant GTK+ client for MPD
+# URL: http://sonata.berlios.de/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 libglvnd pygtk python2-mpd
+
+name=sonata
+version=1.6.2.1
+release=1
+source=(https://sourceforge.net/projects/sonata.berlios/files/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	# http://lists.slackbuilds.org/pipermail/slackbuilds-users/2010-November/006637.html
+	sed -i "s#lyricwiki.org#lyrics.wikia.org#g" sonata/info.py
+
+	CFLAGS="$CFLAGS -fcommon" \
+	python2 setup.py install --root=$PKG --prefix=/usr
+	
+	rm -rf $PKG/usr/share/{locale,sonata}
+}

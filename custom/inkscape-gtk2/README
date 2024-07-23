@@ -1,0 +1,9 @@
+With the final updates of poppler and popplet-glib (22.03.0), inkscape-
+gtk2 does not build anymore. Honestly, I am tired of it breaking upon
+every poppler update, so I have prepared two compatibility ports:
+
+custom/poppler21
+custom/poppler21-glib
+
+They can be installed along thir current versions, howevver poppler and
+poppler-glib should not be present at build time.

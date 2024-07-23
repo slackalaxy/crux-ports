@@ -1,7 +1,0 @@
-To pair a device, unlock it first, then use this tool from libimobiledevice:
-
-	idevicepair -d pair
-
-Then mount to a place where you have write permissions:
-
-	ifuse ~/iPhone

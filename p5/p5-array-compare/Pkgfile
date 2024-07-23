@@ -1,0 +1,22 @@
+# Description:	Perl extension for comparing arrays.
+# URL:		http://search.cpan.org/~davecross/Array-Compare/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-module-build p5-moo p5-test-nowarnings p5-type-tiny
+
+name=p5-array-compare
+version=v3.0.8
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/D/DA/DAVECROSS/Array-Compare-${version}.tar.gz)
+
+build() {
+	cd Array-Compare-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

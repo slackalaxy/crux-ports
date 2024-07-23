@@ -1,0 +1,21 @@
+# Description: Gconf2 editor
+# URL: https://download.gnome.org/sources/gconf-editor/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli gconf graphite2 gtk xorg-libxdamage
+
+name=gconf-editor
+version=2.32.0
+release=1
+source=(https://download.gnome.org/sources/gconf-editor/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--disable-nls
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{gnome,gtk-doc,locale,omf}
+}

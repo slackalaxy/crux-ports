@@ -1,0 +1,29 @@
+# Description: Goffice legacy
+# URL: http://ftp.gnome.org/pub/GNOME/sources/goffice/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gconf libgsf gtk xorg-libxdamage
+
+name=goffice
+version=0.8.17
+release=2
+source=(http://ftp.gnome.org/pub/GNOME/sources/$name/${version%.*}/$name-$version.tar.xz
+	disable-linking-pcre.patch
+	go-conf-gsettings.c)
+
+build() {
+	cd $name-$version
+	
+	# https://bugzilla.gnome.org/show_bug.cgi?id=670316
+	patch -p1 -i $SRC/disable-linking-pcre.patch
+	
+	./configure --prefix=/usr
+		
+	# https://mail.gnome.org/archives/commits-list/2011-November/msg05571.html
+	cp $SRC/go-conf-gsettings.c goffice/app/
+	
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/{gtk-doc,locale}
+	rm -f $PKG/{,usr/}lib/*.la
+}

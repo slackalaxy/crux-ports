@@ -1,0 +1,38 @@
+# Description: Bio++ 1.9 Seq Library
+# URL: http://biopp.univ-montp2.fr/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bpp1.9-numcalc
+
+name=bpp1.9-seq
+version=1.7.0
+release=1
+source=(http://biopp.univ-montp2.fr/repos/sources/bpp-seq-$version.tar.gz)
+
+build() {
+	cd bpp-seq-$version
+	
+	LIBDIRPATH="-Wl,-rpath,/usr/lib/Bpp1.9"
+
+	# Use custom install place, so libs can coexist with latest bpp
+	export PATH="/usr/lib/Bpp1.9/:$PATH"
+	sed -i "s:/lib/:/lib/Bpp1.9/:g" Seq.spec
+
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_CXX_FLAGS:STRING="$CFLAGS $LIBDIRPATH" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+
+	sed -i "s:/lib\b:/lib/Bpp1.9:g" Seq/cmake_install.cmake
+	sed -i "s:Bpp1.9/Bpp1.9:Bpp1.9:g" Seq/cmake_install.cmake
+
+	make
+	make DESTDIR=$PKG install
+
+	# Remove static lib
+	#rm -rf $PKG/usr/lib/Bpp1.9/libbpp-seq.a
+	
+	mkdir -p $PKG/etc/revdep.d
+	echo "/usr/lib/Bpp1.9" > $PKG/etc/revdep.d/$name
+}

@@ -1,0 +1,15 @@
+# Description: The Tcl Library, a kitchen-sink of packages.
+# URL: http://core.tcl.tk/tcllib/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: tcl
+
+name=tcllib
+version=1.21
+release=1
+source=(https://core.tcl-lang.org/$name/uv/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make install DESTDIR=$PKG
+}

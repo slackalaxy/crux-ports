@@ -1,0 +1,30 @@
+# Description: A quality control tool for high throughput sequence data
+# URL: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: adoptium11-jdk
+
+name=fastqc
+version=0.11.9
+release=1
+source=(http://www.bioinformatics.babraham.ac.uk/projects/fastqc/${name}_v${version}.zip
+	$name.desktop $name.png)
+
+build() {
+	cd FastQC
+	install -D -m755 $name $PKG/usr/lib/$name/$name
+	
+	JBZIP=jbzip2-0.9.jar
+	SAM=sam-1.103.jar
+	CISD=cisd-jhdf5.jar
+	
+	cp -a Configuration net org Templates Help uk $JBZIP $SAM $CISD $PKG/usr/lib/$name
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/$name .
+	
+	# Menu item and icon
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

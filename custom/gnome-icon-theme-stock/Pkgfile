@@ -1,0 +1,23 @@
+# Description: GNOME2 icon theme stock
+# URL: https://download.gnome.org/sources/gnome-icon-theme
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=gnome-icon-theme-stock
+version=2.28.0
+release=1
+source=(https://download.gnome.org/sources/gnome-icon-theme/${version%.*}/gnome-icon-theme-$version.tar.bz2)
+
+build() {
+	cd gnome-icon-theme-$version
+	./configure --prefix=/usr
+	make
+	
+	folders=( 16x16 24x24 32x32 48x48 scalable )
+	for i in ${folders[@]}; do
+	  mkdir -p $PKG/usr/share/icons/gnome/$i
+	  cp -a $i/stock $PKG/usr/share/icons/gnome/$i
+	done
+	
+	find $PKG/ -name "Makefile*" -delete
+}

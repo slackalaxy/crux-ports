@@ -1,0 +1,27 @@
+# Description: Viber for PC
+# URL: https://viber.com
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: double-conversion libpcre2 nss pulseaudio qt5 xorg-libxscrnsaver
+
+name=viber
+version=current
+#version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
+release=1
+source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb)
+
+build() {
+	cd $PKG
+	ar p $SRC/$name.deb data.tar.xz | xz -d | tar xv
+	mv $PKG/opt/$name/* $PKG/usr/share/viber
+	rm -r $PKG/opt
+	
+	# Fix desktop launcher
+	sed -i 's/\/opt\/viber\/Viber/\/usr\/bin\/ViberPC/' $PKG/usr/share/applications/$name.desktop
+	
+	mkdir -p $PKG/usr/bin
+	printf "#!/bin/sh\n/usr/share/viber/Viber\n" > $PKG/usr/bin/ViberPC
+	ln -s ViberPC $PKG/usr/bin/$name
+	chmod +x $PKG/usr/bin/ViberPC
+	
+	rm -rf $PKG/usr/share/$name/translations
+}

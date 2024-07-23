@@ -1,0 +1,16 @@
+# Description: Xfce4 wallpapers
+# URL: https://goodies.xfce.org/projects/artwork/xfce4-artwork
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=xfce4-artwork
+version=0.1.1a
+release=1
+source=(https://deb.debian.org/debian/pool/main/x/$name/${name}_${version}~git+20110420.orig.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make backdropsdir="$PKG/usr/share/backgrounds/xfce" install
+}

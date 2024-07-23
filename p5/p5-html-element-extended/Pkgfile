@@ -1,0 +1,22 @@
+# Description:	HTML::Element::Extended
+# URL:		http://search.cpan.org/~msisk/HTML-Element-Extended/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-html-tree
+
+name=p5-html-element-extended
+version=1.18
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/M/MS/MSISK/HTML-Element-Extended-${version}.tar.gz)
+
+build() {
+	cd HTML-Element-Extended-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

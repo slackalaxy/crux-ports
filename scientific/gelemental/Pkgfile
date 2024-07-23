@@ -1,0 +1,28 @@
+# Description: Periodic table
+# URL: https://github.com/ginggs/gelemental
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtkmm pango48
+
+name=gelemental
+version=2.0.1
+release=1
+source=(https://github.com/ginggs/gelemental/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	
+	export PKG_CONFIG_PATH="/usr/lib/pango48/pkgconfig:$PKG_CONFIG_PATH"
+	
+	cd $name-$version
+	
+	# I like big, symmetrical buttons
+	sed -i "s:set_size_request (-1, 50):set_size_request (64, 64):" src/buttons.cc
+	
+	CFLAGS+=" -I$SRC/pango/usr/include/pango48 -Wl,-rpath,/usr/lib/pango48" \
+	CXXFLAGS+=" -I$SRC/pango/usr/include/pango48 -Wl,-rpath,/usr/lib/pango48" \
+	./configure --prefix=/usr \
+	--disable-nls
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/locale
+}

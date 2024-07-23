@@ -1,0 +1,25 @@
+# Description: A planetarium for your computer
+# URL: https://stellarium.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion libpcre2 pulseaudio qt5
+
+name=stellarium
+version=0.22.2
+release=1
+source=(https://github.com/Stellarium/stellarium/releases/download/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_CXX_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_C_FLAGS:STRING="$CXXFLAGS" \
+	-DCMAKE_BUILD_TYPE="release" ..
+	make
+	make install DESTDIR=$PKG
+	 
+	sed -i "s:Education:Game:" $PKG/usr/share/applications/org.$name.Stellarium.desktop
+	rm -rf $PKG/usr/share/stellarium/translations
+}

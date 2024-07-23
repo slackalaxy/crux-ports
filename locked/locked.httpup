@@ -1,0 +1,8 @@
+#
+# /etc/ports/locked.httpup: locked ports collection
+#
+ 
+ROOT_DIR=/usr/ports/locked
+URL=https://raw.githubusercontent.com/slackalaxy/crux-ports/main/locked
+ 
+# End of file

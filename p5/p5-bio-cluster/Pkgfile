@@ -1,0 +1,22 @@
+# Description:	BioPerl cluster modules
+# URL:		https://metacpan.org/release/Bio-Cluster
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-bio-variation p5-xml-sax
+
+name=p5-bio-cluster
+version=1.7.3
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/C/CJ/CJFIELDS/Bio-Cluster-${version}.tar.gz)
+
+build() {
+	cd Bio-Cluster-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

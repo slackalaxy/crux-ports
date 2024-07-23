@@ -1,0 +1,22 @@
+# Description:	Math::Spline
+# URL:		http://search.cpan.org/~chorny/Math-Spline/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-math-derivative
+
+name=p5-math-spline
+version=0.02
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/C/CH/CHORNY/Math-Spline-${version}.tar.gz)
+
+build() {
+	cd Math-Spline-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

@@ -1,0 +1,24 @@
+# Description:	Basic utilities for writing tests.
+# URL:		http://search.cpan.org/~exodist/Test-Simple/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	perl
+# Optional:	p5-module-pluggable
+
+name=p5-test-simple
+version=1.302185
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/E/EX/EXODIST/Test-Simple-${version}.tar.gz)
+
+build() {
+	cd Test-Simple-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	rm -rf $PKG/usr/share/man
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

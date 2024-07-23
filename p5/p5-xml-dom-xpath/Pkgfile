@@ -1,0 +1,22 @@
+# Description:	Perl extension to add XPath support to XML::DOM, using XML::XPath engine
+# URL:		http://search.cpan.org/~mirod/XML-DOM-XPath/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-xml-dom p5-xml-xpathengine
+
+name=p5-xml-dom-xpath
+version=0.14
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/M/MI/MIROD/XML-DOM-XPath-${version}.tar.gz)
+
+build() {
+	cd XML-DOM-XPath-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

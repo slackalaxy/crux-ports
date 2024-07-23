@@ -1,9 +1,0 @@
-untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwRq+Drdc1oD8EB5Dovgj6XKGCASqSLu8MazDd6Tj9ZwARFkoNTxSjkO8k1v0bOJqJ8joR+OI0dounsyvzjMHkwg=
-SHA256 (Pkgfile) = abada88173e24a1158867dd6eabef03767bd37bee0cb9be71e3d002ffbc22014
-SHA256 (.footprint) = a76bdb1890e621de8d064207a90678a4b0afeb217c8c67980f61124039161f8d
-SHA256 (config.tar.xz) = 658d8a631365dad0bebd8598acff466da77ae0818c2a9dcf7a587fa0447c2a4a
-SHA256 (local.tar.xz) = 2ec82860f5b294fc0c7f0fa6db8afd9de8a08cc4742f1f4cfb8e20f6ffc1a4b3
-SHA256 (mplayer.tar.xz) = b6a0618aece8852cc3c7b70496c3f5167849985d5df85bf023e0106a3c3b24f6
-SHA256 (hidden) = 4efce5ff85c6964e53cff331de3cb51c1341ef8e2fb823e0c3ac7b6805b9d714
-SHA256 (xscreensaver) = f5d794834bb1709d89675591e68aa010789c16404c6734e41500ab67eb46e16d

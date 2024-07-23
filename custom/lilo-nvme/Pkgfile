@@ -1,0 +1,43 @@
+# Description: LILO patched to support NVME
+# URL: http://slackware.uk/slackware/slackware64-current/source/a/lilo/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: sharutils
+# Conflicts: lilo
+
+name=lilo-nvme
+version=24.2
+release=1
+source=(https://slackware.uk/slackware/slackware64-14.2/source/a/lilo/lilo-$version.tar.gz
+	lilo.gcc10.diff.gz
+	lilo.ignore.usable.memory.above.4G.diff.gz
+	lilo.nvme.support.diff.gz
+	lilo.allow.colons.in.by-id.diff.gz
+	cruxyhd.dat cruxyhd.bmp lilo.conf_default lilo.conf_image)
+
+build() {
+	cd lilo-$version
+	
+	# Thank you Slackware!
+	zcat $SRC/lilo.ignore.usable.memory.above.4G.diff.gz | patch -p1
+	zcat $SRC/lilo.allow.colons.in.by-id.diff.gz | patch -p1
+	zcat $SRC/lilo.nvme.support.diff.gz | patch -p1
+	zcat $SRC/lilo.gcc10.diff.gz | patch -p1
+	
+	make -j1
+	make install DESTDIR=$PKG
+	
+	# These are really horribly ugly
+	rm -rf $PKG/boot/*.{bmp,dat}
+	
+	# Add CRUX's default lilo.conf, another lilo.conf example, as well as CRUX boot image.
+	install -m 644 $SRC/lilo.conf_default $PKG/etc
+	install -m 644 $SRC/lilo.conf_image $PKG/etc
+	install -m 644 $SRC/cruxyhd.{bmp,dat} $PKG/boot
+	
+	# Remove litter:
+	cd $PKG/boot
+	rm -rf coffee.* *debian*
+	rm -rf $PKG/etc/{initramfs,kernel}
+	rm -rf $PKG/usr/sbin/liloconfig
+	rm -rf $PKG/usr/share/man/man8/liloconfig.8
+}

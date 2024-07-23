@@ -1,0 +1,15 @@
+# Description: Sofia Sans Fonts
+# URL: https://github.com/lettersoup/Sofia-Sans/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=sofia-sans-fonts
+version=d0dd4e9
+release=1
+source=(https://github.com/lettersoup/Sofia-Sans/archive/$version/Sofia-Sans-d0dd4e9f12a14ee2ea04844b8bc17217ce47c7c2.tar.gz)
+
+build() {
+	cd Sofia-Sans-${version}*
+	mkdir -p $PKG/usr/share/fonts/sofia
+	cp -a fonts/ttf/*.ttf $PKG/usr/share/fonts/sofia
+	chmod 0644 $PKG/usr/share/fonts/sofia/*.ttf
+}

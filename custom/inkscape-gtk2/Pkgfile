@@ -1,0 +1,37 @@
+# Description: Inkscape SVG ediror last GTK2 version
+# URL: https://inkscape.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: boehm-gc boost graphite2 gsl gtkmm gtkspell libpsl libwebp nghttp2-libs openldap poppler21 poppler21-glib popt potrace python-lxml python-uniconvertor python3-lxml python3-numpy rtmpdump
+
+name=inkscape-gtk2
+version=0.92.5
+release=3
+source=(https://ftp.osuosl.org/pub/blfs/conglomeration/inkscape/inkscape-$version.tar.bz2
+	im7.patch poppler-21.11.0.patch gcc9.patch)
+
+build() {
+	cd $SRC/inkscape-$version
+
+	# I couldn't find a better way to point poppler to its headers
+	sed -i "s:poppler/:poppler21/:g" src/extension/internal/pdfinput/pdf-input.cpp
+	
+	#export CXXFLAGS+=" -I$SRC/poppler/usr/include -I$SRC/poppler/usr/include/poppler"
+	export PKG_CONFIG_PATH="/usr/lib/poppler21/pkgconfig:$PKG_CONFIG_PATH"
+	
+	patch -p1 -i $SRC/gcc9.patch
+	patch -p1 -i $SRC/im7.patch
+	patch -p1 -i $SRC/poppler-21.11.0.patch
+	
+	cmake -DCMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -std=c++17 -Wl,-rpath,/usr/lib/poppler21" \
+	-D CMAKE_C_FLAGS_RELEASE="$CFLAGS -Wl,-rpath,/usr/lib/poppler21" \
+	-D POPPLER_INCLUDE_DIR="/usr/include/poppler21" \
+	-D POPPLER_GLIB_INCLUDE_DIR="/usr/include/poppler21/glib" \
+	-D WITH_GNOME_VFS="OFF" \
+	-DCMAKE_BUILD_TYPE=Release .
+  
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/locale
+}

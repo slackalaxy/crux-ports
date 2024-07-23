@@ -1,0 +1,5 @@
+#!/bin/sh
+
+fc-cache /usr/share/fonts/liberation
+mkfontscale /usr/share/fonts/liberation
+mkfontdir /usr/share/fonts/liberation

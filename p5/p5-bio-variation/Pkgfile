@@ -1,0 +1,22 @@
+# Description:	BioPerl variation-related functionality
+# URL:		https://metacpan.org/release/Bio-Variation
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-io-string p5-xml-twig p5-xml-writer
+
+name=p5-bio-variation
+version=1.7.5
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/C/CJ/CJFIELDS/Bio-Variation-${version}.tar.gz)
+
+build() {
+	cd Bio-Variation-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

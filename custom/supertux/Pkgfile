@@ -1,0 +1,27 @@
+# Description: A classic 2D jump'n run sidescroller game
+# URL: https://www.supertux.org
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: boost brotli freetype glew glm glu libpsl libvorbis openal openldap physfs rtmpdump sdl2_image
+
+name=supertux
+version=0.6.3
+release=2
+source=(https://github.com/SuperTux/supertux/releases/download/v${version}/SuperTux-v${version}-Source.tar.gz)
+
+build() {
+	cd SuperTux-v${version}-Source
+	
+	mkdir -p build
+	cd build
+	 cmake \
+	-DCMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DINSTALL_SUBDIR_BIN=bin \
+	-DINSTALL_SUBDIR_SHARE=share/$name \
+	-DCMAKE_BUILD_TYPE=Release ..
+	make
+	make install DESTDIR=$PKG
+
+	rm -rf $PKG/usr/share/{doc,supertux/locale}
+}

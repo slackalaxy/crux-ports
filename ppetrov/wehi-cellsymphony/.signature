@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZd9+fekfcibwZgp7K28MXMvcbhZenwbux+3RYWk5U9EW6PZPrGtCSVgr56aGCiE7NYTGzYbTIoOfVehTagA4dw0=
-SHA256 (Pkgfile) = c8be00d98d36f2a6ffd827f2930ef02daaff0c2b5dfcd1b7e03a39f5607508aa
-SHA256 (.footprint) = 447bbe0347ca694b32fe133feb0324e573b23ecc25c64cd9ddf33dee91e7bf57
-SHA256 (CellSymphony.jar) = 0694e2f6faa2f3fa03df7135a6fb380551e3cf1eceb895820564136c79b5e510
-SHA256 (wehi-cellsymphony.desktop) = 1711b9d6b1c547a6fffb5d5219b579756c57c7a1e1c88dba3f4cee1ddee97539
-SHA256 (wehi-cellsymphony.png) = f12ffbdb05020745a3339e5f85586e85c4c104e2e7f38f368698634e1256ad34
-SHA256 (wehi-cellsymphony.menu) = ee26bbbec9f2129e21a2cf44dfd58eb2df9e6f803170d9a64b6bf91f87705f20

@@ -1,0 +1,22 @@
+# Description: Converts files between various character sets 
+# URL: http://directory.fsf.org/recode.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=recode
+version=3.7beta
+release=2
+source=(pinard-Recode-v3.7-beta2-56-g2fd8385.tar.xz)
+
+build() {
+	cd pinard-Recode-2fd8385
+	
+	./configure --prefix=/usr \
+	--infodir=/usr/share/info
+
+	make
+	make prefix=$PKG/usr infodir=$PKG/usr/share/info install
+	
+	rm -rf $PKG/usr/share/{info,locale}
+	rm -f $PKG/{,usr/}lib/*.la
+}

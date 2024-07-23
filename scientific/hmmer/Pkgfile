@@ -1,0 +1,19 @@
+# Description: Hidden Markov Model profile
+# URL: http://eddylab.org/software
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=hmmer
+version=3.3.2
+release=1
+source=(http://eddylab.org/software/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr
+
+	make
+	make check
+	make install DESTDIR=$PKG
+}

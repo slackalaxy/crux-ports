@@ -1,0 +1,20 @@
+# Description:	Extract distribution name and version from a distribution filename
+# URL:		http://github.com/gbarr/CPAN-DistnameInfo
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	perl
+
+name=p5-cpan-distnameinfo
+version=0.12
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz)
+
+build(){
+	cd CPAN-DistnameInfo-$version
+
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name autosplit.ix -o -name perllocal.pod \) -delete , \
+		-type d -empty -exec rmdir {} +
+}

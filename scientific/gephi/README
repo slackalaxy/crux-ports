@@ -1,0 +1,4 @@
+If you use another flavor of JAVA 11, modify the folowing line from thw
+gephi.desktop file to start the program accordingly:
+
+	gephi --jdkhome /usr/lib/java/adoptium11-jdk

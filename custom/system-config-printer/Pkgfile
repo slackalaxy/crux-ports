@@ -1,0 +1,23 @@
+# Description: System Config printer
+# URL: https://slackware.uk/slackware/slackware-14.2/source/l/system-config-printer/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: dbus-python2 python-pycurl python2-pycups notify-python
+
+name=system-config-printer
+version=1.3.13
+release=2
+source=(https://slackware.uk/slackware/slackware-14.2/source/l/system-config-printer/system-config-printer-1.3.13.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--sysconfdir=/etc \
+	--disable-nls \
+	--with-udev-rules \
+	--program-prefix= \
+	--program-suffix=
+  
+	# Build and install:
+	make
+	make install DESTDIR=$PKG
+}

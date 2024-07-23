@@ -1,0 +1,20 @@
+# Description: Generic monitor panel plugin
+# URL: https://archive.xfce.org/src/panel-plugins/
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: xfce4-panel
+
+name=xfce4-genmon-plugin
+version=3.4.0
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-${version%.*}
+	./configure --prefix=/usr \
+	--disable-nls
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/locale
+}

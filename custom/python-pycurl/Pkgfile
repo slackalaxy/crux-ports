@@ -1,0 +1,22 @@
+# Description: Python interface to libcurl
+# URL: http://pypi.python.org/pypi/pycurl
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli libpsl nghttp2-libs openldap python python3 rtmpdump
+
+name=python-pycurl
+version=7.45.1
+release=2
+source=(https://files.pythonhosted.org/packages/09/ca/0b6da1d0f391acb8991ac6fdf8823ed9cf4c19680d4f378ab1727f90bd5c/pycurl-$version.tar.gz)
+
+build() {
+	cd pycurl-$version
+	CFLAGS="$CFLAGS" \
+	CXXFLAGS="$CXXFLAGS" \
+	python2 setup.py --with-openssl install --root=$PKG
+	
+	CFLAGS="$CFLAGS" \
+	CXXFLAGS="$CXXFLAGS" \
+	python3 setup.py --with-openssl install --root=$PKG
+	
+	rm -rf $PKG/usr/share/doc
+}

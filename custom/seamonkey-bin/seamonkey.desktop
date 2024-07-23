@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SeaMonkey
+Comment=Web Browser
+Exec=seamonkey
+Icon=seamonkey
+Terminal=0
+Type=Application
+#Categories=Application;Network;

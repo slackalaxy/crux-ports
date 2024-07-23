@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SeaMonkey Mail
+Comment=Web Browser
+Exec=seamonkey -mail
+Icon=seamonkey-mail
+Terminal=0
+Type=Application
+#Categories=Application;Network;

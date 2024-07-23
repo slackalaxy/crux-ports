@@ -1,0 +1,14 @@
+# Description: XFCE port of RedHat's Bluecurve KDE theme
+# URL: https://www.xfce-look.org/p/1208465
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: xfwm4
+
+name=xfwm4-bluecurve-revival
+version=20201110
+release=1
+source=(Bluecurve_Revival_XFCE.tar.xz)
+
+build() {
+	mkdir -p $PKG/usr/share/themes
+	cp -a $SRC/Bluecurve_Revival_XFCE/* $PKG/usr/share/themes
+}

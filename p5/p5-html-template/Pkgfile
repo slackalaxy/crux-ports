@@ -1,0 +1,22 @@
+# Description:	Perl module to use HTML-like templating language
+# URL:		http://search.cpan.org/~samtregar/HTML-Template/
+# Maintainer:	Petar Petrov, slackalaxy at gmail.com
+# Depends on:	p5-cgi p5-test-pod
+
+name=p5-html-template
+version=2.97
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/S/SA/SAMTREGAR/HTML-Template-${version}.tar.gz)
+
+build() {
+	cd HTML-Template-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

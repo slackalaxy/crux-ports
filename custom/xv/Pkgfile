@@ -1,0 +1,57 @@
+# Description: John Bradley's interactive image viewer
+# URL: http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: libwebp
+
+name=xv
+version=3.10
+release=2
+source=(http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv-3.10.tar.xz
+	http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv-3.10a-enhancements.20070520-20081216.diff.bz2
+	http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv-3.10a-jumbo-additions.diff.bz2
+	http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv-3.10a-jumbo-fix-enh-patch-20070520.txt.bz2
+	http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv-3.10a.patch.gz
+	http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv-libpng-1.5.patch.gz
+	http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv.jasper.diff.gz
+	http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv.prefix.diff.gz
+	http://slackware.uk/slackware/slackware64-15.0/extra/source/xv/xv.prefix_x86_64.diff.gz
+	$name.desktop $name.png)
+
+build() {
+	cd $name-$version
+
+	# Thanks Slackware! This is all shamelessly adapted (copied) from xv.SlackBuild	
+	zcat $SRC/xv-3.10a.patch.gz | patch -p0 --verbose --backup --suffix=.orig || exit 1
+	bzcat $SRC/xv-3.10a-jumbo-fix-enh-patch-20070520.txt.bz2 | patch -p1 --verbose --backup --suffix=.orig || exit 1
+	bzcat $SRC/xv-3.10a-jumbo-additions.diff.bz2 | patch -p1 --verbose --backup --suffix=.orig || exit 1
+	bzcat $SRC/xv-3.10a-enhancements.20070520-20081216.diff.bz2 | patch -p1 --verbose --backup --suffix=.orig || exit 1
+	zcat $SRC/xv.prefix.diff.gz | patch -p1 --verbose --backup --suffix=.orig || exit 1
+	zcat $SRC/xv.prefix_x86_64.diff.gz | patch -p1 --verbose --backup --suffix=.orig || exit 1
+	zcat $SRC/xv-libpng-1.5.patch.gz | patch -p0 --verbose --backup --suffix=.orig || exit 1
+	
+	# xv breaks with new jasper (v 3.0.2) even with these changes, so let's disable it for now
+	# When I find a fix, I will add jasper back to dependencies
+	#zcat $SRC/xv.jasper.diff.gz | patch -p1 --verbose --backup --suffix=.orig || exit 1
+	# https://www.linuxquestions.org/questions/slackware-14/xv-on-current-4175698325/#post6269993
+	#sed -i "s|fp\,void\ |fp,const void |" xvjp2k.c
+	sed -i 's:JP2K:#JP2K:' Makefile.std
+	
+	make -f Makefile.std || exit 1
+
+	mkdir -p $PKG/usr/bin
+	cat bggen > $PKG/usr/bin/bggen
+	cat vdcomp > $PKG/usr/bin/vdcomp
+	cat xcmap > $PKG/usr/bin/xcmap
+	cat xv > $PKG/usr/bin/xv
+	cat xvpictoppm > $PKG/usr/bin/xvpictoppm
+	chmod 755 $PKG/usr/bin/*
+	mkdir -p $PKG/usr/share/man/man1
+	
+	for page in docs/xv.man docs/bggen.man docs/xcmap.man docs/xvp2p.man ; do
+	  cat $page > $PKG/usr/share/man/man1/`basename $page .man`.1
+	done
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

@@ -1,0 +1,37 @@
+# Description: Hypothesis Testing using Phylogenies
+# URL: https://github.com/veg/hyphy/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: openmpi
+
+name=hyphy
+version=2.5.39
+release=1
+source=(https://github.com/veg/hyphy/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	# Use our flags
+	sed -i "s:-fsigned-char -O3:$CFLAGS -fsigned-char:g" CMakeLists.txt
+
+	# Use _only_ our flags. You may wish to comment out the lines below to
+	# enable flags automatically set for you architecture.
+	sed -i "s:-march=native -mtune=native -mavx::g" CMakeLists.txt
+	sed -i "s:-mavx::g" CMakeLists.txt
+	sed -i "s:-mfma::g" CMakeLists.txt
+	sed -i "s:-msse3::g" CMakeLists.txt
+	sed -i "s:-mno-avx::g" CMakeLists.txt
+	sed -i "s:-mno-sse3::g" CMakeLists.txt
+
+	mkdir -p build
+	cd build
+	cmake \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_BUILD_TYPE=Release ..
+
+	# It is actually not necessary anymore to specify here MP and HYPHYMPI,
+	# as 'make' alone will attempt to build them both. However, let's leave
+	# them, just in case.
+	make MP HYPHYMPI
+	make install DESTDIR=$PKG
+}

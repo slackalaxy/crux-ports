@@ -1,0 +1,15 @@
+## Use colour by default
+#alias ls="ls --color"
+#alias ll="ls --color | sort"
+#alias su="su -"
+
+## I am not smart enough for vim
+#export VISUAL=nano
+#export EDITOR=nano
+
+## This is how Slackware sets a default shell prompt:
+#PS1='\u@\h:\w\$ '
+#PS1='\u@\h \[[\e[1;34m\]\W/\[\e[0m\]] \$ '
+
+#PS2='> '
+#export PATH DISPLAY LESS TERM PS1 PS2

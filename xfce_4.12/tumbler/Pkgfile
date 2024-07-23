@@ -1,7 +1,7 @@
 # Description: Thumbnail management per D-Bus specification for Xfce
 # URL: https://docs.xfce.org/xfce/thunar/tumbler http://git.xfce.org/xfce/tumbler/tree/README
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli dbus-glib graphite2 lame libass libva libvdpau libvpx libwebp x264 x265
+# Depends on: brotli dbus-glib ffmpegthumbnailer graphite2 lame libass libva libvdpau libvpx libwebp x264 x265
 
 name=tumbler
 version=0.1.21

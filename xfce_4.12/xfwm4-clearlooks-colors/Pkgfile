@@ -1,0 +1,14 @@
+# Description: GNOME Colors Clearlooks Xfwm4 theme
+# URL: https://www.xfce-look.org/p/1016670
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: xfwm4
+
+name=xfwm4-clearlooks-colors
+version=1.1
+release=1
+source=(https://dl2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTQ2MDc2NzEzNiwidSI6bnVsbCwibHQiOiJkb3dubG9hZCIsInMiOiI4YjE3NDdhY2E3NzU3ZjRkYTE3NmUzN2I1MDdiNTdiZjZjY2M4MTA5NThlZDcwZDhjOGUzZTNjNjQ1MTMzZDgxYjgwYWUwZmE4NjdhNzAzOGUxMDIwNDAyMWZjN2JiZmQ4ZTdjYTg2NjQ0MGQzMGEwNzhiMDMwYzI0ZTA1NjJlOCIsInQiOjE2NDU5OTgwNTksInN0ZnAiOiI4NTFjYmRkZTBkYmM4Yzc4YjRiNWVmMzZkZTcyY2JhYyIsInN0aXAiOiIyMDAxOjE0YmE6YThjOTo1OTAwOjoyIn0.x_2ZYeOkyVV9wgz-HFDtO1i332_pCZ8mrlunp2ZOK8g/90384-Clearlooks-Xfce-Colors.zip)
+
+build() {
+	mkdir -p $PKG/usr/share/themes
+	cp -a $SRC/Clearlooks-* $PKG/usr/share/themes
+}

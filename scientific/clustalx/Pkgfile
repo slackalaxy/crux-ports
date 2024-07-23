@@ -1,0 +1,37 @@
+# Description: ClustalW frontend for X11
+# URL: http://www.clustal.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion graphite2 icu libpcre2 qt5
+
+name=clustalx
+version=2.1
+release=2
+source=(http://www.clustal.org/download/current/$name-$version.tar.gz
+	$name.desktop $name.png fix-static.patch qt5.patch)
+
+build() {
+	cd $name-$version
+	
+	# Thanks Arch for the patches
+	patch -p1 < $SRC/qt5.patch
+	patch -p1 < $SRC/fix-static.patch
+	sed -i 's/static//g' $name.pro
+
+	qmake
+
+	#Use our CFLAGS/CXXFLAGS
+	sed -i "/^C.*.*FLAGS/s/=/+=/" Makefile
+
+	make
+
+	install -D -m755 $name $PKG/usr/bin/$name
+	install -D -m644 colprot.xml $PKG/usr/share/$name/colprot.xml
+	install -D -m644 coldna.xml $PKG/usr/share/$name/coldna.xml
+	install -D -m644 coldna.xml $PKG/usr/share/$name/colprint.xml
+	install -D -m644 clustalx.hlp $PKG/usr/share/$name/$name.hlp
+
+	# Menu item and icon
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZC2ePAWXyyyAJ37hbj08jygdiyBg5hQK5W3KfsUSnW1qP8gywzobo9QwxCATC7bnWiKPwZkhGAGVUsqZXcaDQc=
-SHA256 (Pkgfile) = 81fcafa9fd65cbcd36edd048ec76e8611d2cf440e988b00a16911e62eb306804
-SHA256 (.footprint) = 9515d95339b82ec8adc94f7e4bfaaa662253b6d5f00df0916219592ae5bd0a47
-SHA256 (geneconv-1.81a.tar.gz) = 9423bad39fc729ac8150d0630c82ca3452d30ba0f5da862a76a7358c06d0831c
-SHA256 (geneconv.examples.tar.gz) = 58e26a065c4ddf055cad403a30c2482db500e19de6ff6a2116b2d91aaee6b7a1
-SHA256 (gconvdoc.pdf) = 14f91fe7437e115241cad83b1c0587791998498d085e58b8699186edb6735cd2

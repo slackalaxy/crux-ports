@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcCQveU3SqFF0HD6uWFNN/lag9ekGGEGDWlpJFYA09FRYnTw/31Hx6C2ddzmcawYphAMOkxhGYNKvM69cpQ5PQo=
-SHA256 (Pkgfile) = 768c7513e45144c8e5fa6e92dff044b0e088da7c96d29f633fa4a08578471276
-SHA256 (.footprint) = 85485f152204b26789814ee74f4c62a8da8e68aec00202b1ad6f1af49cbaf540
-SHA256 (muscle_src_3.8.1551.tar.gz) = c70c552231cd3289f1bad51c9bd174804c18bb3adcf47f501afec7a68f9c482e
-SHA256 (stable.tar.gz) = 588264a0f82821e813feb3e99ae9de5f293a128c19292f4acdfe00d24fe12b0d
-SHA256 (muscle.1) = 0effcf79cbbbd452efcc918d2b35976ad01f46759e7b167c953a60b23a45ad43

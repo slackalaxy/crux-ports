@@ -1,0 +1,43 @@
+# Description: Bio++ 1.9 Phyl Library
+# URL: http://biopp.univ-montp2.fr/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bpp1.9-seq
+
+name=bpp1.9-phyl
+version=1.9.0
+release=1
+source=(http://biopp.univ-montp2.fr/repos/sources/bpp-phyl-$version.tar.gz
+	caps_TreeTemplateTools.patch)
+
+build() {
+	cd bpp-phyl-$version
+	
+	# This is needed for vCAPS to find its libraries at runtime. Thanks Urachlay!
+	LIBDIRPATH="-Wl,-rpath,/usr/lib/Bpp1.9"
+
+	# CAPS wants TreeTemplateTools to be modified a bit...
+	patch -p1 -i $SRC/caps_TreeTemplateTools.patch
+
+	# Use custom install place, so libs can coexist with latest bpp
+	export PATH="/usr/lib/Bpp1.9/:$PATH"
+	sed -i "s:/lib/:/lib/Bpp1.9/:g" Phyl.spec
+
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_CXX_FLAGS:STRING="$CFLAGS $LIBDIRPATH" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release ..
+
+	sed -i "s:/lib\b:/lib/Bpp1.9:g" Phyl/cmake_install.cmake
+	sed -i "s:Bpp1.9/Bpp1.9:Bpp1.9:g" Phyl/cmake_install.cmake
+
+	make
+	make DESTDIR=$PKG install
+
+	# Remove static library
+	#rm -rf $PKG/usr/lib/Bpp1.9/libbpp-phyl.a
+	
+	mkdir -p $PKG/etc/revdep.d
+	echo "/usr/lib/Bpp1.9" > $PKG/etc/revdep.d/$name
+}

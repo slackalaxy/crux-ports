@@ -1,0 +1,5 @@
+#!/bin/sh
+
+fc-cache /usr/share/fonts/sofia
+mkfontscale /usr/share/fonts/sofia
+mkfontdir /usr/share/fonts/sofia

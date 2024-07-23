@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRWuSA0vxOO4oYcCyyDzSdXOHPSPmLZmks6hSNIpICuzTqQhtpMAA+qFUKIrkLo90l3BvrLpvoWpiXqYIRkFcwU=
-SHA256 (Pkgfile) = 04e4e25476a831d11096dc115bbacaef8f67e9a487855c34954c5014b53b603a
-SHA256 (.footprint) = 778b9c4a38e3fa225b46ca4bf12c5401fd1fa59af4dea14b11e657bc028f860a
-SHA256 (xmms-mp4_20050213.tar.bz2) = 6f8ee4d8765569a60f9dc266f9ed0189cd9b468cd3201614da3df9d301a443bc
-SHA256 (compilefix.diff) = 1b40a83dc578b4627e93a22d65391c784c700c66709b22061b26590fa870aa03

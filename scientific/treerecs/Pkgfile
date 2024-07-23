@@ -1,0 +1,30 @@
+# Description: Treerecs: a tree reconciliation tool
+# URL: https://project.inria.fr/treerecs/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=treerecs
+version=1.2
+release=1
+source=(https://gitlab.inria.fr/Phylophile/Treerecs/-/archive/v${version}/Treerecs-v${version}.tar.gz)
+
+build() {
+	cd Treerecs-v${version}
+	
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-DCMAKE_BUILD_TYPE=Release ..
+	make
+	cd ..
+
+	# This is the program executable. Using "make install DESTDIR=$PKG"
+	# works, but it simply puts treerecs in /usr/local/bin and that's it
+	install -D -m755 build/bin/$name $PKG/usr/bin/$name
+
+	# Include the extra binaries
+	install -D -m755 build/bin/misc/ALEevaluate_undated $PKG/usr/bin/ALEevaluate_undated
+	install -D -m755 build/bin/misc/genetreeEditor $PKG/usr/bin/genetreeEditor
+}

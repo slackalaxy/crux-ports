@@ -1,0 +1,44 @@
+# Description: Seamonkey suite bin
+# URL: https://www.seamonkey-project.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: dbus-glib gtk gtk3 nss xorg-libxt
+
+name=seamonkey-bin
+version=2.53.13
+release=1
+source=(https://archive.mozilla.org/pub/seamonkey/releases/$version/linux-x86_64/en-US/seamonkey-${version}.en-US.linux-x86_64.tar.bz2
+	seamonkey-addressbook.desktop
+	seamonkey-composer.desktop
+	seamonkey-mail.desktop
+	seamonkey-private.desktop
+	seamonkey.desktop
+	seamonkey.directory
+	seamonkey.menu)
+
+build() {
+	cd seamonkey
+	mkdir -p $PKG/usr/lib/seamonkey
+	cp -a * $PKG/usr/lib/seamonkey
+	
+	mkdir -p $PKG/usr/share/{applications,desktop-directories,pixmaps}
+	cp chrome/icons/default/abcardWindow48.png $PKG/usr/share/pixmaps/seamonkey-private.png
+	cp chrome/icons/default/default48.png $PKG/usr/share/pixmaps/seamonkey.png
+	cp chrome/icons/default/editorWindow48.png $PKG/usr/share/pixmaps/seamonkey-composer.png
+	cp chrome/icons/default/addressbookWindow48.png $PKG/usr/share/pixmaps/seamonkey-addressbook.png
+	cp chrome/icons/default/messengerWindow48.png $PKG/usr/share/pixmaps/seamonkey-mail.png
+	
+	cp $SRC/seamonkey.directory $PKG/usr/share/desktop-directories
+	cp $SRC/*.desktop $PKG/usr/share/applications
+	
+	mkdir -p $PKG/usr/etc/xdg/menus/applications-merged
+	cp $SRC/seamonkey.menu $PKG/usr/etc/xdg/menus/applications-merged
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/seamonkey/seamonkey .
+	
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/seamonkey
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/seamonkey:g" $PKG/etc/revdep.d/$name
+}

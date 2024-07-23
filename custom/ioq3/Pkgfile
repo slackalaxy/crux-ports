@@ -1,0 +1,23 @@
+# Description: Quake III ioquake port
+# URL: https://github.com/ioquake/ioq3/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=ioq3
+version=6d74896
+release=1
+source=(https://github.com/ioquake/ioq3/archive/$version/$name-6d74896557d8c193a9f19bc6845a47e9d0f77db2.tar.gz
+	$name.desktop
+	$name.sh)
+
+build() {
+	cd $name-${version}*
+	make
+	make COPYDIR=$PKG/usr/share/$name copyfiles
+	
+	install -D -m755 $SRC/$name.sh $PKG/usr/bin/$name
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
+	cp -a misc/quake3-tango.png $PKG/usr/share/pixmaps/$name.png
+}

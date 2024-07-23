@@ -1,0 +1,15 @@
+# Description: Geany themes
+# URL: https://github.com/codebrainz
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: geany
+
+name=geany-themes
+version=0f29c77
+release=1
+source=(https://github.com/geany/geany-themes/archive/0f29c77e8c596900b9b8cf552498bdb317449cae.tar.gz)
+
+build() {
+	cd $name-${version}*
+	mkdir -p $PKG/usr/share/geany
+	cp -a colorschemes $PKG/usr/share/geany
+}

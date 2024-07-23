@@ -1,0 +1,22 @@
+# Description:	Test::Most
+# URL:		http://search.cpan.org/~ovid/Test-Most/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-exception-class p5-test-deep p5-test-differences p5-test-exception p5-test-warn
+
+name=p5-test-most
+version=0.37
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/O/OV/OVID/Test-Most-${version}.tar.gz)
+
+build() {
+	cd Test-Most-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

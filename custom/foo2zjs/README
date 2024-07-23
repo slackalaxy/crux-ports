@@ -1,0 +1,11 @@
+Do not install hpcups! Despite what cups README says, do this:
+	
+	modprobe usblp
+
+Make sure the module gets loaded at boot time, by adding it to:
+
+	/etc/rc.modules
+
+Make sure it is NOT blacklisted in:
+
+	/etc/modprobe.d/cups.conf

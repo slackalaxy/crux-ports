@@ -1,0 +1,54 @@
+# Description: GNU Paint: a small-scale GTK2 painting program
+# URL: http://www.gnu.org/software/gpaint/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 libglade libglvnd
+
+name=gpaint
+version=0.3.3
+release=1
+source=(http://ftp.de.debian.org/debian/pool/main/g/$name/${name}_${version}.orig.tar.gz
+	$name.desktop $name.png
+	01_drawing.patch
+	02_remove_menu_h_reference.patch
+	09_fix_menu_entry.patch
+	10_fix_crash_on_font_select.patch
+	11_fix_image_rotation.patch
+	20_fix_line_width_combo.patch
+	21_fix_crash_on_fill_button_click.patch
+	22_fix_not_printable_string.patch
+	23_add_accelerator_keys.patch
+	24_fix_crash_on_failed_write.patch
+	25_fix_color_selection.patch
+	26_fix_toolbar.patch)
+
+build() {
+	cd $name-2-$version
+	
+	# Thanks to Debian for the patches! And the man page and icon! And the
+	# whole source tarball, actually...
+	patch -p1 -i $SRC/01_drawing.patch
+	patch -p1 -i $SRC/02_remove_menu_h_reference.patch
+	patch -p1 -i $SRC/09_fix_menu_entry.patch
+	patch -p1 -i $SRC/10_fix_crash_on_font_select.patch
+	patch -p1 -i $SRC/11_fix_image_rotation.patch
+	patch -p1 -i $SRC/20_fix_line_width_combo.patch
+	patch -p1 -i $SRC/21_fix_crash_on_fill_button_click.patch
+	patch -p1 -i $SRC/22_fix_not_printable_string.patch
+	patch -p1 -i $SRC/23_add_accelerator_keys.patch
+	patch -p1 -i $SRC/24_fix_crash_on_failed_write.patch
+	patch -p1 -i $SRC/25_fix_color_selection.patch
+	patch -p1 -i $SRC/26_fix_toolbar.patch
+	
+	./configure --prefix=/usr \
+	--disable-nls
+	
+	make
+	make install DESTDIR=$PKG
+	
+	# Menu item and icon
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	
+	rm -rf $PKG/usr/share/locale
+}

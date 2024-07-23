@@ -1,0 +1,24 @@
+# Description: PolicyKit API with a Qt-style API
+# URL: https://www.kde.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion graphite2 icu libpcre2 polkit qt5
+
+name=polkit-qt5
+version=0.112.0
+release=2
+source=(http://download.kde.org/stable/apps/KDE4.x/admin/polkit-qt-1-$version.tar.bz2)
+
+
+build() {
+	cd polkit-qt-1-$version
+	mkdir -p build
+	cd build
+	cmake \
+	-D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	-D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_INSTALL_LIBDIR=lib ..
+	
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,30 @@
+# Description: xfce4-weather-plugin
+# URL: https://archive.xfce.org/src/panel-plugins/xfce4-weather-plugin
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xfce4-session xfce4-panel
+
+name=xfce4-weather-plugin
+version=0.8.11
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2
+	fix_api.patch)
+
+build() {
+	cd $name-$version
+	
+	# Based on https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=970259#10
+	patch -p1 -i $SRC/fix_api.patch
+	
+	GEONAMES_USERNAME="crux" \
+	./configure --prefix=/usr \
+	--disable-nls \
+	--sysconfdir=/usr/etc/xdg/xfce4 \
+	--enable-shared=yes \
+	--enable-static=no \
+	--enable-debug=no
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{locale,doc}
+}

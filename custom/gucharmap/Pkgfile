@@ -1,0 +1,35 @@
+# Description: Character map utility
+# URL: https://wiki.gnome.org/action/show/Apps/Gucharmap
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli gconf graphite2 gtk xorg-libxdamage
+
+name=gucharmap
+version=2.33.2
+release=2
+source=(https://download.gnome.org/sources/$name/${version%.*}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc \
+	--disable-nls \
+	--enable-static=no \
+	--disable-scrollkeeper \
+	--enable-gtk-doc-html=no
+
+	make
+	
+	cd help
+	DIRS=$(ls -d */ | sed "s:/::g")
+	for i in ${DIRS[@]} ; do
+	  touch $i/gucharmap-$i.omf.out
+	done
+	cd ..
+	
+	make install DESTDIR=$PKG
+
+	rm -rf $PKG/usr/share/{gnome,omf,locale}
+	rm -rf $PKG/usr/etc
+	rm -f $PKG/{,usr/}lib/*.la
+}

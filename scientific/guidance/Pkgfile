@@ -1,0 +1,30 @@
+# Description: GUIDe tree based AligNment ConfidencE
+# URL: http://guidance.tau.ac.il/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: perl p5-bioperl
+
+name=guidance
+version=2.02
+release=1
+source=(http://guidance.tau.ac.il/ver2/$name.v${version}.tar.gz
+	$name.sh)
+
+build() {
+	cd $name.v${version}
+	make
+	
+	find . -type f -iname '*.pl' -exec chmod 0755 {} \;
+	#find . -type f -iname '*.pl' -exec sed -i 's#/usr/bin/perl#/usr/bin/env perl#g' {} \;
+	find . -type f -iname 'Makefile' -exec rm -rf {} \;
+	find . -type f -iname 'makefile' -exec rm -rf {} \;
+	
+	mkdir -p $PKG/usr/lib/$name
+	rsync -av --exclude='*.o' \
+	          --exclude='*.cpp' \
+		  --exclude='*.h' \
+		  --exclude='*.dep' \
+		  --exclude='*.c' \
+	. $PKG/usr/lib/$name
+	
+	install -D -m755 $SRC/$name.sh $PKG/usr/bin/$name
+}

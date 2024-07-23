@@ -1,0 +1,19 @@
+# Description: GTK+ based simple text editor 
+# URL: http://tarot.freeshell.org/leafpad
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage
+
+name=leafpad
+version=0.8.18.1
+release=1
+source=(http://savannah.nongnu.org/download/$name/$name-$version.tar.gz)
+
+build() {
+ 	 cd $name-$version
+  	./configure --prefix=/usr \
+	--disable-nls
+    	make
+  	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/locale
+}

@@ -1,0 +1,26 @@
+# Description: urw-base35-fonts
+# URL: https://github.com/ArtifexSoftware/urw-base35-fonts/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=urw-base35
+version=20200910
+release=2
+source=(https://github.com/ArtifexSoftware/urw-base35-fonts/archive/refs/tags/$version.tar.gz)
+
+build() {
+	cd urw-base35-fonts-$version
+	
+	# fonts, OTF variant seems to work better with OOo
+	mkdir -p $PKG/usr/share/fonts/urw-base35
+	cp -a fonts/*.otf $PKG/usr/share/fonts/urw-base35
+	
+	# fontconfig
+	mkdir -p $PKG/etc/fonts/conf.avail
+	cd fontconfig
+	conf=$( ls *.conf )
+	for f in ${conf[@]}; do
+	  cp $f $PKG/etc/fonts/conf.avail/69-${f}
+	done
+	
+	chmod 0644 $PKG/usr/share/fonts/urw-base35/*.otf
+}

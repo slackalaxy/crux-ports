@@ -1,0 +1,18 @@
+# Description: CAP3 Assembly Program
+# URL: https://faculty.sites.iastate.edu/xqhuang/cap3-assembly-program
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=cap3
+version=20091029
+release=1
+source=(cap3.linux.x86_64.tar)
+
+build() {
+	cd CAP3
+	install -s -D -m755 $name $PKG/usr/bin/$name
+	install -s -D -m755 formcon $PKG/usr/bin/formcon
+	
+	mkdir -p $PKG/usr/share/$name
+	cp -a example $PKG/usr/share/$name
+}

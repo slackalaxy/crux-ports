@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Vivaldi
+GenericName=Web Browser
+Comment=Access the Internet
+Exec=/usr/bin/vivaldi %U
+StartupNotify=false
+Terminal=false
+Icon=vivaldi
+Type=Application
+Categories=Network;WebBrowser;
+Actions=new-window;new-private-window;

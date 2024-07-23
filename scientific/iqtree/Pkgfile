@@ -1,0 +1,17 @@
+# Description: Efficient software for phylogenomic inference
+# URL: http://www.iqtree.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=iqtree
+version=1.6.12
+release=1
+source=(https://github.com/Cibiv/IQ-TREE/releases/download/v${version}/$name-$version-Linux.tar.gz)
+
+build() {
+	cd $name-$version-Linux
+	install -D -m755 bin/$name $PKG/usr/bin/$name
+	
+	mkdir -p $PKG/usr/share/$name
+	cp -a example.* models.* $PKG/usr/share/$name
+}

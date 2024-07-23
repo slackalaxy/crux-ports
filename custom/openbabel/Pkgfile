@@ -1,0 +1,22 @@
+# Description: Open Babel 3D Library
+# URL: http://openbabel.sourceforge.net
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: jdk8-bin boost cairo eigen3 libxml2
+
+name=openbabel
+version=2.4.1
+release=1
+source=(https://github.com/openbabel/openbabel/archive/refs/tags/openbabel-2-4-1.tar.gz gcc.patch backport.patch)
+
+build() {
+	cd $name-$name-2-4-1
+	patch -p1 -i $SRC/backport.patch
+	patch -p1 -i $SRC/gcc.patch
+	cmake \
+	-DCMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS -fpermissive" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release .
+	make
+	make install DESTDIR=$PKG
+}

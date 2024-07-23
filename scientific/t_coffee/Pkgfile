@@ -1,0 +1,19 @@
+# Description: A multiple sequence alignment program
+# URL: http://www.tcoffee.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=t_coffee
+version=0125a58
+release=1
+source=(https://github.com/cbcrg/tcoffee/archive/$version/tcoffee-0125a58be083d3e3a41368761f70387c967f26f9.tar.gz)
+
+build() {
+	cd tcoffee-${version}*
+	
+	# Use our CFLAGS
+	sed -i "/^CFLAGS/s/=/+=/" t_coffee/src/makefile
+
+	make t_coffee -C t_coffee/src
+	install -D -m755 t_coffee/src/t_coffee $PKG/usr/bin/t_coffee
+}

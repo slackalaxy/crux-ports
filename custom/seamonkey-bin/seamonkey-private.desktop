@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SeaMonkey (Private Window)
+Comment=Web Browser Private Window
+Exec=seamonkey -private
+Icon=seamonkey-private.png
+Terminal=0
+Type=Application
+#Categories=Application;Network;

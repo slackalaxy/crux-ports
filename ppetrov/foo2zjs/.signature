@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcQOyvODvVSDsXMlsevMyKJlblVDNQusv2vdx241MOeDdtFg0LQFSA5HQmVxUHipHxx9/Q7nKVTqX+liPsVE2Qs=
-SHA256 (Pkgfile) = 41f8199000dbf0f80936f78373a4eecbfc580aabf59e686601550bcc2dcae056
-SHA256 (.footprint) = 53bf83da6fc30606179f2f11f40a453b9249fcdef70ea16c419fed47886389db
-SHA256 (foo2zjs-e04290de6b7a30d588f3411fd9834618e09f7b9b.tar.gz) = 5105113f1758c515265ee53882e846b2c4134b89e7b40906483c4497cd8df1f0
-SHA256 (destdir.patch) = 618df268f9ff312a69aa3482945e03dea0beb2502ce6744a74da45076935c9b2

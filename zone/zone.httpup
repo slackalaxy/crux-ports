@@ -1,8 +1,0 @@
-#
-# /etc/ports/zone.httpup: zone ports collection
-#
- 
-ROOT_DIR=/usr/ports/zone
-URL=https://raw.githubusercontent.com/slackalaxy/crux-ports/main/zone/
- 
-# End of file

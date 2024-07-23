@@ -1,0 +1,5 @@
+#!/bin/sh
+
+fc-cache /usr/share/fonts/urw-base35
+mkfontscale /usr/share/fonts/urw-base35
+mkfontdir /usr/share/fonts/urw-base35

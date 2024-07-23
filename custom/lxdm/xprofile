@@ -1,0 +1,23 @@
+# Use this as an example for ~/.xprofile
+
+#if [ -f ~/.bashrc ]; then
+#    . ~/.bashrc
+#fi
+
+## I like to set gamma a bit low...
+#xgamma -gamma 0.8
+
+## Use these Freetype properties? Don't forget to remove from /etc/fonts/conf.d/
+## 10-hinting-* and 10-autohint and 10-scale-bitmap-fonts.conf 
+# export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
+
+## Do we have QT5CT installed?
+# export QT_QPA_PLATFORMTHEME=qt5ct
+
+## Thanks SiFuh for this tip
+#if test -d /etc/profile.d/; then
+#        for profile in /etc/profile.d/*.sh; do
+#                test -r "$profile" && . "$profile"
+#        done
+#        unset profile
+#fi

@@ -1,0 +1,21 @@
+# Description: GTK+ FTP client
+# URL: https://github.com/masneyb/gftp
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage
+
+name=gftp
+version=2.9.1b
+release=1
+source=(https://github.com/masneyb/$name/archive/${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./autogen.sh
+	./configure --prefix=/usr \
+	--disable-nls
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{doc,locale}
+}

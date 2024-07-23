@@ -1,0 +1,28 @@
+# Description: Geany text editor
+# URL: http://www.geany.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage
+
+name=geany
+version=1.34.1
+release=2
+source=(http://download.geany.org/$name-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+
+	./configure --prefix=/usr \
+	--enable-plugins \
+	--disable-html-docs \
+	--disable-pdf-docs \
+	--disable-api-docs \
+	--disable-gtkdoc-header \
+	--disable-nls
+
+	make
+	make DESTDIR=$PKG install
+	
+	sed -i "s:Development:Utility:" $PKG/usr/share/applications/$name.desktop
+	rm -rf $PKG/usr/share/{doc,locale}
+	rm -f $PKG/{,usr/}lib/*.la
+}

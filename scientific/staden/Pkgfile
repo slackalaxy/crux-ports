@@ -1,0 +1,41 @@
+# Description: DNA sequence assembly, editing, and analysis tools
+# URL: http://staden.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: io_lib tk tklib xorg-libxscrnsaver
+
+name=staden
+version=2.0.0b11
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version-2016-src.tar.gz
+	desktop.tar.xz)
+
+build() {
+	cd $name-$version-2016-src
+	
+	TKLIB=tklib0.7	# Folder name of TKLIB
+	
+	./configure --prefix=/usr \
+	--with-tklib=/usr/lib/$TKLIB
+
+	make
+	make install DESTDIR=$PKG
+
+	# Use a separate "Staden Package" menu entry within "Education"	
+	mkdir -p $PKG/usr/etc/xdg/menus/applications-merged
+	cp $SRC/desktop/$name.menu $PKG/usr/etc/xdg/menus/applications-merged
+	
+	# The category in the .desktop files is commented out to avoid duplication
+	mkdir -p $PKG/usr/share/{applications,desktop-directories,pixmaps}
+	cp $SRC/desktop/*.desktop $PKG/usr/share/applications
+	cp $SRC/desktop/*.png $PKG/usr/share/pixmaps
+	cp $SRC/desktop/$name.directory $PKG/usr/share/desktop-directories
+
+	# Point to the right place of the EMBOSS .acd and data files. This is
+	# needed if the "create_emboss_files" script is run after install.
+	sed -i "133 c set acd_dir /usr/share/EMBOSS/acd" spin_emboss/create_emboss_files.tcl
+	sed -i "73 a EMBOSS_DATA=/usr/share/EMBOSS/data; export EMBOSS_DATA" spin/spin
+
+	# These are empty
+	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/man
+}

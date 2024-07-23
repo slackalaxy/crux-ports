@@ -1,0 +1,17 @@
+# Description: Murrine GTK themes
+# URL: https://launchpad.net/murrine-themes
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk-engine-murrine
+
+name=murrine-themes
+version=0.98.11
+release=2
+source=(http://sourceforge.net/projects/sboppetrov/files/$name/${name}_0.98.11.tar.xz
+	MurrinaGilouche2.tar.xz Murrine-LightBlue.tar.xz)
+
+build() {
+	mkdir -p $PKG/usr/share/themes
+	cp -a $name/usr/share/themes/* $PKG/usr/share/themes
+	cp -a MurrinaGilouche2 Murrine-LightBlue $PKG/usr/share/themes
+	rm $PKG/usr/share/themes/shearwater/gtk-2.0/Panel
+}

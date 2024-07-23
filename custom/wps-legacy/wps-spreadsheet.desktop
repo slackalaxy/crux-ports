@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=WPS Office Spreadsheet
+Comment=WPS Office Spreadsheet
+Exec=wps-spreadsheet
+Icon=wps-spreadsheet
+StartupNotify=false
+Type=Application
+Categories=Office

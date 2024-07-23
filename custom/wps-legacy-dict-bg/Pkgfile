@@ -1,0 +1,20 @@
+# Description: Bulgarian spellcheck
+# URL: https://github.com/LibreOffice/dictionaries/tree/master/bg_BG
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: wps-legacy
+
+name=wps-legacy-dict-bg
+version=20200104
+release=1
+source=(bg_BG.aff.tar.xz bg_BG.dic.tar.xz)
+
+build() {
+	mkdir -p $PKG/usr/lib/wps-legacy/office6/dicts/bg_BG
+	
+	touch $PKG/usr/lib/wps-legacy/office6/dicts/bg_BG/dict.conf
+	echo -e "[Dictionary] \nDisplayName=Bulgarian (BG) \nDisplayName[bg_BG]=Bulgarian (BG)" > \
+	$PKG/usr/lib/wps-legacy/office6/dicts/bg_BG/dict.conf
+	
+	cat $SRC/bg_BG.aff > $PKG/usr/lib/wps-legacy/office6/dicts/bg_BG/main.aff
+	cat $SRC/bg_BG.dic > $PKG/usr/lib/wps-legacy/office6/dicts/bg_BG/main.dic
+}

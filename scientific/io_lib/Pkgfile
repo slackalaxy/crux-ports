@@ -1,0 +1,18 @@
+# Description: Provides a trace file reading interface
+# URL: https://github.com/jkbonfield/io_lib
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=io_lib
+version=1.14.14
+release=1
+source=(https://github.com/jkbonfield/$name/releases/download/$name-1-14-14/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+}

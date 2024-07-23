@@ -1,0 +1,30 @@
+# Description: A Portable Foreign Function Interface Library (compat)
+# URL: http://sourceware.org/libffi/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=libffi6
+version=3.2
+release=1
+source=(https://sourceware.org/pub/libffi/libffi-$version.tar.gz)
+
+build() {
+	cd libffi-$version
+
+	sed -e '/^includesdir/ s/$(libdir).*$/$(includedir)/' \
+        -i include/Makefile.in
+
+	sed \
+        -e '/^includedir/ s/=.*$/=@includedir@/' \
+        -e 's/^Cflags: -I${includedir}/Cflags:/' \
+        -i libffi.pc.in
+
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+    
+	rm -rf $PKG/usr/share
+	rm -rf $PKG/usr/include
+	rm -rf $PKG/usr/lib/pkgconfig
+	rm -rf $PKG/usr/lib/libffi.{a,la,so}
+}

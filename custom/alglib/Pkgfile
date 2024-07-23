@@ -1,0 +1,33 @@
+# Description: A library for numerical analysis and data processing
+# URL: http://www.alglib.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=alglib
+version=2.6.0
+release=1
+source=(http://ponce.cc/slackware/sources/repo/alglib-2.6.0.cpp.zip)
+
+build() {
+	cd cpp/src
+	gcc $CFLAGS -I. -c *.cpp
+	ar rcs libalglib.a *.o
+
+	# build shared lib
+	rm -f *.o
+	gcc $CFLAGS -I. -fPIC -c *.cpp
+	gcc $CFLAGS -shared -Wl,-soname,libalglib.so.2 -o libalglib.so.$version *.o
+
+	# install library
+	install -D -m644 libalglib.a $PKG/usr/lib/libalglib.a
+	install -D -m644 libalglib.so.$version $PKG/usr/lib/libalglib.so.$version
+
+	# install headers
+	mkdir -p $PKG/usr/include/libalglib
+	install -m644 *.h $PKG/usr/include/libalglib
+
+	# make a few symlinks
+	cd $PKG/usr/lib
+	ln -s libalglib.so.$version libalglib.so.2
+	ln -s libalglib.so.$version libalglib.so
+}

@@ -1,0 +1,31 @@
+# Description: Lightweight video thumbnailer that can be used by file managers.
+# URL: https://github.com/dirkvdb/ffmpegthumbnailer
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli ffmpeg4 gnutls graphite2 lame libass libtheora libva libvdpau libvpx libwebp opus x264 x265
+
+name=ffmpegthumbnailer
+version=2.2.2
+release=4
+source=(https://github.com/dirkvdb/$name/archive/$version.tar.gz)
+
+build() {
+
+	# The version of tumbler that I use, requires ffmpegthumbnailer to be
+	# compiled against ffmpeg4	
+	export PKG_CONFIG_PATH="/usr/lib/ffmpeg4/pkgconfig/:$PKG_CONFIG_PATH"
+	
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+	-D CMAKE_C_FLAGS:STRING="$CFLAGS -I/usr/include/ffmpeg4/" \
+	-D CMAKE_CXX_FLAGS:STRING="$CXXCFLAGS -I/usr/include/ffmpeg4/" \
+	-D CMAKE_BUILD_TYPE=Release \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_INSTALL_LIBDIR=lib \
+	-D ENABLE_GIO=ON \
+	-D ENABLE_THUMBNAILER=ON ..
+
+	make
+	make DESTDIR=$PKG install
+}

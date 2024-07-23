@@ -1,0 +1,18 @@
+Thanks to Arch Linux for this!
+https://wiki.archlinux.org/title/WPS_Office#WPS_Office_Overriding/Breaks_Mime
+
+Troubleshooting
+WPS Office Overriding/Breaks Mime
+To Fix this problem you need to edit Office.conf in your home directory /home/<youruser>/.config/Kingsoft/Office.conf
+
+# cd /home/<youruser>/.config/Kingsoft
+or
+# cd ~/.config/Kingsoft
+Note: The second command for the sake of convenience
+
+
+After that find Office.conf and open it using your text editor Then add the following before [kdcsdk]:
+
+common\do_not_detect_file_association_while_startup=true
+
+Then save it, and restart WPS Office.

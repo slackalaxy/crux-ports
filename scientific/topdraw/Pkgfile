@@ -1,0 +1,18 @@
+# Description: A sketchpad for protein topology diagrams
+# URL: http://crystal.scb.uwa.edu.au/charlie/software/topdraw/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: tk
+
+name=topdraw
+version=sep2002
+release=1
+source=(http://crystal.scb.uwa.edu.au/charlie/software/topdraw/topdraw.zip
+	$name.desktop $name.png)
+
+build() {
+	install -D -m755 $name $PKG/usr/bin/$name
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

@@ -1,0 +1,27 @@
+# Description: Comparison of multiple interaction networks
+# URL: https://web.rniapps.net/compnet/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r xorg-libxmu-32
+# R modules: igraph
+
+name=compnet
+version=1.0
+release=1
+source=(https://web.rniapps.net/compnet/dist/CompNet_linux64.zip
+	$name.desktop $name.png njplot.desktop njplot.png)
+
+build() {
+	cd CompNet_linux64
+	install -D -m755 CompNet_linux64 $PKG/usr/bin/$name
+	install -D -m755 neighbor $PKG/usr/bin/neighbor
+	install -D -m755 njplot $PKG/usr/bin/njplot
+	
+	mkdir -p $PKG/usr/share/$name
+	cp -a case_studies *.txt *.pdf $PKG/usr/share/$name
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/njplot.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+	cp $SRC/njplot.png $PKG/usr/share/pixmaps
+}

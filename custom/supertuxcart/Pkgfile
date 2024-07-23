@@ -1,0 +1,24 @@
+# Description: A 3D arcade racer
+# URL: https://supertuxkart.net/Main_Page
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bluez brotli glew glu harfbuzz libjpeg-turbo libpsl libsdl2 libvorbis openal openldap rtmpdump
+
+name=supertuxcart
+version=1.3
+release=1
+source=(http://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/$version/SuperTuxKart-$version-src.tar.xz)
+
+build() {
+	cd SuperTuxKart-$version-src
+	
+	mkdir -p build
+	cd build
+	cmake \
+	-DCMAKE_C_FLAGS:STRING="$CFLAGS" \
+	-DCMAKE_CXX_FLAGS:STRING="$CXXCFLAGS" \
+	-DCMAKE_INSTALL_PREFIX=/usr \
+	-DCMAKE_BUILD_TYPE=Release \
+	-DBUILD_RECORDER=0 ..
+	make
+	make install DESTDIR=$PKG
+}

@@ -1,0 +1,30 @@
+# Description: A set of GStreamer-0.10.x plugins
+# URL: https://gstreamer.freedesktop.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gstreamer0
+
+name=gst0-plugins-ugly
+version=0.10.19
+release=1
+source=(https://gstreamer.freedesktop.org/src/gst-plugins-ugly/gst-plugins-ugly-$version.tar.bz2
+	cdio-cd-text-api.patch)
+
+build() {
+	cd gst-plugins-ugly-$version
+	
+	# Fix support for newer opencore-amr versions
+	sed -i "s|interf_dec.h|opencore-amrnb/interf_dec.h|" ext/amrnb/amrnbdec.h
+	sed -i "s|interf_enc.h|opencore-amrnb/interf_enc.h|" ext/amrnb/amrnbenc.h
+	sed -i "s|dec_if.h|opencore-amrwb/dec_if.h|" ext/amrwbdec/amrwbdec.h
+	sed -i "s|if_rom.h|opencore-amrwb/if_rom.h|" ext/amrwbdec/amrwbdec.h
+
+	# patch for the newer libcdio
+	patch -p1 < $SRC/cdio-cd-text-api.patch
+
+	./configure --prefix=/usr \
+	--disable-static \
+	--disable-nls
+
+	make
+	make install DESTDIR=$PKG
+}

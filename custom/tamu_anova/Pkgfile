@@ -1,0 +1,18 @@
+# Description: Contains both single and two factor ANOVA
+# URL: https://directory.fsf.org/wiki/Tamuanova
+# Maintainer: Petar Petrov
+
+name=tamu_anova
+version=0.2
+release=1
+source=(http://sourceforge.net/projects/sboppetrov/files/tamu_anova/tamuanova_0.2.orig.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/info
+}

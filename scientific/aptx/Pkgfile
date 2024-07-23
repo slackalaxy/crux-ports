@@ -1,0 +1,17 @@
+# Description: Archaeopteryx - visualise, analyse and edit phylogenetic trees
+# URL: https://sites.google.com/site/cmzmasek/home/software/archaeopteryx
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: jdk8-bin
+
+name=aptx
+version=1050
+release=1
+source=(http://www.phyloxml.org/download/forester/forester_${version}.jar
+	_aptx_configuration_file.txt $name.desktop $name.png)
+
+build() {
+	install -D -m755 $SRC/forester_${version}.jar $PKG/usr/bin/$name.jar
+	install -D -m644 $SRC/_aptx_configuration_file.txt $PKG/usr/share/$name
+	install -D -m644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+	install -D -m644 $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
+}

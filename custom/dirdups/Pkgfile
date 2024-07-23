@@ -1,0 +1,15 @@
+# Description: fast search for duplicated directories
+# URL: https://github.com/un1t/dirdups
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: rust
+
+name=dirdups
+version=145b61d
+release=1
+source=(https://github.com/un1t/dirdups/archive/145b61d/dirdup-145b61d72fa64f4a8b2951c8bd641374d90321c1.tar.gz)
+
+build() {
+	cd $name-${version}*
+	cargo build --release
+	install -D -m755 target/release/$name $PKG/usr/bin/$name
+}

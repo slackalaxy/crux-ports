@@ -1,0 +1,26 @@
+# Description: A general vector illustrating application
+# URL: https://sourceforge.net/projects/sodipodi/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtk libart_lgpl libglvnd popt xorg-libxdamage
+
+name=sodipodi
+version=0.34
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name/$version/$name-$version.tar.gz
+	png_jmpbuf.patch)
+
+build() {
+	cd $name-$version
+	
+	patch -p1 -i $SRC/png_jmpbuf.patch
+	
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CFLAGS -fcommon" \
+	LDFLAGS="-Wl,--copy-dt-needed-entries" \
+	./configure --prefix=/usr \
+	--disable-nls
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/locale
+}

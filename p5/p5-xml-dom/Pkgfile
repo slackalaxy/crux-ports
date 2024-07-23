@@ -1,0 +1,22 @@
+# Description:	XML::DOM
+# URL:		http://search.cpan.org/~tjmather/XML-DOM/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-libwww p5-xml-libxml p5-xml-parser p5-xml-regexp
+
+name=p5-xml-dom
+version=1.46
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/T/TJ/TJMATHER/XML-DOM-${version}.tar.gz)
+
+build() {
+	cd XML-DOM-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+}

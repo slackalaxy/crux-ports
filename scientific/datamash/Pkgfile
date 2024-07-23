@@ -1,0 +1,21 @@
+# Description: Basic numeric, textual and statistical operations
+# URL: https://www.gnu.org/software/datamash/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=datamash
+version=1.7
+release=1
+source=(https://ftp.gnu.org/gnu/datamash/$name-$version.tar.gz)
+
+build() {
+cd $name-$version
+	./configure --prefix=/usr \
+	--disable-nls
+
+	make
+	make check
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/info
+}

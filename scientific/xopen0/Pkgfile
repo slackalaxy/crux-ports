@@ -1,0 +1,14 @@
+# Description: A xopen function that can deal with compressed files
+# URL: https://pypi.python.org/pypi/xopen
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=xopen0
+version=0.2.1
+release=1
+source=(https://pypi.python.org/packages/53/1f/01d32269f01fccf1a6d8d5d795f939cb56274c82f7520cc25152ee8de486/xopen-0.2.1.tar.gz)
+
+build() {
+	cd xopen-$version
+	python2 setup.py install --root=$PKG
+}

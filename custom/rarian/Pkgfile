@@ -1,0 +1,21 @@
+# Description: A documentation metadata library
+# URL: http://rarian.freedesktop.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=rarian
+version=0.8.1
+release=2
+source=(https://rarian.freedesktop.org/Releases/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+	--sysconfdir=/usr/etc
+
+	make
+	make install DESTDIR=$PKG
+	
+	rm -rf $PKG/usr/share/help
+	rm -f $PKG/{,usr/}lib/*.la
+}

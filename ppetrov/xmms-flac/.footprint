@@ -1,8 +1,0 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/lib/
-lrwxrwxrwx	root/root	usr/lib/libFLAC.so.8 -> libFLAC.so.8.3.0
--rwxr-xr-x	root/root	usr/lib/libFLAC.so.8.3.0
-drwxr-xr-x	root/root	usr/lib/xmms/
-drwxr-xr-x	root/root	usr/lib/xmms/Input/
--rwxr-xr-x	root/root	usr/lib/xmms/Input/libxmms-flac.la
--rwxr-xr-x	root/root	usr/lib/xmms/Input/libxmms-flac.so

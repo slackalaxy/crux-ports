@@ -1,0 +1,39 @@
+# Description: A Sequence Alignment Editor and Viewer
+# URL: http://crystal.scb.uwa.edu.au/charlie/software/aline
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p5-tk
+
+name=aline
+version=011208
+release=1
+source=(http://crystal.scb.uwa.edu.au/charlie/software/aline/aline_011208.tar.gz
+	$name.desktop $name.png)
+
+build() {
+	cd ${name}_${version}
+	
+	# Point aline to the correct paths of its colour schemes, examples,
+	# plugins and scripts.
+	sed -i "s:%%SELFplugins:/usr/lib/$name/plugins:g" bin/aline
+	sed -i "s:%%SELFscripts:/usr/lib/$name/scripts:g" bin/aline
+	sed -i "s:%%SELFcolourschemes:/usr/share/$name/colourschemes:g" bin/aline
+	sed -i "s:%%SELFexample:/usr/share/$name/example:g" bin/aline
+
+	# Change the maximum row length to a value you specify.
+	ROW="1000"
+	sed -i "s:10,100,40:10,$ROW,40:g" bin/$name
+
+	install -D -m755 bin/$name $PKG/usr/bin/$name
+	install -D -m755 bin/convertdump $PKG/usr/bin/convertdump
+
+	mkdir -p $PKG/usr/lib/$name
+	cp -a plugins $PKG/usr/lib/$name
+
+	mkdir -p $PKG/usr/share/$name/
+	cp -a colourschemes example $PKG/usr/share/$name
+	
+	# Couldn't find an icon, so I assembled this thing from the program's logo...
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.png $PKG/usr/share/pixmaps
+}

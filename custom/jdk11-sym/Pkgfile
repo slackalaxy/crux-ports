@@ -1,0 +1,15 @@
+# Description: Creates a symlink to Adoptium 11 JDK
+# URL:
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: adoptium11-jdk
+
+name=jdk11-sym
+version=latest
+release=1
+source=()
+
+build() {
+	mkdir -p $PKG/usr/lib/jdk
+	cd $PKG/usr/lib/jdk
+	ln -s /usr/lib/jdk/adoptium11-jdk openjdk11-jdk
+}

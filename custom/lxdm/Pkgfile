@@ -1,0 +1,32 @@
+# Description: GUI login manager from the LXDE project
+# URL: http://ponce.cc/slackware/sources/repo/lxde
+# Maintainer: Petar Petrov, slackalaxy at gmail.com
+# Depends on: brotli consolekit graphite2 gtk xorg-libxdamage
+
+name=lxdm
+version=20220124_f662906
+release=1
+
+source=(http://ponce.cc/slackware/sources/repo/lxde/$name-$version.tar.xz
+	$name.rc xprofile)
+
+build() {
+	# Thank you Ponce for the sources!
+	cd $SRC/$name-$version
+	./autogen.sh 
+	./configure --prefix=/usr \
+	--sysconfdir=/etc \
+	--libexecdir=/usr/lib/$name \
+	--disable-nls \
+	--disable-gtk3 \
+	--without-pam
+	
+	make
+	make DESTDIR=$PKG prefix=/usr install
+
+	# Include xprofile example
+	cp $SRC/xprofile $PKG/usr/share/$name
+	
+	install -D -m755 $SRC/$name.rc $PKG/etc/rc.d/$name
+	rm -fr $PKG/usr/share/locale
+}

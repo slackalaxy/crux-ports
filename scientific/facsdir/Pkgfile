@@ -1,0 +1,13 @@
+# Description: Desktop directory shared by FACS applications
+# URL:
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=facsdir
+version=0.1
+release=1
+source=($name.directory)
+
+build() {
+	install -D -m644 $name.directory $PKG/usr/share/desktop-directories/$name.directory
+}

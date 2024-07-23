@@ -1,0 +1,24 @@
+# Description: GNOME Structured File Library
+# URL: https://download.gnome.org/sources/libgsf/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gdk-pixbuf
+
+name=libgsf
+version=1.14.49
+release=2
+source=(https://download.gnome.org/sources/$name/${version%.*}/$name-$version.tar.xz)
+
+build(){
+	cd $name-$version
+
+	sed -i -e 's|USE_NLS=yes|USE_NLS=no|;s|ENABLE_NLS 1|ENABLE_NLS 0|' configure
+
+	./configure --prefix=/usr \
+	--disable-static
+
+	make 
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/gtk-doc
+	rm -f $PKG/{,usr/}lib/*.la
+}

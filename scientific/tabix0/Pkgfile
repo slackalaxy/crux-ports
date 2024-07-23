@@ -1,0 +1,28 @@
+# Description: Legacy version of Tabix
+# URL: http://samtools.sourceforge.net/tabix.shtml
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=tabix0
+version=0.2.6
+release=1
+source=(http://sourceforge.net/projects/samtools/files/tabix/tabix-$version.tar.bz2)
+
+build() {
+	cd tabix-$version
+	
+	make \
+	CFLAGS="$CFLAGS" \
+	CXXFLAGS="$CXXCFLAGS"
+	
+	# Install executables
+	install -D -m755 tabix $PKG/usr/bin/tabix0
+	install -D -m755 bgzip $PKG/usr/bin/bgzip0
+
+	# Place manpage
+	install -D -m644 tabix.1 $PKG/usr/man/man1/$name.1
+
+	# Include examples
+	mkdir -p $PKG/usr/share/$name
+	cp -a example.gtf.gz example.gtf.gz.tbi $PKG/usr/share/$name
+}

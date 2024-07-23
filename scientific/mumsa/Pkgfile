@@ -1,0 +1,16 @@
+# Description: Assessment of the quality of multiple sequence alignments
+# URL: https://msa.sbc.su.se/cgi-bin/msa.cgi
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=mumsa
+version=1.0
+release=1
+source=(http://msa.sbc.su.se/downloads/$name-$version.tgz)
+
+build() {
+	cd $name-$version
+	sed -i "/^CFLAGS/s/=/+=/" Makefile
+	PREFIX=/usr make
+	install -D -m755 $name $PKG/usr/bin/$name
+}
