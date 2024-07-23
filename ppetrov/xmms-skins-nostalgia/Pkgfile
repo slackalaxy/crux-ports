@@ -4,12 +4,12 @@
 # Depends on: xmms
 
 name=xmms-skins-nostalgia
-version=123b010
+version=7ae7086
 release=1
-source=(https://github.com/slackalaxy/$name/archive/$version/$name-123b0100a3c9c4bd417197c2e6cd0d83c5fce07f.tar.gz)
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/$name.tar.xz)
 
 build() {
-	cd $name-${version}*
+	cd $name
 	mkdir -p $PKG/usr/share/xmms/Skins
 	cp -a *.zip $PKG/usr/share/xmms/Skins
 	cp -a *.wsz $PKG/usr/share/xmms/Skins
