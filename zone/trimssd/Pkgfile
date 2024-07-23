@@ -3,13 +3,11 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=trimssd
-version=dcf1bdb
-release=3
-source=(https://github.com/slackalaxy/trimssd/archive/$version/$name-dcf1bdb389656297fb2ab2cbba850ad95fef3fac.tar.gz)
+version=20240724
+release=1
+source=($name.conf $name.sh)
 
 build() {
-	cd $name-${version}*
-	
 	install -D -m644 $name.conf $PKG/etc/$name.conf
 	
 	# Pick one...

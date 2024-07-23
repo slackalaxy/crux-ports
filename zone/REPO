@@ -134,9 +134,11 @@ f:013cfbab9b8ed5f2f3ea9f981ab0c6d3:slackalaxy-repos/.footprint
 f:f6d4cd3cf01f97711e565f1e245290ab:slackalaxy-repos/.signature
 f:6bb15d3e4f4bfb43679b292f5cd99134:slackalaxy-repos/Pkgfile
 f:676720c6b82c88d57c65bfd9c21b78d0:trimssd/.footprint
-f:2d91ceefef1c8c7240c209ba88d74ada:trimssd/.signature
-f:5b534aeff9406501b311e087b5348844:trimssd/Pkgfile
+f:ffb71f7c629a7531c1bce93de5920325:trimssd/.signature
+f:747a0edb4bd22e79db8cf1462b565e3a:trimssd/Pkgfile
 f:de43ed3a531c44a785b8bc04204e4637:trimssd/README
+f:4e3b444d93a815977f9b7e306021fd53:trimssd/trimssd.conf
+f:f31639e7cfdab302a18eafce0d5c0c51:trimssd/trimssd.sh
 f:9c0e17a8352fa72d406f04236aab2602:xorg-conf-keyboard-fi/.footprint
 f:dfc064067b84d1b6585597f9eb68f2ee:xorg-conf-keyboard-fi/.signature
 f:a36cad5494121166b3ee3a9d9d060ecd:xorg-conf-keyboard-fi/00-keyboard.conf
