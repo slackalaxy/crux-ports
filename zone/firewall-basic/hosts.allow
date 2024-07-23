@@ -1,0 +1,2 @@
+# ALL: ALL: DENY
+sshd: ALL: ALLOW

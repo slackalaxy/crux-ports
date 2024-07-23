@@ -3,12 +3,11 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=firewall-basic
-version=5fafb26
-release=3
-source=(https://github.com/slackalaxy/firewall-basic/archive/$version/$name-5fafb2613258267f6bac551849ea09dd35ddcdd2.tar.gz)
+version=20240723
+release=1
+source=(firewall.conf firewall.sh firewalld hosts.allow hosts.deny)
 
 build() {
-	cd $name-${version}*
 	install -D -m755 firewalld $PKG/etc/rc.d/firewalld
 	install -D -m755 firewall.sh $PKG/usr/sbin/firewall
 	install -D -m644 firewall.conf $PKG/etc/firewall.conf

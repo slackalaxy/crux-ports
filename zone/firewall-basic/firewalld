@@ -1,0 +1,25 @@
+#!/bin/sh
+#
+# /etc/rc.d/firewalld: startʒstop|restart|status firewall
+#
+
+case $1 in
+start)
+	/usr/sbin/firewall
+	;;
+stop)
+	iptables --flush
+	;;
+restart)
+	iptables --flush
+	/usr/sbin/firewall
+	;;
+status)
+	iptables --list-rules
+	;;
+*)
+	echo "usage: $0 [start|stop|restart|status]"
+	;;
+esac
+
+# End of file

@@ -2,14 +2,13 @@
 # URL: https://github.com/slackalaxy/freshenup
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
-name=freshenup
-version=00b046b
+name=housecleaning
+version=20240723
 release=1
-source=(https://github.com/slackalaxy/freshenup/archive/$version/$name-00b046b24f28ddc37666b146ade80dde7f10d2ad.tar.gz)
+source=($name.sh)
 
 build() {
-	cd $name-${version}*
-	
+
 	# Pick one...
 	#install -D -m755 $name.sh $PKG/etc/cron/daily/$name
 	#install -D -m755 $name.sh $PKG/etc/cron/hourly/$name
