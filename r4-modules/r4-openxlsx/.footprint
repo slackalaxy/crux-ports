@@ -8,6 +8,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/openxlsx/
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/LICENSE
 drwxr-xr-x	root/root	usr/lib/R/library/openxlsx/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/Meta/Rd.rds
+-rw-r--r--	root/root	usr/lib/R/library/openxlsx/Meta/data.rds
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/Meta/features.rds
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/Meta/hsearch.rds
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/Meta/links.rds
@@ -23,6 +24,10 @@ drwxr-xr-x	root/root	usr/lib/R/library/openxlsx/R/
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/R/sysdata.rdx
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/WORDLIST
+drwxr-xr-x	root/root	usr/lib/R/library/openxlsx/data/
+-rw-r--r--	root/root	usr/lib/R/library/openxlsx/data/Rdata.rdb
+-rw-r--r--	root/root	usr/lib/R/library/openxlsx/data/Rdata.rds
+-rw-r--r--	root/root	usr/lib/R/library/openxlsx/data/Rdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/openxlsx/doc/
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/doc/Formatting.R
 -rw-r--r--	root/root	usr/lib/R/library/openxlsx/doc/Formatting.Rmd

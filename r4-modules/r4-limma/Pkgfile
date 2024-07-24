@@ -5,7 +5,7 @@
 # Optional: r4-affy r4-annotationdbi r4-biasedurn r4-biobase r4-biocstyle r4-ellipse r4-go-db r4-gplots r4-illuminaio r4-knitr r4-locfit r4-mass r4-org-hs-eg-db r4-vsn
 
 name=r4-limma
-version=3.60.3
+version=3.60.4
 release=1
 source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/limma_${version}.tar.gz)
 

@@ -1,13 +1,13 @@
 # Description: R module polyclip
 # URL: https://cran.r-project.org/web/packages/polyclip
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-polyclip
-version=1.10.6
+version=1.10.7
 release=1
-source=(https://cloud.r-project.org/src/contrib/polyclip_1.10-6.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/polyclip_1.10-7.tar.gz)
 
 build() {
 	cd polyclip

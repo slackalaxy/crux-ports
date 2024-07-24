@@ -5,7 +5,7 @@
 # Optional: r4-chron r4-dplyr r4-glue r4-hmisc r4-lubridate r4-purrr r4-rlang r4-rmarkdown r4-testthat r4-tibble r4-tidyr r4-tidyselect r4-xml r4-xml2
 
 name=r4-htmltable
-version=2.4.2
+version=2.4.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/htmlTable_${version}.tar.gz)
 
