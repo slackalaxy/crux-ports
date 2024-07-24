@@ -1,7 +1,7 @@
 # Description: Extra configurations
 # URL: /etc/skel
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fonts-conf gigolo-gtk2 gnome-colors-48 leafpad medit qt5ct viewnior xscreensaver-gtk2 inkscape-gtk2 gimp wps-office
+# Depends on: fonts-conf gigolo-gtk2 gnome-colors leafpad medit qt5ct viewnior xscreensaver-gtk2 inkscape-gtk2 gimp wps-office
 
 name=skel-extra
 version=0.6

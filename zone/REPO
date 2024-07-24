@@ -111,8 +111,8 @@ f:d9150b209f049234e4f3fb7cb787b66b:repgen/Pkgfile
 f:5bf3af6de64adc005e07a1eb2f8dbd6c:repgen/README
 f:a26a2461a55335e9cf3ff3c670dbfefc:repgen/pkg-repgen
 f:4d253e7467a72d2170cb69d34b91b3c7:skel-extra/.footprint
-f:9262f76bae5f361ad302856834b39d3d:skel-extra/.signature
-f:a4ea1add89a48d363c14dd5cb5d6a69d:skel-extra/Pkgfile
+f:da08e1b07f343e555d320f25dcac392e:skel-extra/.signature
+f:45b791abbb35e9418dbbc26fac936cc6:skel-extra/Pkgfile
 f:0e73e98d8cd659b06b4a1848967b1cef:skel-extra/config.tar.xz
 f:404b166726f1cbe1a9bf154765af847b:skel-extra/hidden
 f:36885ccf052838275d4156c075e26966:skel-extra/local.tar.xz
