@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZWrI/zTuVT9OfvUuTYaCQJGlA7LR61YD3pD2zgJxrAu7bEdM5SmVWxAz1BPaZA1p2cMw7pAP6+2HRF8LyiOPtAo=
-SHA256 (Pkgfile) = 5db05c9d055635cbf6320482b9cdd43932885e8215d591ae823105cb4d365ad5
-SHA256 (.footprint) = 6104af2d39af71caf1a09e3ea7aeb5d5bfba7e52e8f7bf15ba87c589f233755c
-SHA256 (murrine-themes.tar.xz) = 6b1420e904804157c45c53ce07ebe8b5349f2e5ce8a5151167763b92aaa5fac1
+RWToVVsIkzFIZZH4jtz2vrkC3cjKXtlCNg6RrQmqQvWawZ5vxs6OezpFOi4gje+PuZ+sRLYZ3o66/tk8ErnB32johXXTn+54+AA=
+SHA256 (Pkgfile) = 8eeede4d2e8bfc78a72987ccabf24a7f0d8721cc6d30ba04a2c2bed1f119fd74
+SHA256 (.footprint) = 3870d017d76814ed3d09ad23db6fbaa035ffcb83312ee764282b163a79d5e6b9
+SHA256 (murrine-themes-a8065a52520f6dfabec662dd3d9a1272fb7da18d.tar.gz) = 3e07df37b1ff876ee5301a175f8d7ae38f4fdd03e0c47a5930b9b08e85526f4d
