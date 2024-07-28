@@ -51,8 +51,8 @@ f:8b7cf3f8b5032c34501229799a50c2f4:firewall-basic/firewalld
 f:e827c99c030b92a5ad2cfafef200ce6b:firewall-basic/hosts.allow
 f:652f88a1e73893ca880988042b27a5f1:firewall-basic/hosts.deny
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
-f:481aac6d7edc42e055e31143c7611ef6:fonts-conf/.signature
-f:62f298759589fa50ddc9b2a9abca94d4:fonts-conf/Pkgfile
+f:565309cd67ac341c2c31ed8ad5f271bd:fonts-conf/.signature
+f:830a2d79e2d0a4e133c0f8b75a3fdebb:fonts-conf/Pkgfile
 f:00ed35084250268075e059f0d7bc984f:fonts-conf/README
 f:122369691854a6902b7aebbea6f0fc40:fonts-macsel/.footprint
 f:e975a1f25fc296873d673625f0136609:fonts-macsel/.signature
