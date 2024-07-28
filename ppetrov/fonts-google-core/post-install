@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkfontdir /usr/share/fonts/google
+mkfontscale /usr/share/fonts/google
+fc-cache

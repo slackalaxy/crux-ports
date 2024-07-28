@@ -1,0 +1,46 @@
+# Description: Curated fonts list from Google
+# URL: https://github.com/google/fonts/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=fonts-google-core
+version=0.24
+release=1
+source=(https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/Roboto[wdth,wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OpenSans[wdth,wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/Montserrat[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/raleway/Raleway[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/PlayfairDisplay[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/Oswald[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/lora/Lora[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/RobotoSlab[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/SourceSans3[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/bitter/Bitter[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/cabin/Cabin[wdth,wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/Rubik[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/teko/Teko[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/archivo/Archivo[wdth,wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/syne/Syne[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter[opsz,wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Bold.ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-BoldItalic.ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Italic.ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans[opsz,wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/arimo/Arimo[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/tinos/Tinos-Bold.ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/tinos/Tinos-BoldItalic.ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/tinos/Tinos-Italic.ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/tinos/Tinos-Regular.ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/cousine/Cousine-Bold.ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/cousine/Cousine-BoldItalic.ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/cousine/Cousine-Italic.ttf
+	https://raw.githubusercontent.com/google/fonts/main/apache/cousine/Cousine-Regular.ttf)
+
+build() {
+  mkdir -p $PKG/usr/share/fonts/google
+  cp -a *.ttf $PKG/usr/share/fonts/google
+  chmod 0644 $PKG/usr/share/fonts/google/*.ttf
+}
