@@ -4,14 +4,15 @@
 # Depends on: cups double-conversion gnutls graphite2 icu libidn2 nss qt5 qt6-base wayland
 
 name=google-chrome
-version=current
+version=127.0.6533.72
 #version=$(ar p $name-stable_current_amd64.deb control.tar.xz 2> /dev/null | tar JxO ./control 2> /dev/null | grep Version | awk '{print $2}' | cut -d- -f1)
-release=7
+release=1
 source=(https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 	$name.fonts.conf)
+renames=($name-stable-${version}_amd64.deb SKIP)
 
 build() {
-	bsdtar -xf $name-stable_current_amd64.deb 
+	bsdtar -xf $name-stable-${version}_amd64.deb
 	bsdtar -xf data.tar.xz
 
 	# Modified from google-chrome.SlackBuild for Slackware from /extra
