@@ -4,8 +4,8 @@
 # Depends on: wps-office
 
 name=wps-office-dicts
-version=7.5.4.1
-release=2
+version=24.2.4.2
+release=1
 source=(https://github.com/LibreOffice/dictionaries/archive/libreoffice-$version/dictionaries-libreoffice-$version.tar.gz
 	DICTIONARIES)
 
