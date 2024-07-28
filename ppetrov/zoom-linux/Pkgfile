@@ -4,11 +4,12 @@
 # Depends on: double-conversion gnutls graphite2 gtk3 icu keyutils krb5 lame libcef libidn2 libinput pulseaudio qt5 tslib wayland
 
 name=zoom-linux
-version=latest
+version=6.1.5.871
 #version=$(tar -xOf zoom_x86_64.tar.xz zoom/version.txt)
-release=8
+release=1
 source=(https://zoom.us/client/latest/zoom_x86_64.tar.xz
 	$name.desktop $name.png $name.xml)
+renames=($name-$version.tar.xz SKIP SKIP SKIP)
 
 build() {
 	cd zoom
