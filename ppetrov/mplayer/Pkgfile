@@ -4,12 +4,13 @@
 # Depends on: brotli dav1d faac faad2 fdk-aac ffmpeg gtk icu keyutils lame libass libdv libdvdnav libidn2 libmad libmng libmpeg2 libtheora libva libvdpau libvpx libwebp mpg123 openal pulseaudio rtmpdump samba speex x264 x265 xorg-libxscrnsaver
 
 name=mplayer
-version=latest
-release=4
+version=svn.r38637
+release=1
 source=(https://mplayerhq.hu/MPlayer/releases/mplayer-export-snapshot.tar.bz2
 	http://www1.mplayerhq.hu/MPlayer/releases/fonts/font-arial-iso-8859-1.tar.bz2
 	http://www.mplayerhq.hu/MPlayer/skins/Blue-1.13.tar.bz2
 	$name.conf)
+renames=($name-export-snapshot-$version.tar.bz2 SKIP SKIP SKIP)
 
 build() {
 	cd mplayer-export-*
