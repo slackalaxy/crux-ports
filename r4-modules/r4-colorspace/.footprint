@@ -76,7 +76,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/colorspace/hclwizard/html/
 -rw-r--r--	root/root	usr/lib/R/library/colorspace/hclwizard/html/colorplane.html
 -rw-r--r--	root/root	usr/lib/R/library/colorspace/hclwizard/html/info.html
 -rw-r--r--	root/root	usr/lib/R/library/colorspace/hclwizard/html/matlab.html
--rw-r--r--	root/root	usr/lib/R/library/colorspace/hclwizard/html/python-example.html
 -rw-r--r--	root/root	usr/lib/R/library/colorspace/hclwizard/html/python.html
 -rw-r--r--	root/root	usr/lib/R/library/colorspace/hclwizard/prepareStaticContent.R
 -rw-r--r--	root/root	usr/lib/R/library/colorspace/hclwizard/server.R
