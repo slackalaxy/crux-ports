@@ -1,9 +1,9 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwafhTJWXYH5dH5utYNO5jIYou6+yJgbu3lBwovP0Da00pwSeTgRX82BZj5YLITZydxqWe62sNYKxtMUmAOVJQgE=
-SHA256 (Pkgfile) = e275ef0fc20915411d2b4aac980abbd1c7ca67a8442039032e535cf2fa2bb424
+RWRPokwW0IImweJ96Ja+jgMdEj4NGQYIEYHzJUkrIZ5fI8Jjh8uOCnU088JtyAXdvPtCWvHpQbxRCvgH6oUc3eXmeI/hwRiPYwA=
+SHA256 (Pkgfile) = cb6176002ab33739eb75208d73bf71783f658aa40c536b6efdcd586b7326aec1
 SHA256 (.footprint) = 20be6f813ecd7fa9661daf1b8f380dcc4d7fd5c590a8ecc8827d83d2a9922a75
 SHA256 (firewall.conf) = 31cda91e3e998912c3fb48d8540f9704cd7ab11fa35017acaa68807d0f8bff7b
 SHA256 (firewall.sh) = 0d2d01c55ab4caef96ebc5667db36f923abdb4f0dcb4751dd75b1426dd8fcd5b
-SHA256 (firewalld) = 7ac4a78f2cb5c4f9c3caedd73db93d8d685016cf021c57b873d834679290c35b
+SHA256 (firewalld) = b50eb2ed3ff7c8c8368b1a111b5b108babaeb1494cfdec01fca253c0223f9b26
 SHA256 (hosts.allow) = 4416f11dbc8590d6c5eb6b3266c786bf543ecca77bb21b00947fdf1b00b732c9
 SHA256 (hosts.deny) = 380ad81c12e61efebb01d1169810ebf5fb4b786bfded83125ccdd9da7f30223c

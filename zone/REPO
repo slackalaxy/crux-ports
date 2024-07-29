@@ -42,12 +42,12 @@ f:4fb9b91514512309d16f06e77488fa29:etc-conf-hostname/.signature
 f:db5f9575cbd1861fb994c2d2871f022d:etc-conf-hostname/HOSTNAME
 f:4e7a989c5c9b10b60ed5120eacccc243:etc-conf-hostname/Pkgfile
 f:310432a43ad2ec419ed65477a3267564:firewall-basic/.footprint
-f:032b326fabfd7add0650310cbb93645f:firewall-basic/.signature
-f:fff2c54da51524c335e82199a36b98a8:firewall-basic/Pkgfile
+f:223526d64660e6cfb3bc020af397e98f:firewall-basic/.signature
+f:64cac1490f97982d29dde24178ac8c42:firewall-basic/Pkgfile
 f:5d3936d4c077d1868107005b6d293041:firewall-basic/README
 f:c989817d488b4703e01cef753032bad1:firewall-basic/firewall.conf
 f:ad6a6a17c619e8ad6685320c38a94493:firewall-basic/firewall.sh
-f:8b7cf3f8b5032c34501229799a50c2f4:firewall-basic/firewalld
+f:8c78ec828ad08501da534d53fdd43a9b:firewall-basic/firewalld
 f:e827c99c030b92a5ad2cfafef200ce6b:firewall-basic/hosts.allow
 f:652f88a1e73893ca880988042b27a5f1:firewall-basic/hosts.deny
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint

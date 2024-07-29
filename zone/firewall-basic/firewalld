@@ -6,13 +6,16 @@
 case $1 in
 start)
 	/usr/sbin/firewall
+	echo "Firewall started."
 	;;
 stop)
 	iptables --flush
+	echo "Firewall stopped."
 	;;
 restart)
 	iptables --flush
 	/usr/sbin/firewall
+	echo "Firewall restarted."
 	;;
 status)
 	iptables --list-rules

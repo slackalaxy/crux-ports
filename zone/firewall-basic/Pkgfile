@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=firewall-basic
-version=20240723
+version=20240729
 release=1
 source=(firewall.conf firewall.sh firewalld hosts.allow hosts.deny)
 
