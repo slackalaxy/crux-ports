@@ -1,0 +1,16 @@
+# Description: R module SingleCellExperiment
+# URL: https://bioconductor.org/packages/SingleCellExperiment
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocgenerics r4-delayedarray r4-genomicranges r4-s4vectors r4-summarizedexperiment
+# Optional: r4-biocstyle r4-knitr r4-matrix r4-rmarkdown r4-rtsne r4-scrnaseq r4-testthat
+
+name=r4-singlecellexperiment
+version=1.26.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/SingleCellExperiment_${version}.tar.gz)
+
+build() {
+	cd SingleCellExperiment
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

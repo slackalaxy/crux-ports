@@ -1,0 +1,16 @@
+# Description: R module sparseMatrixStats
+# URL: https://bioconductor.org/packages/sparseMatrixStats
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-matrix r4-matrixgenerics r4-matrixstats r4-rcpp
+# Optional: r4-bench r4-biocstyle r4-knitr r4-rmarkdown r4-testthat
+
+name=r4-sparsematrixstats
+version=1.16.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/sparseMatrixStats_${version}.tar.gz)
+
+build() {
+	cd sparseMatrixStats
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

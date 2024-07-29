@@ -1,0 +1,16 @@
+# Description: R module pheatmap
+# URL: https://cran.r-project.org/web/packages/pheatmap
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-gtable r4-rcolorbrewer r4-scales
+# Optional: 
+
+name=r4-pheatmap
+version=1.0.12
+release=1
+source=(https://cloud.r-project.org/src/contrib/pheatmap_${version}.tar.gz)
+
+build() {
+	cd pheatmap
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

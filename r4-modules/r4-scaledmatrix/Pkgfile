@@ -1,0 +1,16 @@
+# Description: R module ScaledMatrix
+# URL: https://bioconductor.org/packages/ScaledMatrix
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-delayedarray r4-matrix r4-s4vectors
+# Optional: r4-biocsingular r4-biocstyle r4-delayedmatrixstats r4-knitr r4-rmarkdown r4-testthat
+
+name=r4-scaledmatrix
+version=1.12.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/ScaledMatrix_${version}.tar.gz)
+
+build() {
+	cd ScaledMatrix
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

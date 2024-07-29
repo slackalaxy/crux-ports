@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89CqaLT56roeAkaHnQ2XIWEuy3nyDndVWBg9xdofbT2wLeQCsgFF8dPrClAxJJQkxN+Luhht7cfSuxS0QXR/v2gg=
+SHA256 (Pkgfile) = d84b9cafb29ded1d4df894daf310399a9c54a166418520dc8aed0ceb6d0f0098
+SHA256 (.footprint) = 144287933fb64b6c343237322c94b707be016e446c3bf63ee9a01f61eb55af0a
+SHA256 (sparseMatrixStats_1.16.0.tar.gz) = eed13a7335ef09168ece41481484a5e43c5281644d1e296af76d20a84d4e1312

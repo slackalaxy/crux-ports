@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89Hc1C18YUrNs6EsyyrdA0NcJgkSCF1RkTBal0NqflnbdXHSJmmcDgrBXPG0weX/dZwbJMMl8yUc61AJHuXvZTgk=
+SHA256 (Pkgfile) = aca0a753630475824ff1459b5d0478cbc12558a88e5025656844125eebf4f0f4
+SHA256 (.footprint) = e20db668aca0bb9a71bdbfab0accf16fcb47082dc02b42eaeff4048637c85aa1
+SHA256 (beachmat_2.20.0.tar.gz) = deec903046f14e656a92076e4c7bdf1c1ecdb456d942e83d661ac52a78fa7d3f

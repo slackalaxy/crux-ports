@@ -1,0 +1,16 @@
+# Description: R module DelayedMatrixStats
+# URL: https://bioconductor.org/packages/DelayedMatrixStats
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-delayedarray r4-iranges r4-matrix r4-matrixgenerics r4-s4vectors r4-sparsematrixstats
+# Optional: r4-biocstyle r4-hdf5array r4-knitr r4-matrixstats r4-microbenchmark r4-profmem r4-rmarkdown r4-testthat
+
+name=r4-delayedmatrixstats
+version=1.26.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/DelayedMatrixStats_${version}.tar.gz)
+
+build() {
+	cd DelayedMatrixStats
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

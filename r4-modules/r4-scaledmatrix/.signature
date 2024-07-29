@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89IyBKEkqnbp9T8u37vVP3l0mIbbYLqyBlZwh+166wJAGnrFuKES6EdLUyLI4VFFFuZXHOjvgqSRDaMwO4uVWCQY=
+SHA256 (Pkgfile) = 528ef6072ccf7cd4937566e059a218aee97f98e262d99a73d4b2c1f835ab7faa
+SHA256 (.footprint) = c150185c33f5bc35d776d92bb23355e51a47fe5bd72f6edf0c14a16f08e714c0
+SHA256 (ScaledMatrix_1.12.0.tar.gz) = f15ea729ef6162a68c437d887d40981aa7f0d613ac777a727e3e0c7d6db9da30

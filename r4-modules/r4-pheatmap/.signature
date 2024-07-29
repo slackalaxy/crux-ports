@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89OKcKpzVUv7MGW7nBPyzIFLGe0qsO8yMjo+FBVtKZTGoZ9gUI7I1EAJpRr6wApyLweOT7zNESpIJ0Qv8TQNr3gs=
+SHA256 (Pkgfile) = 0c48d963f3819e5f17450bc24f64bfcc62e39f2bc6da2e79c3dc36e46089bc12
+SHA256 (.footprint) = cf887ad086dbb0846bbbc7586c992279d9285eb4e8cb1a23081bda98514e7cda
+SHA256 (pheatmap_1.0.12.tar.gz) = 579d96ee0417203b85417780eca921969cda3acc210c859bf9dfeff11539b0c1
