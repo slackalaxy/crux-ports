@@ -7,6 +7,16 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/viber/
 drwxr-xr-x	root/root	usr/lib/viber/Sound/
+drwxr-xr-x	root/root	usr/lib/viber/Sound/Calls/
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/answering.wav
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/busy.wav
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/data_interruption.wav
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/dial.wav
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/ended.wav
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/established.wav
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/hold.wav
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/ringback.wav
+-rw-r--r--	root/root	usr/lib/viber/Sound/Calls/ringtone.wav
 drwxr-xr-x	root/root	usr/lib/viber/Sound/DTMF/
 -rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/0.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/0_h.wav
@@ -21,12 +31,7 @@ drwxr-xr-x	root/root	usr/lib/viber/Sound/DTMF/
 -rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/8.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/9.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/asterisk.wav
--rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/busy.wav
--rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/call_ended_1a.wav
--rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/call_ended_1b.wav
--rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/hold.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/number.wav
--rw-r--r--	root/root	usr/lib/viber/Sound/DTMF/ringing.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/Dynamic Box Close-01.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/Dynamic Box Open-01.wav
 drwxr-xr-x	root/root	usr/lib/viber/Sound/Messages/
@@ -41,8 +46,6 @@ drwxr-xr-x	root/root	usr/lib/viber/Sound/PTT/
 -rw-r--r--	root/root	usr/lib/viber/Sound/PTT/sound-send-record.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/PTT/sound-start-record.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/PTT/sound-timeout-record.wav
-drwxr-xr-x	root/root	usr/lib/viber/Sound/Ringtone/
--rw-r--r--	root/root	usr/lib/viber/Sound/Ringtone/ringtone.wav
 drwxr-xr-x	root/root	usr/lib/viber/Sound/SecureCalls/
 -rw-r--r--	root/root	usr/lib/viber/Sound/SecureCalls/insecure_call_trusted_number.wav
 -rw-r--r--	root/root	usr/lib/viber/Sound/SecureCalls/security_breach_error.wav
@@ -118,12 +121,17 @@ drwxr-xr-x	root/root	usr/lib/viber/lib/
 -rw-r--r--	root/root	usr/lib/viber/lib/libQt6XcbQpa.so.6
 -rw-r--r--	root/root	usr/lib/viber/lib/libXcomposite.so.1
 -rw-r--r--	root/root	usr/lib/viber/lib/libXdamage.so.1
+-rw-r--r--	root/root	usr/lib/viber/lib/libaom.so.0
 lrwxrwxrwx	root/root	usr/lib/viber/lib/libavcodec.so.58 -> /usr/lib/libavcodec.so
 lrwxrwxrwx	root/root	usr/lib/viber/lib/libavformat.so.58 -> /usr/lib/libavformat.so
 lrwxrwxrwx	root/root	usr/lib/viber/lib/libavutil.so.56 -> /usr/lib/libavutil.so
 -rw-r--r--	root/root	usr/lib/viber/lib/libb2.so.1
+-rw-r--r--	root/root	usr/lib/viber/lib/libbz2.so.1.0
+-rw-r--r--	root/root	usr/lib/viber/lib/libchromaprint.so.1
+-rw-r--r--	root/root	usr/lib/viber/lib/libcodec2.so.0.9
 -rw-r--r--	root/root	usr/lib/viber/lib/libcrypto.so.1.1
 -rw-r--r--	root/root	usr/lib/viber/lib/libdouble-conversion.so.3
+-rw-r--r--	root/root	usr/lib/viber/lib/libgme.so.0
 -rw-r--r--	root/root	usr/lib/viber/lib/libicudata.so.66
 -rw-r--r--	root/root	usr/lib/viber/lib/libicui18n.so.66
 -rw-r--r--	root/root	usr/lib/viber/lib/libicuuc.so.66
@@ -132,10 +140,15 @@ lrwxrwxrwx	root/root	usr/lib/viber/lib/libavutil.so.56 -> /usr/lib/libavutil.so
 -rw-r--r--	root/root	usr/lib/viber/lib/libpcre2-16.so.0
 -rw-r--r--	root/root	usr/lib/viber/lib/libpng16.so.16
 -rw-r--r--	root/root	usr/lib/viber/lib/libre2.so.5
+-rw-r--r--	root/root	usr/lib/viber/lib/libshine.so.3
+-rw-r--r--	root/root	usr/lib/viber/lib/libssh-gcrypt.so.4
 -rw-r--r--	root/root	usr/lib/viber/lib/libssl.so.1.1
 lrwxrwxrwx	root/root	usr/lib/viber/lib/libswresample.so.3 -> /usr/lib/libswresample.so
 lrwxrwxrwx	root/root	usr/lib/viber/lib/libswscale.so.5 -> /usr/lib/libswscale.so
+-rw-r--r--	root/root	usr/lib/viber/lib/libvpx.so.6
 -rw-r--r--	root/root	usr/lib/viber/lib/libwebp.so.6
+-rw-r--r--	root/root	usr/lib/viber/lib/libx264.so.155
+-rw-r--r--	root/root	usr/lib/viber/lib/libx265.so.179
 -rw-r--r--	root/root	usr/lib/viber/lib/libxcb-cursor.so.0
 drwxr-xr-x	root/root	usr/lib/viber/libexec/
 -rwxr-xr-x	root/root	usr/lib/viber/libexec/QtWebEngineProcess
@@ -947,7 +960,6 @@ drwxr-xr-x	root/root	usr/lib/viber/qml/QtWebEngine/ControlsDelegates/
 -rw-r--r--	root/root	usr/lib/viber/qt.conf
 drwxr-xr-x	root/root	usr/lib/viber/resources/
 -rw-r--r--	root/root	usr/lib/viber/resources/icudtl.dat
--rw-r--r--	root/root	usr/lib/viber/resources/qtwebengine_devtools_resources.pak
 -rw-r--r--	root/root	usr/lib/viber/resources/qtwebengine_resources.pak
 -rw-r--r--	root/root	usr/lib/viber/resources/qtwebengine_resources_100p.pak
 -rw-r--r--	root/root	usr/lib/viber/resources/qtwebengine_resources_200p.pak

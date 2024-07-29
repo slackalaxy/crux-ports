@@ -2063,9 +2063,9 @@ f:7a790a9eddf8bf931f9edd26e18b2829:fonts-google-core/Pkgfile
 f:24e73d7e57f77f93bc79e5b8ae6d3df7:fonts-google-core/post-install
 f:a328c179d26b045e54b6dbbb7b09d3e4:fonts-google-core/.footprint
 f:80cd1189de9fde94612891b1e3977c8a:fonts-google-core/.signature
-f:3d9bf5ff65857fcdc7cbf3e91094b22c:viber/.signature
-f:4f67e5ed767e417ce37a26f5fdfe54ef:viber/.footprint
-f:bc8ade431392e49b5f5e1829a28cdb0c:viber/README
-f:887ce10f294645e1394c932014269d95:viber/viber.fonts.conf
-f:056c59202bee863db658470050badce8:viber/Pkgfile
+f:0e512e0ffdb4d67a64828e5ff5ae1111:viber/.signature
+f:db656ccb6d33e725b2b1127e8c90db59:viber/.footprint
+f:404e54f40a6eccd0b88e14d339d02694:viber/README
+f:ff8b25c615dc2416954870617b2314e3:viber/viber.fonts.conf
+f:ada94f2c8c5d2f75f4e4324fb6438776:viber/Pkgfile
 f:3e2d55aad22d9383a36061ad300656d1:viber/viber.sh

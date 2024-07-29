@@ -1,13 +1,13 @@
 # Description: Viber for PC
 # URL: https://viber.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: chromaprint cups double-conversion graphite2 gst-plugins-bad gtk3 krb5 libevent libgcrypt libidn2 libinput libmng librsvg libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy speex tslib wavpack x264 x265 xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsave
+# Depends on: chromaprint cups double-conversion graphite2 libsoxr numactl gst-plugins-bad gtk3 krb5 libevent libgcrypt libidn2 libinput libmng librsvg libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy speex tslib wavpack x264 x265 xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsave
 
 name=viber
-version=21.8.0.11
+version=23.2.0.3
 #version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
 release=1
-source=(https://slackware.uk/sbosrcarch/by-name/network/viber/viber.deb
+source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
 	https://raw.githubusercontent.com/google/fonts/main/ofl/notoemoji/NotoEmoji[wght].ttf
 	$name.sh
 	$name.fonts.conf)
@@ -38,7 +38,7 @@ build() {
 	find $PKG/usr/lib/viber/translations/ -maxdepth 1 -type f -not -name "*_en.qm" -delete
 	
 	cd $PKG/usr/lib/$name/lib
-	#rm {libavformat.so.58,libavcodec.so.58,libswresample.so.3,libswscale.so.5,libavutil.so.56}
+	rm {libavformat.so.58,libavcodec.so.58,libswresample.so.3,libswscale.so.5,libavutil.so.56}
 	ln -s /usr/lib/libavformat.so libavformat.so.58
 	ln -s /usr/lib/libavcodec.so libavcodec.so.58
 	ln -s /usr/lib/libswresample.so libswresample.so.3
