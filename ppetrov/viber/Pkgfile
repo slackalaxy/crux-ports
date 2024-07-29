@@ -1,50 +1,33 @@
 # Description: Viber for PC
 # URL: https://viber.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: chromaprint cups double-conversion graphite2 libsoxr numactl gst-plugins-bad gtk3 krb5 libevent libgcrypt libidn2 libinput libmng librsvg libtiff44 libxslt minizip openssl11 pulseaudio qt6-multimedia qt6-pdfwidgets qt6-wayland snappy speex tslib wavpack x264 x265 xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxscrnsave
+# Depends on: fontconfig xorg
 
 name=viber
 version=23.2.0.3
-#version=$(ar p $name.deb control.tar.gz | tar zxO ./control | grep Version | awk '{print $2}' | cut -d- -f1)
-release=1
-source=(http://download.cdn.viber.com/cdn/desktop/Linux/viber.deb
+release=2
+source=(https://download.cdn.viber.com/desktop/Linux/viber.AppImage
 	https://raw.githubusercontent.com/google/fonts/main/ofl/notoemoji/NotoEmoji[wght].ttf
-	$name.sh
-	$name.fonts.conf)
-renames=($name-$version.deb SKIP SKIP SKIP)
+	$name.sh $name.fonts.conf $name.desktop $name.png)
+renames=(viber.AppImage-$version SKIP SKIP SKIP SKIP SKIP)
 
 build() {
-	ar p $name-$version.deb data.tar.xz | xz -d | tar xv
 	
-	mkdir -p $PKG/usr/lib/$name
-	cp -a opt/$name/* $PKG/usr/lib/$name
-	cp -a usr $PKG
+	# Install the app image
+	install -D -m 0755 $SRC/viber.AppImage-$version $PKG/usr/lib/$name/viber.AppImage
 
-	# Include Symbola B&W emoji font. See about custom fonts config:
+	# Include Noto Emoji B&W emoji font. See about custom fonts config:
 	# https://bbs.archlinux.org/viewtopic.php?pid=1924209#p1924209
-	# Comment out. We set this already in the wrapper.
-	#sed -i 's:/opt/viber/Viber:env FONTCONFIG_FILE=/etc/fonts/viber.conf /usr/bin/ViberPC:' $PKG/usr/share/applications/$name.desktop
 	install -D -m 0644 $SRC/NotoEmoji[wght].ttf $PKG/usr/lib/viber/fonts/NotoEmoji[wght].ttf
 	install -D -m 0644 $SRC/$name.fonts.conf $PKG/etc/fonts/$name.conf
+	
+	# Comment out. We set this already in the wrapper.
+	#sed -i 's:/opt/viber/Viber:env FONTCONFIG_FILE=/etc/fonts/viber.conf /usr/bin/ViberPC:' $PKG/usr/share/applications/$name.desktop
 	
 	# Install wrapper
 	install -D -m 0755 $SRC/$name.sh $PKG/usr/bin/$name
 	
-	# Fix menu entry
-	sed -i 's:/opt/viber/Viber:viber:g' $PKG/usr/share/applications/$name.desktop
-	sed -i 's:/usr/share/pixmaps/viber.png:viber:' $PKG/usr/share/applications/$name.desktop
-
-	# Remove translations	
-	find $PKG/usr/lib/viber/translations/ -maxdepth 1 -type f -not -name "*_en.qm" -delete
-	
-	cd $PKG/usr/lib/$name/lib
-	rm {libavformat.so.58,libavcodec.so.58,libswresample.so.3,libswscale.so.5,libavutil.so.56}
-	ln -s /usr/lib/libavformat.so libavformat.so.58
-	ln -s /usr/lib/libavcodec.so libavcodec.so.58
-	ln -s /usr/lib/libswresample.so libswresample.so.3
-	ln -s /usr/lib/libswscale.so libswscale.so.5
-	ln -s /usr/lib/libavutil.so libavutil.so.56
-	
-	find -L $PKG -perm 775 -exec chmod 755 {} \;
-	find -L $PKG -perm 664 -exec chmod 644 {} \;
+	# Menu entry
+	install -D -m0644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+	install -D -m0644 $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
 }
