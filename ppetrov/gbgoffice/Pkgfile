@@ -6,9 +6,10 @@
 name=gbgoffice
 version=1.4
 _debian=12
-release=3
+release=4
 source=(https://ftp.debian.org/debian/pool/main/g/gbgoffice/gbgoffice_${version}.orig.tar.gz
 	https://ftp.debian.org/debian/pool/main/g/gbgoffice/gbgoffice_${version}-${_debian}.debian.tar.xz
+	http://downloads.sourceforge.net/bgoffice/full-pack.tar.bz2
 	$name.desktop)
 
 build() {
@@ -28,4 +29,9 @@ build() {
 	mkdir -p $PKG/usr/share/applications
 	cp $SRC/$name.desktop $PKG/usr/share/applications
 
+	# install dictionaries
+	cd $SRC/full-pack/data
+	for f in * ; do
+		install -m 0644 $f $PKG/usr/share/bgoffice/$f
+	done
 }
