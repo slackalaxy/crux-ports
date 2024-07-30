@@ -4,8 +4,8 @@
 # Depends on:
 
 name=libelogind
-version=246.10
-release=2
+version=255.5
+release=1
 source=(https://github.com/elogind/elogind/archive/refs/tags/v${version}.tar.gz)
 
 build() {
@@ -16,17 +16,15 @@ build() {
 	--buildtype release \
 	--prefix /usr \
 	--libdir /usr/lib/$name \
-	-D rootlibdir="/usr/lib/$name" \
-	-D rootlibexecdir="/lib/$name/elogind" \
 	-D udevrulesdir="/lib/udev/rules.d" \
-	-D man=false \
-	-D html=false \
+	-D man=disabled \
+	-D html=disabled \
 	-D bashcompletiondir="/usr/share/bash-completion/completions" \
 	-D nobody-group=nogroup \
-	-D pam=false \
+	-D pam=disabled \
 	-D pamlibdir="/lib/security" \
 	-D pamconfdir="/etc/pam.d" \
-	-D acl=false \
+	-D acl=disabled \
 	-D smack=false \
 	-D utmp=false \
 	-D default-hierarchy=legacy \
@@ -36,10 +34,9 @@ build() {
 	-D reboot-path=/sbin/reboot \
 	-D default-kill-user-processes=false ..
 	ninja
-	DESTDIR=$PKG ninja install
 	
-	rm -rf $PKG/{bin,etc,lib}
-	rm -rf $PKG/usr/{bin,include,share}
+	mkdir -p $PKG/usr/lib/$name
+	cp -a libelogind.so libelogind.so.0 libelogind.so.0.38.0 $PKG/usr/lib/$name
 	cd $PKG/usr/lib/$name
 	ln -s libelogind.so.0 libsystemd.so.0
 }
