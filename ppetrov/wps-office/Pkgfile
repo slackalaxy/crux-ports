@@ -4,9 +4,9 @@
 # Depends on: double-conversion gtk libelogind libsdl2 libtiff44 nss qt4 qt5 xorg-libxscrnsaver
 
 name=wps-office
-version=11.1.0.11720.XA
+version=11.1.0.11723.XA
 _ftver=2.13.2
-release=2
+release=1
 source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
 	https://sourceforge.net/projects/freetype/files/freetype2/${_ftver}/freetype-${_ftver}.tar.xz
 	desktop.tar.xz freetype.tar.xz)
