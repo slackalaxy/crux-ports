@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=libcap-ng
-version=0.8.3
+version=0.8.5
 release=1
 source=(https://github.com/stevegrubb/libcap-ng/archive/refs/tags/v${version}/$name-$version.tar.gz)
 
