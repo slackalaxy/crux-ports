@@ -24,13 +24,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/usethis/help/
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/usethis/help/figures/
--rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-archived.svg
--rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-defunct.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-deprecated.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-experimental.svg
--rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-maturing.svg
--rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-questioning.svg
--rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-soft-deprecated.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-stable.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/lifecycle-superseded.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/figures/logo.png
@@ -66,13 +61,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/usethis/templates/
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/license-ccby-4.md
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/license-mit.md
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/license-proprietary.txt
--rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-archived.svg
--rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-defunct.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-deprecated.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-experimental.svg
--rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-maturing.svg
--rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-questioning.svg
--rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-soft-deprecated.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-stable.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-superseded.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/package-README

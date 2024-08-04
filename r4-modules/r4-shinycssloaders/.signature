@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Gtqmf0Sm5bR4YGftrlsjOv+TRKCKJLGEoZOwX16UZBF0oNzDfni2xz1Zzt/VOq3W2TAX0NFuJZK9DQIa04FQQ4=
-SHA256 (Pkgfile) = 5aef2d041d46ebb244055bc13d09f66a51d1175af383b51646c4bc451f43cb85
-SHA256 (.footprint) = 6d8d5c54d604d996416775922e15fc3a1c227f4b868c017459d923332eb65357
-SHA256 (shinycssloaders_1.0.0.tar.gz) = 744641836a4cede2bb47caff1b600bff2c3e450dfccd2af4fab0413a8ea87d64
+RWQ2oTreAss89Iz2AVMyC7lQwxyg98I4ZGxVg+rbUp7E2Vxdq2Aoeyuw5sL3j6QkIACFeDrdATb0pygAgtXdN2dmKMn6G61h7QU=
+SHA256 (Pkgfile) = 12beb1eafcfe7ed93d1b1aaf92538065b7b64be6a243e1209c5da4d02333c3d9
+SHA256 (.footprint) = 1a6fecfce45b3d9b4afff4bb7c3e20b221648a16fd361bb01735bfaf03f33ed0
+SHA256 (shinycssloaders_1.1.0.tar.gz) = 038ad76024e6b38dcc9bbe22aa07a58034bc8410ad25329bdc4db42203e2ef70

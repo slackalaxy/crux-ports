@@ -21,10 +21,10 @@ drwxr-xr-x	root/root	usr/lib/R/library/withr/R/
 -rw-r--r--	root/root	usr/lib/R/library/withr/R/withr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/withr/R/withr.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/withr/doc/
--rw-r--r--	root/root	usr/lib/R/library/withr/doc/changing-and-restoring-state.R
--rw-r--r--	root/root	usr/lib/R/library/withr/doc/changing-and-restoring-state.Rmd
--rw-r--r--	root/root	usr/lib/R/library/withr/doc/changing-and-restoring-state.html
 -rw-r--r--	root/root	usr/lib/R/library/withr/doc/index.html
+-rw-r--r--	root/root	usr/lib/R/library/withr/doc/withr.R
+-rw-r--r--	root/root	usr/lib/R/library/withr/doc/withr.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/withr/doc/withr.html
 drwxr-xr-x	root/root	usr/lib/R/library/withr/help/
 -rw-r--r--	root/root	usr/lib/R/library/withr/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/withr/help/aliases.rds

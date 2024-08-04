@@ -1,13 +1,13 @@
 # Description: R module uuid
 # URL: https://cran.r-project.org/web/packages/uuid
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-uuid
-version=1.2.0
+version=1.2.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/uuid_1.2-0.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/uuid_1.2-1.tar.gz)
 
 build() {
 	cd uuid

@@ -20,7 +20,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinycssloaders/R/
 -rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/R/shinycssloaders.rdb
 -rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/R/shinycssloaders.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/shinycssloaders/assets/
--rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/assets/css-loaders.css
 -rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/assets/spinner.css
 -rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/assets/spinner.js
 drwxr-xr-x	root/root	usr/lib/R/library/shinycssloaders/examples/
@@ -43,6 +42,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinycssloaders/html/
 drwxr-xr-x	root/root	usr/lib/R/library/shinycssloaders/img/
 -rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/img/custom.gif
 -rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/img/demo.gif
+-rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/img/shinycssloaders-screenshot.png
 drwxr-xr-x	root/root	usr/lib/R/library/shinycssloaders/loaders-templates/
 -rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/loaders-templates/load1.css
 -rw-r--r--	root/root	usr/lib/R/library/shinycssloaders/loaders-templates/load2.css
