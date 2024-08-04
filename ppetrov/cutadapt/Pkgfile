@@ -1,12 +1,12 @@
 # Description: Trim adapters from high-throughput sequencing reads
-# URL: https://github.com/marcelm/cutadapt/
+# URL: https://pypi.org/project/cutadapt/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on:
 
 name=cutadapt
-version=4.8
+version=4.9
 release=1
-source=(https://files.pythonhosted.org/packages/c6/a7/7d5399e15747df9d203ecd12f510665db1a38b2bddac4e69eb715f2f90fe/cutadapt-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/cb/15/85799e7fa1dfb86b8f79f8f98902b28003a054c46447a0580f21e535dbf3/cutadapt-4.9.tar.gz)
 
 build() {
   cd $name-$version*
