@@ -13,6 +13,7 @@ d:argtable
 d:arka
 d:artha
 d:bedtools
+d:wxpython2
 d:bigwig
 d:biobb_structure_checking
 d:biopython
@@ -389,7 +390,6 @@ d:wordnet
 d:wps-office-dicts
 d:wps-office
 d:wv
-d:wxpython2
 d:xar
 d:xcdroast
 d:xine-lib
@@ -430,6 +430,7 @@ d:tango-icon-theme
 d:gnome-colors
 d:fonts-google-core
 d:viber
+d:evince-gtk2
 f:f77867e9db3f66c26559c28804a444bf:abiword/.footprint
 f:50a4db8d5af72a1b3ac13ba3a2547cad:abiword/.signature
 f:91576175f80b590ce8935afc136ea43e:abiword/Pkgfile
@@ -496,6 +497,9 @@ f:99eb11b728fb77dc22e61d2a108c19f4:artha/Pkgfile
 f:2ffa81f4cdd0a3aa36d00d321c443cc5:bedtools/.footprint
 f:bf0561c6682e94be1b960a76d21859ad:bedtools/.signature
 f:cb6e06c9f7ae369b97bc7d6c76919564:bedtools/Pkgfile
+f:31bf3de526431c1fe40970a051e97f25:wxpython2/.footprint
+f:a27d01a82ccd49cb743d0a661ba49c4a:wxpython2/.signature
+f:e29d6d8c7a8726d94b5a26f43f15ef6b:wxpython2/Pkgfile
 f:d26b3e14b2ed2513956f13af116abca5:bigwig/.footprint
 f:e38f44ee3721d4443d995c41eec906fa:bigwig/.signature
 f:f56c57c72ebba8a5ecd752929020175d:bigwig/Pkgfile
@@ -909,8 +913,8 @@ f:9d5ba646510646af00bc7a831554cf8a:goffice08/README
 f:a4c14788c236bb2c8b11b04fa695f9ca:goffice08/disable-linking-pcre.patch
 f:a0841a9f55284f3fbc1c01a7717a345f:goffice08/go-conf-gsettings.c
 f:6bedaf868dcbfe1bf353065942080768:google-chrome/.footprint
-f:e802a5def6d90188271c10dfe3efdd9f:google-chrome/.signature
-f:b17118eb76d1e9dd2c54c92fc0197975:google-chrome/Pkgfile
+f:e5896caa43f946167d81b6af2e43624e:google-chrome/.signature
+f:1d3b25d8ac2dc21305351192fbb0f5a3:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:77ef3f5038581ff4956d14f5f072f067:gp2fasta/.footprint
 f:7323f30be6d4c63d36b47331c503208a:gp2fasta/.signature
@@ -1905,9 +1909,6 @@ f:389134912dc24609f83900c75f0b3e99:wps-office/post-install
 f:94fb063f57d676c23fa7f98ef13d1591:wv/.footprint
 f:0ca5b22d05b446ef4382b52ff9c88a7e:wv/.signature
 f:dd04667207c4541625bce118da0b0b79:wv/Pkgfile
-f:31bf3de526431c1fe40970a051e97f25:wxpython2/.footprint
-f:a27d01a82ccd49cb743d0a661ba49c4a:wxpython2/.signature
-f:e29d6d8c7a8726d94b5a26f43f15ef6b:wxpython2/Pkgfile
 f:0362a776f330e64e770b5e7816a8b4a0:xar/.footprint
 f:5585f45e45f4f04003afd0bb33aefb83:xar/.signature
 f:b6e42a363312eb3a385979be03c12d17:xar/Pkgfile
@@ -2067,3 +2068,7 @@ f:404e54f40a6eccd0b88e14d339d02694:viber/README
 f:70e8c1b68f00ef3c71f279080e7d8d10:viber/viber.png
 f:9c1c73f88de50bfa0115d896a677b21d:viber/viber.sh
 f:ff8b25c615dc2416954870617b2314e3:viber/viber.fonts.conf
+f:354f73772c2667e1ab171cf5b0091bc5:evince-gtk2/Pkgfile
+f:627ed74e27650ad8b5f860f26a174def:evince-gtk2/post-install
+f:f3a6dd9a1614faacf519fb9934c6fa31:evince-gtk2/.footprint
+f:bf33490ff60bab2b8dfc347536820fef:evince-gtk2/.signature
