@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZawSnVfRtG3dgl9Y2NIYhubCiveqlBuQ90vt7+zX18YQf88S12tMD7kgUaR84qhlPcq5st9z98yhXTTpCoqX5gs=
-SHA256 (Pkgfile) = 7ff89a515fe433f0ee17e22cf9f4686185815a42c22f37411e9e1010a773885f
-SHA256 (.footprint) = c598c6f29b5636cc5d16d6400ce127baf042cd50df4f57df7049701729f6b1d4
-SHA256 (meme-5.5.5.tar.gz) = bebb4a176e72d62e3a2d5ba5f22439185bbc4bbf4769604fbca12dff8e1f739f
+RWToVVsIkzFIZSwJHzirMb+KKDE2wcZprnxUXgs0cqgKzEIy0eDvij21t5wccBp/PDNBQP+5ZRuj9URPA01f1lY1KUj3XojkzAc=
+SHA256 (Pkgfile) = 492d1955abbe79a52bd9b3919c719c132e19aa03ea6e943f1cc105facbca7d95
+SHA256 (.footprint) = b7f294884b06827c23a1102cb8e052e4723c6635ab6996fc6521d0ac2e004afb
+SHA256 (meme-5.5.6.tar.gz) = 8f719002c3a2177f6bb9da6861098ccf4f08b3006f002a88bb3afe9473596c67
