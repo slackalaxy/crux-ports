@@ -4,7 +4,7 @@
 # Depends on: cups double-conversion gnutls graphite2 icu libidn2 nss qt5 qt6-base wayland
 
 name=google-chrome
-version=127.0.6533.99
+version=127.0.6533.119
 #version=$(ar p $name-stable_current_amd64.deb control.tar.xz 2> /dev/null | tar JxO ./control 2> /dev/null | grep Version | awk '{print $2}' | cut -d- -f1)
 release=1
 source=(https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

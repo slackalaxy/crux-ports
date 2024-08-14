@@ -913,8 +913,8 @@ f:9d5ba646510646af00bc7a831554cf8a:goffice08/README
 f:a4c14788c236bb2c8b11b04fa695f9ca:goffice08/disable-linking-pcre.patch
 f:a0841a9f55284f3fbc1c01a7717a345f:goffice08/go-conf-gsettings.c
 f:6bedaf868dcbfe1bf353065942080768:google-chrome/.footprint
-f:e5896caa43f946167d81b6af2e43624e:google-chrome/.signature
-f:1d3b25d8ac2dc21305351192fbb0f5a3:google-chrome/Pkgfile
+f:56eacdb5647a968243efad49426b2647:google-chrome/.signature
+f:47cf38024d3a696a11b6bb702b891f9b:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:77ef3f5038581ff4956d14f5f072f067:gp2fasta/.footprint
 f:7323f30be6d4c63d36b47331c503208a:gp2fasta/.signature
