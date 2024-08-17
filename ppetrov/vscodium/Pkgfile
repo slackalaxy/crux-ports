@@ -4,7 +4,7 @@
 # Depends on: alsa-lib cups gtk3 libsecret libxkbcommon nss xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=vscodium
-version=1.91.1.24193
+version=1.92.2.24228
 release=1
 source=(https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-linux-x64-$version.tar.gz
 	$name.desktop $name.png)
@@ -25,6 +25,6 @@ build() {
 	rm -rf $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/contrib/debug/
 	#chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.nls.js
 	chmod 0644 $PKG/usr/lib/vscodium/resources/app/extensions/markdown-language-features/dist/extension.js
-	chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/api/worker/extensionHostWorker.nls.js
-	chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/base/common/worker/simpleWorker.nls.js
+	#chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/api/worker/extensionHostWorker.nls.js
+	#chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/base/common/worker/simpleWorker.nls.js
 }
