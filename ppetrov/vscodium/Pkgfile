@@ -5,7 +5,7 @@
 
 name=vscodium
 version=1.92.2.24228
-release=1
+release=2
 source=(https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-linux-x64-$version.tar.gz
 	$name.desktop $name.png)
 
@@ -21,10 +21,20 @@ build() {
 	cd $PKG/usr/bin
 	ln -s ../lib/$name/bin/codium $name
 	
-	find $PKG/ -name "README.*" -delete
+	# no debugging needed
 	rm -rf $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/contrib/debug/
-	#chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.nls.js
+
 	chmod 0644 $PKG/usr/lib/vscodium/resources/app/extensions/markdown-language-features/dist/extension.js
+	#chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/contrib/debug/node/telemetryApp.nls.js
 	#chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/api/worker/extensionHostWorker.nls.js
 	#chmod 0644 $PKG/usr/lib/vscodium/resources/app/out/vs/base/common/worker/simpleWorker.nls.js
+	
+	# remove junk
+	find $PKG/ -name "README.*" -delete
+	
+	# Remove locales, except for en_US
+	find $PKG/usr/lib/$name/locales/ -type f -not -name "en-US.pak" -delete
+	
+	# fiex a fel perms
+	find -L $PKG -perm 664 -exec chmod 644 {} \;
 }

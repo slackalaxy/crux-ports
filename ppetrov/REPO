@@ -1837,11 +1837,12 @@ f:b89deec4f49c6073ad34e49bd561a529:viewnior/.footprint
 f:418911e1a95686743e02ad95d9380e2a:viewnior/.signature
 f:e93f8095f1a5bf2ebbc60eedee1b2730:viewnior/Pkgfile
 f:975eeae744a613e326b89b5dd4ef1fbe:viewnior/exiv2-0.28.patch
-f:99474c2fe333636d118632d49b017a52:vscodium/.footprint
-f:04d5bbc4ab882a40199f1b3fd1f1ae18:vscodium/.signature
-f:2d40dae611ffa291edf96219d286f69c:vscodium/Pkgfile
+f:183f86a8cbad2eae53dff780894859ae:vscodium/.footprint
+f:6e08bcc87398d74f5afbea8c0d39ccbb:vscodium/.signature
+f:9ab7a22189bafc5a3756ae53db29a4c6:vscodium/Pkgfile
 f:906fe2f86788284dbf59d627e4a24227:vscodium/vscodium.desktop
 f:9232d91c88fa852bb19805074d3354ab:vscodium/vscodium.png
+f:d681badcd2af9f8fbc2466fdd2781b59:vscodium/VSCodium-linux-x64-1.92.2.24228.tar.gz
 f:27f2440e03177aed29c8e57f1fc95b34:wehi-cellsymphony/.footprint
 f:4514a4c2378933781b20c402dccee3c6:wehi-cellsymphony/.signature
 f:9952230c63309c9cbc4f2015a8756673:wehi-cellsymphony/Pkgfile
