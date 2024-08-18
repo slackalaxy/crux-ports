@@ -1,7 +1,7 @@
 # Description: Ebook manager
 # URL: https://calibre-ebook.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: hyphen krb5 libgpg-error libtiff44 libwebp nss openssl11 qt6-pdfwidgets qt6-svg qt6-wayland tslib xorg-libsm
+# Depends on: hyphen krb5 libgpg-error libtiff5 libwebp nss openssl11 qt6-pdfwidgets qt6-svg qt6-wayland tslib xorg-libsm
 
 name=calibre-bin
 version=7.16.0
