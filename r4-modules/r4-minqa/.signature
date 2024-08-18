@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89EotZZc4Rmh+aPFcpyb8/Ufk4QVa+a6sz8Z7i983r2kvgNXsBwrxCY1YmbAkDFyiqZ3xacdmRS0qHc3E60QvBQQ=
-SHA256 (Pkgfile) = 5dedad8ccca7efb4fe6c3f3800c742f79225f96335081b355c3ead212305d97c
+RWQ2oTreAss89N8sf6inYn1e/DNlhVbNBzoDEZ+mG7xWNVAWAmbJXn3e/5Ei2xdmXSNcgcpjrhAn6ZIUffzuVuKgcYVeoexi4gk=
+SHA256 (Pkgfile) = 61053a79d2b8871e36bb4b654a031263aae04cefb9096ff07485c190fdaea474
 SHA256 (.footprint) = 9990484d35497d97aaf3e15734503f11091511d1aaf76ddb75eda53e3dde610a
-SHA256 (minqa_1.2.7.tar.gz) = 76f3459d1ed860d5095b1d89d41628fc7187e72506cf48f073e15724d9e52fe2
+SHA256 (minqa_1.2.8.tar.gz) = 5941e4b9b01978fc6d9fe24e6ca60cca66883fe9fa6ff3cbfa32aa1ac9db5467

@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-knitr r4-rmarkdown r4-spelling r4-testthat
 
 name=r4-fastdummies
-version=1.7.3
+version=1.7.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/fastDummies_${version}.tar.gz)
 

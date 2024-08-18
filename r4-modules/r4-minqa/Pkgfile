@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-minqa
-version=1.2.7
+version=1.2.8
 release=1
 source=(https://cloud.r-project.org/src/contrib/minqa_${version}.tar.gz)
 

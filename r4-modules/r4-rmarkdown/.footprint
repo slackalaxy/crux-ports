@@ -53,6 +53,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rmarkdown/rmarkdown/lua/
 -rw-r--r--	root/root	usr/lib/R/library/rmarkdown/rmarkdown/lua/number-sections.lua
 -rw-r--r--	root/root	usr/lib/R/library/rmarkdown/rmarkdown/lua/pagebreak.lua
 -rw-r--r--	root/root	usr/lib/R/library/rmarkdown/rmarkdown/lua/shared.lua
+-rw-r--r--	root/root	usr/lib/R/library/rmarkdown/rmarkdown/lua/table-classes.lua
 drwxr-xr-x	root/root	usr/lib/R/library/rmarkdown/rmarkdown/templates/
 drwxr-xr-x	root/root	usr/lib/R/library/rmarkdown/rmarkdown/templates/github_document/
 drwxr-xr-x	root/root	usr/lib/R/library/rmarkdown/rmarkdown/templates/github_document/resources/

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89E0264YgeZyurYRBYivm0KgkIDLOJjagTqLVCDDUKn4OXbuYzuyo+HN5bvwqzl7VWAoGg35GXOEnUwP7KVdydgM=
-SHA256 (Pkgfile) = 488992c09f1044b5e49639618e036338952b290ceb0ade7a1315d15951d93bf0
+RWQ2oTreAss89N4yM3nlsRYMLnf42mNVPHj2XO8h3KD5FfIg500F8lWdU5nip605TMwXdLuFCtjUIOHCfJ5/Aqs4lCdIz9129Ac=
+SHA256 (Pkgfile) = 9aa101e0d8a0e417d8d9bae0657786eb9df13357ad7b87a96e049cc4ba37fa6d
 SHA256 (.footprint) = bc067ff80270c5044a2f89abc3925f14eb89b983df05fbc61b21d94d5552b9d5
-SHA256 (corrplot_0.92.tar.gz) = e8c09f963f9c4837036c439ebfe00fa3a6e462ccbb786d2cf90850ddcd9428bd
+SHA256 (corrplot_0.94.tar.gz) = 8e855daf7392dfec8dab7da2845b6d01e24030837a66ce7d8d4673eb0a7e55f4

@@ -18,6 +18,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/spatstat.utils/R/
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.utils/R/spatstat.utils
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.utils/R/spatstat.utils.rdb
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.utils/R/spatstat.utils.rdx
+-rw-r--r--	root/root	usr/lib/R/library/spatstat.utils/R/sysdata.rdb
+-rw-r--r--	root/root	usr/lib/R/library/spatstat.utils/R/sysdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.utils/doc/
 -rw-r--r--	root/root	usr/lib/R/library/spatstat.utils/doc/packagesizes.txt
 drwxr-xr-x	root/root	usr/lib/R/library/spatstat.utils/help/
