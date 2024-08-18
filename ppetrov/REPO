@@ -88,6 +88,7 @@ d:fonts-apple-emoji
 d:fonts-apple-ny
 d:fonts-apple-sf
 d:fonts-ubuntu
+d:libtiff5
 d:freerdp2
 d:fyre
 d:g3data
@@ -175,7 +176,6 @@ d:libidl
 d:libimobiledevice-glue
 d:libimobiledevice
 d:libplist
-d:libtiff44
 d:libusbmuxd
 d:libvncserver
 d:libxml210
@@ -581,8 +581,8 @@ f:d246eef724b3875afee839449ac8bc5b:bwa/.footprint
 f:b4342dd2cd132f232c208427e7b1e212:bwa/.signature
 f:05fe852218fddec4b48bcf1f4f7bf834:bwa/Pkgfile
 f:d039393d3a03b756f6ffc613d14c731a:calibre-bin/.footprint
-f:d016cee81269f7d2c1bd24ac58e2e9b7:calibre-bin/.signature
-f:f2e14bb985cbce1f8dd203b4c94a5a74:calibre-bin/Pkgfile
+f:d995bec49cd88e5fbf23a6da0c0af0a1:calibre-bin/.signature
+f:3cf374b66d97d852b3ad04596502ba98:calibre-bin/Pkgfile
 f:51db8d36d29a1266832d4737d83c94e3:calibre-bin/calibre-bin.desktop
 f:863e0f3825e3ad6c68e58e8a39f7934d:cap3/.footprint
 f:4adfa344f070f5797f9d6375bbfe4f8f:cap3/.signature
@@ -787,6 +787,9 @@ f:11dcc5be2697f5b05b9d73d8d56c3ef5:fonts-ubuntu/.signature
 f:19037639de19b4199c5a09ceab04aa02:fonts-ubuntu/81-ubuntu.conf
 f:5beef10840dabf9f68c037964ade940b:fonts-ubuntu/Pkgfile
 f:3aa6caa0ff0c13d117e3fc57da39d73a:fonts-ubuntu/post-install
+f:ac189da9453cdab69738bbe118d449a6:libtiff5/.footprint
+f:5bd1fa50d6e238bdf2d9a72c4c610034:libtiff5/.signature
+f:4ee4e13c1f8ae346c50fa82ece120014:libtiff5/Pkgfile
 f:6ae67f176e25c46659262fc5a616b227:freerdp2/.footprint
 f:cbf2d79c5d606019388dd096f6e1101e:freerdp2/.signature
 f:ece7eef8f353180aefdc4a4020fbd019:freerdp2/Pkgfile
@@ -1010,8 +1013,8 @@ f:42790d68db9f61f6dc7b95261ef9b697:ifuse/.signature
 f:ba4dddc72b5d2652025d4fc9a3da7124:ifuse/Pkgfile
 f:3f4122498d23a7e247b2d01e2b44e5ae:ifuse/README
 f:cc8e090a888034532d1185505ce4aee2:igv/.footprint
-f:10c064ce66311172c3d566f470299a8d:igv/.signature
-f:b58874dfc287b4c61f3eb770ed6bee13:igv/Pkgfile
+f:36700c9d12fa927d7acc212bff432a7f:igv/.signature
+f:fed34f7fe87495f8c2ad0fd1f3ba2fd5:igv/Pkgfile
 f:6afb2c4c7ee760bbf363e4ae1f868ee9:igv/igv.desktop
 f:19cd71be2a07afeba1b1acb76fceb556:igv/igv.png
 f:c94e8d2a57065e7bbb51b2cf66d7861b:igv/post-install
@@ -1123,9 +1126,6 @@ f:26367a203cb39bcc9e8307035efb24ca:libimobiledevice/Pkgfile
 f:4918d2997711cdc4fe2995edc0338689:libplist/.footprint
 f:30781ff4c9ef6f5f28c58318eb84ef00:libplist/.signature
 f:700acd6ed9422b12c32d53b47cdeaef6:libplist/Pkgfile
-f:ac189da9453cdab69738bbe118d449a6:libtiff44/.footprint
-f:cb7756cca91f6f815b66124a0714970f:libtiff44/.signature
-f:4985cb6662e68f6a044006b9209f4b82:libtiff44/Pkgfile
 f:8bb56c04a2ba6823564adbb4a621bc7c:libusbmuxd/.footprint
 f:f4ddb86669c4fe7183ad64763c2a53d1:libusbmuxd/.signature
 f:cdd65956c107150d7411166e82153d5b:libusbmuxd/Pkgfile
@@ -1894,8 +1894,8 @@ f:09b8c6ee164f07e0a7e3e40c9f0f7e14:wps-office-dicts/DICTIONARIES
 f:6297347a6d25e664e40d20e4ef5e5d70:wps-office-dicts/Pkgfile
 f:5cacf56f246a973f122683906f22c12e:wps-office-dicts/README
 f:0feff7e0cd54e1fa4e39298fe55f158a:wps-office/.footprint
-f:6a71fccdd3a8ad1281f37b6d4c498d4d:wps-office/.signature
-f:631928ae27b80423038fd3f97d19a1c4:wps-office/Pkgfile
+f:ef64798c3349210ade53d0fadb4f45bf:wps-office/.signature
+f:1d00fefb05425c77fa2ae91f93cbfc8f:wps-office/Pkgfile
 f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
 f:e256100e8aed7ead8216a0a2354f1fd8:wps-office/desktop.tar.xz
 f:bb31750b8331bf055f447f055533b49a:wps-office/freetype.tar.xz
