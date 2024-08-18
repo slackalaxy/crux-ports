@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: libjpeg-turbo zlib
 
-name=libtiff44
+name=libtiff5
 version=4.4.0
 release=1
 source=(http://download.osgeo.org/libtiff/tiff-$version.tar.gz)
