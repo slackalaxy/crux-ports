@@ -1,0 +1,15 @@
+# Description: R module SCEVAN
+# URL: https://github.com/AntonioDeFalco/SCEVAN
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-paralleldist r4-pheatmap r4-forcats r4-dplyr r4-fgsea r4-yagst r4-cluster r4-ggplot2 r4-rtsne r4-scran r4-ape r4-ggtree r4-tidytree r4-ggrepel
+
+name=r4-scevan
+version=1.0.1
+release=1
+source=(https://github.com/AntonioDeFalco/SCEVAN/archive/v${version}/SCEVAN-v${version}.tar.gz)
+
+build() {
+  cd SCEVAN-$version
+  mkdir -p "$PKG"/usr/lib/R/library
+  R CMD INSTALL . -l "$PKG"/usr/lib/R/library
+}

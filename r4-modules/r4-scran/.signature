@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89H3k167fEhPUUpsQQcSAUZe+Ffpcx8uA54n/sKZxSWsoPMerpjbp8JlBXVmVaQyTU9DlV3OmIOVrwhrem/eYpAs=
+SHA256 (Pkgfile) = d4864b77451cae7ecf0dfc08b9b47b1dd86096ae302c96c03c5f6bb2187c5650
+SHA256 (.footprint) = 4261121059f3b51fcacf500a1b86ba6ec26d5652c737a10aa1244a13f427efed
+SHA256 (scran_1.32.0.tar.gz) = 4129cc3487c32e184edfa75133de244c5b96661d24eb7211ecdca4b209163e68

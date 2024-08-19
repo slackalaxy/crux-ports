@@ -1,0 +1,16 @@
+# Description: R module aplot
+# URL: https://cran.r-project.org/web/packages/aplot
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggfun r4-ggplot2 r4-ggplotify r4-magrittr r4-patchwork
+# Optional: r4-ggtree
+
+name=r4-aplot
+version=0.2.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/aplot_${version}.tar.gz)
+
+build() {
+	cd aplot
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89FqJjJhAg9Dvt2oQ44Lloxk4SYHN/3M/NaFpY1vd3ExBhmlwNHG5f1D1M6RJ7ErvKC8VJgq++1JKWqziFEpSzAM=
+SHA256 (Pkgfile) = afe856e956ef15486471c3e83e7ade345029e867a2b05ef0275e077d2a0f9da0
+SHA256 (.footprint) = f9c177d7939529aaba44bd10715446c3084022ba2a7e2b950ea69e167cce7c87
+SHA256 (treeio_1.28.0.tar.gz) = 01fa3dba09a75ab99f3726c3320dc463753429305538fa7f3bdfe5e847c0d275

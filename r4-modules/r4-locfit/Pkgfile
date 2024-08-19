@@ -1,0 +1,16 @@
+# Description: R module locfit
+# URL: https://cran.r-project.org/web/packages/locfit
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-lattice
+# Optional: r4-gam r4-interp
+
+name=r4-locfit
+version=1.5.9.10
+release=1
+source=(https://cloud.r-project.org/src/contrib/locfit_1.5-9.10.tar.gz)
+
+build() {
+	cd locfit
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89IAt3WFep5WepxWx1Id1d5O29nqQmNxcC9YQ5/w+P5ZYLW+mPeT8CYBDpMDpAoqzlf0l28Nt6gqZYxadRz12uww=
+SHA256 (Pkgfile) = b661959172f7ea0132820a6a7e1a78954b76d8dbc7d40a49502e1b74b052a8ee
+SHA256 (.footprint) = 368eb4f0e2c909cd2039e1d3368aa4fc8caf3c463c8abc6c54dfa592afee6a64
+SHA256 (parallelDist_0.2.6.tar.gz) = 30c6b3b85cf78c04a7dcd17ea7ed64356971f6ce48d15794078a18c53b249e06
