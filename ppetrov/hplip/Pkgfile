@@ -1,12 +1,12 @@
 # Description: HP print/scan/fax support
 # URL: http://hplipopensource.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cups dbus gnutls libidn2 libxml2 sane
+# Depends on: cups dbus gnutls libidn2 libxml2 qt5 sane
 # Conflicts: hpcups
 
 name=hplip
 version=3.24.4
-release=1
+release=2
 source=(http://downloads.sourceforge.net/project/hplip/hplip/$version/hplip-$version.tar.gz
 	0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch
 	0018-Allow-non-JPEG-scanning-on-the-HP-DeskJet-3520-All-i.patch
@@ -26,7 +26,11 @@ source=(http://downloads.sourceforge.net/project/hplip/hplip/$version/hplip-$ver
 	setup.py.lc_all.c.diff)
 
 build() {
-	# This is based on Slackware's hplip.SlackBuild and patches
+
+	# hplip will build without sane, as well
+	prt-get isinst sane || SCAN_OPTIONS="--disable-scan-build"
+
+	# the whole port is based on Slackware's hplip.SlackBuild and patches
 	cd $name-$version
 
 	patch -p1 -i $SRC/hplip.no.upgrade.diff
@@ -39,13 +43,6 @@ build() {
 	patch -p1 -i $SRC/hplip-scan-orblite-c99.patch
 	patch -p1 -i $SRC/hplip-scan-hpaio-include.patch
 	patch -p1 -i $SRC/hplip-pcardext-disable.patch
-
-	# is PAM installed?
-	if [ -L /lib/libpam.so.? ]; then
-		unset SHADOW_OPTIONS
-	else
-		SHADOW_OPTIONS="--enable-shadow-build"
-	fi
 
 	find -name '*.py' -print0 | xargs -0 \
 		sed -i.env-python -e 's,^#!/usr/bin/env python,#!/usr/bin/python3,'
@@ -79,8 +76,8 @@ build() {
 	  --with-hpppddir=/usr/share/ppd/HP \
 	  --with-drvdir=/usr/share/cups/drv/HP \
 	  --enable-hpijs-install \
-	  $SHADOW_OPTIONS \
-	  --enable-scan-build \
+	  --enable-shadow-build \
+	  $SCAN_OPTIONS \
 	  --enable-gui-build \
 	  --enable-fax-build \
 	  --enable-doc-build \
@@ -93,8 +90,8 @@ build() {
 	  --enable-qt5 \
 	  --enable-policykit \
 	  --enable-cups-ppd-install \
-	  --build=x86_64-crux-linux \
-	  --host=x86_64-crux-linux
+	  --build=CRUX-x86_64-multilib \
+	  --host=CRUX-x86_64-multilib
 
 	make
 	make install DESTDIR=$PKG rulesdir=/lib/udev/rules.d
@@ -107,7 +104,7 @@ build() {
 	# Don't ship .la files:
 	rm -f $PKG/{,usr/}lib/*.la
 
-	# no docs
+	# no docs, please
 	rm -rf $PKG/usr/share/doc
 
 	# several scripts need this
