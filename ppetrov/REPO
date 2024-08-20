@@ -215,7 +215,6 @@ d:openbabel
 d:openmm
 d:openoffice
 d:openvpn
-d:opera
 d:orbit2
 d:osmo
 d:p5-algorithm-munkres
@@ -1275,9 +1274,6 @@ f:ed251df656ec30c10b79297a415c9e8d:openvpn/.signature
 f:13ddc6be39047730e43c0672913c3895:openvpn/Pkgfile
 f:9e028401bf063a1779949c4c536e0607:openvpn/openvpn.conf
 f:2f135439cf6e9a6db466acf3d567b4c3:openvpn/openvpn.rc
-f:3ec42bb7230ea7ce10e330768b9f984c:opera/.footprint
-f:6cfdc65da08a81f4e6ef61885d97e07c:opera/.signature
-f:59876267b86f509d299554e0b0155728:opera/Pkgfile
 f:94ef9b521f5766dcacd56e625faaac28:orbit2/.footprint
 f:767e0ff28b79192eb53026e00c919a0e:orbit2/.signature
 f:db86247cb8a2a042d453ccdf2049224e:orbit2/Pkgfile
@@ -2032,8 +2028,8 @@ f:dd341593e64ccdc92dc375b84f506d40:xv/Pkgfile
 f:0e680bc2f45986e6838a3667b60825d3:xv/xv.desktop
 f:45823cf4b6131dd540d61950667d38bc:xv/xv.png
 f:92aead2c177ef0f32c09411bc9a4c1c9:zoom-linux/.footprint
-f:e2733c1268ced446ed0628c5b8c70293:zoom-linux/.signature
-f:b892f2885f34bad83d134caa4bf21ae4:zoom-linux/Pkgfile
+f:6436f7dffc6b0bfda7a636ad40430796:zoom-linux/.signature
+f:192e058b4df2b91a790192c1db091e0b:zoom-linux/Pkgfile
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
 f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png
@@ -2066,9 +2062,9 @@ f:354f73772c2667e1ab171cf5b0091bc5:evince-gtk2/Pkgfile
 f:627ed74e27650ad8b5f860f26a174def:evince-gtk2/post-install
 f:f3a6dd9a1614faacf519fb9934c6fa31:evince-gtk2/.footprint
 f:bf33490ff60bab2b8dfc347536820fef:evince-gtk2/.signature
-f:09a5e99248a4efa7f174182bdbb7df84:hplip/Pkgfile
+f:a4993eae2dafd122be0651fab1ae06ed:hplip/Pkgfile
 f:f3e379843203c5de36822fc15886c42e:hplip/.footprint
-f:92d621dc5fd80375364d9d3aec7afb24:hplip/.signature
+f:fd0a1bc1ca473c004d7dbf0f68d1b0d2:hplip/.signature
 f:d1c1e90d1c99361daf032a327c1eddef:hplip/hplip-covscan.patch
 f:5e5fd03b17858703289dab544d78e065:hplip/hplip-hpaio-gcc14.patch
 f:bb61c1508f1c822e457d6f536ed2849f:hplip/hplip-pcardext-disable.patch
