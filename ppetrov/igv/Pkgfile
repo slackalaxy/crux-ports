@@ -4,7 +4,7 @@
 # Depends on: adoptium11-jdk
 
 name=igv
-version=2.18.1
+version=2.18.2
 release=1
 source=(https://data.broadinstitute.org/igv/projects/downloads/${version%.*}/IGV_${version}.zip
 	$name.desktop $name.png)
