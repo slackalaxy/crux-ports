@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Ejk1ZK4hD5m1aMhjPEk1MtNvw5GDSGbjQVSzSU1mhX1aR+1oKAsnHb9dkcRQtxuPR9cFTZESprjJ4hiWUIcHAw=
-SHA256 (Pkgfile) = 3ac5c3725e18d44890df3e0ce0931cf7aada08eed912321d54cd5e14bc5e5af6
+RWQ2oTreAss89IbhanfpaaWGCEn4roMQAUWhVyDku9gh8I0fxx41+QzEy7X2B6DzHfd5g6U1gbIvpAN0+nONMEpPt599WuNNzAc=
+SHA256 (Pkgfile) = bfe53385fa4cc7cec54e4eb3375a70e93373a41375ea194262cdbff7c41f5cfb
 SHA256 (.footprint) = 609e4ad11d56fbec0c1f7f063353319ba00faf414e71ca33ada1f36fba74c0b2
-SHA256 (RcppParallel_5.1.8.tar.gz) = d655b18ad85655e3df9313695a46e7ba6c8c0b5576ff1ab50010b34a97bba126
+SHA256 (RcppParallel_5.1.9.tar.gz) = fd0861f3f0f7be4e0ef29c021e75beb351ae2eb18ce5d79e21f2725da4da114f

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89HAl9J38qgeiTGzrajyUK/kqsCPzdhBPfxFhqe0MR6joWvHOVpIzBE7Loy57EFsj6huaSyOd2UWwnD4/jTMUYgc=
-SHA256 (Pkgfile) = 0911dfff900fea8f578977e955c3d1df9472c59e71da4ff53cda0e4937862d31
+RWQ2oTreAss89LZCbUaIbYWpp+BEioU8YCwnNsRNu0HRiSliyEqdFtNFIr61ml4Hu4fUR6Brc3WWCT1U0hN8twFg8NX2UhPvBA4=
+SHA256 (Pkgfile) = cba0963e203905b747747b7acb0fa8bea70fb11d74d4eceac3791023ea925bc8
 SHA256 (.footprint) = 87a0b210fb06b90c7dfe39abf8f11366353409d3c6fc292fdc647cc2f3df71e6
-SHA256 (httr2_1.0.2.tar.gz) = d1f8e37f74a59f4e1b3b886e5f453336ba14251e500acdccc8f4f7d2b9300048
+SHA256 (httr2_1.0.3.tar.gz) = 4bef34bf878edf7aa972926a80e2fdd742fff8196301871ff82fc1597d2e4cc2

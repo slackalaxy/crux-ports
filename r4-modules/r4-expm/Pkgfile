@@ -1,13 +1,13 @@
 # Description: R module expm
 # URL: https://cran.r-project.org/web/packages/expm
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-matrix
+# Depends on: r r4-matrix
 # Optional: r4-rcolorbrewer r4-rmpfr r4-sfsmisc
 
 name=r4-expm
-version=0.999.9
+version=1.0.0
 release=1
-source=(https://cloud.r-project.org/src/contrib/expm_0.999-9.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/expm_1.0-0.tar.gz)
 
 build() {
 	cd expm

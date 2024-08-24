@@ -4,7 +4,7 @@
 # Depends on: onetbb r r4-knitr r4-rcpp r4-rmarkdown r4-runit 
 
 name=r4-rcppparallel
-version=5.1.8
+version=5.1.9
 release=1
 source=(https://cloud.r-project.org/src/contrib/RcppParallel_${version}.tar.gz)
 

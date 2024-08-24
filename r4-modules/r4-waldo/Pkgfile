@@ -1,11 +1,11 @@
 # Description: R module waldo
 # URL: https://cran.r-project.org/web/packages/waldo
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-diffobj r4-fansi r4-glue r4-rematch2 r4-rlang r4-tibble
+# Depends on: r r4-cli r4-diffobj r4-glue r4-rematch2 r4-rlang r4-tibble
 # Optional: r4-covr r4-r6 r4-testthat r4-withr r4-xml2
 
 name=r4-waldo
-version=0.5.2
+version=0.5.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/waldo_${version}.tar.gz)
 

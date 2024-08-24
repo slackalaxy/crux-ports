@@ -5,7 +5,7 @@
 # Optional: r4-simplermarkdown r4-tinytest
 
 name=r4-digest
-version=0.6.36
+version=0.6.37
 release=1
 source=(https://cloud.r-project.org/src/contrib/digest_${version}.tar.gz)
 

@@ -1,11 +1,11 @@
 # Description: R module rjson
 # URL: https://cran.r-project.org/web/packages/rjson
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-rjson
-version=0.2.21
+version=0.2.22
 release=1
 source=(https://cloud.r-project.org/src/contrib/rjson_${version}.tar.gz)
 
