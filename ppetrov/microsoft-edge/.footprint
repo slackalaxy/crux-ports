@@ -6,6 +6,9 @@ drwxr-xr-x	root/root	usr/lib/microsoft-edge/
 drwxr-xr-x	root/root	usr/lib/microsoft-edge/MEIPreload/
 -rw-r--r--	root/root	usr/lib/microsoft-edge/MEIPreload/manifest.json
 -rw-r--r--	root/root	usr/lib/microsoft-edge/MEIPreload/preloaded_data.pb
+drwxr-xr-x	root/root	usr/lib/microsoft-edge/PrivacySandboxAttestationsPreloaded/
+-rw-r--r--	root/root	usr/lib/microsoft-edge/PrivacySandboxAttestationsPreloaded/manifest.json
+-rw-r--r--	root/root	usr/lib/microsoft-edge/PrivacySandboxAttestationsPreloaded/privacy-sandbox-attestations.dat
 drwxr-xr-x	root/root	usr/lib/microsoft-edge/WidevineCdm/
 drwxr-xr-x	root/root	usr/lib/microsoft-edge/WidevineCdm/_platform_specific/
 drwxr-xr-x	root/root	usr/lib/microsoft-edge/WidevineCdm/_platform_specific/linux_x64/
