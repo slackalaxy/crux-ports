@@ -1,0 +1,20 @@
+# Description: A small run-time speech synthesis engine
+# URL: https://github.com/festvox/flite/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+# Optional: alsa-lib
+
+name=flite
+version=2.2
+release=1
+source=(https://github.com/festvox/flite/archive/v${version}/flite-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr \
+	--enable-shared
+
+  make -j1
+  make DESTDIR="$PKG" install
+
+}
