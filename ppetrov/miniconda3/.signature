@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcucKgNKGabLNt/UrtpYruR5zitLTHSzsDlrJ1QmiZoLIjeUCgBRU2ysx3OYrhd3POCBlIWfRDgGHM2g9b8s7AU=
-SHA256 (Pkgfile) = b2df0d55b19334b01c9674ad219ec98c4b2d2b4390942ea52cb37726df6bc8e4
-SHA256 (.footprint) = a24538401c995e966d2330d83d3a88d44e2442a63a2c19a946401bf34017667d
-SHA256 (Miniconda3-py310_24.5.0-0-Linux-x86_64.sh) = b3d73db6a05069fbdf20dc33fc9b6a29fa7198578f0d090c639f5ca0e84102bd
+RWToVVsIkzFIZb03AaH/zaEJLsFtQcji8bH3izC+BUitDcZlkR9LahH74IuOWSim0xJUoxZoEGM5YQ82xJqnV/bs2TtLanKxyQI=
+SHA256 (Pkgfile) = 2c763adbacaa4e54995ece41493890607f6c4d963cebb8ee14fe015998874ef2
+SHA256 (.footprint) = 40dfe50562796a5896f242c3fc0bb4b2bee7b9d7e6047af0c3fc3c31fb826eeb
+SHA256 (Miniconda3-py310_24.7.1-0-Linux-x86_64.sh) = 684cda724bc37e3bbbb342e440fc4cac515c92e91a489eb4359feca35382894b

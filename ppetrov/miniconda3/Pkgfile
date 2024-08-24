@@ -1,18 +1,18 @@
 # Description: Mini version of Anaconda Python distribution
 # URL: https://conda.io/en/latest/miniconda
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
+# Depends on: brotli graphite2 keyutils krb5 libxml2 lz4 tk xorg-libxscrnsaver
 
 name=miniconda3
-version=24.5.0
+version=24.7.1_0
 _python=py310
 release=1
-source=(https://repo.anaconda.com/miniconda/Miniconda3-${_python}_${version}-${version##*.}-Linux-x86_64.sh)
+source=(https://repo.anaconda.com/miniconda/Miniconda3-${_python}_${version/_/-}-Linux-x86_64.sh)
 
 build() {
 	prefix=$PKG/usr/lib/$name
 	LD_PRELOAD="/usr/lib/libfakeroot.so"
-	bash $SRC/Miniconda3-${_python}_${version}-${version##*.}-Linux-x86_64.sh -b -p $prefix -f
+	bash $SRC/Miniconda3-${_python}_${version/_/-}-Linux-x86_64.sh -b -p $prefix -f
 	[ "$BREAK_EARLY" = 1 ] && exit 1
 	cd $prefix
 	chmod a+r -R pkgs
