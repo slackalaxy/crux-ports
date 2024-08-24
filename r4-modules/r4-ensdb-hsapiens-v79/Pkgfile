@@ -1,0 +1,16 @@
+# Description: R module EnsDb.Hsapiens.v79
+# URL: https://bioconductor.org/packages/EnsDb.Hsapiens.v79
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ensembldb
+# Optional: 
+
+name=r4-ensdb-hsapiens-v79
+version=2.99.0
+release=1
+source=(https://bioconductor.org/packages/3.19/data/annotation/src/contrib/EnsDb.Hsapiens.v79_${version}.tar.gz)
+
+build() {
+	cd EnsDb.Hsapiens.v79
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
