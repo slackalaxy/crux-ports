@@ -1,7 +1,7 @@
 # Description: DejaVu without characters listed as emoji
 # URL: https://dejavu-fonts.github.io
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fontconfig fontforge xorg-mkfontscale
+# Depends on: fontforge xorg-mkfontscale
 # Conflicts: xorg-font-dejavu-ttf
 
 name=xorg-font-dejavu-emojiless

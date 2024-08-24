@@ -1,7 +1,7 @@
 # Description: HP print/scan/fax support
 # URL: http://hplipopensource.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: cups dbus gnutls libidn2 libxml2 qt5 sane
+# Depends on: cups gnutls libidn2 qt5 sane
 # Conflicts: hpcups
 
 name=hplip
