@@ -106,6 +106,8 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtCore.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtDBus.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtGui.so
+-rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtMultimedia.so
+-rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtMultimediaWidgets.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtNetwork.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtOpenGL.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtOpenGLWidgets.so
@@ -117,10 +119,12 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtQuick.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtQuickWidgets.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtSensors.so
+-rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtSpatialAudio.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtSql.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtSvg.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtSvgWidgets.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtTest.so
+-rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtTextToSpeech.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtWebChannel.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtWebEngineCore.so
 -rw-r--r--	root/root	usr/lib/calibre/lib/calibre-extensions/PyQt6.QtWebEngineWidgets.so
@@ -237,7 +241,6 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/regex._regex.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/resource.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/select.so
--rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/sipbuild.code_generator.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/speedup.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/spwd.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/sqlite_custom.so
@@ -257,6 +260,8 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Core.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6DBus.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Gui.so.6
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Multimedia.so.6
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6MultimediaWidgets.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Network.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6OpenGL.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6OpenGLWidgets.so.6
@@ -267,8 +272,10 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Quick.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6QuickWidgets.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Sensors.so.6
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6SpatialAudio.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Sql.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Svg.so.6
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6TextToSpeech.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6WaylandClient.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6WaylandEglClientHwIntegration.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6WebChannel.so.6
@@ -335,7 +342,6 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/ossl-modules/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/ossl-modules/legacy.so
 drwxr-xr-x	root/root	usr/lib/calibre/libexec/
 -rwxr-xr-x	root/root	usr/lib/calibre/libexec/QtWebEngineProcess
-drwx------	root/root	usr/lib/calibre/libexec/locales/
 -rwxr-xr-x	root/root	usr/lib/calibre/lrf2lrs
 -rwxr-xr-x	root/root	usr/lib/calibre/lrfviewer
 -rwxr-xr-x	root/root	usr/lib/calibre/lrs2lrf
@@ -344,6 +350,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/plugins/
 drwxr-xr-x	root/root	usr/lib/calibre/plugins/egldeviceintegrations/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/egldeviceintegrations/libqeglfs-emu-integration.so
 -rw-r--r--	root/root	usr/lib/calibre/plugins/egldeviceintegrations/libqeglfs-kms-egldevice-integration.so
+-rw-r--r--	root/root	usr/lib/calibre/plugins/egldeviceintegrations/libqeglfs-kms-integration.so
 -rw-r--r--	root/root	usr/lib/calibre/plugins/egldeviceintegrations/libqeglfs-x11-integration.so
 drwxr-xr-x	root/root	usr/lib/calibre/plugins/iconengines/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/iconengines/libqsvgicon.so
@@ -358,6 +365,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/plugins/imageformats/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/imageformats/libqtiff.so
 -rw-r--r--	root/root	usr/lib/calibre/plugins/imageformats/libqwbmp.so
 -rw-r--r--	root/root	usr/lib/calibre/plugins/imageformats/libqwebp.so
+drwxr-xr-x	root/root	usr/lib/calibre/plugins/multimedia/
 drwxr-xr-x	root/root	usr/lib/calibre/plugins/platforminputcontexts/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/platforminputcontexts/libcomposeplatforminputcontextplugin.so
 -rw-r--r--	root/root	usr/lib/calibre/plugins/platforminputcontexts/libibusplatforminputcontextplugin.so
@@ -376,6 +384,10 @@ drwxr-xr-x	root/root	usr/lib/calibre/plugins/platformthemes/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/platformthemes/libqxdgdesktopportal.so
 drwxr-xr-x	root/root	usr/lib/calibre/plugins/sqldrivers/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/sqldrivers/libqsqlite.so
+drwxr-xr-x	root/root	usr/lib/calibre/plugins/texttospeech/
+-rw-r--r--	root/root	usr/lib/calibre/plugins/texttospeech/libqtexttospeech_flite.so
+-rw-r--r--	root/root	usr/lib/calibre/plugins/texttospeech/libqtexttospeech_mock.so
+-rw-r--r--	root/root	usr/lib/calibre/plugins/texttospeech/libqtexttospeech_speechd.so
 drwxr-xr-x	root/root	usr/lib/calibre/plugins/tls/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/tls/libqcertonlybackend.so
 -rw-r--r--	root/root	usr/lib/calibre/plugins/tls/libqopensslbackend.so
@@ -721,6 +733,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/images/textures/
 drwxr-xr-x	root/root	usr/lib/calibre/resources/jacket/
 -rw-r--r--	root/root	usr/lib/calibre/resources/jacket/stylesheet.css
 -rw-r--r--	root/root	usr/lib/calibre/resources/jacket/template.xhtml
+drwx------	root/root	usr/lib/calibre/resources/locales/
 drwxr-xr-x	root/root	usr/lib/calibre/resources/localization/
 -rw-r--r--	root/root	usr/lib/calibre/resources/localization/iso3166.calibre_msgpack
 -rw-r--r--	root/root	usr/lib/calibre/resources/localization/iso639.calibre_msgpack
@@ -812,6 +825,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/templates/
 -rw-r--r--	root/root	usr/lib/calibre/resources/toc.js
 -rw-r--r--	root/root	usr/lib/calibre/resources/user-agent-data.json
 -rw-r--r--	root/root	usr/lib/calibre/resources/user-manual-translation-stats.json
+-rw-r--r--	root/root	usr/lib/calibre/resources/v8_context_snapshot.bin
 -rw-r--r--	root/root	usr/lib/calibre/resources/viewer.html
 -rw-r--r--	root/root	usr/lib/calibre/resources/viewer.js
 -rwxr-xr-x	root/root	usr/lib/calibre/web2disk
