@@ -176,6 +176,7 @@ d:libidl
 d:libimobiledevice-glue
 d:libimobiledevice
 d:libplist
+d:flite
 d:libusbmuxd
 d:libvncserver
 d:libxml210
@@ -579,9 +580,9 @@ f:2ae42f3fbd50bebac1a6dfcb27b75d6b:bppsuite/Pkgfile
 f:d246eef724b3875afee839449ac8bc5b:bwa/.footprint
 f:b4342dd2cd132f232c208427e7b1e212:bwa/.signature
 f:05fe852218fddec4b48bcf1f4f7bf834:bwa/Pkgfile
-f:b2f2ffebbc904c74bc223b44fe299bab:calibre-bin/.footprint
-f:9a664f31b0ac48ed05ef3f51d1a62e8d:calibre-bin/.signature
-f:57c4bcb868525ddb5df7c9d418ac27ba:calibre-bin/Pkgfile
+f:fa0fcae40c763846fa946aa89bffc662:calibre-bin/.footprint
+f:1704a444dbea3acda60209e12e0aa799:calibre-bin/.signature
+f:89f637906787e20a7ca09b58012dd12d:calibre-bin/Pkgfile
 f:51db8d36d29a1266832d4737d83c94e3:calibre-bin/calibre-bin.desktop
 f:863e0f3825e3ad6c68e58e8a39f7934d:cap3/.footprint
 f:4adfa344f070f5797f9d6375bbfe4f8f:cap3/.signature
@@ -1125,6 +1126,9 @@ f:26367a203cb39bcc9e8307035efb24ca:libimobiledevice/Pkgfile
 f:4918d2997711cdc4fe2995edc0338689:libplist/.footprint
 f:30781ff4c9ef6f5f28c58318eb84ef00:libplist/.signature
 f:700acd6ed9422b12c32d53b47cdeaef6:libplist/Pkgfile
+f:d119818fe29ea604f92953a7efcebc87:flite/Pkgfile
+f:d579f51fac028ff90a4c04c2f54370bd:flite/.footprint
+f:a48a0973452a4c71456ab1dd5fedc096:flite/.signature
 f:8bb56c04a2ba6823564adbb4a621bc7c:libusbmuxd/.footprint
 f:f4ddb86669c4fe7183ad64763c2a53d1:libusbmuxd/.signature
 f:cdd65956c107150d7411166e82153d5b:libusbmuxd/Pkgfile
@@ -1815,8 +1819,8 @@ f:49e7534023b483e4fe5beeb40f21c7d4:ubuntulooks/.footprint
 f:335174a9f9303e4d904d393636ccb9e0:ubuntulooks/.signature
 f:1f581d559f9ac7370e59efc69027063d:ubuntulooks/Pkgfile
 f:18bae5c4ba4929ba0d0d8309cec71d06:ucsf-chimerax/.footprint
-f:edf1429bb708182ea5503bc0be87bfc5:ucsf-chimerax/.signature
-f:20c1d5a7db75b92b0d9e0e6a85c1192d:ucsf-chimerax/Pkgfile
+f:071a32e713190af3982e234f702fcebb:ucsf-chimerax/.signature
+f:62ee02c510cfb059cd12cb3d7a2a4222:ucsf-chimerax/Pkgfile
 f:1777df25a0de190e2ac545074f35cb44:ucsf-chimerax/ucsf-chimerax.desktop
 f:e0271363653404f6e55d65ad16f27ade:ugene/.footprint
 f:e27adb7242000a659ac7c25925b9ca58:ugene/.signature
@@ -2058,10 +2062,10 @@ f:404e54f40a6eccd0b88e14d339d02694:viber/README
 f:70e8c1b68f00ef3c71f279080e7d8d10:viber/viber.png
 f:9c1c73f88de50bfa0115d896a677b21d:viber/viber.sh
 f:ff8b25c615dc2416954870617b2314e3:viber/viber.fonts.conf
-f:4dd8b3b0f13d14d690cd30cb0b384a7d:evince-gtk2/Pkgfile
+f:9493a607f8bed0ee51339d12847d2c48:evince-gtk2/Pkgfile
 f:627ed74e27650ad8b5f860f26a174def:evince-gtk2/post-install
 f:f3a6dd9a1614faacf519fb9934c6fa31:evince-gtk2/.footprint
-f:ee1ae6cd0888387f939c74a6f110845d:evince-gtk2/.signature
+f:272571ab02d55bb3e51c82c19a5032b0:evince-gtk2/.signature
 f:ca9e3b2f82eac8b6b574add01f3552a4:hplip/Pkgfile
 f:f3e379843203c5de36822fc15886c42e:hplip/.footprint
 f:feeada4e59e5c13c8cfbd329cb073c83:hplip/.signature
