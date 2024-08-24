@@ -387,7 +387,6 @@ drwxr-xr-x	root/root	usr/lib/calibre/plugins/sqldrivers/
 drwxr-xr-x	root/root	usr/lib/calibre/plugins/texttospeech/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/texttospeech/libqtexttospeech_flite.so
 -rw-r--r--	root/root	usr/lib/calibre/plugins/texttospeech/libqtexttospeech_mock.so
--rw-r--r--	root/root	usr/lib/calibre/plugins/texttospeech/libqtexttospeech_speechd.so
 drwxr-xr-x	root/root	usr/lib/calibre/plugins/tls/
 -rw-r--r--	root/root	usr/lib/calibre/plugins/tls/libqcertonlybackend.so
 -rw-r--r--	root/root	usr/lib/calibre/plugins/tls/libqopensslbackend.so

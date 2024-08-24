@@ -1,11 +1,11 @@
 # Description: Ebook manager
 # URL: https://calibre-ebook.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: hyphen krb5 libgpg-error libtiff5 libwebp nss openssl11 qt6-pdfwidgets qt6-svg qt6-wayland tslib xorg-libsm
+# Depends on: flite hyphen krb5 libdeflate libgpg-error libtiff5 libwebp nss openssl11 patchelf qt6-pdfwidgets qt6-svg qt6-wayland tslib xorg-libsm
 
 name=calibre-bin
 version=7.17.0
-release=1
+release=2
 source=(https://download.calibre-ebook.com/$version/calibre-$version-x86_64.txz
 	$name.desktop)
 
@@ -22,6 +22,12 @@ build() {
 	
 	cd $PKG/usr/bin
 	ln -s ../lib/calibre/calibre $name
+	
+	# use libnsl.so.3 instead of 2
+	patchelf --replace-needed "libnsl.so.2" "libnsl.so.3" \
+		$PKG/usr/lib/calibre/lib/calibre-extensions/nis.so
+	
+	rm $PKG/usr/lib/calibre/plugins/texttospeech/libqtexttospeech_speechd.so
 	
 	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
 	mkdir -p $PKG/etc/revdep.d
