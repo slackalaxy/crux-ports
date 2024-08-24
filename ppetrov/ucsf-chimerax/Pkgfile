@@ -1,7 +1,7 @@
 # Description: The next-generation molecular visualization program 
 # URL: https://www.cgl.ucsf.edu/chimerax/download.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli double-conversion gnutls graphite2 gtk3 lame libidn2 libinput openmm pcsclite postgresql pulseaudio qt6-3d qt6-multimedia qt6-pdfwidgets qt6-quick3dphysics qt6-svg qt6-wayland qt6-webview tslib unixodbc xorg-libxinerama xorg-libxkbfile
+# Depends on: brotli double-conversion gnutls graphite2 gtk3 lame libidn2 libinput openmm patchelf pcsclite postgresql pulseaudio qt6-3d qt6-multimedia qt6-pdfwidgets qt6-quick3dphysics qt6-svg qt6-wayland qt6-webview tslib unixodbc xorg-libxinerama xorg-libxkbfile
 
 name=ucsf-chimerax
 version=1.8
