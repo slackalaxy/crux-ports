@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZD1zb9Kt7vxLmvPy9XDssBloywB/pE4nMyiqxsCQfutKjKSBibkju+rycKlXYNoHF6U1CLw1lLA612SJzZYggk=
-SHA256 (Pkgfile) = 101cef40ac446c9985732dcc1201e4855b8933d6e70152ec7bb5a805a0a00334
+RWToVVsIkzFIZaJ+6juAGjze+Z2UYWJXe25Sz1aFkAhtdgaM3dTH1JKr/Ok7ffuIPM0gasOlxQ8pMQakqTg1QiMMGwsWmt8cOQM=
+SHA256 (Pkgfile) = 43f3042fe8003148321c1bb1569e613392699b25c1a5cce953e71f4bac5014a3
 SHA256 (.footprint) = 2add53182d8797baf9697022470caa24c484b51efea9b7a08d4e5657e92a5742
-SHA256 (BiocManager_1.30.23.tar.gz) = f7b45dbc49c97b2e6ec4b96ec1d472c6f1a5ad9bc0f933eea4c3ebc90dd8f34c
+SHA256 (BiocManager_1.30.24.tar.gz) = 645c423bb144dbd476cb308678bd36e06c1a3494115f157166dd3f59955ec7d1
