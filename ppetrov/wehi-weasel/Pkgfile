@@ -4,7 +4,7 @@
 # Depends on: jdk8-bin facsdir
 
 name=wehi-weasel
-version=38118
+version=38218
 release=1
 source=(https://frankbattye.com.au/Weasel/WeaselDownload.html $name.sh $name.desktop $name.png $name.menu)
 renames=(wsl${version}unix.zip SKIP SKIP SKIP SKIP)
