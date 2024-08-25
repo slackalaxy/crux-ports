@@ -1205,8 +1205,8 @@ f:5a8c5d6a1e8de9b5bbd0661eaeb8e8fa:mplayer-skins/.footprint
 f:417cb87123a68566e7f93549c6714cd1:mplayer-skins/.signature
 f:6cc54eb8bd9c53038501d31838ff8eb8:mplayer-skins/Pkgfile
 f:9fcd890e76dbd16c31e47cf16ef59334:mplayer/.footprint
-f:54f4b6f80be5ef9c0433f4c730e694bf:mplayer/.signature
-f:95b40c8ae0189d5e344ab0e91f140050:mplayer/Pkgfile
+f:6edd2b11a7f074c500c0dc9e978a3870:mplayer/.signature
+f:de77d5e46635db2b79f0e4301a92f9ec:mplayer/Pkgfile
 f:3e7b0aee696cb9d0f433f6e0a0451300:mplayer/README
 f:f659e7a1cbd746f613edef058404b575:mplayer/mplayer.conf
 f:4e53abec01448d3ffe895de8770bbc59:mrbayes/.footprint
@@ -1862,8 +1862,8 @@ f:3298df27fbe09ee4870346bc98a8b138:wehi-hackit/wehi-hackit.desktop
 f:7ec1520270115d97522f573c7e164612:wehi-hackit/wehi-hackit.menu
 f:a2dc1f435743f23a6aeb27145563a761:wehi-hackit/wehi-hackit.png
 f:b6fc8a1bab6538a2168c9f764c5b165f:wehi-weasel/.footprint
-f:adeb3da28ef8e164190dc6173ece2f0b:wehi-weasel/.signature
-f:d7ac418955a8ab203c038ba5c9bda57b:wehi-weasel/Pkgfile
+f:f0b8913e2198659c3c8920e7588a995f:wehi-weasel/.signature
+f:08dcaf9de150391a993ff14ac53dfe6d:wehi-weasel/Pkgfile
 f:bbe7f429b79f2837d779793dee3ade4e:wehi-weasel/README
 f:6b3a7a76e244a49c3cae94a7c23b6727:wehi-weasel/wehi-weasel.desktop
 f:588384a08d4548b883179c056c9ec364:wehi-weasel/wehi-weasel.menu
