@@ -5,7 +5,7 @@
 # Optional: r4-biocstyle r4-biocversion r4-curl r4-knitr r4-remotes r4-rmarkdown r4-testthat r4-withr
 
 name=r4-biocmanager
-version=1.30.24
+version=1.30.25
 release=1
 source=(https://cloud.r-project.org/src/contrib/BiocManager_${version}.tar.gz)
 
