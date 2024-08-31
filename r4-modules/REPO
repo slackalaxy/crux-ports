@@ -507,6 +507,7 @@ d:r4-yulab-utils
 d:r4-yagst
 d:r4-anndata
 d:r4-ensdb-hsapiens-v79
+d:cran2crux
 f:0b25d3192dd6052a0f0e0089ad963680:r4-abind/.footprint
 f:b91ef7d9346b784311fe3f5b9128ef18:r4-abind/.signature
 f:92459085839d7470e81713b5d9e3f09c:r4-abind/Pkgfile
@@ -2034,3 +2035,6 @@ f:b05a4c5a97418b5bbc31ce2b2e8a12bb:r4-anndata/.signature
 f:c0b22ae57578bdcc2d33e115adc79d96:r4-ensdb-hsapiens-v79/Pkgfile
 f:47bdb8ce549b024c5e1c61d6379ba297:r4-ensdb-hsapiens-v79/.footprint
 f:ae232c02e04a7e60eaa0e4fc1e1b921c:r4-ensdb-hsapiens-v79/.signature
+f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
+f:be61b74b7cef0ce3db1133ea262beb60:cran2crux/.signature
+f:0dc0756cc1aff98ab4a9dd2159e02f12:cran2crux/Pkgfile

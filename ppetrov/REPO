@@ -53,7 +53,6 @@ d:clustalx
 d:cmst
 d:codeml-native
 d:connman
-d:cran2crux
 d:cufflinks
 d:cutadapt
 d:data2fcs
@@ -325,7 +324,6 @@ d:qt6-quick3dphysics
 d:qt6-webview
 d:qt6ct
 d:qt6gtk2
-d:r4-biocmanager
 d:rarian
 d:raxml
 d:referencer
@@ -641,9 +639,6 @@ f:e12cb18fc7f7f48506646c02b9af7948:connman/README
 f:4631181630252e4a61d3841d7d3cbca0:connman/connmand.rc
 f:446846b35f4320e2f99e6bd154843f71:connman/dbus.wheel.patch
 f:002c3d7e91c8aecca5d65333022f7d15:connman/eduroam.config
-f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
-f:511f7b077218a121ed347e3f0e30d835:cran2crux/.signature
-f:0dc0756cc1aff98ab4a9dd2159e02f12:cran2crux/Pkgfile
 f:c82d762775a5496107c08f386ea68e55:cufflinks/.footprint
 f:0c7926ff4a18f5fd0bd3512e851c4619:cufflinks/.signature
 f:4b83f39fb36eaffec5eb69d3558f464c:cufflinks/Pkgfile
@@ -1642,9 +1637,6 @@ f:ac8fc7c4d1126146da3e5c2ac4b40c9b:qt6ct/Pkgfile
 f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
 f:9a4ca9b537bc7fbe71c534ce48cc6fed:qt6gtk2/.signature
 f:13d37e9c62fab693b7eab89e8b4513a8:qt6gtk2/Pkgfile
-f:70d00b6dd98fcf055f4749e6533fe724:r4-biocmanager/.footprint
-f:3c2d58672030fdab56a00d66ea46eb50:r4-biocmanager/.signature
-f:64401c7740a3ad95d9ac6d729ffa81fd:r4-biocmanager/Pkgfile
 f:b577854595aed487e5958f221211b339:rarian/.footprint
 f:3fd3a4b1aab4c0beb32d2b54a7e4be2f:rarian/.signature
 f:1544b6c6016723c695386e1445316c92:rarian/Pkgfile
