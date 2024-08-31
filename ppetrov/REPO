@@ -216,6 +216,7 @@ d:openbabel
 d:openmm
 d:openoffice
 d:openvpn
+d:wps-office
 d:orbit2
 d:osmo
 d:p5-algorithm-munkres
@@ -387,7 +388,6 @@ d:wehi-weasel
 d:wise
 d:wordnet
 d:wps-office-dicts
-d:wps-office
 d:wv
 d:xar
 d:xcdroast
@@ -910,8 +910,8 @@ f:9d5ba646510646af00bc7a831554cf8a:goffice08/README
 f:a4c14788c236bb2c8b11b04fa695f9ca:goffice08/disable-linking-pcre.patch
 f:a0841a9f55284f3fbc1c01a7717a345f:goffice08/go-conf-gsettings.c
 f:4957b29450551ff6d3c50bb79d019322:google-chrome/.footprint
-f:795503f46688ec64553d16f23bbfa230:google-chrome/.signature
-f:6ff0840e7b324e238a64b7d5908d3d11:google-chrome/Pkgfile
+f:5b661e66d0a5b839a92bd9696e5d6233:google-chrome/.signature
+f:f344ccc1fa1db3a990d1d9d6b2ca9776:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:77ef3f5038581ff4956d14f5f072f067:gp2fasta/.footprint
 f:7323f30be6d4c63d36b47331c503208a:gp2fasta/.signature
@@ -1278,6 +1278,13 @@ f:ed251df656ec30c10b79297a415c9e8d:openvpn/.signature
 f:13ddc6be39047730e43c0672913c3895:openvpn/Pkgfile
 f:9e028401bf063a1779949c4c536e0607:openvpn/openvpn.conf
 f:2f135439cf6e9a6db466acf3d567b4c3:openvpn/openvpn.rc
+f:e256100e8aed7ead8216a0a2354f1fd8:wps-office/desktop.tar.xz
+f:0feff7e0cd54e1fa4e39298fe55f158a:wps-office/.footprint
+f:ef64798c3349210ade53d0fadb4f45bf:wps-office/.signature
+f:1d00fefb05425c77fa2ae91f93cbfc8f:wps-office/Pkgfile
+f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
+f:389134912dc24609f83900c75f0b3e99:wps-office/post-install
+f:bb31750b8331bf055f447f055533b49a:wps-office/freetype.tar.xz
 f:94ef9b521f5766dcacd56e625faaac28:orbit2/.footprint
 f:767e0ff28b79192eb53026e00c919a0e:orbit2/.signature
 f:db86247cb8a2a042d453ccdf2049224e:orbit2/Pkgfile
@@ -1636,8 +1643,8 @@ f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
 f:9a4ca9b537bc7fbe71c534ce48cc6fed:qt6gtk2/.signature
 f:13d37e9c62fab693b7eab89e8b4513a8:qt6gtk2/Pkgfile
 f:70d00b6dd98fcf055f4749e6533fe724:r4-biocmanager/.footprint
-f:ccb6f8a81ac78a2deddc424e4d7cd911:r4-biocmanager/.signature
-f:4bf9ac8e073ba34ee5ff68dc8f9ab99d:r4-biocmanager/Pkgfile
+f:3c2d58672030fdab56a00d66ea46eb50:r4-biocmanager/.signature
+f:64401c7740a3ad95d9ac6d729ffa81fd:r4-biocmanager/Pkgfile
 f:b577854595aed487e5958f221211b339:rarian/.footprint
 f:3fd3a4b1aab4c0beb32d2b54a7e4be2f:rarian/.signature
 f:1544b6c6016723c695386e1445316c92:rarian/Pkgfile
@@ -1893,13 +1900,6 @@ f:4f04821cc391e027f344046097942b49:wps-office-dicts/.signature
 f:09b8c6ee164f07e0a7e3e40c9f0f7e14:wps-office-dicts/DICTIONARIES
 f:6297347a6d25e664e40d20e4ef5e5d70:wps-office-dicts/Pkgfile
 f:5cacf56f246a973f122683906f22c12e:wps-office-dicts/README
-f:0feff7e0cd54e1fa4e39298fe55f158a:wps-office/.footprint
-f:ef64798c3349210ade53d0fadb4f45bf:wps-office/.signature
-f:1d00fefb05425c77fa2ae91f93cbfc8f:wps-office/Pkgfile
-f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
-f:e256100e8aed7ead8216a0a2354f1fd8:wps-office/desktop.tar.xz
-f:bb31750b8331bf055f447f055533b49a:wps-office/freetype.tar.xz
-f:389134912dc24609f83900c75f0b3e99:wps-office/post-install
 f:94fb063f57d676c23fa7f98ef13d1591:wv/.footprint
 f:0ca5b22d05b446ef4382b52ff9c88a7e:wv/.signature
 f:dd04667207c4541625bce118da0b0b79:wv/Pkgfile
@@ -2032,8 +2032,8 @@ f:dd341593e64ccdc92dc375b84f506d40:xv/Pkgfile
 f:0e680bc2f45986e6838a3667b60825d3:xv/xv.desktop
 f:45823cf4b6131dd540d61950667d38bc:xv/xv.png
 f:92aead2c177ef0f32c09411bc9a4c1c9:zoom-linux/.footprint
-f:6436f7dffc6b0bfda7a636ad40430796:zoom-linux/.signature
-f:192e058b4df2b91a790192c1db091e0b:zoom-linux/Pkgfile
+f:3c91d87ef6908171d8d6062694b383b8:zoom-linux/.signature
+f:2da313444846888217026f95ac83a091:zoom-linux/Pkgfile
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
 f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png
