@@ -1,11 +1,11 @@
 # Description: R module gdtools
 # URL: https://cran.r-project.org/web/packages/gdtools
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-curl r4-fontquiver r4-gfonts r4-htmltools r4-rcpp r4-systemfonts
-# Optional: r4-testthat
+# Depends on: r r4-fontquiver r4-htmltools r4-rcpp r4-systemfonts
+# Optional: r4-curl r4-gfonts r4-testthat
 
 name=r4-gdtools
-version=0.3.7
+version=0.4.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/gdtools_${version}.tar.gz)
 

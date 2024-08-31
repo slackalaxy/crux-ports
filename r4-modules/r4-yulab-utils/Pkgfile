@@ -1,11 +1,11 @@
 # Description: R module yulab.utils
 # URL: https://cran.r-project.org/web/packages/yulab.utils
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-digest r4-fs r4-httr2 r4-rlang
-# Optional: r4-httr r4-jsonlite r4-openssl
+# Depends on: r r4-cli r4-digest r4-fs r4-rlang
+# Optional: r4-httr2 r4-jsonlite r4-openssl r4-rappdirs
 
 name=r4-yulab-utils
-version=0.1.6
+version=0.1.7
 release=1
 source=(https://cloud.r-project.org/src/contrib/yulab.utils_${version}.tar.gz)
 

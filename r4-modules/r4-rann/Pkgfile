@@ -1,11 +1,11 @@
 # Description: R module RANN
 # URL: https://cran.r-project.org/web/packages/RANN
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-testthat
 
 name=r4-rann
-version=2.6.1
+version=2.6.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/RANN_${version}.tar.gz)
 

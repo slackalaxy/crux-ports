@@ -14,7 +14,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/gdtools/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/NAMESPACE
--rw-r--r--	root/root	usr/lib/R/library/gdtools/NEWS
+-rw-r--r--	root/root	usr/lib/R/library/gdtools/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/gdtools/R/
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/R/gdtools
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/R/gdtools.rdb
