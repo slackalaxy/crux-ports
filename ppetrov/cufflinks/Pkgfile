@@ -1,5 +1,5 @@
 # Description: A reference-guided assembler for RNA-Seq experiments
-# URL: http://cole-trapnell-lab.github.io/cufflinks/
+# URL: https://github.com/cole-trapnell-lab/cufflinks
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: boost gcc5 samtools0
 
