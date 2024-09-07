@@ -5,9 +5,9 @@
 # Optional: r4-testthat
 
 name=r4-emoa
-version=0.5.2
+version=0.5.3
 release=1
-source=(https://cloud.r-project.org/src/contrib/emoa_0.5-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/emoa_0.5-3.tar.gz)
 
 build() {
 	cd emoa

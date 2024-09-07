@@ -5,7 +5,7 @@
 # Optional: r4-ggplot2 r4-multcomp r4-runit
 
 name=r4-microbenchmark
-version=1.4.10
+version=1.5.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/microbenchmark_${version}.tar.gz)
 

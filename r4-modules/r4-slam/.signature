@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89H9lat7pwOjHgLZTBHyD06dl0gQ0fKjjbO6Pij609S6FSWOuqd4Rw0oawvQhtrsUesZGs3NJp7HorA/HzqgBwQw=
-SHA256 (Pkgfile) = e9d226cca824bf2600250a193f93db39797155b44826e2eef9c2b6a7450d9891
+RWQ2oTreAss89BimOy3MszTNrp5SGuTv0s4KlVlXJXef80gqTTsaEV6W5jwm6vPMFJo/Fu7W8sthwD0TUg3OmkqWxmnu5+dL2Qs=
+SHA256 (Pkgfile) = cc9f2294000677cead80cff377325abb9dea9a525ae5de7ca8ab9c5dfa613c5f
 SHA256 (.footprint) = e88885802c785298e6eb8c0fc6bc0168878304767ad3504387f99a12d4716eee
-SHA256 (slam_0.1-52.tar.gz) = c383e603583d7c29e7a755a292748f670cb145d146514bd7dba1066e87994126
+SHA256 (slam_0.1-53.tar.gz) = 026e6d15243f2dd47e34767aa9e8a55b5c6484f7004e9edbeb51673b9a452d72

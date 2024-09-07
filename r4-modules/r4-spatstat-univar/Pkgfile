@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-spatstat-univar
-version=3.0.0
+version=3.0.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/spatstat.univar_3.0-0.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spatstat.univar_3.0-1.tar.gz)
 
 build() {
 	cd spatstat.univar
