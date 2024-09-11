@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZexWgAuVofVSnLBp1ZQcvY5GgA4yqNP8+ed4CHfQeb4XRThK9UoF0GMB6XHFqmUxlPi5My9D0u/qzIMVFaEUSwk=
+SHA256 (Pkgfile) = 878bb8eedbf3f78e682cbd6c3607147abaabec571ef40b987d1b6272e2c4122c
+SHA256 (.footprint) = 1fac720d449f0872b0a3b4eebb04030b42f50f0c20f1cba3308b381494cb24ac
+SHA256 (llvmlite-v0.43.0.tar.gz) = 570e03912afde0d9c82df7dc3150455d085266278f0416170b4ef98402b71223

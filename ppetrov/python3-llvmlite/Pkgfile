@@ -1,0 +1,27 @@
+# Description: A Lightweight LLVM Python Binding for Writing JIT Compilers
+# URL: https://github.com/numba/llvmlite
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: llvm14 python3-setuptools-scm
+
+name=python3-llvmlite
+version=0.43.0
+release=1
+source=(https://github.com/numba/llvmlite/archive/v${version}/llvmlite-v${version}.tar.gz)
+
+build() {
+  cd ${name#*-}-$version
+
+  export PATH="/usr/lib/llvm14/bin:$PATH"
+  
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install \
+                   --prefix=/usr    \
+                   --root="$PKG"    \
+                   --skip-build     \
+                   --optimize=1
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE*"   \) -delete
+}
