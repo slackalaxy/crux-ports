@@ -5,7 +5,7 @@
 
 name=llvm14
 version=14.0.6
-release=2
+release=3
 source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-$version.src.tar.xz
 	llvm-coroutines-ubsan.patch)
 
@@ -18,8 +18,8 @@ build() {
         -DCMAKE_BUILD_TYPE=Release            \
         -DCMAKE_INSTALL_PREFIX=/usr/lib/$name \
         -DCMAKE_INSTALL_LIBDIR=lib            \
-        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
-        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS -Wl,-rpath,/usr/lib/llvm14/lib"     \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS -Wl,-rpath,/usr/lib/llvm14/lib" \
 	-DCMAKE_SKIP_RPATH=ON                 \
 	-DLLVM_BINUTILS_INCDIR=/usr/include   \
 	-DLLVM_BUILD_LLVM_DYLIB=ON            \
@@ -40,6 +40,6 @@ build() {
   ninja -C build -j ${JOBS:-1}
   DESTDIR="$PKG" ninja -C build install
   
-  mkdir -p $PKG/etc/revdep.d
-  echo "/usr/lib/llvm14/lib/" > $PKG/etc/revdep.d/$name
+  #mkdir -p $PKG/etc/revdep.d
+  #echo "/usr/lib/llvm14/lib/" > $PKG/etc/revdep.d/$name
 }
