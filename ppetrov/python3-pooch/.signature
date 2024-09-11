@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZWYnEkMepGop07OogN0l+iKugzU757r1k4q22WGwezYxD81QdcTyEMCH6FaIhCKLG66xBjDbXeJp8z4qlyKfYAs=
+SHA256 (Pkgfile) = 124542bec8d88870eef2bf5705d1bdce7a55f96a20aa7438e750805b0a36ec47
+SHA256 (.footprint) = daf1a3fa2bd4ac207ac7bb7e61a75e7ab0fd7f10574f7155f9b05b108c486235
+SHA256 (pooch-1.8.2.tar.gz) = 76561f0de68a01da4df6af38e9955c4c9d1a5c90da73f7e40276a5728ec83d10
