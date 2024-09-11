@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZcBAhP9zxuinTPj9EGORd0cvkaB4Gc7Wni1H5bxILbID94CLpVKJXFAHDkRcjo+56/3FmURPuCCyW5nc2hbl8gw=
+SHA256 (Pkgfile) = 86ccc38a38065097acdacf5445358115490d5836c304f4f767c984f6b4fae07a
+SHA256 (.footprint) = a6f43b26a42edbcb361347c44ac63f61a0cc1ba426a71cf8a6a68a9240f09595
+SHA256 (numba-0.60.0.tar.gz) = 102f66e7bcfeb8bfb90004bb866ad1a89802e32b474aedd78ec09d932e362ba4
