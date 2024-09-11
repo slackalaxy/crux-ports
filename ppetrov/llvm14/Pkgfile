@@ -1,0 +1,42 @@
+# Description: LLVM14 compiler backend
+# URL: https://llvm.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libxml2 ninja python3-setuptools
+
+name=llvm14
+version=14.0.6
+release=1
+source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-$version.src.tar.xz
+	llvm-coroutines-ubsan.patch)
+
+build() {
+  cd llvm-${version}.src
+  patch -Np2 -i $SRC/llvm-coroutines-ubsan.patch
+  cd ..
+  
+  cmake -S llvm-${version}.src -B build -G Ninja   \
+        -DCMAKE_BUILD_TYPE=Release            \
+        -DCMAKE_INSTALL_PREFIX=/usr/lib/$name \
+        -DCMAKE_INSTALL_LIBDIR=lib            \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	-DCMAKE_SKIP_RPATH=ON                 \
+	-DLLVM_BINUTILS_INCDIR=/usr/include   \
+	-DLLVM_BUILD_LLVM_DYLIB=ON            \
+	-DLLVM_BUILD_TESTS=OFF                \
+	-DLLVM_INCLUDE_TESTS=OFF              \
+	-DLLVM_INCLUDE_EXAMPLES=OFF           \
+	-DLLVM_ENABLE_BINDINGS=OFF            \
+	-DLLVM_ENABLE_FFI=ON                  \
+	-DLLVM_ENABLE_RTTI=ON                 \
+	-DLLVM_ENABLE_OCAMLDOC=OFF            \
+	-DLLVM_ENABLE_LIBCXX=OFF              \
+	-DLLVM_INCLUDE_BENCHMARKS=OFF         \
+	-DLLVM_INSTALL_UTILS=ON               \
+	-DLLVM_LINK_LLVM_DYLIB=ON             \
+	-DLLVM_USE_PERF=ON                    \
+        -Wno-dev
+
+  ninja -C build -j ${JOBS:-1}
+  DESTDIR="$PKG" ninja -C build install
+}

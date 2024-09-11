@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZXTNO/ZJBXzAmYkRR+eopAlRGi4U8SvDRIkG0bdvUs5mz3y/a6S6LMumPQb9/kQ6Jr4XUXkA6ljR/Jd8OsIuVA8=
+SHA256 (Pkgfile) = ec636cd27b5cb6c9557e3147f214769eef779d6572f53c90f93e226a0770345e
+SHA256 (.footprint) = abfb241eb3251140bc29c1e6f160150fe437f4492529e298389d6fe772bd33ad
+SHA256 (llvm-14.0.6.src.tar.xz) = 050922ecaaca5781fdf6631ea92bc715183f202f9d2f15147226f023414f619a
+SHA256 (llvm-coroutines-ubsan.patch) = ee9baf6df05474083857044d92f26f59d3ee709cdf82ba3bdb2792e6645f71d9
