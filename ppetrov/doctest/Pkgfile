@@ -1,0 +1,23 @@
+# Description: C++ testing framework
+# URL: https://github.com/doctest/doctest
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=doctest
+version=2.4.11
+release=1
+source=(https://github.com/doctest/doctest/archive/v${version}/$name-v${version}.tar.gz)
+
+build() {
+  cmake -S $name-$version -B build            \
+        -DCMAKE_BUILD_TYPE=Release            \
+        -DCMAKE_INSTALL_PREFIX=/usr           \
+        -DCMAKE_INSTALL_LIBDIR=lib            \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -Wno-dev
+
+  cmake --build build
+  DESTDIR="$PKG" cmake --install build
+
+}
