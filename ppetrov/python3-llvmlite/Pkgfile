@@ -5,13 +5,15 @@
 
 name=python3-llvmlite
 version=0.43.0
-release=1
+release=2
 source=(https://github.com/numba/llvmlite/archive/v${version}/llvmlite-v${version}.tar.gz)
 
 build() {
   cd ${name#*-}-$version
 
+  # Find and use the llvm14 libs
   export PATH="/usr/lib/llvm14/bin:$PATH"
+  sed -i 's:$(CXXFLAGS):$(CXXFLAGS) -Wl,-rpath,/usr/lib/llvm14/lib:' ffi/Makefile.linux
   
   /usr/bin/python3 setup.py build
   /usr/bin/python3 setup.py install \
