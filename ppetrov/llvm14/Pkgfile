@@ -5,7 +5,7 @@
 
 name=llvm14
 version=14.0.6
-release=1
+release=2
 source=(https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-$version.src.tar.xz
 	llvm-coroutines-ubsan.patch)
 
@@ -39,4 +39,7 @@ build() {
 
   ninja -C build -j ${JOBS:-1}
   DESTDIR="$PKG" ninja -C build install
+  
+  mkdir -p $PKG/etc/revdep.d
+  echo "/usr/lib/llvm14/lib/" > $PKG/etc/revdep.d/$name
 }
