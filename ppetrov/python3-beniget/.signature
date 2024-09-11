@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZTNLfJBK6ohBzeFrwCvqyToo7+WwAELAMSz3Bd1y5X6Egen6BFNAVBIPwVQGy8ZREsSWc2ff7tDjuWAwOEPYPg0=
+SHA256 (Pkgfile) = 434ccf1189637589a5776738b9c1cb281dc050513e3b0b53e12b4fbad8dcf719
+SHA256 (.footprint) = ba572b9a9d5fed6364b0edd7173659d7a1b28569be331d0d8b478bfc917d790b
+SHA256 (python3-beniget-0.4.2.post1.tar.gz) = 36db8ff9a129a026a1b0fb5e1c96a27c45e4400f03f71d696e08a7bbf56d01ff
