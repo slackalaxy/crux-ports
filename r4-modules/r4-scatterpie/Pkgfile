@@ -1,0 +1,16 @@
+# Description: R module scatterpie
+# URL: https://cran.r-project.org/web/packages/scatterpie
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-dplyr r4-ggforce r4-ggfun r4-ggplot2 r4-rlang r4-tidyr r4-yulab-utils
+# Optional: r4-cli r4-knitr r4-maps r4-prettydoc r4-rmarkdown r4-scales
+
+name=r4-scatterpie
+version=0.2.4
+release=1
+source=(https://cloud.r-project.org/src/contrib/scatterpie_${version}.tar.gz)
+
+build() {
+	cd scatterpie
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

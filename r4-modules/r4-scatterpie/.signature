@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89GkL2MHseu8DcsNvqH8fngfN9dmxbyhjSUej/fD/WzACu0HONd8QnwLiILsxdLMtJrIgJ6EzyWlbUFuZFoWk3wY=
+SHA256 (Pkgfile) = 27b73749261749ad68b500f009ef7b37ac6ad5333cf596a686f97951eb899ef8
+SHA256 (.footprint) = 84dbc40df7ecfc2b68687d5dfd48d5b2201dc7a086e0592f30bab4e286f35d40
+SHA256 (scatterpie_0.2.4.tar.gz) = 594b21b5815ad5678c1acdbc5e87a922f4c672fe409407422c4da9e39504b698

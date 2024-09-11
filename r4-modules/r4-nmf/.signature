@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89DtAtcCJhjFuOJgKVf66tWLZkSrz1llBeMq8xzXIslNitGLMUM1+iGJw1KF+hZrbzEG+QA+jaTsIP9g+aq+ykgE=
+SHA256 (Pkgfile) = 01c3dabfc203afd380178e5d5cdb5a6247bb88549b411068245fdb81892b3b9b
+SHA256 (.footprint) = cc1adddc46b8adfefce247addc248249e8faad19244a3a00f261564342114bb0
+SHA256 (NMF_0.28.tar.gz) = 77dfe7b323ee5e5f8801851d1d4356932e2ffc810a7ac7faf5542cbfd92eeefb

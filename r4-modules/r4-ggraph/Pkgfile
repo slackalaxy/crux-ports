@@ -1,0 +1,16 @@
+# Description: R module ggraph
+# URL: https://cran.r-project.org/web/packages/ggraph
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-cpp11 r4-dplyr r4-ggforce r4-ggplot2 r4-ggrepel r4-graphlayouts r4-igraph r4-lifecycle r4-mass r4-memoise r4-rlang r4-scales r4-tidygraph r4-vctrs r4-viridis r4-withr
+# Optional: r4-covr r4-deldir r4-gganimate r4-knitr r4-network r4-purrr r4-rmarkdown r4-seriation r4-sf r4-sfnetworks r4-tibble
+
+name=r4-ggraph
+version=2.2.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/ggraph_${version}.tar.gz)
+
+build() {
+	cd ggraph
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

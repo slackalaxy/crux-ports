@@ -1,0 +1,16 @@
+# Description: R module rngtools
+# URL: https://cran.r-project.org/web/packages/rngtools
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-digest
+# Optional: r4-covr r4-runit r4-testthat
+
+name=r4-rngtools
+version=1.5.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/rngtools_${version}.tar.gz)
+
+build() {
+	cd rngtools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

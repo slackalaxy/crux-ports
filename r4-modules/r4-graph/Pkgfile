@@ -1,0 +1,16 @@
+# Description: R module graph
+# URL: https://bioconductor.org/packages/graph
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocgenerics
+# Optional: r4-biocstyle r4-cluster r4-knitr r4-rbgl r4-runit r4-sparsem r4-xml
+
+name=r4-graph
+version=1.82.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/graph_${version}.tar.gz)
+
+build() {
+	cd graph
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

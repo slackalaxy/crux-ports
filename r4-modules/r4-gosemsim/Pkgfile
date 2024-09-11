@@ -1,0 +1,16 @@
+# Description: R module GOSemSim
+# URL: https://bioconductor.org/packages/GOSemSim
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-annotationdbi r4-dbi r4-digest r4-go-db r4-httr2 r4-r-utils r4-rcpp r4-rlang r4-yulab-utils
+# Optional: r4-annotationhub r4-biocmanager r4-clusterprofiler r4-dose r4-knitr r4-org-hs-eg-db r4-prettydoc r4-rappdirs r4-readr r4-rmarkdown r4-rocr r4-testthat r4-tidyr r4-tidyselect
+
+name=r4-gosemsim
+version=2.30.2
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/GOSemSim_${version}.tar.gz)
+
+build() {
+	cd GOSemSim
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

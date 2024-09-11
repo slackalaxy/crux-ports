@@ -5,7 +5,7 @@
 # Optional: r4-base64enc r4-ggplot2 r4-knitr r4-markdown r4-microbenchmark r4-r-devices r4-r-rsp
 
 name=r4-matrixstats
-version=1.4.0
+version=1.4.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/matrixStats_${version}.tar.gz)
 

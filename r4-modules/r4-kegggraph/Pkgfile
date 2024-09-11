@@ -1,0 +1,16 @@
+# Description: R module KEGGgraph
+# URL: https://bioconductor.org/packages/KEGGgraph
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-graph r4-rcurl r4-rgraphviz r4-xml
+# Optional: r4-hgu133plus2-db r4-org-hs-eg-db r4-rbgl r4-rcolorbrewer r4-spia r4-testthat
+
+name=r4-kegggraph
+version=1.64.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/KEGGgraph_${version}.tar.gz)
+
+build() {
+	cd KEGGgraph
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module qvalue
+# URL: https://bioconductor.org/packages/qvalue
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggplot2 r4-reshape2
+# Optional: r4-knitr
+
+name=r4-qvalue
+version=2.36.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/qvalue_${version}.tar.gz)
+
+build() {
+	cd qvalue
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

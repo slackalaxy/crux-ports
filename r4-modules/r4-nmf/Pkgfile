@@ -1,0 +1,16 @@
+# Description: R module NMF
+# URL: https://cran.r-project.org/web/packages/NMF
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biobase r4-biocmanager r4-cluster r4-codetools r4-colorspace r4-digest r4-doparallel r4-foreach r4-ggplot2 r4-gridbase r4-rcolorbrewer r4-registry r4-reshape2 r4-rngtools r4-stringr
+# Optional: r4-bigmemory r4-corpcor r4-devtools r4-dompi r4-fastica r4-knitr r4-runit r4-synchronicity r4-xtable
+
+name=r4-nmf
+version=0.28
+release=1
+source=(https://cloud.r-project.org/src/contrib/NMF_${version}.tar.gz)
+
+build() {
+	cd NMF
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R module GO.db
+# URL: https://bioconductor.org/packages/GO.db
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-annotationdbi
+# Optional: r4-dbi
+
+name=r4-go-db
+version=3.19.1
+release=1
+source=(https://bioconductor.org/packages/3.19/data/annotation/src/contrib/GO.db_${version}.tar.gz)
+
+build() {
+	cd GO.db
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
