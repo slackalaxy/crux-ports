@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89OH4xy3NAj70YG/KKepDTXb3gzzdvUoK17uQ4of04zPsnE5n9x2h2EK08ZC32tDX3UkOi0+pM86uhBCkiqnPzA8=
-SHA256 (Pkgfile) = ea7acd7b3e11e4bbd927d9aec2f5ed1d4d9029690590aded0a2b22a8417c324b
+RWQ2oTreAss89C0o3bIucliUPcHcSB+K4ldYwGaHyE1IQCgwFbtTIW3xqzA+Jce8JwLg1TFldatbabKlTbsIjQKTEBFWEnI0cA0=
+SHA256 (Pkgfile) = e02aadcc6f775f04a47bbf7e45ba9577e4b2242cfd0e85cdf54f387b50679d29
 SHA256 (.footprint) = e05c395a6368985dfdd2dc39d0f5e94d145cd5708ab27663c0a085796cb8e1b9
-SHA256 (ragg_1.3.2.tar.gz) = 8037a45209fdd50acf101208af8e832b840a11ad4201cf7fb480de432e6b6931
+SHA256 (ragg_1.3.3.tar.gz) = 42db845ff18d67cae6d291833c76a136c1ef02b5b246d4d90c1f1ae8cc1bb2af

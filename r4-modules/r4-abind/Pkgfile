@@ -1,13 +1,13 @@
 # Description: R module abind
 # URL: https://cran.r-project.org/web/packages/abind
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: 
 
 name=r4-abind
-version=1.4.5
+version=1.4.8
 release=1
-source=(https://cloud.r-project.org/src/contrib/abind_1.4-5.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/abind_1.4-8.tar.gz)
 
 build() {
 	cd abind

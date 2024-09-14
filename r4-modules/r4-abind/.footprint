@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/abind/
 -rw-r--r--	root/root	usr/lib/R/library/abind/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/abind/INDEX
+-rw-r--r--	root/root	usr/lib/R/library/abind/LICENSE
 drwxr-xr-x	root/root	usr/lib/R/library/abind/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/abind/Meta/Rd.rds
 -rw-r--r--	root/root	usr/lib/R/library/abind/Meta/features.rds
@@ -26,5 +27,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/abind/help/
 drwxr-xr-x	root/root	usr/lib/R/library/abind/html/
 -rw-r--r--	root/root	usr/lib/R/library/abind/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/abind/html/R.css
--rw-r--r--	root/root	usr/lib/R/library/abind/sccversion.txt (EMPTY)
--rw-r--r--	root/root	usr/lib/R/library/abind/svnversion.txt (EMPTY)
