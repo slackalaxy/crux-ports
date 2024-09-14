@@ -4,9 +4,9 @@
 # Depends on: p5-text-soundex trf hmmer ncbi-rmblastn
 
 name=repeatmasker
-version=4.1.6
+version=4.1.7_p1
 release=1
-source=(http://www.repeatmasker.org/RepeatMasker/RepeatMasker-$version.tar.gz)
+source=(http://www.repeatmasker.org/RepeatMasker/RepeatMasker-${version/_/-}.tar.gz)
 
 build() {
 	cd RepeatMasker
