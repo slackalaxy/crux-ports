@@ -514,6 +514,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/merge-conflict/me
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/dist/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/dist/extension.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/dist/extension.js.LICENSE.txt
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/media/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/media/auth.css
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/media/favicon.ico
@@ -1071,6 +1072,10 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/sqlite3/build/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/sqlite3/build/Release/
 -rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/sqlite3/build/Release/vscode-sqlite3.node
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/tree-sitter-wasm/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/tree-sitter-wasm/wasm/
+-rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/tree-sitter-wasm/wasm/tree-sitter-typescript.wasm
+-rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/@vscode/tree-sitter-wasm/wasm/tree-sitter.wasm
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/kerberos/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/kerberos/build/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules.asar.unpacked/kerberos/build/Release/
@@ -1141,11 +1146,13 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-main/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-main/main.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.esm.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.css
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/workbench.esm.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/node/
@@ -1153,6 +1160,11 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/node/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/node/cliProcessMain.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/node/sharedProcess/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/editor/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/editor/common/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/editor/common/languages/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/editor/common/languages/highlights/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/editor/common/languages/highlights/typescript.scm
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/loader.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/
@@ -1215,6 +1227,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/ext
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/externalTerminal/node/iTermHelper.scpt
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.esm.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporter.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/issue/electron-sandbox/issueReporterMain.css
@@ -1283,6 +1296,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/ex
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensionManagement/common/media/defaultIcon.png
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensions/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensions/worker/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensions/worker/webWorkerExtensionHostIframe.esm.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensions/worker/webWorkerExtensionHostIframe.html
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/languageDetection/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/languageDetection/browser/
