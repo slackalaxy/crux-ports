@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: glib
 
-name=ebi-genewise
+name=genewise
 version=2.4.1
 release=1
 source=(http://deb.debian.org/debian/pool/main/w/wise/wise_${version}.orig.tar.gz

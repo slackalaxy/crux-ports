@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbsiUYiXJEj1BtpH+vmv/wY4P9HVkQA42PTUQmin1DRS4MNcwECj7P7q/VS9vy+NWVQu00rLnmWI12qRbi3UPwI=
-SHA256 (Pkgfile) = 23f2ab552960f7c385b7035563c7259957274438208f830eade180a25bca393b
+RWToVVsIkzFIZWsVj3Gfqtm6pczgWpk85h/0WamRoDLzPJE1FypSPsjfgEACBLB0jsa19jgsBUBjhJofkQ0PpmUcxV/MYgHZUA8=
+SHA256 (Pkgfile) = e1ac9f5c91434b5cdb58a944d5fefcb3cb57ebc72b49091c92d47c056d5c0902
 SHA256 (.footprint) = 2a9603a8cffeea18a468c529572781d43ca10ed5b8a46ad23caf898c412763c9
 SHA256 (wise_2.4.1.orig.tar.gz) = 0aec5e30739110783517a429606249fc6c5fd0d65171c1a6d79ecc5ff81d2935
 SHA256 (01_welcome-csh.patch) = 2b68b830657b6ac4659abd390058ae69f11cf6d7cebeb55e85f4054cf0033b4b
