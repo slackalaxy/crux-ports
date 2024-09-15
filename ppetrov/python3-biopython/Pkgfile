@@ -3,13 +3,14 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-numpy
 
-name=biopython
+name=python3-biopython
 version=1.84
 release=1
-source=(http://biopython.org/DIST/$name-$version.tar.gz)
+source=(http://biopython.org/DIST/biopython-$version.tar.gz)
 
 build() {
-  cd $name-$version
+  cd ${name#*-}-$version
+
   /usr/bin/python3 setup.py build
   /usr/bin/python3 setup.py install \
                    --prefix=/usr    \

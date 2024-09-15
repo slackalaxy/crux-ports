@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbi2SI1RMNYC5D58eF8TaKTIBJ2iP+b50YOzj08cTMI/VPALgCYIKV2dLCgnWQlOXD2NW0K/I0WDTBQqkfwTAg8=
-SHA256 (Pkgfile) = e7a86b14840613fd889bcfebfd93a6caf1b6493ff8b6bada731545c43b4e556b
+RWToVVsIkzFIZf4CbyWQKy/Vhxyf9aSe2rqpBHeqLQhGWh2z0u+xzFvjyX1xm/R/d4/v6CrAApQ0JcaHFnpqIheCDJ2c/vCKjwY=
+SHA256 (Pkgfile) = 5d8d52fa5573f3d4029295807ec509c73b1aa40ee4165d17c70a4d9d2c3ffc7b
 SHA256 (.footprint) = 7609804346166d1d4fed0d221056de9e980c234a568b15dd18cc6f50397e7e4c
 SHA256 (biopython-1.84.tar.gz) = 60fbe6f996e8a6866a42698c17e552127d99a9aab3259d6249fbaabd0e0cc7b4
