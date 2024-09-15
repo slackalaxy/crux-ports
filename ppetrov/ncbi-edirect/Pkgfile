@@ -3,24 +3,24 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on:
 
-name=edirect
+name=ncbi-edirect
 version=22.6.20240912
 release=1
-source=(https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/$name-$version.tar.gz
+source=(https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/edirect-$version.tar.gz
 	https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/rchive.Linux.gz
 	https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/transmute.Linux.gz
 	https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/xtract.Linux.gz)
 
 build() {
-	cd $name
+	cd edirect
 	
 	# Move these to their proper place
-	mkdir -p $PKG/usr/share/$name
-	mv ./{cmd,eutils,help,data} $PKG/usr/share/$name
-	mv readme.pdf $PKG/usr/share/$name/manual.pdf
+	mkdir -p $PKG/usr/share/edirect
+	mv ./{cmd,eutils,help,data} $PKG/usr/share/edirect
+	mv readme.pdf $PKG/usr/share/edirect/manual.pdf
 
-	mkdir -p $PKG/usr/lib/$name
-	cp -a extern/* $PKG/usr/lib/$name
+	mkdir -p $PKG/usr/lib/edirect
+	cp -a extern/* $PKG/usr/lib/edirect
 	
 	# remove these
 	rm -rf ./{CA.pm,cacert.pem,Mozilla-CA.tar.gz,README,LICENSE,extern}
