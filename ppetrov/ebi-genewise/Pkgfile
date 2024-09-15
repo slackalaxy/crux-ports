@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: glib
 
-name=wise
+name=ebi-genewise
 version=2.4.1
 release=1
 source=(http://deb.debian.org/debian/pool/main/w/wise/wise_${version}.orig.tar.gz
@@ -42,7 +42,7 @@ build() {
 	make all
 	
 	mkdir -p $PKG/usr/bin
-	mkdir -p $PKG/usr/share/$name
+	mkdir -p $PKG/usr/share/wise
 	
 	cd bin
 	for i in * ; do
@@ -50,5 +50,5 @@ build() {
 	done
 	
 	cd $SRC/wise-$version
-	cp -a test_data wisecfg/* $PKG/usr/share/$name
+	cp -a test_data wisecfg/* $PKG/usr/share/wise
 }
