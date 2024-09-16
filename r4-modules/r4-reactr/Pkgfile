@@ -1,0 +1,16 @@
+# Description: R module reactR
+# URL: https://cran.r-project.org/web/packages/reactR
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-htmltools
+# Optional: r4-htmlwidgets r4-jsonlite r4-knitr r4-rmarkdown r4-shiny r4-usethis r4-v8
+
+name=r4-reactr
+version=0.6.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/reactR_${version}.tar.gz)
+
+build() {
+	cd reactR
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
