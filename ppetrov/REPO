@@ -1259,8 +1259,8 @@ f:a8f92c77ba1753a61d5b5b618b565a5c:ncbi-blast-plus/.footprint
 f:f6e23b187db57943f8c34c9c354fc346:ncbi-blast-plus/.signature
 f:f0e4c34298183ef5119ae8b3f74b1f92:ncbi-blast-plus/Pkgfile
 f:d1635d5d2290b4f4368866a4b7c6efac:ncbi-rmblastn/.footprint
-f:569fc6e91f9d5384a160b7b3fdda4190:ncbi-rmblastn/.signature
-f:345a86ba3d549e6b042ecc16beeabcb0:ncbi-rmblastn/Pkgfile
+f:bbaba18e4ca9fa21652a3273a1202294:ncbi-rmblastn/.signature
+f:e7a880828d6c47c26343d98e582149be:ncbi-rmblastn/Pkgfile
 f:da4eb0c7841602801c1db4120e9d3627:ncbi-rmblastn/README
 f:91c30f9b431f674025ed79e2818a7465:netcdf-cxx/.footprint
 f:fc32897dddcbf3b7d0036c39f9a314e7:netcdf-cxx/.signature
@@ -1838,9 +1838,9 @@ f:d8a11c1dab89924fb8c9a0f591099908:ubuntulooks-themes/ubuntulooks-themes-0.16.ta
 f:49e7534023b483e4fe5beeb40f21c7d4:ubuntulooks/.footprint
 f:335174a9f9303e4d904d393636ccb9e0:ubuntulooks/.signature
 f:1f581d559f9ac7370e59efc69027063d:ubuntulooks/Pkgfile
-f:18bae5c4ba4929ba0d0d8309cec71d06:ucsf-chimerax/.footprint
-f:071a32e713190af3982e234f702fcebb:ucsf-chimerax/.signature
-f:62ee02c510cfb059cd12cb3d7a2a4222:ucsf-chimerax/Pkgfile
+f:d4a8e826234f74748d9e128dfeafccfc:ucsf-chimerax/.footprint
+f:3875d2c2c9c5011cd0b87cc0a4ca2a77:ucsf-chimerax/.signature
+f:1e2fbca822e178991a43f785d93586cb:ucsf-chimerax/Pkgfile
 f:1777df25a0de190e2ac545074f35cb44:ucsf-chimerax/ucsf-chimerax.desktop
 f:e0271363653404f6e55d65ad16f27ade:ugene/.footprint
 f:e27adb7242000a659ac7c25925b9ca58:ugene/.signature
