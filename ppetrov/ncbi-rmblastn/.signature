@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcLTTua9D/Vbtf9gE8YKSbMwXj3M51F4lOWZ+qEEELGgPImT3eJB9A134rSXjxBccgI+hIKbUuA4s/VSczRPYQs=
-SHA256 (Pkgfile) = c4a607fa0db1ce0de7bfedd45c31a0235d683dcf9faa247d6e592ceb1fc8e0b2
+RWToVVsIkzFIZbZwWZQtjBxCRBld983sDs0OQSF18D4wU64C1kce6LSpX9M3lSKPZ++axHPz02EUcqd/CVUKyUotHDzf95D0GAE=
+SHA256 (Pkgfile) = c2cacec2764dadfda6db4c77c2b65fab36b2f7bf68df784472918ac629a197d4
 SHA256 (.footprint) = 91c59a1386b53ca470b574aacd57a8e42559efafe8ba3fb7476349e451615b68
 SHA256 (ncbi-rmblastn-2.2.28-x64-linux.tar.gz) = e6503ad25a6760d2d2931f17efec80ba879877b4042a1d10a60820ec21a61cfe
