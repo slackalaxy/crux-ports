@@ -1132,7 +1132,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/cef/
 -rw-r--r--	root/root	usr/lib/zoom-linux/cef/icudtl.dat
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libEGL.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libGLESv2.so
--rw-r--r--	root/root	usr/lib/zoom-linux/cef/libcef.so
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libcef.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libffmpeg.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libsqlite3.so.0
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libvk_swiftshader.so
@@ -1181,6 +1181,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/json/
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libswresample.so.4
 -rw-r--r--	root/root	usr/lib/zoom-linux/meeting_chat_chime.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/meeting_raisehand_chime.pcm
+-rw-r--r--	root/root	usr/lib/zoom-linux/mute.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/qt.conf
 -rw-r--r--	root/root	usr/lib/zoom-linux/record_start.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/record_stop.pcm
@@ -1221,6 +1222,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/sip/
 -rw-r--r--	root/root	usr/lib/zoom-linux/sip/dtmf_star.wav
 -rw-r--r--	root/root	usr/lib/zoom-linux/sip/ring_pstn.wav
 drwxr-xr-x	root/root	usr/lib/zoom-linux/translations/
+-rw-r--r--	root/root	usr/lib/zoom-linux/unmute.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/version.txt
 -rw-r--r--	root/root	usr/lib/zoom-linux/wr_ding.pcm
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/zoom
