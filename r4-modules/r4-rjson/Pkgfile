@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-rjson
-version=0.2.22
+version=0.2.23
 release=1
 source=(https://cloud.r-project.org/src/contrib/rjson_${version}.tar.gz)
 

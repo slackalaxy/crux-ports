@@ -1,0 +1,16 @@
+# Description: R module gsheet
+# URL: https://cran.r-project.org/web/packages/gsheet
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-httr r4-stringr
+# Optional: r4-readr r4-testthat
+
+name=r4-gsheet
+version=0.4.5
+release=1
+source=(https://cloud.r-project.org/src/contrib/gsheet_${version}.tar.gz)
+
+build() {
+	cd gsheet
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

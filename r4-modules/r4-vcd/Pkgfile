@@ -5,9 +5,9 @@
 # Optional: r4-coin r4-hsaur3 r4-kernlab r4-kernsmooth r4-mvtnorm
 
 name=r4-vcd
-version=1.4.12
+version=1.4.13
 release=1
-source=(https://cloud.r-project.org/src/contrib/vcd_1.4-12.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/vcd_1.4-13.tar.gz)
 
 build() {
 	cd vcd

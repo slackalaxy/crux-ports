@@ -24,7 +24,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/e1071/doc/
 -rw-r--r--	root/root	usr/lib/R/library/e1071/doc/svmdoc.R
 -rw-r--r--	root/root	usr/lib/R/library/e1071/doc/svmdoc.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/e1071/doc/svmdoc.pdf
--rwxr-xr-x	root/root	usr/lib/R/library/e1071/doc/svminternals.Rnw
+-rw-r--r--	root/root	usr/lib/R/library/e1071/doc/svminternals.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/e1071/doc/svminternals.pdf
 drwxr-xr-x	root/root	usr/lib/R/library/e1071/help/
 -rw-r--r--	root/root	usr/lib/R/library/e1071/help/AnIndex
