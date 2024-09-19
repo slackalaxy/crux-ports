@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=PDB Fixer
+Comment=Fix problems in PDB files
+GenericName=PDB Fixer
+Exec=pdbfixer
+Icon=pdbfixer
+Categories=Education;
+Type=Application
+Terminal=true
+StartupNotify=false

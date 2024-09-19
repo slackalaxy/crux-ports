@@ -1,0 +1,33 @@
+# Description: Fix problems in PDB files in preparation for simulating them
+# URL: https://github.com/openmm/pdbfixer/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: openmm
+
+name=python3-pdbfixer
+version=1.9
+release=1
+source=(https://github.com/openmm/pdbfixer/archive/$version/pdbfixer-$version.tar.gz
+	pdbfixer.desktop pdbfixer.png)
+
+build() {
+  cd ${name#*-}-$version
+
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install \
+                   --prefix=/usr    \
+                   --root="$PKG"    \
+                   --skip-build     \
+                   --optimize=1
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE*"   \) -delete
+  
+  mkdir -p $PKG/usr/share/{applications,pixmaps}
+  cp -a $SRC/pdbfixer.desktop $PKG/usr/share/applications
+  cp -a $SRC/pdbfixer.png $PKG/usr/share/pixmaps
+  
+  find -L $PKG -perm 664 -exec chmod 644 {} \;
+
+}
