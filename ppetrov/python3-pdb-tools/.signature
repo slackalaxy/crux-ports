@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZWod7B6MuPGE2OiwpiSeVYXGTpjdf0lSWMxEHbN1e4CSs3ru3rX4bc2nMQrxy/ibASKR2Jo1dKNw4Kd7LcKdiQA=
+SHA256 (Pkgfile) = 49df8610251a280ca28cc2e4a807430a6d5cd5857e1ecdba8a7d83459810cc02
+SHA256 (.footprint) = e90c436b20b309806d8fc340d21d5ee7bb5b5b57395cb941ce6ef33541f1bace
+SHA256 (pdb-tools-2.5.0.tar.gz) = b76c4cd6304a15e545eff2737a76b71db31b881573e5ba3a93dba9a71a79653b
