@@ -1,0 +1,37 @@
+# Description: Ebook manager
+# URL: https://calibre-ebook.com
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion flite graphite2 hyphen krb5 lame libdeflate libgcrypt libinput libwebp libxslt lm_sensors nss pulseaudio qt6-multimedia qt6-pdfwidgets qt6-svg qt6-wayland tslib xorg-libxkbfile
+
+name=calibre
+version=7.18.0
+release=1
+source=(https://download.calibre-ebook.com/$version/calibre-$version-x86_64.txz
+	$name.desktop)
+
+build() {
+	mkdir -p $PKG/usr/{bin,lib/calibre}
+	cp -a $SRC/* $PKG/usr/lib/calibre/
+	
+	# Actually, we don't need this
+	rm -rf $PKG/usr/lib/calibre/translations
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp resources/content-server/calibre.png $PKG/usr/share/pixmaps/$name.png
+	
+	cd $PKG/usr/bin
+	ln -s ../lib/calibre/calibre $name
+	
+	# use libnsl.so.3 instead of 2
+	patchelf --replace-needed "libnsl.so.2" "libnsl.so.3" \
+		$PKG/usr/lib/calibre/lib/calibre-extensions/nis.so
+	
+	rm $PKG/usr/lib/calibre/plugins/texttospeech/libqtexttospeech_speechd.so
+	
+	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/calibre
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/calibre:g" $PKG/etc/revdep.d/$name
+}
