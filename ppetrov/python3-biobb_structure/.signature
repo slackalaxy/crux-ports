@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZVczIbFliaFy7f/fxMRbjIAGFdd8aGDZuTHyt640+tMYOAhgrrdcWpK6lzK12hGLULULo5GEjC9kmwNOKV9hfwA=
+SHA256 (Pkgfile) = 898bec40f6b86f86e86469d0c9ddd942429326778e1c9b982d42dc405f856a80
+SHA256 (.footprint) = 80644eb6e4b572691a707e637673030b431be293dd77698de074f2a9212a1218
+SHA256 (biobb_structure_checking-3.13.4.tar.gz) = d819819d13c7ad219411b70b043555dcd65d5535f696a1121db562646931f445
