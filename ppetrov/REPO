@@ -20,7 +20,6 @@ d:ncbi-edirect
 d:blobby2
 d:bluecurve-gtk-themes
 d:bluefish
-d:blueman.pa
 d:bmz-cursors
 d:bodr
 d:bowtie
@@ -67,6 +66,7 @@ d:digger
 d:djview
 d:djvulibre
 d:doxygen
+d:blueman-pa
 d:eigen3
 d:electricsheep
 d:embassy
@@ -204,7 +204,6 @@ d:murrine-themes
 d:muscle
 d:muscle5
 d:ncbi-blast-plus
-d:ncbi-blast
 d:ncbi-rmblastn
 d:netcdf-cxx
 d:netcdf
@@ -533,10 +532,6 @@ f:bd9fc6112a79813e1c6e4985d51b7894:bluecurve-gtk-themes/Pkgfile
 f:270154bfa181cd943d2b4461c6c3e3f4:bluefish/.footprint
 f:ffa49bdf7a93ba051ee7ee1088311ffc:bluefish/.signature
 f:ac879be0fcca81a58c0944fd46e20c1f:bluefish/Pkgfile
-f:4b9a06baf1785a80dc00300c83dfff67:blueman.pa/.footprint
-f:0144a26dc1dc98a6d20be8af748d2f1d:blueman.pa/.signature
-f:889f55f45aa964d1c01553e168ab0943:blueman.pa/Pkgfile
-f:e86534abf27395097658280f7e10091b:blueman.pa/README
 f:18567e50f986bf81cce05b6a38dbdc93:bmz-cursors/.footprint
 f:b182304d06c0af992b625591256b3481:bmz-cursors/.signature
 f:0840ef5ef52304a958f72f7899a45db5:bmz-cursors/Pkgfile
@@ -714,6 +709,10 @@ f:d82f7e01449a5c04615d66f085c84f65:djvulibre/Pkgfile
 f:fa3a70ce978c458476a66d383658499d:doxygen/.footprint
 f:09ac9414cdc154c811727b4dcdcca5d6:doxygen/.signature
 f:ebc485e5ef15b7c89811da39cac95c50:doxygen/Pkgfile
+f:4b9a06baf1785a80dc00300c83dfff67:blueman-pa/.footprint
+f:015069d745424ec04a5abf4245a63c06:blueman-pa/.signature
+f:097e12e0ca4219440058575b36eaefa3:blueman-pa/Pkgfile
+f:e86534abf27395097658280f7e10091b:blueman-pa/README
 f:4f0e6391e098b6ce55bb23cc614c5871:eigen3/.footprint
 f:e15412fe07d862d9e0666167134d27a3:eigen3/.signature
 f:71cba771f6d20cfd8e14b8748938bbe6:eigen3/Pkgfile
@@ -936,8 +935,8 @@ f:9d5ba646510646af00bc7a831554cf8a:goffice08/README
 f:a4c14788c236bb2c8b11b04fa695f9ca:goffice08/disable-linking-pcre.patch
 f:a0841a9f55284f3fbc1c01a7717a345f:goffice08/go-conf-gsettings.c
 f:4957b29450551ff6d3c50bb79d019322:google-chrome/.footprint
-f:aa2063a3067fda5e3e1fa2d20679515a:google-chrome/.signature
-f:332e096f11c9c18fe4ce2af1f645a3ea:google-chrome/Pkgfile
+f:32e6a28a537e0944ffc1866ad9b58e1b:google-chrome/.signature
+f:b191acbf7f8beb30f3b7d777bfdfa270:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:77ef3f5038581ff4956d14f5f072f067:gp2fasta/.footprint
 f:7323f30be6d4c63d36b47331c503208a:gp2fasta/.signature
@@ -1259,9 +1258,6 @@ f:1e71f49a921a51d852e2f971f8c94795:muscle5/muscle5.1
 f:a8f92c77ba1753a61d5b5b618b565a5c:ncbi-blast-plus/.footprint
 f:f6e23b187db57943f8c34c9c354fc346:ncbi-blast-plus/.signature
 f:f0e4c34298183ef5119ae8b3f74b1f92:ncbi-blast-plus/Pkgfile
-f:edfacc5f08fa7bf8c3c09c6ea9456f05:ncbi-blast/.footprint
-f:e8f288f2c42f1b11b0d2af6a885b9bba:ncbi-blast/.signature
-f:f949311b63ac2fa2d80fde04e3468351:ncbi-blast/Pkgfile
 f:d1635d5d2290b4f4368866a4b7c6efac:ncbi-rmblastn/.footprint
 f:569fc6e91f9d5384a160b7b3fdda4190:ncbi-rmblastn/.signature
 f:345a86ba3d549e6b042ecc16beeabcb0:ncbi-rmblastn/Pkgfile
@@ -2038,9 +2034,9 @@ f:94575e5b6f5b578021557c094140e33c:xv/.signature
 f:dd341593e64ccdc92dc375b84f506d40:xv/Pkgfile
 f:0e680bc2f45986e6838a3667b60825d3:xv/xv.desktop
 f:45823cf4b6131dd540d61950667d38bc:xv/xv.png
-f:92aead2c177ef0f32c09411bc9a4c1c9:zoom-linux/.footprint
-f:3c91d87ef6908171d8d6062694b383b8:zoom-linux/.signature
-f:2da313444846888217026f95ac83a091:zoom-linux/Pkgfile
+f:5eacc16bf2c41789b8c9c9144caf61b3:zoom-linux/.footprint
+f:0cac0ed368dba9148a5b0d795f728032:zoom-linux/.signature
+f:46fdedfea28b04dff03613b5a9883f42:zoom-linux/Pkgfile
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
 f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png
