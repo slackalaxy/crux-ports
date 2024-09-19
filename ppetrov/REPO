@@ -15,11 +15,12 @@ d:artha
 d:bedtools
 d:wxpython2
 d:bigwig
-d:biobb_structure_checking
+d:python3-biobb_structure
 d:ncbi-edirect
 d:blobby2
 d:bluecurve-gtk-themes
 d:bluefish
+d:calibre
 d:bmz-cursors
 d:bodr
 d:bowtie
@@ -38,7 +39,6 @@ d:bpp1-utils
 d:bppphyview
 d:bppsuite
 d:bwa
-d:calibre-bin
 d:cap3
 d:caps-coev
 d:cdrtools
@@ -294,8 +294,6 @@ d:pango48
 d:pangox-compat
 d:pavucontrol-gtk2
 d:pbzx
-d:pdb-tools
-d:pdbfixer
 d:pdflib-lite
 d:perlprimer
 d:phyml
@@ -424,6 +422,7 @@ d:zotero-gtk2
 d:tango-icon-theme
 d:gnome-colors
 d:python3-ensembl_rest
+d:python3-pdbfixer
 d:fonts-google-core
 d:viber
 d:evince-gtk2
@@ -445,6 +444,7 @@ d:python3-gast
 d:xsimd
 d:doctest
 d:python3-biopython
+d:python3-pdb-tools
 f:f77867e9db3f66c26559c28804a444bf:abiword/.footprint
 f:50a4db8d5af72a1b3ac13ba3a2547cad:abiword/.signature
 f:91576175f80b590ce8935afc136ea43e:abiword/Pkgfile
@@ -517,9 +517,9 @@ f:e29d6d8c7a8726d94b5a26f43f15ef6b:wxpython2/Pkgfile
 f:d26b3e14b2ed2513956f13af116abca5:bigwig/.footprint
 f:e38f44ee3721d4443d995c41eec906fa:bigwig/.signature
 f:f56c57c72ebba8a5ecd752929020175d:bigwig/Pkgfile
-f:810ef29c77b54e372ba2d0f292762dd5:biobb_structure_checking/.footprint
-f:02e272781a86261f96c56f4b96d5326c:biobb_structure_checking/.signature
-f:fa7969631f805b285022b0689472a36a:biobb_structure_checking/Pkgfile
+f:628ea1b607dc28223f28b469b5fcc5d7:python3-biobb_structure/.footprint
+f:343b3e80f4a523cc76db835a3acc2401:python3-biobb_structure/.signature
+f:efccd142cfcc3313f66ae0e636360d6f:python3-biobb_structure/Pkgfile
 f:8a91f7c9ad67eadaab4a08658b6514fc:ncbi-edirect/.footprint
 f:7cd23e6025a09197774203f41efa8bbe:ncbi-edirect/.signature
 f:131bcf5ae18356eba8b2e2c7b0338050:ncbi-edirect/Pkgfile
@@ -532,6 +532,10 @@ f:bd9fc6112a79813e1c6e4985d51b7894:bluecurve-gtk-themes/Pkgfile
 f:270154bfa181cd943d2b4461c6c3e3f4:bluefish/.footprint
 f:ffa49bdf7a93ba051ee7ee1088311ffc:bluefish/.signature
 f:ac879be0fcca81a58c0944fd46e20c1f:bluefish/Pkgfile
+f:d6136517a96293446c58f7b821bb9af1:calibre/.footprint
+f:66d27f749dd29dedae110219a5bb3c91:calibre/.signature
+f:8cbc6cea1b9969db54fe35b7b94a15ef:calibre/Pkgfile
+f:9cf4347fa5d0199afdc45a9a527a0224:calibre/calibre.desktop
 f:18567e50f986bf81cce05b6a38dbdc93:bmz-cursors/.footprint
 f:b182304d06c0af992b625591256b3481:bmz-cursors/.signature
 f:0840ef5ef52304a958f72f7899a45db5:bmz-cursors/Pkgfile
@@ -590,10 +594,6 @@ f:2ae42f3fbd50bebac1a6dfcb27b75d6b:bppsuite/Pkgfile
 f:d246eef724b3875afee839449ac8bc5b:bwa/.footprint
 f:b4342dd2cd132f232c208427e7b1e212:bwa/.signature
 f:05fe852218fddec4b48bcf1f4f7bf834:bwa/Pkgfile
-f:d7e915ae464893a3d32ade5b8d436895:calibre-bin/.footprint
-f:e4590ffca910ccd2cc382de4387a1609:calibre-bin/.signature
-f:600b5f5f004b62462ab774c5e96736be:calibre-bin/Pkgfile
-f:51db8d36d29a1266832d4737d83c94e3:calibre-bin/calibre-bin.desktop
 f:863e0f3825e3ad6c68e58e8a39f7934d:cap3/.footprint
 f:4adfa344f070f5797f9d6375bbfe4f8f:cap3/.signature
 f:d0b772ef1fb120d7e02fe586738f9330:cap3/Pkgfile
@@ -935,8 +935,8 @@ f:9d5ba646510646af00bc7a831554cf8a:goffice08/README
 f:a4c14788c236bb2c8b11b04fa695f9ca:goffice08/disable-linking-pcre.patch
 f:a0841a9f55284f3fbc1c01a7717a345f:goffice08/go-conf-gsettings.c
 f:4957b29450551ff6d3c50bb79d019322:google-chrome/.footprint
-f:32e6a28a537e0944ffc1866ad9b58e1b:google-chrome/.signature
-f:b191acbf7f8beb30f3b7d777bfdfa270:google-chrome/Pkgfile
+f:d8f9c1b148ff369ff19245d729b7ff99:google-chrome/.signature
+f:1620191ad6a29c031e8454b8cbef08cc:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:77ef3f5038581ff4956d14f5f072f067:gp2fasta/.footprint
 f:7323f30be6d4c63d36b47331c503208a:gp2fasta/.signature
@@ -1546,12 +1546,6 @@ f:d7826ac3eb6607fcdff528252296ea14:pavucontrol-gtk2/Pkgfile
 f:1241da448bd9dad0458d047b9be13d2e:pbzx/.footprint
 f:926cdcf2069d26cead5d5edb973724e0:pbzx/.signature
 f:9826546e2b3cbbf3fbced06a35a3d85e:pbzx/Pkgfile
-f:aadd295b237cac9e80258e6a30751716:pdb-tools/.footprint
-f:1e414d97197947255d58fc036c0bd942:pdb-tools/.signature
-f:0605133e3ef6f73ff578fd646b401611:pdb-tools/Pkgfile
-f:9fd36805cac5799376ccd1882899b034:pdbfixer/.footprint
-f:abd3e6aec197b96a3052cb1942a97062:pdbfixer/.signature
-f:a43a39282cd64f4ee803206df5571aa5:pdbfixer/Pkgfile
 f:2e15f1a3f252efa224e35643ca84f586:pdflib-lite/.footprint
 f:d901d515931de4b168f96c26de66d39b:pdflib-lite/.signature
 f:c2800211d2603be3e4e1809c12245c7c:pdflib-lite/Pkgfile
@@ -2035,8 +2029,8 @@ f:dd341593e64ccdc92dc375b84f506d40:xv/Pkgfile
 f:0e680bc2f45986e6838a3667b60825d3:xv/xv.desktop
 f:45823cf4b6131dd540d61950667d38bc:xv/xv.png
 f:5eacc16bf2c41789b8c9c9144caf61b3:zoom-linux/.footprint
-f:0cac0ed368dba9148a5b0d795f728032:zoom-linux/.signature
-f:46fdedfea28b04dff03613b5a9883f42:zoom-linux/Pkgfile
+f:605c1e099bf3019bc3387679e2c72599:zoom-linux/.signature
+f:0d534808c2c572bcdabe31ae3bc41e4e:zoom-linux/Pkgfile
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
 f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png
@@ -2056,6 +2050,11 @@ f:98df1d4c18dbf6543bd2aa4c63cb4a02:gnome-colors/Pkgfile
 f:46bda2edae86f1150d0fe84f13b23453:python3-ensembl_rest/Pkgfile
 f:182c1fad12219e4437f64fc6953b6875:python3-ensembl_rest/.footprint
 f:2552af222a9e46f3bbd2a11ce9fffa86:python3-ensembl_rest/.signature
+f:548bbd01b001347c1cb6eea0a36c9fca:python3-pdbfixer/.signature
+f:45c215a290c386b6ca7ca92a0eecb854:python3-pdbfixer/Pkgfile
+f:9f4e5c51d5b0a5e28498f5bea2f1c9ba:python3-pdbfixer/.footprint
+f:a754beceaf55f4e0e4caced24426c2e8:python3-pdbfixer/pdbfixer.png
+f:489f63ec0d2dc4b2f1734eb74fb50fbe:python3-pdbfixer/pdbfixer.desktop
 f:a328c179d26b045e54b6dbbb7b09d3e4:fonts-google-core/.footprint
 f:80cd1189de9fde94612891b1e3977c8a:fonts-google-core/.signature
 f:7a790a9eddf8bf931f9edd26e18b2829:fonts-google-core/Pkgfile
@@ -2142,3 +2141,6 @@ f:5b7f84d1d80e33073f21226f49637d02:doctest/.signature
 f:778c03f00443c878e40b2865e336a068:python3-biopython/Pkgfile
 f:b6bdc92e0ab81f4949816af7bff80c32:python3-biopython/.footprint
 f:78402b2ce663cdef0405c0f22672ef4c:python3-biopython/.signature
+f:55b1ef1361699be866ca9646ecfeefd9:python3-pdb-tools/.footprint
+f:7bcb6f4c12b7274c3081b7cc54ca74bd:python3-pdb-tools/.signature
+f:3bd741277a461708a4e0db383d05cff9:python3-pdb-tools/Pkgfile
