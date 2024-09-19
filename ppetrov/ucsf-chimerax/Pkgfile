@@ -7,7 +7,7 @@ name=ucsf-chimerax
 version=1.8
 _ubuntu=22.04
 _python=3.11
-release=1
+release=2
 source=(https://www.cgl.ucsf.edu/chimerax/cgi-bin/secure/chimerax-get.py?file=${version}/ubuntu-${_ubuntu}/ucsf-chimerax_${version}ubuntu${_ubuntu}_amd64.deb
 	$name.desktop)
 
@@ -40,6 +40,9 @@ build() {
 	# use this from mariadb
 	ln -s /usr/lib/libmysqlclient.so libmysqlclient.so.21
 	
+	# get libbz2.so.1
+	ln -s /usr/lib/libbz2.so.1.0 libbz2.so.1
+	
 	# other plugins
 	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/texttospeech
 	
@@ -47,7 +50,7 @@ build() {
 	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/sqldrivers/libqsqlmimer.so
 	
 	# no nagware, please
-	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/chimerax/registration
+	#rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/chimerax/registration
 	
 	# cleanup
 	find $PKG/ -name "*README*" -delete
