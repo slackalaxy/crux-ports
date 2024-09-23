@@ -53,6 +53,7 @@ drwxr-xr-x	root/root	usr/share/abiword-3.0/ui/
 -rw-r--r--	root/root	usr/share/abiword-3.0/ui/ap_UnixDialog_RDFQuery-2.ui
 -rw-r--r--	root/root	usr/share/abiword-3.0/ui/ap_UnixDialog_Replace-2.ui
 -rw-r--r--	root/root	usr/share/abiword-3.0/ui/ap_UnixDialog_SemanticStylesheets-2.ui
+-rw-r--r--	root/root	usr/share/abiword-3.0/ui/ap_UnixDialog_Spell-2.ui
 -rw-r--r--	root/root	usr/share/abiword-3.0/ui/ap_UnixDialog_Styles-2.ui
 -rw-r--r--	root/root	usr/share/abiword-3.0/ui/ap_UnixDialog_Stylist-2.ui
 -rw-r--r--	root/root	usr/share/abiword-3.0/ui/ap_UnixDialog_Tab-2.ui

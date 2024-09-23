@@ -1,35 +1,65 @@
 # Description: A lightweight and featureful Word Processor
-# URL: http://www.abisource.com
+# URL: https://gitlab.gnome.org/World/AbiWord
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boost dbus-glib libgcrypt librsvg libxslt wv
+# Depends on: brotli enchant graphite2 gtk libgcrypt librsvg libxslt wv xorg-libxdamage
 
 name=abiword
 version=3.0.5
-release=3
-source=(https://slackware.uk/sbosrcarch/by-name/office/$name/$name-$version.tar.gz
-	enchant-2.1.patch)
+release=5
+source=(https://gitlab.gnome.org/World/AbiWord/-/archive/release-$version/AbiWord-release-$version.tar.gz
+	020171122_ef29fc9.patch
+	librevenge.patch
+	624095-disable_smooth_scrolling.patch
+	make-clean.patch
+	autosave.diff
+	ctrl-comma-subscript.diff
+	mime-types-desktop.diff
+	mime-types.diff
+	enchant2.patch
+	disable-some-unix-test.patch
+	Fix-build-with-libxml2-2.12.diff
+	drop-outdated-libgcrypt.m4.diff)
 
 build() {
-	cd $name-$version
-	export PKG_CONFIG_PATH="/usr/lib/libxml210/pkgconfig:$PKG_CONFIG_PATH"
-	patch -p1 < $SRC/enchant-2.1.patch
-
-	# 20200622 bkw: don't let abiword create /root/.config/abiword/profile
-	# during the build process. Don't break ccache in the process.
-	mkdir -p tmphome
-	export CCACHE_DIR=${CCACHE_DIR:-$HOME/.ccache}
-	export HOME=$( pwd )/tmphome
-	
-	CPPFLAGS="-I$SRC/$name-$version" \
-	CFLAGS="$CFLAGS -fcommon" \
-	CXXFLAGS="$CXXCFLAGS -fcommon" \
-	./configure --prefix=/usr \
+  cd AbiWord-release-$version
+  
+  export PKG_CONFIG_PATH="/usr/lib/libxml210/pkgconfig:$PKG_CONFIG_PATH"
+  export CPPFLAGS="-I$SRC/AbiWord-release-$version -I/usr/include/libxml210/"
+  export LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS"
+  
+  patch -p1 -i $SRC/020171122_ef29fc9.patch
+  patch -p1 -i $SRC/librevenge.patch
+  patch -p1 -i $SRC/624095-disable_smooth_scrolling.patch
+  patch -p1 -i $SRC/make-clean.patch
+  patch -p1 -i $SRC/autosave.diff
+  patch -p1 -i $SRC/ctrl-comma-subscript.diff
+  patch -p1 -i $SRC/mime-types-desktop.diff
+  patch -p1 -i $SRC/mime-types.diff
+  patch -p1 -i $SRC/enchant2.patch
+  patch -p1 -i $SRC/disable-some-unix-test.patch
+  patch -p1 -i $SRC/Fix-build-with-libxml2-2.12.diff
+  patch -p1 -i $SRC/drop-outdated-libgcrypt.m4.diff
+  	
+  mkdir -p tmphome
+  export CCACHE_DIR=${CCACHE_DIR:-$HOME/.ccache}
+  export HOME=$( pwd )/tmphome
+  
+  CPPFLAGS="-I$SRC/AbiWord-release-$version -I/usr/include/libxml210/" \
+  LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS" \
+  CFLAGS="$CFLAGS -fcommon -Wl,-rpath,/usr/lib/libxml210" \
+  CXXFLAGS="$CXXFLAGS -fcommon -Wl,-rpath,/usr/lib/libxml210" \
+  ./autogen.sh \
+	--prefix=/usr \
 	--disable-static \
 	--with-gtk2
-	
-	make
-	make install DESTDIR=$PKG
-	
-	rm -f $PKG/{,usr/}lib/*.la
-	rm -rf $PKG/usr/share/$name-${version%.*}/{strings,templates/normal.awt-*,system.profile-*}
+  
+  CPPFLAGS="-I$SRC/AbiWord-release-$version -I/usr/include/libxml210/" \
+  LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS" \
+  CFLAGS="$CFLAGS -fcommon -Wl,-rpath,/usr/lib/libxml210" \
+  CXXFLAGS="$CXXFLAGS -fcommon -Wl,-rpath,/usr/lib/libxml210" \
+  make
+  make DESTDIR="$PKG" install
+  
+  rm -f $PKG/{,usr/}lib/*.la
+  rm -rf $PKG/usr/share/$name-${version%.*}/{strings,templates/normal.awt-*,system.profile-*}
 }

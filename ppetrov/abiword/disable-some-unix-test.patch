@@ -1,0 +1,42 @@
+From: Eric Long <i@hack3r.moe>
+Date: Tue, 30 Aug 2022 16:14:28 +0800
+Subject: Disable test src/wp/test/unix on several platforms
+
+This test times out on armel, mipsel, hppa, ppc64, riscv64, sparc64 and x32.
+Disabling it allows abiword package to be built on those platforms.
+
+https://bugs.debian.org/1018753
+---
+ configure.ac            | 2 ++
+ src/wp/test/Makefile.am | 7 ++++++-
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index 2799299..d5890a6 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -1187,6 +1187,8 @@ fi
+ 
+ AM_CONDITIONAL(HAVE_INTROSPECTION, test "x$found_introspection" = "xyes")
+ 
++AM_CONDITIONAL([DISABLE_WP_UNIX_TEST], test $DEB_BUILD_ARCH && echo "armel mipsel hppa ppc64 riscv64 sparc64 x32 " | grep -o "$DEB_BUILD_ARCH ")
++
+ AC_OUTPUT(
+   libabiword.pc
+   Makefile
+diff --git a/src/wp/test/Makefile.am b/src/wp/test/Makefile.am
+index 0b20ae1..71ca9a8 100644
+--- a/src/wp/test/Makefile.am
++++ b/src/wp/test/Makefile.am
+@@ -18,5 +18,10 @@
+ 
+ #include $(top_srcdir)/includes.mk
+ 
+-SUBDIRS= xp @PLATFORM@
++if DISABLE_WP_UNIX_TEST
++SUBDIRS = xp
++DIST_SUBDIRS = xp
++else
++SUBDIRS = xp @PLATFORM@
+ DIST_SUBDIRS = unix xp
++endif

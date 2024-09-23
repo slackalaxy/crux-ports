@@ -1,0 +1,16 @@
+Description: Make ctrl-comma (C-,) a shortcut for subscript text
+Author: Patrik Fimml <patrik@fimml.at>
+Last-Update: 2020-06-05
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/src/wp/ap/xp/ap_LB_Default.cpp
++++ b/src/wp/ap/xp/ap_LB_Default.cpp
+@@ -480,7 +480,7 @@
+ 	{0x29, /* )      */ { "insertClosingParenthesis","",			"",				""					}},
+ 	{0x2a, /* *      */ { "insertData",			"viewPara",			"",				""					}},
+ 	{0x2b, /* +      */ { "insertData",			"zoomIn",			"",				""					}},
+-	{0x2c, /* ,      */ { "insertData",			"",					"",				""					}},
++	{0x2c, /* ,      */ { "insertData",			"toggleSub",					"",				""					}},
+ 	{0x2d, /* -      */ { "insertData",			"zoomOut",			"",				""					}},
+ 	{0x2e, /* .      */ { "insertData",			"pasteSpecial",		"",				""					}},
+ 	{0x2f, /* /      */ { "insertData",			"",					"",				""					}},

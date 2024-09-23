@@ -1,0 +1,16 @@
+Description: Enable autosave by default
+Author: Patrik Fimml <patrik@fimml.at>
+Last-Update: 2020-06-05
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/src/af/xap/xp/xap_Prefs_SchemeIds.h
++++ b/src/af/xap/xp/xap_Prefs_SchemeIds.h
+@@ -77,7 +77,7 @@
+ #define XAP_PREF_DEFAULT_LatinLigatures 	         "0"
+ 
+ #define XAP_PREF_KEY_AutoSaveFile					"AutoSaveFile"
+-#define XAP_PREF_DEFAULT_AutoSaveFile				"0" 						/* Auto save files by default */
++#define XAP_PREF_DEFAULT_AutoSaveFile				"1" 						/* Auto save files by default */
+ 
+ #define XAP_PREF_KEY_AutoSaveFilePeriod 				"AutoSaveFilePeriod"
+ #define XAP_PREF_DEFAULT_AutoSaveFilePeriod 			"5" 						/* Auto save files by default */
