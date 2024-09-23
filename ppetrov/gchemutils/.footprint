@@ -76,15 +76,12 @@ drwxr-xr-x	root/root	usr/lib/goffice/0.8.17/plugins/gchemutils/
 -rwxr-xr-x	root/root	usr/lib/goffice/0.8.17/plugins/gchemutils/gchemutils.la
 -rwxr-xr-x	root/root	usr/lib/goffice/0.8.17/plugins/gchemutils/gchemutils.so
 -rw-r--r--	root/root	usr/lib/goffice/0.8.17/plugins/gchemutils/plugin.xml
--rwxr-xr-x	root/root	usr/lib/libgccv-0.12.la
 lrwxrwxrwx	root/root	usr/lib/libgccv-0.12.so -> libgccv-0.12.so.0.12.13
 lrwxrwxrwx	root/root	usr/lib/libgccv-0.12.so.0 -> libgccv-0.12.so.0.12.13
 -rwxr-xr-x	root/root	usr/lib/libgccv-0.12.so.0.12.13
--rwxr-xr-x	root/root	usr/lib/libgcp-0.12.la
 lrwxrwxrwx	root/root	usr/lib/libgcp-0.12.so -> libgcp-0.12.so.0.12.13
 lrwxrwxrwx	root/root	usr/lib/libgcp-0.12.so.0 -> libgcp-0.12.so.0.12.13
 -rwxr-xr-x	root/root	usr/lib/libgcp-0.12.so.0.12.13
--rwxr-xr-x	root/root	usr/lib/libgcu-0.12.la
 lrwxrwxrwx	root/root	usr/lib/libgcu-0.12.so -> libgcu-0.12.so.0.12.13
 lrwxrwxrwx	root/root	usr/lib/libgcu-0.12.so.0 -> libgcu-0.12.so.0.12.13
 -rwxr-xr-x	root/root	usr/lib/libgcu-0.12.so.0.12.13
