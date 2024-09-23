@@ -1,18 +1,26 @@
 # Description: Gstreamer legacy
 # URL: https://gstreamer.freedesktop.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: glib libxml2
+# Depends on: glib libxml210
 
 name=gstreamer0
 version=0.10.36
-release=3
+release=5
 source=(https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-$version.tar.xz
 	bison.patch)
 
 build() {
 	cd gstreamer-$version
 	patch -p1 < $SRC/bison.patch
+	
 	export PKG_CONFIG_PATH="/usr/lib/libxml210/pkgconfig:$PKG_CONFIG_PATH"
+	export CPPFLAGS="-I/usr/include/libxml210/"
+	export LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS"
+  
+	CPPFLAGS="-I/usr/include/libxml210/" \
+	LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS" \
+	CFLAGS="$CFLAGS -Wl,-rpath,/usr/lib/libxml210" \
+	CXXFLAGS="$CXXFLAGS -Wl,-rpath,/usr/lib/libxml210" \
 	./configure --prefix=/usr \
 	--libexecdir=/usr/lib \
 	--disable-static \
@@ -23,6 +31,10 @@ build() {
 	--with-package-name='gstreamer' \
 	--with-package-origin='http://gstreamer.freedesktop.org'
 
+	CPPFLAGS="-I/usr/include/libxml210/" \
+	LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS" \
+	CFLAGS="$CFLAGS -Wl,-rpath,/usr/lib/libxml210" \
+	CXXFLAGS="$CXXFLAGS -Wl,-rpath,/usr/lib/libxml210" \
 	make
 	make install DESTDIR=$PKG
 	
