@@ -5,7 +5,7 @@
 
 name=gnumeric-gtk2
 version=1.10.17
-release=3
+release=4
 source=(https://download-fallback.gnome.org/sources/gnumeric/${version%.*}/gnumeric-$version.tar.bz2)
 
 build() {
@@ -13,11 +13,23 @@ build() {
 
 	# use this version of libxml2
 	export PKG_CONFIG_PATH="/usr/lib/libxml210/pkgconfig:$PKG_CONFIG_PATH"
+	export CPPFLAGS="-I/usr/include/libxml210/"
+	export LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS"	
+	
 	touch doc/C/gnumeric-C.omf.out
 	
+	CPPFLAGS="-I/usr/include/libxml210/" \
+	LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS" \
+	CFLAGS="$CFLAGS -fcommon -Wl,-rpath,/usr/lib/libxml210" \
+	CXXFLAGS="$CXXFLAGS -fcommon -Wl,-rpath,/usr/lib/libxml210" \
 	./configure --prefix=/usr \
 	--disable-schemas-install \
 	--disable-nls
+	
+	CPPFLAGS="-I/usr/include/libxml210/" \
+	LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS" \
+	CFLAGS="$CFLAGS -fcommon -Wl,-rpath,/usr/lib/libxml210" \
+	CXXFLAGS="$CXXFLAGS -fcommon -Wl,-rpath,/usr/lib/libxml210" \
 	make
 	make DESTDIR=$PKG install
 	
