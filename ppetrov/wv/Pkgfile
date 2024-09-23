@@ -5,16 +5,27 @@
 
 name=wv
 version=1.2.9
-release=3
+release=5
 source=(https://slackware.uk/sbosrcarch/by-name/libraries/$name/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 	
 	export PKG_CONFIG_PATH="/usr/lib/libxml210/pkgconfig:$PKG_CONFIG_PATH"
+	export CPPFLAGS="-I/usr/include/libxml210/"
+	export LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS"
+
+	CPPFLAGS="-I/usr/include/libxml210/" \
+	LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS" \
+	CFLAGS="$CFLAGS -Wl,-rpath,/usr/lib/libxml210" \
+	CXXFLAGS="$CXXFLAGS -Wl,-rpath,/usr/lib/libxml210" \
 	./configure --prefix=/usr \
 	--enable-static=no
 
+	CPPFLAGS="-I/usr/include/libxml210/" \
+	LDFLAGS="-L/usr/lib/libxml210 $LDFLAGS" \
+	CFLAGS="$CFLAGS -Wl,-rpath,/usr/lib/libxml210" \
+	CXXFLAGS="$CXXFLAGS -Wl,-rpath,/usr/lib/libxml210" \
 	make
 	make install DESTDIR=$PKG
 	rm -f $PKG/{,usr/}lib/*.la
