@@ -22,6 +22,7 @@ d:xorg-conf-keyboard-fi
 d:xorg-conf-synaptics
 d:housecleaning
 d:depscheck
+d:fonts-msextra
 f:5eb699369b602aeb891acc4ee2777f5a:doom-wad/.footprint
 f:a4420044065203d649e7416d5ffd69da:doom-wad/.signature
 f:4feae1a9df2967a53227c83998ed6a97:doom-wad/Pkgfile
@@ -62,9 +63,9 @@ f:9c6550a8b8bbb2d82a366e341701c787:fonts-macsel/cleaner_ttc.py
 f:5c89c7fb064d42a6718b29c4a5d0bef3:fonts-macsel/cleaner_ttf.py
 f:b0a0b1b40a2f2858cb4dd9de535c6927:fonts-macsel/emoji-data.txt
 f:d54fa5a876d34895a5e1b55b13ad9787:fonts-macsel/post-install
-f:e3bce41a4a4975b27154cdae84f82a22:fonts-mscore/.footprint
-f:2ec8befe5eb61a3f20c120392fe591ba:fonts-mscore/.signature
-f:0da450d8fa1ac3a61e97d5d66314400c:fonts-mscore/Pkgfile
+f:fe3a998f263da047c3ed2d254afffe7b:fonts-mscore/.footprint
+f:d15efb516e1dbdbfd6cd6f090878acae:fonts-mscore/.signature
+f:6609da763fd950c149c211cb5c747c99:fonts-mscore/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-mscore/README
 f:5c89c7fb064d42a6718b29c4a5d0bef3:fonts-mscore/cleaner.py
 f:b0a0b1b40a2f2858cb4dd9de535c6927:fonts-mscore/emoji-data.txt
@@ -151,3 +152,6 @@ f:aafe1f1f471bf7bfeac65c717a015c8e:housecleaning/housecleaning.sh
 f:f4e707147bf141a5175e09d21a245704:depscheck/.footprint
 f:81d19c2aca7bbc0d116869319d398e0e:depscheck/.signature
 f:822732e9e639ebe2f643af7ecc601d38:depscheck/Pkgfile
+f:9580b7d581df2b372d1bb4e6864f39d1:fonts-msextra/Pkgfile
+f:ad22ea401ff9c1efaa0bd0b5439a81f7:fonts-msextra/.footprint
+f:c399528a2b7d28eb1d1a136589eb7b52:fonts-msextra/.signature
