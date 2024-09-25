@@ -495,6 +495,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/shinyWidgets/tabs/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/shinyWidgets/tabs/tabradioButtons.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/shinyWidgets/tabs/tabswitchInput.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/shinyWidgets/ui.R
+drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/slim-select/
+drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/slim-select/basic/
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/slim-select/basic/app.R
+drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/slim-select/update/
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/slim-select/update/app.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/update_switchInput.R
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/virtual-select/
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/virtual-select/bslib-theming/
@@ -544,6 +549,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/packer/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/multi.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/multi.js.LICENSE.txt
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/nouislider.js
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/slim-select.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/tree.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/virtual-select.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/virtual-select.js.LICENSE.txt

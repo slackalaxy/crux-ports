@@ -5,7 +5,7 @@
 # Optional: r4-curl r4-formula-tools r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-openxlsx
-version=4.2.7
+version=4.2.7.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/openxlsx_${version}.tar.gz)
 

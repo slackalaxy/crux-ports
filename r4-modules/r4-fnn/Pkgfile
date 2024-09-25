@@ -1,11 +1,11 @@
 # Description: R module FNN
 # URL: https://cran.r-project.org/web/packages/FNN
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-chemometrics r4-mvtnorm
 
 name=r4-fnn
-version=1.1.4
+version=1.1.4.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/FNN_${version}.tar.gz)
 

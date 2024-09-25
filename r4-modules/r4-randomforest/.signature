@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89ACiGMPJNYuuNQcODZtHTnFad8TjKFLUhIegvMQn7rMy4Qvrx5TUIqA1SUF/oh2egNFKTyE5Rorhb4t8zvgE2AM=
-SHA256 (Pkgfile) = 6b8989ca6bfc37f0c8766b1f3a519b511b69f030528efe64d16ae007daa6c4d5
+RWQ2oTreAss89JIkV2zC9gTG2lqni46DcQzougR86gAiIWBqyIYKTDD9lrKSippcWixym+E2F89/zwEiSjGbV9pVPndqIT/wrwA=
+SHA256 (Pkgfile) = c8f1d8724f7fa5b9e5e73bbad56ea28c57def8d7712359cbd203d35867726ccf
 SHA256 (.footprint) = b34fabd7765aa4eb2ff31b30aad22deaef2a02e20ed7d890064336e59c6d0bef
-SHA256 (randomForest_4.7-1.1.tar.gz) = f59ea87534480edbcd6baf53d7ec57e8c69f4532c2d2528eacfd48924efa2cd6
+SHA256 (randomForest_4.7-1.2.tar.gz) = aad33227b648bad50412849d7e0fed00fd07f1d1d4a14fa015b4b9f939b04a11

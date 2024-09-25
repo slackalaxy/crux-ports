@@ -15,7 +15,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/graphlayouts/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/Meta/links.rds
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/Meta/package.rds
--rw-r--r--	root/root	usr/lib/R/library/graphlayouts/Meta/vignette.rds
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/NAMESPACE
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/graphlayouts/R/
@@ -26,11 +25,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/graphlayouts/data/
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/data/Rdata.rds
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/data/Rdata.rdx
-drwxr-xr-x	root/root	usr/lib/R/library/graphlayouts/doc/
--rw-r--r--	root/root	usr/lib/R/library/graphlayouts/doc/graphlayouts.R
--rw-r--r--	root/root	usr/lib/R/library/graphlayouts/doc/graphlayouts.Rmd
--rw-r--r--	root/root	usr/lib/R/library/graphlayouts/doc/graphlayouts.html
--rw-r--r--	root/root	usr/lib/R/library/graphlayouts/doc/index.html
 drwxr-xr-x	root/root	usr/lib/R/library/graphlayouts/help/
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/help/aliases.rds

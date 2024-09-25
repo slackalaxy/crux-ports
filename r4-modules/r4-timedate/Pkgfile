@@ -1,11 +1,11 @@
 # Description: R module timeDate
 # URL: https://cran.r-project.org/web/packages/timeDate
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: r4-runit
 
 name=r4-timedate
-version=4032.109
+version=4041.110
 release=1
 source=(https://cloud.r-project.org/src/contrib/timeDate_${version}.tar.gz)
 
