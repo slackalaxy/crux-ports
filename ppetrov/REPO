@@ -946,8 +946,8 @@ f:9d5ba646510646af00bc7a831554cf8a:goffice08/README
 f:a4c14788c236bb2c8b11b04fa695f9ca:goffice08/disable-linking-pcre.patch
 f:a0841a9f55284f3fbc1c01a7717a345f:goffice08/go-conf-gsettings.c
 f:4957b29450551ff6d3c50bb79d019322:google-chrome/.footprint
-f:d8f9c1b148ff369ff19245d729b7ff99:google-chrome/.signature
-f:1620191ad6a29c031e8454b8cbef08cc:google-chrome/Pkgfile
+f:28ef9645ef4119478f6d110fc9df0006:google-chrome/.signature
+f:2fe427471cf2e4e2e1f9b7561fd5b14c:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:77ef3f5038581ff4956d14f5f072f067:gp2fasta/.footprint
 f:7323f30be6d4c63d36b47331c503208a:gp2fasta/.signature
@@ -1241,8 +1241,8 @@ f:5a8c5d6a1e8de9b5bbd0661eaeb8e8fa:mplayer-skins/.footprint
 f:417cb87123a68566e7f93549c6714cd1:mplayer-skins/.signature
 f:6cc54eb8bd9c53038501d31838ff8eb8:mplayer-skins/Pkgfile
 f:9fcd890e76dbd16c31e47cf16ef59334:mplayer/.footprint
-f:6edd2b11a7f074c500c0dc9e978a3870:mplayer/.signature
-f:de77d5e46635db2b79f0e4301a92f9ec:mplayer/Pkgfile
+f:a87aa8ce330f31b8992436af6e87af23:mplayer/.signature
+f:ea3506bdefce4058a3ecdfd09e3970f8:mplayer/Pkgfile
 f:3e7b0aee696cb9d0f433f6e0a0451300:mplayer/README
 f:f659e7a1cbd746f613edef058404b575:mplayer/mplayer.conf
 f:4e53abec01448d3ffe895de8770bbc59:mrbayes/.footprint
@@ -1686,9 +1686,9 @@ f:87b93f95a4f32da4303fb7dd96925f48:repeatmasker/.footprint
 f:82400dd3a09ca30097fa47339a4ef670:repeatmasker/.signature
 f:e39bfb1b0759368ca1be9d469c6cd146:repeatmasker/Pkgfile
 f:1332a28068c883d2bea4b46daf145e53:repeatmasker/README
-f:54e484db136dd6f44ef002f390535d9c:rstudio-desktop/.footprint
-f:d434d3dc7b3e7f01ed8751e95d5b46e7:rstudio-desktop/.signature
-f:c1b92183551788972777de8e75cd607a:rstudio-desktop/Pkgfile
+f:317e127ecd759d5428d960331af2485c:rstudio-desktop/.footprint
+f:3b00e376a8e5fae2ab3a7ab654127d46:rstudio-desktop/.signature
+f:abf6afcb35d1d9ca189fc6683d00ef47:rstudio-desktop/Pkgfile
 f:99a7fd73356cfc25861b0c4bb95f3cc8:samtools0/.footprint
 f:b3ecf6d74d98ef980a9f1172f0c8d93f:samtools0/.signature
 f:c8dd096120a1006e27480aba0c4f09cd:samtools0/Pkgfile
