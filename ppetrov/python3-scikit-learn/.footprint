@@ -2,11 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.10/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.1.dist-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.1.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.1.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.1.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.1.dist-info/direct_url.json
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/COPYING
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/direct_url.json
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/__check_build/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/__check_build/__init__.py
