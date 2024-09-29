@@ -4,7 +4,7 @@
 # Depends on: tcllib
 
 name=tklib
-version=0.7
+version=0.8
 release=1
 source=(https://core.tcl-lang.org/$name/tarball/$name-$version.tar.gz)
 
