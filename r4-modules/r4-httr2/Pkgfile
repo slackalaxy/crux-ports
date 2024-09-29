@@ -5,7 +5,7 @@
 # Optional: r4-askpass r4-bench r4-clipr r4-covr r4-docopt r4-httpuv r4-jose r4-jsonlite r4-knitr r4-later r4-promises r4-rmarkdown r4-testthat r4-tibble r4-webfakes r4-xml2
 
 name=r4-httr2
-version=1.0.4
+version=1.0.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/httr2_${version}.tar.gz)
 

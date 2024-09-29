@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89I+xwY0L0EY1Rxn83RRNU8gtAFWUQcrtN4gC2rTJw5aqi0ME1+KqwqQut/1Gvrq4Ir+u35py9nrAjbApX1PvXgg=
-SHA256 (Pkgfile) = 0374d7f5493c5503f904398b5040fc26f527da8162a26299816a56db0ad598af
+RWQ2oTreAss89B2BxXo+WP3mLN5UIETdqybCmDHKchdGrKKwZqRzlPHZ9wHaBNbWvKHidj/ngtxis4OAvwIx3iWr+9T3ArFojQM=
+SHA256 (Pkgfile) = 941f9fc0a853de6a47a8a1278f4fff91a4e7e7418bb6f9bc78a2ef838392416f
 SHA256 (.footprint) = 2d006309a00686dd062bd4d788657a2e5f3cbcc388477c3c7fec8d2859188eb8
-SHA256 (RApiSerialize_0.1.3.tar.gz) = 9f413759eabb2acce2b9a363687ca365e1bbedaf9851d23a2ec3683a3d46f42b
+SHA256 (RApiSerialize_0.1.4.tar.gz) = 26b974aca70f93a117253e010bb61f5fd315b36b1d045ab25cdfd417150d63c9

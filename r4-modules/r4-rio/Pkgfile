@@ -5,7 +5,7 @@
 # Optional: r4-arrow r4-bit64 r4-clipr r4-fst r4-hexview r4-jsonlite r4-knitr r4-magrittr r4-nanoparquet r4-pzfx r4-qs r4-readods r4-rmarkdown r4-rmatio r4-stringi r4-testthat r4-withr r4-xml2 r4-yaml
 
 name=r4-rio
-version=1.2.2
+version=1.2.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/rio_${version}.tar.gz)
 

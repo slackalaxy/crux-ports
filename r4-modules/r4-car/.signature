@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IR6EPTi10dWQck5lqvrl68iktk0gzTn03O4jNG6VyjCYiVZyLK2bfI2fTkB7kbGoX5krryWlQnUgCBKvp8JmQI=
-SHA256 (Pkgfile) = 0e348331509cf501c31cfae1d1eb75d6a1c90f3bedd9b7305c1b7d4b6308955d
+RWQ2oTreAss89Aw+ZdpikeGzXQtO28QEM6IwdR8HIkpDV0qHbu+6/mFQvY815DNUEak7MC3p2IZThDoAW0sqWtVZ1NBEtXmsewo=
+SHA256 (Pkgfile) = 09ccbbedd2f4777773bf33c1be75ae8ff0e910d755b987343ae3409ead92fd1a
 SHA256 (.footprint) = 887726f86623e4a58379f8ca954d7c023ea9e79c7c9248fd6a9c3813d2fb693b
-SHA256 (car_3.1-2.tar.gz) = 89263491977ac8e9406b2f4b1638bf06c7ddd1b0e0e3ecda4be61420474674c8
+SHA256 (car_3.1-3.tar.gz) = 59f2c024395995f662a8f64fe807765fc8507f1d2f7a8ab8a1c4f66a63be49bf
