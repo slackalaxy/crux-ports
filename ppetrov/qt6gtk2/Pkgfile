@@ -4,7 +4,7 @@
 # Depends on:
 
 name=qt6gtk2
-version=0.2
+version=0.3
 release=1
 source=(https://github.com/trialuser02/qt6gtk2/archive/$version/$name-$version.tar.gz)
 
