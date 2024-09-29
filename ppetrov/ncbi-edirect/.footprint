@@ -54,6 +54,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/fsa2xml
 -rwxr-xr-x	root/root	usr/bin/fuse-ranges
 -rwxr-xr-x	root/root	usr/bin/fuse-segments
+-rwxr-xr-x	root/root	usr/bin/gbf2facds
 -rwxr-xr-x	root/root	usr/bin/gbf2fsa
 -rwxr-xr-x	root/root	usr/bin/gbf2info
 -rwxr-xr-x	root/root	usr/bin/gbf2ref
