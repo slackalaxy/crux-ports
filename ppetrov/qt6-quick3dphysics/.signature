@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZTY+gEZhUOu1qh67IoK1NkH1+zuLftAnbmZT9b5uJ+XeseIE8OMLG9So2gjjDyJ/IxsOlSceVAMdEgZ+Ddea9wM=
-SHA256 (Pkgfile) = e7639bc33f7098dea431bbd7664b121baa80ff5cba51f4c7aa7afd033e0971c7
-SHA256 (.footprint) = 3f2c0fe5573d1566034d3c0007582c3bc288a132ece3f6100cadd901d1f05ed3
-SHA256 (qtquick3dphysics-everywhere-src-6.7.2.tar.xz) = ffc790b8b44ebc03acc1f2d085dad0cc49fffde1eea941a6ff11d3eb0b6e4140
+RWToVVsIkzFIZWTlKhqXB0PubsvrzEMjfpcibo2UTP1XejFCiQnbk0dlKzbz6F1hfj0FplKhSDRJ/fD8tiKVlaAUUDfN9YI6ggo=
+SHA256 (Pkgfile) = d6b2ce314e7b890a459c27537bb75eb7cc61be7eb3ec6ae54252a5216eeb6a6e
+SHA256 (.footprint) = 60d218f06e3e63f3e5d72a5677bafbb8af0d2ede3520486d35e82bf4ab394d75
+SHA256 (qtquick3dphysics-everywhere-src-6.7.3.tar.xz) = b45dc48b3079270d42890b299c53bc1259ae80945a23242407f18a07be89d8f3
