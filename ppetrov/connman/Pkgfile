@@ -4,8 +4,8 @@
 # Depends on: glib gnutls libmnl wpa_supplicant
 
 name=connman
-version=1.42
-release=4
+version=1.43
+release=1
 source=(https://www.kernel.org/pub/linux/network/connman/$name-$version.tar.gz
 	connmand.rc dbus.wheel.patch eduroam.config)
 
