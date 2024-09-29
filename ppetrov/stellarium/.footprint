@@ -2353,7 +2353,6 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/sami/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/sami/constellationship.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/sami/description.en.utf8
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/sami/info.ini
--rw-r--r--	root/root	usr/share/stellarium/skycultures/sami/star_names.fab (EMPTY)
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/samoan/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/samoan/constellation_names.eng.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/samoan/constellationship.fab
@@ -2426,7 +2425,6 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tibetan/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/reference.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/sagittarius.png
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/scorpius.png
--rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/star_names.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/taurus.png
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tibetan/virgo.png
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tikuna/
@@ -2441,7 +2439,6 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tikuna/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/description.en.utf8
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/info.ini
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/reference.fab
--rw-r--r--	root/root	usr/share/stellarium/skycultures/tikuna/star_names.fab
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tongan/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tongan/constellation_names.eng.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tongan/constellationsart.fab (EMPTY)
@@ -2457,7 +2454,6 @@ drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tukano/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tukano/constellationship.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tukano/description.en.utf8
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tukano/info.ini
--rw-r--r--	root/root	usr/share/stellarium/skycultures/tukano/star_names.fab
 drwxr-xr-x	root/root	usr/share/stellarium/skycultures/tupi/
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tupi/constellation_names.eng.fab
 -rw-r--r--	root/root	usr/share/stellarium/skycultures/tupi/constellationsart.fab (EMPTY)
@@ -2604,6 +2600,7 @@ drwxr-xr-x	root/root	usr/share/stellarium/textures/
 -rw-r--r--	root/root	usr/share/stellarium/textures/phobos.png
 -rw-r--r--	root/root	usr/share/stellarium/textures/phoebe.png
 -rw-r--r--	root/root	usr/share/stellarium/textures/planet-indicator.png
+-rw-r--r--	root/root	usr/share/stellarium/textures/planet-marker.png
 -rw-r--r--	root/root	usr/share/stellarium/textures/pluto.png
 -rw-r--r--	root/root	usr/share/stellarium/textures/pointeur2.png
 -rw-r--r--	root/root	usr/share/stellarium/textures/pointeur4.png

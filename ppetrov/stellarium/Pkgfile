@@ -5,12 +5,17 @@
 # Optional: krb5 lame pulseaudio
 
 name=stellarium
-version=24.2
+version=24.3
 release=1
-source=(https://github.com/Stellarium/stellarium/releases/download/v${version}/$name-$version.tar.gz)
+source=(https://github.com/Stellarium/stellarium/releases/download/v${version}/$name-$version.tar.gz
+	02e37f3b76ef20786f10a6d89d23944e330aecf4.patch)
 
 build() {
 	cd $name-$version
+	
+	# https://github.com/Stellarium/stellarium/issues/3905
+	patch -p1 -i $SRC/02e37f3b76ef20786f10a6d89d23944e330aecf4.patch
+  
 	mkdir -p build
 	cd build
 	cmake \
