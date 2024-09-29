@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZUrxgxI7gagxePZmnpodrkhde2pDy7NTKgnzmOhK1Dc1hp9rGMa125sDCab/787Ez/hsqeAEIfOg0xCUglNJtgQ=
-SHA256 (Pkgfile) = 50a753a0a3f0edf2f7eb73fb3a95c2e7089c4d5f3c59550943ef2bc009560b64
-SHA256 (.footprint) = 5747725e45d2689c35cdeb73ea66ba4c7f7c3d93f9f4f70a4db6a7c33ac21816
-SHA256 (bluefish-2.2.15.tar.bz2) = 6143e51c6b5579d596f3a9a85e0f0d8580c9f58f828575b119880e0ca1d941bc
+RWToVVsIkzFIZV06MadQveu/XKJWyEIZ2F12dEHXpTK98xvPnRDH3IGqqfbNnV0sf9e4k018fJTHTF4t4/r1kg/fNbuN6X4LeA8=
+SHA256 (Pkgfile) = c4813cb1d5f9f4dcb28c802af66312898786b213990463cc9062bf1a760531cf
+SHA256 (.footprint) = 569e01e86634b6c4995ae31588067dcc339d6f5f75c9ad387053b167ee3d6b29
+SHA256 (bluefish-2.2.16.tar.bz2) = 14e6476fcee8fa326f7f63f1f693d252195f9dcb16af0fe3c915c499baf5dd74
