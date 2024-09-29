@@ -5,7 +5,7 @@
 # Conflicts: qt6-webengine
 
 name=qt6-pdfwidgets
-version=6.7.2
+version=6.7.3
 release=1
 source=(https://download.qt.io/official_releases/qt/${version%.*}/$version/submodules/qtwebengine-everywhere-src-$version.tar.xz)
 
