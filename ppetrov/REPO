@@ -946,8 +946,8 @@ f:9d5ba646510646af00bc7a831554cf8a:goffice08/README
 f:a4c14788c236bb2c8b11b04fa695f9ca:goffice08/disable-linking-pcre.patch
 f:a0841a9f55284f3fbc1c01a7717a345f:goffice08/go-conf-gsettings.c
 f:4957b29450551ff6d3c50bb79d019322:google-chrome/.footprint
-f:28ef9645ef4119478f6d110fc9df0006:google-chrome/.signature
-f:2fe427471cf2e4e2e1f9b7561fd5b14c:google-chrome/Pkgfile
+f:c1be72e5eaa2741f0c6ca63e8cddd8cb:google-chrome/.signature
+f:aaa914f08de43f8a126df56627183840:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:77ef3f5038581ff4956d14f5f072f067:gp2fasta/.footprint
 f:7323f30be6d4c63d36b47331c503208a:gp2fasta/.signature
@@ -1241,8 +1241,8 @@ f:5a8c5d6a1e8de9b5bbd0661eaeb8e8fa:mplayer-skins/.footprint
 f:417cb87123a68566e7f93549c6714cd1:mplayer-skins/.signature
 f:6cc54eb8bd9c53038501d31838ff8eb8:mplayer-skins/Pkgfile
 f:9fcd890e76dbd16c31e47cf16ef59334:mplayer/.footprint
-f:a87aa8ce330f31b8992436af6e87af23:mplayer/.signature
-f:ea3506bdefce4058a3ecdfd09e3970f8:mplayer/Pkgfile
+f:c83a98eb164799105c964c25ab44acbf:mplayer/.signature
+f:975b0015dd65581524f8d3844e7399d3:mplayer/Pkgfile
 f:3e7b0aee696cb9d0f433f6e0a0451300:mplayer/README
 f:f659e7a1cbd746f613edef058404b575:mplayer/mplayer.conf
 f:4e53abec01448d3ffe895de8770bbc59:mrbayes/.footprint
