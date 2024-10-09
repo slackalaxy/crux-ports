@@ -24,10 +24,16 @@ drwxr-xr-x	root/root	usr/lib/R/library/glue/doc/
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/engines.R
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/engines.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/engines.html
+-rw-r--r--	root/root	usr/lib/R/library/glue/doc/glue.R
+-rw-r--r--	root/root	usr/lib/R/library/glue/doc/glue.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/glue/doc/glue.html
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/transformers.R
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/transformers.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/glue/doc/transformers.html
+-rw-r--r--	root/root	usr/lib/R/library/glue/doc/wrappers.R
+-rw-r--r--	root/root	usr/lib/R/library/glue/doc/wrappers.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/glue/doc/wrappers.html
 drwxr-xr-x	root/root	usr/lib/R/library/glue/help/
 -rw-r--r--	root/root	usr/lib/R/library/glue/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/glue/help/aliases.rds

@@ -24,12 +24,14 @@ drwxr-xr-x	root/root	usr/lib/R/library/gplots/R/
 -rw-r--r--	root/root	usr/lib/R/library/gplots/R/gplots.rdx
 -rw-r--r--	root/root	usr/lib/R/library/gplots/TODO
 drwxr-xr-x	root/root	usr/lib/R/library/gplots/data/
--rw-r--r--	root/root	usr/lib/R/library/gplots/data/rtPCR.rda
+-rw-r--r--	root/root	usr/lib/R/library/gplots/data/Rdata.rdb
+-rw-r--r--	root/root	usr/lib/R/library/gplots/data/Rdata.rds
+-rw-r--r--	root/root	usr/lib/R/library/gplots/data/Rdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/gplots/doc/
 -rw-r--r--	root/root	usr/lib/R/library/gplots/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/gplots/doc/venn.R
--rw-r--r--	root/root	usr/lib/R/library/gplots/doc/venn.Rnw
--rw-r--r--	root/root	usr/lib/R/library/gplots/doc/venn.pdf
+-rw-r--r--	root/root	usr/lib/R/library/gplots/doc/venn.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/gplots/doc/venn.html
 drwxr-xr-x	root/root	usr/lib/R/library/gplots/help/
 -rw-r--r--	root/root	usr/lib/R/library/gplots/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/gplots/help/aliases.rds
@@ -39,3 +41,4 @@ drwxr-xr-x	root/root	usr/lib/R/library/gplots/help/
 drwxr-xr-x	root/root	usr/lib/R/library/gplots/html/
 -rw-r--r--	root/root	usr/lib/R/library/gplots/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/gplots/html/R.css
+-rw-r--r--	root/root	usr/lib/R/library/gplots/venn.Rnw

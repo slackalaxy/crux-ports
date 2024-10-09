@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89N8jffNlrMF0MadVPlaZCuq7HeDYO0ibO+u9iMKgy0IvhQ6YuBIGHmGBG3cmrnfGHIjqwCl4AR1LqMjAINcGJQc=
-SHA256 (Pkgfile) = 728f00dc2eacc431f5b2363a290a3b4c231e86988b65fdb52a9ed6dddd3f92a0
+RWQ2oTreAss89C9GJq2OeGVHi1msnVZoXI4pm6mSodOZ2khWAq92daTht5GWYgqYVHnBPq6viCc97hmo0KfrjtHxu2Jal5LkwQc=
+SHA256 (Pkgfile) = eca29a8f91571e3fbf00feac30510d74ecf9cd1124d9f4583121236e534b0a5d
 SHA256 (.footprint) = a8efc70947ccee9595194f77386f521ac3097a0c4e82922690d0cab069f1804a
-SHA256 (askpass_1.2.0.tar.gz) = b922369781934d0ffc8d0c0177e8ace56796c2e6a726f65e460c16f792592cef
+SHA256 (askpass_1.2.1.tar.gz) = 6c2106a74c44a748f2cea795d9686e27a0058a90debcfd8558b62b06aec0c7dd

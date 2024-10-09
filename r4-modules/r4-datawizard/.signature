@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IqZaLhUZGz6a6tGxrQdCQu6js/HqDj7HvEoon5Ui+Jvsym1xjPmcolTBL9ROYqPHbqeDj7BTYHqrYIZD8rKvw0=
-SHA256 (Pkgfile) = a9faae17255bfd419ce723edbdf4b5f1ca37fdaa9ec85d93558266614f748fcd
+RWQ2oTreAss89IkcjoHt5eEf6KtjXtfMA5vb/CADJm7Bh/j7H24HSFciaitDoLLUB5MQb2cZu4AIDkDcD0kZgRQ48esIS3dXYQ0=
+SHA256 (Pkgfile) = 661176c4300d6ba3a5e34d19514286bdbf8dbaff17f58169ec286fcd5dd94241
 SHA256 (.footprint) = d0cb01e231092eb0d6f1f549bf329772e66b7f2bd4d91e4e56bf8307989677a2
-SHA256 (datawizard_0.12.3.tar.gz) = a3a779dac7a4375ac5706339d62d55d5f19a08347cd9e2e1055f02d87e417fa0
+SHA256 (datawizard_0.13.0.tar.gz) = bf678185c3b3672df4e21ed30904f6174e15ae5e31ebecd7b232a34c105cfe8a

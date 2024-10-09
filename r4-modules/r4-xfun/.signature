@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BysqoJl3b06yuMyfxhEJbS/jXEFmiONlSUhw87WJ+uYLI3t32GkEFEUJSqBcMkw5NjQgW70x/wpFPNBci2epA8=
-SHA256 (Pkgfile) = 7d67cddf706de168c6ea76039c8fa6dd9a1d29ea76f4ed414481d518a086a320
-SHA256 (.footprint) = e767634e145fdc4ac2a8797bb69f6cd5f46f93099b889efeaf77a54108a71d83
-SHA256 (xfun_0.47.tar.gz) = 999874fdbf4df2e686a3cb134bfef782c0d3eb0141006191ca1eda94ce232c4b
+RWQ2oTreAss89COK4qeqpGX2Ai2qupdDqhUOzfg/umUbIi/Y/E0DoEZwDv3JKJA+7qYLFe4mhOpl/+fGSrmhjhujWPiaX+naSgc=
+SHA256 (Pkgfile) = e6c23ad19811ca4795a6167901be83004cdc17c29c40b5c23dea029b3a326874
+SHA256 (.footprint) = 99d3af02b4a6ddb1280f7ae1ba68bd2dc9b65be06f89b1f6065856963e12f491
+SHA256 (xfun_0.48.tar.gz) = 27668c445257456a759015ab494edb4dc54af06e36523be423d313af651c932e

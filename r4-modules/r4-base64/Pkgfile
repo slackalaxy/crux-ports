@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-base64
-version=2.0.1
+version=2.0.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/base64_${version}.tar.gz)
 
