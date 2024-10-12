@@ -4,7 +4,7 @@
 # Depends on:
 
 name=ncbi-edirect
-version=22.7.20240927
+version=22.8.20241011
 release=1
 source=(https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/edirect-$version.tar.gz
 	https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/rchive.Linux.gz

@@ -3,8 +3,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/accn-at-a-time
 -rwxr-xr-x	root/root	usr/bin/align-columns
 -rwxr-xr-x	root/root	usr/bin/amino-acid-composition
--rwxr-xr-x	root/root	usr/bin/archive-ncbinlp
 -rwxr-xr-x	root/root	usr/bin/archive-nihocc
+-rwxr-xr-x	root/root	usr/bin/archive-nlmnlp
 -rwxr-xr-x	root/root	usr/bin/archive-nmcds
 -rwxr-xr-x	root/root	usr/bin/archive-pids
 -rwxr-xr-x	root/root	usr/bin/archive-pmc
@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/custom-index
 -rwxr-xr-x	root/root	usr/bin/difference-uid-lists
 -rwxr-xr-x	root/root	usr/bin/disambiguate-nucleotides
+-rwxr-xr-x	root/root	usr/bin/download-flatfile
 -rwxr-xr-x	root/root	usr/bin/download-ncbi-data
 -rwxr-xr-x	root/root	usr/bin/download-ncbi-software
 -rwxr-xr-x	root/root	usr/bin/download-pmc
@@ -136,8 +137,8 @@ drwxr-xr-x	root/root	usr/lib/edirect/
 -rw-r--r--	root/root	usr/lib/edirect/prep-finish.go
 -rw-r--r--	root/root	usr/lib/edirect/prep-geneinfo.go
 -rw-r--r--	root/root	usr/lib/edirect/prep-generif.go
--rw-r--r--	root/root	usr/lib/edirect/prep-ncbinlp.go
 -rw-r--r--	root/root	usr/lib/edirect/prep-nihocc.go
+-rw-r--r--	root/root	usr/lib/edirect/prep-nlmnlp.go
 -rw-r--r--	root/root	usr/lib/edirect/prep-taxoninfo.go
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/edirect/
