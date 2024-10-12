@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=meme-db-motif
-version=12.24
+version=12.25
 release=1
 source=(https://meme-suite.org/meme/meme-software/Databases/motifs/motif_databases.${version}.tgz)
 renames=(motif_databases.${version}.tgz.tmp)
