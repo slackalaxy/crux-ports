@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdHF3WT1KRl3jhjxWsLH/v+k7yjeXnnheh9BRifyVO4s0hqYzVhsBpPzqM4pnZherzJOeM+5NesdJGIeyi3FwQ0=
-SHA256 (Pkgfile) = c4c7f561ab951edb26f40e384dc41f5b5d800b5b5406276af7ed6c91320050ab
+RWToVVsIkzFIZSCAyoXZUMBvGabVtOds4kH4hlLsVE0MOkkumJj0ujWyvih4P5cB5t2xw9ztMCI67Sz61Ws4l90oEOwhwxBsvAU=
+SHA256 (Pkgfile) = 5c314ec2f6b26b7995bba0ddf9db122d88d6ba3abdfef2c3ea86f9599c46b892
 SHA256 (.footprint) = df543369f390568f086ecbb4ab39bb70ed1e7dd885c9cf7fb252e9d5d6e03a5c
-SHA256 (lyx-2.4.1.tar.xz) = 74de28a07ef37aa9471bc9962db182152a25310c7d1f47f676bb9bc63d9713c5
+SHA256 (lyx-2.4.2.tar.xz) = 0d5a75dec9a169ab23bfa47da53ec65c62432de57014de315023d620ebccfe68
