@@ -4,7 +4,7 @@
 # Depends on: icu keyutils krb5 qt6-declarative
 
 name=qt6-webview
-version=6.7.3
+version=6.8.0
 release=1
 source=(https://download.qt.io/official_releases/qt/${version%.*}/$version/submodules/qtwebview-everywhere-src-$version.tar.xz)
 
