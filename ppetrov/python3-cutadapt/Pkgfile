@@ -1,15 +1,15 @@
 # Description: Trim adapters from high-throughput sequencing reads
 # URL: https://pypi.org/project/cutadapt/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
+# Depends on: python3
 
-name=cutadapt
+name=python3-cutadapt
 version=4.9
 release=1
-source=(https://files.pythonhosted.org/packages/cb/15/85799e7fa1dfb86b8f79f8f98902b28003a054c46447a0580f21e535dbf3/cutadapt-4.9.tar.gz)
+source=(https://files.pythonhosted.org/packages/cb/15/85799e7fa1dfb86b8f79f8f98902b28003a054c46447a0580f21e535dbf3/cutadapt-$version.tar.gz)
 
 build() {
-  cd $name-$version*
+  cd ${name#*-}-$version
 
   /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
 
