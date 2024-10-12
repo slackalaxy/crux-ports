@@ -69,6 +69,14 @@ drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/en@quot/
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/en@quot/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/po/en@quot/LC_MESSAGES/R-data.table.mo
 -rw-r--r--	root/root	usr/lib/R/library/data.table/po/en@quot/LC_MESSAGES/data.table.mo
+drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/es/
+drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/es/LC_MESSAGES/
+-rw-r--r--	root/root	usr/lib/R/library/data.table/po/es/LC_MESSAGES/R-data.table.mo
+-rw-r--r--	root/root	usr/lib/R/library/data.table/po/es/LC_MESSAGES/data.table.mo
+drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/pt_BR/
+drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/pt_BR/LC_MESSAGES/
+-rw-r--r--	root/root	usr/lib/R/library/data.table/po/pt_BR/LC_MESSAGES/R-data.table.mo
+-rw-r--r--	root/root	usr/lib/R/library/data.table/po/pt_BR/LC_MESSAGES/data.table.mo
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/zh_CN/
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/zh_CN/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/po/zh_CN/LC_MESSAGES/R-data.table.mo

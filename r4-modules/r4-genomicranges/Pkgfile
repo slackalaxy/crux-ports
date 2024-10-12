@@ -5,7 +5,7 @@
 # Optional: r4-annotate r4-annotationdbi r4-annotationhub r4-biobase r4-biocstyle r4-biostrings r4-bsgenome r4-bsgenome-hsapiens-ucsc-hg38 r4-bsgenome-mmusculus-ucsc-mm10 r4-bsgenome-scerevisiae-ucsc-saccer2 r4-deseq2 r4-dexseq r4-digest r4-edger r4-genomicalignments r4-genomicfeatures r4-gviz r4-hgu95av2-db r4-hgu95av2probe r4-kegggraph r4-keggrest r4-knitr r4-matrix r4-pasillabamsubset r4-rmarkdown r4-rnaseqdata-hnrnpc-bam-chr14 r4-rsamtools r4-rtracklayer r4-runit r4-summarizedexperiment r4-txdb-athaliana-biomart-plantsmart22 r4-txdb-dmelanogaster-ucsc-dm3-ensgene r4-txdb-hsapiens-ucsc-hg38-knowngene r4-txdb-mmusculus-ucsc-mm10-knowngene r4-txdbmaker r4-variantannotation
 
 name=r4-genomicranges
-version=1.56.1
+version=1.56.2
 release=1
 source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/GenomicRanges_${version}.tar.gz)
 

@@ -1,0 +1,16 @@
+# Description: R module VennDiagram
+# URL: https://cran.r-project.org/web/packages/VennDiagram
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-futile-logger
+# Optional: r4-testthat
+
+name=r4-venndiagram
+version=1.7.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/VennDiagram_${version}.tar.gz)
+
+build() {
+	cd VennDiagram
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

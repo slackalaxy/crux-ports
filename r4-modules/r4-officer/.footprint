@@ -23,7 +23,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/officer/doc_examples/
 -rw-r--r--	root/root	usr/lib/R/library/officer/doc_examples/example.docx
 -rw-r--r--	root/root	usr/lib/R/library/officer/doc_examples/example.pptx
 -rw-r--r--	root/root	usr/lib/R/library/officer/doc_examples/landscape.docx
+-rw-r--r--	root/root	usr/lib/R/library/officer/doc_examples/ph_dupes.pptx
 -rw-r--r--	root/root	usr/lib/R/library/officer/doc_examples/text.txt
+drwxr-xr-x	root/root	usr/lib/R/library/officer/examples/
+-rw-r--r--	root/root	usr/lib/R/library/officer/examples/example_layout_rename_ph_labels.R
+-rw-r--r--	root/root	usr/lib/R/library/officer/examples/example_plot_layout_properties.R
 drwxr-xr-x	root/root	usr/lib/R/library/officer/help/
 -rw-r--r--	root/root	usr/lib/R/library/officer/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/officer/help/aliases.rds
