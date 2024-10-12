@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZa+SzD0SJqaVeOAWR1h8A9CQsJA3To7nGlLIJz2oU+jyp1CZZ+ZojcGYqiwZhYOfQ49BHHzuKLooCPatABIT7AY=
-SHA256 (Pkgfile) = f280ad40f6fbabaae0999a8c007aca41973be74eebdde27ece5c8a2d09886595
-SHA256 (.footprint) = c104717fa62eed7eeaff9ce768320dca8c89a6b6a9d5756a9d1933918368fe4c
-SHA256 (IGV_2.18.2.zip) = b52170dbfc27195da03fdfa5c2323bf4be1547059efffcb0987b9edefcbbee42
+RWToVVsIkzFIZWFPMQCtFaiFMvdbxUNTZBar6aFUsF0Vpf8wP2y7qh0yxgAIyOr2tHyoc93A4OO39Ag/R7ubQvRO5yYaTLnLxwA=
+SHA256 (Pkgfile) = 6c607c763cece9dda001e531d265fbb29ab2135354dc4c844c2a1d7f66f5e41a
+SHA256 (.footprint) = 49b23ffc885e27d01552c6a07993f7d73df2f5be6d808051dd282acee00fce66
+SHA256 (IGV_2.18.4.zip) = d60870e27db0ba22278df3bcfb6113c1adc86b940f02d754983c91688d3a0fae
 SHA256 (igv.desktop) = aba0b1ae7c444a8f750c8fb04dca49dbb7be30693dc217bab27c1307c7933534
 SHA256 (igv.png) = 227430dd1d8c7f7632a002cddaf210c50ba85ef656213259ce10aadc9604c5f2
