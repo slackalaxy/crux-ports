@@ -4,12 +4,12 @@
 # Depends on: python3-psutil
 
 name=python3-biobb_structure
-version=3.13.4
+version=3.13.5
 release=1
-source=(https://files.pythonhosted.org/packages/52/c8/fbde8e5c8502699a5f85837298acefc14a198b31d30e3d87fde18fa6f169/biobb_structure_checking-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/fb/27/8cf9b68cb39e063a373b87ba8881d888dd8b6449dfce5b6a3605f095128d/biobb_structure_checking-3.13.5.tar.gz)
 
 build() {
-  cd ${name#*-}*-$version
+  cd biobb_structure_checking-$version
 
   /usr/bin/python3 setup.py build
   /usr/bin/python3 setup.py install \
