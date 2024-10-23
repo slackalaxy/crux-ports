@@ -4,8 +4,8 @@
 # Depends on: freerdp2 gnome-icon-theme-symbolic keyutils krb5 libsecret libsodium libssh libvncserver spice-gtk
 
 name=remmina
-version=1.4.35
-release=2
+version=1.4.36
+release=1
 source=(https://gitlab.com/Remmina/Remmina/-/archive/v${version}/Remmina-v${version}.tar.gz)
 
 build() {
