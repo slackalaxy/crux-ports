@@ -6,7 +6,7 @@
 
 name=hplip
 version=3.24.4
-release=2
+release=3
 source=(http://downloads.sourceforge.net/project/hplip/hplip/$version/hplip-$version.tar.gz
 	0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch
 	0018-Allow-non-JPEG-scanning-on-the-HP-DeskJet-3520-All-i.patch
@@ -89,9 +89,7 @@ build() {
 	  --enable-network-build=no \
 	  --enable-qt5 \
 	  --enable-policykit \
-	  --enable-cups-ppd-install \
-	  --build=CRUX-x86_64-multilib \
-	  --host=CRUX-x86_64-multilib
+	  --enable-cups-ppd-install
 
 	make
 	make install DESTDIR=$PKG rulesdir=/lib/udev/rules.d
