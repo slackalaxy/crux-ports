@@ -605,6 +605,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/fast_css_transform.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/fast_html_entities.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/fcntl.so
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/ffmpeg.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/freetype.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/grp.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/html5_parser.html_parser.so
@@ -690,6 +691,11 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Widgets.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6XcbQpa.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libQt6Xml.so.6
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libavcodec.so.60
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libavdevice.so.60
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libavfilter.so.9
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libavformat.so.60
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libavutil.so.58
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libbrotlicommon.so.1
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libbrotlidec.so.1
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libbrotlienc.so.1
@@ -728,12 +734,15 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpng16.so.16
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpodofo.so.2
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpoppler.so.130
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libpostproc.so.57
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpython3.11.so.1.0
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libreadline.so.8
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libsharpyuv.so.0
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libsqlite3.so.0
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libssl.so.3
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libstemmer.so.0
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libswresample.so.4
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libswscale.so.7
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libtiff.so.6
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libuchardet.so.0
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libunrar.so
