@@ -4,12 +4,12 @@
 # Depends on: alsa-lib brotli graphite2 harfbuzz xorg-libxtst
 
 name=adoptium8-jdk
-version=8u422_b05
+version=8u432+b06
 release=1
-source=(https://github.com/adoptium/temurin8-binaries/releases/download/jdk${version/_/-}/OpenJDK8U-jdk_x64_linux_hotspot_${version//_/}.tar.gz)
+source=(https://github.com/adoptium/temurin8-binaries/releases/download/jdk${version/+/-}/OpenJDK8U-jdk_x64_linux_hotspot_${version//+/}.tar.gz)
 
 build() {
-	cd jdk${version/_/-}
+	cd jdk${version/+/-}
 	
 	# create installation folders
 	mkdir -p $PKG/usr/lib/jdk/$name
