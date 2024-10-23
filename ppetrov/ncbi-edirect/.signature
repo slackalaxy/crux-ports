@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbdrXXSRHS+XM2Xu4h0jpxaAP3Yk6FpaoemzVMvIMp+sxo0YygDXCqfpn5Vq1C8gWhDK3ODsSTw5gFpWYGUh1g8=
-SHA256 (Pkgfile) = 9ecca6655190de33959e8d5be44c30649931862f62584a42c9c662a97071e4bd
+RWToVVsIkzFIZWfaL47zV6zw/8IEZZ0IAjQXbNLjYgJDZ+lWoW88d5E93ouJYeooeuRQRBFoaj3vlpcSc47Tc7uILBzF4ZW9lAg=
+SHA256 (Pkgfile) = 538cf333b24f7339dba2f204b819b26692884a7c1f4063226ed3fddd86940736
 SHA256 (.footprint) = 11412969926a5dec1ec34d91cf2c6642e23176f8b6f9ad890efe7cbabda342af
-SHA256 (edirect-22.8.20241011.tar.gz) = 4fe5ff4edfa9a9ce3c86aae787f46f12aa4ca57ebcb7672f9976aa50364e1789
+SHA256 (edirect-22.9.20241021.tar.gz) = 7bef68cb6df86cc1dd9fa23799b0b936164ab85da0a1ea4121eb65d5175f9aa8
 SHA256 (rchive.Linux.gz) = bb5eac34109c9111428d686161e93ecaca26459f92451b2518f153ca250bd85d
 SHA256 (transmute.Linux.gz) = 6efcf0285a995a6f47a6f471fea06183100ca0a4cc8c66b67b14ee163c33ea53
 SHA256 (xtract.Linux.gz) = 6f69a22ea901e6ea00a5aeb693e8f884cf62bcb1e1054fa49adc465f426b0e5e
