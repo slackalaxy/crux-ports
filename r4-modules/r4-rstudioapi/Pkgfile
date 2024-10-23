@@ -5,7 +5,7 @@
 # Optional: r4-clipr r4-covr r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-rstudioapi
-version=0.16.0
+version=0.17.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/rstudioapi_${version}.tar.gz)
 

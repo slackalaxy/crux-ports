@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AU6PN9gKMJ6TO53HimYkoePjm7txtsNDydN+fzZGRsL46nlOJF4nsuQHsbcW1VyzV3ktnaF5VQfWA/ARnzSzAY=
-SHA256 (Pkgfile) = 9533f09d6b44fc0b82966af807b23cfcb740a6e511a67c148630f58f28c21ca5
+RWQ2oTreAss89PKc79KefvrrJRM79Bh4z83pNrozKjUNcZbTetLE5vo5GJi7GYTyRMOBWTYCU06m1H/r7W/2grl4LN1MdskrvwE=
+SHA256 (Pkgfile) = 3ea7c5ab4aaa669fe52f6ae1382c921696659877b3389da311ed48abe6e6dc1f
 SHA256 (.footprint) = 4100624bb0b5bc461b63cb88b35c8dd9c3669423d23b2a6e2b148a59ef9ec17d
-SHA256 (spatstat.explore_3.3-2.tar.gz) = a24827d24a86f2f20f8dcbbb5f57f5ab43345fa346c572099b84d867e7bf85ed
+SHA256 (spatstat.explore_3.3-3.tar.gz) = ce3b9b7f41eedfe5b8c419fb8a8b00af35d2387b8386335ac0f639f4020d3d3a

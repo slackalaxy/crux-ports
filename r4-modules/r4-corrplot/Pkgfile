@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-magrittr r4-prettydoc r4-rcolorbrewer r4-rmarkdown r4-seriation r4-testthat
 
 name=r4-corrplot
-version=0.94
+version=0.95
 release=1
 source=(https://cloud.r-project.org/src/contrib/corrplot_${version}.tar.gz)
 

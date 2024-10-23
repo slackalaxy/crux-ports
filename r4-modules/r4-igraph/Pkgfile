@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/igraph
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-cli r4-cpp11 r4-lifecycle r4-magrittr r4-matrix r4-pkgconfig r4-rlang r4-vctrs
-# Optional: r4-ape r4-callr r4-decor r4-digest r4-graph r4-igraphdata r4-knitr r4-rgl r4-rmarkdown r4-scales r4-testthat r4-vdiffr r4-withr
+# Optional: r4-ape r4-callr r4-decor r4-digest r4-igraphdata r4-knitr r4-rgl r4-rmarkdown r4-scales r4-testthat r4-vdiffr r4-withr
 
 name=r4-igraph
-version=2.0.3
+version=2.1.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/igraph_${version}.tar.gz)
 

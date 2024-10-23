@@ -5,7 +5,7 @@
 # Optional: r4-annotationdbi r4-biobase r4-biocstyle r4-jsonlite r4-knitr r4-matrix r4-org-hs-eg-db r4-readr r4-rhdf5 r4-seuratobject r4-summarizedexperiment
 
 name=r4-edger
-version=4.2.1
+version=4.2.2
 release=1
 source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/edgeR_${version}.tar.gz)
 
