@@ -4,15 +4,15 @@
 # Depends on: brotli graphite2 keyutils krb5 libxml2 lz4 tk xorg-libxscrnsaver
 
 name=miniconda3
-version=24.7.1_0
-_python=py310
+version=24.9.2_0
+_python=3.10
 release=1
-source=(https://repo.anaconda.com/miniconda/Miniconda3-${_python}_${version/_/-}-Linux-x86_64.sh)
+source=(https://repo.anaconda.com/miniconda/Miniconda3-py${_python/\./}_${version/_/-}-Linux-x86_64.sh)
 
 build() {
 	prefix=$PKG/usr/lib/$name
 	LD_PRELOAD="/usr/lib/libfakeroot.so"
-	bash $SRC/Miniconda3-${_python}_${version/_/-}-Linux-x86_64.sh -b -p $prefix -f
+	bash $SRC/Miniconda3-py${_python/\./}_${version/_/-}-Linux-x86_64.sh -b -p $prefix -f
 	[ "$BREAK_EARLY" = 1 ] && exit 1
 	cd $prefix
 	chmod a+r -R pkgs
@@ -22,7 +22,7 @@ build() {
 	rm libgomp.so.1
 	ln -s /usr/lib/miniconda3/lib/libgomp.so.1.0.0 libgomp.so.1
 	
-	cd $PKG/usr/lib/miniconda3/pkgs/python-3.10.14-h955ad1f_1/compiler_compat/
+	cd $PKG/usr/lib/miniconda3/pkgs/python-${_python}.*/compiler_compat/
 	rm ld
 	ln -s /usr/lib/miniconda3/bin/x86_64-conda-linux-gnu-ld ld
 	
