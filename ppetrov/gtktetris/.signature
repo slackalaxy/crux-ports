@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZewFm/9Mv2nOqUxkbRJbk8U5pft6aXNi4wIis7MhwVTiUSvtHfz2/yXj+mBzkfTZMJDPjToYIfRXiGHCpysCDA0=
-SHA256 (Pkgfile) = ea6b4d1d5415a775fb51b1479d2e1ba3d67e3e84dbd1e6e1dd70e4d489fb6dd5
+RWToVVsIkzFIZZfGxAk2MKNiNCgBjquaqROw4r5zFW3gTH3yDT2FiCrXiClREZ1B8d4WP2xpkFa73xO6/ZkdOMpzyRFgJ+9egQc=
+SHA256 (Pkgfile) = 152439edbacfdf0c673e7032e3bd18d5ec735bbd34f979227e781fb498446c28
 SHA256 (.footprint) = 80508fe0e04e611a23ce4b8c9aafc3b6453e87273034356cacba3d7bbaefa897
-SHA256 (gtktetris-1.0.tar.gz) = d429b6d7344eb8d803b00c8a112ecee359607d9210113d943f8a00fe6b06d324
+SHA256 (gtktetris-82497d0b0bbd1336eede92d9ec7ce47c8ad8a822.tar.gz) = 6a0ba28aa5ecbb095241ab75ade712b1be45d1338078cce288217e172d3035f4

@@ -1,16 +1,16 @@
 # Description: A tetris clone with GTK+ interface.
 # URL: https://github.com/wader/gtktetris
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk gcc5
+# Depends on: gtk
 
 name=gtktetris
-version=1.0
+version=82497d0
 release=1
-source=(https://github.com/wader/gtktetris/archive/$version/$name-$version.tar.gz)
+source=(https://github.com/wader/gtktetris/archive/$version/$name-82497d0b0bbd1336eede92d9ec7ce47c8ad8a822.tar.gz)
 
 build() {
-	cd $name-$version
-	export CC=gcc-5
+	cd $name-${version}*
+
 	./configure \
 		--prefix=/usr \
 		--enable-gtk2
