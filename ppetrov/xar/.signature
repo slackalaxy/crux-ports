@@ -1,10 +1,12 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZa/L8S/FANX45g4mcFRtnNIy+vUFS9h8+JZWnr5oSIpema2iK4FJz1Dhw8ptqtZcBbXZOHaYYTTLNAVQQu4wEA4=
-SHA256 (Pkgfile) = f59bdf53a54b65f18e8614cbb353c82ee78aa02c4b8d974dba9e774dfecb6501
+RWToVVsIkzFIZea2RybQ6KLiGCJyb+RC/lKV8PJ3aLrYHZKNTOFvcZC2qduO+Mp5XVvhbDkjq5PiOMJr41JDGVC7bjZUqr7DPgA=
+SHA256 (Pkgfile) = e25eb2337c0a6904fa03088a2f70fb06cd91a9c26041e9f79efbb8cc4f32bb21
 SHA256 (.footprint) = 0e8d030beab014260cbc6e2c1448d6b752c5b1a9ec845e0ebdff3394c6aa2a71
-SHA256 (xar-xar-452.tar.gz) = ed6f0df9c296f05f97f8c3eaaaa17c7a189f53ff480de9d2bbea82ca46aabae5
+SHA256 (xar-xar-498.tar.gz) = 9cee4f80b96cf592ccc545a4fdd51e4da4a5bd3b4734901637d67b043eff3c75
 SHA256 (xar-1.6.1-ext2.patch) = 8190dc973cd8e2ac0b6a4ce2a4b9ef1070bbd751111da2abd86635261c56e410
+SHA256 (xar-1.8.0.0.452-linux.patch) = 5b7a48953eaed15daebbe630c3d62e4ec30a8027944b46b7f267c4083df628b1
+SHA256 (xar-1.8.0.0.487-non-darwin.patch) = 5dd294182aed6702098ecd7f324c978bb44221a9bbc790f252f1ef7df73d9cf2
+SHA256 (xar-1.8.0.0.487-variable-sized-object.patch) = d1f3772e585e91290360ddfac75c214e2a64532821675656b7ea50c058a98609
 SHA256 (xar-1.8-arm-ppc.patch) = 8fd842bf65b00e9aed8d7d16c59e15ed21069b3275c6feb8a52152c4342bc5c9
 SHA256 (xar-1.8-openssl-1.1.patch) = b5d2b9df9414cb80d134163f83ac31aa2fed7c7bce58e94f8cf139c8b1dd266a
 SHA256 (xar-1.8-safe_dirname.patch) = 2198ae4e93e74270d0d8af544293d23bc5999d47df275d33e0d075b504149847
-SHA256 (xar-1.8.0.0.452-linux.patch) = 5b7a48953eaed15daebbe630c3d62e4ec30a8027944b46b7f267c4083df628b1
