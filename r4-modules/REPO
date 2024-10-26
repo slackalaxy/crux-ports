@@ -1059,9 +1059,9 @@ f:c1539319273a8d596f87499dc8c00862:r4-gridextra/Pkgfile
 f:f4250897343b3b23ee478c56f8bdbe28:r4-gridtext/.footprint
 f:73b858d2600c8e59016e473ec035f527:r4-gridtext/.signature
 f:b87abd1d42720792cfbbf51828b9a68a:r4-gridtext/Pkgfile
-f:c98079c62e3d493765567ac2593f8d5e:r4-gtable/.footprint
-f:7f727a87fe9177c670e8583a6dd4c4b9:r4-gtable/.signature
-f:84bc153027a4df67b118b74284265f0a:r4-gtable/Pkgfile
+f:d1bff15d25501e04d28a6e1820c44685:r4-gtable/.footprint
+f:ed9d156a6c89d8d44348bab57edb339c:r4-gtable/.signature
+f:c192b770f6b9a3fd2436c526c49b741e:r4-gtable/Pkgfile
 f:01f8c31a53ac2b04db46270fb9594c2d:r4-gtools/.footprint
 f:44dcd0947be71f1bfb49d9f1cc366d7d:r4-gtools/.signature
 f:afc84551ee4cd8db6d48faaa734af5fd:r4-gtools/Pkgfile
@@ -1687,8 +1687,8 @@ f:9f7944a22ef3ecc856fb994cac675672:r4-sctransform/.footprint
 f:e3609bbc4df89f64cc497de5b2bdcb6a:r4-sctransform/.signature
 f:15b5f649864ae9e1cbb18880316eb991:r4-sctransform/Pkgfile
 f:0754c79661d9c5ea3e1e8436b7fbedb2:r4-segmented/.footprint
-f:c48c6e5a667e633bce303107fac5c911:r4-segmented/.signature
-f:cd4316e907131ddc1b985435da6a8156:r4-segmented/Pkgfile
+f:cca3de2843aac21dd336a7faa9385204:r4-segmented/.signature
+f:0a4892e27118361ed912023ab78aeadd:r4-segmented/Pkgfile
 f:66a2c71bfac8e9a616daef8abd2e24fa:r4-selectr/.footprint
 f:44d9406d165ef851a637d28d8c7bf02d:r4-selectr/.signature
 f:4a905ea6b809038b1e510e5e4fd1d7ad:r4-selectr/Pkgfile
@@ -2022,9 +2022,9 @@ f:5b91720f75318471843fd92e2329c9de:r4-edger/.signature
 f:b116f54def7ea3e1ab31a2f52dab71f9:r4-fgsea/Pkgfile
 f:46e3eb7dbaf67aa43b36b131ab82fcb6:r4-fgsea/.footprint
 f:d4a1793a4014b6a04d163080ec5d1389:r4-fgsea/.signature
-f:8b78962f6fd8ff7bc4d799e8751c5122:r4-ggfun/Pkgfile
+f:18e0875ac0218946edae5a7678f2d35a:r4-ggfun/Pkgfile
 f:a031f41146d7516227d5fccdadbfe37c:r4-ggfun/.footprint
-f:858dcaa07131284e583a29e35cde4a56:r4-ggfun/.signature
+f:4eaed18646eae01afe8cda029b375a14:r4-ggfun/.signature
 f:f96e59c91ba59687185836472b523120:r4-ggplotify/Pkgfile
 f:71c7851c9a269938b25e318ac8912552:r4-ggplotify/.footprint
 f:71c2becc451abb908ff70e8d821eb549:r4-ggplotify/.signature

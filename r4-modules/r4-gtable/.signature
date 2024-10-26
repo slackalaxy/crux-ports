@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FDAAzAN1mVCGN7PC2WGNq9Mr3t5swsrUmP+iTSSI3NHiWGMATK7hcq/r0nZSX2FGe4K783aoJUo5bGRMlJEhQ8=
-SHA256 (Pkgfile) = 06ccc97818f1dbe34d904186e393e87834e1cf16044afe74c4c32a7f4e3374da
-SHA256 (.footprint) = 48debbb696fb2db7c1c92c32e47b94c69fb5be5a054872354aacf55e1d2c0203
-SHA256 (gtable_0.3.5.tar.gz) = b19fc1a30359945adbab7d4e915fe95523a839c380e34ae705d70b7ebddeea72
+RWQ2oTreAss89MzRQG40xyw9+52S1Kqj6vLAOl37wc70CeqVmvw7Cbd3qK7PZDAoV6u9QqZebkj/S1c4DOtlcaG6Y0Lc5n1Kogw=
+SHA256 (Pkgfile) = 655b870b71aaf673cdb30ab640fad5312ba149c834e0ed9546e9b470ac90cf85
+SHA256 (.footprint) = 55391d46a47b2a689c67c10e4ba212b207bead2a67ace7dbde9038f390f8ca5f
+SHA256 (gtable_0.3.6.tar.gz) = d305a5fa11278b649d2d8edc5288bf28009be888a42be58ff8714018e49de0ef
