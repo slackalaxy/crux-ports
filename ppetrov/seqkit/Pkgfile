@@ -4,8 +4,9 @@
 
 name=seqkit
 version=2.8.2
-release=1
-source=(https://github.com/shenwei356/$name/releases/download/v${version}/${name}_linux_amd64.tar.gz)
+release=2
+source=(https://github.com/shenwei356/seqkit/releases/download/v${version}/seqkit_linux_amd64.tar.gz)
+renames=($name-$version.tar.gz)
 
 build() {
 	install -D -m755 $name $PKG/usr/bin/$name
