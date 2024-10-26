@@ -4,7 +4,7 @@
 # Depends on: cups gnutls icu libidn2 libsecret nss qt5 qt6-base wayland
 
 name=microsoft-edge
-version=130.0.2849.52
+version=130.0.2849.56
 release=1
 source=(https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_${version}-1_amd64.deb)
 
