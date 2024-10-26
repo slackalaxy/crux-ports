@@ -1,7 +1,7 @@
 # Description: A program package designed for working with VCF files
 # URL: https://vcftools.github.io/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
+# Depends on: tabix0
 
 name=vcftools
 version=0.1.16
