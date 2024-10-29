@@ -55,6 +55,7 @@ d:codeml-native
 d:connman
 d:llvm14
 d:cufflinks
+d:skype
 d:data2fcs
 d:datamash
 d:db43
@@ -336,7 +337,6 @@ d:seqkit
 d:seqmonk
 d:sharutils
 d:sim
-d:skype
 d:smplayer-themes
 d:smplayer
 d:snpeff
@@ -678,6 +678,11 @@ f:1dc34165ed3c35adff914a327e759698:cufflinks/cufflinks-2.2.1-format-security.pat
 f:93d5edef195d6a7e5f46028333a802d2:cufflinks/cufflinks-2.2.1-gcc5-make_shared.patch
 f:500fb2e976d91bd5c4dccf31211aa5c5:cufflinks/cufflinks-2.2.1-gcc6.patch
 f:edc9dac17058d7b064f77f4181c5487b:cufflinks/cufflinks-2.2.1-gcc7.patch
+f:263d4501a5b109f22edaf0e0784f21b5:skype/.signature
+f:a3aaaf936d9de53442a547dad560909f:skype/.footprint
+f:b649ecf829059f5cef0b6469bb766c7f:skype/Pkgfile
+f:0c93423b7ca0e9f4099b0cd836b04a7d:skype/README
+f:7fd0c14c1393a46e551e85a4f4a9a3be:skype/skype.desktop
 f:c6c80184357f647275f8ff4b876daccf:data2fcs/.footprint
 f:1738a47add5db2f17ace8a35175b9cce:data2fcs/.signature
 f:b17b7200b0f84b8c10a7719be3549c61:data2fcs/Data2FCS.desktop
@@ -1723,10 +1728,6 @@ f:d3a83272797ec2f15f6fe5e78ef3409a:sim/.footprint
 f:e9d74b47882ed94c4ca075c7c150643c:sim/.signature
 f:18baa46c5ec366eef845320e520cf236:sim/Pkgfile
 f:69edf7f5aa1c58bb3ad37ad761a289c2:sim/sim204.c
-f:a340b854eabbd7b8a724a5bb41f7ac97:skype/.footprint
-f:fd3fb91f1ee050a956dacdc993e505ee:skype/.signature
-f:8ec89dbcd4bd0bbffbfc0c3906692bc4:skype/Pkgfile
-f:0c93423b7ca0e9f4099b0cd836b04a7d:skype/README
 f:68e285e22504179b16e7409612ebf946:smplayer-themes/.footprint
 f:9b9e84de7cde014f413fecefd5a3fe30:smplayer-themes/.signature
 f:3c083fe2931499aaa7756d7984c281d6:smplayer-themes/Pkgfile
@@ -2047,8 +2048,8 @@ f:dd341593e64ccdc92dc375b84f506d40:xv/Pkgfile
 f:0e680bc2f45986e6838a3667b60825d3:xv/xv.desktop
 f:45823cf4b6131dd540d61950667d38bc:xv/xv.png
 f:5eacc16bf2c41789b8c9c9144caf61b3:zoom-linux/.footprint
-f:535f2946101726a3447a7e7b8a6a5ddb:zoom-linux/.signature
-f:0c712d84255550ec06e66f8d2fbe8ad5:zoom-linux/Pkgfile
+f:cd89264cb4758737a67d28733c6d9ab6:zoom-linux/.signature
+f:564419e32934dd396000b1595debca41:zoom-linux/Pkgfile
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
 f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png
