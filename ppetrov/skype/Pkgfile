@@ -1,27 +1,30 @@
 # Description: Skype for Linux
 # URL: https://www.skype.com/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: alsa-lib gcc gtk3 libsecret libxkbcommon nss wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+# Depends on: alsa-lib brotli graphite2 gtk3 libsecret libxkbcommon lm_sensors nss squashfs-tools wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=skype
-version=8.110.76.107
+version=8.119.0.201
 release=1
-source=(https://repo.skype.com/deb/pool/main/s/skypeforlinux/skypeforlinux_${version}_amd64.deb)
+source=(https://api.snapcraft.io/api/v1/snaps/download/QRDEfjn4WJYnm0FzDKwqqRZZI77awQEV_348.snap $name.desktop)
+renames=($name-$version.snap)
 
 build() {
-	ar p $SRC/skypeforlinux_${version}_amd64.deb data.tar.gz | tar -xvz
+
+	# https://www.linuxquestions.org/questions/slackware-14/skype-fo-linux-in-slackware-no-more-4175737011/#post6501684
+	unsquashfs $SRC/$name-$version.snap
 	
 	mkdir -p $PKG/usr/lib/$name
-	cp -a usr/share/skypeforlinux/* $PKG/usr/lib/$name
+	cp -a squashfs-root/usr/share/skypeforlinux/* $PKG/usr/lib/$name
 	
-	mkdir -p $PKG/usr/share/
-	cp -a usr/share/{applications,icons,pixmaps} $PKG/usr/share
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a squashfs-root/meta/gui/skypeforlinux.png $PKG/usr/share/pixmaps/$name.png
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
 
 	mkdir -p $PKG/usr/bin
 	cd $PKG/usr/bin
-	ln -s ../lib/$name/skypeforlinux .
+	ln -s ../lib/$name/skypeforlinux $name
 	
-	# clean up locales, also i am not sharing anything with Skype
+	# clean up locales
 	rm -rf $PKG/usr/lib/$name/locales
-	rm -rf $PKG/usr/share/applications/skypeforlinux-share.desktop
 }
