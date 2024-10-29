@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Skype
+Comment=Skype for Linux
+GenericName=Skype
+Exec=skype
+Icon=skype
+Categories=Network;
+Type=Application
+Terminal=false
+StartupNotify=false
