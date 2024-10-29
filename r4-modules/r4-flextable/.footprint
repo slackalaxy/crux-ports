@@ -59,14 +59,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/bord
 -rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/borders/pdf-complex-borders.png
 -rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/borders/pptx-borders.png
 -rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/borders/pptx-complex-borders.png
-drwxr-xr-x	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/md-captions/
--rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/md-captions/bookdown_html_document2.png
--rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/md-captions/bookdown_pdf_document2.png
--rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/md-captions/bookdown_word_document2.png
--rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/md-captions/officedown_word_document2.png
--rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/md-captions/rmarkdown_html_document.png
--rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/md-captions/rmarkdown_pdf_document.png
--rw-r--r--	root/root	usr/lib/R/library/flextable/snapshots_for_manual_tests/md-captions/rmarkdown_word_document.png
 drwxr-xr-x	root/root	usr/lib/R/library/flextable/web_1.1.3/
 -rw-r--r--	root/root	usr/lib/R/library/flextable/web_1.1.3/tabwid.css
 -rw-r--r--	root/root	usr/lib/R/library/flextable/web_1.1.3/tabwid.js

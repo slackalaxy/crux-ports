@@ -5,7 +5,7 @@
 # Optional: r4-biobase r4-biocmanager r4-foreign r4-knitr r4-mass r4-plumber r4-quarto r4-rcurl r4-reticulate r4-rmarkdown r4-shiny r4-testthat r4-webfakes r4-withr
 
 name=r4-rsconnect
-version=1.3.1
+version=1.3.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/rsconnect_${version}.tar.gz)
 
