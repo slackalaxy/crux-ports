@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89I32rc6FArRk65RXyJ3kVf9QWvxEBZAzRnncUR29kIuWN+pElBD/qHGSTcMKrHpLKw9dg36kfbbt8WD7efOhJA8=
+SHA256 (Pkgfile) = 00c8cae1f7af17b65345700dee57b844046d2f69540da1f4a23e465681a41c4d
+SHA256 (.footprint) = a13fe80bf177dfefdac9a7b9ed95b02e50e4812be941dfd5bb1fcde54fdbbc33
+SHA256 (presto-1.0.0.tar.gz) = 96e1b3a2fec84bbd0781d4d3235e33003cd4eb28944a433868ba446b956abcdb

@@ -5,7 +5,7 @@
 # Optional: r4-cleanrmd r4-digest r4-downlit r4-dygraphs r4-fs r4-katex r4-rsconnect r4-sass r4-shiny r4-testthat r4-tibble r4-vctrs r4-withr r4-xml2
 
 name=r4-rmarkdown
-version=2.28
+version=2.29
 release=1
 source=(https://cloud.r-project.org/src/contrib/rmarkdown_${version}.tar.gz)
 

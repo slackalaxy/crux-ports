@@ -1,0 +1,16 @@
+# Description: R module HDF5Array
+# URL: https://cran.r-project.org/web/packages/HDF5Array
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocgenerics r4-delayedarray r4-iranges r4-matrix r4-rhdf5 r4-rhdf5filters r4-rhdf5lib r4-s4arrays r4-s4vectors
+# Optional: r4-biocparallel r4-delayedmatrixstats r4-experimenthub r4-genefilter r4-genomicfeatures r4-genomicranges r4-h5vcdata r4-runit r4-singlecellexperiment r4-summarizedexperiment r4-tenxbraindata r4-zellkonverter
+
+name=r4-hdf5array
+version=1.32.1
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/HDF5Array_${version}.tar.gz)
+
+build() {
+	cd HDF5Array
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

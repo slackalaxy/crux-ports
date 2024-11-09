@@ -1,0 +1,16 @@
+# Description: R module JASPAR2020
+# URL: https://cran.r-project.org/web/packages/JASPAR2020
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-knitr r4-rmarkdown r4-tfbstools
+
+name=r4-jaspar2020
+version=0.99.10
+release=1
+source=(https://bioconductor.org/packages/3.19/data/annotation/src/contrib/JASPAR2020_${version}.tar.gz)
+
+build() {
+	cd JASPAR2020
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

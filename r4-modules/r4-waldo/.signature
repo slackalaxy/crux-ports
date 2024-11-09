@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89PPBnSxuxJGnp4TQpZWa+3KJZJfiHWK3uZ1VTstQPHhu97id2bB2Z9T0F0E/mi7TSmmizluAGCoiWiGQ86kYUAo=
-SHA256 (Pkgfile) = 608c234a2a49216b4a09b28acbc7875d62a1dfef80cf5cf6a6ad167cc0b85ced
+RWQ2oTreAss89Ec+wPiBbK6SvI6wGv8bT1qQlgmmSLMRK0MmPhuRlp5nC+EXilOBwz5Qqlneckc2XVQcFXRoDBoa9pS/Iiztegc=
+SHA256 (Pkgfile) = a0e484b80be7c6cd4d56392b1b36fc0be387261914d18ad716d8626bf3f161e0
 SHA256 (.footprint) = 2e28dc50561c42237a1fcba2a50333ac9dd9fa6183bed7fcffbba74357439dbe
-SHA256 (waldo_0.5.3.tar.gz) = d9686d4b34df8fb9ee365962c731241edefdee8cc3206c899e32da483e1c7b06
+SHA256 (waldo_0.6.1.tar.gz) = c9c3f3732a2fe7008735c8bff7b0139489132a5a8b1b8df96768fbe9dd1e76c9

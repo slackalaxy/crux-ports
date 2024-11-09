@@ -1,0 +1,16 @@
+# Description: R module pwalign
+# URL: https://cran.r-project.org/web/packages/pwalign
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocgenerics r4-biostrings r4-iranges r4-s4vectors r4-xvector
+# Optional: r4-runit
+
+name=r4-pwalign
+version=1.0.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/pwalign_${version}.tar.gz)
+
+build() {
+	cd pwalign
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

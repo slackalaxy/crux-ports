@@ -1,0 +1,17 @@
+# Description: R module presto
+# URL: https://github.com/immunogenomics/presto
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-dplyr r4-tidyr r4-purrr r4-tibble r4-rlang
+# Optional: r4-knitr r4-rmarkdown r4-testthat r4-seurat r4-singlecellexperiment r4-summarizedexperiment r4-broom r4-biocstyle r4-deseq2
+
+name=r4-presto
+version=1.0.0
+release=1
+source=(https://github.com/immunogenomics/presto/archive/$version/presto-$version.tar.gz)
+
+build() {
+  cd ${name#r4-}-$version
+  mkdir -p "$PKG"/usr/lib/R/library
+  R CMD INSTALL . -l "$PKG"/usr/lib/R/library
+
+}

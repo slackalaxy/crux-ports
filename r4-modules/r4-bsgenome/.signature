@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89HYStqghAQtLo31AUdlcJoK9IVjV/0m2cvCIRTLoswLhQIGWFKQ7qJw8UiT3WD1VJLvrHk6cD3lB+nsgqPfzIww=
+SHA256 (Pkgfile) = 85aff440c538394abaf298262b7ded2b6183939fad640c26f69da68998dc0c59
+SHA256 (.footprint) = 42b9083ff755548454edfc09bb1c5688be0a13c5c688e6e459517712b05fdeab
+SHA256 (BSgenome_1.72.0.tar.gz) = 98541684ea234a3c102338b4a4d055817d92a088b9e67ea88b6a339fa79a4bde

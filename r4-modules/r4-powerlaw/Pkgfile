@@ -1,0 +1,16 @@
+# Description: R module poweRlaw
+# URL: https://cran.r-project.org/web/packages/poweRlaw
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-pracma
+# Optional: r4-covr r4-knitr r4-testthat
+
+name=r4-powerlaw
+version=0.80.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/poweRlaw_${version}.tar.gz)
+
+build() {
+	cd poweRlaw
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

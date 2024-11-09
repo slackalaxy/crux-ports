@@ -1,0 +1,16 @@
+# Description: R module pbmcsca.SeuratData
+# URL: https://seurat.nygenome.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-seurat-data
+
+name=r4-seurat-data-pbmcsca
+version=3.0.0
+release=1
+source=(http://seurat.nygenome.org/src/contrib/pbmcsca.SeuratData_${version}.tar.gz)
+
+build() {
+  cd pbmcsca.SeuratData
+  mkdir -p "$PKG"/usr/lib/R/library
+  R CMD INSTALL . -l "$PKG"/usr/lib/R/library
+
+}

@@ -1,0 +1,16 @@
+# Description: R module pbmcref.SeuratData
+# URL: https://seurat.nygenome.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-seurat-data
+
+name=r4-seurat-data-pbmcref
+version=1.0.0
+release=1
+source=(http://seurat.nygenome.org/src/contrib/pbmcref.SeuratData_${version}.tar.gz)
+
+build() {
+  cd pbmcref.SeuratData
+  mkdir -p "$PKG"/usr/lib/R/library
+  R CMD INSTALL . -l "$PKG"/usr/lib/R/library
+
+}
