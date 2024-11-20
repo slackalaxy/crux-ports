@@ -1132,7 +1132,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/cef/
 -rw-r--r--	root/root	usr/lib/zoom-linux/cef/icudtl.dat
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libEGL.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libGLESv2.so
--rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libcef.so
+-rw-r--r--	root/root	usr/lib/zoom-linux/cef/libcef.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libffmpeg.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libsqlite3.so.0
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cef/libvk_swiftshader.so
