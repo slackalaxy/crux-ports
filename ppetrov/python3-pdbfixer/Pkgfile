@@ -4,9 +4,9 @@
 # Depends on: openmm
 
 name=python3-pdbfixer
-version=1.9
+version=1.10
 release=1
-source=(https://github.com/openmm/pdbfixer/archive/$version/pdbfixer-$version.tar.gz
+source=(https://github.com/openmm/pdbfixer/archive/v${version}/pdbfixer-v${version}.tar.gz
 	pdbfixer.desktop pdbfixer.png)
 
 build() {

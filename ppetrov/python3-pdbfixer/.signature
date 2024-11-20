@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZc/15d9a6YC3kZ2SyE8IikjWnqvbbZLY/bJ6iJSrml3gWxVl0DlCMZlR4CuGVJEbtNe8SsxIUYmlMvFLfQQRoQo=
-SHA256 (Pkgfile) = cc1a6885e1980bfe84da2e7b560f460145ea139c6d769a4d63d2c54fce7e5fe8
-SHA256 (.footprint) = e611ca107d815aa22a452b79b08c7734a497468727c8da6c0e7bba260ecbbb35
-SHA256 (pdbfixer-1.9.tar.gz) = 88b9a77e50655f89d0eb2075093773e82c27a4cef842cb7d735c877b20cd39fb
+RWToVVsIkzFIZaF3mx+O6scpPL66Lz4dYhzUIwQ0qlNj+4p+lohZ802SP2nF7RAyly7ltK8k0ukb+yxDGo1xptAg6HKya9omgA4=
+SHA256 (Pkgfile) = 07cf34f8a18dc285a55ad863573695a0efa35880b9470d08720d23de8b170ede
+SHA256 (.footprint) = c75993767e2daa999f1697ab37d07106335cb5d6353a2f542af99b5d0d9bcccf
+SHA256 (pdbfixer-v1.10.tar.gz) = 0d52e336b604a771caddb09a742e7fbb27db3443fffd820f80657ddce415027a
 SHA256 (pdbfixer.desktop) = 58953b78e3a66b43781e3fb9b88b988c18babbf4ba875c9542141a7a4cb20c60
 SHA256 (pdbfixer.png) = a7b708872aa89d987631d1c863d33b9cd4080f5770def9e1921999adbf90a82f
