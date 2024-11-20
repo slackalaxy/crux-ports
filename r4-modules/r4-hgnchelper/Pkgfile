@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-markdown r4-rmarkdown r4-testthat
 
 name=r4-hgnchelper
-version=0.8.14
+version=0.8.15
 release=1
 source=(https://cloud.r-project.org/src/contrib/HGNChelper_${version}.tar.gz)
 

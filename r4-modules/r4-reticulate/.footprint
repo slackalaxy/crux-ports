@@ -59,6 +59,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/reticulate/libs/
 drwxr-xr-x	root/root	usr/lib/R/library/reticulate/python/
 drwxr-xr-x	root/root	usr/lib/R/library/reticulate/python/rpytools/
 -rw-r--r--	root/root	usr/lib/R/library/reticulate/python/rpytools/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/R/library/reticulate/python/rpytools/ark_variables.py
 -rw-r--r--	root/root	usr/lib/R/library/reticulate/python/rpytools/call.py
 -rw-r--r--	root/root	usr/lib/R/library/reticulate/python/rpytools/generator.py
 -rw-r--r--	root/root	usr/lib/R/library/reticulate/python/rpytools/help.py

@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/graphlayouts
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-igraph r4-rcpp r4-rcpparmadillo
-# Optional: r4-ggplot2 r4-testthat r4-uwot
+# Optional: r4-ggplot2 r4-oaqc r4-testthat r4-uwot
 
 name=r4-graphlayouts
-version=1.2.0
+version=1.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/graphlayouts_${version}.tar.gz)
 

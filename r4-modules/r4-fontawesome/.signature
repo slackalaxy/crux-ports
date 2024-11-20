@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KHGSwY4vVrZrz3XhrBilxuEKzWF9Wi/oEJ2yS1Ui5YN4cRv9xl3OqlO///zQg0HSGjHp2KmUu8+fr54MImNjAE=
-SHA256 (Pkgfile) = 6a4d0f940928d5776375320ba768b622e8b3b8304ea1286d4dfe8f123f9e057f
+RWQ2oTreAss89D7r841e/uqfsIX4EiVEBW0Akmta4MP8ZHoy51gj0bZ5nwmVz9t2vOa+LkZm6B/T7ReS3KDjObtoA1h9oC3C9Qw=
+SHA256 (Pkgfile) = 02e9fe71ea04a9998719836ec4e7cd44af74c2e31d9490451aa0a0a72061b554
 SHA256 (.footprint) = 360a57f0939bf6abd4d896ae664dd97a122ade1925cdb5c5ba92d321de0b5657
-SHA256 (fontawesome_0.5.2.tar.gz) = da3de2a9717084d1400d48edd783f06c66b8c910ce9c8d753d1b7d99be1c5cc9
+SHA256 (fontawesome_0.5.3.tar.gz) = 1b1909d0fad5ec4c658f5c628a195b9bd93d544afa957e68e897224cfb81fb4f

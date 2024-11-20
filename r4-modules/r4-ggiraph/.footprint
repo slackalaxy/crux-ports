@@ -158,7 +158,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/tinytest/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-geom_tile_interactive.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-geom_violin_interactive.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-geom_vline_interactive.R
--rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-ggiraph.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-girafe.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-girafe_options.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-grob_interactive.R
