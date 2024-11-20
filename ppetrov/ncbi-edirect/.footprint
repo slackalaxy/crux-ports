@@ -30,6 +30,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/download-pubmed
 -rwxr-xr-x	root/root	usr/bin/download-sequence
 -rwxr-xr-x	root/root	usr/bin/ds2pme
+-rwxr-xr-x	root/root	usr/bin/ecollect
 -rwxr-xr-x	root/root	usr/bin/ecommon.sh
 -rwxr-xr-x	root/root	usr/bin/edirect.py
 -rwxr-xr-x	root/root	usr/bin/efetch
