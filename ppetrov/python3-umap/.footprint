@@ -26,9 +26,9 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/umap/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap/umap_.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap/utils.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap/validation.py
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.6.dist-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.6.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.6.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.6.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.6.dist-info/direct_url.json
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.6.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.7.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.7.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.7.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.7.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.7.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/umap_learn-0.5.7.dist-info/top_level.txt

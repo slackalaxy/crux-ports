@@ -4,7 +4,7 @@
 # Depends on: python3-pynndescent python3-tqdm
 
 name=python3-umap
-version=0.5.6
+version=0.5.7
 release=1
 source=(https://github.com/lmcinnes/umap/archive/refs/tags/release-$version.tar.gz)
 renames=($name-$version.tar.gz)
