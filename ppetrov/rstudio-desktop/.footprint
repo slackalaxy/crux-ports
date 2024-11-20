@@ -9,6 +9,8 @@ drwxr-xr-x	root/root	usr/lib/.build-id/02/
 lrwxrwxrwx	root/root	usr/lib/.build-id/02/1f11bc582f2c7b2f39c531f4615b7646122c65 -> ../../../../usr/lib/rstudio/resources/app/bin/diagnostics
 drwxr-xr-x	root/root	usr/lib/.build-id/04/
 lrwxrwxrwx	root/root	usr/lib/.build-id/04/e9960947a38ced0a87421a6f198b9caf43dc3f -> ../../../../usr/lib/rstudio/libEGL.so
+drwxr-xr-x	root/root	usr/lib/.build-id/0c/
+lrwxrwxrwx	root/root	usr/lib/.build-id/0c/fe0308b38d20a949423d95921f19d071b25dff -> ../../../../usr/lib/rstudio/resources/app/bin/rsession
 drwxr-xr-x	root/root	usr/lib/.build-id/32/
 lrwxrwxrwx	root/root	usr/lib/.build-id/32/c1bf48d9d12730bf882f89e8d46746655fc721 -> ../../../../usr/lib/rstudio/resources/app/bin/quarto/bin/tools/x86_64/pandoc
 drwxr-xr-x	root/root	usr/lib/.build-id/37/
@@ -18,18 +20,16 @@ lrwxrwxrwx	root/root	usr/lib/.build-id/4e/4288a533f8c13ce85b7c60775a9d1022760415
 lrwxrwxrwx	root/root	usr/lib/.build-id/4e/d12bab15c4d4b6e30e8a52a44f7dddf4506b4a -> ../../../../usr/lib/rstudio/libffmpeg.so
 drwxr-xr-x	root/root	usr/lib/.build-id/57/
 lrwxrwxrwx	root/root	usr/lib/.build-id/57/94a8871da9ae545019207286b21cb0f8317d82 -> ../../../../usr/lib/rstudio/chrome_crashpad_handler
-drwxr-xr-x	root/root	usr/lib/.build-id/64/
-lrwxrwxrwx	root/root	usr/lib/.build-id/64/5f66962a3c32681d021382679483a95869e709 -> ../../../../usr/lib/rstudio/resources/app/bin/rpostback
 drwxr-xr-x	root/root	usr/lib/.build-id/68/
 lrwxrwxrwx	root/root	usr/lib/.build-id/68/3278eba471e7069eeddf5a8270d9a201ea88da -> ../../../../usr/lib/rstudio/libvulkan.so.1
+drwxr-xr-x	root/root	usr/lib/.build-id/8e/
+lrwxrwxrwx	root/root	usr/lib/.build-id/8e/db144aab9cbf7c2e168494c4aefde368fbe7d1 -> ../../../../usr/lib/rstudio/resources/app/bin/rpostback
 drwxr-xr-x	root/root	usr/lib/.build-id/b3/
 lrwxrwxrwx	root/root	usr/lib/.build-id/b3/4ac22f9933af33daafcaa8a55b1e6bcf01718e -> ../../../../usr/lib/rstudio/rstudio
 drwxr-xr-x	root/root	usr/lib/.build-id/c0/
 lrwxrwxrwx	root/root	usr/lib/.build-id/c0/5fa55274dbc2719d3d82db1b7f9f6dc17a470d -> ../../../../usr/lib/rstudio/resources/app/bin/crashpad_handler
 drwxr-xr-x	root/root	usr/lib/.build-id/cc/
 lrwxrwxrwx	root/root	usr/lib/.build-id/cc/34daf4315e1b8212faa5558d73f036db51b4b1 -> ../../../../usr/lib/rstudio/resources/app/bin/crashpad_http_upload
-drwxr-xr-x	root/root	usr/lib/.build-id/d6/
-lrwxrwxrwx	root/root	usr/lib/.build-id/d6/6b177c88f332c51beb57b4e210b74508e8864f -> ../../../../usr/lib/rstudio/resources/app/bin/rsession
 drwxr-xr-x	root/root	usr/lib/.build-id/f0/
 lrwxrwxrwx	root/root	usr/lib/.build-id/f0/24c93601a4e96192a7420df377e6bb13a5c8da -> ../../../../usr/lib/rstudio/libvk_swiftshader.so
 drwxr-xr-x	root/root	usr/lib/rstudio/
@@ -5025,6 +5025,8 @@ drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/resources/pagedtable/
 drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/resources/pandoc/
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/pandoc/abbreviations
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/pandoc_template.html
+drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/resources/panmirror-scripts/
+-rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/panmirror-scripts/md-writer.lua
 drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/resources/pdfjs/
 drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/resources/pdfjs/build/
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/pdfjs/build/pdf.full.js
