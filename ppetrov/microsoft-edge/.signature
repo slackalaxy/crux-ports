@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQT/Aht0plwxBIlnAFe+aIGnNpeRBrNM8U4a6cxEnoiuZ7J+BEmGfanmjuH6wwM7NR4AN4JyvTtYDXKrHdhGpwk=
-SHA256 (Pkgfile) = 5620cb9612933b5b96f3e485bed90ced288966c5c1be2d40c0452f117691bf99
+RWToVVsIkzFIZUQ5ckCxld/eX1Azw5XHAU5YW1kDHVSoV2B6hTCPwBM4/P8dBpomAVyLLUIf6IP7T7/l1vZ+vZNdV0v6Ju73eAw=
+SHA256 (Pkgfile) = 90aecdfcacc560ae05686899e8763d27a3624971e15822291e8458174437e5ba
 SHA256 (.footprint) = 4f56d61167e9979a970dfaa603c86d2eb1ffba9d0e2942a1769f888a93e75859
-SHA256 (microsoft-edge-stable_131.0.2903.51-1_amd64.deb) = 8aad12c97bcae417ff9cc4251b75211eeda7f1513312dc57b2f744e824e028c0
+SHA256 (microsoft-edge-stable_131.0.2903.70-1_amd64.deb) = 2dc8a71e6cebde8e482e319dafcbae88e196a24d09f46fe44dd0127d8421fed3
