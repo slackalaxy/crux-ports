@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89JeqbQo+6KfzHKzvmcwWtokOU3e2GbRaGOy7YMSZNKmlkwbzGsXLMtMrxG9uwyr2vt1rus9PYBL7/i4Y/VmU7w0=
-SHA256 (Pkgfile) = 8c50729bc8c96bd83dc6aea472046ae2999f19785dbce04597bad0fcd2d2a60c
+RWQ2oTreAss89AVvlOC+oVVd+8487vDKrHMpjTw+GMdd/BSxEQOCdYMX2MJ5tb8VQPIN6St7zbkH6CBC78A7zNU0WVQ4IQc9FAk=
+SHA256 (Pkgfile) = 836d46823cf55468dc365ba8c2d7156b5d951dc09b08f53fd7b79e1a06702cb8
 SHA256 (.footprint) = 260e9129f653e88e19869ff3a01e6573a45362863658c98e06376c12b5eea7a8
-SHA256 (packcircles_0.3.6.tar.gz) = fa02d2034190d5b773c2f319547902a68189b1d762474bb6b8b2ef10cb294c3a
+SHA256 (packcircles_0.3.7.tar.gz) = cdc05becce2973b23da7be9684df5d23f4aa5a664f2d724d3379bcaf779de39f

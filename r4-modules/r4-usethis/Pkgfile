@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-knitr r4-magick r4-pkgload r4-rmarkdown r4-roxygen2 r4-spelling r4-styler r4-testthat
 
 name=r4-usethis
-version=3.0.0
+version=3.1.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/usethis_${version}.tar.gz)
 
