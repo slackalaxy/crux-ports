@@ -4,7 +4,7 @@
 # Depends on: p5-dbi
 
 name=p5-dbd-sqlite
-version=1.74
+version=1.76
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/DBD-SQLite-${version}.tar.gz)
 
