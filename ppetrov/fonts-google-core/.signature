@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQNcXR24EWiNryMWuhctUaM0Y2L/0mYGx/Dc1ql26EdMgHAV65WDNkFqN0LXL7ORMWEZbzWjLevZCJd1iEFgAQQ=
-SHA256 (Pkgfile) = 3c65a9378155c59a0b7f50bac31b2cb07afb7865b70fd11d0bcbbae1273a7825
-SHA256 (.footprint) = beb6b042facb0563aa8790e2f7a10b30fea2a42e482a83855b8c5cad6e041a7c
+RWToVVsIkzFIZXqs7yL+WBEgUCvKQ2DEU9fbU1AwWJEdogqvrk3UfbaGxtUL9mYKIE57v/GOOsRAR1MBkfcc+w9/pgTBhYID7g8=
+SHA256 (Pkgfile) = 7efe011754df6cd6186f1d19c7bb2d4cdcda1fda538381244a5602844d824d97
+SHA256 (.footprint) = 5f32b35fc502c7f70567fa78ab3b5ffeb848ab8e807348a265b27a4ebc4ca4ac
 SHA256 (Roboto[wdth,wght].ttf) = a06116be7122ad6d412798dfb8eeb7c45dcdd708690f3f941ac12b016b173f7e
 SHA256 (OpenSans[wdth,wght].ttf) = 36643644f318a812aab2d2ed3bb98f8cf0872527f835fe9398d95fe6b9adb878
 SHA256 (Montserrat[wght].ttf) = faac83453081c6287619fffbb41e41c0a72c21f3fb6fbcd43d7d6a4f6221bced
@@ -26,6 +26,8 @@ SHA256 (Arvo-Italic.ttf) = a2eb63a0771b8d13d8e54bf650a02aef813eeaa2e10f6298358e6
 SHA256 (Arvo-Regular.ttf) = f41bd41471ec2db7140351bdde614da5341524503598ff7fe79f3c89c13b605e
 SHA256 (DMSans[opsz,wght].ttf) = 8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d
 SHA256 (Karla[wght].ttf) = ed3ca4cd9bdd899c543927c30bf5ff50706b24b3f2b7328e64b25f7d2a9d23dc
+SHA256 (Raleway[wght].ttf) = 8bbcc3eb8275c388f4bcd998832f8a4b943eadbaf6a595205312774b5951aefb
+SHA256 (Raleway-Italic[wght].ttf) = 96629caf2202183fab46c70237055a7d67e6a5400b85413d45a77ed6f2a0770c
 SHA256 (Arimo[wght].ttf) = c75270dfa8b5747c666d9e1915b8c9a6cb6e2de74d103cd0f6ee0104675a3604
 SHA256 (Tinos-Bold.ttf) = 6a0afe87068ba5ddeb6a9bb7b9d0dc41666966c044767df69de3efb7e33f5af8
 SHA256 (Tinos-BoldItalic.ttf) = 52c4d87a988eb1f1c25e1fcb97970d456a2fb252e0fa2116e2b4bb33e7824bda

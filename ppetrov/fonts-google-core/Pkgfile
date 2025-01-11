@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=fonts-google-core
-version=0.24
+version=0.26
 release=1
 source=(https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/Roboto[wdth,wght].ttf
 	https://raw.githubusercontent.com/google/fonts/main/ofl/opensans/OpenSans[wdth,wght].ttf
@@ -29,6 +29,8 @@ source=(https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/Roboto[wd
 	https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf
 	https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans[opsz,wght].ttf
 	https://raw.githubusercontent.com/google/fonts/main/ofl/karla/Karla[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/raleway/Raleway[wght].ttf
+	https://raw.githubusercontent.com/google/fonts/main/ofl/raleway/Raleway-Italic[wght].ttf
 	https://raw.githubusercontent.com/google/fonts/main/apache/arimo/Arimo[wght].ttf
 	https://raw.githubusercontent.com/google/fonts/main/apache/tinos/Tinos-Bold.ttf
 	https://raw.githubusercontent.com/google/fonts/main/apache/tinos/Tinos-BoldItalic.ttf
