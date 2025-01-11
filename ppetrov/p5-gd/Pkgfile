@@ -5,7 +5,7 @@
 # Optional: p5-class-xsaccessor p5-list-moreutils p5-pod-spell-commonmistakes p5-test-kwalitee p5-test-pod p5-text-csv_xs
 
 name=p5-gd
-version=2.78
+version=2.81
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/R/RU/RURBAN/GD-${version}.tar.gz)
 

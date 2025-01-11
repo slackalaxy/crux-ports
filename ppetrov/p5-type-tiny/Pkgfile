@@ -5,7 +5,7 @@
 # Optional: p5-devel-lexalias p5-devel-stacktrace p5-moo p5-moose p5-mouse p5-ref-util-xs p5-regexp-util p5-reply p5-type-tie p5-type-tiny-xs
 
 name=p5-type-tiny
-version=2.004000
+version=2.006000
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/T/TO/TOBYINK/Type-Tiny-${version}.tar.gz)
 

@@ -4,7 +4,7 @@
 # Depends on: p5-heap p5-set-object
 
 name=p5-graph
-version=0.9727
+version=0.9732
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/E/ET/ETJ/Graph-${version}.tar.gz)
 

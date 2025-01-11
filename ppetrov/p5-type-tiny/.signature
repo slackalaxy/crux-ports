@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZSK/4TfGs7bz7mfukSnZOFLwtXL9lc5FZUWmo+OmOP+uwqcdfaFB0E+xFOASEgPRjnSsL1/IFt+vyxZ6KzabCgw=
-SHA256 (Pkgfile) = e6212012371d14e3e262ca1dc0de37b0357f91467e6965c164eb52859284d187
+RWToVVsIkzFIZYziIYb9HJS5inmSq4e2ntE2MaXem5Z5p19ky/aaNbawcWXuc5Bhfnb1LlKDGCQbeDXNT8Ksy0iBXCbcW4Bxbw4=
+SHA256 (Pkgfile) = 514fd7aefec61c81719df662d30f5c55ecd706fc7ce722ed2c0ff2cd41f9d87d
 SHA256 (.footprint) = e2ffb88bb84266af1050de1bf4240b613d68e9d81e2f2994d98746578ee5db02
-SHA256 (Type-Tiny-2.004000.tar.gz) = 697e7f775edfc85f4cf07792d04fd19b09c25285f98f5938e8efc4f74507a128
+SHA256 (Type-Tiny-2.006000.tar.gz) = 4c685ebbba5145dc02944c305e8e82759811032a55e6da270a751b63b76500ea

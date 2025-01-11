@@ -4,7 +4,7 @@
 # Depends on: p5-xml-parser
 
 name=p5-xml-twig
-version=3.52
+version=3.53
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/M/MI/MIROD/XML-Twig-${version}.tar.gz)
 

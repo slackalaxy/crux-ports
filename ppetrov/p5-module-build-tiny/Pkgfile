@@ -4,7 +4,7 @@
 # Depends on: p5-extutils-helpers p5-extutils-installpaths
 
 name=p5-module-build-tiny
-version=0.047
+version=0.051
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/Module-Build-Tiny-${version}.tar.gz)
 

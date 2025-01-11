@@ -5,7 +5,7 @@
 # Optional: p5-module-pluggable
 
 name=p5-test-simple
-version=1.302198
+version=1.302207
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/E/EX/EXODIST/Test-Simple-${version}.tar.gz)
 
