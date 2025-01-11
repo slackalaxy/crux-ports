@@ -5,7 +5,7 @@
 
 name=p5-dbi
 version=1.643
-release=2
+release=1
 source=(http://search.cpan.org/CPAN/authors/id/T/TI/TIMB/DBI-${version}.tar.gz)
 
 build() {
