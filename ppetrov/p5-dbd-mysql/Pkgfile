@@ -4,8 +4,8 @@
 # Depends on: p5-dbi p5-devel-checklib mariadb
 
 name=p5-dbd-mysql
-version=4.050
-release=3
+version=4.053
+release=1
 source=(http://search.cpan.org/CPAN/authors/id/D/DV/DVEEDEN/DBD-mysql-${version}.tar.gz)
 
 build() {
