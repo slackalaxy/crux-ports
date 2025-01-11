@@ -1147,12 +1147,16 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/chatapp/
 -rw-r--r--	root/root	usr/lib/zoom-linux/chatapp/approval_flow.zip
 -rw-r--r--	root/root	usr/lib/zoom-linux/clap-high.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/clap-medium.pcm
+drwxr-xr-x	root/root	usr/lib/zoom-linux/diagnostic/
+-rw-r--r--	root/root	usr/lib/zoom-linux/diagnostic/diagnostic.zip
 -rw-r--r--	root/root	usr/lib/zoom-linux/dingdong.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/dingdong1.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/double_beep.pcm
 drwxr-xr-x	root/root	usr/lib/zoom-linux/email/
 -rw-r--r--	root/root	usr/lib/zoom-linux/email/email.zip
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/getbssid.sh
+drwxr-xr-x	root/root	usr/lib/zoom-linux/js/
+-rw-r--r--	root/root	usr/lib/zoom-linux/js/html_sanitizer_mail.js
 drwxr-xr-x	root/root	usr/lib/zoom-linux/json/
 -rw-r--r--	root/root	usr/lib/zoom-linux/json/countries.json
 -rw-r--r--	root/root	usr/lib/zoom-linux/json/countries_chs.json
@@ -1174,6 +1178,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/json/
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libavformat.so.59
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libavutil.so.57
 -rw-r--r--	root/root	usr/lib/zoom-linux/libclDNN64.so
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/libcml.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libdvf.so
 -rw-r--r--	root/root	usr/lib/zoom-linux/libmkldnn.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libmpg123.so
