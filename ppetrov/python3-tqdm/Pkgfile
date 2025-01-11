@@ -1,12 +1,12 @@
 # Description: Fast, Extensible Progress Meter
-# URL: https://github.com/tqdm/tqdm
+# URL: https://pypi.org/project/tqdm/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-setuptools-scm python3-toml
 
 name=python3-tqdm
-version=4.67.0
+version=4.67.1
 release=1
-source=(https://files.pythonhosted.org/packages/e8/4f/0153c21dc5779a49a0598c445b1978126b1344bab9ee71e53e44877e14e0/tqdm-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/a8/4b/29b4ef32e036bb34e4ab51796dd745cdba7ed47ad142a9f4a1eb8e0c744d/tqdm-$version.tar.gz)
 
 build() {
   cd ${name#*-}-$version

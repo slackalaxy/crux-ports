@@ -4,7 +4,7 @@
 # Depends on: python3-pooch python3-pybind11 python3-pythran
 
 name=python3-scipy
-version=1.14.1
+version=1.15.1
 release=1
 source=(https://pypi.python.org/packages/source/s/scipy/scipy-${version}.tar.gz)
 

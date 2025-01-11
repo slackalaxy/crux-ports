@@ -2,12 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.10/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/COPYING
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.5.2.dist-info/direct_url.json
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.6.1.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.6.1.dist-info/COPYING
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.6.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.6.1.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.6.1.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scikit_learn-1.6.1.dist-info/direct_url.json
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/__check_build/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/__check_build/__init__.py
@@ -38,15 +38,11 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/__pycache__/pipeline.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/__pycache__/random_projection.cpython-310.pyc
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/__init__.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/__pycache__/__init__.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/__pycache__/openmp_helpers.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/__pycache__/pre_build_helpers.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/__pycache__/tempita.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/__pycache__/version.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/openmp_helpers.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/pre_build_helpers.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/tempita.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_build_utils/version.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/_built_with_meson.py (EMPTY)
@@ -102,7 +98,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/__pycache_
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/_dbscan_inner.pyx
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/_feature_agglomeration.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/_hdbscan/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/_hdbscan/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/_hdbscan/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/_hdbscan/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/_hdbscan/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/cluster/_hdbscan/__pycache__/hdbscan.cpython-310.pyc
@@ -256,7 +252,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/__pycache
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/_svmlight_format_io.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/_twenty_newsgroups.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/boston_house_prices.csv
@@ -269,7 +265,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/__py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/linnerud_physiological.csv
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/data/wine_data.csv
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/breast_cancer.rst
@@ -287,7 +283,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/__p
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/twenty_newsgroups.rst
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/descr/wine_data.rst
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/images/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/images/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/images/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/images/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/images/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/datasets/images/china.jpg
@@ -589,7 +585,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gra
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/__pycache__/test_gradient_boosting.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/__pycache__/test_grower.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/__pycache__/test_histogram.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/__pycache__/test_monotonic_contraints.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/__pycache__/test_monotonic_constraints.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/__pycache__/test_predictor.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/__pycache__/test_splitting.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/__pycache__/test_warm_start.cpython-310.pyc
@@ -599,7 +595,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gra
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/test_gradient_boosting.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/test_grower.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/test_histogram.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/test_monotonic_contraints.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/test_monotonic_constraints.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/test_predictor.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/test_splitting.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/ensemble/_hist_gradient_boosting/tests/test_warm_start.py
@@ -749,6 +745,18 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/feature_selection/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/feature_selection/tests/test_rfe.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/feature_selection/tests/test_sequential.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/feature_selection/tests/test_variance_threshold.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/__pycache__/__init__.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/__pycache__/_frozen.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/_frozen.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/tests/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/tests/__init__.py (EMPTY)
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/tests/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/tests/__pycache__/__init__.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/tests/__pycache__/test_frozen.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/frozen/tests/test_frozen.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/gaussian_process/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/gaussian_process/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/gaussian_process/__pycache__/
@@ -804,7 +812,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/__pycac
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/_pd_utils.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/_permutation_importance.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/_plot/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/_plot/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/_plot/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/_plot/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/_plot/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/inspection/_plot/__pycache__/decision_boundary.cpython-310.pyc
@@ -885,7 +893,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/linear_model/_glm/
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/linear_model/_sag_fast.cpython-310-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/linear_model/_sag_fast.pyx.tp
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/linear_model/_sgd_fast.cpython-310-x86_64-linux-gnu.so
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/linear_model/_sgd_fast.pxd
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/linear_model/_sgd_fast.pyx.tp
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/linear_model/_stochastic_gradient.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/linear_model/_theil_sen.py
@@ -1010,7 +1017,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_pairwise_
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_pairwise_fast.cpython-310-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_pairwise_fast.pyx
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_plot/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_plot/__init__.py (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_plot/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_plot/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_plot/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/metrics/_plot/__pycache__/confusion_matrix.cpython-310.pyc
@@ -1346,7 +1353,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/tests/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/__init__.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/metadata_routing_common.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/random_seed.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/test_base.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/test_build.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/test_calibration.cpython-310.pyc
@@ -1372,7 +1378,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/test_public_functions.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/__pycache__/test_random_projection.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/metadata_routing_common.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/random_seed.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/test_base.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/test_build.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tests/test_calibration.py
@@ -1409,6 +1414,9 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/tree/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_criterion.pxd
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_criterion.pyx
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_export.py
+-rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_partitioner.cpython-310-x86_64-linux-gnu.so
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_partitioner.pxd
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_partitioner.pyx
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_reingold_tilford.py
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_splitter.cpython-310-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/tree/_splitter.pxd
@@ -1458,6 +1466,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/_show_versions.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/_tags.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/_testing.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/_unique.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/_user_interface.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/class_weight.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/deprecation.cpython-310.pyc
@@ -1520,10 +1529,17 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_sorting.pxd
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_sorting.pyx
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_tags.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_test_common/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_test_common/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_test_common/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_test_common/__pycache__/__init__.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_test_common/__pycache__/instance_generator.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_test_common/instance_generator.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_testing.py
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_typedefs.cpython-310-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_typedefs.pxd
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_typedefs.pyx
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_unique.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_user_interface.py
 -rwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_vector_sentinel.cpython-310-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/_vector_sentinel.pxd
@@ -1568,7 +1584,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pyca
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_chunking.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_class_weight.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_cython_blas.cpython-310.pyc
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_cython_templating.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_deprecation.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_encode.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_estimator_checks.cpython-310.pyc
@@ -1600,6 +1615,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pyca
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_tags.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_testing.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_typedefs.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_unique.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_user_interface.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_utils.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pycache__/test_validation.cpython-310.pyc
@@ -1611,7 +1627,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pyca
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_chunking.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_class_weight.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_cython_blas.py
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_cython_templating.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_deprecation.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_encode.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_estimator_checks.py
@@ -1643,6 +1658,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/__pyca
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_tags.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_testing.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_typedefs.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_unique.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_user_interface.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_utils.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/sklearn/utils/tests/test_validation.py
