@@ -4,7 +4,7 @@
 # Depends on: perl
 
 name=p5-convert-binary-c
-version=0.84
+version=0.85
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/M/MH/MHX/Convert-Binary-C-${version}.tar.gz)
 
