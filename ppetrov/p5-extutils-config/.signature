@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZsEvEY3dSZW8WovSg1Mw74UQfC8Bhwn09y3RgvBpVJqYsNcZlScv5xCbZAGCnDfcYnqn/FmXbrOuKEeuXm8NAQ=
-SHA256 (Pkgfile) = 602aaf72d7fc5e53b897b71040cd5ec1e939233fbd9d7d3f37e37de79e82a835
-SHA256 (.footprint) = 1367ee76ac31ca2a847b9b01a075e2031ea5f44329035c3eb4bb45d763f5845b
-SHA256 (ExtUtils-Config-0.008.tar.gz) = ae5104f634650dce8a79b7ed13fb59d67a39c213a6776cfdaa3ee749e62f1a8c
+RWToVVsIkzFIZRM/f32Lcrzu1Eg9dnkGgtoVT6qS8qquazVQna8tJApRFYaCq/UGJp87wFSlf1UyyOTQdxMJjvGiCMr5AC1qFAk=
+SHA256 (Pkgfile) = ea9a7ee73904e8c9673ab1aa44376f3e8a9f59528e03eeabb6d1079c3106f9f0
+SHA256 (.footprint) = ce5ddd78ce2ede4a1bcb4eb279a6bb0ab99eba4008bc82ced0e59ef0180e87cc
+SHA256 (ExtUtils-Config-0.010.tar.gz) = 82e7e4e90cbe380e152f5de6e3e403746982d502dd30197a123652e46610c66d

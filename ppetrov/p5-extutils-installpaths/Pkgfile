@@ -4,7 +4,7 @@
 # Depends on: p5-extutils-config
 
 name=p5-extutils-installpaths
-version=0.012
+version=0.014
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-${version}.tar.gz)
 

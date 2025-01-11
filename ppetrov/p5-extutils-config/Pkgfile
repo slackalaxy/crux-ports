@@ -4,7 +4,7 @@
 # Depends on: perl
 
 name=p5-extutils-config
-version=0.008
+version=0.010
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/ExtUtils-Config-${version}.tar.gz)
 
