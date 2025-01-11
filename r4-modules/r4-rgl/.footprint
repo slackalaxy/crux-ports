@@ -64,7 +64,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rgl/help/
 -rw-r--r--	root/root	usr/lib/R/library/rgl/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/rgl/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/rgl/help/figures/
--rw-r--r--	root/root	usr/lib/R/library/rgl/help/figures/READMEpolyhedra-1-rgl.png
+-rw-r--r--	root/root	usr/lib/R/library/rgl/help/figures/READMEpolyhedra-1.-rgl.png
 -rw-r--r--	root/root	usr/lib/R/library/rgl/help/paths.rds
 -rw-r--r--	root/root	usr/lib/R/library/rgl/help/rgl.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rgl/help/rgl.rdx

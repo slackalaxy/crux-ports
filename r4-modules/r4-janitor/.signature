@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NkowN+w1l533hrdsr3xrlCWo9UYsH0DywIqCQnbSFYTCo7tUz7AA9kYcCYKd8r12vNO3zKlLVVWyr6rUMI7ugQ=
-SHA256 (Pkgfile) = 10d4af24d494ea9a491c9063a8da08b9d2216a86db0ee59dabdc89622cdd7318
+RWQ2oTreAss89NuCzqpjRPJtqrPyXfx83/nqL5xHYEUM2+cAfCuO2qawgKsql2lqxu1r0CYog4ZGJmXbkRU1deamvoJ+puOuJgA=
+SHA256 (Pkgfile) = 5605c51de7486b50d4ad1834bc1c7cb7817221e87ac6262523b3c4e1d93112bc
 SHA256 (.footprint) = 3b6ec7909d3e13bb81ea83bcbfda1dbbc6007ad91faac8701bda16355fe588a9
-SHA256 (janitor_2.2.0.tar.gz) = 29d5d0185e4e824bb38f905b158162a12f52dc01c2e8a487fc730ce46bf6baae
+SHA256 (janitor_2.2.1.tar.gz) = 27c401302a62cafe8e68e66a51073834bc7930872282e0feb151d13629ae6cdf

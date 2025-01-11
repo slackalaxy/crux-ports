@@ -1,0 +1,16 @@
+# Description: R module UniProt.ws
+# URL: https://bioconductor.org/packages/UniProt.ws
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-annotationdbi r4-biocbaseutils r4-biocfilecache r4-biocgenerics r4-httpcache r4-httr r4-jsonlite r4-progress r4-rjsoncons r4-rsqlite
+# Optional: r4-biocstyle r4-knitr r4-rmarkdown r4-runit
+
+name=r4-uniprot-ws
+version=2.44.0
+release=1
+source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/UniProt.ws_${version}.tar.gz)
+
+build() {
+	cd UniProt.ws
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

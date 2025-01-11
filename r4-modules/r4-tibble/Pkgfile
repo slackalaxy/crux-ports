@@ -1,7 +1,7 @@
 # Description: R module tibble
 # URL: https://cran.r-project.org/web/packages/tibble
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-fansi r4-lifecycle r4-magrittr r4-pillar r4-pkgconfig r4-rlang r4-vctrs
+# Depends on: r r4-fansi r4-lifecycle r4-magrittr r4-pillar r4-pkgconfig r4-rlang r4-vctrs
 # Optional: r4-bench r4-bit64 r4-blob r4-brio r4-callr r4-cli r4-covr r4-crayon r4-diagrammer r4-dplyr r4-evaluate r4-formattable r4-ggplot2 r4-here r4-hms r4-htmltools r4-knitr r4-lubridate r4-mockr r4-nycflights13 r4-pkgbuild r4-pkgload r4-purrr r4-rmarkdown r4-stringi r4-testthat r4-tidyr r4-withr
 
 name=r4-tibble

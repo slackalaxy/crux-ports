@@ -1,0 +1,16 @@
+# Description: R module httpcache
+# URL: https://cran.r-project.org/web/packages/httpcache
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-digest r4-httr
+# Optional: r4-httptest r4-knitr r4-rmarkdown r4-spelling
+
+name=r4-httpcache
+version=1.2.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/httpcache_${version}.tar.gz)
+
+build() {
+	cd httpcache
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

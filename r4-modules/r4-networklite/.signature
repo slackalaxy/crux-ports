@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GWbVVBaleki2uAuc82GScDKgVx1el2n2VKfnbU2nrOWLXuNZeUwU4RbipIBa3ktOWX4HpvPfWdG/2ac0YhA2w0=
-SHA256 (Pkgfile) = ec93f5f58f362c0f2f523280ef3c7fbdefc797f2df46e2fdd285337607235649
+RWQ2oTreAss89Czz1JW31SgnFF8A48bmyYTNUoAA1OHiIvnsxs32p8vlp8KQkc9WW53V8pKKQjqge00lcUdJEoiQNDF6sRJnCQ8=
+SHA256 (Pkgfile) = d0707b2bdca02f2dd659b6d632a63c3d588ef5c30cbc53090b3dd78fddf0f0fc
 SHA256 (.footprint) = 0c5e94105d19da382445b4514134b3eaec644afb7cd36227d30e2ecab162ff20
-SHA256 (networkLite_1.0.5.tar.gz) = aaab55d4f8f0b330fe7c1ecbab3c44746c52c2fda99c53c6b46042bb8775718b
+SHA256 (networkLite_1.1.0.tar.gz) = 73ce2ae3f57c49b8c08bd86baf305da2d00986cd31198a28454c7404cde7aeeb

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89LSgSPpH9xgXmhRA6NqOauIMnjztOxRGPcdW1Ts5GoAocu7H4HK6t++MEOqOOx87hqVZwuxtNxuoLJ1QcT6tLwE=
+SHA256 (Pkgfile) = 9e75acf3ee077991e17a45169daf566e85c35e84a5bc2e2dd5400b1888fd5500
+SHA256 (.footprint) = e239f856a410c37d26809632ff8889a68624429fdb8bec159a271c01f4ed3eac
+SHA256 (rjsoncons_1.3.1.tar.gz) = 5432d9afb4faec2b18b8b32171503705bb9ed02be4e980a39552bb1aa52997c5

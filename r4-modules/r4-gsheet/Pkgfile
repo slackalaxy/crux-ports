@@ -5,7 +5,7 @@
 # Optional: r4-readr r4-testthat
 
 name=r4-gsheet
-version=0.4.5
+version=0.4.6
 release=1
 source=(https://cloud.r-project.org/src/contrib/gsheet_${version}.tar.gz)
 

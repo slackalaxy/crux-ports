@@ -1,7 +1,7 @@
 # Description: R module generics
 # URL: https://cran.r-project.org/web/packages/generics
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: r4-covr r4-pkgload r4-testthat r4-tibble r4-withr
 
 name=r4-generics

@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/lubridate/R/
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/R/lubridate
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/R/lubridate.rdb
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/R/lubridate.rdx
+-rw-r--r--	root/root	usr/lib/R/library/lubridate/WORDLIST
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/cctz.sh
 drwxr-xr-x	root/root	usr/lib/R/library/lubridate/data/
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/data/Rdata.rdb

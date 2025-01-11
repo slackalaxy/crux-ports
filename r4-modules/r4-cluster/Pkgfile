@@ -1,11 +1,11 @@
 # Description: R module cluster
 # URL: https://cran.r-project.org/web/packages/cluster
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-mass r4-matrix
 
 name=r4-cluster
-version=2.1.6
+version=2.1.8
 release=1
 source=(https://cloud.r-project.org/src/contrib/cluster_${version}.tar.gz)
 

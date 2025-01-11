@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IpcbxA9gptO8+ZEqoQMJaKih/3PGNKe4Szij8BXC/Zaae09wgWdw7WNuQvB5qP3cGCJ1E1tGgxMAjZfj+TMXQw=
-SHA256 (Pkgfile) = be0a9ceea0dd20588d865970e3a0d8d3680f943e7387d2a38a198e8305602f67
-SHA256 (.footprint) = 308a8f7e5ce82f63b6af4644aeaf520fb9dde42de7c0654da99881d57f64805e
-SHA256 (lubridate_1.9.3.tar.gz) = 2b6e1406d231b0a14d60b99cc406d159fea5465a5694725ad25343f12cf37fff
+RWQ2oTreAss89EZB4xqkmdk1z5oNYG8MIADlFzvL8+hhWElZxfi7oIWcetyPL+7vwNzksoKGaztBCnrRGplTVG2aEzXPqyYI7ws=
+SHA256 (Pkgfile) = 888e748db2086ec854f22c711c87e8c34222ae1a231dd3261dc0864263300df6
+SHA256 (.footprint) = 671ec4b9c262326e48be8495aaba206495a22ca3eef961bc9506f7129c9df69b
+SHA256 (lubridate_1.9.4.tar.gz) = 864b7ee223d622d41214c6aacc7d68d8984090a8e1e823c729983d33624646c1

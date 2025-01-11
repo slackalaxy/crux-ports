@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NB4HmDu+HyjVwuspoe0ZsB92iM+oKJazotZyJEqz/xSWNalxwYz+4JH4EOFQ1nZ9UU6uFyfUprthmY6JdU3QQE=
-SHA256 (Pkgfile) = f668580d122800cd71839db62a2511a220ac8910337fefee7bbd39e1d4c76e44
+RWQ2oTreAss89B8AGNfScgGOHk67hPWDqxVkkulqEmLa+x6O2qPR+wXjQPo+jWqW6rfwSTPI7KUBty2vqkY64EvtnHmSrY1JKwg=
+SHA256 (Pkgfile) = 2402eadc75b9dc0e7b61e16f2c429804f9d4f8fa10eb56a542d67553e7f3546e
 SHA256 (.footprint) = 70d250813a71b4d0f04844cdc1ec793a2cbf2026654e193e609e41ce134f3de6
-SHA256 (ggiraph_0.8.11.tar.gz) = d1be7370d583716b68a62a2afd7281395df764b246dd5fc2f9cd47d9922fbf8e
+SHA256 (ggiraph_0.8.12.tar.gz) = a8544fad40e68174bd0e753ecb3fc0afd840adf0fefa45231d6f5326a8a3b557

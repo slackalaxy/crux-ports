@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89ASMvOG7jXKb3y/K87Ia8ubUxTI4aAW5W2QXCA+btv6AELjrCLoXgrxsiEYFE2lehkfXSikQQwadSSr9iADOGQ8=
-SHA256 (Pkgfile) = eea2df83d195e02f60c9eee08ecb69843c66421f025bcee972a4ed4acf678dec
-SHA256 (.footprint) = a3cc143661cd73f45bda8cc10ed507f3f704eaeabf0cbafbd5572587aa25ae72
-SHA256 (Hmisc_5.2-0.tar.gz) = 117135255a36908ed9abb7da37e38b1dd2e507147eb3032d42cef9167be4fce9
+RWQ2oTreAss89Od65zRbsMxrWq/IjM7GkAPqAS1qgDhTq0xzewWP3TSs+gQL+gnwyLYErrz5Z1pI9nXKajvMdT51PsHneTMujAs=
+SHA256 (Pkgfile) = 6d56cd763d2394741b563311bfc106665815bc63d34bd270db31a36e6ed71281
+SHA256 (.footprint) = 8441d8f89b649e5f4fee82f7c17a65f7744f6f60ac3f26ba478b430a3b45435e
+SHA256 (Hmisc_5.2-2.tar.gz) = c55221af4fe0add8f2b9a112a6205833772bd1d2786fcb13f72ae0d06d58097c

@@ -1,13 +1,13 @@
 # Description: R module nnet
 # URL: https://cran.r-project.org/web/packages/nnet
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-mass
 
 name=r4-nnet
-version=7.3.19
+version=7.3.20
 release=1
-source=(https://cloud.r-project.org/src/contrib/nnet_7.3-19.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/nnet_7.3-20.tar.gz)
 
 build() {
 	cd nnet

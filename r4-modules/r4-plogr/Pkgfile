@@ -1,7 +1,7 @@
 # Description: R module plogr
 # URL: https://cran.r-project.org/web/packages/plogr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: r4-rcpp
 
 name=r4-plogr

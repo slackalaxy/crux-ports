@@ -5,7 +5,7 @@
 # Optional: r4-dbplyr r4-knitr r4-rmarkdown r4-rsqlite r4-sf r4-testthat r4-tibble r4-tidygraph
 
 name=r4-janitor
-version=2.2.0
+version=2.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/janitor_${version}.tar.gz)
 

@@ -1,13 +1,13 @@
 # Description: R module fastmatch
 # URL: https://cran.r-project.org/web/packages/fastmatch
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-fastmatch
-version=1.1.4
+version=1.1.6
 release=1
-source=(https://cloud.r-project.org/src/contrib/fastmatch_1.1-4.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/fastmatch_1.1-6.tar.gz)
 
 build() {
 	cd fastmatch

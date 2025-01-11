@@ -1,13 +1,13 @@
 # Description: R module BH
 # URL: https://cran.r-project.org/web/packages/BH
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: 
 
 name=r4-bh
-version=1.84.0.0
+version=1.87.0.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/BH_1.84.0-0.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/BH_1.87.0-1.tar.gz)
 
 build() {
 	cd BH

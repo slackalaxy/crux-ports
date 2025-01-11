@@ -51,6 +51,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/fitdistrplus/doc/
 drwxr-xr-x	root/root	usr/lib/R/library/fitdistrplus/help/
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/help/aliases.rds
+drwxr-xr-x	root/root	usr/lib/R/library/fitdistrplus/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/help/figures/fitdistrplus_hex.png
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/help/fitdistrplus.rdb
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/help/fitdistrplus.rdx
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/help/paths.rds

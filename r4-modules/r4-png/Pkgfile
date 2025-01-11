@@ -1,7 +1,7 @@
 # Description: R module png
 # URL: https://cran.r-project.org/web/packages/png
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-png

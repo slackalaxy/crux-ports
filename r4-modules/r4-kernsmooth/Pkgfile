@@ -5,9 +5,9 @@
 # Optional: r4-cardata r4-mass
 
 name=r4-kernsmooth
-version=2.23.24
+version=2.23.26
 release=1
-source=(https://cloud.r-project.org/src/contrib/KernSmooth_2.23-24.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/KernSmooth_2.23-26.tar.gz)
 
 build() {
 	cd KernSmooth

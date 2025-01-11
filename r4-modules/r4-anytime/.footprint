@@ -48,7 +48,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/anytime/tinytest/hide/
 -rw-r--r--	root/root	usr/lib/R/library/anytime/tinytest/test_calc_unique.R
 -rw-r--r--	root/root	usr/lib/R/library/anytime/tinytest/test_gh_issue_100.R
 -rw-r--r--	root/root	usr/lib/R/library/anytime/tinytest/test_gh_issue_12.R
+-rw-r--r--	root/root	usr/lib/R/library/anytime/tinytest/test_gh_issue_129.R
 -rw-r--r--	root/root	usr/lib/R/library/anytime/tinytest/test_gh_issue_33.R
 -rw-r--r--	root/root	usr/lib/R/library/anytime/tinytest/test_gh_issue_56.R
--rw-r--r--	root/root	usr/lib/R/library/anytime/tinytest/test_simple.R
 -rw-r--r--	root/root	usr/lib/R/library/anytime/tinytest/test_utilities.R

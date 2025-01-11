@@ -1,7 +1,7 @@
 # Description: R module pkgconfig
 # URL: https://cran.r-project.org/web/packages/pkgconfig
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: r4-covr r4-disposables r4-testthat
 
 name=r4-pkgconfig

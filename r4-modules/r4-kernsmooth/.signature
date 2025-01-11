@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BfJfr3kvjQPkZVR6ULF3llpiDobaKWvhlvjhlRTTqF45j48HZepGnTLPSaQutaQoAfeKAyqEu/0/TxTsR/h2wo=
-SHA256 (Pkgfile) = db8126650692178ab5f7608593decf3a9d3f267344fb66b97e181d1c8048f813
+RWQ2oTreAss89PI0XQGKI7Z4RC6gIfZKrRl9B+KwgTc1vW3prT56TBjboGsXXZPbFHpmslPT4Xl3PFKY5cl/3udwBHLi2ijyrAs=
+SHA256 (Pkgfile) = 3eabb0465832fd034cef5ecd71281b1859a9771310477b3ceb03e23c2ef789f7
 SHA256 (.footprint) = dcadf38d4ebb10a76cd2c52c5a47dcd4351ab533f21b60f5e65c1d417ecfb80a
-SHA256 (KernSmooth_2.23-24.tar.gz) = d0b3ec39547ffd92565e91b0c3bb637f3b30e7a46afe416d8790b8c4f528ac5f
+SHA256 (KernSmooth_2.23-26.tar.gz) = b465bdac197f7faa787e625412ae03d1b7c2c134b1c924cfeb775faf9c4da73e

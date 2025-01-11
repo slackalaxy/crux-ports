@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/parallelly
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: 
+# Optional: r4-base64enc r4-commonmark
 
 name=r4-parallelly
-version=1.39.0
+version=1.41.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/parallelly_${version}.tar.gz)
 

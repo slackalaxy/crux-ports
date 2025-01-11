@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89HZVoHHLicNqJvMcOk0Dt3ZxWd9D2FWNhy77sbZc9J9UZI5CcpXnO/6XnbHniod+7lR8+kutIHeEWZVWFHWkowQ=
-SHA256 (Pkgfile) = aac0345f80e6854b3f9b10082dde85bc11bdf25fc016d7e3af2625f77b51194a
-SHA256 (.footprint) = df54fb545753b7f100094c36b9dd875130a8da7a6d769319d0f37c3623564343
-SHA256 (fitdistrplus_1.2-1.tar.gz) = 68b4215a9dfff65880a3ba6f7febe4929b197611344932b79af05d91dc584558
+RWQ2oTreAss89O23b2Z2mf/VhGrj0/iGDBgARjuwFNqgbVL5q8xaL7Z724xxOwMsq374kzrqjmfr4v26AW1pxNWH6MRgJuaXrw4=
+SHA256 (Pkgfile) = 5d71823cfbcaa645242a3b19e47d264c1d74c51de13b84e627faf619eeee76f4
+SHA256 (.footprint) = 898c72060798d1b3399ec96f501e00fd818edfb100634db8245113a5d0b1fdc2
+SHA256 (fitdistrplus_1.2-2.tar.gz) = d74160df07a709987ee104a9983f1dc2d596321f61c274ac9f659ebd746445d7
