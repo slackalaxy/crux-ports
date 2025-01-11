@@ -4,7 +4,7 @@
 # Depends on: brotli cyrus-sasl gnutls libgcrypt libjpeg-turbo libpng
 
 name=libvncserver
-version=0.9.14
+version=0.9.15
 release=1
 source=(https://github.com/LibVNC/libvncserver/archive/LibVNCServer-$version.tar.gz)
 

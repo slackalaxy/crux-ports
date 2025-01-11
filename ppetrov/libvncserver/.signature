@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZTW1W8bjuxWs5ZA5nNlsyhngBW6mt6aPsScGHOWOvE6tFLAHB8mQ0TBeU4GGqbBqToVhX+DkBNlRdz9KfQbi+Ak=
-SHA256 (Pkgfile) = 8f70a64225d027453fffa6da26ea9afca300c88a8c985e3c6da3772fb498440d
-SHA256 (.footprint) = cfb283d08692e523e776214b477f22ff0f48dd1ba077e3f99db6fe3aa987f055
-SHA256 (LibVNCServer-0.9.14.tar.gz) = 83104e4f7e28b02f8bf6b010d69b626fae591f887e949816305daebae527c9a5
+RWToVVsIkzFIZT8xDWydhgVEOzkbjGo5AFNldW7kgHRR4NPc4WR2ZQaSAAx76Sjz6MuNncEEV16hsvViqDTlvsMiBeiOxdjwXQo=
+SHA256 (Pkgfile) = 7efafcd2dbfe062ba0e910884a78488879526e939ace507bb592f723f7537e88
+SHA256 (.footprint) = a0b7f8ec12b4f2f680bc90a527d377bfdb8c91d39fcc2fdafe5dffd2b41f1fb2
+SHA256 (LibVNCServer-0.9.15.tar.gz) = 62352c7795e231dfce044beb96156065a05a05c974e5de9e023d688d8ff675d7
