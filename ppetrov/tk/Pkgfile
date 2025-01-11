@@ -4,7 +4,7 @@
 # Depends on: xorg-libxft tcl
 
 name=tk
-version=8.6.15
+version=8.6.16
 _version=$(echo $version | awk -F'.' '{if (NF <= '2') {print $0} else {print $1 "." $2 "." $3}}')
 release=1
 source=(https://downloads.sourceforge.net/project/tcl/Tcl/$_version/$name$version-src.tar.gz)
