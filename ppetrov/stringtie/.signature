@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcvZKjEeqYq4ydgNghRjGKToFVRp/ahEuyQupCI+JUt4HKzURBfTTQXKqlMV0Pr3/6JteLjWA1j8xxEWbqYjDgM=
-SHA256 (Pkgfile) = 6398437e3b9323491de9ba25f86eee43af150b1bc804285d900e219465c917fb
+RWToVVsIkzFIZRPEMi+IbvvILCfOUWycdVCInmAP6YwyhXoN1PDMl35/dNF/q5TVr8PmpvzUrfqM0odQaVWwbMIK0rfyCP8lxgA=
+SHA256 (Pkgfile) = a3a0b3e99d045ef28cf932787aefaa255332b9e2e0773c386ca414f20c489b2a
 SHA256 (.footprint) = 01bb891cf7d7f03ca61e217bbf533b2153083c18a449ba06e60417eaaaab91fb
-SHA256 (stringtie-2.2.1.tar.gz) = ce4eec532bbbe39af462be844afa6395ab38fa3418ef5fc2431e2d6194129527
+SHA256 (stringtie-3.0.0.tar.gz) = eeb55de1a6d77b9884249921a46cf06a12e189f2dd14a493901b10dd325e8ade

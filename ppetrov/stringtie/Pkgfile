@@ -4,7 +4,7 @@
 # Depends on:
 
 name=stringtie
-version=2.2.1
+version=3.0.0
 release=1
 source=(http://ccb.jhu.edu/software/stringtie/dl/$name-$version.tar.gz)
 
