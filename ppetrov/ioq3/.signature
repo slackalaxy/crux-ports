@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZwregX90WzRtkijsv9rzOv3c4K4qx1h0mIcLqvJUfMudHTq8/mrmyba1VjKKzZLavbEApA96iF2mu4YKawFtwU=
-SHA256 (Pkgfile) = 8e0f3229aa1fb8c1bbb1ea8aab908e55ef1ed53ab1313b95878729fc158dc24f
+RWToVVsIkzFIZRDOAE8oqdpKbGN2rgo4Zs0UevMakESsGFRXbT5E9JtvL+RYpT+4HhdAMJbnAmOG7DU7Gscd/xWa/WwRAr1ZmQI=
+SHA256 (Pkgfile) = f5c0ff4c0731e4403e8bc11f141aed76e65bbc31f5bab9ab2cbc91c98acaf3b4
 SHA256 (.footprint) = 0b22e1f252acaeb385e8b69005fa56007005e04c6d590c91161566bc13cc9070
-SHA256 (ioq3-cc18246f22ab033e1b17af4616a68e9ea2e873db.tar.gz) = b4880ac4e2b7783c473232932a1eea77e3d07fb417a9b24da9eedfc296cf21a0
+SHA256 (ioq3-3fb9006e6461b877b67781cd0f0d94032804a475.tar.gz) = 80cf7479cf65917da1ef0a90a5c7363c87b1042f2368d1d9f99672d941e29030
 SHA256 (ioq3.desktop) = d353060330d082a9b868694c1ced84db6dbdcd84724a7ea910e4f8c011395eac
 SHA256 (ioq3.sh) = eb48ad7bac026aefe76beedb939f9945cd3256625cefb993212db3f9f17a1cde
