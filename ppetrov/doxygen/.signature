@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdiAiESm9N+ZXebAiPA2bw83BpFuIq6Hl/i7kQHqf/96obzBDwcYhpncFyHVSwnpPE/5LbdmfySJ379NDxtCDQg=
-SHA256 (Pkgfile) = d3473c0979c0ac6e4fd452900d6147f32641d6d82490788c96c996ddc57e04dc
+RWToVVsIkzFIZfttcQMxLAZpOfjPEeefKiAod4VYJjmAu8GrvM3LH1wnY4vF59tDBt2FZlTL2YSfYW/j+HdzPCBHHMubhboNdAw=
+SHA256 (Pkgfile) = feb39894b58f31a3956d79869d821d48e81ad7f858bd0fb0dd2d026d4b846948
 SHA256 (.footprint) = ad2f0d3af74c305ebe29a883fcdddb5f8c4ea0c351e0f27eb329891e86e160e1
-SHA256 (doxygen-1.12.0.src.tar.gz) = a3a3dba2018ef409d83d81a2fc42a0d19bdbe087252ef342bf214b51b8b01634
+SHA256 (doxygen-1.13.2.src.tar.gz) = 3a25e3386c26ea5494c784e946327225debfbc5dbfa8b13549010a315aace66d
