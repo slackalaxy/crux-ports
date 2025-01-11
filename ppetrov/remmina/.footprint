@@ -108,6 +108,9 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/emblems/
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-spice-ssh-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-spice-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-ssh-symbolic.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-status-green.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-status-grey.svg
+-rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-status-red.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-tool-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-vnc-ssh-symbolic.svg
 -rw-r--r--	root/root	usr/share/icons/hicolor/scalable/emblems/org.remmina.Remmina-vnc-symbolic.svg
