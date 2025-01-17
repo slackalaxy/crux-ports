@@ -47,8 +47,8 @@ build() {
 	chmod 0644 $PKG/usr/share/fonts/microsoft/*
 	
 	# Remove B/W emoji symbols
-	cd $SRC
-	for t in $PKG/usr/share/fonts/microsoft/*.ttf ; do
-		fontforge -script $SRC/cleaner_ttf.py "$t"
-	done
+	#cd $SRC
+	#for t in $PKG/usr/share/fonts/microsoft/*.ttf ; do
+	#	fontforge -script $SRC/cleaner_ttf.py "$t"
+	#done
 }
