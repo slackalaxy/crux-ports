@@ -1,0 +1,16 @@
+# Description: R module rbibutils
+# URL: https://cran.r-project.org/web/packages/rbibutils
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-testthat
+
+name=r4-rbibutils
+version=2.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/rbibutils_${version}.tar.gz)
+
+build() {
+	cd rbibutils
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

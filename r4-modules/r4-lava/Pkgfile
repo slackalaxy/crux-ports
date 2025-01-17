@@ -5,7 +5,7 @@
 # Optional: r4-data-table r4-ellipse r4-fields r4-geepack r4-graph r4-igraph r4-kernsmooth r4-knitr r4-lavasearch2 r4-lme4 r4-mass r4-matrix r4-mets r4-nlme r4-optimx r4-polycor r4-quantreg r4-rgl r4-rgraphviz r4-rmarkdown r4-targeted r4-testthat r4-visnetwork
 
 name=r4-lava
-version=1.8.0
+version=1.8.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/lava_${version}.tar.gz)
 

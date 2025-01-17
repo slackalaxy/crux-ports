@@ -26,10 +26,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/bit64/doc/
 -rw-r--r--	root/root	usr/lib/R/library/bit64/doc/ANNOUNCEMENT-0.8.txt
 -rw-r--r--	root/root	usr/lib/R/library/bit64/doc/ANNOUNCEMENT-0.9-Details.txt
 -rw-r--r--	root/root	usr/lib/R/library/bit64/doc/ANNOUNCEMENT-0.9.txt
--rw-r--r--	root/root	usr/lib/R/library/bit64/doc/README_devel.txt
-drwxr-xr-x	root/root	usr/lib/R/library/bit64/exec/
--rwxr-xr-x	root/root	usr/lib/R/library/bit64/exec/make_rd.pl
--rwxr-xr-x	root/root	usr/lib/R/library/bit64/exec/prebuild.sh
 drwxr-xr-x	root/root	usr/lib/R/library/bit64/help/
 -rw-r--r--	root/root	usr/lib/R/library/bit64/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/bit64/help/aliases.rds

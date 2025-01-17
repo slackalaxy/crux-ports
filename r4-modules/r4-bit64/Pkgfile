@@ -2,12 +2,12 @@
 # URL: https://cran.r-project.org/web/packages/bit64
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-bit
-# Optional: 
+# Optional: r4-testthat r4-withr
 
 name=r4-bit64
-version=4.5.2
+version=4.6.0.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/bit64_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/bit64_4.6.0-1.tar.gz)
 
 build() {
 	cd bit64

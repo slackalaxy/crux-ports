@@ -1,0 +1,16 @@
+# Description: R module reformulas
+# URL: https://cran.r-project.org/web/packages/reformulas
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-matrix r4-rdpack
+# Optional: r4-lme4 r4-tinytest
+
+name=r4-reformulas
+version=0.4.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/reformulas_${version}.tar.gz)
+
+build() {
+	cd reformulas
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

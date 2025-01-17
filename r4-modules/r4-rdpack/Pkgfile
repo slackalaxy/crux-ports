@@ -1,0 +1,16 @@
+# Description: R module Rdpack
+# URL: https://cran.r-project.org/web/packages/Rdpack
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-rbibutils
+# Optional: r4-gbrd r4-rprojroot r4-rstudioapi r4-testthat
+
+name=r4-rdpack
+version=2.6.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/Rdpack_${version}.tar.gz)
+
+build() {
+	cd Rdpack
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
