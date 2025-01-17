@@ -1,28 +1,32 @@
 # Description: Strawberry music player
 # URL: https://www.strawberrymusicplayer.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: chromaprint double-conversion fftw graphite2 gst-plugins-bad gst-plugins-good icu keyutils protobuf pulseaudio
+# Depends on: brotli chromaprint dav1d double-conversion fdk-aac fftw graphite2 gst-plugins-base icu kdsingleapplication keyutils lame librsvg libva libvdpau libvpx libwebp openjpeg2 pulseaudio snappy speex taglib
 # Optional: krb5 x264 x265
 
 name=strawberry
-version=1.2.4
+version=1.2.6
 release=1
 source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-	mkdir -p build
-	cd build
-	cmake \
-		-D CMAKE_C_FLAGS:STRING="$CFLAGS" \
-		-D CMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
-		-D CMAKE_INSTALL_PREFIX=/usr \
-		-D CMAKE_BUILD_TYPE=Release ..
+  cmake -S $name-$version -B build            \
+        -DCMAKE_BUILD_TYPE=Release            \
+        -DCMAKE_INSTALL_PREFIX=/usr           \
+        -DCMAKE_INSTALL_LIBDIR=lib            \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	-DENABLE_AUDIOCD=OFF                  \
+	-DENABLE_MTP=OFF                      \
+	-DENABLE_GPOD=OFF                     \
+	-DENABLE_EBUR128=OFF                  \
+        -Wno-dev
 
-	make all PMFLAGS="-DNEWBUFFER"
-	make install DESTDIR=$PKG
-	
-	mkdir -p $PKG/usr/share/pixmaps/
-	cp -a $PKG/usr/share/icons/hicolor/48x48/apps/$name.png \
-	$PKG/usr/share/pixmaps/$name.png
+  cmake --build build
+  DESTDIR="$PKG" cmake --install build
+
+  mkdir -p $PKG/usr/share/pixmaps/
+  cp -a $PKG/usr/share/icons/hicolor/48x48/apps/$name.png \
+  $PKG/usr/share/pixmaps/$name.png
+
 }

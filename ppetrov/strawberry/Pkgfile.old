@@ -1,0 +1,29 @@
+# Description: Strawberry music player
+# URL: https://www.strawberrymusicplayer.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: chromaprint double-conversion fftw graphite2 gst-plugins-bad gst-plugins-good icu keyutils protobuf pulseaudio
+# Optional: krb5 x264 x265
+
+name=strawberry
+version=1.2.6
+release=1
+source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir -p build
+	cd build
+	cmake \
+		-D CMAKE_C_FLAGS:STRING="$CFLAGS" \
+		-D CMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+		-D CMAKE_INSTALL_PREFIX=/usr \
+		-DENABLE_AUDIOCD=OFF \
+		-D CMAKE_BUILD_TYPE=Release ..
+
+	make all PMFLAGS="-DNEWBUFFER"
+	make install DESTDIR=$PKG
+	
+	mkdir -p $PKG/usr/share/pixmaps/
+	cp -a $PKG/usr/share/icons/hicolor/48x48/apps/$name.png \
+	$PKG/usr/share/pixmaps/$name.png
+}
