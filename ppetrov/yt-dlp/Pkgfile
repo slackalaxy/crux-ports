@@ -1,0 +1,16 @@
+# Description: CLI program to access YouTub and other data content
+# URL: https://github.com/yt-dlp/yt-dlp
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-setuptools
+
+name=yt-dlp
+version=2025.01.12
+release=1
+source=(https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp.tar.gz)
+renames=($name-$version.tar.gz)
+
+build() {
+	cd yt-dlp
+	install -D $name $PKG/usr/bin/$name
+	install -D -m 0644 $name.1 $PKG/usr/share/man/man1/$name.1
+}
