@@ -1,9 +1,9 @@
 # Description: A Phylogenetic Computing Library
 # URL: https://github.com/jeetsukumaran/DendroPy/tags
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
+# Depends on: python3
 
-name=dendropy
+name=python3-dendropy
 version=5.0.2
 release=1
 source=(https://github.com/jeetsukumaran/DendroPy/archive/v${version}/DendroPy-$version.tar.gz)

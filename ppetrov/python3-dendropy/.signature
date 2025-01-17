@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZfo1XPyZKxcg6+Jnr06mW31yJT+K3yzG7v5Rs64Fho4wTmB8zlx3rJeT/AsCqfbAmgRc5leVdclmBY7S3cyeKg8=
-SHA256 (Pkgfile) = 5bfd3dc34a37613e4c6fcb681d1fe418e458f634d1dd0036cebc4e11c89cfb46
+RWToVVsIkzFIZTtduorWwj0GgrjRdQlt6txDWae7sO29Lu6uOulMK61xWHLQKzHtYi9HcWtbiN10SBerl235FbX0Adf37t43Iwk=
+SHA256 (Pkgfile) = 5528b8f0ca3fd314e9b02e71fd2cb7004f2a9ffe4dda5c562925239ca8ba01c2
 SHA256 (.footprint) = 030515d8c524b1f3ca4ad0bb7b90083b5509d633b8a52705390ae0eaacd84b3e
 SHA256 (DendroPy-5.0.2.tar.gz) = 59cdf12cf6c745c3c985a6837285ec38c8def9c4035b04485e64779b72935242

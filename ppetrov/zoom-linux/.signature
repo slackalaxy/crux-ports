@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZeZBjIX2ESnEAZrKVtZo43iPgcdL6q0uT147SFsOVyWxbbiXXgjHK5Y1lx87RJVmuTFBQOxAwya+zw/oeE7SgwM=
-SHA256 (Pkgfile) = d5279b2e6bcb937d18e0d698b49ee413cb9c9d48b2288be7eada94851644e024
+RWToVVsIkzFIZdZvsbqYYTzD9rAaKvfm+VmuEBZus2aciLN0kPlBDNaxVOMhzosv03kz31df1ybTEsQcaEBCuzv/zgt3ZwZK6w8=
+SHA256 (Pkgfile) = 555f5008edc40ce9f12a166e2d3eedf73f46f135545bc6f5eb1ee9843654b62c
 SHA256 (.footprint) = 19414a17a059ce6d9dfbae12cbbf14223ed209a7219852d561d577630eb194dc
-SHA256 (zoom-linux-6.3.5.6065.tar.xz) = e8f4706b2c641efbe2f38c323fb5b0b8aa4bb9913baab64e9f450cba7de8459a
+SHA256 (zoom-linux-6.3.6.6315.tar.xz) = 1add7c7459d6000578a58cfe68a50610e46b5ee29067da9d110781495d19672c
 SHA256 (zoom-linux.desktop) = f429848db56070bd675c3f4673c9cbdc038a957f53b2d01b4ac288ab905f4d43
 SHA256 (zoom-linux.png) = ac811df49d9d8b792960399bb958aa9130d421f0f8a2977d696e3a4fe42dd9a4
 SHA256 (zoom-linux.xml) = 33e326f0c2dc8312b2fcbe3debe181e15871e87b8afdbbcbbff5e057f23be867
