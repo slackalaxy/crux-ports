@@ -1,0 +1,52 @@
+# Description: A fast, easy, and free BitTorrent client (QT5)
+# URL: https://github.com/transmission/transmission
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli double-conversion graphite2 icu keyutils krb5 qt5
+
+name=transmission-qt5
+version=4.0.6
+release=1
+source=(https://github.com/transmission/transmission/releases/download/$version/transmission-$version.tar.xz)
+
+build() {
+
+  # Fix build with miniupnpc
+  cd transmission-$version
+  if [ ! -e third-party/miniupnpc/CMakeLists.txt ]; then
+	cp -a third-party/miniupnp/miniupnpc/* third-party/miniupnpc/
+  fi
+  cd ..
+  
+  cmake -S transmission-$version -B build     \
+        -DCMAKE_BUILD_TYPE=Release            \
+        -DCMAKE_INSTALL_PREFIX=/usr           \
+        -DCMAKE_INSTALL_LIBDIR=lib            \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	-DREBUILD_WEB=OFF \
+	-DUSE_SYSTEM_EVENT2=OFF \
+	-DUSE_SYSTEM_DEFLATE=OFF \
+	-DUSE_SYSTEM_DHT=OFF \
+	-DUSE_SYSTEM_MINIUPNPC=OFF \
+	-DUSE_SYSTEM_NATPMP=OFF \
+	-DUSE_SYSTEM_UTP=OFF \
+	-DUSE_SYSTEM_B64=OFF \
+	-DUSE_SYSTEM_PSL=OFF \
+	-DWITH_SYSTEMD=OFF \
+	-DUSE_GTK_VERSION=3 \
+	-DUSE_QT_VERSION=5 \
+	-DENABLE_DAEMON=OFF \
+	-DENABLE_QT=ON \
+	-DENABLE_GTK=OFF \
+	-DENABLE_CLI=OFF \
+        -Wno-dev
+
+  cmake --build build
+  DESTDIR="$PKG" cmake --install build
+  
+  rm -r $PKG/usr/share/{doc,transmission}
+  
+  sed -i "s:Qt:Qt5:" $PKG/usr/share/applications/transmission-qt.desktop
+  mkdir -p $PKG/usr/share/pixmaps
+  cp transmission-$version/icon.png $PKG/usr/share/pixmaps/transmission.png
+}
