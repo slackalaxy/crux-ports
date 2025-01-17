@@ -1,0 +1,24 @@
+# Description: KDAB's helper class for single-instance policy applications
+# URL: https://github.com/KDAB/KDSingleApplication
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: qt6-base
+
+name=kdsingleapplication
+version=1.1.0
+release=1
+source=(https://github.com/KDAB/KDSingleApplication/releases/download/v${version}/kdsingleapplication-$version.tar.gz)
+
+build() {
+  cmake -S $name-$version -B build            \
+        -DCMAKE_BUILD_TYPE=Release            \
+        -DCMAKE_INSTALL_PREFIX=/usr           \
+        -DCMAKE_INSTALL_LIBDIR=lib            \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+	-DKDSingleApplication_QT6=ON          \
+        -Wno-dev
+
+  cmake --build build
+  DESTDIR="$PKG" cmake --install build
+
+  rm -rf $PKG/usr/share
+}
