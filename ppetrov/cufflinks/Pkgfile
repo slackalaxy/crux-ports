@@ -1,40 +1,22 @@
 # Description: A reference-guided assembler for RNA-Seq experiments
 # URL: https://github.com/cole-trapnell-lab/cufflinks
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boost gcc5 samtools0
+# Depends on: samtools0
 
 name=cufflinks
 version=2.2.1
-release=1
-source=(http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/$name-$version.tar.gz
-	cufflinks-2.2.1-boost-1.65-tr1-removal.patch
-	cufflinks-2.2.1-gcc5-make_shared.patch
-	cufflinks-2.2.1-gcc6.patch
-	cufflinks-2.2.1-gcc7.patch
-	cufflinks-2.2.1-format-security.patch)
+release=2
+source=(http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.Linux_x86_64.tar.gz)
 
 build() {
-	cd $name-$version
-	export EIGEN_CPPFLAGS="-I/usr/include/eigen3"
-	export LDFLAGS="-L/usr/lib -lboost_system"
+	cd cufflinks-${version}.Linux_x86_64
 	
-	export CC=gcc-5
-	export CPP=cpp-5
-	export CXX=g++-5
-	
-	# Thanks gentoo and debian!
-	patch -p1 -i $SRC/cufflinks-2.2.1-gcc5-make_shared.patch
-	patch -p1 -i $SRC/cufflinks-2.2.1-gcc6.patch
-	patch -p1 -i $SRC/cufflinks-2.2.1-gcc7.patch
-	patch -p1 -i $SRC/cufflinks-2.2.1-format-security.patch
-	patch -p1 -i $SRC/cufflinks-2.2.1-boost-1.65-tr1-removal.patch
-
-	CFLAGS="$CFLAGS -std=c++11" \
-	CXXFLAGS="$CXXFLAGS -std=c++11" \
-	./configure --prefix=/usr \
-	--with-boost-libdir=/usr/lib \
-	--disable-optim
-
-	make
-	make install DESTDIR=$PKG
+	install -D -m 755 cuffcompare $PKG/usr/bin/cuffcompare
+	install -D -m 755 cuffdiff $PKG/usr/bin/cuffdiff
+	install -D -m 755 cufflinks $PKG/usr/bin/cufflinks
+	install -D -m 755 cuffmerge $PKG/usr/bin/cuffmerge
+	install -D -m 755 cuffnorm $PKG/usr/bin/cuffnorm
+	install -D -m 755 cuffquant $PKG/usr/bin/cuffquant
+	install -D -m 755 gffread $PKG/usr/bin/gffread
+	install -D -m 755 gtf_to_sam $PKG/usr/bin/gtf_to_sam
 }

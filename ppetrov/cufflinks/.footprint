@@ -1,6 +1,5 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/compress_gtf
 -rwxr-xr-x	root/root	usr/bin/cuffcompare
 -rwxr-xr-x	root/root	usr/bin/cuffdiff
 -rwxr-xr-x	root/root	usr/bin/cufflinks
