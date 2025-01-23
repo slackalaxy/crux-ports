@@ -48,3 +48,16 @@ drwxr-xr-x	root/root	usr/lib/R/library/textshaping/include/
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/include/textshaping.h
 drwxr-xr-x	root/root	usr/lib/R/library/textshaping/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/textshaping/libs/textshaping.so
+drwxr-xr-x	root/root	usr/lib/R/library/textshaping/lorem/
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/README
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/arabic.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/armenian.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/chinese.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/cyrillic.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/devanagari.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/georgian.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/greek.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/hangul.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/hebrew.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/kana.txt
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/lorem/latin.txt

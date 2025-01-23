@@ -5,9 +5,9 @@
 # Optional: r4-fields r4-knitr r4-matrix r4-r-rsp r4-rmarkdown r4-spam64 r4-testthat r4-truncdist
 
 name=r4-spam
-version=2.11.0
+version=2.11.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/spam_2.11-0.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spam_2.11-1.tar.gz)
 
 build() {
 	cd spam
