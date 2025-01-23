@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89BJi7vn6gi1BQE4h0hkkhDVspKPnAvCZg2PHkF6SI+A+Eq6l43TG5lVg9ECeqwELWHT5ddhk3qcTcMI4JttvhwI=
+SHA256 (Pkgfile) = e62f7c4504c634b3c414b4ce7bbd42e8664a20dce15482d24915047657fb6be9
+SHA256 (.footprint) = 7c4c138445e09967b59c7186b6789e7c3fa986a1c9309e6d5a81a6f7afe02944
+SHA256 (mvnfast_0.2.8.tar.gz) = 8871e0ce54b87afc556fd94ca77c3db72dcbb8c245558287e0fe342e30eec9a0

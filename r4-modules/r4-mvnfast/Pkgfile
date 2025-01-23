@@ -1,0 +1,16 @@
+# Description: R module mvnfast
+# URL: https://cran.r-project.org/web/packages/mvnfast
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-bh r4-rcpp r4-rcpparmadillo
+# Optional: r4-knitr r4-mass r4-microbenchmark r4-mvtnorm r4-plyr r4-rhpcblasctl r4-rmarkdown r4-testthat
+
+name=r4-mvnfast
+version=0.2.8
+release=1
+source=(https://cloud.r-project.org/src/contrib/mvnfast_${version}.tar.gz)
+
+build() {
+	cd mvnfast
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
