@@ -125,9 +125,15 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/transmute.Linux
 -rwxr-xr-x	root/root	usr/bin/uniq-table
 -rwxr-xr-x	root/root	usr/bin/word-at-a-time
+-rwxr-xr-x	root/root	usr/bin/xcommon.sh
+-rwxr-xr-x	root/root	usr/bin/xfetch
+-rwxr-xr-x	root/root	usr/bin/xfilter
+-rwxr-xr-x	root/root	usr/bin/xinfo
+-rwxr-xr-x	root/root	usr/bin/xlink
 -rwxr-xr-x	root/root	usr/bin/xml2fsa
 -rwxr-xr-x	root/root	usr/bin/xml2json
 -rwxr-xr-x	root/root	usr/bin/xml2tbl
+-rwxr-xr-x	root/root	usr/bin/xsearch
 -rwxr-xr-x	root/root	usr/bin/xtract
 -rwxr-xr-x	root/root	usr/bin/xtract.Linux
 -rwxr-xr-x	root/root	usr/bin/xy-plot
