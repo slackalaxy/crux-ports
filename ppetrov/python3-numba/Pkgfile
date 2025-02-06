@@ -4,7 +4,7 @@
 # Depends on: onetbb openmp python3-llvmlite python3-numpy
 
 name=python3-numba
-version=0.60.0
+version=0.61.0
 release=1
 source=(https://github.com/numba/numba/archive/$version/numba-$version.tar.gz)
 

@@ -127,100 +127,21 @@ drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libhdf5.a
 -rwxr-xr-x	root/root	usr/lib/libhdf5.la
 -rw-r--r--	root/root	usr/lib/libhdf5.settings
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.310.4.0
-lrwxrwxrwx	root/root	usr/lib/libhdf5.so.310 -> libhdf5.so.310.4.0
--rwxr-xr-x	root/root	usr/lib/libhdf5.so.310.4.0
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so -> libhdf5.so.310.5.1
+lrwxrwxrwx	root/root	usr/lib/libhdf5.so.310 -> libhdf5.so.310.5.1
+-rwxr-xr-x	root/root	usr/lib/libhdf5.so.310.5.1
 -rw-r--r--	root/root	usr/lib/libhdf5_cpp.a
 -rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so -> libhdf5_cpp.so.310.0.4
-lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so.310 -> libhdf5_cpp.so.310.0.4
--rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.so.310.0.4
+lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so -> libhdf5_cpp.so.310.0.6
+lrwxrwxrwx	root/root	usr/lib/libhdf5_cpp.so.310 -> libhdf5_cpp.so.310.0.6
+-rwxr-xr-x	root/root	usr/lib/libhdf5_cpp.so.310.0.6
 -rw-r--r--	root/root	usr/lib/libhdf5_hl.a
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.310.0.4
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.310 -> libhdf5_hl.so.310.0.4
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.310.0.4
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so -> libhdf5_hl.so.310.0.6
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl.so.310 -> libhdf5_hl.so.310.0.6
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl.so.310.0.6
 -rw-r--r--	root/root	usr/lib/libhdf5_hl_cpp.a
 -rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.la
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so -> libhdf5_hl_cpp.so.310.0.4
-lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so.310 -> libhdf5_hl_cpp.so.310.0.4
--rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.so.310.0.4
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/hdf5/
-drwxr-xr-x	root/root	usr/share/hdf5/c++/
--rw-r--r--	root/root	usr/share/hdf5/c++/chunks.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/compound.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/create.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/extend_ds.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5group.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_cmprss.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_crtatt.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_crtdat.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_crtgrp.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_crtgrpar.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_crtgrpd.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_extend.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_rdwt.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/h5tutr_subset.cpp
--rw-r--r--	root/root	usr/share/hdf5/c++/readdata.cpp
--rwxr-xr-x	root/root	usr/share/hdf5/c++/run-c++-ex.sh
--rw-r--r--	root/root	usr/share/hdf5/c++/writedata.cpp
-drwxr-xr-x	root/root	usr/share/hdf5/c/
--rw-r--r--	root/root	usr/share/hdf5/c/h5_attribute.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_chunk_read.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_cmprss.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_compound.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_crtatt.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_crtdat.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_crtgrp.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_crtgrpar.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_crtgrpd.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_debug_trace.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_drivers.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_elink_unix2win.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_extend.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_extend_write.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_extlink.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_group.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_mount.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_rdwt.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_read.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_ref2reg_deprec.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_ref_compat.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_ref_extern.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_reference_deprec.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_select.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_shared_mesg.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_subset.c
--rw-r--r--	root/root	usr/share/hdf5/c/h5_write.c
--rwxr-xr-x	root/root	usr/share/hdf5/c/run-c-ex.sh
-drwxr-xr-x	root/root	usr/share/hdf5/hl/
-drwxr-xr-x	root/root	usr/share/hdf5/hl/c++/
--rw-r--r--	root/root	usr/share/hdf5/hl/c++/ptExampleFL.cpp
--rwxr-xr-x	root/root	usr/share/hdf5/hl/c++/run-hlc++-ex.sh
-drwxr-xr-x	root/root	usr/share/hdf5/hl/c/
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_ds1.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_image1.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_image2.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_lite1.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_lite2.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_lite3.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_01.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_02.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_03.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_04.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_05.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_06.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_07.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_08.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_09.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_10.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_11.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ex_table_12.c
--rw-r--r--	root/root	usr/share/hdf5/hl/c/image24pixel.txt
--rw-r--r--	root/root	usr/share/hdf5/hl/c/image8.txt
--rw-r--r--	root/root	usr/share/hdf5/hl/c/pal_rgb.h
--rw-r--r--	root/root	usr/share/hdf5/hl/c/ptExampleFL.c
--rwxr-xr-x	root/root	usr/share/hdf5/hl/c/run-hlc-ex.sh
--rwxr-xr-x	root/root	usr/share/hdf5/hl/run-hl-ex.sh
--rwxr-xr-x	root/root	usr/share/hdf5/run-all-ex.sh
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so -> libhdf5_hl_cpp.so.310.0.6
+lrwxrwxrwx	root/root	usr/lib/libhdf5_hl_cpp.so.310 -> libhdf5_hl_cpp.so.310.0.6
+-rwxr-xr-x	root/root	usr/lib/libhdf5_hl_cpp.so.310.0.6

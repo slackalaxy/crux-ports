@@ -1,7 +1,7 @@
 # Description: A command-line network manager
 # URL: https://mirrors.edge.kernel.org/pub/linux/network/connman/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: glib gnutls libmnl wpa_supplicant
+# Depends on: glib gnutls libmnl openvpn wpa_supplicant
 
 name=connman
 version=1.43

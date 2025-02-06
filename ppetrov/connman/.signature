@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbjpKuvur3acBMysBC3hseblGVGrvYB6Mb+9KGRo4cY+mIFgxzn14+39PPe1szhiradnwci5oIFrjXWsTyf/4wA=
-SHA256 (Pkgfile) = da1d20d84468be0d4ab6bf589844e06422751da0566283d222a648fabf82cedf
+RWToVVsIkzFIZf8MVqjqbI5mqoOBbd5nZdgnR5DnTfAn3cma+5S2SnCAIw5rsxOwnReeagLpA9LNxbvt4MFBULGKAoN8fa9ZvQQ=
+SHA256 (Pkgfile) = 4348e08ac1b44bad3f3c09b51dbe4999ce4484e9588505b41d3937b8a8eb0fef
 SHA256 (.footprint) = 4555053984e32fbf7e4cdca2bcd0d5d779bae99705843c491e7ef72ea48a007c
 SHA256 (connman-1.43.tar.gz) = b8f5ab5d109d033edebe5b0564d20c9b7b9546a607195cdadc6754eb328b6f6e
 SHA256 (connmand.rc) = 34fca773f2c1ebd78e16e3bee487928872b2bd0865b2a3d49eae5ffcb127c8cf

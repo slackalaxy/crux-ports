@@ -4,7 +4,7 @@
 # Depends on: python3
 
 name=python3-dendropy
-version=5.0.2
+version=5.0.6
 release=1
 source=(https://github.com/jeetsukumaran/DendroPy/archive/v${version}/DendroPy-$version.tar.gz)
 

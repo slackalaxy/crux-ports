@@ -1,10 +1,10 @@
 # Description: A documentation metadata library
 # URL: http://rarian.freedesktop.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: tinyxml
+# Depends on: tinyxml2
 
 name=rarian
-version=0.8.5
+version=0.8.6
 release=1
 source=(https://gitlab.freedesktop.org/rarian/rarian/-/releases/$version/downloads/assets/$name-$version.tar.bz2)
 

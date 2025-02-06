@@ -1,14 +1,14 @@
 # Description: Hierarchical Data Format 5
-# URL: https://hdfgroup.org/
+# URL: https://github.com/HDFGroup/hdf5
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=hdf5
-version=1.14.4
+version=1.14.6
 release=1
-source=(https://support.hdfgroup.org/ftp/HDF5/releases/hdf5-${version:0:4}/hdf5-${version}/src/hdf5-${version}-3.tar.gz)
+source=(https://github.com/HDFGroup/hdf5/releases/download/hdf5_${version}/hdf5-${version}.tar.gz)
 
 build() {
-	cd $name-${version}-3
+	cd $name-${version}
 	./configure --prefix=/usr \
 	--enable-cxx \
 	--with-examplesdir=/usr/share/$name

@@ -4,7 +4,7 @@
 # Depends on: openmm
 
 name=python3-pdbfixer
-version=1.10
+version=1.11
 release=1
 source=(https://github.com/openmm/pdbfixer/archive/v${version}/pdbfixer-v${version}.tar.gz
 	pdbfixer.desktop pdbfixer.png)
