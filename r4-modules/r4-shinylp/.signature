@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89AVLjUvRFNH9kvJbqXpA+0hpo1wIn25FbcB9vyJ8Iff7cHssM0mvLT38Gro13IE7xHSsPcVkHvMWtLqTQNlQVws=
+SHA256 (Pkgfile) = 3945a62da32345b48bef6fb087de8e531917000538449ba69b72373fa13329d0
+SHA256 (.footprint) = 995b752330243bd71333200407558345b58542ad617dfca532fec83351ff68a9
+SHA256 (shinyLP_1.1.3.tar.gz) = cc129b34048b1a00e18a24ccd6f1c357e7f13b084995c5010b0787af564bb1b1

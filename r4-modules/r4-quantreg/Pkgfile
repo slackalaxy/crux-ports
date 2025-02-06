@@ -5,7 +5,7 @@
 # Optional: r4-conquer r4-formula r4-interp r4-logspline r4-nor1mix r4-r-rsp r4-rgl r4-zoo
 
 name=r4-quantreg
-version=5.99.1
+version=6.00
 release=1
 source=(https://cloud.r-project.org/src/contrib/quantreg_${version}.tar.gz)
 

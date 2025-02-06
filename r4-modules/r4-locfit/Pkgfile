@@ -5,9 +5,9 @@
 # Optional: r4-gam r4-interp
 
 name=r4-locfit
-version=1.5.9.10
+version=1.5.9.11
 release=1
-source=(https://cloud.r-project.org/src/contrib/locfit_1.5-9.10.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/locfit_1.5-9.11.tar.gz)
 
 build() {
 	cd locfit

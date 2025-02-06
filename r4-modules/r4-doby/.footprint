@@ -31,8 +31,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/doBy/doc/
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/doby.rmd
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/linest_lsmeans.R
+-rw-r--r--	root/root	usr/lib/R/library/doBy/doc/linest_lsmeans.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/linest_lsmeans.pdf
--rw-r--r--	root/root	usr/lib/R/library/doBy/doc/linest_lsmeans.rnw
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/section_fun.R
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/section_fun.html
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/section_fun.rmd

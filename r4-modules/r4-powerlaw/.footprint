@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/poweRlaw/R/
 -rw-r--r--	root/root	usr/lib/R/library/poweRlaw/R/poweRlaw
 -rw-r--r--	root/root	usr/lib/R/library/poweRlaw/R/poweRlaw.rdb
 -rw-r--r--	root/root	usr/lib/R/library/poweRlaw/R/poweRlaw.rdx
+-rw-r--r--	root/root	usr/lib/R/library/poweRlaw/WORDLIST
 drwxr-xr-x	root/root	usr/lib/R/library/poweRlaw/data/
 -rw-r--r--	root/root	usr/lib/R/library/poweRlaw/data/bootstrap_moby.RData
 -rw-r--r--	root/root	usr/lib/R/library/poweRlaw/data/bootstrap_p_moby.RData

@@ -5,7 +5,7 @@
 # Optional: r4-httr2 r4-jsonlite r4-openssl r4-rappdirs
 
 name=r4-yulab-utils
-version=0.1.9
+version=0.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/yulab.utils_${version}.tar.gz)
 

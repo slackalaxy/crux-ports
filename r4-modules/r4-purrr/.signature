@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89OuGE0n8JqCWLq1zA6cbOdxIbRSqy5ipmSaR9xNdnAmM7J+2Ep2iQAIjS3IUWvFKP7jSFlUc/bXPVI5wVkaqtwU=
-SHA256 (Pkgfile) = bbb5f8ac91bcedc83fb031d6bbce062435d719efa2f557d6ec811245cca1a337
+RWQ2oTreAss89MBX3bkfUsu00/84hAzidrpxuxrvYCQO+VQv3p0BDWjlS03FNuxLFXS3T2s/6kYEJz2VlklCz8LqDf4t6kxHUwk=
+SHA256 (Pkgfile) = 31d0e953e16a826e1221acef39a8e6c7cc7d8e3a07f8faa8b729ae8b6b6c58ec
 SHA256 (.footprint) = cec11770efc175064c22c786204fb271c27de9c550d34cf30ed139f7434f3535
-SHA256 (purrr_1.0.2.tar.gz) = 2c1bc6bb88433dff0892b41136f2f5c23573b335ff35a4775c72aa57b48bbb63
+SHA256 (purrr_1.0.4.tar.gz) = 6c013724651c5daae56a7b8e126baef958d30d4c01dd0dda3d17fc43409b8e54

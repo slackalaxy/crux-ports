@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AMjw+vQJVWDyUk7P4loozRliynJjmUklGSx2fnOKZ1FxLsX70sDeE8F6Qh64++YddWMG1YrLuvNfbc4ibreYgg=
-SHA256 (Pkgfile) = 4bded81c89d0bb26e0d84135537dad1a2d890821499d6d89ae6dee90a8f45729
+RWQ2oTreAss89AVgUaEr0KCLKRL8j6WoCZMDdcxEgOWqgI6iil6jgbIS8tXw7HP9gSJtcbwNiNRiVGTiH4R7vE2YXF1Rwvb+7QU=
+SHA256 (Pkgfile) = e4791c9ce778a5aeef4f1a086fd81bf3b75050c98fa1e503b45b511b898cabee
 SHA256 (.footprint) = 43595e5216fa1bf9a0052a3e3603a28ec0da85231e2b99cd4019589bdc8eda83
-SHA256 (Matrix_1.7-1.tar.gz) = a2cabbf04e4e2cafbd0a04281f130bb58e4f7653a91951368a404ef8682b38a1
+SHA256 (Matrix_1.7-2.tar.gz) = 7f019d9ae5d69b799c929cacc3b17e06b09fa65e2db9e007be4753751e96c650

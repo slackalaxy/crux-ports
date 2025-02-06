@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NPLrCr1Vkmy/tNeR7ucXSsfkBf4E/UsxdRaewRsjGBir3FSuC2CXPoLHzgQEaes41oN6MjagvjQF2DdRcUF7QA=
-SHA256 (Pkgfile) = 7c0e6570f0e367b1160ff37dfda3910e1397a321343338b183487cc4c0dbcc04
-SHA256 (.footprint) = 5e2a4a6778b1ee785492123d1ce47fd0dd07de0ad519a4257139eaf390264ec2
-SHA256 (poweRlaw_0.80.0.tar.gz) = 713556af1f47e1de749670d08f963688908cfa80e9dfda590efd1a28441772cb
+RWQ2oTreAss89CaqEtVGJ/K4Z9R4/nmp2PJYjYUVEeMTgSlmsxaNc+PaRetjJVvma0ZHegxC8nRlTP2O2dexGfNoCa20E1fUogc=
+SHA256 (Pkgfile) = 92bcb1f8adbec08a077c9e63462bc73f60128ea26d4093de86bf79a03c995ab9
+SHA256 (.footprint) = fd04fabaea742ac312538d96d91a28e688f270c2c17578922b5b73fbb9e31263
+SHA256 (poweRlaw_1.0.0.tar.gz) = 6479817babafedf3d67297c8a0e6b711378f322fd1472471f80621c12552fcdd

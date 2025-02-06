@@ -37,7 +37,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/sp/demo/
 -rw-r--r--	root/root	usr/lib/R/library/sp/demo/meuse.R
 -rw-r--r--	root/root	usr/lib/R/library/sp/demo/mp.R
 -rw-r--r--	root/root	usr/lib/R/library/sp/demo/polar.R
--rw-r--r--	root/root	usr/lib/R/library/sp/demo/webmap.R
 drwxr-xr-x	root/root	usr/lib/R/library/sp/doc/
 -rw-r--r--	root/root	usr/lib/R/library/sp/doc/CRS_warnings.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/sp/doc/CRS_warnings.html
@@ -51,6 +50,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/sp/doc/
 -rw-r--r--	root/root	usr/lib/R/library/sp/doc/retiring_rgdal_geos_1.R
 -rw-r--r--	root/root	usr/lib/R/library/sp/doc/retiring_rgdal_geos_1.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/sp/doc/retiring_rgdal_geos_1.html
+-rw-r--r--	root/root	usr/lib/R/library/sp/doc/sp_gallery.R
+-rw-r--r--	root/root	usr/lib/R/library/sp/doc/sp_gallery.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/sp/doc/sp_gallery.html
 drwxr-xr-x	root/root	usr/lib/R/library/sp/external/
 -rw-r--r--	root/root	usr/lib/R/library/sp/external/seamap105_mod.csv
 -rw-r--r--	root/root	usr/lib/R/library/sp/external/simple.ag
@@ -64,8 +66,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/sp/help/
 drwxr-xr-x	root/root	usr/lib/R/library/sp/html/
 -rw-r--r--	root/root	usr/lib/R/library/sp/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/sp/html/R.css
-drwxr-xr-x	root/root	usr/lib/R/library/sp/include/
--rw-r--r--	root/root	usr/lib/R/library/sp/include/sp.h
--rw-r--r--	root/root	usr/lib/R/library/sp/include/sp_xports.c
 drwxr-xr-x	root/root	usr/lib/R/library/sp/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/sp/libs/sp.so

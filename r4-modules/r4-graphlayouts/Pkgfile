@@ -5,7 +5,7 @@
 # Optional: r4-ggplot2 r4-oaqc r4-testthat r4-uwot
 
 name=r4-graphlayouts
-version=1.2.1
+version=1.2.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/graphlayouts_${version}.tar.gz)
 

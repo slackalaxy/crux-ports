@@ -5,7 +5,7 @@
 # Optional: r4-geepack r4-knitr r4-lme4 r4-markdown r4-multcomp r4-pbkrtest r4-survival r4-testthat
 
 name=r4-doby
-version=4.6.24
+version=4.6.25
 release=1
 source=(https://cloud.r-project.org/src/contrib/doBy_${version}.tar.gz)
 

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89EdXqr9dE4I3qC9uCuqTOwroBmO5QgzbEN7qm0eSuvyOL3rjqk/XYWixaNvpRRt9C5Ed+XTKCoXGPEJA821d5go=
-SHA256 (Pkgfile) = 4160d86c5f0ffe3a98eca51ba209bdc8e1cd63f7aada899b91d1ddafe69a432b
-SHA256 (.footprint) = b852dd809c511c22d0d8e309154a6dcf0faa2fc44ef50836e429f67723019d90
-SHA256 (bslib_0.8.0.tar.gz) = fd182ddb1b128691d2b0c12882361732a23d451dbf4052ba70b11257e8d44b03
+RWQ2oTreAss89EH9A1Ly7HWwj4kDfdXEa/oW4VgX5U9Z+Up/kiUo5l4V0LvxawqhylgQB/pFdlSgcaX+YWCC6uq7/hEAGsX4rg4=
+SHA256 (Pkgfile) = bf7d7c399c355606c53d671415041ad4aabe7797bd30e3f051340836bd5e774a
+SHA256 (.footprint) = bb0d282cce2e5717b1a91c6f47e0c1b2ed2717c2a167f64b47e606aaa5235d89
+SHA256 (bslib_0.9.0.tar.gz) = add7a107ff6a3185f68511cfcc45832f018917870eae06a8044f41de84ff0907

@@ -29,6 +29,10 @@ drwxr-xr-x	root/root	usr/lib/R/library/dbscan/README_files/
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/README_files/tidyverse3-1.png
 drwxr-xr-x	root/root	usr/lib/R/library/dbscan/data/
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/data/DS3.rdata
+-rw-r--r--	root/root	usr/lib/R/library/dbscan/data/Dataset_1.rda
+-rw-r--r--	root/root	usr/lib/R/library/dbscan/data/Dataset_2.rda
+-rw-r--r--	root/root	usr/lib/R/library/dbscan/data/Dataset_3.rda
+-rw-r--r--	root/root	usr/lib/R/library/dbscan/data/Dataset_4.rda
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/data/moons.rdata
 drwxr-xr-x	root/root	usr/lib/R/library/dbscan/doc/
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/doc/dbscan.R
@@ -51,7 +55,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/dbscan/html/
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/dbscan/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/dbscan/libs/dbscan.so
-drwxr-xr-x	root/root	usr/lib/R/library/dbscan/test_data/
--rw-r--r--	root/root	usr/lib/R/library/dbscan/test_data/elki_optics.rda
--rw-r--r--	root/root	usr/lib/R/library/dbscan/test_data/elki_optics_xi.rda
--rw-r--r--	root/root	usr/lib/R/library/dbscan/test_data/test_data.rda

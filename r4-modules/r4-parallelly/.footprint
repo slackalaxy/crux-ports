@@ -73,6 +73,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/parallelly/test-data/cgroups2/
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/cgroups2/posit.cloud-free.tar.gz
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/cgroups2/x1.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/cgroups2/x1.tar.gz
+drwxr-xr-x	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/piavpn-cgroups.tar.gz
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/piavpn.R
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/slurm-cgroups.tar.gz
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/slurm.R
 drwxr-xr-x	root/root	usr/lib/R/library/parallelly/test-data/no-cgroups/
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/no-cgroups/no-cgroups.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/no-cgroups/no-cgroups.tar.gz

@@ -2,12 +2,12 @@
 # URL: https://cran.r-project.org/web/packages/sp
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-lattice
-# Optional: r4-deldir r4-gstat r4-knitr r4-raster r4-rcolorbrewer r4-rmarkdown r4-sf r4-terra
+# Optional: r4-deldir r4-gstat r4-knitr r4-maps r4-mapview r4-raster r4-rcolorbrewer r4-rmarkdown r4-sf r4-terra
 
 name=r4-sp
-version=2.1.4
+version=2.2.0
 release=1
-source=(https://cloud.r-project.org/src/contrib/sp_2.1-4.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/sp_2.2-0.tar.gz)
 
 build() {
 	cd sp

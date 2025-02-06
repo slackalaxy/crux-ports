@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89B5ZSSEhRLmtdp5qSJy9qwzHTEIr8+0Fm4fAgwr8UEol+yK6mENvc3iJEVNiai/0yL9iGFxqWfZdupi5UTCvGwM=
-SHA256 (Pkgfile) = 1713f71af6ec0803c213d4f90354706c49074198decb5a48a3d16c9cd721a640
-SHA256 (.footprint) = 8b667bb068ab95658e4153374b72f337441600d4d619cff9ec79434b4a2766d5
-SHA256 (protodeviser-dbff86b32459f568dc6c1749dba3856ee43096f1.tar.gz) = 2539ac1ac2d563d5c7c937410199eaad1a86076c1a5938c2eee18e8c3d093e52
+RWQ2oTreAss89AbSmFRBIDnOmD9E+sT2b9zb5/1EFqq5e3LhVXxZHlT3LDrBITtFXMuWtns9kJyTD5h31Heo4Kg/aJe34yjrAgo=
+SHA256 (Pkgfile) = 6195773b6c9bcedecc00658f1bdba0f874ced3993515098a0ec1d2513a7719a1
+SHA256 (.footprint) = ef438f8882bc9176ecce5e7814b5c6fad8860492c6f6aafcbdad6f2785c3aa47
+SHA256 (protodeviser-9a50d2d766335fef950545e6c298d41ccb7409df.tar.gz) = 481d06c148c14317904fca80a8adcc690b582f2e5cbe3a3f16623c90cbeb8b0f

@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-knitr r4-testthat
 
 name=r4-powerlaw
-version=0.80.0
+version=1.0.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/poweRlaw_${version}.tar.gz)
 

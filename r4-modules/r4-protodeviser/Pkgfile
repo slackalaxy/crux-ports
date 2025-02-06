@@ -1,15 +1,19 @@
 # Description: R module ProToDeviseR
 # URL: https://github.com/Izzilab/protodeviser
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-gggenomes r4-jsonlite r4-dplyr r4-seqinr r4-openxlsx r4-shiny r4-shinybs r4-rclipboard r4-shinyjs r4-dt r4-textshaping r4-ragg r4-markdown r4-pkgdown
+# Depends on: r r4-gggenomes r4-jsonlite r4-dplyr r4-seqinr r4-openxlsx r4-shiny r4-shinybs r4-shinybusy r4-rclipboard r4-shinyjs r4-dt r4-textshaping r4-viridis r4-ragg r4-markdown r4-pkgdown
 
 name=r4-protodeviser
-version=dbff86b
+version=9a50d2d
 release=1
-source=(https://github.com/izzilab/protodeviser/archive/dbff86b/protodeviser-dbff86b32459f568dc6c1749dba3856ee43096f1.tar.gz)
+source=(https://github.com/izzilab/protodeviser/archive/$version/protodeviser-9a50d2d766335fef950545e6c298d41ccb7409df.tar.gz)
 
 build() {
 	cd protodeviser-$version*
 	mkdir -p $PKG/usr/lib/R/library
 	R CMD INSTALL . -l $PKG/usr/lib/R/library
+	
+	# read/write permissions for all are required here
+	chown root:root $PKG/usr/lib/R/library/protodeviser/webApp/www/pfam/
+	chmod 777 $PKG/usr/lib/R/library/protodeviser/webApp/www/pfam/
 }

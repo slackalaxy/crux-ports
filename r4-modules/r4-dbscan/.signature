@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KZ72+REQNa2ADL1IzgYhz8KMn4+Hg5vjb2b6shBDxWjJbe/W47yhfzvK+P2UB5KkGk0zclUxfaIgKBEc3WTWgQ=
-SHA256 (Pkgfile) = 5d7d0b8826e15c7f0c5a1279cdd56e634fcb953e4ae63983f407340c7108199f
-SHA256 (.footprint) = e193fae55a07cc2d762f2353f71da5e9c0718a4a543d0975c625b05e252a9611
-SHA256 (dbscan_1.2-0.tar.gz) = 7209ba2c18171af62a0fddccd9e2ee0f2640dd955739baf89b3ba65162816267
+RWQ2oTreAss89BTZamW/MFdyc/IKV4KO/42S5GS0ozO3FZ0+iE6fgRzXvzDAkca+aIKdXe7TapBtWYyvoIZ8Kp2PaG855fMFpQU=
+SHA256 (Pkgfile) = 03f54a0bf396d81e6af99864f1f1a6ee9a1a0d8638feeba20da04ce21faae66f
+SHA256 (.footprint) = b1773414783b5e1cb01469d4d5106028901c2b1c7a055f69d146cdc70d35475a
+SHA256 (dbscan_1.2.2.tar.gz) = 0c3abdd122521d9be8cbdb3589a91a18ef18a3d00493fdb140fd932bae0fe343
