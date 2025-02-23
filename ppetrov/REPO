@@ -951,8 +951,8 @@ f:9d5ba646510646af00bc7a831554cf8a:goffice08/README
 f:a4c14788c236bb2c8b11b04fa695f9ca:goffice08/disable-linking-pcre.patch
 f:a0841a9f55284f3fbc1c01a7717a345f:goffice08/go-conf-gsettings.c
 f:4957b29450551ff6d3c50bb79d019322:google-chrome/.footprint
-f:e3e597b61d49dddb571bb160d13ebd1a:google-chrome/.signature
-f:cf757b193d1ac3a1b3b048eca99a9ba2:google-chrome/Pkgfile
+f:dec7c9c3a54fd77017763d6cdb51c036:google-chrome/.signature
+f:bfb33f1933c11dc6c65060761f835aa8:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:461fb518d8349ead3cf5e93c9a20e4fd:bowtie2/.signature
 f:23d8c1e0706b2ef9db200c9795d5a334:bowtie2/Pkgfile
@@ -1211,8 +1211,8 @@ f:31cfc792c5082164da1fa8bed5f947e1:libgnome/.signature
 f:ef92ec3c4ad315f3e820112b76872913:libgnome/Pkgfile
 f:97f421435e04a34c47d1db5bf4568591:libgnome/.footprint
 f:904b81d4b01d3e5ab02fffdb52f22bf8:microsoft-edge/.footprint
-f:30a31405600dd3a0535659598c9e595e:microsoft-edge/.signature
-f:da2c6a4ecfc34d0fddb8646fb573be28:microsoft-edge/Pkgfile
+f:5bceaaeacdaea6a70c19a44993858271:microsoft-edge/.signature
+f:fa6651d05b660f1b60cf1530547a8334:microsoft-edge/Pkgfile
 f:6257865c4283f32a41578a471bf36a8d:microsoft-edge/README
 f:9c6c0d28fab9840bafcee7df6fab4904:miniconda3/.footprint
 f:52f602a14f5ce5e442eebfd6ba4febce:miniconda3/.signature
@@ -1221,8 +1221,8 @@ f:dfe9825fbc3c36234241142ee1cc283c:kalign/.signature
 f:a8c7a52eceaf5d4f31675ad9bf0db16c:kalign/Pkgfile
 f:03fc49d665cc7bd8c9b4e7fe471b35f7:kalign/.footprint
 f:9fcd890e76dbd16c31e47cf16ef59334:mplayer/.footprint
-f:43892b025e5b5febce9060ae552b4b0b:mplayer/.signature
-f:2d2723bb945f9f6915e9623f1ed26482:mplayer/Pkgfile
+f:4ad0a706a3dae2cf8e0159fea8ab08e4:mplayer/.signature
+f:b7a764b6b5be25c12a9334c5c26d02b3:mplayer/Pkgfile
 f:3e7b0aee696cb9d0f433f6e0a0451300:mplayer/README
 f:f659e7a1cbd746f613edef058404b575:mplayer/mplayer.conf
 f:e45770a616a53b186ad254ef74e330f9:libgnomemm/Pkgfile
@@ -1857,9 +1857,9 @@ f:b89deec4f49c6073ad34e49bd561a529:viewnior/.footprint
 f:418911e1a95686743e02ad95d9380e2a:viewnior/.signature
 f:e93f8095f1a5bf2ebbc60eedee1b2730:viewnior/Pkgfile
 f:975eeae744a613e326b89b5dd4ef1fbe:viewnior/exiv2-0.28.patch
-f:2f8a25a6f5a272b8517c871e55566d5d:vscodium/.footprint
-f:b28616e4f15b43bc4bc10b4d6c1774c4:vscodium/.signature
-f:107806921cde10516e2cff65530f7953:vscodium/Pkgfile
+f:14c32a31258504f29c1e4060c44965b0:vscodium/.footprint
+f:7548f3dd4ca3471e03eaedc51cc29cc9:vscodium/.signature
+f:fd7c6bf7985f7a4db6fab08277b0f50c:vscodium/Pkgfile
 f:906fe2f86788284dbf59d627e4a24227:vscodium/vscodium.desktop
 f:9232d91c88fa852bb19805074d3354ab:vscodium/vscodium.png
 f:27f2440e03177aed29c8e57f1fc95b34:wehi-cellsymphony/.footprint
@@ -2039,8 +2039,8 @@ f:dd341593e64ccdc92dc375b84f506d40:xv/Pkgfile
 f:0e680bc2f45986e6838a3667b60825d3:xv/xv.desktop
 f:45823cf4b6131dd540d61950667d38bc:xv/xv.png
 f:08cf60df8c8bc0389fb021fffc1f7726:zoom-linux/.footprint
-f:cb3fd48a3c416583382196c5428e9b11:zoom-linux/.signature
-f:5380b14d7db0581018df98c7a7b3fe04:zoom-linux/Pkgfile
+f:3c8f7aafed62d360c3a2f0a4867211c0:zoom-linux/.signature
+f:c6f673fefbb3d2e5ba55b04ead146dff:zoom-linux/Pkgfile
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
 f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png

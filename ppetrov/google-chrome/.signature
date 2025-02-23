@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZYLCuGh6HGUQZbkDz7sEwebAsPUmArs7yDON6LT98nf2kjjq6dasZca59Nd6reW0BD27NMCegqqEUlALi8vh2gQ=
-SHA256 (Pkgfile) = 7cc71480724eb795887810958632b2e3d510a9a745419ab6ad9b76557299045a
+RWToVVsIkzFIZQLS8xBnDZr1a5VVl3E5ZEJ/ohoVbNUarOwJgldxVKhHEK9CYuRk95UUXydxdfqg+aTBjCxxX1mK1BPEz56b3wE=
+SHA256 (Pkgfile) = c33160bff0e36b4e6fc8e23d9a165dd864fca339863f6adad27da003963ea280
 SHA256 (.footprint) = 7fbc633f02eb08c2515744d34391cdcf072ba894604bfa4df62f37e3a851ad9b
-SHA256 (google-chrome-stable-133.0.6943.53_amd64.deb) = ef75f672885ba08f866c50e4e62923c674f53ca8c6e14a32ce103d4fd41ef559
+SHA256 (google-chrome-stable-133.0.6943.126_amd64.deb) = 07590fa0f3203cec2eb31a2c5b381ee1dea3430574035d1fc0bda072bcd8bbfe
 SHA256 (google-chrome.fonts.conf) = 8272bb82d655d81050047962c8e20f051f483773a839a33e9af902f983eb50a5
