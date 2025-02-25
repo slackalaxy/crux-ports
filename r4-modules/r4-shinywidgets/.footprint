@@ -436,6 +436,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/bookmarking/
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/bootstrapSwitch/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/bootstrapSwitch/server.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/bootstrapSwitch/ui.R
+drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/calendar-pro/
+drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/calendar-pro/disable/
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/calendar-pro/disable/app.R
+drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/calendar-pro/value/
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/calendar-pro/value/app.R
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/examples/checkboxGroupButtons/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/checkboxGroupButtons/server.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/examples/checkboxGroupButtons/ui.R
@@ -521,6 +526,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/help/figures/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/help/figures/checkboxGroupButtons.png
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/help/figures/dropdown_btn_off.png
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/help/figures/dropdown_btn_on.png
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/help/figures/lifecycle-deprecated.svg
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/help/figures/materialSwitch.png
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/help/figures/nouislider.png
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/help/figures/pickerInput.png
@@ -542,6 +548,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/packer/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/air-datepicker.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/autonumeric.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/buttons-group.js
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/calendar-pro.js
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/calendar-pro.js.LICENSE.txt
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/colorpickr.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/colorpickr.js.LICENSE.txt
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/input-icons.js

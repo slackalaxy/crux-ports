@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/R6
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: r4-pryr r4-testthat
+# Optional: r4-lobstr r4-testthat
 
 name=r4-r6
-version=2.5.1
+version=2.6.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/R6_${version}.tar.gz)
 

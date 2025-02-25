@@ -1,11 +1,11 @@
 # Description: R module recipes
 # URL: https://cran.r-project.org/web/packages/recipes
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-clock r4-dplyr r4-generics r4-glue r4-gower r4-hardhat r4-ipred r4-lifecycle r4-lubridate r4-magrittr r4-matrix r4-purrr r4-rlang r4-tibble r4-tidyr r4-tidyselect r4-timedate r4-vctrs r4-withr
+# Depends on: r r4-cli r4-clock r4-dplyr r4-generics r4-glue r4-gower r4-hardhat r4-ipred r4-lifecycle r4-lubridate r4-magrittr r4-matrix r4-purrr r4-rlang r4-sparsevctrs r4-tibble r4-tidyr r4-tidyselect r4-timedate r4-vctrs r4-withr
 # Optional: r4-covr r4-ddalpha r4-dials r4-ggplot2 r4-igraph r4-kernlab r4-knitr r4-modeldata r4-parsnip r4-rann r4-rcpproll r4-rmarkdown r4-rpart r4-rsample r4-rspectra r4-splines2 r4-testthat r4-workflows r4-xml2
 
 name=r4-recipes
-version=1.1.0
+version=1.1.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/recipes_${version}.tar.gz)
 

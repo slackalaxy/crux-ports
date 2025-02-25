@@ -32,6 +32,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/data.table/doc/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-intro.R
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-intro.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-intro.html
+-rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-joins.R
+-rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-joins.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-joins.html
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-keys-fast-subset.R
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-keys-fast-subset.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-keys-fast-subset.html
@@ -73,10 +76,18 @@ drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/es/
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/es/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/po/es/LC_MESSAGES/R-data.table.mo
 -rw-r--r--	root/root	usr/lib/R/library/data.table/po/es/LC_MESSAGES/data.table.mo
+drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/fr/
+drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/fr/LC_MESSAGES/
+-rw-r--r--	root/root	usr/lib/R/library/data.table/po/fr/LC_MESSAGES/R-data.table.mo
+-rw-r--r--	root/root	usr/lib/R/library/data.table/po/fr/LC_MESSAGES/data.table.mo
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/pt_BR/
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/pt_BR/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/po/pt_BR/LC_MESSAGES/R-data.table.mo
 -rw-r--r--	root/root	usr/lib/R/library/data.table/po/pt_BR/LC_MESSAGES/data.table.mo
+drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/ru/
+drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/ru/LC_MESSAGES/
+-rw-r--r--	root/root	usr/lib/R/library/data.table/po/ru/LC_MESSAGES/R-data.table.mo
+-rw-r--r--	root/root	usr/lib/R/library/data.table/po/ru/LC_MESSAGES/data.table.mo
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/zh_CN/
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/po/zh_CN/LC_MESSAGES/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/po/zh_CN/LC_MESSAGES/R-data.table.mo
@@ -137,6 +148,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/data.table/tests/csvy/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/issue_2157_sampling_reached_eof_early.txt.bz2
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/issue_3400_fread.txt
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/issue_563_fread.txt
+-rw-r--r--	root/root	usr/lib/R/library/data.table/tests/issue_6729.txt.bz2
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/issue_773_fread.txt
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/issue_785_fread.txt.gz
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/iterations.txt.bz2

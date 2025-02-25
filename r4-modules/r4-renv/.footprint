@@ -80,7 +80,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/renv/repos/src/contrib/
 -rw-r--r--	root/root	usr/lib/R/library/renv/repos/src/contrib/PACKAGES
 -rw-r--r--	root/root	usr/lib/R/library/renv/repos/src/contrib/PACKAGES.gz
 -rw-r--r--	root/root	usr/lib/R/library/renv/repos/src/contrib/PACKAGES.rds
--rw-r--r--	root/root	usr/lib/R/library/renv/repos/src/contrib/renv_1.1.0.tar.gz
+-rw-r--r--	root/root	usr/lib/R/library/renv/repos/src/contrib/renv_1.1.1.tar.gz
 drwxr-xr-x	root/root	usr/lib/R/library/renv/resources/
 -rw-r--r--	root/root	usr/lib/R/library/renv/resources/WELCOME
 -rw-r--r--	root/root	usr/lib/R/library/renv/resources/activate.R

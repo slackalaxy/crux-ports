@@ -5,7 +5,7 @@
 # Optional: r4-digest
 
 name=r4-r-utils
-version=2.12.3
+version=2.13.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/R.utils_${version}.tar.gz)
 
