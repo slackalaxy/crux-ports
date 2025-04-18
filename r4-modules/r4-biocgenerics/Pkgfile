@@ -1,13 +1,13 @@
 # Description: R module BiocGenerics
 # URL: https://bioconductor.org/packages/BiocGenerics
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
-# Optional: r4-affy r4-affyplm r4-annotate r4-annotationdbi r4-biobase r4-biostrings r4-delayedarray r4-deseq2 r4-flowclust r4-genomicranges r4-iranges r4-msnbase r4-rsamtools r4-runit r4-s4vectors
+# Depends on: r r4-generics
+# Optional: r4-affy r4-affyplm r4-annotate r4-annotationdbi r4-biobase r4-delayedarray r4-deseq2 r4-flowclust r4-genomicranges r4-hdf5array r4-iranges r4-msnbase r4-multiassayexperiment r4-pwalign r4-rsamtools r4-runit r4-s4arrays r4-s4vectors r4-sparsearray
 
 name=r4-biocgenerics
-version=0.50.0
+version=0.54.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocGenerics_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocGenerics_${version}.tar.gz)
 
 build() {
 	cd BiocGenerics

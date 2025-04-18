@@ -1,13 +1,13 @@
 # Description: R module DirichletMultinomial
-# URL: https://cran.r-project.org/web/packages/DirichletMultinomial
+# URL: https://bioconductor.org/packages/DirichletMultinomial
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-biocgenerics r4-iranges r4-s4vectors
-# Optional: r4-lattice r4-mass r4-rcolorbrewer r4-xtable
+# Optional: r4-biocstyle r4-dt r4-knitr r4-lattice r4-mass r4-rcolorbrewer r4-rmarkdown
 
 name=r4-dirichletmultinomial
-version=1.46.0
+version=1.50.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/DirichletMultinomial_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/DirichletMultinomial_${version}.tar.gz)
 
 build() {
 	cd DirichletMultinomial

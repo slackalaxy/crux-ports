@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89HUclfpE80pEwac4dQZdIRuilFUXQGF9E5lTaT2+FIv+ue3GXEyvBBdunnw+dJv4phFSUrFvwUOzGnodoBiL3wM=
-SHA256 (Pkgfile) = d78ab0bc7e7cf8a39ebf28114a51f642781557ee90f2b217bfe4710c7c748744
+RWQ2oTreAss89PobLO9e1qApyeIjM9Qii5hu0Fh5+A8yByR8lbJgUDzIqaYLvoGz0XOFjGedPC8So/vDA771me/d0ed2yeQZUgM=
+SHA256 (Pkgfile) = ac349e19dd6605a92f314fe28af23cc376aa76a5acbae205d5e6eb9483baa9e1
 SHA256 (.footprint) = 37647c851babf357f8afdb83724cad315618bebb2b7ad904e661f8700b298563
-SHA256 (rhdf5filters_1.16.0.tar.gz) = 1df1452264bdb9057c682d6c5d90178046bdd34addd923c100b32c77c9b84e3b
+SHA256 (rhdf5filters_1.20.0.tar.gz) = 5fc154671300686c1c5b5e532e4f33bf7cc0a2268559f836ec1b00fad39617b7

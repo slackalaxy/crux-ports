@@ -5,9 +5,9 @@
 # Optional: r4-hgu133plus2-db r4-org-hs-eg-db r4-rbgl r4-rcolorbrewer r4-spia r4-testthat
 
 name=r4-kegggraph
-version=1.64.0
+version=1.68.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/KEGGgraph_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/KEGGgraph_${version}.tar.gz)
 
 build() {
 	cd KEGGgraph

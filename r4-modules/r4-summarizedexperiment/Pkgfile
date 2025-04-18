@@ -2,12 +2,12 @@
 # URL: https://bioconductor.org/packages/SummarizedExperiment
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-biobase r4-biocgenerics r4-delayedarray r4-genomeinfodb r4-genomicranges r4-iranges r4-matrix r4-matrixgenerics r4-s4arrays r4-s4vectors
-# Optional: r4-airway r4-annotate r4-annotationdbi r4-biocstyle r4-digest r4-genomicfeatures r4-hdf5array r4-hgu95av2-db r4-jsonlite r4-knitr r4-rhdf5 r4-rmarkdown r4-runit r4-testthat r4-txdb-hsapiens-ucsc-hg19-knowngene
+# Optional: r4-airway r4-annotate r4-annotationdbi r4-biocstyle r4-digest r4-genomicfeatures r4-hdf5array r4-hgu95av2-db r4-jsonlite r4-knitr r4-rhdf5 r4-rmarkdown r4-runit r4-singlecellexperiment r4-sparsearray r4-testthat r4-txdb-hsapiens-ucsc-hg19-knowngene
 
 name=r4-summarizedexperiment
-version=1.34.0
+version=1.38.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/SummarizedExperiment_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/SummarizedExperiment_${version}.tar.gz)
 
 build() {
 	cd SummarizedExperiment

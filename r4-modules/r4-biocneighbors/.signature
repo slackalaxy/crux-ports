@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BMpBFehAyoBS0Uq7WCCCkEjlLxrQXPXSkR06KpFOPQXFkzLDaYiOeviWm73Ey52/tXfRfcmAQZqvHA7TL/G1AM=
-SHA256 (Pkgfile) = 76e8bee20e8eff5bbb074d3fc4cb9a746edaca0c76d037e04ae22798307305d2
-SHA256 (.footprint) = d186c1bae804673d5583f828f0b7b333b1c9ed1ebf6ad815a4a45ee5af76510e
-SHA256 (BiocNeighbors_1.22.0.tar.gz) = 2d727fa9e983afd7ff268eef5f6692846e44b50c7248868f98d51b4034232fcf
+RWQ2oTreAss89LoctOzG/+mbAiQyj2+uiwKSriySyXuMMKlzYIxu6EuquOIKjPT/TmnmD5onJDV1OzrsofGDKSTJgqOmmpEjUgI=
+SHA256 (Pkgfile) = be0fba5ac796d18fa596bde888054c19018c416f6de778850a64f28026f0599f
+SHA256 (.footprint) = fd5cf51f08d8d4693d1c86af6a116a27f3d71022afc82727abad8c0060f0f968
+SHA256 (BiocNeighbors_2.2.0.tar.gz) = 3c5a6b91c7318702e51d3defc47591eee0a3f6babfc4c91a4b28f953e0a2d605

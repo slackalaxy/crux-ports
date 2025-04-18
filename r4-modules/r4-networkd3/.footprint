@@ -49,11 +49,13 @@ drwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/
 -rwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/forceNetwork.js
 -rwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/forceNetwork.yaml
 drwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/lib/
-drwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/lib/d3-4.5.0/
--rw-r--r--	root/root	usr/lib/R/library/networkD3/htmlwidgets/lib/d3-4.5.0/LICENSE
--rw-r--r--	root/root	usr/lib/R/library/networkD3/htmlwidgets/lib/d3-4.5.0/d3.min.js
+drwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/lib/d3-4.9.1/
+-rw-r--r--	root/root	usr/lib/R/library/networkD3/htmlwidgets/lib/d3-4.9.1/LICENSE
+-rw-r--r--	root/root	usr/lib/R/library/networkD3/htmlwidgets/lib/d3-4.9.1/d3.min.js
 -rw-r--r--	root/root	usr/lib/R/library/networkD3/htmlwidgets/lib/sankey.js
 -rwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/radialNetwork.js
 -rwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/radialNetwork.yaml
 -rwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/sankeyNetwork.js
 -rwxr-xr-x	root/root	usr/lib/R/library/networkD3/htmlwidgets/sankeyNetwork.yaml
+-rw-r--r--	root/root	usr/lib/R/library/networkD3/htmlwidgets/treeNetwork.js
+-rw-r--r--	root/root	usr/lib/R/library/networkD3/htmlwidgets/treeNetwork.yaml

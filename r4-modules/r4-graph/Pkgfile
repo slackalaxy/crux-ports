@@ -5,9 +5,9 @@
 # Optional: r4-biocstyle r4-cluster r4-knitr r4-rbgl r4-runit r4-sparsem r4-xml
 
 name=r4-graph
-version=1.82.0
+version=1.86.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/graph_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/graph_${version}.tar.gz)
 
 build() {
 	cd graph

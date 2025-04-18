@@ -44,8 +44,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/nloptr/include/
 drwxr-xr-x	root/root	usr/lib/R/library/nloptr/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/nloptr/libs/nloptr.so
 drwxr-xr-x	root/root	usr/lib/R/library/nloptr/tinytest/
--rw-r--r--	root/root	usr/lib/R/library/nloptr/tinytest/test-banana-global.R
--rw-r--r--	root/root	usr/lib/R/library/nloptr/tinytest/test-banana.R
+-rw-r--r--	root/root	usr/lib/R/library/nloptr/tinytest/test-Rosenbrock-banana.R
 -rw-r--r--	root/root	usr/lib/R/library/nloptr/tinytest/test-check.derivatives.R
 -rw-r--r--	root/root	usr/lib/R/library/nloptr/tinytest/test-derivative-checker.R
 -rw-r--r--	root/root	usr/lib/R/library/nloptr/tinytest/test-example.R

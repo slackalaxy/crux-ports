@@ -1,13 +1,13 @@
 # Description: R module scuttle
 # URL: https://bioconductor.org/packages/scuttle
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-beachmat r4-biocgenerics r4-biocparallel r4-delayedarray r4-delayedmatrixstats r4-genomicranges r4-matrix r4-rcpp r4-s4vectors r4-singlecellexperiment r4-summarizedexperiment
-# Optional: r4-biocstyle r4-knitr r4-rmarkdown r4-scran r4-scrnaseq r4-testthat
+# Depends on: r r4-beachmat r4-biocgenerics r4-biocparallel r4-delayedarray r4-genomicranges r4-matrix r4-matrixgenerics r4-rcpp r4-s4arrays r4-s4vectors r4-singlecellexperiment r4-sparsearray r4-summarizedexperiment
+# Optional: r4-biocstyle r4-delayedmatrixstats r4-knitr r4-rmarkdown r4-scran r4-scrnaseq r4-sparsematrixstats r4-testthat
 
 name=r4-scuttle
-version=1.14.0
+version=1.18.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/scuttle_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/scuttle_${version}.tar.gz)
 
 build() {
 	cd scuttle

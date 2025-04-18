@@ -1,11 +1,11 @@
 # Description: R module markdown
 # URL: https://cran.r-project.org/web/packages/markdown
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-commonmark r4-xfun
+# Depends on: r r4-litedown r4-xfun
 # Optional: r4-knitr r4-rcurl r4-rmarkdown r4-yaml
 
 name=r4-markdown
-version=1.13
+version=2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/markdown_${version}.tar.gz)
 

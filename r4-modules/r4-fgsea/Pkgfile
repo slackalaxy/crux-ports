@@ -5,9 +5,9 @@
 # Optional: r4-aggregation r4-annotationdbi r4-geoquery r4-knitr r4-limma r4-msigdbr r4-org-mm-eg-db r4-reactome-db r4-rmarkdown r4-seurat r4-testthat
 
 name=r4-fgsea
-version=1.30.0
+version=1.34.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/fgsea_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/fgsea_${version}.tar.gz)
 
 build() {
 	cd fgsea

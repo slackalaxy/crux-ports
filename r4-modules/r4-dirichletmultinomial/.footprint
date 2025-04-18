@@ -25,8 +25,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/DirichletMultinomial/data/
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/data/xval.rda
 drwxr-xr-x	root/root	usr/lib/R/library/DirichletMultinomial/doc/
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/doc/DirichletMultinomial.R
--rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/doc/DirichletMultinomial.Rnw
--rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/doc/DirichletMultinomial.pdf
+-rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/doc/DirichletMultinomial.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/doc/DirichletMultinomial.html
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/doc/index.html
 drwxr-xr-x	root/root	usr/lib/R/library/DirichletMultinomial/extdata/
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/extdata/TwinStudy.t

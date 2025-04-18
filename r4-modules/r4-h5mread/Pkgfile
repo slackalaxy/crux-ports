@@ -1,0 +1,16 @@
+# Description: R module h5mread
+# URL: https://bioconductor.org/packages/h5mread
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocgenerics r4-iranges r4-rhdf5 r4-rhdf5filters r4-rhdf5lib r4-s4arrays r4-s4vectors r4-sparsearray
+# Optional: r4-biocparallel r4-biocstyle r4-experimenthub r4-hdf5array r4-knitr r4-rmarkdown r4-tenxbraindata r4-testthat
+
+name=r4-h5mread
+version=1.0.0
+release=1
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/h5mread_${version}.tar.gz)
+
+build() {
+	cd h5mread
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

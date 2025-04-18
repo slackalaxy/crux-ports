@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89EqULnCWr1kZrOMLnYeHT/h0XdmD3oE2knIzK2qjt/robV2ZzuEimeJABDKB7yg97gHK+G9Znze+FeAuBWoOYAY=
-SHA256 (Pkgfile) = 5a20454d5bdcd0372d42028c674ad8c9d009e3b9e9d2c5c2a42b2440ce4dc5af
+RWQ2oTreAss89GkgzFx9dLeggyjiZzy5sPXCbr2yeaWaQKQEQ1YkVU4hJdsMgMx7sp1cRH1Iy836+mFRtKLDkeV7vl3XgMCH5wY=
+SHA256 (Pkgfile) = b5ebbf89f06a09a1ff2866e8d4dd65246f8b3e51a0325b9d86a9d224b321de18
 SHA256 (.footprint) = a3cbadfef863e18ffb8b50ba090ec8ca277a2dd4358444a4379577d8851be7fe
-SHA256 (TFBSTools_1.42.0.tar.gz) = 505bc906a725f0093ce833f06a29ef317cb2818e737aea725ba984d3ebd3b52e
+SHA256 (TFBSTools_1.46.0.tar.gz) = 739e9069fc82e689379f56c579c0f5883c70eb95cdae434fc8b43404c7862b91

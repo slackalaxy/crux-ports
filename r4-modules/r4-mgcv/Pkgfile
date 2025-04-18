@@ -1,13 +1,13 @@
 # Description: R module mgcv
 # URL: https://cran.r-project.org/web/packages/mgcv
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-matrix r4-nlme
+# Depends on: r r4-matrix r4-nlme
 # Optional: r4-mass r4-survival
 
 name=r4-mgcv
-version=1.9.1
+version=1.9.3
 release=1
-source=(https://cloud.r-project.org/src/contrib/mgcv_1.9-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/mgcv_1.9-3.tar.gz)
 
 build() {
 	cd mgcv

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89C/d6O2hdLSb0N/PK/e1MaDsKZuLhv8eRe2qoLm990k5bxt8n++zp7QO2I2K1npzyaZtkizxEZ1cZ15nhyaXjQw=
-SHA256 (Pkgfile) = 57a825d6e1bb2a67815dd3390968bea3e53bf2800fe6a0709de07e3ded147920
+RWQ2oTreAss89CWPqiVhy8gN4mDfCqkMk+8jpB5mtJFzWreo0jBcS2VUCLuG8BmaBB7e//lkbYFmn5NxMlOKSS0S8bTONb3yTwY=
+SHA256 (Pkgfile) = 13c9f56ca3e1ec522d1afab2d81a1fce3926460e5eec8ac132c9fd704915eec0
 SHA256 (.footprint) = b2b0f2ad4c28a539c90876e2a47cb250bcf72f4f6494ad8ab6cafcbd8596b9a9
-SHA256 (scuttle_1.14.0.tar.gz) = 9a0f97f30de69a7f4912f781f110fc54303702dc5df526410f71175fa6294ab2
+SHA256 (scuttle_1.18.0.tar.gz) = 3802f47850811e1086b24988aa66ce827b43620cacd7297e21fb5fb917526e78

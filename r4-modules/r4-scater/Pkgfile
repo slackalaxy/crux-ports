@@ -1,13 +1,13 @@
 # Description: R module scater
 # URL: https://bioconductor.org/packages/scater
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-beachmat r4-biocgenerics r4-biocneighbors r4-biocparallel r4-biocsingular r4-delayedarray r4-ggbeeswarm r4-ggplot2 r4-ggrastr r4-ggrepel r4-matrix r4-matrixgenerics r4-pheatmap r4-rcolorbrewer r4-rcppml r4-rlang r4-rtsne r4-s4vectors r4-scuttle r4-singlecellexperiment r4-summarizedexperiment r4-uwot r4-viridis
-# Optional: r4-biobase r4-biocstyle r4-biomart r4-cowplot r4-densvis r4-knitr r4-rmarkdown r4-robustbase r4-scattermore r4-scrnaseq r4-snifter r4-testthat
+# Depends on: r r4-beachmat r4-biocgenerics r4-biocneighbors r4-biocparallel r4-biocsingular r4-delayedarray r4-ggbeeswarm r4-ggplot2 r4-ggrastr r4-ggrepel r4-matrix r4-matrixgenerics r4-pheatmap r4-rcolorbrewer r4-rcppml r4-rlang r4-rtsne r4-s4vectors r4-scuttle r4-singlecellexperiment r4-sparsearray r4-summarizedexperiment r4-uwot r4-viridis
+# Optional: r4-biobase r4-biocstyle r4-biomart r4-cowplot r4-delayedmatrixstats r4-densvis r4-knitr r4-rmarkdown r4-robustbase r4-scattermore r4-scrnaseq r4-snifter r4-testthat
 
 name=r4-scater
-version=1.32.1
+version=1.36.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/scater_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/scater_${version}.tar.gz)
 
 build() {
 	cd scater

@@ -31,6 +31,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/zoo/doc/
 -rw-r--r--	root/root	usr/lib/R/library/zoo/doc/demo1.txt
 -rw-r--r--	root/root	usr/lib/R/library/zoo/doc/demo2.txt
 -rw-r--r--	root/root	usr/lib/R/library/zoo/doc/index.html
+-rw-r--r--	root/root	usr/lib/R/library/zoo/doc/msft2004.rda
 -rw-r--r--	root/root	usr/lib/R/library/zoo/doc/sunw.rda
 -rw-r--r--	root/root	usr/lib/R/library/zoo/doc/zoo-design.R
 -rw-r--r--	root/root	usr/lib/R/library/zoo/doc/zoo-design.Rnw

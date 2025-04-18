@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DJRssirwzv05t7Kc/mV/hesVttYM2vcv9FqnjaaUUhTitqv+t1gnpj8uoYUPEw3+0/gXhNlfmh7khqx5WJvyAs=
-SHA256 (Pkgfile) = 46a5893f6c7ba7e8aed5e1e2b04c0a2840d0c206f473b113e844955b9560c96d
+RWQ2oTreAss89DyiHhJYlmrzwGIO3AVAC5tHFsTOnjXFli84IM/vdtbL4ILopKz5147rpUctvqwxW4T08ubJ6SDGEB7MOWNetAQ=
+SHA256 (Pkgfile) = c32a25c8433f92f517fa769e3ff663ab60ca0949e8dcdba3440b3a681555fddc
 SHA256 (.footprint) = 26d8c77743a733a0ee2dee5700b408fd9931ac6ba934cb41eea80fa5025aacc5
-SHA256 (bluster_1.14.0.tar.gz) = 8a7b1818ca21442a1d1166f82e248e8eab5d02c21557d69fd87971db44e747ae
+SHA256 (bluster_1.18.0.tar.gz) = 1182ea99c9f7b25a7802f3162abb1cce881ed56257a4604557c15421e5cda160

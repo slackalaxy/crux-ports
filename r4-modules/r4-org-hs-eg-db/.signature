@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BYdj1650rwB9rumzD0hmhih+2JXMx1TKXu4nzcnwKlcdsxuiya0ysVNIy9C8h5znce6vaKn7/fNlzmv2fMK+Ag=
-SHA256 (Pkgfile) = 0c19b0dc238a34b1834a849cbb114fbedfb15d803e8f703088ec751d8f4410d4
+RWQ2oTreAss89OSF9wsMiPKI2QCTZpTFPzfCVQbWF90cuXkrxlyVshdesaCNAJZRjoGZOhY6mneTUmJjbtM/VjRvQligChgpVw4=
+SHA256 (Pkgfile) = 4b430d0ad74776bf94e41d157c2e801a33c26daab0a0e8a4dfe7c907ca048cf8
 SHA256 (.footprint) = f1d7a9eecdc1799077c4c4ca3b7f01f4525bbe4a19e5d4945eb434e7a0be5979
-SHA256 (org.Hs.eg.db_3.19.1.tar.gz) = 1932eff4d5d46c1ab219565dfff6706c93cfddc6bcbc65223832cc583f702bf7
+SHA256 (org.Hs.eg.db_3.21.0.tar.gz) = 3494ddec079cf57f63a7a32dc5d58825b376218631132f7c49477eab48bf31c5

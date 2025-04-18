@@ -2,12 +2,12 @@
 # URL: https://bioconductor.org/packages/pathview
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-annotationdbi r4-graph r4-kegggraph r4-keggrest r4-org-hs-eg-db r4-png r4-rgraphviz r4-xml
-# Optional: r4-biocgenerics r4-gage r4-org-eck12-eg-db r4-org-mm-eg-db r4-runit
+# Optional: r4-biocgenerics r4-gage r4-org-mm-eg-db r4-runit
 
 name=r4-pathview
-version=1.44.0
+version=1.48.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/pathview_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/pathview_${version}.tar.gz)
 
 build() {
 	cd pathview

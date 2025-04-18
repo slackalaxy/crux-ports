@@ -1,0 +1,16 @@
+# Description: R module rootSolve
+# URL: https://cran.r-project.org/web/packages/rootSolve
+# Maintainer: 
+# Depends on: r 
+# Optional: 
+
+name=r4-rootsolve
+version=1.8.2.4
+release=1
+source=(https://cloud.r-project.org/src/contrib/rootSolve_${version}.tar.gz)
+
+build() {
+	cd rootSolve
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

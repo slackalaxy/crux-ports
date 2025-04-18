@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-miniui
-version=0.1.1.1
+version=0.1.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/miniUI_${version}.tar.gz)
 

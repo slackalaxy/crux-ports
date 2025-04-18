@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DOK1emZu8ZPSzoNTOMs5u5lvHHP2DC7+QBMb/WUbI+q+0ZXmqKupwSgOPfSHYdXM+QDoEseKHYZpGOIBnppGgs=
-SHA256 (Pkgfile) = 39f56f5462f3d03af3ba4292b0eacd757607b6e1b22cfec32846a89a087687a7
+RWQ2oTreAss89HFCX9DZSdg9QizIoCpkzGrmgiT12+bTbij7f0zwj2W+YJiu4JbNdm6L57dVWEUcIGGUp8Fsz9MRz9Xc2tch2Qg=
+SHA256 (Pkgfile) = 05c8efb58722383a2896e87450984d4e364bba3ca1fdee1963d5b0cad18f75c3
 SHA256 (.footprint) = eb8450b95b2f3d536000c21168213346c8e3a6734e77740229f9caaf5aaefa0c
-SHA256 (leidenbase_0.1.32.tar.gz) = 22770b3d1f6a0e78a9de1adadd0aa6a4e2d8a47defaf75c83751885aeefdc490
+SHA256 (leidenbase_0.1.35.tar.gz) = 0339e1fa967b6decc222b0aaecd8190c5697458c2a7034b0348490cdfc9f807d

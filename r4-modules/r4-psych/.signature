@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GWoc8XunkeTvqq1FWpwtuKh4ecy1EABcZZ9Da7NnWwVa9MUpyuvGR7qSbm+xjO0UN093LbF6F54++mxy011JA8=
-SHA256 (Pkgfile) = 480b2427df1c72862edce0fcaf229a407913a90ef0b7bddb5846eaa77704b8ed
-SHA256 (.footprint) = e4ad32e5bbfa07afa95623a3a1ff9b41f58cb96c4e5e802dad06af3e29d10bc2
-SHA256 (psych_2.4.12.tar.gz) = 389f18e8dd8bfb8c9c980919fe1b1a41ef89c51ec5385a24615b29ee5b49e0fb
+RWQ2oTreAss89BhHxqLtivnO/tLBJsPTzL50SkCHCZyL2jL+e1xoZL6DzHBqFuAOJQBLIjFaqq3AS3HGHUVgFHchJ5G4oC8OEAQ=
+SHA256 (Pkgfile) = 440d5c7ef808b4cbe48cde5406bd1b971d92ef72f4b8ecfe9ebc1ffd6620b9ac
+SHA256 (.footprint) = 8b713495cfbafe12132a63ee0b16df6702c6a7d2356a1893ed4647276575c44e
+SHA256 (psych_2.5.3.tar.gz) = dd9cbc45e2e6b8ef3e03994079ba83920c3306f9b0af4ce48a690de4f4ba8fbe

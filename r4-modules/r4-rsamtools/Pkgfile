@@ -1,13 +1,13 @@
 # Description: R module Rsamtools
 # URL: https://bioconductor.org/packages/Rsamtools
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-biocgenerics r4-biocparallel r4-biostrings r4-bitops r4-genomeinfodb r4-genomicranges r4-iranges r4-rhtslib r4-s4vectors r4-xvector r4-zlibbioc
+# Depends on: r r4-biocgenerics r4-biocparallel r4-biostrings r4-bitops r4-genomeinfodb r4-genomicranges r4-iranges r4-rhtslib r4-s4vectors r4-xvector
 # Optional: r4-biocstyle r4-bsgenome-hsapiens-ucsc-hg19 r4-genomicalignments r4-genomicfeatures r4-knitr r4-rnaseqdata-hnrnpc-bam-chr14 r4-runit r4-shortread r4-txdb-dmelanogaster-ucsc-dm3-ensgene r4-txdb-hsapiens-ucsc-hg18-knowngene
 
 name=r4-rsamtools
-version=2.20.0
+version=2.24.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/Rsamtools_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/Rsamtools_${version}.tar.gz)
 
 build() {
 	cd Rsamtools

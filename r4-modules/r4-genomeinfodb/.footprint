@@ -39,6 +39,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/canFam6.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/ce10.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/ce11.tab
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/criGri1.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/danRer10.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/danRer11.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/dm3.tab
@@ -55,6 +56,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/mm10.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/mm39.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/mm9.tab
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/oreNil2.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/panTro4.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/panTro5.tab
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/extdata/assembled_molecules_db/UCSC/panTro6.tab
@@ -107,6 +109,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Catharus_ustulatus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Cavia_porcellus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Chlamydomonas_reinhardtii.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Cricetulus_griseus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Danio_rerio.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Drosophila_melanogaster.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Drosophila_virilis.R
@@ -115,6 +118,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Eucalyptus_grandis.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Felis_catus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Fundulus_heteroclitus.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Gadus_morhua.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Galleria_mellonella.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Gallus_gallus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Gasterosteus_aculeatus.R
@@ -132,6 +136,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Monodelphis_domestica.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Mus_musculus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Mustela_putorius_furo.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Oreochromis_niloticus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Pan_paniscus.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Pan_troglodytes.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Patiria_miniata.R
@@ -173,6 +178,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/ce2.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/ce4.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/ce6.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/criGri1.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/danRer10.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/danRer11.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/danRer5.R
@@ -187,6 +193,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/equCab2.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/equCab3.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/felCat9.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/gadMor1.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/galGal2.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/galGal3.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/galGal4.R
@@ -210,6 +217,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/monDom5.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/mpxvRivers.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/musFur1.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/oreNil2.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/panPan1.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/panPan2.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/panPan3.R

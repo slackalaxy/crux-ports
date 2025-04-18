@@ -1,13 +1,13 @@
 # Description: R module jpeg
 # URL: https://cran.r-project.org/web/packages/jpeg
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: 
 
 name=r4-jpeg
-version=0.1.10
+version=0.1.11
 release=1
-source=(https://cloud.r-project.org/src/contrib/jpeg_0.1-10.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/jpeg_0.1-11.tar.gz)
 
 build() {
 	cd jpeg

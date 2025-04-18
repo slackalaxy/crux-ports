@@ -5,9 +5,9 @@
 # Optional: r4-aer r4-chron r4-coda r4-ggplot2 r4-mondate r4-scales r4-stinepack r4-strucchange r4-timedate r4-timeseries r4-tinyplot r4-tis r4-tseries r4-xts
 
 name=r4-zoo
-version=1.8.13
+version=1.8.14
 release=1
-source=(https://cloud.r-project.org/src/contrib/zoo_1.8-13.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/zoo_1.8-14.tar.gz)
 
 build() {
 	cd zoo

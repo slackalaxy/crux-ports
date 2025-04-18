@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-matrixmodels
-version=0.5.3
+version=0.5.4
 release=1
-source=(https://cloud.r-project.org/src/contrib/MatrixModels_0.5-3.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/MatrixModels_0.5-4.tar.gz)
 
 build() {
 	cd MatrixModels

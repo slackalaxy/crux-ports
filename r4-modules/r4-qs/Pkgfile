@@ -5,7 +5,7 @@
 # Optional: r4-data-table r4-dplyr r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-qs
-version=0.27.2
+version=0.27.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/qs_${version}.tar.gz)
 

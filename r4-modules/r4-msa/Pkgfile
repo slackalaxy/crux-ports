@@ -5,9 +5,9 @@
 # Optional: r4-ape r4-biobase r4-knitr r4-phangorn r4-pwalign r4-seqinr
 
 name=r4-msa
-version=1.36.1
+version=1.40.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/msa_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/msa_${version}.tar.gz)
 
 build() {
 	cd msa

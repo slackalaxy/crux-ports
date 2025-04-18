@@ -5,9 +5,9 @@
 # Optional: r4-knitr
 
 name=r4-qvalue
-version=2.36.0
+version=2.40.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/qvalue_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/qvalue_${version}.tar.gz)
 
 build() {
 	cd qvalue

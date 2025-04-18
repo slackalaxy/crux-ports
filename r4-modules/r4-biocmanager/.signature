@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89OakJfW9EJ2qh+DA7ghnP2xpfDstykYUAo7qpNqJdsf5QeFkXK0NmdJNMAkDJQ97S/f3QZ72JIz33NCGbHJZKwk=
-SHA256 (Pkgfile) = d4e12635bc7d320f2a7a656eb789db1e389993d0a6b636b7a0e98ff7cd007cfb
+RWQ2oTreAss89FLqMkSSXuyeHyf1NedzXyliKckmuLVuX1FeVdgzHfAycHGyD4CdOpsPJmweuHBtjeQp4v4ETIHPAEYvIZSeeAM=
+SHA256 (Pkgfile) = 44e806819df2516498ede7809ee56e9edfd00943ccc92f03276497110afa6b4e
 SHA256 (.footprint) = 2add53182d8797baf9697022470caa24c484b51efea9b7a08d4e5657e92a5742
 SHA256 (BiocManager_1.30.25.tar.gz) = 83ef8b57dcc7350fe1e8c62590a60d3ad3e1f9c8660930c946b20340a4a81e15

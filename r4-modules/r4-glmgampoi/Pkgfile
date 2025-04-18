@@ -1,13 +1,13 @@
 # Description: R module glmGamPoi
-# URL: https://cran.r-project.org/web/packages/glmGamPoi
+# URL: https://bioconductor.org/packages/glmGamPoi
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-beachmat r4-biocgenerics r4-delayedarray r4-delayedmatrixstats r4-hdf5array r4-matrixgenerics r4-matrixstats r4-rcpp r4-rcpparmadillo r4-rlang r4-singlecellexperiment r4-summarizedexperiment r4-vctrs
-# Optional: r4-beachmat r4-bench r4-biocparallel r4-biocstyle r4-deseq2 r4-dplyr r4-edger r4-ggplot2 r4-knitr r4-limma r4-mass r4-matrix r4-muscdata r4-rmarkdown r4-scran r4-statmod r4-tenxpbmcdata r4-testthat r4-zoo
+# Depends on: r r4-assorthead r4-beachmat r4-biocgenerics r4-delayedarray r4-delayedmatrixstats r4-hdf5array r4-matrix r4-matrixgenerics r4-matrixstats r4-rcpp r4-rcpparmadillo r4-rlang r4-s4vectors r4-singlecellexperiment r4-sparsearray r4-summarizedexperiment r4-vctrs
+# Optional: r4-bench r4-biocparallel r4-biocstyle r4-deseq2 r4-dplyr r4-edger r4-ggplot2 r4-knitr r4-limma r4-mass r4-muscdata r4-rmarkdown r4-scran r4-statmod r4-tenxpbmcdata r4-testthat r4-zoo
 
 name=r4-glmgampoi
-version=1.16.0
+version=1.20.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/glmGamPoi_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/glmGamPoi_${version}.tar.gz)
 
 build() {
 	cd glmGamPoi

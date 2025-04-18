@@ -67,6 +67,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/tzdb/tzdata/
 -rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/backzone
 -rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/calendars
 -rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/checklinks.awk
+-rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/checknow.awk
 -rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/checktab.awk
 -rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/etcetera
 -rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/europe
@@ -85,3 +86,4 @@ drwxr-xr-x	root/root	usr/lib/R/library/tzdb/tzdata/
 -rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/zone.tab
 -rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/zone1970.tab
 -rwxr-xr-x	root/root	usr/lib/R/library/tzdb/tzdata/zoneinfo2tdf.pl
+-rw-r--r--	root/root	usr/lib/R/library/tzdb/tzdata/zonenow.tab

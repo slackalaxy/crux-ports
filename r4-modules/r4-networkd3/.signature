@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Hln55LBg/H84q6hjHk9huRRnqGuta2yuolUhuE1cH1CVVIXR5W6/S6zwUXJKpcgIfMxRb+icmnYSj0ENcoljAY=
-SHA256 (Pkgfile) = 6ff08d0428221c4e4ed65572d4556256d0373a38b6b341ff55a57c6ef86476db
-SHA256 (.footprint) = 8a05c5a4b12979fe39259142e53bb5f2b2498c3e51858ec91b5136a352553b6d
-SHA256 (networkD3_0.4.tar.gz) = 33b82585f1eec6233303ec14033a703d0b17def441c7a0a67bf7e6764c9c9d0b
+RWQ2oTreAss89OfVLnFvpnYO1vHZcc9bmKOIxbqWHRPixpbpylLCLk8lj/v9ilDnD3FYhy06d4d77a4xop0NzcZXun2RTaWmUAE=
+SHA256 (Pkgfile) = 67da11055b1411970e9b938190acde8e4f11a63c19ad7eb246a29071505c41e9
+SHA256 (.footprint) = eeaa27f5507eccc0b020561688ed0e8dcaca2cb7c54ac97573249d2b73abd219
+SHA256 (networkD3_0.4.1.tar.gz) = 5be36aa5dd3722b1cd52a149c50af2dbef0714b2dab2b4dbf7552c628925f64e

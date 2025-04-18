@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-devemf
-version=4.5
+version=4.5.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/devEMF_${version}.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/devEMF_4.5-1.tar.gz)
 
 build() {
 	cd devEMF

@@ -5,7 +5,7 @@
 # Optional: r4-bit64 r4-dbi r4-debugme r4-diagrammer r4-dplyr r4-formattable r4-ggplot2 r4-knitr r4-lubridate r4-nanotime r4-nycflights13 r4-palmerpenguins r4-rmarkdown r4-scales r4-stringi r4-survival r4-testthat r4-tibble r4-units r4-vdiffr r4-withr
 
 name=r4-pillar
-version=1.10.1
+version=1.10.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/pillar_${version}.tar.gz)
 

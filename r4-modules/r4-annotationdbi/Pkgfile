@@ -5,9 +5,9 @@
 # Optional: r4-annotationforge r4-biocstyle r4-ensdb-hsapiens-v75 r4-go-db r4-graph r4-hgu95av2-db r4-knitr r4-org-at-tair-db r4-org-hs-eg-db r4-org-sc-sgd-db r4-reactome-db r4-runit r4-txdb-hsapiens-ucsc-hg19-knowngene
 
 name=r4-annotationdbi
-version=1.66.0
+version=1.70.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/AnnotationDbi_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/AnnotationDbi_${version}.tar.gz)
 
 build() {
 	cd AnnotationDbi

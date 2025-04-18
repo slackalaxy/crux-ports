@@ -1,0 +1,16 @@
+# Description: R module DescTools
+# URL: https://cran.r-project.org/web/packages/DescTools
+# Maintainer: 
+# Depends on: r r4-boot r4-cli r4-data-table r4-exact r4-expm r4-gld r4-haven r4-httr r4-mass r4-mvtnorm r4-rcpp r4-readxl r4-rstudioapi r4-withr
+# Optional: r4-r-rsp r4-testthat r4-vgam
+
+name=r4-desctools
+version=0.99.60
+release=1
+source=(https://cloud.r-project.org/src/contrib/DescTools_${version}.tar.gz)
+
+build() {
+	cd DescTools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

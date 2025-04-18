@@ -37,5 +37,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocBaseUtils/scripts/
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/scripts/README.Rmd
 drwxr-xr-x	root/root	usr/lib/R/library/BiocBaseUtils/tinytest/
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/tinytest/test_assertions.R
+-rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/tinytest/test_checkInstalled.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/tinytest/test_internals.R
+-rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/tinytest/test_lifeCycle.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/tinytest/test_showUtils.R

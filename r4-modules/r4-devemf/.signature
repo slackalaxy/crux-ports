@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IUHINRaK3m1RSUNxLI+fvdt58mBpwK39VlgZvb2rWiqg4zYzdlATFpc5DTWyDgFCOs/ntYWg6UDTnHl97EZVw4=
-SHA256 (Pkgfile) = 975fba87f7ff87dc5ed09e474f0501db0ffd930ecaf0e2d841d2e7ee2cee9731
+RWQ2oTreAss89MDM9LAhkQlX16KNPKqwGbhI8nxDcTmhQ15bfgNAF0T+0bjB8bavYpQSZ8UbHxhzMVSj6o7HgOBFsWTSrUqang4=
+SHA256 (Pkgfile) = 28202a38a8c1d09a4edcb3eb81b9b55c5ae55c39d5538ac93d9f4743d42c758a
 SHA256 (.footprint) = 6eff2e075500eb5efb4309b3939284cd5cf0ebf5708f3742a7b8d68e62fc8893
-SHA256 (devEMF_4.5.tar.gz) = ead1cb3dbb41bf4caacc77335452c6575b1b5e620aac1205c3a80467a0a13c0e
+SHA256 (devEMF_4.5-1.tar.gz) = cbb0f832dd59cea7c546ad0cdec100f49a7310694b3b32ef1c188bfa19dcf8e7

@@ -1,13 +1,13 @@
 # Description: R module scran
 # URL: https://bioconductor.org/packages/scran
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-beachmat r4-bh r4-biocgenerics r4-biocparallel r4-biocsingular r4-bluster r4-delayedarray r4-delayedmatrixstats r4-dqrng r4-edger r4-igraph r4-limma r4-matrix r4-metapod r4-rcpp r4-s4vectors r4-scuttle r4-singlecellexperiment r4-statmod r4-summarizedexperiment
-# Optional: r4-biocstyle r4-deseq2 r4-dynamictreecut r4-hdf5array r4-knitr r4-pheatmap r4-residualmatrix r4-rmarkdown r4-scaledmatrix r4-scater r4-scrnaseq r4-testthat
+# Depends on: r r4-beachmat r4-bh r4-biocgenerics r4-biocparallel r4-biocsingular r4-bluster r4-delayedarray r4-dqrng r4-edger r4-igraph r4-limma r4-matrix r4-matrixgenerics r4-metapod r4-rcpp r4-s4arrays r4-s4vectors r4-scuttle r4-singlecellexperiment r4-statmod r4-summarizedexperiment
+# Optional: r4-biocstyle r4-delayedmatrixstats r4-deseq2 r4-dynamictreecut r4-hdf5array r4-knitr r4-pheatmap r4-residualmatrix r4-rmarkdown r4-scaledmatrix r4-scater r4-scrnaseq r4-testthat
 
 name=r4-scran
-version=1.32.0
+version=1.36.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/scran_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/scran_${version}.tar.gz)
 
 build() {
 	cd scran

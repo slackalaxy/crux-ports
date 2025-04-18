@@ -1,0 +1,16 @@
+# Description: R module litedown
+# URL: https://cran.r-project.org/web/packages/litedown
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-commonmark r4-xfun
+# Optional: r4-rbibutils r4-rstudioapi r4-tinytex
+
+name=r4-litedown
+version=0.7
+release=1
+source=(https://cloud.r-project.org/src/contrib/litedown_${version}.tar.gz)
+
+build() {
+	cd litedown
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

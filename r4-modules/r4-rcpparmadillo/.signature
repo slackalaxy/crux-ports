@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89JDX4cfnBaZuxqkZf5Q8BxlB8cVTmzeWXJxNujswmq5njlqgbE50ZJxoBCBzXtwTAWhOEw5TA6VY8+9eaDHsnwo=
-SHA256 (Pkgfile) = ee1e34bd3f6498da05b136dcf264ef8c416cb6894a81ed31852fda407de401b9
+RWQ2oTreAss89NU5Q1ZfVsQqKrHCMwDNI5KPRSD3adFvTtaop1Fv4Y3kvefwEYJNZP5UAwb8RnkTVDFnjrAEx3eaGZJScI791g4=
+SHA256 (Pkgfile) = eb52596eed323400e5ba3be67d387314d61b11286302551a8f304cb8a383fdca
 SHA256 (.footprint) = 366481e5d607c07a8dfe91761572efedaf7f12aeafbc6f9dccd68f77df12ca61
-SHA256 (RcppArmadillo_14.2.3-1.tar.gz) = 931ccbc53e1c0f598f7d226134028a5fb531cfd94db941982a813003095226df
+SHA256 (RcppArmadillo_14.4.1-1.tar.gz) = 3c88231a2fb2975cb5c23221fbdee74849fd342789fca3b34db343aaf8b039bb

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89G5mGBJeJ9pjIpNQYCnJw8+4VAmOmlrrY3EuoOQkzgCtIlK5i8FU2qsmPaIdZTLZN6pnY2S+6uMNjNOUctplwgM=
+SHA256 (Pkgfile) = 3d805861b20047e6fcb700fde025413910845cebf292b13743f91a73c37b7750
+SHA256 (.footprint) = 3f94fe45636d8dd3710ce92146146f78e2a02c5d660963ebaad03935b945bd37
+SHA256 (ggtangle_0.0.6.tar.gz) = 5401dc161c993c935a4d81522bc2a4b80a017d14d1b25234439945e18b2944e0

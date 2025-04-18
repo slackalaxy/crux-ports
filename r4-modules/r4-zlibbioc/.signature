@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IwMYRTf5uFtZ09rvalBvPEuBZY8xuXtnEZvZ7jX3bm/2lzPiiYneRpE6aB3bjfXWrRcQBr05t3KJfVt0xPoHgk=
-SHA256 (Pkgfile) = 30a50ddb4b35ef992fdbdd354311b42897a505dd23a5b6846059c5200ea1e893
+RWQ2oTreAss89GDslOBD/OTFAriNg3/9To+UUiKnc+i2RRQRqahY9N/APfuxCObDDOyd/JVUB4FvahnPwlPDWop2+QIYunGRAgU=
+SHA256 (Pkgfile) = 71889e2d4753a2dd097957c8be74fd1ebc650b7ee713dd9b10f4a9ef19809532
 SHA256 (.footprint) = 86bea222334a27a1994fd0bb4178f090e54d9851f1990a9b2588970dce3cc6db
-SHA256 (zlibbioc_1.50.0.tar.gz) = 0298d59b3bb87179a6accd506a51c80fb9ff922defd24208beb2c93e5032b894
+SHA256 (zlibbioc_1.54.0.tar.gz) = 2d4bb1af0cf42ef8f86766854d859cb80a61156fe091ca23cec34c9f56d98352

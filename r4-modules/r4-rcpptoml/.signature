@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DkH/nWYnyAvgr6OTVlLy66aUY5NjaCOiSAlpVgTNG6bRGnRA8CQAHLaVd2sWXff2GxXQAVqzBpIAJ4Msj/glwM=
-SHA256 (Pkgfile) = 7a5f011fb8cbbda5c6fde05708452d8f0031f8e9b39533009e26480a2ad58f74
+RWQ2oTreAss89E9vUdR1AE8few+o2rc/758pjomWXRrksryGaZb541pb21l102UIjQmEqd34gKCfd+51oDewut213yDXIXiGOAc=
+SHA256 (Pkgfile) = 8e6bdddbc6b58f7241cc4a83c58bc00bf0db3c57b3580bfae85d1ecb8eaff181
 SHA256 (.footprint) = a678968dc0d3a48fb20eb8bc7fe8b8aa84fc2efe17c6bb243228b8a06054bea2
-SHA256 (RcppTOML_0.2.2.tar.gz) = 371391f9ca82221e76a424082ea9ebc5ea2c50f14e8408469b09d7dc3e6f63aa
+SHA256 (RcppTOML_0.2.3.tar.gz) = 2ed594253c562bef7065e67d791197f61b221e545206a1b3598d46868cf5926f

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89H4/uJcHVFOxx61Kfq2PNXQmQyrbzMrdjC+iCF1DE15M2cNxkiPPGpgGKIJR1nrGK5+PMS7aMudJa/I/qysMkAI=
-SHA256 (Pkgfile) = a6598c25520e9ec215df4fb984080d31d9901f0814af5d4af109fffc35407e6f
+RWQ2oTreAss89Mz1cvm2WGNnrCFjta56/brLgiA5Y+mrA77SEZSSDp9qXCsAq4xuumX9+PEP6o7JsR1G6sa534adZguyxwHlPQc=
+SHA256 (Pkgfile) = a5b4e7aecee30437514d4aaa215263f51a90b370c2c237d07978f79667dac088
 SHA256 (.footprint) = b49d8b57c041fbd08a1b08038939c0602e8ca54922bb333eb50f27e2002b7c74
-SHA256 (locfit_1.5-9.11.tar.gz) = 9a964b68fb135f1b0b2c18485bca06f3979c55b339d898dd8a75433314c4e3b9
+SHA256 (locfit_1.5-9.12.tar.gz) = fa31b9d407f3557a6fcb7105cbd7b16a32a6fb868a7c60bc38a3e33cb7a39343

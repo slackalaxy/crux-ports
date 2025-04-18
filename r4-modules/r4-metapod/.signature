@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NbQmey9a8es77C7f2oUnX4w0SHkp7NDxJDEh+bKU1UtdoeHaaXUUW+4q5na79VP5pIjcel+nJej8JrLB9PzRwo=
-SHA256 (Pkgfile) = a9da4e87526ce8b6100c3f9d26b44dc82215235a635bbb5cbac90a038ebb8204
+RWQ2oTreAss89Kgoy4C7EH2FLni8ryznEyIBd42nMciYDOu1AVVQWXbzOU+iRNKQ/ypwPYuh4JU6p5v3IoPcL+XPP94c7DeRIgU=
+SHA256 (Pkgfile) = 14d1e7938a222ea7d2a9cd3f1d77f1b1cfa80a1bf3157575b81e552b21bdece8
 SHA256 (.footprint) = 28185c6d2727c67187521f829e7774084f5fd6ed719f77dc6d5d74c8e24eb63d
-SHA256 (metapod_1.12.0.tar.gz) = 16b9a417ec3bcb68a18e859f24e6ba1b3764892d53af32fbc9c980e3c5d31c80
+SHA256 (metapod_1.16.0.tar.gz) = 5e011b0fc717eb1593939c3f5278d214ad8ec365905bcfcc70be3343a78d88c3

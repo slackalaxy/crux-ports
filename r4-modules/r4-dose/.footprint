@@ -26,14 +26,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/DOSE/data/
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DGN_EXTID2PATHID.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DGN_PATHID2EXTID.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DGN_PATHID2NAME.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DO2ALLEG.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DO2EG.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DOIC.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DOLite2EG.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DOLiteTerm.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/EG2ALLDO.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/EG2DO.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/EG2DOLite.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/NCG_EXTID2PATHID.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/NCG_PATHID2EXTID.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/NCG_PATHID2NAME.rda
@@ -41,10 +33,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/DOSE/data/
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/VDGN_PATHID2EXTID.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/VDGN_PATHID2NAME.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/datalist
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/dotbl.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/geneList.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/hpotbl.rda
--rw-r--r--	root/root	usr/lib/R/library/DOSE/data/mpotbl.rda
 drwxr-xr-x	root/root	usr/lib/R/library/DOSE/doc/
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/doc/DOSE.R
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/doc/DOSE.Rmd

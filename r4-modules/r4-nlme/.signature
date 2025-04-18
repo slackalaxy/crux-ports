@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89L+WkSDc6EmZbDdY9OBrTYwQHDyfjmsPMKWEsM89kFDcWfuyxPP+WeBcp6o7AtMJKxbyPDR26oeHzonhF4u25gM=
-SHA256 (Pkgfile) = f050991df046d48e93c5a8e1cf88a76ce754212d3368cd493a2e68b13d4d78c7
+RWQ2oTreAss89FJLtvI/QXl3tt+eDaj5Pcghktrabs+y/MkuOHgFeXJ4ADs0v2vaj5vpAv0uAXtfw7TwhlwlFymAo1ZmSS2TmgY=
+SHA256 (Pkgfile) = ce32c173754ae5b928fc60198c9999cad73374c8a354b6924d6d89913bdba72e
 SHA256 (.footprint) = 53bf01135858aee0d178fa758b0b89fefe94984d33619761d4e57f39fe5c621f
-SHA256 (nlme_3.1-167.tar.gz) = dadc9ccb9b2089a533547437edd256a29a0e059365f11a81e7390bf48f2a8a49
+SHA256 (nlme_3.1-168.tar.gz) = 23b78468344cb6775dee5e0d9c8133032d64f08ebaba20776508a0443a897362

@@ -5,7 +5,7 @@
 # Optional: r4-bench r4-brio r4-callr r4-cli r4-covr r4-decor r4-desc r4-ggplot2 r4-glue r4-knitr r4-lobstr r4-mockery r4-progress r4-rcpp r4-rmarkdown r4-scales r4-testthat r4-tibble r4-vctrs r4-withr
 
 name=r4-cpp11
-version=0.5.1
+version=0.5.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/cpp11_${version}.tar.gz)
 

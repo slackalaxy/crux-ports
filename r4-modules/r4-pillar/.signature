@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Mmh56E6MQK6p+5kQmA85NigxfcikCfa3tu3jQ1Isk+Ujt3l+GxQxoOi09MSwbJT4YEGpCDwa5jlaOIZCoKnMAQ=
-SHA256 (Pkgfile) = 3ceda644dfb6156330f077d932cca4da53298310fb1acd29625dd35cbc04c92f
+RWQ2oTreAss89F7N6uJP2QmTroxF5kApoEhKREHOwMDzTXUB7Qvc3fUXooAHOAT/S75FcTZwdbT8If4jTHOCdN453P0GbddEggs=
+SHA256 (Pkgfile) = e6fff7537dfbd24c5f28a197de3ea0f11d109079c5f180d27a672dc6579f3914
 SHA256 (.footprint) = c452db8c16cabad7af5b9d4e0e235046f410590cb138d430e58cbec861d8dabf
-SHA256 (pillar_1.10.1.tar.gz) = aedf2be881d0720256b58e0cf3bdd501c7cc5504c394399ea22ea1ac18af449d
+SHA256 (pillar_1.10.2.tar.gz) = 2cdbe3fe1b28b62530880ab26fc3c874e0dd5060767ae1a8ee5685f65e56d645

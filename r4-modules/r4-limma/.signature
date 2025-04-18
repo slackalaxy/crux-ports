@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89HsQqQMFmfbyZT0EYBoBZf1+ZQFOXzoaBbUQ+2fOv8pzHX1yBt+Ui0e8BYBmR4r+LAk76y+OhBv8s6tQaeU8Bwo=
-SHA256 (Pkgfile) = 70a4d198c1f8a84f67d8ee46ecaf8255601d1b8097bd55ad83de1009f6b41331
+RWQ2oTreAss89CfcvVgpkxLe2rX7vTYmTFIlXi0J1+X2bfqtSw1YUz8ZSwzzrCcINEofrwkTiPu5O13Vsx6O89Se7E1itt8zywc=
+SHA256 (Pkgfile) = 5cb195bec783d6ebee45a279d2924c452f81a19ad49702e33d06d2478de8804a
 SHA256 (.footprint) = 9b6d9bcbab2901f5c08be367213efea967d1a5ed1e730f00f0406049d5619e74
-SHA256 (limma_3.60.6.tar.gz) = 95cc480268b8e463cf142d99c392a919b327416ea2de94bbbec5c4c6d75213a7
+SHA256 (limma_3.64.0.tar.gz) = 453d665d828af4f61672c4bd2b17c8283e0a611873cfb72c81e116469ea106b0

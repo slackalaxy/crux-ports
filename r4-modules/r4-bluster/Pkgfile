@@ -1,13 +1,13 @@
 # Description: R module bluster
 # URL: https://bioconductor.org/packages/bluster
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-biocneighbors r4-biocparallel r4-cluster r4-igraph r4-matrix r4-rcpp r4-s4vectors
+# Depends on: r r4-assorthead r4-biocneighbors r4-biocparallel r4-cluster r4-igraph r4-matrix r4-rcpp r4-s4vectors
 # Optional: r4-apcluster r4-biocstyle r4-dirichletmultinomial r4-dynamictreecut r4-fastcluster r4-knitr r4-kohonen r4-mbkmeans r4-pheatmap r4-rmarkdown r4-scater r4-scran r4-scrnaseq r4-scuttle r4-testthat r4-vegan r4-viridis
 
 name=r4-bluster
-version=1.14.0
+version=1.18.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/bluster_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/bluster_${version}.tar.gz)
 
 build() {
 	cd bluster

@@ -5,7 +5,7 @@
 # Optional: r4-altdoc r4-eurostat r4-isocodes r4-testthat r4-tibble r4-utf8
 
 name=r4-countrycode
-version=1.6.0
+version=1.6.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/countrycode_${version}.tar.gz)
 

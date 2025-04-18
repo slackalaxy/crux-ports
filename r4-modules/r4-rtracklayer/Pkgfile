@@ -1,13 +1,13 @@
 # Description: R module rtracklayer
 # URL: https://bioconductor.org/packages/rtracklayer
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-biocgenerics r4-biocio r4-biostrings r4-curl r4-genomeinfodb r4-genomicalignments r4-genomicranges r4-httr r4-iranges r4-restfulr r4-rsamtools r4-s4vectors r4-xml r4-xvector r4-zlibbioc
+# Depends on: r r4-biocgenerics r4-biocio r4-biostrings r4-curl r4-genomeinfodb r4-genomicalignments r4-genomicranges r4-httr r4-iranges r4-restfulr r4-rsamtools r4-s4vectors r4-xml r4-xvector
 # Optional: r4-bsgenome r4-bsgenome-hsapiens-ucsc-hg19 r4-genefilter r4-genomicfeatures r4-hgu133plus2-db r4-humanstemcell r4-limma r4-microrna r4-org-hs-eg-db r4-runit r4-txdb-hsapiens-ucsc-hg19-knowngene
 
 name=r4-rtracklayer
-version=1.64.0
+version=1.68.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/rtracklayer_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/rtracklayer_${version}.tar.gz)
 
 build() {
 	cd rtracklayer

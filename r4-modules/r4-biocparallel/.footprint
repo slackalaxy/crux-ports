@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/INDEX
+-rw-r--r--	root/root	usr/lib/R/library/BiocParallel/LICENSE_1_0.txt
 drwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/Meta/Rd.rds
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/Meta/features.rds

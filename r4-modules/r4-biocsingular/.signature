@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89JTtuV29CiUYyyyZhZ8SA2MjQEx6frPOvRuhEieIGnhtJmZqrwRljEWqBlyvsEEc9R5oD1c+d+Ao5LVuLb0jBAY=
-SHA256 (Pkgfile) = 181afda1d0375a964c4e69656c4da10f30da751eba3bcad59eff0fbcbc54c5b1
+RWQ2oTreAss89AnK4m3WUsNJ68yepWFul4UcUZkHY2+uElBRFFpla8Fu34FD8JyJKFYf7m04yO88152UkeSC7YI68uI5PMAEDgY=
+SHA256 (Pkgfile) = 59b98a9aa9cdf5e0f72d5a3cb88463557eccadaa3c842860734f524327860d55
 SHA256 (.footprint) = d2e454bf9e1d39ed686adca01d94cc3327e6c604472e3be202d17c751b46baab
-SHA256 (BiocSingular_1.20.0.tar.gz) = 5ef96e2b745641e3a87429558d57e79d7417c115f8a3459fe47e48aa87e589f6
+SHA256 (BiocSingular_1.24.0.tar.gz) = de4928f5e768d0bc586f7d9a9fe8d4928c3d7d44377dc92b8f0172a8a5e9b436

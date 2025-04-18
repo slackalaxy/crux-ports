@@ -1,11 +1,11 @@
 # Description: R module readxl
 # URL: https://cran.r-project.org/web/packages/readxl
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-cellranger r4-cpp11 r4-progress r4-tibble
+# Depends on: r r4-cellranger r4-cpp11 r4-progress r4-tibble
 # Optional: r4-covr r4-knitr r4-rmarkdown r4-testthat r4-withr
 
 name=r4-readxl
-version=1.4.3
+version=1.4.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/readxl_${version}.tar.gz)
 

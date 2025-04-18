@@ -5,7 +5,7 @@
 # Optional: r4-testthat
 
 name=r4-downloader
-version=0.4
+version=0.4.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/downloader_${version}.tar.gz)
 

@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-stringi
-version=1.8.4
+version=1.8.7
 release=1
 source=(https://cloud.r-project.org/src/contrib/stringi_${version}.tar.gz)
 

@@ -5,7 +5,7 @@
 # Optional: r4-curl r4-knitr r4-rmarkdown r4-shiny r4-testthat r4-withr
 
 name=r4-sass
-version=0.4.9
+version=0.4.10
 release=1
 source=(https://cloud.r-project.org/src/contrib/sass_${version}.tar.gz)
 

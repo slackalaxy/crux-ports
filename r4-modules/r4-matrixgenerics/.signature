@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Ma2mRuUkJI6yJ4DjmRLNWLze6wzwoVohnp0sonIOcpTMcAe9pD+3bRhRJZH6YR7P2gTVjB6zbV43BJeuFTbSg8=
-SHA256 (Pkgfile) = 9e9e7fe30f6a1148267805524ca32ef7cd1f1120796d9b9ebf8731fee8a5b251
+RWQ2oTreAss89EYxBCNBP7jAz5JEs9AQ+CG//Qa4xG9gkT4f4QD7eKMbaAaIHoXMVnO5mqGwxXmCU4QXc7uK/yCcrM/kd/oWWQY=
+SHA256 (Pkgfile) = aa1bb50876286baff81c76707cadf6a0180cf93196e0bfa71e057b9361dbf694
 SHA256 (.footprint) = 04c3e4e69c5fb2247f5a8d5a0cfc69a0119a2c869c86088b9adb6a7f8afac8b9
-SHA256 (MatrixGenerics_1.16.0.tar.gz) = ccff61558f067237b96ea71509e4ca95ad465000294067eb21101892d02df6e4
+SHA256 (MatrixGenerics_1.20.0.tar.gz) = f4b6700bc397483545212a072ebc5d5a610ff94f8b94f444c074bcffd21040fb

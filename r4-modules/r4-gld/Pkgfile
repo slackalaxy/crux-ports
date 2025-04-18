@@ -1,0 +1,16 @@
+# Description: R module gld
+# URL: https://cran.r-project.org/web/packages/gld
+# Maintainer: 
+# Depends on: r r4-e1071 r4-lmom
+# Optional: 
+
+name=r4-gld
+version=2.6.7
+release=1
+source=(https://cloud.r-project.org/src/contrib/gld_${version}.tar.gz)
+
+build() {
+	cd gld
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

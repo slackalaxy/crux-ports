@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-crayon r4-knitr r4-pillar r4-rmarkdown r4-spelling r4-testthat r4-tibble r4-vctrs r4-withr
 
 name=r4-fs
-version=1.6.5
+version=1.6.6
 release=1
 source=(https://cloud.r-project.org/src/contrib/fs_${version}.tar.gz)
 

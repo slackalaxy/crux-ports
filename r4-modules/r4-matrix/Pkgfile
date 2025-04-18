@@ -5,9 +5,9 @@
 # Optional: r4-mass r4-sfsmisc
 
 name=r4-matrix
-version=1.7.2
+version=1.7.3
 release=1
-source=(https://cloud.r-project.org/src/contrib/Matrix_1.7-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/Matrix_1.7-3.tar.gz)
 
 build() {
 	cd Matrix

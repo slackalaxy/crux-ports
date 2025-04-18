@@ -1,11 +1,11 @@
 # Description: R module networkD3
 # URL: https://cran.r-project.org/web/packages/networkD3
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-htmlwidgets r4-igraph r4-magrittr
-# Optional: r4-htmltools r4-jsonlite
+# Depends on: r r4-data-tree r4-htmlwidgets r4-igraph r4-jsonlite r4-magrittr
+# Optional: r4-htmltools r4-tibble
 
 name=r4-networkd3
-version=0.4
+version=0.4.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/networkD3_${version}.tar.gz)
 

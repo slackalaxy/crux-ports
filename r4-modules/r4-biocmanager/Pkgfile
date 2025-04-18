@@ -1,8 +1,8 @@
 # Description: R module BiocManager
 # URL: https://cran.r-project.org/web/packages/BiocManager
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
-# Optional: r4-biocstyle r4-biocversion r4-curl r4-knitr r4-remotes r4-rmarkdown r4-testthat r4-withr
+# Depends on: r r4-biocversion
+# Optional: r4-biocstyle r4-curl r4-knitr r4-remotes r4-rmarkdown r4-testthat r4-withr
 
 name=r4-biocmanager
 version=1.30.25

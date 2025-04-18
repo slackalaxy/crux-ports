@@ -5,9 +5,9 @@
 # Optional: r4-delayedarray r4-delayedmatrixstats r4-matrix r4-sparsearray r4-sparsematrixstats r4-summarizedexperiment r4-testthat
 
 name=r4-matrixgenerics
-version=1.16.0
+version=1.20.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/MatrixGenerics_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/MatrixGenerics_${version}.tar.gz)
 
 build() {
 	cd MatrixGenerics

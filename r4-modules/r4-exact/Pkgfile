@@ -1,0 +1,16 @@
+# Description: R module Exact
+# URL: https://cran.r-project.org/web/packages/Exact
+# Maintainer: 
+# Depends on: r r4-rootsolve
+# Optional: 
+
+name=r4-exact
+version=3.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/Exact_${version}.tar.gz)
+
+build() {
+	cd Exact
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/miniUI/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/miniUI/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/miniUI/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/miniUI/NAMESPACE
+-rw-r--r--	root/root	usr/lib/R/library/miniUI/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/miniUI/R/
 -rw-r--r--	root/root	usr/lib/R/library/miniUI/R/miniUI
 -rw-r--r--	root/root	usr/lib/R/library/miniUI/R/miniUI.rdb

@@ -8,7 +8,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/knitr/
 -rw-r--r--	root/root	usr/lib/R/library/knitr/INDEX
 drwxr-xr-x	root/root	usr/lib/R/library/knitr/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/knitr/Meta/Rd.rds
--rw-r--r--	root/root	usr/lib/R/library/knitr/Meta/demo.rds
 -rw-r--r--	root/root	usr/lib/R/library/knitr/Meta/features.rds
 -rw-r--r--	root/root	usr/lib/R/library/knitr/Meta/hsearch.rds
 -rw-r--r--	root/root	usr/lib/R/library/knitr/Meta/links.rds
@@ -23,9 +22,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/knitr/R/
 -rw-r--r--	root/root	usr/lib/R/library/knitr/R/knitr.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/knitr/bin/
 -rwxr-xr-x	root/root	usr/lib/R/library/knitr/bin/knit
-drwxr-xr-x	root/root	usr/lib/R/library/knitr/demo/
--rw-r--r--	root/root	usr/lib/R/library/knitr/demo/gwidgets.R
--rw-r--r--	root/root	usr/lib/R/library/knitr/demo/notebook.R
 drwxr-xr-x	root/root	usr/lib/R/library/knitr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/knitr/doc/datatables.R
 -rw-r--r--	root/root	usr/lib/R/library/knitr/doc/datatables.Rmd
@@ -99,7 +95,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/knitr/html/
 drwxr-xr-x	root/root	usr/lib/R/library/knitr/misc/
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/R.css
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/Sweavel.sty
--rw-r--r--	root/root	usr/lib/R/library/knitr/misc/gWidgetsWWW2-knitr.R
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/knitr-template.Rhtml
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/knitr-template.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/knitr-template.Rnw
@@ -108,18 +103,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/knitr/misc/
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/stitch-test.R
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/tikz2pdf.tex
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/toggleR.js
--rw-r--r--	root/root	usr/lib/R/library/knitr/misc/tweak_bib.csv
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/vignette.css
 -rw-r--r--	root/root	usr/lib/R/library/knitr/misc/vignette.html
 drwxr-xr-x	root/root	usr/lib/R/library/knitr/opencpu/
 drwxr-xr-x	root/root	usr/lib/R/library/knitr/opencpu/apps/
 -rw-r--r--	root/root	usr/lib/R/library/knitr/opencpu/apps/index.html
-drwxr-xr-x	root/root	usr/lib/R/library/knitr/shiny/
--rw-r--r--	root/root	usr/lib/R/library/knitr/shiny/server.R
--rw-r--r--	root/root	usr/lib/R/library/knitr/shiny/ui.R
-drwxr-xr-x	root/root	usr/lib/R/library/knitr/shiny/www/
--rw-r--r--	root/root	usr/lib/R/library/knitr/shiny/www/ace-shiny.css
--rw-r--r--	root/root	usr/lib/R/library/knitr/shiny/www/ace-shiny.js
 drwxr-xr-x	root/root	usr/lib/R/library/knitr/themes/
 -rw-r--r--	root/root	usr/lib/R/library/knitr/themes/acid.css
 -rw-r--r--	root/root	usr/lib/R/library/knitr/themes/aiseered.css

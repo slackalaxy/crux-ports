@@ -1,13 +1,13 @@
 # Description: R module BiocSingular
 # URL: https://bioconductor.org/packages/BiocSingular
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-beachmat r4-biocgenerics r4-biocparallel r4-delayedarray r4-irlba r4-matrix r4-rcpp r4-rsvd r4-s4vectors r4-scaledmatrix
+# Depends on: r r4-assorthead r4-beachmat r4-biocgenerics r4-biocparallel r4-delayedarray r4-irlba r4-matrix r4-rcpp r4-rsvd r4-s4vectors r4-scaledmatrix
 # Optional: r4-biocstyle r4-knitr r4-residualmatrix r4-rmarkdown r4-testthat
 
 name=r4-biocsingular
-version=1.20.0
+version=1.24.0
 release=1
-source=(https://bioconductor.org/packages/3.19/bioc/src/contrib/BiocSingular_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocSingular_${version}.tar.gz)
 
 build() {
 	cd BiocSingular

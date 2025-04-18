@@ -1,0 +1,16 @@
+# Description: R module lmom
+# URL: https://cran.r-project.org/web/packages/lmom
+# Maintainer: 
+# Depends on: r 
+# Optional: 
+
+name=r4-lmom
+version=3.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/lmom_${version}.tar.gz)
+
+build() {
+	cd lmom
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
