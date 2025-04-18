@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZf37+bWDlTnc0TOLYoAlh2vxNHDr6O8jFuqNllcc5f5WtIQho9wKnKby2jrGjffIF/LHuPiOLEY5/G6WMn8IewI=
-SHA256 (Pkgfile) = c6c5b70db33d442d9180535d1f8de6b8b98eaa627b87d8f6596f92098c878ec4
+RWToVVsIkzFIZZz7Kb7aWo7teNsuZ0RpRh/YUN9UNOejV1wbjgKwHDwyeepkgw7LgMlvFSwfIpzbNVlOBPQBjKfoInWbK6bl9QA=
+SHA256 (Pkgfile) = 9a6b92c30179e1846a4873ebbc1bef867e05f2cefa10cc1d321aa94c16f45515
 SHA256 (.footprint) = 559d449aefe9bae4dafe2cd597a05c00fbbdc08713f29bf42424e007fdbf8147
-SHA256 (iqtree-2.3.6-Linux-intel.tar.gz) = 47389ea3b32c5fb61fba1a2b65c0ea057467d71f39a51fc4c4624927f200786d
+SHA256 (iqtree-2.4.0-Linux-intel.tar.gz) = 49c58e26f192dd5e0045110cee0af151203dfa0bd79fa03d01fcfc3e44ca2f1b

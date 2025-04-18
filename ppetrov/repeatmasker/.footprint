@@ -24,7 +24,7 @@ drwxr-xr-x	root/root	usr/lib/repeatmasker/Libraries/
 -rw-r--r--	root/root	usr/lib/repeatmasker/Libraries/RepeatPeps.lib
 -rw-r--r--	root/root	usr/lib/repeatmasker/Libraries/RepeatPeps.readme
 drwxr-xr-x	root/root	usr/lib/repeatmasker/Libraries/famdb/
--rw-r--r--	root/root	usr/lib/repeatmasker/Libraries/famdb/min_init.0.h5
+-rw-r--r--	root/root	usr/lib/repeatmasker/Libraries/famdb/dfam39_full.0.h5
 -rw-r--r--	root/root	usr/lib/repeatmasker/Libraries/taxonomy.dat
 -rwxr-xr-x	root/root	usr/lib/repeatmasker/LibraryUtils.pm
 drwxr-xr-x	root/root	usr/lib/repeatmasker/Matrices/

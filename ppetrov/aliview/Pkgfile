@@ -4,10 +4,11 @@
 # Depends on: jdk8-bin
 
 name=aliview
-version=1.28
+version=1.30
 release=1
 source=(http://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/linux-version-$version/$name.tgz
 	$name.desktop)
+renames=($name-$version.tgz SKIP)
 
 build() {
 	cd $name

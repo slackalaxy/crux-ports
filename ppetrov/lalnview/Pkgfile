@@ -14,7 +14,7 @@ build() {
 	# I _do_ want to include this
 	sed -i "s:$name.help:/usr/share/$name/$name.help:" MF_MainWindow.cxx
 
-	OPT="$CFLAGS" make
+	OPT="$CFLAGS" make -j1
 	install -D -m755 $name $PKG/usr/bin/$name
 
 	# Couldn't find an icon, so i made one myself.

@@ -1,0 +1,1343 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/revdep.d/
+-rw-r--r--	root/root	etc/revdep.d/snapgene
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/snapgene -> ../lib/snapgene/snapgene.sh
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/snapgene/
+-rw-rw-rw-	root/root	usr/lib/snapgene/VERSION
+drwxrwxrwx	root/root	usr/lib/snapgene/crypto/
+-rw-r--r--	root/root	usr/lib/snapgene/crypto/libqca-ossl.so
+drwxrwxrwx	root/root	usr/lib/snapgene/imageformats/
+-rw-r--r--	root/root	usr/lib/snapgene/imageformats/libqjpeg.so
+-rw-r--r--	root/root	usr/lib/snapgene/imageformats/libqtiff.so
+-rw-rw-rw-	root/root	usr/lib/snapgene/launch.png
+-rwxrwxrwx	root/root	usr/lib/snapgene/libKALIB32.so
+-rwxrwxrwx	root/root	usr/lib/snapgene/libKeyAccess.so
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Concurrent.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Core.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Core5Compat.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6DBus.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Gui.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Network.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6OpenGL.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6OpenGLWidgets.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Positioning.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6PrintSupport.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Qml.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6QmlModels.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Quick.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6QuickWidgets.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Sql.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Svg.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6SvgWidgets.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6WebChannel.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6WebEngineCore.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6WebEngineWidgets.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Widgets.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6XcbQpa.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libQt6Xml.so.6
+-rw-r--r--	root/root	usr/lib/snapgene/libc++.so.1
+-rw-r--r--	root/root	usr/lib/snapgene/libc++abi.so.1
+-rwxr-xr-x	root/root	usr/lib/snapgene/libcrypto.so.1.1
+drwxrwxrwx	root/root	usr/lib/snapgene/libexec/
+-rwxr-xr-x	root/root	usr/lib/snapgene/libexec/QtWebEngineProcess
+-rw-rw-rw-	root/root	usr/lib/snapgene/libexec/qt.conf
+-rw-r--r--	root/root	usr/lib/snapgene/libhts.so.3
+-rw-r--r--	root/root	usr/lib/snapgene/libicudata.so.66
+-rw-r--r--	root/root	usr/lib/snapgene/libicui18n.so.66
+-rw-r--r--	root/root	usr/lib/snapgene/libicuuc.so.66
+-rw-r--r--	root/root	usr/lib/snapgene/libio_lib.so
+-rwxr-xr-x	root/root	usr/lib/snapgene/liblzma.so.5
+-rw-r--r--	root/root	usr/lib/snapgene/libomp.so.5
+-rw-r--r--	root/root	usr/lib/snapgene/libparasail.so
+-rw-r--r--	root/root	usr/lib/snapgene/libqca-qt6.so.2
+-rwxrwxr-x	root/root	usr/lib/snapgene/libqntp.so.1.0.0
+-rwxrwxr-x	root/root	usr/lib/snapgene/libqwebdavlib.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/snapgene/libssl.so.1.1
+-rw-r--r--	root/root	usr/lib/snapgene/libunwind.so.1
+drwxrwxrwx	root/root	usr/lib/snapgene/platforms/
+-rw-r--r--	root/root	usr/lib/snapgene/platforms/libqoffscreen.so
+-rw-r--r--	root/root	usr/lib/snapgene/platforms/libqxcb.so
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Arrows/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/largeArrow.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/largeArrow@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/largeArrow_disabled.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/largeArrow_disabled@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/largeArrow_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/largeArrow_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/mirrorArrow_mac.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/mirrorArrow_win.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/smallArrow.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/smallArrow@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/smallArrow_disabled.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/smallArrow_disabled@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/smallArrow_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Arrows/smallArrow_pliancy@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/bold.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/bold@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/insertHyperlink.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/insertHyperlink@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/italics.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/italics@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/subscript.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/subscript@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/superscript.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/superscript@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/symbol.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/symbol@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/symbol_small.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/symbol_small@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/underline.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/formatting/underline@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/bases.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/bases@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/codons.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/codons@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/feature.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/feature@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/restrictionSite.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/restrictionSite@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/reverseTranslation.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/insert/reverseTranslation@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/layout/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/layout/list.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/layout/list@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/layout/tree.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/layout/tree@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/add.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/add@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/barcode.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/barcode@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/close.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/close@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/close_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/close_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/doubleStrand.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/doubleStrand@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/eyeColored.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/eyeColored@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/eyeDark.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/eyeDark@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/favorite_checked.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/favorite_checked@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/favorite_normal.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/favorite_normal@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/favorite_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/favorite_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/favorite_pressed.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/favorite_pressed@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/flipped.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/flipped@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/back.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/back@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/copy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/copy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/cut.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/cut@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/export.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/export@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/forward.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/forward@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/import.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/import@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/info.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/info@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/new.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/new@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/open.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/open@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/paste.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/paste@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/print.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/print@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/redo.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/redo@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/save.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/save@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/undo.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/large/undo@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/leftArrow.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/leftArrow@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/moveDown.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/moveDown@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/moveToBottom.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/moveToBottom@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/moveToTop.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/moveToTop@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/moveUp.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/moveUp@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/pointData.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/pointData@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/qualityData.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/qualityData@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/remove.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/remove@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/rightArrow.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/rightArrow@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/roundColor.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/roundColor@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/search.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/search@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleLeftDark.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleLeftDark@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleLeftDark_pressed.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleLeftDark_pressed@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleLeftLight.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleLeftLight@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleLeftLight_pressed.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleLeftLight_pressed@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleRightDark.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleRightDark@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleRightDark_pressed.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleRightDark_pressed@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleRightLight.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleRightLight@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleRightLight_pressed.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/sidebarHandle/splitterHandleRightLight_pressed@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/back.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/back@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/copy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/copy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/cut.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/cut@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/export.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/export@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/forward.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/forward@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/import.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/import@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/info.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/info@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/new.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/new@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/open.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/open@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/paste.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/paste@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/print.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/print@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/redo.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/redo@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/save.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/save@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/undo.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/undo@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/window_in.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/window_in@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/window_out.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/small/window_out@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/spinDownArrowDark.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/spinDownArrowDark@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/spinDownArrowLight.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/spinDownArrowLight@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/spinUpArrowDark.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/spinUpArrowDark@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/spinUpArrowLight.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/spinUpArrowLight@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/splitWindow.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/splitWindow@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/squareColor.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/squareColor@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/trashCan.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/trashCan@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/trashCan_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/trashCan_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/unflipped.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/misc/unflipped@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_blocksOf10.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_blocksOf10@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_blocksOf3.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_blocksOf3@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_compactDNA.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_compactDNA@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_compactProtein.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_compactProtein@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_compactRNA.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/alternativeFormat_compactRNA@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/chevron.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/chevron@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/chevron_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/chevron_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/colors_customDNA.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/colors_customDNA@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/colors_customProtein.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/colors_customProtein@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/colors_gc.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/colors_gc@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/colors_history.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/colors_history@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/enzymes.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/enzymes@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/label_external.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/label_external@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/label_internal.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/label_internal@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_allFrames.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_allFrames@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_bottomFrames.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_bottomFrames@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_firstForwardFrame.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_firstForwardFrame@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_firstReverseFrame.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_firstReverseFrame@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_orfsOnly.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_orfsOnly@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_secondForwardFrame.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_secondForwardFrame@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_secondReverseFrame.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_secondReverseFrame@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_thirdForwardFrame.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_thirdForwardFrame@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_thirdReverseFrame.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_thirdReverseFrame@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_topFrames.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/narrow/translations_topFrames@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alignments.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alignments@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_blocksOf10.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_blocksOf10@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_blocksOf3.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_blocksOf3@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_compactDNA.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_compactDNA@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_compactProtein.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_compactProtein@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_compactRNA.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/alternativeFormat_compactRNA@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/bonds.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/bonds@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/calculationParameters.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/calculationParameters@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/chevron.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/chevron@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/chevron_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/chevron_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/colors_customDNA.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/colors_customDNA@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/colors_customProtein.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/colors_customProtein@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/colors_gc.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/colors_gc@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/colors_history.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/colors_history@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/customLineWidth.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/customLineWidth@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/enzymes.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/enzymes@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/features.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/features@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/featuresOnLine.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/featuresOnLine@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/label_external.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/label_external@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/label_internal.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/label_internal@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/locations.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/locations@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/minimap.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/minimap@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/names.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/names@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/numbers.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/numbers@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/primers.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/primers@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/regions.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/regions@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/showAsInterruptedCircle.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/showAsInterruptedCircle@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/showAsInterruptedSingleCircle.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/showAsInterruptedSingleCircle@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/showAsLinearSingleStrand.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/showAsLinearSingleStrand@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/showAsLinearStrand.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/showAsLinearStrand@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/sites.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/sites@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/threeLetterCodes.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Buttons/wide/threeLetterCodes@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Cursors/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/cross.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/cross@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/downArrow.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/downArrow@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_0.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_0@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_1.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_10.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_10@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_11.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_11@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_12.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_12@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_13.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_13@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_14.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_14@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_15.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_15@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_17.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_17@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_18.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_18@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_19.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_19@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_1@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_2.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_20.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_20@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_21.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_21@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_22.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_22@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_23.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_23@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_24.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_24@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_25.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_25@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_26.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_26@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_27.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_27@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_28.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_28@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_29.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_29@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_2@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_3.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_30.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_30@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_31.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_31@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_3@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_4.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_4@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_5.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_5@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_6.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_6@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_7.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_7@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_8.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_8@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_9.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/iBeam/iBeam_9@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Cursors/menuIcons/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/menuIcons/arrow.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/menuIcons/arrow@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/menuIcons/hand.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/menuIcons/hand@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/menuIcons/rotate.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/menuIcons/rotate@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_down.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_down@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_horizontal.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_horizontal@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_left.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_left@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_right.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_right@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_up.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_up@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_vertical.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/resize/resize_vertical@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rightArrow.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rightArrow@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_0.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_0@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_1.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_10.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_10@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_11.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_11@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_12.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_12@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_13.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_13@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_14.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_14@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_15.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_15@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_17.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_17@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_18.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_18@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_19.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_19@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_1@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_2.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_20.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_20@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_21.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_21@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_22.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_22@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_23.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_23@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_2@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_3.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_3@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_4.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_4@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_5.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_5@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_6.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_6@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_7.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_7@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_8.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_8@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_9.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Cursors/rotate/rotate_9@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Flags/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Flags/en.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Flags/en@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Flags/ja.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Flags/ja@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Flags/zh.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Flags/zh@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Html/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Html/map.css
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Html/sequence.css
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Html/shared.js
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Indicators/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/blackLock.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/blackLock@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/circle-check-solid.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/circle-check-solid@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/circle-info-solid.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/circle-info-solid@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/circular.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/circular@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/covalentlyClosed.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/covalentlyClosed@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/favorite_checked.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/favorite_checked@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/favorite_normal.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/favorite_normal@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/favorite_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/favorite_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/favorite_pressed.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/favorite_pressed@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/forwardAlignment.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/forwardAlignment@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/forwardAlignment_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/forwardAlignment_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/forwardAlignment_pliancySelected.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/forwardAlignment_pliancySelected@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/forwardAlignment_selected.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/forwardAlignment_selected@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/hexagon-exclamation-solid.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/hexagon-exclamation-solid@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/linear.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/linear@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/reverseAlignment.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/reverseAlignment@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/reverseAlignment_pliancy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/reverseAlignment_pliancy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/reverseAlignment_pliancySelected.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/reverseAlignment_pliancySelected@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/reverseAlignment_selected.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/reverseAlignment_selected@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/singleStrandedCircular.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/singleStrandedCircular@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/singleStrandedLinear.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/singleStrandedLinear@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/tabTargetIndicator.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/tabTargetIndicator@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/terminalPhosphate.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/terminalPhosphate@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/triangle-exclamation-solid.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/triangle-exclamation-solid@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/warning.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/warning@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/watermark.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/watermark@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/whiteLock.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Indicators/whiteLock@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Logo/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo220.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo220@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo234.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo234@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo24.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo24@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/logo64@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/whiteLogo24.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Logo/whiteLogo24@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/NameLogo/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/NameLogo/chineseName.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/NameLogo/chineseName@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/NameLogo/logo.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/NameLogo/logo@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/NameLogo/nameDark.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/NameLogo/nameDark@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/NameLogo/nameLight.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/NameLogo/nameLight@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/collection/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_48x48.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_48x48@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_48x48.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_48x48@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_dna_alignment/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_48x48.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_48x48@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_gel/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_48x48.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_48x48@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_generic/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_48x48.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_48x48@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_48x48.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_48x48@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_protein_alignment/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_48x48.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_48x48@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_rna/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_48x48.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_48x48@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/content_trace/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_collection/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_dna_alignment/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_gel/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_generic/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_protein_alignment/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_rna/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_128x128.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_128x128@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_16x16.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_16x16@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_256x256.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_256x256@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_32x32.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_32x32@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_64x64.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/ProxyIcons/document_trace/icon_64x64@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Sliders/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Sliders/Dark Slider Selected.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Sliders/Dark Slider Selected@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Sliders/Dark Slider.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Sliders/Dark Slider@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Sliders/Slider Selected.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Sliders/Slider Selected@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Sliders/Slider.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Sliders/Slider@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Suppliers/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/genewiz.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/genewiz@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/genscript.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/genscript@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/synbio.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/synbio@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/twist.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/twist@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/vectorBuilder.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Suppliers/vectorBuilder@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Common/Svgs/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleDown.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleDownMedium.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleDownMediumWide.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleDownSmall.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleDownTiny.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleLeft.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleRight.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleRightSmall.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/angleUpArrowDown.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/arrowDown.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/arrowUpArrowDown.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/barsFiler.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/barsFilter.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/calendar.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/cards.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/confirmedExperimentally.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/contentDna.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/contentDnaAlignment.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/contentGel.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/contentGeneric.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/contentProtein.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/contentProteinAlignment.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/contentRna.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/contentTrace.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/directionBoth.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/directionForward.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/directionNone.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/directionReverse.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/displayOptions.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/doubleCircle.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/eye.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/eyeSlash.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/find.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/flagChina.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/flagJapan.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/flagUnitedStates.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/forward.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/forwardWagging.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/gear.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/help.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/history.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/language.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/lines.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/lists.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/magnifyingGlass.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/mapHoriz.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/numbers.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/pen.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/pipe.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/present.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/redo.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/reverse.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/reverseWagging.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/rocket.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/seqContinuous.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/seqWrap.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showAlignments.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showBonds.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showColors.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showEnzymes.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showFeatures.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showNumbers.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showPrimers.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showRegions.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showSites.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/showTranslations.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/sliders.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/splitContent.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/stars.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/text.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/threeHorizontalDots.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/threeLetterCodes.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/threeVerticalDots.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/trash.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/triangleExclamation.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/triangleExclamationSolid.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/undo.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/watermark.svg
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Common/Svgs/xmark.svg
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Matrices/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum100
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum30
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum35
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum40
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum45
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum50
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum55
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum60
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum62
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum65
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum70
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum75
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum80
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum85
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosum90
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/blosumn
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/dnafull
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/nuc44
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam10
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam100
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam110
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam120
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam130
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam140
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam150
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam160
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam170
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam180
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam190
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam20
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam200
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam210
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam220
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam230
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam240
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam250
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam260
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam270
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam280
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam290
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam30
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam300
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam310
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam320
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam330
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam340
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam350
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam360
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam370
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam380
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam390
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam40
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam400
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam410
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam420
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam430
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam440
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam450
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam460
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam470
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam480
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam490
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam50
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam500
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam60
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam70
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam80
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/pam90
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Matrices/valdar2001_pet91.txt
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/GC Cloning Vectors/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/GC Cloning Vectors/pGC Blue (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/GC Cloning Vectors/pSMART GC HK (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/GC Cloning Vectors/pSMART GC LK (linearized).dna
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pAd BLOCK-iT-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pAd CMV V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pAd PL-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pBAD-DEST49.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pCOLA-2-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pCOLA-3-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST R4-R3 Vector II.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST R4-R3.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST10.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST14.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST15.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST17.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST20.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST24.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST26.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST27.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pDEST8.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pEF-DEST51.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pEF5 FRT V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-53-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-54-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-55-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-56-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-57-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-58-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-59-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-60-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-61-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-62-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET-DEST42.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET104-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET104.1-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET160-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pET161-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pEXP1-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pEXP2-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pEXP3-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pEXP4-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pHELLSGATE 12.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pHELLSGATE 8.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pIB V5-His-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti4 BLOCK-iT-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti4 V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6 BLOCK-iT-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6 UbC V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6 V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6 capTEV-CT-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6 capTEV-NT-DEST1.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6.2 C-Lumio V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6.2 N-Lumio V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6.2 V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6.3 TO V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6.3 V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti6.4 R4R2 V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pLenti7.3 V5-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pMT BioEase-DEST.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pMT-DEST48.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pSCREEN-iT lacZ-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pT-REx-DEST30.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pT-REx-DEST31.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pYES-DEST52.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA-DEST40.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA-DEST47.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA-DEST53.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA3.1 nV5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA3.2 V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA3.2 capTEV-CT V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA3.2 capTEV-NT V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 C-EmGFP-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 C-YFP-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 EmGFP-Bsd V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 N-EmGFP-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 N-YFP-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 V5-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 V5-pL-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 cGeneBLAzer-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 cLumio-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 nGeneBLAzer-DEST.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Destination Vectors/pcDNA6.2 nLumio-DEST.dna
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR P2r-P3.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR P4-P1r.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR Zeo.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR201.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR207.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR221 P1-P4.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR221 P1-P5r.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR221 P3-P2.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR221 P4r-P3r.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR221 P5-P2.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR221 P5-P4.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR221.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR222.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/Gateway Donor Vectors/pDONR223.dna
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/Allele TA Vector (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/RBC T&A Cloning Vector (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/T-Vector pMD19 (Simple).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/T-Vector pMD20.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pDrive (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pET SUMO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pETBlue-1 AccepTor.dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pGEM-T (linearized).dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pGEM-T Easy (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pLPS-T (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pLUG (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pLUG-Multi (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pPrime (linearized).dna
+-rwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pQE-30 UA (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pSC-A-amp kan (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pSTBlue-1 AccepTor.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pSpark TA Done.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pSpark TA.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pT7Blue T-Vector.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pTA Plus (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pTOP TA V2 (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pTZ57R_T.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pTargeT (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TA Cloning Vectors/pUC57-T.dna
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Blunt Vectors/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Blunt Vectors/pCR-Blunt II-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Blunt Vectors/pCR-XL-2-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Blunt Vectors/pCR4Blunt-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Blunt Vectors/pLPS-B (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Blunt Vectors/pTOP Blunt V2 (linearized).dna
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pBAD202 D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pEF5 FRT V5-D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pENTR D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pENTR SD D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pENTR TEV D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pET100 D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pET101 D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pET102 D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pET151 D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pET160 GW D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pET161 GW D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pET200 D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pLenti6 V5-D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pcDNA3.1D V5-His-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pcDNA3.2 V5 GW D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pcDNA6.2 V5 GW D-TOPO.dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO Directional Vectors/pcDNA6.2 cGeneBLAzer-GW D-TOPO.dna
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pBAD Thio-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pBAD-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pBlue-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pCR-XL-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pCR2.1-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pCR4-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pCR8 GW TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pCRII-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pEF6 V5-His-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pENTR5'-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pEXP5-CT TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pEXP5-NT TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pGlow-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pIB V5-His-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pLenti6.3 V5-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pLenti7.3 V5-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pMT V5-His-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pOptiVEC-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pSecTag FRT V5-His-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pTrcHis-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pTrcHis2-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pYES2.1 V5-His-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA3.1 CT-GFP-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA3.1 NT-GFP-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA3.1 V5-His-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA3.3-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA3.4-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA4 HisMax-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA5 FRT TO-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA5 FRT V5-His-TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA6.2 C-EmGFP-GW TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA6.2 C-YFP-GW TOPO (linearized).dna
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Plasmids/TOPO TA Vectors/pcDNA6.2 N-EmGFP-GW TOPO (linearized).dna
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/cap3/
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/cap3/cap3
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/clustalOmega/
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/clustalOmega/clustalo
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/mafft/
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/mafft/disttbfast
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/mafft/f2cl
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/muscle/
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/muscle/muscle
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/parasail/
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/parasail/parasail_aligner
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/parasail/parasail_stats
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/samtools/
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/samtools/ace2sam
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/samtools/samtools
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/tcoffee/
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/tcoffee/TMalign
+-rwxrwxr-x	root/root	usr/lib/snapgene/resources/Tools/tcoffee/t_coffee
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Tools/viennaRna/
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/viennaRna/RNAcofold
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/viennaRna/RNAfold
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/viennaRna/RNAplot
+-rwxr-xr-x	root/root	usr/lib/snapgene/resources/Tools/viennaRna/RNAsubopt
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/About/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/About/acknowledgements.html
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/Content/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/globe.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/globe@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/Content/home/
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/analyzeVerify.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/analyzeVerify@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/annotatingSequences.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/annotatingSequences@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/briefTour.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/briefTour@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/colors.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/colors@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/createOpenImport.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/createOpenImport@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/displayOptionsDna.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/displayOptionsDna@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/displayOptionsProt.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/displayOptionsProt@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/enzymes.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/enzymes@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/features.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/features@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/gateway.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/gateway@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/gibson.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/gibson@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/goldenGate.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/goldenGate@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/hifiCloning.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/hifiCloning@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/history.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/history@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/inFusion.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/inFusion@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/other.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/other@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/planPredict.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/planPredict@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/preferences.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/preferences@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/primers.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/primers@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/resourcesHub.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/resourcesHub@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/restrictionCloning.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/restrictionCloning@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/searching.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/searching@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/settingPreferences.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/settingPreferences@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/snapgeneAcademy.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/snapgeneAcademy@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/tagcCloning.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/tagcCloning@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/topoCloning.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/topoCloning@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/translations.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/images/translations@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/trySampleProject.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/trySampleProject@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/Content/home/videos/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/videos/bulkOperations.webp
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/home/videos/modernUI.webp
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/refineYourSelection.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/refineYourSelection@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/Content/search/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/search/noResults.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/search/noResults@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/search/noResultsDark.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Content/search/noResultsDark@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/addQualifierValue.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/addQualifierValue@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/bidirectional.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/bidirectional@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/forwardDirectional.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/forwardDirectional@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/nonDirectional.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/nonDirectional@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/removeQualifierValue.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/removeQualifierValue@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/reverseDirectional.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/FeatureDialog/reverseDirectional@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/HybridizationParameters/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/HybridizationParameters/fivePrimeAnnealing.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/HybridizationParameters/fivePrimeAnnealing@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/HybridizationParameters/minimumMeltingTemperature.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/HybridizationParameters/minimumMeltingTemperature@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/HybridizationParameters/threePrimeAnnealing.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/HybridizationParameters/threePrimeAnnealing@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/delete.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/delete@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/duplicate.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/duplicate@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/merge.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/merge@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/overlap.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/ManageEnzymeSets/overlap@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/NewVersion/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/NewVersion/bug.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/NewVersion/bug@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/Preferences/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/Preferences/sampleTrace.ztr
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/RestrictionEnzymes/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/RestrictionEnzymes/back.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/RestrictionEnzymes/back@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/RestrictionEnzymes/forward.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/RestrictionEnzymes/forward@2x.png
+drwxrwxrwx	root/root	usr/lib/snapgene/resources/Windows/TraceWindow/
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/TraceWindow/flipped.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/TraceWindow/flipped@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/TraceWindow/horizontalMode.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/TraceWindow/horizontalMode@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/TraceWindow/unflipped.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/Windows/TraceWindow/unflipped@2x.png
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/epitopeAndAffinityTags.xml
+-rw-r--r--	root/root	usr/lib/snapgene/resources/icudtl.dat
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/proteaseCleavageSites.xml
+-rw-r--r--	root/root	usr/lib/snapgene/resources/qtwebengine_devtools_resources.pak
+-rw-r--r--	root/root	usr/lib/snapgene/resources/qtwebengine_resources.pak
+-rw-r--r--	root/root	usr/lib/snapgene/resources/qtwebengine_resources_100p.pak
+-rw-r--r--	root/root	usr/lib/snapgene/resources/qtwebengine_resources_200p.pak
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/standardCommonFeatures.ftrs
+-rw-rw-rw-	root/root	usr/lib/snapgene/resources/standardPolymerases.xml
+-rwxrwxrwx	root/root	usr/lib/snapgene/snapgene
+-rwxrwxrwx	root/root	usr/lib/snapgene/snapgene.sh
+drwxrwxrwx	root/root	usr/lib/snapgene/sqldrivers/
+-rw-r--r--	root/root	usr/lib/snapgene/sqldrivers/libqsqlite.so
+drwxrwxrwx	root/root	usr/lib/snapgene/tls/
+-rw-r--r--	root/root	usr/lib/snapgene/tls/libqopensslbackend.so
+drwxrwxrwx	root/root	usr/lib/snapgene/translations/
+drwxrwxrwx	root/root	usr/lib/snapgene/translations/qtwebengine_locales/
+-rw-r--r--	root/root	usr/lib/snapgene/translations/qtwebengine_locales/en-US.pak
+drwxrwxrwx	root/root	usr/lib/snapgene/xcbglintegrations/
+-rw-r--r--	root/root	usr/lib/snapgene/xcbglintegrations/libqxcb-glx-integration.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/snapgene.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/snapgene.png

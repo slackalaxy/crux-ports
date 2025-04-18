@@ -3,8 +3,8 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=fonts-apple-emoji
-version=17.4
-release=2
+version=18.4
+release=1
 source=(https://github.com/samuelngs/apple-emoji-linux/releases/download/v${version}/AppleColorEmoji.ttf
 	32-apple-emoji.conf)
 

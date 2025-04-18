@@ -1,11 +1,11 @@
 # Description: Strawberry music player
 # URL: https://www.strawberrymusicplayer.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli chromaprint dav1d double-conversion fdk-aac fftw graphite2 gst-plugins-base icu kdsingleapplication keyutils lame librsvg libva libvdpau libvpx libwebp openjpeg2 pulseaudio snappy speex taglib
+# Depends on: boost brotli chromaprint dav1d double-conversion fdk-aac fftw graphite2 gst-plugins-base icu kdsingleapplication keyutils lame librsvg libva libvdpau libvpx libwebp openjpeg2 pulseaudio snappy speex taglib
 # Optional: krb5 x264 x265
 
 name=strawberry
-version=1.2.7
+version=1.2.9
 release=1
 source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
 
@@ -20,6 +20,8 @@ build() {
 	-DENABLE_MTP=OFF                      \
 	-DENABLE_GPOD=OFF                     \
 	-DENABLE_EBUR128=OFF                  \
+	-DENABLE_STREAMTAGREADER=OFF          \
+	-DENABLE_DISCORD_RPC=OFF              \
         -Wno-dev
 
   cmake --build build

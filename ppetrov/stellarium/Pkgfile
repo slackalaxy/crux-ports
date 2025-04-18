@@ -11,9 +11,9 @@ source=(https://github.com/Stellarium/stellarium/releases/download/v${version}/$
 
 build() {
 	cd $name-$version
- 
+
 	mkdir -p build
-	cd build
+	cd build	
 	cmake \
 		-D CMAKE_INSTALL_PREFIX=/usr \
 		-D CMAKE_CXX_FLAGS:STRING="$CFLAGS" \

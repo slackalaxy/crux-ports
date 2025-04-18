@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZb3/9fbsCENCQH0bntJUtn3bXnI7S4bvE6OKYRzQhU7fvSbds5o1Z50bad4BljdQJ9MULA1wv+intEciTQ1J5Qo=
-SHA256 (Pkgfile) = 29f1de4f948903ff8a1dfc7f5a541bbd8c7c3efa76e872df088229fd36ef1168
-SHA256 (.footprint) = 81a91e1e667edfcf9d78d4c3e6755bf3ecf1946ffc955ade4263a227145c4aab
-SHA256 (RepeatMasker-4.1.7-p1.tar.gz) = 15222b39178f19c116282437190b64c5ba68f62b0f2044b3bbcbda5e02748993
+RWToVVsIkzFIZfUzIXbWcf6zdrhyTJXxvJxmu5UGuGIcQ62/Fh3jEIepEJYoyZohdJA1t0rjOeJofWSop5Qp9TpjjBzcy4Y5Sgs=
+SHA256 (Pkgfile) = db5d97190cb166c647bc15b07e80136f9b1b8d70787abf4d577f0d62def59ca5
+SHA256 (.footprint) = 7e45ddba45a7cd883d8abb23ef5fae4a1d490282f4299dffa2c40abeca73f548
+SHA256 (RepeatMasker-4.1.8.tar.gz) = e58b0f3411af54af6f4f15c3473c5c312b0878225a71923ce912e9dd017f7ac5

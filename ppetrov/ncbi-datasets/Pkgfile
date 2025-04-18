@@ -1,0 +1,16 @@
+# Description: NCBI Datasets command-line tools
+# URL: https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-tools/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=ncbi-datasets
+version=2
+release=1
+source=(https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/datasets
+	https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/v2/linux-amd64/dataformat)
+renames=(datasets-$version dataformat-$version)
+
+build() {
+  install -D -m 755 $SRC/datasets-$version $PKG/usr/bin/datasets
+  install -D -m 755 $SRC/dataformat-$version $PKG/usr/bin/dataformat
+}

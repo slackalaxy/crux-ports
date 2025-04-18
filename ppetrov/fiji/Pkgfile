@@ -4,7 +4,7 @@
 # Depends on: jdk8-bin libglvnd xorg-libxdamage xorg-libxxf86vm
 
 name=fiji
-version=20250205_1017
+version=20250415_1717
 release=1
 source=(https://downloads.imagej.net/fiji/archive/${version/_/-}/fiji-nojre.zip
 	ImageJ2.desktop $name.sh)
@@ -18,7 +18,7 @@ build() {
 	# Update plugins, so that the latest are included in the package. This
 	# will download stuff during the package creation, so if you _really_
 	# want this, uncomment the line below.
-	 ./$name --update list-local-only
+	# ./$name --update list-local-only
 
 	# We will put here two tools, so they are not run at startup.
 	mkdir -p unused
@@ -27,7 +27,7 @@ build() {
 	# Remove the check for required updates. If you want it, comment out
 	# the next line. You can "enable" it any time by just placing it in the
 	# plugins/Scripts/Plugins/AutoRun/ folder.
-	mv ../plugins/Scripts/Plugins/AutoRun/Check_Required_Update_Sites.js .
+	mv ../scripts/Plugins/AutoRun/Check_Required_Update_Sites.js .
 
 	# We do not want updates when the program is installed. As above, it
 	# is your system, so if you want this functionality, then comment out
@@ -40,11 +40,11 @@ build() {
 	# Copy the folders, db.xml and the renamed binary to /usr/lib
 	mkdir -p $PKG/usr/lib/$name
 	cp -a \
+	config \
 	Contents \
 	images \
 	jars \
 	lib \
-	licenses \
 	luts \
 	macros \
 	plugins \

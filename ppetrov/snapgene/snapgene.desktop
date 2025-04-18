@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=SnapGene
+Comment=Software for everyday molecular biology
+Exec=snapgene %U
+Icon=snapgene
+Terminal=false
+Type=Application
+Categories=Education;

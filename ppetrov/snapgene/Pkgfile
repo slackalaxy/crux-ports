@@ -1,0 +1,36 @@
+# Description: Software for everyday molecular biology
+# URL: https://www.snapgene.com/snapgene-viewer
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib brotli double-conversion graphite2 icu keyutils krb5 libdeflate libtiff5 libwebp nss openssl11 qt6-declarative qt6-svg xorg-libsm xorg-libxcomposite xorg-libxkbfile
+
+name=snapgene
+version=8.0.2
+release=1
+source=(https://www.snapgene.com/snapgene-viewer/download snapgene.desktop snapgene.png)
+renames=(snapgene_${version}_linux.deb SKIP SKIP)
+
+build() {
+  bsdtar -xf snapgene_${version}_linux.deb
+  bsdtar -xf data.tar.xz
+  
+  mkdir -p $PKG/usr/lib/$name
+  cp -a opt/gslbiotech/snapgene/* $PKG/usr/lib/$name/
+  chmod +x $PKG/usr/lib/$name/snapgene.sh
+  
+  mkdir -p $PKG/usr/share/{applications,pixmaps}
+  cp -a $SRC/snapgene.desktop $PKG/usr/share/applications
+  cp -a $SRC/snapgene.png $PKG/usr/share/pixmaps
+  
+  mkdir -p $PKG/usr/bin
+  cd $PKG/usr/bin
+  ln -s ../lib/$name/snapgene.sh snapgene
+  
+  rm -rf $PKG/usr/lib/$name/resources/{COPYING,Document,sampleData,translations}
+  
+  mkdir -p $PKG/etc/revdep.d
+  cd $PKG/usr/lib/$name
+  
+  # https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
+  find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+  sed -i "s:\.:/usr/lib/snapgene:g" $PKG/etc/revdep.d/$name
+}

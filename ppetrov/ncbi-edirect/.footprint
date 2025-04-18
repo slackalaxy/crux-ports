@@ -43,11 +43,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/esummary
 -rwxr-xr-x	root/root	usr/bin/exclude-uid-lists
 -rwxr-xr-x	root/root	usr/bin/expand-current
--rwxr-xr-x	root/root	usr/bin/fetch-local
--rwxr-xr-x	root/root	usr/bin/fetch-nmcds
--rwxr-xr-x	root/root	usr/bin/fetch-pmc
--rwxr-xr-x	root/root	usr/bin/fetch-pubmed
--rwxr-xr-x	root/root	usr/bin/fetch-taxonomy
 -rwxr-xr-x	root/root	usr/bin/filter-columns
 -rwxr-xr-x	root/root	usr/bin/filter-genbank
 -rwxr-xr-x	root/root	usr/bin/filter-record
@@ -60,8 +55,11 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gbf2fsa
 -rwxr-xr-x	root/root	usr/bin/gbf2info
 -rwxr-xr-x	root/root	usr/bin/gbf2ref
+-rwxr-xr-x	root/root	usr/bin/gbf2tbl
 -rwxr-xr-x	root/root	usr/bin/gbf2xml
 -rwxr-xr-x	root/root	usr/bin/gene2range
+-rwxr-xr-x	root/root	usr/bin/gff-sort
+-rwxr-xr-x	root/root	usr/bin/gff2xml
 -rwxr-xr-x	root/root	usr/bin/gm2ranges
 -rwxr-xr-x	root/root	usr/bin/gm2segs
 -rwxr-xr-x	root/root	usr/bin/hgvs2spdi
@@ -84,7 +82,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/just-top-hits
 -rwxr-xr-x	root/root	usr/bin/nhance.sh
 -rwxr-xr-x	root/root	usr/bin/nquire
--rwxr-xr-x	root/root	usr/bin/phrase-search
+-rwxr-xr-x	root/root	usr/bin/pair-at-a-time
 -rwxr-xr-x	root/root	usr/bin/pm-clean
 -rwxr-xr-x	root/root	usr/bin/pm-collect
 -rwxr-xr-x	root/root	usr/bin/pm-prepare
@@ -95,6 +93,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/pmc2bioc
 -rwxr-xr-x	root/root	usr/bin/pmc2info
 -rwxr-xr-x	root/root	usr/bin/print-columns
+-rwxr-xr-x	root/root	usr/bin/print-missing-subranges
 -rwxr-xr-x	root/root	usr/bin/quote-grouped-elements
 -rwxr-xr-x	root/root	usr/bin/rchive
 -rwxr-xr-x	root/root	usr/bin/rchive.Linux
@@ -106,13 +105,12 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/skip-if-file-exists
 -rwxr-xr-x	root/root	usr/bin/snp2hgvs
 -rwxr-xr-x	root/root	usr/bin/snp2tbl
+-rwxr-xr-x	root/root	usr/bin/sort-by-length
 -rwxr-xr-x	root/root	usr/bin/sort-table
 -rwxr-xr-x	root/root	usr/bin/sort-uniq-count
 -rwxr-xr-x	root/root	usr/bin/sort-uniq-count-rank
 -rwxr-xr-x	root/root	usr/bin/spdi2tbl
 -rwxr-xr-x	root/root	usr/bin/split-at-intron
--rwxr-xr-x	root/root	usr/bin/stream-local
--rwxr-xr-x	root/root	usr/bin/stream-pubmed
 -rwxr-xr-x	root/root	usr/bin/systematic-mutations
 -rwxr-xr-x	root/root	usr/bin/tbl2prod
 -rwxr-xr-x	root/root	usr/bin/tbl2xml
@@ -127,6 +125,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/word-at-a-time
 -rwxr-xr-x	root/root	usr/bin/xcommon.sh
 -rwxr-xr-x	root/root	usr/bin/xfetch
+-rwxr-xr-x	root/root	usr/bin/xfetch.ini
 -rwxr-xr-x	root/root	usr/bin/xfilter
 -rwxr-xr-x	root/root	usr/bin/xinfo
 -rwxr-xr-x	root/root	usr/bin/xlink

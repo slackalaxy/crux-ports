@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZfq3CjyLg5jyDxccl0iYkFyjefaZB8rQJYfUfym89zMFkGqLDTBHz0UGMFR1Z1pP8sCGxdbaDxnvWl1Y9bYwVgU=
-SHA256 (Pkgfile) = 5a0023d7c7e5a6e4281d2d97a419b2f7c497ccc576eb632a2febbbb82dda93de
+RWToVVsIkzFIZVC0LwjyruFi4SXJM2NPGEQOrxCZk1t3OG5hj1uCXmEJ8f80q/2QL/NNOUxCUYVCoH5zzqtQsL8v8QGNYePPZQQ=
+SHA256 (Pkgfile) = a337c732b192a9e09fbd06c5deee31de30bb2e836d05a7a9448493cafa4384e5
 SHA256 (.footprint) = d6310dcb51f961db65bec091300fe2586856eb7c0263d12e325f287edbcd6e15
-SHA256 (datamash-1.8.tar.gz) = 7ad97e8c7ef616dd03aa5bd67ae24c488272db3e7d1f5774161c18b75f29f6fd
+SHA256 (datamash-1.9.tar.gz) = f382ebda03650dd679161f758f9c0a6cc9293213438d4a77a8eda325aacb87d2

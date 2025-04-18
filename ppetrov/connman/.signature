@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZf8MVqjqbI5mqoOBbd5nZdgnR5DnTfAn3cma+5S2SnCAIw5rsxOwnReeagLpA9LNxbvt4MFBULGKAoN8fa9ZvQQ=
-SHA256 (Pkgfile) = 4348e08ac1b44bad3f3c09b51dbe4999ce4484e9588505b41d3937b8a8eb0fef
+RWToVVsIkzFIZa0lXQqTcCLF4JNY0dbQfQhu8nFYAFgyCuqwAyinEAdrS53OQJqcIvWU8hqoM4avH9LzxyeXdCDSTFh5CgXd3g0=
+SHA256 (Pkgfile) = 839d03f80a280adb678ce00ce063d392bf1a058b9d1bafd97237f86bf7eaa24e
 SHA256 (.footprint) = 4555053984e32fbf7e4cdca2bcd0d5d779bae99705843c491e7ef72ea48a007c
-SHA256 (connman-1.43.tar.gz) = b8f5ab5d109d033edebe5b0564d20c9b7b9546a607195cdadc6754eb328b6f6e
+SHA256 (connman-1.44.tar.gz) = 62d9edc0df3bf8e4587581bde4c6bb9a64e153cb7273eb9500674571dae5cec9
 SHA256 (connmand.rc) = 34fca773f2c1ebd78e16e3bee487928872b2bd0865b2a3d49eae5ffcb127c8cf
 SHA256 (dbus.wheel.patch) = 7e82b282a3b56902e9365c4a87e51b44ebed13029f2e6627ecb72da628efbf20
 SHA256 (eduroam.config) = 3f87890e9419e8c58a5cffc9e8109c8799d45e23a7173a308399302fc3d24565

@@ -127,10 +127,6 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/folderlistmodel/
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/folderlistmodel/libqmlfolderlistmodelplugin.so
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/folderlistmodel/plugins.qmltypes
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/folderlistmodel/qmldir
-drwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/lottieqt/
--rwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/lottieqt/liblottieqtplugin.so
--rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/lottieqt/plugins.qmltypes
--rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/lottieqt/qmldir
 drwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/platform/
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/platform/libqtlabsplatformplugin.so
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/Qt/labs/platform/plugins.qmltypes
@@ -1144,7 +1140,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/cef/locales/
 -rw-r--r--	root/root	usr/lib/zoom-linux/cef/v8_context_snapshot.bin
 -rw-r--r--	root/root	usr/lib/zoom-linux/cef/vk_swiftshader_icd.json
 drwxr-xr-x	root/root	usr/lib/zoom-linux/chatapp/
--rw-r--r--	root/root	usr/lib/zoom-linux/chatapp/approval_flow.zip
+-rw-r--r--	root/root	usr/lib/zoom-linux/chatapp/chat_resource.zip
 -rw-r--r--	root/root	usr/lib/zoom-linux/clap-high.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/clap-medium.pcm
 drwxr-xr-x	root/root	usr/lib/zoom-linux/diagnostic/
@@ -1207,8 +1203,6 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/ringtone/
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/ringtone/ring.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/ringtone/ring_spatial.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/ringtone/ringtone.xml
-drwxr-xr-x	root/root	usr/lib/zoom-linux/scheduler/
--rw-r--r--	root/root	usr/lib/zoom-linux/scheduler/scheduler.zip
 drwxr-xr-x	root/root	usr/lib/zoom-linux/sip/
 -rw-r--r--	root/root	usr/lib/zoom-linux/sip/Hangup.WAV
 -rw-r--r--	root/root	usr/lib/zoom-linux/sip/dtmf_#.wav

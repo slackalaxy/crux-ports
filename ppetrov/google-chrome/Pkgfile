@@ -4,7 +4,7 @@
 # Depends on: brotli cups double-conversion gnutls graphite2 icu libidn2 lm_sensors nss qt5 qt6-base wayland
 
 name=google-chrome
-version=133.0.6943.126
+version=135.0.7049.95
 #version=$(ar p $name-stable_current_amd64.deb control.tar.xz 2> /dev/null | tar JxO ./control 2> /dev/null | grep Version | awk '{print $2}' | cut -d- -f1)
 release=1
 source=(https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb

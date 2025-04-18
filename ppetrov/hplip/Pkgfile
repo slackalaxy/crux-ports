@@ -5,8 +5,8 @@
 # Conflicts: hpcups
 
 name=hplip
-version=3.24.4
-release=3
+version=3.25.2
+release=1
 source=(http://downloads.sourceforge.net/project/hplip/hplip/$version/hplip-$version.tar.gz
 	0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch
 	0018-Allow-non-JPEG-scanning-on-the-HP-DeskJet-3520-All-i.patch
@@ -42,7 +42,7 @@ build() {
 	patch -p1 -i $SRC/hplip-covscan.patch
 	patch -p1 -i $SRC/hplip-scan-orblite-c99.patch
 	patch -p1 -i $SRC/hplip-scan-hpaio-include.patch
-	patch -p1 -i $SRC/hplip-pcardext-disable.patch
+	#patch -p1 -i $SRC/hplip-pcardext-disable.patch
 
 	find -name '*.py' -print0 | xargs -0 \
 		sed -i.env-python -e 's,^#!/usr/bin/env python,#!/usr/bin/python3,'

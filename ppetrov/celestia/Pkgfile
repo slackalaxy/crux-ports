@@ -5,12 +5,16 @@
 
 name=celestia
 version=1.6.4
-release=1
-source=(https://github.com/CelestiaProject/Celestia/archive/$version/$name-$version.tar.gz)
+release=2
+source=(https://github.com/CelestiaProject/Celestia/archive/$version/$name-$version.tar.gz
+	https://github.com/CelestiaProject/Celestia/commit/94894bed3bf98d41c5097e7829d491d8ff8d4a62.diff)
 
 build() {
 	cd Celestia-$version
+	patch -p1 < $SRC/94894bed3bf98d41c5097e7829d491d8ff8d4a62.diff
+	
 	autoreconf -vi
+	
 	./configure --prefix=/usr \
 		--disable-nls \
 		--with-lua=/usr \
@@ -18,7 +22,10 @@ build() {
 		--with-gtk \
 		--disable-rpath \
 		--with-lua
-
+	
+	# Get rid of these or it fails
+	sed -i "s:po po2::" Makefile
+	
 	make
 	make DESTDIR=$PKG MKDIR_P='mkdir -p' install
 	
