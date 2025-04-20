@@ -1,6 +1,0 @@
-You probably do not need all languages, listed in "DICTIONARIES".
-
-So, you can just edit the "DICTIONARIES" list file, distributed with the
-Pkgfile, and leave the ones you want. Note, that this will change the
-.footprint of the produced package. Also, I can't test all these, so if
-there are issues with a language you speak, let me know.

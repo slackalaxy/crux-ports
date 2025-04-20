@@ -1,47 +1,15 @@
 # Description: WPS Office dictionaries adapted from LibreOffice
-# URL: https://github.com/LibreOffice/dictionaries/
+# URL: https://github.com/slackalaxy/wps-office-dicts
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: wps-office
 
 name=wps-office-dicts
-version=24.2.4.2
+version=24.8.7.1
 release=1
-source=(https://github.com/LibreOffice/dictionaries/archive/libreoffice-$version/dictionaries-libreoffice-$version.tar.gz
-	DICTIONARIES)
+source=(https://github.com/slackalaxy/wps-office-dicts/archive/$version/$name-$version.tar.gz)
 
 build() {
-	cd dictionaries-libreoffice-$version
-	
-	# you can leave only the dictionaries you want. Of course, there
-	# will be a .footprint and .signature mismatch.
-	LANGS=$(awk '{print $1}' $SRC/DICTIONARIES  | tr '\n' ' ')
-	
-	DICTDIR="$PKG/usr/lib/wps-office/office6/dicts/spellcheck/"
-
-	for i in ${LANGS[@]} ; do
-		# get the description
-		d=$(grep "$i" $SRC/DICTIONARIES | awk '{print $2}')
-		mkdir -p $DICTDIR/$i
-  
-		# create the dictionary config
-		echo "[Dictionary]" >> $DICTDIR/$i/dict.conf
-		echo "DisplayName=${d//_/ }" >> $DICTDIR/$i/dict.conf
-		echo "DisplayName[$i]=${d//_/ }" >> $DICTDIR/$i/dict.conf  
-
-		# This is the most common case  
-		find . -name "$i.aff" -exec cp {} $DICTDIR/$i/main.aff \;
-		find . -name "$i.dic" -exec cp {} $DICTDIR/$i/main.dic \;
-  
-		# But these also exist for de_CH, de_DE
-		find . -name "${i}_frami.aff" -exec cp {} $DICTDIR/$i/main.aff \;
-		find . -name "${i}_frami.dic" -exec cp {} $DICTDIR/$i/main.dic \;  
-  
-		# this is needed for be_BY
-		find . -name "${i:0:2}-official.aff" -exec cp {} $DICTDIR/$i/main.aff \;
-		find . -name "${i:0:2}-official.dic" -exec cp {} $DICTDIR/$i/main.dic \;  
-  
-		# this is needed for fa_IR abd sr_Latn
-		find . -name "${i/_/-}.aff" -exec cp {} $DICTDIR/$i/main.aff \;
-		find . -name "${i/_/-}.dic" -exec cp {} $DICTDIR/$i/main.dic \;  
-	done
+	cd $name-$version
+	mkdir -p $PKG/usr/lib/wps-office/office6/dicts/
+	cp -a spellcheck $PKG/usr/lib/wps-office/office6/dicts/
 }

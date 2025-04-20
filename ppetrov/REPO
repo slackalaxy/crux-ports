@@ -1897,11 +1897,9 @@ f:87e0fa3a093fb69430ecf26fcf7ebfaa:wehi-weasel/wehi-weasel.sh
 f:c4a881dff980703b33bf4b8a8f3566b8:wordnet/.footprint
 f:8f0d5e702452cb3ccf98f9286597a4a7:wordnet/.signature
 f:06ba9a4630813a9714748d9a9a84077b:wordnet/Pkgfile
-f:350d44639934a9c0dd502da6bd4c027c:wps-office-dicts/.footprint
-f:4f04821cc391e027f344046097942b49:wps-office-dicts/.signature
-f:09b8c6ee164f07e0a7e3e40c9f0f7e14:wps-office-dicts/DICTIONARIES
-f:6297347a6d25e664e40d20e4ef5e5d70:wps-office-dicts/Pkgfile
-f:5cacf56f246a973f122683906f22c12e:wps-office-dicts/README
+f:3659acef4707226a0d778f5383b8c03f:wps-office-dicts/.footprint
+f:e2412ba9e5fe44f611d253cafa2388a6:wps-office-dicts/.signature
+f:2a2cf36aace1248c6619f723d55472b7:wps-office-dicts/Pkgfile
 f:9b70be3cb75ba72e4595733e90ad6ca9:pymol/Pkgfile
 f:a080d933355f782cf8465507095b5ae8:pymol/pymol.desktop
 f:cf712eef5b27d4635b5c2b7faa5481d5:pymol/pymol.png

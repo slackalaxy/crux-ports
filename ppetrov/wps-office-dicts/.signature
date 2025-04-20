@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQA9jx2dKCO0PlOQ43Tnq8TR24J5NFd2//Tw8D6AGdNUGHmh/lR1QQ+m6MGGHDaT0wCbCiy9hU1lR2GMTaeCEw0=
-SHA256 (Pkgfile) = 3307296cf6dd9bf6c65f2fc19b17bf42f19e4637ceff4c316efee0d268bceace
-SHA256 (.footprint) = 173567e339fa33296032cf07e373f4a50af17741c2f2d240916573e366480bf0
-SHA256 (dictionaries-libreoffice-24.2.4.2.tar.gz) = 6ffad1a20f1c2dfd9acc59f9a4854d66714280b715454a32ee827f4bcdff9501
-SHA256 (DICTIONARIES) = cfcf5936de380a856cf1808bbfba1eb3ebade6ea81edabd92117ee7419a1edee
+RWToVVsIkzFIZdmRUe7rwczoez0NZppPhcfeoDyUX6ysNLm2scMKAPaKWZGy0PrmbfRpD5lFRZq+gGQPXFuGTS5hfTa1UrUuBAI=
+SHA256 (Pkgfile) = e0528083cbbf2521ba3debea620caea6fadf85e983721ace3b7dd873bd95a55b
+SHA256 (.footprint) = 3e65639d534a33ba0dfa434320e9f7a9e547a51c40721e1b0dcef62338ed9780
+SHA256 (wps-office-dicts-24.8.7.1.tar.gz) = 2e5c49b7b42d1bb21d3935e3a9eadb1974f366d8c7fe1be01562af621ab488ff
