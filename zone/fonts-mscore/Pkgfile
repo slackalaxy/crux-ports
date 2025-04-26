@@ -5,10 +5,10 @@
 
 name=fonts-mscore
 version=22H2
-release=4
+release=5
 source=(https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66751/22621.525.220925-0207.ni_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
 	https://download.microsoft.com/download/3/B/C/3BC07D0C-2748-4300-84DD-694857E582F1/MTEXTRA.TTF
-	https://github.com/ironveil/ttf-aptos/archive/$version/ttf-aptos-64f511374b173d0d0618455e57d1e7aacd910818.tar.gz
+	https://download.microsoft.com/download/8/6/0/860a94fa-7feb-44ef-ac79-c072d9113d69/Microsoft%20Aptos%20Fonts.zip
 	cleaner.py
 	emoji-data.txt)
 
@@ -26,7 +26,7 @@ build() {
 	cp -a $SRC/MTEXTRA.TTF mtextra.ttf
 	
 	# include the new Aptos
-	cp -a $SRC/ttf-aptos-64f511374b173d0d0618455e57d1e7aacd910818/*.ttf .
+	cp -a $SRC/{Aptos.ttf,Aptos-*.ttf} .
 	
 	# fix this, just in case
 	chmod 0644 *.{ttf,ttc}
@@ -82,7 +82,7 @@ build() {
 	
 	for i in ${remove[@]}; do rm -rf $PKG/usr/share/fonts/microsoft/$i ; done
 	
-	# Uncomment to remove inbuilt emojis
+	# Uncomment to remove inbuilt emojis. This will remove bullet-point shapes in word processor such as WPS Office Writer!
 	#cd $SRC
 	#for t in $PKG/usr/share/fonts/microsoft/*.ttf ; do
 	#	fontforge -script $SRC/cleaner.py "$t"

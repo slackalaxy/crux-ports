@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZfnmIy1urS2JimrWkCILdGOh7NgFHqiCm3nUiHsQK9hvtYeGZB6IKBa4RWXcqZO6yf2Nv6by22jP/L2+TApooAo=
-SHA256 (Pkgfile) = adf911c98cc74fcc2435ce13c593b3933e9af003482721275b92435ba195eb6d
-SHA256 (.footprint) = 8b023376a5a2c10d27ba7649c9a49e101b119a0a5fb8a589d6d875095de0eaf7
-SHA256 (openbabel-2-4-1.tar.gz) = 594c7f8a83f3502381469d643f7b185882da1dd4bc2280c16502ef980af2a776
-SHA256 (gcc.patch) = 9f836c7bbaaaef9159966984e02e3592584eb1c5b20e27023578e909503c05d4
-SHA256 (backport.patch) = 49f9fc47d1c864d501a266c4d1d7251d5921ce64f1de33a7679d369938bd8490

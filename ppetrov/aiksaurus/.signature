@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZchgW4UWzv20Ao9FA2byuIW5aPdjwqa3QIUCg7C+EYDm/wjmganC0hJ4BYmgrBmHZ4c+xjbYqrSYTbkAnz/2tQM=
-SHA256 (Pkgfile) = a6d8d3c85414f861458767aff712b6fa074edfc73933c50bd0c9ff44f94b37f4
-SHA256 (.footprint) = 86bd9b12f7a142ce9ac664a4b5b710333eb61ba887d5d2211dcca4b424051c68
-SHA256 (aiksaurus-1.2.1.tar.gz) = 1b62cb6351835217f3c229faba3182ba2aa0ab395849bb894dab422976dc8cf4
-SHA256 (include-fixes.patch) = 984820edc9dcdf40a0e7725cb96028be3401d455cddbfe47d7468eaa35538483
-SHA256 (gaiksaurus.png) = 1d07e01f399a6cd62d7ed631e0d3279a65ad516e555a727b24cf1bd00e75fefe
-SHA256 (gaiksaurus.desktop) = 0de01de1c51429d65d805652430b3711cf4e6518dd070565649ee7d14fb62ade

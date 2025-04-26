@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchh332wlLS43CosCY+qH7qx8Hslo7ronGzoBtYrTjMm48tUUnHUG/nUapK2TnOKwp4tYmoaIPk0G8J7wnSFDlmwU=
-SHA256 (Pkgfile) = e3b9df6e2f43b3d3679ba06e567d3c60329d17e730f28a25cc473383aa870a9f
-SHA256 (.footprint) = 12ebb01fda501782b749ff0e8dec36b3ea853823a4093feaa777efe20d727338
-SHA256 (config.tar.xz) = d50d87763ecf25edaf8c5b460e9433d46495d29c20861b47d0a97dfc7cae4963
-SHA256 (gtkrc-2.0) = b7003e63ca6aab9558df0157ece2e568de5e8e3992c4be1a0ff6a6c4184bcc75
-SHA256 (xinitrc) = 5290bb22fc649eb957f19e261a4cfaf95157c066b2423db16a4c6d28fee5399e

@@ -1,9 +1,0 @@
-[Desktop Entry]
-Exec=xscreensaver-command -activate
-Icon=xscreensaver
-Name=ScreenSaver activate
-Comment=Activate XScreenSaver
-Type=Application
-Categories=System;
-Terminal=false
-NotShowIn=KDE;GNOME;

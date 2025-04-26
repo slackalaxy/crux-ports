@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=XV
-Comment=XV Image Viewer
-Exec=xv
-Icon=xv
-StartupNotify=false
-Type=Application
-Categories=Graphics

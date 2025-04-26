@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZaIwVGW5MRfgayuzBCelxm1S+Lt71Ca/qT6vmLGAZ7ERgbh5CpjS1U7dKgCvowlV4fz1xzz3wMi0aQeFLjKerQQ=
-SHA256 (Pkgfile) = 9ca9d964bc0541baec769fd3575fb0d07a01c9424833546fe21ab8c9d764ce43
-SHA256 (.footprint) = 13fe36276164c40eefe214e73aac208011095232564661dd701688c7ffe0ec96
-SHA256 (gtklife-5.3.tar.gz) = 048e2c0436ec307a4815c3c7854e2e198c4777757e94feca00b7c070b6930fa7
-SHA256 (gtklife.desktop) = 533c7d45ab37c241c456dec6f3b38d19f64054d88ff96757d174e8d47fd0e65f
-SHA256 (gtklife.png) = 63bdc2b296912725a22856361365e35a692c167b0f24f335e069740e331bc5da

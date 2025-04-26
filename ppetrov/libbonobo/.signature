@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRnjVfUx5EUx4x7t+0s+E0ESLqmv00mLsPcOASPZeDOKPW+OjVoeGm9Wq9pXyntaHQ9vTkf9TUXM0bQfEcCcYAM=
-SHA256 (Pkgfile) = 41b818d5d2bc23ca2031ae92ba4e5502dfbea7c13bb54b8cdd1e6c031859f295
-SHA256 (.footprint) = 66a78b2131acaee79154c7aa140a0cd5aa553f6b7348af556ab8d88872e3a642
-SHA256 (libbonobo-2.32.1.tar.bz2) = 9160d4f277646400d3bb6b4fa73636cc6d1a865a32b9d0760e1e9e6ee624976b
-SHA256 (remove_use_of_G_DISABLE_DEPRECATED.patch) = e22fc844512e2e3078d3970fe655f7c294c3a9dda9ed3e4dd1319e9b24cd28e3
-SHA256 (test_no_srcdir.patch) = 72514fa6324ccc13ffd5b4664e93c8bdf0b97006f5541ce3a91671b01040e3f4

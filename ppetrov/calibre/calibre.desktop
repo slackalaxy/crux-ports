@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Calibre
-GenericName=Ebook manager
-Exec=calibre
-Icon=calibre
-Categories=Office;
-Terminal=false

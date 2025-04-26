@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZjcKufLeh0Lr/r6p9f3wLyTA3KByiRkVUDx5XJIdFaTdr+oBZE+WO1SGb9/wl/tCZCgQk+IPhH31V1hl8lIAQU=
-SHA256 (Pkgfile) = 9df8246ccaf3480ddbc7ce8f3d765009021e24d08dbe03abbed5a3becbedfe84
-SHA256 (.footprint) = 6362b9ff82a8e0a95e39cb4b7e7154da1b716f1f3dcb21dea58d1a25dd9e7419
-SHA256 (sharutils-4.15.2.tar.xz) = 2b05cff7de5d7b646dc1669bc36c35fdac02ac6ae4b6c19cb3340d87ec553a9a
-SHA256 (sharutils.glibc228.diff.gz) = 3980c7b83ef69b904079066ac586191bc7d770a36dd1fbfc56cdcea9e02644d1

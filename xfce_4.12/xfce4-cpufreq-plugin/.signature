@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/xfce_4.12.pub
-RWTBbqF9F6zchs4KkCSKcK0+2KshUKkXPVg5j9fL2lwnjLatS7syvMvLwhtUwFBnLA3w8/BQ7JDteJ59tUiD7x2ny87YzTm+mgw=
-SHA256 (Pkgfile) = 4a10a2033a37a4a335b225b228d2e11eab5d7e342156a4cafaf7c4fac434cda9
-SHA256 (.footprint) = 7b6f09cb027ea0d9b0d6b236a0ce67165d8f18720ad5665ec844a6d4f477600c
-SHA256 (xfce4-cpufreq-plugin-1.1.3.tar.bz2) = 74a162c7e101db0495d5da147aba1f404c33544f04e8c34d7d1d705668102d33
-SHA256 (gcc10_fix.patch) = 54df67699050460f911bc13e865335c4314976fb971420c28c7210e65c8c4954

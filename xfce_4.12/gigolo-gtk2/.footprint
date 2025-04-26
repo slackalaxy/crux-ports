@@ -1,9 +1,0 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/gigolo
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/applications/
--rw-r--r--	root/root	usr/share/applications/gigolo.desktop
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man1/
--rw-r--r--	root/root	usr/share/man/man1/gigolo.1.gz

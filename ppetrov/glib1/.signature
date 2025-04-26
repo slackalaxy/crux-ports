@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZYljRiB+81wiI4vjBsfHGmbD5dQDoMhN8uvpvnJ+PPSmJvNm34GYQLfac8/10nYxbAve4eeJdEBLvYv5inB8OQ0=
-SHA256 (Pkgfile) = 23ecd0bc82409b2cc22e78dbb98d671b1e7137808636feeb9e0695cbf8eb0858
-SHA256 (.footprint) = 2bb646ab895d675dbebae950ee1f56dc2eb60502a769e5f2488bb978d58d0909
-SHA256 (glib-1.2.10.tar.gz) = 6e1ce7eedae713b11db82f11434d455d8a1379f783a79812cd2e05fc024a8d9f
-SHA256 (aclocal-fixes.patch) = acb153503489b747b7e41787d92a4ba5cd631e8f0dbf2fab14936ebeb49cbbc1
-SHA256 (gcc340.patch) = d62a2fdb0e8af99f5136fb7d86e0f6f24e5b17d08d8cf0a992772649dd9fff17
-SHA256 (glib1-autotools.patch) = ec4a932c20b2b79f69d6049c799d52740b59997b34c082c80d82640e27a2198f

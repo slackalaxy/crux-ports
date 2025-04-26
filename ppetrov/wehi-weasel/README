@@ -1,5 +1,0 @@
-Register and download the source from:
-
-	https://frankbattye.com.au/Weasel/WeaselDownload.html
-
-Then place it in your $PKGMK_SOURCE_DIR, as defined in /etc/pkgmk.conf

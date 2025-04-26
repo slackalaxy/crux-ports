@@ -1,9 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZR1lI77Wig6r+DibZWTef0DIubEmaq+CI5l4sBJYZePGYvycmU6a6wxIi2geAE5/4GqlsKiNl0sKdK0coAIohgw=
-SHA256 (Pkgfile) = eaa349df8282f8e892998c315f52a8bd5488b5a05542059d0cd57aa04f55d2c9
-SHA256 (.footprint) = 8fb1c1f29f8681c76a00a0657ba08b9dd90ac99140955cc25f75fd27d0ba190d
-SHA256 (wsl38218unix.zip) = e153a51961f32cc536d389aa75a7e33177ce6b92525879ce38a08a80ead1eb0c
-SHA256 (wehi-weasel.sh) = 611c2869cb2e400d267185cdc37673067342c4e01cc8d291da0480894b3d1be0
-SHA256 (wehi-weasel.desktop) = 508cfd316e1205bbc24004339ee193d6c6c44a15029f783b633d36e459f5a10e
-SHA256 (wehi-weasel.png) = 3033e45ec8f90b9eb29ef756c0ab6360b93f7a4e8ea46eb67ba15abb8a1dc1b5
-SHA256 (wehi-weasel.menu) = 72622ed5d251f4aa542ac8e7d48231e304b3e048c81a944f222d1c05776b02a4

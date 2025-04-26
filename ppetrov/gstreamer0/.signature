@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZW/NOutNWC3aMcp6wspHXc+GEMBoyRIOFSEuMix8ATxaecrtdZ2i7CIDiEr5f6PBs/JM9rR1uxGqesqI9ywDcQY=
-SHA256 (Pkgfile) = 37b1596b9e4b1f62698f7d6acb58dd88be78a359c3f7ee2d1317aebcae7e887a
-SHA256 (.footprint) = 5ac99c3211749225011fe9328eff14985b9bb15d49c0dd4d6e942b396c75b1dd
-SHA256 (gstreamer-0.10.36.tar.xz) = 9151aa108c177054387885763fa0e433e76780f7c5655c70a5390f2a6c6871da
-SHA256 (bison.patch) = 47509a5800caee330c3b07bc6820e8a78a1a07acfad72e4658c3612cbe66d057

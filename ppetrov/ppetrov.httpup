@@ -1,8 +1,0 @@
-#
-# /etc/ports/ppetrov.httpup: ppetrov ports collection
-#
- 
-ROOT_DIR=/usr/ports/ppetrov
-URL=https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/
- 
-# End of file

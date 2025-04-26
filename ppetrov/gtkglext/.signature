@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZ7QLXb1FxHCWMGdHKKarI8d81B3+qdgJjbsTcHn53B7kS/2tkZan3/lXEcbrBt2jrLhd8heMoCt6i44XnEOYQI=
-SHA256 (Pkgfile) = 90d1bd1271227e5088d1662d2bd41aeb5d5603839313cace6bdf4c999bd59690
-SHA256 (.footprint) = c2733bdf2d5746cf62713698eacd7278c288730d0b3442f66a5ef885833a3e79
-SHA256 (gtkglext-1.2.0.tar.bz2) = 16bd736074f6b14180f206b7e91263fc721b49912ea3258ab5f094cfa5497f51
-SHA256 (gtkglext-no-deprecated-flags.patch) = 3ca4ad6c1f4e8670bb7a93c655bde2670e0ab29983b806e0b08370540d4a2ce4
-SHA256 (0002-GCC-8-fixes.patch) = 0ec0c22b15054b0684f9a9015ff05920af0c00dae5409e76321f683dcc17cff9

@@ -1,3 +1,0 @@
-By default, this is preferred over other emojis, by this symlink:
-
-/etc/fonts/conf.d/32-apple-emoji.conf -> /usr/share/fontconfig/conf.avail/32-apple-emoji.conf
