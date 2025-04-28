@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZVJjQUQvhlipqM9GWY1dCcM8ULAOhqQR45LmbB47tiNrXTaWF7CCotsgfyEatyZjg3kF77YTy38MGgnN7BoxXwo=
-SHA256 (Pkgfile) = ca850d7e270bfe16b2ba76c0bd54e7b9d6b8e20bce4edc244c6b2541f764b937
-SHA256 (.footprint) = 5953604487e7981ad4d5533a88dc0db1635dfe419384ebf6fa030dc41b97f3d8
+RWToVVsIkzFIZdt7WKwg1fhh7hoskGcs/jejuX8sAMn9xbXrHi0cigH+GIxu9sKZa3YOZ9LjQ/L0U0rNcE/boaZ8x7hrRJbC+gI=
+SHA256 (Pkgfile) = 07a0cb611bc627668c07846da820df86288dcba31e4edc8e0e10a6ba930a0d11
+SHA256 (.footprint) = 49313f12b80084d129e7ae25e7a5b6ce50efefa7a49a835a7e3cb9ecfba74136
 SHA256 (scipy-1.15.1.tar.gz) = 033a75ddad1463970c96a88063a1df87ccfddd526437136b6ee81ff0312ebdf6

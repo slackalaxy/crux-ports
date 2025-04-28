@@ -31,6 +31,7 @@ drwxr-xr-x	root/root	usr/lib/microsoft-edge/cron/
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libvk_swiftshader.so
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libvulkan.so.1
 -rw-r--r--	root/root	usr/lib/microsoft-edge/libwns_push_client.so
+lrwxrwxrwx	root/root	usr/lib/microsoft-edge/libxml2.so.2 -> /usr/lib/libxml2.so
 drwxr-xr-x	root/root	usr/lib/microsoft-edge/locales/
 -rw-r--r--	root/root	usr/lib/microsoft-edge/locales/en-US.pak
 -rwxr-xr-x	root/root	usr/lib/microsoft-edge/microsoft-edge

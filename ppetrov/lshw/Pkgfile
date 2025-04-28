@@ -1,7 +1,7 @@
 # Description: lshw: HardWare LiSter for Linux
 # URL: https://github.com/lyonel/lshw
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli graphite2 gtk libglvnd xorg-libxdamage
+# Depends on: gtk3 xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=lshw
 version=B.02.20

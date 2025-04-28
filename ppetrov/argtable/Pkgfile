@@ -5,10 +5,15 @@
 name=argtable
 version=2.13
 release=1
-source=(http://prdownloads.sourceforge.net/$name/${name}${version/./-}.tar.gz)
+source=(http://prdownloads.sourceforge.net/$name/${name}${version/./-}.tar.gz
+	argtable-2.13-add-missing-includes.patch)
 
 build() {
 	cd ${name}${version/./-}
+
+ 	# add missing includes
+	patch -Np1 -i ../argtable-2.13-add-missing-includes.patch
+
 	./configure --prefix=/usr \
 	--enable-shared
 

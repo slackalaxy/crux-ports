@@ -5,7 +5,7 @@
 
 name=phyml
 version=3.3.20220408
-release=2
+release=1
 source=(https://github.com/stephaneguindon/phyml/archive/v${version}/$name-$version.tar.gz)
 
 build() {

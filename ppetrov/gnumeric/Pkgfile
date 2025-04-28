@@ -1,0 +1,26 @@
+# Description: Gnumeric spreadsheet -- last GTK2 release
+# URL: http://www.gnumeric.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: goffice
+
+name=gnumeric
+version=1.12.59
+release=1
+source=(https://download.gnome.org/sources/gnumeric/${version%.*}/gnumeric-$version.tar.xz)
+
+build() {
+	cd gnumeric-$version
+
+	./configure \
+		--prefix=/usr \
+		--disable-schemas-install \
+		--disable-nls
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{locale,omf,gnome}
+	rm -f $PKG/{,usr/}lib/*.la
+	
+	sed -i "s:Categories=Office;Spreadsheet;Science;Math;GNOME;GTK;:Categories=Office;:g" $PKG/usr/share/applications/org.gnumeric.gnumeric.desktop
+}

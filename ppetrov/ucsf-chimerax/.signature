@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZVCH5JISX7ueiq9ae0jfzQeLww93nh08CiK9JwaHhRwuD6MHL9mjy3Lz0GjOXbIxlotbcGTEirmpshxXnvVeLwI=
-SHA256 (Pkgfile) = c47cd37822a0adafe312f3561b2dc7fab319778044589a0fe0a9440d89357f49
-SHA256 (.footprint) = 20fc80610379c045901c7cb2dbe2017e738d7706b1f955779cb608565d7e422a
+RWToVVsIkzFIZcfQoMnrUqHpbcL+DSfDk/15io3KWKXLmpfzMlovbvIYwvOB5FTeoSgQe53h8rqTXq9aVoiDk5hOskJoDEkcsw8=
+SHA256 (Pkgfile) = d8705296e0e21bad26cea6604727d0d565c8701fbcf5dfe87bb742421ceeb646
+SHA256 (.footprint) = 07f231e41cb0d893b89bc7221d26d2fbf9205f6f78d5371797650b9abf04088a
 SHA256 (ucsf-chimerax_1.9ubuntu22.04_amd64.deb) = 5a55ee8975a5d2844fe4ff712118d3b3634a9ba750ab916fea82f77b4d3f37d9
 SHA256 (ucsf-chimerax.desktop) = 0425d306351dbdf2529812fa687b86836a9081be17cf0f6d12e89eb7722b139b

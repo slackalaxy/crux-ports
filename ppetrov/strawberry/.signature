@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZu4EVYHh8tHUVX3KmhlIkAIlVkIiB7jUfUqtycvIJB9K7uerjEdmzvkCCLbXbR5ZN6v9OlgzxSVcBH6w24wFAw=
-SHA256 (Pkgfile) = 273e6a6f13b81f502af9469acb962437250b1689bdf01913ce6402b472eb6137
+RWToVVsIkzFIZQIJeSs+/IPvHgDqJYMNvZMY7ESQ4Yq2925GfjxD9F9NpOMpyMghlfJ28ZslL17mw7XJSzirxdUPcHO0DweAPg4=
+SHA256 (Pkgfile) = d6196d3ff5dd6ccb0df1c2369a48e95007e1197e441c1fa01fa87a609027a067
 SHA256 (.footprint) = 9cd0de5ed1ea902bf3cafbcc50a4534979b42db038e3aa6824457a4b2acbb0ab
 SHA256 (strawberry-1.2.9.tar.xz) = 7099a35973d2551489ebbf6f33487169134e57fb292a4aeed07e68aa8d939e76

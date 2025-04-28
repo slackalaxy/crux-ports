@@ -1,7 +1,7 @@
 # Description: SIM - Local similarity program for use with the LAD/LAV interface
 # URL: ftp://pbil.univ-lyon1.fr/pub/logiciel/lalnview/sim/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
+# Depends on: gcc5
 
 name=sim
 version=204
@@ -9,6 +9,6 @@ release=1
 source=(${name}${version}.c)
 
 build() {
-	cc $CFLAGS -o $name sim204.c -lm
+	gcc-5 $CFLAGS -o $name sim204.c -lm
 	install -D -m 755 sim $PKG/usr/bin/$name
 }

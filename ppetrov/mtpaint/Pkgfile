@@ -1,18 +1,18 @@
 # Description: simple GTK+1/2 painting program
-# URL: http://mtpaint.sourceforge.net/
+# URL: https://github.com/wjaguar/mtPaint/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk lcms2 python xorg-libxdamage
+# Depends on: gtk3 lcms2 libwebp xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=mtpaint
-version=3.50.10
+version=f37cf09
 release=1
-source=(https://github.com/wjaguar/mtPaint/archive/a0e749d/$name-a0e749d77ae9944974b0a7a98b479052141bd7bb.tar.gz)
+source=(https://github.com/wjaguar/mtPaint/archive/$version/$name-f37cf09c02b0ebd81d29c67be9741f54d76a9171.tar.gz)
 
 build() {
-	cd mtPaint-a0e749d77ae9944974b0a7a98b479052141bd7bb
+	cd mtPaint-${version}*
 
 	./configure --prefix=/usr \
-	gtk2 thread jpeg tiff lcms2 cflags man nojp2 release
+	gtk3 thread jpeg tiff lcms2 cflags man nojp2 release
 
 	make
 	make DESTDIR=$PKG install

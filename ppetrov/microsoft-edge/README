@@ -1,4 +1,4 @@
-Microsoft Edge requires a machine-id to be present in /etc. If you're
-using dbus, just create a symlink from /var/lib/dbus/machine-id, e.g.:
+Microsoft Edge may require a machine-id to be present in /etc. If the prgram
+does not launch and you're using dbus, just create a symlink, e.g.:
 
 ln -s /var/lib/dbus/machine-id /etc/machine-id

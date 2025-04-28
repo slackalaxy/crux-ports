@@ -1,24 +1,22 @@
 # Description: GTK+ text editor
-# URL: http://mooedit.sourceforge.net/
+# URL: https://github.com/abbat/medit
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk python xorg-libxdamage
+# Depends on: gtk xorg-libxdamage
 
 name=medit
-version=1.2.0
-release=2
-source=(https://downloads.sourceforge.net/mooedit/$name-$version.tar.bz2)
+version=1.2.92
+release=1
+source=(https://github.com/abbat/medit/archive/v${version}/medit-v${version}.tar.gz)
 
 build() {
 	cd $name-$version
-
-	# Python2 fix
-	sed -i 's@^#!.*python$@#!/usr/bin/python2@' moo/moopython/plugins/lib/pyconsole.py
 
 	# Recognise Pkgfiles, .*rsync and *.httpup as shell script, thanks Chris Farrell
 	sed -i 's/*.sh/*.sh;*.rsync;*.httpup;Pkgfile/' moo/mooedit/langs/sh.lang
 
 	./configure --prefix=/usr \
-	--disable-install-hooks PYTHON=python2
+	--disable-install-hooks \
+	--with-python=no
 	
 	make
 	make DESTDIR="$PKG" install

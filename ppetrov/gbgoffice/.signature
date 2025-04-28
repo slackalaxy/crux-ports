@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdSX0BZQlPksXNUOEsgIw2Ufi4JRutyrijzymXn2jCQetkbLDk4oHg7b82Fx1PV1Rt1eF0dm7OYsolZLJRbYDAk=
-SHA256 (Pkgfile) = e86673699dd29b574ecf04c2e1adcf132f4df4bd1cf469123c605e5978db1888
+RWToVVsIkzFIZRQ0YJp+kg1MEq7op2F4cgjc2UOvOtsledXqSeJ23L8KS4m6iYjzokuKuox8ocXYf/vSE73Q9vBNMKXjIbtspAg=
+SHA256 (Pkgfile) = b8636ae3ebd40792b1915f97082ee9a74224770b190fa4a5ad18d29cbc6d9b1f
 SHA256 (.footprint) = 5eee0c92c7442f188ed0a08db6a8946805b466c8af640ce02388d1aa3bc1bda9
 SHA256 (gbgoffice_1.4.orig.tar.gz) = e4459bdde092eefb8bf84d9a915fcf07760d51c36ded3b74f280c614e0ae3561
 SHA256 (gbgoffice_1.4-12.debian.tar.xz) = 99c3fb5423252516e84d35271744cae3904c53da6490a5fea5eae61db230ba88

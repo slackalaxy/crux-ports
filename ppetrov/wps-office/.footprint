@@ -1744,14 +1744,11 @@ lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libpaho-mqtt3as.so.1 -> libpaho-
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libqrencode.so -> libqrencode.so.4
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libqrencode.so.4 -> libqrencode.so.4.1.1
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libqrencode.so.4.1.1
--rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcetapi.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcetapi_sysqt5.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcetapi_wpsqt.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcserver.so
--rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcwppapi.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcwppapi_sysqt5.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcwppapi_wpsqt.so
--rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcwpsapi.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcwpsapi_sysqt5.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/librpcwpsapi_wpsqt.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/librtfreader.so
@@ -1804,6 +1801,7 @@ lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libthrift.so -> libthrift.so.0.1
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libxercesc3.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libxlsbrw.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libxlsxrw.so
+lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libxml2.so.2 -> /usr/lib/libxml2.so
 drwxr-xr-x	root/root	usr/lib/wps-office/office6/mui/
 drwxr-xr-x	root/root	usr/lib/wps-office/office6/mui/default/
 -rw-r--r--	root/root	usr/lib/wps-office/office6/mui/default/2016white_highdpi_res.rcc

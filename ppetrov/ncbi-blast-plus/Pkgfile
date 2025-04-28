@@ -1,7 +1,7 @@
 # Description: BLAST+ Command Line Applications
 # URL: https://blast.ncbi.nlm.nih.gov/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boost lmdb
+# Depends on:
 
 name=ncbi-blast-plus
 version=2.16.0
@@ -24,6 +24,7 @@ build() {
 	--with-dll \
 	--without-debug \
 	--without-downloaded-vdb \
+	--without-boost \
 	--without-bdb
   
 	# It does not seem to matter whether to use 'make all' and 'make install-toolkit',

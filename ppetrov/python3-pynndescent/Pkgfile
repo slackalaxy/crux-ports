@@ -22,5 +22,5 @@ build() {
   find $PKG \( -iname "README*" -o \
                -iname INSTALLER -o \
                -iname REQUESTED -o \
-               -iname "LICENSE*"   \) -delete
+               -iname "LICENSE"   \) -delete
 }

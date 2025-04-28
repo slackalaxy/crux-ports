@@ -1,7 +1,7 @@
 # Description: Online conference
 # URL: https://zoom.us/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli double-conversion gnutls graphite2 gtk3 icu keyutils krb5 lame libcef libidn2 libinput lm_sensors pulseaudio qt5 tslib wayland
+# Depends on: cups double-conversion gnutls gtk3 icu keyutils krb5 libidn2 libinput nss pulseaudio qt5 wayland
 
 name=zoom-linux
 version=6.4.5.1259

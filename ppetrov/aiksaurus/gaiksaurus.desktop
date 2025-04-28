@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Office;
+Exec=gaiksaurus
+GenericName=Thesaurus
+Icon=gaiksaurus
+Name=gAaiksaurus
+NoDisplay=false
+StartupNotify=true
+Terminal=false
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

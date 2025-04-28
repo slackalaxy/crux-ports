@@ -1,7 +1,7 @@
 # Description: MPlayer/MPV frontend
 # URL: http://smplayer.sf.net/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: double-conversion qt5 mpv
+# Depends on: double-conversion icu mplayer mpv qt5
 
 name=smplayer
 version=24.5.0

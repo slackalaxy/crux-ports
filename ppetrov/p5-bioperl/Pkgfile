@@ -6,7 +6,7 @@
 
 name=p5-bioperl
 version=1.6.924
-release=2
+release=1
 source=(http://search.cpan.org/CPAN/authors/id/C/CJ/CJFIELDS/BioPerl-${version}.tar.gz
 	BioPerl-1.006924-RT106756.patch)
 

@@ -2,7 +2,7 @@
 # URL: http://search.cpan.org/~rurban/GD/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: p5-extutils-pkgconfig libgd
-# Optional: p5-class-xsaccessor p5-list-moreutils p5-pod-spell-commonmistakes p5-test-kwalitee p5-test-pod p5-text-csv_xs
+# Optional: p5-class-xsaccessor p5-extutils-pkgconfig p5-list-moreutils p5-pod-spell-commonmistakes p5-test-kwalitee p5-test-pod p5-text-csv_xs
 
 name=p5-gd
 version=2.81

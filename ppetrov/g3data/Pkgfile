@@ -15,4 +15,7 @@ build() {
 	./configure --prefix=/usr
 	make
 	make install DESTDIR=$PKG
+	
+	sed -i 's:g3data-icon.xpm:g3data-icon:g' $PKG/usr/share/applications/$name.desktop
+	sed -i 's:Categories=GNOME;Science;Graphics;:Categories=Education;:g' $PKG/usr/share/applications/$name.desktop
 }

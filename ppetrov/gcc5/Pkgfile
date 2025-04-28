@@ -5,7 +5,7 @@
 name=gcc5
 version=5.5.0
 _islver=0.18
-release=2
+release=1
 source=(http://gcc.gnu.org/pub/gcc/releases/gcc-${version}/gcc-${version}.tar.xz
 	https://libisl.sourceforge.io/isl-${_islver}.tar.bz2
 	glibc2.28-ustat.patch glibc2.30-ipc_perm.patch)

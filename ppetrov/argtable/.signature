@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQTip8kL5xuVb3j+GgJn5oyV4+NR3ZoX4Dl55D0+p6J3H0tvxiw2N1V2VI/R4LYbEVy6X8y8YY3dC2XVwVIjbwg=
-SHA256 (Pkgfile) = 30d06757820a5ce6036acc4407f7bb6b3252e1ccfc94f0b7d13e71690a3e3c92
+RWToVVsIkzFIZaPNeyBEIXsf3jrCKSUwTkw0DUmaTuyxZnOf9LJDIXCp2oZl4pgBW45LtGnj/ZmCQLaNQD+livKROTC2HAMy2gc=
+SHA256 (Pkgfile) = 2cbd051f1535384fc13fec30ed70fec59c81f562d4a9eaddac7041b08e9081d8
 SHA256 (.footprint) = c9d1e5b2ffd53f0c915cc84d7dbf792c3ca254a143f89cece4afc81ec48c09d2
 SHA256 (argtable2-13.tar.gz) = 8f77e8a7ced5301af6e22f47302fdbc3b1ff41f2b83c43c77ae5ca041771ddbf
+SHA256 (argtable-2.13-add-missing-includes.patch) = 45da52b3a8510a5cf35ac87f1ea0a4daf753eac2bf63f287a2fc9b6a0d28e637

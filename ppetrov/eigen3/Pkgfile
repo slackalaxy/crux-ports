@@ -5,7 +5,7 @@
 
 name=eigen3
 version=3.4.0
-release=2
+release=1
 source=(https://gitlab.com/libeigen/eigen/-/archive/$version/eigen-$version.tar.gz)
 
 build() {

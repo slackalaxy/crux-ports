@@ -1,0 +1,32 @@
+diff -ruN a/src/arg_int.c b/src/arg_int.c
+--- a/src/arg_int.c	2011-01-10 11:44:01.000000000 +0100
++++ b/src/arg_int.c	2024-08-22 21:13:10.133386498 +0200
+@@ -30,6 +30,7 @@
+ 
+ #include "argtable2.h"
+ #include <limits.h>
++#include <ctype.h>
+ 
+ /* local error codes */
+ enum {EMINCOUNT=1,EMAXCOUNT,EBADINT,EOVERFLOW};
+diff -ruN a/tests/fntests.c b/tests/fntests.c
+--- a/tests/fntests.c	2011-01-10 11:44:01.000000000 +0100
++++ b/tests/fntests.c	2024-08-22 21:15:35.650664181 +0200
+@@ -1,5 +1,6 @@
+ #include "../src/argtable2.h"
+ #include <assert.h>
++#include <string.h>
+ 
+ /* for memory leak debugging */
+ #ifdef DMALLOC
+diff -ruN a/tests/test_file.c b/tests/test_file.c
+--- a/tests/test_file.c	2011-01-10 11:44:01.000000000 +0100
++++ b/tests/test_file.c	2024-08-22 21:15:47.690715545 +0200
+@@ -21,6 +21,7 @@
+ 
+ #include "../src/argtable2.h"
+ #include <stdlib.h>
++#include <string.h>
+ 
+ /* for memory leak debugging */
+ #ifdef DMALLOC

@@ -1,7 +1,7 @@
 # Description: Strawberry music player
 # URL: https://www.strawberrymusicplayer.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boost brotli chromaprint dav1d double-conversion fdk-aac fftw graphite2 gst-plugins-base icu kdsingleapplication keyutils lame librsvg libva libvdpau libvpx libwebp openjpeg2 pulseaudio snappy speex taglib
+# Depends on: chromaprint fftw gst-plugins-base gst-plugins-bad gst-plugins-good gst-plugins-ugly kdsingleapplication lcms2 librsvg pulseaudio taglib
 # Optional: krb5 x264 x265
 
 name=strawberry

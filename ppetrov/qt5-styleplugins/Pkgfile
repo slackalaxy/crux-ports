@@ -1,7 +1,7 @@
 # Description: Additional style plugins for Qt5
 # URL: https://github.com/qt/qtstyleplugins
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: double-conversion gtk qt5
+# Depends on: gtk qt5ct
 
 name=qt5-styleplugins
 version=335dbec

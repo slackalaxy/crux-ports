@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQL4qOh3M+Zy8PH4UJq8GPxxRRKSSlZfvfpHDuq5OYsb8DpZoIDq6duQ8zK3nFFT037ac0CvNhld28ftm8IG+wo=
-SHA256 (Pkgfile) = 06cc54d16d229c48f199e8b107bcae25bcd458d7313acdd5462591d240cc3fd5
-SHA256 (.footprint) = 8b64448f9e8d6e77b17dc4ae633629f9ff6f8a92b92823b729cf48407ff7a540
+RWToVVsIkzFIZW+VrbvfbDbLy46bJw/ySZfIO+BVAHYUbhIiiN+R8zRSapml9961G9l86LOg021/GTo4fHTBBDHKL2sXZxly0gQ=
+SHA256 (Pkgfile) = e0588dcfea57d3e6cc13c26612ab00d37c94189e0477a04d164ef90cf6939930
+SHA256 (.footprint) = bfafb9afe1f8588072e13209d8cb9f14bd7c2ce6f98a2b6de6b4b8de03f29c37
 SHA256 (hexchat-2.16.2.tar.xz) = 2e88340a8da274b87373ec0740746da78120cc6fbfdd201a4dd6999cac790e4a

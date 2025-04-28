@@ -1,6 +1,7 @@
 # Description: Statistical Tests for Detecting Gene Conversion
 # URL: https://www.math.wustl.edu/~sawyer/geneconv/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc5
 
 name=geneconv
 version=1.81a
@@ -14,7 +15,7 @@ build() {
 	cd unix.source
 	
 	# This is the program
-	gcc -DUNIX -o geneconv $CFLAGS geneconv.c version.c vcalc.c vtcalc.c \
+	gcc-5 -DUNIX -o geneconv $CFLAGS geneconv.c version.c vcalc.c vtcalc.c \
 	vsetopts.c vread.c vdump.c vutil.c -lm
 	install -D -m755 $name $PKG/usr/bin/$name
 	

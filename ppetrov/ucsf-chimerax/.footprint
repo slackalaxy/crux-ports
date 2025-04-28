@@ -311,6 +311,7 @@ lrwxrwxrwx	root/root	usr/lib/ucsf-chimerax/lib/libOpenMM.so -> libOpenMM.so.8.0
 -rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/libOpenMMDrude.so
 -rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/libOpenMMRPMD.so
 lrwxrwxrwx	root/root	usr/lib/ucsf-chimerax/lib/libbz2.so.1 -> /usr/lib/libbz2.so.1.0
+lrwxrwxrwx	root/root	usr/lib/ucsf-chimerax/lib/libcrypt.so.1 -> /usr/lib/libcrypt.so
 lrwxrwxrwx	root/root	usr/lib/ucsf-chimerax/lib/libmysqlclient.so.21 -> /usr/lib/libmysqlclient.so
 lrwxrwxrwx	root/root	usr/lib/ucsf-chimerax/lib/libpython3.11.so -> libpython3.11.so.1.0
 -rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/libpython3.11.so.1.0

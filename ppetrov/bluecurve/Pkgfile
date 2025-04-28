@@ -1,0 +1,33 @@
+# Description: Bluecurve GTK 2/3/4 theme
+# URL: https://github.com/neeeeow/Bluecurve
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk gtk3 gtk4
+
+name=bluecurve
+version=3.0.0
+release=1
+source=(https://github.com/neeeeow/Bluecurve/archive/v$version/Bluecurve-$version.tar.gz)
+
+build() {
+  cmake -S Bluecurve-$version/engine/src -B build            \
+        -DCMAKE_BUILD_TYPE=Release            \
+        -DCMAKE_INSTALL_PREFIX=/usr           \
+        -DCMAKE_INSTALL_LIBDIR=lib            \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -Wno-dev
+
+  cmake --build build
+
+  cd build
+  make
+  mkdir -p $PKG/usr/lib/gtk-2.0/2.10.0/engines
+  cp libbluecurve.so $PKG/usr/lib/gtk-2.0/2.10.0/engines
+  
+  cd ../Bluecurve-$version
+  mkdir -p $PKG/usr/share/{icons,themes}
+  cp -a {icons,themes} $PKG/usr/share
+  
+  mkdir -p $PKG/usr/share/backgrounds/bluecurve
+  cp -a wallpapers/* $PKG/usr/share/backgrounds/bluecurve
+}

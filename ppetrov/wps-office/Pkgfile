@@ -1,7 +1,7 @@
 # Description: WPS Office for Linux
 # URL: https://linux.wps.com/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: double-conversion gtk libelogind libsdl2 libtiff5 nss qt4 qt5 xorg-libxscrnsaver
+# Depends on: brotli cups double-conversion gnutls gtk3 icu libidn2 libsdl2 libtiff5 libxslt nss openssl11 qt5 unixodbc
 
 name=wps-office
 version=11.1.0.11723.XA
@@ -77,6 +77,12 @@ build() {
 	
 	# trick it to think we have systemd
 	ln -s /usr/lib/libelogind/libelogind.so libsystemd.so.0
+	
+	# this is needed after recent libxml2 update
+	ln -s /usr/lib/libxml2.so libxml2.so.2
+	
+	# remove libs that depend on QT4
+	rm -rf $PKG/usr/lib/wps-office/office6/{librpcetapi.so,librpcwppapi.so,librpcwpsapi.so}
 	
 	# Use patched version of FreeType, to avoid problems with bold fonts
 	# https://gitlab.freedesktop.org/freetype/freetype/-/merge_requests/304/

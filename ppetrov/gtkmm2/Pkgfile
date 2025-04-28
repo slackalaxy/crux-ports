@@ -1,0 +1,24 @@
+# Description: C++ interface to GTK2.
+# URL: https://www.gtkmm.org/en/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: atkmm gtk pangomm-gtk3 xorg-libxdamage
+
+name=gtkmm2
+version=2.24.5
+release=1
+source=(https://ftp.gnome.org/pub/GNOME/sources/gtkmm/${version%.*}/gtkmm-$version.tar.xz)
+
+build() {
+	cd gtkmm-$version
+
+	CXXFLAGS+=' -std=c++11'
+	./configure --prefix=/usr \
+		--disable-dependency-tracking \
+		--disable-documentation
+
+	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+
+	make
+	make DESTDIR=$PKG install
+	rm -f $PKG/{,usr/}lib/*.la
+}

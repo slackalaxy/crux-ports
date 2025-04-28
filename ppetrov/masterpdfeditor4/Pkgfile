@@ -1,7 +1,7 @@
 # Description: The best solution for working with PDF files in Linux
 # URL: https://code-industry.net/free-pdf-editor/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli double-conversion graphite2 icu keyutils krb5 qt5 sane
+# Depends on: double-conversion icu qt5 sane
 
 name=masterpdfeditor4
 version=4.3.89

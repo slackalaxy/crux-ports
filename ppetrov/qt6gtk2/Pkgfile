@@ -1,12 +1,12 @@
 # Description: GTK+2.0 integration plugins for Qt6
-# URL: https://github.com/trialuser02/qt6gtk2
+# URL: https://www.opencode.net/trialuser/qt6gtk2
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
+# Depends on: gtk qt6ct
 
 name=qt6gtk2
-version=0.3
+version=0.4
 release=1
-source=(https://github.com/trialuser02/qt6gtk2/archive/$version/$name-$version.tar.gz)
+source=(https://www.opencode.net/trialuser/qt6gtk2/-/archive/$version/$name-$version.tar.gz)
 
 build() {
   cd $name-$version

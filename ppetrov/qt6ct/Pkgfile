@@ -1,7 +1,7 @@
 # Description: Qt6 configuration utility
 # URL: https://github.com/trialuser02/qt6ct
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: double-conversion graphite2 icu qt6-base
+# Depends on: double-conversion icu qt6-base
 
 name=qt6ct
 version=0.9

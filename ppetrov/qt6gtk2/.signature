@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZfifOknT0x8CSwsNDkqGZi6snMurmwUbnHRAytuXSXzDyGZk/1C3HOPNonRAvVEbFZcjtVgv/IFFcMq+7HCp9Qs=
-SHA256 (Pkgfile) = 13dad880df271920396fc7c06ff8261aa7b60f67f2c19a804c3e61238b3b75bd
+RWToVVsIkzFIZW2ojBVo/EaIgehUQrYsdbbYhCht2whl6X2YHK7khaCPlqJc1ixH2MO5DY5CdSXTy1adm8D35prrJk/jl+gYAws=
+SHA256 (Pkgfile) = 7ce87540464cfe4a3fae0d571c395bb9267e66eab5231998ad1c683bb7e6086a
 SHA256 (.footprint) = 9609569b53f38b66d3ff4b3c509c9218d6a56ded2ed68f3f1921b40863162128
-SHA256 (qt6gtk2-0.3.tar.gz) = 15ddd412336198b41383cc46260f2161de9100617b57d8f3de7ad5788e2f05a8
+SHA256 (qt6gtk2-0.4.tar.gz) = 367e428a1df497f93ce9fe177d1e7fabd2bf3f1cf7b7273a875e5364df5d92e9
