@@ -1,8 +1,0 @@
-#
-# /etc/ports/wallpapers.httpup: wallpapers ports collection
-#
- 
-ROOT_DIR=/usr/ports/wallpapers
-URL=https://raw.githubusercontent.com/slackalaxy/crux-ports/main/wallpapers/
- 
-# End of file
