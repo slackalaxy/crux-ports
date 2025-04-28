@@ -4,7 +4,7 @@
 # Depends on: grub2 os-prober
 
 name=grub2-default
-version=c9bf350
+version=3.8
 release=1
 source=($name)
 

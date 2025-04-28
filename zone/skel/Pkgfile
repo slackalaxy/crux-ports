@@ -3,15 +3,16 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=skel
-version=0.3
+version=3.8
 release=1
-source=(bash_logout bash_profile bashrc xprofile Xresources)
+source=(bash_logout bash_profile bashrc xinitrc.xfce4 xprofile Xresources)
 
 build() {
 	mkdir -p $PKG/etc/skel
 	install -m 0644 bash_logout $PKG/etc/skel/.bash_logout
 	install -m 0644 bash_profile $PKG/etc/skel/.bash_profile
 	install -m 0644 bashrc $PKG/etc/skel/.bashrc
+	install -m 0644 xinitrc.xfce4 $PKG/etc/skel/.xinitrc
 	install -m 0644 xprofile $PKG/etc/skel/.xprofile
 	install -m 0644 Xresources $PKG/etc/skel/.Xresources
 }

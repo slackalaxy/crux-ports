@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=housecleaning
-version=20240723
+version=3.8
 release=1
 source=($name.sh)
 

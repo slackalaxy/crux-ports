@@ -1,7 +1,6 @@
-This packages the Linux kernel distributed with CRUX 3.7. The build
-uses the user-contributed modular config file, available from here:
-
-http://ftp.spline.inf.fu-berlin.de/pub/crux/loop/crux/kernel/contrib/
+This packages the Linux kernel distributed with CRUX 3.8. The build
+uses the user-contributed modular config file and downloads the source from
+kernel.org.
 
 The port adds "-m" as local version, including the source folder.
 
@@ -14,8 +13,8 @@ filesystem is supported. Ata a glance, these are built into the kernel:
 
 It is up to you to create a symlink for System.map:
 
-	/boot/System.map -> /boot/System.map-5.15.55-m
+	/boot/System.map -> /boot/System.map-6.12.23-m
 
 Same goes for the krenel itself (disputed if needed):
 	
-	/usr/src/linux-5.15.55-m/ -> /usr/src/linux
+	/usr/src/linux-6.12.23-m/ -> /usr/src/linux

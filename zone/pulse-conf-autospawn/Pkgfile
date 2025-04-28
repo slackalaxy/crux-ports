@@ -1,0 +1,14 @@
+# Description: Autospawn pulseaudio
+# URL: https://www.freedesktop.org/wiki/Software/PulseAudio/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: pulseaudio
+
+name=pulse-conf-autospawn
+version=3.8
+release=1
+source=()
+
+build() {
+  mkdir -p $PKG/etc/pulse/client.conf.d/
+  echo "autospawn = yes" > $PKG/etc/pulse/client.conf.d/autospawn.conf
+}

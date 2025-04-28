@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=trimssd
-version=20240724
+version=3.8
 release=1
 source=($name.conf $name.sh)
 

@@ -3,9 +3,9 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=kernel-modular
-version=5.15.55
+version=6.12.23
 release=1
-source=(http://ftp.spline.inf.fu-berlin.de/pub/crux/loop/crux/kernel/linux-$version.tar.xz
+source=(https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-$version.tar.xz
 	config-$version-modular)
 
 build() {
@@ -34,7 +34,7 @@ build() {
 	# Fix build and source symlinks if they are pointing into $SRC.
 	# Thanks Slackware!
 	cd $PKG/lib/modules/$version-m
-	rm {build,source}
+	#rm {build,source}
 	ln -s ../../../usr/src/linux-$version-m build
 	ln -s ../../../usr/src/linux-$version-m source
 	

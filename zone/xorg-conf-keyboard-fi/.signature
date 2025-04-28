@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwf9BczorU3+mpWqsseoJi2/Fur/J26bB9j6nAMxU0PVgTU7YMYd5ToW7DGDefZq9/AW4Jv4Jm2/E3Yvnzm5eRQQ=
-SHA256 (Pkgfile) = 414a8ddac85023efa173a9c6cb4571228bb5bdbf9a173e638c8581c7f68c37c6
+RWRPokwW0IImwUQ+7xmQ1F2+EtmpdTsWMRj9sjkeqDhuqoONwsJM6RMnA+rn/rqKI+ZoC9Cvye35Bl7/TnsOf2Dblr8O6NGtiwc=
+SHA256 (Pkgfile) = 4ea9114277bde81c83791ae0e3134bdfca37e67f2c95b6100cdd1259e5508626
 SHA256 (.footprint) = 64988022f66b944cdd1caef638144237c71a394085b7017a17a7a0aa2ba0ef3c
 SHA256 (00-keyboard.conf) = 3ead5414e791d691b8c34c9732e23f1093b118d9629a1a2c00a57923f7078924

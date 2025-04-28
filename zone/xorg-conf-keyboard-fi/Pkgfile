@@ -4,7 +4,7 @@
 # Depends on: xorg
 
 name=xorg-conf-keyboard-fi
-version=3ead541
+version=3.8
 release=1
 source=(00-keyboard.conf)
 

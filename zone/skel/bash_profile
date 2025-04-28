@@ -9,6 +9,9 @@ export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
 ## Do we have QT5CT installed?
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+# GTK3 scrollbars
+export GTK_OVERLAY_SCROLLING=0
+
 ## Locale
 export LANG=en_US.utf-8
 export LC_ALL=en_US.utf-8

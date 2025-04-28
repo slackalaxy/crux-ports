@@ -1,0 +1,4 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/pulse/
+drwxr-xr-x	root/root	etc/pulse/client.conf.d/
+-rw-r--r--	root/root	etc/pulse/client.conf.d/autospawn.conf
