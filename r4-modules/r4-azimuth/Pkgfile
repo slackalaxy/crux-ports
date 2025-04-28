@@ -1,7 +1,7 @@
 # Description: R module SeuratWrappers
 # URL: https://github.com/satijalab/azimuth
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-bsgenome-hsapiens-ucsc-hg38 r4-dt r4-ensdb-hsapiens-v86 r4-future r4-ggplot2 r4-glmgampoi r4-googlesheets4 r4-hdf5r r4-htmltools r4-httr r4-jaspar2020 r4-jsonlite r4-matrix r4-patchwork r4-presto r4-rcpp r4-rlang r4-scales r4-seurat r4-seurat-disk r4-seuratobject r4-seurat-data r4-shiny r4-shinybs r4-shinydashboard r4-shinyjs r4-signac r4-stringr r4-tfbstools r4-plotly r4-withr
+# Depends on: icu r r4-bsgenome-hsapiens-ucsc-hg38 r4-dt r4-ensdb-hsapiens-v86 r4-future r4-ggplot2 r4-glmgampoi r4-googlesheets4 r4-hdf5r r4-htmltools r4-httr r4-jaspar2020 r4-jsonlite r4-matrix r4-patchwork r4-presto r4-rcpp r4-rlang r4-scales r4-seurat r4-seurat-disk r4-seuratobject r4-seurat-data r4-shiny r4-shinybs r4-shinydashboard r4-shinyjs r4-signac r4-stringr r4-tfbstools r4-plotly r4-withr
 
 name=r4-azimuth
 version=0.5.0

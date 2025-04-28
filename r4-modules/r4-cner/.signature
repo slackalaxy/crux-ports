@@ -1,5 +1,8 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Cr0rTEdcEsRg1McEwApnZc4dbvEkA504he+qeFy83Rz6YpDj+e6lfdzoP0lLFd4D/QSYwbOSK1Jfvvk74357AM=
-SHA256 (Pkgfile) = 46df0841c291c95bb19812373cda0ebb7e0450453c08da202afff1888b3ab377
+RWQ2oTreAss89PqAszSi8gmIU1QrySOk+jLtOogmrLq65O9v+SpJCP1TudTselHM+feltl1gMMhflWTQH0zDwmUdN5+LHYb7jQI=
+SHA256 (Pkgfile) = cbfc857cc469ab9e348ee560b8f316dbb76c299d436f2cf29307172572f84132
 SHA256 (.footprint) = e2772f77b6efeda387cc85b30f04c105f7ea6251d2ec9029f5a846ef04a75761
 SHA256 (CNEr_1.43.0.tar.gz) = 30c5b5d82943131ade0707e71f1be1bdd4347e8d10803f8ca32fbabbab482089
+SHA256 (C23compat.patch) = 516356539de987a9c8fce65eb01d8fc185eebd3e6094d6440414f43bff14d909
+SHA256 (Fix_autopkgtest.patch) = d122050213b8567b3db5907ccdc053594f6590827926a6ea62bb08770e76e17f
+SHA256 (lower_precision.patch) = 400c62baea6a796e5973c9558004cd472d819d6316fe02f3c2a51a67248bd6ff

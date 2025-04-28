@@ -7,10 +7,17 @@
 name=r4-cner
 version=1.43.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/CNEr_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/CNEr_${version}.tar.gz
+	C23compat.patch Fix_autopkgtest.patch lower_precision.patch)
 
 build() {
 	cd CNEr
+	
+	# thanks Debian
+	patch -p1 -i $SRC/C23compat.patch
+	patch -p1 -i $SRC/Fix_autopkgtest.patch
+	patch -p1 -i $SRC/lower_precision.patch
+	
 	mkdir -p $PKG/usr/lib/R/library
 	R CMD INSTALL . -l $PKG/usr/lib/R/library
 }
