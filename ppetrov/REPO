@@ -46,6 +46,7 @@ d:lshw
 d:mafft
 d:masterpdfeditor4
 d:medit
+d:tcl
 d:microsoft-edge
 d:mplayer
 d:mtpaint
@@ -94,6 +95,7 @@ d:strawberry
 d:tango-icon-theme
 d:terminus-font-otb
 d:libgsf
+d:tk
 d:treebest
 d:treerecs
 d:ucsf-chimerax
@@ -177,6 +179,8 @@ d:p5-extutils-pkgconfig
 d:p5-cpan-distnameinfo
 d:gtkmm2
 d:kdsingleapplication
+d:tcllib
+d:tklib
 f:d5e1b335b6ec29867930ca548a111c24:acpid/.footprint
 f:cb764f2407caf1e8d99fd3e85be4eb84:acpid/Pkgfile
 f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
@@ -303,10 +307,10 @@ f:0b9d78e4cc3e678cb38015fe050961dd:goffice/.signature
 f:e370dae9c5b64ff80b3a036886302b2c:diffuse/Pkgfile
 f:4ff7ed96b5be3d85ddabb6713ab6cc41:diffuse/.footprint
 f:18e4939ae7cf8e71220c9173958e72ce:diffuse/.signature
-f:984c062610f720e1beae2f74f2b7e11c:google-chrome/Pkgfile
+f:5ce5c91a52daba2b4a00326eb118c1e8:google-chrome/Pkgfile
 f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
 f:4957b29450551ff6d3c50bb79d019322:google-chrome/.footprint
-f:03bcf43c2074b59cc75ab4b2735ecc10:google-chrome/.signature
+f:48d5c37ebe91c28344a33f0b50b2b46b:google-chrome/.signature
 f:6b9adbf317086068e86d7270d42ea9f5:guidance/.footprint
 f:4ddd28354534e43fbe57be479bbca703:guidance/Pkgfile
 f:7acc884d2d98a0d48f43989da884e217:guidance/.signature
@@ -356,6 +360,9 @@ f:c5f5e186b47637143c066558eaa1fa6a:masterpdfeditor4/.signature
 f:3182039f2c45ca4c18da1c9e758e8940:medit/.footprint
 f:fc9828b054d154925c34cd284ae472bd:medit/Pkgfile
 f:0fcb5b7f82f882828a1f0e2eccef0ca6:medit/.signature
+f:68b86d6b2748ac2d3400063c1c8c0c78:tcl/.footprint
+f:d00b6f74ce3e16ed3bfd5a626e470aa6:tcl/.signature
+f:80539264980db605336f39c0b95ac413:tcl/Pkgfile
 f:8db2a6ebf641ed9c54f919ee0da30189:microsoft-edge/.footprint
 f:6e345f4fbf4410e83cdc6ced69c9a4ac:microsoft-edge/Pkgfile
 f:9d3720446832cdd9b3695d991bd8bffd:microsoft-edge/README
@@ -514,6 +521,9 @@ f:84aef8e9688514030517afbea67e5305:terminus-font-otb/post-install
 f:51cad236697075bb36a39979016edf9a:libgsf/.footprint
 f:5b91b0bfbcd26e3dfff11496232f7dbf:libgsf/.signature
 f:3f87fbfcc72f71d3d9d46c197455d157:libgsf/Pkgfile
+f:4eb3bb4174073b9c8f3df92930f4ba1a:tk/.footprint
+f:c32476e465c990b454ed64b1eea289ac:tk/.signature
+f:9ff1bab2ca16ccdf158135f5f3621ea8:tk/Pkgfile
 f:ed7bd1a026667e3342d7f27f7c9c794d:treebest/.footprint
 f:ae1e06bd3937db1e991715edee2b7d89:treebest/treebest.desktop
 f:1c6dfd012cd542231fa0e1692d6d8ff5:treebest/Pkgfile
@@ -566,13 +576,13 @@ f:6b1a9c69223950f59bbad556775f9c1b:xpdf/xpdfrc.diff
 f:8264e5b61801be698f2071f8a7ebba8c:yt-dlp/.footprint
 f:de022842b78fa6e456502059be325f74:yt-dlp/Pkgfile
 f:eb026dccce232f4bf8d026f98840fb0c:yt-dlp/.signature
-f:7ea3a344620d8306e4f0da5938768e7a:zoom-linux/.signature
+f:4f56ad492a452b28c9131469dbfb55a6:zoom-linux/.signature
 f:43aa9d5b50ed81a57d6653215e632bd1:zoom-linux/.footprint
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
 f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png
 f:9e1209739a01ddd0ca9623cd34ae72e2:zoom-linux/zoom-linux.xml
-f:b47bce622d2d2ed97b3105c9bd302a3d:zoom-linux/Pkgfile
+f:410ff9b84930f9a7544e5893aec27b5f:zoom-linux/Pkgfile
 f:3db29fe0690db1d7cd35479cae3ab2d3:argtable/Pkgfile
 f:84a4616d94bcf67166326dbaa147301d:argtable/.footprint
 f:ea55cfda71bd2bcb8c12766224f0ab24:argtable/.signature
@@ -789,3 +799,9 @@ f:e45877264b3f312de5154e767534d457:gtkmm2/Pkgfile
 f:0e957b7d2be6675510b400f0fbccdbe3:kdsingleapplication/.footprint
 f:f41487c96483af5245e02ed757b93068:kdsingleapplication/.signature
 f:3b5e4259983a5befb743657b5bfdb1b3:kdsingleapplication/Pkgfile
+f:b1fe11972e44728aad706a3df48e4e56:tcllib/.footprint
+f:d726bdc9cd7c08b0e715ed6e4e24b89d:tcllib/.signature
+f:f1f10bb056587a600d6297c1316b3840:tcllib/Pkgfile
+f:ed37d097c8ba849d53671069a28922d2:tklib/.footprint
+f:02a23552acb231ec03cb4da85c4de161:tklib/.signature
+f:46ee8020c6d699f8879a51c14473bc3f:tklib/Pkgfile
