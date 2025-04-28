@@ -1,6 +1,5 @@
 d:acpid
 d:aliview
-d:cpan2crux
 d:wp-cruxy
 d:blueman-pa
 d:bpp1-numcalc
@@ -176,7 +175,6 @@ d:p5-xml-xpathengine
 d:p5-yaml
 d:gnumeric
 d:p5-extutils-pkgconfig
-d:p5-cpan-distnameinfo
 d:gtkmm2
 d:kdsingleapplication
 d:tcllib
@@ -191,10 +189,6 @@ f:446f99ca5e98ee81bb6c87151dbb22a0:aliview/aliview.desktop
 f:1dc8dba1069b6fa8751c09f5b2df109b:aliview/.footprint
 f:7d8c387603b8da5876834e3b1b136032:aliview/Pkgfile
 f:fdcab7184115cd5bb0d1a5c97b956f35:aliview/.signature
-f:ec3fe5c0f2c9b4dd471dbceb0cbe9d84:cpan2crux/Pkgfile
-f:d2e86e6ea7a81e58df8bff4fdf9f40e4:cpan2crux/cpan2crux-1.4.pl
-f:5e44468f8fc04d9a5f42153c4ee68156:cpan2crux/.footprint
-f:a3a3a599dddb1bae8722cce283a3798d:cpan2crux/.signature
 f:06d9c616653bffb1f3d25ac8218d02fe:wp-cruxy/Pkgfile
 f:112b68fc5a0cba5ab60f0759e3eca33e:wp-cruxy/.footprint
 f:4719048f4359d16e4fd10a8e7f71c3f6:wp-cruxy/.signature
@@ -790,9 +784,6 @@ f:e3f37222ba00a40300330fa01441ebd7:gnumeric/.signature
 f:4d64804f2cbf6b30ff0b17cba18e75eb:p5-extutils-pkgconfig/Pkgfile
 f:e8fe308e56a37a3125df705f36802470:p5-extutils-pkgconfig/.footprint
 f:41181df9d7e52e86583b6dc2ebea2690:p5-extutils-pkgconfig/.signature
-f:e8b1dc6ff6650be4dbce1c4c53ed7be6:p5-cpan-distnameinfo/Pkgfile
-f:80e19eebc2d7e4485f8bd8b1e19752a6:p5-cpan-distnameinfo/.footprint
-f:e0d06f8ae006800e5c561e665e2d28c2:p5-cpan-distnameinfo/.signature
 f:d11a8d84734d7dd06b3fa03759d5fbc1:gtkmm2/.footprint
 f:1f2dc40552a0a3833469a10bcb1a679e:gtkmm2/.signature
 f:e45877264b3f312de5154e767534d457:gtkmm2/Pkgfile
