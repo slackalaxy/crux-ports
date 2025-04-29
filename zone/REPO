@@ -57,11 +57,11 @@ f:969b71f19b0c11df505c8d2495744243:housecleaning/.footprint
 f:2221d7715ae826dca9ccca6aaf5973d5:housecleaning/Pkgfile
 f:aafe1f1f471bf7bfeac65c717a015c8e:housecleaning/housecleaning.sh
 f:3be201fa1d3320d83f6d9c715fa4a287:housecleaning/.signature
-f:d9e4551c1161d1fa5926223544ab8db4:kernel-modular/Pkgfile
-f:faf46b97a6798fe4694e90ae460219d6:kernel-modular/README
-f:7fb7d760577d2fd4fd256f89053170b7:kernel-modular/.footprint
-f:4aeb6226a11a6116a0988999c56e5e1b:kernel-modular/.signature
-f:ae5e7aec8e095aa3188f78943b58e255:kernel-modular/config-6.12.23-modular
+f:2c7fa6a0338b148c5fae6c69332ec37e:kernel-modular/Pkgfile
+f:f26d68e9a7b8acb4325685e51084736b:kernel-modular/README
+f:507c67a3dde8b9e09e9d7fe81c9145ba:kernel-modular/.footprint
+f:c23ba3df466e18f6ebf08958ac68adbb:kernel-modular/.signature
+f:bea2979aa7d0df64c79d6e9509f38324:kernel-modular/config-6.12.25
 f:c0965fadc3a9c6a5d4e4280282a4cb1f:skel/bash_profile
 f:01af4cdc68ff1f9c825e79eb8717f21e:skel/bashrc
 f:20ea060dae632aab6c173b5f5da1dbda:skel/xprofile
