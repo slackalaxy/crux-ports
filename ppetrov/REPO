@@ -1,5 +1,6 @@
 d:acpid
 d:aliview
+d:alltray
 d:wp-cruxy
 d:bpp1-numcalc
 d:bpp1-phyl
@@ -189,6 +190,9 @@ f:446f99ca5e98ee81bb6c87151dbb22a0:aliview/aliview.desktop
 f:1dc8dba1069b6fa8751c09f5b2df109b:aliview/.footprint
 f:7d8c387603b8da5876834e3b1b136032:aliview/Pkgfile
 f:fdcab7184115cd5bb0d1a5c97b956f35:aliview/.signature
+f:51c98ca37bec11817def3c9aa4e1ab96:alltray/Pkgfile
+f:c6c105408e688a053ee52e03f62dc1c8:alltray/.footprint
+f:9fe10191513d3d572fb7deb1627bbf82:alltray/.signature
 f:06d9c616653bffb1f3d25ac8218d02fe:wp-cruxy/Pkgfile
 f:112b68fc5a0cba5ab60f0759e3eca33e:wp-cruxy/.footprint
 f:4719048f4359d16e4fd10a8e7f71c3f6:wp-cruxy/.signature
@@ -541,7 +545,7 @@ f:0c734baa6acb656e33c3ddbe0a472e07:viber/.footprint
 f:f08e29af329eebe8165990fc4675ab0e:viber/Pkgfile
 f:404e54f40a6eccd0b88e14d339d02694:viber/README
 f:70e8c1b68f00ef3c71f279080e7d8d10:viber/viber.png
-f:4a958a7c7020f92474d64cd41b5a0c63:viber/.signature
+f:ead9a3d3f2c57aeffd7d734ca5a6dec3:viber/.signature
 f:f4aeb34e98a3447bb6bb61114304f8da:viewnior/.signature
 f:9ea22cb8853bb080b27a4ba9e9c8fa8b:viewnior/Pkgfile
 f:975eeae744a613e326b89b5dd4ef1fbe:viewnior/exiv2-0.28.patch
