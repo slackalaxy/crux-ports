@@ -1,11 +1,12 @@
-This packages the Linux kernel distributed with CRUX 3.8. The build
-uses the user-contributed modular config file and downloads the source from
-kernel.org.
+This packages a Linux kernel/modules for CRUX 3.8. The build uses a
+slightly modified config file from Slackware and downloads the source
+from https://kernel.org/
 
-The port adds "-m" as local version, including the source folder.
+Nothe that only the kernel and modules are shipped, the sources are left
+out. "-m" is used as local version for kernel and modules.
 
 Inspect the config if you want to make any modifications and if your
-filesystem is supported. Ata a glance, these are built into the kernel:
+filesystem is supported. At a glance, these are built into the kernel:
 
 	EXT4
 	XFS
@@ -13,8 +14,36 @@ filesystem is supported. Ata a glance, these are built into the kernel:
 
 It is up to you to create a symlink for System.map:
 
-	/boot/System.map -> /boot/System.map-6.12.23-m
+	/boot/System.map -> /boot/System.map-6.12.25-m
 
 Same goes for the krenel itself (disputed if needed):
 	
-	/usr/src/linux-6.12.23-m/ -> /usr/src/linux
+	/usr/src/linux-6.12.25-m/ -> /usr/src/linux
+
+
+
+Don't forget to update Grub config, e.g.:
+
+GRUB, in UEFI boot mode. Install grub2 into the EFI system partition:
+  
+  grub-install /boot/efi 
+
+Replace /boot/efi with the location of the mounted ESP. If efibootmgr
+was selected during the package selection phase, grub-install will
+automatically create a boot entry and make it active. Run:
+
+  grub-mkconfig > /boot/grub/grub.cfg
+
+GRUB, in legacy (non-UEFI) boot mode. Install grub2 into the MBR, by:
+
+  grub-install /dev/sd??
+
+Replace /dev/sd?? with the actual node of the device whose MBR you want
+to overwrite, eg., /dev/sda for the first SATA disk. Run:
+
+  grub-mkconfig > /boot/grub/grub.cfg
+
+grub-mkconfig's output can be altered by setting variables in:
+
+  /etc/default/grub
+
