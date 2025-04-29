@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Ep2qQUnrYsiS5nJXv9+lFg8aRAjCDFy+XbA7EC3dZKGs3b47czRDLwyJbLEbShQp0sJTHFj2lvQFwm0cH39uQU=
-SHA256 (Pkgfile) = 14399f4709e418b3cba69624089a40c69eb4ba34cdf79b63ce0082d7e98f9fa5
-SHA256 (.footprint) = d0c42084d9e9da6dcdbe70459dc0811290849741ce1cafc46add9c9de3fa2511
-SHA256 (shinydashboard_0.7.2.tar.gz) = a56ee48572649830cd8d82f1caa2099411461e19e19223cbad36a375299f3843
+RWQ2oTreAss89McNyisCTmYnzlvxLmQgzzE25EQdBcCZPh0yuHCS1B6HnM1fV9Xs/BZYoocjavhfZi3mqJ4PzVtMNq1XgVJkXwI=
+SHA256 (Pkgfile) = 1b4d53aa9b5a344fb54386351d41ee4266d05d7ab54b8de4dbfad3c8c2fa8d61
+SHA256 (.footprint) = d2decd1748c986a8c0390e2588dfc5c3a965e1424bde60e33ac29eeec76e2af3
+SHA256 (shinydashboard_0.7.3.tar.gz) = 641ce851846a58ecfe3b126b401f8e59d80f578451dd33f6cf1868bffea5144c

@@ -6,6 +6,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinydashboard/
 drwxr-xr-x	root/root	usr/lib/R/library/shinydashboard/AdminLTE/
 -rwxr-xr-x	root/root	usr/lib/R/library/shinydashboard/AdminLTE/AdminLTE.css
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/AdminLTE.min.css
+-rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/LICENSE.txt
 -rwxr-xr-x	root/root	usr/lib/R/library/shinydashboard/AdminLTE/_all-skins.css
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/_all-skins.min.css
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/app.js
@@ -13,6 +14,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinydashboard/AdminLTE/
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/app.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/app.min.js.map
 drwxr-xr-x	root/root	usr/lib/R/library/shinydashboard/AdminLTE/fonts/
+-rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/fonts/LICENSE.txt
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/fonts/Source_Sans_Pro_300.ttf
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/fonts/Source_Sans_Pro_300italic.ttf
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/AdminLTE/fonts/Source_Sans_Pro_400.ttf

@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/insight/R/
 -rw-r--r--	root/root	usr/lib/R/library/insight/R/insight.rdx
 -rw-r--r--	root/root	usr/lib/R/library/insight/WORDLIST
 drwxr-xr-x	root/root	usr/lib/R/library/insight/data/
+-rw-r--r--	root/root	usr/lib/R/library/insight/data/efc_insight.rda
 -rw-r--r--	root/root	usr/lib/R/library/insight/data/fish.RData
 drwxr-xr-x	root/root	usr/lib/R/library/insight/doc/
 -rw-r--r--	root/root	usr/lib/R/library/insight/doc/display.R
@@ -35,6 +36,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/insight/doc/
 -rw-r--r--	root/root	usr/lib/R/library/insight/doc/insight.R
 -rw-r--r--	root/root	usr/lib/R/library/insight/doc/insight.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/insight/doc/insight.html
+-rw-r--r--	root/root	usr/lib/R/library/insight/doc/newmodels.R
+-rw-r--r--	root/root	usr/lib/R/library/insight/doc/newmodels.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/insight/doc/newmodels.html
 drwxr-xr-x	root/root	usr/lib/R/library/insight/help/
 -rw-r--r--	root/root	usr/lib/R/library/insight/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/insight/help/aliases.rds

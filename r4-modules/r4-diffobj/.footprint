@@ -3,7 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/
--rwxr-xr-x	root/root	usr/lib/R/library/diffobj/COPYRIGHTS
+-rw-r--r--	root/root	usr/lib/R/library/diffobj/COPYRIGHTS
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/INDEX
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/Meta/
@@ -21,13 +21,13 @@ drwxr-xr-x	root/root	usr/lib/R/library/diffobj/R/
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/R/diffobj.rdb
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/R/diffobj.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/css/
--rwxr-xr-x	root/root	usr/lib/R/library/diffobj/css/diffobj.css
+-rw-r--r--	root/root	usr/lib/R/library/diffobj/css/diffobj.css
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/doc/
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/doc/diffobj.R
--rwxr-xr-x	root/root	usr/lib/R/library/diffobj/doc/diffobj.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/diffobj/doc/diffobj.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/doc/diffobj.html
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/doc/embed.R
--rwxr-xr-x	root/root	usr/lib/R/library/diffobj/doc/embed.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/diffobj/doc/embed.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/doc/embed.html
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/doc/index.html
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/help/
@@ -42,4 +42,4 @@ drwxr-xr-x	root/root	usr/lib/R/library/diffobj/html/
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/diffobj/libs/diffobj.so
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/script/
--rwxr-xr-x	root/root	usr/lib/R/library/diffobj/script/diffobj.js
+-rw-r--r--	root/root	usr/lib/R/library/diffobj/script/diffobj.js
