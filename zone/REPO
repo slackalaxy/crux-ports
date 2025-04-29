@@ -14,6 +14,7 @@ d:xorg-conf-keyboard-fi
 d:xorg-conf-synaptics
 d:etc-conf-hostname
 d:pulse-conf-autospawn
+d:pulse-conf-blueman
 f:822732e9e639ebe2f643af7ecc601d38:depscheck/Pkgfile
 f:f4e707147bf141a5175e09d21a245704:depscheck/.footprint
 f:81d19c2aca7bbc0d116869319d398e0e:depscheck/.signature
@@ -64,12 +65,12 @@ f:ae5e7aec8e095aa3188f78943b58e255:kernel-modular/config-6.12.23-modular
 f:c0965fadc3a9c6a5d4e4280282a4cb1f:skel/bash_profile
 f:01af4cdc68ff1f9c825e79eb8717f21e:skel/bashrc
 f:20ea060dae632aab6c173b5f5da1dbda:skel/xprofile
-f:1ee45511915546dd4e9d9d00592f7b64:skel/bash_logout
-f:74df285230f9f30367b29017a313deba:skel/Pkgfile
+f:5156b784505caee20df9c9de94f5687e:skel/bash_logout
+f:7e705647f79f09c8207b8a4484d7134a:skel/Pkgfile
 f:e896ad9541df32a18beea5d958fd265b:skel/README
 f:ee6e3d102e2e0a1685fec57e40108b61:skel/Xresources
 f:23fe082823b02023c804b4d63229bea7:skel/.footprint
-f:3cccfe898cc47694cb4bca80e4e509eb:skel/.signature
+f:25a04a7a214c576bf6c4cf78fcb5b4a9:skel/.signature
 f:8dffdc5b09ccde1983825905c17b3182:skel/xinitrc.xfce4
 f:d5e70fc725e7d8095ccd4b59ad03e071:slackalaxy-repos/Pkgfile
 f:7d0b1bc5184642c0f2e5fa933d61a926:slackalaxy-repos/.footprint
@@ -95,3 +96,7 @@ f:a08b910a9432673e9fd313b9bb609103:etc-conf-hostname/Pkgfile
 f:bf628fd645d4a03ce8d8d9ceba431748:pulse-conf-autospawn/Pkgfile
 f:c999cc225856e4de68206ec91347270b:pulse-conf-autospawn/.footprint
 f:42c59de995bbb4d05ce232e8569e5412:pulse-conf-autospawn/.signature
+f:d18eed851d7ed168477f2d0c84ab5145:pulse-conf-blueman/Pkgfile
+f:4b9a06baf1785a80dc00300c83dfff67:pulse-conf-blueman/.footprint
+f:2d8d1ceec7e02595d00b8dd0b7521844:pulse-conf-blueman/.signature
+f:e86534abf27395097658280f7e10091b:pulse-conf-blueman/README
