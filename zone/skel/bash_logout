@@ -1,2 +1,2 @@
-rm ~/.bash_history-*.tmp
+#rm ~/.bash_history-*.tmp
 #clear
