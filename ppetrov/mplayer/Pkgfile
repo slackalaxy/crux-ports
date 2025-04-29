@@ -1,7 +1,7 @@
 # Description: MPlayer
 # URL: http://www.mplayerhq.hu/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: faac faad2 gtk keyutils lame libass libbluray libdv libdvdnav libidn2 libmad libmng libmpeg2 librsvg mpg123 openal pipewire pulseaudio rtmpdump samba speex x264 xorg-libxscrnsaver
+# Depends on: faac faad2 gtk keyutils lame libass libbluray libdv libdvdnav libidn2 libmad libmng libmpeg2 librsvg mpg123 openal pulseaudio rtmpdump samba speex x264 xorg-libxscrnsaver
 
 name=mplayer
 version=svn.r38679
