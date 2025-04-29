@@ -1,4 +1,0 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/pulse/
-drwxr-xr-x	root/root	etc/pulse/default.pa.d/
--rw-r--r--	root/root	etc/pulse/default.pa.d/blueman.pa
