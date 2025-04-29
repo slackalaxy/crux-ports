@@ -1,0 +1,29 @@
+#!/bin/bash
+
+if [ $# -eq 1 -a -n "$1" ]; then
+	LXSESSION=$1
+else
+	# default session
+	LXSESSION=/usr/bin/startxfce4
+fi
+
+# This should exist for sure
+. /etc/profile
+
+# Source if this exists system-wide
+[ -f /etc/xprofile ] && . /etc/xprofile
+
+# Load anything local
+[ -f ~/.profile ] && . ~/.profile
+[ -f ~/.xprofile ] && . ~/.xprofile
+
+for f in /etc/X11/xinit/xinitrc.d/* ; do
+	[ -x "$f" ] && . "$f"
+done
+unset f
+
+if which dbus-launch >/dev/null && test -z "$DBUS_SESSION_BUS_ADDRESS"; then
+	eval "$(dbus-launch --sh-syntax --exit-with-session)"
+fi
+
+exec "$LXSESSION"

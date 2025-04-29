@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# /etc/rc.d/lxdm: start/stop lxdm display manager
+#
+
+case $1 in
+	start)
+		/usr/sbin/lxdm &
+		;;
+	stop)
+		killall -q /usr/sbin/lxdm 
+		;;
+	restart)
+		$0 stop
+		sleep 2
+		$0 start
+		;;
+	*)
+		echo "Usage: $0 [start|stop|restart]"
+		;;
+esac
+
+# End of file

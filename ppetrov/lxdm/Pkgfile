@@ -1,0 +1,46 @@
+# Description: GUI login manager from the LXDE project
+# URL: http://ponce.cc/slackware/sources/repo/lxde
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli consolekit graphite2 gtk xorg-libxdamage
+
+name=lxdm
+version=20220124_f662906
+release=2
+
+source=(http://ponce.cc/slackware/sources/repo/lxde/$name-$version.tar.xz
+	default.jpg lxdm.rc lxdm-config.desktop lxdm-config-root.desktop Xsession)
+
+build() {
+	# Thank you Ponce for the sources!
+	cd $SRC/$name-$version
+	./autogen.sh 
+	./configure\
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib/$name \
+		--disable-nls \
+		--disable-gtk3 \
+		--without-pam
+	
+	make
+	make DESTDIR=$PKG prefix=/usr install
+	
+	install -D -m755 $SRC/$name.rc $PKG/etc/rc.d/$name
+	rm -fr $PKG/usr/share/locale
+		
+	# nothing so secret here
+	chmod 644 $PKG/etc/lxdm/lxdm.conf
+	
+	install -D -m 0755 $SRC/Xsession $PKG/etc/lxdm/Xsession
+	
+	# set some preferences
+	install -D -m 0644 $SRC/default.jpg $PKG/usr/share/backgrounds/default.jpg
+	sed -i "s:backgrounds/default.png:backgrounds/default.jpg:g" $PKG/etc/lxdm/lxdm.conf
+	sed -i "s:Clearlooks:Industrial:g" $PKG/etc/lxdm/lxdm.conf
+	sed -i "s:# session=/usr/bin/startlxde:session=/usr/bin/startxfce4:g" $PKG/etc/lxdm/lxdm.conf
+	sed -i "s:keyboard=0:keyboard=1:g" $PKG/etc/lxdm/lxdm.conf
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/*.desktop $PKG/usr/share/applications
+	cp -a $PKG/usr/share/lxdm/themes/Industrial/nobody.png $PKG/usr/share/pixmaps/lxdm-config.png
+}
