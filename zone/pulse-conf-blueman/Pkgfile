@@ -1,0 +1,14 @@
+# Description: Module-bluetooth-discover works only if started 'later' 
+# URL: https://www.linuxquestions.org/questions/linux-hardware-18/br-connection-profile-unavailable-4175720918/#post6406579
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-utils blueman pulseaudio sbc
+
+name=pulse-conf-blueman
+version=3.8
+release=1
+source=()
+
+build() {
+	mkdir -p $PKG/etc/pulse/default.pa.d
+	echo "load-module module-bluetooth-discover" >> $PKG/etc/pulse/default.pa.d/blueman.pa
+}
