@@ -1,7 +1,7 @@
 # Description: Viber for PC
 # URL: https://viber.com
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: xorg
+# Depends on: fuse xorg
 
 name=viber
 version=23.2.0.3
