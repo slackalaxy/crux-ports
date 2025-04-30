@@ -1,0 +1,59 @@
+# Description: XScreenSaver patched to work with electricsheep and rss-glx
+# URL: https://www.jwz.org/xscreensaver/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: bc gdk-pixbuf-xlib xorg-libxmu
+
+name=xscreensaver
+version=6.10.1
+release=1
+source=(https://www.jwz.org/xscreensaver/xscreensaver-$version.tar.gz
+	$name.pam)
+
+build() {
+	cd xscreensaver-${version%.*}
+	
+	./configure \
+		--prefix=/usr \
+		--libdir=/usr/lib \
+		--libexecdir=/usr/lib/ \
+		--with-pam \
+		--without-login-manager \
+		--with-gtk \
+		--with-gl \
+		--without-gle \
+		--with-pixbuf \
+		--with-jpeg \
+		--with-image-directory=/usr/share/backgrounds
+
+	make
+	make install_prefix=$PKG install
+	
+	# PAM service file
+	install -D -m 0644 $SRC/xscreensaver.pam $PKG/etc/pam.d/xscreensaver
+	
+	sed -i "s:Screensaver;::" $PKG/usr/share/applications/xscreensaver-settings.desktop
+	echo "NotShowIn=XFCE" >> $PKG/usr/share/applications/xscreensaver-settings.desktop
+	
+	rm -rf $PKG/usr/share/applications/xscreensaver.desktop
+	rm -rf $PKG/usr/share/{fonts,locale,xscreensaver/config/README}
+	
+	# Make the screensavers available for XFCE
+	mkdir -p $PKG/usr/share/applications/screensavers
+	cd $PKG/usr/lib/xscreensaver
+	for i in * ; do
+		echo '[Desktop Entry]' > $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "Name=$i" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "Comment=XScreenSaver $i" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "Exec=/usr/lib/xscreensaver/$i --root" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "TryExec=/usr/lib/xscreensaver/$i" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "StartupNotify=false" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "Terminal=false" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "Type=Application" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "Categories=Screensaver;" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "OnlyShowIn=XFCE;" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "Hidden=true" >> $PKG/usr/share/applications/screensavers/$i.desktop
+	done
+	
+	# these are actually not screensavers, so remove their desktop files
+	rm -rf $PKG/usr/share/applications/screensavers/{mapscroller*,xscreensaver-*,vidwhacker*,webcollage*}
+}
