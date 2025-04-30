@@ -5,8 +5,10 @@
 
 name=slackalaxy-repos
 version=3.8
-release=1
-source=(https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.httpup
+release=2
+source=(https://raw.githubusercontent.com/slackalaxy/crux-ports/main/p5-modules/p5-modules.httpup
+	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/p5-modules/p5-modules.pub
+	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.httpup
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.pub
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4-modules/r4-modules.httpup
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4-modules/r4-modules.pub
