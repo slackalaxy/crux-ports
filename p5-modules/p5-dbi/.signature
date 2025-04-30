@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4ZLzSpKbbwCgau4eCaXseJp2CQh6fjK5AsDaUmD5q22nZl6DWHbjXeHrsRY7Fvi/phxEJGELzSwix9N2bU74bw4=
+SHA256 (Pkgfile) = dfa762ed9d6ccee834fb2f78cd438089ef953f5d5e0e9c53d4ce71f91bba08e8
+SHA256 (.footprint) = 2509dc88b545075dff328763ddba75367ab8ecd89cd363881cb16d1a1923eb6d
+SHA256 (DBI-1.643.tar.gz) = 8a2b993db560a2c373c174ee976a51027dd780ec766ae17620c20393d2e836fa

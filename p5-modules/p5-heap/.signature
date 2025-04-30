@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4QKgXr6EL015GpkV0bOm8MEMEiuLo647uVvuDZOXoLR7HvL6+BHsiCil5Hy3nuoe484CMyg8ZTKXA8+fMol7xQg=
+SHA256 (Pkgfile) = 24a82d2102dc5d96e9e5ae78a2514fd839e9ce9b15a4aa72fa7f669aaaf9d80f
+SHA256 (.footprint) = 5b22d063b5552c16c79f55f2af5ccc87718ec1e47f883faf2e4d794e0304f4a2
+SHA256 (Heap-0.80.tar.gz) = ccda29f3c93176ad0fdfff4dd6f5e4ac90b370cba4b028386b7343bf64139bde

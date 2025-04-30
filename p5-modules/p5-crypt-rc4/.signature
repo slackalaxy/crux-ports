@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4Rou1rDBsyMivr/vYitngVvAk7gkso9hXdAbk8KXvYhzc65fqUx3GfmurxjatVjSU1tF3+dWvLVYKB9Mn9WA0Qk=
+SHA256 (Pkgfile) = 0bad1358966af2aed1d9f4dff74ca01af51b3ca05df9e683f869a32cd0b9ce68
+SHA256 (.footprint) = ada0ce45c3226b6a7d1b1b26ba30612d2ad72377aa26428e03ba167dbe8129a7
+SHA256 (Crypt-RC4-2.02.tar.gz) = 5ec4425c6bc22207889630be7350d99686e62a44c6136960110203cd594ae0ea

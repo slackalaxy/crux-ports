@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4ZRNIRWYRQX/LuM4EpzcN/qex4CYR3o8bZ8A0MDe7mRlo6wInlsdpegL3hQF+QaXkD7z2p94Dw56l6tQ6anxLQs=
+SHA256 (Pkgfile) = 1b07835a8bec998fe3af661b39c8e33a2204fad031de20fd3f6a4422ffd45ad2
+SHA256 (.footprint) = 2dd1e8c707edfdf690bb6b961c14a37bb637940b6f98d7cf861b6e2a52a8e43a
+SHA256 (Digest-Perl-MD5-1.9.tar.gz) = 7100cba1710f45fb0e907d8b1a7bd8caef35c64acd31d7f225aff5affeecd9b1

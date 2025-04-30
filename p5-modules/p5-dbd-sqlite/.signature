@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4f4Uk2EUPihC+odB6KyFcJV11YJ+oCPDXIxxJVCYS6+9hdSkgHfxWdD0ZB4RXzAatNYZCosV7LUjcXHWWRDVJQk=
+SHA256 (Pkgfile) = 401c36751928d19030b7c43da9e9e21b6ade643df1562e47c2699f9d14749bda
+SHA256 (.footprint) = bad79ceb424ea957291c4eb6cff47e363bd9879e51631733ebae1fba33db2b74
+SHA256 (DBD-SQLite-1.76.tar.gz) = 0a33a7a935be63371071dbe600cfaefa67cd971b67580a917bbf6ebaf723c584

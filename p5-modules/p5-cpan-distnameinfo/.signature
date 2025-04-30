@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4TPjavWYn872nmsQb8N+rFFUQ8QpsTY1hoxYxQjBstcRzUse3iH2mVt4gBLgVrtt/xW1a1iRckk4SXSt65QlHQE=
+SHA256 (Pkgfile) = 4a2e51f4320c14f42817eb5ae30f752b3f6a3cffc2e52483f19c43888eaffb65
+SHA256 (.footprint) = 62fab700bbab9cf03b01b2a7f6e632bac78f1b5bfea95ca1f70ba8b1d91b9149
+SHA256 (CPAN-DistnameInfo-0.12.tar.gz) = 2f24fbe9f7eeacbc269d35fc61618322fc17be499ee0cd9018f370934a9f2435

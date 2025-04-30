@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4ZY4Jmw3SG7TB1o2cFM0Q7rNVXvxKR4JxOkgVt5oiNnX8omxcxz9E25avNicQOUcFvleDKPNuC1lL9z0IA1YVgI=
+SHA256 (Pkgfile) = ea096ae9ba0457c5ab942e59fa992260cb08cd8eaa6f73dbf84a996b94f4a6a7
+SHA256 (.footprint) = 1f373db53bb708330c64a60b582eced41750727bd180c4dd114df818daa020bb
+SHA256 (Spreadsheet-ParseExcel-0.65.tar.gz) = 6ec4cb429bd58d81640fe12116f435c46f51ff1040c68f09cc8b7681c1675bec

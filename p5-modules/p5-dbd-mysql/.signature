@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4T1eugicAOTgDobxMWj4sS8/w3CdAZtdRRSPlYYkIagfhyVR1GTM/VUb9QFSWVowEH1hgs+mkQ2h2OOe65RcUgg=
+SHA256 (Pkgfile) = b9a6d5c3b81eca077d200889140720b3a536bee04e0ac937e6c8bc0e5326848a
+SHA256 (.footprint) = d148b147166244e90a277589ad905d82a6761d0b0acd26062800a93e67047ac6
+SHA256 (DBD-mysql-4.052.tar.gz) = a83f57af7817787de0ef56fb15fdfaf4f1c952c8f32ff907153b66d2da78ff5b

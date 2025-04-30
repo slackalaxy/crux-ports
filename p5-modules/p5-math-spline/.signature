@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4Wefr0+PE1slIenn7cwio04TIXNAKzb1+PBOfON6poYzaFjm+ngJQkNYgAAhExc2Ab3sym76eHdxrEs63DjwyAs=
+SHA256 (Pkgfile) = b59f17f85a0c4fdbda9989c68ed92c9e082da844233c341e3e93e70a07e33b81
+SHA256 (.footprint) = d63ed048862912c66c82fc42e94c75712f3b5d2968369120714baa4ae8ef221b
+SHA256 (Math-Spline-0.02.tar.gz) = cfd7044483f34e6fa64080bf7c4bc10ff6173410c350066fe65e090c3b81b6e9

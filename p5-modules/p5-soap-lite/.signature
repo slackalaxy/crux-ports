@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4QwJ1vjC5Hs0gYq+ieHU1N/2JonXn1N1lDWNUSKKJ1I7A5RTITlwWCQ2WFlNjLR7uSD1ITYPBOYQMMou8C7Wvg4=
+SHA256 (Pkgfile) = 8afde08d6aa6e45eee7a046ec0ffa395fc7b462f07fcb692a8331b119c736afb
+SHA256 (.footprint) = 87d4acf55abc7fff545f7423056ae82f859cdef25ba231ae38e285c84e8f2bcd
+SHA256 (SOAP-Lite-1.27.tar.gz) = e359106bab1a45a16044a4c2f8049fad034e5ded1517990bc9b5f8d86dddd301

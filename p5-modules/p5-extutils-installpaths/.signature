@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4Uaq7PulbORdvpPVviqYo7m2o6I2jvKDMhP9auwE233Nxxt4B0q9p1ccZaTJFiYQ1fIC4okBbj6G5/8wfv1RqwA=
+SHA256 (Pkgfile) = c3060fb6faa1e87e04c43eb3bc8d1bf5904955aadd4a0ae750034d9dbd5c30a3
+SHA256 (.footprint) = eac3340a80d0ccee8bd8d35fde7d0ff9dd6d463b3b5e76d8efd232ff43cdbf23
+SHA256 (ExtUtils-InstallPaths-0.014.tar.gz) = ae65d20cc3c7e14b3cd790915c84510f82dfb37a4c9b88aa74b2e843af417d01

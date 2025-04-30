@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4XIMWrzib/f4Tr6jnCnzoSJa4CZCjimWx+XWEZ2X4SP438efHqk+pLBOQzbTK8HLQkhtb5uuIHVVIr3Az9cqqAU=
+SHA256 (Pkgfile) = d79e9f711ff99bb1313ff25a2ea147eca88543b31d1a4d897683b630c724c97a
+SHA256 (.footprint) = b2712902f10529e24a466325583a3d87a2f1ed2d0bf8dc3895b2fa7e9396bd7e
+SHA256 (Class-Method-Modifiers-2.15.tar.gz) = 65cd85bfe475d066e9186f7a8cc636070985b30b0ebb1cde8681cf062c2e15fc

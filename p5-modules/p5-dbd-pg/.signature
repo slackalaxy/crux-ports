@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4Sj6GhFk1trMuhvR0JNa5mIaCWWsu8b9yVTLAXBP+2jvqRPpdCoGZrNjEA96sPNOW0fYrnd73JgbmXX0Vg0fwQM=
+SHA256 (Pkgfile) = a66301eca950c58edf93fde2ee0a02915d3b822645f0057a112bbde7f3112710
+SHA256 (.footprint) = e2d4ac08ecc2e0db067bbacc705b4df3272b14f7c4ddebd9085d70f832c97625
+SHA256 (DBD-Pg-3.18.0.tar.gz) = 92bbe8a363040f8ce6a3f1963f128132e245861a9b4dc5a84178b42d625a7807

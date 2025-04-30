@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4WjdNwyTvJ1vnAehCbxvyIzwG5knB9VhL6qvLTrKEptXyDFfRLcehfLJp45fvLNHsA6gi6IEZ2ehWBMUK4OqQwg=
+SHA256 (Pkgfile) = a400cde6d477876501b747b76d07b6b0a730255e02d5b78927ce829cf92aa07e
+SHA256 (.footprint) = 9f02b414134c7b1dd265d9d38269eb6d8815592c7e58d076c4e1fc0f460b0bf0
+SHA256 (IO-Stringy-2.113.tar.gz) = 51220fcaf9f66a639b69d251d7b0757bf4202f4f9debd45bdd341a6aca62fe4e

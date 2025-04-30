@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/p5-modules.pub
+RWShAUlceqQf4dVRO5CdBcoR+D1SRUfghQvPki3/yZe3vZTEq5XeytkcKwcdF72I8zSNn1sb0Qgf/tA3/wj/R6H0pPu7D4DvLg0=
+SHA256 (Pkgfile) = 7bc0dd82337e325ea6164058de5e47119fa6ae1a17196cca8c07afb5dcf8c87c
+SHA256 (.footprint) = 9a35d05bcca59ff3593088be9d3b3fe0ecd111024a80352658cd8c9bc072a279
+SHA256 (Task-Weaken-1.06.tar.gz) = 2383fedb9dbaef646468ea824afbf7c801076720cfba0df2a7a074726dcd66be
