@@ -236,7 +236,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/goffice/
 drwxr-xr-x	root/root	usr/share/goffice/0.10.59/
 drwxr-xr-x	root/root	usr/share/goffice/0.10.59/mmlitex/
--rw-r--r--	root/root	usr/share/goffice/0.10.59/mmlitex/README
 -rw-r--r--	root/root	usr/share/goffice/0.10.59/mmlitex/cmarkup.xsl
 -rw-r--r--	root/root	usr/share/goffice/0.10.59/mmlitex/entities.xsl
 -rw-r--r--	root/root	usr/share/goffice/0.10.59/mmlitex/glayout.xsl
