@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcY5yETCfRUhuF/f+1TfEJ+AijOakdK/ZSEsPBtFhKLPwzXbVnUD3ERdHZPXKB7dtLSCOiinEJ4BmdZEDPQHjwA=
-SHA256 (Pkgfile) = 1c46f119c4511c908d1f36ae83053aa784c2236c97878dcf7034e57d544cca0a
-SHA256 (.footprint) = 876055eb00f16258fb15dbbaca185866b45dc17f6ad21ff26985893bde7bf532
-SHA256 (snapgene_8.0.2_linux.deb) = c3ee7fa75f2f8b0b02f57e99563ee17764b3e45ca6d30cc643b9491c5ea498df
-SHA256 (snapgene.desktop) = efc345806dcffa854bc826b64b3007447508eed5c4e3e45f7ace1d8add096379
-SHA256 (snapgene.png) = 716c335fbc6345924cbe670637c93f091d1d425b297f3159a7c24dc93a70d88e
