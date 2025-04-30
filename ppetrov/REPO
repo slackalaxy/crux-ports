@@ -397,8 +397,8 @@ f:46cb78ec5015b8380cbcf5d34bfd21bb:ncbi-datasets/Pkgfile
 f:147b81193a05924ca5ac9ba6b37838d5:ncbi-datasets/.footprint
 f:3adc7970d61ff66d866a753d630c4a87:ncbi-datasets/.signature
 f:085fcb9bcde07bf56badbb8d139c54f8:ncbi-edirect/.footprint
-f:0f43256ce46ddc207820000c627fa089:ncbi-edirect/.signature
-f:97d8530215f4bd664e5310781d7cc1a1:ncbi-edirect/Pkgfile
+f:c56058d364e50ffcc90ef0d1ffbbe358:ncbi-edirect/.signature
+f:a9545154572f4ee1e6d96c1be651238b:ncbi-edirect/Pkgfile
 f:d7a55597415a2861932b0a96a2db626b:pal2nal/.signature
 f:3b9988e4eff2a598e097edf0001fe0ef:pal2nal/.footprint
 f:6a24956898d0d9b02ceaa1785bd8ee40:pal2nal/Pkgfile
@@ -510,9 +510,9 @@ f:cbe5dfae1f4bdb459ba28bd41615ac95:squizz/Pkgfile
 f:3a74e3fe95026c5b3834d28bf520830e:sshpass/Pkgfile
 f:72336e5e80622741bcd1c8e9e464846c:sshpass/.signature
 f:7b39087f8e19d9392beeb0b96386cdc2:sshpass/.footprint
-f:c16523e44c6623c0c0948da637b5eb3d:strawberry/Pkgfile
+f:2c0ecd440ff2a6535d3807d5a69c0d00:strawberry/Pkgfile
 f:4f8e3d808a0d0fe6d759e00333190daf:strawberry/.footprint
-f:870572fb800be6f67cbb85b9bf4e7aea:strawberry/.signature
+f:726ec8dd8c2dd3afd35e9fea1a067ec8:strawberry/.signature
 f:8f5e8826a9246fe09ded8026ef078de1:tango-icon-theme/.footprint
 f:17e7eeb79c6d0072dd010a6ee18bff64:tango-icon-theme/Pkgfile
 f:06f264eac93df416118ed2cf51af1385:tango-icon-theme/.signature
@@ -553,8 +553,8 @@ f:b89deec4f49c6073ad34e49bd561a529:viewnior/.footprint
 f:ff928cbaaf5ba247dd2a0b9e7eedb41e:vscodium/.footprint
 f:906fe2f86788284dbf59d627e4a24227:vscodium/vscodium.desktop
 f:9232d91c88fa852bb19805074d3354ab:vscodium/vscodium.png
-f:a7fdaf49f5dd6ee8c8989ac5eb964d3b:vscodium/Pkgfile
-f:2203495343f79c5cc158aa4fa1123a63:vscodium/.signature
+f:b4e315d701f4504780925295a25ed5ff:vscodium/Pkgfile
+f:9f76498c863ecaf0f56fa616a89d4c22:vscodium/.signature
 f:fd1eb7332713a4690bf5a143c648a14f:bluecurve/Pkgfile
 f:1c957e4fead31df9fd181a29cec9057a:bluecurve/.footprint
 f:91e1c88adbd435def7be6c17ca972338:bluecurve/.signature
