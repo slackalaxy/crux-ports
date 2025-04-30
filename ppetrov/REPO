@@ -28,7 +28,6 @@ d:gcc5
 d:gcolor2
 d:geneconv
 d:openvpn
-d:gnome-colors
 d:goffice
 d:diffuse
 d:google-chrome
@@ -92,7 +91,6 @@ d:snapgene
 d:squizz
 d:sshpass
 d:strawberry
-d:tango-icon-theme
 d:terminus-font-otb
 d:libgsf
 d:tk
@@ -292,9 +290,6 @@ f:379ae03fbf4b2089b2bc1dc0165317e8:openvpn/.signature
 f:5764cc0787dc469ecbaa2aed685dbd65:openvpn/Pkgfile
 f:9e028401bf063a1779949c4c536e0607:openvpn/openvpn.conf
 f:2f135439cf6e9a6db466acf3d567b4c3:openvpn/openvpn.rc
-f:ce527fc876e8cfe0255f459b4d8b5df2:gnome-colors/.footprint
-f:98df1d4c18dbf6543bd2aa4c63cb4a02:gnome-colors/Pkgfile
-f:2fb2c074531952a424f2c364fb4184a2:gnome-colors/.signature
 f:37f9551f1acc4e7c82da6dc07bfcce0d:goffice/.footprint
 f:04c472546a8e1f348a7582d1f8a3db43:goffice/Pkgfile
 f:0b9d78e4cc3e678cb38015fe050961dd:goffice/.signature
@@ -513,9 +508,6 @@ f:7b39087f8e19d9392beeb0b96386cdc2:sshpass/.footprint
 f:2c0ecd440ff2a6535d3807d5a69c0d00:strawberry/Pkgfile
 f:4f8e3d808a0d0fe6d759e00333190daf:strawberry/.footprint
 f:726ec8dd8c2dd3afd35e9fea1a067ec8:strawberry/.signature
-f:8f5e8826a9246fe09ded8026ef078de1:tango-icon-theme/.footprint
-f:17e7eeb79c6d0072dd010a6ee18bff64:tango-icon-theme/Pkgfile
-f:06f264eac93df416118ed2cf51af1385:tango-icon-theme/.signature
 f:759868c73d9c01ea68ca49aaf49d4347:terminus-font-otb/.footprint
 f:ab5348a56155ee21df91609aeef82f07:terminus-font-otb/.signature
 f:99bb230451e8ce964ebda1f79f6851d7:terminus-font-otb/Pkgfile
