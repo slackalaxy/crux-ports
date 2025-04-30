@@ -1,6 +1,6 @@
 # Description: R module mvtnorm
 # URL: https://cran.r-project.org/web/packages/mvtnorm
-# Maintainer: 
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: r4-numderiv r4-qrng
 
