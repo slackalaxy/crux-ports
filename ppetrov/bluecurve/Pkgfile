@@ -1,11 +1,11 @@
 # Description: Bluecurve GTK 2/3/4 theme
 # URL: https://github.com/neeeeow/Bluecurve
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gnome-icon-theme gtk gtk3 gtk4
+# Depends on: gnome-icon-theme gtk gtk4
 
 name=bluecurve
 version=3.0.0
-release=2
+release=3
 source=(https://github.com/neeeeow/Bluecurve/archive/v$version/Bluecurve-$version.tar.gz)
 
 build() {
@@ -29,4 +29,6 @@ build() {
   cp -a {icons,themes} $PKG/usr/share
   
   sed -i 's:Inherits=mate,gnome,crystalsvg:Inherits=gnome:' $PKG/usr/share/icons/Bluecurve/index.theme
+  
+  find $PKG/ -name "*README*" -delete
 }

@@ -9404,7 +9404,6 @@ lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-BerriesAndCream/gtk-4.0/shade.cs
 lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-BerriesAndCream/gtk-4.0/xfce.css -> ../../Bluecurve/gtk-4.0/xfce.css
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-BerriesAndCream/index.theme
 drwxrwxr-x	root/root	usr/share/themes/Bluecurve-BerriesAndCream/xfwm4/
--rw-rw-r--	root/root	usr/share/themes/Bluecurve-BerriesAndCream/xfwm4/README
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-BerriesAndCream/xfwm4/bottom-active.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-BerriesAndCream/xfwm4/bottom-inactive.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-BerriesAndCream/xfwm4/bottom-left-active.xpm
@@ -9491,7 +9490,6 @@ lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Gnome/gtk-4.0/shade.css -> ../..
 lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Gnome/gtk-4.0/xfce.css -> ../../Bluecurve/gtk-4.0/xfce.css
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Gnome/index.theme
 drwxrwxr-x	root/root	usr/share/themes/Bluecurve-Gnome/xfwm4/
--rw-rw-r--	root/root	usr/share/themes/Bluecurve-Gnome/xfwm4/README
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Gnome/xfwm4/bottom-active.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Gnome/xfwm4/bottom-inactive.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Gnome/xfwm4/bottom-left-active.xpm
@@ -9553,7 +9551,6 @@ lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Grape/gtk-4.0/shade.css -> ../..
 lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Grape/gtk-4.0/xfce.css -> ../../Bluecurve/gtk-4.0/xfce.css
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Grape/index.theme
 drwxrwxr-x	root/root	usr/share/themes/Bluecurve-Grape/xfwm4/
--rw-rw-r--	root/root	usr/share/themes/Bluecurve-Grape/xfwm4/README
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Grape/xfwm4/bottom-active.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Grape/xfwm4/bottom-inactive.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Grape/xfwm4/bottom-left-active.xpm
@@ -9615,7 +9612,6 @@ lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Lime/gtk-4.0/shade.css -> ../../
 lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Lime/gtk-4.0/xfce.css -> ../../Bluecurve/gtk-4.0/xfce.css
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Lime/index.theme
 drwxrwxr-x	root/root	usr/share/themes/Bluecurve-Lime/xfwm4/
--rw-rw-r--	root/root	usr/share/themes/Bluecurve-Lime/xfwm4/README
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Lime/xfwm4/bottom-active.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Lime/xfwm4/bottom-inactive.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Lime/xfwm4/bottom-left-active.xpm
@@ -9677,7 +9673,6 @@ lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Slate/gtk-4.0/shade.css -> ../..
 lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Slate/gtk-4.0/xfce.css -> ../../Bluecurve/gtk-4.0/xfce.css
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Slate/index.theme
 drwxrwxr-x	root/root	usr/share/themes/Bluecurve-Slate/xfwm4/
--rw-rw-r--	root/root	usr/share/themes/Bluecurve-Slate/xfwm4/README
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Slate/xfwm4/bottom-active.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Slate/xfwm4/bottom-inactive.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Slate/xfwm4/bottom-left-active.xpm
@@ -9739,7 +9734,6 @@ lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Strawberry/gtk-4.0/shade.css -> 
 lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Strawberry/gtk-4.0/xfce.css -> ../../Bluecurve/gtk-4.0/xfce.css
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Strawberry/index.theme
 drwxrwxr-x	root/root	usr/share/themes/Bluecurve-Strawberry/xfwm4/
--rw-rw-r--	root/root	usr/share/themes/Bluecurve-Strawberry/xfwm4/README
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Strawberry/xfwm4/bottom-active.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Strawberry/xfwm4/bottom-inactive.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Strawberry/xfwm4/bottom-left-active.xpm
@@ -9801,7 +9795,6 @@ lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Tangerine/gtk-4.0/shade.css -> .
 lrwxrwxrwx	root/root	usr/share/themes/Bluecurve-Tangerine/gtk-4.0/xfce.css -> ../../Bluecurve/gtk-4.0/xfce.css
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Tangerine/index.theme
 drwxrwxr-x	root/root	usr/share/themes/Bluecurve-Tangerine/xfwm4/
--rw-rw-r--	root/root	usr/share/themes/Bluecurve-Tangerine/xfwm4/README
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Tangerine/xfwm4/bottom-active.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Tangerine/xfwm4/bottom-inactive.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve-Tangerine/xfwm4/bottom-left-active.xpm
@@ -9881,7 +9874,6 @@ drwxrwxr-x	root/root	usr/share/themes/Bluecurve/metacity-1/
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve/metacity-1/top_right.png
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve/metacity-1/white_stripes_tile.png
 drwxrwxr-x	root/root	usr/share/themes/Bluecurve/xfwm4/
--rw-rw-r--	root/root	usr/share/themes/Bluecurve/xfwm4/README
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve/xfwm4/bottom-active.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve/xfwm4/bottom-inactive.xpm
 -rw-rw-r--	root/root	usr/share/themes/Bluecurve/xfwm4/bottom-left-active.xpm
