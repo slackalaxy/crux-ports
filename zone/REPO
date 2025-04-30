@@ -72,9 +72,9 @@ f:ee6e3d102e2e0a1685fec57e40108b61:skel/Xresources
 f:23fe082823b02023c804b4d63229bea7:skel/.footprint
 f:25a04a7a214c576bf6c4cf78fcb5b4a9:skel/.signature
 f:8dffdc5b09ccde1983825905c17b3182:skel/xinitrc.xfce4
-f:d5e70fc725e7d8095ccd4b59ad03e071:slackalaxy-repos/Pkgfile
-f:7d0b1bc5184642c0f2e5fa933d61a926:slackalaxy-repos/.footprint
-f:27c8b9fd06e4c4e34aa3b558695207b3:slackalaxy-repos/.signature
+f:adbfeed272bf754b032e90a48dec1828:slackalaxy-repos/Pkgfile
+f:152f03c198cb572cb348b9fc4102f491:slackalaxy-repos/.footprint
+f:97141b4d01cd34fd538cf7e6b367d61b:slackalaxy-repos/.signature
 f:6c2312df1de6b833352ae6afd9a03f21:trimssd/Pkgfile
 f:de43ed3a531c44a785b8bc04204e4637:trimssd/README
 f:4e3b444d93a815977f9b7e306021fd53:trimssd/trimssd.conf
