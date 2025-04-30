@@ -133,9 +133,9 @@ f:d898dff30a1f8db4b3b11133b3afe337:p5-extutils-helpers/Pkgfile
 f:916d84a81a8b8bc10ddadc3ca000c1bf:p5-extutils-installpaths/.signature
 f:a225b94a2447f3fef8a20717850acdf2:p5-extutils-installpaths/.footprint
 f:87f3fbf9ba6c73d0b72ff6f0d22707e8:p5-extutils-installpaths/Pkgfile
-f:4d64804f2cbf6b30ff0b17cba18e75eb:p5-extutils-pkgconfig/Pkgfile
+f:c2b7bfcf621f1cb32b5f72f577b9efef:p5-extutils-pkgconfig/Pkgfile
 f:e8fe308e56a37a3125df705f36802470:p5-extutils-pkgconfig/.footprint
-f:27aeb605f3440bf7edd8fea594148c60:p5-extutils-pkgconfig/.signature
+f:8b58f9490109bdccdca8afd683ae5781:p5-extutils-pkgconfig/.signature
 f:cf7e18abe74db7d4986150813fe0812e:p5-gd/.footprint
 f:05675ad85117067ed0363edb1f427eff:p5-gd/Pkgfile
 f:d5a967ee39582906859f2ec1a94f1825:p5-gd/.signature

@@ -1,6 +1,6 @@
 # Description:	ExtUtils::PkgConfig
-# URL:		http://gtk2-perl.sourceforge.net
-# Maintainer:	
+# URL: http://gtk2-perl.sourceforge.net
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com	
 # Depends on:	perl
 
 name=p5-extutils-pkgconfig
