@@ -66,12 +66,13 @@ f:c0965fadc3a9c6a5d4e4280282a4cb1f:skel/bash_profile
 f:01af4cdc68ff1f9c825e79eb8717f21e:skel/bashrc
 f:20ea060dae632aab6c173b5f5da1dbda:skel/xprofile
 f:5156b784505caee20df9c9de94f5687e:skel/bash_logout
-f:7e705647f79f09c8207b8a4484d7134a:skel/Pkgfile
+f:e415cf476dd1bf870c2f651aa753532f:skel/Pkgfile
 f:e896ad9541df32a18beea5d958fd265b:skel/README
 f:ee6e3d102e2e0a1685fec57e40108b61:skel/Xresources
-f:23fe082823b02023c804b4d63229bea7:skel/.footprint
-f:25a04a7a214c576bf6c4cf78fcb5b4a9:skel/.signature
+f:b97495a4af95c5ce45a4a8950e0e58b4:skel/.footprint
+f:943b6e3c5b6b254961f0a427b5876e32:skel/.signature
 f:8dffdc5b09ccde1983825905c17b3182:skel/xinitrc.xfce4
+f:e1e07c59a64f561de8c763a05b32444c:skel/nanorc
 f:adbfeed272bf754b032e90a48dec1828:slackalaxy-repos/Pkgfile
 f:152f03c198cb572cb348b9fc4102f491:slackalaxy-repos/.footprint
 f:97141b4d01cd34fd538cf7e6b367d61b:slackalaxy-repos/.signature
