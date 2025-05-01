@@ -504,9 +504,9 @@ f:30f822892a628eacbfbcaff68b570ce1:galculator/Pkgfile
 f:28637818972b8078a42132da54628de4:flam3/.footprint
 f:346b9eca00f7fd02d3351907a48d3fde:flam3/.signature
 f:73dfb4deea5e13307b34aed26cc35911:flam3/Pkgfile
-f:a36375b4515399fe770ee80c438319c9:electricsheep/Pkgfile
-f:7bb7251dbec1838b16920343227b7a6d:electricsheep/.footprint
-f:58d968a3cb6d05b59983d6afd0ff0d22:electricsheep/.signature
+f:a97e20fbe733a9961a41cd2401ade0cf:electricsheep/Pkgfile
+f:ca79d342d5799ca3f168d9622e973638:electricsheep/.footprint
+f:1aa2112a16dc5c66fe31f1718111c55b:electricsheep/.signature
 f:4100e92fc9de9fb571d773a6ed329eb2:electricsheep/README
 f:89319684228dde58043ccc0364c69f6e:electricsheep/electricsheep-preferences.desktop
 f:952ea5201a977531c3902f3ca4a1e906:electricsheep/electricsheep-fix-build-boost-185.patch

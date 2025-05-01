@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZX/Y12yVgn+0Ncq639UlxiDrRUlrkm5/1TJuD30PtN4ngWFMRNmkJeX4Iw38kuXG2g7McePB+0bnbMLsTgYINwE=
-SHA256 (Pkgfile) = 7fc931a213eb5c8cbd5252afcc89219a24919e80680ddc6432213bef593aedc5
-SHA256 (.footprint) = aba4334666c2467bfbb6f3d5385bf34dc8aa6d369b09155a69b00d4916d6b6df
+RWToVVsIkzFIZYn6KrZ0HeM7ttPrDlkvWmu420C/QUMJWKlaEAPLIyVYplRgJjMk2RKx/KLhMBD7NAVeYJn7tLzO3Vao5q6sLgQ=
+SHA256 (Pkgfile) = bbfc7870ab12a16378c1b362551b0c0cc9ff145ff1bf800ecd726cbbb2da3384
+SHA256 (.footprint) = c7e98b60858397c91a97b07b9ace8c7ff8b675c5f334be4e29846c98e71d141a
 SHA256 (electricsheep-5fbbb684752be06ccbea41639968aa7f1cc678dd.tar.gz) = 09b9a2399e61d4429084bafc616ecfccfc4466dc5e8e2213a2c3883af3fd5f02
 SHA256 (electricsheep-fix-build-boost-185.patch) = 35e971d228b22c8eff376349b4a30923aa3c20f28a13186caf2fe35ab2565138
 SHA256 (electricsheep-preferences.desktop) = 921c96dd0e2792f3f3312342cd2ce79a2f7a2d791f109827baf5fe0218304af7

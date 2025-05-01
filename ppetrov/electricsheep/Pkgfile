@@ -5,7 +5,7 @@
 
 name=electricsheep
 version=5fbbb68
-release=2
+release=3
 source=(https://github.com/scottdraves/electricsheep/archive/$version/$name-5fbbb684752be06ccbea41639968aa7f1cc678dd.tar.gz
 	electricsheep-fix-build-boost-185.patch
 	$name-preferences.desktop)
@@ -34,10 +34,11 @@ build() {
 	mkdir -p $PKG/usr/lib/xscreensaver
 	echo '#!/bin/sh' > $PKG/usr/lib/xscreensaver/$name.sh
 	echo "/usr/bin/electricsheep --root 1" >> $PKG/usr/lib/xscreensaver/$name.sh
+	chmod +x $PKG/usr/lib/xscreensaver/$name.sh
 	
 	sed -i 's:electricsheep-saver:/usr/lib/xscreensaver/electricsheep.sh:g' $PKG/usr/share/applications/screensavers/$name.desktop
 	echo "Hidden=true" >> $PKG/usr/share/applications/screensavers/$name.desktop
 	
-	rm -rf $PKG/usr/lib
+	rm -rf $PKG/usr/lib/gnome-screensaver
 	rm -rf $PKG/usr/share/doc
 }

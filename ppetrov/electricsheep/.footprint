@@ -3,6 +3,9 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/electricsheep
 -rwxr-xr-x	root/root	usr/bin/electricsheep-preferences
 -rwxr-xr-x	root/root	usr/bin/electricsheep-saver
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/xscreensaver/
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/electricsheep.sh
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/electricsheep-preferences.desktop
