@@ -36,7 +36,6 @@ d:hexchat
 d:hyphy
 d:aiksaurus
 d:lalnview
-d:libelogind
 d:libtiff5
 d:llvm14
 d:lxdm
@@ -251,9 +250,6 @@ f:726d069d7db4025113db67824cdafd8e:lalnview/lalnview.png
 f:63a44ec0db3bf2cd3260218201413386:lalnview/lalnview.desktop
 f:1bca376bfad49556bf676a214ecdaef4:lalnview/.signature
 f:2ad9cde642b9d0e6d2c10a5864f72a0a:lalnview/Pkgfile
-f:8b8d4af4e8b2d7ad34bafdb0ea6184fb:libelogind/.footprint
-f:1f0ca505c403ed0ce37ae796472fceeb:libelogind/Pkgfile
-f:0900b11833ac35fb884dbcf968dee10e:libelogind/.signature
 f:ac189da9453cdab69738bbe118d449a6:libtiff5/.footprint
 f:36b9a1286385e3c3fde8ca6a956ea34a:libtiff5/Pkgfile
 f:8ea4e62d05c68d0df338cf81ac581c5a:libtiff5/.signature
@@ -420,13 +416,13 @@ f:9f76498c863ecaf0f56fa616a89d4c22:vscodium/.signature
 f:4a6dbdd063fd35fdc4f13a9ad1be9788:bluecurve/Pkgfile
 f:0777e65020911f5d6d647cc0cbb5614d:bluecurve/.footprint
 f:407e07ed4ceda6b337958c3757b68431:bluecurve/.signature
-f:fb8e97a7302b98f94cead8c252a42bb2:wps-office/.footprint
+f:313405b7166ef1210d8c5ec080e7f246:wps-office/.footprint
 f:e256100e8aed7ead8216a0a2354f1fd8:wps-office/desktop.tar.xz
 f:ed11c2834b4a09d0f3f59f075ad68e94:wps-office/README
 f:bb31750b8331bf055f447f055533b49a:wps-office/freetype.tar.xz
-f:ebaa114121d911be7646cf61b8fb4e15:wps-office/Pkgfile
+f:264cf26ec2a65d0b12bc4c00a2a1a1a7:wps-office/Pkgfile
 f:389134912dc24609f83900c75f0b3e99:wps-office/post-install
-f:5060bd311df159250e3314d1aa87b1a2:wps-office/.signature
+f:1f96cfa6f209ac1e72d6e2a24c3ec05d:wps-office/.signature
 f:e2412ba9e5fe44f611d253cafa2388a6:wps-office-dicts/.signature
 f:3659acef4707226a0d778f5383b8c03f:wps-office-dicts/.footprint
 f:2a2cf36aace1248c6619f723d55472b7:wps-office-dicts/Pkgfile
