@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZY70tZ4w2Pn/P30R1QaTpvJJuc1XYVlAJckUJwozTl946cvMToiL5mGF7y0RMp4O7OI7rBTqGK1HJurBtC+aGAo=
-SHA256 (Pkgfile) = b085e31410cabc4794a9c0cbbdbc2a9ef1e2ed393921824b4ea9464251dd1fb1
-SHA256 (.footprint) = 996480283a07dda221668393f077878af3751cebaca79ca42066e9597f8d8cc0
+RWToVVsIkzFIZbacrbhW+F/cj46LRNXciFTlk3Hwy2ptUGnR3uUPoSTAOq02reh6k1ocf5FZ4+1UlS2NRTrQgeSwP46avp1tXAc=
+SHA256 (Pkgfile) = fcd6862ade65f6d2b351c4223c430e7e6c9a03174186ace28e91006e5d2af098
+SHA256 (.footprint) = ebeb2936b19321a8539cf99a2ef2cbd898506b2f9e9a2010b4ccd9a9ee80711f
 SHA256 (smplayer-24.5.0.tar.bz2) = b9550f17c0bf09141ca6ce2770fccde80e17a50f21bb74e69bb4a7f37db1fd72
+SHA256 (smplayer-themes-20.11.0.tar.bz2) = b99c02a13e5587e0c59d127d2f2536a1bc2740e726fadb47c89d349df5951132

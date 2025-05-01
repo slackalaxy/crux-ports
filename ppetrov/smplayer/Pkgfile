@@ -5,8 +5,10 @@
 
 name=smplayer
 version=24.5.0
-release=1
-source=(https://downloads.sourceforge.net/$name/$name-$version.tar.bz2)
+_thmver=20.11.0
+release=2
+source=(https://downloads.sourceforge.net/$name/$name-$version.tar.bz2
+	https://downloads.sourceforge.net/smplayer/$name-themes-${_thmver}.tar.bz2)
 
 build() {
 	cd $name-$version
@@ -24,6 +26,13 @@ build() {
 	PREFIX=/usr \
 	DESTDIR=$PKG
 	
+	# include themes
+	cd $SRC/$name-themes-${_thmver}
+	make
+	make PREFIX=/usr DESTDIR=$PKG install
+	
+	# cleanup
 	rm -rf $PKG/usr/share/doc
 	rm -rf $PKG/usr/share/smplayer/translations
+	find $PKG/ -name "README.txt" -delete
 }
