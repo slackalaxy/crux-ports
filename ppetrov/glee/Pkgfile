@@ -1,0 +1,16 @@
+# Description: Free cross-platform extension loading library for OpenGL
+# URL: http://elf-stone.com/glee.php
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libglvnd
+
+name=glee
+version=5.4.0
+release=1
+source=(http://elf-stone.com/downloads/GLee/GLee-$version-src.tar.gz
+	$name.pc Makefile)
+
+build() {
+  make
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share
+}
