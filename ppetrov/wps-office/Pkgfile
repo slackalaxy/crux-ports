@@ -6,9 +6,11 @@
 name=wps-office
 version=11.1.0.11723.XA
 _ftver=2.13.2
-release=1
+_egver=255.5
+release=2
 source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
 	https://sourceforge.net/projects/freetype/files/freetype2/${_ftver}/freetype-${_ftver}.tar.xz
+	https://github.com/elogind/elogind/archive/refs/tags/v${_egver}.tar.gz
 	desktop.tar.xz freetype.tar.xz)
 
 build() {
@@ -75,14 +77,42 @@ build() {
 	
 	find $PKG/ -name "*README*" -delete
 	
-	# trick it to think we have systemd
-	ln -s /usr/lib/libelogind/libelogind.so libsystemd.so.0
-	
 	# this is needed after recent libxml2 update
 	ln -s /usr/lib/libxml2.so libxml2.so.2
 	
 	# remove libs that depend on QT4
 	rm -rf $PKG/usr/lib/wps-office/office6/{librpcetapi.so,librpcwppapi.so,librpcwpsapi.so}
+	
+	# trick it to think we have systemd
+	cd $SRC/elogind-${_egver}
+	mkdir build
+	cd build
+	meson \
+	--buildtype release \
+	--prefix /usr \
+	--libdir /usr/lib/wps-office/office6 \
+	-D udevrulesdir="/lib/udev/rules.d" \
+	-D man=disabled \
+	-D html=disabled \
+	-D bashcompletiondir="/usr/share/bash-completion/completions" \
+	-D nobody-group=nogroup \
+	-D pam=disabled \
+	-D pamlibdir="/lib/security" \
+	-D pamconfdir="/etc/pam.d" \
+	-D acl=disabled \
+	-D smack=false \
+	-D utmp=false \
+	-D default-hierarchy=legacy \
+	-D cgroup-controller=elogind \
+	-D halt-path=/sbin/halt \
+	-D poweroff-path=/sbin/poweroff \
+	-D reboot-path=/sbin/reboot \
+	-D default-kill-user-processes=false ..
+	ninja
+	
+	cp -a libelogind.so libelogind.so.0 libelogind.so.0.38.0 $PKG/usr/lib/wps-office/office6/
+	cd $PKG/usr/lib/wps-office/office6
+	ln -s libelogind.so libsystemd.so.0
 	
 	# Use patched version of FreeType, to avoid problems with bold fonts
 	# https://gitlab.freedesktop.org/freetype/freetype/-/merge_requests/304/

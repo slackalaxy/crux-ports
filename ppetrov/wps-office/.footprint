@@ -1662,6 +1662,9 @@ lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libdbus-1.so -> libdbus-1.so.3.1
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libdbus-1.so.3 -> libdbus-1.so.3.14.6
 -rw-r--r--	root/root	usr/lib/wps-office/office6/libdbus-1.so.3.14.6
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libdocwriter.so
+lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libelogind.so -> libelogind.so.0
+lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libelogind.so.0 -> libelogind.so.0.38.0
+-rwxr-xr-x	root/root	usr/lib/wps-office/office6/libelogind.so.0.38.0
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libetapi.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libethtmlrw2.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libethtmrw.so
@@ -1767,7 +1770,7 @@ lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libswresample.so.3 -> libswresam
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libswscale.so -> libswscale.so.5.7.100
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libswscale.so.5 -> libswscale.so.5.7.100
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libswscale.so.5.7.100
-lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libsystemd.so.0 -> /usr/lib/libelogind/libelogind.so
+lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libsystemd.so.0 -> libelogind.so
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libtcmalloc_minimal.so -> libtcmalloc_minimal.so.4.5.5
 lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libtcmalloc_minimal.so.4 -> libtcmalloc_minimal.so.4.5.5
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libtcmalloc_minimal.so.4.5.5
