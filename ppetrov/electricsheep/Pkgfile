@@ -1,0 +1,43 @@
+# Description: A collaborative abstract artwork
+# URL: https://electricsheep.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: flam3 gnutls graphite2 gspell lcms2 libidn2 libnotify librsvg libsdl2 libsecret libvorbis libxkbcommon opus xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+
+name=electricsheep
+version=5fbbb68
+release=1
+source=(https://github.com/scottdraves/electricsheep/archive/$version/$name-5fbbb684752be06ccbea41639968aa7f1cc678dd.tar.gz
+	electricsheep-fix-build-boost-185.patch
+	$name-preferences.desktop)
+
+build() {
+	cd $name-${version}*
+	
+	# thanks Gentoo for the patch
+	# https://data.gpo.zugaina.org/guru/app-misc/electricsheep/
+	patch -p1 -i $SRC/electricsheep-fix-build-boost-185.patch
+	
+	cd client_generic
+	./autogen.sh
+	./configure --prefix=/usr
+	make CXXFLAGS+="-DGL_GLEXT_PROTOTYPES" GLEE_LIBS="-lGLee" LDFLAGS+="-lpthread"
+	make DESTDIR=$PKG install
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	rm -rf $PKG/usr/share/applications/ElectricSheep.desktop
+	rm -rf $PKG/usr/share/electricsheep/icons
+	
+	cp $SRC/$name-preferences.desktop $PKG/usr/share/applications
+	
+	# This is needed for Xfce Screensaver to find it
+	# https://forums.linuxmint.com/viewtopic.php?t=219583
+	mkdir -p $PKG/usr/lib/xscreensaver
+	echo '#!/bin/sh' > $PKG/usr/lib/xscreensaver/$name.sh
+	echo "/usr/bin/electricsheep --root 1" >> $PKG/usr/lib/xscreensaver/$name.sh
+	
+	sed -i 's:electricsheep-saver:/usr/lib/xscreensaver/electricsheep.sh:g' $PKG/usr/share/applications/screensavers/$name.desktop
+	echo "Hidden=true" >> $PKG/usr/share/applications/screensavers/$name.desktop
+	
+	rm -rf $PKG/usr/lib
+	rm -rf $PKG/usr/share/doc
+}
