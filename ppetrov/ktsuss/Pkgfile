@@ -1,0 +1,25 @@
+# Description: keep the su simple, stupid
+# URL: https://github.com/nomius/ktsuss
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: graphite2 gtk xorg-libxdamage
+
+name=ktsuss
+version=9ea2e83
+release=1
+source=(https://github.com/nomius/ktsuss/archive/$version/$name-9ea2e839b259f90b509285af49f8dc11851488cb.tar.gz
+	ktsuss-2.1-clang16.patch ktsuss-2.1-no-which.patch)
+
+build() {
+	cd $name-${version}*
+
+	./autogen.sh
+	
+	# thanks Gentoo!
+	# https://gitweb.gentoo.org/repo/gentoo.git/tree/x11-misc/ktsuss
+	patch -p1 -i $SRC/ktsuss-2.1-clang16.patch
+	patch -p1 -i $SRC/ktsuss-2.1-no-which.patch
+	
+	./configure --prefix=/usr
+	make
+	make install DESTDIR=$PKG
+}
