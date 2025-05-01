@@ -70,7 +70,6 @@ d:seaview
 d:seqkit
 d:sim
 d:smplayer
-d:smplayer-themes
 d:squizz
 d:sshpass
 d:strawberry
@@ -81,7 +80,6 @@ d:treebest
 d:treerecs
 d:ucsf-chimerax
 d:viber
-d:viewnior
 d:vscodium
 d:bluecurve
 d:wps-office
@@ -104,6 +102,8 @@ d:python3-scipy
 d:python3-threadpoolctl
 d:python3-tqdm
 d:python3-umap
+d:xscreensaver
+d:galculator
 d:gnumeric
 d:gtkmm2
 d:kdsingleapplication
@@ -370,12 +370,9 @@ f:d3a83272797ec2f15f6fe5e78ef3409a:sim/.footprint
 f:5360507dc86d6ff4a38b412028330a3b:sim/Pkgfile
 f:69edf7f5aa1c58bb3ad37ad761a289c2:sim/sim204.c
 f:8d63fa0597447f794eddea1d9b5221a5:sim/.signature
-f:c836d19d68e9db5ab98e42a21422f3a1:smplayer/.footprint
-f:074c586e4c5f8e272354074e2c78188d:smplayer/Pkgfile
-f:bafe39ac9470575142e368ef671b8caf:smplayer/.signature
-f:9b9e84de7cde014f413fecefd5a3fe30:smplayer-themes/.signature
-f:68e285e22504179b16e7409612ebf946:smplayer-themes/.footprint
-f:3c083fe2931499aaa7756d7984c281d6:smplayer-themes/Pkgfile
+f:f3e4ebe09df60368f1c7530d19477e57:smplayer/.footprint
+f:b95fdb9c78440567b137c49dbda7cf5b:smplayer/Pkgfile
+f:9abfac0b291684ca85cf90f932f63154:smplayer/.signature
 f:42b08a4231d355893c7d20b85ead7c99:squizz/.signature
 f:c8710388b42134e0fb318832f53bc179:squizz/.footprint
 f:cbe5dfae1f4bdb459ba28bd41615ac95:squizz/Pkgfile
@@ -415,10 +412,6 @@ f:f08e29af329eebe8165990fc4675ab0e:viber/Pkgfile
 f:404e54f40a6eccd0b88e14d339d02694:viber/README
 f:70e8c1b68f00ef3c71f279080e7d8d10:viber/viber.png
 f:ead9a3d3f2c57aeffd7d734ca5a6dec3:viber/.signature
-f:f4aeb34e98a3447bb6bb61114304f8da:viewnior/.signature
-f:9ea22cb8853bb080b27a4ba9e9c8fa8b:viewnior/Pkgfile
-f:975eeae744a613e326b89b5dd4ef1fbe:viewnior/exiv2-0.28.patch
-f:b89deec4f49c6073ad34e49bd561a529:viewnior/.footprint
 f:ff928cbaaf5ba247dd2a0b9e7eedb41e:vscodium/.footprint
 f:906fe2f86788284dbf59d627e4a24227:vscodium/vscodium.desktop
 f:9232d91c88fa852bb19805074d3354ab:vscodium/vscodium.png
@@ -500,6 +493,13 @@ f:09e8508ba8eabfb3584e99f73c0c851d:python3-tqdm/Pkgfile
 f:39d30769df0f18ef7563acff2c5a2ebf:python3-umap/.footprint
 f:31f9ba9c8e29ace4ec83625158e37638:python3-umap/.signature
 f:edf05e495b950071c713d9cb2ac26031:python3-umap/Pkgfile
+f:367676c15076d7843f1fa24a719fc6cc:xscreensaver/Pkgfile
+f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver/xscreensaver.pam
+f:499ad73ecfbfc5e2d94944b956069904:xscreensaver/.footprint
+f:bfd6d9c4bd22374aaa4030ce1941f1df:xscreensaver/.signature
+f:fcf7ca3dd44a7effe49d95645d99ecbc:galculator/.footprint
+f:784fdc93828021179550fa82a3264e79:galculator/.signature
+f:30f822892a628eacbfbcaff68b570ce1:galculator/Pkgfile
 f:2ef91eed47b019b07d065df3692dd87e:gnumeric/.footprint
 f:f18ed64758ccb55b7eed4763c6daf222:gnumeric/Pkgfile
 f:b79df09b97c5f06ba76f438e431f31ca:gnumeric/post-install
