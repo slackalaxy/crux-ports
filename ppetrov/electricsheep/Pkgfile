@@ -5,7 +5,7 @@
 
 name=electricsheep
 version=5fbbb68
-release=1
+release=2
 source=(https://github.com/scottdraves/electricsheep/archive/$version/$name-5fbbb684752be06ccbea41639968aa7f1cc678dd.tar.gz
 	electricsheep-fix-build-boost-185.patch
 	$name-preferences.desktop)
