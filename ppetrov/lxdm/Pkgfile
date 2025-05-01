@@ -2,10 +2,11 @@
 # URL: http://ponce.cc/slackware/sources/repo/lxde
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: consolekit graphite2 gtk xorg-libxdamage
+# Optional: ktsuss
 
 name=lxdm
 version=20220124_f662906
-release=3
+release=4
 
 source=(http://ponce.cc/slackware/sources/repo/lxde/$name-$version.tar.xz
 	default.png lxdm.rc lxdm-config.desktop lxdm-config-root.desktop Xsession)
