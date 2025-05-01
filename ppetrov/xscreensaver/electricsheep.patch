@@ -1,0 +1,22 @@
+diff -pruN old/driver/XScreenSaver_ad.h new/driver/XScreenSaver_ad.h
+--- old/driver/XScreenSaver_ad.h	2025-04-28 03:16:45.000000000 +0300
++++ new/driver/XScreenSaver_ad.h	2025-05-01 13:41:51.955359921 +0300
+@@ -247,6 +247,7 @@
+ 				truchet --root				    \\n\
+ -				vidwhacker --root			    \\n\
+ -				webcollage --root			    \\n\
++				electricsheep --root 1                      \\n\
+ 				blaster --root				    \\n\
+ 				bumps --root				    \\n\
+ 				ccurve --root				    \\n\
+diff -pruN old/driver/XScreenSaver.ad.in new/driver/XScreenSaver.ad.in
+--- old/driver/XScreenSaver.ad.in	2025-04-28 22:46:11.000000000 +0300
++++ new/driver/XScreenSaver.ad.in	2025-05-01 13:40:47.303358453 +0300
+@@ -393,6 +393,7 @@ XScreenSaver.bourneShell:		/bin/sh
+ 				truchet --root				    \n\
+ -				vidwhacker --root			    \n\
+ -				webcollage --root			    \n\
++				electricsheep --root 1			    \n\
+ 				blaster --root				    \n\
+ 				bumps --root				    \n\
+ 				ccurve --root				    \n\
