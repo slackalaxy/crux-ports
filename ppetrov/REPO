@@ -30,7 +30,6 @@ d:geneconv
 d:openvpn
 d:goffice
 d:diffuse
-d:google-chrome
 d:hdf5
 d:hexchat
 d:hyphy
@@ -44,7 +43,6 @@ d:mafft
 d:masterpdfeditor4
 d:medit
 d:tcl
-d:microsoft-edge
 d:mplayer
 d:mtpaint
 d:mumsa
@@ -228,10 +226,6 @@ f:6b2da4be3194b9d479b2ac71447a445a:goffice/.signature
 f:e6219776be406de39eb5e17f2e7a108e:diffuse/Pkgfile
 f:29e42f0cd5aa382b7ca4d40e76999a64:diffuse/.footprint
 f:ed4e423e0c6c2ddf173dd245a5bf756a:diffuse/.signature
-f:5ce5c91a52daba2b4a00326eb118c1e8:google-chrome/Pkgfile
-f:28abda71e7b50576fa640eba62b1d837:google-chrome/google-chrome.fonts.conf
-f:4957b29450551ff6d3c50bb79d019322:google-chrome/.footprint
-f:48d5c37ebe91c28344a33f0b50b2b46b:google-chrome/.signature
 f:e8f43b7e90d1b624996f780d2204adb2:hdf5/.signature
 f:36288e13ed2a558b7a313a84ed4bc464:hdf5/.footprint
 f:acea37741812f9068fc816417fceb8e5:hdf5/Pkgfile
@@ -285,10 +279,6 @@ f:0fcb5b7f82f882828a1f0e2eccef0ca6:medit/.signature
 f:68b86d6b2748ac2d3400063c1c8c0c78:tcl/.footprint
 f:d00b6f74ce3e16ed3bfd5a626e470aa6:tcl/.signature
 f:80539264980db605336f39c0b95ac413:tcl/Pkgfile
-f:8db2a6ebf641ed9c54f919ee0da30189:microsoft-edge/.footprint
-f:6e345f4fbf4410e83cdc6ced69c9a4ac:microsoft-edge/Pkgfile
-f:9d3720446832cdd9b3695d991bd8bffd:microsoft-edge/README
-f:819fdd7193da587f41b6ba8c680a9143:microsoft-edge/.signature
 f:f659e7a1cbd746f613edef058404b575:mplayer/mplayer.conf
 f:9fcd890e76dbd16c31e47cf16ef59334:mplayer/.footprint
 f:a9e1675d1989c41b907f4784230f499e:mplayer/.signature
