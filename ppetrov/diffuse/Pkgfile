@@ -5,7 +5,7 @@
 
 name=diffuse
 version=0.9.0
-release=2
+release=3
 source=(https://github.com/MightyCreak/diffuse/archive/v$version/$name-$version.tar.gz)
 
 build() {
@@ -18,6 +18,8 @@ build() {
 
   meson compile -C build -j ${JOBS:-1}
   DESTDIR="$PKG" meson install -C build
+
+  sed -i "s:Categories=Development;GTK;:Categories=Utility;GTK;:" $PKG/usr/share/applications/io.github.mightycreak.Diffuse.desktop
 
   rm -rf $PKG/usr/share/locale
   rm -rf $PKG/usr/share/gnome/help/diffuse/{cs,it,ru}
