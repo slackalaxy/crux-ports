@@ -1,0 +1,4 @@
+Dependency gtksourceview4 is provided by either mate or crux-xfce repo,
+I use the latter.
+
+Also, be sure to run the post-install script, or Meld won't start.

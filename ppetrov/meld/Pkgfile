@@ -1,0 +1,27 @@
+# Description: A visual diff and merge tool
+# URL: http://meldmerge.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gsettings-desktop-schemas gtksourceview4 hicolor-icon-theme python3-gobject
+
+name=meld
+version=3.22.2
+release=1
+source=(https://download.gnome.org/sources/meld/${version%.*}/meld-${version}.tar.xz)
+
+build() {
+  meson setup $name-$version build   \
+              --buildtype=plain      \
+              --prefix=/usr          \
+              --wrap-mode nodownload \
+              -Db_pie=true           \
+              -Db_lto=true \
+	      -Dprofile='' \
+	      -Dbyte-compile=false
+
+  meson compile -C build -j ${JOBS:-1}
+  DESTDIR="$PKG" meson install -C build
+
+  sed -i "s:Categories=GTK;Development;:Categories=GTK;Utility;:g" $PKG/usr/share/applications/org.gnome.Meld.desktop
+  rm -rf $PKG/usr/share/locale
+  rm -rf $PKG/usr/share/help/{cs,de,el,es,pl,sv}
+}
