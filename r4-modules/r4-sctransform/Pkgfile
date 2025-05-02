@@ -1,11 +1,11 @@
 # Description: R module sctransform
 # URL: https://cran.r-project.org/web/packages/sctransform
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-dplyr r4-future r4-future-apply r4-ggplot2 r4-gridextra r4-magrittr r4-mass r4-matrix r4-matrixstats r4-rcpp r4-rcpparmadillo r4-reshape2 r4-rlang
+# Depends on: r r4-dplyr r4-future r4-future-apply r4-ggplot2 r4-gridextra r4-magrittr r4-mass r4-matrix r4-matrixstats r4-rcpp r4-rcpparmadillo r4-reshape2 r4-rlang
 # Optional: r4-irlba r4-knitr r4-testthat
 
 name=r4-sctransform
-version=0.4.1
+version=0.4.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/sctransform_${version}.tar.gz)
 

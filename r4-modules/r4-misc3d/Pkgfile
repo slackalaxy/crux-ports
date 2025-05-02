@@ -1,7 +1,7 @@
 # Description: R module misc3d
 # URL: https://cran.r-project.org/web/packages/misc3d
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: tk r 
 # Optional: r4-mass r4-rgl r4-tkrplot
 
 name=r4-misc3d
