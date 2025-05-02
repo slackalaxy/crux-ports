@@ -83,7 +83,6 @@ d:vscodium
 d:bluecurve
 d:wps-office
 d:wps-office-dicts
-d:xpdf
 d:yt-dlp
 d:zoom-linux
 d:argtable
@@ -430,13 +429,6 @@ f:1f96cfa6f209ac1e72d6e2a24c3ec05d:wps-office/.signature
 f:e2412ba9e5fe44f611d253cafa2388a6:wps-office-dicts/.signature
 f:3659acef4707226a0d778f5383b8c03f:wps-office-dicts/.footprint
 f:2a2cf36aace1248c6619f723d55472b7:wps-office-dicts/Pkgfile
-f:e770d012f51f45150231f72f5ed88c53:xpdf/.footprint
-f:5107842a7a4545e7d4066a1fe8e9832b:xpdf/Pkgfile
-f:dcc538467d0d3616cae444ffd38c419c:xpdf/post-install
-f:ca836649029d0aa17120d3eeb4ee3e63:xpdf/.signature
-f:1b9f7c80c5b609a954317786b143be5d:xpdf/xpdf.desktop
-f:4be7d5793eb08b318dacb15d9a434d6b:xpdf/xpdf.png
-f:6b1a9c69223950f59bbad556775f9c1b:xpdf/xpdfrc.diff
 f:8264e5b61801be698f2071f8a7ebba8c:yt-dlp/.footprint
 f:de022842b78fa6e456502059be325f74:yt-dlp/Pkgfile
 f:eb026dccce232f4bf8d026f98840fb0c:yt-dlp/.signature
