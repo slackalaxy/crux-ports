@@ -879,9 +879,10 @@ f:d0ab0f680d3a025f87c208d21020e35e:r4-proc/Pkgfile
 f:91556b8531a6c775444ac2bdb9e4e005:r4-progress/Pkgfile
 f:62e381ed4f43ea2e07c8bc9c7c3d72b4:r4-progress/.footprint
 f:ab73f7a4d0f5b4097d4f37af5540a15c:r4-progress/.signature
-f:5d07aacff6bdbf21b0ca5f69290c69ce:r4-protodeviser/.footprint
-f:a30904ea03fea83d1d259120274750cb:r4-protodeviser/.signature
-f:a60bcbf0b2fd5793e83a338b42be1af2:r4-protodeviser/Pkgfile
+f:d800b72d56f4f6e396501f0dd902efb6:r4-protodeviser/.footprint
+f:955d2bec1a67835543911c17a67b19b7:r4-protodeviser/.signature
+f:2f93873bbdcfefda5d7d15fc3c1474d1:r4-protodeviser/Pkgfile
+f:76a4213f1eb51a5a1955e5b025ccdcb7:r4-protodeviser/post-install
 f:970d0cde0057fff98a492727b6aab1ae:r4-purrr/.footprint
 f:55ef3aa62b884450c46b9c40e2702ffd:r4-purrr/.signature
 f:2d57681ec2cdb06959626dd78bc23574:r4-purrr/Pkgfile
@@ -2238,9 +2239,9 @@ f:ef1b43598ed44542acd4a50fa5db296c:r4-rocr/.footprint
 f:4eec5ad622e808a1b270acee5341b8ee:r4-rrtable/Pkgfile
 f:603333263780a3cff40d5f28b71c68dc:r4-rrtable/.signature
 f:22bcf3a6e10d807786fc18143a5c8226:r4-rrtable/.footprint
-f:922d475f4e2b55f56f86438a7664c77c:r4-rsqlite/Pkgfile
+f:ef2c73995bda4dd13140717935813e7d:r4-rsqlite/Pkgfile
 f:ae8eed79f641e1bc6fe039239e42f4c2:r4-rsqlite/.footprint
-f:fa4f7a0c6b27952e74251055fa2fa06e:r4-rsqlite/.signature
+f:659c7ea899ab34d0f7b2d7044c0b52ad:r4-rsqlite/.signature
 f:7af58f1818b43e63690076195b091921:r4-rtsne/.footprint
 f:8ff181d88a515adae95d32a2abeb5980:r4-rtsne/Pkgfile
 f:06a6f4f5cbd90da44055a141ac03e153:r4-rtsne/.signature
