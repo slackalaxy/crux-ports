@@ -28,9 +28,9 @@ f:652f88a1e73893ca880988042b27a5f1:firewall-basic/hosts.deny
 f:223526d64660e6cfb3bc020af397e98f:firewall-basic/.signature
 f:8c78ec828ad08501da534d53fdd43a9b:firewall-basic/firewalld
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
-f:74288c22dedcb111732378fb698cc31f:fonts-conf/.signature
+f:0eb340c42bb9300bab5a122a4cca7174:fonts-conf/.signature
 f:00ed35084250268075e059f0d7bc984f:fonts-conf/README
-f:aba819209cf5a4077478ab5156dd7add:fonts-conf/Pkgfile
+f:aa72e2a8f1d2b7c1cbd114903af1d97c:fonts-conf/Pkgfile
 f:522be36a32daa65e187b0afa7c01527d:fonts-mscore/Pkgfile
 f:54c6772f3d82c2b59616990262f14180:fonts-mscore/.signature
 f:404146f2cb37374398b80efe38ca9ca5:fonts-mscore/README
