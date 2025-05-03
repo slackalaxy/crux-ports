@@ -4,7 +4,7 @@
 # Depends on: wget
 # Conflicts: pkg-get
 
-name=pkg-wget
+name=pkg-get
 version=0.4.7
 release=1
 source=(http://crux.nu/files/distfiles/pkg-get-$version.tar.gz)
@@ -14,15 +14,10 @@ build() {
 	make DESTDIR=$PKG install
 	
 	cd $PKG/usr/bin
-	mv pkg-get pkg-wget
-	
 	# https://github.com/slackalaxy/crux-ports/tree/3.7/zone/repgen
 	sed -i 's:if [ ! -z "$1" ]; then $1; fi:if [ ! -z "$1" ]; then ${1//-/_}; fi:g' pkg-repgen
 	
 	cp pkg-repgen pkg-repgen-gz
 	mv pkg-repgen pkg-repgen-xz
 	sed -i "s:gz:xz:g" pkg-repgen-xz 
-	
-	#rm -rf $PKG/etc
-	#rm -rf $PKG/usr/share/man/man8
 }
