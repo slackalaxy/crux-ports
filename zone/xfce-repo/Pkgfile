@@ -1,0 +1,15 @@
+# Description: CRUX Xfce HttpUp and pub files
+# URL: https://github.com/mac-a-r0ni/crux-xfce4
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=xfce-repo
+version=4.20.2
+release=1
+source=(https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/xfce4.httpup
+	https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/xfce4.pub)
+
+build() {
+  install -D -m 644 xfce4.httpup $PKG/etc/ports/xfce4.httpup
+  install -D -m 644 xfce4.pub $PKG/etc/ports/xfce4.pub
+}

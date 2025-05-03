@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwbuXbP7KMkVWHJKJnr4+cNwxuWJgwV04g09s4TAnpwOHgEppXc5g2zEsf4p5z8VNJhy0CP8ff+g4SX8ZKvevTQ0=
+SHA256 (Pkgfile) = b223e8356c8977d31605679d72748e2f743d7f3ee25a964257853c58d769498b
+SHA256 (.footprint) = 51e9ed7cb64f947406d0bed36f596b26358318443b3ab7c6a0dd2bea702592cb
+SHA256 (xfce4.httpup) = 21272aa186c13d6a5119c345b690a638f93055b0f79d1a668e8dafb0e86ac1e4
+SHA256 (xfce4.pub) = 7e0a19e4d77cc576effb8619dd220f2809bdd8d43e033121c71bd658138e17d8

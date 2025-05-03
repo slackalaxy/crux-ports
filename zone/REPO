@@ -16,6 +16,7 @@ d:etc-conf-hostname
 d:pulse-conf-autospawn
 d:pulse-conf-blueman
 d:pkg-get
+d:xfce-repo
 f:822732e9e639ebe2f643af7ecc601d38:depscheck/Pkgfile
 f:f4e707147bf141a5175e09d21a245704:depscheck/.footprint
 f:81d19c2aca7bbc0d116869319d398e0e:depscheck/.signature
@@ -105,3 +106,6 @@ f:e86534abf27395097658280f7e10091b:pulse-conf-blueman/README
 f:7cf62795d05a713d64f836c606f03427:pkg-get/Pkgfile
 f:39cbe3466a3c7bac4b0751b37f64b155:pkg-get/.footprint
 f:0c4b77277e9827c52ab6ea4f4654a258:pkg-get/.signature
+f:fca791bd91e49b31f173326ce13aee0f:xfce-repo/Pkgfile
+f:71acfa8477ba5d9cc7dfbae8b88bcf4a:xfce-repo/.footprint
+f:9505aec75c99e1b70e7d7b3b1c77d21d:xfce-repo/.signature

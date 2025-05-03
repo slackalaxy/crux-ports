@@ -1,0 +1,4 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/ports/
+-rw-r--r--	root/root	etc/ports/xfce4.httpup
+-rw-r--r--	root/root	etc/ports/xfce4.pub
