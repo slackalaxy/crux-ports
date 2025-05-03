@@ -1,16 +1,18 @@
 # Description: WPS Office for Linux
 # URL: https://linux.wps.com/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli cups double-conversion gnutls gtk3 icu libidn2 libsdl2 libtiff5 libxslt nss openssl11 qt5 unixodbc
+# Depends on: brotli cups double-conversion gnutls gtk3 icu libidn2 libsdl2 libwebp libxslt nss openssl11 qt5 unixodbc
 
 name=wps-office
 version=11.1.0.11723.XA
 _ftver=2.13.2
 _egver=255.5
-release=2
+_ltver=4.4.0
+release=3
 source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
 	https://sourceforge.net/projects/freetype/files/freetype2/${_ftver}/freetype-${_ftver}.tar.xz
 	https://github.com/elogind/elogind/archive/refs/tags/v${_egver}.tar.gz
+	http://download.osgeo.org/libtiff/tiff-${_ltver}.tar.gz
 	desktop.tar.xz freetype.tar.xz)
 
 build() {
@@ -30,6 +32,9 @@ build() {
 	# Thanks to NixOS (https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/office/wpsoffice/default.nix)
 	# distribution is missing libkappessframework.so, so remove the following dead libraries
 	rm -r $PKG/usr/lib/$name/office6/addons/pdfbatchcompression
+	
+	# remove libs that depend on QT4
+	rm -rf $PKG/usr/lib/wps-office/office6/{librpcetapi.so,librpcwppapi.so,librpcwpsapi.so}
 	
 	# use GTK (try to...)
 	# https://wiki.archlinux.org/title/WPS_Office
@@ -68,6 +73,7 @@ build() {
  	mkdir -p $PKG/usr/share/applications
  	cp -a $SRC/desktop/*.desktop $PKG/usr/share/applications
 	
+	# create file for revdep
 	mkdir -p $PKG/etc/revdep.d
 	cd $PKG/usr/lib/$name/office6
 	
@@ -75,22 +81,22 @@ build() {
 	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
 	sed -i "s:\.:/usr/lib/wps-office/office6:g" $PKG/etc/revdep.d/$name
 	
-	find $PKG/ -name "*README*" -delete
-	
 	# this is needed after recent libxml2 update
 	ln -s /usr/lib/libxml2.so libxml2.so.2
 	
-	# remove libs that depend on QT4
-	rm -rf $PKG/usr/lib/wps-office/office6/{librpcetapi.so,librpcwppapi.so,librpcwpsapi.so}
+	find $PKG/ -name "*README*" -delete
+
+
+	### EXTRA LIBS #################################################
 	
-	# trick it to think we have systemd
+	# trick it to think we have systemd, this is needed for changing themes
 	cd $SRC/elogind-${_egver}
 	mkdir build
 	cd build
 	meson \
 	--buildtype release \
 	--prefix /usr \
-	--libdir /usr/lib/wps-office/office6 \
+	--libdir /usr/lib/wps-office/elogind \
 	-D udevrulesdir="/lib/udev/rules.d" \
 	-D man=disabled \
 	-D html=disabled \
@@ -110,9 +116,11 @@ build() {
 	-D default-kill-user-processes=false ..
 	ninja
 	
-	cp -a libelogind.so libelogind.so.0 libelogind.so.0.38.0 $PKG/usr/lib/wps-office/office6/
+	mkdir -p $PKG/usr/lib/wps-office/elogind/
+	cp -a libelogind.so libelogind.so.0 libelogind.so.0.38.0 $PKG/usr/lib/wps-office/elogind/
 	cd $PKG/usr/lib/wps-office/office6
-	ln -s libelogind.so libsystemd.so.0
+	ln -s ../elogind/libelogind.so libsystemd.so.0
+	
 	
 	# Use patched version of FreeType, to avoid problems with bold fonts
 	# https://gitlab.freedesktop.org/freetype/freetype/-/merge_requests/304/
@@ -132,5 +140,23 @@ build() {
 		-D default_library=shared
 	meson compile -C build -j ${JOBS:-1}
 	
-	cp -a build/{libfreetype.so,libfreetype.so.6,libfreetype.so.6.20.1} $PKG/usr/lib/$name/office6
+	mkdir -p $PKG/usr/lib/wps-office/freetype
+	cp -a build/{libfreetype.so,libfreetype.so.6,libfreetype.so.6.20.1} $PKG/usr/lib/$name/freetype
+	cd $PKG/usr/lib/wps-office/office6
+	ln -s ../freetype/libfreetype.so .
+	ln -s ../freetype/libfreetype.so.6 .
+	ln -s ../freetype/libfreetype.so.6.20.1 .
+	
+	
+	# add libtiff5
+	cd $SRC/tiff-${_ltver}
+	./configure
+	make
+	
+	mkdir -p $PKG/usr/lib/wps-office/libtiff5
+	cp -a libtiff/.libs/{*.so,*.so.*} $PKG/usr/lib/wps-office/libtiff5
+	
+	cd $PKG/usr/lib/wps-office/office6
+	ln -s ../libtiff5/libtiff.so.5 libtiff.so.5
+	ln -s ../libtiff5/libtiffxx.so.5 libtiffxx.so.5
 }
