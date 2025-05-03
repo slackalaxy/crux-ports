@@ -4,7 +4,7 @@
 # Depends on: fontforge p7zip
 
 name=fonts-apple-sf
-version=wwdc24
+version=wwdc25
 release=1
 source=(https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg
 	https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg
