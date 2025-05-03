@@ -365,7 +365,6 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/BranchLengthFitters.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/CoalescentPostProcessor.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/CodonTools.bf
--rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/DBTools.ibf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/DescriptiveStatistics.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/GrabBag.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/HXB2Mapper.bf
@@ -403,6 +402,11 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/Utility/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/globalChecker.ibf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/heuristicMethodNPBootstrap.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/last.date
+drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/lib/
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/lib/label-tree.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/lib/remove-duplicates.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/lib/trim-label-tree.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/lib/trim-tree.bf
 drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/IOFunctions.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/UtilityFunctions.bf
@@ -431,6 +435,7 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/models/codon/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV_MH.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV_PROPERTIES.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV_PROPERTIES_BSREL.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/models/codon/MG_REV_TRIP.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/models/codon/MSS.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/models/frequencies.bf
@@ -462,6 +467,7 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/tasks/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/tasks/mpi.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/libv3/tasks/trees.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/molclockBootstrap.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/molerate.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/pairwiseDistanceEstimator.ibf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/pairwiseDistanceEstimatorCounter.ibf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/partitionSequences.ibf

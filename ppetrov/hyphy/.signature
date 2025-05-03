@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZYD5wJfljskJw5INHga5MCmfQfl+FpVO4SfaekLsbQgGCtwqAWyLqdRVx8vrBQ6doanP6u1+7A+ID66cSuvIJwM=
-SHA256 (Pkgfile) = b201a1453b866eae09d467875c25f4c8bb71b8bf67d2f108e977a3c48e8b8a2e
-SHA256 (.footprint) = 5f7e0a3a7557f7b78a9fc0f86cf5d374c4170c177edc5e6742f3691fc0c95321
-SHA256 (hyphy-2.5.71.tar.gz) = 2b45084149ee9fc5c2b31176b22e16074844c4a5a71d4f5a3f961adc843eaf7e
+RWToVVsIkzFIZZaLn2RjONGkWyU/z2Qel0ZyRPSNYeQVcht+sOc7uJMBE2y943zXGeFvAmiGY1rV4eOhVjoNiNa5qBE4FGP2pQ4=
+SHA256 (Pkgfile) = bb9e045d2f24302bd0eb4e426c8cf262c8ff210cd782872b4ab1ff92ee188894
+SHA256 (.footprint) = 333fd2a10227d0d6f213b36c92ff845e1c5ca4fa1d3974d753f21679760a1843
+SHA256 (hyphy-2.5.72.tar.gz) = 1cc3b80bacab3c7fc68ad4fb16780abdcc6f21000de0af4ce1ac361da8bc933c
