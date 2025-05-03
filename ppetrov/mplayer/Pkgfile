@@ -4,7 +4,7 @@
 # Depends on: faac faad2 gtk keyutils lame libass libbluray libdv libdvdnav libidn2 libmad libmng libmpeg2 librsvg mpg123 openal pulseaudio rtmpdump samba speex x264 xorg-libxscrnsaver
 
 name=mplayer
-version=svn.r38679
+version=svn.r38680
 release=1
 source=(https://mplayerhq.hu/MPlayer/releases/mplayer-export-snapshot.tar.bz2
 	http://www1.mplayerhq.hu/MPlayer/releases/fonts/font-arial-iso-8859-1.tar.bz2
