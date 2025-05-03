@@ -1,6 +1,10 @@
 You may wish to manually copy these to /root:
 
-	/etc/skel/.bash_logout
-	/etc/skel/.bash_profile
-	/etc/skel/.bashrc
-	/etc/skel/.Xresources
+  /etc/skel/.bash_profile
+  /etc/skel/.bashrc
+  /etc/skel/.nanorc
+  /etc/skel/.Xresources
+
+Adding a normal user can be done by:
+
+  useradd -m -s /bin/bash -c "Firstname Lastname" -g users -G disk,cdrom,audio,lp,video,wheel,scanner myuser
