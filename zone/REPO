@@ -15,6 +15,7 @@ d:xorg-conf-synaptics
 d:etc-conf-hostname
 d:pulse-conf-autospawn
 d:pulse-conf-blueman
+d:pkg-wget
 f:822732e9e639ebe2f643af7ecc601d38:depscheck/Pkgfile
 f:f4e707147bf141a5175e09d21a245704:depscheck/.footprint
 f:81d19c2aca7bbc0d116869319d398e0e:depscheck/.signature
@@ -101,3 +102,6 @@ f:d18eed851d7ed168477f2d0c84ab5145:pulse-conf-blueman/Pkgfile
 f:4b9a06baf1785a80dc00300c83dfff67:pulse-conf-blueman/.footprint
 f:2d8d1ceec7e02595d00b8dd0b7521844:pulse-conf-blueman/.signature
 f:e86534abf27395097658280f7e10091b:pulse-conf-blueman/README
+f:ba3f2a2c2219ade5592bcb329d73ca76:pkg-wget/Pkgfile
+f:1368a3a6ba14919160d39b94aa55eb80:pkg-wget/.footprint
+f:44cc4d23274edfc55f37f2960215b9b0:pkg-wget/.signature

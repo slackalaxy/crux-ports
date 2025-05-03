@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImweIiN5xTaxlNSmNhS89IxcBeKasULM6Yx8ozR0+0RdJLebLNqNqehnPoq6FTg6WZfIBp+3V19uzmdPInthWejwI=
+SHA256 (Pkgfile) = 0069f0ca53253115087730d38e1ab6d2652e669c05c57c8d885e417e32a2d233
+SHA256 (.footprint) = d53bbc244debacb109cd56ada53a7405a0e3f08034faa1fa80a403a44bddecb9
+SHA256 (pkg-get-0.4.7.tar.gz) = b434f6eca095914ed2617001f6a478be9387fb389998aca9e2316891f642a26f
