@@ -1,11 +1,11 @@
 # Description: Select blocks of evolutionarily conserved sites
-# URL: http://molevol.cmima.csic.es/castresana/Gblocks.html
+# URL: https://www.biologiaevolutiva.org/jcastresana/Gblocks.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=gblocks
 version=0.91b
 release=1
-source=(https://ponce.cc/slackware/sources/repo/Gblocks_Linux64_${version}.tar.Z)
+source=(https://www.biologiaevolutiva.org/jcastresana/Gblocks/Gblocks_Linux64_${version}.tar.Z)
 
 build() {
 	cd Gblocks_${version}
