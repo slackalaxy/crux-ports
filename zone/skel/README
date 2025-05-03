@@ -7,4 +7,4 @@ You may wish to manually copy these to /root:
 
 Adding a normal user can be done by:
 
-  useradd -m -s /bin/bash -c "Firstname Lastname" -g users -G disk,cdrom,audio,lp,video,wheel,scanner myuser
+# useradd -m -s /bin/bash -c "Firstname Lastname" -g users -G disk,cdrom,audio,lp,video,wheel,scanner myuser
