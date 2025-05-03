@@ -102,6 +102,6 @@ f:d18eed851d7ed168477f2d0c84ab5145:pulse-conf-blueman/Pkgfile
 f:4b9a06baf1785a80dc00300c83dfff67:pulse-conf-blueman/.footprint
 f:2d8d1ceec7e02595d00b8dd0b7521844:pulse-conf-blueman/.signature
 f:e86534abf27395097658280f7e10091b:pulse-conf-blueman/README
-f:ba3f2a2c2219ade5592bcb329d73ca76:pkg-wget/Pkgfile
-f:1368a3a6ba14919160d39b94aa55eb80:pkg-wget/.footprint
-f:44cc4d23274edfc55f37f2960215b9b0:pkg-wget/.signature
+f:aa758d3567bffad6d8cc7b8070591a7d:pkg-wget/Pkgfile
+f:2c4831376e9ff94a81999788bca74497:pkg-wget/.footprint
+f:3ba223247e0b9172d57f113786a9ed1b:pkg-wget/.signature

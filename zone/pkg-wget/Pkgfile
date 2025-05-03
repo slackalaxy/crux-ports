@@ -1,7 +1,8 @@
 # Description: Package management tool for CRUX
 # URL: http://www.varlock.com
 # Maintainer: CRUX System Team, core-ports at crux dot nu
-# Depends on: pkg-get wget
+# Depends on: wget
+# Conflicts: pkg-get
 
 name=pkg-wget
 version=0.4.7
@@ -22,6 +23,6 @@ build() {
 	mv pkg-repgen pkg-repgen-xz
 	sed -i "s:gz:xz:g" pkg-repgen-xz 
 	
-	rm -rf $PKG/etc
-	rm -rf $PKG/usr/share/man/man8
+	#rm -rf $PKG/etc
+	#rm -rf $PKG/usr/share/man/man8
 }
