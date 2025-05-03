@@ -4,7 +4,7 @@
 # Depends on: gsettings-desktop-schemas gtksourceview4 hicolor-icon-theme python3-gobject
 
 name=meld
-version=3.22.2
+version=3.23.0
 release=1
 source=(https://download.gnome.org/sources/meld/${version%.*}/meld-${version}.tar.xz)
 
@@ -15,8 +15,7 @@ build() {
               --wrap-mode nodownload \
               -Db_pie=true           \
               -Db_lto=true \
-	      -Dprofile='' \
-	      -Dbyte-compile=false
+	      -Dprofile=''
 
   meson compile -C build -j ${JOBS:-1}
   DESTDIR="$PKG" meson install -C build

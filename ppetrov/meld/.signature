@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZd9RT0iy+jfMfXeWb8mBSa8l7SiItXXBjepb+/V0vNMHRXPMxt3TIYQq+qfBJe/ok5oQxzQwyG1djXWy79mgiAE=
-SHA256 (Pkgfile) = 8cfbe1aaeef7482048122a795c07ca4f61e55356a998f422edaddecd4a9ffe6f
-SHA256 (.footprint) = 908c5345456b1d5fbff7eae4a0abb24b24b701ebfd3ee5920022657b2f96423b
-SHA256 (meld-3.22.2.tar.xz) = 46a0a713fbcd1b153b377a1e0757c8ce255c9822467658eacfbd89b1e92316ef
+RWToVVsIkzFIZS4FE16Bpj+zbJg9Dtr4mp76RgOCu+39PlP4mF2bjRe6Syp4Hx/Pdq5xT5DKaWTItoh3oCR8BoKjgcxNapiruAs=
+SHA256 (Pkgfile) = 67f4f9ad2fa55d513de544408c112158a818fbd569b33d30ce6c58de4fa26652
+SHA256 (.footprint) = 8d79777165772ab85457ac83b35c1bdcf51f84a1470c628b1e63f0dc9bef86b0
+SHA256 (meld-3.23.0.tar.xz) = 983c2a4240e025a2109c7738198710e9d6b063c910b048332d14690cf538c2a6
