@@ -3,7 +3,6 @@ You may wish to manually copy these to /root:
   /etc/skel/.bash_profile
   /etc/skel/.bashrc
   /etc/skel/.nanorc
-  /etc/skel/.Xresources
 
 I use Xfce, therefore the .xinitrc runs /usr/bin/startxfce4 by default.
 
