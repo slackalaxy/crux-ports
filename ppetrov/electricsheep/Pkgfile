@@ -1,7 +1,7 @@
 # Description: A collaborative abstract artwork
 # URL: https://electricsheep.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: flam3 gnutls graphite2 gspell lcms2 libidn2 libnotify librsvg libsdl2 libsecret libvorbis libxkbcommon opus xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+# Depends on: boost flam3 freeglut glee gnutls graphite2 gspell lcms2 libgtop libidn2 libnotify librsvg libsdl2 libsecret libvorbis libxkbcommon lua51 opus tinyxml wxgtk3 xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=electricsheep
 version=5fbbb68

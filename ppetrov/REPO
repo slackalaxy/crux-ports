@@ -56,7 +56,6 @@ d:polar-cursor-themes
 d:prank
 d:xsimd
 d:qt5ct
-d:qt5-styleplugins
 d:qt6ct
 d:qt6gtk2
 d:rstudio-desktop
@@ -102,6 +101,7 @@ d:electricsheep
 d:glee
 d:ktsuss
 d:meld
+d:qt5-styleplugins
 d:gnumeric
 d:gtkmm2
 d:kdsingleapplication
@@ -317,14 +317,9 @@ f:34d3e4d7049256ee4b7cf6ee893d319a:prank/.signature
 f:10166110736206cb65edcb88841c1937:xsimd/.footprint
 f:a5937ca05ab7e1b7b4d610b53784d56f:xsimd/.signature
 f:5924a747acfdee75e157a81ecad97963:xsimd/Pkgfile
-f:c4032f2319785aec624ce30a76ec2a8c:qt5ct/.signature
 f:a8500e222b5179f98fac5d26fc631236:qt5ct/.footprint
+f:c4032f2319785aec624ce30a76ec2a8c:qt5ct/.signature
 f:5c1945ca9d871dcaa796319489e052f4:qt5ct/Pkgfile
-f:407f0f147ea6ae3cca9a679aba06cf84:qt5-styleplugins/.signature
-f:ce0c6a2c35e30bdf104c69847934b583:qt5-styleplugins/.footprint
-f:b7a01b75f11ca38d8dae6a6f5717fabe:qt5-styleplugins/0002-fix-gtk2-background.patch
-f:2af32e0b9bfaa872362639ee8d202532:qt5-styleplugins/0001-fix-build-against-Qt-5.15.patch
-f:c23d26fad02e496118f9abbcdb553487:qt5-styleplugins/Pkgfile
 f:d7481d91023b7ecec9abcddef87897bf:qt6ct/Pkgfile
 f:5f6da0c70adf9ee16f0a4240988a2c08:qt6ct/.footprint
 f:845457a9c450300fac328bc2ef93e954:qt6ct/.signature
@@ -472,9 +467,9 @@ f:30f822892a628eacbfbcaff68b570ce1:galculator/Pkgfile
 f:28637818972b8078a42132da54628de4:flam3/.footprint
 f:346b9eca00f7fd02d3351907a48d3fde:flam3/.signature
 f:73dfb4deea5e13307b34aed26cc35911:flam3/Pkgfile
-f:a97e20fbe733a9961a41cd2401ade0cf:electricsheep/Pkgfile
+f:121643fa3a9b97e8d6208e9219480f85:electricsheep/Pkgfile
 f:ca79d342d5799ca3f168d9622e973638:electricsheep/.footprint
-f:1aa2112a16dc5c66fe31f1718111c55b:electricsheep/.signature
+f:a700bac5c758252e148e12f2d4174407:electricsheep/.signature
 f:4100e92fc9de9fb571d773a6ed329eb2:electricsheep/README
 f:89319684228dde58043ccc0364c69f6e:electricsheep/electricsheep-preferences.desktop
 f:952ea5201a977531c3902f3ca4a1e906:electricsheep/electricsheep-fix-build-boost-185.patch
@@ -493,6 +488,11 @@ f:6a51dd63a8d039a8b552a535533992b0:meld/post-install
 f:e442085de1ef71e94896a6f78d725a6f:meld/README
 f:5a648f357a5628f50099db80222f9d0b:meld/.footprint
 f:c0d11b8c793030d58b573d9e363fcf44:meld/.signature
+f:407f0f147ea6ae3cca9a679aba06cf84:qt5-styleplugins/.signature
+f:ce0c6a2c35e30bdf104c69847934b583:qt5-styleplugins/.footprint
+f:b7a01b75f11ca38d8dae6a6f5717fabe:qt5-styleplugins/0002-fix-gtk2-background.patch
+f:2af32e0b9bfaa872362639ee8d202532:qt5-styleplugins/0001-fix-build-against-Qt-5.15.patch
+f:c23d26fad02e496118f9abbcdb553487:qt5-styleplugins/Pkgfile
 f:2ef91eed47b019b07d065df3692dd87e:gnumeric/.footprint
 f:f18ed64758ccb55b7eed4763c6daf222:gnumeric/Pkgfile
 f:6a51dd63a8d039a8b552a535533992b0:gnumeric/post-install
