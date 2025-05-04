@@ -1,5 +1,5 @@
 # Description: C++ interface to GTK2.
-# URL: https://www.gtkmm.org/en/
+# URL: https://ftp.gnome.org/pub/GNOME/sources/gtkmm/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: atkmm gtk pangomm-gtk3 xorg-libxdamage
 
