@@ -5,13 +5,14 @@
 
 name=diffuse
 version=0.9.0
-release=3
+release=4
 source=(https://github.com/MightyCreak/diffuse/archive/v$version/$name-$version.tar.gz)
 
 build() {
   meson setup $name-$version build   \
               --buildtype=plain      \
               --prefix=/usr          \
+	      --sysconfdir=/usr/etc  \
               --wrap-mode nodownload \
               -Db_pie=true           \
               -Db_lto=true
