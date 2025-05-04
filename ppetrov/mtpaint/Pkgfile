@@ -1,4 +1,4 @@
-# Description: simple GTK+1/2 painting program
+# Description: simple GTK+ painting program
 # URL: https://github.com/wjaguar/mtPaint/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: gtk3 lcms2 libwebp xorg-libxcomposite xorg-libxcursor xorg-libxinerama
