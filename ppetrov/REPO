@@ -213,9 +213,9 @@ f:2f135439cf6e9a6db466acf3d567b4c3:openvpn/openvpn.rc
 f:dea9f3a8ef64fa6b11fd149e67e6158b:goffice/.footprint
 f:cc5681df04137fd1bbc3be4a1c55c042:goffice/Pkgfile
 f:6b2da4be3194b9d479b2ac71447a445a:goffice/.signature
-f:e6219776be406de39eb5e17f2e7a108e:diffuse/Pkgfile
-f:29e42f0cd5aa382b7ca4d40e76999a64:diffuse/.footprint
-f:ed4e423e0c6c2ddf173dd245a5bf756a:diffuse/.signature
+f:729339d5fb44e7d0e03f916a80ad16bd:diffuse/Pkgfile
+f:d0fd9c4fbd29300d2fd663926d4e33ca:diffuse/.footprint
+f:ceb166d351e5e0d89fb38be813fd48d9:diffuse/.signature
 f:e8f43b7e90d1b624996f780d2204adb2:hdf5/.signature
 f:36288e13ed2a558b7a313a84ed4bc464:hdf5/.footprint
 f:acea37741812f9068fc816417fceb8e5:hdf5/Pkgfile
@@ -273,8 +273,8 @@ f:3e7b0aee696cb9d0f433f6e0a0451300:mplayer/README
 f:f7ca2fd2a57170d11faff23300b9b8da:mplayer/Pkgfile
 f:96a22a47d168164fe928e925180e169d:mplayer/ffmpeg-7.patch
 f:f3bc71cd175f17d32ee4b3811c5cd0a7:mtpaint/.footprint
-f:989660cd5c01521cd65f5a317b9bfc40:mtpaint/.signature
-f:af60bce87e49e921edc48c3241f8ee44:mtpaint/Pkgfile
+f:5d2b00aa6c5e00d11d0bf0dbcf4603d3:mtpaint/.signature
+f:4a1966f2159d7100c781383eaa905053:mtpaint/Pkgfile
 f:74244d49966855933a3ecc6e6f82c3d5:mumsa/.signature
 f:d12d2c81f634498c340c469a7362711e:mumsa/.footprint
 f:dc55d00481825cd79ce657a9337dfbc1:mumsa/Pkgfile
@@ -305,9 +305,9 @@ f:082fad57dac0c7b2187dccfd0f87e531:paml/.footprint
 f:2e15f1a3f252efa224e35643ca84f586:pdflib-lite/.footprint
 f:c2800211d2603be3e4e1809c12245c7c:pdflib-lite/Pkgfile
 f:d901d515931de4b168f96c26de66d39b:pdflib-lite/.signature
-f:af5065282ad7e7464a3ad3b022e20209:phyml/Pkgfile
-f:3361f7897843a4143e655c091d684089:phyml/.signature
-f:a7c2084c1893bb541000fd5f6d40e422:phyml/.footprint
+f:cce90b12d08bf104281ca12e1a7ad317:phyml/Pkgfile
+f:ca3817404724e2a16df7f629019b6046:phyml/.signature
+f:c858e4e41c4b3b63d36d1bc9e936619a:phyml/.footprint
 f:65dd9b746e38cf4fe0e2698c8bb72a5e:polar-cursor-themes/.footprint
 f:b208b6f12aa362bed1744e4db5f7b315:polar-cursor-themes/Pkgfile
 f:df957265317580b740edff84e6443959:polar-cursor-themes/.signature
@@ -498,8 +498,8 @@ f:f18ed64758ccb55b7eed4763c6daf222:gnumeric/Pkgfile
 f:6a51dd63a8d039a8b552a535533992b0:gnumeric/post-install
 f:e3f37222ba00a40300330fa01441ebd7:gnumeric/.signature
 f:d11a8d84734d7dd06b3fa03759d5fbc1:gtkmm2/.footprint
-f:1f2dc40552a0a3833469a10bcb1a679e:gtkmm2/.signature
-f:e45877264b3f312de5154e767534d457:gtkmm2/Pkgfile
+f:7ced1f99a0a8ce2ef45c877b80e326a5:gtkmm2/.signature
+f:88a971c96e4eeae4860a877add7ca4b3:gtkmm2/Pkgfile
 f:0e957b7d2be6675510b400f0fbccdbe3:kdsingleapplication/.footprint
 f:f41487c96483af5245e02ed757b93068:kdsingleapplication/.signature
 f:3b5e4259983a5befb743657b5bfdb1b3:kdsingleapplication/Pkgfile
