@@ -1,7 +1,7 @@
 # Description: NCBI Datasets command-line tools
-# URL: https://www.ncbi.nlm.nih.gov/datasets/docs/v2/command-line-tools/
+# URL: https://github.com/ncbi/datasets
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: https://github.com/ncbi/datasets
+# Depends on:
 
 name=ncbi-datasets
 version=18.0.2
