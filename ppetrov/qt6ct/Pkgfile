@@ -1,12 +1,12 @@
 # Description: Qt6 configuration utility
-# URL: https://github.com/trialuser02/qt6ct
+# URL: https://www.opencode.net/trialuser/qt6ct
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: double-conversion icu qt6-base
 
 name=qt6ct
-version=0.9
+version=0.10
 release=1
-source=(https://github.com/trialuser02/qt6ct/archive/$version/qt6ct-$version.tar.gz)
+source=(https://www.opencode.net/trialuser/qt6ct/-/archive/$version/qt6ct-$version.tar.gz)
 
 build() {
   cmake -S $name-$version -B build            \
