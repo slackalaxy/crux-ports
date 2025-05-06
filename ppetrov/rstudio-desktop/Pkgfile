@@ -1,13 +1,13 @@
 # Description: RStudio is an integrated development environment (IDE) for R
 # URL: https://posit.co/download/rstudio-desktop/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: alsa-lib cups gnutls gtk3 icu libidn2 libxkbcommon nss openssl11 r xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+# Depends on: alsa-lib cups gnutls graphite2 gtk3 icu libdeflate libidn2 libxkbcommon nss openssl11 r xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 # Optional: r4-learnr
 
 name=rstudio-desktop
-version=2024.12.1+563
+version=2025.05.0+496
 release=1
-source=(https://download1.rstudio.org/electron/rhel8/x86_64/rstudio-${version/+/-}-x86_64.rpm)
+source=(https://download1.rstudio.org/electron/rhel9/x86_64/rstudio-${version/+/-}-x86_64.rpm)
 
 build() {
 	cp -a $SRC/usr $PKG
