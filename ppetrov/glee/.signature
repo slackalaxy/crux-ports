@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQ/rbretONtupRYvQ7FlfsIPI5xZlKudqPEMvVC89SiweGcpMF/iucw96oIltLT/9THiCnhZDLPps7el+4vgRgM=
-SHA256 (Pkgfile) = 700879e99287f52636363857178f284ab9a6fa63606de04af10f982289b3a826
-SHA256 (.footprint) = f1b5a009317251e14ea9a017ad85a0854903d61fd323db76b11566a2cc187d0e
-SHA256 (GLee-5.4.0-src.tar.gz) = 3b58430172392ec75acdad5fd833ecf494c5518382bc27932f48d46dbb01cd29
-SHA256 (glee.pc) = d000d3c4ab4b9a59dfea0e066809461f5689b29591b591bfcc916a84dd5ae3a8
-SHA256 (Makefile) = b1f46d96786e35d8f56196bc28a5cd18197d0e9f6e5bd0f58384f6c3be5c31d1
