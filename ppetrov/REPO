@@ -16,7 +16,6 @@ d:clustalo
 d:datamash
 d:eigen3
 d:exonerate
-d:figtree
 d:fonts-apple-sf
 d:g3data
 d:gbgoffice
@@ -161,10 +160,6 @@ f:4f0e6391e098b6ce55bb23cc614c5871:eigen3/.footprint
 f:9ceb6615c883d12cfe592a36d50344b1:exonerate/.signature
 f:8ae4e9780e5c3d0eb5e856d1c5950750:exonerate/.footprint
 f:c3e7608ad85279a0fa01e5bb92a31677:exonerate/Pkgfile
-f:74545300cfabf9885e4673a1d148524b:figtree/.footprint
-f:3fb473d006bb1e8cba0ecc7599e9ad63:figtree/.signature
-f:6ffa3907007de6ff48ab28c0e43849d6:figtree/Pkgfile
-f:2fc633ef7a0f4ebbc4c113cb63ca631e:figtree/figtree.desktop
 f:697b0c19d59a7a85ea67b29e3feaa6eb:fonts-apple-sf/.signature
 f:78c9097ab3db872452c57eb4801f9088:fonts-apple-sf/.footprint
 f:e46294685ecc6fb519b370a861ed22c3:fonts-apple-sf/Pkgfile
