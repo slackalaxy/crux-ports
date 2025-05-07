@@ -5,9 +5,9 @@
 # Optional: r4-cipr r4-conos r4-rliger r4-harmony r4-batchelor r4-seurat-data r4-seurat-disk r4-velocyto-r r4-schex r4-tximport r4-fishpond r4-monocle3 r4-cogaps r4-glmpca r4-nebulosa r4-presto r4-flexmix r4-tricycle r4-banksy
 
 name=r4-seurat-wrappers
-version=8d46d6c
+version=a1eb0d8
 release=1
-source=(https://github.com/satijalab/seurat-wrappers/archive/$version/SeuratWrappers-8d46d6c47c089e193fe5c02a8c23970715918aa9.tar.gz)
+source=(https://github.com/satijalab/seurat-wrappers/archive/$version/SeuratWrappers-a1eb0d8b039ad6d5ef0ff1332fd8eb1c0c223553.tar.gz)
 
 build() {
   cd ${name#r4-}-${version}*

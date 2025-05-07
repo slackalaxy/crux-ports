@@ -5,9 +5,9 @@
 # Optional: r4-azimuth
 
 name=r4-seurat-data
-version=4dc08e0
+version=3e51f44
 release=1
-source=(https://github.com/satijalab/seurat-data/archive/${version}/SeuratData-4dc08e022f51c324bc7bf785b1b5771d2742701d.tar.gz)
+source=(https://github.com/satijalab/seurat-data/archive/${version}/SeuratData-3e51f44303069b64f5dc4d68e6a3d4a343f55c39.tar.gz)
 
 build() {
   cd ${name#r4-}-${version}*

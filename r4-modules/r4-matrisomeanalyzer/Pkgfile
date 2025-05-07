@@ -5,9 +5,9 @@
 # Optional:
 
 name=r4-matrisomeanalyzer
-version=5f89b38
+version=d8aec6d
 release=1
-source=(https://github.com/Izzilab/MatrisomeAnalyzeR/archive/$version/MatrisomeAnalyzeR-5f89b38cb2f38602fb0ba9db02ada8bcc3b43644.tar.gz)
+source=(https://github.com/Izzilab/MatrisomeAnalyzeR/archive/$version/MatrisomeAnalyzeR-d8aec6dca3b3a1f0fee2f8c9455999822b92dea8.tar.gz)
 
 build() {
 	cd MatrisomeAnalyzeR-${version}*
