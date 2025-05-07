@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: alsa-utils blueman pulseaudio sbc
 
-name=pulse-conf-blueman
+name=pulse-blueman
 version=3.8
 release=1
 source=()

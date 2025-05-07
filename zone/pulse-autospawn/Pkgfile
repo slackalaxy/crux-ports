@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: pulseaudio
 
-name=pulse-conf-autospawn
+name=pulse-autospawn
 version=3.8
 release=1
 source=()

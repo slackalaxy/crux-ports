@@ -2,8 +2,8 @@
 # URL: https://github.com/slackalaxy/firewall-basic
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
-name=firewall-basic
-version=20240729
+name=firewall
+version=3.8
 release=1
 source=(firewall.conf firewall.sh firewalld hosts.allow hosts.deny)
 

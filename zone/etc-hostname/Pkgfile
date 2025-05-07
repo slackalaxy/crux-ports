@@ -1,8 +1,8 @@
 # Description: hostname file in /etc
-# URL: /etc/hostname
+# URL: /etc/HOSTNAME
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
-name=etc-conf-hostname
+name=etc-hostname
 version=3.8
 release=1
 source=(HOSTNAME)
