@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GpZTXn/Dql9U4zXfIGlKl7vaA+V9HSW/He7k91t/7UvKRAoARm9b1CElaEBYV6ggEN+X9rP15sMnP8Yj9bgHAo=
-SHA256 (Pkgfile) = 5015addc425ad4385a323c7877c5e10f65bc4bdc89d1bdd4c3daaa5089fbce77
+RWQ2oTreAss89MyhRRad8cMnVKro6saZeGMtnFhl1by4wL1nw/9vstJFZfNiOTEIW1B0HKB2xp6OpEp5vkVn7+++8Ewd83GCig8=
+SHA256 (Pkgfile) = a8a30d0debd5231b1b849be586f0668e604120817d8a340a55b15175e4dbfedf
 SHA256 (.footprint) = ab3452f101c3a2822f6f3902418394a456ea85ec62f9d260a013c289f2f8575f
-SHA256 (R.oo_1.27.0.tar.gz) = d11281506d672729bbfcfeb1b1414a6f5c7b6027a6c9e0b6b1da50ef461d67f9
+SHA256 (R.oo_1.27.1.tar.gz) = 5faf599cc1f027d8b80e1270aa6a43e29dccd6fee8287953f13e7ab3d94270f5
