@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: cmake
 
-name=eigen3
+name=eigen
 version=3.4.0
 release=1
 source=(https://gitlab.com/libeigen/eigen/-/archive/$version/eigen-$version.tar.gz)
