@@ -13,7 +13,6 @@ d:bppsuite
 d:caps-coev
 d:clustalo
 d:datamash
-d:eigen3
 d:exonerate
 d:fonts-apple-sf
 d:g3data
@@ -90,6 +89,7 @@ d:xscreensaver
 d:galculator
 d:ktsuss
 d:meld
+d:eigen
 d:gnumeric
 d:gtkmm2
 d:kdsingleapplication
@@ -143,9 +143,6 @@ f:bff7765e6a792052dd54b5bf02b46afb:clustalo/.signature
 f:0506c6b5261301b0739b6497636eec8a:datamash/.signature
 f:131cd7cb579a046174d3e3ea8b97b363:datamash/.footprint
 f:b1f3f5ff5a0bd23c3efcc68e24c99a01:datamash/Pkgfile
-f:75cb470903c119be8b68104e39877d3a:eigen3/Pkgfile
-f:c75a46aa1c7c414cf5f4c640ab42f4e5:eigen3/.signature
-f:4f0e6391e098b6ce55bb23cc614c5871:eigen3/.footprint
 f:9ceb6615c883d12cfe592a36d50344b1:exonerate/.signature
 f:8ae4e9780e5c3d0eb5e856d1c5950750:exonerate/.footprint
 f:c3e7608ad85279a0fa01e5bb92a31677:exonerate/Pkgfile
@@ -185,9 +182,9 @@ f:2f135439cf6e9a6db466acf3d567b4c3:openvpn/openvpn.rc
 f:dea9f3a8ef64fa6b11fd149e67e6158b:goffice/.footprint
 f:ba4fcf9bd8e46448d78d04f4549353f3:goffice/Pkgfile
 f:e97009a70a122c4ee5d1fabec48a8542:goffice/.signature
-f:e8f43b7e90d1b624996f780d2204adb2:hdf5/.signature
+f:f8bdc2ceed4af3638df62353dd999097:hdf5/.signature
 f:36288e13ed2a558b7a313a84ed4bc464:hdf5/.footprint
-f:acea37741812f9068fc816417fceb8e5:hdf5/Pkgfile
+f:cbb1cc2c36fc0dc3f0d75cb92924f1db:hdf5/Pkgfile
 f:37beefe929592e5579a05a86ae4565e0:hexchat/Pkgfile
 f:f7778913c2d27c82fdef4fbff88e98e5:hexchat/.signature
 f:571af2d2a9bbe66781f4cb3dbc9c3356:hexchat/.footprint
@@ -389,8 +386,8 @@ f:c490a1f5aa9fd20f28b25ba672bebaee:python3-numba/.signature
 f:aa087bc6eb0ced5f281ef4439f04b960:python3-pooch/.footprint
 f:efa78c067d9d464acb56f4cb7b4b4f21:python3-pooch/.signature
 f:3ca63dd6ebad72fbb12c573276cd4760:python3-pooch/Pkgfile
-f:60121591fec1c70c0ed6808666396e37:python3-pybind11/.signature
-f:ffa424b4e10573a0698aa6b25026176a:python3-pybind11/Pkgfile
+f:2f55a0e3d029b60eba942379c10d5750:python3-pybind11/.signature
+f:a0d66d404be5c3bcbecc1e873aebaebd:python3-pybind11/Pkgfile
 f:9a4173862c64bb3309eabbef1b9d57d1:python3-pybind11/.footprint
 f:ee38d1ef58f7b1fbdda85e36b089cba5:python3-pynndescent/.footprint
 f:c25233830b23f91bb64fadca71b117f3:python3-pynndescent/.signature
@@ -431,6 +428,9 @@ f:6a51dd63a8d039a8b552a535533992b0:meld/post-install
 f:e442085de1ef71e94896a6f78d725a6f:meld/README
 f:5a648f357a5628f50099db80222f9d0b:meld/.footprint
 f:c0d11b8c793030d58b573d9e363fcf44:meld/.signature
+f:6bbce26c8e336a5864f6b91275de1f60:eigen/Pkgfile
+f:4b3e7e2226724534a210a9a36baf36df:eigen/.signature
+f:4f0e6391e098b6ce55bb23cc614c5871:eigen/.footprint
 f:2ef91eed47b019b07d065df3692dd87e:gnumeric/.footprint
 f:74b941d4b5e6a1839d2cc276497b2151:gnumeric/Pkgfile
 f:6a51dd63a8d039a8b552a535533992b0:gnumeric/post-install
