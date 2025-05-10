@@ -1,6 +1,7 @@
 # Description: Hierarchical Data Format 5
 # URL: https://github.com/HDFGroup/hdf5
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gcc-fortran
 
 name=hdf5
 version=1.14.6
