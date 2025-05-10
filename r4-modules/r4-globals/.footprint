@@ -45,13 +45,14 @@ drwxr-xr-x	root/root	usr/lib/R/library/globals/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/_prologue/090.options.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/_prologue/091.envvars.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/_prologue/995.detrius-connections.R
--rw-r--r--	root/root	usr/lib/R/library/globals/testme/deploy.R
--rw-r--r--	root/root	usr/lib/R/library/globals/testme/run.R
+-rwxr-xr-x	root/root	usr/lib/R/library/globals/testme/deploy.R
+-rwxr-xr-x	root/root	usr/lib/R/library/globals/testme/run.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-Globals.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-cleanup.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-codetools-bug16.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-conservative.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-dotdotdot.R
+-rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-findGlobals,dfs.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-findGlobals.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-formulas.R
 -rw-r--r--	root/root	usr/lib/R/library/globals/testme/test-globalsByName.R

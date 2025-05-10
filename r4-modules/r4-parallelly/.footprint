@@ -97,6 +97,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/parallelly/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/_prologue/091.envvars.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/deploy.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/run.R
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-all.equal.connection.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-as.cluster.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-availableCores.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-availableWorkers.R

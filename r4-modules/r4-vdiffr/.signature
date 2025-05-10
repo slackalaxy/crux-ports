@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89Ci9PxZjDQV4LCHXUD39bEuT3P27ZaS3pu2QVklI2PRm1UKfNBiT1KU/3ijSiPGEZemfR3Fc8iEaqhWuznFAeAE=
+SHA256 (Pkgfile) = f7e1d274ac38a1127cf8435b8ee58feee1da5e16f191c5322bc4385b7b873be0
+SHA256 (.footprint) = 4d5add3265f8ceffb52d4c5332977c9c006e3a0f9393f90e706cb3f98f3b0442
+SHA256 (vdiffr_1.0.8.tar.gz) = 820c4f4a778f60180a08a46f82a05cbdfa0ff26dd58ce1d2d180b006425aed9b
