@@ -1,0 +1,84 @@
+>>>Running SIM
+
+  SIM - Local similarity program for use with the LAD/LAV interface.
+
+  For the description of the algorithm, see the paper
+  "A Time-Efficient, Linear-Space Local Similarity Algorithm"
+  Advances in Applied Mathematics, vol. 12 (1991), pp. 337-357.
+
+  SIM finds k best non-intersecting alignments between two sequences or
+  within a sequence using dynamic programming techniques. The alignments are
+  reported in order of decreasing similarity score and share no aligned pairs.
+  SIM requires space proportional to the sum of the input sequence lengths
+  and the output alignment lengths, so it accommodates 100,000-base
+  sequences on a workstation.
+
+  Users can supply certain combinations of values for the parameters:
+	M = cost of a matching aligned pair (default = 1)
+	I = cost of a transition (default is -1)
+	V = cost of a transversion (default is -1)
+	O = gap open penalty (default is 6.0)
+	E = gap extension penalty (default is 0.2)
+	S = name of file containing substitution scores
+  Thus the score for an N-symbol indel is -(O + E*N).  Values are
+  specified with a command argument like O=5.5, where the given number
+  is rounded by SIM to the nearest tenth.
+
+  The S parameter cannot be specified if either I or V is specified.  A file
+  named with the S parameter should have the following form:
+
+  PAM 200 substitution matrix (scale = 0.346574)
+
+  Number of letters in alphabet = 23
+  Lowest score = -6, Highest score = 12
+
+   A  R  N  D  C  Q  E  G  H  I  L  K  M  F  P  S  T  W  Y  V  B  Z  X
+   2 -2  0  0 -2 -1  0  1 -1 -1 -2 -1 -1 -3  1  1  1 -5 -3  0  1  1  0
+  -2  5  0 -1 -3  1 -1 -3  1 -2 -2  2  0 -3  0  0 -1  1 -4 -2  0  1  0
+   0  0  2  2 -3  0  1  0  1 -1 -2  1 -2 -2  0  1  0 -4 -1 -2  3  2  0
+   0 -1  2  3 -4  1  3  0  0 -2 -3  0 -2 -4 -1  0  0 -6 -3 -2  4  3  0
+  -2 -3 -3 -4  8 -4 -4 -3 -3 -2 -5 -4 -4 -4 -2  0 -2 -6  0 -2 -3 -3  0
+  -1  1  0  1 -4  4  2 -1  2 -2 -1  0 -1 -4  0 -1 -1 -4 -3 -2  2  4  0
+   0 -1  1  3 -4  2  3  0  0 -2 -3  0 -2 -4  0  0  0 -6 -3 -2  3  4  0
+   1 -3  0  0 -3 -1  0  4 -2 -2 -3 -2 -3 -3 -1  1  0 -5 -4 -1  1  0  0
+  -1  1  1  0 -3  2  0 -2  5 -2 -2  0 -2 -1  0 -1 -1 -3  0 -2  2  2  0
+  -1 -2 -1 -2 -2 -2 -2 -2 -2  4  2 -1  2  1 -2 -1  0 -5 -1  3 -1 -1  0
+  -2 -2 -2 -3 -5 -1 -3 -3 -2  2  4 -2  3  1 -2 -2 -1 -4 -1  1 -2 -1  0
+  -1  2  1  0 -4  0  0 -2  0 -1 -2  4  1 -4 -1  0  0 -3 -4 -2  1  1  0
+  -1  0 -2 -2 -4 -1 -2 -3 -2  2  3  1  5  0 -2 -1  0 -4 -2  1 -1  0  0
+  -3 -3 -2 -4 -4 -4 -4 -3 -1  1  1 -4  0  7 -4 -2 -2  0  5 -1 -2 -3  0
+   1  0  0 -1 -2  0  0 -1  0 -2 -2 -1 -2 -4  5  1  0 -5 -4 -1  0  1  0
+   1  0  1  0  0 -1  0  1 -1 -1 -2  0 -1 -2  1  2  1 -2 -2 -1  1  1  0
+   1 -1  0  0 -2 -1  0  0 -1  0 -1  0  0 -2  0  1  3 -4 -2  0  1  0  0 
+  -5  1 -4 -6 -6 -4 -6 -5 -3 -5 -4 -3 -4  0 -5 -2 -4 12  0 -6 -3 -4  0 
+  -3 -4 -1 -3  0 -3 -3 -4  0 -1 -1 -4 -2  5 -4 -2 -2  0  7 -2 -1 -2  0 
+   0 -2 -2 -2 -2 -2 -2 -1 -2  3  1 -2  1 -1 -1 -1  0 -6 -2  4 -1 -1  0 
+   1  0  3  4 -3  2  3  1  2 -1 -2  1 -1 -2  0  1  1 -3 -1 -1  4  4  0 
+   1  1  2  3 -3  4  4  0  2 -1 -1  1  0 -3  1  1  0 -4 -2 -1  4  5  0 
+   0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 
+
+  The command argument S=PAM200, which is recommended for protein sequences,
+  is treated specially; the set of weights given above is used, O defaults
+  to 12 and E defaults to 4.  No file named "PAM200" will be read.
+
+  For example, to find 7 best non-intersecting alignments of segments from
+  two DNA sequences in files A and B, and using the above default values
+  except that transistions are scored 0, use the command
+    sim  7  A  B  I=0
+
+  As a second example, suppose the PAM120 weights are in a file named
+  PAM120.  Then the command
+    sim  7  A  B  S=PAM120  O=10  E=2
+  runs sim on protein sequence files A and B.  Also, the command
+    sim  7  A  B  S=PAM200
+  uses the substitution scores given above, the gap-open penalty 12 and
+  the gap extension penalty 4.  If the command does not specify any of
+  the parameters M, I, V or S, then sim reads the first 100 characters of
+  the first sequence; if at least 25 of these differ from A, C, G or T,
+  then the PAM200 scores are used.
+    
+  Acknowledgments:
+  The functions diff() and display() are from Gene Myers. We made the
+  following two modifications: similarity weights (integer) are used instead
+  of distance weights (float), and the aligned pairs already output are not
+  permitted in the subsequent alignments.
