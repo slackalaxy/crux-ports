@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZ68sirGLGCqtEVkJUe/2sY0dlz4I7u76v+HIk0Bj2qio4aB++lrjCRAvKHtiTnSmmRSxUwCZWsuY9yVb32nzQk=
-SHA256 (Pkgfile) = c443a800201aae3e7650c5223aa56a232e80ba71cc08555a5f9c4291ba656229
-SHA256 (.footprint) = 2b4c83710e0f83c63025297ad848bfaac11fcffc42f469e0bb2eff17acf9c6e6
-SHA256 (acpid-2.0.34.tar.xz) = 2d095c8cfcbc847caec746d62cdc8d0bff1ec1bc72ef7c674c721e04da6ab333
-SHA256 (acpi_handler.sh) = 6645d996132f3c5eed8039b44c13ce7d3339f0d745bbd5c2060be281c9c1df1b
-SHA256 (default) = ec62ca769e3ab07445cafac8f4f7ae3626da986c82aed55282892f2aa933a839
-SHA256 (acpid.rc) = 4a842dc697d62c5a6ed4249d8f498bdc00cbf4dd73a1ada4d7ec5f1548a927a8
