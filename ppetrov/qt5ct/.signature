@@ -1,5 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZVII5eUPUy4kGjEbtX8zAO+ORDq2o0u9rVnhiJcSAGZuWE29jd37W9uXojjMh7wyEpPFqhSKJJG0p7NQZnRbpg4=
-SHA256 (Pkgfile) = a113d8c7b4b12beecc1dd76145d9f37fc6e719b7a6ae9f6060868fafdfe0bb7e
-SHA256 (.footprint) = 692e93a539c114a4575d4a6ba355a0954281422e9881cfaa61c276f690a76ce5
+RWToVVsIkzFIZbtOgEQXMQtRtGeFfqbZIxyrK8Avwfxt3V1ndNPinaJEjJkWdSMWF9mM3tXNbS7RE734U8LGQOvuK+/HObcT3AA=
+SHA256 (Pkgfile) = 7a5e3e8d61a90daf91798905e7c228901d47353a19277cef023cbb2f81204365
+SHA256 (.footprint) = 397160105302966370d95301b8fb367635ee3f5f7e46d08875717b9f59a25a6a
 SHA256 (qt5ct-1.9.tar.bz2) = dc10e6939d423b925981ce67febb1a015b6f61c022a9cc7e6c8b5efea4588bff
+SHA256 (335dbece103e2cbf6c7cf819ab6672c2956b17b3.tar.gz) = 29ec24fa8df64be161ad06d0e5af3ba1a20bfe265004f5fe4ab9f5f3abf9a5ba
+SHA256 (0001-fix-build-against-Qt-5.15.patch) = 5ca6dca183a0b3b7359cce2ff1480faa0c5cf0eb7742ad3edb38cd97fe5077a0
+SHA256 (0002-fix-gtk2-background.patch) = deaed645fbaa7b20ec88e612be906990d5cb95781cb5ebd3815558b8f4a8b4c8

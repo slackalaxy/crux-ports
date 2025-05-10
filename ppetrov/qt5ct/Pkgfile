@@ -1,20 +1,41 @@
 # Description: Qt5 Configuration Utility
 # URL: https://sourceforge.net/projects/qt5ct/files/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: double-conversion icu qt5 
+# Depends on: double-conversion icu qt5 gtk
 
 name=qt5ct
 version=1.9
-release=1
-source=(https://sourceforge.net/projects/qt5ct/files/$name-$version.tar.bz2)
+_styles=335dbec
+release=3
+source=(https://sourceforge.net/projects/qt5ct/files/$name-$version.tar.bz2
+	https://github.com/qt/qtstyleplugins/archive/${_styles}/335dbece103e2cbf6c7cf819ab6672c2956b17b3.tar.gz
+	0001-fix-build-against-Qt-5.15.patch
+	0002-fix-gtk2-background.patch)
 
 build(){
 	cd $name-${version}*
 	qmake-qt5 $name.pro \
-	QMAKE_CFLAGS_RELEASE="$CFLAGS" \
-	QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS"
+		QMAKE_CFLAGS_RELEASE="$CFLAGS" \
+		QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS"
 	make
 	make INSTALL_ROOT="$PKG" install
 	
 	sed -i "s:Settings;DesktopSettings;Qt;:Settings;X-XFCE-SettingsDialog;:" $PKG/usr/share/applications/qt5ct.desktop
+	
+	# Build styles plugins
+	cd $SRC/qtstyleplugins-${_styles}*
+	
+	# Thanks Arch Linux for the patches!
+	patch -p1 -i $SRC/0001-fix-build-against-Qt-5.15.patch
+	patch -p1 -i $SRC/0002-fix-gtk2-background.patch
+		
+	# Force linking against Qt5DBus or build will fail
+	sed -i "s|2.0$|2.0 Qt5DBus|" src/plugins/platformthemes/gtk2/gtk2.pro
+	qmake-qt5 \
+		PREFIX="/usr" \
+		QMAKE_CFLAGS_RELEASE="$CFLAGS" \
+		QMAKE_CXXFLAGS_RELEASE="$CXXFLAGS" \
+		LIBS+="-lQt5DBus"
+	make
+	make INSTALL_ROOT="$PKG" install
 }
