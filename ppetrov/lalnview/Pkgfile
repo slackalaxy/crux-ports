@@ -5,10 +5,10 @@
 
 name=lalnview
 version=3.0
-release=2
+release=3
 source=(ftp://pbil.univ-lyon1.fr/pub/logiciel/$name/sources/sources20050615.tar
 	$name.desktop $name.png sim204.c sim.help)
-renames=($name-$version.tar SKIP SKIP)
+renames=($name-$version.tar SKIP SKIP SKIP SKIP)
 
 build() {
 	# I _do_ want to include this
@@ -26,7 +26,7 @@ build() {
 	cp -a $name.help $PKG/usr/share/$name
 	
 	# compile SIM, as well
-	gcc-5 "$CFLAGS" -o sim sim204.c -lm
+	gcc-5 $CFLAGS -o sim sim204.c -lm
 	install -D -m 755 sim $PKG/usr/bin/sim
 	
 	cat $SRC/sim.help >> $PKG/usr/share/$name/$name.help
