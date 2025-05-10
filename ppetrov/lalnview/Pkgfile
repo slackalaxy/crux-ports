@@ -1,5 +1,5 @@
 # Description: Visualize local alignments (includes SIM)
-# URL: http://pbil.univ-lyon1.fr/software/lalnview.html
+# URL: https://doua.prabi.fr/software/lalnview
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: gcc5 fltk pdflib-lite xorg-libsm xorg-libxcursor
 

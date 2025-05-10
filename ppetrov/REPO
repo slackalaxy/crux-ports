@@ -183,8 +183,8 @@ f:2ed49e66ff5cf9be1bf682bc03375f9a:openvpn/Pkgfile
 f:9e028401bf063a1779949c4c536e0607:openvpn/openvpn.conf
 f:2f135439cf6e9a6db466acf3d567b4c3:openvpn/openvpn.rc
 f:dea9f3a8ef64fa6b11fd149e67e6158b:goffice/.footprint
-f:cc5681df04137fd1bbc3be4a1c55c042:goffice/Pkgfile
-f:6b2da4be3194b9d479b2ac71447a445a:goffice/.signature
+f:ba4fcf9bd8e46448d78d04f4549353f3:goffice/Pkgfile
+f:e97009a70a122c4ee5d1fabec48a8542:goffice/.signature
 f:e8f43b7e90d1b624996f780d2204adb2:hdf5/.signature
 f:36288e13ed2a558b7a313a84ed4bc464:hdf5/.footprint
 f:acea37741812f9068fc816417fceb8e5:hdf5/Pkgfile
@@ -203,8 +203,8 @@ f:73c88a15d8576231b9f05994a0f09992:aiksaurus/include-fixes.patch
 f:7607ee164353c2115357a49bd62113e3:lalnview/.footprint
 f:726d069d7db4025113db67824cdafd8e:lalnview/lalnview.png
 f:63a44ec0db3bf2cd3260218201413386:lalnview/lalnview.desktop
-f:b3825d4759bfff9af9ef8d5c27c9c9cd:lalnview/.signature
-f:cf3b93f1f655c40c6bb3c671ed55473f:lalnview/Pkgfile
+f:492f0b679b5f03f152b627e2406f570f:lalnview/.signature
+f:09837fbedfa044f7339bae20bd952302:lalnview/Pkgfile
 f:69edf7f5aa1c58bb3ad37ad761a289c2:lalnview/sim204.c
 f:bcb13f1120a55d934bfe4df9ca9afc31:lalnview/sim.help
 f:708b9cc8c892523d983dd4ef8445533d:llvm14/.footprint
