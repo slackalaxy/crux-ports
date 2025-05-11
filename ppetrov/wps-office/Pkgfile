@@ -8,12 +8,12 @@ version=11.1.0.11723.XA
 _ftver=2.13.2
 _egver=255.5
 _ltver=4.4.0
-release=3
+release=4
 source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
 	https://sourceforge.net/projects/freetype/files/freetype2/${_ftver}/freetype-${_ftver}.tar.xz
 	https://github.com/elogind/elogind/archive/refs/tags/v${_egver}.tar.gz
 	http://download.osgeo.org/libtiff/tiff-${_ltver}.tar.gz
-	desktop.tar.xz freetype.tar.xz)
+	desktop.tar.xz en_GB.tar.xz freetype.tar.xz)
 
 build() {
 	ar -x $SRC/${name}_${version}_amd64.deb
@@ -40,6 +40,9 @@ build() {
 	# https://wiki.archlinux.org/title/WPS_Office
 	sed -i 's:gOpt=:gOpt="-style=gtk+":g' $PKG/usr/bin/*
 	sed -i 's:#gOptExt=-multiply:export GTK2_RC_FILES=/usr/share/themes/Raleigh/gtk-2.0/gtkrc:' $PKG/usr/bin/*
+	
+	# British English dictionaries
+	cp -a $SRC/en_GB $PKG/usr/lib/wps-office/office6/dicts/spellcheck/
 	
 	# Do not use WPS file icons, however leave WPS' mimetypes just in case
 	cp -a $SRC/usr/share/{mime,icons} $PKG/usr/share

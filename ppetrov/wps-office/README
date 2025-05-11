@@ -14,3 +14,10 @@ WPS Office Overriding/Breaks Mime
   delete everything there):
 
   ~/.local/share/mime/
+
+Dictionaries
+This comes with US spellecheck and also bundles British Engligh (GB)
+spell check. For more dictionaries:
+
+  https://github.com/slackalaxy/wps-office-dicts
+  https://slackalaxy.com/2021/04/03/wps-office-v11-dictionary/
