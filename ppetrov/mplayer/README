@@ -1,8 +1,0 @@
-I use MPlayer to run the electricsheep screensaver. That's why the
-default profile in /usr/etc/mplayer/mplayer.conf has the following:
-
-panscan=1.0
-
-This is meant to scale up the electricsheep animations, which otherwise
-are in 4:3 ratio. You may wish to comment this out and set your own
-profile.
