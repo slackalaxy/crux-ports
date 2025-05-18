@@ -204,6 +204,7 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/Samplers/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Samplers/srs.ibf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SandNSAmbigs.bf
 drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/BUSTED-PH.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/BUSTED.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/BranchSiteREL.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/FADE.bf
