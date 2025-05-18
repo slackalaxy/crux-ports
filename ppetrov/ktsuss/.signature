@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRviJPTcCX5hVAnfPAWlfQ60GnLiPWUgFbXqXb8mZ/8fuZ9gEFvhNpQUZZLaK5a/GsaEXngumHQnHZ4XsT/CTwA=
-SHA256 (Pkgfile) = affc19e1c54a6fe1ac01ef63c584a822e3ed28017fd4e8ba6e552d752a1dcaea
-SHA256 (.footprint) = 158ade916a75175e83eabd2ef7c83d7d59d0297e1dc54b14989ece161256f8a4
-SHA256 (ktsuss-9ea2e839b259f90b509285af49f8dc11851488cb.tar.gz) = 11b5ca041aa6804f2cb72d298eaad3f4c75efcfbf24e5e4a884c090d75a59cf8
-SHA256 (ktsuss-2.1-clang16.patch) = b81e9d8cccb889396414f1262110500cedbfe537783c051495b72b630ee48816
-SHA256 (ktsuss-2.1-no-which.patch) = 0e0d1f6fed65d08b3d65a660f609c858c1b6942b149ff6a063ebb5b6d5f60840
