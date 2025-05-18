@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdk2qk2hz1AqIs2ZXztijWSIxsjl/VuSLWoXRJANQLIvZPNS6SKGs7j1NcUejQC5oIam9ufnPmyPHGd6NSamdA0=
-SHA256 (Pkgfile) = e46ec0cd9f1af077a07a56c7d458657d13daf70b2418601e2305395ad19f262e
-SHA256 (.footprint) = 74347c3135fecd1d6ae22908d4386b82e7c8ee71aee84cde59c75ba0bd6873ba
+RWToVVsIkzFIZVzibQUUx/G/TkeShTQkX6OOLkoS4+SNzr9+u99rRjAnZCs3zjQZhdX4A34Wh7FRBGdw7d0G3g3v2wFpfeM8Cgk=
+SHA256 (Pkgfile) = eb3db1567bc651946373643dd5efbb0e9496b47650183ecdb23ad0c2f73cc29f
+SHA256 (.footprint) = f9b27f4b042de201769f85586566b86bc37249cb64a7e90bb4167464681ff495
 SHA256 (bpp-popgen-2.4.1.tar.gz) = 03b57d71a63c8fa7f11c085e531d0d691fc1d40d4ea541070dabde0ab3baf413
