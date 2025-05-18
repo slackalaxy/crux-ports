@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-dplyr r4-ggbeeswarm r4-ggnewscale r4-knitr r4-magrittr r4-patchwork r4-rmarkdown r4-rstatix r4-tidyr r4-tinytest
 
 name=r4-ggprism
-version=1.0.5
+version=1.0.6
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggprism_${version}.tar.gz)
 

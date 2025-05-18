@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89M8wWMie2+apWH5qPdrXn7l5Hlk2dkKertnsmrrrEc3Bn0hLUx7nW8YTw1F7zIr8rAeHcBVQ40J99LyZeT18owQ=
-SHA256 (Pkgfile) = 596b9bcb358155f6e91ee51ab0452d8a55e344b8596235a586cd80a4035a8301
+RWQ2oTreAss89EQ7N+D3dmCkDqIzA/4Y1WmFc3rPGTrb6gV5B29h4tEyIycC/ZWOHYVSvv1wTmrR1G//nQk4155oJXASRUpv4Qw=
+SHA256 (Pkgfile) = 29b67ae0a39a1efb771c15ba1204eea12dde88177e8a30f7334a177e3b4a0f53
 SHA256 (.footprint) = e71695da665d5bd2bb681e1dd1839eb6412a4d4af563e3be3f7f97d762ea1645
-SHA256 (svglite_2.2.0.tar.gz) = 62dbae66d96effaade40c5b45a9ee9c7fffe5272ebe5f0d40374c6e53bd5172b
+SHA256 (svglite_2.2.1.tar.gz) = 64eda5497cfa9c179c30257187dd20fd1aa2f67c3c99deb936d4cfc74e536fc1

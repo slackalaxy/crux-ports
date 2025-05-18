@@ -1,11 +1,11 @@
 # Description: R module rsconnect
 # URL: https://cran.r-project.org/web/packages/rsconnect
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-curl r4-digest r4-jsonlite r4-lifecycle r4-openssl r4-packrat r4-pki r4-renv r4-rlang r4-rstudioapi r4-yaml
+# Depends on: r r4-cli r4-curl r4-digest r4-jose r4-jsonlite r4-lifecycle r4-openssl r4-packrat r4-pki r4-rcpptoml r4-renv r4-rlang r4-rstudioapi r4-yaml
 # Optional: r4-biobase r4-biocmanager r4-foreign r4-knitr r4-mass r4-plumber r4-quarto r4-rcurl r4-reticulate r4-rmarkdown r4-shiny r4-testthat r4-webfakes r4-withr
 
 name=r4-rsconnect
-version=1.3.4
+version=1.4.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/rsconnect_${version}.tar.gz)
 

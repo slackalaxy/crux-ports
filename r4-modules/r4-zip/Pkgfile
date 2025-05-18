@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-pillar r4-processx r4-r6 r4-testthat r4-withr
 
 name=r4-zip
-version=2.3.2
+version=2.3.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/zip_${version}.tar.gz)
 

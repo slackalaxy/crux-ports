@@ -56,4 +56,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/rsconnect/html/
 -rw-r--r--	root/root	usr/lib/R/library/rsconnect/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/rsconnect/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/rsconnect/resources/
+drwxr-xr-x	root/root	usr/lib/R/library/rsconnect/resources/__pycache__/
+-rw-r--r--	root/root	usr/lib/R/library/rsconnect/resources/__pycache__/pyproject.cpython-311.pyc
+-rw-r--r--	root/root	usr/lib/R/library/rsconnect/resources/__pycache__/pyproject.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/R/library/rsconnect/resources/environment.py
+-rw-r--r--	root/root	usr/lib/R/library/rsconnect/resources/pyproject.py
