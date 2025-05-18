@@ -5,14 +5,17 @@
 
 name=bpp1-phyl
 version=1.9.0
-release=1
+release=2
 source=(https://raw.githubusercontent.com/slackalaxy/sources/main/bpp-phyl-$version.tar.gz
 	caps_TreeTemplateTools.patch)
 
 build() {
 	cd bpp-phyl-$version
 	
-	# build fails with gcc 12
+	# TODO: keep an eye on this, when support for CMAKE < 3.10 is dropped
+	sed -i 's:CMAKE_MINIMUM_REQUIRED(VERSION 2.6):CMAKE_MINIMUM_REQUIRED(VERSION 3.30):' CMakeLists.txt
+	
+	# build fails with recent gcc
 	export CXX=g++-5
 	
 	# This is needed for vCAPS to find its libraries at runtime. Thanks Urachlay!
@@ -22,18 +25,24 @@ build() {
 	patch -p1 -i $SRC/caps_TreeTemplateTools.patch
 
 	# Use custom install place, so libs can coexist with latest bpp
-	export PATH="/usr/lib/Bpp1/:$PATH"
 	sed -i "s:/lib/:/lib/Bpp1/:g" Phyl.spec
+	sed -i "s:/include/:/include/Bpp1/:g" Phyl.spec
 
 	mkdir -p build
 	cd build
 	cmake \
-	-DCMAKE_CXX_FLAGS:STRING="$CFLAGS $LIBDIRPATH" \
-	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DCMAKE_BUILD_TYPE=Release ..
+	-D CMAKE_CXX_FLAGS:STRING="$CFLAGS $LIBDIRPATH" \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D bpp-utils_INCLUDE_DIR:PATH=/usr/include/Bpp1/ \
+	-D bpp-utils_LIBRARY:FILEPATH=/usr/lib/Bpp1/libbpp-utils.so \
+	-D bpp-numcalc_INCLUDE_DIR:PATH=/usr/include/Bpp1/ \
+	-D bpp-numcalc_LIBRARY:FILEPATH=/usr/lib/Bpp1/libbpp-numcalc.so \
+	-D bpp-seq_INCLUDE_DIR:PATH=/usr/include/Bpp1/ \
+	-D bpp-seq_LIBRARY:FILEPATH=/usr/lib/Bpp1/libbpp-seq.so \
+	-D CMAKE_BUILD_TYPE=Release ..
 
-	sed -i "s:/lib\b:/lib/Bpp1:g" Phyl/cmake_install.cmake
-	sed -i "s:Bpp1/Bpp1:Bpp1:g" Phyl/cmake_install.cmake
+	sed -i 's:{CMAKE_INSTALL_PREFIX}/lib:{CMAKE_INSTALL_PREFIX}/lib/Bpp1:g' Phyl/cmake_install.cmake
+	sed -i 's:{CMAKE_INSTALL_PREFIX}/include:{CMAKE_INSTALL_PREFIX}/include/Bpp1:g' Phyl/cmake_install.cmake
 
 	make
 	make DESTDIR=$PKG install
