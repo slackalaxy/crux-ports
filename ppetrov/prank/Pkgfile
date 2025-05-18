@@ -4,9 +4,9 @@
 # Depends on: mafft exonerate bppsuite
 
 name=prank
-version=170427
+version=250331
 release=1
-source=(http://wasabiapp.org/download/$name/$name.source.$version.tgz)
+source=(https://raw.githubusercontent.com/ariloytynoja/prank-msa/master/binaries/prank.source.$version.tgz)
 
 build() {
 	cd $name-msa/src
