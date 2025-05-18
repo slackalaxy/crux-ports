@@ -1,0 +1,15 @@
+# Description: Wallpapers by Vladstudio 3840x2160 (need premium account)
+# URL: https://vlad.studio/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=vladstudio
+version=20250515
+release=1
+source=(https://vlad.studio/zip-packs/)
+renames=(vladstudio_3840x2160.zip)
+
+build() {
+  mkdir -p $PKG/usr/share/backgrounds/$name
+  cp -a $SRC/*.jpg $PKG/usr/share/backgrounds/$name
+  chmod 0644 $PKG/usr/share/backgrounds/$name/*
+}

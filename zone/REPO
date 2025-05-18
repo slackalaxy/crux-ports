@@ -16,6 +16,7 @@ d:pulse-autospawn
 d:pulse-blueman
 d:firewall
 d:etc-hostname
+d:vladstudio
 f:822732e9e639ebe2f643af7ecc601d38:depscheck/Pkgfile
 f:f4e707147bf141a5175e09d21a245704:depscheck/.footprint
 f:81d19c2aca7bbc0d116869319d398e0e:depscheck/.signature
@@ -105,3 +106,7 @@ f:06d5f13a2fa2dbfed6f9d9cbe08ca127:etc-hostname/.footprint
 f:e9481165cb5b833eab05a3f73427515b:etc-hostname/.signature
 f:db5f9575cbd1861fb994c2d2871f022d:etc-hostname/HOSTNAME
 f:af7006ade56fc4352d44ad58273e1a6e:etc-hostname/Pkgfile
+f:de498eef98260d876ad5109dc3186501:vladstudio/Pkgfile
+f:4994d5e59bb9803fc49c657d78385096:vladstudio/README
+f:ad952d7bd54a270228ddfea3ebb06c0b:vladstudio/.footprint
+f:c1badc03891a8e94a6883073cdf62598:vladstudio/.signature
