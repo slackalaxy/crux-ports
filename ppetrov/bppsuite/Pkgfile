@@ -5,7 +5,7 @@
 
 name=bppsuite
 version=2.4.1
-release=1
+release=2
 source=(https://github.com/BioPP/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
@@ -13,10 +13,11 @@ build() {
 	mkdir -p build
 	cd build
 	cmake \
-	-DCMAKE_FLAGS:STRING="$CFLAGS" \
-	-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
-	-DCMAKE_INSTALL_PREFIX=/usr \
-	-DCMAKE_BUILD_TYPE=Release ..
+	-D CMAKE_FLAGS:STRING="$CFLAGS" \
+	-D CMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+	-D CMAKE_INSTALL_PREFIX=/usr \
+	-D CMAKE_INSTALL_LIBDIR:PATH=lib \
+	-D CMAKE_BUILD_TYPE=Release ..
 	make
 	make install DESTDIR=$PKG
 }
