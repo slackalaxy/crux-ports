@@ -1,0 +1,12 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwaiou76Z2hLg1bn8MrVif2qRrpuuzp5ARqU4d/FILM0arhGCZnE9v19nNPAglTQ43pLZwq+lRsbrH0en1hqEgAs=
+SHA256 (Pkgfile) = bb48ed597135bf85eda61f5f096218309d0ae91aaaa9337145bda82d0f76bfd6
+SHA256 (.footprint) = cff2a62a177028edbdd8d1b818f84c28d40fd2296c88bef236898c9d6673234f
+SHA256 (p5-modules.httpup) = a0eff4fe1447708f96dc08a319d32513c582f1b1c2fa0f31fd40eccd3fc76032
+SHA256 (p5-modules.pub) = 6da537998e0a85f41dd0349c305a92d6fb2679d0bff26dd8ef0a89486dd5f7d2
+SHA256 (ppetrov.httpup) = 9c6a4bd63c832e325245411f8cd268713cb9966f04ebc56c9a9a313f6a12ebef
+SHA256 (ppetrov.pub) = 8676a779c369cadf7ad72c866175db34555c4f3b561e9bc2196ca5c3c7a93ffa
+SHA256 (r4-modules.httpup) = 5a8df742612f74207a4f1ae6613a6e47db00479e47921912201d96f346c13ee4
+SHA256 (r4-modules.pub) = e1392576077a83d2e136b9cbfca91ea6d9284cd7e8518f49719ade12ff3b213c
+SHA256 (zone.httpup) = 72e86d01dd7d4a68ebc43089d15f232af7ab10ec3e4278d729a0c9d53b6725e5
+SHA256 (zone.pub) = 55c893222f91be2a0348dc30aa69bd04dcdd413a947052d8559bd72035c20d05
