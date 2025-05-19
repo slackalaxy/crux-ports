@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwSZcv/e1cVdbIZVTB6AIwXuQsifdCDO33M6yZLTnkbriYJzdgAp2WvYPAHmri4VpCOBn2QGJhmvLlKyu4e4myQ4=
+SHA256 (Pkgfile) = c88b41b7ee960830f9a44cb2949d82168a86616430875a09eddf41bf1dab808d
+SHA256 (.footprint) = 99b31da7fdfa94dfef94f3eb6dc0e1522f36d83a2652921cace0da31d8941d2e
+SHA256 (trimssd.conf) = 4fe0a365f09897b5fda8bd0a6ceaefcc309f8f4f88bdbd6a72a4d3a56a5b90aa
+SHA256 (trimssd.sh) = d7688eb389c86fc2cc6035af1045110a30149d076dd06a88564840ac3794bf14
