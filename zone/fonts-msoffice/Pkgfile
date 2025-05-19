@@ -5,14 +5,11 @@
 
 name=fonts-msoffice
 version=2007
-release=6
-source=(https://archive.org/download/microsoft-office-professional-plus-2007/Microsoft%20Office%20Professional%20Plus%202007.iso
-	cleaner_ttf.py emoji-data.txt)
-renames=(Microsoft_Office_Professional_Plus_2007.iso SKIP SKIP)
+release=7
+source=(https://archive.org/download/microsoft-office-professional-plus-2007/Microsoft%20Office%20Professional%20Plus%202007.iso)
+renames=(Microsoft_Office_Professional_Plus_2007.iso)
 
 build() {
-	mkdir -p $name-$version
-	cd $name-$version
 	7z x $SRC/Microsoft_Office_Professional_Plus_2007.iso
 	cd ProPlus.WW
 	cabextract --lowercase ProPlsWW.cab
@@ -44,11 +41,5 @@ build() {
 	
 	mkdir -p $PKG/usr/share/fonts/microsoft
 	cp -a *.ttf $PKG/usr/share/fonts/microsoft
-	chmod 0644 $PKG/usr/share/fonts/microsoft/*
-	
-	# Remove B/W emoji symbols
-	#cd $SRC
-	#for t in $PKG/usr/share/fonts/microsoft/*.ttf ; do
-	#	fontforge -script $SRC/cleaner_ttf.py "$t"
-	#done
+	chmod 0644 $PKG/usr/share/fonts/microsoft/*.ttf
 }
