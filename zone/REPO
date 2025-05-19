@@ -100,7 +100,7 @@ f:4e3b444d93a815977f9b7e306021fd53:cron-job-trimssd/trimssd.conf
 f:f31639e7cfdab302a18eafce0d5c0c51:cron-job-trimssd/trimssd.sh
 f:676720c6b82c88d57c65bfd9c21b78d0:cron-job-trimssd/.footprint
 f:2107951c3ccb31dbd47dcf816b2ba038:cron-job-trimssd/Pkgfile
-f:eb8e09c6754f42900fe9f62d3b62378d:cron-job-cleanup/.signature
+f:b8ab1f4973cf16c4bf401615537f4729:cron-job-cleanup/.signature
 f:3258da09d143d2f4ab404edd8ba1bc75:cron-job-cleanup/.footprint
-f:1aa2bb16cc5d73bb67f38ba9031c47da:cron-job-cleanup/Pkgfile
-f:e2609549d20d5e95a24b8854860f17c8:cron-job-cleanup/cleanup.sh
+f:34ed0635a3cd0af065829832aff84e05:cron-job-cleanup/Pkgfile
+f:ea4998191a1d9ce24b1ba03232143d9f:cron-job-cleanup/cleanup.sh

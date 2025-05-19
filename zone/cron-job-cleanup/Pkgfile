@@ -1,5 +1,5 @@
 # Description: A small script to refresh a few system things
-# URL: https://github.com/slackalaxy/freshenup
+# URL: https://slackalaxy.com/2014/05/17/faster-boot/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=cron-job-cleanup
