@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwYMQr3eDw12pA/0rCL9ANus2fsg8V5wtOboZTCpu+ShTqRLVHl2pn5W4tnOn4lhu89dGpFKz0/gmOVOJW/DNCA8=
+SHA256 (Pkgfile) = 6e090035246f01c114c53383e4b9e053b80f197f5a23e25e7e5dd94d3bdc1dfd
+SHA256 (.footprint) = 913489b5a158b6e2b5ddafb39c163b3024fd46b1a02a27e26cee6680ea080cc1
+SHA256 (kde-plasma-6.rsync) = d27556eb82ca939e347f291ab60142ecc144e769d7c021c0fae56bbf73a930d5
+SHA256 (kde-plasma-6.pub) = fbc4ac2621e15aab69998586b744ddeac67f72756cef694917b1cb036263fd5f
+SHA256 (xfce4.httpup) = 21272aa186c13d6a5119c345b690a638f93055b0f79d1a668e8dafb0e86ac1e4
+SHA256 (xfce4.pub) = 7e0a19e4d77cc576effb8619dd220f2809bdd8d43e033121c71bd658138e17d8
