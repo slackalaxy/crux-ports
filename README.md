@@ -13,9 +13,11 @@ to be credited, let me know!
 ---
 
 ### ppetrov
-Main collection of programs and libraries. Most likely this is what you
-are interested in. There are 2 ports with unversioned sources, *viber* and
-*zoom-linux*, therefore `.signature` and `.footprint` may mismatch.
+Main collection of programs and libraries. Two ports have unversioned
+tarballs provided by upstream,  *viber* and *zoom-linux*, therefore
+`.signature` and `.footprint` may mismatch. Two other have dependencies
+outside this repo: *meld* (depends on *gtksourceview4*) and *python3-pybind11*
+(depends on *eigen*). I use crux-xfce and kde-plasma-6 repos for these.
 * [ppetrov.httpup](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.httpup)
 * [ppetrov.pub](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.pub)
 
