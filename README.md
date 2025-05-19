@@ -14,9 +14,8 @@ to be credited, let me know!
 
 ### ppetrov
 Main collection of programs and libraries. Most likely this is what you
-are interested in. There are 3 ports with unversioned sources, that use
-the latest tarball provided by upstream: mplayer, viber and zoom-linux,
-therefore `.signature` and `.footprint` may mismatch.
+are interested in. There are 2 ports with unversioned sources, *viber* and
+*zoom-linux*, therefore `.signature` and `.footprint` may mismatch.
 * [ppetrov.httpup](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.httpup)
 * [ppetrov.pub](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.pub)
 
