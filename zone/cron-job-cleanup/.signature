@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwQKTiwtM2rRJunpW12cgdgw/04znw97OGP9riGl6DR9ZCEosgR66ygPrBn6jT5ToLEH5Fts3PdyJ/TXI/5xDuwo=
+SHA256 (Pkgfile) = 6558d54def2a58cf8a3e9674eaabfdb8b7c82d55c21916565c2a0e33e4f6cb1d
+SHA256 (.footprint) = 92cd5458eac0951a98a53f2a88c343ffe8d2ec4bcc12deb95947d872b8f9ba61
+SHA256 (cleanup.sh) = e59b5c1785133cf4a71bfab4da09fb9a831591417d242be9e41b729bb1e2ca07
