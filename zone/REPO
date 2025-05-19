@@ -2,10 +2,8 @@ d:depscheck
 d:fonts-conf
 d:fonts-msoffice
 d:grub2-default
-d:housecleaning
 d:kernel-modular
 d:skel
-d:trimssd
 d:xorg-conf-keyboard-fi
 d:xorg-conf-synaptics
 d:pulse-autospawn
@@ -16,6 +14,8 @@ d:vladstudio
 d:ports-slackalaxy
 d:ports-extra
 d:fonts-mswin
+d:cron-job-trimssd
+d:cron-job-cleanup
 f:822732e9e639ebe2f643af7ecc601d38:depscheck/Pkgfile
 f:f4e707147bf141a5175e09d21a245704:depscheck/.footprint
 f:81d19c2aca7bbc0d116869319d398e0e:depscheck/.signature
@@ -33,10 +33,6 @@ f:97256cbdf05db6606a9659fc1b0c19b9:grub2-default/grub2-default
 f:a1d3d84872a9817454e68a65b34f7d72:grub2-default/.footprint
 f:8feb744e341ac4c43ad8cd86db25143f:grub2-default/.signature
 f:952c5aa910d3934cc6838fc75a3de11c:grub2-default/Pkgfile
-f:969b71f19b0c11df505c8d2495744243:housecleaning/.footprint
-f:2221d7715ae826dca9ccca6aaf5973d5:housecleaning/Pkgfile
-f:aafe1f1f471bf7bfeac65c717a015c8e:housecleaning/housecleaning.sh
-f:3be201fa1d3320d83f6d9c715fa4a287:housecleaning/.signature
 f:a4adaa9a17332ff71d5a600f3a39e52c:kernel-modular/Pkgfile
 f:f26d68e9a7b8acb4325685e51084736b:kernel-modular/README
 f:acb9a5eea827b178d514069d01ab5804:kernel-modular/.footprint
@@ -53,12 +49,6 @@ f:b97495a4af95c5ce45a4a8950e0e58b4:skel/.footprint
 f:943b6e3c5b6b254961f0a427b5876e32:skel/.signature
 f:8dffdc5b09ccde1983825905c17b3182:skel/xinitrc.xfce4
 f:e1e07c59a64f561de8c763a05b32444c:skel/nanorc
-f:6c2312df1de6b833352ae6afd9a03f21:trimssd/Pkgfile
-f:de43ed3a531c44a785b8bc04204e4637:trimssd/README
-f:4e3b444d93a815977f9b7e306021fd53:trimssd/trimssd.conf
-f:f31639e7cfdab302a18eafce0d5c0c51:trimssd/trimssd.sh
-f:676720c6b82c88d57c65bfd9c21b78d0:trimssd/.footprint
-f:8293bf5970df71f822293b9c419c7140:trimssd/.signature
 f:a36cad5494121166b3ee3a9d9d060ecd:xorg-conf-keyboard-fi/00-keyboard.conf
 f:14266d42f3838b794848d25a7f24b20c:xorg-conf-keyboard-fi/Pkgfile
 f:9c0e17a8352fa72d406f04236aab2602:xorg-conf-keyboard-fi/.footprint
@@ -104,3 +94,13 @@ f:58bb3adef042e217f00baa1a0f7adee9:fonts-mswin/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-mswin/README
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-mswin/post-install
 f:3b1117e192b873d6797c35bbe65263ca:fonts-mswin/.footprint
+f:c9e8a972cd9d1029273671ec3af6ec8e:cron-job-trimssd/.signature
+f:de43ed3a531c44a785b8bc04204e4637:cron-job-trimssd/README
+f:4e3b444d93a815977f9b7e306021fd53:cron-job-trimssd/trimssd.conf
+f:f31639e7cfdab302a18eafce0d5c0c51:cron-job-trimssd/trimssd.sh
+f:676720c6b82c88d57c65bfd9c21b78d0:cron-job-trimssd/.footprint
+f:2107951c3ccb31dbd47dcf816b2ba038:cron-job-trimssd/Pkgfile
+f:eb8e09c6754f42900fe9f62d3b62378d:cron-job-cleanup/.signature
+f:3258da09d143d2f4ab404edd8ba1bc75:cron-job-cleanup/.footprint
+f:1aa2bb16cc5d73bb67f38ba9031c47da:cron-job-cleanup/Pkgfile
+f:e2609549d20d5e95a24b8854860f17c8:cron-job-cleanup/cleanup.sh
