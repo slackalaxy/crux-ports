@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImweJ96Ja+jgMdEj4NGQYIEYHzJUkrIZ5fI8Jjh8uOCnU088JtyAXdvPtCWvHpQbxRCvgH6oUc3eXmeI/hwRiPYwA=
-SHA256 (Pkgfile) = cb6176002ab33739eb75208d73bf71783f658aa40c536b6efdcd586b7326aec1
+RWRPokwW0IImwdzZT2+fht9ehLTLWWJOsf+lZNdl5Rtc+OLvIRbYsaSKdNdFIwo6AowvnmsJZ4fCY9WUZx4MsKI0OBcLTLXCCQ4=
+SHA256 (Pkgfile) = 6dcbed8453160a203952837e24a1c20b3e26c8a20a00b92e026ab01d65fcb257
 SHA256 (.footprint) = 20be6f813ecd7fa9661daf1b8f380dcc4d7fd5c590a8ecc8827d83d2a9922a75
 SHA256 (firewall.conf) = 31cda91e3e998912c3fb48d8540f9704cd7ab11fa35017acaa68807d0f8bff7b
 SHA256 (firewall.sh) = 0d2d01c55ab4caef96ebc5667db36f923abdb4f0dcb4751dd75b1426dd8fcd5b
