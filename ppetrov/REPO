@@ -83,7 +83,6 @@ d:python3-umap
 d:xscreensaver
 d:galculator
 d:meld
-d:eigen
 d:bpp1-phyl
 d:bpp1-utils
 d:gnumeric
@@ -365,6 +364,7 @@ f:3ca63dd6ebad72fbb12c573276cd4760:python3-pooch/Pkgfile
 f:2f55a0e3d029b60eba942379c10d5750:python3-pybind11/.signature
 f:a0d66d404be5c3bcbecc1e873aebaebd:python3-pybind11/Pkgfile
 f:9a4173862c64bb3309eabbef1b9d57d1:python3-pybind11/.footprint
+f:6cbc7d21baecb81eaed3594e433b311b:python3-pybind11/README
 f:ee38d1ef58f7b1fbdda85e36b089cba5:python3-pynndescent/.footprint
 f:c25233830b23f91bb64fadca71b117f3:python3-pynndescent/.signature
 f:be460edf88ec308062e680064c617f66:python3-pynndescent/Pkgfile
@@ -399,9 +399,6 @@ f:6a51dd63a8d039a8b552a535533992b0:meld/post-install
 f:e442085de1ef71e94896a6f78d725a6f:meld/README
 f:5a648f357a5628f50099db80222f9d0b:meld/.footprint
 f:c0d11b8c793030d58b573d9e363fcf44:meld/.signature
-f:6bbce26c8e336a5864f6b91275de1f60:eigen/Pkgfile
-f:4b3e7e2226724534a210a9a36baf36df:eigen/.signature
-f:4f0e6391e098b6ce55bb23cc614c5871:eigen/.footprint
 f:2a61f42360300ba9ae47a3b418fda9d5:bpp1-phyl/.footprint
 f:5d2cb4e515b32435ea6a4cd851c35cd1:bpp1-phyl/caps_TreeTemplateTools.patch
 f:ce97f1d5bbeb98565d9cf5df76afc55a:bpp1-phyl/Pkgfile
