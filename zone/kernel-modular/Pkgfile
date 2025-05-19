@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=kernel-modular
-version=6.12.25
+version=6.12.28
 release=1
 source=(https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-$version.tar.xz
 	config-$version)
@@ -11,6 +11,7 @@ source=(https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-$version.tar.xz
 build() {
 	cd linux-$version
 	cp $SRC/config-$version .config
+	sed -i 's:CONFIG_LOCALVERSION="":CONFIG_LOCALVERSION="-m":' .config
 	
 	make oldconfig
 	make all
