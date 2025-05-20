@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwcAocIiMNNcbrZiKrcOzO8WBMJf60m4aK0fnKstoXGuCLMFvVESJcqD/VUhqWgKf2XKBTYKcYcRWejpq09zVGQQ=
+SHA256 (Pkgfile) = 45cb94a96b3b07c97b68303fed46d4339f2516d5c916f9074c921176d737d099
+SHA256 (.footprint) = 88b7e835ad2b24a49ca16d512ef30dd4afb616b787ceef77caef3d1e7dd909ad
+SHA256 (wp-cruxy-f07dc679790c5aee88e4f6625cd8d72c327e1b5c.tar.gz) = a4e52b7a5b3b82cf2b1d91bbc5343ff47375fb9dcea0e64dcda3efa3681ad328

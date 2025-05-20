@@ -1,0 +1,15 @@
+# Description: CRUX wallpapers
+# URL: https://github.com/slackalaxy/wp-cruxy
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=backgrounds-crux
+version=f07dc67
+release=1
+source=(https://github.com/slackalaxy/wp-cruxy/archive/$version/wp-cruxy-f07dc679790c5aee88e4f6625cd8d72c327e1b5c.tar.gz)
+
+build() {
+	cd wp-cruxy-${version}*
+	mkdir -p $PKG/usr/share/backgrounds/crux
+	cp -a *.png $PKG/usr/share/backgrounds/crux
+	chmod 0644 $PKG/usr/share/backgrounds/crux/*
+}
