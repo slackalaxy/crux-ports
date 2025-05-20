@@ -1,0 +1,12 @@
+# Description: An example fstab file, using partition labels
+# URL: https://slackalaxy.com/2023/09/30/disk-partition-labels/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=etc-fstab.labels
+version=3.8
+release=1
+source=(${name#etc-})
+
+build() {
+  install -D -m 0644 $SRC/${name#etc-} $PKG/etc/${name#etc-}
+}

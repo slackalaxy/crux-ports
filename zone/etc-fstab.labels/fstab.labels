@@ -1,0 +1,31 @@
+#
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>     <type>    <options>                        <dump> <pass>
+
+# Basic partition scheme
+#LABEL=SWAP             swap     swap      defaults                         0      0
+#LABEL=ROOT             /        xfs       defaults                         1      1
+#LABEL=BOOT             /boot    xfs       defaults                         1      2
+#LABEL=HOME             /home    xfs       defaults                         1      2
+#LABEL=VAR              /var     xfs       defaults                         1      2
+#LABEL=TMP              /tmp     xfs       defaults                         1      2
+
+# Data stora in non-standart place
+#LABEL=DATAA        /mnt/data0   xfs       defaults                         1      2
+#LABEL=DATAB        /mnt/data1   xfs       defaults                         1      2
+#LABEL=DATAC        /mnt/data0   xfs       defaults                         1      2
+
+# Packages dedicated partition and building in RAM
+#LABEL=BUILD        /var/build   xfs       defaults                         1      2
+#work         /var/build/work    tmpfs     nodev,nosuid,size=48G            0      0
+
+# EFI-related entries
+#efivars                /sys/firmware/efi/efivars  efivarfs defaults         0      0
+#LABEL=EFI              /boot/efi vfat      defaults                         0      2
+
+# the following entries are required for proper system operation
+devpts                 /dev/pts  devpts    noexec,nosuid,gid=tty,mode=0620  0      0
+shm                    /dev/shm  tmpfs     defaults                         0      0
+
+# End of file
