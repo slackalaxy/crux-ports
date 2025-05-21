@@ -1,4 +1,4 @@
-# Description: Corg touchpad synaptics conf
+# Description: Xorg touchpad synaptics conf
 # URL: https://wiki.archlinux.org/title/Touchpad_Synaptics#Frequently_used_options
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: xorg

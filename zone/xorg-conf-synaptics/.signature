@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwfJrDgTJfPBhEnw89MjF/yHALJggz6CQuxkh9EPoAolJn5GavvyE5ha+VfGDNrCHJZY0CAgmodbT5ZHwMderbQs=
-SHA256 (Pkgfile) = 2bf2a69404c3015baf9c65813ef6f310b6d2ee12d620dd01be8a45ad31833534
+RWRPokwW0IImwZw2TzfYdSZPQyxMrX8ZPMLMICQtkgeK2evpr3yV8nWsNj8Pa4SZkcoxXNfyELldUwrUBn3Lkl5T2YGCgETQ2g0=
+SHA256 (Pkgfile) = 1272de5e054f573d057f1c19edc2d9719c1906fc512c45d890509e527ad27de5
 SHA256 (.footprint) = 21c7e5cd7beb7db0c2c448ca2a6027af3792095cd4e5be8dbf8fae3e1eaed508
 SHA256 (70-synaptics.conf) = a040f035eeada46cad4b7a5d7e09dba6ffcf2e1d53446d348996f680772b132c
