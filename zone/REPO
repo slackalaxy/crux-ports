@@ -15,7 +15,6 @@ d:fonts-mswin
 d:cron-job-trimssd
 d:cron-job-cleanup
 d:etc-fstab.labels
-d:backgrounds-crux
 d:backgrounds-vladstudio
 d:dep-check
 d:backgrounds-assorted
@@ -105,9 +104,6 @@ f:39db2fb0fb46faf72a887e61a8b1a322:etc-fstab.labels/Pkgfile
 f:3960629d1e191c7092db8ea34cd2c84b:etc-fstab.labels/README
 f:155aa94b4e3d865ec9b20e2401767c3d:etc-fstab.labels/.footprint
 f:e176f75cdc4b5899e4c016dade7b054b:etc-fstab.labels/.signature
-f:e691f0d1b97e271f87c56093dd18f62c:backgrounds-crux/Pkgfile
-f:112b68fc5a0cba5ab60f0759e3eca33e:backgrounds-crux/.footprint
-f:a2bd6b044b87800e5851ede9e2b7afa3:backgrounds-crux/.signature
 f:dbfb03dd2529233a49c6eaf05961b7a8:backgrounds-vladstudio/Pkgfile
 f:4994d5e59bb9803fc49c657d78385096:backgrounds-vladstudio/README
 f:ad952d7bd54a270228ddfea3ebb06c0b:backgrounds-vladstudio/.footprint
@@ -115,6 +111,6 @@ f:39ea5dbbaa3a7175b7109f1df3e93cc6:backgrounds-vladstudio/.signature
 f:e6c7a8911177ecf6bfb189370b1768d9:dep-check/Pkgfile
 f:cefe57fd6f3c828e44e11975277ab1f5:dep-check/.footprint
 f:85f55463ed855b5500f57c873a8aecbd:dep-check/.signature
-f:8af1fac87a2c02422b24f5a72c78f7a3:backgrounds-assorted/Pkgfile
-f:f89b2d2d767360ef6f8ca0f4800abdf8:backgrounds-assorted/.footprint
-f:05c977f2ecccdd3f483642535bc54f7b:backgrounds-assorted/.signature
+f:850f68c172ba0c3177532f2252f23187:backgrounds-assorted/Pkgfile
+f:d3c234e0ce4a35b1b01f63bb78643545:backgrounds-assorted/.footprint
+f:1cd0f286ba8ffa24f8a0ee619eb90f19:backgrounds-assorted/.signature
