@@ -1,0 +1,18 @@
+# Description: Extra tools to check dependencies relations 
+# URL: https://github.com/slackalaxy/depsck
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: prt-utils
+
+name=dep-check
+version=d17f7aa
+release=1
+source=(https://github.com/slackalaxy/depsck/archive/$version/$name-d17f7aa944bdb363d529a6111f51aac9c82e3b97.tar.gz)
+
+build() {
+	cd $name-${version}*
+	mkdir -p $PKG/usr/bin
+	install -m 0755 finddepsrow $PKG/usr/bin
+	install -m 0755 missdeps $PKG/usr/bin
+	install -m 0755 missdepslist $PKG/usr/bin
+	install -m 0755 revlib $PKG/usr/bin
+}

@@ -1,4 +1,3 @@
-d:depscheck
 d:fonts-conf
 d:fonts-msoffice
 d:grub2-default
@@ -18,9 +17,7 @@ d:cron-job-cleanup
 d:etc-fstab.labels
 d:backgrounds-crux
 d:backgrounds-vladstudio
-f:822732e9e639ebe2f643af7ecc601d38:depscheck/Pkgfile
-f:f4e707147bf141a5175e09d21a245704:depscheck/.footprint
-f:81d19c2aca7bbc0d116869319d398e0e:depscheck/.signature
+d:dep-check
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
 f:15a571ea0e307317b2e0efb95eeee460:fonts-conf/.signature
 f:00ed35084250268075e059f0d7bc984f:fonts-conf/README
@@ -114,3 +111,6 @@ f:dbfb03dd2529233a49c6eaf05961b7a8:backgrounds-vladstudio/Pkgfile
 f:4994d5e59bb9803fc49c657d78385096:backgrounds-vladstudio/README
 f:ad952d7bd54a270228ddfea3ebb06c0b:backgrounds-vladstudio/.footprint
 f:39ea5dbbaa3a7175b7109f1df3e93cc6:backgrounds-vladstudio/.signature
+f:e6c7a8911177ecf6bfb189370b1768d9:dep-check/Pkgfile
+f:cefe57fd6f3c828e44e11975277ab1f5:dep-check/.footprint
+f:85f55463ed855b5500f57c873a8aecbd:dep-check/.signature

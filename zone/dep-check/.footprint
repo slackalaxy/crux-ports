@@ -2,4 +2,5 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/finddepsrow
 -rwxr-xr-x	root/root	usr/bin/missdeps
--rwxr-xr-x	root/root	usr/bin/revlibpkg
+-rwxr-xr-x	root/root	usr/bin/missdepslist
+-rwxr-xr-x	root/root	usr/bin/revlib
