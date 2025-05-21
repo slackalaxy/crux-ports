@@ -1,0 +1,16 @@
+# Description: Backgrounds assorted
+# URL: https://github.com/slackalaxy/backgrounds/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=backgrounds-assorted
+version=e74bf49
+release=1
+source=(https://github.com/slackalaxy/backgrounds/archive/$version/backgrounds-e74bf4998f3224d517c58df8da09a23ed8a4bf3c.tar.gz)
+
+build() {
+  cd backgrounds-${version}*
+  mkdir -p $PKG/usr/share/backgrounds
+  cp -a desktop $PKG/usr/share/backgrounds/assorted
+  cp -a terminal $PKG/usr/share/backgrounds/
+  chmod 0644 $PKG/usr/share/backgrounds/{assorted,terminal}/*
+}
