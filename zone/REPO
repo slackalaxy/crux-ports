@@ -18,6 +18,7 @@ d:etc-fstab.labels
 d:backgrounds-crux
 d:backgrounds-vladstudio
 d:dep-check
+d:backgrounds-assorted
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
 f:15a571ea0e307317b2e0efb95eeee460:fonts-conf/.signature
 f:00ed35084250268075e059f0d7bc984f:fonts-conf/README
@@ -53,9 +54,9 @@ f:14266d42f3838b794848d25a7f24b20c:xorg-conf-keyboard-fi/Pkgfile
 f:9c0e17a8352fa72d406f04236aab2602:xorg-conf-keyboard-fi/.footprint
 f:ad756b2c34d167f0bfe7811b88ec8f17:xorg-conf-keyboard-fi/.signature
 f:cda9c51da8fcdfc3a623ef041f820f30:xorg-conf-synaptics/70-synaptics.conf
-f:d20eeda6d2769dcf25c05e3c1fd52557:xorg-conf-synaptics/Pkgfile
+f:240ff809fdab8e2efa1c258b9bb94bc2:xorg-conf-synaptics/Pkgfile
 f:61826a76ffb03df5b16a2088c434a590:xorg-conf-synaptics/.footprint
-f:26996b97afc2b6d4e19a4aa932ae74fb:xorg-conf-synaptics/.signature
+f:d574edff73a1ceb29dc63dd1260d35ac:xorg-conf-synaptics/.signature
 f:ab19ea7987dbbdd897ea9348d3785e40:pulse-autospawn/Pkgfile
 f:c999cc225856e4de68206ec91347270b:pulse-autospawn/.footprint
 f:419a57a201edd6e877d6dea021beca4d:pulse-autospawn/.signature
@@ -114,3 +115,6 @@ f:39ea5dbbaa3a7175b7109f1df3e93cc6:backgrounds-vladstudio/.signature
 f:e6c7a8911177ecf6bfb189370b1768d9:dep-check/Pkgfile
 f:cefe57fd6f3c828e44e11975277ab1f5:dep-check/.footprint
 f:85f55463ed855b5500f57c873a8aecbd:dep-check/.signature
+f:8af1fac87a2c02422b24f5a72c78f7a3:backgrounds-assorted/Pkgfile
+f:f89b2d2d767360ef6f8ca0f4800abdf8:backgrounds-assorted/.footprint
+f:05c977f2ecccdd3f483642535bc54f7b:backgrounds-assorted/.signature
