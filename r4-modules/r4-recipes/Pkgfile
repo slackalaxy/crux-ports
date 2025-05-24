@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-ddalpha r4-dials r4-ggplot2 r4-igraph r4-kernlab r4-knitr r4-modeldata r4-parsnip r4-rann r4-rcpproll r4-rmarkdown r4-rpart r4-rsample r4-rspectra r4-splines2 r4-testthat r4-workflows r4-xml2
 
 name=r4-recipes
-version=1.3.0
+version=1.3.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/recipes_${version}.tar.gz)
 

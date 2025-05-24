@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FTwfMvMMeQ6SRsEO0DUvphPj0F2l+6JJuGv/9C7VjcRlFAWHNew3owCdVs/kC+XRluc5CcAI71wAFknU1q2gws=
-SHA256 (Pkgfile) = 45436394636170fd04aaf14a7de9fa4cdddad8559440a985e7b8d41b5d45a4e1
+RWQ2oTreAss89GAPQvj4IWiTUZFl3y+Zy1TTL+ICaCbwb2qNAVKTRj7rNhTHomUeKVcwV4mWNWNPoviB0tLpjGwShlXrtDu6ywo=
+SHA256 (Pkgfile) = 1ea410f5245bbebb8427b0ee9365ee9dcd4f6e6b786070c4215bca8ec178fcf1
 SHA256 (.footprint) = c891b0c2c059e531458d24787ae0b98095499289ae7d56a0788a4496a3797b8f
-SHA256 (rsconnect_1.4.0.tar.gz) = 11570127289bc7eca96c5030073b0dd1f7b0089c8bf8e3bfe820b8d0cd56c77e
+SHA256 (rsconnect_1.4.1.tar.gz) = 18eea7c62dc64ab4c900de5ad0d90d6eed551fe8690e556c2dfc7f35890aae40

@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/officer/doc_examples/
 -rw-r--r--	root/root	usr/lib/R/library/officer/doc_examples/text.txt
 drwxr-xr-x	root/root	usr/lib/R/library/officer/examples/
 -rw-r--r--	root/root	usr/lib/R/library/officer/examples/example_add_slide.R
+-rw-r--r--	root/root	usr/lib/R/library/officer/examples/example_layout_default.R
 -rw-r--r--	root/root	usr/lib/R/library/officer/examples/example_layout_rename_ph_labels.R
 -rw-r--r--	root/root	usr/lib/R/library/officer/examples/example_phs_with.R
 -rw-r--r--	root/root	usr/lib/R/library/officer/examples/example_plot_layout_properties.R

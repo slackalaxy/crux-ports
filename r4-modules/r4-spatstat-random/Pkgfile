@@ -5,9 +5,9 @@
 # Optional: r4-gsl r4-spatial r4-spatstat r4-spatstat-explore r4-spatstat-linnet r4-spatstat-model
 
 name=r4-spatstat-random
-version=3.3.3
+version=3.4.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/spatstat.random_3.3-3.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spatstat.random_3.4-1.tar.gz)
 
 build() {
 	cd spatstat.random
