@@ -17,7 +17,7 @@ build() {
 	# Move these to their proper place
 	mkdir -p $PKG/usr/share/edirect
 	mv ./{cmd,eutils,help,data} $PKG/usr/share/edirect
-	mv readme.pdf $PKG/usr/share/edirect/manual.pdf
+	#mv readme.pdf $PKG/usr/share/edirect/manual.pdf
 
 	mkdir -p $PKG/usr/lib/edirect
 	cp -a extern/* $PKG/usr/lib/edirect

@@ -224,9 +224,9 @@ f:48cbe92bf9989d939ebad25f9d589a05:ncbi-blast-plus/.signature
 f:4dacb0a78e8948d8d2d7a738e1c87c86:ncbi-datasets/Pkgfile
 f:147b81193a05924ca5ac9ba6b37838d5:ncbi-datasets/.footprint
 f:ab18054b838dcf0a5ec334fb1cd7804f:ncbi-datasets/.signature
-f:085fcb9bcde07bf56badbb8d139c54f8:ncbi-edirect/.footprint
-f:92ae02de0003b08b9c13ae0f7caac781:ncbi-edirect/.signature
-f:a2818f2f0a480177557f5480047aed93:ncbi-edirect/Pkgfile
+f:518f8dbff400795be5932363db75c7f3:ncbi-edirect/.footprint
+f:307aaa5f37e837a3915d9429d657a90b:ncbi-edirect/.signature
+f:ff957c92dc271c6eb0de37e8f243e2df:ncbi-edirect/Pkgfile
 f:d7a55597415a2861932b0a96a2db626b:pal2nal/.signature
 f:3b9988e4eff2a598e097edf0001fe0ef:pal2nal/.footprint
 f:6a24956898d0d9b02ceaa1785bd8ee40:pal2nal/Pkgfile

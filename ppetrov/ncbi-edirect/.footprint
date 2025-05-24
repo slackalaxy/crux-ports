@@ -1,5 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/EDIRECT.pdf
 -rwxr-xr-x	root/root	usr/bin/accn-at-a-time
 -rwxr-xr-x	root/root	usr/bin/align-columns
 -rwxr-xr-x	root/root	usr/bin/amino-acid-composition
@@ -129,6 +130,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/xfilter
 -rwxr-xr-x	root/root	usr/bin/xinfo
 -rwxr-xr-x	root/root	usr/bin/xlink
+-rwxr-xr-x	root/root	usr/bin/xlink.ini
 -rwxr-xr-x	root/root	usr/bin/xml2fsa
 -rwxr-xr-x	root/root	usr/bin/xml2json
 -rwxr-xr-x	root/root	usr/bin/xml2tbl
@@ -227,4 +229,3 @@ drwxr-xr-x	root/root	usr/share/edirect/help/
 -rw-r--r--	root/root	usr/share/edirect/help/xtract-internal.txt
 -rw-r--r--	root/root	usr/share/edirect/help/xtract-keys.txt
 -rw-r--r--	root/root	usr/share/edirect/help/xtract-unix.txt
--rw-r--r--	root/root	usr/share/edirect/manual.pdf
