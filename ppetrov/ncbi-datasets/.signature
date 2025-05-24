@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZT3hlvFnaoqqXg/vfP3VZn3/lkmonY4iPhW5NDZehnmEZWNFjxt8k2Jco86Xh5N4kPoyPOEJ1t/51GciHY9Y0As=
-SHA256 (Pkgfile) = 6dde0a5cad57219e47c9cd6955b074ae16af1ef90bd4dcffb12957c45abbda9e
+RWToVVsIkzFIZfbXesM2uXojhK4rFvVC/d+8Dv9N5+WZwMgCIphjcSidCnx+C0kUkPYGMefJ6iqnDmVb3xrEdb8M5eBjXQsG1w0=
+SHA256 (Pkgfile) = b39d8701aa40a32dfc61e471d3a3d01fb6832e1ca300701f8b0a92295c7875ba
 SHA256 (.footprint) = 66ce1cc034a1a1fb73df037d343d12f24c7d36ce2a0b7c0188c9f5d291428778
-SHA256 (ncbi-datasets-18.1.0.zip) = a6185e25672ebf86409a3e001f5fd649d88b5ff500a3e25512cc312e93c5020a
+SHA256 (ncbi-datasets-18.2.0.zip) = 92f39e66eed6610cb5bcaf3b93d538f5c845fcf3261a85ffc22f90a9c932f243
