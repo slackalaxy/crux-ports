@@ -3,9 +3,9 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=backgrounds-assorted
-version=dd8e7a9
+version=76b616c
 release=1
-source=(https://github.com/slackalaxy/backgrounds/archive/$version/backgrounds-dd8e7a9ba3dbf41f56209274020b82fd2cde7f31.tar.gz)
+source=(https://github.com/slackalaxy/backgrounds/archive/$version/backgrounds-76b616cf76e546cc8f0e908de2e6f02de02508b6.tar.gz)
 
 build() {
   cd backgrounds-${version}*

@@ -3,13 +3,13 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/backgrounds/
 drwxrwxr-x	root/root	usr/share/backgrounds/assorted/
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/012153e.jpg
--rw-r--r--	root/root	usr/share/backgrounds/assorted/0249fd9.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/073113a.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/186b989.png
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/1daedb0.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/2a5f192.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/2b2e318.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/3c35613.jpg
+-rw-r--r--	root/root	usr/share/backgrounds/assorted/4800ea3.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/48c09c7.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/5de6427.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/assorted/6cb9db6.png
@@ -54,7 +54,7 @@ drwxrwxr-x	root/root	usr/share/backgrounds/terminal/
 -rw-r--r--	root/root	usr/share/backgrounds/terminal/433f628.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/terminal/478b261.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/terminal/bae4e32.jpg
+-rw-r--r--	root/root	usr/share/backgrounds/terminal/ca25fc3.png
 -rw-r--r--	root/root	usr/share/backgrounds/terminal/dbe7de4.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/terminal/dc5a2b7.jpg
 -rw-r--r--	root/root	usr/share/backgrounds/terminal/dd37efd.jpg
--rw-r--r--	root/root	usr/share/backgrounds/terminal/fffdd69.png
