@@ -85,9 +85,9 @@ f:5888672a63e377974eba47d89ef535d9:p5-array-compare/.footprint
 f:6d712fa4d0b714620ee54dd9bd84dc2b:p5-array-compare/Pkgfile
 f:744a8cd2b6740e19d32f0651adcde968:p5-array-compare/.signature
 f:184c11ef042b1a03ebd9653f0f734ee7:p5-bioperl/BioPerl-1.006924-RT106756.patch
-f:0a590f444b8e5e27dccd6997509b50d1:p5-bioperl/.footprint
-f:4cb42ed9bb877879c1566ae9cd0a9c06:p5-bioperl/.signature
-f:fcd3edaac99b78409592259cdf960f94:p5-bioperl/Pkgfile
+f:629836d72207c7a1b58ea595a5b0a781:p5-bioperl/.footprint
+f:498f5d9efcc1aae26676bc853c9a5cc0:p5-bioperl/.signature
+f:56b3ea86f850aeaea1af72447867a515:p5-bioperl/Pkgfile
 f:09eff21db77df430b4faabf632ccdb8a:p5-bio-phylo/.footprint
 f:918feb0afe40eee9da40b791fadc98a0:p5-bio-phylo/Pkgfile
 f:39d6698599d2b2cb3928ab68d302108b:p5-bio-phylo/.signature
