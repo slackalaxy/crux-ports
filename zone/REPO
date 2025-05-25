@@ -16,8 +16,8 @@ d:cron-job-trimssd
 d:cron-job-cleanup
 d:etc-fstab.labels
 d:backgrounds-vladstudio
-d:dep-check
 d:backgrounds-assorted
+d:prt-supplements
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
 f:15a571ea0e307317b2e0efb95eeee460:fonts-conf/.signature
 f:00ed35084250268075e059f0d7bc984f:fonts-conf/README
@@ -108,9 +108,9 @@ f:dbfb03dd2529233a49c6eaf05961b7a8:backgrounds-vladstudio/Pkgfile
 f:4994d5e59bb9803fc49c657d78385096:backgrounds-vladstudio/README
 f:ad952d7bd54a270228ddfea3ebb06c0b:backgrounds-vladstudio/.footprint
 f:39ea5dbbaa3a7175b7109f1df3e93cc6:backgrounds-vladstudio/.signature
-f:e6c7a8911177ecf6bfb189370b1768d9:dep-check/Pkgfile
-f:cefe57fd6f3c828e44e11975277ab1f5:dep-check/.footprint
-f:85f55463ed855b5500f57c873a8aecbd:dep-check/.signature
 f:10c4fa7bd76be154816cec348e4f244d:backgrounds-assorted/Pkgfile
 f:213daa7da3955c2ce540438107fc6a89:backgrounds-assorted/.footprint
 f:5a7ddb8a449832e169166dcb5172b5a3:backgrounds-assorted/.signature
+f:ed85f5ef41b16902ca87bed5e650751a:prt-supplements/Pkgfile
+f:90dcf4c598f980665bedd286514c68b5:prt-supplements/.footprint
+f:e449ad20a1ba4f4303c854fe08c238a7:prt-supplements/.signature
