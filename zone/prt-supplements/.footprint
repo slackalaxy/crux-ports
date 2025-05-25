@@ -5,3 +5,11 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/missdepslist
 -rwxr-xr-x	root/root	usr/bin/prtskim
 -rwxr-xr-x	root/root	usr/bin/revlib
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-rw-r--	root/root	usr/share/man/man1/finddepsrow.1.gz
+-rw-rw-r--	root/root	usr/share/man/man1/missdeps.1.gz
+-rw-rw-r--	root/root	usr/share/man/man1/missdepslist.1.gz
+-rw-rw-r--	root/root	usr/share/man/man1/prtskim.1.gz
+-rw-rw-r--	root/root	usr/share/man/man1/revlib.1.gz
