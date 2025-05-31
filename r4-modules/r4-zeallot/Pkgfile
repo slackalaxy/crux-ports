@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/zeallot
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: r4-knitr r4-magrittr r4-purrr r4-rmarkdown r4-testthat
+# Optional: r4-codetools r4-knitr r4-purrr r4-rmarkdown r4-testthat
 
 name=r4-zeallot
-version=0.1.0
+version=0.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/zeallot_${version}.tar.gz)
 

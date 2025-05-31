@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-cpp11 r4-knitr r4-rcpp r4-rmarkdown r4-testthat r4-withr
 
 name=r4-pkgbuild
-version=1.4.7
+version=1.4.8
 release=1
 source=(https://cloud.r-project.org/src/contrib/pkgbuild_${version}.tar.gz)
 

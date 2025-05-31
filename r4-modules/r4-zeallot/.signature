@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BNbmrOKWtlfDZTfMMHjWMftvKJb9gKHqDCwp10saZQWetNx0Mhld1hS8TCkQjGfOPEafg19dZv6rv+hxOHbHAE=
-SHA256 (Pkgfile) = 1a5604073a55b059ab85208a98f8ac73a3101b1231ddd9688651f287b945394b
+RWQ2oTreAss89NMTbAF02CEW1yDTvynd45OReI1byqYCL2zHQUi8HHEGoP0q+4dd5KaVE8QdwfDI+Nu1Pzd4/cDNqkP7oHatLQM=
+SHA256 (Pkgfile) = 2f5e9563c26ee5df3b883aa0d91e40d935d6faeb6dbc6077de0525c9469091b0
 SHA256 (.footprint) = baf6e36d72b0ff08f6e8e4336d8f5644e42d37924a1962f035cbe77f425446da
-SHA256 (zeallot_0.1.0.tar.gz) = 439f1213c97c8ddef9a1e1499bdf81c2940859f78b76bc86ba476cebd88ba1e9
+SHA256 (zeallot_0.2.0.tar.gz) = 7f6b97dbb7cd762f76f7319b3e2b38f3d4206fe625d363da1b5f96c928da92bb

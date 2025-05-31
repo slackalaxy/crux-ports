@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/maps
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: r4-mapdata r4-mapproj r4-rnaturalearth r4-sp
+# Optional: r4-mapdata r4-mapproj r4-rnaturalearth r4-sf
 
 name=r4-maps
-version=3.4.2.1
+version=3.4.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/maps_${version}.tar.gz)
 

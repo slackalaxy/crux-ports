@@ -29,11 +29,13 @@ drwxr-xr-x	root/root	usr/lib/R/library/promises/doc/
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_02_intro.html
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_03_overview.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_03_overview.html
+-rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_04_futures.R
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_04_futures.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_04_futures.html
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_05_future_promise.R
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_05_future_promise.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_05_future_promise.html
+-rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_06_shiny.R
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_06_shiny.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_06_shiny.html
 -rw-r--r--	root/root	usr/lib/R/library/promises/doc/promises_07_combining.Rmd

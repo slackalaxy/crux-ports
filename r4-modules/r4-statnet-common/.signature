@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NpFt3/Ib1hPfTpnEotQqn9vqpy3020xBeMxv1d+Gm1ous7r24Mamz7zJZpCKwuvMzM4oyW6zyB1DdfC2gDtLwg=
-SHA256 (Pkgfile) = 47563d0330184ff58244af16e96f28654b786a54ea6a474fd0b7025403a10942
+RWQ2oTreAss89L+C75rKULLk0IzzKHgNHQB2GdhewAWeCGP8Tm2uAWi57XPqb3msEzPGRZd3pnIdrLlH3iPjM0/iXkaS5JXcbAQ=
+SHA256 (Pkgfile) = 543b54649a290aa8ee8908d086b8e525cc5b3c5d143cc75a7a7eee358d14b7cf
 SHA256 (.footprint) = b867f318b0838db36a348643eb9caabf813e8c0025906bcc98e3d73a3394e9ca
-SHA256 (statnet.common_4.11.0.tar.gz) = 26be96987f3e8dc624a4e44fb464e2989d82b8a15b926d8f8e4104022659b65a
+SHA256 (statnet.common_4.12.0.tar.gz) = 45c6c9c1c30bd8abc3362fe7d6cdd5d53c3a9283630097d3d96e1258094584fc

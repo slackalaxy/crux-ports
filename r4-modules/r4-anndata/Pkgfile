@@ -1,11 +1,11 @@
 # Description: R module anndata
 # URL: https://cran.r-project.org/web/packages/anndata
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-assertthat r4-matrix r4-r6 r4-reticulate
+# Depends on: r r4-assertthat r4-cli r4-lifecycle r4-matrix r4-r6 r4-reticulate
 # Optional: r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-anndata
-version=0.7.5.6
+version=0.8.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/anndata_${version}.tar.gz)
 

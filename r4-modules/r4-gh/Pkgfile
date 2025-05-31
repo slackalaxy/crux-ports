@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/gh
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-cli r4-gitcreds r4-glue r4-httr2 r4-ini r4-jsonlite r4-lifecycle r4-rlang
-# Optional: r4-covr r4-knitr r4-mockery r4-rmarkdown r4-rprojroot r4-spelling r4-testthat r4-withr
+# Optional: r4-connectcreds r4-covr r4-knitr r4-rmarkdown r4-rprojroot r4-spelling r4-testthat r4-withr
 
 name=r4-gh
-version=1.4.1
+version=1.5.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/gh_${version}.tar.gz)
 
