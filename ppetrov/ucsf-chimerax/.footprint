@@ -6408,8 +6408,6 @@ drwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt
 -rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/wayland-shell-integration/libqt-shell.so
 -rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/wayland-shell-integration/libwl-shell-plugin.so
 -rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/wayland-shell-integration/libxdg-shell.so
-drwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/webview/
--rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/webview/libqtwebview_webengine.so
 drwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/xcbglintegrations/
 -rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/xcbglintegrations/libqxcb-egl-integration.so
 -rwxr-xr-x	root/root	usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/xcbglintegrations/libqxcb-glx-integration.so
