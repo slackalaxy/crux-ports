@@ -4,19 +4,24 @@
 # Depends on: prt-get prt-utils
 
 name=prt-supplements
-version=ccce2e8
+version=bfc2e74
 release=1
-source=(https://github.com/slackalaxy/depsck/archive/$version/$name-ccce2e874e595fd637940e95acf6e678d32b96f8.tar.gz)
+source=(https://github.com/slackalaxy/depsck/archive/$version/$name-bfc2e74b3911ea9d01ab8d25d175201d93d85552.tar.gz)
 
 build() {
 	cd $name-${version}*
+	
 	mkdir -p $PKG/usr/bin
 	install -m 0755 finddepsrow $PKG/usr/bin
+	install -m 0755 pkg-diff $PKG/usr/bin
 	install -m 0755 prtskim $PKG/usr/bin
 	install -m 0755 missdeps $PKG/usr/bin
-	install -m 0755 missdepslist $PKG/usr/bin
 	install -m 0755 revlib $PKG/usr/bin
 	
 	mkdir -p $PKG/usr/share/man/man1
-	cp -a man1/* $PKG/usr/share/man/man1/
+	install -m 0644 man1/finddepsrow.1 $PKG/usr/share/man/man1
+	install -m 0644 man1/pkg-diff.1 $PKG/usr/share/man/man1
+	install -m 0644 man1/prtskim.1 $PKG/usr/share/man/man1
+	install -m 0644 man1/missdeps.1 $PKG/usr/share/man/man1
+	install -m 0644 man1/revlib.1 $PKG/usr/share/man/man1
 }
