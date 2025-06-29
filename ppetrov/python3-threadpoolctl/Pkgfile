@@ -4,7 +4,7 @@
 # Depends on: python3-build
 
 name=python3-threadpoolctl
-version=3.5.0
+version=3.6.0
 release=1
 source=(https://github.com/joblib/threadpoolctl/archive/$version/threadpoolctl-$version.tar.gz)
 
