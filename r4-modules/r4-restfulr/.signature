@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89HeMRx8N6LGmgYIWE7IKAGhKaO3U/QUTejca3U4I8Y8KqUaNVVXS95wZziiXBDM1ImgB9sQ5IIiqFBlFIQ6PNAQ=
-SHA256 (Pkgfile) = ca39d1631775bdf200dec3353afe0dcb5e867210b9b2bc4d0419472408fdaa53
+RWQ2oTreAss89LoPjtWjs+kpOfbe6tj9DXW54hKavG7NXrXp3liGVPQ+E9x+L+VBshtS25PPqHourQs4kTbIY3lmNtiNMWhhtAg=
+SHA256 (Pkgfile) = 3c64e9be8e29f5b701fb0df38d442c11bad655c84ffdea738f1c85d9c6ff0cad
 SHA256 (.footprint) = 9bced19bb9154bf79147ba0cffa661bb834e16d8d6de89b5e216d5bc8bd44485
-SHA256 (restfulr_0.0.15.tar.gz) = 40ff8f1fb2987af2223e1a855bb1680c5ce2143fbce7ebc42f1edb291f80e692
+SHA256 (restfulr_0.0.16.tar.gz) = 574fd11a3f23f494ff8e94ce84d767f49d3399600d617ad26fb71b8332e93725

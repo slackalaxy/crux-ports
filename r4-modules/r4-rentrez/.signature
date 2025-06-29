@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KZwfoPUEEELkxfcljILcOe2fbYNdYKj+iTlBTMZHqxgPcoWKaDfTJrQKQB5qGa5oxN7eaPVbl1T5aarQPwbOQU=
-SHA256 (Pkgfile) = 2a13b0cc3c8b6296ce709f1e95647e74462feeb0fe5156cf7d74df54a62a95ca
-SHA256 (.footprint) = 012acfd52595f3e560176e7dafa7ef74e8823fa44ab99dfea9358f014ece9fac
-SHA256 (rentrez_1.2.3.tar.gz) = fb256597ebe7780e38bef9c4c2626b3feacd60c7a5a29fc6a218cf0d8d132f74
+RWQ2oTreAss89HsKfW35QWu9MXkqRvTAen3bJ05/ZYjJk9kvLUEr/X2ZDXCslm67V3uG6K+zlixLfeGGaXjjDcHgg2b4bONBkwU=
+SHA256 (Pkgfile) = cbc0407f7e7261849ddd1a4491e234c3bbbf18eb6fa9fa44529af76356749750
+SHA256 (.footprint) = 2bdc31f4a04a003caf58fa76172a4107ae7d4c8c17b5953e0a04c3a78cd1c8da
+SHA256 (rentrez_1.2.4.tar.gz) = 22dda569f264128b5e86aa0ed6e9a5a11e489bbc01ac55300a272c8cd233e180

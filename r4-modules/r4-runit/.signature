@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89PJve22LJaiIgK435AEmtqtH/08VGGi7snxq+d/RbN6cOTbfF+pxlPH4jRBXEU9YIF2DoEdM/oN9JwgAP4CkSgw=
-SHA256 (Pkgfile) = 0d814a20b07676b90fdffcd9cff09de30a0ef81bf880aa33882871f0d4af69b6
+RWQ2oTreAss89JBetfuTN7ECGZO6sAebO3XsukWqXjeF3leOUTWit1j0OGmsVJowvZUUBZ3avwjmmGyUx5mtZ+1T6t3YJa5rqw0=
+SHA256 (Pkgfile) = 5d6c7e3129b21ede9f0db6b124684c789862f35b4613f4ef1926fe9fde37f2ec
 SHA256 (.footprint) = d78deb6c49370e90e1e5ea0ad59df1de2b9161cad244d3eb055d88d02397f943
-SHA256 (RUnit_0.4.33.tar.gz) = b2a4c5afc7ef9534dac5006f6ef1b2af68630bb73eb74ef70ec7ed53dae6cb5f
+SHA256 (RUnit_0.4.33.1.tar.gz) = 8528fa3ba8d04a6e71783f01ba3e1163b5900c6b3c2bc81bad2349e220197f05

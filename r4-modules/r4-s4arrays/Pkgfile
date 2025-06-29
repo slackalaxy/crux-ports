@@ -5,7 +5,7 @@
 # Optional: r4-biocparallel r4-biocstyle r4-delayedarray r4-hdf5array r4-knitr r4-rmarkdown r4-sparsearray r4-testthat
 
 name=r4-s4arrays
-version=1.8.0
+version=1.8.1
 release=1
 source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/S4Arrays_${version}.tar.gz)
 

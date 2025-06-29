@@ -5,7 +5,7 @@
 # Optional: r4-xml
 
 name=r4-runit
-version=0.4.33
+version=0.4.33.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/RUnit_${version}.tar.gz)
 

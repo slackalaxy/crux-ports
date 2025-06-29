@@ -5,7 +5,7 @@
 # Optional: r4-gtable r4-knitr r4-rcolorbrewer r4-testthat
 
 name=r4-ggpubr
-version=0.6.0
+version=0.6.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggpubr_${version}.tar.gz)
 

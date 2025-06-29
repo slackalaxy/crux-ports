@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AA/FjY7AmKBNHmeYJpbYSGid7ZvZWCyUwyAeQXz2S1UQKvmlYrnzXPqeUF9tC/AYCSKiCDoKhhd3vMluw6v9A0=
-SHA256 (Pkgfile) = 420e3e9dcb32862d35acbaf752f130d0edeaba0e8cc06b7d7017b4588e007456
+RWQ2oTreAss89CauJVxA6opiH5OqFj/+1S1F2cyozbBCrlzbrq+H4C12Ymw+4tTDad8IX+SCw/aRDvuKR1qRqxEBTKA2m1K7OA0=
+SHA256 (Pkgfile) = 10ce0ac728869afc542cf2dd2477691a45e1d3cb80f668d33a1fba6e5c0d9c51
 SHA256 (.footprint) = ebd02520c788a6b30e9ea606bfb9cba95ab2d643af43de5b4a43421a91cb5127
-SHA256 (magick_2.8.6.tar.gz) = 3039beaa5b028d032c1c7206b1d7eac979e7ededf7a63d74b2159649578ad4a5
+SHA256 (magick_2.8.7.tar.gz) = 355a857e79fe8e6d87ee99f3f731e2823b7c241a316c7063a033de6861b9f206

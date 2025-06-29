@@ -5,7 +5,7 @@
 # Optional: r4-callr r4-cli r4-dbitest r4-decor r4-gert r4-gh r4-hms r4-knitr r4-magrittr r4-rmarkdown r4-rvest r4-testthat r4-withr r4-xml2
 
 name=r4-rsqlite
-version=2.3.11
+version=2.4.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/RSQLite_${version}.tar.gz)
 

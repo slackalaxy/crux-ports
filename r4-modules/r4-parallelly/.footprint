@@ -74,10 +74,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/parallelly/test-data/cgroups2/
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/cgroups2/x1.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/cgroups2/x1.tar.gz
 drwxr-xr-x	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/
--rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/piavpn-cgroups.tar.gz
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/piavpn.R
--rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/slurm-cgroups.tar.gz
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/piavpn.tar.gz
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/slurm.R
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/slurm.tar.gz
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/wsl2-invalid-mounts.R
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/mixed-cgroups/wsl2-invalid-mounts.tar.gz
 drwxr-xr-x	root/root	usr/lib/R/library/parallelly/test-data/no-cgroups/
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/no-cgroups/no-cgroups.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/test-data/no-cgroups/no-cgroups.tar.gz
@@ -95,8 +97,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/parallelly/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/_prologue/090.context.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/_prologue/090.options.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/_prologue/091.envvars.R
--rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/deploy.R
--rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/run.R
+-rwxr-xr-x	root/root	usr/lib/R/library/parallelly/testme/deploy.R
+-rwxr-xr-x	root/root	usr/lib/R/library/parallelly/testme/run.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-all.equal.connection.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-as.cluster.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-availableCores.R

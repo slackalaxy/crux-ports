@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GfhvI20r5z5iyMAgHgkbKZFmyiMMJvoVmSqU32gu1Essyg0wtrqu5PBPdqYxO8/1FDuSvhsSY/Cpee2IuS0jg4=
-SHA256 (Pkgfile) = 8615f8d1fe46a4e6dd432be92cd9bc0fd7f12bfabfdf24b7a40506ac72695e20
-SHA256 (.footprint) = 0421a732597f9979d5a1fc36ef9c55992a4f238b4214ba2466c57a60c9a65fa6
-SHA256 (plotly_4.10.4.tar.gz) = cfa995b7ed55d31a196707a3ae6ea352dd907cef3058a3bf1956fde39366d867
+RWQ2oTreAss89H5xEClkN5W4rhXkwGkAmOUHo9kFuYPGGOU42tfW0J3hYS98QdIv0iS1L45/OVnbsKJdENRr6omccARdUwH8oAM=
+SHA256 (Pkgfile) = 95f9b50916f36077c9d71ec45ed6710399b4d8c2ab7112a04aa6793b0d571dc1
+SHA256 (.footprint) = 78542d8c206f2d38aa0ac3471c20004e307d792bb35b5ae56e9a050e0a55536e
+SHA256 (plotly_4.11.0.tar.gz) = ba9009cd7e913590872aa153b13be719e4dfcee8cd24f8631bd35c99044bceb3

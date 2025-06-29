@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IOxoQKMXaMxvLEQ6uILfUbTwpmjII1Z6F/OnHc0+0WoqZ33fAEzI0RKKHTQtZDvwZOENXkm0GSkSe3bZCXmAwk=
-SHA256 (Pkgfile) = e01083731fe666b2d0ae2c0a53c8696d757c46fc2e08a1a90cedd9a360d0f0ae
+RWQ2oTreAss89Oge2RdU+PKHVujie4JaPQ1oIUiC2MO0IyoC1A0MmInEvgLKoGhmjNH4WCMt7Tpec+nlSUcNWlESYBVBKZYYzQw=
+SHA256 (Pkgfile) = ec120e38d896806b3dac533adfa5d726904ecbff6be5f4c787c07f826760f97e
 SHA256 (.footprint) = 17ac7089d5cc7029d931309111fec3652ba5aeecb16f06111a4c0750dfc9844b
-SHA256 (packrat_0.9.2.tar.gz) = 69df5943257e6c4d06f3d907241b668b53dedece72158ca935260b8b8e1672d7
+SHA256 (packrat_0.9.3.tar.gz) = db73e62a5c536fd16b6549a61d0dd109eff4f94ac6236c52de53bde2230f81d6

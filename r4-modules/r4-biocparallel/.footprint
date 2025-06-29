@@ -24,11 +24,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/R/
 -rwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/RSOCKnode.sh
 drwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/doc/
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/BiocParallel_BatchtoolsParam.R
--rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/BiocParallel_BatchtoolsParam.Rnw
--rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/BiocParallel_BatchtoolsParam.pdf
+-rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/BiocParallel_BatchtoolsParam.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/BiocParallel_BatchtoolsParam.html
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/Errors_Logs_And_Debugging.R
--rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/Errors_Logs_And_Debugging.Rnw
--rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/Errors_Logs_And_Debugging.pdf
+-rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/Errors_Logs_And_Debugging.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/Errors_Logs_And_Debugging.html
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/Introduction_To_BiocParallel.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/Introduction_To_BiocParallel.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/doc/Introduction_To_BiocParallel.html

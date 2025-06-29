@@ -16,7 +16,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rentrez/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/rentrez/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/rentrez/Meta/vignette.rds
 -rw-r--r--	root/root	usr/lib/R/library/rentrez/NAMESPACE
--rw-r--r--	root/root	usr/lib/R/library/rentrez/NEWS
+-rw-r--r--	root/root	usr/lib/R/library/rentrez/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/rentrez/R/
 -rw-r--r--	root/root	usr/lib/R/library/rentrez/R/rentrez
 -rw-r--r--	root/root	usr/lib/R/library/rentrez/R/rentrez.rdb

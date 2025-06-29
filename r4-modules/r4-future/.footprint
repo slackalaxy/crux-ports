@@ -94,6 +94,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/future/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-demo-mandelbrot.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-dotdotdot.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-early-signaling.R
+-rw-r--r--	root/root	usr/lib/R/library/future/testme/test-error_on_warn_2.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-future,labels.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-future,optsenvvars.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-future.R
@@ -123,6 +124,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/future/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-immediateCondition.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-interrupts-from-worker-itself.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-invalid-owner.R
+-rw-r--r--	root/root	usr/lib/R/library/future/testme/test-makeClusterFuture.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-mandelbrot.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-misuse-connections.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-mpi.R

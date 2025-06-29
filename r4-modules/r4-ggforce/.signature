@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NEo99dWi3d4MdXg2VDzB3RG/qFmbVKnbR+hDMi5+eWWaXlV/TjKOykc5V30+prdexJnb4f0rBMll08Xah/rPQQ=
-SHA256 (Pkgfile) = 1091c6daeae87c6311a434a8891d1e3c47ceceba45552f334334d29ed8e41f4d
+RWQ2oTreAss89D4KusWZaX9+zdQs7iSx5Qfl++nZrMlvEOCj0ZDIkjNMp5sQbvIWa3qs218fd25NwYZre1kCyqCxrAL+L8w3oAs=
+SHA256 (Pkgfile) = a85ec7d9eb12e19c22edbf8d3a2be4af65f01611338f40db2262950fb306f48d
 SHA256 (.footprint) = 24e77ee54976ee12f65a3e5d35723ab49a4164ea2c4317697d989b64a4581011
-SHA256 (ggforce_0.4.2.tar.gz) = c145b0e6ed6847d409ed2fe103b81234855bc0661cde2bfb4410fb23680e51a8
+SHA256 (ggforce_0.5.0.tar.gz) = 41b3ea33dc4da774a0047a446676e7c4d6c41592ad9cdb21db8d4efebcfb5d53

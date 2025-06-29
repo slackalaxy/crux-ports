@@ -1,11 +1,11 @@
 # Description: R module tensor
 # URL: https://cran.r-project.org/web/packages/tensor
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: 
 
 name=r4-tensor
-version=1.5
+version=1.5.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/tensor_${version}.tar.gz)
 

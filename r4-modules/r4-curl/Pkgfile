@@ -5,7 +5,7 @@
 # Optional: r4-httpuv r4-jsonlite r4-knitr r4-later r4-rmarkdown r4-spelling r4-testthat r4-webutils
 
 name=r4-curl
-version=6.2.3
+version=6.4.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/curl_${version}.tar.gz)
 

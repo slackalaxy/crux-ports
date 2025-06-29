@@ -1,11 +1,11 @@
 # Description: R module magick
 # URL: https://cran.r-project.org/web/packages/magick
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: imagemagick r r4-curl r4-magrittr r4-rcpp
+# Depends on: r r4-curl r4-magrittr r4-rcpp
 # Optional: r4-av r4-gapminder r4-ggplot2 r4-gifski r4-irdisplay r4-jsonlite r4-knitr r4-pdftools r4-rmarkdown r4-rsvg r4-spelling r4-tesseract r4-webp
 
 name=r4-magick
-version=2.8.6
+version=2.8.7
 release=1
 source=(https://cloud.r-project.org/src/contrib/magick_${version}.tar.gz)
 
