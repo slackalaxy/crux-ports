@@ -4,7 +4,7 @@
 # Depends on: cups double-conversion gnutls gtk3 icu keyutils krb5 libidn2 libinput nss pulseaudio qt5 wayland
 
 name=zoom-linux
-version=6.4.12.2180
+version=6.5.1.2550
 #version=$(tar -xOf zoom_x86_64.tar.xz zoom/version.txt)
 release=1
 source=(https://zoom.us/client/latest/zoom_x86_64.tar.xz
