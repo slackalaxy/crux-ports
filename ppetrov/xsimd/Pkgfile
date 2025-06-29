@@ -4,7 +4,7 @@
 # Depends on:
 
 name=xsimd
-version=13.0.0
+version=13.2.0
 release=1
 source=(https://github.com/xtensor-stack/xsimd/archive/$version/$name-$version.tar.gz)
 
