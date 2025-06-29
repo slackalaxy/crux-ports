@@ -229,8 +229,12 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github-authentica
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github-authentication/package.nls.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/430.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/555.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/698.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/extension.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/extension.js.LICENSE.txt
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/extension.webpack.config.cjs
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/images/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/images/icon.png
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/markdown.css
@@ -831,6 +835,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/prompt-basics/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/prompt-basics/package.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/prompt-basics/package.nls.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/prompt-basics/snippets/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/prompt-basics/snippets/chatmode.code-snippets
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/prompt-basics/snippets/instructions.code-snippets
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/prompt-basics/snippets/prompt.code-snippets
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/prompt-basics/syntaxes/
@@ -2369,8 +2374,8 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/disp
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/dispatcher.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/env-http-proxy-agent.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/fixed-queue.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/h2c-client.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/pool-base.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/pool-stats.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/pool.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/proxy-agent.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/dispatcher/retry-agent.js
@@ -2397,6 +2402,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/llht
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/llhttp/utils.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/mock/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/mock/mock-agent.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/mock/mock-call-history.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/mock/mock-client.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/mock/mock-errors.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/mock/mock-interceptor.js
@@ -2407,6 +2413,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/mock
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/util/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/util/cache.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/util/date.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/util/stats.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/util/timers.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/web/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/undici/lib/web/cache/
@@ -2594,6 +2601,8 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/media/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/media/code-icon.svg
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/media/codicon.ttf
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/media/github.svg
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/media/google.svg
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/media/letterpress-dark.svg
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/media/letterpress-hcDark.svg
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/media/letterpress-hcLight.svg
@@ -2617,11 +2626,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/base/parts/sandbox/el
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/base/parts/sandbox/electron-sandbox/preload.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.html
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorer.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.css
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/processExplorer/processExplorerMain.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/code/electron-sandbox/workbench/workbench.js
@@ -2648,7 +2652,10 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilit
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/break.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatEditModifiedFile.mp3
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/chatUserActionRequired.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/clear.mp3
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/codeActionApplied.mp3
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/codeActionTriggered.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineDeleted.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineInserted.mp3
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/platform/accessibilitySignal/browser/media/diffLineModified.mp3
@@ -2727,7 +2734,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/web
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/webview/browser/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/webview/browser/pre/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/webview/browser/pre/fake.html
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/webview/browser/pre/index-no-csp.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/webview/browser/pre/index.html
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/webview/browser/pre/service-worker.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/
@@ -2735,6 +2741,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/wel
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/ai-powered-suggestions.svg
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/commandPalette.svg
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/customize-ai.svg
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/dark-hc.png
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/dark.png
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/debug.svg
@@ -2761,10 +2768,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/wel
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/terminal.svg
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/contrib/welcomeGettingStarted/common/media/workspaceTrust.svg
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensionManagement/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensionManagement/common/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensionManagement/common/media/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensionManagement/common/media/defaultIcon.png
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensions/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensions/worker/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/extensions/worker/webWorkerExtensionHostIframe.html
