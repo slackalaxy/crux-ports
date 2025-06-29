@@ -4,12 +4,12 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba-0.61.0.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.0.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.0.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.0.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.0.dist-info/direct_url.json
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.0.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba-0.61.2.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.2.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.2.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.2.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.2.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.61.2.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/__main__.py
@@ -255,6 +255,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/typeconv/__pyca
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typeinfer.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/types/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/__init__.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/__init__.pyi
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/types/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/__pycache__/abstract.cpython-312.pyc
