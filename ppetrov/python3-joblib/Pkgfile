@@ -4,22 +4,18 @@
 # Depends on: python3-wheel
 
 name=python3-joblib
-version=1.4.2
+version=1.5.1
 release=1
-source=(https://files.pythonhosted.org/packages/64/33/60135848598c076ce4b231e1b1895170f45fbcaeaa2c9d5e38b04db70c35/joblib-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/dc/fe/0f5a938c54105553436dbff7a61dc4fed4b1b2c98852f8833beaf4d5968f/joblib-$version.tar.gz)
 
 build() {
   cd ${name#*-}-$version
 
-  /usr/bin/python3 setup.py build
-  /usr/bin/python3 setup.py install \
-                   --prefix=/usr    \
-                   --root="$PKG"    \
-                   --skip-build     \
-                   --optimize=1
+  /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
 
   find $PKG \( -iname "README*" -o \
                -iname INSTALLER -o \
                -iname REQUESTED -o \
-               -iname "LICENSE*"   \) -delete
+               -iname "LICENSE"   \) -delete
+  chmod -R g-w $PKG
 }
