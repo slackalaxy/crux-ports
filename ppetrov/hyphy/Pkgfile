@@ -4,7 +4,7 @@
 # Depends on: openmpi
 
 name=hyphy
-version=2.5.73
+version=2.5.74
 release=1
 source=(https://github.com/veg/hyphy/archive/$version/$name-$version.tar.gz)
 

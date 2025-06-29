@@ -137,6 +137,9 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/Distances/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/Distances/p_Distance_codon
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/F_ST.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/FitnessAAModels.bf
+drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/GA/
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/GA/MSS-selector-codon.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/GA/processor-codon.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/GARD.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/GA_CHC.ibf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/GA_CHC_Binary.ibf
@@ -152,7 +155,6 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/GUI/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/LocalMolClock.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MGvsGY.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MSS-joint-fitter.bf
--rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MSS-selector-2.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MSS-selector.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MergeSequences.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/MergeSites.bf
