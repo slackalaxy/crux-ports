@@ -3,9 +3,10 @@ Leave these:
 	/etc/fonts/conf.d/10-autohint.conf
 	/etc/fonts/conf.d/10-scale-bitmap-fonts.conf
 
-Remove these:
+Remove these (second one prevents terminus otb to be used):
 
-	/etc/fonts/conf.d/10-hinting-*.conf
+	/etc/fonts/conf.d/10-hinting-*.conf	
+	/etc/fonts/conf.d/70-no-bitmaps-except-emoji.conf
 
 Set freetype (e.g. in .bash_profile):
 
