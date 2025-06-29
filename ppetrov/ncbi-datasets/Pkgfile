@@ -4,7 +4,7 @@
 # Depends on:
 
 name=ncbi-datasets
-version=18.2.3
+version=18.3.1
 release=1
 source=(https://github.com/ncbi/datasets/releases/download/v${version}/linux-amd64.cli.package.zip)
 renames=($name-$version.zip)
