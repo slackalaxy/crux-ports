@@ -4,10 +4,10 @@
 # Depends on: double-conversion icu mpv qt5
 
 name=smplayer
-version=24.5.0
+version=25.6.0
 _thmver=20.11.0
 release=2
-source=(https://downloads.sourceforge.net/$name/$name-$version.tar.bz2
+source=(https://github.com/smplayer-dev/smplayer/releases/download/v${version}/smplayer-$version.tar.bz2
 	https://downloads.sourceforge.net/smplayer/$name-themes-${_thmver}.tar.bz2)
 
 build() {
