@@ -4,7 +4,7 @@
 # Depends on: boost python3-beniget python3-numpy python3-ply xsimd
 
 name=python3-pythran
-version=0.17.0
+version=0.18.0
 release=1
 source=(https://github.com/serge-sans-paille/pythran/archive/$version/pythran-$version.tar.gz)
 
