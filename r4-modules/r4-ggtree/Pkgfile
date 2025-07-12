@@ -5,7 +5,7 @@
 # Optional: r4-emojifont r4-ggimage r4-ggplotify r4-glue r4-knitr r4-prettydoc r4-rmarkdown r4-shadowtext r4-testthat r4-tibble
 
 name=r4-ggtree
-version=3.16.0
+version=3.16.2
 release=1
 source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/ggtree_${version}.tar.gz)
 

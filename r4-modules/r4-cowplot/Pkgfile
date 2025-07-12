@@ -5,7 +5,7 @@
 # Optional: r4-cairo r4-covr r4-dplyr r4-forcats r4-gridgraphics r4-knitr r4-lattice r4-magick r4-maps r4-paswr r4-patchwork r4-ragg r4-rmarkdown r4-testthat r4-tidyr r4-vdiffr r4-venndiagram
 
 name=r4-cowplot
-version=1.1.3
+version=1.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/cowplot_${version}.tar.gz)
 

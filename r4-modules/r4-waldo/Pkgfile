@@ -5,7 +5,7 @@
 # Optional: r4-bit64 r4-r6 r4-s7 r4-testthat r4-withr r4-xml2
 
 name=r4-waldo
-version=0.6.1
+version=0.6.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/waldo_${version}.tar.gz)
 

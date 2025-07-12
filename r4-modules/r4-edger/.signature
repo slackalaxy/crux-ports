@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Orh4wbfeZoBuaB3smxxQypQjRdX9oZdSekwJ8vwPfTDL7UT9memXaiQ+OtMP/OyTWxyD0Tb/1DlaSqNEiqhFgM=
-SHA256 (Pkgfile) = e664b6d88342a58036a5209b61490554de96a5e814e8286c6d57e3cc6ac7412f
+RWQ2oTreAss89LRw7SF1eGwAzJ8pLIepPxgZtvDMDjbs6cQVwTsXIB+gda2U4NLHp+LbtsqxxxvnYusTn3zCfKrmnJZJOX0mSwY=
+SHA256 (Pkgfile) = 9926d0f55b3e1dc48c1b482f8540c65893584fc1a4eac0bf04fa7db270168923
 SHA256 (.footprint) = 64e45ea84533799385b0dc23fa227e60af976e5fbf18cc324702a52ed56d33fc
-SHA256 (edgeR_4.6.2.tar.gz) = 97fceca5d1e72b0441efeb901e99ef8363cac60d3578fa5e4c54892f60f9c53f
+SHA256 (edgeR_4.6.3.tar.gz) = 93dec6ab2af33182251df2090ea809dc8e2e0f652b1975971580dfd7d2b53b8d

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89MMxA+vHCV5lmuN0SydsOq1gjZxvYdivcAU5zA7NCsF3ZiGIJJ1RkjmE5XS3kHiCvT0teW3eGf0h1G1iGyCuTQY=
-SHA256 (Pkgfile) = f3772b5f484aecda21c1e08bb26808a3ad1640dd31e95af8601e498e414a3f85
+RWQ2oTreAss89MXz4q9yrfWuBCYih3Jtvr1xclPAiN4TJtSEls/51PLaTFK9OkkpkF5NrHovJ384HR1cTwPUl5kecks2hxOSiAQ=
+SHA256 (Pkgfile) = 2a4e0e9a260ef25a165a4f4b934b0b2df23a4b1a4743e0743f6cbc9b1b23c460
 SHA256 (.footprint) = 87c480e81084f27bd4f37e408e1014b949af0f267a1188bcae44a64cca7f4525
-SHA256 (aplot_0.2.7.tar.gz) = ab56cc81136479469328b6d57cb4d92002a639b531782b13b9458159b7b64af9
+SHA256 (aplot_0.2.8.tar.gz) = 8fc4aa72c7eaf873715e8fa6fac4ca8e294493a5135f142cfaab52fe3c336bfa

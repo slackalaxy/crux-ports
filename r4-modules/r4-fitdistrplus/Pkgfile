@@ -5,9 +5,9 @@
 # Optional: r4-actuar r4-bookdown r4-gamlss-dist r4-generalizedhyperbolic r4-ggplot2 r4-hmisc r4-knitr r4-mc2d r4-rgenoud r4-rmarkdown
 
 name=r4-fitdistrplus
-version=1.2.2
+version=1.2.4
 release=1
-source=(https://cloud.r-project.org/src/contrib/fitdistrplus_1.2-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/fitdistrplus_1.2-4.tar.gz)
 
 build() {
 	cd fitdistrplus
