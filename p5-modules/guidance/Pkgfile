@@ -1,16 +1,16 @@
 # Description: GUIDe tree based AligNment ConfidencE
-# URL: http://guidance.tau.ac.il/
+# URL: https://github.com/HaimAshk/GUIDANCE
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p5-bioperl
+# Depends on: p5-bioperl ruby mafft muscle prank
 
 name=guidance
 version=2.02
-release=1
-source=(https://sourceforge.net/projects/old-software-collection/files/guidance-v${version}.tar.gz
+release=2
+source=(https://github.com/HaimAshk/GUIDANCE/archive/refs/tags/guidance.v${version}.tar.gz
 	$name.sh)
 
 build() {
-	cd $name.v${version}
+	cd GUIDANCE-$name.v${version}
 	make
 	
 	find . -type f -iname '*.pl' -exec chmod 0755 {} \;
