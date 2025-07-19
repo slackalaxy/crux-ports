@@ -29,9 +29,6 @@ build() {
 	-D CMAKE_INSTALL_PREFIX=/usr \
 	-D CMAKE_BUILD_TYPE=Release ..
 
-	# It is actually not necessary anymore to specify here MP and HYPHYMPI,
-	# as 'make' alone will attempt to build them both. However, let's leave
-	# them, just in case.
 	make MP HYPHYMPI
 	make install DESTDIR=$PKG
 	
