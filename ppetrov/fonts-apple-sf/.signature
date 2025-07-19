@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdDz+hJ8jE7NNZF+wWMlapmXF71aqap5IWBEM8W3AMfLXQFcGYeNGtGBJiXQkDHD17clBFrkcNywR8NPvk8+hA4=
-SHA256 (Pkgfile) = 3c7b50f7162b6c3ea7370dcd98365ce322f04c557e1170d1d805a0a31495bdd2
+RWToVVsIkzFIZSYj+5wnALc7oxZa+yP1mkrIVINoNz4sllAgN5TfqtqqIX0Ndh7BjXGXzoBKP8QfktnOCiGJi/jap5UK3GSzmgY=
+SHA256 (Pkgfile) = e4d9e0889e74ab7995aeb2e78a80168d80dcbfbd21e442ac86f6bca55e591fc6
 SHA256 (.footprint) = bdee666c5e4f50ec6b972a1217b3b27543073f21102261e23571a71e7b14193a
-SHA256 (SF-Pro.dmg) = 21c701d2e5967cf0a2747617eac02eb2e1195fdd3a755628f086aa797eff3bcf
-SHA256 (SF-Compact.dmg) = 3e5ada33a4b01fcb13c67541a3a2eab7d07ab406430bffd508fc2bfcf35c9e59
-SHA256 (SF-Mono.dmg) = 6d4a0b78e3aacd06f913f642cead1c7db4af34ed48856d7171a2e0b55d9a7945
+SHA256 (SF-Pro-wwdc25.dmg) = d3dd07c2d8082ed2bf286a0ecdcc33d6202da224a128056388d8540d0b4efa04
+SHA256 (SF-Compact-wwdc25.dmg) = cfbd26b6cee815a313b78abba7a33b3f34b0e1ab8e11a89a24f22d62a5293740
+SHA256 (SF-Mono-wwdc25.dmg) = 6d4a0b78e3aacd06f913f642cead1c7db4af34ed48856d7171a2e0b55d9a7945

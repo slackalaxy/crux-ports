@@ -5,15 +5,16 @@
 
 name=fonts-apple-sf
 version=wwdc25
-release=1
+release=2
 source=(https://devimages-cdn.apple.com/design/resources/download/SF-Pro.dmg
 	https://devimages-cdn.apple.com/design/resources/download/SF-Compact.dmg
 	https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg)
+renames=(SF-Pro-$version.dmg SF-Compact-$version.dmg SF-Mono-$version.dmg)
 
 build() {
-	7z x $SRC/SF-Compact.dmg
-	7z x $SRC/SF-Mono.dmg
-	7z x $SRC/SF-Pro.dmg
+	7z x $SRC/SF-Compact-$version.dmg
+	7z x $SRC/SF-Mono-$version.dmg
+	7z x $SRC/SF-Pro-$version.dmg
 	
 	mkdir -p $PKG/usr/share/fonts/apple
 	
