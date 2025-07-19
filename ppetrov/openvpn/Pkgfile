@@ -5,9 +5,8 @@
 
 name=openvpn
 version=2.6.14
-release=1
-source=(https://github.com/OpenVPN/$name/archive/v${version}/$name-$version.tar.gz
-	$name.conf $name.rc)
+release=3
+source=(https://github.com/OpenVPN/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
@@ -23,19 +22,5 @@ build() {
   
 	make
 	make DESTDIR=$PKG install
-
-	mkdir -p $PKG/etc/openvpn/{certs,keys}
-	chown root:nobody $PKG/etc/openvpn/{certs,keys}
-	chmod 0750 $PKG/etc/openvpn/{certs,keys}
-	
-	mkdir -p $PKG/usr/share/$name
-	cp -a sample/sample-config-files sample/sample-keys sample/sample-scripts $PKG/usr/share/$name
-	cp -a $SRC/$name.conf $PKG/usr/share/$name
-
-	# Install a startup script:
-	mkdir -p $PKG/etc/rc.d
-	install -D -m 0755 $SRC/openvpn.rc $PKG/etc/rc.d/openvpn
-
-
 	rm -rf $PKG/usr/share/doc
 }
