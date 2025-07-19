@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/p5-modules.pub
-RWShAUlceqQf4dMf9elozLozzQyXtK3fwzMxOO7lB7qRbo9We3amzuRUG14N5Zys+iDDFtmBDelNDvyNVvLkwYfyATpwZfxCZgo=
-SHA256 (Pkgfile) = daef53cb1998bb25d1e919d0d2d2d8c5f11754225221d6000f557e2e72df9735
-SHA256 (.footprint) = a2f3bbd2357e3b8ef41ddbb90cffb204ef33dfa47fa15d13f428039231de0bd5
+RWShAUlceqQf4SL8cubeXD3adrHXyXtrGCSRVSeF86y6E/RQiEH15zB2osP5ERd7LL4vGmP31B/T27vwBuCU6HLS348Ec1ZIBwE=
+SHA256 (Pkgfile) = 866bcab869f087ef1f2febac0bbb79af8ff3df2487fa9084bc521323e39bb744
+SHA256 (.footprint) = 47d060c31aa7320d13fdf04b6b3278d78672883d2a5798132fe2c3ea50bd4429
 SHA256 (BioPerl-1.6.924.tar.gz) = 616a7546bb3c58504de27304a0f6cb904e18b6bbcdb6a4ec8454f2bd37bb76d0
 SHA256 (BioPerl-1.006924-RT106756.patch) = a1eef80f9d0862877e5aaea0bf834414a5910230e69a9cfcf1fc689bd820c93a
