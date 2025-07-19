@@ -1,2 +1,3 @@
 drwxr-xr-x	root/root	etc/
--rw-r--r--	root/root	etc/HOSTNAME
+lrwxrwxrwx	root/root	etc/HOSTNAME -> hostname
+-rw-r--r--	root/root	etc/hostname (EMPTY)

@@ -1,12 +1,15 @@
 # Description: hostname file in /etc
-# URL: /etc/HOSTNAME
+# URL: /etc/hostname
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=etc-hostname
 version=3.8
-release=1
-source=(HOSTNAME)
+release=3
+source=()
 
 build() {
-	install -D -m 0644 $SRC/HOSTNAME $PKG/etc/HOSTNAME
+	mkdir -p $PKG/etc
+	touch $PKG/etc/hostname
+	cd $PKG/etc
+	ln -s hostname HOSTNAME
 }
