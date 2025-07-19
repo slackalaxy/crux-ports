@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwdaK2Dv/1/kN2kVWxbtfmOTgBdDYag6oWmMTncSlyjYMF30WwA6Agq8Vjj854GLyqpm4drn5lks9xwAw9xEvngQ=
+SHA256 (Pkgfile) = 1505dfdc2e553880addc5f65f9fd3dd48bed157e2b9d7a4d80c2b008fdd99e12
+SHA256 (.footprint) = e1e4f06f94f6d8535d7d36f398d78158f4140ab3c9606672aa765f13bcd8d560
+SHA256 (NetworkManager-openvpn-1.12.0.tar.xz) = 903fd4c0aebd2aa7ac70c9d8c2bed8df922655d22d764514403566ae89b7e886

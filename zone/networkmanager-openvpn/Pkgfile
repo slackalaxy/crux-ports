@@ -1,0 +1,25 @@
+# Description: NetworkManager VPN plugin for OpenVPN
+# URL: https://slackware.uk/slackware/slackware64-current/source/xap/NetworkManager-openvpn/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libsecret openvpn
+
+name=networkmanager-openvpn
+version=1.12.0
+release=1
+source=(https://slackware.uk/slackware/slackware64-current/source/xap/NetworkManager-openvpn/NetworkManager-openvpn-${version}.tar.xz)
+
+build() {
+	cd NetworkManager-openvpn-$version
+
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--libexecdir=/usr/lib \
+		--disable-static \
+		--disable-nls \
+		--with-gtk4
+
+	make
+	make DESTDIR="$PKG" install dbusservicedir=/usr/share/dbus-1/system.d
+	mkdir -p $PKG/var/lib/openvpn/chroot
+}
