@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQy3micRo1nwbZc+YdlkrpWES520mjaHwbw8jOVHnU1AneI1/dm+ssIzkViwoZ5Q+peX1DVOx3IN5Jen8aV2Sw0=
-SHA256 (Pkgfile) = 89134e6c072c67e7b1726466806f57e41b6c059d0e1178c7072968746cc56877
+RWToVVsIkzFIZf6j3ua6ivralaPWr014huN3Ol5ryMwoX4SYoiLl8J0vNY+nZxfeDPB3ngzayklaLy02q3Vf7LAmtKSVaFdDogk=
+SHA256 (Pkgfile) = 00290681c62a6396dbcab09b6be975bf37bddcd3e0105d9695b1725673201cf6
 SHA256 (.footprint) = 4882b1454ecf27bcd70617dba5289ad38b3e0e7af144efdacf049c7c05d3a2ec
-SHA256 (VSCodium-linux-x64-1.102.04606.tar.gz) = 99525494fa9b264c38aabff9134af6dcb6ff3ec8754f1d15c3678cee119db1a4
+SHA256 (VSCodium-linux-x64-1.102.14746.tar.gz) = 5b5cbf60eb7820fd17bec639843558d6ef3257cb79a4b75acabbe160320eca51
 SHA256 (vscodium.desktop) = bc1e35191e99d4ca02cbefd3d028c75543e1b74ca6f551ff22fe262f011dd3ab
 SHA256 (vscodium.png) = 2770ae0b9fce66602e63f394f55b02e03672827450380b1fa47ea0ea87772005
