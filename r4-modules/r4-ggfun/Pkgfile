@@ -1,11 +1,11 @@
 # Description: R module ggfun
 # URL: https://cran.r-project.org/web/packages/ggfun
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-dplyr r4-ggplot2 r4-rlang r4-yulab-utils
+# Depends on: r r4-cli r4-dplyr r4-ggplot2 r4-rlang r4-scales r4-yulab-utils
 # Optional: r4-ggnewscale r4-ggplotify r4-knitr r4-prettydoc r4-rmarkdown r4-tidyr
 
 name=r4-ggfun
-version=0.1.9
+version=0.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggfun_${version}.tar.gz)
 

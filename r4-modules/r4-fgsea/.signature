@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Hl2ppt2YlMsziXmhpvoMScBLTWvZAhldJW90GKBF/HGe+LiV+DbvDXLWaSnGt1q+ZievgHAwRU0SjAx+51IuwQ=
-SHA256 (Pkgfile) = d3ede7049d3b00ae084d9a1062de2c3947ec078769847bd597eb7640bb71ff2e
+RWQ2oTreAss89ArvNYIrg+5ZcvMYxzZo1Z3jdfWWtBSklb67gBrZ083bsnVrRirOekQ5hG9HFvG07F2UjOI4BS41FlKupkdltQ8=
+SHA256 (Pkgfile) = 46b5421e396fc048b086cf5ab90ed876721b22b5fde8260a7ebe1c5a22e7d282
 SHA256 (.footprint) = b84f458d2a0b78db2b709251f194f96f0c00098ea727f0eae3569a2ee8990ae6
-SHA256 (fgsea_1.34.0.tar.gz) = 4ae5dd3e2c6e9c2d9b38fe0010e627d700a9c365f3c7ed0fc6d903ad39e40460
+SHA256 (fgsea_1.34.2.tar.gz) = aee075a834c46de3edda4762534c8cc4d5f2fd9cae4886e4478e5589efb003f3

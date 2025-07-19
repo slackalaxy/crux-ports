@@ -5,7 +5,7 @@
 # Optional: r4-gettz r4-tinytest
 
 name=r4-anytime
-version=0.3.11
+version=0.3.12
 release=1
 source=(https://cloud.r-project.org/src/contrib/anytime_${version}.tar.gz)
 

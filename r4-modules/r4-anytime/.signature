@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KYhh9zo29vTKVfydhtkg/nrNpxBrKIB+LMa4NiFOzHkU3bDc8VcKwkXbUo7qpy7S97YlIPI75Iho7oCeKavkws=
-SHA256 (Pkgfile) = 4de7aca3d9b4d2922854749a43317af95bd620a483a109fa1090024684115f45
-SHA256 (.footprint) = 85184294ba835e99aeca71dc1a066c3dd3b646c60118c8af3888da6d56fdf1de
-SHA256 (anytime_0.3.11.tar.gz) = ff508d514ae1efd9aab9f691f19b5ac14f4829125bff5210329ea5d491296be3
+RWQ2oTreAss89BdTR1dFTc8HpJMz+HT+prAHjI4ZOBcXRHviZPZ7+ufFujQSnDA+m85RihxRkON3DVPUKRTwBN+ovjA3TVdxdQQ=
+SHA256 (Pkgfile) = 2e1b3458068a1c08d3c2b9f886ff100a6cfb19fa4a74b9599bd8e8c3934fdc67
+SHA256 (.footprint) = c87710cdcc63fef67f786dab4e1a0b32e60f1d5b3822001f6ea7acff8463bcf4
+SHA256 (anytime_0.3.12.tar.gz) = 5d41009a91d288c9ef89b73a6a157faedd43c8a07a8234a7c7c93731ace615eb

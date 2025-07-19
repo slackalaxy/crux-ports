@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BbGzeX7+aANs9LHnaPqZmOuTebJ9FxCreR5/owgXU5TbEVNojVpKQmQtIEhMXgGoyps5h5YS6LSirOy7aWWUAI=
-SHA256 (Pkgfile) = 6f1b1feae3c5346973db5bf2b12ba442c669a556fda4876887cf42a134c7c0df
+RWQ2oTreAss89Nipe55gGxqCItcm8pF/5Jnq0S7eOm4b6b2w7sdu66vKtFV1QWEOv9ZGEssEBke6CxUdB9T+15NP8XTHKjk6HgE=
+SHA256 (Pkgfile) = 76d1595526b57b569cadae7d7dc3319be12e50e5eeb5092981f8b13b8597e257
 SHA256 (.footprint) = 9c7dcaa527a2508eff90acbd0271c183fffe97aaaf7c215bedc9ff8541b3c5dd
-SHA256 (pbkrtest_0.5.4.tar.gz) = cd463ff5766c340f576366e45e7a44498e3017083df9c02f332510f8a423d822
+SHA256 (pbkrtest_0.5.5.tar.gz) = d26c8ef0a6fd73bba184bde8e3434439d62539d93aef0a0b5b480a0f309bc51b

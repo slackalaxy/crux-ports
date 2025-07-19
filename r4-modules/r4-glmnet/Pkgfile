@@ -5,9 +5,9 @@
 # Optional: r4-knitr r4-lars r4-rmarkdown r4-testthat r4-xfun
 
 name=r4-glmnet
-version=4.1.9
+version=4.1.10
 release=1
-source=(https://cloud.r-project.org/src/contrib/glmnet_4.1-9.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/glmnet_4.1-10.tar.gz)
 
 build() {
 	cd glmnet

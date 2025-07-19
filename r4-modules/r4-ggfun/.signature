@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KVuei+lgB5ioXte1qkcYWiw57Q+pFQzvOBTKpEY9SSmm446T4IOejF/A5ZoYtuYSA+DBmP0UoKSLrjf23tKTA0=
-SHA256 (Pkgfile) = a1df564df773164edf0ecdc65e73ca73f1d77095b31cf74065a5ac9e7f67448c
+RWQ2oTreAss89DS92H+gsDCagaXemZX1wPN2h/N0Nw+hyd89W1D/m5VuS6zhO33BucTT+MoiYtqftjlrwjEGNZt+lVoHjdppwgc=
+SHA256 (Pkgfile) = f593dd3f208bc582531291182f559cc1ff8f8abc431609edd6dabcaece438a33
 SHA256 (.footprint) = 3c05efea41df9a1b6a10a88a145c53ad63929b4f3910dacc86f7d0984d7331cc
-SHA256 (ggfun_0.1.9.tar.gz) = 7c3b8ef3b3c84713ca390aae742e119e62c1d73cebfb5b875a55c864a13caca1
+SHA256 (ggfun_0.2.0.tar.gz) = c5d267d3152771842ac1fdd819ecb442670946b75d10e0b4866e342d441a1711

@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/pbkrtest
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-broom r4-doby r4-dplyr r4-lme4 r4-mass r4-matrix r4-numderiv
-# Optional: r4-knitr r4-markdown
+# Optional: r4-knitr r4-markdown r4-nlme
 
 name=r4-pbkrtest
-version=0.5.4
+version=0.5.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/pbkrtest_${version}.tar.gz)
 
