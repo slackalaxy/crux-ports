@@ -18,6 +18,7 @@ d:etc-fstab.labels
 d:backgrounds-vladstudio
 d:backgrounds-assorted
 d:prt-supplements
+d:networkmanager-openvpn
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
 f:15a571ea0e307317b2e0efb95eeee460:fonts-conf/.signature
 f:82a1ad7fd570389404709c6e09c4da1d:fonts-conf/README
@@ -72,10 +73,10 @@ f:310432a43ad2ec419ed65477a3267564:firewall/.footprint
 f:652f88a1e73893ca880988042b27a5f1:firewall/hosts.deny
 f:b3838d6e827fa54604b9d1b9b5d0b48d:firewall/.signature
 f:8c78ec828ad08501da534d53fdd43a9b:firewall/firewalld
-f:06d5f13a2fa2dbfed6f9d9cbe08ca127:etc-hostname/.footprint
-f:e9481165cb5b833eab05a3f73427515b:etc-hostname/.signature
-f:db5f9575cbd1861fb994c2d2871f022d:etc-hostname/HOSTNAME
-f:af7006ade56fc4352d44ad58273e1a6e:etc-hostname/Pkgfile
+f:0a347278d8573eafff3edaa5de1f1e4d:etc-hostname/.footprint
+f:3abf75022347f63248ab0bdaa0d90623:etc-hostname/.signature
+f:304360939dff0b9bbe892d2eaf52a9a6:etc-hostname/Pkgfile
+f:737664c0026abf29befd319b28c3da3a:etc-hostname/README
 f:bb6b6554db0d4b2bae70688cbb0db047:ports-slackalaxy/Pkgfile
 f:152f03c198cb572cb348b9fc4102f491:ports-slackalaxy/.footprint
 f:ede121175a2cbbde03bf6f2f666b965b:ports-slackalaxy/.signature
@@ -114,3 +115,6 @@ f:5a7ddb8a449832e169166dcb5172b5a3:backgrounds-assorted/.signature
 f:782f9b1c47c3f836ae39093f4e3b4925:prt-supplements/Pkgfile
 f:bf9b764a22735801e8a838f0436232f9:prt-supplements/.footprint
 f:43aea6168de717ff9de2f93fb071bc93:prt-supplements/.signature
+f:be652d2d37b12f49216ea4ac6d849072:networkmanager-openvpn/Pkgfile
+f:a732cc434dcdc8bd4625c2803ee4324a:networkmanager-openvpn/.footprint
+f:1d15d2eb6e1519d13c6c1156f8d41351:networkmanager-openvpn/.signature
