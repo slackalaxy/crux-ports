@@ -1,0 +1,16 @@
+# Description: R module R.cache
+# URL: https://cran.r-project.org/web/packages/R.cache
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-digest r4-r-methodss3 r4-r-oo r4-r-utils
+# Optional: 
+
+name=r4-r-cache
+version=0.17.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/R.cache_${version}.tar.gz)
+
+build() {
+	cd R.cache
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

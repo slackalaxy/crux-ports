@@ -1,0 +1,16 @@
+# Description: R module NanoStringNCTools
+# URL: https://bioconductor.org/packages/NanoStringNCTools
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biobase r4-biocgenerics r4-biostrings r4-ggbeeswarm r4-ggiraph r4-ggplot2 r4-ggthemes r4-iranges r4-pheatmap r4-rcolorbrewer r4-s4vectors
+# Optional: r4-biovizbase r4-ggbio r4-knitr r4-qpdf r4-rmarkdown r4-runit
+
+name=r4-nanostringnctools
+version=1.16.1
+release=1
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/NanoStringNCTools_${version}.tar.gz)
+
+build() {
+	cd NanoStringNCTools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

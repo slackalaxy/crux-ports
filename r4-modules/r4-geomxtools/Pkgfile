@@ -1,0 +1,16 @@
+# Description: R module GeomxTools
+# URL: https://bioconductor.org/packages/GeomxTools
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biobase r4-biocgenerics r4-data-table r4-dplyr r4-envstats r4-ggally r4-ggplot2 r4-lmertest r4-nanostringnctools r4-readxl r4-reshape2 r4-rjson r4-rlang r4-s4vectors r4-seuratobject r4-stringr
+# Optional: r4-ggiraph r4-knitr r4-patchwork r4-rmarkdown r4-seurat r4-spatialdecon r4-spatialexperiment r4-testthat
+
+name=r4-geomxtools
+version=3.12.0
+release=1
+source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/GeomxTools_${version}.tar.gz)
+
+build() {
+	cd GeomxTools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

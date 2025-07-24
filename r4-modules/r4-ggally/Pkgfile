@@ -1,0 +1,16 @@
+# Description: R module GGally
+# URL: https://cran.r-project.org/web/packages/GGally
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-dplyr r4-ggplot2 r4-ggstats r4-gtable r4-lifecycle r4-magrittr r4-progress r4-rcolorbrewer r4-rlang r4-s7 r4-scales r4-tidyr
+# Optional: r4-broom r4-broom-helpers r4-chemometrics r4-crosstalk r4-emmeans r4-geosphere r4-ggforce r4-hmisc r4-igraph r4-intergraph r4-knitr r4-labelled r4-mapproj r4-maps r4-network r4-nnet r4-rmarkdown r4-scagnostics r4-sna r4-spelling r4-survival r4-testthat r4-vdiffr
+
+name=r4-ggally
+version=2.3.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/GGally_${version}.tar.gz)
+
+build() {
+	cd GGally
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

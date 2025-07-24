@@ -1,0 +1,16 @@
+# Description: R module lmerTest
+# URL: https://cran.r-project.org/web/packages/lmerTest
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggplot2 r4-lme4 r4-mass r4-numderiv
+# Optional: r4-pbkrtest
+
+name=r4-lmertest
+version=3.1.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/lmerTest_3.1-3.tar.gz)
+
+build() {
+	cd lmerTest
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

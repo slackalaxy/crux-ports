@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89DaEIq6BXo72GHKcDuugknwaO2VCM6a1Y1PxIPNFOSHW7FVLztq7p9557jgNxGahfH85dEdMSUc5tiPsDAVFTgg=
+SHA256 (Pkgfile) = 198c9c2482c7bc69aa99dea463d7cd60feba11a91d5dfa186e3844d6787bab68
+SHA256 (.footprint) = c0366bfed1aa01838f3406dc3586efb8cdf5933f16dda2d87368f7263371bce5
+SHA256 (lmerTest_3.1-3.tar.gz) = 35aa75e9f5f2871398ff56a482b013e6828135ef04916ced7d1d7e35257ea8fd

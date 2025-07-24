@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89N8aFj+x36ETOIY8CA7rucGNTO8SXL1txzgqe2dz5otfUwtoCEi6hmRjNQGL2TapZUGEuirhGf3vDFiqPpi9LQM=
+SHA256 (Pkgfile) = f92f3cff01f364224c06a8ab5a50df0214e1bc95636b421883b80db3852df958
+SHA256 (.footprint) = ee7eba37d385e250ff35579974cf6065071aa8b10494afbab426a57694e3884a
+SHA256 (GeomxTools_3.12.0.tar.gz) = 733c37503343b56066bf8d37cb9d2673ae45510c83dcc788041bb2a72ed54fec

@@ -1,0 +1,16 @@
+# Description: R module ggthemes
+# URL: https://cran.r-project.org/web/packages/ggthemes
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggplot2 r4-lifecycle r4-purrr r4-scales r4-stringr r4-tibble
+# Optional: r4-covr r4-dplyr r4-extrafont r4-glue r4-knitr r4-lattice r4-lintr r4-mapproj r4-maps r4-pander r4-quantreg r4-rlang r4-rmarkdown r4-spelling r4-testthat r4-tidyr r4-vdiffr r4-withr
+
+name=r4-ggthemes
+version=5.1.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/ggthemes_${version}.tar.gz)
+
+build() {
+	cd ggthemes
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89EGHV7xA5J091QSZKWtR0xgq+q+pYO9eAY8ormHDjTGhvKGhVklkTahudKhi0F1r1nwmH9T/ZxYFs1zPijFPrAY=
+SHA256 (Pkgfile) = 08f54568267acc2dc2f4ed44d87d3cd30937ca6fccff93db66c10830f3fbdc74
+SHA256 (.footprint) = 9b0929049156e3b528982d1c95b44020aa2321f61c06be004707c2dbd603de34
+SHA256 (repmis_0.5.1.tar.gz) = 371f8e08f61a2f71d0b1582f170535f8b92b1ea66c328ddb02b1bf984e283f1d
