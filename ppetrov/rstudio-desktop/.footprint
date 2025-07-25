@@ -1,6 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
-lrwxrwxrwx	root/root	usr/bin/rstudio -> ../lib/rstudio/rstudio
+-rwxr-xr-x	root/root	usr/bin/rstudio
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/rstudio/
 -rw-r--r--	root/root	usr/lib/rstudio/LICENSE
