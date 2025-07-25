@@ -5,7 +5,7 @@
 
 name=xscreensaver
 version=6.10.1
-release=2
+release=4
 source=(https://www.jwz.org/xscreensaver/xscreensaver-$version.tar.gz
 	$name.pam electricsheep.patch)
 
@@ -34,7 +34,7 @@ build() {
 	install -D -m 0644 $SRC/xscreensaver.pam $PKG/etc/pam.d/xscreensaver
 	
 	sed -i "s:Screensaver;::" $PKG/usr/share/applications/xscreensaver-settings.desktop
-	echo "NotShowIn=XFCE" >> $PKG/usr/share/applications/xscreensaver-settings.desktop
+	echo "NotShowIn=XFCE;MATE" >> $PKG/usr/share/applications/xscreensaver-settings.desktop
 	
 	rm -rf $PKG/usr/share/applications/xscreensaver.desktop
 	rm -rf $PKG/usr/share/{fonts,locale,xscreensaver/config/README}
@@ -52,10 +52,16 @@ build() {
 		echo "Terminal=false" >> $PKG/usr/share/applications/screensavers/$i.desktop
 		echo "Type=Application" >> $PKG/usr/share/applications/screensavers/$i.desktop
 		echo "Categories=Screensaver;" >> $PKG/usr/share/applications/screensavers/$i.desktop
-		echo "OnlyShowIn=XFCE;" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "OnlyShowIn=XFCE;MATE;" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		echo "Keywords=screensaver;" >> $PKG/usr/share/applications/screensavers/$i.desktop
+		
+		# Comment this out, or screensavers will not show in MATE
 		echo "Hidden=true" >> $PKG/usr/share/applications/screensavers/$i.desktop
 	done
 	
+	# MATE ships this, uncomment the following, so they don't conflict
+	#rm -rf $PKG/usr/share/applications/screensavers/popsquares.desktop
+
 	# these are actually not screensavers, so remove their desktop files
 	rm -rf $PKG/usr/share/applications/screensavers/{mapscroller*,xscreensaver-*,vidwhacker*,webcollage*}
 }
