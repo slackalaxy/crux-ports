@@ -4,7 +4,7 @@
 # Depends on: alsa-lib cups gnutls gtk3 libidn2 libxkbcommon nss xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxkbfile
 
 name=vscodium
-version=1.102.14746
+version=1.102.24914
 release=1
 source=(https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-linux-x64-$version.tar.gz
 	$name.desktop $name.png)
