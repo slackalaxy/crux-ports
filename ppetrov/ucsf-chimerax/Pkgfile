@@ -4,10 +4,10 @@
 # Depends on: brotli double-conversion gcc-fortran gnutls gtk3 keyutils krb5 libidn2 libinput libxslt mariadb openjpeg2 pcsclite postgresql pulseaudio qt6-3d qt6-multimedia qt6-quick3d qt6-svg qt6-scxml qt6-wayland unixodbc xorg-libxinerama xorg-libxkbfile
 
 name=ucsf-chimerax
-version=1.10
+version=1.10.1
 _ubuntu=22.04
 _python=3.11
-release=2
+release=3
 source=(https://www.cgl.ucsf.edu/chimerax/cgi-bin/secure/chimerax-get.py?file=${version}/ubuntu-${_ubuntu}/ucsf-chimerax_${version}ubuntu${_ubuntu}_amd64.deb
 	$name.desktop)
 
@@ -19,7 +19,7 @@ build() {
 	rm -rf usr/share/doc
 	
 	mkdir -p $PKG/usr/share/{applications,pixmaps}
-	cp -a $PKG/usr/lib/$name/share/ChimeraX-icon64.png $PKG/usr/share/pixmaps/chimerax
+	cp -a $PKG/usr/lib/$name/share/ChimeraX-icon64.png $PKG/usr/share/pixmaps/chimerax.png
 	cp -a $SRC/$name.desktop $PKG/usr/share/applications
 	
 	# I don't need the cuda stuff (no hardware), but let's leave the
