@@ -8,6 +8,12 @@ Remove these (second one prevents terminus otb to be used):
 	/etc/fonts/conf.d/10-hinting-*.conf	
 	/etc/fonts/conf.d/70-no-bitmaps-except-emoji.conf
 
+You may wish to add this to /etc/pkgadd.conf (so files are not installed
+upon fontconfig update):
+
+	INSTALL		^etc/fonts/conf\.d/10-hinting-slight\.conf		NO
+	INSTALL		^etc/fonts/conf\.d/70-no-bitmaps-except-emoji\.conf	NO
+
 Set freetype (e.g. in .bash_profile):
 
 	export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
