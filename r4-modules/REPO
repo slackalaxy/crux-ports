@@ -601,6 +601,10 @@ d:r4-r-cache
 d:r4-repmis
 d:r4-spatialdecon
 d:r4-umap
+d:r4-biocstyle
+d:r4-bookdown
+d:r4-geomxworkflows
+d:r4-outliers
 f:f96e59c91ba59687185836472b523120:r4-ggplotify/Pkgfile
 f:71c2becc451abb908ff70e8d821eb549:r4-ggplotify/.signature
 f:71c7851c9a269938b25e318ac8912552:r4-ggplotify/.footprint
@@ -2417,3 +2421,15 @@ f:9e126efc8866d88143466ea9d842c982:r4-spatialdecon/.signature
 f:5f066a6d030bc1eded60bfc26d3d49b5:r4-umap/Pkgfile
 f:2fc3fa29b4b0ea7d7fe9383b5d1285ca:r4-umap/.footprint
 f:e3615ffbe8a9e9540d2c28ac420bb878:r4-umap/.signature
+f:b3fcb4ed5f12ad5c1cf38469effca20f:r4-biocstyle/Pkgfile
+f:6ea65fb844b74b131a87014844d627c4:r4-biocstyle/.footprint
+f:d35cb6770548e7334497af7e40731fa5:r4-biocstyle/.signature
+f:58cb4dd74e7b50cce4e781807ab15cbc:r4-bookdown/Pkgfile
+f:403149f0c3cbfbc1d220279283cb35d7:r4-bookdown/.footprint
+f:f2a1a99eb0c5f550f25ac9896639cbb6:r4-bookdown/.signature
+f:c6cd11812778013dd604d2e0f51f1dd3:r4-geomxworkflows/Pkgfile
+f:3b00cf469610c1d7faf19a3f05191a7b:r4-geomxworkflows/.footprint
+f:f45d430fd95624e870e235ba90594acf:r4-geomxworkflows/.signature
+f:990ee38075ea390576d359abf5261d6e:r4-outliers/Pkgfile
+f:82f6468a5180cf332daf54104bf4b987:r4-outliers/.footprint
+f:e91e94861b79ca3d24b99bd7b45f0fdb:r4-outliers/.signature

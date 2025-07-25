@@ -1,0 +1,16 @@
+# Description: R module GeoMxWorkflows
+# URL: https://bioconductor.org/packages/GeoMxWorkflows
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biobase r4-biocgenerics r4-biocstyle r4-cowplot r4-data-table r4-dplyr r4-envstats r4-geomxtools r4-ggforce r4-ggplot2 r4-ggrepel r4-nanostringnctools r4-networkd3 r4-outliers r4-pheatmap r4-readxl r4-reshape2 r4-rjson r4-rtsne r4-s4vectors r4-scales r4-umap
+# Optional: r4-knitr r4-rmarkdown
+
+name=r4-geomxworkflows
+version=1.14.0
+release=1
+source=(https://bioconductor.org/packages/3.21/workflows/src/contrib/GeoMxWorkflows_${version}.tar.gz)
+
+build() {
+	cd GeoMxWorkflows
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
