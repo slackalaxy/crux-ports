@@ -40,6 +40,10 @@ drwxr-xr-x	root/root	usr/lib/R/library/crul/help/
 -rw-r--r--	root/root	usr/lib/R/library/crul/help/crul.rdb
 -rw-r--r--	root/root	usr/lib/R/library/crul/help/crul.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/crul/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/crul/help/figures/lifecycle-deprecated.svg
+-rw-r--r--	root/root	usr/lib/R/library/crul/help/figures/lifecycle-experimental.svg
+-rw-r--r--	root/root	usr/lib/R/library/crul/help/figures/lifecycle-stable.svg
+-rw-r--r--	root/root	usr/lib/R/library/crul/help/figures/lifecycle-superseded.svg
 -rw-r--r--	root/root	usr/lib/R/library/crul/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/crul/help/paths.rds
 drwxr-xr-x	root/root	usr/lib/R/library/crul/html/

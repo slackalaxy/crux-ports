@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89Nkz43UpWG/FJnxDnJNBUWNHnzS/5Y0G6KKDiHk2SqTlSEg5BMufSgJEisk+vWpP8twubzXXgNPMynM2457VCQM=
+SHA256 (Pkgfile) = bea974f3b917e79046cd2307f0dfcd33bb93babd324aa04f31ebdbf2e1b0ef39
+SHA256 (.footprint) = 103650565f1765675bede4545138005ec7b715f020344bc3043c63a01b6e25b6
+SHA256 (umap_0.2.10.0.tar.gz) = 8d4786929345e8980bb8be8bb4b6300a679bba03a5984eed59e5e00c626b6ea9

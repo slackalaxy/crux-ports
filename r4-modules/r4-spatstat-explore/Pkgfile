@@ -5,9 +5,9 @@
 # Optional: r4-fftwtools r4-gsl r4-locfit r4-sm r4-spatial r4-spatstat r4-spatstat-linnet r4-spatstat-model
 
 name=r4-spatstat-explore
-version=3.4.3
+version=3.5.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/spatstat.explore_3.4-3.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spatstat.explore_3.5-2.tar.gz)
 
 build() {
 	cd spatstat.explore

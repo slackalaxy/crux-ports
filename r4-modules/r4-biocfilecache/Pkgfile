@@ -5,7 +5,7 @@
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown r4-rtracklayer r4-testthat
 
 name=r4-biocfilecache
-version=2.16.0
+version=2.16.1
 release=1
 source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocFileCache_${version}.tar.gz)
 
