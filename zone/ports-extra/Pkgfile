@@ -5,9 +5,11 @@
 
 name=ports-extra
 version=3.8
-release=1
+release=2
 source=(kde-plasma-6.rsync
 	https://crux.nu/ports/kde-plasma-6/3.8/kde-plasma-6.pub
+	https://raw.githubusercontent.com/mhoush/crux-mate/main/mate.httpup
+	https://crux.nu/keys/mate.pub
 	https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/xfce4.httpup
 	https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/xfce4.pub)
 
@@ -18,6 +20,11 @@ build() {
 	# https://git.crux.nu/ports/kde-plasma-6
 	install -m 0644 $SRC/kde-plasma-6.rsync $PKG/etc/ports
 	install -m 0644 $SRC/kde-plasma-6.pub $PKG/etc/ports
+	
+	# Jaeger's MATE
+	# https://github.com/mhoush/crux-mate
+	install -m 0644 $SRC/mate.httpup $PKG/etc/ports
+	install -m 0644 $SRC/mate.pub $PKG/etc/ports
 	
 	# r0ni's Xfce
 	# https://github.com/mac-a-r0ni/crux-xfce4

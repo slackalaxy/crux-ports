@@ -2,5 +2,7 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/ports/
 -rw-r--r--	root/root	etc/ports/kde-plasma-6.pub
 -rw-r--r--	root/root	etc/ports/kde-plasma-6.rsync
+-rw-r--r--	root/root	etc/ports/mate.httpup
+-rw-r--r--	root/root	etc/ports/mate.pub
 -rw-r--r--	root/root	etc/ports/xfce4.httpup
 -rw-r--r--	root/root	etc/ports/xfce4.pub
