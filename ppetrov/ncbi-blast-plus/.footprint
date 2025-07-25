@@ -16,7 +16,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/deltablast
 -rwxr-xr-x	root/root	usr/bin/dustmasker
 -rwxr-xr-x	root/root	usr/bin/gc_cli
--rwxr-xr-x	root/root	usr/bin/gene_info_reader
 -rwxr-xr-x	root/root	usr/bin/get_species_taxids.sh
 -rwxr-xr-x	root/root	usr/bin/legacy_blast.pl
 -rwxr-xr-x	root/root	usr/bin/lmdb_test1
@@ -290,6 +289,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/cgi/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/cgi/cgictx.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/cgi/error_codes.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/cgi/fcgiapp_mt.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/cgi/fcgiapp_st.hpp
 drwxr-xr-x	root/root	usr/include/ncbi-tools++/cgi/impl/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/cgi/impl/cgi_entry_reader.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/cgi/ncbicgi.hpp
@@ -316,6 +316,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/common/config/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/common/ncbi_pch_impl.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/common/ncbi_revision.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/common/ncbi_revision.h.in
+-rw-r--r--	root/root	usr/include/ncbi-tools++/common/ncbi_sample_api.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/common/ncbi_sanitizers.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/common/ncbi_sc_version.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/common/ncbi_skew_guard.h
@@ -337,6 +338,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/connect/ext/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/ext/ncbi_localnet.h
 drwxr-xr-x	root/root	usr/include/ncbi-tools++/connect/impl/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/impl/connect_misc.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/connect/impl/ncbi_servicep.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/impl/ncbi_uv_nghttp2.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/impl/server_connection.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/impl/thread_pool_for_server.hpp
@@ -378,6 +380,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/connect/impl/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/ncbi_service.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/ncbi_service_connector.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/ncbi_service_cxx.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/connect/ncbi_sftp.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/ncbi_socket.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/ncbi_socket.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/connect/ncbi_socket_connector.h
@@ -462,6 +465,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/corelib/impl/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/impl/ncbi_toolkit_impl.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/impl/ncbierror_impl.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/impl/rwstreambuf.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/impl/std_backport.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/impl/stringutf8_deprecated.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/impl/stringutf8_deprecated.inl
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/interprocess_lock.hpp
@@ -489,6 +493,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/corelib/impl/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/ncbi_stack.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/ncbi_strings.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/ncbi_system.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/ncbi_test.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/ncbi_toolkit.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/ncbi_tree.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/ncbi_url.hpp
@@ -531,6 +536,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/corelib/impl/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/obj_pool.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/obj_store.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/perf_log.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/phone_home_policy.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/plugin_manager.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/plugin_manager_impl.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/corelib/plugin_manager_store.hpp
@@ -2015,26 +2021,6 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/objects/misc/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objects/misc/error_codes.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objects/misc/sequence_macros.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objects/misc/sequence_util_macros.hpp
-drwxr-xr-x	root/root	usr/include/ncbi-tools++/objects/mla/
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/.cvsignore
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/.cvsignore.extra
-lrwxrwxrwx	root/root	usr/include/ncbi-tools++/objects/mla/.gitignore -> .cvsignore
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Error_val.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Error_val_.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Mla_back.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Mla_back_.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Mla_request.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Mla_request_.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/NCBI_MedArchive_module.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Title_msg.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Title_msg_.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Title_msg_list.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Title_msg_list_.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Title_type.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/Title_type_.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/mla__.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/mla_client.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mla/mla_client_.hpp
 drwxr-xr-x	root/root	usr/include/ncbi-tools++/objects/mmdb1/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objects/mmdb1/.cvsignore
 lrwxrwxrwx	root/root	usr/include/ncbi-tools++/objects/mmdb1/.gitignore -> .cvsignore
@@ -3536,6 +3522,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/objmgr/impl/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objmgr/impl/bioseq_info.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objmgr/impl/bioseq_set_edit_commands.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objmgr/impl/bioseq_set_info.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objmgr/impl/bioseq_sort.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objmgr/impl/data_source.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objmgr/impl/edit_commands_impl.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objmgr/impl/handle_range.hpp
@@ -3687,14 +3674,9 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/objtools/blast/blastdb_format/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/blastdb_format/invalid_data_exception.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/blastdb_format/seq_formatter.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/blastdb_format/seq_writer.hpp
-drwxr-xr-x	root/root	usr/include/ncbi-tools++/objtools/blast/gene_info_reader/
--rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/gene_info_reader/file_utils.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/gene_info_reader/gene_info.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/gene_info_reader/gene_info_reader.hpp
 drwxr-xr-x	root/root	usr/include/ncbi-tools++/objtools/blast/seqdb_reader/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/seqdb_reader/column_reader.hpp
 drwxr-xr-x	root/root	usr/include/ncbi-tools++/objtools/blast/seqdb_reader/impl/
--rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/seqdb_reader/impl/lmdb++.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/seqdb_reader/impl/seqdb_lmdb.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/seqdb_reader/impl/seqdbatlas.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/blast/seqdb_reader/impl/seqdbcol.hpp
@@ -3770,7 +3752,13 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/info_cache.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/processor.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/processors.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/psg_blob_processor.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/psg_cache.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/psg_cdd.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/psg_evloop.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/psg_loader_impl.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/psg_processor.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/psg_processors.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/reader_id1_base.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/reader_id2_base.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/data_loaders/genbank/impl/reader_service.hpp
@@ -4768,6 +4756,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/objtools/readers/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/readers/alnread.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/readers/bed_reader.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/readers/cigar.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/readers/co_generator.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/readers/error_container.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/readers/fasta.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/objtools/readers/fasta_exception.hpp
@@ -5069,6 +5058,11 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/util/compress/zlib/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/compress/zlib/zconf.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/compress/zlib/zlib.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/compress/zlib/zutil.h
+-rw-r--r--	root/root	usr/include/ncbi-tools++/util/compress/zlib_cloudflare.hpp
+drwxr-xr-x	root/root	usr/include/ncbi-tools++/util/compress/zlib_cloudflare/
+-rw-r--r--	root/root	usr/include/ncbi-tools++/util/compress/zlib_cloudflare/zconf_cf.h
+-rw-r--r--	root/root	usr/include/ncbi-tools++/util/compress/zlib_cloudflare/zlib_cf.h
+-rw-r--r--	root/root	usr/include/ncbi-tools++/util/compress/zlib_cloudflare/zutil_cf.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/compress/zstd.hpp
 drwxr-xr-x	root/root	usr/include/ncbi-tools++/util/creaders/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/creaders/alnread.h
@@ -5088,15 +5082,13 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/util/creaders/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/id_mux.hpp
 drwxr-xr-x	root/root	usr/include/ncbi-tools++/util/impl/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/compile_time_bits.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/const_tuple.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/ct_bitset_cxx14.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/ct_bitset_cxx17.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/ct_crc32.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/ct_string_cxx14.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/ct_string_cxx17.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/ctsort_cxx14.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/floating_point_comparison.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/impl/generated_fsm.hpp
+-rw-r--r--	root/root	usr/include/ncbi-tools++/util/incr_time.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/itransaction.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/itree.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/itree.inl
@@ -5116,6 +5108,7 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/util/math/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/math/miscmath.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/math/promote.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/md5.hpp
+-rwxr-xr-x	root/root	usr/include/ncbi-tools++/util/memory_streambuf.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/message_queue.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/miscmath.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/multi_writer.hpp
@@ -5140,10 +5133,8 @@ drwxr-xr-x	root/root	usr/include/ncbi-tools++/util/regexp/ctre/
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/ctre/LICENSE
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/ctre/ctre-unicode.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/ctre/ctre.hpp
--rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/pcre.h
--rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/pcrecpp.h
--rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/pcrecpparg.h
--rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/pcreposix.h
+-rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/pcre2.h
+-rw-r--r--	root/root	usr/include/ncbi-tools++/util/regexp/pcre2posix.h
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/request_control.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/resize_iter.hpp
 -rw-r--r--	root/root	usr/include/ncbi-tools++/util/resource_pool.hpp
@@ -5246,7 +5237,6 @@ lrwxrwxrwx	root/root	usr/lib/libgbproj-static.a -> libgbproj.a
 -rw-r--r--	root/root	usr/lib/libgbseq.so
 lrwxrwxrwx	root/root	usr/lib/libgencoll_client-static.a -> libgencoll_client.a
 -rw-r--r--	root/root	usr/lib/libgencoll_client.a
--rw-r--r--	root/root	usr/lib/libgene_info.so
 -rw-r--r--	root/root	usr/lib/libgeneral.so
 -rw-r--r--	root/root	usr/lib/libgenesbyloc.so
 -rw-r--r--	root/root	usr/lib/libgenome_collection.so
@@ -5265,8 +5255,6 @@ lrwxrwxrwx	root/root	usr/lib/libgencoll_client-static.a -> libgencoll_client.a
 -rw-r--r--	root/root	usr/lib/libmedlars.so
 -rw-r--r--	root/root	usr/lib/libmedline.so
 -rw-r--r--	root/root	usr/lib/libmim.so
--rw-r--r--	root/root	usr/lib/libmla.so
--rw-r--r--	root/root	usr/lib/libmlacli.so
 -rw-r--r--	root/root	usr/lib/libmmdb.so
 -rw-r--r--	root/root	usr/lib/libncbi_xblobstorage_netcache.so
 lrwxrwxrwx	root/root	usr/lib/libncbi_xcache_netcache-static.a -> libncbi_xcache_netcache.a
@@ -5374,3 +5362,4 @@ lrwxrwxrwx	root/root	usr/lib/libtrackmgrgridcli-static.a -> libtrackmgrgridcli.a
 lrwxrwxrwx	root/root	usr/lib/libxxconnect2-static.a -> libxxconnect2.a
 -rw-r--r--	root/root	usr/lib/libxxconnect2.a
 -rw-r--r--	root/root	usr/lib/libxxconnect2.so
+-rw-r--r--	root/root	usr/lib/libzcf.so
