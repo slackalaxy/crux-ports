@@ -1,0 +1,12 @@
+# Description: CRUX-specific mime associations
+# URL: /usr/share/mime/packages/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=mime-crux
+version=3.8
+release=1
+source=($name.xml)
+
+build() {
+  install -D -m644 $SRC/$name.xml $PKG/usr/share/mime/packages/crux-ports.xml
+}
