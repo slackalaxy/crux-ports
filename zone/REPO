@@ -19,9 +19,10 @@ d:backgrounds-vladstudio
 d:backgrounds-assorted
 d:prt-supplements
 d:networkmanager-openvpn
+d:mime-crux
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
 f:15a571ea0e307317b2e0efb95eeee460:fonts-conf/.signature
-f:82a1ad7fd570389404709c6e09c4da1d:fonts-conf/README
+f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
 f:1f433110fc7774155a94fc98656a1c52:fonts-conf/Pkgfile
 f:ba49d43668421a4c0bfbaa791ca40e08:fonts-msoffice/README
 f:34fc9ae44d2da03038f415a0bcef2583:fonts-msoffice/.footprint
@@ -80,9 +81,9 @@ f:737664c0026abf29befd319b28c3da3a:etc-hostname/README
 f:bb6b6554db0d4b2bae70688cbb0db047:ports-slackalaxy/Pkgfile
 f:152f03c198cb572cb348b9fc4102f491:ports-slackalaxy/.footprint
 f:ede121175a2cbbde03bf6f2f666b965b:ports-slackalaxy/.signature
-f:bdd4d699f019b56910ee2aa91a1515a0:ports-extra/Pkgfile
-f:510c4f4952fd05eb38723ffa8cfcb527:ports-extra/.footprint
-f:3d566bdaf8d58befdf2c6c89bff6367d:ports-extra/.signature
+f:b75beaaa11a2ea611722411bc364ae78:ports-extra/Pkgfile
+f:c3a7ddbe5a7bc6e2754ab6104f0cabe2:ports-extra/.footprint
+f:0fa14ad75280cf740bcf4dd0f661ad8c:ports-extra/.signature
 f:ef2e592ed8588f2fbc61321465a67223:ports-extra/README
 f:63701850c70571d48b02dc854d76ecb4:ports-extra/kde-plasma-6.rsync
 f:9f8fea77b236839a84dcfca77f7b53e5:fonts-mswin/.signature
@@ -118,3 +119,8 @@ f:43aea6168de717ff9de2f93fb071bc93:prt-supplements/.signature
 f:be652d2d37b12f49216ea4ac6d849072:networkmanager-openvpn/Pkgfile
 f:a732cc434dcdc8bd4625c2803ee4324a:networkmanager-openvpn/.footprint
 f:1d15d2eb6e1519d13c6c1156f8d41351:networkmanager-openvpn/.signature
+f:5fad400e5bbb99c7644d5c979ac736e0:mime-crux/Pkgfile
+f:50a63317eb64aa9bbbce18e6175ffb2c:mime-crux/mime-crux.xml
+f:2c42c8d965ba649a54988999d3d5fb64:mime-crux/post-install
+f:875739eb602cd76c4dc820cd74d837f4:mime-crux/.footprint
+f:858dbf1a65099b24d1703486ca45a3f6:mime-crux/.signature
