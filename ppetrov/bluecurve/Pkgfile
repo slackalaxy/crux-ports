@@ -5,7 +5,7 @@
 
 name=bluecurve
 version=3.0.0
-release=3
+release=4
 source=(https://github.com/neeeeow/Bluecurve/archive/v$version/Bluecurve-$version.tar.gz)
 
 build() {
@@ -29,6 +29,11 @@ build() {
   cp -a {icons,themes} $PKG/usr/share
   
   sed -i 's:Inherits=mate,gnome,crystalsvg:Inherits=gnome:' $PKG/usr/share/icons/Bluecurve/index.theme
+  
+  # Fix the following warning:
+  # Gtk-WARNING **: 10:33:05.470: Theme parsing error: gtk-style.css:127:18:
+  # The :insensitive pseudo-class is deprecated. Use :disabled instead.
+  sed -i 's|window:insensitive|window:disabled|g' $PKG/usr/share/themes/Bluecurve/gtk-3.0/gtk-style.css
   
   find $PKG/ -name "*README*" -delete
 }
