@@ -1,0 +1,35 @@
+# Description: GTK+2 color selector
+# URL: http://gcolor2.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage
+
+name=gcolor2
+version=0.4
+release=1
+source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz
+	color_definition_path.patch amd64_segfault.patch
+	$name.svg $name.desktop)
+
+build() {
+	cd $name-$version
+	
+	# add path to rgb.txt color definitions provided by X11:
+	patch -p1 < $SRC/color_definition_path.patch
+
+	# fix segfaults on x86_64 and remove some compilation warnings:
+	patch -p1 < $SRC/amd64_segfault.patch
+
+	# correct character class definition in configure script:
+	sed -i '/gentoo_ltmain_version/s/\[:space:\]/[&]/g' configure
+
+	CFLAGS="$CFLAGS -fcommon" \
+	CXXFLAGS="$CXXFLAGS -fcommon" \
+	./configure --prefix=/usr
+
+	make
+	make install DESTDIR=$PKG
+
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $SRC/$name.svg $PKG/usr/share/pixmaps
+}
