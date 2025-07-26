@@ -13,7 +13,7 @@ to be credited, let me know!
 ---
 
 ### ppetrov
-Main collection of programs and libraries. Two ports have unversioned
+Main collection of programs and libraries. Two ports use unversioned
 tarballs provided by upstream,  *viber* and *zoom-linux*, therefore
 `.signature` and `.footprint` may mismatch. Two other have dependencies
 outside this repo: *meld* (depends on *gtksourceview4*) and *python3-pybind11*
@@ -40,3 +40,7 @@ Ports that package custom settings files, configs, modified programs,
 my own scripts, workarounds, as well as more unconventional stuff all go in the zone. **This repo is not at portdb.**
 * [zone.httpup](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/zone/zone.httpup)
 * [zone.pub](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/zone/zone.pub)
+
+### zzz
+These are "sleeping" ports. These I no longer use, but I put them here just in case. There have
+neither a `.footprint` nor `.signature`.
