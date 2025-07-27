@@ -42,6 +42,7 @@ d:xsimd
 d:qt5ct
 d:bpp1-seq
 d:bpp1-numcalc
+d:medit
 d:qt6ct
 d:qt6gtk2
 d:rstudio-desktop
@@ -240,6 +241,9 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
+f:fc9828b054d154925c34cd284ae472bd:medit/Pkgfile
+f:3182039f2c45ca4c18da1c9e758e8940:medit/.footprint
+f:0fcb5b7f82f882828a1f0e2eccef0ca6:medit/.signature
 f:2c09d902a49bb72384ab2aa7d636c0fb:qt6ct/Pkgfile
 f:64b43c5a9a8579400f4ebe8b6b78dafe:qt6ct/.footprint
 f:3e1603a72b258b88e3544a53b8cb7132:qt6ct/.signature
