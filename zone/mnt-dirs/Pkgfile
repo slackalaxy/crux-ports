@@ -1,0 +1,13 @@
+# Description: Example mount folders in /mnt
+# URL: /mnt
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=mnt-dirs
+version=3.8
+release=1
+source=()
+
+build() {
+	mkdir -p $PKG/mnt/{hd,hd0,hd1,hd2,hd3,cdrom,cdrom0,cdrom1,cdrom2,cdrom3,usb,usb0,usb1,usb2,usb3,win,win7,win8,win10,win11}
+}
+
