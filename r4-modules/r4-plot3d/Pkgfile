@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-plot3d
-version=1.4.1
+version=1.4.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/plot3D_${version}.tar.gz)
 

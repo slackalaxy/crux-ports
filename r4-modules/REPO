@@ -1314,8 +1314,8 @@ f:fe5e63421407ee75fd910e0a415625f8:r4-pillar/.signature
 f:5b626e39209faa3168b0b0661343b739:r4-pkgdown/Pkgfile
 f:8a23579690c4c8d7d73e8c4cafce2cb9:r4-pkgdown/.footprint
 f:9ee9f87d4629b45cada950b1f8b9fe23:r4-pkgdown/.signature
-f:26ff43783fb4cb6a4de22db47c442fce:r4-plot3d/Pkgfile
-f:d7fc5ffabb91a757e7a6385055e9e859:r4-plot3d/.signature
+f:77cce4cf1ecf970e3e64e9d4808c0609:r4-plot3d/Pkgfile
+f:837ebf8808dbb62341873540a646e385:r4-plot3d/.signature
 f:292b8cfc9560649a6c0639a9f682bb8f:r4-plot3d/.footprint
 f:8bc9d71361aad1f8843288d132f775ed:r4-plyr/Pkgfile
 f:4f95156386adb175dfe99e90a7debb2d:r4-plyr/.footprint
@@ -1643,8 +1643,8 @@ f:45378655eeb375f1965cd5d378404982:r4-pkgload/.footprint
 f:fb0c8c72c1f8cfda0c4d5be69829594a:r4-pkgload/.signature
 f:9e29e14e429f40fa91580f7da1af3307:r4-pkgload/Pkgfile
 f:8266bf741a91badd9df4784bc7b4c3c4:r4-plot3drgl/.footprint
-f:f0db19e06a4a4b802a051d0bea9a49b8:r4-plot3drgl/.signature
-f:7e0f54ca2e34eb3eaa7c9d0080f8f104:r4-plot3drgl/Pkgfile
+f:ade5f7a01433069164755212997aefcb:r4-plot3drgl/.signature
+f:f06c6ac5ba76f7856b09a3fb1a655a7d:r4-plot3drgl/Pkgfile
 f:4081409d6b8417c5ca3e7bd4548c220d:r4-png/.footprint
 f:cd46eaa22e48d09c680c7db031dbea1f:r4-png/.signature
 f:fb1e68c6dac48c8152ad9fbef393b9d5:r4-png/Pkgfile
@@ -1732,9 +1732,9 @@ f:9a85c9347df14b827564f5a8a76f7422:r4-parallelmap/.signature
 f:ad365b0989a98a7af115b7dca5640dbd:r4-pbkrtest/Pkgfile
 f:0634833e44eeca1bf81c9541d242f6dd:r4-pbkrtest/.signature
 f:a73e2c0ff33bc7f5fbbbb0a014dcd0b5:r4-pbkrtest/.footprint
-f:7a46f9bf145fe470edcc25a591fb7842:r4-pixmap/.signature
+f:2fabf82864d68446746722550768362d:r4-pixmap/.signature
 f:9a65f1ab310c7e22c4e41b7df93040a4:r4-pixmap/.footprint
-f:b00f054edc576f3b4e4aac46718cde24:r4-pixmap/Pkgfile
+f:3ec069ec761df1aa2e39efbd97e2cc08:r4-pixmap/Pkgfile
 f:274846084862159c2599f30209ea2301:r4-ggsci/.footprint
 f:c6509110c2b45735bf19692018960591:r4-ggsci/Pkgfile
 f:7cd8203a4b1f9c686cb3e670b1500798:r4-ggsci/.signature

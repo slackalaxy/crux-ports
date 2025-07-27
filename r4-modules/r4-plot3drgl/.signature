@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Mbjg2MK4A5QEaWgODzsBBAmsdc9JW0IenGR09/Q2vrPO13wElIdMp+CQun/K+RO52RoUtUyYL4RDfnSj/ovSgg=
-SHA256 (Pkgfile) = 4ba790a66a2ae3ae15a4a93aa2aee932db8ba5a6a090d222233d7463ac14e49c
+RWQ2oTreAss89J7FMr3TWtobeUlHUirX0wkyOz/8cta6D2ZfbiCToloYuGHj4MzxkcvsHtuB/5IImdgwVAm/BnAgZFDTn+LUCgI=
+SHA256 (Pkgfile) = 735f75d1d0ccfe506d2a1d431bcf056999f9a2f4981fd3395a992b506c8f44f8
 SHA256 (.footprint) = d549f533a216ef7f35823046b1601a54d12184ad5bb1a765ae3a3fe6ef2b3b2d
-SHA256 (plot3Drgl_1.0.4.tar.gz) = 6d87a9a32aba3aa64f751268cabd14dbd3e0eca2bd5f0a4b11366cd1e2f51bdd
+SHA256 (plot3Drgl_1.0.5.tar.gz) = 75ceeaef9b369f6b7bc8408dc9dcfff232ac127591b7d729b7bb6075cd01dc74

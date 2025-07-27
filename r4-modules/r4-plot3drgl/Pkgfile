@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-plot3drgl
-version=1.0.4
+version=1.0.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/plot3Drgl_${version}.tar.gz)
 
