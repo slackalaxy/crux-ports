@@ -5,19 +5,16 @@
 
 name=polar-cursor-themes
 version=1.4
-release=1
-source=(https://sourceforge.net/projects/sboppetrov/files/$name/27913-PolarCursorThemes.tar.bz2)
+release=2
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/27913-PolarCursorThemes.tar.bz2)
 
 build() {
 	mkdir -p $PKG/usr/share/icons
 	cp -a PolarCursorTheme $PKG/usr/share/icons
 	cp -a PolarCursorTheme-Blue $PKG/usr/share/icons
 	cp -a PolarCursorTheme-Green $PKG/usr/share/icons
-
-	# Clean up (a little bit)
-	rm -rf $PKG/usr/share/icons/PolarCursorTheme/{COPYRIGHT~,index.theme~}
-	rm -rf $PKG/usr/share/icons/PolarCursorTheme-Blue/{COPYRIGHT~,index.theme~}
-	rm -rf $PKG/usr/share/icons/PolarCursorTheme-Green/{COPYRIGHT~,index.theme~}
-
+	
+	# delete backup files and fix permissions
+	find $PKG -type f -name '*~' -delete
 	find $PKG -type f -exec chmod 0644 {} \;
 }
