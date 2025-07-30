@@ -20,5 +20,6 @@ build() {
 
   cmake --build build
   DESTDIR="$PKG" cmake --install build
-
+  
+  sed -i 's:Icon=mate:Icon=mate-desktop:g' $PKG/usr/share/xfce4/panel/plugins/mateappletloader.desktop
 }
