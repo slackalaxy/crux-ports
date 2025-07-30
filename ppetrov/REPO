@@ -251,9 +251,9 @@ f:6a60193cbef91a0e236a33080743b35f:qt6gtk2/Pkgfile
 f:09bfbf6bb2de927a080775593b607ce6:qt6gtk2/.signature
 f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
 f:ce0dfe9adade9a957cbb8940889f66ec:rstudio-desktop/.footprint
-f:731d2dc5187b16401212e1c22bca8126:rstudio-desktop/.signature
-f:cb027a5df570bb7e9d03a1673b3bbb9b:rstudio-desktop/Pkgfile
-f:9b3cfe7c3197717be57bc09f574675f6:rstudio-desktop/rstudio.sh
+f:8e7b077ed048094d6a9a3960f82a1e32:rstudio-desktop/.signature
+f:3af86c4e8e715a6c4c7769c36380cd4d:rstudio-desktop/Pkgfile
+f:d2f6f36ea856a73b2a4bbbdaf7402c51:rstudio-desktop/rstudio.sh
 f:7674c35e385079a7d08637ec04c2be6c:seaview/Pkgfile
 f:fe57bed4fa0215e0867b68ef2aef27cf:seaview/.footprint
 f:e2ae7fe58b72d573e906aff5eee0f5c5:seaview/.signature
