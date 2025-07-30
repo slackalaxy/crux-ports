@@ -6,7 +6,7 @@
 
 name=rstudio-desktop
 version=2025.05.1+513
-release=2
+release=3
 source=(https://download1.rstudio.org/electron/rhel9/x86_64/rstudio-${version/+/-}-x86_64.rpm
 	rstudio.sh)
 
@@ -23,6 +23,6 @@ build() {
 	find $PKG/ -name "*COPYING*" -delete
 	find $PKG/ -name "*INSTALL*" -delete
 
-	sed -i "s:/usr/lib/rstudio/rstudio:rstudio:" $PKG/usr/share/applications/rstudio.desktop
+	sed -i "s:/usr/lib/rstudio/rstudio:rstudio %f:" $PKG/usr/share/applications/rstudio.desktop
 	sed -i "s:Development:Education:" $PKG/usr/share/applications/rstudio.desktop
 }
