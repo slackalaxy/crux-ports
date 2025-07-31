@@ -75,9 +75,9 @@ f:822a15a1ff16e44c717b92407f5fdb83:p5-cpan-distnameinfo/Pkgfile
 f:80e19eebc2d7e4485f8bd8b1e19752a6:p5-cpan-distnameinfo/.footprint
 f:0aac7438c4dc1e89a09c6e3905e4d90c:p5-cpan-distnameinfo/.signature
 f:45eac047539861f4b55a6d4d19bc9fe4:guidance/.footprint
-f:e5b31fe1407d14a4fcd5bff18aaf5e73:guidance/Pkgfile
-f:d01ef2d771bd8581de9f71a058681ead:guidance/.signature
-f:ddf2e98a3590c8b77c950fb82f08be55:guidance/guidance.sh
+f:004771b130eb4a03cc5a91a97a7d27c6:guidance/Pkgfile
+f:ed67426bcc46367ac576b9fb3c4e621c:guidance/.signature
+f:024bdd5523dff51f3fdf2d5464efb9eb:guidance/guidance.sh
 f:de6460178fcd6f93efc694fb3e6b2298:p5-algorithm-munkres/.footprint
 f:69d6c6a5df83f5667f053f836c4c32e4:p5-algorithm-munkres/.signature
 f:80e86b9cd86f5f82cfb459ec0c050263:p5-algorithm-munkres/Pkgfile
