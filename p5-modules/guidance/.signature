@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/p5-modules.pub
-RWShAUlceqQf4ZALSH2vubmCcktGPVuCrY+jCx0KcI+ipIAvoGjBFReYwN1kpOaMWsfI2TvGfIuYGcRSA70ts+slEc+GzizLDwU=
-SHA256 (Pkgfile) = b402d54e472cf664d3f0b7b3845b096349cd807155f44e0f0351428d3f8dbf72
+RWShAUlceqQf4UkcLXcTSq2B1P0PrlfzZ5d3RzZs+BCTUG6E93hWHdJ607FkerheIHtInI2Ulq5KnjCjuqUWBFl8uSmTW46JTAo=
+SHA256 (Pkgfile) = 6be0306e9cf27098b33afec22745388571a33e30f643f930277d2f25965887c3
 SHA256 (.footprint) = 5f1cefd3b2dd15caa07aea1d032c084ecf71d941d52fe80d1c1af99a6b6b3c5a
 SHA256 (guidance.v2.02.tar.gz) = 06e7cbf335ea69f4aafb455a855d046f9bfab3715a9b6f0d589a2095b4ee60e5
-SHA256 (guidance.sh) = b9d637d109a6578e0158b183a59954fe11dd693e75dda2c248e5d12bf758a21d
+SHA256 (guidance.sh) = a79e9d4ba83f0f3fbe1eaf6864c0135e8c9526d65ba85affff71a5a34cd1de50
