@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89APqC0FZf82zYrkOn54zJHdztR3a8IJaQjr0WOKgVp7whmbsY+/Kn8B0fWxb60v7WEtfAcmyL3k2HRQ1kK4L9AE=
+SHA256 (Pkgfile) = c61addbff86bc3d437e11773e90094b4712d413432af178ae29ba1400ac76bf0
+SHA256 (.footprint) = 1c61ecd74f3896eb8162e987f2ea26c0ab10b4a2727e4ca8d42f624150649e46
+SHA256 (taxize_0.10.0.tar.gz) = 64b744004564607249781c0ab8149fbf29a0b83ea4ec2ee9449a8dd41efba247

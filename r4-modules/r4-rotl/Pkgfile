@@ -1,0 +1,16 @@
+# Description: R module rotl
+# URL: https://cran.r-project.org/web/packages/rotl
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ape r4-curl r4-httr r4-jsonlite r4-rentrez r4-rlang r4-rncl
+# Optional: r4-knitr r4-mcmcglmm r4-phylobase r4-readxl r4-rmarkdown r4-rnexml r4-testthat
+
+name=r4-rotl
+version=3.1.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/rotl_${version}.tar.gz)
+
+build() {
+	cd rotl
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

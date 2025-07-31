@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89INGTBuQxfP6YX0YC+zh7Fe3PAgAHETBX4UMlOh1Glb8UpI03qYG7Asi8uO2rXZ8k7d+KUo2Az+HGMoEd7MZagA=
+SHA256 (Pkgfile) = cfe3019909b9e1bab367b877baeafd75314b1d2f9b26252ac6649f02b3582d66
+SHA256 (.footprint) = 54bc199954593bebaee145c809010fce87f95541b95357d16decb45508a97249
+SHA256 (solrium_1.2.0.tar.gz) = 7ec64199497cc69f542fded955b709fc548cf8e2734c9db0f4a99a0ea67ca49b

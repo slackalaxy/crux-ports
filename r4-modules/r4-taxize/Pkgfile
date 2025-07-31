@@ -1,0 +1,16 @@
+# Description: R module taxize
+# URL: https://cran.r-project.org/web/packages/taxize
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ape r4-cli r4-crayon r4-crul r4-curl r4-data-table r4-jsonlite r4-lifecycle r4-natserv r4-phangorn r4-r6 r4-ritis r4-rotl r4-rredlist r4-stringi r4-tibble r4-wikitaxa r4-worrms r4-xml2 r4-zoo
+# Optional: r4-testthat r4-vcr r4-vegan
+
+name=r4-taxize
+version=0.10.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/taxize_${version}.tar.gz)
+
+build() {
+	cd taxize
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

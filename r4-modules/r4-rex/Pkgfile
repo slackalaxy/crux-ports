@@ -1,0 +1,16 @@
+# Description: R module rex
+# URL: https://cran.r-project.org/web/packages/rex
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-lazyeval
+# Optional: r4-covr r4-dplyr r4-ggplot2 r4-hmisc r4-knitr r4-magrittr r4-rmarkdown r4-roxygen2 r4-rvest r4-stringr r4-testthat
+
+name=r4-rex
+version=1.2.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/rex_${version}.tar.gz)
+
+build() {
+	cd rex
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

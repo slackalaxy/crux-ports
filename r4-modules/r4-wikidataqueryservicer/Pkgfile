@@ -1,0 +1,16 @@
+# Description: R module WikidataQueryServiceR
+# URL: https://cran.r-project.org/web/packages/WikidataQueryServiceR
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-dplyr r4-httr r4-jsonlite r4-purrr r4-ratelimitr r4-readr r4-rex r4-wikipedir
+# Optional: r4-lintr r4-testthat
+
+name=r4-wikidataqueryservicer
+version=1.0.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/WikidataQueryServiceR_${version}.tar.gz)
+
+build() {
+	cd WikidataQueryServiceR
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89GYZ+L+k6nE/PmF3FKGpPFmQQ929exqIt4C/4cGOKEcF70tPDvDHt/ebYuOrgnTfvy3hrD3qQN+Pc7KQk6y+pw0=
+SHA256 (Pkgfile) = a86d96e6db474821188192015c41d38c237f2f71fdbaa8666048a17f226830e3
+SHA256 (.footprint) = 10e4f379d9f88a34c7c6f55d7c9a300e9a0641eb679a19ddee7d668604578bc4
+SHA256 (rotl_3.1.0.tar.gz) = 12baeef897c835d20a4d84cf058a3d3d09b89202f7ec0325140cb7754ab5635c

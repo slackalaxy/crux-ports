@@ -1,0 +1,16 @@
+# Description: R module WikipediR
+# URL: https://cran.r-project.org/web/packages/WikipediR
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-httr r4-jsonlite r4-magrittr
+# Optional: r4-knitr r4-testthat r4-wikidatar
+
+name=r4-wikipedir
+version=1.7.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/WikipediR_${version}.tar.gz)
+
+build() {
+	cd WikipediR
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

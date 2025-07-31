@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89FVNpWI5rRNbjuvUszM5vthD07ovD5N9X7+ZoHIJQzxNgHwz5ojscDxYTF9MnuDiRp/KquUk9EspDE4JjHYO9QE=
+SHA256 (Pkgfile) = d62a501597b0307a8fc9a414abed51247b0b082fccb74791bcb1f2d641559e01
+SHA256 (.footprint) = 3a05c1f3dba72262a1909cde094f92a708abaaae358d802a0000501a89eda878
+SHA256 (natserv_1.0.0.tar.gz) = 30f90f938e963191ef19b1433db1e265f67d8efe29c92a1d3603c3dc9a03d5c8

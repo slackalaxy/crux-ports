@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89NNI5/vFpokxsHBtUdfyrDJDRNJvVj6QlbbNUOSBVZ9fC2w9YgeLKJcoKCdcYfmfMq9XK0/B8E8EgmXFson63QQ=
+SHA256 (Pkgfile) = ce9efb03b04800a064891b2fd6951fb35a23dc1dfed565e8b7ac5487da1044de
+SHA256 (.footprint) = 2fd4ffe42ac5a6f288a516d0d6fbd4ba1734fe03cf1cdf92acfe98f5c5e1c546
+SHA256 (rex_1.2.1.tar.gz) = af42e649c06e4bbdba94d5a1870a7e8347903571c90cd5e5ca40f52307a3bfd6

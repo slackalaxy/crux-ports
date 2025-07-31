@@ -1,0 +1,16 @@
+# Description: R module rredlist
+# URL: https://cran.r-project.org/web/packages/rredlist
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-crul r4-curl r4-jsonlite r4-lifecycle r4-rlang
+# Optional: r4-dplyr r4-ggplot2 r4-knitr r4-microbenchmark r4-patchwork r4-rmarkdown r4-spelling r4-testthat r4-tibble r4-tidyr r4-vcr r4-vdiffr r4-webmockr
+
+name=r4-rredlist
+version=1.1.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/rredlist_${version}.tar.gz)
+
+build() {
+	cd rredlist
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
