@@ -1,10 +1,10 @@
 # Description: Hypothesis Testing using Phylogenies
 # URL: https://github.com/veg/hyphy/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: openmpi
+# Depends on: openblas
 
 name=hyphy
-version=2.5.74
+version=2.5.75
 release=1
 source=(https://github.com/veg/hyphy/archive/$version/$name-$version.tar.gz)
 
@@ -29,7 +29,8 @@ build() {
 	-D CMAKE_INSTALL_PREFIX=/usr \
 	-D CMAKE_BUILD_TYPE=Release ..
 
-	make MP HYPHYMPI
+	#make MP HYPHYMPI
+	make
 	make install DESTDIR=$PKG
 	
 	find $PKG/ -name "*README*" -delete
