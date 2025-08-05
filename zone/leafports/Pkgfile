@@ -1,0 +1,12 @@
+# Description: Lists "leaf" ports and you can remove them as you see fit
+# URL: https://libera.catirclogs.org/crux/2025-08-02#38512320;
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=leafports
+version=2014
+release=1
+source=($name.sh)
+
+build() {
+  install -D -m 755 $SRC/$name.sh $PKG/usr/bin/$name
+}
