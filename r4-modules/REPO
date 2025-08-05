@@ -619,6 +619,7 @@ d:r4-wikidatar
 d:r4-wikipedir
 d:r4-wikitaxa
 d:r4-worrms
+d:r4-gnumeric
 f:f96e59c91ba59687185836472b523120:r4-ggplotify/Pkgfile
 f:71c2becc451abb908ff70e8d821eb549:r4-ggplotify/.signature
 f:71c7851c9a269938b25e318ac8912552:r4-ggplotify/.footprint
@@ -2489,3 +2490,6 @@ f:b5a89a554717066fb6663c5c201430ac:r4-wikitaxa/.signature
 f:f321012b8b9aa895d513e80d096c5461:r4-worrms/Pkgfile
 f:82dbcc34867c5bbbab544b433c47bf23:r4-worrms/.footprint
 f:353928aaa1ef52ed4533092051306a27:r4-worrms/.signature
+f:c84734005ad94859e96a85000c2d8e19:r4-gnumeric/Pkgfile
+f:f097cebbc4aef474e59976cf581274b7:r4-gnumeric/.footprint
+f:ad3c1b1382394bf7c2f9c83c11b2f43d:r4-gnumeric/.signature
