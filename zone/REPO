@@ -21,7 +21,7 @@ d:prt-supplements
 d:networkmanager-openvpn
 d:mime-crux
 d:mnt-dirs
-d:xfce4-mate-applet-loader-plugin
+d:leafports
 f:d2ae3abf557bb39c04d1ea035842d4e6:fonts-conf/.footprint
 f:15a571ea0e307317b2e0efb95eeee460:fonts-conf/.signature
 f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
@@ -129,7 +129,7 @@ f:858dbf1a65099b24d1703486ca45a3f6:mime-crux/.signature
 f:e3b1ec612063f72a038c68f7ddc942e5:mnt-dirs/Pkgfile
 f:0df1e00904d00e32c823999b2e70a0f3:mnt-dirs/.footprint
 f:8de6972f3c31b31ab7148641a63484d2:mnt-dirs/.signature
-f:01ba82e07313a64580efb8fcd2aa571e:xfce4-mate-applet-loader-plugin/Pkgfile
-f:ef8d2fcbc9a6cbf3414c7d22802c1495:xfce4-mate-applet-loader-plugin/.footprint
-f:7f0509676412b8d9eb977c6d74c30ec0:xfce4-mate-applet-loader-plugin/.signature
-f:3f65bbff86ad9529dc0f0af1481573c9:xfce4-mate-applet-loader-plugin/README
+f:f03a1b09bcc9775dae3fc02de28885cb:leafports/leafports.sh
+f:39b8b90efa605cb46cb09c398edbda0c:leafports/Pkgfile
+f:5d7fe964017ca78daeb825ff7f3ca676:leafports/.footprint
+f:885cf4ff22e596d2c9b4cf3bf32f305d:leafports/.signature
