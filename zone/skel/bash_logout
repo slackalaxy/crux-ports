@@ -1,2 +1,4 @@
-#rm ~/.bash_history-*.tmp
-#clear
+#rm -rf ~/.bash_history-*.tmp
+#rm -rf ~/.Xauthority
+#rm -rf ~/.serverauth.*
+clear

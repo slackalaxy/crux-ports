@@ -2,15 +2,28 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
-## Use these Freetype properties. Make sure to
-## rm /etc/fonts/conf.d/10-hinting-*.conf
-export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
+if [ -f /etc/profile.d/vte.sh ]; then
+  source /etc/profile.d/vte.sh
+fi
 
-## Do we have QT5CT installed?
-export QT_QPA_PLATFORMTHEME=qt5ct
+# Prefer my own freetype2 settings from the fonts-conf port
+if [ -f /etc/profile.d/fonts-conf.sh ]; then
+  source /etc/profile.d/fonts-conf.sh
+fi
 
-# GTK3 scrollbars
-export GTK_OVERLAY_SCROLLING=0
+# If you have both qt5ct and qt6ct installed, qt5ct is enough
+#if [ -f /etc/profile.d/qt6ct.sh ]; then
+#  source /etc/profile.d/q65ct.sh
+#fi
+
+if [ -f /etc/profile.d/qt5ct.sh ]; then
+  source /etc/profile.d/qt5ct.sh
+fi
+
+# Disable hiding GTK3 scrollbars
+if [ -f /etc/profile.d/bluecurve.sh ]; then
+  source /etc/profile.d/bluecurve.sh
+fi
 
 ## Locale
 export LANG=en_US.utf-8

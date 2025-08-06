@@ -1,10 +1,11 @@
 # Description: Default configuration for the console
 # URL: https://slackware.uk/microlinux/desktop-14.2-source/profile/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: ls_colors xorg-font-terminus
 
 name=skel
 version=3.8
-release=3
+release=4
 source=(bash_logout bash_profile bashrc nanorc xinitrc.xfce4 xprofile Xresources)
 
 build() {
