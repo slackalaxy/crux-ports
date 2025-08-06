@@ -1,0 +1,16 @@
+# Description: A collection of extension:color mappings
+# URL: https://github.com/trapd00r/LS_COLORS
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=ls_colors
+version=810ce8c
+release=1
+source=(https://github.com/trapd00r/LS_COLORS/archive/$version/LS_COLORS-810ce8cac886ac50e75d84fb438b549a1f9478ee.tar.gz)
+
+build() {
+  cd $SRC/LS_COLORS-${version}*
+  
+  mkdir -p $PKG/etc/profile.d
+  install -m 0644 lscolors.sh $PKG/etc/profile.d
+  install -m 0644 lscolors.csh $PKG/etc/profile.d
+}
