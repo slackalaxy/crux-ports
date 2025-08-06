@@ -5,10 +5,13 @@
 
 name=fonts-conf
 version=8b2f816
-release=1
+release=2
 source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-8b2f8164216e5ab2ed090425810dabbb777dd600.tar.gz)
 
 build() {
 	cd $name-${version}*
 	install -D -m644 fonts.conf $PKG/etc/fonts/local.conf
+	
+	mkdir -p $PKG/etc/profile.d
+	echo 'export FREETYPE_PROPERTIES="truetype:interpreter-version=35 cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"' > $PKG/etc/profile.d/fonts-conf.sh
 }
