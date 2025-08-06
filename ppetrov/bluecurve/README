@@ -1,0 +1,2 @@
+Source /etc/profile.d/bluecurve.sh to disable hiding of scrollbars in
+GTK3.
