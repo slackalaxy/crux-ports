@@ -6,7 +6,7 @@
 name=qt5ct
 version=1.9
 _styles=335dbec
-release=3
+release=4
 source=(https://sourceforge.net/projects/qt5ct/files/$name-$version.tar.bz2
 	https://github.com/qt/qtstyleplugins/archive/${_styles}/335dbece103e2cbf6c7cf819ab6672c2956b17b3.tar.gz
 	0001-fix-build-against-Qt-5.15.patch
@@ -38,4 +38,7 @@ build(){
 		LIBS+="-lQt5DBus"
 	make
 	make INSTALL_ROOT="$PKG" install
+	
+	mkdir -p $PKG/etc/profile.d/
+	echo "export QT_QPA_PLATFORMTHEME=qt5ct" > $PKG/etc/profile.d/qt5ct.sh
 }
