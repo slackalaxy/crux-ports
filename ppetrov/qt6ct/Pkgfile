@@ -5,7 +5,7 @@
 
 name=qt6ct
 version=0.10
-release=1
+release=2
 source=(https://www.opencode.net/trialuser/qt6ct/-/archive/$version/qt6ct-$version.tar.gz)
 
 build() {
@@ -19,6 +19,9 @@ build() {
 
   cmake --build build
   DESTDIR="$PKG" cmake --install build
+
+  mkdir -p $PKG/etc/profile.d/
+  echo "export QT_QPA_PLATFORMTHEME=qt6ct" > $PKG/etc/profile.d/qt6ct.sh
 
   sed -i "s:Settings;DesktopSettings;Qt;:Settings;X-XFCE-SettingsDialog;:" $PKG/usr/share/applications/qt6ct.desktop
 }
