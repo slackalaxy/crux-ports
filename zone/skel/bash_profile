@@ -13,7 +13,7 @@ fi
 
 # If you have both qt5ct and qt6ct installed, qt5ct is enough
 #if [ -f /etc/profile.d/qt6ct.sh ]; then
-#  source /etc/profile.d/q65ct.sh
+#  source /etc/profile.d/qt6ct.sh
 #fi
 
 if [ -f /etc/profile.d/qt5ct.sh ]; then
@@ -26,5 +26,5 @@ if [ -f /etc/profile.d/bluecurve.sh ]; then
 fi
 
 ## Locale
-export LANG=en_US.utf-8
-export LC_ALL=en_US.utf-8
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8  # Uncomment if you need to force all categories

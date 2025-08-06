@@ -1,7 +1,6 @@
 ## Use colour by default
 alias ls="ls --color=auto"
 alias ll="ls --color=auto -al"
-alias lc="ls --color=auto | sort"
 alias cd..='cd ..'
 alias ..='cd ..'
 
