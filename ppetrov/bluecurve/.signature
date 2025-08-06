@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZXoEkaMDh+NCePHpIxVz51JbhG3aOEBopuZtNuqJ797vFLITl4mqGKuOGukx5QsRw8bwCCD5USvzLrXvyaDFvA8=
-SHA256 (Pkgfile) = ac46bcb9d9a4483b60c5aecad3b4183fdf37b1e79bc5244f6038c1bac6bfce39
-SHA256 (.footprint) = 04b36f8cc24df5cbc90c40f2d45bc1ac2bf65d63cbf0e2c488ce7ac4fa4f7f81
+RWToVVsIkzFIZQ0XDajmKJv2SxjplGgnoZpNz4fW8r0YmNkHuhodkUZVPBm96kOrsIwSzty9kosG4macC7LzyB/CW51XjgQ7IQc=
+SHA256 (Pkgfile) = 9cb6d249f2c8a103c650c60cae155b96dc4c5ded4f69053238699013f4fc0dc8
+SHA256 (.footprint) = 9814f8cf236cb1128f1628049d14e0ff4ad6106661624a844b027173636e9f5f
 SHA256 (Bluecurve-3.0.0.tar.gz) = 437ea12de4f088da70161c31ba465d634338f69a765eb6773b2357efc9b1cb4c

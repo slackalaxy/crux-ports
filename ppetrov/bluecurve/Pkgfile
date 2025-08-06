@@ -5,7 +5,7 @@
 
 name=bluecurve
 version=3.0.0
-release=4
+release=5
 source=(https://github.com/neeeeow/Bluecurve/archive/v$version/Bluecurve-$version.tar.gz)
 
 build() {
@@ -34,6 +34,9 @@ build() {
   # Gtk-WARNING **: 10:33:05.470: Theme parsing error: gtk-style.css:127:18:
   # The :insensitive pseudo-class is deprecated. Use :disabled instead.
   sed -i 's|window:insensitive|window:disabled|g' $PKG/usr/share/themes/Bluecurve/gtk-3.0/gtk-style.css
+  
+  mkdir -p $PKG/etc/profile.d
+  echo "export GTK_OVERLAY_SCROLLING=0" > $PKG/etc/profile.d/bluecurve.sh
   
   find $PKG/ -name "*README*" -delete
 }
