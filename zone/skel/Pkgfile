@@ -1,7 +1,8 @@
 # Description: Default configuration for the console
 # URL: https://slackware.uk/microlinux/desktop-14.2-source/profile/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: ls_colors xorg-font-terminus
+# Depends on: ls_colors
+# Optional: bluecurve qt5ct qt6ct qt6gtk2 fonts-conf vte3 xfce4 xorg-font-terminus
 
 name=skel
 version=3.8
