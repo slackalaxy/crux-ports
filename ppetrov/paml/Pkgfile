@@ -1,13 +1,11 @@
 # Description: PAML: Phylogenetic Analysis by Maximum Likelihood
-# URL: http://abacus.gene.ucl.ac.uk/software/paml.html
+# URL: https://github.com/abacus-gene/paml
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=paml
-version=4.10.6
+version=4.10.9
 release=1
-source=(https://github.com/abacus-gene/paml/archive/v${version}/$name-$version.tar.gz
-	https://awarnach.mathstat.dal.ca/~joeb/PAML_lab/resources/pamlDEMO_2023.pdf
-	https://awarnach.mathstat.dal.ca/~joeb/PAML_lab/resources/Bielawski_book_chapter.pdf)
+source=(https://github.com/abacus-gene/paml/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version/src
@@ -43,9 +41,9 @@ build() {
 	cc $CFLAGS -fcommon -DBEB -o PositiveSitesBEB PositiveSites.c -lm
 	cc $CFLAGS -fcommon -DBranchSite -o PositiveSitesBS  PositiveSites.c -lm
 
-	install -D -m755 PositiveSitesBEB $PKG/usr/lib/$name/PositiveSitesBEB
-	install -D -m755 PositiveSitesBS $PKG/usr/lib/$name/PositiveSitesBS
-	install -D -m755 PositiveSitesNEB $PKG/usr/lib/$name/PositiveSitesNEB
+	install -D -m 755 PositiveSitesBEB $PKG/usr/lib/$name/PositiveSitesBEB
+	install -D -m 755 PositiveSitesBS $PKG/usr/lib/$name/PositiveSitesBS
+	install -D -m 755 PositiveSitesNEB $PKG/usr/lib/$name/PositiveSitesNEB
 	install -D -m 644 README.txt $PKG/usr/share/$name/MCcodonNS/README.txt
 	cp -a codeml.ctl *.dat $PKG/usr/share/$name/MCcodonNS
 	
@@ -60,6 +58,7 @@ build() {
 	cp -a dat examples $PKG/usr/share/$name
 	cp -a doc/* $PKG/usr/share/$name
 	cp -a Technical/Pt/eigenQREV.pdf $PKG/usr/share/$name
-	cp $SRC/pamlDEMO_2023.pdf $PKG/usr/share/$name
-	cp $SRC/Bielawski_book_chapter.pdf $PKG/usr/share/$name
+	
+	find -L $PKG -perm 664 -exec chmod 644 {} \;
+	find -L $PKG -perm 775 -exec chmod 755 {} \;
 }
