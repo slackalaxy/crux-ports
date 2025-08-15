@@ -5,7 +5,7 @@
 # Optional: krb5 x264 x265
 
 name=strawberry
-version=1.2.11
+version=1.2.12
 release=1
 source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
 
@@ -22,6 +22,7 @@ build() {
 	-DENABLE_EBUR128=OFF                  \
 	-DENABLE_STREAMTAGREADER=OFF          \
 	-DENABLE_DISCORD_RPC=OFF              \
+	-DENABLE_TRANSLATIONS=OFF \
         -Wno-dev
 
   cmake --build build
