@@ -1,0 +1,4 @@
+This conflicts with xorg-xbacklight, as it is a drop in replacement for
+it. Modify /etc/prt-get.aliases, accordingly:
+
+xorg-acpilight: xorg-xbacklight

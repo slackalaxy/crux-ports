@@ -1,0 +1,15 @@
+# Description: A backward-compatibile xbacklight replacement
+# URL: https://gitlab.com/wavexx/acpilight
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+# Conflicts: xorg-xbacklight
+
+name=xorg-acpilight
+version=1.2
+release=1
+source=(https://gitlab.com/wavexx/acpilight/-/archive/v${version}/acpilight-v${version}.tar.gz)
+
+build() {
+  cd acpilight-v${version}
+  make DESTDIR=$PKG install
+}
