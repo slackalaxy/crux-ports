@@ -1,0 +1,2 @@
+If lmdb is not present, this will build its own, which may screw ports
+like krb5.
