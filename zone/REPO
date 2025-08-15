@@ -23,6 +23,7 @@ d:mime-crux
 d:mnt-dirs
 d:leafports
 d:ls_colors
+d:xorg-acpilight
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
 f:945d57350501f7e79d10317043c5f142:fonts-conf/.signature
 f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
@@ -89,11 +90,11 @@ f:c3a7ddbe5a7bc6e2754ab6104f0cabe2:ports-extra/.footprint
 f:0fa14ad75280cf740bcf4dd0f661ad8c:ports-extra/.signature
 f:ef2e592ed8588f2fbc61321465a67223:ports-extra/README
 f:63701850c70571d48b02dc854d76ecb4:ports-extra/kde-plasma-6.rsync
-f:9f8fea77b236839a84dcfca77f7b53e5:fonts-mswin/.signature
-f:58bb3adef042e217f00baa1a0f7adee9:fonts-mswin/Pkgfile
+f:2f3025159ce15d433942e55eda2a84de:fonts-mswin/.signature
+f:7c386bccead0efe9dd3fb0e302f16d73:fonts-mswin/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-mswin/README
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-mswin/post-install
-f:3b1117e192b873d6797c35bbe65263ca:fonts-mswin/.footprint
+f:12f40b9df13e386a5419f4407f26beb4:fonts-mswin/.footprint
 f:c9e8a972cd9d1029273671ec3af6ec8e:cron-job-trimssd/.signature
 f:de43ed3a531c44a785b8bc04204e4637:cron-job-trimssd/README
 f:4e3b444d93a815977f9b7e306021fd53:cron-job-trimssd/trimssd.conf
@@ -138,3 +139,7 @@ f:e0179e16c077b7f7c9e22e5b0f98bec6:ls_colors/Pkgfile
 f:1beaf1e31ff9683175e0e0d312a16967:ls_colors/.footprint
 f:a825523bb95a019d56e478f6bedc032b:ls_colors/.signature
 f:b84a02f6f76f93eb7c406220de2ad36e:ls_colors/README
+f:0553f77f1dffe24a8fab9c8583e0d13c:xorg-acpilight/Pkgfile
+f:1e879ebab97474b6f1b22e8cf8735d58:xorg-acpilight/.footprint
+f:025ec1963ae50df95b158fa52fe35734:xorg-acpilight/.signature
+f:d7e7a449a1a633627da6981dec696fcd:xorg-acpilight/README
