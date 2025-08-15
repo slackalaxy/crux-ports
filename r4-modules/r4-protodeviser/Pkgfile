@@ -4,9 +4,9 @@
 # Depends on: r r4-gggenomes r4-jsonlite r4-dplyr r4-seqinr r4-openxlsx r4-shiny r4-shinybs r4-shinybusy r4-rclipboard r4-shinyjs r4-dt r4-textshaping r4-viridis r4-ragg r4-markdown r4-pkgdown
 
 name=r4-protodeviser
-version=cdeb1f5
+version=01635b2
 release=1
-source=(https://github.com/izzilab/protodeviser/archive/$version/protodeviser-cdeb1f574b3e3898064da8ccb8fd4e46ce7aaf02.tar.gz)
+source=(https://github.com/izzilab/protodeviser/archive/$version/protodeviser-01635b22151655f87c0708beaed1e40ce40bfa38.tar.gz)
 
 build() {
 	cd protodeviser-${version}*
