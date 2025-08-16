@@ -43,6 +43,7 @@ d:qt5ct
 d:bpp1-seq
 d:bpp1-numcalc
 d:medit
+d:wps-office
 d:qt6ct
 d:qt6gtk2
 d:rstudio-desktop
@@ -60,7 +61,6 @@ d:ucsf-chimerax
 d:viber
 d:vscodium
 d:bluecurve
-d:wps-office
 d:yt-dlp
 d:zoom-linux
 d:argtable
@@ -246,6 +246,13 @@ f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
 f:fc9828b054d154925c34cd284ae472bd:medit/Pkgfile
 f:3182039f2c45ca4c18da1c9e758e8940:medit/.footprint
 f:0fcb5b7f82f882828a1f0e2eccef0ca6:medit/.signature
+f:755370422cd2655166873d9ebe7d3637:wps-office/.signature
+f:2b43e6e6e61c952447928ccc1214fab9:wps-office/README
+f:bfa63c1f8b8700a9409eaa31f4af559c:wps-office/Pkgfile
+f:eee369a74160a90f567c8c50f9e5b2f7:wps-office/.footprint
+f:34f2acef2c0d585c10ddcad02868541a:wps-office/post-install
+f:3b421d5225924bfc1c64e6048d6aaf90:wps-office/wps-office.desktop
+f:54f850c682671ec7cde829f9f2e98cd5:wps-office/wps-office.sh
 f:03a243ff21d968f1e7c5fc25330e0dd1:qt6ct/Pkgfile
 f:6ed1da028e3c1db763e18fd2dea2ef5c:qt6ct/.footprint
 f:b3fb8fa27abaee8af0f94dfb518ad6be:qt6ct/.signature
@@ -311,14 +318,6 @@ f:a26d2763ebb6375234963c9551c19582:bluecurve/Pkgfile
 f:680c104a95c99650309547cca83ea388:bluecurve/.footprint
 f:57d132bda26f9fabbabc6925e6c5b7b4:bluecurve/.signature
 f:43ef0cddb88f77eadf5175f539238173:bluecurve/README
-f:c87b0900993f6b8cb9b1f9b509f4de0d:wps-office/.footprint
-f:e256100e8aed7ead8216a0a2354f1fd8:wps-office/desktop.tar.xz
-f:52cd9404c0251efb64ed4e5b58ebfc1c:wps-office/README
-f:bb31750b8331bf055f447f055533b49a:wps-office/freetype.tar.xz
-f:eb083887928bbc0a2399d6d034b88fd7:wps-office/Pkgfile
-f:389134912dc24609f83900c75f0b3e99:wps-office/post-install
-f:c1305a3d64dc569f1ac95884411508da:wps-office/.signature
-f:1f50a42ba7aa8c143ec5edc82f70f9c2:wps-office/en_GB.tar.xz
 f:8264e5b61801be698f2071f8a7ebba8c:yt-dlp/.footprint
 f:70e8397842c9d01d4f7f106629260afd:yt-dlp/Pkgfile
 f:61fc5487b8a5aa562fee5e4e4cccc988:yt-dlp/.signature
