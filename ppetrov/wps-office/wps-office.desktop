@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=WPS Office
+Comment=WPS Office Suite
+Exec=wps-office %U
+Icon=wps-office2023-kprometheus
+MimeType=application/wps-office.wps;application/wps-office.wpt;application/msword;application/rtf;application/msword-template;application/vnd.openxmlformats-officedocument.wordprocessingml.template;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/wps-office.et;application/wps-office.ett;application/vnd.ms-excel;application/vnd.openxmlformats-officedocument.spreadsheetml.template;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/wps-office.dps;application/wps-office.dpt;application/vnd.ms-powerpoint;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.openxmlformats-officedocument.presentationml.template;
+StartupNotify=false
+Type=Application
+Categories=Office;

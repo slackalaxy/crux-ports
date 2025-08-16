@@ -2,7 +2,6 @@
 update-mime-database /usr/share/mime
 update-desktop-database
 for i in /usr/share/icons/* ; do
-	echo "         $i"
 	gtk-update-icon-cache -q -t -f $i
 done
 # EOF

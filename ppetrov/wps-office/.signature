@@ -1,11 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZR9g7VnEJcEf3QsUwglHLDHylyNAm3ijLzK9DA8nrMERDq07V45WK1ZNHcb4xGC+QMLooM1OaM+H9SGAwQbMEgo=
-SHA256 (Pkgfile) = bfd4a472ec581f652fde1e542aa727e141c10ed189feb2341629b5cd16490a00
-SHA256 (.footprint) = 31fb67bd97fc8ad1b7f0ddbed84c4c8a47d69feebb9cb7e73cf57989cde8f723
-SHA256 (wps-office_11.1.0.11723.XA_amd64.deb) = fe6326210f69d94efdbf2728914d293036be391b93a614f58cd0e1ff1d4923b3
-SHA256 (freetype-2.13.2.tar.xz) = 12991c4e55c506dd7f9b765933e62fd2be2e06d421505d7950a132e4f1bb484d
+RWToVVsIkzFIZWmdXh8ebtefqjxT6ysAPOW3Ufku1PEQ1m2OcUH11HrahFIa5WuGy9YyUttHNg7MHQqCyyBaCGxZv6WPHVn+gwU=
+SHA256 (Pkgfile) = 3bcfc14ba1343b486258de79ad760d7528c3af538455ba1573eeb11cb0cb1a97
+SHA256 (.footprint) = c1ac5a56575ec54cbf3b0b8ffd9cc95b0ea3a44d8a25a7d929043e9f888cae98
+SHA256 (wps-office_12.1.2.22570.AK.preread.sw_474164_amd64.deb) = d2c5569889ac7cbc2a331c17c62184fcbbd224c41e2f86f852ea654f9442a657
 SHA256 (v255.5.tar.gz) = ef83beb381064516c29290f0fedcbbe36de052f313d72d120eade69ab26b82fe
-SHA256 (tiff-4.4.0.tar.gz) = 917223b37538959aca3b790d2d73aa6e626b688e02dcda272aec24c2f498abed
-SHA256 (desktop.tar.xz) = 3259dc70c4af79528ff4cdab1f9b3da6f856ff344a017a4d6a1e7b907cc42f53
-SHA256 (en_GB.tar.xz) = a64707cb4d3e5bbb1d2f63f1843556d7e90daf53f584bde23f57c4e515b13e2b
-SHA256 (freetype.tar.xz) = c2e96c6d07a31aa24f86b698512a4d9b4fe63c4af43e7c4ef70f37bc0ad0f17f
+SHA256 (wps-office.sh) = f9fd34fdcdf0a6c5daf17a341687011a5e1b800927a6e0e717a6b902a7e84bb2
+SHA256 (wps-office.desktop) = 12f234ab5b4195cfa11283ef5fc1527650933d4e51326d254fcd8d0a9ca6707e

@@ -1,3 +1,6 @@
+NOTE: This is the Chinese version. I switch to it, because it is ahead
+of the English one.
+
 Thanks to Arch Linux for this!
 https://wiki.archlinux.org/title/WPS_Office#WPS_Office_Overriding/Breaks_Mime
 
@@ -21,3 +24,7 @@ spell check. For more dictionaries:
 
   https://github.com/slackalaxy/wps-office-dicts
   https://slackalaxy.com/2021/04/03/wps-office-v11-dictionary/
+
+If the download does not work, get the deb from the web-page:
+
+  https://www.wps.cn/product/wpslinux#

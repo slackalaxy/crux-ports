@@ -1,80 +1,52 @@
 # Description: WPS Office for Linux
-# URL: https://linux.wps.com/
+# URL: https://www.wps.cn/product/wpslinux#
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli cups double-conversion gnutls gtk3 icu libidn2 libsdl2 libwebp libxslt nss openssl11 qt5 unixodbc
+# Depends on: brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland
 
 name=wps-office
-version=11.1.0.11723.XA
-_ftver=2.13.2
+version=12.1.2.22570.AK
 _egver=255.5
-_ltver=4.4.0
-release=4
-source=(https://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/${version:7:-3}/${name}_${version}_amd64.deb
-	https://sourceforge.net/projects/freetype/files/freetype2/${_ftver}/freetype-${_ftver}.tar.xz
+release=1
+source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.preread.sw_474164_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_egver}.tar.gz
-	http://download.osgeo.org/libtiff/tiff-${_ltver}.tar.gz
-	desktop.tar.xz en_GB.tar.xz freetype.tar.xz)
+	$name.sh $name.desktop)
 
 build() {
-	ar -x $SRC/${name}_${version}_amd64.deb
+	ar -x $SRC/${name}_${version}.preread.sw_474164_amd64.deb
 	tar xvf data.tar.xz
 	
-	# The handbook says packages should not place stuff in /opt
 	mkdir -p $PKG/usr/lib/$name
 	cp -a $SRC/opt/kingsoft/$name/office6 $PKG/usr/lib/$name
 	
-	mkdir -p $PKG/usr/{bin,share}
-	cp -a $SRC/usr/bin $PKG/usr
-	
-	# Fix paths accordingly
-	sed -i "s:/opt/kingsoft/$name:/usr/lib/$name:g" $PKG/usr/bin/*
-	
-	# Thanks to NixOS (https://github.com/NixOS/nixpkgs/blob/master/pkgs/applications/office/wpsoffice/default.nix)
-	# distribution is missing libkappessframework.so, so remove the following dead libraries
-	rm -r $PKG/usr/lib/$name/office6/addons/pdfbatchcompression
-	
-	# remove libs that depend on QT4
-	rm -rf $PKG/usr/lib/wps-office/office6/{librpcetapi.so,librpcwppapi.so,librpcwpsapi.so}
-	
-	# use GTK (try to...)
-	# https://wiki.archlinux.org/title/WPS_Office
-	sed -i 's:gOpt=:gOpt="-style=gtk+":g' $PKG/usr/bin/*
-	sed -i 's:#gOptExt=-multiply:export GTK2_RC_FILES=/usr/share/themes/Raleigh/gtk-2.0/gtkrc:' $PKG/usr/bin/*
+	# Use this single wrapper. et, wpp, etc... do not start, while
+	# wps default wrapper has trouble with absolute paths
+	install -D -m 755 $SRC/$name.sh $PKG/usr/bin/$name
 	
 	# British English dictionaries
-	cp -a $SRC/en_GB $PKG/usr/lib/wps-office/office6/dicts/spellcheck/
+	##cp -a $SRC/en_GB $PKG/usr/lib/wps-office/office6/dicts/spellcheck/
 	
-	# Do not use WPS file icons, however leave WPS' mimetypes just in case
-	cp -a $SRC/usr/share/{mime,icons} $PKG/usr/share
+	# Do not use WPS file icons, however leave them just in case
+	mkdir -p $PKG/usr/share/applications
+	cp -a $SRC/$name.desktop $PKG/usr/share/applications
+	cp -a $SRC/usr/share/{icons,mime} $PKG/usr/share
 	
 	# writer mimetype icons
 	wri=( doc dot wps wpt wpss wpso )
 	for w in ${wri[@]}; do
-		sed -i "s:wps-office-$w:x-office-document:g" $PKG/usr/share/mime/packages/wps-office-wps.xml
+		sed -i "s:wps-office-$w:x-office-document:g" $PKG/usr/share/mime/packages/custom-wps-office.xml
 	done
 	
 	# spreadsheet mimetype icons
 	spr=( xls xlt et ett ets eto )
 	for s in ${spr[@]}; do
-		sed -i "s:wps-office-$s:x-office-spreadsheet:g" $PKG/usr/share/mime/packages/wps-office-et.xml
+		sed -i "s:wps-office-$s:x-office-spreadsheet:g" $PKG/usr/share/mime/packages/custom-wps-office.xml
 	done
 	
 	# presentations mimetype icons
 	pre=( ppt pot dps dpt dpss dpso )
 	for p in ${pre[@]}; do
-		sed -i "s:wps-office-$p:x-office-presentation:g" $PKG/usr/share/mime/packages/wps-office-wpp.xml
+		sed -i "s:wps-office-$p:x-office-presentation:g" $PKG/usr/share/mime/packages/custom-wps-office.xml
 	done
-	
-	# Move app desktop icons to their proper place
-	icosize=( 16x16 24x24 32x32 48x48 64x64 96x96 128x128 256x256 512x512 )
-	for size in ${icosize[@]}; do
-		mkdir -p $PKG/usr/share/icons/hicolor/$size/apps
-		mv $PKG/usr/share/icons/hicolor/$size/mimetypes/wps-office2019-* $PKG/usr/share/icons/hicolor/$size/apps
-	done
-	
- 	# Use our desktop entries
- 	mkdir -p $PKG/usr/share/applications
- 	cp -a $SRC/desktop/*.desktop $PKG/usr/share/applications
 	
 	# create file for revdep
 	mkdir -p $PKG/etc/revdep.d
@@ -83,14 +55,6 @@ build() {
 	# https://stackoverflow.com/questions/539583/how-do-i-recursively-list-all-directories-at-a-location-breadth-first
 	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
 	sed -i "s:\.:/usr/lib/wps-office/office6:g" $PKG/etc/revdep.d/$name
-	
-	# this is needed after recent libxml2 update
-	ln -s /usr/lib/libxml2.so libxml2.so.2
-	
-	find $PKG/ -name "*README*" -delete
-
-
-	### EXTRA LIBS #################################################
 	
 	# trick it to think we have systemd, this is needed for changing themes
 	cd $SRC/elogind-${_egver}
@@ -121,45 +85,14 @@ build() {
 	
 	mkdir -p $PKG/usr/lib/wps-office/elogind/
 	cp -a libelogind.so libelogind.so.0 libelogind.so.0.38.0 $PKG/usr/lib/wps-office/elogind/
+	
 	cd $PKG/usr/lib/wps-office/office6
 	ln -s ../elogind/libelogind.so libsystemd.so.0
+	ln -s /usr/lib/libmysqlclient.so libmysqlclient.so.18
 	
-	
-	# Use patched version of FreeType, to avoid problems with bold fonts
-	# https://gitlab.freedesktop.org/freetype/freetype/-/merge_requests/304/
-	cd $SRC
-	
-	patch -Np1 -d freetype-${_ftver} -i $SRC/freetype/0001-Enable-table-validation-modules.patch
-	patch -Np1 -d freetype-${_ftver} -i $SRC/freetype/0002-Enable-subpixel-rendering.patch
-	patch -Np1 -d freetype-${_ftver} -i $SRC/freetype/0004-Enable-long-PCF-family-names.patch
-	patch -Np1 -d freetype-${_ftver} -i $SRC/freetype/FT_GlyphSlot_Embolden.patch
-
-	meson setup freetype-${_ftver} build \
-		--prefix=/usr \
-		--buildtype=plain \
-		--wrap-mode=nodownload \
-		-D b_lto=true \
-		-D b_pie=true \
-		-D default_library=shared
-	meson compile -C build -j ${JOBS:-1}
-	
-	mkdir -p $PKG/usr/lib/wps-office/freetype
-	cp -a build/{libfreetype.so,libfreetype.so.6,libfreetype.so.6.20.1} $PKG/usr/lib/$name/freetype
-	cd $PKG/usr/lib/wps-office/office6
-	ln -s ../freetype/libfreetype.so .
-	ln -s ../freetype/libfreetype.so.6 .
-	ln -s ../freetype/libfreetype.so.6.20.1 .
-	
-	
-	# add libtiff5
-	cd $SRC/tiff-${_ltver}
-	./configure
-	make
-	
-	mkdir -p $PKG/usr/lib/wps-office/libtiff5
-	cp -a libtiff/.libs/{*.so,*.so.*} $PKG/usr/lib/wps-office/libtiff5
-	
-	cd $PKG/usr/lib/wps-office/office6
-	ln -s ../libtiff5/libtiff.so.5 libtiff.so.5
-	ln -s ../libtiff5/libtiffxx.so.5 libtiffxx.so.5
+	find $PKG/ -name "*README*" -delete
+	rm -rf $PKG/usr/lib/wps-office/office6/libpeony-wpsprint-menu-plugin.so
+	rm -rf $PKG/usr/lib/wps-office/office6/libbz2.so
+	rm -rf $PKG/usr/lib/wps-office/office6/{libstdc++.so,libstdc++.so*}
+	rm -rf $PKG/usr/lib/wps-office/office6/{libjpeg.so,libjpeg.so*}
 }
