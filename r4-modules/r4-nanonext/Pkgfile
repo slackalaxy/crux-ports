@@ -1,0 +1,16 @@
+# Description: R module nanonext
+# URL: https://cran.r-project.org/web/packages/nanonext
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-later r4-litedown
+
+name=r4-nanonext
+version=1.6.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/nanonext_${version}.tar.gz)
+
+build() {
+	cd nanonext
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

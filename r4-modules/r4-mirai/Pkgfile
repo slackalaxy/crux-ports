@@ -1,0 +1,16 @@
+# Description: R module mirai
+# URL: https://cran.r-project.org/web/packages/mirai
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-nanonext
+# Optional: r4-cli r4-litedown
+
+name=r4-mirai
+version=2.4.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/mirai_${version}.tar.gz)
+
+build() {
+	cd mirai
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
