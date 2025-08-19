@@ -1,0 +1,36 @@
+# Description: Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research
+# URL: https://www.zotero.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib brotli dbus-glib graphite2 gtk3 libxkbcommon nss wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+
+name=zotero
+version=7.0.24
+release=1
+source=(https://download.zotero.org/client/release/${version}/Zotero-${version}_linux-x86_64.tar.bz2
+	$name.desktop)
+
+build() {
+	cd Zotero_linux-x86_64
+
+	mkdir -p $PKG/usr/{bin,lib/$name}
+	cp -a * $PKG/usr/lib/$name
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	
+	mkdir -p $PKG/usr/share/icons/hicolor/{128x128,32x32,64x64}/apps
+	cp $PKG/usr/lib/$name/icons/icon128.png $PKG/usr/share/icons/hicolor/128x128/apps/$name.png
+	cp $PKG/usr/lib/$name/icons/icon32.png $PKG/usr/share/icons/hicolor/32x32/apps/$name.png
+	cp $PKG/usr/lib/$name/icons/icon64.png $PKG/usr/share/icons/hicolor/64x64/apps/$name.png
+	
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/$name .
+	
+	mkdir -p $PKG/etc/revdep.d
+	cd $PKG/usr/lib/$name
+	find . -type d | perl -lne 'print tr:/::, " $_"' | sort -n | cut -d' ' -f2 > $PKG/etc/revdep.d/$name
+	sed -i "s:\.:/usr/lib/zotero:g" $PKG/etc/revdep.d/$name
+	
+	find $PKG/ -name "README.*" -delete
+	find $PKG/ -name "COPYING" -delete
+}
