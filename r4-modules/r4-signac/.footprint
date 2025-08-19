@@ -26,6 +26,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/Signac/data/
 -rw-r--r--	root/root	usr/lib/R/library/Signac/data/Rdata.rds
 -rw-r--r--	root/root	usr/lib/R/library/Signac/data/Rdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/Signac/extdata/
+-rw-r--r--	root/root	usr/lib/R/library/Signac/extdata/chr1_start.fa
+-rw-r--r--	root/root	usr/lib/R/library/Signac/extdata/chr1_start.fa.fai
 -rw-r--r--	root/root	usr/lib/R/library/Signac/extdata/fragments.tsv.gz
 -rw-r--r--	root/root	usr/lib/R/library/Signac/extdata/fragments.tsv.gz.tbi
 -rw-r--r--	root/root	usr/lib/R/library/Signac/extdata/fragments_header.tsv.gz

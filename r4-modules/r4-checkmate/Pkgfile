@@ -5,7 +5,7 @@
 # Optional: r4-data-table r4-devtools r4-fastmatch r4-ggplot2 r4-knitr r4-magrittr r4-microbenchmark r4-r6 r4-rmarkdown r4-testthat r4-tibble r4-tinytest
 
 name=r4-checkmate
-version=2.3.2
+version=2.3.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/checkmate_${version}.tar.gz)
 
