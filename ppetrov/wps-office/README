@@ -1,30 +1,44 @@
-NOTE: This is the Chinese version. I switch to it, because it is ahead
-of the English one.
+NOTE
+This is the Chinese version. I switched to it, because it is usually
+ahead of the English one. If the download does not work, get the deb
+from the web-page:
 
-Thanks to Arch Linux for this!
-https://wiki.archlinux.org/title/WPS_Office#WPS_Office_Overriding/Breaks_Mime
+    https://www.wps.cn/product/wpslinux#
 
-Troubleshooting
-WPS Office Overriding/Breaks Mime
+TROUBLESHOOTING: WPS Office Overrides/Breaks Mime
 * Close all WPS Office programs
 * Open ~/.config/Kingsoft/Office.conf
 * Add the following, just before [kdcsdk]:
 
-  common\do_not_detect_file_association_while_startup=true
+    common\do_not_detect_file_association_while_startup=true
 
 * Save the file
-* You may need to also clean WPS Office associated stuff from (or just
-  delete everything there):
+* You may need to also clean WPS Office associated stuff from:
 
-  ~/.local/share/mime/
+    ~/.local/share/mime/
 
-Dictionaries
-This comes with US spellecheck and also bundles British Engligh (GB)
-spell check. For more dictionaries:
+Thanks to Arch Linux for this! Check link for details:
+https://wiki.archlinux.org/title/WPS_Office#WPS_Office_Overriding/Breaks_Mime
 
-  https://github.com/slackalaxy/wps-office-dicts
-  https://slackalaxy.com/2021/04/03/wps-office-v11-dictionary/
+DICTIONARIES
+This comes with US spellecheck and also bundles British Engligh
+(en_GB) spell check. For more dictionaries:
 
-If the download does not work, get the deb from the web-page:
+    https://github.com/slackalaxy/wps-office-dicts
+    https://slackalaxy.com/2021/04/03/wps-office-v11-dictionary/
 
-  https://www.wps.cn/product/wpslinux#
+ZOTERO PLUG-IN
+* Get the unofficial Zotero plug-in from either GitHub or Gitee:
+  
+    https://github.com/bigben446/Zotero-WPSJS
+    https://gitee.com/wangrui5015/Zotero-WPSJS/
+  
+* Extract, navigate to Linux/ and run as normal user:
+  
+    bash ./install.py
+
+* Upon start, you'll be promped with a popup, which Google translates as
+  instructions to go:
+  
+    Tools > Macro Security > Trusted Publishers > check
+    "Trust access to wpsjs projects"

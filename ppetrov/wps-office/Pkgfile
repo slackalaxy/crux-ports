@@ -6,10 +6,10 @@
 name=wps-office
 version=12.1.2.22570.AK
 _egver=255.5
-release=1
+release=2
 source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.preread.sw_474164_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_egver}.tar.gz
-	$name.sh $name.desktop)
+	en_GB.tar.xz $name.sh $name.desktop)
 
 build() {
 	ar -x $SRC/${name}_${version}.preread.sw_474164_amd64.deb
@@ -18,12 +18,13 @@ build() {
 	mkdir -p $PKG/usr/lib/$name
 	cp -a $SRC/opt/kingsoft/$name/office6 $PKG/usr/lib/$name
 	
-	# Use this single wrapper. et, wpp, etc... do not start, while
-	# wps default wrapper has trouble with absolute paths
+	# Use this single wrapper, since et, wpp, etc... do not start,
+	# and the wps default wrapper has trouble with absolute paths,
+	# meaning that "Open with" menu in your file browser won't work.
 	install -D -m 755 $SRC/$name.sh $PKG/usr/bin/$name
 	
 	# British English dictionaries
-	##cp -a $SRC/en_GB $PKG/usr/lib/wps-office/office6/dicts/spellcheck/
+	cp -a $SRC/en_GB $PKG/usr/lib/wps-office/office6/dicts/spellcheck/
 	
 	# Do not use WPS file icons, however leave them just in case
 	mkdir -p $PKG/usr/share/applications
