@@ -622,8 +622,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.js-debu
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn-loose.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.js-debug/src/vendor/acorn.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.js-debug/src/watchdog.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.js-debug/src/win32-app-container-tokens.win32-arm64-msvc-4ZJZ3U55.node
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.js-debug/src/win32-app-container-tokens.win32-x64-msvc-VCQE7GJP.node
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.js-debug/telemetry.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/ms-vscode.vscode-js-profile-table/ThirdPartyNotices.txt
