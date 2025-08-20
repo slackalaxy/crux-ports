@@ -4,7 +4,7 @@
 # Depends on: openblas
 
 name=hyphy
-version=2.5.76
+version=2.5.77
 release=1
 source=(https://github.com/veg/hyphy/archive/$version/$name-$version.tar.gz)
 
