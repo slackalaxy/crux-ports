@@ -35,7 +35,7 @@ ZOTERO PLUG-IN
   
 * Extract, navigate to Linux/ and run as normal user:
   
-    bash ./install.py
+    python3 ./install.py
 
 * Upon start, you'll be promped with a popup, which Google translates as
   instructions to go:
