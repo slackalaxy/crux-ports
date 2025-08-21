@@ -1,7 +1,7 @@
 # Description: Custom fonts configuration
 # URL: https://github.com/slackalaxy/fonts-conf
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fonts-apple-sf fonts-msoffice fonts-mswin xorg-font-dejavu-ttf xorg-font-terminus
+# Depends on: fonts-apple-sf fonts-macsel fonts-msoffice fonts-mswin xorg-font-dejavu-ttf xorg-font-terminus
 
 name=fonts-conf
 version=8b2f816
