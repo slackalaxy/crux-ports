@@ -1,0 +1,16 @@
+# Description: A pbzx stream parser
+# URL: https://github.com/NiklasRosenstein/pbzx
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xar
+
+name=pbzx
+version=1.0.2
+release=1
+source=(https://github.com/NiklasRosenstein/pbzx/archive/v${version}/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	
+	gcc $CFLAGS -llzma -lxar -I /usr/include pbzx.c -o pbzx
+	install -D -m 755 pbzx $PKG/usr/bin/pbzx
+}
