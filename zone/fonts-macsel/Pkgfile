@@ -1,0 +1,95 @@
+# Description: Selection of Mac OS X fonts
+# URL: https://archive.org/details/macos-collection
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p7zip pbzx fontforge
+
+name=fonts-macsel
+version=1.6.43
+release=1
+source=(https://archive.org/download/macos-collection/Releases/Yosemite%2010.10.5%20v1.6.43.iso)
+renames=(Yosemite_10.10.5_v1.6.43.iso SKIP SKIP SKIP)
+
+build() {
+	mkdir -p $SRC/$name-$version/{Base,CoreServices,CoreRecognition,Slideshows,Deprecated,iLife,iWork,System,Library}
+	mkdir -p $PKG/usr/share/fonts/apple
+	
+	7z x $SRC/Yosemite_10.10.5_v1.6.43.iso
+	cd Install\ OS\ X\ Yosemite/Install\ OS\ X\ Yosemite.app/Contents/SharedSupport
+	7z x InstallESD.dmg
+	cd OS\ X\ Install\ ESD
+	7z x BaseSystem.dmg
+
+	# Base system fonts
+	cp -a OS\ X\ Base\ System/System/Library/Fonts/Base/*.{ttf,ttc} \
+	$SRC/$name-$version/Base
+
+	# all fonts
+	cd Packages
+	xar -x -f Essentials.pkg
+	pbzx -n Payload  | cpio -i
+
+	cp -a System/Library/CoreServices/Photo\ Library\ Migration\ Utility.app/Contents/Resources/Fonts/*.ttf \
+	$SRC/$name-$version/CoreServices
+
+	cp -a System/Library/PrivateFrameworks/CoreRecognition.framework/Versions/A/Resources/Fonts/*.ttf \
+	$SRC/$name-$version/CoreRecognition
+
+	cp -a System/Library/PrivateFrameworks/Slideshows.framework/Versions/A/Resources/Content/Fonts/*.ttf \
+	$SRC/$name-$version/Slideshows
+
+	cp -a Library/Application\ Support/Apple/Fonts/Deprecated/*.ttf \
+	$SRC/$name-$version/Deprecated
+
+	cp -a Library/Application\ Support/Apple/Fonts/iLife/*.ttf \
+	$SRC/$name-$version/iLife
+
+	cp -a Library/Application\ Support/Apple/Fonts/iWork/*.{ttf,ttc} \
+	$SRC/$name-$version/iWork
+
+	#cp -a Library/Application\ Support/Apple/Fonts/iWork\ Arabic\ Support/*.ttc \
+	#$SRC/$name-$version/iWork
+  
+	cp -a System/Library/Fonts/*.{ttf,ttc,otf} \
+	$SRC/$name-$version/System
+
+	cp -a Library/Fonts/*.{ttf,ttc,otf} \
+	$SRC/$name-$version/Library
+	
+	# Linux does not like these ttc ones
+	cd $SRC/$name-$version/Base
+	#fontforge -lang=ff -c 'Open("Courier.ttc(Courier)"); Generate("Courier.ttf"); Close(); Open("Courier.ttc(Courier Bold)"); Generate("CourierBold.ttf"); Close(); Open("Courier.ttc(Courier Oblique)"); Generate("CourierOblique.ttf"); Close(); Open("Courier.ttc(Courier Bold Oblique)"); Generate("CourierBoldOblique.ttf");'
+	fontforge -lang=ff -c 'Open("Helvetica.ttc(Helvetica)"); Generate("Helvetica.ttf"); Close(); Open("Helvetica.ttc(Helvetica Bold)"); Generate("HelveticaBold.ttf"); Close(); Open("Helvetica.ttc(Helvetica Oblique)"); Generate("HelveticaOblique.ttf"); Close(); Open("Helvetica.ttc(Helvetica Bold Oblique)"); Generate("HelveticaBoldOblique.ttf");'
+	fontforge -lang=ff -c 'Open("HelveticaNeue.ttc(Helvetica Neue)"); Generate("HelveticaNeue.ttf"); Close(); Open("HelveticaNeue.ttc(Helvetica Neue Bold)"); Generate("HelveticaNeueBold.ttf"); Close(); Open("HelveticaNeue.ttc(Helvetica Neue Italic)"); Generate("HelveticaNeueItalic.ttf"); Close(); Open("HelveticaNeue.ttc(Helvetica Neue Bold Italic)"); Generate("HelveticaNeueBoldItalic.ttf");'
+	#fontforge -lang=ff -c 'Open("Menlo.ttc(Menlo Regular)"); Generate("Menlo.ttf"); Close(); Open("Menlo.ttc(Menlo Bold)"); Generate("MenloBold.ttf"); Close();'
+	#fontforge -lang=ff -c 'Open("Monaco.ttf(Monaco)"); Generate("Monaco.ttf");'
+	
+	#cp -a Courier.ttf CourierBold.ttf CourierOblique.ttf CourierBoldOblique.ttf $PKG/usr/share/fonts/apple
+	cp -a Courier.ttc $PKG/usr/share/fonts/apple
+	cp -a Helvetica*.ttf $PKG/usr/share/fonts/apple
+	cp -a Monaco.ttf Times.ttc $PKG/usr/share/fonts/apple
+
+	# cp -a Geneva.ttf Menlo.ttf MenloBold.ttf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/CoreServices
+	#cp -a Braganza.ttf $PKG/usr/share/fonts/apple
+	#cp -a Marion*.ttf $PKG/usr/share/fonts/apple
+	cp -a HopperScript.ttf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/iLife
+	cp -a Braganza.ttf DearJoe*.ttf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/iWork
+	cp -a BankGothic.ttc $PKG/usr/share/fonts/apple
+	
+	#cd $SRC/$name-$version/Library
+	#cp -a AmericanTypewriter.ttc Andale\ Mono.ttf Athelas.ttc Baoli.ttc Charter.ttc Copperplate.ttc $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/Slideshows
+	#cp -a Proxima\ Nova\ Bold.ttf $PKG/usr/share/fonts/apple
+	cp -a Coolvetica.ttf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/System
+	cp -a Avenir.ttc Avenir\ Next.ttc Avenir\ Next\ Condensed.ttc Kohinoor.ttc $PKG/usr/share/fonts/apple
+
+	chmod 0644 $PKG/usr/share/fonts/apple/*
+}

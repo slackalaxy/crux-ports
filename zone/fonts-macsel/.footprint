@@ -1,0 +1,25 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/apple/
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir Next Condensed.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir Next.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/BankGothic.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Braganza.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Coolvetica.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Courier.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/DearJoe.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/DearJoeSmallFace.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaBoldOblique.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaNeue.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaNeueBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaNeueBoldItalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaNeueItalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HelveticaOblique.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HopperScript.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kohinoor.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Monaco.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Times.ttc
