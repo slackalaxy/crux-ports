@@ -24,10 +24,11 @@ d:mnt-dirs
 d:leafports
 d:ls_colors
 d:xorg-acpilight
+d:fonts-macsel
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
-f:945d57350501f7e79d10317043c5f142:fonts-conf/.signature
+f:b3157145804e9554ccd21a1ec13cbbcd:fonts-conf/.signature
 f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
-f:27a08ced5e92093d8841a77eca2a766d:fonts-conf/Pkgfile
+f:bf8b39ec463341d8818a6e24b6fdd024:fonts-conf/Pkgfile
 f:ba49d43668421a4c0bfbaa791ca40e08:fonts-msoffice/README
 f:34fc9ae44d2da03038f415a0bcef2583:fonts-msoffice/.footprint
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-msoffice/post-install
@@ -143,3 +144,8 @@ f:0553f77f1dffe24a8fab9c8583e0d13c:xorg-acpilight/Pkgfile
 f:1e879ebab97474b6f1b22e8cf8735d58:xorg-acpilight/.footprint
 f:025ec1963ae50df95b158fa52fe35734:xorg-acpilight/.signature
 f:d7e7a449a1a633627da6981dec696fcd:xorg-acpilight/README
+f:105e3aa6879416d1cad9ceae0107fb11:fonts-macsel/.footprint
+f:b9c2057149ae33f94266b17220245714:fonts-macsel/.signature
+f:5ca47f074f360468fc01d143cc58c8ab:fonts-macsel/Pkgfile
+f:33345441a862388eda867fe9f469ce97:fonts-macsel/README
+f:d54fa5a876d34895a5e1b55b13ad9787:fonts-macsel/post-install
