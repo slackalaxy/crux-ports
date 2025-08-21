@@ -1,0 +1,25 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZffiAU/VP2WJpL1KIkWa6YVXMfaRUG8CfErOKhxpvV8ygw+ogY+E/qVKYZ1RosQxfiGRZyNZ+zWfe1HDgR1weQs=
+SHA256 (Pkgfile) = b768fd929df0c0c0c775d8d14958ecdc3fdd737aed8ad6d11047d1f49e992557
+SHA256 (.footprint) = ef4c034f1e126080127f32055175c60b6012e9c21cc6198ca95c7f9ea6f829f9
+SHA256 (xar-xar-501.tar.gz) = a83aa4984467bfecad6938b3659e71cc56d1a360a36bb8cd9025f276d6a27eda
+SHA256 (0001-Update-tests-for-Python-3-and-Nix-sandbox.patch) = 92fbd951e4fdc9f6d83ab5bef85bfde74d2efeb32d6f50e1fca5738a472abb80
+SHA256 (0002-Update-for-modern-liblzma5-versions.patch) = ec3c9e055637e4d1176f479428331ce949b0592ad4a42346b59280ffa9cfd523
+SHA256 (0003-Fix-undefined-EXT2_ECOMPR_FL-for-e2fsprogs.patch) = a3e4050a5bca75d36dbf91c698ee7d3525a4aea9202590d58e419ed88d6a5c72
+SHA256 (0004-Fix-compatibility-with-openssl-1.0.patch) = aa141a2361194eccec622cf145b7df8e6570d99d44d83bb571a570a1d4abc600
+SHA256 (0005-Fix-configure.ac-for-Linux-headers.patch) = 977d76aaab11e9a8aaad46153d6c2801c1707ddaec8fd18fbf64bfe94645b899
+SHA256 (0006-Fix-more-non-Darwin-stuff.patch) = 7e692067671ad0380aa7d67875efd9eac5afb5671e86a0d5def70bd215473fdd
+SHA256 (0007-replace-initialized-constant-with-define-statement.patch) = c7be9621eb26634cd5cb5ba81d648a18f4782b9cc9380f0df61c7d4379bec261
+SHA256 (0008-Fix-configure.ac-not-finding-AR-with-target-prefix.patch) = 6627c110edc412c8bc5af11fb45af5e894686cef5a7cfb20eff484f3fff7defb
+SHA256 (0009-Add-useless-descriptions-to-AC_DEFINE.patch) = e8d20e7062a54ea49437d165626fd98fd2b194f68dfdfa4a98b2ace678a8a13d
+SHA256 (0010-Update-configure.ac-for-openssl-libxml2-liblzma-and-.patch) = 23694a2b99637d7352d31fb2ee872287fad459d8de98479d7a2dc6c8efc4f029
+SHA256 (0011-Fix-missing-includes-and-silence-string-format-warni.patch) = d2f043c1c0e7c82868defa93dd7e8ae279f4da7c9a7958f9a2b3b56e73b421e2
+SHA256 (0012-Fix-char-signedness-for-ARM-and-PowerPC.patch) = df0012931d29916dd378338fcea1303b62dfc651b625305a59c03ff337dd55f5
+SHA256 (0013-Enable-extended-attributes-for-btrfs.patch) = ea9d39a909c81041849039b3025ac78fd7b2986b60c803a9db453d70a0c4b7b6
+SHA256 (0014-Fix-segfault-when-copying-xattr-buffers.patch) = 2e2fd41c2db5afbed5f6abf6d01c0a48d1b2d8c8e21dd1673688122ad8691644
+SHA256 (0015-Fix-segfault-in-xar_attrcopy_from_heap.patch) = 4b2a6459d5933c3b644b657bdde4b7f39a013806434a68ac81dd4f95b2419ccc
+SHA256 (0016-Do-not-set-property-for-empty-ACL.patch) = 6ad6940f9143690da5c61b63b0b6e922845d0393920196f32d0b1a1c9dab5949
+SHA256 (0017-Fix-time-format-for-musl.patch) = 0b983056679a74735db5815f4fad20b7efcdd483d1be589832ede6c11ef99c04
+SHA256 (0018-Replace-memcpy-with-memmove-for-musl.patch) = 913a7ada1d0e5f7132a95da8102551a1a6bd7ca4bb4ff01bde5f895496ea942d
+SHA256 (0019-Prefer-OpenSSL-over-CommonCrypto-if-available.patch) = db8f5d0a0c0d77407cc3a4fa618d72a504da6f31876f5f4ef1cedf935422a815
+SHA256 (0020-Fall-back-to-readlink-on-Linux.patch) = 4950633e24e76a84cc5950d2909c808cecf863c461d4e037ef025feae9d30c97
