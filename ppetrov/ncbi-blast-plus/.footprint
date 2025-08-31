@@ -18,11 +18,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gc_cli
 -rwxr-xr-x	root/root	usr/bin/get_species_taxids.sh
 -rwxr-xr-x	root/root	usr/bin/legacy_blast.pl
--rwxr-xr-x	root/root	usr/bin/lmdb_test1
--rwxr-xr-x	root/root	usr/bin/lmdb_test2
--rwxr-xr-x	root/root	usr/bin/lmdb_test3
--rwxr-xr-x	root/root	usr/bin/lmdb_test4
--rwxr-xr-x	root/root	usr/bin/lmdb_test5
 -rwxr-xr-x	root/root	usr/bin/lmdbxx_sample
 -rwxr-xr-x	root/root	usr/bin/makeblastdb
 -rwxr-xr-x	root/root	usr/bin/makeclusterdb
@@ -5249,7 +5244,6 @@ lrwxrwxrwx	root/root	usr/lib/libgencoll_client-static.a -> libgencoll_client.a
 -rw-r--r--	root/root	usr/lib/libid2cli.so
 -rw-r--r--	root/root	usr/lib/libigblast.so
 -rw-r--r--	root/root	usr/lib/libinsdseq.so
--rw-r--r--	root/root	usr/lib/liblmdb.so
 -rw-r--r--	root/root	usr/lib/liblocal_taxon.so
 -rw-r--r--	root/root	usr/lib/libmacro.so
 -rw-r--r--	root/root	usr/lib/libmedlars.so
