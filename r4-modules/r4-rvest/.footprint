@@ -33,6 +33,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/rvest/doc/
 -rw-r--r--	root/root	usr/lib/R/library/rvest/doc/rvest.R
 -rw-r--r--	root/root	usr/lib/R/library/rvest/doc/rvest.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/rvest/doc/rvest.html
+-rw-r--r--	root/root	usr/lib/R/library/rvest/doc/starwars-dynamic.R
+-rw-r--r--	root/root	usr/lib/R/library/rvest/doc/starwars-dynamic.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/rvest/doc/starwars-dynamic.html
 -rw-r--r--	root/root	usr/lib/R/library/rvest/doc/starwars.R
 -rw-r--r--	root/root	usr/lib/R/library/rvest/doc/starwars.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/rvest/doc/starwars.html

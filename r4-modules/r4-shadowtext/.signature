@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IG+jR5/5FdRfMsZgWGmnp9w0/RvP8E/dDxFecbKjeNb9JL/g1I3CkQK9Z1uDXVGtpf6HHuW98jAck34ho/FuQ4=
-SHA256 (Pkgfile) = a4d7e78ce82b2b3219f6447613b2b1b0b2b3e01740e811a0f88cdfbf99ca2562
+RWQ2oTreAss89HnoJlLDdCmFOLzQ83VkNsAyPEGKBz+HZQgnfczs3NtR8yT954jF9UGvO/t9hbAq2CtztRR2WGUOHaTh0ktq8AM=
+SHA256 (Pkgfile) = 138f6750c57ba7bad7efb22580d1a061ce71eb53e36f428b90a411d3d0d41c9f
 SHA256 (.footprint) = bb7c6032130e37429883dd1efd5c523c7deaccaa6d5f33ba6cff447fa9167099
-SHA256 (shadowtext_0.1.5.tar.gz) = b80a9b4ac064a0045de0720a33aaadd964b1ad48110dee647d79628cea8d723d
+SHA256 (shadowtext_0.1.6.tar.gz) = aa9b9b3d4e11f6cd57476b798fa61780bb89a6bf5baac8be3707d87507ead870

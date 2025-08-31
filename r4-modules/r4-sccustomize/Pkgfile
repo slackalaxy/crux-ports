@@ -5,7 +5,7 @@
 # Optional: r4-biocfilecache r4-complexheatmap r4-dittoseq r4-dropletutils r4-ggpubr r4-hdf5r r4-knitr r4-nebulosa r4-qs r4-remotes r4-reticulate r4-rliger r4-rmarkdown r4-scuttle r4-tidyselect r4-viridis
 
 name=r4-sccustomize
-version=3.0.1
+version=3.1.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/scCustomize_${version}.tar.gz)
 

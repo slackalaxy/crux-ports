@@ -39,6 +39,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/animation/demo/
 -rw-r--r--	root/root	usr/lib/R/library/animation/demo/Xmas_card.R
 -rw-r--r--	root/root	usr/lib/R/library/animation/demo/busybees.R
 -rw-r--r--	root/root	usr/lib/R/library/animation/demo/elephant.R
+-rw-r--r--	root/root	usr/lib/R/library/animation/demo/estimate_pi.R
 -rw-r--r--	root/root	usr/lib/R/library/animation/demo/fire.R
 -rw-r--r--	root/root	usr/lib/R/library/animation/demo/fireworks.R
 -rw-r--r--	root/root	usr/lib/R/library/animation/demo/flowers.R

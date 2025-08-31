@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-deldir r4-gganimate r4-knitr r4-network r4-purrr r4-rmarkdown r4-seriation r4-sf r4-sfnetworks r4-tibble
 
 name=r4-ggraph
-version=2.2.1
+version=2.2.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggraph_${version}.tar.gz)
 

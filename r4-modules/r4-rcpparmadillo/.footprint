@@ -727,6 +727,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/xtrans_mat_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/xvec_htrans_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/xvec_htrans_meat.hpp
+drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/legacy/
+drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/legacy/armadillo_bits/
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/legacy/armadillo_bits/config.hpp.cmake
 drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/libs/RcppArmadillo.so
 drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/skeleton/

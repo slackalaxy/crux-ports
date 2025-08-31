@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89A0kNjZ7ALK+4XcgU+lQD/zM+NRIVwoV8P8euwusPCVhpHdvndIPgm/CNyfdmi1vBLREaqxBpISCdeebB6owyAM=
-SHA256 (Pkgfile) = c832609174a67badddf57a5e4866477088fe1d8b8629b8da68585b4384847dfe
-SHA256 (.footprint) = f3c0e7ce4aa4798cff01ae2b189ba8a50708050459d54a7baae8cb3da81e4e68
-SHA256 (animation_2.7.tar.gz) = 88418f1b04ec785963bad492f30eb48b05914e9e5d88c7eef705d949cbd7e469
+RWQ2oTreAss89DCihdw2K3yLg8DtgqbAbBlX3u78y52Nc+bKXNa99gb+NiTiaqglYknil8DCEh++74rvZTN0AsfkfJf9wJYUPQ8=
+SHA256 (Pkgfile) = 8e5af2f8d4a7b29972fb0f59e50c54350c94230c46e3a49c9a76199519ddb66e
+SHA256 (.footprint) = 234057a51d11079a30240d56f3ebebd9f405f8e99900026867dd1cc720a7cbb7
+SHA256 (animation_2.8.tar.gz) = cb4f6fdd4481aefecec14530cc0d3e8e44d50740a1d3d513ae95fcdb900258da

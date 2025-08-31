@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NX1mskYyegc8psMJC5MqjHTgG7PLE4H7rmiGfxQq4aqpMvLb3x3Y4rAqYkeJVIXkJRK22e0wTwV658keXjH0wg=
-SHA256 (Pkgfile) = 1722c1539706e85fecac3ac3bcfa7fcddc86e17583b3d0145bb5c4960a7e33a5
+RWQ2oTreAss89ImCfd0ILan/rq/4wiXtR8uJeG4f60y3u1Zfomi8HlrljKzr7XRj5bycgfTb9iYc3IqyLY+Arqcq90jU4Cyfeg0=
+SHA256 (Pkgfile) = 9f568ca542d58c3f22ed9487ba4ed60e872f4159b7b8836374a1e61524e48e02
 SHA256 (.footprint) = d2bd1c9abf022c81b35709d4c296335bb72a1ea1f645ae0e5db1981a31b8f030
-SHA256 (ggprism_1.0.6.tar.gz) = a3c58a82278433eb61e65ef748819fadcf6c2fa5a38770c5c33068d67cdfe6ca
+SHA256 (ggprism_1.0.7.tar.gz) = 98175b1a845d22617171476dd6f785e3843e9173e1b7517de2ce00d1506375dc

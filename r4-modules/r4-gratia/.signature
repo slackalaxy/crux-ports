@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89HhDc56Tizm7JtnnwiOcR/klhSpyvy+/G0jPGDIIao2n1rNRdtZ0/F9GwkYI4qIOMp3jAHciSoynwEcS8rFmMAw=
-SHA256 (Pkgfile) = 72486a54ee98466ea8e95129dabe73f128da92b0fc73fee5f41653ebfbc7a566
+RWQ2oTreAss89I14NpS1SeoN7IWSA4f34Bi4Oqq+RA0PEJU3jct2kTLC2EcCOH6RulXt+tmnINYq+bIdjthQMt0OJnup+u137ws=
+SHA256 (Pkgfile) = cd87c4435f0f9011e67035698f9e2dabdeac3ae4893f6249e5c4db6399bb23c0
 SHA256 (.footprint) = 490d529215643e88002b8f8523407e948a12b04c2ae9f61b7f6279186b881beb
-SHA256 (gratia_0.11.0.tar.gz) = e89a884e514e8295364a16a459a259bde9080fffff50bdf8714e1edbed62ecdd
+SHA256 (gratia_0.11.1.tar.gz) = cddc0acd70a612f636d22b79b3893afa460ee3a89548818aaf61b6e11b7e3b78

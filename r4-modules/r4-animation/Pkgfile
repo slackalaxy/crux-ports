@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/animation
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-magick
-# Optional: r4-class r4-mass r4-testit
+# Optional: r4-cairo r4-class r4-fimport r4-mass r4-rgl r4-testit r4-zoo
 
 name=r4-animation
-version=2.7
+version=2.8
 release=1
 source=(https://cloud.r-project.org/src/contrib/animation_${version}.tar.gz)
 

@@ -5,9 +5,9 @@
 # Optional: r4-mass r4-survival
 
 name=r4-boot
-version=1.3.31
+version=1.3.32
 release=1
-source=(https://cloud.r-project.org/src/contrib/boot_1.3-31.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/boot_1.3-32.tar.gz)
 
 build() {
 	cd boot

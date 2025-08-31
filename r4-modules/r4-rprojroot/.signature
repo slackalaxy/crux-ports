@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Nk9kU4P3vNZutQPmGOkl3hx3yjGcwoFfPWSC4LLeWO0V4zGDmOGZl1hBSUGfkzeqbEGYxksAx5Iw9wUzRbsAA8=
-SHA256 (Pkgfile) = ff5ab53862988a93a2b658344a6b09bb9b5c7fa2912450728caf4419cc89e7c6
+RWQ2oTreAss89NpiNhpkGMdhSpjckpYOcv8cZ84+8FW8nmjfNgZqicw6f8jE83eqBCV21vwBhYK5ZMsGyXHyDs4sFeYrogpgpwQ=
+SHA256 (Pkgfile) = 0ff8c912a111c8f934ae9d785aa813822e5529d8fa677178878d8e8810d52ee3
 SHA256 (.footprint) = 682ae2aabed884bcd51c00b56c10828bc5ed5eaf1fee402dfcc5303be45841c5
-SHA256 (rprojroot_2.1.0.tar.gz) = 1882ae88dc927d2fd94874349aae158a641aa018001d6c53e5f95fa920c2474d
+SHA256 (rprojroot_2.1.1.tar.gz) = 473989bbef45fd9cd68f68dc317b14c9f42de5cea4b55fd6ba9011f25e0517e9

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89ED8GzC8Gm779Ep/SlP4FtXnwh+rKQ8HUmDsmtx4QqSIVpwl8VYlEep/K6FQTFtm44b+riQ4CzJq2zc3/CzFnQc=
-SHA256 (Pkgfile) = 402ddc1ad6d8d276c998dd1f6e9401e3cbf8cbb557aa6b414a25419e8d8081c3
+RWQ2oTreAss89Nl2QxydM707uXkfrHr9JOoszInv277MJsLEGSVLXJdnoC5x9WYMU+/Oxa+dCXxI7nYAxHwk9mkkO1ci4jVUXQI=
+SHA256 (Pkgfile) = 71118cc9a68cca16e05cba354a63325aea51dbfcb7186d518d3122374ab2e22f
 SHA256 (.footprint) = 8a9afa447f754e268731dd67944c76b7711b6781dc7467e4e444e661910ca00e
-SHA256 (GGally_2.3.0.tar.gz) = fe5eabe9eec66fd578ce244e291d0453846dd2181b39ca9039c157971ba16d09
+SHA256 (GGally_2.4.0.tar.gz) = c8d458160e0c220bfeae49ceacd7762534a9ade7e75dfcd974c88c79aa8f7382

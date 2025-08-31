@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BXvNnub0edxOI3/JLhIjks0124281l6Tc99fvv9jcgAm2y7h1kK7zrioZQvuD3NUD+WF9YmnxtSlyJB79xN3gI=
-SHA256 (Pkgfile) = ade152cb103701f1cb6b8b43e28f7553f58ebb0bf7f4979c8e4742c555ca9fe2
+RWQ2oTreAss89EJ2RNhmjRTfKQGS3JVzZdlYqb9ThUBKzXdXUfqhpsZ+TTO0SLevC4H5FH3GEC2tyAvx7dO9LWFCFrytsO4zhww=
+SHA256 (Pkgfile) = d6ee40c1d2e74d3c06c2f114850696cc3a592a0a2ea369ee7f9121997cd92b4a
 SHA256 (.footprint) = 42d041ebbc0654af0a6e6046d8db81f0bb77bd1b899ae773b1618e3a5082186f
-SHA256 (hardhat_1.4.1.tar.gz) = 993dfbdb9eefd10440e5b8b7c5a8f95a98b4fceac6ec1985b675ee35cbadde43
+SHA256 (hardhat_1.4.2.tar.gz) = 62f5f9e882a87ee0914438298ef27f89ded94568c5b1aed54c5189eeab186020

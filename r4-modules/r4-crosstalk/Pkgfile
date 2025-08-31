@@ -5,7 +5,7 @@
 # Optional: r4-bslib r4-ggplot2 r4-sass r4-shiny r4-testthat
 
 name=r4-crosstalk
-version=1.2.1
+version=1.2.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/crosstalk_${version}.tar.gz)
 
