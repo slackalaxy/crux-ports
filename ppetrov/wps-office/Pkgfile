@@ -4,15 +4,16 @@
 # Depends on: brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland
 
 name=wps-office
-version=12.1.2.22570.AK
-_egver=255.5
-release=2
-source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.preread.sw_474164_amd64.deb
-	https://github.com/elogind/elogind/archive/refs/tags/v${_egver}.tar.gz
+version=12.1.2.22571.AK
+_preread=480057
+_elogind=255.5
+release=1
+source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.preread.sw_${_preread}_amd64.deb
+	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
 	en_GB.tar.xz $name.sh $name.desktop)
 
 build() {
-	ar -x $SRC/${name}_${version}.preread.sw_474164_amd64.deb
+	ar -x $SRC/${name}_${version}.preread.sw_${_preread}_amd64.deb
 	tar xvf data.tar.xz
 	
 	mkdir -p $PKG/usr/lib/$name
@@ -58,7 +59,7 @@ build() {
 	sed -i "s:\.:/usr/lib/wps-office/office6:g" $PKG/etc/revdep.d/$name
 	
 	# trick it to think we have systemd, this is needed for changing themes
-	cd $SRC/elogind-${_egver}
+	cd $SRC/elogind-${_elogind}
 	mkdir build
 	cd build
 	meson \
