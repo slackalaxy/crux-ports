@@ -1,5 +1,5 @@
 # Description: A probabilistic multiple alignment program
-# URL: http://wasabiapp.org/software/prank/
+# URL: https://github.com/ariloytynoja/prank-msa
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: mafft exonerate bppsuite
 
