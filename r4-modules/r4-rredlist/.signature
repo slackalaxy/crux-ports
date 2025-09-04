@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KKi8v3XwO339Vvt/I2Hrhxru7YYcNy2T4/iiCTlx2yPBp8KC8UOerWFUnHzp4UxRkHO2FZV2gcF3ypujKXz1wI=
-SHA256 (Pkgfile) = bef56fc38d16b17984a1a0db6c2268ce97163124c24f85a2aadd85a94f9c2df1
+RWQ2oTreAss89LGPoFwsTp0zHLBoY5dW1FNOW8qgHy11rNFSiwzNtLVaRbC2GmY0BwTox4p2ZXuUqSGOooBbA91roQTu/vkL/AA=
+SHA256 (Pkgfile) = 47f628b0b6d3e04db32f5baf81bb00cab5146cdcaf9e7a35a6a422db6159ada8
 SHA256 (.footprint) = 9d7510ed313a23c4d55a5c81f1a53292dd817b5f6bea68b6c9eea2b10dcbe241
-SHA256 (rredlist_1.1.0.tar.gz) = ddb8b379be01be3ae10332d124676619991e1b28b237124b91257395a58ff04d
+SHA256 (rredlist_1.1.1.tar.gz) = 1c91521c1c98996f8d6987930eb1291d9c7a131a6def9b4bac1469f1343645bf

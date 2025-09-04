@@ -5,7 +5,7 @@
 # Optional: r4-colourpicker r4-flashclust r4-ggraph r4-igraph r4-knitr r4-rmarkdown r4-rpart r4-shiny r4-shinywidgets r4-sparkline r4-tidygraph r4-webshot
 
 name=r4-visnetwork
-version=2.1.2
+version=2.1.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/visNetwork_${version}.tar.gz)
 

@@ -1,11 +1,11 @@
 # Description: R module DT
 # URL: https://cran.r-project.org/web/packages/DT
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-crosstalk r4-htmltools r4-htmlwidgets r4-httpuv r4-jquerylib r4-jsonlite r4-magrittr r4-promises
-# Optional: r4-bslib r4-future r4-knitr r4-rmarkdown r4-shiny r4-testit r4-tibble
+# Depends on: r r4-crosstalk r4-htmltools r4-htmlwidgets r4-jquerylib r4-jsonlite r4-magrittr r4-promises
+# Optional: r4-bslib r4-future r4-httpuv r4-knitr r4-rmarkdown r4-shiny r4-testit r4-tibble
 
 name=r4-dt
-version=0.33
+version=0.34.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/DT_${version}.tar.gz)
 

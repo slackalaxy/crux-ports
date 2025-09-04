@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AvzGgetWUOtVn4ZrVzydL+PaWosFfayuErEHMl+6MfSHsMj9GC+8Nj3hb0nxMUmd4miuhw9R+ymFNV9zjAtqwM=
-SHA256 (Pkgfile) = 42308010cdf34486d651ca359cef5ea506ff451dd3b30dd3b477a0fbc3a1c0f6
+RWQ2oTreAss89CvDywaQBZ0yw1h6p+SQrJOct3osI011DDKq5O4+wUdNSiFb7XASK/kdj9TNGDM4T6pYAPm+hDekSlJFt5dbNwc=
+SHA256 (Pkgfile) = 954249d69f5dd86bf05b2890d50c390301be60621a8a988b1ddfd73bb0b6fd26
 SHA256 (.footprint) = 5a7f3a546b1cf173d88176d4ccb724766837a811f9f6ceb81d8a6dd0ad4fc084
-SHA256 (googlesheets4_1.1.1.tar.gz) = c5cc63348c54b9de8492e7b12b249245746ea1ff33e306f12431f4fc9386fccf
+SHA256 (googlesheets4_1.1.2.tar.gz) = 7ba9d5dd051a405a7af6d41d5fc12bdec8474f9fb1482ef32eb79aa6914fadd9

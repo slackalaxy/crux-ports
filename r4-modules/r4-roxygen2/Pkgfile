@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-r-methodss3 r4-r-oo r4-rmarkdown r4-testthat r4-yaml
 
 name=r4-roxygen2
-version=7.3.2
+version=7.3.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/roxygen2_${version}.tar.gz)
 

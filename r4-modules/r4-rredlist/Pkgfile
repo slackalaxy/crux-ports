@@ -5,7 +5,7 @@
 # Optional: r4-dplyr r4-ggplot2 r4-knitr r4-microbenchmark r4-patchwork r4-rmarkdown r4-spelling r4-testthat r4-tibble r4-tidyr r4-vcr r4-vdiffr r4-webmockr
 
 name=r4-rredlist
-version=1.1.0
+version=1.1.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/rredlist_${version}.tar.gz)
 

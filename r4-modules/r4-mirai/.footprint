@@ -33,10 +33,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/mirai/doc/
 -rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v03-serialization.html
 -rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v04-parallel.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v04-parallel.html
--rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v05-packages.Rmd
--rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v05-packages.html
--rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v06-questions.Rmd
--rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v06-questions.html
+-rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v05-opentelemetry.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v05-opentelemetry.html
+-rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v06-packages.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v06-packages.html
+-rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v07-questions.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/mirai/doc/v07-questions.html
 drwxr-xr-x	root/root	usr/lib/R/library/mirai/help/
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/aliases.rds

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89PoCQlmKsgqLL7BBNU3MUXtiYKSATt7+nLPhADwDaMlT9/WmhnzLownZkXK7tYlwxKOVXkDC4UdNVZtBNNSWEAo=
-SHA256 (Pkgfile) = 23520c624a9f095af0f2dfdf3a2820fe31b9e2d15c4b2ab51794f72dfd01630c
-SHA256 (.footprint) = a9c1751ca3bc11b1010bd57a040be12df8e0767e289ce49356e619ce5f843f63
-SHA256 (DT_0.33.tar.gz) = e145dadb1ce3db7c837f4313a8b5615b5b8ae63063ec2df93e528529717b27b8
+RWQ2oTreAss89MFZ8A68oGW/sHI4i6hDcaOQzM/2Go/rzongcYXiasaWka64tHpj48XLy6hu89jdUdsNHukluXc8Y1bQ2aUbnwg=
+SHA256 (Pkgfile) = 684dfce3dded81a5a3782d19fcddb1e5b0fb3d2744250c1e2dcff7dbe8eccaa5
+SHA256 (.footprint) = f4eeb23424f30a436eb34683edd628338cce86d9b6f0ae10c8b0bbdd739d26dc
+SHA256 (DT_0.34.0.tar.gz) = 8862025ef26af65b53f072adb1d133c25c5f96a812e7ae0aa822baa71249f1f2
