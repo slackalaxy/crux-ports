@@ -6,9 +6,11 @@
 name=smplayer
 version=25.6.0
 _thmver=20.11.0
-release=2
+_sknver=20.11.0
+release=3
 source=(https://github.com/smplayer-dev/smplayer/releases/download/v${version}/smplayer-$version.tar.bz2
-	https://downloads.sourceforge.net/smplayer/$name-themes-${_thmver}.tar.bz2)
+	https://downloads.sourceforge.net/smplayer/$name-themes-${_thmver}.tar.bz2
+	https://downloads.sourceforge.net/smplayer/$name-skins-${_sknver}.tar.bz2)
 
 build() {
 	cd $name-$version
@@ -28,6 +30,11 @@ build() {
 	
 	# include themes
 	cd $SRC/$name-themes-${_thmver}
+	make
+	make PREFIX=/usr DESTDIR=$PKG install
+	
+	# include skins
+	cd $SRC/$name-skins-${_sknver}
 	make
 	make PREFIX=/usr DESTDIR=$PKG install
 	
