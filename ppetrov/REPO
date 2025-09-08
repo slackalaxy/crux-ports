@@ -42,7 +42,6 @@ d:xsimd
 d:qt5ct
 d:bpp1-seq
 d:bpp1-numcalc
-d:medit
 d:wps-office
 d:zotero
 d:qt6ct
@@ -160,8 +159,8 @@ f:37beefe929592e5579a05a86ae4565e0:hexchat/Pkgfile
 f:f7778913c2d27c82fdef4fbff88e98e5:hexchat/.signature
 f:571af2d2a9bbe66781f4cb3dbc9c3356:hexchat/.footprint
 f:30933c7e75094e7dc658a8db2e1aa3db:hyphy/.footprint
-f:2c1e0a6f16f0742c1099ec69962093ad:hyphy/.signature
-f:fd3b15a27f6ced10490d89ded77601f2:hyphy/Pkgfile
+f:bfbad1e03bc7303740fd5d27e1ce3a61:hyphy/.signature
+f:08b05d136fefa7f37d2db64672b734ac:hyphy/Pkgfile
 f:2ddd900d98114ffc56926421b3987a23:aiksaurus/.footprint
 f:6ce522a214c1ee12c06798f9d0cfc39a:aiksaurus/.signature
 f:a784f769ff43ef39c04f35cdb3afb92a:aiksaurus/Pkgfile
@@ -211,8 +210,8 @@ f:5832bbd42ec5db5aea8310a45eb80c1d:ncbi-datasets/Pkgfile
 f:147b81193a05924ca5ac9ba6b37838d5:ncbi-datasets/.footprint
 f:0dfbb3a0eb7e26c9526e9f04f3f67442:ncbi-datasets/.signature
 f:a1cf01934a533e91e352e7b6f1e023a6:ncbi-edirect/.footprint
-f:5af941c1f179a6a5419ab8b312a4ca90:ncbi-edirect/.signature
-f:14f2ad54d57b044a72d9d611ac35a596:ncbi-edirect/Pkgfile
+f:6bff77e6e681355b7b858b2a43d20f21:ncbi-edirect/.signature
+f:9ed31b319ea8c63f9c4f6a561e1fad45:ncbi-edirect/Pkgfile
 f:d7a55597415a2861932b0a96a2db626b:pal2nal/.signature
 f:3b9988e4eff2a598e097edf0001fe0ef:pal2nal/.footprint
 f:6a24956898d0d9b02ceaa1785bd8ee40:pal2nal/Pkgfile
@@ -246,9 +245,6 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
-f:fc9828b054d154925c34cd284ae472bd:medit/Pkgfile
-f:3182039f2c45ca4c18da1c9e758e8940:medit/.footprint
-f:0fcb5b7f82f882828a1f0e2eccef0ca6:medit/.signature
 f:71d24474e6e21ae5a4d905d74d69138f:wps-office/.signature
 f:1d33f56bbca0a3d8f35e621ae739013f:wps-office/README
 f:b7ffae4b34c188d4a4d44afd941b58df:wps-office/Pkgfile
@@ -279,9 +275,9 @@ f:f9ac6501bf8e24f9c621139b44de2e3a:seaview/seaview.desktop
 f:ca5d448bc66e89bf922c436d61d10321:seqkit/.signature
 f:9bdbf114f901c0db896d53a6cefe3f81:seqkit/.footprint
 f:ced8ea53c06a03ae53c45e6568c61dc6:seqkit/Pkgfile
-f:f3e4ebe09df60368f1c7530d19477e57:smplayer/.footprint
-f:41069103d5fc493f9ab8053c195313e5:smplayer/Pkgfile
-f:555d651afd95f77d66931ac0ad862d18:smplayer/.signature
+f:141185764771cbb8993862ac5e6fc852:smplayer/.footprint
+f:faea1d8e65264e44f93ec61e92e2c0ce:smplayer/Pkgfile
+f:5fb0acf525f52b8ed13ebfc22fbeb71b:smplayer/.signature
 f:42b08a4231d355893c7d20b85ead7c99:squizz/.signature
 f:c8710388b42134e0fb318832f53bc179:squizz/.footprint
 f:cbe5dfae1f4bdb459ba28bd41615ac95:squizz/Pkgfile
@@ -327,8 +323,8 @@ f:680c104a95c99650309547cca83ea388:bluecurve/.footprint
 f:57d132bda26f9fabbabc6925e6c5b7b4:bluecurve/.signature
 f:43ef0cddb88f77eadf5175f539238173:bluecurve/README
 f:8264e5b61801be698f2071f8a7ebba8c:yt-dlp/.footprint
-f:d553d444ff7e454b0a67376deb095ae5:yt-dlp/Pkgfile
-f:aa26408ecc18c7a91bbfbd118d9fd013:yt-dlp/.signature
+f:52cc021ab29d3b70e92dc4494bc61a7f:yt-dlp/Pkgfile
+f:05b484751edef49581d8aa86c789a1b7:yt-dlp/.signature
 f:95b03b9a0917bef6369f149e4ca3bf67:zoom-linux/.signature
 f:bce7fc1e1802f94fb007612c2eba5719:zoom-linux/.footprint
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
