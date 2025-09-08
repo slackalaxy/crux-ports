@@ -1,0 +1,16 @@
+# Description: GtkSourceView 4.0 style schemes
+# URL: https://wiki.gnome.org/Projects/GtkSourceView/StyleSchemes
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtksourceview4
+
+name=gtksourceview4-styles
+version=0.25
+release=1
+source=($name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	mkdir -p $PKG/usr/share/gtksourceview-4/styles
+	cp -a *.xml $PKG/usr/share/gtksourceview-4/styles/
+	chmod 0644 $PKG/usr/share/gtksourceview-4/styles/*.xml
+}
