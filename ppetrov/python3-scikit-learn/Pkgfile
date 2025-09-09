@@ -4,7 +4,7 @@
 # Depends on: python3-joblib python3-scipy python3-threadpoolctl
 
 name=python3-scikit-learn
-version=1.7.0
+version=1.7.1
 release=1
 source=(https://github.com/scikit-learn/scikit-learn/archive/$version/Scikit-learn-$version.tar.gz)
 
