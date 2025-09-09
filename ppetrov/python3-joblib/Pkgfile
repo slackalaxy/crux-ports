@@ -4,9 +4,9 @@
 # Depends on: python3-wheel
 
 name=python3-joblib
-version=1.5.1
+version=1.5.2
 release=1
-source=(https://files.pythonhosted.org/packages/dc/fe/0f5a938c54105553436dbff7a61dc4fed4b1b2c98852f8833beaf4d5968f/joblib-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/e8/5d/447af5ea094b9e4c4054f82e223ada074c552335b9b4b2d14bd9b35a67c4/joblib-$version.tar.gz)
 
 build() {
   cd ${name#*-}-$version
