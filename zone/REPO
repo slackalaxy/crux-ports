@@ -24,7 +24,6 @@ d:mnt-dirs
 d:leafports
 d:ls_colors
 d:xorg-acpilight
-d:fonts-macsel
 d:gtksourceview4-styles
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
 f:b3157145804e9554ccd21a1ec13cbbcd:fonts-conf/.signature
@@ -145,11 +144,6 @@ f:0553f77f1dffe24a8fab9c8583e0d13c:xorg-acpilight/Pkgfile
 f:1e879ebab97474b6f1b22e8cf8735d58:xorg-acpilight/.footprint
 f:025ec1963ae50df95b158fa52fe35734:xorg-acpilight/.signature
 f:d7e7a449a1a633627da6981dec696fcd:xorg-acpilight/README
-f:105e3aa6879416d1cad9ceae0107fb11:fonts-macsel/.footprint
-f:b9c2057149ae33f94266b17220245714:fonts-macsel/.signature
-f:5ca47f074f360468fc01d143cc58c8ab:fonts-macsel/Pkgfile
-f:33345441a862388eda867fe9f469ce97:fonts-macsel/README
-f:d54fa5a876d34895a5e1b55b13ad9787:fonts-macsel/post-install
 f:47c9a640163fa538a1d870ee8e46b352:gtksourceview4-styles/Pkgfile
 f:6725e3c1dc547ada719880e881ed2739:gtksourceview4-styles/.footprint
 f:8e5c8d161d2a47b0d4ffcb84616bd506:gtksourceview4-styles/.signature
