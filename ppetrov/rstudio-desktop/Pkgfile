@@ -5,19 +5,15 @@
 # Optional: r4-learnr
 
 name=rstudio-desktop
-version=2025.05.1+513
-release=3
+version=2025.09.0+387
+release=1
 source=(https://download1.rstudio.org/electron/rhel9/x86_64/rstudio-${version/+/-}-x86_64.rpm
 	rstudio.sh)
 
 build() {
 	cp -a $SRC/usr $PKG
 
-	#mkdir -p $PKG/usr/bin
-	#cd $PKG/usr/bin
-	#ln -s ../lib/rstudio/rstudio .
 	install -D -m755 $SRC/rstudio.sh $PKG/usr/bin/rstudio
-
 	
 	find $PKG/ -name "*README*" -delete
 	find $PKG/ -name "*COPYING*" -delete
