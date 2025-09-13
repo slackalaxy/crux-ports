@@ -31,6 +31,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/dtplyr/help/
 -rw-r--r--	root/root	usr/lib/R/library/dtplyr/help/dtplyr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/dtplyr/help/dtplyr.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/dtplyr/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/dtplyr/help/figures/dt-seal.png
 -rw-r--r--	root/root	usr/lib/R/library/dtplyr/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/dtplyr/help/paths.rds
 drwxr-xr-x	root/root	usr/lib/R/library/dtplyr/html/

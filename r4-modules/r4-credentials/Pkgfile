@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-credentials
-version=2.0.2
+version=2.0.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/credentials_${version}.tar.gz)
 

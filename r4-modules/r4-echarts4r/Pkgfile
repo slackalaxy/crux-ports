@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-data-tree r4-knitr r4-leaflet r4-rmarkdown r4-testthat r4-tibble r4-tidyr
 
 name=r4-echarts4r
-version=0.4.5
+version=0.4.6
 release=1
 source=(https://cloud.r-project.org/src/contrib/echarts4r_${version}.tar.gz)
 

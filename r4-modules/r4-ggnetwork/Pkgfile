@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-ggnetwork
-version=0.5.13
+version=0.5.14
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggnetwork_${version}.tar.gz)
 

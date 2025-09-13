@@ -34,6 +34,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/echarts4r/html/
 drwxr-xr-x	root/root	usr/lib/R/library/echarts4r/htmlwidgets/
 -rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/echarts4r.js
 -rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/echarts4r.yaml
+-rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/echarts4rInteractive.js
+-rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/echarts4rInteractive.yaml
 drwxr-xr-x	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/
 drwxr-xr-x	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/
 drwxr-xr-x	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/custom/
@@ -106,6 +108,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/t
 -rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/themes/macarons.js
 -rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/themes/macarons2.js
 -rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/themes/mint.js
+-rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/themes/package.json
 -rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/themes/purple-passion.js
 -rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/themes/red-velvet.js
 -rw-r--r--	root/root	usr/lib/R/library/echarts4r/htmlwidgets/lib/echarts-4.8.0/themes/red.js

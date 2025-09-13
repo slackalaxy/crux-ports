@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89PmfWaXVOl+Y1AW1lfrnsDQuLY/UiU6qkZotPZtBNVzZRqXNwRWr/SXY5XgQEBUe/xcF9ClZdmjKpcYLI1tWtAE=
-SHA256 (Pkgfile) = b3fd26ade1f5fe366b886aa6256ad9a38b3e9a91072c264274cb3c7c2336e4bb
-SHA256 (.footprint) = 7bd84c6e0a169263b0b8533f2b2ff1b568b685c8fd48643f110ede7516958bc4
-SHA256 (googledrive_2.1.1.tar.gz) = 0b8b4f74ba3630b0347249a32a80bc5fc2e8b63ad2952702f30162bd2d38fb82
+RWQ2oTreAss89Hp8mKId3+Zy9zOVV6aLrTtlpJvkORb/fVf9OSeeNV/6MvgmyJD0fCaUJlWnNxt6nY4UGAwtnkwKUMjmDokUOQg=
+SHA256 (Pkgfile) = cc6b193b65cc8ce0025157fc79f8860b2b37fd21f413ef639a552dbf0b92a3bb
+SHA256 (.footprint) = 2550b9d9220ae29a398d1314cb89e22095959d89c1778a191fb59e65ba3f41c1
+SHA256 (googledrive_2.1.2.tar.gz) = 3809ea4d8333eb80e6ca4e780f198014f65b21c3cf4ec95a63aeb6772c8d94aa

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89E3DYl54xiheeJh+wQ/3jj5DrehjGAxzFjJHXXUr+fQ1KhnhcbxPqqIZ50+fJLfysYTEtlKcuIy5RY2s0CcysAI=
-SHA256 (Pkgfile) = 322cf86be1ece37659bd71ee3325a82519ac6405d341bb7e4cd4b606ab023222
-SHA256 (.footprint) = 2104d9a12e190a9514ffb06ba8751971274957f25c8bce11474dfb3587798bd4
-SHA256 (dtplyr_1.3.1.tar.gz) = a5a9689a640b8bd1274519af220c33deaa3919654acac4ebdff1ff365cc8d6e5
+RWQ2oTreAss89JkvYQnlxa9GRtXgNfLlCvHIBpvrxVG/9icUPeus1isVWK/OY9ARPlmlupX0q4AETwybnSG9u+FlMApZe+uPcQQ=
+SHA256 (Pkgfile) = 44c4af0051cd516fe4a602ae6a14347640ec8de1ff6b21e6c63f53596784dc7a
+SHA256 (.footprint) = ec4c866bbdeb49cb7249d00b5f8d24d967e81b3a1692c9ec14ea28c02f18c315
+SHA256 (dtplyr_1.3.2.tar.gz) = 766003e3cbad4e5d03cfdf240a25e49a813d96ecdbef0cd74ffaf4298182216e

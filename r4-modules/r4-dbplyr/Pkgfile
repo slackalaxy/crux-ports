@@ -5,7 +5,7 @@
 # Optional: r4-bit64 r4-covr r4-knitr r4-lahman r4-nycflights13 r4-odbc r4-rmariadb r4-rmarkdown r4-rpostgres r4-rpostgresql r4-rsqlite r4-testthat
 
 name=r4-dbplyr
-version=2.5.0
+version=2.5.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/dbplyr_${version}.tar.gz)
 

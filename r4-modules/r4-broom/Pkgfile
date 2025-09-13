@@ -5,7 +5,7 @@
 # Optional: r4-aer r4-auc r4-bbmle r4-betareg r4-biglm r4-bingroup r4-boot r4-btergm r4-car r4-cardata r4-caret r4-cluster r4-cmprsk r4-coda r4-covr r4-drc r4-e1071 r4-emmeans r4-epir r4-ergm r4-fixest r4-gam r4-gee r4-geepack r4-ggplot2 r4-glmnet r4-glmnetutils r4-gmm r4-hmisc r4-interp r4-irlba r4-joinerml r4-kendall r4-knitr r4-ks r4-lahman r4-lavaan r4-leaps r4-lfe r4-lm-beta r4-lme4 r4-lmodel2 r4-lmtest r4-lsmeans r4-maps r4-margins r4-mass r4-mclust r4-mediation r4-metafor r4-mfx r4-mgcv r4-mlogit r4-modeldata r4-modeltests r4-muhaz r4-multcomp r4-network r4-nnet r4-ordinal r4-plm r4-polca r4-psych r4-quantreg r4-rmarkdown r4-robust r4-robustbase r4-rsample r4-sandwich r4-spatialreg r4-spdep r4-speedglm r4-spelling r4-survey r4-survival r4-systemfit r4-testthat r4-tseries r4-vars r4-zoo
 
 name=r4-broom
-version=1.0.9
+version=1.0.10
 release=1
 source=(https://cloud.r-project.org/src/contrib/broom_${version}.tar.gz)
 
