@@ -1,3 +1,4 @@
+d:fonts-apple-sf
 d:bpp-core
 d:bpp-phyl
 d:bpp-phyl-omics
@@ -83,6 +84,10 @@ d:openvpn
 d:gnumeric
 d:gtkmm2
 d:kdsingleapplication
+f:fc6fa96ede780ee65ea6668953b32449:fonts-apple-sf/.signature
+f:78c9097ab3db872452c57eb4801f9088:fonts-apple-sf/.footprint
+f:187548d673a33dd5a85ce015baea238e:fonts-apple-sf/post-install
+f:bd2d1d4ce7d2f873e795b7c020889be9:fonts-apple-sf/Pkgfile
 f:162e875a1ef70139aa5acf9608928aaf:bpp-core/.footprint
 f:0d2903264c9ab7c21f722e3aa52894f3:bpp-core/Pkgfile
 f:4112e91d849f60ce6be8419292723bcf:bpp-core/.signature
