@@ -235,26 +235,11 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/698.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/extension.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/dist/extension.js.LICENSE.txt
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/extension.webpack.config.cjs
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/images/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/images/icon.png
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/markdown.css
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/package.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/package.nls.json
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE.md (EMPTY)
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/a.md (EMPTY)
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/b.md (EMPTY)
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/PULL_REQUEST_TEMPLATE/x.txt (EMPTY)
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/docs/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE.md (EMPTY)
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/a.md (EMPTY)
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/b.md (EMPTY)
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/docs/PULL_REQUEST_TEMPLATE/x.txt (EMPTY)
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/some-markdown.md (EMPTY)
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/github/testWorkspace/x.txt (EMPTY)
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/go/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/go/language-configuration.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/go/package.json
@@ -418,8 +403,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/latex/syntaxes/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/latex/syntaxes/cpp-grammar-bailout.tmLanguage.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/latex/syntaxes/markdown-latex-combined.tmLanguage.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/less/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/less/build/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/less/build/update-grammar.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/less/language-configuration.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/less/package.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/less/package.nls.json
@@ -857,8 +840,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/r/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/r/syntaxes/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/r/syntaxes/r.tmLanguage.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/razor/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/razor/build/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/razor/build/update-grammar.mjs
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/razor/language-configuration.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/razor/package.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/razor/package.nls.json
@@ -885,8 +866,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/ruby/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/ruby/syntaxes/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/ruby/syntaxes/ruby.tmLanguage.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/rust/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/rust/build/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/rust/build/update-grammar.mjs
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/rust/language-configuration.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/rust/package.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/rust/package.nls.json
@@ -1092,8 +1071,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/xml/syntaxes/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/xml/xml.language-configuration.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/xml/xsl.language-configuration.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/yaml/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/yaml/build/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/yaml/build/update-grammar.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/yaml/language-configuration.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/yaml/package.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/yaml/package.nls.json
