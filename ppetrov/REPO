@@ -248,9 +248,9 @@ f:b3ccf02c13ee8cb8b939f2d72e7f7a39:qt6ct/README
 f:6a60193cbef91a0e236a33080743b35f:qt6gtk2/Pkgfile
 f:09bfbf6bb2de927a080775593b607ce6:qt6gtk2/.signature
 f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
-f:ce0dfe9adade9a957cbb8940889f66ec:rstudio-desktop/.footprint
-f:ed8ac0f808602bfa59f2cb79158e9f13:rstudio-desktop/.signature
-f:000841f3503b2559a67dda77272bb509:rstudio-desktop/Pkgfile
+f:c64841685fb58283f37687cfa7f6aa30:rstudio-desktop/.footprint
+f:9e6329876c99d788d8fc835b0850b5a4:rstudio-desktop/.signature
+f:e88365fb4aaa9f0347d5c0f41b7168cf:rstudio-desktop/Pkgfile
 f:d2f6f36ea856a73b2a4bbbdaf7402c51:rstudio-desktop/rstudio.sh
 f:7674c35e385079a7d08637ec04c2be6c:seaview/Pkgfile
 f:fe57bed4fa0215e0867b68ef2aef27cf:seaview/.footprint
@@ -297,11 +297,11 @@ f:440ff04d858526d6c1cc8e200f58e2d4:viber/Pkgfile
 f:404e54f40a6eccd0b88e14d339d02694:viber/README
 f:70e8c1b68f00ef3c71f279080e7d8d10:viber/viber.png
 f:20350a6359dc5937635f978df3885902:viber/.signature
-f:452245c084d7aabbcb2fb54b873a30dc:vscodium/.footprint
+f:72f548208484162f5fa9d079da408805:vscodium/.footprint
 f:906fe2f86788284dbf59d627e4a24227:vscodium/vscodium.desktop
 f:9232d91c88fa852bb19805074d3354ab:vscodium/vscodium.png
-f:e64937b2ebe8bcce666910bebbd3c4cf:vscodium/Pkgfile
-f:99d96e37f6dd83bbb7fa3f45fb690033:vscodium/.signature
+f:2b96c3d0a1f9d5a156af9d02c0f78b7c:vscodium/Pkgfile
+f:897fb74d9ecdd3f9a5d5ae05e378c141:vscodium/.signature
 f:a26d2763ebb6375234963c9551c19582:bluecurve/Pkgfile
 f:680c104a95c99650309547cca83ea388:bluecurve/.footprint
 f:57d132bda26f9fabbabc6925e6c5b7b4:bluecurve/.signature
