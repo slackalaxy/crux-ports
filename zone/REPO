@@ -26,9 +26,9 @@ d:ls_colors
 d:xorg-acpilight
 d:gtksourceview4-styles
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
-f:b3157145804e9554ccd21a1ec13cbbcd:fonts-conf/.signature
+f:38879658ada07e236f8dcd65ce0281e7:fonts-conf/.signature
 f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
-f:bf8b39ec463341d8818a6e24b6fdd024:fonts-conf/Pkgfile
+f:14b94cb5a3a18b5bce7d771299bb1011:fonts-conf/Pkgfile
 f:ba49d43668421a4c0bfbaa791ca40e08:fonts-msoffice/README
 f:34fc9ae44d2da03038f415a0bcef2583:fonts-msoffice/.footprint
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-msoffice/post-install
