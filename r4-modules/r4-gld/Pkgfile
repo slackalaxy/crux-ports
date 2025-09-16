@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-gld
-version=2.6.7
+version=2.6.8
 release=1
 source=(https://cloud.r-project.org/src/contrib/gld_${version}.tar.gz)
 

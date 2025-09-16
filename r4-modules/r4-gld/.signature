@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KXnswi9ef6/GzPLUM8cdpqc9hSb2X58pG0yx/WrxdPm7/VFfArB4tvYtn1HAoBbA7X8Ij7ejfUbFM+UqZ7UAwQ=
-SHA256 (Pkgfile) = 5d307e6535cdc78bec0b18bd6d74f6feedf1e647ebc43fa850ff80c31a14fef5
+RWQ2oTreAss89Lmn+eSdpIvhWy2kY3W+PY9aXyX1AawYPwLpAD8A7cIDT7+RkQCo4/HzoghoFbt9ZGtC/0jnVtiEuhmVL/tEwwM=
+SHA256 (Pkgfile) = c6ceff84e0488f50be0889e40bb83ce2d1f3db7c9bb45cec4b2fb8b2c4c777b5
 SHA256 (.footprint) = 98a0a1891e0a216f088b2e419ac8d517b105aa236efef43cbba6b89566fa94fa
-SHA256 (gld_2.6.7.tar.gz) = cc6ff7a4b8980ad04ed215295ea6053f0e7720ae7e00826e97bfa2cb82b5a070
+SHA256 (gld_2.6.8.tar.gz) = aeb2bb7342ec2d425397c8d391be3c399fe897b3992eba42b54cbaf16789768e

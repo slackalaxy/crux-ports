@@ -5,7 +5,7 @@
 # Optional: r4-conflicted r4-covr r4-fs r4-knitr r4-palmerpenguins r4-plyr r4-readr r4-rlang r4-rmarkdown r4-testthat r4-uuid r4-withr
 
 name=r4-here
-version=1.0.1
+version=1.0.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/here_${version}.tar.gz)
 
