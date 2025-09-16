@@ -151,8 +151,8 @@ f:37beefe929592e5579a05a86ae4565e0:hexchat/Pkgfile
 f:f7778913c2d27c82fdef4fbff88e98e5:hexchat/.signature
 f:571af2d2a9bbe66781f4cb3dbc9c3356:hexchat/.footprint
 f:30933c7e75094e7dc658a8db2e1aa3db:hyphy/.footprint
-f:bfbad1e03bc7303740fd5d27e1ce3a61:hyphy/.signature
-f:08b05d136fefa7f37d2db64672b734ac:hyphy/Pkgfile
+f:44d8c20fe1ca084b965d55eda2336cb0:hyphy/.signature
+f:ad62f95c113eb50cbf25bb2fa6f5159c:hyphy/Pkgfile
 f:2ddd900d98114ffc56926421b3987a23:aiksaurus/.footprint
 f:6ce522a214c1ee12c06798f9d0cfc39a:aiksaurus/.signature
 f:a784f769ff43ef39c04f35cdb3afb92a:aiksaurus/Pkgfile
@@ -250,8 +250,8 @@ f:03a243ff21d968f1e7c5fc25330e0dd1:qt6ct/Pkgfile
 f:6ed1da028e3c1db763e18fd2dea2ef5c:qt6ct/.footprint
 f:b3fb8fa27abaee8af0f94dfb518ad6be:qt6ct/.signature
 f:b3ccf02c13ee8cb8b939f2d72e7f7a39:qt6ct/README
-f:6a60193cbef91a0e236a33080743b35f:qt6gtk2/Pkgfile
-f:09bfbf6bb2de927a080775593b607ce6:qt6gtk2/.signature
+f:4a35bf5d562e923d39b1c5533f7a0da9:qt6gtk2/Pkgfile
+f:313f48c346fad17af51560b60aae70c3:qt6gtk2/.signature
 f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
 f:c64841685fb58283f37687cfa7f6aa30:rstudio-desktop/.footprint
 f:db902387a5da347b2572b9370309dbcd:rstudio-desktop/.signature
@@ -314,13 +314,13 @@ f:43ef0cddb88f77eadf5175f539238173:bluecurve/README
 f:8264e5b61801be698f2071f8a7ebba8c:yt-dlp/.footprint
 f:52cc021ab29d3b70e92dc4494bc61a7f:yt-dlp/Pkgfile
 f:05b484751edef49581d8aa86c789a1b7:yt-dlp/.signature
-f:95b03b9a0917bef6369f149e4ca3bf67:zoom-linux/.signature
+f:96c71aac7aa4c2a507302f76a34955e9:zoom-linux/.signature
 f:bce7fc1e1802f94fb007612c2eba5719:zoom-linux/.footprint
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install
 f:28606bdc57fa0d5b41aa8d37e4165c06:zoom-linux/zoom-linux.desktop
 f:4a90cae33d3a987992736d89fd83ac4d:zoom-linux/zoom-linux.png
 f:9e1209739a01ddd0ca9623cd34ae72e2:zoom-linux/zoom-linux.xml
-f:48180629925a67c5191c34d7748dcfc8:zoom-linux/Pkgfile
+f:6f90f252e8f736f2feb79cb2ddb5ae71:zoom-linux/Pkgfile
 f:3db29fe0690db1d7cd35479cae3ab2d3:argtable/Pkgfile
 f:84a4616d94bcf67166326dbaa147301d:argtable/.footprint
 f:ea55cfda71bd2bcb8c12766224f0ab24:argtable/.signature
