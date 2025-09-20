@@ -1,5 +1,5 @@
 # Description: A multiple sequence alignment program
-# URL: https://mafft.cbrc.jp/alignment/software/
+# URL: https://gitlab.com/sysimm/mafft/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=mafft

@@ -1,5 +1,5 @@
 # Description: A visual diff and merge tool
-# URL: http://meldmerge.org/
+# URL: https://download.gnome.org/sources/meld/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: gsettings-desktop-schemas gtksourceview4 hicolor-icon-theme python3-gobject
 
