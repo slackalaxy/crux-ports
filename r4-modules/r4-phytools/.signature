@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GoJ3/jsKRS5XDUxoPwmrED4vExJCkS0vy7PLBr0cNpEDcZLy55ttvLUwa33/TkEwjKBv189UyRQfmcHOx5lZgI=
-SHA256 (Pkgfile) = ada6f631fa2eb3047326924e06fd4bc8e724554d11b89b9e47008a0908427098
+RWQ2oTreAss89KNIqqWpGvmtf/9FDgSC+BWjO4TzrxiGf2cs0lFnlkNEWvgo8jVL7dBSZY40ViufKSUwdRBfpxyvr/M6N6iqjgk=
+SHA256 (Pkgfile) = 41cee4499868540891a70c460da325173cbc42e2bf692d8c90fb6ebf63e40bf7
 SHA256 (.footprint) = f5be67e45199d9eb36e937158c8c418dd86d8568716503e2db1ca2a16fca6c1d
-SHA256 (phytools_2.4-4.tar.gz) = 095e0448dcf1a97f96763ee8a8dd602e55a9133842e5514cd92af536236d45c4
+SHA256 (phytools_2.5-2.tar.gz) = 3c4facf55d3fffe97b9453bac3f6d398abed8b5896bc2b83bf6811957be27f01

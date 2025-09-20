@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89E9Y1n0HdcdW4LmdDcjRyDIR3J8UDvhDVu0zxx5jDL6hR7NUfBVTIJgilyPCDIjTo0ZxaYcSuTPCw//GovYkYQU=
-SHA256 (Pkgfile) = d1d78873264dff0bb61a98e2071a36a762a3d28c6ea5ddc83f9bd5ca4e9fce0e
-SHA256 (.footprint) = 470e165cd82ca985176cf06ddd364e4310a3e31f6a8c9444d302a41f08df726b
-SHA256 (progressr_0.15.1.tar.gz) = 30d9f77808405fc80150be5816d2d0ffd7aaea46b1a56a3e78a24e9e8350a426
+RWQ2oTreAss89Jxn7ISjIfeCE+nJsuWpDY1HTHj0O/AMMDifWOC3b+VfYajSEKWKjHtNB5QI7T0sQK410Dsj+hiikYcVdVcyFQo=
+SHA256 (Pkgfile) = 3f74bf8dd934193b6e06ff62594d0be26cf4ecc62dca9a2206ce104611b837e3
+SHA256 (.footprint) = a34c96bad945ccd590e56c257494b7dca321fd77cb2b19e289e83d514a37548e
+SHA256 (progressr_0.16.0.tar.gz) = 310eaeb29b409c0bedfb526e48cdbca0db65797285ac3a2c24ed2d910de7ba60

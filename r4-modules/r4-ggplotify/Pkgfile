@@ -1,11 +1,11 @@
 # Description: R module ggplotify
 # URL: https://cran.r-project.org/web/packages/ggplotify
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-ggplot2 r4-gridgraphics r4-yulab-utils
+# Depends on: r r4-ggplot2 r4-gridgraphics r4-rlang r4-yulab-utils
 # Optional: r4-aplot r4-colorspace r4-cowplot r4-ggimage r4-knitr r4-lattice r4-prettydoc r4-rmarkdown r4-vcd
 
 name=r4-ggplotify
-version=0.1.2
+version=0.1.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggplotify_${version}.tar.gz)
 

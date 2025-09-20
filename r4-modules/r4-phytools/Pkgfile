@@ -5,9 +5,9 @@
 # Optional: r4-animation r4-geiger r4-plotrix r4-rcolorbrewer r4-rgl
 
 name=r4-phytools
-version=2.4.4
+version=2.5.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/phytools_2.4-4.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/phytools_2.5-2.tar.gz)
 
 build() {
 	cd phytools

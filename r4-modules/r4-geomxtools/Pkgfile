@@ -5,7 +5,7 @@
 # Optional: r4-ggiraph r4-knitr r4-patchwork r4-rmarkdown r4-seurat r4-spatialdecon r4-spatialexperiment r4-testthat
 
 name=r4-geomxtools
-version=3.12.0
+version=3.12.1
 release=1
 source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/GeomxTools_${version}.tar.gz)
 

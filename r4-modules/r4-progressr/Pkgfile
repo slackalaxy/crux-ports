@@ -5,7 +5,7 @@
 # Optional: r4-base64enc r4-beepr r4-cli r4-commonmark r4-crayon r4-dofuture r4-foreach r4-furrr r4-future r4-future-apply r4-ntfy r4-pbmcapply r4-plyr r4-progress r4-purrr r4-rpushbullet r4-rstudioapi r4-shiny
 
 name=r4-progressr
-version=0.15.1
+version=0.16.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/progressr_${version}.tar.gz)
 
