@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Hu1GHx+RUs2eEdh7TgQQDMyCFcJEX9D6RnQDeovBDddnL9NsZH943DxGch9xTd7e+Hz4Y6iGig9Tra0XLVNxgc=
-SHA256 (Pkgfile) = a960eb1fe640dffcc3f426669f9acdc8ea5702843494540bf375d3d8096ddfab
+RWQ2oTreAss89Dd+K5CgzPPMikyNBHWHDXgxfzfKwOaQyiPc/PaGW4vFiaaOjeCsj1aWuAGIOpjn3B9n1Cu2plF/t8QyzZd4kQA=
+SHA256 (Pkgfile) = 7ba61128d795edb6caa1313b1cf16341674c301181c8c285c16593408b7cfe68
 SHA256 (.footprint) = 3ffbdbc95d17f048cb528c63809d89c00f929dc3bd2c6df856ce70500a90f1db
-SHA256 (spatstat.geom_3.5-0.tar.gz) = 81e9f701cc0aa7f263bde00c06e00ca14bc5b3ebe96162cc3186b010309a543b
+SHA256 (spatstat.geom_3.6-0.tar.gz) = ac0b24f5603d2e5ee360669a61ee25aabd79de74aeb99eb3aeec34b4f8284519

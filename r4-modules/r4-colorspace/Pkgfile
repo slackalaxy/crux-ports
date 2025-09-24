@@ -5,9 +5,9 @@
 # Optional: r4-dplyr r4-ggplot2 r4-jpeg r4-kernlab r4-kernsmooth r4-knitr r4-mass r4-mvtnorm r4-png r4-rcartocolor r4-rcolorbrewer r4-rmarkdown r4-scales r4-scico r4-shiny r4-shinyjs r4-vcd r4-viridis r4-wesanderson
 
 name=r4-colorspace
-version=2.1.1
+version=2.1.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/colorspace_2.1-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/colorspace_2.1-2.tar.gz)
 
 build() {
 	cd colorspace

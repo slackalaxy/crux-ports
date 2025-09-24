@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DFl6re6ak4tlgQ04UJfNJLPARkqYJZ8m1tLGvpkrzYXo+kaVUuBBKz9h8rIv+ACa/Z1/t6+6D4nlDcpw9OOFgU=
-SHA256 (Pkgfile) = 45bd74e4d3e416c1413129d04ac0fe3945c77f98c23abb87c6eb6a6cba162fe5
-SHA256 (.footprint) = a72717e22503610f85c9627ff6c3f69206af8cdbf3bff5eb57dc017bde87db73
-SHA256 (colorspace_2.1-1.tar.gz) = e721cee5f4d6e4b0fc8eb18265e316b4f856fd3be02f0775a26032663758cd0b
+RWQ2oTreAss89KzKKoP/Cp2huwRPyHsYJgVFTuNAOQCbFcsLR5ZrLiSlCa/H0mnbAcrR1hmfapPq7Z+IeFL951cOH5jlbGZPogU=
+SHA256 (Pkgfile) = aa562d3a71998c7a4e949f2b17e5aaccb8f9cb5a5af167c0c8396ed36dea33cd
+SHA256 (.footprint) = 9d60c6c7070587a2f6940baf7972d9120df3cf185cd70854f9bd4b73fa8b2c88
+SHA256 (colorspace_2.1-2.tar.gz) = ec71499d33ef5d72b7fb3359b8320639e06e413abad61a070201178a254b153e

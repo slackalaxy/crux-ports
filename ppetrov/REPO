@@ -151,8 +151,8 @@ f:37beefe929592e5579a05a86ae4565e0:hexchat/Pkgfile
 f:f7778913c2d27c82fdef4fbff88e98e5:hexchat/.signature
 f:571af2d2a9bbe66781f4cb3dbc9c3356:hexchat/.footprint
 f:30933c7e75094e7dc658a8db2e1aa3db:hyphy/.footprint
-f:44d8c20fe1ca084b965d55eda2336cb0:hyphy/.signature
-f:ad62f95c113eb50cbf25bb2fa6f5159c:hyphy/Pkgfile
+f:fdd0ba95eecf5a75e9544ccc05d6cc5e:hyphy/.signature
+f:0ff4b7dd397f389558daf113d5be7725:hyphy/Pkgfile
 f:2ddd900d98114ffc56926421b3987a23:aiksaurus/.footprint
 f:6ce522a214c1ee12c06798f9d0cfc39a:aiksaurus/.signature
 f:a784f769ff43ef39c04f35cdb3afb92a:aiksaurus/Pkgfile
@@ -312,8 +312,8 @@ f:680c104a95c99650309547cca83ea388:bluecurve/.footprint
 f:57d132bda26f9fabbabc6925e6c5b7b4:bluecurve/.signature
 f:43ef0cddb88f77eadf5175f539238173:bluecurve/README
 f:8264e5b61801be698f2071f8a7ebba8c:yt-dlp/.footprint
-f:52cc021ab29d3b70e92dc4494bc61a7f:yt-dlp/Pkgfile
-f:05b484751edef49581d8aa86c789a1b7:yt-dlp/.signature
+f:2476ea118409ef0bff3f101966d4184c:yt-dlp/Pkgfile
+f:c2c8bb8699b6768b6296c40bc3354dfc:yt-dlp/.signature
 f:96c71aac7aa4c2a507302f76a34955e9:zoom-linux/.signature
 f:bce7fc1e1802f94fb007612c2eba5719:zoom-linux/.footprint
 f:50e02d42909dbb007b2d4a40a60a092d:zoom-linux/post-install

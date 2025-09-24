@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/pkgload/
 -rw-r--r--	root/root	usr/lib/R/library/pkgload/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/pkgload/INDEX
+-rw-r--r--	root/root	usr/lib/R/library/pkgload/LICENSE
 drwxr-xr-x	root/root	usr/lib/R/library/pkgload/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/pkgload/Meta/Rd.rds
 -rw-r--r--	root/root	usr/lib/R/library/pkgload/Meta/features.rds

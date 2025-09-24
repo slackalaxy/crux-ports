@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89JiuJPNmaCY4xYwT0X4lLingHGdCPP1FtPYZoXVv4vHu9vwUN62h6DHU/Tzmlj+yhcYZFOzoNmkOis6I72ATugI=
-SHA256 (Pkgfile) = fddec5407e7c127f8f7da3f4be699201e6465e6df5bc4427ba10ed248b9a25da
-SHA256 (.footprint) = afaf8fed4df52d1f1b158d193432f97a94c7e9184aeb1475f495485727d36e8c
-SHA256 (ggsci_3.2.0.tar.gz) = 41d8ed4c01c3740028bdf2ba9c5550f1142061e4a40c93b1d2160719c59c3c4a
+RWQ2oTreAss89I6rhQYzWnGVXK7duF2of9cSqAaARILOCg4PTGIRge47LgcAFmEa9JKCZqTq4/WzQwwUtJoCNH1O97y6mU9ZFAE=
+SHA256 (Pkgfile) = ff6762847cfe266b6f4f4325d42648c22e8749d1c09c01ccc4fef836b03e0324
+SHA256 (.footprint) = 8240ba86bcaade11c772968d764fa51c6b6e31f7f01dc3fec6c0bddc64d2b3d3
+SHA256 (ggsci_4.0.0.tar.gz) = 680d9040715a52aa182d23370c49ae0dbdbe598081911acafd88b0fe17ce98e0
