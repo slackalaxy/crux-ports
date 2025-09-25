@@ -6,7 +6,7 @@
 
 name=rstudio-desktop
 version=2025.09.0+387
-release=1
+release=2
 source=(https://download1.rstudio.org/electron/rhel9/x86_64/rstudio-${version/+/-}-x86_64.rpm
 	rstudio.sh)
 
