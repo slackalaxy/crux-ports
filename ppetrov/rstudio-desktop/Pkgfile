@@ -6,8 +6,10 @@
 
 name=rstudio-desktop
 version=2025.09.0+387
-release=2
+_pebble=a122a85
+release=3
 source=(https://download1.rstudio.org/electron/rhel9/x86_64/rstudio-${version/+/-}-x86_64.rpm
+	https://github.com/DesiQuintans/pebble-themes/archive/${_pebble}/pebble-themes-a122a857e9db82ba4876f074466a8bf9df7e4527.tar.gz
 	rstudio.sh)
 
 build() {
@@ -21,4 +23,6 @@ build() {
 
 	sed -i "s:/usr/lib/rstudio/rstudio:rstudio:" $PKG/usr/share/applications/rstudio.desktop
 	sed -i "s:Development:Education:" $PKG/usr/share/applications/rstudio.desktop
+	
+	cp -a $SRC/pebble-themes-${_pebble}*/*.rstheme $PKG/usr/lib/rstudio/resources/app/resources/themes/
 }

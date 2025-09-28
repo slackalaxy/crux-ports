@@ -5706,6 +5706,9 @@ drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/resources/terminal/bash/
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/terminal/bash/.bash_profile
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/terminal/hooks
 drwxr-xr-x	root/root	usr/lib/rstudio/resources/app/resources/themes/
+-rw-rw-r--	root/root	usr/lib/rstudio/resources/app/resources/themes/Pebble-dark.rstheme
+-rw-rw-r--	root/root	usr/lib/rstudio/resources/app/resources/themes/Pebble-grey.rstheme
+-rw-rw-r--	root/root	usr/lib/rstudio/resources/app/resources/themes/Pebble-safe.rstheme
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/themes/ambiance.rstheme
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/themes/chaos.rstheme
 -rw-r--r--	root/root	usr/lib/rstudio/resources/app/resources/themes/chrome.rstheme
