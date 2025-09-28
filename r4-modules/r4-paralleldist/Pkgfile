@@ -5,7 +5,7 @@
 # Optional: r4-dtw r4-ggplot2 r4-proxy r4-rcpparmadillo r4-rcppxptrutils r4-testthat
 
 name=r4-paralleldist
-version=0.2.6
+version=0.2.7
 release=1
 source=(https://cloud.r-project.org/src/contrib/parallelDist_${version}.tar.gz)
 
