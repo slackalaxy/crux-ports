@@ -1,5 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/HYPHYMPI
 -rwxr-xr-x	root/root	usr/bin/hyphy
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/hyphy/
