@@ -18,7 +18,6 @@ d:etc-fstab.labels
 d:backgrounds-vladstudio
 d:backgrounds-assorted
 d:prt-supplements
-d:networkmanager-openvpn
 d:mime-crux
 d:mnt-dirs
 d:leafports
@@ -86,9 +85,9 @@ f:737664c0026abf29befd319b28c3da3a:etc-hostname/README
 f:bb6b6554db0d4b2bae70688cbb0db047:ports-slackalaxy/Pkgfile
 f:152f03c198cb572cb348b9fc4102f491:ports-slackalaxy/.footprint
 f:ede121175a2cbbde03bf6f2f666b965b:ports-slackalaxy/.signature
-f:b75beaaa11a2ea611722411bc364ae78:ports-extra/Pkgfile
+f:4645c1bfc1ad58a08730beea78e80a47:ports-extra/Pkgfile
 f:c3a7ddbe5a7bc6e2754ab6104f0cabe2:ports-extra/.footprint
-f:0fa14ad75280cf740bcf4dd0f661ad8c:ports-extra/.signature
+f:1854ccaf23edf9af781c55fef22cf4d8:ports-extra/.signature
 f:ef2e592ed8588f2fbc61321465a67223:ports-extra/README
 f:63701850c70571d48b02dc854d76ecb4:ports-extra/kde-plasma-6.rsync
 f:2f3025159ce15d433942e55eda2a84de:fonts-mswin/.signature
@@ -121,9 +120,6 @@ f:5a7ddb8a449832e169166dcb5172b5a3:backgrounds-assorted/.signature
 f:782f9b1c47c3f836ae39093f4e3b4925:prt-supplements/Pkgfile
 f:bf9b764a22735801e8a838f0436232f9:prt-supplements/.footprint
 f:43aea6168de717ff9de2f93fb071bc93:prt-supplements/.signature
-f:be652d2d37b12f49216ea4ac6d849072:networkmanager-openvpn/Pkgfile
-f:a732cc434dcdc8bd4625c2803ee4324a:networkmanager-openvpn/.footprint
-f:1d15d2eb6e1519d13c6c1156f8d41351:networkmanager-openvpn/.signature
 f:5fad400e5bbb99c7644d5c979ac736e0:mime-crux/Pkgfile
 f:50a63317eb64aa9bbbce18e6175ffb2c:mime-crux/mime-crux.xml
 f:2c42c8d965ba649a54988999d3d5fb64:mime-crux/post-install
