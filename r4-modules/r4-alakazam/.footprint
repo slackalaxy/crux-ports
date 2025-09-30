@@ -43,12 +43,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/alakazam/doc/
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/GeneUsage-Vignette.R
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/GeneUsage-Vignette.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/GeneUsage-Vignette.pdf
--rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/Lineage-Vignette.R
--rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/Lineage-Vignette.Rmd
--rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/Lineage-Vignette.pdf
--rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/Topology-Vignette.R
--rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/Topology-Vignette.Rmd
--rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/Topology-Vignette.pdf
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/doc/index.html
 drwxr-xr-x	root/root	usr/lib/R/library/alakazam/extdata/
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/extdata/example_airr.tsv.gz

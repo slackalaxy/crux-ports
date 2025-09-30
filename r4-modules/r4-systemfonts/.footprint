@@ -26,7 +26,13 @@ drwxr-xr-x	root/root	usr/lib/R/library/systemfonts/doc/
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/c_interface.R
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/c_interface.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/c_interface.html
+-rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/fonts_basics.R
+-rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/fonts_basics.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/fonts_basics.html
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/index.html
+-rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/systemfonts.R
+-rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/systemfonts.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/systemfonts/doc/systemfonts.html
 drwxr-xr-x	root/root	usr/lib/R/library/systemfonts/help/
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/aliases.rds
@@ -40,6 +46,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/systemfonts/help/figures/
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/figures/lifecycle-soft-deprecated.svg
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/figures/lifecycle-stable.svg
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/figures/lifecycle-superseded.svg
+-rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/paths.rds
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/systemfonts.rdb
 -rw-r--r--	root/root	usr/lib/R/library/systemfonts/help/systemfonts.rdx

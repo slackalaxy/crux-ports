@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89A/xzC3RRNadwffOFY8BtaU01C0jwLgLXZdMkiC459BVokAT9cOBZA52350NqLOScpKwQeDcHrD81O5+Lok7vQU=
-SHA256 (Pkgfile) = 55eacbec989f2c61a505ab929f5da8894f9c618b60c24f5c077de2eb6ea713a1
+RWQ2oTreAss89E3Ly4NBJZkJS66e1+y9YQYTnHb4pkyX3EH7iOsHDfv/8Ow8XyDszf9iQAfbOLrLb3w2BToqtFkx9+sBGoIIdwc=
+SHA256 (Pkgfile) = 5e8209bf1dc836bc570d0d154f1810378315571410fbf0e23d407b8e1c7e9eb3
 SHA256 (.footprint) = 9b846ab93d8aac86b3eed700c4685a195b45a4d3df6b8988bff58e98fed7f6a2
-SHA256 (forcats_1.0.0.tar.gz) = c5bb157909d92e1e1a427c0dc5cb358ea00a43a14918a9088fa4f6630962254e
+SHA256 (forcats_1.0.1.tar.gz) = 1de46b83b7038a293e612775197b7ffe47bd079cd2385aa7c65e98171bbd3605
