@@ -5,13 +5,13 @@
 
 name=ports-extra
 version=3.8
-release=2
+release=3
 source=(kde-plasma-6.rsync
 	https://crux.nu/ports/kde-plasma-6/3.8/kde-plasma-6.pub
 	https://raw.githubusercontent.com/mhoush/crux-mate/main/mate.httpup
 	https://crux.nu/keys/mate.pub
-	https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/xfce4.httpup
-	https://raw.githubusercontent.com/mac-a-r0ni/crux-xfce4/master/xfce4.pub)
+	https://codeberg.org/jlngn/xfce4/raw/branch/${version}/xfce4.httpup
+	https://codeberg.org/jlngn/xfce4/raw/branch/${version}/xfce4.pub)
 
 build() {
 	mkdir -p $PKG/etc/ports
