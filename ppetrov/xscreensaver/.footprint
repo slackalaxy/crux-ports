@@ -271,7 +271,6 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/xscreensaver-getimage-video
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/xscreensaver-gfx
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/xscreensaver-gl-visual
--rwxr-xr-x	root/root	usr/lib/xscreensaver/xscreensaver-systemd
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/xscreensaver-text
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/xspirograph
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/zoom
