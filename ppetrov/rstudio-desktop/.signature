@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRan4wL3/VjhrvZoMJW/7DoBHDbFX94f/ndOa9u3OgR8ezNrhMc77jE/gFLUsL5phnQ6TpO/mYePFV7pdx699wg=
-SHA256 (Pkgfile) = 52c305691367675530c9bc2d88dc8d6dcb63d6dc9c23f32b9167f2be70a5754d
-SHA256 (.footprint) = 197faba4dead5d250e00c9f0a99a146d00c5ae81ef083fe3480c8cdb11d224c0
-SHA256 (rstudio-2025.09.0-387-x86_64.rpm) = 823a95b6e3d0a09da418b9c3c5bf283bcd05ab1ccb195a7b63c3eff4633b8c07
+RWToVVsIkzFIZTSx231UCkAf8zOiJp5Uvnd9PWfFT+26wSjA632XD1EOGKS0A/0KtgFZiL5S+8QV5pbvAaO/rXOFzrGJsJrTEAg=
+SHA256 (Pkgfile) = f55928f45151a99f4f76adb1125fabcbe659bd1c4e4b4e7c9ca7581a07e171d1
+SHA256 (.footprint) = 68b2d099af1c91bb73c9c64c1caae9ceed69df133327d5eae8d53d11b0e20ac3
+SHA256 (rstudio-2025.09.1-401-x86_64.rpm) = fde86028fb4db6189c9096ebe7e669379e67a227481aa6c0ffc467496ad1baf9
 SHA256 (pebble-themes-a122a857e9db82ba4876f074466a8bf9df7e4527.tar.gz) = 9aeeb46db48141dd551245f99a35cb048328cad06a0f487e43a68b25e2a67107
 SHA256 (rstudio.sh) = d25d0fb6e4a7165e1fc14eea2731de2a6b24daa9f5a6ea8fa8e010ed7d7c3ed7
