@@ -5,7 +5,7 @@
 # Optional: r4-bslib r4-curl r4-downlit r4-htmlwidgets r4-jsonlite r4-miniui r4-rsconnect r4-rstudioapi r4-servr r4-shiny r4-testit r4-testthat r4-tibble r4-tufte r4-webshot r4-withr r4-xml2
 
 name=r4-bookdown
-version=0.44
+version=0.45
 release=1
 source=(https://cloud.r-project.org/src/contrib/bookdown_${version}.tar.gz)
 
