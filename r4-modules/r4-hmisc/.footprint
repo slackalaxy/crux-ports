@@ -80,6 +80,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Hmisc/tests/csv/
 -rw-r--r--	root/root	usr/lib/R/library/Hmisc/tests/latexpng.r
 -rw-r--r--	root/root	usr/lib/R/library/Hmisc/tests/mChoice.r
 -rw-r--r--	root/root	usr/lib/R/library/Hmisc/tests/minor.tick.r
+-rw-r--r--	root/root	usr/lib/R/library/Hmisc/tests/movStats.r
 -rw-r--r--	root/root	usr/lib/R/library/Hmisc/tests/ordGroupBoot.r
 -rw-r--r--	root/root	usr/lib/R/library/Hmisc/tests/pMedian.r
 -rw-r--r--	root/root	usr/lib/R/library/Hmisc/tests/panelbp.r

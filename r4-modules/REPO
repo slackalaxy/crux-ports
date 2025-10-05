@@ -826,9 +826,9 @@ f:01f8c31a53ac2b04db46270fb9594c2d:r4-gtools/.footprint
 f:8b0ab0c36a83c949c35ce0da1abc078a:r4-hdf5r/.signature
 f:09653a67284ebd33ef600ea3658b4f7c:r4-hdf5r/.footprint
 f:f1688483133b31623d9f9a8f5ab3d2b9:r4-hdf5r/Pkgfile
-f:5e429ca72ab12b0878f38149e2d6a680:r4-hmisc/.signature
-f:5f0bf5c42b17ddb6174aece1ad135477:r4-hmisc/.footprint
-f:b77332edc10299e839080a29c041724d:r4-hmisc/Pkgfile
+f:c688291f617447264293151d6b815d0a:r4-hmisc/.signature
+f:f18fd84d2341b85bc23d380e98717a57:r4-hmisc/.footprint
+f:a44e11645c0a40739046e8a99483d027:r4-hmisc/Pkgfile
 f:a871d2a43fb632cd76c41b237d4668af:r4-htmlwidgets/.signature
 f:b97b8fde72ba01d71e16344a3f713ea9:r4-htmlwidgets/Pkgfile
 f:1037faafa25d8703138a5eb8e72e8084:r4-htmlwidgets/.footprint
