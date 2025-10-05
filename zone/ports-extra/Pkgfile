@@ -5,13 +5,15 @@
 
 name=ports-extra
 version=3.8
-release=3
+release=4
 source=(kde-plasma-6.rsync
 	https://crux.nu/ports/kde-plasma-6/3.8/kde-plasma-6.pub
 	https://raw.githubusercontent.com/mhoush/crux-mate/main/mate.httpup
 	https://crux.nu/keys/mate.pub
 	https://codeberg.org/jlngn/xfce4/raw/branch/${version}/xfce4.httpup
-	https://codeberg.org/jlngn/xfce4/raw/branch/${version}/xfce4.pub)
+	https://codeberg.org/jlngn/xfce4/raw/branch/${version}/xfce4.pub
+	https://codeberg.org/jlngn/portastrophe/raw/branch/${version}/portastrophe.httpup
+	https://codeberg.org/jlngn/portastrophe/raw/branch/${version}/portastrophe.pub)
 
 build() {
 	mkdir -p $PKG/etc/ports
@@ -27,7 +29,12 @@ build() {
 	install -m 0644 $SRC/mate.pub $PKG/etc/ports
 	
 	# r0ni's Xfce
-	# https://github.com/mac-a-r0ni/crux-xfce4
+	# https://codeberg.org/jlngn/xfce4/
 	install -m 0644 $SRC/xfce4.httpup $PKG/etc/ports
 	install -m 0644 $SRC/xfce4.pub $PKG/etc/ports
+	
+	# r0ni's personal use & random CRUX ports
+	# https://codeberg.org/jlngn/xfce4/
+	install -m 0644 $SRC/portastrophe.httpup $PKG/etc/ports
+	install -m 0644 $SRC/portastrophe.pub $PKG/etc/ports
 }
