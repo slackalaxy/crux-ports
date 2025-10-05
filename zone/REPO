@@ -47,11 +47,11 @@ f:ab0f4eae8c1b9f3f7792db3b71939c6f:skel/bash_profile
 f:f9739473934c1f33ca56b6381b3162f1:skel/bashrc
 f:a2a4df698d0f09f0197f1229f283bd32:skel/xprofile
 f:9a9281549f774cbbb6a2fc229f7c0b7e:skel/bash_logout
-f:acc1aa568e9d4d5a45e28f5ad1371c31:skel/Pkgfile
+f:f14777dcbce35498d7c5ec75198518cf:skel/Pkgfile
 f:a0ba4e8108379770667c7c3c0a913f97:skel/README
 f:ee6e3d102e2e0a1685fec57e40108b61:skel/Xresources
 f:b97495a4af95c5ce45a4a8950e0e58b4:skel/.footprint
-f:f3d87c3f1d5aee27b6bceb9f922ed190:skel/.signature
+f:a3c1a8a4f4252372f3e799d616162cf5:skel/.signature
 f:8dffdc5b09ccde1983825905c17b3182:skel/xinitrc.xfce4
 f:e1e07c59a64f561de8c763a05b32444c:skel/nanorc
 f:a36cad5494121166b3ee3a9d9d060ecd:xorg-conf-keyboard-fi/00-keyboard.conf
@@ -85,9 +85,9 @@ f:737664c0026abf29befd319b28c3da3a:etc-hostname/README
 f:bb6b6554db0d4b2bae70688cbb0db047:ports-slackalaxy/Pkgfile
 f:152f03c198cb572cb348b9fc4102f491:ports-slackalaxy/.footprint
 f:ede121175a2cbbde03bf6f2f666b965b:ports-slackalaxy/.signature
-f:4645c1bfc1ad58a08730beea78e80a47:ports-extra/Pkgfile
-f:c3a7ddbe5a7bc6e2754ab6104f0cabe2:ports-extra/.footprint
-f:1854ccaf23edf9af781c55fef22cf4d8:ports-extra/.signature
+f:89674b9b16c98f64808287c4e7e5ed6c:ports-extra/Pkgfile
+f:ddb7c32b81f38e2ae290886ce9518e50:ports-extra/.footprint
+f:398622e1d0d0c40b05f9c466b66cf4a5:ports-extra/.signature
 f:ef2e592ed8588f2fbc61321465a67223:ports-extra/README
 f:63701850c70571d48b02dc854d76ecb4:ports-extra/kde-plasma-6.rsync
 f:2f3025159ce15d433942e55eda2a84de:fonts-mswin/.signature
