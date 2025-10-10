@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/Signac
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-biocgenerics r4-data-table r4-dplyr r4-fastmatch r4-future r4-future-apply r4-genomeinfodb r4-genomicranges r4-ggplot2 r4-iranges r4-irlba r4-lifecycle r4-matrix r4-patchwork r4-pbapply r4-rcpp r4-rcpproll r4-rlang r4-rsamtools r4-s4vectors r4-scales r4-seuratobject r4-stringi r4-tidyr r4-tidyselect r4-vctrs
-# Optional: r4-biostrings r4-biovizbase r4-bsgenome r4-chromvar r4-ggforce r4-ggrepel r4-ggseqlogo r4-lsa r4-mass r4-miniui r4-motifmatchr r4-rtracklayer r4-seurat r4-shiny r4-summarizedexperiment r4-testthat r4-tfbstools
+# Optional: r4-biostrings r4-biovizbase r4-bsgenome r4-chromvar r4-ggforce r4-ggrepel r4-ggseqlogo r4-lsa r4-mass r4-miniui r4-motifmatchr r4-rtracklayer r4-seurat r4-shiny r4-summarizedexperiment r4-testthat r4-tfbstools r4-wrswor
 
 name=r4-signac
-version=1.15.0
+version=1.16.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/Signac_${version}.tar.gz)
 

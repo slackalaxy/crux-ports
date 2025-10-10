@@ -22,7 +22,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/gdtools/R/
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/R/sysdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/gdtools/css/
+-rw-r--r--	root/root	usr/lib/R/library/gdtools/css/liberation-mono.css
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/css/liberation-sans.css
+-rw-r--r--	root/root	usr/lib/R/library/gdtools/css/liberation-serif.css
 drwxr-xr-x	root/root	usr/lib/R/library/gdtools/help/
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/help/aliases.rds

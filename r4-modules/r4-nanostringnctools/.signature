@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89ByaW/wbTefYSKC3H+4OsEIQNdT4ZmlvoR9cipX8W+PUjTGWwCKeqf0KrWJmwvc9nJtfai+dUb1/O3Wa6We/qAM=
-SHA256 (Pkgfile) = fcee8dfc41a1b33e8676aaf425251185ea64259c91f4d9bbada1429e88265e44
+RWQ2oTreAss89Bxzz/V9esiKNiKH/mhd9gsPXEwlS58jZl29UKgz5xrCBoqWEwGFAVPVpDilribtTejiLceu0ZETeTOcN8mMqA8=
+SHA256 (Pkgfile) = ce9f24461b7c271e602864c0ec4e445553343c7d4f1198006c6917a21a76256f
 SHA256 (.footprint) = fccd4b0d08f2f8a6df9b0a6a34f977ae1f0b42b3af899a408bea13e031d606d1
-SHA256 (NanoStringNCTools_1.16.1.tar.gz) = 30ba5efdb30db1b8f1fb0e11ba9e47c6b270a8daac9e5e0911395d7f62b7522e
+SHA256 (NanoStringNCTools_1.16.2.tar.gz) = a216897957eb15340c0be0e8c8a4ce2476053348f61a67092e4621ef382a8780

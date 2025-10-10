@@ -1,11 +1,11 @@
 # Description: R module statmod
 # URL: https://cran.r-project.org/web/packages/statmod
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-mass r4-tweedie
 
 name=r4-statmod
-version=1.5.0
+version=1.5.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/statmod_${version}.tar.gz)
 

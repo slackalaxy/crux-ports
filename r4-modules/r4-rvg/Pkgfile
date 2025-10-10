@@ -1,11 +1,11 @@
 # Description: R module rvg
 # URL: https://cran.r-project.org/web/packages/rvg
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-gdtools r4-officer r4-rcpp r4-rlang r4-xml2
+# Depends on: r r4-gdtools r4-officer r4-rcpp r4-rlang r4-systemfonts r4-xml2
 # Optional: r4-testthat
 
 name=r4-rvg
-version=0.3.5
+version=0.4.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/rvg_${version}.tar.gz)
 

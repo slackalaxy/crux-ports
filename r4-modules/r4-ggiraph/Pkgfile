@@ -1,11 +1,11 @@
 # Description: R module ggiraph
 # URL: https://cran.r-project.org/web/packages/ggiraph
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-ggplot2 r4-htmltools r4-htmlwidgets r4-purrr r4-rcpp r4-rlang r4-systemfonts r4-uuid r4-vctrs
-# Optional: r4-dplyr r4-gdtools r4-ggrepel r4-hexbin r4-knitr r4-maps r4-quantreg r4-rmarkdown r4-sf r4-shiny r4-tinytest r4-xml2
+# Depends on: r r4-cli r4-dplyr r4-gdtools r4-ggplot2 r4-htmltools r4-htmlwidgets r4-purrr r4-rcpp r4-rlang r4-s7 r4-systemfonts r4-vctrs
+# Optional: r4-ggbeeswarm r4-ggrepel r4-hexbin r4-knitr r4-maps r4-quantreg r4-rmarkdown r4-sf r4-shiny r4-tinytest r4-xml2
 
 name=r4-ggiraph
-version=0.9.1
+version=0.9.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggiraph_${version}.tar.gz)
 

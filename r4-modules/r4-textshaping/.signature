@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89If5yXOyWqB0Q9l4HdzSH0rj1Hq6SKnwMqaVgk7YyrVetxseXw9/L4IeQYKoCV3Gb6Fmh40Z6K0t2iVpt49cNAc=
-SHA256 (Pkgfile) = ebbdf898dea70273a7f7d0fa2e576b288032277334d0095c062f1654f6d3c333
+RWQ2oTreAss89DhRaTn50LnKSYKJMtl9OHIusU6S0OkrFAPnIBUyoNWrH1cw4n6m71vnwvj3xe8rff+ILfeRhLygj0cPdQj5CAE=
+SHA256 (Pkgfile) = 5e40a588a2d501697a4a62663b117f04523ac94be31a064de20d2df6e696800f
 SHA256 (.footprint) = f7d0f53896d76f7e426d0a289da432acd882afe89f59bd005f7eae2508af3516
-SHA256 (textshaping_1.0.3.tar.gz) = 55153765dc97902902ccf84b072138835cb868fea34503f0fd3888b12ed89447
+SHA256 (textshaping_1.0.4.tar.gz) = 34093bf6ec82840f6e80ec6dced1d5ead26637fae5abe63562958c7274e1b8fb

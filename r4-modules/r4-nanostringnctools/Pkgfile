@@ -5,7 +5,7 @@
 # Optional: r4-biovizbase r4-ggbio r4-knitr r4-qpdf r4-rmarkdown r4-runit
 
 name=r4-nanostringnctools
-version=1.16.1
+version=1.16.2
 release=1
 source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/NanoStringNCTools_${version}.tar.gz)
 

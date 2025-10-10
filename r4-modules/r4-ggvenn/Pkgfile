@@ -1,11 +1,11 @@
 # Description: R module ggvenn
 # URL: https://cran.r-project.org/web/packages/ggvenn
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-dplyr r4-ggplot2
-# Optional: 
+# Depends on: r r4-dplyr r4-ggplot2 r4-rlang r4-scales
+# Optional: r4-rmarkdown r4-testthat
 
 name=r4-ggvenn
-version=0.1.10
+version=0.1.19
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggvenn_${version}.tar.gz)
 

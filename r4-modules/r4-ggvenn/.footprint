@@ -14,6 +14,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggvenn/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/NAMESPACE
+-rw-r--r--	root/root	usr/lib/R/library/ggvenn/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggvenn/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/R/ggvenn
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/R/ggvenn.rdb
@@ -21,10 +22,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggvenn/R/
 drwxr-xr-x	root/root	usr/lib/R/library/ggvenn/help/
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/help/aliases.rds
-drwxr-xr-x	root/root	usr/lib/R/library/ggvenn/help/figures/
--rw-r--r--	root/root	usr/lib/R/library/ggvenn/help/figures/venn-2.svg
--rw-r--r--	root/root	usr/lib/R/library/ggvenn/help/figures/venn-3.svg
--rw-r--r--	root/root	usr/lib/R/library/ggvenn/help/figures/venn-4.svg
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/help/ggvenn.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/help/ggvenn.rdx
 -rw-r--r--	root/root	usr/lib/R/library/ggvenn/help/paths.rds
