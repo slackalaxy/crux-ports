@@ -53,7 +53,6 @@ d:strawberry
 d:libgsf
 d:tk
 d:treebest
-d:treerecs
 d:ucsf-chimerax
 d:viber
 d:vscodium
@@ -230,7 +229,7 @@ f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
 f:71d24474e6e21ae5a4d905d74d69138f:wps-office/.signature
-f:1d33f56bbca0a3d8f35e621ae739013f:wps-office/README
+f:aeaa4f0dc9d7d8e82058780edb6b7ccb:wps-office/README
 f:b7ffae4b34c188d4a4d44afd941b58df:wps-office/Pkgfile
 f:7691b7d2a10af87a6ca09fedf5c300f1:wps-office/.footprint
 f:34f2acef2c0d585c10ddcad02868541a:wps-office/post-install
@@ -252,9 +251,9 @@ f:ef48b09c1345a3a7aa707a293b63bde9:rstudio-desktop/.footprint
 f:5ee5c2d7faa009f1b63d4389fdb5d0cc:rstudio-desktop/.signature
 f:029bcab71d5b5d5ce69a2c534b351ff6:rstudio-desktop/Pkgfile
 f:fd5f8f987131f8e4df29787557bd8d61:rstudio-desktop/rstudio.sh
-f:7674c35e385079a7d08637ec04c2be6c:seaview/Pkgfile
+f:51c1f9138522d394d55dace5919047ca:seaview/Pkgfile
 f:fe57bed4fa0215e0867b68ef2aef27cf:seaview/.footprint
-f:e2ae7fe58b72d573e906aff5eee0f5c5:seaview/.signature
+f:fb5b83a226037e5e71a206bd27aab052:seaview/.signature
 f:f9ac6501bf8e24f9c621139b44de2e3a:seaview/seaview.desktop
 f:ca5d448bc66e89bf922c436d61d10321:seqkit/.signature
 f:9bdbf114f901c0db896d53a6cefe3f81:seqkit/.footprint
@@ -282,9 +281,6 @@ f:ae1e06bd3937db1e991715edee2b7d89:treebest/treebest.desktop
 f:1c6dfd012cd542231fa0e1692d6d8ff5:treebest/Pkgfile
 f:c01b0e4e17d0ae114cde99ad344df373:treebest/.signature
 f:0eba9d7685f3219dc4138452feeb8b34:treebest/treebest.png
-f:a3dfc9f57a1690c5060142045250c530:treerecs/.signature
-f:3061cce6fc0741f2e1954484474fa0d1:treerecs/.footprint
-f:0abbc3eb7c0b4a75a4a980874a2dea4d:treerecs/Pkgfile
 f:1777df25a0de190e2ac545074f35cb44:ucsf-chimerax/ucsf-chimerax.desktop
 f:5f34041fb8147324f6e395b303e634d2:ucsf-chimerax/Pkgfile
 f:dbb9f743c1fd86bb4b10bee45fc3a758:ucsf-chimerax/.footprint
@@ -297,11 +293,11 @@ f:440ff04d858526d6c1cc8e200f58e2d4:viber/Pkgfile
 f:404e54f40a6eccd0b88e14d339d02694:viber/README
 f:70e8c1b68f00ef3c71f279080e7d8d10:viber/viber.png
 f:20350a6359dc5937635f978df3885902:viber/.signature
-f:72f548208484162f5fa9d079da408805:vscodium/.footprint
+f:89cb55e7bf0544b642b7f20a487bd062:vscodium/.footprint
 f:906fe2f86788284dbf59d627e4a24227:vscodium/vscodium.desktop
 f:9232d91c88fa852bb19805074d3354ab:vscodium/vscodium.png
-f:b59643b0f49f91ee0cf146bf3b40105a:vscodium/Pkgfile
-f:b7a7776de394c5fdb40e8d62bc7e1d31:vscodium/.signature
+f:109927b04b81b8e9324f54ef24082e7b:vscodium/Pkgfile
+f:4dcb3d90722917631816a82c210a3275:vscodium/.signature
 f:a26d2763ebb6375234963c9551c19582:bluecurve/Pkgfile
 f:680c104a95c99650309547cca83ea388:bluecurve/.footprint
 f:57d132bda26f9fabbabc6925e6c5b7b4:bluecurve/.signature
