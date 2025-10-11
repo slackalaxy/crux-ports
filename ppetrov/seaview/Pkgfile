@@ -1,7 +1,7 @@
 # Description: Multiple sequence alignment and phylogeny GUI
 # URL: http://doua.prabi.fr/software/seaview
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: clustalo fltk gblocks muscle pdflib-lite treerecs xorg-libsm xorg-libxcursor
+# Depends on: clustalo fltk gblocks muscle pdflib-lite xorg-libsm xorg-libxcursor
 
 name=seaview
 version=5.1
