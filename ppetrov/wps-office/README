@@ -21,8 +21,8 @@ Thanks to Arch Linux for this! Check link for details:
 https://wiki.archlinux.org/title/WPS_Office#WPS_Office_Overriding/Breaks_Mime
 
 DICTIONARIES
-This comes with US spellecheck and also bundles British Engligh
-(en_GB) spell check. For more dictionaries:
+This comes with US spellecheck and also bundles British English (en_GB)
+spell check. For more dictionaries:
 
     https://github.com/slackalaxy/wps-office-dicts
     https://slackalaxy.com/2021/04/03/wps-office-v11-dictionary/
@@ -30,9 +30,14 @@ This comes with US spellecheck and also bundles British Engligh
 ZOTERO PLUG-IN
 * Get the unofficial Zotero plug-in from either GitHub or Gitee:
   
-    https://github.com/bigben446/Zotero-WPSJS
+    https://github.com/bigben446/Zotero-WPSJS/
     https://gitee.com/wangrui5015/Zotero-WPSJS/
-  
+
+* Manually clean up any previous installation, by removing everything
+  from:
+    
+    ~/.local/share/Kingsoft/wps/jsaddons/
+
 * Extract, navigate to Linux/ and run as normal user:
   
     python3 ./install.py
@@ -40,5 +45,5 @@ ZOTERO PLUG-IN
 * Upon start, you'll be promped with a popup, which Google translates as
   instructions to go:
   
-    Tools > Macro Security > Trusted Publishers > check
+    Tools > Macro Security > Trusted Publishers > check the box saying
     "Trust access to wpsjs projects"
