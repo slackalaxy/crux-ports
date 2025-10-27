@@ -75,7 +75,7 @@ drwxrwxr-x	root/root	usr/lib/zotero/icons/
 -rw-r--r--	root/root	usr/lib/zotero/icons/updater.png
 drwxrwxr-x	root/root	usr/lib/zotero/integration/
 drwxr-xr-x	root/root	usr/lib/zotero/integration/libreoffice/
--rw-rw-r--	root/root	usr/lib/zotero/integration/libreoffice/Zotero_LibreOffice_Integration.oxt
+-rw-r--r--	root/root	usr/lib/zotero/integration/libreoffice/Zotero_LibreOffice_Integration.oxt
 -rwxr-xr-x	root/root	usr/lib/zotero/libfreeblpriv3.so
 -rwxr-xr-x	root/root	usr/lib/zotero/libipcclientcerts.so
 -rwxr-xr-x	root/root	usr/lib/zotero/liblgpllibs.so
