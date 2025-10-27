@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-knitr r4-microbenchmark r4-rmarkdown r4-testthat
 
 name=r4-ratelimitr
-version=0.4.1
+version=0.4.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/ratelimitr_${version}.tar.gz)
 

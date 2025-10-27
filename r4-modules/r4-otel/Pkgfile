@@ -1,0 +1,16 @@
+# Description: R module otel
+# URL: https://cran.r-project.org/web/packages/otel
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-callr r4-cli r4-glue r4-jsonlite r4-otelsdk r4-processx r4-shiny r4-spelling r4-testthat r4-withr
+
+name=r4-otel
+version=0.2.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/otel_${version}.tar.gz)
+
+build() {
+	cd otel
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

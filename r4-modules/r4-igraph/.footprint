@@ -9,7 +9,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/igraph/
 -rw-r--r--	root/root	usr/lib/R/library/igraph/INDEX
 drwxr-xr-x	root/root	usr/lib/R/library/igraph/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/igraph/Meta/Rd.rds
--rw-r--r--	root/root	usr/lib/R/library/igraph/Meta/demo.rds
 -rw-r--r--	root/root	usr/lib/R/library/igraph/Meta/features.rds
 -rw-r--r--	root/root	usr/lib/R/library/igraph/Meta/hsearch.rds
 -rw-r--r--	root/root	usr/lib/R/library/igraph/Meta/links.rds
@@ -32,13 +31,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/igraph/benchmarks/
 -rw-r--r--	root/root	usr/lib/R/library/igraph/benchmarks/time_print.R
 -rw-r--r--	root/root	usr/lib/R/library/igraph/benchmarks/time_sgm.R
 -rw-r--r--	root/root	usr/lib/R/library/igraph/benchmarks/time_sir.R
-drwxr-xr-x	root/root	usr/lib/R/library/igraph/demo/
--rw-r--r--	root/root	usr/lib/R/library/igraph/demo/centrality.R
--rw-r--r--	root/root	usr/lib/R/library/igraph/demo/cohesive.R
--rw-r--r--	root/root	usr/lib/R/library/igraph/demo/community.R
--rw-r--r--	root/root	usr/lib/R/library/igraph/demo/crashR.R
--rw-r--r--	root/root	usr/lib/R/library/igraph/demo/hrg.R
--rw-r--r--	root/root	usr/lib/R/library/igraph/demo/smallworld.R
 drwxr-xr-x	root/root	usr/lib/R/library/igraph/doc/
 -rw-r--r--	root/root	usr/lib/R/library/igraph/doc/igraph.R
 -rw-r--r--	root/root	usr/lib/R/library/igraph/doc/igraph.Rmd
@@ -69,6 +61,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/igraph/html/
 -rw-r--r--	root/root	usr/lib/R/library/igraph/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/igraph/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/igraph/libs/igraph.so
+-rw-r--r--	root/root	usr/lib/R/library/igraph/libs/symbols.rds
 drwxr-xr-x	root/root	usr/lib/R/library/igraph/lifecycle/
 -rw-r--r--	root/root	usr/lib/R/library/igraph/lifecycle/deprecated-table-creation.R
 -rw-r--r--	root/root	usr/lib/R/library/igraph/lifecycle/deprecated.csv

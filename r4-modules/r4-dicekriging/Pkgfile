@@ -1,11 +1,11 @@
 # Description: R module DiceKriging
 # URL: https://cran.r-project.org/web/packages/DiceKriging
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-doparallel r4-foreach r4-numderiv r4-rgenoud r4-testthat
 
 name=r4-dicekriging
-version=1.6.0
+version=1.6.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/DiceKriging_${version}.tar.gz)
 

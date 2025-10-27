@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89C8RQOvf2ZeYDVVjELbQg6k1hCc9N+QsWO+KzYLyrskmdVgS1wJUtNfrNQPZb1hx15lKRGkevCi8B+WnPESuWAE=
+SHA256 (Pkgfile) = e68c5f59d6d57fabec8dbad163b728c529ad5b49d56ebb0dfa1bbc9caf2e2baf
+SHA256 (.footprint) = 99cb8eabf86c27966597b313404fb9677b6940cd66bee6b27cce0465da7d1c7f
+SHA256 (otel_0.2.0.tar.gz) = ef8afe5a1bc8074bbeb8a84134699ef348a1f8ac629ffba25ee43ea7bcd8dd17

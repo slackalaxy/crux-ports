@@ -20,9 +20,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/svglite/R/
 -rw-r--r--	root/root	usr/lib/R/library/svglite/R/svglite.rdb
 -rw-r--r--	root/root	usr/lib/R/library/svglite/R/svglite.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/svglite/doc/
--rw-r--r--	root/root	usr/lib/R/library/svglite/doc/fonts.R
--rw-r--r--	root/root	usr/lib/R/library/svglite/doc/fonts.Rmd
--rw-r--r--	root/root	usr/lib/R/library/svglite/doc/fonts.html
 -rw-r--r--	root/root	usr/lib/R/library/svglite/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/svglite/doc/scaling.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/svglite/doc/scaling.html

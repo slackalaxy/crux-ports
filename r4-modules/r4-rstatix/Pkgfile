@@ -5,7 +5,7 @@
 # Optional: r4-boot r4-coin r4-emmeans r4-ggpubr r4-knitr r4-rmarkdown r4-spelling r4-testthat
 
 name=r4-rstatix
-version=0.7.2
+version=0.7.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/rstatix_${version}.tar.gz)
 
