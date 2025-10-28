@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=OnlyOffice
+Comment=OnlyOffice Desktop Editors
+GenericName=Office Suite
+Exec=onlyoffice
+Icon=onlyoffice
+Categories=Office
+Type=Application
+Terminal=false
+StartupNotify=false

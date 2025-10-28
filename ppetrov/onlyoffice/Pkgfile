@@ -1,0 +1,18 @@
+# Description: OnlyOffice Desktop Editors
+# URL: https://www.onlyoffice.com/download-desktop
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fuse xorg
+
+name=onlyoffice
+version=9.1.0
+release=1
+source=(https://github.com/ONLYOFFICE/appimage-desktopeditors/releases/download/v${version}/DesktopEditors-x86_64.AppImage
+	$name.desktop $name.sh $name.png)
+renames=($name-DesktopEditors-x86_64.AppImage-$version SKIP SKIP SKIP)
+
+build() {
+  	install -D -m 0755 $SRC/$name-DesktopEditors-x86_64.AppImage-$version $PKG/usr/lib/$name/DesktopEditors-x86_64.AppImage
+	install -D -m 0755 $SRC/$name.sh $PKG/usr/bin/$name
+	install -D -m 0644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+	install -D -m 0644 $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
+}
