@@ -75,6 +75,7 @@ d:python3-threadpoolctl
 d:python3-tqdm
 d:python3-umap
 d:xscreensaver
+d:onlyoffice
 d:bpp1-phyl
 d:bpp1-utils
 d:openvpn
@@ -364,6 +365,12 @@ f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver/xscreensaver.pam
 f:d270ee5532a8808c77eebc924bac9f48:xscreensaver/.footprint
 f:a950db6034d422d3b0eaf9b20da47470:xscreensaver/.signature
 f:fcdc1fb8ddacd4fae1119c421b57894d:xscreensaver/electricsheep.patch
+f:a5807036f4d163817e0e450d62ee081b:onlyoffice/Pkgfile
+f:27ba96531c79eec000bd2e921f8d3f9b:onlyoffice/onlyoffice.png
+f:5687d0c072794df3fb8efecd6c9fbd36:onlyoffice/onlyoffice.desktop
+f:e384c57965028ac41c53836d20ba051e:onlyoffice/onlyoffice.sh
+f:81719c58557e9fe567d8451ccbe2d72c:onlyoffice/.signature
+f:81d73c76ff5d4f727ede4999b8dcd002:onlyoffice/.footprint
 f:2a61f42360300ba9ae47a3b418fda9d5:bpp1-phyl/.footprint
 f:5d2cb4e515b32435ea6a4cd851c35cd1:bpp1-phyl/caps_TreeTemplateTools.patch
 f:ce97f1d5bbeb98565d9cf5df76afc55a:bpp1-phyl/Pkgfile
