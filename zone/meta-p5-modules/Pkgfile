@@ -1,0 +1,13 @@
+# Description: Dummy port for the p5-modules repo
+# URL: /usr/ports/p5-modules
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: cpan2crux guidance p5-html-template
+
+name=meta-p5-modules
+version=3.8
+release=1
+source=()
+
+build() {
+  mkdir -p $PKG/usr/etc
+}
