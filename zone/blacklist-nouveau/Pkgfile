@@ -1,0 +1,14 @@
+# Description: Blacklist the nouveau driver
+# URL: /etc/modprobe.d/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=blacklist-nouveau
+version=3.8
+release=1
+source=()
+
+build() {
+  mkdir -p $PKG/etc/modprobe.d
+  echo "blacklist nouveau" > $PKG/etc/modprobe.d/$name.conf
+}
