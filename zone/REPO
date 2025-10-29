@@ -22,12 +22,12 @@ d:mime-crux
 d:mnt-dirs
 d:leafports
 d:ls_colors
-d:xorg-acpilight
 d:gtksourceview4-styles
 d:meta-ppetrov
 d:meta-p5-modules
 d:meta-r4-modules
 d:meta-misc
+d:blacklist-nouveau
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
 f:38879658ada07e236f8dcd65ce0281e7:fonts-conf/.signature
 f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
@@ -140,10 +140,6 @@ f:e0179e16c077b7f7c9e22e5b0f98bec6:ls_colors/Pkgfile
 f:1beaf1e31ff9683175e0e0d312a16967:ls_colors/.footprint
 f:a825523bb95a019d56e478f6bedc032b:ls_colors/.signature
 f:b84a02f6f76f93eb7c406220de2ad36e:ls_colors/README
-f:0553f77f1dffe24a8fab9c8583e0d13c:xorg-acpilight/Pkgfile
-f:1e879ebab97474b6f1b22e8cf8735d58:xorg-acpilight/.footprint
-f:025ec1963ae50df95b158fa52fe35734:xorg-acpilight/.signature
-f:d7e7a449a1a633627da6981dec696fcd:xorg-acpilight/README
 f:47c9a640163fa538a1d870ee8e46b352:gtksourceview4-styles/Pkgfile
 f:6725e3c1dc547ada719880e881ed2739:gtksourceview4-styles/.footprint
 f:8e5c8d161d2a47b0d4ffcb84616bd506:gtksourceview4-styles/.signature
@@ -160,3 +156,6 @@ f:3df3170704bad1508acd24d6e6958063:meta-r4-modules/.signature
 f:fa4080fc0004e56de8df565a32f7efd6:meta-misc/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-misc/.footprint
 f:91f022a6edc4362d4d4ef55cdf931ca1:meta-misc/.signature
+f:2ab109ccded9793aa1aea42b60f3f29e:blacklist-nouveau/Pkgfile
+f:00d2ad971daf6cb2c4597d2dd170b342:blacklist-nouveau/.footprint
+f:2b824401e84ed1a30111a17137c82432:blacklist-nouveau/.signature
