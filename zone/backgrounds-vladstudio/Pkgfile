@@ -3,7 +3,7 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=backgrounds-vladstudio
-version=20250515
+version=20251002
 release=1
 source=(https://vlad.studio/zip-packs/)
 renames=(vladstudio_3840x2160.zip)
