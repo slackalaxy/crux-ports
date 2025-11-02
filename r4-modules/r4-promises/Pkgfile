@@ -5,7 +5,7 @@
 # Optional: r4-future r4-knitr r4-mirai r4-otelsdk r4-purrr r4-rcpp r4-rmarkdown r4-spelling r4-testthat r4-vembedr
 
 name=r4-promises
-version=1.4.0
+version=1.5.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/promises_${version}.tar.gz)
 

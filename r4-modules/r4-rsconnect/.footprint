@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rsconnect/R/
 -rw-r--r--	root/root	usr/lib/R/library/rsconnect/R/rsconnect.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rsconnect/R/rsconnect.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/rsconnect/cert/
+-rw-r--r--	root/root	usr/lib/R/library/rsconnect/cert/api.connect.posit.cloud.pem
 -rw-r--r--	root/root	usr/lib/R/library/rsconnect/cert/cacert.pem
 -rw-r--r--	root/root	usr/lib/R/library/rsconnect/cert/shinyapps.io.pem
 drwxr-xr-x	root/root	usr/lib/R/library/rsconnect/doc/

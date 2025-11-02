@@ -33,7 +33,10 @@ drwxr-xr-x	root/root	usr/lib/R/library/reformulas/testdata/
 drwxr-xr-x	root/root	usr/lib/R/library/reformulas/tinytest/
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_anySpecial.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_doubleVertNotation.R
+-rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_extractForm.R
+-rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_from_lme4.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_mkReTrms.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_noSpecial.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_nobar.R
+-rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_randint.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_utils.R

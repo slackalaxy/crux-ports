@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Hx9lYjiLSyRxxMchVPGGRl54mUcA2q5GjFZne96heI60BliEMRoqCF19Zvx7Vz+SsB5dnt9nV8Bhhv0uIxFsAo=
-SHA256 (Pkgfile) = a3a9686c7d8fef5913b0a07c1d48f6ce3b56ae1a51f449f1869f939c87253da6
-SHA256 (.footprint) = d1ca08f190e661e4a6ab366e6f1f4bb9106dd58b65a928ffc57b343360b5d00b
-SHA256 (reformulas_0.4.1.tar.gz) = 60c585ef8791d3f3f8d0c6eeac83fabcf1f21960a6ad1abd2b756603c603f0de
+RWQ2oTreAss89BINhEHR+kNsvfTea1QLKhuNfBCAx3aLMKw2kQoWGVdVKzApR4poqABpa55k9+C1pqw0ZifBZjIaIOhZhvJNtwY=
+SHA256 (Pkgfile) = 4a1064b9fa5b8996d1e1908eb377ffacd1aa03ef90f90afd178bf2fbf78b10df
+SHA256 (.footprint) = 9a17fc426fb517ab776bee24b899a07a4a1239a7f699979b7f90fdf91c9e8ba9
+SHA256 (reformulas_0.4.2.tar.gz) = 7c2206613af3c615d1327a0cd4c645c2cd4c205b47a3982dc61599ca3e176461

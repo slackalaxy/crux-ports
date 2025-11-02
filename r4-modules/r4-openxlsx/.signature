@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89EkgB0BxsbmKyb09uOc39cQO9CGOBQHDqY84g6TTwwqMpzduE/yGELFvj29x3pS67f2e+bEvlXGcH7WJpdSlhQA=
-SHA256 (Pkgfile) = 4c6aa15fed8227a402e7d87c17e10a6a900e826a1c59d8bf1d10b1ec67965dca
+RWQ2oTreAss89OcjxA5YN3MlGLl6dn6ILgL0FPygv4Ei8Uazq404shyFJWKKVr+U5NuT/QGZnOGUTQw1SIQCJwEQej+dVUTTnw4=
+SHA256 (Pkgfile) = 296e597b606f86e71bf0c8b9a41d6c7175e147c3c1448a392f65d5c006c77f46
 SHA256 (.footprint) = b69fce45b690ae2bdc9dee6709f42bfe4db7124d70d6cbed805c1950abcdf603
-SHA256 (openxlsx_4.2.8.tar.gz) = 8a0861ab8b677f6cd5f582f7c6721c0451cd04d65c6e9cc6ebdb7fbc6597e4d8
+SHA256 (openxlsx_4.2.8.1.tar.gz) = 46ed7c1c8db9646eaf4fe6abe00a0eacd40d28707428a7c611c2816195c71a63

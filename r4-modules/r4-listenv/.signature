@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89M1/3gZf/dBr6uApGHKZS8NhUPkqyQ0RadZEsolrm3T2NPWYtLNHS48xbGXtN9u5vYqsumiaqVgC8Hny9+XujgA=
-SHA256 (Pkgfile) = ec93d7831634da0a9feb7be89859e0e1b9bcf8a3313094bd44f9d434e347ba6d
+RWQ2oTreAss89DFha4X6Q5c7T8Hu6dYEMGg4y6qr4P10jWH3xy7D5CetPpoNH1CbVR2p42Mm2RyGEw0ae/TtxOP39kAw8AwCiA8=
+SHA256 (Pkgfile) = 34170281c73916adb5f90df6afe016d346db3fc364eba5a58fb68652fced2a32
 SHA256 (.footprint) = 0b828669c64cde3c7716cd05b5817b06693231d81d37681acdc401e71c2c6a5c
-SHA256 (listenv_0.9.1.tar.gz) = 422aaf487b91c6512b83c05536f8dac255db79b16ee85254acc59a3fda8c1c3b
+SHA256 (listenv_0.10.0.tar.gz) = 6eddc1a201b67b61754a4f18c5d5b641f116b7a0981d8cce506d3989bcb4d6e4

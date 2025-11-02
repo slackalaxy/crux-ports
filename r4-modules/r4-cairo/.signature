@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89J3vVWZacxUuifcGQEGUw8m+e846SD2LVDsp/ARNufihyIJhTuhXtP51uJ/eLUq6S5msJPLPcpSBSIjoiTDqTgI=
-SHA256 (Pkgfile) = 331a1516ae3c23ab957d737711d4956ca26568d0b9c7f0e0cff87f3cab1e661f
+RWQ2oTreAss89KrGmbmj4Hk/usXiPXlNbjDb3kFBUMvPzNBLGTgKiHTq30ChIRiTrAQ0dkcT75cHG5Zwf9KzLcWgiitcrvltaAE=
+SHA256 (Pkgfile) = ca6e8c882a685b3750432bbb4e6e65af85f9065f2454c4a7f04c465445ce7d29
 SHA256 (.footprint) = f9a3157c1675028b82d48d95600e4466d8e4869bbe3f653e4cf2ee50b6133171
-SHA256 (Cairo_1.6-5.tar.gz) = 8778a2fd7c8b8b3167282e59c05c8d66892bea9e3b1b13abbb47b72c9d75892a
+SHA256 (Cairo_1.7-0.tar.gz) = fcb84a614bbb85b976dd4fd1c17e2f7fd2f4fa21c3ac9e930819d88099a61d52

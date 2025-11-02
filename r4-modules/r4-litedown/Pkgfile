@@ -5,7 +5,7 @@
 # Optional: r4-rbibutils r4-rstudioapi r4-tinytex
 
 name=r4-litedown
-version=0.7
+version=0.8
 release=1
 source=(https://cloud.r-project.org/src/contrib/litedown_${version}.tar.gz)
 

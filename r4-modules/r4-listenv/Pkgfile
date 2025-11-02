@@ -5,7 +5,7 @@
 # Optional: r4-markdown r4-r-rsp r4-r-utils
 
 name=r4-listenv
-version=0.9.1
+version=0.10.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/listenv_${version}.tar.gz)
 
