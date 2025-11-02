@@ -1,0 +1,25 @@
+# Description: ACPI daemon
+# URL: http://sourceforge.net/projects/acpid2/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=acpid
+version=2.0.34
+release=1
+source=(https://sourceforge.net/projects/acpid2/files/acpid-2.0.34.tar.xz
+	acpi_handler.sh default $name.rc)
+
+build() {
+	cd $name-$version
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc
+
+	make
+	make DESTDIR=$PKG install
+	
+	install -D -m 0755 $SRC/acpi_handler.sh $PKG/etc/acpi/acpi_handler.sh
+	install -D -m 0755 $SRC/$name.rc $PKG/etc/rc.d/$name
+	install -D -m 0644 $SRC/default $PKG/etc/acpi/events/default
+	
+	rm -rf $PKG/usr/share/doc
+}
