@@ -1,7 +1,7 @@
 # Description: Dummy port for the ppetrov repo
 # URL: /usr/ports/ppetrov
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: aiksaurus bluecurve caps-coev datamash fonts-apple-sf gbgoffice gnumeric hdf5 hexchat hyphy lalnview masterpdfeditor4 mtpaint mumsa muscle5 ncbi-blast-plus ncbi-datasets openvpn pal2nal paml phyml polar-cursor-themes prank python3-umap qt5ct qt6gtk2 rstudio-desktop seaview seqkit smplayer squizz sshpass strawberry tk treebest ucsf-chimerax viber vscodium wps-office xscreensaver yt-dlp zoom-linux zotero
+# Depends on: aiksaurus bluecurve caps-coev datamash fonts-apple-sf gbgoffice gnumeric hdf5 hexchat hyphy lalnview mtpaint mumsa muscle5 ncbi-blast-plus ncbi-datasets openvpn pal2nal paml phyml polar-cursor-themes prank python3-umap qt5ct qt6gtk2 rstudio-desktop seaview seqkit smplayer squizz sshpass strawberry tk treebest ucsf-chimerax viber vscodium wps-office xscreensaver yt-dlp zoom-linux zotero
 
 name=meta-ppetrov
 version=3.8
