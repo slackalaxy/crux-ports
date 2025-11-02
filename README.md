@@ -13,12 +13,9 @@ to be credited, let me know!
 ---
 
 ### ppetrov
-Main collection of programs and libraries. Two ports use unversioned
-tarballs provided by upstream,  *viber* and *zoom-linux*, therefore
-`.signature` and `.footprint` may mismatch. Two other have dependencies
-outside this repo: *meld* (depends on *gtksourceview4*) and *python3-pybind11*
-(depends on *eigen*). I use [crux-xfce](https://crux.nu/portdb/?a=repo&q=crux-xfce)
-and [kde-plasma-6](https://crux.nu/portdb/?a=repo&q=kde-plasma-6) repos for these.
+Main collection of programs and libraries. The port for *viber* uses the
+unversioned tarball provided by upstream, therefore `.signature` and `.footprint` may mismatch. The port for *python3-pybind11* depends on
+*eigen*, found in the [kde-plasma-6](https://crux.nu/portdb/?a=repo&q=kde-plasma-6) repos
 * [ppetrov.httpup](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.httpup)
 * [ppetrov.pub](https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.pub)
 
