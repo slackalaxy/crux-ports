@@ -21,7 +21,6 @@ d:aiksaurus
 d:lalnview
 d:llvm14
 d:mafft
-d:masterpdfeditor4
 d:tcl
 d:mtpaint
 d:mumsa
@@ -79,6 +78,7 @@ d:onlyoffice
 d:bpp1-phyl
 d:bpp1-utils
 d:openvpn
+d:acpid
 d:gnumeric
 d:gtkmm2
 d:kdsingleapplication
@@ -146,8 +146,8 @@ f:37beefe929592e5579a05a86ae4565e0:hexchat/Pkgfile
 f:f7778913c2d27c82fdef4fbff88e98e5:hexchat/.signature
 f:571af2d2a9bbe66781f4cb3dbc9c3356:hexchat/.footprint
 f:ec9f4ab3145591b380dc448893ef039d:hyphy/.footprint
-f:adcfbb8fedc23923f4124125bf281c55:hyphy/.signature
-f:dfd0b861190e1a859ec57606dcc64948:hyphy/Pkgfile
+f:1f733ed103aeddcee3734875355e7d70:hyphy/.signature
+f:53d737b764b8a8bf2ca195597d625d6a:hyphy/Pkgfile
 f:2ddd900d98114ffc56926421b3987a23:aiksaurus/.footprint
 f:6ce522a214c1ee12c06798f9d0cfc39a:aiksaurus/.signature
 f:a784f769ff43ef39c04f35cdb3afb92a:aiksaurus/Pkgfile
@@ -168,9 +168,6 @@ f:e27a4afefc3ee6fe95c69e315254e266:llvm14/.signature
 f:9bc7a9114fb49b644623715bbf5f5911:mafft/.signature
 f:b4deee61b95817dc9b7a11ebcae88aea:mafft/.footprint
 f:d482c26cc57e80623c194a0171e1c373:mafft/Pkgfile
-f:b21ea0020c23ca08d8e154e2b1c3af9f:masterpdfeditor4/.footprint
-f:912c03cad5dcfa4266eeba5cc9ce93c7:masterpdfeditor4/Pkgfile
-f:c5f5e186b47637143c066558eaa1fa6a:masterpdfeditor4/.signature
 f:68b86d6b2748ac2d3400063c1c8c0c78:tcl/.footprint
 f:d00b6f74ce3e16ed3bfd5a626e470aa6:tcl/.signature
 f:80539264980db605336f39c0b95ac413:tcl/Pkgfile
@@ -248,9 +245,9 @@ f:b3ccf02c13ee8cb8b939f2d72e7f7a39:qt6ct/README
 f:4a35bf5d562e923d39b1c5533f7a0da9:qt6gtk2/Pkgfile
 f:313f48c346fad17af51560b60aae70c3:qt6gtk2/.signature
 f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
-f:ef48b09c1345a3a7aa707a293b63bde9:rstudio-desktop/.footprint
-f:5ee5c2d7faa009f1b63d4389fdb5d0cc:rstudio-desktop/.signature
-f:029bcab71d5b5d5ce69a2c534b351ff6:rstudio-desktop/Pkgfile
+f:2759888fdb2b872429f64bf83df210e7:rstudio-desktop/.footprint
+f:0c929c06521ac48364ea2dce00707a57:rstudio-desktop/.signature
+f:5f3c876286fd5627401c6bc83e42eae8:rstudio-desktop/Pkgfile
 f:fd5f8f987131f8e4df29787557bd8d61:rstudio-desktop/rstudio.sh
 f:51c1f9138522d394d55dace5919047ca:seaview/Pkgfile
 f:fe57bed4fa0215e0867b68ef2aef27cf:seaview/.footprint
@@ -382,6 +379,12 @@ f:95a79701570df41a9a662eb0886abd9b:openvpn/.footprint
 f:df2f3a4f6a8842c4e7a7330d6dcc380f:openvpn/.signature
 f:6a74c2faaa9a5209cfcd09317c45f793:openvpn/Pkgfile
 f:6f18342ce04684d2557ecc9f736db8fd:openvpn/README
+f:d5e1b335b6ec29867930ca548a111c24:acpid/.footprint
+f:ca07f5fe55b0386169417b21231c3ab4:acpid/.signature
+f:cb764f2407caf1e8d99fd3e85be4eb84:acpid/Pkgfile
+f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
+f:b6087386db34b86a8163b2a88d1a22d5:acpid/acpid.rc
+f:107052da02d51d3959fc3d1ad502a200:acpid/default
 f:2ef91eed47b019b07d065df3692dd87e:gnumeric/.footprint
 f:74b941d4b5e6a1839d2cc276497b2151:gnumeric/Pkgfile
 f:6a51dd63a8d039a8b552a535533992b0:gnumeric/post-install
