@@ -1,12 +1,12 @@
 # Description: Strawberry music player
 # URL: https://www.strawberrymusicplayer.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: chromaprint fftw gst-plugins-bad gst-plugins-good gst-plugins-ugly kdsingleapplication librsvg pulseaudio
+# Depends on: fftw gst-plugins-bad gst-plugins-good gst-plugins-ugly kdsingleapplication librsvg pulseaudio
 # Optional: krb5 x264 x265
 
 name=strawberry
 version=1.2.14
-release=1
+release=2
 source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
 
 build() {
@@ -22,7 +22,9 @@ build() {
 	-DENABLE_EBUR128=OFF                  \
 	-DENABLE_STREAMTAGREADER=OFF          \
 	-DENABLE_DISCORD_RPC=OFF              \
-	-DENABLE_TRANSLATIONS=OFF \
+	-DENABLE_SONGFINGERPRINTING=OFF       \
+	-DENABLE_TRANSLATIONS=OFF             \
+	-DENABLE_MUSICBRAINZ=OFF              \
         -Wno-dev
 
   cmake --build build

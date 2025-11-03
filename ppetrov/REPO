@@ -272,9 +272,9 @@ f:cbe5dfae1f4bdb459ba28bd41615ac95:squizz/Pkgfile
 f:3a74e3fe95026c5b3834d28bf520830e:sshpass/Pkgfile
 f:72336e5e80622741bcd1c8e9e464846c:sshpass/.signature
 f:7b39087f8e19d9392beeb0b96386cdc2:sshpass/.footprint
-f:214e4d00dbdaced33bf8db081a809e74:strawberry/Pkgfile
+f:40ea2745844803a9ba704e3cd60256df:strawberry/Pkgfile
 f:4f8e3d808a0d0fe6d759e00333190daf:strawberry/.footprint
-f:542d21d81b859c17f32f8aa309b414e8:strawberry/.signature
+f:fae544a882c9978a93c6781585d6ea68:strawberry/.signature
 f:51cad236697075bb36a39979016edf9a:libgsf/.footprint
 f:5b91b0bfbcd26e3dfff11496232f7dbf:libgsf/.signature
 f:3f87fbfcc72f71d3d9d46c197455d157:libgsf/Pkgfile
