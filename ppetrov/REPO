@@ -34,6 +34,7 @@ d:pdflib-lite
 d:phyml
 d:polar-cursor-themes
 d:prank
+d:inkscape-bin
 d:xsimd
 d:qt5ct
 d:bpp1-seq
@@ -211,6 +212,12 @@ f:65a843ac7ca6411e9ea993d146156be1:polar-cursor-themes/.signature
 f:72b7928023cef50e9ad366de6b25732a:prank/Pkgfile
 f:539bed1c5d796de9db1ef4882fb2e443:prank/.footprint
 f:258aa5f952eb5153671d04cbd77e2804:prank/.signature
+f:600accbadae464fb901a9ff7fae14d2b:inkscape-bin/Pkgfile
+f:5b4d911db54d96bdccce1cc5d98185ac:inkscape-bin/inkscape-bin.desktop
+f:56482d1c877a5ae0f11895bbba8d342d:inkscape-bin/inkscape-bin.sh
+f:f188460851a3bf153b370196ba960ef1:inkscape-bin/inkscape-bin.png
+f:29a19c93c1820cde1d12342e9878d7a9:inkscape-bin/.footprint
+f:951567061cfa3f77907c84d8d2be8365:inkscape-bin/.signature
 f:574b02902a3e5ee11ef447d75c07224d:xsimd/.footprint
 f:a3b5d8919fc2a82d7a86cddd1b7beb41:xsimd/.signature
 f:db222089e10222693f056643a08923ab:xsimd/Pkgfile
