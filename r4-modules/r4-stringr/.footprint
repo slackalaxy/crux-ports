@@ -30,6 +30,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/stringr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/stringr/doc/from-base.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/stringr/doc/from-base.html
 -rw-r--r--	root/root	usr/lib/R/library/stringr/doc/index.html
+-rw-r--r--	root/root	usr/lib/R/library/stringr/doc/locale-sensitive.R
+-rw-r--r--	root/root	usr/lib/R/library/stringr/doc/locale-sensitive.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/stringr/doc/locale-sensitive.html
 -rw-r--r--	root/root	usr/lib/R/library/stringr/doc/regular-expressions.R
 -rw-r--r--	root/root	usr/lib/R/library/stringr/doc/regular-expressions.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/stringr/doc/regular-expressions.html

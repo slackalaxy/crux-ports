@@ -27,6 +27,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/purrr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/purrr/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/purrr/doc/other-langs.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/purrr/doc/other-langs.html
+-rw-r--r--	root/root	usr/lib/R/library/purrr/doc/purrr.R
+-rw-r--r--	root/root	usr/lib/R/library/purrr/doc/purrr.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/purrr/doc/purrr.html
 drwxr-xr-x	root/root	usr/lib/R/library/purrr/help/
 -rw-r--r--	root/root	usr/lib/R/library/purrr/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/purrr/help/aliases.rds

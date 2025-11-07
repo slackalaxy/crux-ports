@@ -34,7 +34,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/rbibutils/bib/
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/bib/Cousquer_1991_PCE_e.bib
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/bib/FsinR_Pudil1994.bib
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/bib/Kisung_Rdpack_21.bib
--rw-r--r--	root/root	usr/lib/R/library/rbibutils/bib/Putnam1992.end
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/bib/Rcore.bib
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/bib/Rcore_with_abbr.bib
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/bib/WuertzEtalGarch.bib
