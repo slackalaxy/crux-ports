@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/digest/
+-rw-r--r--	root/root	usr/lib/R/library/digest/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/digest/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/digest/GPL-2
 -rw-r--r--	root/root	usr/lib/R/library/digest/INDEX

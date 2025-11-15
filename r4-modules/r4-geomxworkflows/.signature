@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IKDrZ1iuGiqow57yaWinwjG6D6f+zPl3tOwy4BoCJG69bsyAc6xMRpBiD0/t+l+A9eBqXFAK7ol7orMUTafhAg=
-SHA256 (Pkgfile) = d673fa07bd9e8139ae4ad06d5b29b0df18bf9c6c00463cb92a592d9e616d1200
+RWQ2oTreAss89NsSQ7A5M7NeP/doxGkmfNKxEdOqjHxITFOfgYmHoI1/VGpVmO81BIa98UBCcsin7CA7oewbKr2tBu/XkwNv8QU=
+SHA256 (Pkgfile) = 155324b845bbd77c300a269319cae5a07f2833fcdd6c210a14c66bec1e284234
 SHA256 (.footprint) = 1225a800f283b0192f4dd69775be04be30defd82f3091253ec6009b41fc4de9e
-SHA256 (GeoMxWorkflows_1.14.0.tar.gz) = 4c074da01b325eafcfe7ad8637ea743d3e566f70474632971df6a8a1a8bf06a2
+SHA256 (GeoMxWorkflows_1.16.0.tar.gz) = 16082c717f0901320e6ca5431e1b600c28c9b905b698c402bce1b253ac13a8a6

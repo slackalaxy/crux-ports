@@ -5,9 +5,9 @@
 # Optional: r4-biocstyle r4-biostrings r4-genefilter r4-go-db r4-hgu95av2-db r4-humanchrloc r4-iranges r4-knitr r4-org-hs-eg-db r4-org-mm-eg-db r4-rae230a-db r4-rae230aprobe r4-rgraphviz r4-runit r4-tkwidgets
 
 name=r4-annotate
-version=1.86.1
+version=1.88.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/annotate_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/annotate_${version}.tar.gz)
 
 build() {
 	cd annotate

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AYDyrYBAL/V9HIuB5ek16bZEpqbscCHqK/URi1tBMj4INUxfULFkg7XunKxFezfVmHptZTg4Z+zLfXt8sIhFAg=
-SHA256 (Pkgfile) = 8b9280efee319548b124ecadcd4b9a87d615efdc7a8556b91e15107bce570c25
+RWQ2oTreAss89JQbnzUoYaCRDfiz/7cFCgtalc/FSStyMUkJ+U5NakopN26G/wfPcbJ4auCeaR7JOjl4jUcdF8oc+IOwuSmSVQg=
+SHA256 (Pkgfile) = 62ecd29b07288a399bd442189aca2bd0dbd129e08371529dbf584b460c7da4cc
 SHA256 (.footprint) = a9c790bc0b1514809cd8d9ae9d013f398d4b51f9a29420fedaddd82774d2c492
-SHA256 (GenomeInfoDbData_1.2.14.tar.gz) = 23e2fec59d4d286c5539eb679924fa69092154a0cd36c4947664884895b850d9
+SHA256 (GenomeInfoDbData_1.2.15.tar.gz) = aef012d96075c729ff1b859a6701e220f010c83f4e15d85707fbc3fa1a7a2ad8

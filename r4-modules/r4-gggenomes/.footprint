@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/
+-rw-r--r--	root/root	usr/lib/R/library/gggenomes/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/INDEX
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/LICENSE
@@ -16,6 +17,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/Meta/vignette.rds
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/NAMESPACE
+-rw-r--r--	root/root	usr/lib/R/library/gggenomes/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/R/
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/R/gggenomes
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/R/gggenomes.rdb
@@ -68,9 +70,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/help/
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/help/figures/
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/emales.png
--rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/logo-slack.pdf
--rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/logo-slack.png
--rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/logo-smaller.png
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/logo.svg
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/gggenomes.rdb

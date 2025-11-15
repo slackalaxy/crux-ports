@@ -5,9 +5,9 @@
 # Optional: r4-biocgenerics r4-runit r4-xml
 
 name=r4-rgraphviz
-version=2.52.0
+version=2.54.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/Rgraphviz_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/Rgraphviz_${version}.tar.gz)
 
 build() {
 	cd Rgraphviz

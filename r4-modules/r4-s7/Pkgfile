@@ -5,7 +5,7 @@
 # Optional: r4-bench r4-callr r4-covr r4-knitr r4-rmarkdown r4-testthat r4-tibble
 
 name=r4-s7
-version=0.2.0
+version=0.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/S7_${version}.tar.gz)
 

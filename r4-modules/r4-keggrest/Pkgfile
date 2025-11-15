@@ -5,9 +5,9 @@
 # Optional: r4-biocgenerics r4-biocstyle r4-knitr r4-markdown r4-runit
 
 name=r4-keggrest
-version=1.48.1
+version=1.50.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/KEGGREST_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/KEGGREST_${version}.tar.gz)
 
 build() {
 	cd KEGGREST

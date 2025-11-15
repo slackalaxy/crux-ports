@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89M61Q+PLG/2ObzzvED3p6MkWpl+zVWMM3aGLjzi5qb/92cnflxhA8RmUgC2YGXFk8j/tgN8Cf5TjJkZRPeflyw0=
-SHA256 (Pkgfile) = 9f04c4f755acd5c3b28544bc00cbbb4b178b8989f782a2c42dbe99282064f446
-SHA256 (.footprint) = 554afd570a6bfd66f7705df570327359b3483f5185fdb4593eae09de6752687f
-SHA256 (XVector_0.48.0.tar.gz) = 23a7971041f20734ca3b848cd7225dfbebb86f9952d3c6657db84a50a6409b57
+RWQ2oTreAss89OkA32MtmEAQV7hCinLtmwzIrkK2RPP1zj7xfpqXPKyiMs6pgDS7LT6rC1kZU2AcPq0SeoTD2xjkZmt+1V0J+Ac=
+SHA256 (Pkgfile) = 4b60c5dfa1cc823dc12eac669acdc9ed7f5ca600bd12fc589cac66099d7aaaa8
+SHA256 (.footprint) = 44463db3439ea69cf90cac58b5d34e5b689b35f9b0b9bb584306da76154dacac
+SHA256 (XVector_0.50.0.tar.gz) = c963d04bd4c5c0387c401158408e02a08f1e9051124cae4154045c903c8be390

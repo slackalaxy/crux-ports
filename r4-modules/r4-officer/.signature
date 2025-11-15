@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DOKcJreWX7zHs4AR5lNSvy0EwVCOSliJb8jthB16zZTiNqrGKbpJH4KBiOqFuXpJivvVw7uUVvEDpEAnjQRtAM=
-SHA256 (Pkgfile) = b23e015b7224f6d4cca6706d91facacaf36ddac0faca173d7864761e31ebfd1d
-SHA256 (.footprint) = 330e1112050714d53596a92474980eacb5fd072c088831e6089c9b8f98d309e1
-SHA256 (officer_0.7.0.tar.gz) = baf7a7b880d79ef9769b1b3e013a53ec777ee871d9e148d0ec7eb1a19ed6c8a6
+RWQ2oTreAss89HcLNvZm9l4WVvjm4ZIUVtru5Ia+aArujn5shwNHjwRN+RLHH6NF2z2nsfjRqhxQA8nbS8IICEQf407SZALreg8=
+SHA256 (Pkgfile) = f62d4bd120ec2b34e9b7d61c75aefcf8f75cc91d6976e6d671facc6c9876b387
+SHA256 (.footprint) = 479586b1d79f01a5467b3301315d120b37dd26896a12728b9a7165bdaeb0c95d
+SHA256 (officer_0.7.1.tar.gz) = c4524d02a8063efb536c2d2201d91904714523bba8f480b666517340b3bf2275

@@ -5,9 +5,9 @@
 # Optional: r4-biocstyle r4-knitr r4-matrix r4-rmarkdown r4-rtsne r4-scrnaseq r4-testthat
 
 name=r4-singlecellexperiment
-version=1.30.1
+version=1.32.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/SingleCellExperiment_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/SingleCellExperiment_${version}.tar.gz)
 
 build() {
 	cd SingleCellExperiment

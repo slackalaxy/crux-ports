@@ -5,9 +5,9 @@
 # Optional: r4-biobase r4-biocstyle r4-biomart r4-cowplot r4-delayedmatrixstats r4-densvis r4-knitr r4-rmarkdown r4-robustbase r4-scattermore r4-scrnaseq r4-snifter r4-testthat
 
 name=r4-scater
-version=1.36.0
+version=1.38.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/scater_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/scater_${version}.tar.gz)
 
 build() {
 	cd scater

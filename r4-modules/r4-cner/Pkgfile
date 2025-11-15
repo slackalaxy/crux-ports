@@ -1,23 +1,16 @@
 # Description: R module CNEr
 # URL: https://bioconductor.org/packages/CNEr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-annotate r4-biocgenerics r4-biostrings r4-dbi r4-genomeinfodb r4-genomicalignments r4-genomicranges r4-ggplot2 r4-go-db r4-iranges r4-keggrest r4-powerlaw r4-pwalign r4-r-utils r4-readr r4-reshape2 r4-rsqlite r4-rtracklayer r4-s4vectors r4-xvector
+# Depends on: r r4-annotate r4-biocgenerics r4-biostrings r4-dbi r4-genomeinfodb r4-genomicalignments r4-genomicranges r4-ggplot2 r4-go-db r4-iranges r4-keggrest r4-powerlaw r4-pwalign r4-r-utils r4-readr r4-reshape2 r4-rsqlite r4-rtracklayer r4-s4vectors r4-seqinfo r4-xvector
 # Optional: r4-biocstyle r4-bsgenome-drerio-ucsc-danrer10 r4-bsgenome-ggallus-ucsc-galgal3 r4-bsgenome-hsapiens-ucsc-hg19 r4-bsgenome-hsapiens-ucsc-hg38 r4-gviz r4-knitr r4-rmarkdown r4-testthat r4-txdb-drerio-ucsc-danrer10-refgene
 
 name=r4-cner
-version=1.43.0
+version=1.46.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/CNEr_${version}.tar.gz
-	C23compat.patch Fix_autopkgtest.patch lower_precision.patch)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/CNEr_${version}.tar.gz)
 
 build() {
 	cd CNEr
-	
-	# thanks Debian
-	patch -p1 -i $SRC/C23compat.patch
-	patch -p1 -i $SRC/Fix_autopkgtest.patch
-	patch -p1 -i $SRC/lower_precision.patch
-	
 	mkdir -p $PKG/usr/lib/R/library
 	R CMD INSTALL . -l $PKG/usr/lib/R/library
 }

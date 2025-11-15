@@ -5,9 +5,9 @@
 # Optional: r4-knitr r4-qpdf r4-rmarkdown r4-seurat r4-testthat
 
 name=r4-spatialdecon
-version=1.18.0
+version=1.20.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/SpatialDecon_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/SpatialDecon_${version}.tar.gz)
 
 build() {
 	cd SpatialDecon

@@ -1,11 +1,11 @@
 # Description: R module officer
 # URL: https://cran.r-project.org/web/packages/officer
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-openssl r4-r6 r4-ragg r4-uuid r4-xml2 r4-zip
+# Depends on: r r4-cli r4-dplyr r4-openssl r4-r6 r4-ragg r4-tidyr r4-uuid r4-xml2 r4-zip
 # Optional: r4-devemf r4-doconv r4-gdtools r4-ggplot2 r4-knitr r4-magick r4-rmarkdown r4-rsvg r4-testthat r4-withr
 
 name=r4-officer
-version=0.7.0
+version=0.7.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/officer_${version}.tar.gz)
 

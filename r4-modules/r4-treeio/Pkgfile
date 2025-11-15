@@ -5,9 +5,9 @@
 # Optional: r4-biostrings r4-cli r4-ggplot2 r4-ggtree r4-igraph r4-knitr r4-phangorn r4-prettydoc r4-purrr r4-rmarkdown r4-testthat r4-tidyr r4-vroom r4-xml2 r4-yaml
 
 name=r4-treeio
-version=1.32.0
+version=1.34.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/treeio_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/treeio_${version}.tar.gz)
 
 build() {
 	cd treeio

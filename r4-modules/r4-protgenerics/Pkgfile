@@ -5,9 +5,9 @@
 # Optional: r4-testthat
 
 name=r4-protgenerics
-version=1.40.0
+version=1.42.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/ProtGenerics_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/ProtGenerics_${version}.tar.gz)
 
 build() {
 	cd ProtGenerics

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FnlzAPpQs4Uf67x9cnPvBGBd/uB5w7Ez3f/w14IYw2s+9pF1xaYz5ezevEDI8hSpyGD28iNBjh9Tx8L/plufg0=
-SHA256 (Pkgfile) = 0aeab12f635228960bf8d04cf1c9f6fc3e9f3fec5fca7d6f372b18b6f23cec60
+RWQ2oTreAss89AqfDSQw7vMCCzxZZc6JjSUrNuhigsjIedLQBbRlv60HaJjYMMxiSAyMzGlWIXEYJPJcxquk+uCYveWFzYU6KAY=
+SHA256 (Pkgfile) = 171b1a44405faf3e39c5cf90d90db916bf1c90bf3ab240865e1df6f8e26c1c80
 SHA256 (.footprint) = d787e57d2581d4557c16958e0ee674e5b707e2c387efad6cdbcbb3be5d9f49d1
-SHA256 (DirichletMultinomial_1.50.0.tar.gz) = e8a749e75afc7cd09bbb65409cfca7f455aa9a4c1c25d699366e9a9f6d818c6c
+SHA256 (DirichletMultinomial_1.52.0.tar.gz) = b6490889c0d49c5aaefe1fd4d2449bee686f0de438dc0ab99881a0b8bb592757

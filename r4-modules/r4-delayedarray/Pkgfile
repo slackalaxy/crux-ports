@@ -5,9 +5,9 @@
 # Optional: r4-airway r4-biocparallel r4-biocstyle r4-delayedmatrixstats r4-genefilter r4-hdf5array r4-knitr r4-lobstr r4-rmarkdown r4-runit r4-summarizedexperiment
 
 name=r4-delayedarray
-version=0.34.1
+version=0.36.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/DelayedArray_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/DelayedArray_${version}.tar.gz)
 
 build() {
 	cd DelayedArray

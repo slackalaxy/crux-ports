@@ -5,9 +5,9 @@
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown r4-tinytest
 
 name=r4-biocbaseutils
-version=1.10.0
+version=1.12.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocBaseUtils_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/BiocBaseUtils_${version}.tar.gz)
 
 build() {
 	cd BiocBaseUtils

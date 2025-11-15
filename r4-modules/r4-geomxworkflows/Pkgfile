@@ -5,9 +5,9 @@
 # Optional: r4-knitr r4-rmarkdown
 
 name=r4-geomxworkflows
-version=1.14.0
+version=1.16.0
 release=1
-source=(https://bioconductor.org/packages/3.21/workflows/src/contrib/GeoMxWorkflows_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/workflows/src/contrib/GeoMxWorkflows_${version}.tar.gz)
 
 build() {
 	cd GeoMxWorkflows

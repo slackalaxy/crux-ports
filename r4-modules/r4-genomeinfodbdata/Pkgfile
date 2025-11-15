@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-genomeinfodbdata
-version=1.2.14
+version=1.2.15
 release=1
-source=(https://bioconductor.org/packages/3.21/data/annotation/src/contrib/GenomeInfoDbData_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/data/annotation/src/contrib/GenomeInfoDbData_${version}.tar.gz)
 
 build() {
 	cd GenomeInfoDbData

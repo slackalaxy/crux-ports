@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89O6TZF1+hq36+r5LqqGaKdD2SuGC8chJ4TYnenVM0//Dg1mgIIjL6ndbSmTeaNofOhS/1DOpwtl33aaE+BcTSwk=
-SHA256 (Pkgfile) = f5d0874b1c55ed548eb650242c086752c685146d3621eb6a8b3137b6f0f50fcc
+RWQ2oTreAss89P8HtYp9mBqbmuCa0zajWBAiObN478fyPEVBTf6Vlmwt7GaV76grTjd82a5l485hutTakw+2zJcFitpqQrKk2wc=
+SHA256 (Pkgfile) = bca5140ca9a10eedfe54f9fab9ad2dc5dcf0b21e04b3807d362d62d8e4b6ae28
 SHA256 (.footprint) = b995cd5d432b891788e54f8a58b659585bbce41be745d92de49276cc86effcd8
-SHA256 (BiocGenerics_0.54.1.tar.gz) = 4a3421c5b12e099f23db97d20f4bd7c34d808658ec6bbdc9b44a107395a732a8
+SHA256 (BiocGenerics_0.56.0.tar.gz) = 17795ff63ca767a48df95d2f4c774400c6098102dce9ffcb5db2596a6d9b68e0

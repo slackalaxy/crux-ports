@@ -5,9 +5,9 @@
 # Optional: r4-annotate r4-dbi r4-runit
 
 name=r4-org-hs-eg-db
-version=3.21.0
+version=3.22.0
 release=1
-source=(https://bioconductor.org/packages/3.21/data/annotation/src/contrib/org.Hs.eg.db_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/data/annotation/src/contrib/org.Hs.eg.db_${version}.tar.gz)
 
 build() {
 	cd org.Hs.eg.db

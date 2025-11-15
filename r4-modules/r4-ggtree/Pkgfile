@@ -1,13 +1,13 @@
 # Description: R module ggtree
 # URL: https://bioconductor.org/packages/ggtree
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-ape r4-aplot r4-cli r4-dplyr r4-ggfun r4-ggplot2 r4-magrittr r4-purrr r4-rlang r4-scales r4-tidyr r4-tidytree r4-treeio r4-yulab-utils
-# Optional: r4-emojifont r4-ggimage r4-ggplotify r4-glue r4-knitr r4-prettydoc r4-rmarkdown r4-shadowtext r4-testthat r4-tibble
+# Depends on: r r4-ape r4-aplot r4-cli r4-dplyr r4-ggfun r4-ggiraph r4-ggplot2 r4-magrittr r4-purrr r4-rlang r4-scales r4-tidyr r4-tidytree r4-treeio r4-yulab-utils
+# Optional: r4-biostrings r4-emojifont r4-ggimage r4-ggplotify r4-glue r4-knitr r4-prettydoc r4-rmarkdown r4-shadowtext r4-testthat r4-tibble
 
 name=r4-ggtree
-version=3.16.3
+version=4.0.1
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/ggtree_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/ggtree_${version}.tar.gz)
 
 build() {
 	cd ggtree

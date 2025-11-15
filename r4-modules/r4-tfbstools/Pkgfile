@@ -1,13 +1,13 @@
 # Description: R module TFBSTools
 # URL: https://bioconductor.org/packages/TFBSTools
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-biobase r4-biocgenerics r4-biocparallel r4-biostrings r4-bsgenome r4-catools r4-dbi r4-dirichletmultinomial r4-genomeinfodb r4-genomicranges r4-gtools r4-iranges r4-pwalign r4-rsqlite r4-rtracklayer r4-s4vectors r4-seqlogo r4-tfmpvalue r4-xml r4-xvector
+# Depends on: r r4-biobase r4-biocgenerics r4-biocparallel r4-biostrings r4-bsgenome r4-catools r4-dbi r4-dirichletmultinomial r4-genomicranges r4-gtools r4-iranges r4-pwalign r4-rsqlite r4-rtracklayer r4-s4vectors r4-seqinfo r4-seqlogo r4-tfmpvalue r4-xml r4-xvector
 # Optional: r4-biocstyle r4-jaspar2014 r4-jaspar2016 r4-jaspar2018 r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-tfbstools
-version=1.46.0
+version=1.48.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/TFBSTools_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/TFBSTools_${version}.tar.gz)
 
 build() {
 	cd TFBSTools

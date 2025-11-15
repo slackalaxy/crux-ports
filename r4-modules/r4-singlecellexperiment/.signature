@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89OvyuSVK948SqKHWs8Ymgh4HXkhb6A4K4RBJRBUqHvf6DRPwASqbRU9BEuw9lsccaXIiIN2lh1iLK3DL2LZifA0=
-SHA256 (Pkgfile) = ff76b76700716625ab32acb04a064e54ff8c28c972177de20bd21a1b09662789
+RWQ2oTreAss89B0W/A11ZFK8sTfip4s1g6oHaS0iGeEYLA1x12Kp2f5UWw/8vDpTNekMGVAFgPKzjTJIp/7+tk/rgMv2BpbkHgk=
+SHA256 (Pkgfile) = cbc1a89edf468899d14f3adc610341fd1e900fe5c5d42602e1d76f8567b0d2af
 SHA256 (.footprint) = cddfa2322229aa7e80bf192e231f054c975d7862c91ece1a48c9a90a8667bc50
-SHA256 (SingleCellExperiment_1.30.1.tar.gz) = 731003da51b0cff506a4bbfc672c8f2ce5bc6d4c74106b13d9a092ebedf4d371
+SHA256 (SingleCellExperiment_1.32.0.tar.gz) = e3f908c76246c03f023ef28173e5ff0cd5279bb584065d2b35f43ff8531c1729

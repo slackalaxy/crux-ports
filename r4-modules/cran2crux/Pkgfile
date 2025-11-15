@@ -4,9 +4,9 @@
 # Depends on: r4-biocmanager
 
 name=cran2crux
-version=3053103
+version=444468d
 release=1
-source=(https://github.com/slackalaxy/cran2crux/archive/$version/$name-3053103c7d78a7c7ffc1a3b643d999c29a814a98.tar.gz)
+source=(https://github.com/slackalaxy/cran2crux/archive/$version/$name-444468d2833656378b40c1aed8c60e9077266075.tar.gz)
 
 build() {
 	cd $name-${version}*

@@ -1,11 +1,11 @@
 # Description: R module learnr
 # URL: https://cran.r-project.org/web/packages/learnr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-checkmate r4-digest r4-ellipsis r4-evaluate r4-htmltools r4-htmlwidgets r4-jsonlite r4-knitr r4-lifecycle r4-markdown r4-promises r4-rappdirs r4-renv r4-rlang r4-rmarkdown r4-rprojroot r4-shiny r4-withr
+# Depends on: r r4-checkmate r4-digest r4-evaluate r4-htmltools r4-htmlwidgets r4-jsonlite r4-knitr r4-lifecycle r4-markdown r4-promises r4-rappdirs r4-renv r4-rlang r4-rmarkdown r4-rprojroot r4-shiny r4-withr
 # Optional: r4-bslib r4-callr r4-curl r4-dbi r4-httpuv r4-later r4-reticulate r4-rsqlite r4-rstudioapi r4-shinytest2 r4-sortable r4-testthat
 
 name=r4-learnr
-version=0.11.5
+version=0.11.6
 release=1
 source=(https://cloud.r-project.org/src/contrib/learnr_${version}.tar.gz)
 

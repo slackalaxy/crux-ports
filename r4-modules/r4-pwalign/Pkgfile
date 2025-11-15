@@ -5,9 +5,9 @@
 # Optional: r4-runit
 
 name=r4-pwalign
-version=1.4.0
+version=1.6.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/pwalign_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/pwalign_${version}.tar.gz)
 
 build() {
 	cd pwalign

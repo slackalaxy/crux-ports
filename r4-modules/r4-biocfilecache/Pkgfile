@@ -1,13 +1,13 @@
 # Description: R module BiocFileCache
 # URL: https://bioconductor.org/packages/BiocFileCache
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-curl r4-dbi r4-dbplyr r4-dplyr r4-filelock r4-httr r4-rsqlite
+# Depends on: r r4-curl r4-dbi r4-dbplyr r4-dplyr r4-filelock r4-httr2 r4-rsqlite
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown r4-rtracklayer r4-testthat
 
 name=r4-biocfilecache
-version=2.16.2
+version=3.0.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocFileCache_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/BiocFileCache_${version}.tar.gz)
 
 build() {
 	cd BiocFileCache

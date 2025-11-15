@@ -33,6 +33,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/biomaRt/help/
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/help/aliases.rds
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/help/biomaRt.rdb
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/help/biomaRt.rdx
+drwxr-xr-x	root/root	usr/lib/R/library/biomaRt/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/biomaRt/help/figures/logo.png
+-rw-r--r--	root/root	usr/lib/R/library/biomaRt/help/figures/logo.svg
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/help/paths.rds
 drwxr-xr-x	root/root	usr/lib/R/library/biomaRt/html/
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/html/00Index.html

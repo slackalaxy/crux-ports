@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NSvjgQU/pq9GiyRvli+EtKgmlKvQrRsz/N+L6AhOl+IObPbETmCUoeldxZGWxYg9g1ZcaBk+rCMadcWB9AbPgE=
-SHA256 (Pkgfile) = 83e2db25190fccffbc543ee06f1e2e739100b7d8c2a540145005e9ef7785c0d9
+RWQ2oTreAss89OA1Woo3jWF5e77GSBPN2MdT+T3Fg0MHTSKJ5F3WYDNM8Axnt6vdYEkFcCZvzx87PfZCMPbg83lBX0tWpd95IAU=
+SHA256 (Pkgfile) = 4c6ff17da238e6c7136693db2ed8773996a7c8c23975a7abc514771d9f49fe2b
 SHA256 (.footprint) = 9c60c2d60e110d69f78eb4f29bbdc18a85d8a58bed210ed6de386f75d627da14
-SHA256 (glmGamPoi_1.20.0.tar.gz) = bd3e78408d65cb8ed7a046402e30de4c08f6db7a20b5a5626127d23a2485dc55
+SHA256 (glmGamPoi_1.22.0.tar.gz) = 3fb810f55964e14e11107630e3ed1c79bd5dcd84af8a081f1dcbfa4394f13ac5

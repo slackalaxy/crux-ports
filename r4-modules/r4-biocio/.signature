@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DX2XXxsRgzieJ6I0erNCZrW18tyU2VmA2hvlTZDo/0h0+dq4ZqkS4TYGQVK3V1psJWxtqufrGqKasc/Ao2Qegs=
-SHA256 (Pkgfile) = e2a93ae684e47ef6231bb9068d1a2be2df9b7a830b16804aa7e7a8fc2193559f
+RWQ2oTreAss89FIbqIRnIKEpgSUIqWr+usjFw8qR7RHVImENfAn3TGBoIxAdlAzy1f5Gm+4Yuyy19Ql9THj3KeLaH5KS+cdfew4=
+SHA256 (Pkgfile) = 59b4f0b85efd924cd65de7c252eb4363e0aa10ed17115bb762ea3d45fab54d4a
 SHA256 (.footprint) = 91b4b5566a1126e38e2dab76227fbc6938582f74ecf4b0b86d5689eeadd052c5
-SHA256 (BiocIO_1.18.0.tar.gz) = 3a377d8ebc135f928ba73e487a14866e436b42fcab7e68dd8b198310f8ef5b6a
+SHA256 (BiocIO_1.20.0.tar.gz) = 8177843b09d17fa2ecb155d01af8229531e92799cd169726c28c3aa47143cd8b

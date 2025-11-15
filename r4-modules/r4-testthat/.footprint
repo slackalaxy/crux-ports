@@ -22,10 +22,16 @@ drwxr-xr-x	root/root	usr/lib/R/library/testthat/R/
 -rw-r--r--	root/root	usr/lib/R/library/testthat/R/testthat.rdb
 -rw-r--r--	root/root	usr/lib/R/library/testthat/R/testthat.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/testthat/doc/
+-rw-r--r--	root/root	usr/lib/R/library/testthat/doc/challenging-tests.R
+-rw-r--r--	root/root	usr/lib/R/library/testthat/doc/challenging-tests.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/testthat/doc/challenging-tests.html
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/custom-expectation.R
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/custom-expectation.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/custom-expectation.html
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/index.html
+-rw-r--r--	root/root	usr/lib/R/library/testthat/doc/mocking.R
+-rw-r--r--	root/root	usr/lib/R/library/testthat/doc/mocking.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/testthat/doc/mocking.html
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/parallel.R
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/parallel.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/parallel.html

@@ -5,9 +5,9 @@
 # Optional: r4-biostrings r4-drosophila2probe r4-runit
 
 name=r4-xvector
-version=0.48.0
+version=0.50.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/XVector_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/XVector_${version}.tar.gz)
 
 build() {
 	cd XVector

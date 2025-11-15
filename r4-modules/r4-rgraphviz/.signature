@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89CqjN/Beg+1fSQQkdaLi9SlI331lDw4pn/lAaKuQEAM9MK3qt0KzUEtqAqHzlksKnZniKJypQqvbiiMfcNUlRQA=
-SHA256 (Pkgfile) = 0a564835c06aa531fc74d81a41a60e88164986e0ed555670ad79f1fccd24f451
+RWQ2oTreAss89FH1VWSvJw7Ivhg3bvrCOFXiD3afsAklp1nMAgK5oJMFXXRxeV2t2z2eLyQgahxgFWjKPigFeP+w3Xq+x5kPKwI=
+SHA256 (Pkgfile) = 4795a1e263de6ed762a970107ceaa62b4a679e526f98a14e0a41bdb880ffd435
 SHA256 (.footprint) = cd1f0e0b9513f2fc10ddeb033f29f14194ca2394fc2d90d535af056597a2c116
-SHA256 (Rgraphviz_2.52.0.tar.gz) = 5fb51037c66ff0c539906167c0082bb4da41d39d0add161d4533efaf48bc8a91
+SHA256 (Rgraphviz_2.54.0.tar.gz) = f9a2d0c0f3cf45d5473413c2ad57b69ece9e6c3957da0626375369c76d495b56

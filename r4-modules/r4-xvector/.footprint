@@ -33,5 +33,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/XVector/include/
 drwxr-xr-x	root/root	usr/lib/R/library/XVector/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/XVector/libs/XVector.so
 drwxr-xr-x	root/root	usr/lib/R/library/XVector/unitTests/
+-rw-r--r--	root/root	usr/lib/R/library/XVector/unitTests/test_XDoubleViews-class.R
+-rw-r--r--	root/root	usr/lib/R/library/XVector/unitTests/test_XIntegerViews-class.R
 -rw-r--r--	root/root	usr/lib/R/library/XVector/unitTests/test_slice-methods.R
 -rw-r--r--	root/root	usr/lib/R/library/XVector/unitTests/test_view-summarization-methods.R

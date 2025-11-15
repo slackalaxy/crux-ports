@@ -5,9 +5,9 @@
 # Optional: r4-biocstyle r4-dt r4-knitr r4-lattice r4-mass r4-rcolorbrewer r4-rmarkdown
 
 name=r4-dirichletmultinomial
-version=1.50.0
+version=1.52.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/DirichletMultinomial_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/DirichletMultinomial_${version}.tar.gz)
 
 build() {
 	cd DirichletMultinomial

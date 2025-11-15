@@ -5,9 +5,9 @@
 # Optional: r4-biocgenerics r4-htmltools r4-runit
 
 name=r4-biocstyle
-version=2.36.0
+version=2.38.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/BiocStyle_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/BiocStyle_${version}.tar.gz)
 
 build() {
 	cd BiocStyle

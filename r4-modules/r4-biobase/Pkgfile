@@ -5,9 +5,9 @@
 # Optional: r4-all r4-biocstyle r4-golubesets r4-knitr r4-limma r4-runit r4-tkwidgets
 
 name=r4-biobase
-version=2.68.0
+version=2.70.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/Biobase_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/Biobase_${version}.tar.gz)
 
 build() {
 	cd Biobase

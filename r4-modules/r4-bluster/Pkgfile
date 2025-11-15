@@ -5,9 +5,9 @@
 # Optional: r4-apcluster r4-biocstyle r4-dirichletmultinomial r4-dynamictreecut r4-fastcluster r4-knitr r4-kohonen r4-mbkmeans r4-pheatmap r4-rmarkdown r4-scater r4-scran r4-scrnaseq r4-scuttle r4-testthat r4-vegan r4-viridis
 
 name=r4-bluster
-version=1.18.0
+version=1.20.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/bluster_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/bluster_${version}.tar.gz)
 
 build() {
 	cd bluster

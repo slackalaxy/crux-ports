@@ -1,13 +1,13 @@
 # Description: R module BSgenome
 # URL: https://bioconductor.org/packages/BSgenome
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-biocgenerics r4-biocio r4-biostrings r4-genomeinfodb r4-genomicranges r4-iranges r4-matrixstats r4-rsamtools r4-rtracklayer r4-s4vectors r4-xvector
-# Optional: r4-biocmanager r4-bsgenome-celegans-ucsc-ce2 r4-bsgenome-hsapiens-ncbi-grch38 r4-bsgenome-hsapiens-ucsc-hg38 r4-bsgenome-hsapiens-ucsc-hg38-masked r4-bsgenome-mmusculus-ucsc-mm10 r4-bsgenome-rnorvegicus-ucsc-rn5 r4-bsgenome-scerevisiae-ucsc-saccer1 r4-bsgenomeforge r4-hgu95av2probe r4-runit r4-snplocs-hsapiens-dbsnp144-grch38 r4-txdb-hsapiens-ucsc-hg38-knowngene r4-txdb-mmusculus-ucsc-mm10-knowngene r4-xtrasnplocs-hsapiens-dbsnp144-grch38
+# Depends on: r r4-biocgenerics r4-biocio r4-biostrings r4-genomicranges r4-iranges r4-matrixstats r4-rsamtools r4-rtracklayer r4-s4vectors r4-seqinfo r4-xvector
+# Optional: r4-biocmanager r4-bsgenome-celegans-ucsc-ce2 r4-bsgenome-hsapiens-ncbi-grch38 r4-bsgenome-hsapiens-ucsc-hg38 r4-bsgenome-hsapiens-ucsc-hg38-masked r4-bsgenome-mmusculus-ucsc-mm10 r4-bsgenome-rnorvegicus-ucsc-rn5 r4-bsgenome-scerevisiae-ucsc-saccer1 r4-bsgenomeforge r4-genomeinfodb r4-hgu95av2probe r4-runit r4-snplocs-hsapiens-dbsnp144-grch38 r4-txdb-hsapiens-ucsc-hg38-knowngene r4-txdb-mmusculus-ucsc-mm10-knowngene r4-xtrasnplocs-hsapiens-dbsnp144-grch38
 
 name=r4-bsgenome
-version=1.76.0
+version=1.78.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/BSgenome_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/BSgenome_${version}.tar.gz)
 
 build() {
 	cd BSgenome

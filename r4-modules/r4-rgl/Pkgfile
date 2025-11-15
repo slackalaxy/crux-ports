@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/rgl
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-base64enc r4-htmltools r4-htmlwidgets r4-jsonlite r4-knitr r4-magrittr r4-mime r4-r6
-# Optional: r4-alphashape3d r4-chromote r4-crosstalk r4-deldir r4-downlit r4-extrafont r4-interp r4-jpeg r4-js r4-lattice r4-magick r4-manipulatewidget r4-markdown r4-mass r4-misc3d r4-orientlib r4-pkgdown r4-plotrix r4-png r4-rmarkdown r4-shiny r4-testthat r4-tripack r4-v8 r4-webshot2
+# Optional: r4-alphashape3d r4-chromote r4-crosstalk r4-deldir r4-downlit r4-extrafont r4-interp r4-jpeg r4-js r4-lattice r4-magick r4-manipulatewidget r4-markdown r4-mass r4-misc3d r4-orientlib r4-pkgdown r4-plotrix r4-png r4-rmarkdown r4-shiny r4-testthat r4-v8 r4-webshot2 r4-xdvir
 
 name=r4-rgl
-version=1.3.24
+version=1.3.31
 release=1
 source=(https://cloud.r-project.org/src/contrib/rgl_${version}.tar.gz)
 

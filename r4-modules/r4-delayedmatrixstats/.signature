@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GnvKBX7e+4R0mIAKr8Sm15HrTxMFnluJXB4oAHdhLm238GVOFvEapgdA9pk7X8VMv3jlJDG2Jdi//JdFzcWdQk=
-SHA256 (Pkgfile) = 637cc9c5f4c3dbe7bbb7da489eb23e91cc9393da5087c90ce74f671cc98bf747
+RWQ2oTreAss89H4cw481ir/S39o8JZng0wgd8TEh1BX4mujJMF5wXYPsUR25FQIRFszuI4J4J2qWSmucqWLmd/FhKH9u+W/MQg0=
+SHA256 (Pkgfile) = 40bf618a5fb2bb4a6f8f33a4a5de174b01b21b7a9693ddfb8c56d0f0ea177675
 SHA256 (.footprint) = 88a0aa13ba22de1acba88e0b202ea3b025d7dafdf0b0943c9ef1767242917481
-SHA256 (DelayedMatrixStats_1.30.0.tar.gz) = 571b396b0c5cf78e23a8ffe403777b34dab8639b193479051727ac960ba68e57
+SHA256 (DelayedMatrixStats_1.32.0.tar.gz) = 452ddf31eeb0bf92738566f22dd6719799347e07376bbc7c1024854ad14df779

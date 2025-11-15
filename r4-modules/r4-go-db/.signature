@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DJck1xlDCXU/oUrAKouvn6C8fsQbkZ4a7x+cRXaMJudFi6On2hL6B2r4VKrKX1/d2+Z6UJ99A/pZ+E7DadcUQA=
-SHA256 (Pkgfile) = f59c15d05031deb019f4404bf844a54f87d23c57e12c5f5c8f52bed3c75d7366
+RWQ2oTreAss89MFEBz9crNyLsRGhVEw6wwI4TEyf4W/1wVaOMkurzWya1s0Mmgqgr+px0+YsQ5QQ0EeYplfS5fh4NwMYQZyG0Aw=
+SHA256 (Pkgfile) = 7ab3d3919c6acb5441a20175fb3d15e126329938b3639317cca3c34f8d1bb6d8
 SHA256 (.footprint) = b7f0d025b245f25aaaa8b479e278815f5c9a7cc50487d2e085f936679e255ffa
-SHA256 (GO.db_3.21.0.tar.gz) = 77e9e35350924fee8a096de94833c4cd25b2b997c3062c5b5f9c1070f1d7a054
+SHA256 (GO.db_3.22.0.tar.gz) = aec6fae909caaa323fde5cba15aedfc8a63ddfa3b47b0381550834c162a03ed2

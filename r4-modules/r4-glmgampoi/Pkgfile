@@ -5,9 +5,9 @@
 # Optional: r4-bench r4-biocparallel r4-biocstyle r4-deseq2 r4-dplyr r4-edger r4-ggplot2 r4-knitr r4-limma r4-mass r4-muscdata r4-rmarkdown r4-scran r4-statmod r4-tenxpbmcdata r4-testthat r4-zoo
 
 name=r4-glmgampoi
-version=1.20.0
+version=1.22.0
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/glmGamPoi_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/glmGamPoi_${version}.tar.gz)
 
 build() {
 	cd glmGamPoi

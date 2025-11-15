@@ -51,7 +51,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomicAlignments/libs/
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicAlignments/unitTests/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/unitTests/test_GAlignments-class.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/unitTests/test_GAlignmentsList-class.R
--rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/unitTests/test_cigar-utils.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/unitTests/test_coordinate-mapping-methods.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/unitTests/test_findSpliceOverlaps-methods.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/unitTests/test_intra-range-methods.R
