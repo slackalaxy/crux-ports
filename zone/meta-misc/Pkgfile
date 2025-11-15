@@ -1,7 +1,7 @@
 # Description: Dummy port for misc stuff
 # URL: /usr/ports
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: atril gimp htop inkscape mate-calc meld ncdu transmission-gtk
+# Depends on: alsa-plugins atril gimp htop inkscape mate-calc meld ncdu transmission-gtk
 
 name=meta-misc
 version=3.8
