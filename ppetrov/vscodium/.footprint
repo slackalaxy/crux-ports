@@ -137,6 +137,12 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/docker/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/docker/package.nls.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/docker/syntaxes/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/docker/syntaxes/docker.tmLanguage.json
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/dotenv/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/dotenv/language-configuration.json
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/dotenv/package.json
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/dotenv/package.nls.json
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/dotenv/syntaxes/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/dotenv/syntaxes/dotenv.tmLanguage.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/emmet/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/emmet/dist/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/emmet/dist/node/
@@ -370,7 +376,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/json-language-fea
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/774.jsonServerMain.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/875.jsonServerMain.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/962.jsonServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/package.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/json/
@@ -1338,6 +1344,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/iconv-l
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/iconv-lite-umd/LICENSE
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/iconv-lite-umd/lib/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/iconv-lite-umd/lib/iconv-lite-umd.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/iconv-lite-umd/lib/iconv-lite-umd.js.LICENSE.txt
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/iconv-lite-umd/package.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/proxy-agent/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/proxy-agent/LICENSE.md
@@ -1398,8 +1405,10 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-si
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/cgmanifest.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/package.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/
+-rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-bash.wasm
 -rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-css.wasm
 -rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-ini.wasm
+-rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-powershell.wasm
 -rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-regex.wasm
 -rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter-typescript.wasm
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/tree-sitter-wasm/wasm/tree-sitter.js
