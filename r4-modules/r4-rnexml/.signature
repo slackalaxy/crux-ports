@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89KGAO6B8kvsl2+znhgOdUxaIgtPK6ugR3Q2E65KK4MpC/uTrbk/fgOdBifmpVXyRkhbFhtOPMJ8S/FuRInHPoAM=
+SHA256 (Pkgfile) = c4b6e024fc130c8873667c90f41d803475a0552439077b7bbb16b025a8341cc0
+SHA256 (.footprint) = 593010f65dcb180f7c808068c4fe07787916b1d5e67fc57f29811596d7942f93
+SHA256 (RNeXML_2.4.11.tar.gz) = 246913cbb0e816401bb8e37dda20646202547f5cc8379c9dadf832f61d6cfd46

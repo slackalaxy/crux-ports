@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-rmarkdown r4-unitizer
 
 name=r4-fansi
-version=1.0.6
+version=1.0.7
 release=1
 source=(https://cloud.r-project.org/src/contrib/fansi_${version}.tar.gz)
 

@@ -3,7 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/selectr/
--rw-r--r--	root/root	usr/lib/R/library/selectr/CITATION
+-rwxr-xr-x	root/root	usr/lib/R/library/selectr/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/selectr/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/selectr/INDEX
 -rw-r--r--	root/root	usr/lib/R/library/selectr/LICENCE
@@ -15,7 +15,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/selectr/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/selectr/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/selectr/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/selectr/NAMESPACE
--rw-r--r--	root/root	usr/lib/R/library/selectr/NEWS.Rd
+-rwxr-xr-x	root/root	usr/lib/R/library/selectr/NEWS.Rd
 drwxr-xr-x	root/root	usr/lib/R/library/selectr/R/
 -rw-r--r--	root/root	usr/lib/R/library/selectr/R/selectr
 -rw-r--r--	root/root	usr/lib/R/library/selectr/R/selectr.rdb

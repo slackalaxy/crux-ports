@@ -5,7 +5,7 @@
 # Optional: r4-rstudioapi r4-testit
 
 name=r4-tinytex
-version=0.57
+version=0.58
 release=1
 source=(https://cloud.r-project.org/src/contrib/tinytex_${version}.tar.gz)
 

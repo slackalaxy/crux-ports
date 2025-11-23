@@ -288,6 +288,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/current/armadillo_b
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/current/armadillo_bits/fn_qr.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/current/armadillo_bits/fn_quantile.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/current/armadillo_bits/fn_qz.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/current/armadillo_bits/fn_rande.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/current/armadillo_bits/fn_randg.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/current/armadillo_bits/fn_randi.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/current/armadillo_bits/fn_randn.hpp

@@ -5,7 +5,7 @@
 # Optional: r4-annotationdbi r4-clusterprofiler r4-dplyr r4-europepmc r4-ggarchery r4-ggforce r4-gghoriplot r4-ggplotify r4-ggridges r4-ggstar r4-ggtreeextra r4-ggupset r4-glue r4-gridextra r4-knitr r4-org-hs-eg-db r4-prettydoc r4-rmarkdown r4-scales r4-tibble r4-tidydr r4-tidyr
 
 name=r4-enrichplot
-version=1.30.2
+version=1.30.3
 release=1
 source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/enrichplot_${version}.tar.gz)
 

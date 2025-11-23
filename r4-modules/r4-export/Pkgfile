@@ -1,0 +1,16 @@
+# Description: R module export
+# URL: https://cran.r-project.org/web/packages/export
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-broom r4-devemf r4-flextable r4-officer r4-openxlsx r4-rvg r4-stargazer r4-xml2 r4-xtable
+# Optional: r4-ggplot2 r4-rgl
+
+name=r4-export
+version=0.3.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/export_${version}.tar.gz)
+
+build() {
+	cd export
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
