@@ -4,9 +4,9 @@
 # Depends on: prt-get prt-utils
 
 name=prt-supplements
-version=ddf14e1
+version=d559715
 release=1
-source=(https://github.com/slackalaxy/depsck/archive/$version/$name-ddf14e117b696cf206922fe5b43844e929ea714d.tar.gz)
+source=(https://github.com/slackalaxy/depsck/archive/$version/$name-d55971575f985c8f5bff5396bf87f68cb1c76c55.tar.gz)
 
 build() {
 	cd $name-${version}*
