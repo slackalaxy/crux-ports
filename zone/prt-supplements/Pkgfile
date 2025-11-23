@@ -4,9 +4,9 @@
 # Depends on: prt-get prt-utils
 
 name=prt-supplements
-version=bfc2e74
+version=ddf14e1
 release=1
-source=(https://github.com/slackalaxy/depsck/archive/$version/$name-bfc2e74b3911ea9d01ab8d25d175201d93d85552.tar.gz)
+source=(https://github.com/slackalaxy/depsck/archive/$version/$name-ddf14e117b696cf206922fe5b43844e929ea714d.tar.gz)
 
 build() {
 	cd $name-${version}*
@@ -17,6 +17,7 @@ build() {
 	install -m 0755 prtskim $PKG/usr/bin
 	install -m 0755 missdeps $PKG/usr/bin
 	install -m 0755 revlib $PKG/usr/bin
+	install -m 0755 lsopt $PKG/usr/bin
 	
 	mkdir -p $PKG/usr/share/man/man1
 	install -m 0644 man1/finddepsrow.1 $PKG/usr/share/man/man1
@@ -24,4 +25,5 @@ build() {
 	install -m 0644 man1/prtskim.1 $PKG/usr/share/man/man1
 	install -m 0644 man1/missdeps.1 $PKG/usr/share/man/man1
 	install -m 0644 man1/revlib.1 $PKG/usr/share/man/man1
+	install -m 0644 man1/lsopt.1 $PKG/usr/share/man/man1
 }
