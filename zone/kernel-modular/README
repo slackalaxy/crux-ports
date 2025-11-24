@@ -1,6 +1,14 @@
 This packages a Linux kernel/modules for CRUX 3.8. The build uses a
-slightly modified config file from Slackware and downloads the source
-from https://kernel.org/
+slightly modified config file from Slackware, namely:
+
+Library routines --->
+  [ ]   Select compiled-in fonts
+
+Device Drivers --->
+  Graphics support --->
+    [ ]   Bootup logo ----
+
+Source is downloaded from https://kernel.org/
 
 Nothe that only the kernel and modules are shipped, the sources are left
 out. "-m" is used as local version for kernel and modules.
@@ -8,10 +16,17 @@ out. "-m" is used as local version for kernel and modules.
 Inspect the config if you want to make any modifications and if your
 filesystem is supported. At a glance, these are built into the kernel:
 
-	EXT4
-	XFS
-	BTRFS
+File systems --->
+  <*> The Extended 4 (ext4) filesystem
+  [*]   Use ext4 for ext2 file systems
+  [*]   Ext4 Security Labels
 
+  <*> XFS filesystem support
+  [*]   Support deprecated V4 (crc=0) format
+  [*]   Support deprecated case-insensitive ascii (ascii-ci=1) format
+  [*]   XFS Quota support
+  [*]   XFS POSIX ACL support 
+  
 It is up to you to create a symlink for System.map:
 
 	/boot/System.map -> /boot/System.map-6.12.25-m
@@ -19,7 +34,6 @@ It is up to you to create a symlink for System.map:
 Same goes for the krenel itself (disputed if needed):
 	
 	/usr/src/linux-6.12.25-m/ -> /usr/src/linux
-
 
 
 Don't forget to update Grub config, e.g.:
@@ -46,4 +60,3 @@ to overwrite, eg., /dev/sda for the first SATA disk. Run:
 grub-mkconfig's output can be altered by setting variables in:
 
   /etc/default/grub
-
