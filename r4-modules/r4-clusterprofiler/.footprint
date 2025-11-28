@@ -28,9 +28,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/clusterProfiler/data/
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/data/kegg_category.rda
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/data/kegg_species.rda
 drwxr-xr-x	root/root	usr/lib/R/library/clusterProfiler/doc/
--rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/doc/clusterProfiler.R
--rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/doc/clusterProfiler.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/doc/clusterProfiler.html
+-rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/doc/clusterProfiler.qmd
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/doc/index.html
 drwxr-xr-x	root/root	usr/lib/R/library/clusterProfiler/extdata/
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/extdata/build_kegg_species.R

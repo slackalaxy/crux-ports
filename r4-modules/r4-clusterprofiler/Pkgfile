@@ -2,10 +2,10 @@
 # URL: https://bioconductor.org/packages/clusterProfiler
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-annotationdbi r4-dose r4-dplyr r4-enrichplot r4-go-db r4-gosemsim r4-gson r4-httr r4-igraph r4-magrittr r4-plyr r4-qvalue r4-rlang r4-tidyr r4-yulab-utils
-# Optional: r4-annotationhub r4-biocmanager r4-jsonlite r4-knitr r4-org-hs-eg-db r4-prettydoc r4-readr r4-rmarkdown r4-testthat
+# Optional: r4-annotationhub r4-biocmanager r4-jsonlite r4-org-hs-eg-db r4-quarto r4-readr r4-testthat
 
 name=r4-clusterprofiler
-version=4.18.1
+version=4.18.2
 release=1
 source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/clusterProfiler_${version}.tar.gz)
 

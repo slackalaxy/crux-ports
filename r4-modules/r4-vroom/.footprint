@@ -65,7 +65,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/all_numeric-wide/
 -rw-r--r--	root/root	usr/lib/R/library/vroom/bench/all_numeric-wide/vroom-dplyr.R
 -rw-r--r--	root/root	usr/lib/R/library/vroom/bench/all_numeric-wide/vroom_no_altrep-base.R
 -rw-r--r--	root/root	usr/lib/R/library/vroom/bench/all_numeric-wide/vroom_no_altrep-dplyr.R
--rwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/download-data.sh
+-rw-r--r--	root/root	usr/lib/R/library/vroom/bench/download-data.sh
 -rw-r--r--	root/root	usr/lib/R/library/vroom/bench/fwf.tsv
 drwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/fwf/
 -rw-r--r--	root/root	usr/lib/R/library/vroom/bench/fwf/read.delim-base.R
@@ -75,7 +75,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/fwf/
 -rw-r--r--	root/root	usr/lib/R/library/vroom/bench/fwf/vroom_no_altrep-dplyr.R
 -rwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/run-bench-fwf.R
 -rwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/run-bench.R
--rwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/script.sh
+-rw-r--r--	root/root	usr/lib/R/library/vroom/bench/script.sh
 -rwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/session_info.R
 -rw-r--r--	root/root	usr/lib/R/library/vroom/bench/session_info.tsv
 -rwxr-xr-x	root/root	usr/lib/R/library/vroom/bench/summarise-benchmarks.R
