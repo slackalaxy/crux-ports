@@ -4,9 +4,9 @@
 # Depends on: gtk3 lcms2 libwebp xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=mtpaint
-version=7cae5d6
+version=a50460b
 release=1
-source=(https://github.com/wjaguar/mtPaint/archive/$version/$name-7cae5d663ed835a365d89a535536c39e18862a83.tar.gz)
+source=(https://github.com/wjaguar/mtPaint/archive/$version/$name-a50460bacadfc522705648c1367541974c5d109d.tar.gz)
 
 build() {
 	cd mtPaint-${version}*
