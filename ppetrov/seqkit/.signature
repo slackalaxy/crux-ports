@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZUm4+AmLyTw9sYAoI0EAIoNzU2EC+UBmPLDgOv1YjXJr3nxigrBW5KYHyLDiLD9yzlgSrGQsWxxwVCmgtC+7XAc=
-SHA256 (Pkgfile) = 81942658591cc60c6e3625ca24a01a463d058af3fe9f1a7134cf6fa7dafbe386
+RWToVVsIkzFIZZEaS4ek4b/bdwnQCitlxc6BPWiX4PHklaWK+Ob/JlZj6rIRsnz5aitONd7l/MsXu0Ei2wvh+SXFqO/dn8CRGAo=
+SHA256 (Pkgfile) = a099c26c28a1dc4601a323b8b3d721a964d61f72b5161d74290601f4eea65da5
 SHA256 (.footprint) = 780445ccdee226cd1bb48293c27777f28e91bc27d4077677bf2c2586a2dd1719
-SHA256 (seqkit-2.11.0.tar.gz) = e92064bc3e6f7a14dfc5c3548df23b9ce02c52c38f0510d65accdca71f376a46
+SHA256 (seqkit-2.12.0.tar.gz) = 25d10e81c22baac6e279e9d46545e862d1758e6effabf6464819c9a429df4493
