@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89BpnhV9Ao8hIocgP1xu/0QUi3WdSC2z+XQWaKwWxh5HzLxwuAj1WTbYc/hMmrWDOf1GeeKSWFizv9JeDKjCtkA8=
+SHA256 (Pkgfile) = acbbd9f9f2faeb93af336298272f25c9980c7574b6c909593e07b2308041855b
+SHA256 (.footprint) = ed44fb8b2e66153edb693387599597ff80ceff33056eaa20458e6d00977c2e8e
+SHA256 (xts_0.14.1.tar.gz) = 5da96bb32f80744cc9a1893d1ae1f3de4c6750dfe8eb2ea38f39e4e75b397f4f

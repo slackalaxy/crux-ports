@@ -1,0 +1,16 @@
+# Description: R module fracdiff
+# URL: https://cran.r-project.org/web/packages/fracdiff
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-forecast r4-longmemo r4-urca
+
+name=r4-fracdiff
+version=1.5.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/fracdiff_1.5-3.tar.gz)
+
+build() {
+	cd fracdiff
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

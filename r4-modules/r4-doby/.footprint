@@ -30,12 +30,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/doBy/doc/
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/doby.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/doby.html
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/index.html
--rw-r--r--	root/root	usr/lib/R/library/doBy/doc/linest_lsmeans.R
--rw-r--r--	root/root	usr/lib/R/library/doBy/doc/linest_lsmeans.Rnw
--rw-r--r--	root/root	usr/lib/R/library/doBy/doc/linest_lsmeans.pdf
--rw-r--r--	root/root	usr/lib/R/library/doBy/doc/section_fun.R
--rw-r--r--	root/root	usr/lib/R/library/doBy/doc/section_fun.Rmd
--rw-r--r--	root/root	usr/lib/R/library/doBy/doc/section_fun.html
+-rw-r--r--	root/root	usr/lib/R/library/doBy/doc/pipe_arithmetic.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/doBy/doc/pipe_arithmetic.html
+-rw-r--r--	root/root	usr/lib/R/library/doBy/doc/sectioning_fun.R
+-rw-r--r--	root/root	usr/lib/R/library/doBy/doc/sectioning_fun.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/doBy/doc/sectioning_fun.html
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/vtools.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/doBy/doc/vtools.html
 drwxr-xr-x	root/root	usr/lib/R/library/doBy/help/

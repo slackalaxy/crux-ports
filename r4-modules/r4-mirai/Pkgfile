@@ -5,7 +5,7 @@
 # Optional: r4-cli r4-litedown r4-otel r4-otelsdk
 
 name=r4-mirai
-version=2.5.2
+version=2.5.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/mirai_${version}.tar.gz)
 

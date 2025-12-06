@@ -5,7 +5,7 @@
 # Optional: r4-gridextra
 
 name=r4-ggbeeswarm
-version=0.7.2
+version=0.7.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggbeeswarm_${version}.tar.gz)
 

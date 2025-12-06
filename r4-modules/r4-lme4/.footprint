@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/R/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/R/lme4.rdx
 -rw-r--r--	root/root	usr/lib/R/library/lme4/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/lme4/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/lme4/REFERENCES.bib
 drwxr-xr-x	root/root	usr/lib/R/library/lme4/data/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/lme4/data/Rdata.rds
@@ -34,6 +35,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/doc/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/Theory.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/Theory.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/Theory.pdf
+-rw-r--r--	root/root	usr/lib/R/library/lme4/doc/autoscale.R
+-rw-r--r--	root/root	usr/lib/R/library/lme4/doc/autoscale.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/lme4/doc/autoscale.html
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/lmer.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/lmer.Rnw
@@ -91,5 +95,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/testdata/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/tprfm1.RData
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/trees513.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/trees513.RData
-drwxr-xr-x	root/root	usr/lib/R/library/lme4/tinytest/
--rw-r--r--	root/root	usr/lib/R/library/lme4/tinytest/test_lme4.R

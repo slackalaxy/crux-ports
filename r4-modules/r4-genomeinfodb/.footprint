@@ -139,6 +139,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Gorilla_gorilla_gorilla.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Gossypium_hirsutum.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Harpegnathos_saltator.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Heterocephalus_glaber.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Homo_sapiens.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Hordeum_vulgare.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/NCBI_assemblies/Loxodonta_africana.R
@@ -214,6 +215,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/galGal6.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/gasAcu1.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/gorGor6.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/hetGla1.R
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/hetGla2.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/hg15.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/hg16.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/hg17.R
@@ -263,8 +266,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/xenLae2.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/registered/UCSC_genomes/xenTro10.R
 drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/unitTests/
--rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/unitTests/test_Seqinfo-class.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/unitTests/test_mapGenomeBuilds.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/unitTests/test_seqlevels-wrappers.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/unitTests/test_seqlevelsStyle.R
--rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/unitTests/test_utils.R

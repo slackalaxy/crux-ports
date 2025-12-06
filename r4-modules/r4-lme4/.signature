@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89G8xaxtD5Z92GcW5of/wq3Z7Ra6x+TLoMmNafCKEI3BbJ0uj0lEqwxqf+rdqAX7vYtfcWdFv1VUBDC8oRxUiJAc=
-SHA256 (Pkgfile) = 19a76b9283dc97d0addd53c64216043a43e4d1c2e9251bd0da5a609c48c68350
-SHA256 (.footprint) = f185ad681807a2114ad3faed976707ccbd51feaf769cf62d9d2fb192bc65dd9c
-SHA256 (lme4_1.1-37.tar.gz) = cfdb756c445fdda069307945798dae1646557df2ed417ac06572eab47fbef00c
+RWQ2oTreAss89Dl0OfBzglWo4PAJHlWk88zZQaU3+h8XawI6jkgi81ipv62iBr6PtSZTCaqp3zWbxfRi3XrD91g4JA6mTeZVWQA=
+SHA256 (Pkgfile) = 6ad6f71dc61c4437e5421aabe63b35ab7b214119bb5ced729e26dbc050786549
+SHA256 (.footprint) = 139e19ec1be7db8336089c826168d99e5dd2bdc741858d3bb00aa1c51a417f95
+SHA256 (lme4_1.1-38.tar.gz) = 97f895c10053ea178a116e2c5a3095208fc54ff2b67be3351faab9a6608c8cc7

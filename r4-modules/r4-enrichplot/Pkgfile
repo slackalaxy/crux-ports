@@ -1,11 +1,11 @@
 # Description: R module enrichplot
 # URL: https://bioconductor.org/packages/enrichplot
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-aplot r4-dose r4-ggfun r4-ggnewscale r4-ggplot2 r4-ggrepel r4-ggtangle r4-ggtree r4-gosemsim r4-igraph r4-magrittr r4-plyr r4-purrr r4-rcolorbrewer r4-reshape2 r4-rlang r4-scatterpie r4-yulab-utils
-# Optional: r4-annotationdbi r4-clusterprofiler r4-dplyr r4-europepmc r4-ggarchery r4-ggforce r4-gghoriplot r4-ggplotify r4-ggridges r4-ggstar r4-ggtreeextra r4-ggupset r4-glue r4-gridextra r4-knitr r4-org-hs-eg-db r4-prettydoc r4-rmarkdown r4-scales r4-tibble r4-tidydr r4-tidyr
+# Depends on: r r4-aplot r4-dose r4-ggfun r4-ggnewscale r4-ggplot2 r4-ggrepel r4-ggtangle r4-ggtree r4-gosemsim r4-igraph r4-plyr r4-purrr r4-rcolorbrewer r4-reshape2 r4-rlang r4-scatterpie r4-tidydr r4-yulab-utils
+# Optional: r4-annotationdbi r4-clusterprofiler r4-dplyr r4-europepmc r4-ggarchery r4-ggforce r4-gghoriplot r4-ggplotify r4-ggridges r4-ggstar r4-ggtreeextra r4-ggupset r4-glue r4-gridextra r4-knitr r4-org-hs-eg-db r4-prettydoc r4-rmarkdown r4-scales r4-tibble r4-tidyr
 
 name=r4-enrichplot
-version=1.30.3
+version=1.30.4
 release=1
 source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/enrichplot_${version}.tar.gz)
 

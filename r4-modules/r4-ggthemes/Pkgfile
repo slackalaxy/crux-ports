@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-dplyr r4-extrafont r4-glue r4-knitr r4-lattice r4-lintr r4-mapproj r4-maps r4-pander r4-quantreg r4-rlang r4-rmarkdown r4-spelling r4-testthat r4-tidyr r4-vdiffr r4-withr
 
 name=r4-ggthemes
-version=5.1.0
+version=5.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggthemes_${version}.tar.gz)
 

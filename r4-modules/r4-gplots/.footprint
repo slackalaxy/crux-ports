@@ -28,6 +28,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/gplots/data/
 -rw-r--r--	root/root	usr/lib/R/library/gplots/data/Rdata.rds
 -rw-r--r--	root/root	usr/lib/R/library/gplots/data/Rdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/gplots/doc/
+-rw-r--r--	root/root	usr/lib/R/library/gplots/doc/heatmap.2.R
+-rw-r--r--	root/root	usr/lib/R/library/gplots/doc/heatmap.2.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/gplots/doc/heatmap.2.html
 -rw-r--r--	root/root	usr/lib/R/library/gplots/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/gplots/doc/venn.R
 -rw-r--r--	root/root	usr/lib/R/library/gplots/doc/venn.Rmd

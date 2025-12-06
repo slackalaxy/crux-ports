@@ -213,6 +213,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/bootstrap-datepicker.min.js
 drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker-en-CA.min.js
+-rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ar-DZ.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ar-tn.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ar.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.az.min.js
@@ -232,6 +233,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-GB.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-IE.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-NZ.min.js
+-rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-US.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.en-ZA.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.eo.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.es.min.js
@@ -264,6 +266,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.me.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.mk.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.mn.min.js
+-rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.mr.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.ms.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.nl-BE.min.js
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/datepicker/js/locales/bootstrap-datepicker.nl.min.js
@@ -381,11 +384,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/shiny_scss/
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/shiny_scss/shiny.bootstrap4.scss
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/shiny_scss/shiny.bootstrap5.scss
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/shiny_scss/shiny.scss
-drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/showdown/
-drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/showdown/compressed/
--rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/showdown/compressed/showdown.js
--rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/showdown/license.txt
-drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/showdown/src/
--rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/showdown/src/showdown.js
 drwxr-xr-x	root/root	usr/lib/R/library/shiny/www/shared/strftime/
 -rw-r--r--	root/root	usr/lib/R/library/shiny/www/shared/strftime/strftime-min.js

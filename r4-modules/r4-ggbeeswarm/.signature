@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89JzVQC+Iy/IMlMjop7WoEUlLzzfcenewo/lV/hmHjTu9wUBOUc4DOZ1JwFSSpcFtG0pKhcw0G2qRSdGA7wpx8w8=
-SHA256 (Pkgfile) = 8836905bc8ff4ce8ee776f0bcbc334a7ba17fcf581570b4b484694b867d24462
+RWQ2oTreAss89Bl3fB+VCT7F2+iA7hROam2uyXTufCAI29GFArmT2PU5NFPgWSUMlKgy3UiRjdwnaQfv05/mMLU0CKOfn+WP7A0=
+SHA256 (Pkgfile) = 95100814d856bc1eabe5d4dc1fc8e86b457f982f5869b6e93a7ba1d233445fb4
 SHA256 (.footprint) = e2e3112dbffe4d6a2742e50760ffc22c2e32b04106559f89ec751d13a71c3ccc
-SHA256 (ggbeeswarm_0.7.2.tar.gz) = fd7ca265bb892dde514d5f8d6a853fb8b32d7a673b05e9c8b50544a523299ce5
+SHA256 (ggbeeswarm_0.7.3.tar.gz) = 5834381e53e38343e5720cf02a2b5be330ab440c1ac6d06e5dd62e59487c7060
