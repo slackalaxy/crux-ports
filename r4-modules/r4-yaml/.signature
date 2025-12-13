@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FELIYZJM4sDSMzQgZbVueNMsL76LTj6p4VN3sDI3ElSepC/cRpXha9Avyr1dDoE6NEesrWv+91/Q/3OyrSc4w0=
-SHA256 (Pkgfile) = 1ebf90cbae9379fc830981631ce288526d6377d77347c5985f62695c231ed81c
-SHA256 (.footprint) = 719882d53f535d5cc5bb2e9a78adac7374660e6fa34c71addcb72127c28da5ff
-SHA256 (yaml_2.3.11.tar.gz) = b9c4fa70b9e2ba2257d59b7d4ba5d80106ed63f66d6d2a4da26b754160bac22c
+RWQ2oTreAss89Pu/KiyFf1LfAaY0wdJWybU2fq8S97lGmZKzjBWAeAQ9qFg9O4RNLN+z6ssvdrcZcXho4U6q8VkTJKopfp0PyAo=
+SHA256 (Pkgfile) = 66de4d0e1def54b79fd96a4510525a45a9d2c6d3fd9cea4b464e8170680dc1e7
+SHA256 (.footprint) = 8b58d1d505caf9bb6ef3a570f8b5b28aab6fe83315042372b5cfc67d05f0ca6a
+SHA256 (yaml_2.3.12.tar.gz) = 80ccf3dde851133ef3e333b818a817c296c6ccdacfc4709cd466995289cd556c

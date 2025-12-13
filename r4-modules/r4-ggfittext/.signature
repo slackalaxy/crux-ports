@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89LpgFMOdJTJHM+G8+l0c+b136b1UsCGxvKtFauZnzIs/VWGo467/ZmDWv7/e2fw9VpFDglE2rCx9HQNI1Fdn2w8=
-SHA256 (Pkgfile) = 0e032d0c028ed618bcc80ccafc591ab346f146d10c628d021506b714ef89760a
+RWQ2oTreAss89MBFyBMKdDomH1qCI2QMWn0hXX7kRH9MHiiXvV+DAN6m/V9/OgyGMDGUnDr9OmiYBHbEFgQXl9bIWLptrOMKRAg=
+SHA256 (Pkgfile) = 18f1a093f7241c02cbc30480f1c026637cf97be6e28898b91ed07f1f72f9767c
 SHA256 (.footprint) = 68eceac2bbff3c7a36433435e9c0f1a2fbc53e00360e60301d5360ff5519a4de
-SHA256 (ggfittext_0.10.2.tar.gz) = b796a44c79eb497148eefa1572a378bf1d498742f3fde62bd93e538720278c3e
+SHA256 (ggfittext_0.10.3.tar.gz) = 45cf2ea5faef8d6366b6d672617d8bdc73d6e7a14ebc9dce2b277f9c9d2cd5df

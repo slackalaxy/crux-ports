@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89MlM+cyWDPhcTBpRgKzIk5DjRMNoap8sTrzozmgBCz4WheZA0bQmA1TQQxZTaB+f0NpMGVdjpsafm0fxO7n9ew8=
-SHA256 (Pkgfile) = d7419b4e16933d75d0506e4adead88c04f5660d04c10e4b97d7fd1dbbaecdd15
+RWQ2oTreAss89LUtAiXJ5Ft+ktaEKDZAyUa7nJD3/t7u3m9LyL6AwG2IJ5m9qZNVGfE2KdAmiIhCwAER9HR9QocUY3SbTbdayA4=
+SHA256 (Pkgfile) = dc57a065c913eb23f6a4e8f11d27116041d5a61c7f48fbae0b356282cc4a2ef0
 SHA256 (.footprint) = d07221f60552d7ad497821177e874e54013ace9cf566e4ba32804d95090ded54
-SHA256 (EnhancedVolcano_1.26.0.tar.gz) = 71472ce1a682d28ea7a2db99b8a9b0105e069b58c32792861a84a4d9cac4bda5
+SHA256 (EnhancedVolcano_1.28.2.tar.gz) = fc36d302157116cce65419934f57b4a2ab661cd8da4377fb31cf67e4a1b64a3f

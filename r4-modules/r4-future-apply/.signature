@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89OOZMBCCrjLBqEdnC8gQ9/FJmw7nYUDZnQ0mVdXmg/SAC2qldWRqu36dViTv1zicwylJ8xg/neqRjflwDHk4xQM=
-SHA256 (Pkgfile) = 0bf84adfb62d14985581a30ba301bdaea60dd70f68a2e8118e694689a87b4fc2
+RWQ2oTreAss89NcjiZpc+n9fv9jR+OHqVozOVSXGgdn8CoqEuDe8kfzNknYddPH0qjhxsKZ0U+coaIkdShSpS1KBohC0pbZArAY=
+SHA256 (Pkgfile) = 0a34992aa28540c3bd9c9d06e1e203c4379c846916a5be1e355c9eaa3284b091
 SHA256 (.footprint) = aa38af62fc11c6d8d944837c9457e6025f5cbc2b2e5d1e45c09281fd0355e82e
-SHA256 (future.apply_1.20.0.tar.gz) = f8cee7e7a7d61aaad9cfecc12a38e8673b1899cd789f274224f2d40c3fbfaa1e
+SHA256 (future.apply_1.20.1.tar.gz) = 10855b037ba1b9f5723d6168ce5b26b550b017ff4a11724c7151a4c110f66628

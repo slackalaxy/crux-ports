@@ -1,13 +1,13 @@
 # Description: R module proxy
 # URL: https://cran.r-project.org/web/packages/proxy
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-cba
 
 name=r4-proxy
-version=0.4.27
+version=0.4.28
 release=1
-source=(https://cloud.r-project.org/src/contrib/proxy_0.4-27.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/proxy_0.4-28.tar.gz)
 
 build() {
 	cd proxy

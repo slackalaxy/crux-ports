@@ -1,13 +1,13 @@
 # Description: R module EnhancedVolcano
 # URL: https://bioconductor.org/packages/EnhancedVolcano
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-ggplot2 r4-ggrepel
-# Optional: r4-airway r4-biocgenerics r4-deseq2 r4-ggalt r4-ggrastr r4-gridextra r4-knitr r4-magrittr r4-org-hs-eg-db r4-pasilla r4-rmarkdown r4-runit
+# Depends on: r r4-ggplot2 r4-ggrepel r4-scales
+# Optional: r4-airway r4-biocgenerics r4-deseq2 r4-ggrastr r4-gridextra r4-knitr r4-magrittr r4-org-hs-eg-db r4-pasilla r4-rmarkdown r4-runit
 
 name=r4-enhancedvolcano
-version=1.26.0
+version=1.28.2
 release=1
-source=(https://bioconductor.org/packages/3.21/bioc/src/contrib/EnhancedVolcano_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/EnhancedVolcano_${version}.tar.gz)
 
 build() {
 	cd EnhancedVolcano

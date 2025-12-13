@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/circlize
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-colorspace r4-globaloptions r4-shape
-# Optional: r4-bezier r4-complexheatmap r4-covr r4-dendextend r4-gridbase r4-knitr r4-markdown r4-png r4-rmarkdown
+# Optional: r4-bezier r4-complexheatmap r4-dendextend r4-gridbase r4-knitr r4-markdown r4-png r4-rmarkdown
 
 name=r4-circlize
-version=0.4.16
+version=0.4.17
 release=1
 source=(https://cloud.r-project.org/src/contrib/circlize_${version}.tar.gz)
 

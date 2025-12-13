@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/httr2
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-cli r4-curl r4-glue r4-lifecycle r4-magrittr r4-openssl r4-r6 r4-rappdirs r4-rlang r4-vctrs r4-withr
-# Optional: r4-askpass r4-bench r4-clipr r4-covr r4-docopt r4-httpuv r4-jose r4-jsonlite r4-knitr r4-later r4-nanonext r4-paws-common r4-promises r4-rmarkdown r4-testthat r4-tibble r4-webfakes r4-xml2
+# Optional: r4-askpass r4-bench r4-clipr r4-covr r4-docopt r4-httpuv r4-jose r4-jsonlite r4-knitr r4-later r4-nanonext r4-otel r4-otelsdk r4-paws-common r4-promises r4-rmarkdown r4-testthat r4-tibble r4-webfakes r4-xml2
 
 name=r4-httr2
-version=1.2.1
+version=1.2.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/httr2_${version}.tar.gz)
 

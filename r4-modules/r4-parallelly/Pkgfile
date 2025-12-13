@@ -5,7 +5,7 @@
 # Optional: r4-base64enc r4-commonmark
 
 name=r4-parallelly
-version=1.45.1
+version=1.46.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/parallelly_${version}.tar.gz)
 

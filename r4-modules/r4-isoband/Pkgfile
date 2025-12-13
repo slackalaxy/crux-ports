@@ -1,11 +1,11 @@
 # Description: R module isoband
 # URL: https://cran.r-project.org/web/packages/isoband
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
-# Optional: r4-covr r4-ggplot2 r4-knitr r4-magick r4-microbenchmark r4-rmarkdown r4-sf r4-testthat r4-xml2
+# Depends on: r r4-cli r4-cpp11 r4-rlang
+# Optional: r4-bench r4-covr r4-ggplot2 r4-knitr r4-magick r4-rmarkdown r4-sf r4-testthat r4-xml2
 
 name=r4-isoband
-version=0.2.7
+version=0.3.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/isoband_${version}.tar.gz)
 

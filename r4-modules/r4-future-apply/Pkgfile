@@ -5,7 +5,7 @@
 # Optional: r4-listenv r4-markdown r4-r-rsp
 
 name=r4-future-apply
-version=1.20.0
+version=1.20.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/future.apply_${version}.tar.gz)
 

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89LmH63MyK9+bID+I72r1VRbBtmC81EFg2bllMISRS3xaSdVAuNak4rhqFrkY3nn3YRxbsHu5tdaBGcqhAYZUJA4=
-SHA256 (Pkgfile) = 3824c3b89ea7d6877223f81552bb6931868a7e73458edfc39e1d106d152bf2db
+RWQ2oTreAss89KunmsvYTtvc60gyEctU7C+U8bPFiav5OIjktHXgisOUDV0RFsvYGu+5ENnAzhoLkKwHEtlVLghi8T05oq3jjA8=
+SHA256 (Pkgfile) = 75ca33592264be936a593061e45a6d90bc503ae16a178ebc232ee30a83ddb4e6
 SHA256 (.footprint) = 5bc4353400370dedc2dd386bcc43cbffd7b5c263467e8e1a886ff1bd54c93ccc
-SHA256 (isoband_0.2.7.tar.gz) = 7693223343b45b86de2b5b638ff148f0dafa6d7b1237e822c5272902f79cdf61
+SHA256 (isoband_0.3.0.tar.gz) = fe8d3d58ca75bbee32f389152ac0058818f3f76f09c9867949531de7abc424ac

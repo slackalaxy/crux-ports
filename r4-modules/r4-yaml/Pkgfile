@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/yaml
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: r4-runit
+# Optional: r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-yaml
-version=2.3.11
+version=2.3.12
 release=1
 source=(https://cloud.r-project.org/src/contrib/yaml_${version}.tar.gz)
 

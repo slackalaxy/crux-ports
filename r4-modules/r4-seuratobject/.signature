@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89K8RG0oHiZ00ZD+APWxQyH64d9+qLg4PDRUJASegpMi2+Iye31H+DogYts8AYjK0KAWQ/sc3KCO/zqd4cBzOIAM=
-SHA256 (Pkgfile) = 43c88594327d70bcd6fb8fe125e0badd102be5e1fc767596e581e0f49a4af4b7
+RWQ2oTreAss89DyqkOSGsCe2p3oanvqL4mbmGkxF8fJAYO4z/KTt3qCefZbaoMuEmzRkomVpTelyAtU9jBF9KkJGIy2/G5i+pgY=
+SHA256 (Pkgfile) = 558e35faff6025f20b06f39a6494bf50fddaf7415d6fe8754358d93326adc0b4
 SHA256 (.footprint) = f7b1df07cc91a2b83a3c2b9d09d611bdb30f8c5a394f13778b477354e804adef
-SHA256 (SeuratObject_5.2.0.tar.gz) = 285cad1503914230f58f33be76c5d939fc192f373ecb239794d6e3b9ebfd162b
+SHA256 (SeuratObject_5.3.0.tar.gz) = af0155fa1d6fe9d98439d6f59ed52ed9bfeed26c8a1eed56b6537c8d3a559f58

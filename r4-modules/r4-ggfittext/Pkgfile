@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-rmarkdown r4-spelling r4-testthat r4-vdiffr
 
 name=r4-ggfittext
-version=0.10.2
+version=0.10.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggfittext_${version}.tar.gz)
 

@@ -1,11 +1,11 @@
 # Description: R module scCustomize
 # URL: https://cran.r-project.org/web/packages/scCustomize
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-circlize r4-cli r4-cowplot r4-data-table r4-dplyr r4-forcats r4-ggbeeswarm r4-ggplot2 r4-ggprism r4-ggrastr r4-ggrepel r4-glue r4-janitor r4-lifecycle r4-magrittr r4-matrix r4-paletteer r4-patchwork r4-pbapply r4-purrr r4-rlang r4-scales r4-scattermore r4-seurat r4-seuratobject r4-stringi r4-stringr r4-tibble r4-tidyr
+# Depends on: r r4-circlize r4-cli r4-cowplot r4-data-table r4-dplyr r4-forcats r4-ggbeeswarm r4-ggplot2 r4-ggprism r4-ggrastr r4-ggrepel r4-glue r4-janitor r4-lifecycle r4-magrittr r4-matrix r4-mcprogress r4-paletteer r4-patchwork r4-pbapply r4-purrr r4-rlang r4-scales r4-scattermore r4-seurat r4-seuratobject r4-stringi r4-stringr r4-tibble r4-tidyr
 # Optional: r4-biocfilecache r4-complexheatmap r4-dittoseq r4-dropletutils r4-ggpubr r4-hdf5r r4-knitr r4-nebulosa r4-qs r4-remotes r4-reticulate r4-rliger r4-rmarkdown r4-scuttle r4-tidyselect r4-viridis
 
 name=r4-sccustomize
-version=3.2.2
+version=3.2.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/scCustomize_${version}.tar.gz)
 
