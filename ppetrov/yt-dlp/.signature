@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRUOl6K19V8rAVoWcnMwBNZIAmfW6YUyJq5/Q/Rmiuy2/wi14brBqSeXUDfybbki9oPsEawix3+csglGPZBvmQE=
-SHA256 (Pkgfile) = 127a9f89938ed5be8dd25e0133d8106435649758d578d1d5b18dc2a82879f4d7
+RWToVVsIkzFIZRu5Y9UaXRnsm97kyIgFttF24Zg9E6NO/FYtnSCXbTNQ9rUGmXNPTL2Tb+o0ZUQbRBQuAcdecykGhGqgo6/8Rwo=
+SHA256 (Pkgfile) = 1264a502198f92cf4343af14e8841f71fa595608ca9e10ef280b1d6fcdd9767b
 SHA256 (.footprint) = b13330c79f44e19de64e7dc4026d3d5ab368dcfaded6e2d25ce4813c47f0a796
-SHA256 (yt-dlp-2025.11.12.tar.gz) = 561ead2e2991f11789d3cd9f9b5a2eee2641a587e2cfc1ee9631c7c1d851c0ec
+SHA256 (yt-dlp-2025.12.08.tar.gz) = 9814ae7dd4118a80a6104399d4984e355d2a71f78e6bbc48137a5b299eddcbaf
