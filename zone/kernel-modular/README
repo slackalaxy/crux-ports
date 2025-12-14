@@ -13,8 +13,8 @@ Source is downloaded from https://kernel.org/
 Nothe that only the kernel and modules are shipped, the sources are left
 out. "-m" is used as local version for kernel and modules.
 
-Inspect the config if you want to make any modifications and if your
-filesystem is supported. At a glance, these are built into the kernel:
+Inspect the config if you want to make any modifications and to check if
+your filesystem is supported. At a glance, these are built in:
 
 File systems --->
   <*> The Extended 4 (ext4) filesystem
@@ -27,11 +27,11 @@ File systems --->
   [*]   XFS Quota support
   [*]   XFS POSIX ACL support 
   
-It is up to you to create a symlink for System.map:
+It is up to you to create this symlink for System.map:
 
 	/boot/System.map -> /boot/System.map-6.12.25-m
 
-Same goes for the krenel itself (disputed if needed):
+Same goes for the kernel itself (disputed if needed):
 	
 	/usr/src/linux-6.12.25-m/ -> /usr/src/linux
 
@@ -44,19 +44,20 @@ GRUB, in UEFI boot mode. Install grub2 into the EFI system partition:
 
 Replace /boot/efi with the location of the mounted ESP. If efibootmgr
 was selected during the package selection phase, grub-install will
-automatically create a boot entry and make it active. Run:
-
-  grub-mkconfig > /boot/grub/grub.cfg
+automatically create a boot entry and make it active.
 
 GRUB, in legacy (non-UEFI) boot mode. Install grub2 into the MBR, by:
 
   grub-install /dev/sd??
 
 Replace /dev/sd?? with the actual node of the device whose MBR you want
-to overwrite, eg., /dev/sda for the first SATA disk. Run:
+to overwrite, e.g. /dev/sda, for the first SATA disk. 
+
+In either case, run afterwards:
 
   grub-mkconfig > /boot/grub/grub.cfg
 
-grub-mkconfig's output can be altered by setting variables in:
+The grub-mkconfig's output can be altered by setting variables in 
+(installed by the grub2-default port):
 
   /etc/default/grub

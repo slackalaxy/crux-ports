@@ -306,7 +306,6 @@ d:r4-rcpproll
 d:r4-seurat-data-pbmcsca
 d:r4-tfbstools
 d:r4-leidenbase
-d:r4-cellchat
 d:r4-kegggraph
 d:r4-ztable
 d:r4-sparsearray
@@ -1569,10 +1568,6 @@ f:3dda797d14362bbc91f167067a7ad9ab:r4-tfbstools/Pkgfile
 f:a9bd2e16648752f14bb02e6acf901191:r4-leidenbase/Pkgfile
 f:d6acf92487fff6989049ba360da23dbc:r4-leidenbase/.footprint
 f:a86d938f6328d68062713c816c2bf6dc:r4-leidenbase/.signature
-f:ef20bc5c7ce9b3b942737afd5f2a117d:r4-cellchat/.signature
-f:0a856262bef5cca71e9a4c9f6cd4b1aa:r4-cellchat/.footprint
-f:da04717b7f8f4bfa9db6fa1fd68e6943:r4-cellchat/Pkgfile
-f:21a78700deec4c32faec7fd7b8a5524e:r4-cellchat/README
 f:f635eb2680149b420a8a8fa697998ed8:r4-kegggraph/.signature
 f:83bf73635949c2a4c3c01cc1c0c27c73:r4-kegggraph/.footprint
 f:32aed30b1e6fbcbd5d56d8acb0834d18:r4-kegggraph/Pkgfile
