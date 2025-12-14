@@ -1,0 +1,23 @@
+# Description: Open-source software for mathematics, science, and engineering.
+# URL: http://www.scipy.org/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-pooch python3-pybind11 python3-pythran
+
+name=python3-scipy
+version=1.16.1
+release=1
+source=(https://pypi.python.org/packages/source/s/scipy/scipy-${version}.tar.gz)
+
+build() {
+  cd ${name#*-}-$version
+  #export LDFLAGS="-Wall -shared"
+
+  /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE"   \) -delete
+  chmod -R g-w $PKG
+
+}

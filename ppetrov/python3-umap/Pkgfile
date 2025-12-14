@@ -1,0 +1,23 @@
+# Description: Uniform Manifold Approximation and Projection in Python
+# URL: https://github.com/lmcinnes/umap
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-pynndescent python3-tqdm
+
+name=python3-umap
+version=0.5.9.post2
+release=1
+source=(https://github.com/lmcinnes/umap/archive/refs/tags/release-$version.tar.gz)
+renames=($name-$version.tar.gz)
+
+build() {
+  cd umap-*-$version
+
+  /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE"   \) -delete
+  chmod -R g-w $PKG
+
+}

@@ -1,0 +1,21 @@
+# Description: Python functions as pipeline jobs
+# URL: https://pypi.org/project/joblib/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-wheel
+
+name=python3-joblib
+version=1.5.2
+release=1
+source=(https://files.pythonhosted.org/packages/e8/5d/447af5ea094b9e4c4054f82e223ada074c552335b9b4b2d14bd9b35a67c4/joblib-$version.tar.gz)
+
+build() {
+  cd ${name#*-}-$version
+
+  /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE"   \) -delete
+  chmod -R g-w $PKG
+}

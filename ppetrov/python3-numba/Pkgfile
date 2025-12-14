@@ -1,0 +1,22 @@
+# Description: Translates Python functions to optimized machine code
+# URL: https://github.com/numba/numba/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: onetbb openmp python3-llvmlite python3-numpy
+
+name=python3-numba
+version=0.61.2
+release=1
+source=(https://github.com/numba/numba/archive/$version/numba-$version.tar.gz)
+
+build() {
+  cd ${name#*-}-$version
+
+  /usr/bin/pip3 install --use-pep517 --isolate --root="$PKG" --ignore-installed --no-deps .
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE*"   \) -delete
+  chmod -R g-w $PKG
+
+}

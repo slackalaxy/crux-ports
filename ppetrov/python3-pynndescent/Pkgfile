@@ -1,0 +1,26 @@
+# Description: Nearest neighbor descent for approximate nearest neighbors
+# URL: https://github.com/lmcinnes/pynndescent
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-numba python3-scikit-learn
+
+name=python3-pynndescent
+version=0.5.13
+release=1
+source=(https://github.com/lmcinnes/pynndescent/archive/refs/tags/release-0.5.13.tar.gz)
+renames=($name-$version.tar.gz)
+
+build() {
+  cd pynndescent-*-$version
+
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install \
+                   --prefix=/usr    \
+                   --root="$PKG"    \
+                   --skip-build     \
+                   --optimize=1
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE"   \) -delete
+}

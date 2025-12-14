@@ -643,6 +643,7 @@ d:r4-ttr
 d:r4-urca
 d:r4-xts
 d:r4-mcprogress
+d:r4-cellchat
 f:1b298a2282c2bdbf820bbe8c86dc2ea8:r4-ggplotify/Pkgfile
 f:fb3aac9d5c926cc6608398b7aab5120e:r4-ggplotify/.signature
 f:71c7851c9a269938b25e318ac8912552:r4-ggplotify/.footprint
@@ -2581,3 +2582,7 @@ f:3b07fdacb573e31d7f0599f004230b0e:r4-xts/.signature
 f:598aea8696eabfcc33e1ab93dbf22180:r4-mcprogress/Pkgfile
 f:54cc4a2a2154b4cff7997e607e1d7453:r4-mcprogress/.footprint
 f:0496fb7ad866dd1ffa0719623320b797:r4-mcprogress/.signature
+f:018fb1a0b4356b862284e80262b76052:r4-cellchat/Pkgfile
+f:0a856262bef5cca71e9a4c9f6cd4b1aa:r4-cellchat/.footprint
+f:21a78700deec4c32faec7fd7b8a5524e:r4-cellchat/README
+f:92347d5dc447e01d7b1b0ec07f65b72e:r4-cellchat/.signature

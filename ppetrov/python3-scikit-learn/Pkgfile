@@ -1,0 +1,22 @@
+# Description: A Python module for machine learning
+# URL: https://github.com/scikit-learn/scikit-learn
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-joblib python3-scipy python3-threadpoolctl
+
+name=python3-scikit-learn
+version=1.7.1
+release=1
+source=(https://github.com/scikit-learn/scikit-learn/archive/$version/Scikit-learn-$version.tar.gz)
+
+build() {
+  cd ${name#*-}-$version
+
+  /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE"   \) -delete
+  chmod -R g-w $PKG
+
+}

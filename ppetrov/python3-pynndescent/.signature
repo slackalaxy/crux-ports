@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQcaOFvJBrTonIBaXbAmSy9beFKq4QbR8IoYwrpnY4JW9p5BMM5J3lWx5FaWw3qUOHS4NaO6uEj/9g8ICpkvewI=
+SHA256 (Pkgfile) = 6ae47d5aac3dccde24dc45a55e599fc3d78c3a609d88cb038d75fb806abad5ce
+SHA256 (.footprint) = bed8d49859fe70200b950e7f1bd3740436fd64c09bae126893ea8f48e1350d8a
+SHA256 (python3-pynndescent-0.5.13.tar.gz) = 7eed091f0ec4d38842477d68356312bd85314de26571fdcfdbc96d5aad2d3e71

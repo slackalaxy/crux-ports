@@ -1,0 +1,25 @@
+# Description: A generic AST to represent Python3's Abstract Syntax Tree(AST).
+# URL: https://github.com/serge-sans-paille/gast
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-setuptools
+
+name=python3-gast
+version=0.6.0
+release=1
+source=(https://github.com/serge-sans-paille/gast/archive/$version/$name-$version.tar.gz)
+
+build() {
+  cd ${name#*-}-$version
+
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install \
+                   --prefix=/usr    \
+                   --root="$PKG"    \
+                   --skip-build     \
+                   --optimize=1
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE*"   \) -delete
+}

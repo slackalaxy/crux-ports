@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89LRXH1oJ5w6YNNHVT3YdqqZLa+8Lf80KDAoY38ScVGsxIXCc0mWx+QPAPJHAoS3yChopvP6AmPlybpxiQBRMDgk=
+SHA256 (Pkgfile) = b2d19b7160a873b62885d7b3ed4131fb6f6f2c43eac947b8bd56616d35df314e
+SHA256 (.footprint) = dc219d3add40bf4f432e8d1072d86330db24668156ccb6c3b49395e369a01611
+SHA256 (CellChat-623f48f7bb0ddf3b317055d1581150fcc5fad4e3.tar.gz) = ce04428d792f2569bf35bc6c9086010b832277a948cd896c0ff27ac264091c79
