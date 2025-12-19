@@ -1115,6 +1115,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/QtWayland/Client/TextureSharing/
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/Qt/qml/QtWayland/Client/TextureSharing/libqwaylandtexturesharing.so
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/QtWayland/Client/TextureSharing/qmldir
 -rw-r--r--	root/root	usr/lib/zoom-linux/Qt/qml/builtins.qmltypes
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/ZoomClips
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/ZoomLauncher
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/ZoomWebviewHost
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/aomhost
@@ -1140,6 +1141,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/cef/locales/
 -rw-r--r--	root/root	usr/lib/zoom-linux/cef/vk_swiftshader_icd.json
 -rw-r--r--	root/root	usr/lib/zoom-linux/clap-high.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/clap-medium.pcm
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/cpthost
 drwxr-xr-x	root/root	usr/lib/zoom-linux/diagnostic/
 -rw-r--r--	root/root	usr/lib/zoom-linux/diagnostic/diagnostic.zip
 -rw-r--r--	root/root	usr/lib/zoom-linux/dingdong.pcm
@@ -1152,6 +1154,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/imjs/
 -rw-r--r--	root/root	usr/lib/zoom-linux/imjs/imjs.zip
 drwxr-xr-x	root/root	usr/lib/zoom-linux/js/
 -rw-r--r--	root/root	usr/lib/zoom-linux/js/html_sanitizer_mail.js
+-rw-r--r--	root/root	usr/lib/zoom-linux/js/preload.js
 drwxr-xr-x	root/root	usr/lib/zoom-linux/json/
 -rw-r--r--	root/root	usr/lib/zoom-linux/json/countries.json
 -rw-r--r--	root/root	usr/lib/zoom-linux/json/countries_chs.json
@@ -1225,6 +1228,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/sip/
 -rw-r--r--	root/root	usr/lib/zoom-linux/sip/dtmf_star.wav
 -rw-r--r--	root/root	usr/lib/zoom-linux/sip/ring_pstn.wav
 drwxr-xr-x	root/root	usr/lib/zoom-linux/translations/
+-rw-r--r--	root/root	usr/lib/zoom-linux/unifywebview_config.zip
 -rw-r--r--	root/root	usr/lib/zoom-linux/unmute.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/version.txt
 -rw-r--r--	root/root	usr/lib/zoom-linux/wr_ding.pcm
