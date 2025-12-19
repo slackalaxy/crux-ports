@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/yulab.utils
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-cli r4-digest r4-fs r4-rappdirs r4-rlang
-# Optional: r4-httr2 r4-jsonlite r4-openssl
+# Optional: r4-httr2 r4-jsonlite r4-openssl r4-r-utils r4-testthat
 
 name=r4-yulab-utils
-version=0.2.2
+version=0.2.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/yulab.utils_${version}.tar.gz)
 

@@ -5,9 +5,9 @@
 # Optional: r4-cluster r4-mass r4-matrix r4-mlbench r4-nnet r4-randomforest r4-rpart r4-slam r4-sparsem r4-xtable
 
 name=r4-e1071
-version=1.7.16
+version=1.7.17
 release=1
-source=(https://cloud.r-project.org/src/contrib/e1071_1.7-16.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/e1071_1.7-17.tar.gz)
 
 build() {
 	cd e1071

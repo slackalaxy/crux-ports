@@ -5,7 +5,7 @@
 # Optional: r4-gridextra r4-knitr r4-ragg r4-rmarkdown
 
 name=r4-ggsci
-version=4.1.0
+version=4.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggsci_${version}.tar.gz)
 

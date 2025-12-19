@@ -5,9 +5,9 @@
 # Optional: r4-testthat r4-xml r4-xml2
 
 name=r4-selectr
-version=0.5.0
+version=0.5.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/selectr_0.5-0.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/selectr_0.5-1.tar.gz)
 
 build() {
 	cd selectr

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89H3kWjASJqweOdVEBLh9sRTvkGF8GOfXNylKqMj2Nj3xYH4bzV0eq/GhuSpy5QLvoHBPy6WjwuLy83j0aoP27A0=
-SHA256 (Pkgfile) = a0c6262a7e164e441e5b4f92adc5ea58a893269c03017c46b950dd82fb244e58
+RWQ2oTreAss89E3t9CMbqMlg1T01FPHoFdn7jhp+DZSAmhXG6Z6gGXV28V52Xq4TqQN9YYikndBxyZZHO/Tz7oNBbZAMJHFr/wU=
+SHA256 (Pkgfile) = 18142bf57574ce5939d9542d3ededf8a3dfb4094a8d196e4a18027e3b40a483e
 SHA256 (.footprint) = 5e08b786d04fcd307376bf8ac34f84d3dc542f4ba42ac72368aac18a24bfd607
-SHA256 (alakazam_1.4.1.tar.gz) = 0a263fb14078bf510a58030cddadc4ec4cd0f934ced4939ef5135b5fb184f6cd
+SHA256 (alakazam_1.4.2.tar.gz) = 94cf30dda9104b2fa9ed31959ce0b381847d798ef656de17fa5d0a689eea39bd

@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/xfun
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: r4-codetools r4-commonmark r4-curl r4-data-table r4-jsonlite r4-knitr r4-litedown r4-magick r4-mime r4-pak r4-qs r4-remotes r4-rstudioapi r4-testit r4-tinytex r4-xml2 r4-yaml
+# Optional: r4-codetools r4-commonmark r4-curl r4-data-table r4-jsonlite r4-knitr r4-litedown r4-magick r4-mime r4-pak r4-qs r4-qs2 r4-remotes r4-rstudioapi r4-testit r4-tinytex r4-xml2 r4-yaml
 
 name=r4-xfun
-version=0.54
+version=0.55
 release=1
 source=(https://cloud.r-project.org/src/contrib/xfun_${version}.tar.gz)
 

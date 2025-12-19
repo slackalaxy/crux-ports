@@ -46,5 +46,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyBS/tests/
 -rw-r--r--	root/root	usr/lib/R/library/shinyBS/tests/tipify_test.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyBS/tests/tipify_test2.R
 drwxr-xr-x	root/root	usr/lib/R/library/shinyBS/www/
--rw-r--r--	root/root	usr/lib/R/library/shinyBS/www/shinyBS.css (EMPTY)
+-rw-r--r--	root/root	usr/lib/R/library/shinyBS/www/bootstrap3-typeahead.js
+-rw-r--r--	root/root	usr/lib/R/library/shinyBS/www/shinyBS.css
 -rw-r--r--	root/root	usr/lib/R/library/shinyBS/www/shinyBS.js
+-rw-r--r--	root/root	usr/lib/R/library/shinyBS/www/typeahead_inputbinding.js

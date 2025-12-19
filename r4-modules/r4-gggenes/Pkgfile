@@ -1,11 +1,11 @@
 # Description: R module gggenes
 # URL: https://cran.r-project.org/web/packages/gggenes
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-ggfittext r4-ggplot2 r4-rlang
+# Depends on: r r4-cli r4-ggfittext r4-ggplot2 r4-lifecycle r4-rlang
 # Optional: r4-knitr r4-rmarkdown r4-spelling r4-testthat r4-vdiffr
 
 name=r4-gggenes
-version=0.5.1
+version=0.6.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/gggenes_${version}.tar.gz)
 
