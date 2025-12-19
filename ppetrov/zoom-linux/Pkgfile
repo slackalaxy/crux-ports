@@ -1,7 +1,7 @@
 # Description: Online conference
 # URL: https://zoom.us/download
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: vahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libinput nss pulseaudio qt5 wayland xorg-xcb-util-cursor
+# Depends on: avahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libinput nss pulseaudio qt5 wayland xorg-xcb-util-cursor
 
 name=zoom-linux
 version=6.7.0.6313
