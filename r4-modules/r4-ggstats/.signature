@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89G54Uoj7BktsD0BrFNchniPPWuQuS24/8SW/2iPxU7IsKsu4pRIJmG/4Yrx2FcugWVAgALncKHBhMSsB0Qyz9gY=
-SHA256 (Pkgfile) = 79a0d22a61b83131b8a8c1e3c831baa1fed546d4e136c8ac4a26a505f0002664
+RWQ2oTreAss89MZq9P0QyeqJHE/JjbTD5jqoPPy2WCcrIKRmyvNjpstxr59zttXiGrV9nryN4eYAmSa47SepUDtBJWnCiLfxLAA=
+SHA256 (Pkgfile) = 7b556f148a69cae4bff0c8ed64301b5a5e8391a9b0677062f08710b93e6651a3
 SHA256 (.footprint) = b7e27e13fe111fc60473aa6be10bdf652f1cb69cea9025f2a69a0f86f78b8b06
-SHA256 (ggstats_0.11.0.tar.gz) = 6e5246e95611606ba334769cf58267a92fa36104f8af74005be0b5602501b708
+SHA256 (ggstats_0.12.0.tar.gz) = 1fcd1b429a487fc083cf0348e73b2cd4075ca6a6976edcd71b73326bdd36fdbd

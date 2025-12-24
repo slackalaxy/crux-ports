@@ -5,7 +5,7 @@
 # Optional: r4-betareg r4-broom r4-broom-helpers r4-emmeans r4-glue r4-gtsummary r4-knitr r4-labelled r4-nnet r4-parameters r4-pscl r4-reshape r4-rmarkdown r4-spelling r4-survey r4-survival r4-testthat r4-vdiffr
 
 name=r4-ggstats
-version=0.11.0
+version=0.12.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggstats_${version}.tar.gz)
 

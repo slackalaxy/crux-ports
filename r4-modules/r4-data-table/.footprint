@@ -22,11 +22,16 @@ drwxr-xr-x	root/root	usr/lib/R/library/data.table/R/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/R/data.table.rdx
 -rw-r--r--	root/root	usr/lib/R/library/data.table/cc
 drwxr-xr-x	root/root	usr/lib/R/library/data.table/doc/
+-rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-benchmarking.R
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-benchmarking.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-benchmarking.html
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-faq.R
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-faq.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-faq.html
+-rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-fread-and-fwrite.R
+-rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-fread-and-fwrite.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-fread-and-fwrite.html
+-rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-importing.R
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-importing.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-importing.html
 -rw-r--r--	root/root	usr/lib/R/library/data.table/doc/datatable-intro.R
@@ -130,6 +135,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/data.table/tests/csvy/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/fread_blank3.txt
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/fread_line_error.csv.bz2
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/froll.Rraw.bz2
+-rw-r--r--	root/root	usr/lib/R/library/data.table/tests/frollBatch.Rraw.bz2
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/gb18030.txt
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/genotypes_genome.txt.bz2
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/grr.csv.gz
@@ -155,6 +161,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/data.table/tests/csvy/
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/melt-warning-1752.tsv.gz
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/melt_1754.R.gz
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/melt_1754_synth.csv.bz2
+-rw-r--r--	root/root	usr/lib/R/library/data.table/tests/mergelist.Rraw.bz2
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/multi-file.zip
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/nafill.Rraw.bz2
 -rw-r--r--	root/root	usr/lib/R/library/data.table/tests/noquote.csv.gz
