@@ -93,7 +93,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/css-language-feat
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/css-language-features/server/.npmrc
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/css-language-features/server/dist/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/css-language-features/server/dist/node/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/css-language-features/server/dist/node/85.cssServerMain.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/css-language-features/server/dist/node/533.cssServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/css-language-features/server/dist/node/920.cssServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/css-language-features/server/dist/node/cssServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/css-language-features/server/package.json
@@ -302,8 +302,8 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/html-language-fea
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/.npmrc
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/dist/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/dist/node/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/dist/node/421.htmlServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/dist/node/490.htmlServerMain.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/dist/node/573.htmlServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/dist/node/769.htmlServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/dist/node/htmlServerMain.js
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/html-language-features/server/lib/
@@ -375,8 +375,8 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/json-language-fea
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/.npmrc
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/774.jsonServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/962.jsonServerMain.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/990.jsonServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/dist/node/jsonServerMain.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/json-language-features/server/package.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/json/
@@ -536,6 +536,8 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authent
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/dist/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/dist/extension.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/dist/extension.js.LICENSE.txt
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/dist/libmsalruntime.so
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/dist/msal-node-runtime.node
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/media/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/media/auth.css
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/extensions/microsoft-authentication/media/favicon.ico
@@ -1429,6 +1431,16 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/vscode-
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/windows-mutex/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscode/windows-mutex/LICENSE
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/LICENSE
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/ThirdPartyNotices.txt
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/build/
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/build/Release/
+-rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/build/Release/keymapping.node
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/checksum.txt
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/index.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/install.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/native-keymap/package.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/policy-watcher/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/policy-watcher/LICENSE
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/@vscodium/policy-watcher/build/
@@ -2202,7 +2214,7 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/ms/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/napi-build-utils/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/napi-build-utils/LICENSE
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/napi-build-utils/index.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/napi-build-utils/index.md
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/napi-build-utils/index.md (EMPTY)
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/napi-build-utils/package.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/native-is-elevated/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-is-elevated/LICENSE
@@ -2214,16 +2226,6 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/native-is-eleva
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/native-is-elevated/tst/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-is-elevated/tst/elevated.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-is-elevated/tst/normal.js
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/License.txt
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/PoliCheckExclusions.xml
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/SECURITY.md
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/ThirdPartyNotices.txt
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/build/
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/build/Release/
--rwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/build/Release/keymapping.node
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/index.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-keymap/package.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/native-watchdog/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-watchdog/LICENSE
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/native-watchdog/SECURITY.md
@@ -2546,11 +2548,11 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/tar/node_module
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tar/node_modules/yallist/package.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tar/node_modules/yallist/yallist.js
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tar/package.json
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client-umd/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client-umd/LICENSE
-drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client-umd/lib/
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client-umd/lib/tas-client-umd.js
--rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client-umd/package.json
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client/LICENSE.txt
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client/dist/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client/dist/tas-client.min.js
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tas-client/package.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/node_modules/tiny-inflate/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tiny-inflate/LICENSE
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/node_modules/tiny-inflate/index.js
@@ -3028,6 +3030,8 @@ drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vs/workbench/services/te
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/out/vscode-dts/
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/out/vscode-dts/vscode.d.ts
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/package.json
+drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/policies/
+-rw-r--r--	root/root	usr/lib/vscodium/resources/app/policies/policy.json
 -rw-r--r--	root/root	usr/lib/vscodium/resources/app/product.json
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/resources/
 drwxr-xr-x	root/root	usr/lib/vscodium/resources/app/resources/linux/
