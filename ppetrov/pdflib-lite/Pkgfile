@@ -5,7 +5,7 @@
 name=pdflib-lite
 version=7.0.5p3
 release=1
-source=(http://ponce.cc/slackware/sources/repo/PDFlib-Lite-$version.tar.gz)
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/PDFlib-Lite-$version.tar.gz)
 
 build() {
 	cd PDFlib-Lite-$version

@@ -6,7 +6,7 @@
 name=pal2nal
 version=14.1
 release=1
-source=(https://sourceforge.net/projects/sboppetrov/files/pal2nal/$name.v${version}.tar.gz)
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/pal2nal.v${version}.tar.gz)
 
 build() {
 	cd $name.v${version}
