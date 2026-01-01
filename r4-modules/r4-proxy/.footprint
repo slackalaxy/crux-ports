@@ -22,7 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/proxy/R/
 drwxr-xr-x	root/root	usr/lib/R/library/proxy/doc/
 -rw-r--r--	root/root	usr/lib/R/library/proxy/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/proxy/doc/overview.R
--rwxr-xr-x	root/root	usr/lib/R/library/proxy/doc/overview.Rnw
+-rw-r--r--	root/root	usr/lib/R/library/proxy/doc/overview.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/proxy/doc/overview.pdf
 drwxr-xr-x	root/root	usr/lib/R/library/proxy/help/
 -rw-r--r--	root/root	usr/lib/R/library/proxy/help/AnIndex

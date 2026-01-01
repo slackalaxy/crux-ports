@@ -5,9 +5,9 @@
 # Optional: r4-cba
 
 name=r4-proxy
-version=0.4.28
+version=0.4.29
 release=1
-source=(https://cloud.r-project.org/src/contrib/proxy_0.4-28.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/proxy_0.4-29.tar.gz)
 
 build() {
 	cd proxy

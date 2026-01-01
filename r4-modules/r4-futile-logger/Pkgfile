@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/futile.logger
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-futile-options r4-lambda-r
-# Optional: r4-jsonlite r4-testthat
+# Optional: r4-crayon r4-glue r4-httr r4-jsonlite r4-rsyslog r4-testit
 
 name=r4-futile-logger
-version=1.4.3
+version=1.4.9
 release=1
 source=(https://cloud.r-project.org/src/contrib/futile.logger_${version}.tar.gz)
 
