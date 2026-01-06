@@ -191,9 +191,9 @@ f:7ca850f408360639a3035c9081d2b9a5:ncbi-blast-plus/.footprint
 f:6db7271afef8ebd1033f5392970d993f:ncbi-blast-plus/Pkgfile
 f:ef37d9fb8d377097943fd351a5f7350b:ncbi-blast-plus/.signature
 f:8270de983566cf67b73f9982ceb8f26d:ncbi-blast-plus/README
-f:30715331f4a3ad9d5d298a1fb0d50934:ncbi-datasets/Pkgfile
+f:49157d4e55335329c9f015e8aab45e58:ncbi-datasets/Pkgfile
 f:147b81193a05924ca5ac9ba6b37838d5:ncbi-datasets/.footprint
-f:05890b4e96e396d992f89b1cb5076025:ncbi-datasets/.signature
+f:c076a20282bddb703246f1c6f11089a8:ncbi-datasets/.signature
 f:ec3984ec89c355d5510b3474ae82b193:pal2nal/.signature
 f:3b9988e4eff2a598e097edf0001fe0ef:pal2nal/.footprint
 f:42da94b200bd93271f7559c72947e2ab:pal2nal/Pkgfile
@@ -242,8 +242,8 @@ f:3b421d5225924bfc1c64e6048d6aaf90:wps-office/wps-office.desktop
 f:54f850c682671ec7cde829f9f2e98cd5:wps-office/wps-office.sh
 f:1f50a42ba7aa8c143ec5edc82f70f9c2:wps-office/en_GB.tar.xz
 f:a7d7a7e7e141569a31c9148deec1eb5e:zotero/.footprint
-f:fe6066fd134dfce13dc11a62425b90f4:zotero/.signature
-f:fec07650e5b2eca5eae973efd39973a8:zotero/Pkgfile
+f:3dfa7211d767c49b94684ce40c62738d:zotero/.signature
+f:cc30efd5d24306c3975b04b5f6396ad6:zotero/Pkgfile
 f:4c62dfd60de4225f05bfffc57129df4b:zotero/zotero.desktop
 f:eaa0bbd902525d02a6dfb7bfb2287b56:xsimd/.signature
 f:0423665faac4d12957dfecb84bd3afe5:xsimd/.footprint
@@ -255,9 +255,9 @@ f:b3ccf02c13ee8cb8b939f2d72e7f7a39:qt6ct/README
 f:7ad258e6a19e4f54c2ba2f8be4ffabe9:qt6gtk2/Pkgfile
 f:5c68df866a9cac699cc2248186d4d2bf:qt6gtk2/.signature
 f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
-f:2759888fdb2b872429f64bf83df210e7:rstudio-desktop/.footprint
-f:0c929c06521ac48364ea2dce00707a57:rstudio-desktop/.signature
-f:5f3c876286fd5627401c6bc83e42eae8:rstudio-desktop/Pkgfile
+f:0f12350df935c39bfc8658caf0e5855c:rstudio-desktop/.footprint
+f:6d046480d9cc42d5d72b4a1004ca3229:rstudio-desktop/.signature
+f:51fd0168026e4eacb30010eed17e48b0:rstudio-desktop/Pkgfile
 f:fd5f8f987131f8e4df29787557bd8d61:rstudio-desktop/rstudio.sh
 f:51c1f9138522d394d55dace5919047ca:seaview/Pkgfile
 f:fe57bed4fa0215e0867b68ef2aef27cf:seaview/.footprint
@@ -355,10 +355,10 @@ f:8b14fca3ffc2ce0bcd5d6746b19da66e:python3-pythran/Pkgfile
 f:28a561f3dace069d5bb11838c4b4d2ac:python3-scipy/.footprint
 f:76ac3db6fefd35920dd9c4bdeb54395f:python3-scipy/.signature
 f:963f1bc5a38c811ea0ef13c66dd878aa:python3-scipy/Pkgfile
-f:8563ef635f9f9657e53c8532180e5418:xscreensaver/Pkgfile
+f:b040737950a7811f2a06713540e38cde:xscreensaver/Pkgfile
 f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver/xscreensaver.pam
 f:d270ee5532a8808c77eebc924bac9f48:xscreensaver/.footprint
-f:fe7eb419fe119e9a5f86ee7dd6924b5a:xscreensaver/.signature
+f:6f7ad899e5eb09919c70392da1d709fd:xscreensaver/.signature
 f:fcdc1fb8ddacd4fae1119c421b57894d:xscreensaver/electricsheep.patch
 f:744a9efae236c9b7cfd5d2201ab01c30:onlyoffice/Pkgfile
 f:27ba96531c79eec000bd2e921f8d3f9b:onlyoffice/onlyoffice.png
@@ -388,7 +388,7 @@ f:b6087386db34b86a8163b2a88d1a22d5:acpid/acpid.rc
 f:107052da02d51d3959fc3d1ad502a200:acpid/default
 f:ef1256ca076823532f52ebf6964fae7c:hplip/.footprint
 f:6494e8ca19ef4e47d1c24f293dd0c073:hplip/.signature
-f:9e138a94563c837ad49e468a45da6721:hplip/Pkgfile
+f:25178c37938010610b560be5b602628d:hplip/Pkgfile
 f:8cf15c8027ac713bbaa2f82530fa4b63:hplip/hplip.colord.segfault.fix.patch
 f:d1c1e90d1c99361daf032a327c1eddef:hplip/hplip-covscan.patch
 f:1f587d61b073b54a0e0e303cd5b15be9:hplip/hplip-gcc15-stdc23.patch
