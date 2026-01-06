@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZWfgg6GryXTwP8NqyJ3sEqOEjWnflg4IQAO/0iuf3STba5uS5JNlwpSp7zrukgemJbPtr2pDQd3L1Pr1WEYABgQ=
-SHA256 (Pkgfile) = c7130592b89f37a65664b3dd3106d8cfc3884fd00bc564b6e87db72e10c74512
-SHA256 (.footprint) = cc3dedd4adb83c86c9e1629ab83cb7b35dbb99700fffe815866b14da82396541
-SHA256 (hplip-3.25.2.tar.gz) = e872ff28eb2517705a95f6e1839efa1e50a77a33aae8905278df2bd820919653
+RWToVVsIkzFIZdn+Qrsb6IE7+/28cqYAH0cqwEhRsCIBflmX678sd97Gf9AZ0ErwqTkqyuzs/mESGKeNgEmOG2mTemi/57iYYww=
+SHA256 (Pkgfile) = 388375863a16f8fd97e6cf8fc92b8ec96de60707a9915db030957499bc7473c8
+SHA256 (.footprint) = 9d1b1e42dee79f7cf2a2a5c1c36fa241cd7641982a8a7f526aac8236593886f2
+SHA256 (hplip-3.25.8.tar.gz) = 1cf6d6c28735435c8eb6646e83bcfb721e51c4b1f0e8cf9105a6faf96dc9ad25
 SHA256 (0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch) = 002d5b075e2a93a32a48ddd93d59b811c6403e98b1ba86a5f7ab4846c0aa6450
 SHA256 (0018-Allow-non-JPEG-scanning-on-the-HP-DeskJet-3520-All-i.patch) = b4df02f4614a4b2e373390102d90cd28972c371da903c3d45cc188494e8ea0ba
 SHA256 (0021-Add-include-cups-ppd.h-in-various-places-as-CUPS-2.2.patch) = d19f1133c1ca0bd8225574eaf22a45fcb62df1b513df425c5ce6d74b3917be1e
@@ -10,10 +10,12 @@ SHA256 (0023-Fix-handling-of-unicode-filenames-in-sixext.py.patch) = 85cd7fa2314
 SHA256 (0025-Remove-all-ImageProcessor-functionality-which-is-clo.patch) = 4d3cb82244e21c8d5814c2c53ba19ec2e8a78e336aa5249654f5944cd8d8388f
 SHA256 (0026-remove-unicode-space-from-models.dat) = 780be2b079465c89dff63e71c6a30d563c3cec4f761f9f7d1c1df1c7cf44dde1
 SHA256 (fix-desktop-file.patch) = 5e590f6af8637fe9be52d037655de467fca2e014c25bb7ae63c3080e02318c4b
+SHA256 (hplip.colord.segfault.fix.patch) = 4c5cf9b334e0e37be842fb425a0ed509389d716d3ea932f957e2a19e50f8cbb9
 SHA256 (hplip-covscan.patch) = 34823520a547eedb831d1763c45a22ad86331fc7a61beec806f837cafe88842b
+SHA256 (hplip-gcc15-stdc23.patch) = 0b318f36511cd7157e4456679a1cc92408d2ed780c6ce9ebd3dd0f62d2546697
 SHA256 (hplip-hpaio-gcc14.patch) = 10eca7bc2249a20365d97cc6cf3f15d5104ef74a5faa1c534a7f6994a15771fe
 SHA256 (hplip.no.upgrade.diff) = 6dacb3762ef5338f185942e3a2904010bcecfbaaf67624b1fa046d8ccfaa9b33
-SHA256 (hplip-pcardext-disable.patch) = 685e329cdffa007e6025696b08b4aa7835de80e3d59768613abedd67df115ac4
+SHA256 (hplip-pcardext-disable.patch) = 12e4b9126a59d8913cdbaff11d5149d72902e28554bcd1e2a4a2a7deb6ba0853
 SHA256 (hplip-pserror-c99.patch) = 02d5fd1a23f13f9879977c34d1c83364402995ef81c8ed04bca2dea5cb6e58cd
 SHA256 (hplip.python3.shebang.diff) = ad8b481bd1b1368aa4cd039760dc6630df0056bb7fac57f3ca153d08495c21d4
 SHA256 (hplip-scan-hpaio-include.patch) = 1bd845bf330c39fdf6d71498a88592414c2f8728a3b2ed8c4443c42db55024ac

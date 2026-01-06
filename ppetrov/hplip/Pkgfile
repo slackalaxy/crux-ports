@@ -1,5 +1,5 @@
 # Description: HP print/scan/fax support
-# URL: http://hplipopensource.com
+# URL: https://developers.hp.com/hp-linux-imaging-and-printing/gethplip
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: cups-filters gnutls gutenprint libidn2 python3-pyqt5
 # Optional: sane
@@ -26,8 +26,7 @@ source=(http://downloads.sourceforge.net/project/hplip/hplip/$version/hplip-$ver
 	hplip.python3.shebang.diff
 	hplip-scan-hpaio-include.patch
 	hplip-scan-orblite-c99.patch
-	setup.py.lc_all.c.diff
-	cupsd.conf)
+	setup.py.lc_all.c.diff)
 
 build() {
 
