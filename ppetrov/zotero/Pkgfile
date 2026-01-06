@@ -1,5 +1,5 @@
 # Description: Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research
-# URL: https://www.zotero.org/
+# URL: https://www.zotero.org/download/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: alsa-lib brotli dbus-glib graphite2 gtk3 libxkbcommon nss wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
