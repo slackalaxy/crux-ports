@@ -5,9 +5,10 @@
 
 name=grub2-default
 version=3.8
-release=1
-source=($name)
+release=2
+source=($name 4800ea3.png)
 
 build() {
 	install -D -m644 $SRC/$name $PKG/etc/default/grub
+	install -D -m644 $SRC/4800ea3.png $PKG/boot/grub/4800ea3.png
 }

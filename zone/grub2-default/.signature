@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwRYPI2ls3CsYKw6v9ahqxqktEcB91XFz4W0jBysbMG8qvzEYB+Ecw9xOPyJy/frxTISD0sgMY8fJm0mG38wouAY=
-SHA256 (Pkgfile) = fcb7fd4c28621369d64e506948be9c104f31e2b9756cf9071943be377f6f0f16
-SHA256 (.footprint) = 8dc2d59e378fc885ab88ac29da03c36cbc58590b6f34015fa51994db1c59f6d1
-SHA256 (grub2-default) = c9bf35040267717edfd878b30910538b1dc00f27e606cec428e2ca7875d95a17
+RWRPokwW0IImwXCVlunyd8jpiu4Iubx6GAb84S4JEYwPncWzMg7fU4R/xF85y6VC2VeAvFV43/aPX068kdgwRK+UDbsB8iKluQ8=
+SHA256 (Pkgfile) = b518fabbec35cb91ad1a72a57c350da1eec780e19bfde2a888c0e22f59e2e3d2
+SHA256 (.footprint) = ca8c61bbbb0134c0d90043e996e8a1a1fea3930a33e2e2bd0acd99ef428d56c5
+SHA256 (grub2-default) = 607164466f75072645ad2fb97ae3b44d79d3496cedd09689cbf199beae0983c7
+SHA256 (4800ea3.png) = bef4c6bda0f3d88230994baf4290b188d4a60d32a24ba874bd7958a2f59d7923
