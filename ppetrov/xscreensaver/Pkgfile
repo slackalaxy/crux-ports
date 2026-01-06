@@ -1,5 +1,5 @@
 # Description: XScreenSaver patched to work with electricsheep and rss-glx
-# URL: https://www.jwz.org/xscreensaver/
+# URL: https://www.jwz.org/xscreensaver/download.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: ffmpeg glu gnutls graphite2 gtk3 lcms2 libidn2 librsvg libvorbis opus xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt
 

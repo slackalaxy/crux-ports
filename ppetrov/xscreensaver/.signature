@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZVyPTuWoCItYSvg+yiEd/6PtsfF6MgTg5ppv9wXBEbHFtLi4SEklrrizxP6qoix9JB2XKChkJHKgAakYHXXtYgE=
-SHA256 (Pkgfile) = 4e5f3dc946e60a979dc81f44459cf1e85169b600cd01e6617e513ef6137afe03
+RWToVVsIkzFIZaSS48d72MHmE4t/wjFbTRfjqig07hwcpJJvezr0l3l+/K0F1dZnvejJqh5yLgRxr6pL2zs/xZyRW8kVHypFtgI=
+SHA256 (Pkgfile) = 59f84fe130106ce431d3fb409429ad425e3638b03eb0b1ec68ea50fc4d495f7d
 SHA256 (.footprint) = bb8fc5ac9f2cd6de00a5b45c47c076b5218bab3182b082a613fe905745f132a8
 SHA256 (xscreensaver-6.13.tar.gz) = a73148dd21627cff2e75131c8e0c1b095f334c68b22e09f36d37cc27961167b7
 SHA256 (xscreensaver.pam) = bf8bfc428530824f4de3582481b21bad8c6d095ffbf91aa7173dda3e158604e1
