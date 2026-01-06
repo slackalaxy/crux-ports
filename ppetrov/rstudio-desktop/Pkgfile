@@ -5,7 +5,7 @@
 # Optional: r4-learnr
 
 name=rstudio-desktop
-version=2025.09.2+418
+version=2026.01.0+392
 _pebble=a122a85
 release=1
 source=(https://download1.rstudio.org/electron/rhel9/x86_64/rstudio-${version/+/-}-x86_64.rpm
