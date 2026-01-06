@@ -387,8 +387,8 @@ f:5b75ac83f4be996d9669609028490eab:acpid/acpi_handler.sh
 f:b6087386db34b86a8163b2a88d1a22d5:acpid/acpid.rc
 f:107052da02d51d3959fc3d1ad502a200:acpid/default
 f:ef1256ca076823532f52ebf6964fae7c:hplip/.footprint
-f:6494e8ca19ef4e47d1c24f293dd0c073:hplip/.signature
-f:25178c37938010610b560be5b602628d:hplip/Pkgfile
+f:dc42f1fd56fa0a10a08b2212b37c1042:hplip/.signature
+f:43ee5175a00738b5be92099f1026852e:hplip/Pkgfile
 f:8cf15c8027ac713bbaa2f82530fa4b63:hplip/hplip.colord.segfault.fix.patch
 f:d1c1e90d1c99361daf032a327c1eddef:hplip/hplip-covscan.patch
 f:1f587d61b073b54a0e0e303cd5b15be9:hplip/hplip-gcc15-stdc23.patch
