@@ -44,7 +44,7 @@ f:21de880982176e50a08de3a5db4abb9d:grub2-default/.signature
 f:82a3df90d2df7172c0ae8e08a00b5e1d:grub2-default/Pkgfile
 f:0ca018ce7b11a39435203c182c2553d0:grub2-default/4800ea3.png
 f:a4adaa9a17332ff71d5a600f3a39e52c:kernel-modular/Pkgfile
-f:5b18a1170b0a501ba33164f3a0505fbe:kernel-modular/README
+f:975706e2607ba0174f317b9d3f6f65cc:kernel-modular/README
 f:acb9a5eea827b178d514069d01ab5804:kernel-modular/.footprint
 f:40de97595274d9dad20c4fcd6d0abc46:kernel-modular/.signature
 f:b2671e6fc20f6117a68d6e1d0f08691e:kernel-modular/config-6.12.28

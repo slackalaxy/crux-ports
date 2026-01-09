@@ -27,14 +27,10 @@ File systems --->
   [*]   XFS Quota support
   [*]   XFS POSIX ACL support 
   
-It is up to you to create this symlink for System.map:
+It is up to you to create these symlinks (disputed if needed anymore):
 
-	/boot/System.map -> /boot/System.map-6.12.25-m
-
-Same goes for the kernel itself (disputed if needed):
-	
-	/usr/src/linux-6.12.25-m/ -> /usr/src/linux
-
+  /boot/System.map -> /boot/System.map-6.12.25-m
+  /usr/src/linux -> /usr/src/linux-6.12.25-m/
 
 Don't forget to update Grub config, e.g.:
 
@@ -48,9 +44,9 @@ automatically create a boot entry and make it active.
 
 GRUB, in legacy (non-UEFI) boot mode. Install grub2 into the MBR, by:
 
-  grub-install /dev/sd??
+  grub-install /dev/sd?
 
-Replace /dev/sd?? with the actual node of the device whose MBR you want
+Replace /dev/sd? with the actual node of the device whose MBR you want
 to overwrite, e.g. /dev/sda, for the first SATA disk. 
 
 In either case, run afterwards:
