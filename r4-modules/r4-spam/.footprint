@@ -40,8 +40,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/spam/demodata/
 -rw-r--r--	root/root	usr/lib/R/library/spam/demodata/germany.adjacency
 drwxr-xr-x	root/root	usr/lib/R/library/spam/doc/
 -rw-r--r--	root/root	usr/lib/R/library/spam/doc/index.html
--rw-r--r--	root/root	usr/lib/R/library/spam/doc/jss15.pdf
--rw-r--r--	root/root	usr/lib/R/library/spam/doc/jss15.pdf.asis
 -rw-r--r--	root/root	usr/lib/R/library/spam/doc/spam.R
 -rw-r--r--	root/root	usr/lib/R/library/spam/doc/spam.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/spam/doc/spam.pdf

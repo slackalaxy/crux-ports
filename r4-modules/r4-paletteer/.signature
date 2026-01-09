@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89EYzBP14iwm9KGYuUnm/8H/KgsNtanF88f9lsCaNUbIt72zb+8BloRRvNr14I5garStb6qM4H5fDZYT4qSuxkg0=
-SHA256 (Pkgfile) = c4efaf82c43a41ae44056dd2ae7c2828650730fdadb748b5199705a3598020e0
+RWQ2oTreAss89LzOfHOYC2ET3RAhRE4RU6zUR63OAsZi0roJncmFMcHqWvMGAc8ai8R5reE47woGv77Ic9LxCiJlB+CYplfvdAU=
+SHA256 (Pkgfile) = d0985ee8a5a4a4b253dbe8030e0ebaa1b15eb0fbcc6aaad20131582966925cd9
 SHA256 (.footprint) = f27d8fbae9f1c1b4b4c573ace9988929981bdb09abcee4244fb0b941c1de3c6a
-SHA256 (paletteer_1.6.0.tar.gz) = b5de20300c93df203ddc4f3bfeb0a825ef2745c22d66590b33cef9e7448d92d8
+SHA256 (paletteer_1.7.0.tar.gz) = 2b467fb0750e6e02d1340844286dd0271f9caa07084252d88a2a5b5ee2e43b8b

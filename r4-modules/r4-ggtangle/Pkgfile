@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/ggtangle
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-ggfun r4-ggplot2 r4-ggrepel r4-igraph r4-rlang r4-yulab-utils
-# Optional: r4-aplot r4-cli r4-ggnewscale r4-ggtree r4-knitr r4-prettydoc r4-rmarkdown r4-scatterpie
+# Optional: r4-aplot r4-cli r4-ggnewscale r4-ggtree r4-quarto r4-scatterpie
 
 name=r4-ggtangle
-version=0.0.9
+version=0.1.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggtangle_${version}.tar.gz)
 

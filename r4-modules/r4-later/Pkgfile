@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/later
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-rcpp r4-rlang
-# Optional: r4-knitr r4-nanonext r4-rmarkdown r4-testthat
+# Optional: r4-knitr r4-nanonext r4-promises r4-rmarkdown r4-testthat
 
 name=r4-later
-version=1.4.4
+version=1.4.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/later_${version}.tar.gz)
 

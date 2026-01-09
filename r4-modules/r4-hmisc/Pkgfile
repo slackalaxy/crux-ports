@@ -5,9 +5,9 @@
 # Optional: r4-abind r4-acepack r4-boot r4-chron r4-digest r4-getpass r4-gt r4-htm2txt r4-htmlwidgets r4-jsonlite r4-kableextra r4-keyring r4-lattice r4-latticeextra r4-leaps r4-mice r4-pcapp r4-plotly r4-polspline r4-qreport r4-qs r4-rio r4-rlang r4-rms r4-rstudioapi r4-safer r4-sparkline r4-survival r4-tables r4-vgam
 
 name=r4-hmisc
-version=5.2.4
+version=5.2.5
 release=1
-source=(https://cloud.r-project.org/src/contrib/Hmisc_5.2-4.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/Hmisc_5.2-5.tar.gz)
 
 build() {
 	cd Hmisc

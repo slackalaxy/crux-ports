@@ -1,11 +1,11 @@
 # Description: R module lifecycle
 # URL: https://cran.r-project.org/web/packages/lifecycle
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-glue r4-rlang
-# Optional: r4-covr r4-crayon r4-knitr r4-lintr r4-rmarkdown r4-testthat r4-tibble r4-tidyverse r4-vctrs r4-withr
+# Depends on: r r4-cli r4-rlang
+# Optional: r4-covr r4-knitr r4-lintr r4-rmarkdown r4-testthat r4-tibble r4-tidyverse r4-vctrs r4-withr r4-xml2
 
 name=r4-lifecycle
-version=1.0.4
+version=1.0.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/lifecycle_${version}.tar.gz)
 

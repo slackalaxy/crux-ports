@@ -13,7 +13,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/tidytree/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/Meta/links.rds
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/Meta/package.rds
--rw-r--r--	root/root	usr/lib/R/library/tidytree/Meta/vignette.rds
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/NAMESPACE
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/NEWS
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/NEWS.md
@@ -21,11 +20,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/tidytree/R/
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/R/tidytree
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/R/tidytree.rdb
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/R/tidytree.rdx
-drwxr-xr-x	root/root	usr/lib/R/library/tidytree/doc/
--rw-r--r--	root/root	usr/lib/R/library/tidytree/doc/index.html
--rw-r--r--	root/root	usr/lib/R/library/tidytree/doc/tidytree.R
--rw-r--r--	root/root	usr/lib/R/library/tidytree/doc/tidytree.Rmd
--rw-r--r--	root/root	usr/lib/R/library/tidytree/doc/tidytree.html
 drwxr-xr-x	root/root	usr/lib/R/library/tidytree/help/
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/tidytree/help/aliases.rds

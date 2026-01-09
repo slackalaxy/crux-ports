@@ -5,7 +5,7 @@
 # Optional: r4-carrier r4-covr r4-dplyr r4-httr r4-knitr r4-lubridate r4-mirai r4-rmarkdown r4-testthat r4-tibble r4-tidyselect
 
 name=r4-purrr
-version=1.2.0
+version=1.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/purrr_${version}.tar.gz)
 

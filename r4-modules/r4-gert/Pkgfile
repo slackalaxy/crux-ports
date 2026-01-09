@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-rmarkdown r4-spelling r4-testthat
 
 name=r4-gert
-version=2.2.0
+version=2.3.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/gert_${version}.tar.gz)
 

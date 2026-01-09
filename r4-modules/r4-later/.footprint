@@ -39,3 +39,4 @@ drwxr-xr-x	root/root	usr/lib/R/library/later/include/
 -rw-r--r--	root/root	usr/lib/R/library/later/include/later_api.h
 drwxr-xr-x	root/root	usr/lib/R/library/later/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/later/libs/later.so
+-rw-r--r--	root/root	usr/lib/R/library/later/promise_task.cpp

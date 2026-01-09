@@ -108,6 +108,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/parallelly/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-availableCores.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-availableWorkers.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-cgroups.R
+-rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-cli.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-cloneNode.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-cpuLoad.R
 -rw-r--r--	root/root	usr/lib/R/library/parallelly/testme/test-freeCores.R
