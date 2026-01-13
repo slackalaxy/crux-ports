@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/VennDiagram/
+-rw-r--r--	root/root	usr/lib/R/library/VennDiagram/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/VennDiagram/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/VennDiagram/INDEX
 drwxr-xr-x	root/root	usr/lib/R/library/VennDiagram/Meta/

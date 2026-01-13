@@ -5,9 +5,9 @@
 # Optional: r4-spatstat-model
 
 name=r4-spatstat-utils
-version=3.2.0
+version=3.2.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/spatstat.utils_3.2-0.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/spatstat.utils_3.2-1.tar.gz)
 
 build() {
 	cd spatstat.utils

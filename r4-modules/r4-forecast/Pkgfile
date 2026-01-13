@@ -5,7 +5,7 @@
 # Optional: r4-forectheta r4-knitr r4-rmarkdown r4-rticles r4-scales r4-seasonal r4-testthat r4-uroot
 
 name=r4-forecast
-version=8.24.0
+version=9.0.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/forecast_${version}.tar.gz)
 

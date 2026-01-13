@@ -21,10 +21,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppAnnoy/R/
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/R/RcppAnnoy.rdb
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/R/RcppAnnoy.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/RcppAnnoy/demo/
+-rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/demo/irisExample.R
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/demo/simpleExample.R
 drwxr-xr-x	root/root	usr/lib/R/library/RcppAnnoy/doc/
--rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/doc/UsingAnnoyInCppWrapper.Rnw
--rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/doc/UsingAnnoyInCppWrapper.pdf
+-rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/doc/UsingAnnoyInCpp.pdf
+-rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/doc/UsingAnnoyInCpp.pdf.asis
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/doc/index.html
 drwxr-xr-x	root/root	usr/lib/R/library/RcppAnnoy/help/
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/help/AnIndex
@@ -49,6 +50,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppAnnoy/tinytest/
 drwxr-xr-x	root/root	usr/lib/R/library/RcppAnnoy/tinytest/data/
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/tinytest/data/test.tree
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/tinytest/testAngular.R
+-rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/tinytest/testDotProduct.R
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/tinytest/testEuclidean.R
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/tinytest/testHamming.R
 -rw-r--r--	root/root	usr/lib/R/library/RcppAnnoy/tinytest/testIndex.R

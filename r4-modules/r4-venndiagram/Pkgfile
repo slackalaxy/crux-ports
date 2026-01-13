@@ -5,7 +5,7 @@
 # Optional: r4-testthat
 
 name=r4-venndiagram
-version=1.7.3
+version=1.8.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/VennDiagram_${version}.tar.gz)
 

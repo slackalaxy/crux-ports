@@ -5,7 +5,7 @@
 # Optional: r4-tm
 
 name=r4-lsa
-version=0.73.3
+version=0.73.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/lsa_${version}.tar.gz)
 

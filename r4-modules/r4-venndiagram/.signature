@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IOEBj/crsHUS7ibB8p3zhMnTE/wMKca3CrpahDFEJSEvModUHU7jyQsiEBRpvSAcvTSbir1l9lcYiaBdiaVogw=
-SHA256 (Pkgfile) = 8dc23b9073bcaad4aec95fd3bad026e978e2bfa54dc1d77fbc4b47e341f2d31f
-SHA256 (.footprint) = 7480f7f643c03e2189c328bc2ef5d99536f26c836378bacf3afc341a45ce95d7
-SHA256 (VennDiagram_1.7.3.tar.gz) = e7c2475f7613241787e6c85bd03315e4fd88413ccbbb735959756a8c2eeb8c46
+RWQ2oTreAss89BKDviTli9t99fhX1butW7W7zL4MBg2wqfui7Hpbm7mEYKUk9VKKp3bHmideh54s/cxosy6fOtQ/j9f4cadNhgM=
+SHA256 (Pkgfile) = e65c68b10828b84b120b90955a7ad113cd3f5058583fe3f0b58204e175539158
+SHA256 (.footprint) = b75d45d1ff5208bd6477ef75dfb2f16508a098b852eff74013a8ff339b95fe07
+SHA256 (VennDiagram_1.8.2.tar.gz) = 24b9751b7a537f7eb6273f14dd845f0ca38c2f5230b619ff637a839f8489fd93
