@@ -4,7 +4,7 @@
 # Depends on: fuse xorg
 
 name=onlyoffice
-version=9.2.0
+version=9.2.1
 release=1
 source=(https://github.com/ONLYOFFICE/appimage-desktopeditors/releases/download/v${version}/DesktopEditors-x86_64.AppImage
 	$name.desktop $name.sh $name.png)
