@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-mcmcglmm r4-phylobase r4-readxl r4-rmarkdown r4-rnexml r4-testthat
 
 name=r4-rotl
-version=3.1.0
+version=3.1.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/rotl_${version}.tar.gz)
 

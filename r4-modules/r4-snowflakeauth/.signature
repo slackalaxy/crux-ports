@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AAXJOg6xiGYKp53pUo+Q6HFODxo3BrORFPefW2bECtuiGY3JkcyG+9zxL+l27Mgf3J/pJmfBlXtCGwEFugRzgQ=
-SHA256 (Pkgfile) = 6a1ce61bc1f5d5d8a59a191d0635271bbbd0eb6c3ccaff2e685c5082f531bf99
+RWQ2oTreAss89JIm2XCpdzxcfFKTbRKJAw6k8ajxKnobgv4/xwxsKkvEphBnlsg2faNi7shZ3J5MCLyMg4604fhBNTaAFQ75hwA=
+SHA256 (Pkgfile) = ff7eea6e3c779adf1f5a1eeba6fdfd8a2b088d3b4eed3a364802fa259f28e0af
 SHA256 (.footprint) = f6277dbc8a0b558661ed0d1a9954c8d8125a17095c625cc79dc13a5b0d387877
-SHA256 (snowflakeauth_0.2.0.tar.gz) = 880d90a6dfc2638f3800a5316624b93748905002822cb45d8e45c290d4e06b08
+SHA256 (snowflakeauth_0.2.1.tar.gz) = f34b7d44d9c2aeba2b37e17d9af28590e931684c6aba4d96ef01b14b77838bc1

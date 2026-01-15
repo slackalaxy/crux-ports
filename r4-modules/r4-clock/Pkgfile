@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-knitr r4-magrittr r4-pillar r4-rmarkdown r4-slider r4-testthat r4-withr
 
 name=r4-clock
-version=0.7.3
+version=0.7.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/clock_${version}.tar.gz)
 

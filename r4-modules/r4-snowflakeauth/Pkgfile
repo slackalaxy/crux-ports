@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/snowflakeauth
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-cli r4-curl r4-jose r4-jsonlite r4-openssl r4-rcpptoml r4-rlang
-# Optional: r4-testthat r4-withr
+# Optional: r4-httpuv r4-testthat r4-withr
 
 name=r4-snowflakeauth
-version=0.2.0
+version=0.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/snowflakeauth_${version}.tar.gz)
 

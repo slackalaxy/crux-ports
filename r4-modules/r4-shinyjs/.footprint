@@ -31,9 +31,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyjs/doc/
 -rw-r--r--	root/root	usr/lib/R/library/shinyjs/doc/shinyjs-usage.R
 -rw-r--r--	root/root	usr/lib/R/library/shinyjs/doc/shinyjs-usage.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/shinyjs/doc/shinyjs-usage.html
--rw-r--r--	root/root	usr/lib/R/library/shinyjs/doc/shinyjs.R
--rw-r--r--	root/root	usr/lib/R/library/shinyjs/doc/shinyjs.Rmd
--rw-r--r--	root/root	usr/lib/R/library/shinyjs/doc/shinyjs.html
 drwxr-xr-x	root/root	usr/lib/R/library/shinyjs/examples/
 drwxr-xr-x	root/root	usr/lib/R/library/shinyjs/examples/basic/
 -rw-r--r--	root/root	usr/lib/R/library/shinyjs/examples/basic/DESCRIPTION

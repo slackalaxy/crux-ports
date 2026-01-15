@@ -5,7 +5,7 @@
 # Optional: r4-htmltools r4-knitr r4-rmarkdown r4-shinyace r4-shinydisconnect r4-testthat
 
 name=r4-shinyjs
-version=2.1.0
+version=2.1.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/shinyjs_${version}.tar.gz)
 
