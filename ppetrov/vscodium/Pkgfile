@@ -4,8 +4,8 @@
 # Depends on: alsa-lib avahi brotli cups gnutls graphite2 gtk3 libidn2 libxkbcommon nss wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxkbfile
 
 name=vscodium
-version=1.107.18627
-release=2
+version=1.108.10359
+release=1
 source=(https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-linux-x64-$version.tar.gz
 	$name.desktop $name.png)
 
