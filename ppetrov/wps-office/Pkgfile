@@ -4,16 +4,16 @@
 # Depends on: brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland
 
 name=wps-office
-version=12.1.2.23578.AK
-_preread=542488
+version=12.1.2.24722
+_preread=612408
 _elogind=255.5
 release=1
-source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.preread.sw_${_preread}_amd64.deb
+source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.AK.preread.sw_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
 	en_GB.tar.xz $name.sh $name.desktop)
 
 build() {
-	ar -x $SRC/${name}_${version}.preread.sw_${_preread}_amd64.deb
+	ar -x $SRC/${name}_${version}.AK.preread.sw_${_preread}_amd64.deb
 	tar xvf data.tar.xz
 	
 	mkdir -p $PKG/usr/lib/$name
