@@ -4,7 +4,7 @@
 # Depends on: gtk qt6ct
 
 name=qt6gtk2
-version=0.6
+version=0.7
 release=1
 source=(https://www.opencode.net/trialuser/qt6gtk2/-/archive/$version/$name-$version.tar.gz)
 
