@@ -28,6 +28,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/
 drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/rmd/
 drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/rmd/flexdashboard/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/rmd/flexdashboard/flexdashboard.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/rmd/flexdashboard/flexdashboard.html
 drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/rmd/xaringan/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/rmd/xaringan/xaringan.Rmd
 drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/shiny/

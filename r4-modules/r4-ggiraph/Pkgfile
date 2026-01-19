@@ -5,7 +5,7 @@
 # Optional: r4-ggbeeswarm r4-ggrepel r4-hexbin r4-knitr r4-maps r4-quantreg r4-rmarkdown r4-sf r4-shiny r4-tinytest r4-xml2
 
 name=r4-ggiraph
-version=0.9.2
+version=0.9.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggiraph_${version}.tar.gz)
 

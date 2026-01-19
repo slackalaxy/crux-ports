@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89CSz6ULRVdTtlUiiJpZE88bNmMYlPaiJz2KFqreKf4uUpde76qBSnFggmq8dVA1BwX+Vk/25rOJfoBjXqEZGQwE=
-SHA256 (Pkgfile) = f11dfc31d0e0e74fad3db875e4dc4f2fb09dbbb203684404e366f05f5d165da6
+RWQ2oTreAss89LUveWUGFz5BlE1Ru87PKrbOiOW84XeQeQUHk/OBTphKDFVXsUxpbjVFDVhrPlRQW+U93y48msyhrtcsxzTQags=
+SHA256 (Pkgfile) = bf9503843ebf0f731f22a58525aa44f50c9068874dbe3236a934a6a675ba6d53
 SHA256 (.footprint) = 70137fbf265998a362da03cba2c56af014d74e4d7992422c9d10e450ea411813
-SHA256 (ggtangle_0.1.0.tar.gz) = 1dafea1fda7ebd0441035d2e4fcd79f764297066b0ec28595cbef0b61144a6e1
+SHA256 (ggtangle_0.1.1.tar.gz) = 255f1af1d025b1eb5a3e149125ec4610792fc653e2902fa752f3fcc35596b80c

@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-fastmatch
-version=1.1.6
+version=1.1.8
 release=1
-source=(https://cloud.r-project.org/src/contrib/fastmatch_1.1-6.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/fastmatch_1.1-8.tar.gz)
 
 build() {
 	cd fastmatch

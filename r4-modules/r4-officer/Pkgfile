@@ -5,7 +5,7 @@
 # Optional: r4-devemf r4-doconv r4-gdtools r4-ggplot2 r4-knitr r4-magick r4-rmarkdown r4-rsvg r4-testthat r4-withr
 
 name=r4-officer
-version=0.7.2
+version=0.7.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/officer_${version}.tar.gz)
 

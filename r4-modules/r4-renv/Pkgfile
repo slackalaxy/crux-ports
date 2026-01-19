@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/renv
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: r4-biocmanager r4-cli r4-covr r4-cpp11 r4-devtools r4-generics r4-gitcreds r4-jsonlite r4-jsonvalidate r4-knitr r4-miniui r4-modules r4-packrat r4-pak r4-r6 r4-remotes r4-reticulate r4-rmarkdown r4-rstudioapi r4-shiny r4-testthat r4-uuid r4-waldo r4-webfakes r4-yaml
+# Optional: r4-biocmanager r4-cli r4-covr r4-cpp11 r4-curl r4-devtools r4-generics r4-gitcreds r4-jsonlite r4-jsonvalidate r4-knitr r4-miniui r4-modules r4-packrat r4-pak r4-r6 r4-remotes r4-reticulate r4-rmarkdown r4-rstudioapi r4-shiny r4-testthat r4-uuid r4-waldo r4-webfakes r4-yaml
 
 name=r4-renv
-version=1.1.5
+version=1.1.6
 release=1
 source=(https://cloud.r-project.org/src/contrib/renv_${version}.tar.gz)
 
