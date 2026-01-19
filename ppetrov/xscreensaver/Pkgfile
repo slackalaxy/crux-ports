@@ -4,7 +4,7 @@
 # Depends on: ffmpeg glu gnutls graphite2 gtk3 lcms2 libidn2 librsvg libvorbis opus xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt
 
 name=xscreensaver
-version=6.13
+version=6.14
 release=1
 source=(https://www.jwz.org/xscreensaver/xscreensaver-$version.tar.gz
 	$name.pam electricsheep.patch)
