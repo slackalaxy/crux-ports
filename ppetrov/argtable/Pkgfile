@@ -1,5 +1,5 @@
 # Description: ANSI C library for parsing command line arguments
-# URL: http://argtable.sourceforge.net/
+# URL: https://sourceforge.net/projects/argtable/files/argtable/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=argtable
