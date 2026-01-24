@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BAc95oJtWUW51iuoLKkcU66+uaMdomDnFbifUZi/ItsMMJvT8zjjtWnbXWGx5x6q8CuDM65mMUjmVRbICIHYwU=
-SHA256 (Pkgfile) = 679c61b69faaf958fb8a8d200011cddb8f22ba99cd21f936e42f7aec689440c8
+RWQ2oTreAss89GmhxeDiKKoI5AFOfAsmpkeVVgfVUFs9LpBYD+uWvaSDs3AEDXR4PMHaVM8SVyDi7jCcMVAk1K0YYRwSdGMiQQc=
+SHA256 (Pkgfile) = 7f7825585bb824ab1cfeb962616eaa0b151653a32e62f498d42e671b425c0be3
 SHA256 (.footprint) = a3b6d6a1966bff8fe270dcf0bf8235de1ba3175d084b8c0852002341e7e721bd
-SHA256 (rbibutils_2.4.tar.gz) = 007e7a28fabc8c799d2c9cd633077349396257bb4e598a864514e19fc0f3215a
+SHA256 (rbibutils_2.4.1.tar.gz) = da313d920a0f35ffdf30a54929ba8904b2b5a0d7f11a519db8674148129c8f32

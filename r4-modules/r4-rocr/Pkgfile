@@ -5,9 +5,9 @@
 # Optional: r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-rocr
-version=1.0.11
+version=1.0.12
 release=1
-source=(https://cloud.r-project.org/src/contrib/ROCR_1.0-11.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/ROCR_1.0-12.tar.gz)
 
 build() {
 	cd ROCR

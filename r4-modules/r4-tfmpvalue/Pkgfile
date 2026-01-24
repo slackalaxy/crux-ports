@@ -5,7 +5,7 @@
 # Optional: r4-testthat
 
 name=r4-tfmpvalue
-version=0.0.9
+version=1.0.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/TFMPvalue_${version}.tar.gz)
 

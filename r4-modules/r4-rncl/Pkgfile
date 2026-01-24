@@ -5,7 +5,7 @@
 # Optional: r4-ape r4-testthat
 
 name=r4-rncl
-version=0.8.8
+version=0.8.9
 release=1
 source=(https://cloud.r-project.org/src/contrib/rncl_${version}.tar.gz)
 

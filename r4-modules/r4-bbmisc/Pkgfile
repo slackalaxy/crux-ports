@@ -1,11 +1,11 @@
 # Description: R module BBmisc
 # URL: https://cran.r-project.org/web/packages/BBmisc
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-checkmate r4-data-table
+# Depends on: r r4-checkmate r4-data-table
 # Optional: r4-codetools r4-microbenchmark r4-testthat
 
 name=r4-bbmisc
-version=1.13
+version=1.13.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/BBmisc_${version}.tar.gz)
 

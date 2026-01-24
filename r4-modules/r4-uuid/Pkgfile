@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-uuid
-version=1.2.1
+version=1.2.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/uuid_1.2-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/uuid_1.2-2.tar.gz)
 
 build() {
 	cd uuid
