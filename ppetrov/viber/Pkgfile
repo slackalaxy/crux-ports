@@ -4,30 +4,21 @@
 # Depends on: fuse xorg
 
 name=viber
-version=24.9.0.3
+version=27.0.0.1
 release=1
 source=(https://download.cdn.viber.com/desktop/Linux/viber.AppImage
-	https://raw.githubusercontent.com/google/fonts/main/ofl/notoemoji/NotoEmoji[wght].ttf
-	$name.sh $name.fonts.conf $name.desktop $name.png)
-renames=(viber.AppImage-$version SKIP SKIP SKIP SKIP SKIP)
+	$name.sh $name.desktop $name.png)
+renames=(viber.AppImage-$version SKIP SKIP SKIP)
 
 build() {
 	
 	# Install the app image
 	install -D -m 0755 $SRC/viber.AppImage-$version $PKG/usr/lib/$name/viber.AppImage
 
-	# Include Noto Emoji B&W emoji font. See about custom fonts config:
-	# https://bbs.archlinux.org/viewtopic.php?pid=1924209#p1924209
-	install -D -m 0644 $SRC/NotoEmoji[wght].ttf $PKG/usr/lib/viber/fonts/NotoEmoji[wght].ttf
-	install -D -m 0644 $SRC/$name.fonts.conf $PKG/etc/fonts/$name.conf
-	
-	# Comment out. We set this already in the wrapper.
-	#sed -i 's:/opt/viber/Viber:env FONTCONFIG_FILE=/etc/fonts/viber.conf /usr/bin/ViberPC:' $PKG/usr/share/applications/$name.desktop
-	
 	# Install wrapper
 	install -D -m 0755 $SRC/$name.sh $PKG/usr/bin/$name
 	
 	# Menu entry
-	install -D -m0644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
-	install -D -m0644 $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
+	install -D -m 0644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+	install -D -m 0644 $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
 }

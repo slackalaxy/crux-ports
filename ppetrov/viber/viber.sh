@@ -1,4 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
-export FONTCONFIG_FILE=/etc/fonts/viber.conf
-/usr/lib/viber/viber.AppImage
+APPIMAGE="/usr/lib/viber/viber.AppImage"
+
+env \
+  GIO_EXTRA_MODULES="" \
+  GIO_MODULE_DIR="" \
+  "$APPIMAGE"

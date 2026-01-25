@@ -1,13 +1,8 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/fonts/
--rw-r--r--	root/root	etc/fonts/viber.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/viber
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/viber/
-drwxr-xr-x	root/root	usr/lib/viber/fonts/
--rw-r--r--	root/root	usr/lib/viber/fonts/NotoEmoji[wght].ttf
 -rwxr-xr-x	root/root	usr/lib/viber/viber.AppImage
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
