@@ -233,10 +233,10 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
-f:a8a38671bca738c43ba200619ba83c17:wps-office/.signature
+f:1927f6f10cd2b703261989532713eaeb:wps-office/.signature
 f:aeaa4f0dc9d7d8e82058780edb6b7ccb:wps-office/README
-f:b1ff24d40da2b70f047b11b23c15434a:wps-office/Pkgfile
-f:2393b0f0e2bf5a8538c0200778ea6f9e:wps-office/.footprint
+f:a5a9d4cc1ae79b258acdb2edce6d0e9b:wps-office/Pkgfile
+f:c9cee7caa7a5ef39fbe0344ab19708a7:wps-office/.footprint
 f:34f2acef2c0d585c10ddcad02868541a:wps-office/post-install
 f:3b421d5225924bfc1c64e6048d6aaf90:wps-office/wps-office.desktop
 f:54f850c682671ec7cde829f9f2e98cd5:wps-office/wps-office.sh
