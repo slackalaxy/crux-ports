@@ -80,6 +80,7 @@ d:bpp1-utils
 d:openvpn
 d:acpid
 d:hplip
+d:python3-tinycss2
 d:gnumeric
 d:gtkmm2
 d:kdsingleapplication
@@ -406,6 +407,9 @@ f:627974e8921577fac5fa573511949133:hplip/fix-desktop-file.patch
 f:400ca0994c42f2611efed8134f368bea:hplip/hplip.no.upgrade.diff
 f:9d4c453dfd280a6c82e51cffaef32692:hplip/hplip.python3.shebang.diff
 f:f43aab847b59c3c04243b9dfa6611d58:hplip/setup.py.lc_all.c.diff
+f:105811fe52282c0cf80c88fe98293d37:python3-tinycss2/Pkgfile
+f:3edea09241c4c33d22c015145bcbaf55:python3-tinycss2/.footprint
+f:ab2d039677539ecf65a20dd17bf151f9:python3-tinycss2/.signature
 f:2ef91eed47b019b07d065df3692dd87e:gnumeric/.footprint
 f:74b941d4b5e6a1839d2cc276497b2151:gnumeric/Pkgfile
 f:6a51dd63a8d039a8b552a535533992b0:gnumeric/post-install
