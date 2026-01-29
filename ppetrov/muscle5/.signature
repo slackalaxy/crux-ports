@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRztZwlSfr59jDMgglO2PSMyq1FNot1AtoKoa1ilSLu/g98dLQZnCFmI2lmu/SjHdDsmAxKLyTJt2ltio+f9VgY=
-SHA256 (Pkgfile) = a15d88c39a7cfc48985aaaec25dcff8f9fea682db149bc710c6d57530d74dc98
-SHA256 (.footprint) = ee700d5dc9b69c865b4687cedfb8e7fb8e7aa1cb53112b8d5d7cfae0ec68dcd9
+RWToVVsIkzFIZWMzatOBgAFQbo1/UFNWMP5u8hhtUXGLtD9ZracvfJI+7fjyzwzVyWnUZ9o/v0tGkD/jVS7R2iO6IGuXRdQKHgI=
+SHA256 (Pkgfile) = 6f6c1672cb2d8a248fc9b789efe90d08412ec65a1413ee8dbdbbe8b0cd79c659
+SHA256 (.footprint) = 7b384c10cf6abf76d241d2559723a33ce8573cfe21c27f5c16d3bbe8cb248c49
 SHA256 (muscle-5.3.tar.gz) = 74b22a94e630b16015c2bd9ae83aa2be2c2048d3e41f560b2d4a954725c81968
 SHA256 (vcxproj_make.py) = 902735703004c47705ffa389329378f237fecb154945b489edf6abe260c6694f
 SHA256 (muscle5.1) = 02274303c9ca2846361d2bf6f5b4469035f00316dd97a8d3db1a6edbf682259a

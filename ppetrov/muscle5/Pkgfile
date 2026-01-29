@@ -5,7 +5,7 @@
 
 name=muscle5
 version=5.3
-release=1
+release=2
 source=(https://github.com/rcedgar/muscle/archive/v${version}/muscle-$version.tar.gz
 	https://raw.githubusercontent.com/rcedgar/vcxproj_make/806d016/vcxproj_make.py
 	$name.1)
@@ -18,5 +18,5 @@ build() {
 	./vcxproj_make.py --openmp
 	
 	install -D -m 755 ../bin/muscle $PKG/usr/bin/$name
-	install -D -m 644 $SRC/$name.1 $PKG/usr/share/man/man1/$PRGNAM.1
+	install -D -m 644 $SRC/$name.1 $PKG/usr/share/man/man1/$name.1
 }
