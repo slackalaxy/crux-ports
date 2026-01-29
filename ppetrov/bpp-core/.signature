@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZeTR9hmjmPDdKcewPWy6rGq6bddT/P+MnpEvafyRmQ3ZeQsq/nt+HbbbRUlaOlBlV1Ka15uQJyUJubtTRNSM3QA=
-SHA256 (Pkgfile) = 23cffa17ad0381d71c6306fb85a5f0b9d0671cb40bb0338f7b9977181ef23de5
-SHA256 (.footprint) = bed8a6e0e01dbe87f741dedac3a210c9b54bc02ca879ca10f1d45eb7e7fe1335
-SHA256 (bpp-core-2.4.1.tar.gz) = 1150b8ced22cff23dd4770d7c23fad11239070b44007740e77407f0d746c0af6
-SHA256 (gcc11.patch) = 0585bff316ae09da7a175e0321bfa69bd5b2054ae114ccd677f3d219d582ee0f
+RWToVVsIkzFIZUDoPPWAHwyVmjNNUQqA/0vUck5TaGRbc1+Q99UFH79DtJndJ1UwpA8wn+s1vu5QZfSrZd1VEvZbhFy/i5bARQQ=
+SHA256 (Pkgfile) = 85a2f234b3375c36adc74071f1e0b866762cbeb58bf0182f297b163ed84cf6b1
+SHA256 (.footprint) = d902653e5c580b4862874b0dbbd99a22abeaa78f37c7002327df62ec51e2a6bd
+SHA256 (bpp-core-4cbb19d8c2aeec0d478d93cf52ba5c09c0aaa5ca.tar.gz) = 61d61fed99a7c2795382beb912d06adb1c7ef0ae0bdd5d71491770f8a776facc
