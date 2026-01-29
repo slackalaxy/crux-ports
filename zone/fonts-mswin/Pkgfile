@@ -5,7 +5,7 @@
 
 name=fonts-mswin
 version=11.25H2
-release=1
+release=2
 source=(https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso)
 
 build() {
@@ -14,14 +14,5 @@ build() {
 	mkdir -p $PKG/usr/share/fonts/microsoft
 	cd $PKG/usr/share/fonts/microsoft
 	7z e -aoa $SRC/sources/install.wim Windows/Fonts/*.{ttf,ttc}
-	
-	# WPS Office has an issue with these
-	fontforge -lang=ff -c 'Open("SegUIVar.ttf(SegoeUIVariable)"); Generate("seguivar.ttf"); Close();'
-	fontforge -lang=ff -c 'Open("SitkaVF.ttf(SitkaText)"); Generate("sitkavf.ttf"); Close();'
-	fontforge -lang=ff -c 'Open("SitkaVF-Italic.ttf(SitkaTextItalic)"); Generate("sitkavfi.ttf"); Close();'
-	
-	rm -rf $PKG/usr/share/fonts/microsoft/{SegUIVar.ttf,SitkaVF.ttf,SitkaVF-Italic.ttf}
-	rm -rf $PKG/usr/share/fonts/microsoft/SansSerifCollection.ttf
-	
 	chmod 0644 $PKG//usr/share/fonts/microsoft/*.{ttf,ttc}
 }
