@@ -96,11 +96,11 @@ f:ddb7c32b81f38e2ae290886ce9518e50:ports-extra/.footprint
 f:398622e1d0d0c40b05f9c466b66cf4a5:ports-extra/.signature
 f:ef2e592ed8588f2fbc61321465a67223:ports-extra/README
 f:63701850c70571d48b02dc854d76ecb4:ports-extra/kde-plasma-6.rsync
-f:3c9d1c22535488a7c733e88ff4b7469e:fonts-mswin/.signature
-f:728c461fdc2c47baa57bf41210a50980:fonts-mswin/Pkgfile
+f:e3f9fd4537c4d352f03532c0e1b9ba43:fonts-mswin/.signature
+f:fe246a04fb3979a326f39d1f1cf5abe2:fonts-mswin/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-mswin/README
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-mswin/post-install
-f:33331ce2c2ea286dd52b8286d9e9d4f1:fonts-mswin/.footprint
+f:85a8fde2f3fc8f32a38a496d8f98ed26:fonts-mswin/.footprint
 f:c9e8a972cd9d1029273671ec3af6ec8e:cron-job-trimssd/.signature
 f:de43ed3a531c44a785b8bc04204e4637:cron-job-trimssd/README
 f:4e3b444d93a815977f9b7e306021fd53:cron-job-trimssd/trimssd.conf
