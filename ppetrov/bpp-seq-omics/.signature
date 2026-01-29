@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcKfkb6CXEAOFYpREVQga/8+SUaNTVT8Mez6irqRGdpk6LqUjTy08EudLBlUYKsUizeqJbXiU/Onh7qVU7+YDwU=
-SHA256 (Pkgfile) = 30fec981d49f0629feef3ad56f1274d25349c298ad4734d8df4b37f106bc790d
-SHA256 (.footprint) = 54b9700aed91f77566589f74fd013978639150392a89ed39f7e848311918023b
-SHA256 (bpp-seq-omics-2.4.1.tar.gz) = 200da925b42065998d825f0b2a37e26b00a865883c85bc332beb3a94cae1e08b
+RWToVVsIkzFIZcKiC39Ak0sumMjqVeqxw9fJ0dXXt2TWOQDFaOtOwMEk/bDRjawtSoiONqCLxIuIzjaF/RoFLw2Dl2YICL2Vogc=
+SHA256 (Pkgfile) = ab29d03d02547551d4ab0cbd5de363512df4bbbe9c7e05dee8608c7a36182259
+SHA256 (.footprint) = 346bb1cecd5c303485feef0a6a2a32f8783fe7d9ae6242a393a2140dafe397e6
+SHA256 (bpp-seq-omics-8dc4cd9d3f6b8ea6e44ecb7602a7a6326ade034e.tar.gz) = 6a82f491069ef082800cbaa2353ac3c1a37f83709cc008c3d19334d1442a3cdc
