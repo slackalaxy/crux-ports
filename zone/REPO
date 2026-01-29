@@ -28,10 +28,11 @@ d:meta-p5-modules
 d:meta-r4-modules
 d:meta-misc
 d:blacklist-nouveau
+d:fonts-msextra
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
-f:38879658ada07e236f8dcd65ce0281e7:fonts-conf/.signature
+f:4fabb0a4f594471b45eb97999d8afba8:fonts-conf/.signature
 f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
-f:14b94cb5a3a18b5bce7d771299bb1011:fonts-conf/Pkgfile
+f:9433d5927aacb2f7326522bb0c737b0d:fonts-conf/Pkgfile
 f:ba49d43668421a4c0bfbaa791ca40e08:fonts-msoffice/README
 f:34fc9ae44d2da03038f415a0bcef2583:fonts-msoffice/.footprint
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-msoffice/post-install
@@ -95,11 +96,11 @@ f:ddb7c32b81f38e2ae290886ce9518e50:ports-extra/.footprint
 f:398622e1d0d0c40b05f9c466b66cf4a5:ports-extra/.signature
 f:ef2e592ed8588f2fbc61321465a67223:ports-extra/README
 f:63701850c70571d48b02dc854d76ecb4:ports-extra/kde-plasma-6.rsync
-f:2f3025159ce15d433942e55eda2a84de:fonts-mswin/.signature
-f:7c386bccead0efe9dd3fb0e302f16d73:fonts-mswin/Pkgfile
+f:3c9d1c22535488a7c733e88ff4b7469e:fonts-mswin/.signature
+f:728c461fdc2c47baa57bf41210a50980:fonts-mswin/Pkgfile
 f:404146f2cb37374398b80efe38ca9ca5:fonts-mswin/README
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-mswin/post-install
-f:12f40b9df13e386a5419f4407f26beb4:fonts-mswin/.footprint
+f:33331ce2c2ea286dd52b8286d9e9d4f1:fonts-mswin/.footprint
 f:c9e8a972cd9d1029273671ec3af6ec8e:cron-job-trimssd/.signature
 f:de43ed3a531c44a785b8bc04204e4637:cron-job-trimssd/README
 f:4e3b444d93a815977f9b7e306021fd53:cron-job-trimssd/trimssd.conf
@@ -160,3 +161,8 @@ f:e9c66c8f90dce03bb41a45211d2b9aa4:meta-misc/.signature
 f:2ab109ccded9793aa1aea42b60f3f29e:blacklist-nouveau/Pkgfile
 f:00d2ad971daf6cb2c4597d2dd170b342:blacklist-nouveau/.footprint
 f:2b824401e84ed1a30111a17137c82432:blacklist-nouveau/.signature
+f:404146f2cb37374398b80efe38ca9ca5:fonts-msextra/README
+f:39cc4032937a8a4dfe97aaed58894ea3:fonts-msextra/post-install
+f:1fb0746ace49d0f3cb3ab9a662c53b78:fonts-msextra/.footprint
+f:d7eb9fa6217bc065efabc73da0648719:fonts-msextra/.signature
+f:e8d0d1a73f45482e802738593a69ebbf:fonts-msextra/Pkgfile
