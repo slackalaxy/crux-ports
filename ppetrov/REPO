@@ -109,9 +109,9 @@ f:911b346a6c894a2b6bbdbe369e2b6c75:bpp-seq/.signature
 f:1a92156334b5dd0ad86882c9518b04df:bpp-seq-omics/.footprint
 f:09128c54a1c593ce39e3cd8b231eafd4:bpp-seq-omics/.signature
 f:dd76ceaf7c5f2b1bb73e23db8eb67b32:bpp-seq-omics/Pkgfile
-f:484aa2eb1801c67a24d098c5526b0fb5:bppsuite/Pkgfile
+f:7e5cabff9cd4e1bf381c05afefcb0387:bppsuite/Pkgfile
 f:248e52db1f87daf91887e0e65aae07c5:bppsuite/.footprint
-f:c8b459500534776a6624eadcf952f7f3:bppsuite/.signature
+f:79b21e25b0be71d1bc7c67785d752cdf:bppsuite/.signature
 f:7ee5c51b4bfeaa6f816ccd76c9393741:caps-coev/02_caps_sort_input.patch
 f:d4c41a6996eb49814d0087617c92b224:caps-coev/.footprint
 f:cd757a48f6d7cf6680cc133983e9ef43:caps-coev/Pkgfile

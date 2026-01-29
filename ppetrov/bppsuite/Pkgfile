@@ -1,7 +1,7 @@
 # Description: Bio++ Suite
 # URL: https://github.com/BioPP/bppsuite/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: bpp-phyl bpp-popgen
+# Depends on: bpp-phyl-omics bpp-popgen
 
 name=bppsuite
 version=3.0.0_690f301
