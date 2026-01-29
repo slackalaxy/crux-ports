@@ -1,0 +1,22 @@
+# Description: Apple San Francisco mono font
+# URL: https://developer.apple.com/fonts/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p7zip
+
+name=otf-apple-sf-mono
+version=6.0.1.1726709071
+release=1
+source=(https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg)
+renames=(SF-Mono-$version.dmg)
+
+build() {
+	7z x $SRC/SF-Mono-$version.dmg
+	mkdir -p $PKG/usr/share/fonts/X11/OTF
+	
+	cd $SRC/SFMonoFonts
+	7z x SF\ Mono\ Fonts.pkg
+	7z x Payload~
+	cd Library/Fonts
+	cp -a *.otf $PKG/usr/share/fonts/X11/OTF/
+	chmod 0644 $PKG/usr/share/fonts/X11/OTF/*.otf
+}

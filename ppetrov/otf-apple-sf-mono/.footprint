@@ -1,0 +1,17 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/X11/
+drwxr-xr-x	root/root	usr/share/fonts/X11/OTF/
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-Bold.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-BoldItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-Heavy.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-HeavyItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-Light.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-LightItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-Medium.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-MediumItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-Regular.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-RegularItalic.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-Semibold.otf
+-rw-r--r--	root/root	usr/share/fonts/X11/OTF/SF-Mono-SemiboldItalic.otf
