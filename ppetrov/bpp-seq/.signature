@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZR8K1GkvKyS6rbfgPmkiFkAPx/klgdczwp6bfxeRvoN0sHcsOT91+Xtj2vYtoyub1JohEP2cVJb6ts9LV8x8MQQ=
-SHA256 (Pkgfile) = 16a57cfb86b7733d553d6e1c37a8d7b00491ee9bc6d2d836b3ab7a0fb960ddec
-SHA256 (.footprint) = 0617040826e9c4d2a8255b1d85c25265c700d22e161e577172e4544a11bc1e9c
-SHA256 (bpp-seq-2.4.1.tar.gz) = dbfcb04803e4b7f08f9f159da8a947c91906c3ca8b20683ac193f6dc524d4655
+RWToVVsIkzFIZcoZIzKhublOPUuMlaM4oVCyAy9hSNe2RAxwz2aWBNaDYe/Ml+aPnycpADft3pC7vdtNKd1tGLNK7nGF6bWhRg8=
+SHA256 (Pkgfile) = 83cb9e2dbf96aa80f350f5c067f021b923c3d0b71d352e4a20eed5e730249ff0
+SHA256 (.footprint) = 05c79920671b5cce4bf29046cceb7a2c345e84a65533e4a861bb1a6b05b14d47
+SHA256 (bpp-seq-65b8f8b3fabfd014c9c10d951963faecb0401757.tar.gz) = c3281d3314d901448e746a32e92e3dc62dc40c15a2061c809ae20f2ce2eedc26
