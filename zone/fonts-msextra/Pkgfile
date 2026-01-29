@@ -1,0 +1,22 @@
+# Description: Microsoft Windows 11 fonts
+# URL: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fontforge p7zip
+
+name=fonts-msextra
+version=0.3
+release=1
+source=(https://download.microsoft.com/download/3/B/C/3BC07D0C-2748-4300-84DD-694857E582F1/MTEXTRA.TTF
+	https://download.microsoft.com/download/8/6/0/860a94fa-7feb-44ef-ac79-c072d9113d69/Microsoft%20Aptos%20Fonts.zip
+	https://github.com/microsoft/cascadia-code/releases/download/v2407.24/CascadiaCode-2407.24.zip)
+
+build() {
+	mkdir -p $PKG/usr/share/fonts/microsoft
+	cd $PKG/usr/share/fonts/microsoft
+
+	cp -a $SRC/MTEXTRA.TTF mtextra.ttf	
+	cp -a $SRC/{Aptos.ttf,Aptos-*.ttf} .
+	cp -a $SRC/ttf/static/{CascadiaCode-*.ttf,CascadiaMono-*.ttf} .
+	
+	chmod 0644 $PKG//usr/share/fonts/microsoft/*.ttf
+}
