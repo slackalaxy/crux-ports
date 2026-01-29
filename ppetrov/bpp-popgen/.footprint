@@ -7,7 +7,6 @@ drwxr-xr-x	root/root	usr/include/Bpp/PopGen/
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/BiAlleleMonolocusGenotype.h
 drwxr-xr-x	root/root	usr/include/Bpp/PopGen/DataSet/
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/AnalyzedLoci.h
--rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/AnalyzedSequences.h
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/DataSet.h
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/DataSetTools.h
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/Date.h
@@ -30,7 +29,6 @@ drwxr-xr-x	root/root	usr/include/Bpp/PopGen/DataSet/Io/Genetix/
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/Io/ODataSet.h
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/Io/PopgenlibIO.h
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/Locality.h
--rw-r--r--	root/root	usr/include/Bpp/PopGen/DataSet/MultiSeqIndividual.h
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/GeneralExceptions.h
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/LocusInfo.h
 -rw-r--r--	root/root	usr/include/Bpp/PopGen/MonoAlleleMonolocusGenotype.h
@@ -51,7 +49,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/bpp-popgen/
 -rw-r--r--	root/root	usr/lib/cmake/bpp-popgen/bpp-popgen-config.cmake
 -rw-r--r--	root/root	usr/lib/cmake/bpp-popgen/bpp-popgen-targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/bpp-popgen/bpp-popgen-targets.cmake
--rw-r--r--	root/root	usr/lib/libbpp-popgen.a
-lrwxrwxrwx	root/root	usr/lib/libbpp-popgen.so -> libbpp-popgen.so.8
-lrwxrwxrwx	root/root	usr/lib/libbpp-popgen.so.8 -> libbpp-popgen.so.8.0.0
--rwxr-xr-x	root/root	usr/lib/libbpp-popgen.so.8.0.0
+lrwxrwxrwx	root/root	usr/lib/libbpp-popgen.so -> libbpp-popgen.so.3
+lrwxrwxrwx	root/root	usr/lib/libbpp-popgen.so.3 -> libbpp-popgen.so.3.0.0
+-rwxr-xr-x	root/root	usr/lib/libbpp-popgen.so.3.0.0
