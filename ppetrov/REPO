@@ -1,5 +1,5 @@
-d:fonts-apple-sf
 d:python3-tqdm
+d:otf-apple-sf-mono
 d:bpp-core
 d:bpp-phyl
 d:bpp-phyl-omics
@@ -84,13 +84,13 @@ d:python3-tinycss2
 d:gnumeric
 d:gtkmm2
 d:kdsingleapplication
-f:fc6fa96ede780ee65ea6668953b32449:fonts-apple-sf/.signature
-f:78c9097ab3db872452c57eb4801f9088:fonts-apple-sf/.footprint
-f:187548d673a33dd5a85ce015baea238e:fonts-apple-sf/post-install
-f:bd2d1d4ce7d2f873e795b7c020889be9:fonts-apple-sf/Pkgfile
 f:09e8508ba8eabfb3584e99f73c0c851d:python3-tqdm/Pkgfile
 f:3a46ed375e3d927dacbea5086f83cee5:python3-tqdm/.footprint
 f:5c54355370ab555184c18f92e668e873:python3-tqdm/.signature
+f:53729637d92a3ec6835bd9a307d8c188:otf-apple-sf-mono/.signature
+f:43111237ccbcb8933be0cab5bff23d98:otf-apple-sf-mono/.footprint
+f:ff9c856e9d2635fbbc6675cc3da76b84:otf-apple-sf-mono/post-install
+f:1ffa5eb68aaeb29048f5c9fb0ec33713:otf-apple-sf-mono/Pkgfile
 f:268d44eea5a1ab61669a6d3bbd187ec4:bpp-core/.footprint
 f:97748e17410eff4889627ad0550a6f0c:bpp-core/Pkgfile
 f:8ecc117ee3df1b76f4e83004e9568e25:bpp-core/.signature
