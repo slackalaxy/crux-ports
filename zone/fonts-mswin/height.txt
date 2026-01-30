@@ -17,3 +17,12 @@ segoeuil.ttf
 segoeuisl.ttf
 segoeui.ttf
 segoeuiz.ttf
+seguibli.ttf
+seguibl.ttf
+seguiemj.ttf
+seguihis.ttf
+seguili.ttf
+seguisbi.ttf
+seguisb.ttf
+seguisli.ttf
+seguisym.ttf

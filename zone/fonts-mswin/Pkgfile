@@ -5,7 +5,7 @@
 
 name=fonts-mswin
 version=11.25H2
-release=3
+release=4
 source=(https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
 	height.txt ttc-extract.py ttc.txt ttf-auto-fix.py)
 
