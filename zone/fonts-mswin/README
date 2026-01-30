@@ -6,3 +6,7 @@ Obligatory: CHECK EULA ABOUT THE FONTS! Windows 11 Enterprise 90-day
 evaluation edition iso is downloadable from here:
 
 https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
+
+Note:
+TTC fonts are extracted into idividual TTF. Also, some fonts have wrong
+height in Linux (height.txt), therefore, there's an attempt to fix that.

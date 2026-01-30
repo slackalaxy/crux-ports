@@ -1,0 +1,15 @@
+cambria.ttc
+mingliub.ttc
+msgothic.ttc
+msjhbd.ttc
+msjhl.ttc
+msjh.ttc
+msyhbd.ttc
+msyhl.ttc
+msyh.ttc
+Nirmala.ttc
+simsun.ttc
+YuGothB.ttc 
+YuGothL.ttc
+YuGothM.ttc
+YuGothR.ttc

@@ -1,18 +1,31 @@
 # Description: Microsoft Windows 11 fonts
 # URL: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fontforge p7zip
+# Depends on: p7zip fontforge
 
 name=fonts-mswin
 version=11.25H2
-release=2
-source=(https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso)
+release=3
+source=(https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
+	height.txt ttc-extract.py ttc.txt ttf-auto-fix.py)
 
 build() {
 	7z x $SRC/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
-	
 	mkdir -p $PKG/usr/share/fonts/microsoft
 	cd $PKG/usr/share/fonts/microsoft
 	7z e -aoa $SRC/sources/install.wim Windows/Fonts/*.{ttf,ttc}
-	chmod 0644 $PKG//usr/share/fonts/microsoft/*.{ttf,ttc}
+	
+	# Extract TTF from TTC fonts. Some (older) programs have problems...	
+	cat $SRC/ttc.txt | while read -r t ; do
+		python3 $SRC/ttc-extract.py $t
+		rm $t
+	done
+	
+	# Height of these should be fixed
+	cat $SRC/height.txt | while read -r h ; do
+		python3 $SRC/ttf-auto-fix.py $h
+		rm $h
+	done
+	
+	chmod 0644 $PKG//usr/share/fonts/microsoft/*.ttf
 }
