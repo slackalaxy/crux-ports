@@ -7,10 +7,10 @@ name=wps-office
 version=12.1.2.23578
 _preread=542488
 _elogind=255.5
-release=1
+release=2
 source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.AK.preread.sw_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
-	en_GB.tar.xz $name.sh $name.desktop)
+	en_GB.tar.xz $name.sh $name.desktop $name-fonts.conf)
 
 build() {
 	ar -x $SRC/${name}_${version}.AK.preread.sw_${_preread}_amd64.deb
@@ -97,4 +97,7 @@ build() {
 	rm -rf $PKG/usr/lib/wps-office/office6/libbz2.so
 	rm -rf $PKG/usr/lib/wps-office/office6/{libstdc++.so,libstdc++.so*}
 	rm -rf $PKG/usr/lib/wps-office/office6/{libjpeg.so,libjpeg.so*}
+	
+	# Install out custom FONTCONFIG_FILE
+	install -D -m 0644 $SRC/$name-fonts.conf $PKG/etc/fonts/$name-fonts.conf
 }

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export FONTCONFIG_FILE="/etc/fonts/wps-office-fonts.conf"
+
 # WPS Office seems to have trouble with absolute paths...
 export LC_ALL=C
 export QT_NO_THREADED_RENDERING=1

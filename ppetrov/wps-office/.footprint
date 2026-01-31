@@ -1,4 +1,6 @@
 drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/fonts/
+-rw-r--r--	root/root	etc/fonts/wps-office-fonts.conf
 drwxr-xr-x	root/root	etc/revdep.d/
 -rw-r--r--	root/root	etc/revdep.d/wps-office
 drwxr-xr-x	root/root	usr/
