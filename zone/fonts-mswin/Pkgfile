@@ -1,31 +1,74 @@
 # Description: Microsoft Windows 11 fonts
 # URL: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p7zip fontforge
+# Depends on: fontforge p7zip
 
 name=fonts-mswin
 version=11.25H2
-release=4
+release=5
 source=(https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
-	height.txt ttc-extract.py ttc.txt ttf-auto-fix.py)
+  ttc-extract.py ttf-auto-fix.py)
 
 build() {
-	7z x $SRC/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
-	mkdir -p $PKG/usr/share/fonts/microsoft
-	cd $PKG/usr/share/fonts/microsoft
-	7z e -aoa $SRC/sources/install.wim Windows/Fonts/*.{ttf,ttc}
+  7z x $SRC/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
+  mkdir -p $PKG/usr/share/fonts/microsoft
+  cd $PKG/usr/share/fonts/microsoft
+  7z e -aoa $SRC/sources/install.wim Windows/Fonts/*.{ttf,ttc}
+
+  # Extract TTC to individual TTF
+  ttc=(cambria.ttc
+       mingliub.ttc
+       msgothic.ttc
+       msjhbd.ttc
+       msjhl.ttc
+       msjh.ttc
+       msyhbd.ttc
+       msyhl.ttc
+       msyh.ttc
+       Nirmala.ttc
+       simsun.ttc
+       YuGothB.ttc 
+       YuGothL.ttc
+       YuGothM.ttc
+       YuGothR.ttc)
 	
-	# Extract TTF from TTC fonts. Some (older) programs have problems...	
-	cat $SRC/ttc.txt | while read -r t ; do
-		python3 $SRC/ttc-extract.py $t
-		rm $t
-	done
-	
-	# Height of these should be fixed
-	cat $SRC/height.txt | while read -r h ; do
-		python3 $SRC/ttf-auto-fix.py $h
-		rm $h
-	done
-	
-	chmod 0644 $PKG//usr/share/fonts/microsoft/*.ttf
+  for t in ${ttc[@]} ; do
+    python3 $SRC/ttc-extract.py $t
+    rm $t
+  done
+
+  # Height of these should be fixed
+  fix=(l_10646.ttf
+       mmrtextb.ttf
+       Nirmala_Text_Bold.ttf
+       Nirmala_Text_Semilight.ttf
+       Nirmala_Text.ttf
+       Nirmala_UI_Bold.ttf
+       Nirmala_UI_Semilight.ttf
+       Nirmala_UI.ttf
+       SansSerifCollection.ttf
+       segoeprb.ttf
+       segoepr.ttf
+       segoescb.ttf
+       segoesc.ttf
+       segoeuib.ttf
+       segoeuii.ttf
+       segoeuil.ttf
+       segoeuisl.ttf
+       segoeui.ttf
+       segoeuiz.ttf
+       seguibli.ttf
+       seguibl.ttf
+       seguihis.ttf
+       seguili.ttf
+       seguisbi.ttf
+       seguisb.ttf
+       seguisli.ttf)
+
+  for h in ${fix[@]} ; do
+    python3 $SRC/ttf-auto-fix.py $h
+    rm $h
+  done
+
+  chmod 0644 $PKG//usr/share/fonts/microsoft/*.ttf
 }
