@@ -2,12 +2,12 @@
 # URL: https://cran.r-project.org/web/packages/misc3d
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: tk r 
-# Optional: r4-mass r4-rgl r4-tkrplot
+# Optional: r4-lattice r4-maps r4-mass r4-rgl r4-scatterplot3d r4-tkrplot
 
 name=r4-misc3d
-version=0.9.1
+version=0.9.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/misc3d_0.9-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/misc3d_0.9-2.tar.gz)
 
 build() {
 	cd misc3d

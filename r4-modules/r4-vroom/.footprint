@@ -124,10 +124,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/vroom/extdata/
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars-4.csv
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars-6.csv
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars-8.csv
+-rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars-concatenated.csv.gz
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars-multi-cyl.zip
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars.csv
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars.csv.bz2
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars.csv.gz
+-rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars.csv.tar.gz
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars.csv.xz
 -rw-r--r--	root/root	usr/lib/R/library/vroom/extdata/mtcars.csv.zip
 drwxr-xr-x	root/root	usr/lib/R/library/vroom/help/

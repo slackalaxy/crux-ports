@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NWW3XM3V6k/SvRxMFe1/WXUB9EmF0prQWVCzv1tX35iOTKveoGY+VqNZCQZEevITUwl1oq8XNBhmPVmakwJLQc=
-SHA256 (Pkgfile) = ac38c4a45c2307adbf802ce3293e6b8a2433229be4706921da5cc4c47ace86d9
-SHA256 (.footprint) = abae4dc0269f2af9bdaf8b0b3a02bcf76156f11545e3c8ced18f7bde7f5e85db
-SHA256 (vroom_1.6.7.tar.gz) = 262cebb76e8bc0ea920d70036e435c3cd78616d758de1f062a132f26fb5c76ca
+RWQ2oTreAss89Pco4WVn0y6sS6beBOlDI8fF8jrhe2dfeJR/78D1jGzUIvQQXL1BK5iigtr1SPQDgyDhxnk+mTd1UH9O4BwcbAE=
+SHA256 (Pkgfile) = 82cd834f1ad2886973f7028d9b06ed39ecd2d8fdc8cd97c9df73f30506602b46
+SHA256 (.footprint) = 80d3744fda33f59ca433a451d50fa08795e543390abcd51285d3f8c610471d34
+SHA256 (vroom_1.7.0.tar.gz) = 6749c24ff27342a807c5816a0d773d9163febbde0c0247469ef45dae9d7950fc

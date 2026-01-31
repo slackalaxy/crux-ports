@@ -243,6 +243,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/
 -rw-r--r--	root/root	usr/lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/rm.js
 -rw-r--r--	root/root	usr/lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ro.js
 -rw-r--r--	root/root	usr/lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/ru.js
+-rw-r--r--	root/root	usr/lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/si.js
 -rw-r--r--	root/root	usr/lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sk.js
 -rw-r--r--	root/root	usr/lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sl.js
 -rw-r--r--	root/root	usr/lib/R/library/plotly/htmlwidgets/lib/plotlyjs/locales/sq.js
