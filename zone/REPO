@@ -159,9 +159,9 @@ f:d155e7fcac0fbebaa62c2c100affa36d:meta-p5-modules/.signature
 f:1b19debf37fcb66166bd31fc3e4c8895:meta-r4-modules/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-r4-modules/.footprint
 f:686bcfd7af40fc3a50dda780f20602fc:meta-r4-modules/.signature
-f:fe302b4c080b347cdf5d1d4569778403:meta-misc/Pkgfile
+f:7a33f7da3a37ad5e7d41e8e0c896ebe5:meta-misc/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-misc/.footprint
-f:e9c66c8f90dce03bb41a45211d2b9aa4:meta-misc/.signature
+f:e28c50cd9e00cc513d508337563d9a83:meta-misc/.signature
 f:2ab109ccded9793aa1aea42b60f3f29e:blacklist-nouveau/Pkgfile
 f:00d2ad971daf6cb2c4597d2dd170b342:blacklist-nouveau/.footprint
 f:2b824401e84ed1a30111a17137c82432:blacklist-nouveau/.signature
