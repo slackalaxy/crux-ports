@@ -5,41 +5,34 @@
 
 name=fonts-msoffice
 version=2007
-release=7
+release=8
 source=(https://archive.org/download/microsoft-office-professional-plus-2007/Microsoft%20Office%20Professional%20Plus%202007.iso)
-renames=(Microsoft_Office_Professional_Plus_2007.iso)
+renames=(Microsoft_Office_Professional_Plus_2007.iso SKIP)
 
 build() {
-	7z x $SRC/Microsoft_Office_Professional_Plus_2007.iso
-	cd ProPlus.WW
-	cabextract --lowercase ProPlsWW.cab
+  7z x $SRC/Microsoft_Office_Professional_Plus_2007.iso
+  cd ProPlus.WW
+  cabextract --lowercase ProPlsWW.cab
+    
+  # These are provided by fonts-mswin or I don't need them. Some more:
+  # ltype* ocraext.ttf refsan.ttf snap* tcb_____.ttf tcbi____.ttf
+  # tccb____.ttf tcceb.ttf tccm____.ttf tcm_____.ttf tcmi____.ttf
+  rem=(calibri*
+       cambria*
+       candara*
+       consola*
+       constan*
+       corbel*
+       segoeui*
+       
+       msmincho.ttf
+       outlook.ttf
+       refspcl.ttf)
 	
-	# These are provided by fonts-mscore or I don't need them
-	remove=(calibri*
-		cambria*
-		candara*
-		consola*
-		constan*
-		corbel*
-		ltype*
-		msmincho.ttf
-		ocraext.ttf
-		outlook.ttf
-		refsan.ttf
-		refspcl.ttf
-		segoeui*
-		snap*
-		tcb_____.ttf
-		tcbi____.ttf
-		tccb____.ttf
-		tcceb.ttf
-		tccm____.ttf
-		tcm_____.ttf
-		tcmi____.ttf)
-	
-	for i in ${remove[@]}; do rm -rf $i ; done
-	
-	mkdir -p $PKG/usr/share/fonts/microsoft
-	cp -a *.ttf $PKG/usr/share/fonts/microsoft
-	chmod 0644 $PKG/usr/share/fonts/microsoft/*.ttf
+  for i in ${rem[@]}; do rm -rf $i ; done
+
+  mkdir -p $PKG/usr/share/fonts/microsoft
+  cp -a *.ttf $PKG/usr/share/fonts/microsoft
+  
+  chmod 0644 $PKG/usr/share/fonts/microsoft/*.ttf
 }
