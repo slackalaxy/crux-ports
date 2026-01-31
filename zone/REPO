@@ -30,9 +30,9 @@ d:meta-misc
 d:blacklist-nouveau
 d:fonts-msextra
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
-f:4fabb0a4f594471b45eb97999d8afba8:fonts-conf/.signature
+f:d801a19d9980890778b8ac5a793307ad:fonts-conf/.signature
 f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
-f:9433d5927aacb2f7326522bb0c737b0d:fonts-conf/Pkgfile
+f:cb436f5d61a6ce794fbb9862c14a1819:fonts-conf/Pkgfile
 f:ba49d43668421a4c0bfbaa791ca40e08:fonts-msoffice/README
 f:34fc9ae44d2da03038f415a0bcef2583:fonts-msoffice/.footprint
 f:39cc4032937a8a4dfe97aaed58894ea3:fonts-msoffice/post-install
@@ -150,9 +150,9 @@ f:47c9a640163fa538a1d870ee8e46b352:gtksourceview4-styles/Pkgfile
 f:6725e3c1dc547ada719880e881ed2739:gtksourceview4-styles/.footprint
 f:8e5c8d161d2a47b0d4ffcb84616bd506:gtksourceview4-styles/.signature
 f:feb412bb1c2f56af8bcaa5a677c44e27:gtksourceview4-styles/gtksourceview4-styles-0.25.tar.xz
-f:a631302293320c2077e0529df43962a3:meta-ppetrov/Pkgfile
+f:eb6bd10e69233a03b9b718cee96ee4ed:meta-ppetrov/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-ppetrov/.footprint
-f:69d6422a7ebadc7bc2026b6e31912867:meta-ppetrov/.signature
+f:39b6d51758cd641b04ec02589003b8a1:meta-ppetrov/.signature
 f:3dae3ea9532c9114399437559669fe5d:meta-p5-modules/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-p5-modules/.footprint
 f:d155e7fcac0fbebaa62c2c100affa36d:meta-p5-modules/.signature
