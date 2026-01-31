@@ -75,6 +75,7 @@ d:python3-scipy
 d:xscreensaver
 d:onlyoffice
 d:python3-threadpoolctl
+d:eigen3
 d:bpp1-phyl
 d:bpp1-utils
 d:openvpn
@@ -95,8 +96,8 @@ f:268d44eea5a1ab61669a6d3bbd187ec4:bpp-core/.footprint
 f:97748e17410eff4889627ad0550a6f0c:bpp-core/Pkgfile
 f:8ecc117ee3df1b76f4e83004e9568e25:bpp-core/.signature
 f:b4ae4900ebf86315b66e6f66040f44d3:bpp-phyl/.footprint
-f:e65018a9e55c1041b5f58323f3923676:bpp-phyl/.signature
-f:d388984730d278260af2704709c4a57b:bpp-phyl/Pkgfile
+f:2bef32cb8be80e5b91c43f35e0dafb1d:bpp-phyl/.signature
+f:cf0f4e9c0092e01092fc7b25bdb394ee:bpp-phyl/Pkgfile
 f:41d9a077bc2818dcde0502b9beba8d04:bpp-phyl-omics/.footprint
 f:70b3d5a2e92dfce33754a9db10fb710d:bpp-phyl-omics/.signature
 f:93fc86449568773dd4d49172cc66eead:bpp-phyl-omics/Pkgfile
@@ -369,6 +370,9 @@ f:81d73c76ff5d4f727ede4999b8dcd002:onlyoffice/.footprint
 f:7fcaec5c2b7ed9c880a2aa910cefe97c:python3-threadpoolctl/Pkgfile
 f:cd92e6b29dbefbdf1b2b309f7b2d26fe:python3-threadpoolctl/.footprint
 f:855616c536001243a4b94dad27e9ab7b:python3-threadpoolctl/.signature
+f:a8b6cce905d124fa1f5c49f5616f46ff:eigen3/Pkgfile
+f:3cb09430df47ca73fe745a94c4ee6992:eigen3/.signature
+f:2ac811e0c91906da19ec87f836922946:eigen3/.footprint
 f:2a61f42360300ba9ae47a3b418fda9d5:bpp1-phyl/.footprint
 f:5d2cb4e515b32435ea6a4cd851c35cd1:bpp1-phyl/caps_TreeTemplateTools.patch
 f:ce97f1d5bbeb98565d9cf5df76afc55a:bpp1-phyl/Pkgfile
