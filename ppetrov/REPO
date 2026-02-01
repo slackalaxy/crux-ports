@@ -356,10 +356,10 @@ f:8b14fca3ffc2ce0bcd5d6746b19da66e:python3-pythran/Pkgfile
 f:28a561f3dace069d5bb11838c4b4d2ac:python3-scipy/.footprint
 f:76ac3db6fefd35920dd9c4bdeb54395f:python3-scipy/.signature
 f:963f1bc5a38c811ea0ef13c66dd878aa:python3-scipy/Pkgfile
-f:849f81b911b4dd496f5ee31e534f7de0:xscreensaver/Pkgfile
+f:819958d31490dd85d5261978f8ea1656:xscreensaver/Pkgfile
 f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver/xscreensaver.pam
-f:58eee2b0540086baedcc28a683939f98:xscreensaver/.footprint
-f:40c2683584146e368b4d583d47126a2d:xscreensaver/.signature
+f:9013d4b99d6f03d78d1a79883a70b078:xscreensaver/.footprint
+f:1028c7187f6bb5e0e3ab94b469ec03be:xscreensaver/.signature
 f:fcdc1fb8ddacd4fae1119c421b57894d:xscreensaver/electricsheep.patch
 f:797c6a0b005d6f0efd8cee0f7e48ce29:onlyoffice/Pkgfile
 f:27ba96531c79eec000bd2e921f8d3f9b:onlyoffice/onlyoffice.png

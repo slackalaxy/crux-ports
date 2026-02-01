@@ -5,7 +5,7 @@
 
 name=xscreensaver
 version=6.14
-release=1
+release=2
 source=(https://www.jwz.org/xscreensaver/xscreensaver-$version.tar.gz
 	$name.pam electricsheep.patch)
 
@@ -38,7 +38,7 @@ build() {
 	echo "NotShowIn=XFCE;MATE" >> $PKG/usr/share/applications/xscreensaver-settings.desktop
 	
 	rm -rf $PKG/usr/share/applications/xscreensaver.desktop
-	rm -rf $PKG/usr/share/{fonts,locale,xscreensaver/config/README}
+	rm -rf $PKG/usr/share/{locale,xscreensaver/config/README}
 	
 	# Make the screensavers available for XFCE
 	mkdir -p $PKG/usr/share/applications/screensavers
