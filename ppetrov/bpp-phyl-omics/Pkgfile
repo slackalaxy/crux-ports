@@ -4,8 +4,8 @@
 # Depends on: bpp-phyl bpp-seq-omics
 
 name=bpp-phyl-omics
-version=3.0.0_138e2d3
-_commit=138e2d33c4fca4ca8d977f3ec7e832730af16b5f
+version=3.0.0_c160a67
+_commit=c160a67a6791d2ff3f2708c14d43e72c36b16e50
 release=1
 source=(https://github.com/BioPP/$name/archive/${_commit:0:7}/$name-${_commit}.tar.gz)
 
