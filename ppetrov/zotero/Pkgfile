@@ -4,7 +4,7 @@
 # Depends on: alsa-lib brotli graphite2 gtk3 libxkbcommon nss wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=zotero
-version=8.0.1
+version=8.0.3
 release=1
 source=(https://download.zotero.org/client/release/${version}/Zotero-${version}_linux-x86_64.tar.xz
 	$name.desktop)
