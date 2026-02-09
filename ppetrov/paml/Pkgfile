@@ -3,12 +3,13 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=paml
-version=4.10.9
+version=4.10.10_4c7902f
+_commit=4c7902fe972737ef5e80bb18f159a6e6acace3d3
 release=1
-source=(https://github.com/abacus-gene/paml/archive/v${version}/$name-$version.tar.gz)
+source=(https://github.com/abacus-gene/paml/archive/${_commit:0:7}/$name-${_commit}.tar.gz)
 
 build() {
-	cd $name-$version/src
+	cd $name-${_commit}/src
 	
 	# Use our CFLAGS
 	sed -i "/^C.*.*FLAGS/s/=/+=/" Makefile
@@ -36,7 +37,7 @@ build() {
 	install -D -m 755 evolverNSsites $PKG/usr/lib/$name/evolverNSsites
 
 	# NEB, BEB and BranchSite
-	cd $SRC/$name-$version/Technical/Simulation/Codon
+	cd $SRC/$name-${_commit}/Technical/Simulation/Codon
 	cc $CFLAGS -fcommon -DNEB -o PositiveSitesNEB PositiveSites.c -lm
 	cc $CFLAGS -fcommon -DBEB -o PositiveSitesBEB PositiveSites.c -lm
 	cc $CFLAGS -fcommon -DBranchSite -o PositiveSitesBS  PositiveSites.c -lm
@@ -48,13 +49,13 @@ build() {
 	cp -a codeml.ctl *.dat $PKG/usr/share/$name/MCcodonNS
 	
 	# Multiruns
-	cd $SRC/$name-$version/Technical/Simulation/
+	cd $SRC/$name-${_commit}/Technical/Simulation/
 	cc -o multiruns $CFLAGS -fcommon multiruns.c -lm
 	install -D -m 755 multiruns $PKG/usr/lib/$name/multiruns
 	install -D -m 644 multiruns.txt $PKG/usr/share/$name/Multiruns.txt
 
 	# Include sample system files and example experimental data.
-	cd $SRC/$name-$version
+	cd $SRC/$name-${_commit}
 	cp -a dat examples $PKG/usr/share/$name
 	cp -a doc/* $PKG/usr/share/$name
 	cp -a Technical/Pt/eigenQREV.pdf $PKG/usr/share/$name
