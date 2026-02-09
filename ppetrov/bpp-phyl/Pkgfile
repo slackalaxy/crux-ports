@@ -1,11 +1,11 @@
 # Description: Bio++ Phyl Library.
 # URL: https://github.com/BioPP/bpp-phyl/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: bpp-seq eigen3
+# Depends on: bpp-seq eigen
 
 name=bpp-phyl
-version=3.0.0_396f345
-_commit=396f345f1534fad0f24eaf5bb77bc32027206fd4
+version=3.0.0_af18d54
+_commit=af18d54a9d3bad3eee81165f14d13ebf580b6a3a
 release=1
 source=(https://github.com/BioPP/$name/archive/${_commit:0:7}/$name-${_commit}.tar.gz)
 
