@@ -4,8 +4,8 @@
 # Depends on: bpp-core
 
 name=bpp-seq
-version=3.0.0_65b8f8b
-_commit=65b8f8b3fabfd014c9c10d951963faecb0401757
+version=3.0.0_ae516ec
+_commit=ae516ec99e237b7a6ae4863b88ca2f565783faba
 release=1
 source=(https://github.com/BioPP/$name/archive/${_commit:0:7}/$name-${_commit}.tar.gz)
 
