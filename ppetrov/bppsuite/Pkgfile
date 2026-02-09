@@ -4,8 +4,8 @@
 # Depends on: bpp-phyl-omics bpp-popgen
 
 name=bppsuite
-version=3.0.0_690f301
-_commit=690f301482512c061ea29f5e56d886f3501521f2
+version=3.0.0_e6c912a
+_commit=e6c912a35bc41736d17a664c464dff87cc88a8fd
 release=1
 source=(https://github.com/BioPP/$name/archive/${_commit:0:7}/$name-${_commit}.tar.gz)
 
