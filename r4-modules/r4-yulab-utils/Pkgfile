@@ -5,7 +5,7 @@
 # Optional: r4-httr2 r4-jsonlite r4-openssl r4-r-utils r4-testthat
 
 name=r4-yulab-utils
-version=0.2.3
+version=0.2.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/yulab.utils_${version}.tar.gz)
 

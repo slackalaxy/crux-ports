@@ -34,10 +34,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/gdtools/help/
 drwxr-xr-x	root/root	usr/lib/R/library/gdtools/html/
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/html/R.css
-drwxr-xr-x	root/root	usr/lib/R/library/gdtools/include/
--rw-r--r--	root/root	usr/lib/R/library/gdtools/include/gdtools.h
--rw-r--r--	root/root	usr/lib/R/library/gdtools/include/gdtools_RcppExports.h
--rw-r--r--	root/root	usr/lib/R/library/gdtools/include/gdtools_types.cpp (EMPTY)
--rw-r--r--	root/root	usr/lib/R/library/gdtools/include/gdtools_types.h
 drwxr-xr-x	root/root	usr/lib/R/library/gdtools/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/gdtools/libs/gdtools.so

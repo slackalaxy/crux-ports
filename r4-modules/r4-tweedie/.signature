@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89COahWWw0b7vGsEGXaxvhK3DXZWVxvQV1xRrULV25oTpDtJ7cgBMDPxSRu+WgRvwMrMLiOwpOZN0sh6xSM9CdAA=
-SHA256 (Pkgfile) = bedbc0d0fc6563edbd56b0ef093e755957c9607310ca7a040d61d5fbd3095951
-SHA256 (.footprint) = 7beaa2ec596e3467d6ce945dfcabc474a63171ca1dfb56028e6d8122b378464b
-SHA256 (tweedie_2.3.5.tar.gz) = 983c745fee5a780d46e8dd04c2eb1c10cb2e222d3679654f0d6934d3db7b1c3e
+RWQ2oTreAss89IH6mPbMywRDedGTrZV21+c+Hzp8EaY+jVJBsUNP9pEEEZmLGNmTQ1PoqQ8xfazbdAB3cW+s/z+F2cHY1vBw4wU=
+SHA256 (Pkgfile) = a15e73890ee03d9ab3e655ac90579a7b178468962eacb2a577dc4f3342376bfa
+SHA256 (.footprint) = 4271691172a220d90f1249ee9819d3d3e1d59dd3738ff7ca52eda36d33a4f78d
+SHA256 (tweedie_3.0.12.tar.gz) = f38f24ad58e51d707a7dacb4c3a351204ee3256b52f602445233268c782d24dd

@@ -31,9 +31,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/reformulas/html/
 drwxr-xr-x	root/root	usr/lib/R/library/reformulas/testdata/
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/testdata/lme4_GH631.csv
 drwxr-xr-x	root/root	usr/lib/R/library/reformulas/tinytest/
+-rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_Formula.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_anySpecial.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_doubleVertNotation.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_extractForm.R
+-rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_formatVC.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_from_lme4.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_mkReTrms.R
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/tinytest/test_noSpecial.R

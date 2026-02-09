@@ -3,7 +3,6 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/nanonext/
--rw-r--r--	root/root	usr/lib/R/library/nanonext/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/INDEX
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/LICENSE
@@ -25,6 +24,14 @@ drwxr-xr-x	root/root	usr/lib/R/library/nanonext/doc/
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/nanonext.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/nanonext.html
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/v01-messaging.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/v01-messaging.html
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/v02-protocols.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/v02-protocols.html
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/v03-configuration.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/v03-configuration.html
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/v04-web.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/v04-web.html
 drwxr-xr-x	root/root	usr/lib/R/library/nanonext/help/
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/help/aliases.rds

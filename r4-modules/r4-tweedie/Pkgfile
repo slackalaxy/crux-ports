@@ -1,11 +1,11 @@
 # Description: R module tweedie
 # URL: https://cran.r-project.org/web/packages/tweedie
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
-# Optional: r4-stabledist r4-statmod
+# Depends on: r r4-lifecycle r4-statmod
+# Optional: r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-tweedie
-version=2.3.5
+version=3.0.12
 release=1
 source=(https://cloud.r-project.org/src/contrib/tweedie_${version}.tar.gz)
 

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89GjGMt+T80Fp+XO7Km4RoC0RCceP4/FKCVZciFAC1R15QZxmcgfUFpaHPBH9bpUnPwU4WqzrbT0oysErb1Ml3wA=
-SHA256 (Pkgfile) = ea15996ef3e9debe939da257f93b13216d5cd1a288de8c3fa31608dae50a8c3e
+RWQ2oTreAss89L535nB7YElnVnYvRdr2ax9D8DOm2yYgsFGheiynh850wsXvYvknH3WC7utyJKPgnVIQ/ux4Ku0ccka3ijTJLwA=
+SHA256 (Pkgfile) = bd92af4dec933669c7163a685d98d60eda603881ef22adbe83fe05c36b68656d
 SHA256 (.footprint) = aa7f2da37d93d6bec1e44dd5f3c342a904278bea7be3ae94b429f9e9041df61c
-SHA256 (UniProt.ws_2.50.0.tar.gz) = fb9764f081c9cc992c03ff64c1485fef634c892bf815eb942009dfcc64147649
+SHA256 (UniProt.ws_2.50.1.tar.gz) = b82cf5927e1bd4bf6e0196e322fce2a7a450680b99625e4b119eb50e2fa18527

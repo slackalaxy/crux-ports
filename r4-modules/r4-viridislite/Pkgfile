@@ -1,11 +1,11 @@
 # Description: R module viridisLite
 # URL: https://cran.r-project.org/web/packages/viridisLite
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: r4-covr r4-ggplot2 r4-hexbin r4-testthat
 
 name=r4-viridislite
-version=0.4.2
+version=0.4.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/viridisLite_${version}.tar.gz)
 

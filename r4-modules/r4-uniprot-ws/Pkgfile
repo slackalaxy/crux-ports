@@ -5,7 +5,7 @@
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown r4-tinytest
 
 name=r4-uniprot-ws
-version=2.50.0
+version=2.50.1
 release=1
 source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/UniProt.ws_${version}.tar.gz)
 

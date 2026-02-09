@@ -5,7 +5,7 @@
 # Optional: r4-bitops r4-jsonlite r4-mathjaxr r4-pak r4-rcpp r4-remotes r4-rstudioapi r4-testthat r4-usethis r4-withr
 
 name=r4-pkgload
-version=1.4.1
+version=1.5.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/pkgload_${version}.tar.gz)
 

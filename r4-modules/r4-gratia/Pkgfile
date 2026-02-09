@@ -5,7 +5,7 @@
 # Optional: r4-carrier r4-curl r4-distributional r4-forcats r4-gamair r4-gamm4 r4-ggdist r4-gjrm r4-glmmtmb r4-hexbin r4-knitr r4-lme4 r4-marginaleffects r4-mass r4-readr r4-rmarkdown r4-scam r4-sf r4-svglite r4-testthat r4-vdiffr
 
 name=r4-gratia
-version=0.11.1
+version=0.11.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/gratia_${version}.tar.gz)
 

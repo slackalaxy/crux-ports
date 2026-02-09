@@ -6,6 +6,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/lubridate/
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/INDEX
+-rw-r--r--	root/root	usr/lib/R/library/lubridate/LICENSE
 drwxr-xr-x	root/root	usr/lib/R/library/lubridate/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/Meta/Rd.rds
 -rw-r--r--	root/root	usr/lib/R/library/lubridate/Meta/data.rds

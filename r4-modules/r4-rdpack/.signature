@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Ppx0H2BkoTF/VxhO16mCHxdTeKdIPp0v/jC2xkbZfWzYU9fIUMsXu6fA8shpTjTTJejoa8H4eU2U2j70mqc5Qs=
-SHA256 (Pkgfile) = ff9c70845b82e40d15ba38830411d036959b71c6e9f16647754c56af55a57428
+RWQ2oTreAss89LHRYW/rQwp8KLzOWbkMFlkTNNaZzzGMR87IuBkhWEnA5YhHCnLidbIK3+FXHJPo7bkSkKKdmOY+YVyDuaZ4+gM=
+SHA256 (Pkgfile) = b679e97fa57fd2b919c80ca6a417bb758982f2404ca67bab6e1d970bf9c40964
 SHA256 (.footprint) = f9dfe85f4a3a2799429c7395495f50513d56727cd4d6e8b8dbc28cf6306bf584
-SHA256 (Rdpack_2.6.5.tar.gz) = 2a33eceec41bffaa237dbcf34267de6d5c5a02ff79d7a919ea49d79bb14ceb03
+SHA256 (Rdpack_2.6.6.tar.gz) = b4e19d22bd5a2ec79cdb08ba209e79c66ea16dbc2fd2e7db8bca46412651cbdb

@@ -39,6 +39,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/lattice/doc/
 drwxr-xr-x	root/root	usr/lib/R/library/lattice/help/
 -rw-r--r--	root/root	usr/lib/R/library/lattice/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/lattice/help/aliases.rds
+drwxr-xr-x	root/root	usr/lib/R/library/lattice/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/lattice/help/figures/logo.svg
 -rw-r--r--	root/root	usr/lib/R/library/lattice/help/lattice.rdb
 -rw-r--r--	root/root	usr/lib/R/library/lattice/help/lattice.rdx
 -rw-r--r--	root/root	usr/lib/R/library/lattice/help/paths.rds

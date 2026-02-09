@@ -5,7 +5,7 @@
 # Optional: r4-later r4-litedown
 
 name=r4-nanonext
-version=1.7.2
+version=1.8.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/nanonext_${version}.tar.gz)
 

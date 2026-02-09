@@ -5,7 +5,7 @@
 # Optional: r4-graph r4-knitr r4-lavaan r4-lme4 r4-psychtools r4-rcsdp r4-rgraphviz
 
 name=r4-psych
-version=2.5.6
+version=2.6.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/psych_${version}.tar.gz)
 

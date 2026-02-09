@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89M271Q3Ug+wzWHTXmcomVep0trTWrM8w6RMMfHG0+WsD1wHUZ2EvX3akzonCbOSw1Dwhc9GovpABFJLR0EbB7gw=
-SHA256 (Pkgfile) = c536c8d4da084d447089cd96072f33c06d630a20f280a53bebf90c165ec1439d
-SHA256 (.footprint) = a648acc8a3dfcbc637023622a24ccc9875f9aaf6e57c4736a472d133f2ecc0ed
-SHA256 (nanonext_1.7.2.tar.gz) = 6ecb1eb986971968e9c920912223b403554055e9a36ecf0343b9bc84fc5331d1
+RWQ2oTreAss89Cc19FGbRhGahRh5ynJTLpNmiAFT55xMJB/elew8tj5lScYcANpz5A7/Hq7t5RjmeA4G7i9I7gH81Zm3pOr0rww=
+SHA256 (Pkgfile) = 097c19094a7acccd4e9a400d07f33a575813dbba48dfa721dcf9c6034ce8b39b
+SHA256 (.footprint) = bc9098f3d501ffeb0816899dcc5067e35ca467694669767bc4176c3f697aaf79
+SHA256 (nanonext_1.8.0.tar.gz) = ff3310b0121aefc72be065eef623e6e2eaf469430c25bce0ac845b4b2ba2f286

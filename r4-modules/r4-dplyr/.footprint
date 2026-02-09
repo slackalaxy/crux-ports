@@ -45,6 +45,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/dplyr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/programming.R
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/programming.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/programming.html
+-rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/recoding-replacing.R
+-rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/recoding-replacing.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/recoding-replacing.html
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/rowwise.R
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/rowwise.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/doc/rowwise.html
