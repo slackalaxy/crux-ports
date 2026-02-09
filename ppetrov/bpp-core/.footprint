@@ -174,6 +174,6 @@ drwxr-xr-x	root/root	usr/lib/cmake/bpp-core/
 -rw-r--r--	root/root	usr/lib/cmake/bpp-core/bpp-core-config.cmake
 -rw-r--r--	root/root	usr/lib/cmake/bpp-core/bpp-core-targets-release.cmake
 -rw-r--r--	root/root	usr/lib/cmake/bpp-core/bpp-core-targets.cmake
-lrwxrwxrwx	root/root	usr/lib/libbpp-core.so -> libbpp-core.so.3
-lrwxrwxrwx	root/root	usr/lib/libbpp-core.so.3 -> libbpp-core.so.3.0.0
--rwxr-xr-x	root/root	usr/lib/libbpp-core.so.3.0.0
+lrwxrwxrwx	root/root	usr/lib/libbpp-core.so -> libbpp-core.so.6
+lrwxrwxrwx	root/root	usr/lib/libbpp-core.so.6 -> libbpp-core.so.6.0.0
+-rwxr-xr-x	root/root	usr/lib/libbpp-core.so.6.0.0

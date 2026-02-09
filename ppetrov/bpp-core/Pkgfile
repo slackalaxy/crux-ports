@@ -4,8 +4,8 @@
 # Depends on:
 
 name=bpp-core
-version=3.0.0_4cbb19d
-_commit=4cbb19d8c2aeec0d478d93cf52ba5c09c0aaa5ca
+version=3.0.0_91d7e9b
+_commit=91d7e9bf4fe97f0655cc3d32d4796d9ab508f464
 release=1
 source=(https://github.com/BioPP/$name/archive/${_commit:0:7}/$name-${_commit}.tar.gz)
 
