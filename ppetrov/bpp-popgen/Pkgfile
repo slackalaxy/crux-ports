@@ -4,8 +4,8 @@
 # Depends on: bpp-seq
 
 name=bpp-popgen
-version=3.0.0_b34e67b
-_commit=b34e67b53970260693e87072b349dc1f4eb92e72
+version=3.0.0_ee574f8
+_commit=ee574f83fef34c8ad6e29ad6e9329a5e0d7938b2
 release=1
 source=(https://github.com/BioPP/$name/archive/${_commit:0:7}/$name-${_commit}.tar.gz)
 
