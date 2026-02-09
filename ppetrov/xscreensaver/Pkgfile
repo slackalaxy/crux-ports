@@ -1,7 +1,7 @@
 # Description: XScreenSaver patched to work with electricsheep and rss-glx
 # URL: https://www.jwz.org/xscreensaver/download.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: ffmpeg glu gnutls graphite2 gtk3 lcms2 libidn2 librsvg libvorbis opus xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt
+# Depends on: ffmpeg glu gnutls graphite2 gtk3 lcms2 libidn2 librsvg libvorbis opus xorg-font-bh-ttf xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt
 
 name=xscreensaver
 version=6.14
@@ -38,7 +38,7 @@ build() {
 	echo "NotShowIn=XFCE;MATE" >> $PKG/usr/share/applications/xscreensaver-settings.desktop
 	
 	rm -rf $PKG/usr/share/applications/xscreensaver.desktop
-	rm -rf $PKG/usr/share/{locale,xscreensaver/config/README}
+	rm -rf $PKG/usr/share/{fonts/xscreensaver/luximr.ttf,locale,xscreensaver/config/README}
 	
 	# Make the screensavers available for XFCE
 	mkdir -p $PKG/usr/share/applications/screensavers
