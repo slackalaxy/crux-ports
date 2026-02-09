@@ -1,0 +1,17 @@
+# Description: Biologic sequences analysis
+# URL: http://informagen.com/SA/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: jdk8-bin
+
+name=sa
+version=1.7.2
+release=1
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/sa.jar
+	$name.desktop $name.png $name.sh)
+
+build() {
+	install -D -m755 $SRC/$name.sh $PKG/usr/bin/$name
+	install -D -m644 $SRC/$name.jar $PKG/usr/lib/$name/$name.jar
+	install -D -m644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+	install -D -m644 $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
+}

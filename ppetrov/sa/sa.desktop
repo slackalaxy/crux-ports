@@ -1,0 +1,7 @@
+[Desktop Entry]
+Categories=Education;
+Exec=sa
+Icon=sa
+Name=Sequence Analysis
+StartupNotify=false
+Type=Application
