@@ -1,0 +1,68 @@
+# Description: eXtensible ARchiver
+# URL: https://github.com/apple-oss-distributions/xar/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libxml2
+
+name=xar
+version=501
+release=1
+source=(https://github.com/apple-oss-distributions/xar/archive/$name-$version/$name-$name-$version.tar.gz
+  "0001-Update-tests-for-Python-3-and-Nix-sandbox.patch"
+  "0002-Update-for-modern-liblzma5-versions.patch"
+  "0003-Fix-undefined-EXT2_ECOMPR_FL-for-e2fsprogs.patch"
+  "0004-Fix-compatibility-with-openssl-1.0.patch"
+  "0005-Fix-configure.ac-for-Linux-headers.patch"
+  "0006-Fix-more-non-Darwin-stuff.patch"
+  "0007-replace-initialized-constant-with-define-statement.patch"
+  "0008-Fix-configure.ac-not-finding-AR-with-target-prefix.patch"
+  "0009-Add-useless-descriptions-to-AC_DEFINE.patch"
+  "0010-Update-configure.ac-for-openssl-libxml2-liblzma-and-.patch"
+  "0011-Fix-missing-includes-and-silence-string-format-warni.patch"
+  "0012-Fix-char-signedness-for-ARM-and-PowerPC.patch"
+  "0013-Enable-extended-attributes-for-btrfs.patch"
+  "0014-Fix-segfault-when-copying-xattr-buffers.patch"
+  "0015-Fix-segfault-in-xar_attrcopy_from_heap.patch"
+  "0016-Do-not-set-property-for-empty-ACL.patch"
+  "0017-Fix-time-format-for-musl.patch"
+  "0018-Replace-memcpy-with-memmove-for-musl.patch"
+  "0019-Prefer-OpenSSL-over-CommonCrypto-if-available.patch"
+  "0020-Fall-back-to-readlink-on-Linux.patch")
+
+build() {
+  cd $name-$name-$version/$name
+  
+  # https://aur.archlinux.org/packages/xar
+  patch -Np2 -i "$SRC/0001-Update-tests-for-Python-3-and-Nix-sandbox.patch"
+  patch -Np2 -i "$SRC/0002-Update-for-modern-liblzma5-versions.patch"
+  patch -Np2 -i "$SRC/0003-Fix-undefined-EXT2_ECOMPR_FL-for-e2fsprogs.patch"
+  patch -Np2 -i "$SRC/0004-Fix-compatibility-with-openssl-1.0.patch"
+  patch -Np2 -i "$SRC/0005-Fix-configure.ac-for-Linux-headers.patch"
+  patch -Np2 -i "$SRC/0006-Fix-more-non-Darwin-stuff.patch"
+  patch -Np2 -i "$SRC/0007-replace-initialized-constant-with-define-statement.patch"
+  patch -Np2 -i "$SRC/0008-Fix-configure.ac-not-finding-AR-with-target-prefix.patch"
+  patch -Np2 -i "$SRC/0009-Add-useless-descriptions-to-AC_DEFINE.patch"
+  patch -Np2 -i "$SRC/0010-Update-configure.ac-for-openssl-libxml2-liblzma-and-.patch"
+  patch -Np2 -i "$SRC/0011-Fix-missing-includes-and-silence-string-format-warni.patch"
+  patch -Np2 -i "$SRC/0012-Fix-char-signedness-for-ARM-and-PowerPC.patch"
+  patch -Np2 -i "$SRC/0013-Enable-extended-attributes-for-btrfs.patch"
+  patch -Np2 -i "$SRC/0014-Fix-segfault-when-copying-xattr-buffers.patch"
+  patch -Np2 -i "$SRC/0015-Fix-segfault-in-xar_attrcopy_from_heap.patch"
+  patch -Np2 -i "$SRC/0016-Do-not-set-property-for-empty-ACL.patch"
+  patch -Np2 -i "$SRC/0017-Fix-time-format-for-musl.patch"
+  patch -Np2 -i "$SRC/0018-Replace-memcpy-with-memmove-for-musl.patch"
+  patch -Np2 -i "$SRC/0019-Prefer-OpenSSL-over-CommonCrypto-if-available.patch"
+  patch -Np2 -i "$SRC/0020-Fall-back-to-readlink-on-Linux.patch"
+	
+  export CFLAGS="$CFLAGS -Wno-error=implicit-function-declaration -Wno-error=incompatible-pointer-types -isystem /usr/include/libxml2"
+  export CXXFLAGS="$CXXFLAGS -Wno-error=implicit-function-declaration -Wno-error=incompatible-pointer-types -isystem /usr/include/libxml2"
+
+  NOCONFIGURE=1 ./autogen.sh \
+    --prefix=/usr \
+    --mandir=/usr/share/man
+
+  ./configure --disable-static --prefix=/usr
+  make
+  make DESTDIR="$PKG" install
+
+  rm -f $PKG/usr/lib/*.la
+}
