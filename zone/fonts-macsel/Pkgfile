@@ -1,0 +1,111 @@
+# Description: Selection of Mac OS X fonts
+# URL: https://archive.org/details/macos-collection
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p7zip pbzx fontforge
+
+name=fonts-macsel
+version=1.6.43
+release=1
+source=(https://archive.org/download/macos-collection/Releases/Yosemite%2010.10.5%20v1.6.43.iso
+	ttc-extract.py ttf-auto-fix.py)
+renames=(Yosemite_10.10.5_v1.6.43.iso)
+
+build() {
+	mkdir -p $SRC/$name-$version/{Base,CoreServices,CoreRecognition,Slideshows,Deprecated,iLife,iWork,System,Library}
+	mkdir -p $PKG/usr/share/fonts/apple
+	
+	7z x $SRC/Yosemite_10.10.5_v1.6.43.iso
+	cd Install\ OS\ X\ Yosemite/Install\ OS\ X\ Yosemite.app/Contents/SharedSupport
+	7z x InstallESD.dmg
+	cd OS\ X\ Install\ ESD
+	7z x BaseSystem.dmg
+
+	# Base system fonts. Sort in subfolder first.
+	cp -a OS\ X\ Base\ System/System/Library/Fonts/Base/*.{ttf,ttc} \
+	$SRC/$name-$version/Base
+
+	# All fonts.
+	cd Packages
+	xar -x -f Essentials.pkg
+	pbzx -n Payload  | cpio -i
+	
+	# Sort in subfolders first, so contents can be inspected when
+	# using pkgmk -kw
+
+	cp -a System/Library/CoreServices/Photo\ Library\ Migration\ Utility.app/Contents/Resources/Fonts/*.ttf \
+	$SRC/$name-$version/CoreServices
+
+	cp -a System/Library/PrivateFrameworks/CoreRecognition.framework/Versions/A/Resources/Fonts/*.ttf \
+	$SRC/$name-$version/CoreRecognition
+
+	cp -a System/Library/PrivateFrameworks/Slideshows.framework/Versions/A/Resources/Content/Fonts/*.ttf \
+	$SRC/$name-$version/Slideshows
+
+	cp -a Library/Application\ Support/Apple/Fonts/Deprecated/*.ttf \
+	$SRC/$name-$version/Deprecated
+
+	cp -a Library/Application\ Support/Apple/Fonts/iLife/*.ttf \
+	$SRC/$name-$version/iLife
+
+	cp -a Library/Application\ Support/Apple/Fonts/iWork/*.{ttf,ttc} \
+	$SRC/$name-$version/iWork
+
+	cp -a Library/Application\ Support/Apple/Fonts/iWork\ Arabic\ Support/*.ttc \
+	$SRC/$name-$version/iWork
+  
+	cp -a System/Library/Fonts/*.{ttf,ttc,otf} \
+	$SRC/$name-$version/System
+
+	cp -a Library/Fonts/*.{ttf,ttc,otf} \
+	$SRC/$name-$version/Library
+	
+	# Cherry pick
+	cd $SRC/$name-$version/Base	
+	cp -a Courier.ttc Helvetica.ttc HelveticaNeue.ttc Times.ttc Menlo.ttc $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/CoreServices
+	cp -a HopperScript.ttf Marion*.ttf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/iLife
+	cp -a Braganza.ttf DearJoe*.ttf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/iWork
+	cp -a BankGothic.ttc $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/Library
+	cp -a AmericanTypewriter.ttc Andale\ Mono.ttf Athelas.ttc Baoli.ttc Charter.ttc Copperplate.ttc $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/Slideshows
+	cp -a Coolvetica.ttf Proxima\ Nova\ Bold.ttf $PKG/usr/share/fonts/apple
+	
+	cd $SRC/$name-$version/System
+	cp -a Avenir.ttc Avenir\ Next.ttc Avenir\ Next\ Condensed.ttc Kohinoor.ttc $PKG/usr/share/fonts/apple
+	
+	# Extract these TTC and do some fixes
+	cd $PKG/usr/share/fonts/apple/
+	ttc=(Helvetica.ttc
+	     HelveticaNeue.ttc
+	     Menlo.ttc
+	     Kohinoor.ttc)
+	
+	for t in ${ttc[@]} ; do
+		python3 $SRC/ttc-extract.py $t
+		rm $t
+	done
+	
+	rm System_Font_*
+	
+	# Height of these should be fixed
+	fix=(Kohinoor_Devanagari_Bold.ttf
+	     Kohinoor_Devanagari_Book.ttf
+	     Kohinoor_Devanagari_Demi.ttf
+	     Kohinoor_Devanagari_Light.ttf
+	     Kohinoor_Devanagari_Medium.ttf)
+
+	for h in ${fix[@]} ; do
+		python3 $SRC/ttf-auto-fix.py $h
+		rm $h
+	done
+
+	chmod 0644 $PKG/usr/share/fonts/apple/*
+}

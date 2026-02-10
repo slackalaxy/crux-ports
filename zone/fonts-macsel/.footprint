@@ -1,0 +1,40 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/apple/
+-rw-r--r--	root/root	usr/share/fonts/apple/AmericanTypewriter.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Andale Mono.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Athelas.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir Next Condensed.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir Next.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Avenir.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/BankGothic.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Baoli.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Braganza.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Charter.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Coolvetica.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Copperplate.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Courier.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/DearJoe.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/DearJoeSmallFace.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Bold_Oblique.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Neue.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Neue_Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Neue_Bold_Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Neue_Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Oblique.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/HopperScript.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kohinoor_Devanagari_Bold-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kohinoor_Devanagari_Book-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kohinoor_Devanagari_Demi-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kohinoor_Devanagari_Light-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Kohinoor_Devanagari_Medium-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Marion Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Marion Regular Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Marion Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Menlo_Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Menlo_Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Proxima Nova Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Times.ttc
