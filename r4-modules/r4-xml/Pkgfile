@@ -5,9 +5,9 @@
 # Optional: r4-bitops r4-rcurl
 
 name=r4-xml
-version=3.99.0.20
+version=3.99.0.22
 release=1
-source=(https://cloud.r-project.org/src/contrib/XML_3.99-0.20.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/XML_3.99-0.22.tar.gz)
 
 build() {
 	cd XML

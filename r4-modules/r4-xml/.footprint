@@ -217,6 +217,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/XML/examples/
 -rw-r--r--	root/root	usr/lib/R/library/XML/examples/xmlTree.R
 -rw-r--r--	root/root	usr/lib/R/library/XML/examples/xpath.R
 -rw-r--r--	root/root	usr/lib/R/library/XML/examples/xpath.xml
+drwxr-xr-x	root/root	usr/lib/R/library/XML/extdata/
+-rw-r--r--	root/root	usr/lib/R/library/XML/extdata/keep_blanks.xml
+-rw-r--r--	root/root	usr/lib/R/library/XML/extdata/substitute_entities.xml
 drwxr-xr-x	root/root	usr/lib/R/library/XML/help/
 -rw-r--r--	root/root	usr/lib/R/library/XML/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/XML/help/XML.rdb
