@@ -4,7 +4,7 @@
 # Depends on: avahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libinput nss pulseaudio qt5 wayland xorg-xcb-util-cursor
 
 name=zoom-linux
-version=6.7.2.6498
+version=6.7.5.6891
 release=1
 source=(https://zoom.us/client/${version}/zoom_x86_64.tar.xz
 	$name.desktop $name.png $name.xml)
