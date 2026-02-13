@@ -1,0 +1,21 @@
+# Description: Simple to use paint program
+# URL: https://launchpad.net/dibuja
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=dibuja
+version=0.26.0
+release=1
+source=(https://launchpad.net/dibuja/trunk/$version/+download/dibuja-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr \
+  	--with-gtk3 \
+  	--disable-nls
+
+  make
+  make DESTDIR="$PKG" install
+  
+  rm -rf $PKG/usr/share/doc
+}
