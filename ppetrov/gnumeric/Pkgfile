@@ -4,13 +4,18 @@
 # Depends on: goffice
 
 name=gnumeric
-version=1.12.59
+version=1.12.60
 release=1
 source=(https://download.gnome.org/sources/gnumeric/${version%.*}/gnumeric-$version.tar.xz)
 
 build() {
 	cd gnumeric-$version
-
+	
+	# A build failure for Gnumeric 1.12.60 is caused by missing
+	# <stdbool.h> in sstest.c, which defines the bool type in C99
+	# and later.
+	sed -i '38i #include <stdbool.h>' src/sstest.c
+	
 	./configure \
 		--prefix=/usr \
 		--disable-schemas-install \
