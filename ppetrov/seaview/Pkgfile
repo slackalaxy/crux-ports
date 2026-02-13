@@ -5,7 +5,7 @@
 
 name=seaview
 version=5.1
-release=1
+release=2
 source=(ftp://pbil.univ-lyon1.fr/pub/mol_phylogeny/seaview/archive/seaview_${version}.tar.gz
 	$name.desktop)
 
@@ -40,5 +40,5 @@ build() {
 	
 	mkdir -p $PKG/usr/share/{applications,pixmaps}
 	cp $SRC/$name.desktop $PKG/usr/share/applications
-	cp $name.xpm $PKG/usr/share/pixmaps
+	cp $name.svg $PKG/usr/share/pixmaps
 }
