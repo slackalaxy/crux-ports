@@ -4,8 +4,8 @@
 # Depends on: gtk3 libgsf librsvg libxslt xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=goffice
-version=0.10.59
-release=2
+version=0.10.60
+release=1
 source=(https://download.gnome.org/sources/goffice/${version%.*}/goffice-$version.tar.xz)
 
 build() {
