@@ -1,7 +1,7 @@
 # Description: Seamless operability between C++11 and Python
 # URL: https://github.com/pybind/pybind11/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: boost eigen python3-wheel
+# Depends on: eigen
 
 name=python3-pybind11
 version=2.13.6
