@@ -5,7 +5,7 @@
 
 name=dibuja
 version=0.26.0
-release=1
+release=2
 source=(https://launchpad.net/dibuja/trunk/$version/+download/dibuja-$version.tar.gz)
 
 build() {
@@ -17,5 +17,6 @@ build() {
   make
   make DESTDIR="$PKG" install
   
-  rm -rf $PKG/usr/share/doc
+  #rm -rf $PKG/usr/share/doc
+  rm $PKG/usr/share/doc/dibuja/{AUTHORS,COPYING,ChangeLog,INSTALL,NEWS,README}
 }
