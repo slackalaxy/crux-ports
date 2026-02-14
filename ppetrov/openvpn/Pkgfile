@@ -5,7 +5,7 @@
 
 name=openvpn
 version=2.7.0
-release=1
+release=2
 source=(https://github.com/OpenVPN/$name/archive/v${version}/$name-$version.tar.gz)
 
 build() {
@@ -15,6 +15,7 @@ build() {
 	./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc/openvpn \
+		--libexecdir=/usr/lib \
 		--localstatedir=/var \
 		--enable-lzo \
 		--enable-iproute2 \

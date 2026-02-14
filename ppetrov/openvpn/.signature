@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZVekzBJjinMWXNPOdjSbfNz8OTw+jlVogwUyCyRhWmQJ7dxo+EikQliSxznnqw8hRmfsLNx96lVU4+KlqE46Mg0=
-SHA256 (Pkgfile) = 3fa24c9a5e946c6000385159e69ec76f94e299536464993b824191337abb17dc
-SHA256 (.footprint) = 314d01bc550f29bd5d0a1fda60e70ce5ef2ee0b7198bfe502c3b482c61d26b74
+RWToVVsIkzFIZYBNveGr1XZu6RfDD+J54Q+LLnzEYpy9pmB2M33AQ8edaevHkec06/ZF0klZPDzyjE/bb3ETn7M1YJprOvyezAI=
+SHA256 (Pkgfile) = c0e2e4ba14508d060af93aacf564bbe8c53514acdf8d0045cd8aaf2874eeadda
+SHA256 (.footprint) = b924b735deb6eed09db707c92226dc74db11e845b6b07a54f902c2e9878b6d8a
 SHA256 (openvpn-2.7.0.tar.gz) = 23af3dd1a76736d542f0fded4f81fdf14e27bdf7203e4ee29e9440d87e3c4209
