@@ -151,9 +151,9 @@ f:47c9a640163fa538a1d870ee8e46b352:gtksourceview4-styles/Pkgfile
 f:6725e3c1dc547ada719880e881ed2739:gtksourceview4-styles/.footprint
 f:8e5c8d161d2a47b0d4ffcb84616bd506:gtksourceview4-styles/.signature
 f:feb412bb1c2f56af8bcaa5a677c44e27:gtksourceview4-styles/gtksourceview4-styles-0.25.tar.xz
-f:eb6bd10e69233a03b9b718cee96ee4ed:meta-ppetrov/Pkgfile
+f:45e1f864e2ec273e3d1eb2edb534df0b:meta-ppetrov/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-ppetrov/.footprint
-f:39b6d51758cd641b04ec02589003b8a1:meta-ppetrov/.signature
+f:1830dffa3e9e63b5ce201bbf2b137f0e:meta-ppetrov/.signature
 f:3dae3ea9532c9114399437559669fe5d:meta-p5-modules/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-p5-modules/.footprint
 f:d155e7fcac0fbebaa62c2c100affa36d:meta-p5-modules/.signature
@@ -197,10 +197,10 @@ f:5f8d64b2dcf69c97c9b90936b9e1b714:xar/0019-Prefer-OpenSSL-over-CommonCrypto-if-
 f:c864ba8ad7c1a3a01d06c633b1791020:xar/0020-Fall-back-to-readlink-on-Linux.patch
 f:7cc0cfafefd8945d0eed507f54499059:xar/Pkgfile
 f:6f92f1277a90f6c54f73b9e2bda0bb10:xar/.signature
-f:3e49a9031b08dddede1bb1185f1e60aa:fonts-macsel/Pkgfile
+f:9da2bf2ebb90213fcf9f940f80e402c8:fonts-macsel/Pkgfile
 f:33345441a862388eda867fe9f469ce97:fonts-macsel/README
 f:187548d673a33dd5a85ce015baea238e:fonts-macsel/post-install
-f:7659de291cb2150bcaab4cd33c1a825f:fonts-macsel/.footprint
-f:34e2f7eb0c98720a9f4bfe83fad81a47:fonts-macsel/.signature
+f:91037dc693e4c1691428a6f9f37c4c8d:fonts-macsel/.footprint
+f:c3c940469d3d5ab953fa0ea1c9d71449:fonts-macsel/.signature
 f:d684e345661fc11d01f8523ab1049fe2:fonts-macsel/ttc-extract.py
 f:4c0dac74d3a87bf2fd54662faf924023:fonts-macsel/ttf-auto-fix.py
