@@ -236,10 +236,10 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
-f:7d75c510c25654ecd2de0fb265fc1664:wps-office/.signature
+f:9f3c8145894081736917af3dd9a66735:wps-office/.signature
 f:aeaa4f0dc9d7d8e82058780edb6b7ccb:wps-office/README
-f:8295244b6cb285bb3359d94311c894b6:wps-office/Pkgfile
-f:9a11d2a67197c27847598fd3a3c03182:wps-office/.footprint
+f:b66966984bd63bbc9fd5a82150f69d76:wps-office/Pkgfile
+f:32d261cf375dd54133d6887db7b66321:wps-office/.footprint
 f:b8e285169d89da1067122bc88b083314:wps-office/post-install
 f:3b421d5225924bfc1c64e6048d6aaf90:wps-office/wps-office.desktop
 f:20d88270527f672da7448edfa41488ba:wps-office/wps-office.sh
@@ -389,9 +389,9 @@ f:6f9a9cbd7d698366d4996f9a77cef98f:bpp1-phyl/.signature
 f:6aa582a7a03195947b18b1be73cddf32:bpp1-utils/.footprint
 f:6e9b04cc180020a35700e6b8e34e3908:bpp1-utils/Pkgfile
 f:cddc5129fc0623604f49f02b897d4b82:bpp1-utils/.signature
-f:a8491ab4987a15ec1949b01a1e4a2bc7:openvpn/.footprint
-f:9f7ed6902820ff0d6bed69c36db536d0:openvpn/.signature
-f:53af3195b3b9f5b6fc308f25a6b2e5d8:openvpn/Pkgfile
+f:b66eba4bc94a58b19b81cb3ba925183c:openvpn/.footprint
+f:c5b1c3e8ba54de9ae2057d7cead7392c:openvpn/.signature
+f:fc97d2ec2136915b62ce4460ccd65ead:openvpn/Pkgfile
 f:6f18342ce04684d2557ecc9f736db8fd:openvpn/README
 f:d5e1b335b6ec29867930ca548a111c24:acpid/.footprint
 f:d3ed865ccccd610aef7d9e2d8025c453:acpid/.signature
