@@ -1,7 +1,7 @@
 # Description: A low-level CSS parser and generator for Python
 # URL: https://pypi.python.org/pypi/tinycss2
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: python3-build python3-installer python3-flit-core
+# Depends on: python3-build
 
 name=python3-tinycss2
 version=1.5.1
