@@ -35,7 +35,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/later/html/
 -rw-r--r--	root/root	usr/lib/R/library/later/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/later/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/later/include/
--rw-r--r--	root/root	usr/lib/R/library/later/include/later.h
 -rw-r--r--	root/root	usr/lib/R/library/later/include/later_api.h
 drwxr-xr-x	root/root	usr/lib/R/library/later/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/later/libs/later.so

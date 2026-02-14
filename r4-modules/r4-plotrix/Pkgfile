@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-plotrix
-version=3.8.13
+version=3.8.14
 release=1
-source=(https://cloud.r-project.org/src/contrib/plotrix_3.8-13.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/plotrix_3.8-14.tar.gz)
 
 build() {
 	cd plotrix

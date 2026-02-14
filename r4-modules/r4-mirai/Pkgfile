@@ -2,10 +2,10 @@
 # URL: https://cran.r-project.org/web/packages/mirai
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-nanonext
-# Optional: r4-cli r4-litedown r4-otel r4-otelsdk
+# Optional: r4-cli r4-litedown r4-otel r4-otelsdk r4-secretbase
 
 name=r4-mirai
-version=2.5.3
+version=2.6.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/mirai_${version}.tar.gz)
 

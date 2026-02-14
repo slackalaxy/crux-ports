@@ -3,7 +3,6 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/mirai/
--rw-r--r--	root/root	usr/lib/R/library/mirai/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/mirai/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/mirai/INDEX
 -rw-r--r--	root/root	usr/lib/R/library/mirai/LICENSE
@@ -43,6 +42,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mirai/help/
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/mirai/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/mirai/help/figures/architecture.svg
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/mirai.rdb
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/mirai.rdx

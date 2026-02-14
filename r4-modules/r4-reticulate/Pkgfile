@@ -5,7 +5,7 @@
 # Optional: r4-callr r4-cli r4-glue r4-knitr r4-pillar r4-rmarkdown r4-testthat
 
 name=r4-reticulate
-version=1.44.1
+version=1.45.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/reticulate_${version}.tar.gz)
 

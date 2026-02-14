@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AxU6rwrWAAFerbdSHMzOrqfGkpk5BIrvXen5ofdKMly42LVpfRUSI/fBL9Mx14LcQytVVdsqAj4uEZd2XQb1wE=
-SHA256 (Pkgfile) = d1ea937b95bb79e37cfc0268bff66260ce39fbe63fb86b8a1c8ae97fe04b7b9e
+RWQ2oTreAss89Pl6760tKhFHkAAY127CO6cdlEDqb5R1IOhfJ4IA3OFOFfcSv+uHNo3+N/S/Zx0f53NqdZRRdkEtFSl+S5ZW4QE=
+SHA256 (Pkgfile) = bfaf008e774af8c5c6656065ea996926f5eb704c99485e21d6b2d2ad5ec77ecb
 SHA256 (.footprint) = e16c754e8f52befa841b2945ce6e69bec2f6ca405c457087283db04082055f5d
-SHA256 (dbplyr_2.5.1.tar.gz) = 95d54c6a29b17eb11e3939a1b96b821b083a74290c95e2d2ccc8b45e0cfb3d3d
+SHA256 (dbplyr_2.5.2.tar.gz) = 215ae869bcdfb55ea9391086a816185fdd7174579437252d5f96ba87ef6d3b89
