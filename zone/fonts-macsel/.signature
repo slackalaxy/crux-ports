@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwdWqJd5vQimtVl8KyQ0uZvqthx+ZOBO/LjgU74QTpEYNXVsEJ2rPesxXrnP/6qbYfnXLAkW2EgvGAU5kMGQy/Q0=
-SHA256 (Pkgfile) = b61b0c82ce9bbc90873e0022b351553ff249079a6d0ad4e6c902d476bf542747
-SHA256 (.footprint) = 00736f4623589ee87559100ed3951e8d783099a6677bbf9a4f42737169de2792
+RWRPokwW0IImwdtMgT96MmalDgvXR6Wp1RRuoZJ7ESf2j5Pvb65pKEkEFnR1x0l0rnjYc9ycBEWedXbkdjcjMd9Xn6hN02zGtg8=
+SHA256 (Pkgfile) = 5bea957bb464bc09544f3abc039b30e8f77d0f8b5d23bead78265b15ea83f566
+SHA256 (.footprint) = 3e7594a1ab25b1012279d296faa7ca50da05ddeccd6fe0f94d36fb406a38b337
 SHA256 (Yosemite_10.10.5_v1.6.43.iso) = 93f3e7d653760e8fc5bd79a1c2446b3ebcd2838b31b43a61cfc4f644a7a32a75
 SHA256 (ttc-extract.py) = 2cc01a9bdf99ca1110ecfabe73392e8b96eaaeaa2fb45924eb2cd69a0d848d78
 SHA256 (ttf-auto-fix.py) = 56e5b1c41b5078359fb9628b8675c82a40b6c3196bad230a33637cd019c8a096

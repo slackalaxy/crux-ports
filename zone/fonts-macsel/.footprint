@@ -10,13 +10,19 @@ drwxr-xr-x	root/root	usr/share/fonts/apple/
 -rw-r--r--	root/root	usr/share/fonts/apple/Avenir.ttc
 -rw-r--r--	root/root	usr/share/fonts/apple/BankGothic.ttc
 -rw-r--r--	root/root	usr/share/fonts/apple/Baoli.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bodoni Ornaments.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/BookAntiqua.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Bradley Hand Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Braganza.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/CenturyGothic.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/CenturySchoolbook.ttc
 -rw-r--r--	root/root	usr/share/fonts/apple/Charter.ttc
 -rw-r--r--	root/root	usr/share/fonts/apple/Coolvetica.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Copperplate.ttc
 -rw-r--r--	root/root	usr/share/fonts/apple/Courier.ttc
 -rw-r--r--	root/root	usr/share/fonts/apple/DearJoe.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/DearJoeSmallFace.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Geneva.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Helvetica.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Helvetica_Bold_Oblique.ttf
@@ -36,5 +42,29 @@ drwxr-xr-x	root/root	usr/share/fonts/apple/
 -rw-r--r--	root/root	usr/share/fonts/apple/Marion Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Menlo_Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Menlo_Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Monaco.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Noteworthy_Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Noteworthy_Light.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Optima_Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Optima_Bold_Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Optima_ExtraBlack.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Optima_Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Optima_Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino Regular Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Palatino Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Proxima Nova Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Black Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Black.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Bold Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Light Italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon Light.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Superclarendon.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Thonburi.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Thonburi_Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Thonburi_Light.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Times.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/TwentiethCentury.ttc

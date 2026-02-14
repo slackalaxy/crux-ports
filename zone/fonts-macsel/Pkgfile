@@ -5,7 +5,7 @@
 
 name=fonts-macsel
 version=1.6.43
-release=1
+release=2
 source=(https://archive.org/download/macos-collection/Releases/Yosemite%2010.10.5%20v1.6.43.iso
 	ttc-extract.py ttf-auto-fix.py)
 renames=(Yosemite_10.10.5_v1.6.43.iso)
@@ -61,16 +61,16 @@ build() {
 	
 	# Cherry pick
 	cd $SRC/$name-$version/Base	
-	cp -a Courier.ttc Helvetica.ttc HelveticaNeue.ttc Times.ttc Menlo.ttc $PKG/usr/share/fonts/apple
+	cp -a Courier.ttc Geneva.ttf Helvetica.ttc HelveticaNeue.ttc Times.ttc Monaco.ttf Menlo.ttc $PKG/usr/share/fonts/apple
 	
 	cd $SRC/$name-$version/CoreServices
-	cp -a HopperScript.ttf Marion*.ttf $PKG/usr/share/fonts/apple
+	cp -a HopperScript.ttf Marion*.ttf Palatino* Superclarendon* $PKG/usr/share/fonts/apple
 	
 	cd $SRC/$name-$version/iLife
 	cp -a Braganza.ttf DearJoe*.ttf $PKG/usr/share/fonts/apple
 	
 	cd $SRC/$name-$version/iWork
-	cp -a BankGothic.ttc $PKG/usr/share/fonts/apple
+	cp -a BankGothic.ttc Bodoni\ Ornaments.ttf BookAntiqua.ttc Bradley\ Hand\ Bold.ttf CenturyGothic.ttc CenturySchoolbook.ttc TwentiethCentury.ttc $PKG/usr/share/fonts/apple
 	
 	cd $SRC/$name-$version/Library
 	cp -a AmericanTypewriter.ttc Andale\ Mono.ttf Athelas.ttc Baoli.ttc Charter.ttc Copperplate.ttc $PKG/usr/share/fonts/apple
@@ -79,14 +79,17 @@ build() {
 	cp -a Coolvetica.ttf Proxima\ Nova\ Bold.ttf $PKG/usr/share/fonts/apple
 	
 	cd $SRC/$name-$version/System
-	cp -a Avenir.ttc Avenir\ Next.ttc Avenir\ Next\ Condensed.ttc Kohinoor.ttc $PKG/usr/share/fonts/apple
+	cp -a Avenir.ttc Avenir\ Next.ttc Avenir\ Next\ Condensed.ttc Kohinoor.ttc Noteworthy.ttc Optima.ttc Thonburi.ttc $PKG/usr/share/fonts/apple
 	
-	# Extract these TTC and do some fixes
+	# Extract these TTC or fix
 	cd $PKG/usr/share/fonts/apple/
 	ttc=(Helvetica.ttc
 	     HelveticaNeue.ttc
 	     Menlo.ttc
-	     Kohinoor.ttc)
+	     Kohinoor.ttc
+	     Noteworthy.ttc
+	     Optima.ttc
+	     Thonburi.ttc)
 	
 	for t in ${ttc[@]} ; do
 		python3 $SRC/ttc-extract.py $t
@@ -94,6 +97,9 @@ build() {
 	done
 	
 	rm System_Font_*
+	
+	# this TTF is fixed here
+	python3 $SRC/ttc-extract.py Geneva.ttf
 	
 	# Height of these should be fixed
 	fix=(Kohinoor_Devanagari_Bold.ttf
