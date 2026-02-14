@@ -7,7 +7,7 @@ name=wps-office
 version=12.1.2.24722
 _preread=612408
 _elogind=255.5
-release=1
+release=2
 source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.AK.preread.sw_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
 	en_GB.tar.xz $name.sh $name.desktop $name-fonts.conf)
@@ -96,6 +96,11 @@ build() {
 	cd $PKG/usr/lib/wps-office/office6
 	ln -s ../elogind/libelogind.so libsystemd.so.0
 	ln -s /usr/lib/libmysqlclient.so libmysqlclient.so.18
+	
+	# these are "world-writeable"
+	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so
+	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so.4
+	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so.4.6.3
 	
 	find $PKG/ -name "*README*" -delete
 	rm -rf $PKG/usr/lib/wps-office/office6/libpeony-wpsprint-menu-plugin.so

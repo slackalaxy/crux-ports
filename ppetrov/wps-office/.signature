@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQ7IbAHg5wjY9Q0JksusxxMAe6/YcUUVXwrRKenpqiChG5gV4XUhZCCMCPYvgOjbkHBgsIKVx2ooVoAw18OJMAY=
-SHA256 (Pkgfile) = 8356d7273ccda05bb00f33f6d24f182f270ef64a94e1d1724fd9d78327bb858a
-SHA256 (.footprint) = 7a43be85ed721d33908ef4250a6efd1194d4d078f1a8b291dc80237089420b24
+RWToVVsIkzFIZax/tA7Rd7R6Rifzs+niCWUnY30L+DjhrxMKnSme1kosAHq65QIi+3jxpzbCuNTPww3iwhGNUE/kCSkwep2pOws=
+SHA256 (Pkgfile) = 6b4bfdb567d208e6e21cd40f47087267b5582a2b0b123d654f29d71fb8cbc457
+SHA256 (.footprint) = 4a17dccb6017e118f221f49a501203a83ef8b6fc91308be3534a5b0799497c39
 SHA256 (wps-office_12.1.2.24722.AK.preread.sw_612408_amd64.deb) = 7925f766ed6ad47aead473503df20b2561fb0f7179e6baf716227bf44af9ef1b
 SHA256 (v255.5.tar.gz) = ef83beb381064516c29290f0fedcbbe36de052f313d72d120eade69ab26b82fe
 SHA256 (en_GB.tar.xz) = a64707cb4d3e5bbb1d2f63f1843556d7e90daf53f584bde23f57c4e515b13e2b
