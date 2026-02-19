@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkfontdir /usr/share/fonts/apple
+mkfontscale /usr/share/fonts/apple
+fc-cache

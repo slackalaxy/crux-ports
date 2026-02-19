@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwWX3LiQYosNfNFPjtx4MFQ0IHmC1cF16TFxMHqNuQXILnc7Xygmgf58wrp1VmT2jC1j98kFBI0EYuz+weUxDxAA=
+SHA256 (Pkgfile) = 77c3e584877fed2aa8df9adf0118a12b19f7f6919842b32c47f3f8d4831c7826
+SHA256 (.footprint) = dc244ffb18f05b78c1e2d2ae17f9898d368d8ec2b1afd72257bd4014c63f96eb
+SHA256 (MacOSX-10.12.dmg) = c793c9aae9b59302b4b01a52aad387d7e4873cf00c48352afc1ffcc826cb0208
+SHA256 (ttc-extract.py) = 2cc01a9bdf99ca1110ecfabe73392e8b96eaaeaa2fb45924eb2cd69a0d848d78
+SHA256 (75-apple-emoji.conf) = 38b20b4672186184d3ac95a5fe336c0903fbc549a97ecb27204b69ae1508045b

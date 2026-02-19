@@ -1,0 +1,65 @@
+# Description: Base Mac OS X Sierra fonts
+# URL: https://support.apple.com/en-us/102662
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p7zip pbzx fontforge
+
+name=ttf-sierra
+version=10.12
+release=1
+source=(http://updates-http.cdn-apple.com/2019/cert/061-39476-20191023-48f365f4-0015-4c41-9f44-39d3d2aca067/InstallOS.dmg
+	ttc-extract.py 75-apple-emoji.conf)
+renames=(MacOSX-$version.dmg SKIP SKIP)
+
+build() {
+	7z x $SRC/MacOSX-$version.dmg
+	cd Install\ macOS
+	mv InstallOS.pkg InstallOS.tmp.pkg
+	xar -x -f InstallOS.tmp.pkg
+	cd InstallOS.pkg
+	7z x InstallESD.dmg
+	cd OS\ X\ Install\ ESD/
+	7z x BaseSystem.dmg
+	
+	mkdir -p $SRC/$name-$version/Base
+	mkdir -p $PKG/usr/share/fonts/apple
+
+	# Base system fonts
+	cp -a OS\ X\ Base\ System/System/Library/Fonts/Base/*.{ttf,ttc} \
+	$SRC/$name-$version/Base
+
+	# Cherry pick
+	cd $SRC/$name-$version/Base	
+	cp -a Apple_Emoji.ttf Courier.ttc Geneva.ttf GeezaPro.ttc \
+	Helvetica.ttc HelveticaNeue.ttc LucidaGrande.ttc Monaco.ttf \
+	Menlo.ttc Times.ttc \
+	$PKG/usr/share/fonts/apple
+	
+	# Extract these TTC or fix
+	cd $PKG/usr/share/fonts/apple/
+	ttc=(
+	GeezaPro.ttc
+	Helvetica.ttc
+	HelveticaNeue.ttc
+	LucidaGrande.ttc
+	Menlo.ttc
+	)
+	
+	for t in ${ttc[@]} ; do
+		python3 $SRC/ttc-extract.py $t
+		rm $t
+	done
+	
+	# Remove hidden system fonts
+	rm .*
+	
+	# this TTF is fixed here
+	python3 $SRC/ttc-extract.py Geneva.ttf
+	
+	chmod 0644 $PKG/usr/share/fonts/apple/*
+	
+	install -D -m 0644 $SRC/75-apple-emoji.conf $PKG/usr/share/fontconfig/conf.avail/75-apple-emoji.conf
+	
+	mkdir -p $PKG/etc/fonts/conf.d
+	cd $PKG/etc/fonts/conf.d
+	ln -s ../../../usr/share/fontconfig/conf.avail/75-apple-emoji.conf .
+}
