@@ -1,0 +1,109 @@
+# Description: Office 365 fonts
+# URL: https://www.microsoft.com/en-us/microsoft-365/download-office
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: p7zip fontforge ttf-win11
+
+name=ttf-o365
+version=16.106.26020821
+release=1
+source=(https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_${version}_Installer.pkg)
+
+build() {
+	7z x $SRC/Microsoft_365_and_Office_${version}_Installer.pkg
+	cd Office_fonts.pkg
+	cat Payload | gunzip -dc |cpio -i
+	cd DFonts
+	
+	for f in *; do
+    
+    		# Compute lowercase name
+    		newname=$(echo "$f" | tr '[:upper:]' '[:lower:]')
+    
+    		# Only rename if different
+    		if [ "$f" != "$newname" ]; then
+        		mv -i -- "$f" "$newname"
+    		fi
+	done
+	
+	# These are provided by fonts-win11
+	rem=(
+	arialbd.ttf
+	arialbi.ttf
+	ariali.ttf
+	arial.ttf
+	ariblk.ttf
+	calibrib.ttf
+	calibrii.ttf
+	calibrili.ttf
+	calibril.ttf
+	calibri.ttf
+	calibriz.ttf
+	cambriab.ttf
+	cambriai.ttf
+	cambria.ttc
+	cambriaz.ttf
+	candarab.ttf
+	candarai.ttf
+	candara.ttf
+	candaraz.ttf
+	consolab.ttf
+	consolai.ttf
+	consola.ttf
+	consolaz.ttf
+	constanb.ttf
+	constani.ttf
+	constan.ttf
+	constanz.ttf
+	corbelb.ttf
+	corbeli.ttf
+	corbel.ttf
+	corbelz.ttf
+	gabriola.ttf
+	himalaya.ttf
+	leelauib.ttf
+	leelawui.ttf
+	leeluisl.ttf
+	malgunbd.ttf
+	malgunsl.ttf
+	malgun.ttf
+	marlett.ttf
+	mingliub.ttc
+	mmrtext.ttf
+	monbaiti.ttf
+	msgothic.ttc
+	msyhbd.ttc
+	msyhl.ttc
+	msyh.ttc
+	msyi.ttf
+	ntailub.ttf
+	ntailu.ttf
+	palabi.ttf
+	palab.ttf
+	palai.ttf
+	pala.ttf
+	seguisym.ttf
+	simsunb.ttf
+	simsun.ttc
+	symbol.ttf
+	tahomabd.ttf
+	tahoma.ttf
+	taileb.ttf
+	taile.ttf
+	timesbd.ttf
+	timesbi.ttf
+	timesi.ttf
+	times.ttf
+	verdana.ttf
+	webdings.ttf
+	yugothb.ttc
+	yugothl.ttc
+	yugothm.ttc
+	yugothr.ttc
+	)
+	
+	for i in ${rem[@]}; do rm $i ; done
+	
+	mkdir -p $PKG/usr/share/fonts/microsoft
+	cp *.ttf *.ttc $PKG/usr/share/fonts/microsoft/
+	chmod 0644 $PKG/usr/share/fonts/microsoft/{*.ttf,*.ttc}
+}

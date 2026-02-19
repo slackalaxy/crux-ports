@@ -1,0 +1,219 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/fonts/
+drwxr-xr-x	root/root	usr/share/fonts/microsoft/
+-rw-r--r--	root/root	usr/share/fonts/microsoft/abadimtcondensedextrabold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/abadimtcondensedlight.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/angsa.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/angsab.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/angsai.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/angsaz.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-black-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-black.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-bold-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-extrabold-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-extrabold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-light-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-light.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-narrow-bold-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-narrow-bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-narrow-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-narrow.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-semibold-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos-semibold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/aptos.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/arialnarrowbolditalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/arialnarrowitalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/arialroundedmtbold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/baskervilleoldface.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/batang.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bauhaus93.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bellmt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bellmtbold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bellmtitalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bernardmtcondensed.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/book antiqua bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/book antiqua bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/book antiqua italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/book antiqua.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bookman old style bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bookman old style bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bookman old style italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bookman old style.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/bookshelf symbol 7.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/braggadocio.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/britannicbold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/calisto mt bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/calisto mt italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/calisto mt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/calistomtbolditalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century gothic bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century gothic bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century gothic italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century gothic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century schoolbook bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century schoolbook bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century schoolbook italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century schoolbook.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/century.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/colonnamt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/comicsansmsbold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/coopbl.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/copperplategothicbold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/cordia.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/curlzmt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/david.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/davidbd.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/deng.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/dengb.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/dengl.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/desdemona.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/dubai-bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/dubai-light.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/dubai-medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/dubai-regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/edwardianscriptitc.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/engraversmt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/engraversmtbold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/eurostile bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/eurostile.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/fangsong.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/footlightmtlight.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic book italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic book.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic demi cond.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic demi italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic demi.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic heavy italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic heavy.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic medium cond.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic medium italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/franklin gothic medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gara.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/garabd.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/garabdit.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/garait.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gautami.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gautamib.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gill sans mt bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gill sans mt bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gill sans mt condensed.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gill sans mt ext condensed bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gill sans mt italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gill sans mt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gillsansultrabold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gloucestermtextracondensed.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/goudy old style bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/goudy old style italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/goudy old style.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/gulim.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/haettenschweiler.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/harrington.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/hgrge.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/hgrme.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/hgrsgu.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/hgrsmp.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/imprintmtshadow.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/kaiti.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/kartika.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/kartikab.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/kinomt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/latha.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lathab.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucida console.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucida sans demibold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucida sans demibold roman.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucida sans italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucida sans unicode.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucida sans.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidablackletter.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidabright.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidabrightdemibold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidabrightdemibolditalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidabrightitalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidacalligraphyitalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidafaxdemibold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidafaxdemibolditalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidafaxitalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidafaxregular.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidahandwritingitalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidasanstypewriterbold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidasanstypewriterboldoblique.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidasanstypewriteroblique.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/lucidasanstypewriterregular.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/mangal.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/mangalb.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/maturamtscriptcapitals.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/meiryo.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/meiryob.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/mingliu.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/mistral.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/mmrtextb.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/modernno.20.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/monotypecorsiva.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/monotypesorts.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/ms reference sans serif.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/ms reference specialty.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/msjh.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/msjhbd.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/msmincho.ttc
+-rw-r--r--	root/root	usr/share/fonts/microsoft/mtextra.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/news gothic mt bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/news gothic mt bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/news gothic mt italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/news gothic mt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/nirmala.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/nirmalab.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/nirmalas.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/nyala.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/onappleicon.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/onyx.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/perpetua bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/perpetua bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/perpetua italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/perpetua titling mt bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/perpetua titling mt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/perpetua.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/rockwell bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/rockwell bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/rockwell condensed bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/rockwell condensed.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/rockwell extra bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/rockwell italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/rockwell.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/segoe print bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/segoe script bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/seguihis.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/simhei.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/stencil.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/sthupo.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/stliti.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/stxingka.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/stxinwei.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/stzhongs.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/thsarabun-bold-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/thsarabun-bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/thsarabun-italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/thsarabun.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/trebuchetmsbolditalic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tunga.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tungab.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tw cen mt bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tw cen mt bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tw cen mt condensed bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tw cen mt condensed extra bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tw cen mt condensed.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tw cen mt italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/tw cen mt.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/verdana bold italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/verdana bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/verdana italic.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/widelatin.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/wingdings 2.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/wingdings 3.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/wingdings.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/yumin.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/yumindb.ttf
+-rw-r--r--	root/root	usr/share/fonts/microsoft/yuminl.ttf
