@@ -1,0 +1,20 @@
+# Description: simple GTK+ painting program
+# URL: https://github.com/wjaguar/mtPaint/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk3 lcms2 libwebp xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+
+name=mtpaint
+version=3.50.13
+_commit=a50460bacadfc522705648c1367541974c5d109d
+release=1
+source=(https://github.com/wjaguar/mtPaint/archive/$version/$name-${_commit}.tar.gz)
+
+build() {
+	cd mtPaint-${_commit}
+
+	./configure --prefix=/usr \
+	gtk3 thread jpeg tiff lcms2 cflags man nojp2 release
+
+	make
+	make DESTDIR=$PKG install
+}
