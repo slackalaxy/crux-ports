@@ -5,7 +5,7 @@
 
 name=ttf-o365
 version=16.106.26020821
-release=1
+release=2
 source=(https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_${version}_Installer.pkg)
 
 build() {
@@ -95,6 +95,7 @@ build() {
 	times.ttf
 	verdana.ttf
 	webdings.ttf
+	wingdings.ttf
 	yugothb.ttc
 	yugothl.ttc
 	yugothm.ttc
