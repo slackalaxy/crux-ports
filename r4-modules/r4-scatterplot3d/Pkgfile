@@ -1,13 +1,13 @@
 # Description: R module scatterplot3d
 # URL: https://cran.r-project.org/web/packages/scatterplot3d
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: 
 
 name=r4-scatterplot3d
-version=0.3.44
+version=0.3.45
 release=1
-source=(https://cloud.r-project.org/src/contrib/scatterplot3d_0.3-44.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/scatterplot3d_0.3-45.tar.gz)
 
 build() {
 	cd scatterplot3d

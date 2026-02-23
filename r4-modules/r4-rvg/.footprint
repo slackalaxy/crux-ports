@@ -30,3 +30,4 @@ drwxr-xr-x	root/root	usr/lib/R/library/rvg/html/
 drwxr-xr-x	root/root	usr/lib/R/library/rvg/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/rvg/libs/rvg.so
 -rw-r--r--	root/root	usr/lib/R/library/rvg/logo.svg
+-rw-r--r--	root/root	usr/lib/R/library/rvg/test-rvg.R

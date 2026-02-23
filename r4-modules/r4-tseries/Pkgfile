@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-tseries
-version=0.10.59
+version=0.10.60
 release=1
-source=(https://cloud.r-project.org/src/contrib/tseries_0.10-59.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/tseries_0.10-60.tar.gz)
 
 build() {
 	cd tseries

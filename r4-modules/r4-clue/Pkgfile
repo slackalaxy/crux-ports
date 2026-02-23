@@ -5,9 +5,9 @@
 # Optional: r4-e1071 r4-lpsolve r4-quadprog r4-relations
 
 name=r4-clue
-version=0.3.66
+version=0.3.67
 release=1
-source=(https://cloud.r-project.org/src/contrib/clue_0.3-66.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/clue_0.3-67.tar.gz)
 
 build() {
 	cd clue

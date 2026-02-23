@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89MNYl7sH1byDZ4rsAufkcqJsf9uXbQ7nalP0fGVNIWIhj0AKrvbRsI86yzjzL1g/FVANTz28vVdY0eF/DAIwQAM=
-SHA256 (Pkgfile) = 64ff9df907988e1c5e11e21b1db813c653adc6111b733687c7be5b39a377a8c4
-SHA256 (.footprint) = d6bd252b8a947b177b53dd1f9ca4e7c26a3cda0bdb91840726b8c7c2c2accd30
-SHA256 (gggenomes_1.1.2.tar.gz) = ae250901a25190185d874c8866d14fa415e4fa501dc969be3a2105249af177e2
+RWQ2oTreAss89DLNusYlFosje8ZVY/REW4vmesUOALnggx/FWbECCo6HDtijjV2nPbBPrtqoc91GrN+j0n52jPpiO2OqrlIPiQ8=
+SHA256 (Pkgfile) = 8bc35865df66fdfcd2fbb2a0399164fa39b2e0810fbc3e1da694cd6de42ebcc9
+SHA256 (.footprint) = c1490a58e0a172784b9dd6b13db61e89e4297a5c2e7926b0a540bfbbaadf6ab3
+SHA256 (gggenomes_1.1.3.tar.gz) = 7f05a6757ca323f6c0fb5827dc7a9131bb709db0f8cc30a286c5c19fea182c0c

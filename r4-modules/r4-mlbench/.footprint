@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mlbench/R/
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/R/mlbench
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/R/mlbench.rdb
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/R/mlbench.rdx
+-rw-r--r--	root/root	usr/lib/R/library/mlbench/REFERENCES.R
 drwxr-xr-x	root/root	usr/lib/R/library/mlbench/data/
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/BostonHousing.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/BostonHousing2.rda

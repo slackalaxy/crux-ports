@@ -52,6 +52,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/shiny/crimes/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/crimes/Readme.md
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/crimes/server.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/crimes/ui.R
+drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/shiny/css_class/
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/css_class/DESCRIPTION
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/css_class/Readme.md
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/css_class/server.R
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/css_class/ui.R
 drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/shiny/dynamic_ui/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/dynamic_ui/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/dynamic_ui/Readme.md
@@ -66,6 +71,11 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/shiny/iris/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/iris/Readme.md
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/iris/server.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/iris/ui.R
+drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/shiny/linked_scale/
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/linked_scale/DESCRIPTION
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/linked_scale/Readme.md
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/linked_scale/server.R
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/linked_scale/ui.R
 drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/examples/shiny/maps/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/maps/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/examples/shiny/maps/Readme.md
@@ -108,7 +118,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/tinytest/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-dsvg_text.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-dsvg_view.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-element_interactive.R
--rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-fonts.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-geom_abline_interactive.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-geom_bar_interactive.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-geom_bin_2d_interactive.R
@@ -182,4 +191,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/tinytest/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-trailing-comma.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-utils.R
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-utils_css.R
--rw-r--r--	root/root	usr/lib/R/library/ggiraph/tinytest/test-zz-dom.R

@@ -25,6 +25,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/tweedie/doc/
 -rw-r--r--	root/root	usr/lib/R/library/tweedie/doc/tweedie.R
 -rw-r--r--	root/root	usr/lib/R/library/tweedie/doc/tweedie.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/tweedie/doc/tweedie.html
+drwxr-xr-x	root/root	usr/lib/R/library/tweedie/extdata/
+-rw-r--r--	root/root	usr/lib/R/library/tweedie/extdata/poison.csv
 drwxr-xr-x	root/root	usr/lib/R/library/tweedie/help/
 -rw-r--r--	root/root	usr/lib/R/library/tweedie/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/tweedie/help/aliases.rds

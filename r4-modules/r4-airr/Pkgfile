@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-rmarkdown r4-testthat r4-tibble
 
 name=r4-airr
-version=1.5.0
+version=1.6.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/airr_${version}.tar.gz)
 
