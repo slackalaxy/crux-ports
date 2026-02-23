@@ -179,9 +179,9 @@ f:5f8d64b2dcf69c97c9b90936b9e1b714:xar/0019-Prefer-OpenSSL-over-CommonCrypto-if-
 f:c864ba8ad7c1a3a01d06c633b1791020:xar/0020-Fall-back-to-readlink-on-Linux.patch
 f:7cc0cfafefd8945d0eed507f54499059:xar/Pkgfile
 f:6f92f1277a90f6c54f73b9e2bda0bb10:xar/.signature
-f:d793d8fa235027dfa8af793af28022b2:ttf-o365/Pkgfile
-f:e6e9520f951ae97fa6601decafe25b4d:ttf-o365/.footprint
-f:30108a307d8994976b221fe591f5eb6c:ttf-o365/.signature
+f:31fe99e77543964aeda8be94b6cf72c8:ttf-o365/Pkgfile
+f:54567ba90b3d309ad5c892ca6399ab9c:ttf-o365/.footprint
+f:f9718447f8dfb9f5e152c1abe9124fd9:ttf-o365/.signature
 f:39cc4032937a8a4dfe97aaed58894ea3:ttf-o365/post-install
 f:96ac44576ce5176011afa3fc5787aac5:ttf-o365/README
 f:7c5b5e9e2ab15cfbe4e1d78b2d24ea81:ttf-win11/.signature
