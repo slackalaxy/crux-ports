@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdsOH7nVNc2C3lWJ31SNL6notwq4xWbo/LZPz4S91B/p5kIoSbyv8DU0jL8TjogqsuCuP3bjWZULixJsACNHngg=
-SHA256 (Pkgfile) = d0bebc6be1ace6de4ef750668b0209020416393ec5062d86f4c2e1dd0e9b08b4
+RWToVVsIkzFIZchJYo7pnthmbo+hDlpdd7o8pUv5fSNQirD6yEqVsyTKxQEl2RAlOisqGCp4M/nRwE6SRteRawwSUGfb6rYM2Q4=
+SHA256 (Pkgfile) = 3d33c2026405841c5020abd1589cffb10d5109c6983ca0d6a25ac1d8279d37a6
 SHA256 (.footprint) = 53536088346164439893a3d9f6cd4984330f5bf07a23b13caebc8b9258199fd0
-SHA256 (aliview-1.30.tgz) = ce15372d8623cd1c199a1f1a8b8a036e474154918f7baf4bc2f95c4e45e86f8b
+SHA256 (aliview-1.31.1.tgz) = dc0bbd5ee6eed8abfe5d9f40471e9efe4f36c242061b1f7d5fd108ed4848f0c8
 SHA256 (aliview.desktop) = 35ed617c0a6bdd5ceff07424c9b0215cdf364e38cadfebd2aa50eb72d0963b32

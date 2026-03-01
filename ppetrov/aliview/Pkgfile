@@ -1,12 +1,12 @@
 # Description: Alignment viewer and editor
 # URL: https://ormbunkar.se/aliview/downloads/linux/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: jdk8-bin
+# Depends on:
 
 name=aliview
-version=1.30
+version=1.31.1
 release=1
-source=(http://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/linux-version-$version/$name.tgz
+source=(http://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/linux-version-$version/aliview_${version}_no_java.tgz  
 	$name.desktop)
 renames=($name-$version.tgz SKIP)
 
