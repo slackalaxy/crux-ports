@@ -85,6 +85,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/xts/tinytest/
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-plot.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-print.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-reclass.R
+-rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-rollapply.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-split.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-subset-time-of-day.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-subset.R

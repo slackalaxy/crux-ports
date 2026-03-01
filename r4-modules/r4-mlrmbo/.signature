@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FbJNhfw+nwbawMpSpFB8sEOi8pyDPN3T9ZXGHgnJFoH7D4g6x2d3/dNYlyH4UyICs4n4+rs2YBMNi6aWG0QcA4=
-SHA256 (Pkgfile) = c2fc19ba358bc3134ad1e51efd22cdf557e590476ba7c42932bc2ac09980c0a1
+RWQ2oTreAss89AylUfo4msrJKw1L9FVZz8lOymX6JuePeAW7xZBJ8ATz64lMZDzdqG9hu2Duijg9I2mdDzVBM5jy3VB3R8ynDgE=
+SHA256 (Pkgfile) = f0e11276f97a6a8bdd7cd66d00cd96166053ce97ae2c017998789edac7a9d8db
 SHA256 (.footprint) = e2167583705a3f3eb085fbd0f6e616599c151a1b274dc8f2221ac602f469789f
-SHA256 (mlrMBO_1.1.5.1.tar.gz) = 0cf26e5e9b180d15b932541cf081a552703a60edf762aafca9933c24ea91dc99
+SHA256 (mlrMBO_1.1.6.tar.gz) = ffec0ed78c70b74d96e29a7b445e8b4e5e177c35b34f02a6ca0541b7cfc57f8d

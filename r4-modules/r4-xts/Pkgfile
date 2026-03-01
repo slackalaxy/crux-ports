@@ -5,7 +5,7 @@
 # Optional: r4-chron r4-timedate r4-timeseries r4-tinytest r4-tseries
 
 name=r4-xts
-version=0.14.1
+version=0.14.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/xts_${version}.tar.gz)
 

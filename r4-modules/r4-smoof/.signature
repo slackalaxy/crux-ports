@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AmjDuJ7G+reC7YrkOOI6qIV+xOxdSmkfBQLznCXT+UxmdBBXfnFIE/RKPRpK5rmYoc55cc/WnE9DjKR3nG3Iw4=
-SHA256 (Pkgfile) = 8e6b1c8256435e5bc516aed1e33c5389b097bc4d6c09fb129a1fcd6f19da8fac
+RWQ2oTreAss89Pu8z8yrxb3vUgN4blVgSfGqK3W4LhdRxCR5P+Kh5kBeHVtfA7auATRjklhhioS+PJnT9MbvbJpbwppym8P3TgI=
+SHA256 (Pkgfile) = 8f6691d6fe7d49f51dab17612a53eb443c4524c73b5c2d6b579cdf42e846eafb
 SHA256 (.footprint) = 740a4811bfb1177a85661aed2bc8ab557dbb2d58293faa7887a4c724bca820b2
-SHA256 (smoof_1.6.0.3.tar.gz) = af8664b152876c545f6545528de6e05a289d0714103fac7afc52960a9a855fb1
+SHA256 (smoof_1.7.0.tar.gz) = c5a26f69ed23b16aa3ee98f045deb0de0b97a0bd1d2aac101c31e684afcb2801

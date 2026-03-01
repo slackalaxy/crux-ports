@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89LVmfMYkcxwqOx1hpQtoySZ3MvGEgwukCiV75S7ycuo2jKZvbUTSPBWaF662sAbJu2YlV+jp5elSiktgh3wuewU=
-SHA256 (Pkgfile) = 92bf05474d85cab4591b08aa0556d0283f4af2d058db188a1a0853b59a86407c
+RWQ2oTreAss89DLgL2sygKJpTeie04xzIEjwd+tkkkpwbHSqwTc5kBEAM9mI20Meik4uaoCkbXesqLVFJfTQF+jcjFAqJg1Dyw0=
+SHA256 (Pkgfile) = 0c03e89bfdb76c695a10ff9635543e5c6e356bba75c897ac9ca333cddd8caece
 SHA256 (.footprint) = 84af1c7c972006dd6cad21a9ee45307e11f29252b65bc5558dbd9ddf3edeab96
-SHA256 (ggpubr_0.6.2.tar.gz) = c9e8772b5323a1bcd049a3c4838592e665b5379f05583ac3fda37e3167b04f75
+SHA256 (ggpubr_0.6.3.tar.gz) = 0e1d44dd074d37f5543867d674e86c753269bc189eea5f7323458dcc564327c8
