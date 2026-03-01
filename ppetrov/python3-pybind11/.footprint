@@ -4,13 +4,12 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11-2.13.6.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-2.13.6.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-2.13.6.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-2.13.6.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-2.13.6.dist-info/direct_url.json
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-2.13.6.dist-info/entry_points.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-2.13.6.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11-3.0.2.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-3.0.2.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-3.0.2.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-3.0.2.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-3.0.2.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11-3.0.2.dist-info/entry_points.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/__main__.py
@@ -30,16 +29,29 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/chrono.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/common.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/complex.h
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/conduit/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/conduit/pybind11_conduit_v1.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/conduit/pybind11_platform_abi_id.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/conduit/wrap_include_python_h.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/critical_section.h
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/argument_vector.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/class.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/common.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/cpp_conduit.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/descr.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/dynamic_raw_ptr_cast_if_possible.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/exception_translation.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/function_record_pyobject.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/holder_caster_foreign_helpers.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/init.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/internals.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/native_enum_data.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/pybind11_namespace_macros.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/struct_smart_holder.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/type_caster_base.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/typeid.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/using_smart_holder.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/detail/value_and_holder.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen.h
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/eigen/
@@ -51,7 +63,9 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/functional.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/gil.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/gil_safe_call_once.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/gil_simple.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/iostream.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/native_enum.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/numpy.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/operators.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/options.h
@@ -61,11 +75,17 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/stl/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/stl/filesystem.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/stl_bind.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/subinterpreter.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/trampoline_self_life_support.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/type_caster_pyobject_ptr.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/typing.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/include/pybind11/warnings.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/py.typed (EMPTY)
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/setup_helpers.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/share/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/share/__init__.py (EMPTY)
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/share/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/share/__pycache__/__init__.cpython-312.pyc
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/share/cmake/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/FindPythonLibsNew.cmake
@@ -77,4 +97,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/share/cmake/pybin
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Targets.cmake
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/pybind11Tools.cmake
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/share/pkgconfig/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/share/pkgconfig/__init__.py (EMPTY)
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pybind11/share/pkgconfig/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/share/pkgconfig/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pybind11/share/pkgconfig/pybind11.pc

@@ -1,10 +1,10 @@
 # Description: Seamless operability between C++11 and Python
-# URL: https://github.com/pybind/pybind11/
+# URL: https://github.com/pybind/pybind11/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: eigen
 
 name=python3-pybind11
-version=2.13.6
+version=3.0.2
 release=1
 source=(https://github.com/pybind/pybind11/archive/v${version}/pybind11-v${version}.tar.gz)
 
