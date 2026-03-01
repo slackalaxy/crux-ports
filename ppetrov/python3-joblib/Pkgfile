@@ -1,12 +1,12 @@
 # Description: Python functions as pipeline jobs
-# URL: https://pypi.org/project/joblib/
+# URL: https://github.com/joblib/joblib/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-wheel
 
 name=python3-joblib
-version=1.5.2
+version=1.5.3
 release=1
-source=(https://files.pythonhosted.org/packages/e8/5d/447af5ea094b9e4c4054f82e223ada074c552335b9b4b2d14bd9b35a67c4/joblib-$version.tar.gz)
+source=(https://github.com/joblib/joblib/releases/download/${version}/joblib-$version.tar.gz)
 
 build() {
   cd ${name#*-}-$version
