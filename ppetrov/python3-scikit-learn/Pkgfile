@@ -1,10 +1,10 @@
 # Description: A Python module for machine learning
-# URL: https://github.com/scikit-learn/scikit-learn
+# URL: https://github.com/scikit-learn/scikit-learn/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-joblib python3-scipy python3-threadpoolctl
 
 name=python3-scikit-learn
-version=1.7.1
+version=1.8.0
 release=1
 source=(https://github.com/scikit-learn/scikit-learn/archive/$version/Scikit-learn-$version.tar.gz)
 

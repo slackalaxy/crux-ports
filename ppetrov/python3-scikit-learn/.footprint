@@ -2,13 +2,13 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.7.1.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.7.1.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.7.1.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.7.1.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.7.1.dist-info/direct_url.json
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.7.1.dist-info/licenses/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.7.1.dist-info/licenses/COPYING
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.8.0.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.8.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.8.0.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.8.0.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.8.0.dist-info/direct_url.json
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.8.0.dist-info/licenses/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scikit_learn-1.8.0.dist-info/licenses/COPYING
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/__check_build/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/__check_build/__init__.py
@@ -20,7 +20,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/__check_build/__py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/__pycache__/__init__.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/__pycache__/_built_with_meson.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/__pycache__/_config.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/__pycache__/_distributor_init.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/__pycache__/_min_dependencies.cpython-312.pyc
@@ -46,7 +45,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/_build_utils/__pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/_build_utils/__pycache__/version.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/_build_utils/tempita.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/_build_utils/version.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/_built_with_meson.py (EMPTY)
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/_config.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/_cyutility.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/_distributor_init.py
@@ -658,6 +656,10 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/externals/__pycach
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/externals/__pycache__/conftest.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_arff.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_array_api_compat_vendor.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_numpydoc/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_numpydoc/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_numpydoc/__pycache__/docscrape.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_numpydoc/docscrape.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_packaging/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_packaging/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/externals/_packaging/__pycache__/
@@ -1058,6 +1060,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__pycache__/__init__.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__pycache__/_classical_mds.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__pycache__/_isomap.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__pycache__/_locally_linear.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__pycache__/_mds.cpython-312.pyc
@@ -1065,6 +1068,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__pycache
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/__pycache__/_t_sne.cpython-312.pyc
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/_barnes_hut_tsne.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/_barnes_hut_tsne.pyx
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/_classical_mds.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/_isomap.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/_locally_linear.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/_mds.py
@@ -1077,11 +1081,13 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__pycache__/__init__.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__pycache__/test_classical_mds.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__pycache__/test_isomap.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__pycache__/test_locally_linear.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__pycache__/test_mds.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__pycache__/test_spectral_embedding.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/__pycache__/test_t_sne.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/test_classical_mds.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/test_isomap.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/test_locally_linear.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/manifold/tests/test_mds.py
@@ -1552,10 +1558,12 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/__pycache__/test_export.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/__pycache__/test_fenwick.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/__pycache__/test_monotonic_tree.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/__pycache__/test_reingold_tilford.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/__pycache__/test_tree.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/test_export.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/test_fenwick.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/test_monotonic_tree.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/test_reingold_tilford.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/tree/tests/test_tree.py
@@ -1568,8 +1576,8 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_available_if.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_bunch.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_chunking.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_dataframe.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_encode.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_estimator_html_repr.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_indexing.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_mask.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/_metadata_requests.cpython-312.pyc
@@ -1610,8 +1618,8 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/__pycache__/
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_cython_blas.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_cython_blas.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_cython_blas.pyx
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_dataframe.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_encode.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_estimator_html_repr.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_fast_dict.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_fast_dict.pxd
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_fast_dict.pyx
@@ -1653,8 +1661,10 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/t
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/tests/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/tests/__pycache__/test_estimator.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/tests/__pycache__/test_js.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/tests/__pycache__/test_params.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/tests/test_estimator.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/tests/test_js.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_repr_html/tests/test_params.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_response.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/_seq_dataset.cpython-312-x86_64-linux-gnu.so
@@ -1721,10 +1731,10 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pyca
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_chunking.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_class_weight.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_cython_blas.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_dataframe.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_deprecation.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_encode.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_estimator_checks.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_estimator_html_repr.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_extmath.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_fast_dict.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pycache__/test_fixes.cpython-312.pyc
@@ -1763,10 +1773,10 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/__pyca
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_chunking.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_class_weight.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_cython_blas.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_dataframe.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_deprecation.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_encode.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_estimator_checks.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_estimator_html_repr.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_extmath.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_fast_dict.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/sklearn/utils/tests/test_fixes.py
