@@ -85,9 +85,9 @@ f:0a347278d8573eafff3edaa5de1f1e4d:etc-hostname/.footprint
 f:3abf75022347f63248ab0bdaa0d90623:etc-hostname/.signature
 f:304360939dff0b9bbe892d2eaf52a9a6:etc-hostname/Pkgfile
 f:737664c0026abf29befd319b28c3da3a:etc-hostname/README
-f:bb6b6554db0d4b2bae70688cbb0db047:ports-slackalaxy/Pkgfile
-f:152f03c198cb572cb348b9fc4102f491:ports-slackalaxy/.footprint
-f:ede121175a2cbbde03bf6f2f666b965b:ports-slackalaxy/.signature
+f:68d793dacc896334fbc36bcc477d3a69:ports-slackalaxy/Pkgfile
+f:4125d4a464ee8d47119c15d34a04a770:ports-slackalaxy/.footprint
+f:6dc9131124d74922c7a8ebb5cd28824e:ports-slackalaxy/.signature
 f:89674b9b16c98f64808287c4e7e5ed6c:ports-extra/Pkgfile
 f:ddb7c32b81f38e2ae290886ce9518e50:ports-extra/.footprint
 f:398622e1d0d0c40b05f9c466b66cf4a5:ports-extra/.signature
