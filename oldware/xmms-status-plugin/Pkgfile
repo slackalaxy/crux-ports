@@ -1,0 +1,24 @@
+# Description: A status docklet for XMMS
+# URL: https://www.hellion.org.uk/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-status-plugin
+version=1.0
+release=1
+source=(https://www.hellion.org.uk/source/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	CFLAGS="$CFLAGS -Wno-error=implicit-int -Wno-error=implicit-function-declaration -Wno-error=incompatible-pointer-types -std=gnu17" \
+	LIBTOOL=/usr/bin/libtool \
+	./configure \
+		--prefix=/usr \
+		--disable-nls \
+		--disable-more-warnings \
+		--disable-fatal-warnings
+
+	make LIBTOOL=/usr/bin/libtool
+	make install DESTDIR=$PKG
+}

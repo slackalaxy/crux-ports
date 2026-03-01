@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/oldware.pub
+RWRJzOtRldSTKI5XfjlnPuAl1VAyPOIOYkjyRznRLEoV3HKwIj9Pk0aySyqHck6FbPIhcsW2jJfMUQGG/EZTtUdQjBWoGgQckww=
+SHA256 (Pkgfile) = e5d5e68cb2b396ecfa9461957b36b9ff3cc0d2fc62460664e3aa5366d51ab7b5
+SHA256 (.footprint) = aedd71935e4df4dbf621d32dc14ca4ad4ee55da949e6d2f9adbfa8aefd9e05a6
+SHA256 (flac-1.4.1.tar.xz) = 91303c3e5dfde52c3e94e75976c0ab3ee14ced278ab8f60033a3a12db9209ae6

@@ -1,0 +1,14 @@
+# Description: Ater Xmms skins
+# URL: https://www.opendesktop.org/p/1008370/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-skins-ater
+version=1.7
+release=1
+source=(https://sourceforge.net/projects/sboppetrov/files/xmms-skins-ater/43630-ATER-XMMS.tar.gz)
+
+build() {
+	mkdir -p $PKG/usr/share/xmms/Skins
+	cp $SRC/*.wsz $PKG/usr/share/xmms/Skins
+}

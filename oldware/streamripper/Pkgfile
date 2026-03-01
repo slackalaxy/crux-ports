@@ -1,0 +1,16 @@
+# Description: Rip SHOUTcast Radio Streams to MP3 Files
+# URL: http://streamripper.sourceforge.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: faad2 glib libmad libvorbis
+
+name=streamripper
+version=1.64.6
+release=1
+source=(http://downloads.sourceforge.net/streamripper/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr
+	make
+	make install DESTDIR=$PKG
+}

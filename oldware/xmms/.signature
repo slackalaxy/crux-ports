@@ -1,0 +1,10 @@
+untrusted comment: verify with /etc/ports/oldware.pub
+RWRJzOtRldSTKKMnGySqK+FMSYIQDEmGn3gjphoSxf/2EZl2PSeb8y/iFEqkgfqfeX/uHw8BzhNRmlKyoL6NVYV6V2PTLgrmYQE=
+SHA256 (Pkgfile) = c8298e8b3e9817042e4f65746a008e495d5d1eab5a8d362a79b1854d7fb55d4b
+SHA256 (.footprint) = f6a61e54b6d18b2170a860d2226a2fe296aa568d416e54f8887fbe68185116fb
+SHA256 (xmms-1.2.11.tar.bz2) = 7ec15c56632b6c82e61ccddeaefd372359af2f005708a58cdf3951c574b20390
+SHA256 (xmms.alsa.default.diff) = 665359ac9de63b7aca9d4170d95cf3cd9af7ca8778b33173be59875607f48ee2
+SHA256 (xmms.gtk.doublesize.diff) = 3995588fcae2eb5aebe8a2c04439c3f0195a708d5e95cd6b0ee50cfd71613b54
+SHA256 (xmms.wmxmms_vis_depth_workaround.diff) = dac1c2a7c6d3d48ce8a5a719f9b0c84fb0c000189ffd685d22f2a51cd928ea7a
+SHA256 (xmms.desktop) = 33be898e30cbc791e6c8e5a51a653bda8f2d5f102549c27e06e9788887bfa9d5
+SHA256 (xmms.png) = 46f5af74cb818cdf2444e61666e75a8dd18ac476cda892b5c6a6b8a121169c62

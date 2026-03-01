@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/oldware.pub
+RWRJzOtRldSTKJ2jdl36juxXQnTw5lBZwlMfQITA0GddNN8SF1lVvHqBLTnJ17jE68i8JqAgwlJDa1b1UiI5bxAieoK5gw950QA=
+SHA256 (Pkgfile) = eb58ad2347a7b579e14e06f5b75071377c891a57bd8f95fe179080de236620cf
+SHA256 (.footprint) = 778b9c4a38e3fa225b46ca4bf12c5401fd1fa59af4dea14b11e657bc028f860a
+SHA256 (xmms-mp4_20050213.tar.bz2) = 6f8ee4d8765569a60f9dc266f9ed0189cd9b468cd3201614da3df9d301a443bc
+SHA256 (compilefix.diff) = 1b40a83dc578b4627e93a22d65391c784c700c66709b22061b26590fa870aa03

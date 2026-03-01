@@ -1,0 +1,62 @@
+# Description: Legacy Glib
+# URL: https://download.gnome.org/sources/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: patchelf
+
+name=glib1
+version=1.2.10
+release=1
+source=(https://download.gnome.org/sources/glib/${version%.*}/glib-$version.tar.gz
+	glib-1.2.10-autotools.patch
+	glib-1.2.10-format.patch
+	glib-1.2.10-gcc34.patch
+	glib-1.2.10-gcc5.patch
+	glib-1.2.10-gcc9.patch
+	glib-1.2.10-isowarning.patch
+	glib-1.2.10-multilib.patch
+	glib-1.2.10-no_undefined.patch
+	glib-1.2.10-underquoted.patch
+	glib-1.2.10-unused-dep.patch)
+
+build() {
+	cd glib-$version
+	
+	patch -p1 -i $SRC/glib-1.2.10-isowarning.patch
+	patch -p1 -i $SRC/glib-1.2.10-gcc34.patch
+	patch -p1 -i $SRC/glib-1.2.10-underquoted.patch
+	patch -p1 -i $SRC/glib-1.2.10-no_undefined.patch
+	patch -p1 -i $SRC/glib-1.2.10-multilib.patch
+	patch -p1 -i $SRC/glib-1.2.10-unused-dep.patch
+	patch -p0 -i $SRC/glib-1.2.10-autotools.patch
+	patch -p0 -i $SRC/glib-1.2.10-format.patch
+	patch -p0 -i $SRC/glib-1.2.10-gcc5.patch
+	patch -p0 -i $SRC/glib-1.2.10-gcc9.patch
+	
+	cp -p /usr/share/libtool/build-aux/config.{guess,sub} .
+	
+	OLDFLAGS="-Wno-error=implicit-int -Wno-error=implicit-function-declaration"
+	
+	CFLAGS="$CFLAGS $OLDFLAGS" \
+	./configure \
+		--prefix=/usr \
+		--disable-static \
+		--mandir=/usr/share/man
+		
+	make CFLAGS="$CFLAGS $OLDFLAGS" \
+	LIBTOOL=/usr/bin/libtool
+	
+	make CFLAGS="$CFLAGS $OLDFLAGS" \
+	install DESTDIR=$PKG
+	
+	rm -rf $PKG/{,usr/}lib/*.la
+	rm -rf $PKG/usr/lib/*.a
+	rm -rf $PKG/usr/info
+	chmod 755 $PKG/usr/lib/lib*.so.*
+	
+	# Remove rpaths:
+	for file in $(find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF | cut -f 1 -d : 2> /dev/null) ; do
+  		if [ ! "$(patchelf --print-rpath $file 2> /dev/null)" = "" ]; then
+    			patchelf --remove-rpath $file
+  		fi
+	done
+}

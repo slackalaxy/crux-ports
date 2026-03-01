@@ -1,0 +1,98 @@
+# Description: GTK1
+# URL: https://download.gnome.org/sources/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: glib1 xorg-libxi
+
+name=gtk1
+version=1.2.10
+release=1
+source=(https://download.gnome.org/sources/gtk+/${version%.*}/gtk+-$version.tar.gz
+	gtk+-1.2.10-ahiguti.patch
+	gtk+-1.2.10-alignment.patch
+	gtk+-1.2.10-autotools.patch
+	gtk+-1.2.10-bellvolume.patch
+	gtk+-1.2.10-clistfocusrow.patch
+	gtk+-1.2.10-ctext.patch
+	gtk+-1.2.10-deletedir.patch
+	gtk+-1.2.10-dndorder.patch
+	gtk+-1.2.10-encoding.patch
+	gtk+-1.2.10-expose.patch
+	gtk+-1.2.10-focus.patch
+	gtk+-1.2.10-fontwarning.patch
+	gtk+-1.2.10-format.patch
+	gtk+-1.2.10-gtkgdkdep.patch
+	gtk+-1.2.10-kpenter.patch
+	gtk+-1.2.10-libtool.patch
+	gtk+-1.2.10-localecrash.patch
+	gtk+-1.2.10-missingchar.patch
+	gtk+-1.2.10-multilib.patch
+	gtk+-1.2.10-no_undefined.patch
+	gtk+-1.2.10-pixmapref.patch
+	gtk+-1.2.10-ppc64.patch
+	gtk+-1.2.10-themeswitch.patch
+	gtk+-1.2.10-troughpaint.patch
+	gtk+-1.2.10-ukfont.patch
+	gtk+-1.2.10-unused-deps.patch
+	gtk+-1.2.10-utf8fontset.patch
+	gtk+-1.2.8-wrap-alnum.patch
+	gtk+-underquoted.patch)
+
+build() {
+	cd gtk+-$version
+	
+	patch -p1 -i $SRC/gtk+-1.2.10-ahiguti.patch
+	patch -p1 -i $SRC/gtk+-1.2.8-wrap-alnum.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-alignment.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-expose.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-focus.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-encoding.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-ctext.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-utf8fontset.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-kpenter.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-themeswitch.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-pixmapref.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-missingchar.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-ukfont.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-deletedir.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-fontwarning.patch
+	patch -p0 -i $SRC/gtk+-1.2.10-troughpaint.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-localecrash.patch
+	patch -p0 -i $SRC/gtk+-1.2.10-dndorder.patch
+	patch -p0 -i $SRC/gtk+-1.2.10-clistfocusrow.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-bellvolume.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-libtool.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-gtkgdkdep.patch
+	patch -p1 -i $SRC/gtk+-underquoted.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-ppc64.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-no_undefined.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-multilib.patch
+	patch -p1 -i $SRC/gtk+-1.2.10-unused-deps.patch
+	patch -p0 -i $SRC/gtk+-1.2.10-autotools.patch
+	patch -p0 -i $SRC/gtk+-1.2.10-format.patch
+	
+	cp -p /usr/share/libtool/build-aux/config.{guess,sub} .
+	
+	CFLAGS="$CFLAGS -Wno-error=implicit-int -Wno-error=implicit-function-declaration -Wno-error=incompatible-pointer-types -std=gnu17" \
+	LIBTOOL=/usr/bin/libtool \
+	./configure \
+		--prefix=/usr \
+		--with-glib-prefix=/usr \
+		--with-xinput=xfree \
+		--disable-static \
+		--mandir=/usr/share/man \
+		--disable-nls
+
+	make LIBTOOL=/usr/bin/libtool
+	make install DESTDIR=$PKG
+
+	rm -rf $PKG/{,usr/}lib/*.la
+	rm -rf $PKG/usr/lib/*.a
+	rm -rf $PKG/usr/info
+
+	# Remove rpaths:
+	for file in $(find $PKG | xargs file | grep -e "executable" -e "shared object" | grep ELF | cut -f 1 -d : 2> /dev/null) ; do
+	  if [ ! "$(patchelf --print-rpath $file 2> /dev/null)" = "" ]; then
+	    patchelf --remove-rpath $file
+	  fi
+	done
+}

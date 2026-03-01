@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=gtk1-switch
+Icon=preferences-desktop-theme
+Name=GTK1 Settings
+Type=Application
+Categories=Settings;X-XFCE-SettingsDialog;

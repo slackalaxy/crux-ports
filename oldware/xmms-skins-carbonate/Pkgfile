@@ -1,0 +1,15 @@
+# Description: Carbonate skins for XMMS
+# URL: https://skins.webamp.org/?query=carbonate
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: xmms
+
+name=xmms-skins-carbonate
+version=dd60cd2
+release=1
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/winamp-skins-carbonate.tar.xz)
+
+build() {
+	cd winamp-skins-carbonate
+	mkdir -p $PKG/usr/share/xmms/Skins
+	cp *.wsz $PKG/usr/share/xmms/Skins
+}

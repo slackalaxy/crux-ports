@@ -1,0 +1,11 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/xmms/
+drwxr-xr-x	root/root	usr/share/xmms/Skins/
+-rw-r--r--	root/root	usr/share/xmms/Skins/Minimalist-ClearGnome.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Minimalist-Greyscale.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Minimalist-MilkBlue.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Minimalist-RezlooksCandy.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Minimalist-SmoothLCD.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Minimalistic-black.wsz
+-rw-r--r--	root/root	usr/share/xmms/Skins/Minimalistic-white.wsz

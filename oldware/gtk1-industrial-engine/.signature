@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/oldware.pub
+RWRJzOtRldSTKEMYnWLvz2M2f0ADhhEnUxElsHmRLP38zYN+OoaX0z+cmSiDonjGummLoY83TEVpNZSat0RYmLnd4RQYBAjvlQY=
+SHA256 (Pkgfile) = bcdae45b76d94ee1197391307719e0a5e0c9d1001414169f9d05980d088fafea
+SHA256 (.footprint) = 3a270aad281b7ca1e2278deee26dec8487f03367ce54856b0ff5497778402740
+SHA256 (gtk-industrial-engine_0.2.36-2.tar.gz) = 2060a9acef3d8b7273e7b765f8cd3d829db287011512c9c9ee73dc00aa320a9f
