@@ -1,5 +1,5 @@
 # Description: Limit the number of threads
-# URL: https://github.com/joblib/threadpoolctl
+# URL: https://github.com/joblib/threadpoolctl/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-build
 
