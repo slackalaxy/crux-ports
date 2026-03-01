@@ -1,10 +1,10 @@
 # Description: A collection of Compile-time analyse on Python Abstract Syntax Tree(AST)
-# URL: https://github.com/serge-sans-paille/beniget
+# URL: https://github.com/serge-sans-paille/beniget/tags
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-gast python3-wheel
 
 name=python3-beniget
-version=0.4.2.post1
+version=0.5.0
 release=1
 source=(https://github.com/serge-sans-paille/beniget/archive/$version/$name-$version.tar.gz)
 
