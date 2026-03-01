@@ -4,7 +4,7 @@
 # Depends on: openblas openmpi
 
 name=hyphy
-version=2.5.94
+version=2.5.96
 release=1
 source=(https://github.com/veg/hyphy/archive/$version/$name-$version.tar.gz)
 
