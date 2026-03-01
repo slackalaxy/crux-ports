@@ -2,12 +2,12 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy-1.16.1.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.16.1.dist-info/LICENSE.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.16.1.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.16.1.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.16.1.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.16.1.dist-info/direct_url.json
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy-1.17.1.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.17.1.dist-info/LICENSE.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.17.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.17.1.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.17.1.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy-1.17.1.dist-info/direct_url.json
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/__config__.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/__init__.py
@@ -25,7 +25,9 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_array_api.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_array_api_compat_vendor.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_array_api_docs_tables.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_array_api_no_0d.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_array_api_override.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_bunch.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_ccallback.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_disjoint_set.cpython-312.pyc
@@ -33,18 +35,19 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_elementwise_iterative_method.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_gcutils.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_pep440.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_public_api.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_sparse.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_testutils.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_threadsafety.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_tmpdirs.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/_util.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/decorator.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/deprecation.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/doccer.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/uarray.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_array_api.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_array_api_compat_vendor.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_array_api_docs_tables.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_array_api_no_0d.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_array_api_override.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_bunch.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_ccallback.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_ccallback_c.cpython-312-x86_64-linux-gnu.so
@@ -54,12 +57,12 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/__pycache__/
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_fpumode.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_gcutils.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_pep440.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_public_api.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_sparse.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_test_ccallback.cpython-312-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_test_deprecation_call.cpython-312-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_test_deprecation_def.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_testutils.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_threadsafety.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_tmpdirs.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_uarray/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/_uarray/__init__.py
@@ -213,7 +216,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/cobyqa/utils/__
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/cobyqa/utils/exceptions.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/cobyqa/utils/math.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/cobyqa/utils/versions.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/decorator.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/deprecation.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/doccer.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/messagestream.cpython-312-x86_64-linux-gnu.so
@@ -282,7 +284,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache__/test__gcutils.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache__/test__pep440.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache__/test__testutils.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache__/test__threadsafety.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache__/test__util.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache__/test_array_api.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache__/test_bunch.cpython-312.pyc
@@ -298,7 +299,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/__pycache
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/test__gcutils.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/test__pep440.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/test__testutils.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/test__threadsafety.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/test__util.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/test_array_api.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/_lib/tests/test_bunch.py
@@ -486,6 +486,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/fftpack/tests/__pyca
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/fftpack/tests/test_pseudo_diffs.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/fftpack/tests/test_real_transforms.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/LICENSE_DOP
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/__pycache__/__init__.cpython-312.pyc
@@ -535,7 +536,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_ivp/tests
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_ivp/tests/test_ivp.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_ivp/tests/test_rk.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_lebedev.py
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_lsoda.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_ode.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_odepack.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_odepack_py.py
@@ -557,7 +557,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_rules/__p
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_rules/_genz_malik.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_tanhsinh.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_test_multivariate.cpython-312-x86_64-linux-gnu.so
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_test_odeint_banded.cpython-312-x86_64-linux-gnu.so
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/_vode.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/dop.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/lsoda.py
@@ -572,7 +571,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__pycache__/test_bvp.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__pycache__/test_cubature.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__pycache__/test_integrate.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__pycache__/test_odeint_jac.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__pycache__/test_quadpack.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__pycache__/test_quadrature.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__pycache__/test_tanhsinh.cpython-312.pyc
@@ -581,7 +579,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/__py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/test_bvp.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/test_cubature.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/test_integrate.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/test_odeint_jac.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/test_quadpack.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/test_quadrature.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/integrate/tests/test_tanhsinh.py
@@ -604,6 +601,9 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycach
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/_polyint.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/_rbf.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/_rbfinterp.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/_rbfinterp_common.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/_rbfinterp_np.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/_rbfinterp_xp.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/_rgi.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/dfitpack.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycache__/fitpack.cpython-312.pyc
@@ -632,7 +632,10 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/__pycach
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_ppoly.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_rbf.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_rbfinterp.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_rbfinterp_common.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_rbfinterp_np.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_rbfinterp_pythran.cpython-312-x86_64-linux-gnu.so
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_rbfinterp_xp.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_rgi.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/_rgi_cython.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/interpolate/dfitpack.py
@@ -715,7 +718,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/io/_harwell_boeing/t
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/io/_idl.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/io/_mmio.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/io/_netcdf.py
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/io/_test_fortran.cpython-312-x86_64-linux-gnu.so
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/io/arff/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/io/arff/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/io/arff/__pycache__/
@@ -1065,6 +1067,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/linalg/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/linalg/__pycache__/misc.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/linalg/__pycache__/special_matrices.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/linalg/_basic.py
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/linalg/_batched_linalg.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/linalg/_blas_subroutines.h
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/linalg/_cythonized_array_utils.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/linalg/_cythonized_array_utils.pxd
@@ -1818,6 +1821,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/__pycache__/_expm_multiply.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/__pycache__/_funm_multiply_krylov.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/__pycache__/_interface.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/__pycache__/_matfuncs.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/__pycache__/_norm.cpython-312.pyc
@@ -1853,12 +1857,11 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/_svds.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/_svds_doc.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/COPYING
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/__pycache__/arpack.cpython-312.pyc
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/_arpack.cpython-312-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/_arpacklib.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/tests/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/arpack/tests/__init__.py (EMPTY)
@@ -1885,6 +1888,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/tests/__pycache__/test_svds.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_eigen/tests/test_svds.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_expm_multiply.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_funm_multiply_krylov.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_interface.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_isolve/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_isolve/__init__.py
@@ -1927,11 +1931,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_isolv
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_matfuncs.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_norm.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_onenormest.py
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_propack/
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_propack/_cpropack.cpython-312-x86_64-linux-gnu.so
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_propack/_dpropack.cpython-312-x86_64-linux-gnu.so
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_propack/_spropack.cpython-312-x86_64-linux-gnu.so
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_propack/_zpropack.cpython-312-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_propack.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_special_sparse_arrays.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/_svdp.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/dsolve.py
@@ -1944,6 +1944,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/__pycache__/test_expm_multiply.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/__pycache__/test_funm_multiply_krylov.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/__pycache__/test_interface.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/__pycache__/test_matfuncs.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/__pycache__/test_norm.cpython-312.pyc
@@ -1953,6 +1954,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/__pycache__/test_special_sparse_arrays.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/propack_test_data.npz
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/test_expm_multiply.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/test_funm_multiply_krylov.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/test_interface.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/test_matfuncs.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/linalg/tests/test_norm.py
@@ -1967,6 +1969,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/__pycache__/__init__.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/__pycache__/test_64bit.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/__pycache__/test_arithmetic1d.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/__pycache__/test_array_api.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/__pycache__/test_base.cpython-312.pyc
@@ -1986,6 +1989,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/__pycac
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/data/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/data/csc_py2.npz
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/data/csc_py3.npz
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/test_64bit.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/test_arithmetic1d.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/test_array_api.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/sparse/tests/test_base.py
@@ -2033,6 +2037,8 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/distance.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/kdtree.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/qhull.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/qhull_src/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/qhull_src/COPYING_QHULL.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/tests/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/tests/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/tests/__pycache__/
@@ -2089,13 +2095,21 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/__init__.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/_rigid_transform.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/_rigid_transform_xp.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/_rotation.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/_rotation_groups.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/_rotation_spline.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/_rotation_xp.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/__pycache__/rotation.cpython-312.pyc
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rigid_transform.cpython-312-x86_64-linux-gnu.so
--rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rotation.cpython-312-x86_64-linux-gnu.so
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rigid_transform.py
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rigid_transform_cy.cpython-312-x86_64-linux-gnu.so
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rigid_transform_xp.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rotation.py
+-rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rotation_cy.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rotation_groups.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rotation_spline.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/_rotation_xp.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/rotation.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/tests/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/spatial/transform/tests/__init__.py (EMPTY)
@@ -2226,6 +2240,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/__pyca
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/__pycache__/test_faddeeva.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/__pycache__/test_gamma.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/__pycache__/test_gammainc.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/__pycache__/test_gen_harmonic.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/__pycache__/test_hyp2f1.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/__pycache__/test_hypergeometric.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/__pycache__/test_iv_ratio.cpython-312.pyc
@@ -2292,6 +2307,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/data/_
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/test_faddeeva.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/test_gamma.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/test_gammainc.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/test_gen_harmonic.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/test_hyp2f1.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/test_hypergeometric.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/special/tests/test_iv_ratio.py
@@ -2496,6 +2512,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycach
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_continuous_fit_censored.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_correlation.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_crosstab.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_device_dtype.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_discrete_basic.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_discrete_distns.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_distributions.cpython-312.pyc
@@ -2511,6 +2528,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycach
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_mstats_extras.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_multicomp.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_multivariate.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_new_distributions.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_odds_ratio.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_qmc.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/__pycache__/test_quantile.cpython-312.pyc
@@ -2561,6 +2579,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/data/nis
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_continuous_fit_censored.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_correlation.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_crosstab.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_device_dtype.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_discrete_basic.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_discrete_distns.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_distributions.py
@@ -2576,6 +2595,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/data/nis
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_mstats_extras.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_multicomp.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_multivariate.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_new_distributions.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_odds_ratio.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_qmc.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scipy/stats/tests/test_quantile.py
