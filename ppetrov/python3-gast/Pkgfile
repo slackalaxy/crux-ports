@@ -1,10 +1,10 @@
 # Description: A generic AST to represent Python3's Abstract Syntax Tree(AST).
-# URL: https://github.com/serge-sans-paille/gast
+# URL: https://github.com/serge-sans-paille/gast/tags
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-setuptools
 
 name=python3-gast
-version=0.6.0
+version=0.7.0
 release=1
 source=(https://github.com/serge-sans-paille/gast/archive/$version/$name-$version.tar.gz)
 
