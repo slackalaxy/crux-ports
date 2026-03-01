@@ -1,10 +1,10 @@
 # Description: Uniform Manifold Approximation and Projection in Python
-# URL: https://github.com/lmcinnes/umap
+# URL: https://github.com/lmcinnes/umap/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-pynndescent python3-tqdm
 
 name=python3-umap
-version=0.5.9.post2
+version=0.5.11
 release=1
 source=(https://github.com/lmcinnes/umap/archive/refs/tags/release-$version.tar.gz)
 renames=($name-$version.tar.gz)
