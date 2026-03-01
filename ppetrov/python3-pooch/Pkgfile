@@ -1,12 +1,12 @@
 # Description: A friend to fetch your data files
-# URL: https://github.com/fatiando/pooch
+# URL: https://pypi.org/project/pooch/#files
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-platformdirs python3-requests
 
 name=python3-pooch
-version=1.8.2
+version=1.9.0
 release=1
-source=(https://files.pythonhosted.org/packages/c6/77/b3d3e00c696c16cf99af81ef7b1f5fe73bd2a307abca41bd7605429fe6e5/pooch-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/83/43/85ef45e8b36c6a48546af7b266592dc32d7f67837a6514d111bced6d7d75/pooch-${version}.tar.gz)
 
 build() {
   cd ${name#*-}-$version
@@ -18,5 +18,4 @@ build() {
                -iname REQUESTED -o \
                -iname "LICENSE"   \) -delete
   chmod -R g-w $PKG
-
 }
