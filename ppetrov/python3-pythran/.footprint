@@ -9,15 +9,15 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/omp/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/omp/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/omp/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/omp/__pycache__/__init__.cpython-312.pyc
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/direct_url.json
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/entry_points.txt
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/licenses/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/licenses/AUTHORS
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.0.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/licenses/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/licenses/AUTHORS
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran-0.18.1.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran/__pycache__/
@@ -3184,6 +3184,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/n
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/fmod/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/fmod/accumulate.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/frexp.hpp
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/frombuffer.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/fromfile.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/fromfunction.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/numpy/fromiter.hpp
@@ -3664,6 +3665,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/t
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/types/str.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/types/traits.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/types/tuple.hpp
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/types/type.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/types/uint16.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/types/uint32.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/include/types/uint64.hpp
@@ -3917,6 +3919,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/numpy/fmi
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/numpy/fmod/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/numpy/fmod/accumulate.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/numpy/frexp.hpp
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/numpy/frombuffer.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/numpy/fromfile.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/numpy/fromfunction.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/numpy/fromiter.hpp
@@ -4400,6 +4403,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/types/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/types/str.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/types/traits.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/types/tuple.hpp
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/types/type.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/types/uint16.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/types/uint32.hpp
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/pythran/pythonic/types/uint64.hpp

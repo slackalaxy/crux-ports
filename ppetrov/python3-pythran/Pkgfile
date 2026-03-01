@@ -1,10 +1,10 @@
 # Description: A compiler for a Python subset
-# URL: https://github.com/serge-sans-paille/pythran
+# URL: https://github.com/serge-sans-paille/pythran/tags
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: boost python3-beniget python3-numpy python3-ply xsimd
 
 name=python3-pythran
-version=0.18.0
+version=0.18.1
 release=1
 source=(https://github.com/serge-sans-paille/pythran/archive/$version/pythran-$version.tar.gz)
 

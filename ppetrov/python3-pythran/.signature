@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZf5cL0Ue+h6mYWRNLYJ3Qrc4jtJZVeGvy9+vbRlZ9Nm/W8Y0hITUdhLzqsLh+jfcY5yv6mAfFMaZPq3CZLPITwo=
-SHA256 (Pkgfile) = 67abe9cb1f621c6165ebdd046fdddbb214918a293124d6e1f00b42fbd4509220
-SHA256 (.footprint) = e41481e0dd46304619f719ba69be45e3339d71cf22123c72f157f19ec2a4181c
-SHA256 (pythran-0.18.0.tar.gz) = d3f879f86fde1c0eb62e02e52fbe30e2468fb59d8751b951b7cc6faf16e7df3e
+RWToVVsIkzFIZUkEjojlxLwMzUZH27f25odHopfmlVGav0Wrasw0BtSD9V2legYU+lglUkz6KiECPu7oAfMuTiGf3OOKs/Pj4ww=
+SHA256 (Pkgfile) = 77820f1579f555c2e51ada3de729ce5bc4be527ee5015644ecb5d1c0e541998d
+SHA256 (.footprint) = 7b3cf5100714ef62bdbfcedd53e0f6e15e98d6674fce67295a19694ff8ade552
+SHA256 (pythran-0.18.1.tar.gz) = cdbab54e8f28321b8f8f0ea8d12de1669c3294f67c13332c7f5bf92cf0a8833a
