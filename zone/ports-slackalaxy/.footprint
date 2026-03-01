@@ -1,5 +1,7 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/ports/
+-rw-r--r--	root/root	etc/ports/oldware.httpup
+-rw-r--r--	root/root	etc/ports/oldware.pub
 -rw-r--r--	root/root	etc/ports/p5-modules.httpup
 -rw-r--r--	root/root	etc/ports/p5-modules.pub
 -rw-r--r--	root/root	etc/ports/ppetrov.httpup
