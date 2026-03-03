@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwa7rPNMsR+HXB/1p6M3Zyw/M3dlt9rdXhAebq3ZjpPpAH+HPz9FAnuPD7Bu8tScPMgDKpPt8HzG5k9+oaWcPBAg=
-SHA256 (Pkgfile) = 1c693dc190efc000804a9a06511573bce426635692cf643bea38785b1f6db545
-SHA256 (.footprint) = 5d70c64e3b1fb7fea60e2cfa424cea3d2b5267c6605141d0c7f854ca4998d1cc
-SHA256 (backgrounds-76b616cf76e546cc8f0e908de2e6f02de02508b6.tar.gz) = 3d635b4cfa935ff502dec2eb39face2b411f60a6240cf502e7354074a1be5445
+RWRPokwW0IImwZ9tHpUy0tmD2oXV8yMcmfcipoR0T3AKIiS+oIUGIQV4NF3TpKPPf/fRMepRFLgnP5+SjpXU7WfGdw8cDNNzmQw=
+SHA256 (Pkgfile) = 30a6d927ebd01d0efd19739497ed67f7bd63554b620e67c124c8ca0fe4aef7f8
+SHA256 (.footprint) = 017ec2c9d9609cd47cec65385739f3abd3a52133789200a7f2c1b70199845eb3
+SHA256 (backgrounds-6589cefb4b6cbc98effb7d26f510ed660ceb36d6.tar.gz) = 9dc4f8110cf4699b60a90bf030ad9be7a8d568abc04a1c39fa9b28014af0b747
