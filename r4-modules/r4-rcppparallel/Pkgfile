@@ -5,9 +5,9 @@
 # Optional: r4-knitr r4-rcpp r4-rmarkdown r4-runit
 
 name=r4-rcppparallel
-version=5.1.11.1
+version=5.1.11.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/RcppParallel_5.1.11-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/RcppParallel_5.1.11-2.tar.gz)
 
 build() {
 	cd RcppParallel
