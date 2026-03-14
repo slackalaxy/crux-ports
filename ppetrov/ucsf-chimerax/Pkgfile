@@ -7,7 +7,7 @@ name=ucsf-chimerax
 version=1.11.1
 _ubuntu=24.04
 _python=3.11
-release=1
+release=2
 source=(https://www.cgl.ucsf.edu/chimerax/cgi-bin/secure/chimerax-get.py?file=${version}/ubuntu-${_ubuntu}/ucsf-chimerax_${version}ubuntu${_ubuntu}_amd64.deb
 	$name.desktop)
 
