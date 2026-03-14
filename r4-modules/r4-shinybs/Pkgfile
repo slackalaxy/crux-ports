@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-shinybs
-version=0.63.0
+version=0.64.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/shinyBS_${version}.tar.gz)
 

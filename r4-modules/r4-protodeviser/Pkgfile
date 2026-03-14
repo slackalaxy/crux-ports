@@ -5,11 +5,18 @@
 
 name=r4-protodeviser
 version=01635b2
-release=1
-source=(https://github.com/izzilab/protodeviser/archive/$version/protodeviser-01635b22151655f87c0708beaed1e40ce40bfa38.tar.gz)
+release=2
+source=(https://github.com/izzilab/protodeviser/archive/$version/protodeviser-01635b22151655f87c0708beaed1e40ce40bfa38.tar.gz
+	protodeviser_ui.sh protodeviser_ui.desktop protodeviser_ui.png)
 
 build() {
 	cd protodeviser-${version}*
 	mkdir -p $PKG/usr/lib/R/library
 	R CMD INSTALL . -l $PKG/usr/lib/R/library
+	
+	install -D -m 0755 $SRC/protodeviser_ui.sh $PKG/usr/bin/protodeviser_ui
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp -a $SRC/protodeviser_ui.desktop $PKG/usr/share/applications
+	cp -a $SRC/protodeviser_ui.png $PKG/usr/share/pixmaps
 }

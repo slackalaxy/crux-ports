@@ -30,6 +30,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mvtnorm/R/
 -rw-r--r--	root/root	usr/lib/R/library/mvtnorm/R/mvtnorm
 -rw-r--r--	root/root	usr/lib/R/library/mvtnorm/R/mvtnorm.rdb
 -rw-r--r--	root/root	usr/lib/R/library/mvtnorm/R/mvtnorm.rdx
+-rw-r--r--	root/root	usr/lib/R/library/mvtnorm/REFERENCES.bib
 drwxr-xr-x	root/root	usr/lib/R/library/mvtnorm/doc/
 -rw-r--r--	root/root	usr/lib/R/library/mvtnorm/doc/MVT_Rnews.R
 -rw-r--r--	root/root	usr/lib/R/library/mvtnorm/doc/MVT_Rnews.Rnw
@@ -52,4 +53,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/mvtnorm/include/
 -rw-r--r--	root/root	usr/lib/R/library/mvtnorm/include/mvtnormAPI.h
 drwxr-xr-x	root/root	usr/lib/R/library/mvtnorm/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/mvtnorm/libs/mvtnorm.so
--rw-r--r--	root/root	usr/lib/R/library/mvtnorm/litdb.bib

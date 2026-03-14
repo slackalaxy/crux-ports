@@ -557,6 +557,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/packer/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/multi.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/multi.js.LICENSE.txt
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/nouislider.js
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/quercus.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/slim-select.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/tree.js
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/packer/virtual-select.js

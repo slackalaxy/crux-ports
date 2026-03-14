@@ -1,11 +1,11 @@
 # Description: R module SQUAREM
 # URL: https://cran.r-project.org/web/packages/SQUAREM
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
-# Optional: r4-setrng
+# Depends on: r 
+# Optional: r4-interval r4-setrng
 
 name=r4-squarem
-version=2021.1
+version=2026.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/SQUAREM_${version}.tar.gz)
 

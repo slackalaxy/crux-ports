@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ProToDeviseR
+Comment=Protein Topology Deviser in R
+GenericName=Protein Topology Deviser
+Exec=protodeviser_ui
+Icon=protodeviser_ui
+Categories=Education
+Type=Application
+StartupNotify=false

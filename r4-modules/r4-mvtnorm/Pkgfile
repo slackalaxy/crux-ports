@@ -2,12 +2,12 @@
 # URL: https://cran.r-project.org/web/packages/mvtnorm
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: r4-numderiv r4-qrng
+# Optional: r4-bibtex r4-numderiv r4-qrng
 
 name=r4-mvtnorm
-version=1.3.3
+version=1.3.5
 release=1
-source=(https://cloud.r-project.org/src/contrib/mvtnorm_1.3-3.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/mvtnorm_1.3-5.tar.gz)
 
 build() {
 	cd mvtnorm

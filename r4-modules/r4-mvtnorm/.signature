@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89PJDaqZh6g5zrOnmsAuO39vLMM20DlzWIG5Y3qIdTR5yV2L7i7fEBgVAcTxbF4H3qLPmS0pkJ3qEoVqxtcHfCgE=
-SHA256 (Pkgfile) = 35cfbaf6c3132497224d680aef9a47e72900263e2ccf4729962cd640933f3c6c
-SHA256 (.footprint) = 8e43c9df856ca08ed951b042c50477ffb011e324df545ca29f961098f87a21c7
-SHA256 (mvtnorm_1.3-3.tar.gz) = e20e7f534bc89b9258ad63d508aabed60f3bd504a7532a33e6ea230ca8fa4171
+RWQ2oTreAss89EGZUnqPxuDzuP0rGzhA9Crd5J6IsR1IDx/2exz+2zjKX38xS7zHK7VZgjm75cXBt5ZKkmkHqZtfcOhvVKIvVgQ=
+SHA256 (Pkgfile) = 8b0266eccdb790cf001cded9c5a40d02839877828ea6fbac9ca01539dc18b37f
+SHA256 (.footprint) = c6ff4f23694bd293e28d87a0a9dbe8f228b0c53dbfde5b2d77f8715fc21a20c8
+SHA256 (mvtnorm_1.3-5.tar.gz) = b59b9384077a4a447f5867e3b72f8d58d123d843feb00772aacc7961602c3416

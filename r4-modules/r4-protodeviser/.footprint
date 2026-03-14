@@ -1,4 +1,6 @@
 drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/protodeviser_ui
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
@@ -127,3 +129,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/protodeviser/wrapper/
 -rw-r--r--	root/root	usr/lib/R/library/protodeviser/wrapper/protodeviser.R
 -rw-r--r--	root/root	usr/lib/R/library/protodeviser/wrapper/protodeviser.desktop
 -rw-r--r--	root/root	usr/lib/R/library/protodeviser/wrapper/protodeviser.png
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/applications/
+-rw-r--r--	root/root	usr/share/applications/protodeviser_ui.desktop
+drwxr-xr-x	root/root	usr/share/pixmaps/
+-rw-r--r--	root/root	usr/share/pixmaps/protodeviser_ui.png
