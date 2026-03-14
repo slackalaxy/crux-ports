@@ -8953,7 +8953,7 @@ drwxr-xr-x	root/root	usr/lib/wps-office/office6/wpsart/quickstyle/
 -rw-r--r--	root/root	usr/lib/wps-office/office6/wpsart/quickstyle/simple5.xml
 -rw-r--r--	root/root	usr/lib/wps-office/office6/wpsart/smartarts.xml
 -rw-r--r--	root/root	usr/lib/wps-office/office6/wpsart/smartarts_res.xml
--rwxr-xr-x	root/root	usr/lib/wps-office/office6/wpscloudsvr
+-rw-r--r--	root/root	usr/lib/wps-office/office6/wpscloudsvr
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/wpsd
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/wpslingxi
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/wpsofd

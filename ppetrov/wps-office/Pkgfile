@@ -4,11 +4,11 @@
 # Depends on: brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland xorg-font-dejavu-ttf
 
 name=wps-office
-version=12.1.2.24722
-_preread=612408
+version=12.1.2.24730
+_preread=625635
 _elogind=255.5
-release=2
-source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/22570/wps-office_${version}.AK.preread.sw_${_preread}_amd64.deb
+release=1
+source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${version:7:5}/wps-office_${version}.AK.preread.sw_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
 	en_GB.tar.xz $name.sh $name.desktop $name-fonts.conf)
 
@@ -101,6 +101,12 @@ build() {
 	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so
 	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so.4
 	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so.4.6.3
+	
+	# these sometimes seem to cause Presentations to crash and the
+	# processes stay active after closing WPS Office
+	chmod 0644 $PKG/usr/lib/wps-office/office6/wpscloudsvr
+	#chmod 0644 $PKG/usr/lib/wps-office/office6/promecefpluginhost
+	#chmod 0644 $PKG/usr/lib/wps-office/office6/wpsoffice
 	
 	find $PKG/ -name "*README*" -delete
 	rm -rf $PKG/usr/lib/wps-office/office6/libpeony-wpsprint-menu-plugin.so
