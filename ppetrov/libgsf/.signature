@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRLh1Z4Vs2KlqddTvOpSdvXeye7mpH0lz2tb5u6TlMFpMM3xIg1Zfol3YSCx5TCSZFRhmGrn9ftCTzHRA5JTBgE=
-SHA256 (Pkgfile) = aba79e5e7f217f086f7da719ae5e5cdaa701efb5996f37513662870b9c694931
-SHA256 (.footprint) = b3569a1f12c21905157d1728c29a69ae87db51a81f125b0bfd35e3da548954cf
-SHA256 (libgsf-1.14.55.tar.xz) = 74d60abba15bd3ea5ad17da5b924d8e36f649a25c3dc77adbabd2a3628a02131
+RWToVVsIkzFIZWVN5pH/2OUicbsR3WT1UodAFofo1pkuz3GS4qMvcaY8hP+oM1l1rtxUJc6wRdJjybGUqITxlXdsM2tiK6HdYA0=
+SHA256 (Pkgfile) = b91dd8066eb3785dec8316ae3f1684d7273ad422eaf4d7f1fc4c264232a208b6
+SHA256 (.footprint) = 87414dafb5b8a198d36b70a5b8feb39462d8c59dda8a0a933e48a25f4f57ff6a
+SHA256 (libgsf-1.14.56.tar.xz) = 9d21d30df1d12feaf03e181afd6067f65e3048ab69cb6ad174a3c5b72b92d297
