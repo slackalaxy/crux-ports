@@ -1,5 +1,7 @@
 #!/bin/bash
 
+### Thanks Grok for the wrapper and hints :P
+
 export FONTCONFIG_FILE="/etc/fonts/wps-office-fonts.conf"
 
 # WPS Office seems to have trouble with absolute paths...
@@ -19,3 +21,9 @@ if [[ $file == /* ]]; then
 fi
 
 /usr/lib/wps-office/office6/wps "$file" > /dev/null 2>&1
+
+# When we reach here, wps has exited → clean up zombies
+# -q = quiet (no error if nothing found)
+# -9 = forceful kill (SIGKILL); you can try without -9 first if you prefer graceful
+
+killall -q -9 wpscloudsvr wpsoffice wpspdf wps wpsqt 2>/dev/null
