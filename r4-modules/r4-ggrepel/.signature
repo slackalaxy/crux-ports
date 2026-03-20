@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89E8E5A0wIO8inlYkvQM6/U+zGc+wCdBuX7Zqs8xeneZSCb2dE28L4+OoeD03wJwwV6zh4Mag70A94AHpCBkHMgc=
-SHA256 (Pkgfile) = 4e902664d786b231c132a2d5ebf09040ae991819a58d8d23bbf1aa2e32f60208
+RWQ2oTreAss89G/+3XqX4HIC+XtupAzBB5swdZ7bSgGiWv5t248NJSsxy5PIBZ0z0nNXPAojMmyzpx8X9yarr5ZiuxvKhVS86gY=
+SHA256 (Pkgfile) = 1292bb3e595cc833686a4339dac2e89f7a02dc9bd84ee1c14e0cf37bf6e9eaf5
 SHA256 (.footprint) = 3ef882c80afe33828400f8eb4879fecae42ae6590086749d358019691da0ab35
-SHA256 (ggrepel_0.9.7.tar.gz) = 6d51e597ff7a583dacae331be711703169f0e9988926f381ce25636c3a12c237
+SHA256 (ggrepel_0.9.8.tar.gz) = 0317dff5e11d9dae7225d5c1794fe16ea1bedc7d535ac98e990925670724c027

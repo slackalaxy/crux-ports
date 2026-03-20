@@ -5,7 +5,7 @@
 # Optional: r4-callr r4-curl r4-jsonlite r4-testthat r4-websocket
 
 name=r4-httpuv
-version=1.6.16
+version=1.6.17
 release=1
 source=(https://cloud.r-project.org/src/contrib/httpuv_${version}.tar.gz)
 

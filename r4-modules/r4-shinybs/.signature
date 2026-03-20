@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89MC60w+qqEzLG38dBPPQiZKgErBN1ykWRWCLV6S2ghFc8qDJelpLlBx14w8uGIXDjyAht8Xt0q5AaYjviuGkugc=
-SHA256 (Pkgfile) = 5813513fa3f67dcba41710e1a975c695873f7d7191c51fa34f3620bf9609a524
+RWQ2oTreAss89Lzs5gujbPfisMV2oF+SPVliRcwDpoAgE0xgVPUUUeRLYMmSWp9CQiZrs9OJ8BuGivL28G8bTlqx8oCVOvHk5AU=
+SHA256 (Pkgfile) = ee4c7d47f438fb95fce1640a3cf509e3e3461a43a54ac0396ee9b55f98ad1c9b
 SHA256 (.footprint) = 8af966d2e9b6f523b743374a26f1eb4af841d4434277584a376b854afa07ae1f
-SHA256 (shinyBS_0.64.0.tar.gz) = f23725b53a4a7bd3a7f3ccba0b395c38328f1b8ca77fff0e6931ebd91752c9d0
+SHA256 (shinyBS_0.65.0.tar.gz) = a1c4463475937562e31fbc3b99d9eae3fed4b2cfd3ce70fc86e046ea65131049
