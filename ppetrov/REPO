@@ -238,13 +238,13 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
-f:f308ad36b83f0ebbc757a44a01bfbf7e:wps-office/.signature
+f:dc51a40211b5611f0e8804d9cfeef3d5:wps-office/.signature
 f:aeaa4f0dc9d7d8e82058780edb6b7ccb:wps-office/README
 f:db06bd07c90bca1c2d1f420fe56c7d53:wps-office/Pkgfile
 f:e2df272dbeb16ff578f073de63a01060:wps-office/.footprint
 f:b8e285169d89da1067122bc88b083314:wps-office/post-install
 f:3b421d5225924bfc1c64e6048d6aaf90:wps-office/wps-office.desktop
-f:71ef69a71424ade83653d8e7bbc7e55e:wps-office/wps-office.sh
+f:bdc02050628028c32ae54d08f76b820d:wps-office/wps-office.sh
 f:1f50a42ba7aa8c143ec5edc82f70f9c2:wps-office/en_GB.tar.xz
 f:303b9bb0a3d38120563ed69de24a15ca:wps-office/wps-office-fonts.conf
 f:a52f0e123b8721397615e2cc8d4f1bf2:zotero/.footprint
