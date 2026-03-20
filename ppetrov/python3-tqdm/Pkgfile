@@ -1,19 +1,21 @@
 # Description: Fast, Extensible Progress Meter
-# URL: https://github.com/tqdm/tqdm/releases
+# URL: https://pypi.org/project/tqdm/#files
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-setuptools-scm python3-toml
 
 name=python3-tqdm
-version=4.67.1
+version=4.67.3
 release=1
-source=(https://github.com/tqdm/tqdm/archive/refs/tags/v${version}.tar.gz)
-renames=(tqdm-$version)
+source=(https://files.pythonhosted.org/packages/09/a9/6ba95a270c6f1fbcd8dac228323f2777d886cb206987444e4bce66338dd4/tqdm-$version.tar.gz)
 
 build() {
   cd ${name#*-}-$version
-
+  
+  # this source does not build anymore, use PyPi
+  # URL: https://github.com/tqdm/tqdm/releases
+  #source=(https://github.com/tqdm/tqdm/archive/refs/tags/v${version}.tar.gz)
   /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
-
+  
   find $PKG \( -iname "README*" -o \
                -iname INSTALLER -o \
                -iname REQUESTED -o \
