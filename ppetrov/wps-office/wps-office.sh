@@ -20,8 +20,18 @@ fi
 
 /usr/lib/wps-office/office6/wps "$file" > /dev/null 2>&1
 
-# When we reach here, wps has exited → clean up zombies
+
+# When we reach here, wps has exited... clean up zombies
 # -q = quiet (no error if nothing found)
 # -9 = forceful kill (SIGKILL); you can try without -9 first if you prefer graceful
 
-killall -q -9 wpscloudsvr wpsoffice wpspdf wps wpp wt promecefpluginhost 2>/dev/null
+echo "WPS closed. Waiting a moment for background processes to finish..." >&2
+sleep 4
+
+# Try graceful termination first
+killall -q -15 wpscloudsvr wpsoffice wpspdf wps wpp et promecefpluginhost 2>/dev/null
+
+sleep 1
+
+# Force if necessary
+killall -q -9 wpscloudsvr wpsoffice wpspdf wps wpp et promecefpluginhost 2>/dev/null

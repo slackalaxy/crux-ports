@@ -7,7 +7,7 @@ name=wps-office
 version=12.1.2.25838
 _preread=648473
 _elogind=255.5
-release=1
+release=2
 source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${version:7:5}/wps-office_${version}.AK.preread.sw_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
 	en_GB.tar.xz $name.sh $name.desktop $name-fonts.conf)
