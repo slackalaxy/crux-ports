@@ -1,9 +1,11 @@
-! xrdb -merge .Xresources
+! xrdb -merge ~/.Xresources
  
 ! Use a nice truetype font and size by default... 
-xterm*faceName: Terminus
+!xterm*faceName: Terminus
+
+xterm*faceName: DejaVu Sans Mono Book
 xterm*faceSize: 10
- 
+
 ! Every shell is a login shell by default (for inclusion of all necessary environment variables)
 xterm*loginshell: true
  

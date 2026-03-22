@@ -38,3 +38,8 @@ include /usr/share/nano/texinfo.nanorc
 include /usr/share/nano/tex.nanorc
 include /usr/share/nano/xml.nanorc
 include /usr/share/nano/yaml.nanorc
+include /usr/share/nano/extra/ada.nanorc
+include /usr/share/nano/extra/fortran.nanorc
+include /usr/share/nano/extra/haskell.nanorc
+include /usr/share/nano/extra/povray.nanorc
+include /usr/share/nano/extra/spec.nanorc
