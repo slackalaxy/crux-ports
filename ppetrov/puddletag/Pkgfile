@@ -1,0 +1,27 @@
+# Description: An audio tag editor
+# URL: https://github.com/puddletag/puddletag
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-pyqt5 python3-configobj python3-pyparsing python3-mutagen python3-unidecode python3-pyparsing
+# Optional: python3-distro python3-mutagen python3-pyparsing
+
+name=puddletag
+version=2.5.0
+release=1
+source=(https://github.com/puddletag/puddletag/archive/refs/tags/$version.tar.gz)
+renames=($name-$version.tar.gz)
+
+build() {
+  cd ${name#*-}-$version
+
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install \
+                   --prefix=/usr    \
+                   --root="$PKG"    \
+                   --skip-build     \
+                   --optimize=1
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE*"   \) -delete
+}
