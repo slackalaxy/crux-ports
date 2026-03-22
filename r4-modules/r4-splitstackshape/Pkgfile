@@ -5,7 +5,7 @@
 # Optional: r4-covr r4-testthat
 
 name=r4-splitstackshape
-version=1.4.8
+version=1.4.8.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/splitstackshape_${version}.tar.gz)
 
