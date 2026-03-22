@@ -44,6 +44,7 @@ d:wps-office
 d:zotero
 d:xsimd
 d:sa
+d:puddletag
 d:qt6ct
 d:qt6gtk2
 d:rstudio-desktop
@@ -260,6 +261,9 @@ f:3b3ddb787729e82b0c1ba794ad82724a:sa/sa.png
 f:e5f9c20bdf6bdb8dc16a6eefcfeeeb9f:sa/sa.sh
 f:8bd8c8170146e4a85b6e26204485d84a:sa/.footprint
 f:7158611f2da2847d13db4bfaeb7f8744:sa/.signature
+f:63140b5ef118975dd565c6bdde1b5d2f:puddletag/Pkgfile
+f:92fd1f7f21fde3d2eb6b6b590a9b2d28:puddletag/.signature
+f:e6390dcc228d772e6d2d67bfc1d09c71:puddletag/.footprint
 f:5c482713b3411e1796ece03eed09ee63:qt6ct/Pkgfile
 f:6a6b7dc9720425dce858ebf5fa4ee33f:qt6ct/.footprint
 f:f23d26c06cc13f7c3d17c47da0bc9612:qt6ct/.signature
