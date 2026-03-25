@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-lmom
-version=3.2
+version=3.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/lmom_${version}.tar.gz)
 
