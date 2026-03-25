@@ -1,10 +1,10 @@
 # Description: Online conference
 # URL: https://zoom.us/download
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: avahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libinput nss pulseaudio qt5 wayland xorg-xcb-util-cursor
+# Depends on: alsa-lib avahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libinput lua nss qt6-lottie wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
 
 name=zoom-linux
-version=6.7.5.6891
+version=7.0.0.1666
 release=1
 source=(https://zoom.us/client/${version}/zoom_x86_64.tar.xz
 	$name.desktop $name.png $name.xml)
@@ -31,6 +31,12 @@ build() {
 	find $PKG/usr/lib/$name/cef/locales/ -type f -not -name "en-US.pak" -delete
 	find $PKG/usr/lib/$name/timezones/ -type d -not -name "en" -exec rm -rf {} +
 	find $PKG/usr/lib/$name/translations/ -type f -not -name "en.qm" -delete
+	
+	# The official Qt module has been renamed since Qt 6.4/6.5:
+	# Old name (Qt 5 / early Qt 6): QtBodymovin -> libQt6Bodymovin.so
+	# New name (Qt 6.4+): QtLottie -> libQt6Lottie.so
+	cd $PKG/usr/lib/$name/
+	ln -s /usr/lib/libQt6Lottie.so libQt6Bodymovin.so.6
 	
 	mkdir -p $PKG/etc/revdep.d
 	cd $PKG/usr/lib/$name
