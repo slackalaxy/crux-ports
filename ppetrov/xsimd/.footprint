@@ -4,6 +4,7 @@ drwxr-xr-x	root/root	usr/include/xsimd/
 drwxr-xr-x	root/root	usr/include/xsimd/arch/
 drwxr-xr-x	root/root	usr/include/xsimd/arch/common/
 -rw-r--r--	root/root	usr/include/xsimd/arch/common/xsimd_common_arithmetic.hpp
+-rw-r--r--	root/root	usr/include/xsimd/arch/common/xsimd_common_bit.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/common/xsimd_common_cast.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/common/xsimd_common_complex.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/common/xsimd_common_details.hpp
@@ -13,6 +14,8 @@ drwxr-xr-x	root/root	usr/include/xsimd/arch/common/
 -rw-r--r--	root/root	usr/include/xsimd/arch/common/xsimd_common_rounding.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/common/xsimd_common_swizzle.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/common/xsimd_common_trigo.hpp
+drwxr-xr-x	root/root	usr/include/xsimd/arch/utils/
+-rw-r--r--	root/root	usr/include/xsimd/arch/utils/shifts.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_avx.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_avx2.hpp
 -rw-r--r--	root/root	usr/include/xsimd/arch/xsimd_avx512bw.hpp
@@ -52,6 +55,7 @@ drwxr-xr-x	root/root	usr/include/xsimd/arch/common/
 drwxr-xr-x	root/root	usr/include/xsimd/config/
 -rw-r--r--	root/root	usr/include/xsimd/config/xsimd_arch.hpp
 -rw-r--r--	root/root	usr/include/xsimd/config/xsimd_config.hpp
+-rw-r--r--	root/root	usr/include/xsimd/config/xsimd_cpu_features_x86.hpp
 -rw-r--r--	root/root	usr/include/xsimd/config/xsimd_cpuid.hpp
 -rw-r--r--	root/root	usr/include/xsimd/config/xsimd_inline.hpp
 drwxr-xr-x	root/root	usr/include/xsimd/math/
@@ -99,6 +103,8 @@ drwxr-xr-x	root/root	usr/include/xsimd/types/
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_utils.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_vsx_register.hpp
 -rw-r--r--	root/root	usr/include/xsimd/types/xsimd_wasm_register.hpp
+drwxr-xr-x	root/root	usr/include/xsimd/utils/
+-rw-r--r--	root/root	usr/include/xsimd/utils/bits.hpp
 -rw-r--r--	root/root	usr/include/xsimd/xsimd.hpp
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/cmake/
