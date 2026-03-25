@@ -5,10 +5,10 @@
 
 name=lalnview
 version=3.0
-release=3
+release=4
 source=(ftp://pbil.univ-lyon1.fr/pub/logiciel/$name/sources/sources20050615.tar
-	$name.desktop $name.png sim204.c sim.help)
-renames=($name-$version.tar SKIP SKIP SKIP SKIP)
+	$name.desktop $name.png sim204.c sim.help BLOSUM62)
+renames=($name-$version.tar SKIP SKIP SKIP SKIP SKIP)
 
 build() {
 	# I _do_ want to include this
@@ -29,5 +29,9 @@ build() {
 	gcc-5 $CFLAGS -o sim sim204.c -lm
 	install -D -m 755 sim $PKG/usr/bin/sim
 	
+	# Add BLOSUM62 matrix, used by https://web.expasy.org/sim/
+	# Thanks Elisabeth Gasteiger from Expasy helpdesk for the file!
+	cp -a $SRC/BLOSUM62 $PKG/usr/share/$name
+
 	cat $SRC/sim.help >> $PKG/usr/share/$name/$name.help
 }

@@ -76,6 +76,10 @@
   the parameters M, I, V or S, then sim reads the first 100 characters of
   the first sequence; if at least 25 of these differ from A, C, G or T,
   then the PAM200 scores are used.
+  
+  BLOSUM62, used as the default at SIM online (https://web.expasy.org/sim/)
+  is included as:
+    /usr/share/lalnview/BLOSUM62
     
   Acknowledgments:
   The functions diff() and display() are from Gene Myers. We made the
