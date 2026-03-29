@@ -5,7 +5,7 @@
 
 name=gnumeric
 version=1.12.60
-release=1
+release=2
 source=(https://download.gnome.org/sources/gnumeric/${version%.*}/gnumeric-$version.tar.xz)
 
 build() {
@@ -18,7 +18,9 @@ build() {
 	
 	./configure \
 		--prefix=/usr \
-		--disable-schemas-install \
+		--disable-schemas-compile \
+		--enable-introspection \
+		--disable-silent-rules \
 		--disable-nls
 	
 	make

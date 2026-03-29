@@ -192,6 +192,8 @@ drwxr-xr-x	root/root	usr/include/libspreadsheet-1.12/spreadsheet/widgets/
 -rw-r--r--	root/root	usr/include/libspreadsheet-1.12/spreadsheet/xml-io-version.h
 -rw-r--r--	root/root	usr/include/libspreadsheet-1.12/spreadsheet/xml-sax.h
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/girepository-1.0/
+-rw-r--r--	root/root	usr/lib/girepository-1.0/Gnm-1.12.typelib
 drwxr-xr-x	root/root	usr/lib/gnumeric/
 drwxr-xr-x	root/root	usr/lib/gnumeric/1.12.60/
 drwxr-xr-x	root/root	usr/lib/gnumeric/1.12.60/plugins/
@@ -384,9 +386,16 @@ drwxr-xr-x	root/root	usr/lib/goffice/0.10/plugins/gnumeric/
 lrwxrwxrwx	root/root	usr/lib/libspreadsheet.so -> libspreadsheet-1.12.60.so
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libspreadsheet-1.12.pc
+drwxr-xr-x	root/root	usr/lib/python3.12/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/gi/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/gi/overrides/
+-r--r--r--	root/root	usr/lib/python3.12/site-packages/gi/overrides/Gnm.py
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/org.gnumeric.gnumeric.desktop
+drwxr-xr-x	root/root	usr/share/gir-1.0/
+-rw-r--r--	root/root	usr/share/gir-1.0/Gnm-1.12.gir
 drwxr-xr-x	root/root	usr/share/glib-2.0/
 drwxr-xr-x	root/root	usr/share/glib-2.0/schemas/
 -rw-r--r--	root/root	usr/share/glib-2.0/schemas/org.gnome.gnumeric.dialogs.gschema.xml
