@@ -5,7 +5,7 @@
 # Optional: r4-survival
 
 name=r4-rpart
-version=4.1.24
+version=4.1.27
 release=1
 source=(https://cloud.r-project.org/src/contrib/rpart_${version}.tar.gz)
 

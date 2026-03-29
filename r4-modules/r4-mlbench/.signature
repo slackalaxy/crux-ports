@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89IqWjNZVGKaztpFc5sklwOvP4MjDbW2PmbsdR6A30Me2ISYXH5ZhYZo24daqKLArH29pk/GL3/91Ys4Zlyl+VQw=
-SHA256 (Pkgfile) = 4661e5bfc0d7f48851eeeebdd0856cd63096d3676243aca18390f79e233e7eba
+RWQ2oTreAss89IcrqpLdYi/rxag/u4cTaNVzO6K2l/N69Dydh9k+YWqWDnA9+6Mtdg5GqxtZk9TLJNpAxHljWTdxrsGdGWZizQA=
+SHA256 (Pkgfile) = 2e4f2c9cec61b79289f7e2c155ea020ab5b254af3e4653b44112450d3bbe7606
 SHA256 (.footprint) = ea2f24b868ab30c5f491a69a345a6264da308592659cf846a72c853600d5c5e6
-SHA256 (mlbench_2.1-7.tar.gz) = 7669e35715721d0dc412380747ba36f5a2fd63938851a289de815bbe91d8015c
+SHA256 (mlbench_2.1-8.tar.gz) = 2ca1e337093df060c447c6f6cd342cc1ee4ccb48cdc4f20e605d45ac6c4659df

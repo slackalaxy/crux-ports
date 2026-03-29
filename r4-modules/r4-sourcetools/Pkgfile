@@ -1,13 +1,13 @@
 # Description: R module sourcetools
 # URL: https://cran.r-project.org/web/packages/sourcetools
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r
+# Depends on: r 
 # Optional: r4-testthat
 
 name=r4-sourcetools
-version=0.1.7.1
+version=0.1.7.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/sourcetools_0.1.7-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/sourcetools_0.1.7-2.tar.gz)
 
 build() {
 	cd sourcetools
