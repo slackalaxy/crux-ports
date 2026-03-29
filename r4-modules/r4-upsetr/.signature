@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89MqhHbIfGadt9mh0KlFGwk4tIuBrPqZ9VcFgbSDJY5XcQ6M3zVTIr3MyfFKqlb/4LywufyeiEEHB3ym0TSYDrAE=
+SHA256 (Pkgfile) = 1cdb705d3ec68bd490ae6e5ec674e0fd63580fb132998602bb2980bc263043db
+SHA256 (.footprint) = 02d8165f9b43c9fa7dcc04dc8641fd97951a0f40473dfc0c1045bf0023f56d68
+SHA256 (UpSetR_1.4.0.tar.gz) = 351e5fee64204cf77fd378cf2a2c0456cc19d4d98a2fd5f3dac74b69a505f100
