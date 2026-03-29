@@ -179,6 +179,8 @@ drwxr-xr-x	root/root	usr/include/libgoffice-0.10/goffice/utils/
 -rw-r--r--	root/root	usr/include/libgoffice-0.10/goffice/utils/goffice-utils.h
 -rw-r--r--	root/root	usr/include/libgoffice-0.10/goffice/utils/regutf8.h
 drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/girepository-1.0/
+-rw-r--r--	root/root	usr/lib/girepository-1.0/GOffice-0.10.typelib
 drwxr-xr-x	root/root	usr/lib/goffice/
 drwxr-xr-x	root/root	usr/lib/goffice/0.10.60/
 drwxr-xr-x	root/root	usr/lib/goffice/0.10.60/plugins/
@@ -233,6 +235,8 @@ lrwxrwxrwx	root/root	usr/lib/libgoffice-0.10.so.10 -> libgoffice-0.10.so.10.0.60
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libgoffice-0.10.pc
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/gir-1.0/
+-rw-r--r--	root/root	usr/share/gir-1.0/GOffice-0.10.gir
 drwxr-xr-x	root/root	usr/share/goffice/
 drwxr-xr-x	root/root	usr/share/goffice/0.10.60/
 drwxr-xr-x	root/root	usr/share/goffice/0.10.60/mmlitex/
