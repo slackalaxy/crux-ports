@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/barcode
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/batteredplanet
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/beats
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/bestill
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/binaryhorizon
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/binaryring
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/blaster
@@ -38,6 +39,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/braid
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/bsod
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/bubble3d
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/bubblecolors
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/bumps
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/cage
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/carousel
@@ -64,6 +66,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/cwaves
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/cynosure
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/dangerball
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/darktransit
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/decayscreen
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/deco
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/deepstars
@@ -72,7 +75,9 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/discoball
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/discrete
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/distort
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/downfall
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/drift
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/driftclouds
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/droste
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/dumpsterfire
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/dymaxionmap
@@ -119,6 +124,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/glslideshow
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/glsnake
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/gltext
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/goldenapollian
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/goop
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/grav
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/gravitywell
@@ -184,6 +190,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/nerverot
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/noof
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/noseguy
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/noxfire
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/pacman
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/papercube
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/pedal
@@ -202,6 +209,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/polytopes
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/pong
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/popsquares
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/prococean
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/projectiveplane
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/protophore
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/providence
@@ -213,6 +221,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/raverhoop
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/razzledazzle
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/rdbomb
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/rigrekt
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/ripples
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/rocks
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/romanboy
@@ -259,12 +268,15 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/timetunnel
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/topblock
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/topologica
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/trainmandala
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/triangle
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/trizm
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/tronbit
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/truchet
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/truchetzoom
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/twang
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/unicrud
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/universeball
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/unknownpleasures
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/vermiculate
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/vfeedback
@@ -276,6 +288,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/webcollage-helper
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/whirlwindwarp
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/winduprobot
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/worldpieces
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/wormhole
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/xanalogtv
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/xflame
@@ -314,6 +327,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/barcode.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/batteredplanet.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/beats.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/bestill.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/binaryhorizon.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/binaryring.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/blaster.desktop
@@ -328,6 +342,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/braid.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/bsod.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/bubble3d.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/bubblecolors.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/bumps.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/cage.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/carousel.desktop
@@ -354,6 +369,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/cwaves.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/cynosure.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/dangerball.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/darktransit.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/decayscreen.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/deco.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/deepstars.desktop
@@ -362,7 +378,9 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/discoball.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/discrete.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/distort.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/downfall.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/drift.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/driftclouds.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/droste.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/dumpsterfire.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/dymaxionmap.desktop
@@ -409,6 +427,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/glslideshow.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/glsnake.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/gltext.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/goldenapollian.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/goop.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/grav.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/gravitywell.desktop
@@ -472,6 +491,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/nerverot.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/noof.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/noseguy.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/noxfire.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/pacman.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/papercube.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/pedal.desktop
@@ -490,6 +510,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/polytopes.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/pong.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/popsquares.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/prococean.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/projectiveplane.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/protophore.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/providence.desktop
@@ -501,6 +522,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/raverhoop.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/razzledazzle.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/rdbomb.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/rigrekt.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/ripples.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/rocks.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/romanboy.desktop
@@ -547,12 +569,15 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/timetunnel.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/topblock.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/topologica.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/trainmandala.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/triangle.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/trizm.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/tronbit.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/truchet.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/truchetzoom.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/twang.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/unicrud.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/universeball.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/unknownpleasures.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/vermiculate.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/vfeedback.desktop
@@ -561,6 +586,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/wander.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/whirlwindwarp.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/winduprobot.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/worldpieces.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/wormhole.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/xanalogtv.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/xflame.desktop
@@ -578,7 +604,6 @@ drwxr-xr-x	root/root	usr/share/fonts/xscreensaver/
 -rw-r--r--	root/root	usr/share/fonts/xscreensaver/SpecialElite.ttf
 -rw-r--r--	root/root	usr/share/fonts/xscreensaver/clacon.ttf
 -rw-r--r--	root/root	usr/share/fonts/xscreensaver/gallant12x22.ttf
--rw-r--r--	root/root	usr/share/fonts/xscreensaver/luximr.ttf
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/xscreensaver-command.1.gz
@@ -601,6 +626,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/barcode.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/batteredplanet.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/beats.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/bestill.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/binaryhorizon.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/binaryring.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/blaster.6.gz
@@ -615,6 +641,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/braid.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/bsod.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/bubble3d.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/bubblecolors.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/bumps.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/cage.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/carousel.6.gz
@@ -641,6 +668,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/cwaves.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/cynosure.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/dangerball.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/darktransit.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/decayscreen.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/deco.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/deepstars.6.gz
@@ -649,7 +677,9 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/discoball.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/discrete.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/distort.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/downfall.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/drift.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/driftclouds.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/droste.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/dymaxionmap.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/elementalring.6.gz
@@ -696,6 +726,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/glslideshow.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/glsnake.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/gltext.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/goldenapollian.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/goop.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/grav.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/gravitywell.6.gz
@@ -759,6 +790,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/nerverot.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/noof.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/noseguy.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/noxfire.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/pacman.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/papercube.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/pedal.6.gz
@@ -777,6 +809,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/polytopes.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/pong.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/popsquares.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/prococean.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/projectiveplane.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/protophore.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/providence.6.gz
@@ -788,6 +821,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/raverhoop.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/razzledazzle.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/rdbomb.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/rigrekt.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/ripples.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/rocks.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/romanboy.6.gz
@@ -834,12 +868,15 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/timetunnel.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/topblock.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/topologica.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/trainmandala.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/triangle.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/trizm.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/tronbit.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/truchet.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/truchetzoom.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/twang.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/unicrud.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/universeball.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/unknownpleasures.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/vermiculate.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/vfeedback.6.gz
@@ -850,6 +887,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/webcollage.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/whirlwindwarp.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/winduprobot.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/worldpieces.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/wormhole.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/xanalogtv.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/xflame.6.gz
@@ -887,6 +925,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/barcode.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/batteredplanet.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/beats.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/bestill.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/binaryhorizon.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/binaryring.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/blaster.xml
@@ -901,6 +940,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/braid.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/bsod.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/bubble3d.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/bubblecolors.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/bumps.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/cage.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/carousel.xml
@@ -927,6 +967,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/cwaves.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/cynosure.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/dangerball.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/darktransit.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/decayscreen.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/deco.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/deepstars.xml
@@ -935,7 +976,9 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/discoball.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/discrete.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/distort.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/downfall.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/drift.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/driftclouds.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/droste.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/dumpsterfire.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/dymaxionmap.xml
@@ -982,6 +1025,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/glslideshow.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/glsnake.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/gltext.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/goldenapollian.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/goop.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/grav.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/gravitywell.xml
@@ -1046,6 +1090,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/nerverot.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/noof.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/noseguy.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/noxfire.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/pacman.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/papercube.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/pedal.xml
@@ -1064,6 +1109,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/polytopes.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/pong.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/popsquares.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/prococean.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/projectiveplane.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/protophore.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/providence.xml
@@ -1075,6 +1121,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/raverhoop.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/razzledazzle.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/rdbomb.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/rigrekt.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/ripples.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/rocks.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/romanboy.xml
@@ -1121,12 +1168,15 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/timetunnel.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/topblock.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/topologica.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/trainmandala.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/triangle.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/trizm.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/tronbit.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/truchet.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/truchetzoom.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/twang.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/unicrud.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/universeball.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/unknownpleasures.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/vermiculate.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/vfeedback.xml
@@ -1137,6 +1187,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/webcollage.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/whirlwindwarp.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/winduprobot.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/worldpieces.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/wormhole.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/xanalogtv.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/xflame.xml
