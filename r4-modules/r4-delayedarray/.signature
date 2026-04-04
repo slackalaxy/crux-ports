@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89F1+147b2R4cRSckZLOO0eyuUXcig07KnBznC+w9qMmVvR5GdGscMdmwT4AaBz3b0XqiQ+rZy4Kqj1ZikTAy6As=
-SHA256 (Pkgfile) = edd3e809d19d7a21be4b42395cbdb1db4139168fabf543d165b3bd3921c5a3ee
-SHA256 (.footprint) = 14bdbd80b4e704317fe17c80a9b1a4a43a0f7b01d734e12ab954623e1c2046c5
-SHA256 (DelayedArray_0.36.0.tar.gz) = fb8dcbbeca2bf09f0c0998f0ba0aa9397d5c8bd2406f4a54ae3021c7ed83b8f4
+RWQ2oTreAss89HEL5/Brt+rMm4QgowDAg8r0ZoRjkY4otDNiWdKXgi6SOhia1vyz3s8uBUhVDHlvbzzLmfhsUywEFXahpaxo2Qk=
+SHA256 (Pkgfile) = ea35f39858918ddfd41c21739c6bfb27b74ed05eeca68196aba09aaed32df5b7
+SHA256 (.footprint) = 66c626aeb1c538fbce74661cc9dc72878706a23774bbf4aa7bbe55dcdeceaae4
+SHA256 (DelayedArray_0.36.1.tar.gz) = 3ac71b2914c233c9fb57f5f1c94f59d8e40dd339ba1777d6740015c01d6519ee

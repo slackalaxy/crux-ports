@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Jj1mxsJOTB6c0+WcwelbhMAYbmhQLeIbLKlrFyB13CGZS3Ys9mEGoS56OguTyK0QD+Hc9KBf15G4QVqYmxskA8=
-SHA256 (Pkgfile) = d8039cf9caa986a31949961bf5eb6a7b59d26874fcd10169c56a39515bdb35f2
+RWQ2oTreAss89FwmNg9ZiU95t59Hm703RUGMiAAqVds/l7o5qDlx65EyeWKlYBLqfJBFYZeLHuqlJM84iDeSYKSe5/hflX5h1QI=
+SHA256 (Pkgfile) = 04c48bf42ba70be732b48854210c5660aafd016f4afec4d8d6fe991b285d89c7
 SHA256 (.footprint) = d91d97d2a8f5469b346b9830806d4ea3634bfdce8f60276dc1c8e2269e7b8405
-SHA256 (lazyeval_0.2.2.tar.gz) = d6904112a21056222cfcd5eb8175a78aa063afe648a562d9c42c6b960a8820d4
+SHA256 (lazyeval_0.2.3.tar.gz) = c65db1997b195a7bb0ab3afbb834345ea277b428b2736eeded4242629e86adcb

@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-backports
-version=1.5.0
+version=1.5.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/backports_${version}.tar.gz)
 

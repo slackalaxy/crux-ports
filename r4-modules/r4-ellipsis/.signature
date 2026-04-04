@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89CxHA3iAb5A6HgH54ez103+Dn9C+Sw4s5KQ7KJ0MIgWoe652Rl4af/gLIJc61rAHf4qcc6Od9FItaeg1VDOaPwc=
-SHA256 (Pkgfile) = acec269ef46f1c50e801885f42902681fc5287d7fda4a25334e03b5bd8523546
-SHA256 (.footprint) = e85ce3d3ee7574f0d2014dfdc39655bd4b58af46e66fbc610b1737c87a94e1e1
-SHA256 (ellipsis_0.3.2.tar.gz) = a90266e5eb59c7f419774d5c6d6bd5e09701a26c9218c5933c9bce6765aa1558
+RWQ2oTreAss89NIgD3nJQV33OdI/++uqFQ3+DeDuz0kw45+gsBTDON4XuEzkSzKyNUv9Ezj6vRHtr/wtjVb/Zfkfy5zrLrlnLAo=
+SHA256 (Pkgfile) = 9e3e33d3fc3bed482126f0d2e33644ec156518abc6a85bb68b41f55bb92a53a4
+SHA256 (.footprint) = b13f570c4d864ab058216934b851b90e92016bd74d3a4100321e2858430c8b6b
+SHA256 (ellipsis_0.3.3.tar.gz) = da1782bce5c1baf1cf8c69877078db51fabf2693a393b55ff044fd2e32966873

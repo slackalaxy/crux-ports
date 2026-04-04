@@ -5,7 +5,7 @@
 # Optional: r4-broom r4-covr r4-dbi r4-dbplyr r4-ggplot2 r4-knitr r4-lahman r4-lobstr r4-nycflights13 r4-purrr r4-rmarkdown r4-rsqlite r4-stringi r4-testthat r4-tidyr r4-withr
 
 name=r4-dplyr
-version=1.2.0
+version=1.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/dplyr_${version}.tar.gz)
 

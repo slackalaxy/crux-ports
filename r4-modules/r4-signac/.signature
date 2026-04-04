@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89B0GVTJo6CS1Dcq+fc1kU0fAudXdRAhXvw876Zg29MgUeRZH+k0sywyThCctpCLtaVVHnzKpW+ENeQ8Z06nrvg4=
-SHA256 (Pkgfile) = 89fd6fcb539df6238413e4869efdbbe035f3df1c81734aafeece96e1724d87e9
-SHA256 (.footprint) = a2eb2853ddab426b97a4eb673b6080a48878a83e63bdca588cfff8b540768214
-SHA256 (Signac_1.16.0.tar.gz) = 71750f98af3b9e40ddcf52a7b665d33e3cefd0d63837f07cc3c54af807e109bf
+RWQ2oTreAss89F5F/vecWRUGouBdpSGbEXMuL4jSEhKzBd79fwBO+NeMn03mj0SmmbOD1zczdmILvwBJfTU1JtR/mR3f/u/f6QA=
+SHA256 (Pkgfile) = 2e91926e10922a5e5762a7eea6e8acef6cf3c0e6870244dbc060684da7b85e50
+SHA256 (.footprint) = 98cf1f3720b82c22d82f2a7de0eed1b4c5119e38abe8d3ad5979963a238e31b3
+SHA256 (Signac_1.17.0.tar.gz) = 49aaa05929385f79b927abbfa550f887b2c4e073ae036c8cfe413fd28b8753f5
