@@ -1,0 +1,17 @@
+# Logitech K400+ - Make F-row keys send normal F1-F12 by default
+# (media functions will still be accessible with Fn + key)
+
+evdev:input:b0003v046DpC52B*
+ KEYBOARD_KEY_7003a=f1      # usually the first key after Esc / back
+ KEYBOARD_KEY_7003b=f2
+ KEYBOARD_KEY_7003c=f3
+ KEYBOARD_KEY_7003d=f4
+ KEYBOARD_KEY_7003e=f5
+ KEYBOARD_KEY_7003f=f6
+ KEYBOARD_KEY_70040=f7      # play/pause area
+ KEYBOARD_KEY_70041=f8
+ KEYBOARD_KEY_70042=f9
+ KEYBOARD_KEY_70043=f10     # mute / volume area
+ KEYBOARD_KEY_70044=f11
+ KEYBOARD_KEY_70045=f12
+ 

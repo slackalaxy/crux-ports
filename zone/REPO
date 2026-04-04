@@ -31,6 +31,7 @@ d:xar
 d:ttf-o365
 d:ttf-win11
 d:ttf-sierra
+d:logitech-k400plus
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
 f:35e155b8022782553b6e8539051dd177:fonts-conf/.signature
 f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
@@ -198,3 +199,8 @@ f:d684e345661fc11d01f8523ab1049fe2:ttf-sierra/ttc-extract.py
 f:8e656aca45eb38e1a5dd395de32b3235:ttf-sierra/.footprint
 f:a94f912cc3c70085b483bed4332b313f:ttf-sierra/.signature
 f:10b77a7d567a81e9dbb6d8703f50114b:ttf-sierra/75-apple-emoji.conf
+f:1adb772de7867afe1cb911fb82a7be67:logitech-k400plus/Pkgfile
+f:9d81e66385843f74077884dabd9227a5:logitech-k400plus/70-logitech-k400plus.hwdb
+f:fa6251d82e57378786ce37d60c8a3239:logitech-k400plus/post-install
+f:8c2b80a9ac30003670a8098620505a80:logitech-k400plus/.footprint
+f:348ba2e9720aa16b64d1cbbe6fa5135b:logitech-k400plus/.signature
