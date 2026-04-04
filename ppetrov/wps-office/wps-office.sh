@@ -1,9 +1,11 @@
 #!/bin/bash
 
+#export LC_ALL=C
+#export LC_ALL=en_US.UTF-8
+
 export FONTCONFIG_FILE="/etc/fonts/wps-office-fonts.conf"
 
 # WPS Office seems to have trouble with absolute paths...
-export LC_ALL=C
 export QT_NO_THREADED_RENDERING=1
 file="$1"
 
