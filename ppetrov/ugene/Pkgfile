@@ -1,0 +1,29 @@
+# Description: A free open-source bioinformatics software suite
+# URL: https://ugene.net/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib brotli glu graphite2 gtk gtk3 keyutils krb5 libxkbcommon wayland xorg-libxres xorg-xcb-util-image xorg-xcb-util-keysyms xorg-xcb-util-renderutil xorg-xcb-util-wm
+# Optional: ncbi-blast-plus clustalo jdk8-bin mafft phyml python3
+
+name=ugene
+version=53.1
+release=1
+source=(https://github.com/ugeneunipro/ugene/releases/download/$version/ugene-$version-linux-x86-64.tar.gz
+	$name.desktop)
+
+build() {
+	mkdir -p $PKG/usr/lib
+	cp -a $name-$version $PKG/usr/lib/$name
+
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/$name .
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $PKG/usr/lib/$name/$name.png $PKG/usr/share/pixmaps
+	
+	rm -rf $PKG/usr/lib/ugene/tools/{blast,clustalo,java8,mafft,phyml,python3}
+	
+	mkdir -p $PKG/etc/revdep.d
+	echo '/usr/lib/ugene/tools/samtools/' > $PKG/etc/revdep.d/$name
+}

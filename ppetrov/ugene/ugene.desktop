@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Unipro Ugene
+Comment=Bioinformatics software suite
+GenericName=Unipro Ugene
+Exec=ugene -ui
+Icon=ugene
+Categories=Education
+Type=Application
+Terminal=false
+StartupNotify=false
