@@ -4,16 +4,16 @@
 # Depends on: brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland xorg-font-dejavu-ttf
 
 name=wps-office
-version=12.1.2.25838
-_preread=648473
+version=12.1.2.25882
+_preread=662820
 _elogind=255.5
-release=2
-source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${version:7:5}/wps-office_${version}.AK.preread.sw_${_preread}_amd64.deb
+release=1
+source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${version:7:5}/wps-office_${version}.AK.preread.sw.Personal_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
 	en_GB.tar.xz $name.sh $name.desktop $name-fonts.conf)
 
 build() {
-	ar -x $SRC/${name}_${version}.AK.preread.sw_${_preread}_amd64.deb
+	ar -x $SRC/wps-office_${version}.AK.preread.sw.Personal_${_preread}_amd64.deb
 	tar xvf data.tar.xz
 	
 	cp -a $SRC/etc $PKG/
@@ -101,6 +101,7 @@ build() {
 	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so
 	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so.4
 	chmod 0755 $PKG/usr/lib/wps-office/office6/libtcmalloc_minimal.so.4.6.3
+	chmod 0755 $PKG/usr/lib/wps-office/office6/cfgs/wpsupgrade/hpatchz
 	
 	# these sometimes seem to cause Presentations to crash and the
 	# processes stay active after closing WPS Office; leave them, use
