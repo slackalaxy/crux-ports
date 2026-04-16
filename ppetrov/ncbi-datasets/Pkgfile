@@ -1,10 +1,10 @@
 # Description: NCBI Datasets command-line tools
-# URL: https://github.com/ncbi/datasets
+# URL: https://github.com/ncbi/datasets/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on:
 
 name=ncbi-datasets
-version=18.22.1
+version=18.23.0
 release=1
 source=(https://github.com/ncbi/datasets/releases/download/v${version}/linux-amd64.cli.package.zip)
 renames=($name-$version.zip)
