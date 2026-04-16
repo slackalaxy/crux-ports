@@ -4,7 +4,7 @@
 
 name=backgrounds-assorted
 version=6589cef
-release=1
+release=2
 source=(https://github.com/slackalaxy/backgrounds/archive/$version/backgrounds-6589cefb4b6cbc98effb7d26f510ed660ceb36d6.tar.gz)
 
 build() {
@@ -15,4 +15,6 @@ build() {
   cp -a terminal $PKG/usr/share/backgrounds/
   cp -a etermbg $PKG/usr/share/backgrounds/etermbg
   chmod 0644 $PKG/usr/share/backgrounds/{assorted,crux,terminal}/*
+  
+  rm $PKG/usr/share/backgrounds/etermbg/README.backgrounds
 }
