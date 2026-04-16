@@ -1,0 +1,16 @@
+# Description: Microsoft Aptos fonts
+# URL: https://www.microsoft.com/en-us/download/details.aspx?id=106087
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=ttf-aptos
+version=4.40
+release=1
+source=(https://download.microsoft.com/download/8/6/0/860a94fa-7feb-44ef-ac79-c072d9113d69/Microsoft%20Aptos%20Fonts.zip)
+renames=(MicrosoftAptosFonts-$version.zip)
+
+build() {
+	mkdir -p $PKG/usr/share/fonts/microsoft
+	cp -a $SRC/*.ttf $PKG/usr/share/fonts/microsoft/
+	chmod 0644 $PKG/usr/share/fonts/microsoft/*.ttf
+}
