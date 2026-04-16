@@ -1,5 +1,0 @@
-#!/bin/bash
-
-udevadm hwdb --update
-udevadm control --reload
-udevadm trigger
