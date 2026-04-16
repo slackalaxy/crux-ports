@@ -5,7 +5,7 @@
 
 name=ttf-o365
 version=16.106.26020821
-release=2
+release=3
 source=(https://officecdnmac.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_${version}_Installer.pkg)
 
 build() {
@@ -25,8 +25,24 @@ build() {
     		fi
 	done
 	
-	# These are provided by fonts-win11
+	# These are provided by fonts-win11 and Aptos we get directly
 	rem=(
+	aptos-black-italic.ttf
+	aptos-black.ttf
+	aptos-bold-italic.ttf
+	aptos-bold.ttf
+	aptos-extrabold-italic.ttf
+	aptos-extrabold.ttf
+	aptos-italic.ttf
+	aptos-light-italic.ttf
+	aptos-light.ttf
+	aptos-narrow-bold-italic.ttf
+	aptos-narrow-bold.ttf
+	aptos-narrow-italic.ttf
+	aptos-narrow.ttf
+	aptos-semibold-italic.ttf
+	aptos-semibold.ttf
+	aptos.ttf
 	arialbd.ttf
 	arialbi.ttf
 	ariali.ttf
