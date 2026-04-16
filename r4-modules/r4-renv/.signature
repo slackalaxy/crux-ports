@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89LPXvTwAHgOkwoX2QsVqfLj4X7vQEUMtvdR65c7LMp2zk77RA3tghZ9z1vo5yYDbi6UUiT8U65G49YgqW9O4/QU=
-SHA256 (Pkgfile) = 5dadadcf1698441892127fd63ca49bc1ec82a8318817d05262103e41b7053e4a
-SHA256 (.footprint) = e2dac24ffa1c5dd537121df660f4398a1d5223003ab6160f4bf64ce1e7cbac9e
-SHA256 (renv_1.2.0.tar.gz) = 1dfaf12d9ff4d5c60dc4e19ff2581a71d9f16f527c9e3289a8316a7840a711f6
+RWQ2oTreAss89K0lXdxxJ3FwToB0MAjnLt8W4NdzkDiigYOgbtk4GArWFq4/0RxBf6TVHpeQfbVpDSBZeQXrJH6vGa25EDmVlA0=
+SHA256 (Pkgfile) = 4a87a0bc54b9f4c7a821c158e9d0673c1834d7ea2787d31a72ecda64679c0d4a
+SHA256 (.footprint) = 9ccbde741a8c20a349f05b238e2ab3f03160d4f30b4238bf3a41dfc3c28e30b1
+SHA256 (renv_1.2.2.tar.gz) = fd41b9ac1ebbbaf4c2a01bc16f8676f1236db0ee94f98e97373fbc00296be350
