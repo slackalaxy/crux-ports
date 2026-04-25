@@ -1,5 +1,5 @@
 # Description: CLI program to access YouTub and other data content
-# URL: https://github.com/yt-dlp/yt-dlp
+# URL: https://github.com/yt-dlp/yt-dlp/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-setuptools
 
