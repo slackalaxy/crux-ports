@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZTK4TMw2TWVIWzh6WPhjQy9MxtZaCSChrc/u7GNHBtpHgHQQ7gjy1xY1M9qQ67IxpFO45MaLJ9cH/0HhVbXruQQ=
-SHA256 (Pkgfile) = c71c3cd31b88489e026865bcdc1dd482f5c3156a02f4b56c14b878db967ae108
-SHA256 (.footprint) = 90e570261098e5d5da677863f5f9b41498da2014eb2268ba87ed51dc59f178c2
-SHA256 (pybind11-v3.0.3.tar.gz) = 787459e1e186ee82001759508fefa408373eae8a076ffe0078b126c6f8f0ec5e
+RWToVVsIkzFIZYlLUBF4D0T3nrta+2LigaRu5yGRiWrxM3SzhpIqfQycGslyHQUBjP/MlAWxqZtkM15LwFG1/jLyGI1ZEZxWCwc=
+SHA256 (Pkgfile) = 1c071b34e4d86bbd4dfe8b0b0aa381bdaa707372ebfab2002980761946cd6d3a
+SHA256 (.footprint) = 73432fd05bbdfd36b2c13a279a4445fd3ae391beb9e0f3a5df4422cf2e80f0da
+SHA256 (pybind11-v3.0.4.tar.gz) = 74b6a2c2b4573a400cafb6ecbf60c98df300cd3d0041296b913d02b2cbbb2676
