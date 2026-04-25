@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/gtable/R/
 -rw-r--r--	root/root	usr/lib/R/library/gtable/R/gtable
 -rw-r--r--	root/root	usr/lib/R/library/gtable/R/gtable.rdb
 -rw-r--r--	root/root	usr/lib/R/library/gtable/R/gtable.rdx
+-rw-r--r--	root/root	usr/lib/R/library/gtable/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/gtable/doc/
 -rw-r--r--	root/root	usr/lib/R/library/gtable/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/gtable/doc/profiling.R

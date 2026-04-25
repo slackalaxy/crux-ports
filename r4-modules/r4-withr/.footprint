@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/withr/R/
 -rw-r--r--	root/root	usr/lib/R/library/withr/R/withr
 -rw-r--r--	root/root	usr/lib/R/library/withr/R/withr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/withr/R/withr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/withr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/withr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/withr/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/withr/doc/withr.R

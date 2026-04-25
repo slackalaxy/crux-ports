@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rbibutils/R/
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/R/rbibutils.rdx
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rbibutils/README.md
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/REFERENCES.bib
 drwxr-xr-x	root/root	usr/lib/R/library/rbibutils/bib/
 -rw-r--r--	root/root	usr/lib/R/library/rbibutils/bib/00README.org

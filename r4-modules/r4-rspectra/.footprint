@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RSpectra/R/
 -rw-r--r--	root/root	usr/lib/R/library/RSpectra/R/RSpectra
 -rw-r--r--	root/root	usr/lib/R/library/RSpectra/R/RSpectra.rdb
 -rw-r--r--	root/root	usr/lib/R/library/RSpectra/R/RSpectra.rdx
+-rw-r--r--	root/root	usr/lib/R/library/RSpectra/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/RSpectra/doc/
 -rw-r--r--	root/root	usr/lib/R/library/RSpectra/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/RSpectra/doc/introduction.R

@@ -15,6 +15,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GeoMxWorkflows/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/GeoMxWorkflows/Meta/vignette.rds
 -rw-r--r--	root/root	usr/lib/R/library/GeoMxWorkflows/NAMESPACE
 -rw-r--r--	root/root	usr/lib/R/library/GeoMxWorkflows/NEWS.md
+-rw-r--r--	root/root	usr/lib/R/library/GeoMxWorkflows/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/GeoMxWorkflows/doc/
 -rw-r--r--	root/root	usr/lib/R/library/GeoMxWorkflows/doc/GeomxTools_RNA-NGS_Analysis.R
 -rw-r--r--	root/root	usr/lib/R/library/GeoMxWorkflows/doc/GeomxTools_RNA-NGS_Analysis.Rmd

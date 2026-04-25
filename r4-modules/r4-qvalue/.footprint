@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/qvalue/R/
 -rw-r--r--	root/root	usr/lib/R/library/qvalue/R/qvalue
 -rw-r--r--	root/root	usr/lib/R/library/qvalue/R/qvalue.rdb
 -rw-r--r--	root/root	usr/lib/R/library/qvalue/R/qvalue.rdx
+-rw-r--r--	root/root	usr/lib/R/library/qvalue/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/qvalue/data/
 -rw-r--r--	root/root	usr/lib/R/library/qvalue/data/datalist
 -rw-r--r--	root/root	usr/lib/R/library/qvalue/data/hedenfalk.RData

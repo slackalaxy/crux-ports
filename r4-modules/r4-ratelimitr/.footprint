@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ratelimitr/R/
 -rw-r--r--	root/root	usr/lib/R/library/ratelimitr/R/ratelimitr
 -rw-r--r--	root/root	usr/lib/R/library/ratelimitr/R/ratelimitr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ratelimitr/R/ratelimitr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ratelimitr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ratelimitr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/ratelimitr/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/ratelimitr/doc/introduction.R

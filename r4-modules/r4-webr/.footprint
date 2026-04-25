@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/webr/R/
 -rw-r--r--	root/root	usr/lib/R/library/webr/R/webr
 -rw-r--r--	root/root	usr/lib/R/library/webr/R/webr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/webr/R/webr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/webr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/webr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/webr/doc/descStatictics.R
 -rw-r--r--	root/root	usr/lib/R/library/webr/doc/descStatictics.Rmd

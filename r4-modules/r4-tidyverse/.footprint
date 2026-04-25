@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/tidyverse/R/
 -rw-r--r--	root/root	usr/lib/R/library/tidyverse/R/tidyverse
 -rw-r--r--	root/root	usr/lib/R/library/tidyverse/R/tidyverse.rdb
 -rw-r--r--	root/root	usr/lib/R/library/tidyverse/R/tidyverse.rdx
+-rw-r--r--	root/root	usr/lib/R/library/tidyverse/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/tidyverse/doc/
 -rw-r--r--	root/root	usr/lib/R/library/tidyverse/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/tidyverse/doc/manifesto.Rmd

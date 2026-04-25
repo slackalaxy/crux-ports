@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/IRanges/R/
 -rw-r--r--	root/root	usr/lib/R/library/IRanges/R/IRanges
 -rw-r--r--	root/root	usr/lib/R/library/IRanges/R/IRanges.rdb
 -rw-r--r--	root/root	usr/lib/R/library/IRanges/R/IRanges.rdx
+-rw-r--r--	root/root	usr/lib/R/library/IRanges/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/IRanges/doc/
 -rw-r--r--	root/root	usr/lib/R/library/IRanges/doc/IRangesOverview.R
 -rw-r--r--	root/root	usr/lib/R/library/IRanges/doc/IRangesOverview.Rnw

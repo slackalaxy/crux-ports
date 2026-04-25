@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppProgress/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/RcppProgress/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/RcppProgress/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/RcppProgress/NAMESPACE (EMPTY)
+-rw-r--r--	root/root	usr/lib/R/library/RcppProgress/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/RcppProgress/examples/
 drwxr-xr-x	root/root	usr/lib/R/library/RcppProgress/examples/RcppProgressArmadillo/
 -rw-r--r--	root/root	usr/lib/R/library/RcppProgress/examples/RcppProgressArmadillo/DESCRIPTION

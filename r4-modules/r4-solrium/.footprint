@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/solrium/R/
 -rw-r--r--	root/root	usr/lib/R/library/solrium/R/solrium
 -rw-r--r--	root/root	usr/lib/R/library/solrium/R/solrium.rdb
 -rw-r--r--	root/root	usr/lib/R/library/solrium/R/solrium.rdx
+-rw-r--r--	root/root	usr/lib/R/library/solrium/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/solrium/doc/
 -rw-r--r--	root/root	usr/lib/R/library/solrium/doc/cores_collections.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/solrium/doc/cores_collections.html

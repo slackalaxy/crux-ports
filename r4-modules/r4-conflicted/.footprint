@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/conflicted/R/
 -rw-r--r--	root/root	usr/lib/R/library/conflicted/R/conflicted
 -rw-r--r--	root/root	usr/lib/R/library/conflicted/R/conflicted.rdb
 -rw-r--r--	root/root	usr/lib/R/library/conflicted/R/conflicted.rdx
+-rw-r--r--	root/root	usr/lib/R/library/conflicted/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/conflicted/help/
 -rw-r--r--	root/root	usr/lib/R/library/conflicted/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/conflicted/help/aliases.rds

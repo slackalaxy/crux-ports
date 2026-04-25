@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/zip/R/
 -rw-r--r--	root/root	usr/lib/R/library/zip/R/zip
 -rw-r--r--	root/root	usr/lib/R/library/zip/R/zip.rdb
 -rw-r--r--	root/root	usr/lib/R/library/zip/R/zip.rdx
+-rw-r--r--	root/root	usr/lib/R/library/zip/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/zip/bin/
 -rwxr-xr-x	root/root	usr/lib/R/library/zip/bin/cmdunzip
 -rwxr-xr-x	root/root	usr/lib/R/library/zip/bin/cmdzip

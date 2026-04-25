@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rhdf5filters/R/
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/R/rhdf5filters
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/R/rhdf5filters.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/R/rhdf5filters.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rhdf5filters/doc/
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/doc/rhdf5filters.R

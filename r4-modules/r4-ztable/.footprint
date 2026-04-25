@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ztable/R/
 -rw-r--r--	root/root	usr/lib/R/library/ztable/R/ztable
 -rw-r--r--	root/root	usr/lib/R/library/ztable/R/ztable.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ztable/R/ztable.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ztable/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ztable/data/
 -rw-r--r--	root/root	usr/lib/R/library/ztable/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ztable/data/Rdata.rds

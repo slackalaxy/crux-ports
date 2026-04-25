@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rotl/R/
 -rw-r--r--	root/root	usr/lib/R/library/rotl/R/rotl
 -rw-r--r--	root/root	usr/lib/R/library/rotl/R/rotl.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rotl/R/rotl.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rotl/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rotl/doc/
 -rw-r--r--	root/root	usr/lib/R/library/rotl/doc/data_mashups.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/rotl/doc/data_mashups.html

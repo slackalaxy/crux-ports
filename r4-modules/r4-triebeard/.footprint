@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/triebeard/R/
 -rw-r--r--	root/root	usr/lib/R/library/triebeard/R/triebeard
 -rw-r--r--	root/root	usr/lib/R/library/triebeard/R/triebeard.rdb
 -rw-r--r--	root/root	usr/lib/R/library/triebeard/R/triebeard.rdx
+-rw-r--r--	root/root	usr/lib/R/library/triebeard/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/triebeard/doc/
 -rw-r--r--	root/root	usr/lib/R/library/triebeard/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/triebeard/doc/r_radix.R

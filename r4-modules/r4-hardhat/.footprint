@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/hardhat/R/
 -rw-r--r--	root/root	usr/lib/R/library/hardhat/R/hardhat
 -rw-r--r--	root/root	usr/lib/R/library/hardhat/R/hardhat.rdb
 -rw-r--r--	root/root	usr/lib/R/library/hardhat/R/hardhat.rdx
+-rw-r--r--	root/root	usr/lib/R/library/hardhat/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/hardhat/data/
 -rw-r--r--	root/root	usr/lib/R/library/hardhat/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/hardhat/data/Rdata.rds

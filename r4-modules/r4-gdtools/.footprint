@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/gdtools/R/
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/R/gdtools.rdx
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/gdtools/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/gdtools/css/
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/css/liberation-mono.css
 -rw-r--r--	root/root	usr/lib/R/library/gdtools/css/liberation-sans.css

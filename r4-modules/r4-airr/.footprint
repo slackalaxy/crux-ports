@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/airr/R/
 -rw-r--r--	root/root	usr/lib/R/library/airr/R/airr
 -rw-r--r--	root/root	usr/lib/R/library/airr/R/airr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/airr/R/airr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/airr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/airr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/airr/doc/Usage-Vignette.R
 -rw-r--r--	root/root	usr/lib/R/library/airr/doc/Usage-Vignette.Rmd

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomicRanges/R/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/R/GenomicRanges
 -rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/R/GenomicRanges.rdb
 -rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/R/GenomicRanges.rdx
+-rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicRanges/doc/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/doc/ExtendingGenomicRanges.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/doc/ExtendingGenomicRanges.Rnw
@@ -48,8 +49,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomicRanges/help/
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicRanges/html/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/html/R.css
-drwxr-xr-x	root/root	usr/lib/R/library/GenomicRanges/libs/
--rwxr-xr-x	root/root	usr/lib/R/library/GenomicRanges/libs/GenomicRanges.so
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicRanges/scripts/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicRanges/scripts/timing_overlaps.R
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicRanges/unitTests/

@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinybusy/R/
 -rw-r--r--	root/root	usr/lib/R/library/shinybusy/R/shinybusy
 -rw-r--r--	root/root	usr/lib/R/library/shinybusy/R/shinybusy.rdb
 -rw-r--r--	root/root	usr/lib/R/library/shinybusy/R/shinybusy.rdx
+-rw-r--r--	root/root	usr/lib/R/library/shinybusy/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/shinybusy/assets/
 drwxr-xr-x	root/root	usr/lib/R/library/shinybusy/assets/css/
 -rw-r--r--	root/root	usr/lib/R/library/shinybusy/assets/css/autospin.css

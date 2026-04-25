@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Biostrings/R/
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/R/Biostrings
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/R/Biostrings.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/R/Biostrings.rdx
+-rw-r--r--	root/root	usr/lib/R/library/Biostrings/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/Biostrings/data/
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/BLOSUM100.rda
 -rw-r--r--	root/root	usr/lib/R/library/Biostrings/data/BLOSUM45.rda

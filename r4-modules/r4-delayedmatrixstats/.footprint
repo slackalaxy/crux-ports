@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/DelayedMatrixStats/R/
 -rw-r--r--	root/root	usr/lib/R/library/DelayedMatrixStats/R/DelayedMatrixStats
 -rw-r--r--	root/root	usr/lib/R/library/DelayedMatrixStats/R/DelayedMatrixStats.rdb
 -rw-r--r--	root/root	usr/lib/R/library/DelayedMatrixStats/R/DelayedMatrixStats.rdx
+-rw-r--r--	root/root	usr/lib/R/library/DelayedMatrixStats/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/DelayedMatrixStats/doc/
 -rw-r--r--	root/root	usr/lib/R/library/DelayedMatrixStats/doc/DelayedMatrixStatsOverview.R
 -rw-r--r--	root/root	usr/lib/R/library/DelayedMatrixStats/doc/DelayedMatrixStatsOverview.Rmd

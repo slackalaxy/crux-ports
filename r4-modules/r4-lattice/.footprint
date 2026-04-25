@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/lattice/R/
 -rw-r--r--	root/root	usr/lib/R/library/lattice/R/lattice
 -rw-r--r--	root/root	usr/lib/R/library/lattice/R/lattice.rdb
 -rw-r--r--	root/root	usr/lib/R/library/lattice/R/lattice.rdx
+-rw-r--r--	root/root	usr/lib/R/library/lattice/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/lattice/data/
 -rw-r--r--	root/root	usr/lib/R/library/lattice/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/lattice/data/Rdata.rds

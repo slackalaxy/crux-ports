@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89LMFQJo8d1e2/zZhNN3YOBewoAgVYd74u4JuAWwg2SElJvh/HNuv7Wu5LhDLaJrkyXC7e0fG+ohBVyBRgDz42ww=
-SHA256 (Pkgfile) = ff508761dc6afc58bb49bc8a5dfdfbe4f7ce18876a101f7713cfafded6c11532
-SHA256 (.footprint) = 61849f82c22f06468a212464597d47085bdbdde864fcc3f9fa8d4c9be88843f3
-SHA256 (clusterProfiler_4.18.4.tar.gz) = 970426661ed900e8caca426335d7b20fef4ae4a12565d17a05f5a6f6eb2f6d02
+RWQ2oTreAss89PuiPyHPs8U3nXLK1MfVKhYKoSWp4g0dKUvyllK93DCUecRBuU5qclihYbmbs59I4ndTuGrWXTJLw+SqaEHNzQs=
+SHA256 (Pkgfile) = 3d1229d231cb51a4bf00a5b98ca00f0d73b4f75ba2f1c678fe67d5e5fe32c548
+SHA256 (.footprint) = 301ddc1babbfbedefc9ebbc98789c1df91b504fe91bd5335a9733feb7dbf0718
+SHA256 (clusterProfiler_4.19.8.tar.gz) = 0411801b135a0876f2e0117d27e5f6cc63379344a9390c1849ae04cec77044dc

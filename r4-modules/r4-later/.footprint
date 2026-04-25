@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/later/R/
 -rw-r--r--	root/root	usr/lib/R/library/later/R/later
 -rw-r--r--	root/root	usr/lib/R/library/later/R/later.rdb
 -rw-r--r--	root/root	usr/lib/R/library/later/R/later.rdx
+-rw-r--r--	root/root	usr/lib/R/library/later/README.md
 -rw-r--r--	root/root	usr/lib/R/library/later/bgtest.cpp
 drwxr-xr-x	root/root	usr/lib/R/library/later/doc/
 -rw-r--r--	root/root	usr/lib/R/library/later/doc/index.html

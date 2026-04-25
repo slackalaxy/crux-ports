@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/flextable/R/
 -rw-r--r--	root/root	usr/lib/R/library/flextable/R/flextable
 -rw-r--r--	root/root	usr/lib/R/library/flextable/R/flextable.rdb
 -rw-r--r--	root/root	usr/lib/R/library/flextable/R/flextable.rdx
+-rw-r--r--	root/root	usr/lib/R/library/flextable/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/flextable/_extensions/
 drwxr-xr-x	root/root	usr/lib/R/library/flextable/_extensions/flextable-qmd/
 -rw-r--r--	root/root	usr/lib/R/library/flextable/_extensions/flextable-qmd/_extension.yml

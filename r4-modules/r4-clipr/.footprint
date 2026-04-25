@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/clipr/R/
 -rw-r--r--	root/root	usr/lib/R/library/clipr/R/clipr
 -rw-r--r--	root/root	usr/lib/R/library/clipr/R/clipr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/clipr/R/clipr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/clipr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/clipr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/clipr/doc/developing-with-clipr.R
 -rw-r--r--	root/root	usr/lib/R/library/clipr/doc/developing-with-clipr.Rmd

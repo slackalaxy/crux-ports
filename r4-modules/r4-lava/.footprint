@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/lava/R/
 -rw-r--r--	root/root	usr/lib/R/library/lava/R/lava
 -rw-r--r--	root/root	usr/lib/R/library/lava/R/lava.rdb
 -rw-r--r--	root/root	usr/lib/R/library/lava/R/lava.rdx
+-rw-r--r--	root/root	usr/lib/R/library/lava/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/lava/data/
 -rw-r--r--	root/root	usr/lib/R/library/lava/data/bmd.rda
 -rw-r--r--	root/root	usr/lib/R/library/lava/data/bmidata.rda

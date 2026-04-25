@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/utf8/R/
 -rw-r--r--	root/root	usr/lib/R/library/utf8/R/utf8
 -rw-r--r--	root/root	usr/lib/R/library/utf8/R/utf8.rdb
 -rw-r--r--	root/root	usr/lib/R/library/utf8/R/utf8.rdx
+-rw-r--r--	root/root	usr/lib/R/library/utf8/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/utf8/doc/
 -rw-r--r--	root/root	usr/lib/R/library/utf8/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/utf8/doc/utf8.Rmd

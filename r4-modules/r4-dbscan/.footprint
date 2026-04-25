@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/dbscan/R/
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/R/dbscan
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/R/dbscan.rdb
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/R/dbscan.rdx
+-rw-r--r--	root/root	usr/lib/R/library/dbscan/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/dbscan/README_files/
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/README_files/OPTICS_extractDBSCAN-1.png
 -rw-r--r--	root/root	usr/lib/R/library/dbscan/README_files/dbscan-1.png

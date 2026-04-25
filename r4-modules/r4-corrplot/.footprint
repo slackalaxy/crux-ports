@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/corrplot/R/
 -rw-r--r--	root/root	usr/lib/R/library/corrplot/R/corrplot
 -rw-r--r--	root/root	usr/lib/R/library/corrplot/R/corrplot.rdb
 -rw-r--r--	root/root	usr/lib/R/library/corrplot/R/corrplot.rdx
+-rw-r--r--	root/root	usr/lib/R/library/corrplot/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/corrplot/doc/
 -rw-r--r--	root/root	usr/lib/R/library/corrplot/doc/corrplot-intro.R
 -rw-r--r--	root/root	usr/lib/R/library/corrplot/doc/corrplot-intro.Rmd

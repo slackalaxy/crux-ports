@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/editData/R/
 -rw-r--r--	root/root	usr/lib/R/library/editData/R/editData
 -rw-r--r--	root/root	usr/lib/R/library/editData/R/editData.rdb
 -rw-r--r--	root/root	usr/lib/R/library/editData/R/editData.rdx
+-rw-r--r--	root/root	usr/lib/R/library/editData/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/editData/data/
 -rw-r--r--	root/root	usr/lib/R/library/editData/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/editData/data/Rdata.rds

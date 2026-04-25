@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/anndata/R/
 -rw-r--r--	root/root	usr/lib/R/library/anndata/R/anndata
 -rw-r--r--	root/root	usr/lib/R/library/anndata/R/anndata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/anndata/R/anndata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/anndata/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/anndata/doc/
 -rw-r--r--	root/root	usr/lib/R/library/anndata/doc/getting_started.R
 -rw-r--r--	root/root	usr/lib/R/library/anndata/doc/getting_started.Rmd

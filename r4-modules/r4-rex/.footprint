@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rex/R/
 -rw-r--r--	root/root	usr/lib/R/library/rex/R/rex
 -rw-r--r--	root/root	usr/lib/R/library/rex/R/rex.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rex/R/rex.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rex/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rex/doc/
 -rw-r--r--	root/root	usr/lib/R/library/rex/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/rex/doc/log_parsing.R

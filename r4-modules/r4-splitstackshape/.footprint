@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/splitstackshape/R/
 -rw-r--r--	root/root	usr/lib/R/library/splitstackshape/R/splitstackshape
 -rw-r--r--	root/root	usr/lib/R/library/splitstackshape/R/splitstackshape.rdb
 -rw-r--r--	root/root	usr/lib/R/library/splitstackshape/R/splitstackshape.rdx
+-rw-r--r--	root/root	usr/lib/R/library/splitstackshape/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/splitstackshape/data/
 -rw-r--r--	root/root	usr/lib/R/library/splitstackshape/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/splitstackshape/data/Rdata.rds

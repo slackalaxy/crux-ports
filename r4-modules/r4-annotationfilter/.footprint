@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/AnnotationFilter/R/
 -rw-r--r--	root/root	usr/lib/R/library/AnnotationFilter/R/AnnotationFilter
 -rw-r--r--	root/root	usr/lib/R/library/AnnotationFilter/R/AnnotationFilter.rdb
 -rw-r--r--	root/root	usr/lib/R/library/AnnotationFilter/R/AnnotationFilter.rdx
+-rw-r--r--	root/root	usr/lib/R/library/AnnotationFilter/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/AnnotationFilter/doc/
 -rw-r--r--	root/root	usr/lib/R/library/AnnotationFilter/doc/AnnotationFilter.R
 -rw-r--r--	root/root	usr/lib/R/library/AnnotationFilter/doc/AnnotationFilter.Rmd

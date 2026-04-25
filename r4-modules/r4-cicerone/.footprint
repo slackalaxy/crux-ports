@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/cicerone/R/
 -rw-r--r--	root/root	usr/lib/R/library/cicerone/R/cicerone
 -rw-r--r--	root/root	usr/lib/R/library/cicerone/R/cicerone.rdb
 -rw-r--r--	root/root	usr/lib/R/library/cicerone/R/cicerone.rdx
+-rw-r--r--	root/root	usr/lib/R/library/cicerone/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/cicerone/cicerone/
 -rw-r--r--	root/root	usr/lib/R/library/cicerone/cicerone/cicerone.js
 -rw-r--r--	root/root	usr/lib/R/library/cicerone/cicerone/custom.css

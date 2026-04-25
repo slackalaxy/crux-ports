@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/bsicons/R/
 -rw-r--r--	root/root	usr/lib/R/library/bsicons/R/bsicons
 -rw-r--r--	root/root	usr/lib/R/library/bsicons/R/bsicons.rdb
 -rw-r--r--	root/root	usr/lib/R/library/bsicons/R/bsicons.rdx
+-rw-r--r--	root/root	usr/lib/R/library/bsicons/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/bsicons/help/
 -rw-r--r--	root/root	usr/lib/R/library/bsicons/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/bsicons/help/aliases.rds

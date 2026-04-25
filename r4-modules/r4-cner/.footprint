@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/CNEr/R/
 -rw-r--r--	root/root	usr/lib/R/library/CNEr/R/CNEr
 -rw-r--r--	root/root	usr/lib/R/library/CNEr/R/CNEr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/CNEr/R/CNEr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/CNEr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/CNEr/data/
 -rw-r--r--	root/root	usr/lib/R/library/CNEr/data/CNEDanRer10Hg38.rda
 -rw-r--r--	root/root	usr/lib/R/library/CNEr/data/CNEHg38DanRer10.rda

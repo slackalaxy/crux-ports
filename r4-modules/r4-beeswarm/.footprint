@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/beeswarm/R/
 -rw-r--r--	root/root	usr/lib/R/library/beeswarm/R/beeswarm
 -rw-r--r--	root/root	usr/lib/R/library/beeswarm/R/beeswarm.rdb
 -rw-r--r--	root/root	usr/lib/R/library/beeswarm/R/beeswarm.rdx
+-rw-r--r--	root/root	usr/lib/R/library/beeswarm/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/beeswarm/data/
 -rw-r--r--	root/root	usr/lib/R/library/beeswarm/data/breast.RData
 drwxr-xr-x	root/root	usr/lib/R/library/beeswarm/help/

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/sparseMatrixStats/R/
 -rw-r--r--	root/root	usr/lib/R/library/sparseMatrixStats/R/sparseMatrixStats
 -rw-r--r--	root/root	usr/lib/R/library/sparseMatrixStats/R/sparseMatrixStats.rdb
 -rw-r--r--	root/root	usr/lib/R/library/sparseMatrixStats/R/sparseMatrixStats.rdx
+-rw-r--r--	root/root	usr/lib/R/library/sparseMatrixStats/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/sparseMatrixStats/doc/
 -rw-r--r--	root/root	usr/lib/R/library/sparseMatrixStats/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/sparseMatrixStats/doc/sparseMatrixStats.R

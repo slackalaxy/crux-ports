@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/markdown/R/
 -rw-r--r--	root/root	usr/lib/R/library/markdown/R/markdown
 -rw-r--r--	root/root	usr/lib/R/library/markdown/R/markdown.rdb
 -rw-r--r--	root/root	usr/lib/R/library/markdown/R/markdown.rdx
+-rw-r--r--	root/root	usr/lib/R/library/markdown/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/markdown/examples/
 -rw-r--r--	root/root	usr/lib/R/library/markdown/examples/render-options.R
 drwxr-xr-x	root/root	usr/lib/R/library/markdown/help/

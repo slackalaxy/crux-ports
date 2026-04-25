@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/glmnet/R/
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/R/glmnet
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/R/glmnet.rdb
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/R/glmnet.rdx
+-rw-r--r--	root/root	usr/lib/R/library/glmnet/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/glmnet/data/
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/data/BinomialExample.rda
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/data/CVXResults.RData

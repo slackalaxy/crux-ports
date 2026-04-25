@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/seqLogo/R/
 -rw-r--r--	root/root	usr/lib/R/library/seqLogo/R/seqLogo
 -rw-r--r--	root/root	usr/lib/R/library/seqLogo/R/seqLogo.rdb
 -rw-r--r--	root/root	usr/lib/R/library/seqLogo/R/seqLogo.rdx
+-rw-r--r--	root/root	usr/lib/R/library/seqLogo/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/seqLogo/doc/
 -rw-r--r--	root/root	usr/lib/R/library/seqLogo/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/seqLogo/doc/seqLogo.R

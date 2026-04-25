@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocSingular/R/
 -rw-r--r--	root/root	usr/lib/R/library/BiocSingular/R/BiocSingular
 -rw-r--r--	root/root	usr/lib/R/library/BiocSingular/R/BiocSingular.rdb
 -rw-r--r--	root/root	usr/lib/R/library/BiocSingular/R/BiocSingular.rdx
+-rw-r--r--	root/root	usr/lib/R/library/BiocSingular/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/BiocSingular/doc/
 -rw-r--r--	root/root	usr/lib/R/library/BiocSingular/doc/decomposition.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocSingular/doc/decomposition.Rmd

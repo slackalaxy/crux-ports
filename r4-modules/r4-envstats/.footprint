@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/EnvStats/R/
 -rw-r--r--	root/root	usr/lib/R/library/EnvStats/R/EnvStats
 -rw-r--r--	root/root	usr/lib/R/library/EnvStats/R/EnvStats.rdb
 -rw-r--r--	root/root	usr/lib/R/library/EnvStats/R/EnvStats.rdx
+-rw-r--r--	root/root	usr/lib/R/library/EnvStats/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/EnvStats/data/
 -rw-r--r--	root/root	usr/lib/R/library/EnvStats/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/EnvStats/data/Rdata.rds

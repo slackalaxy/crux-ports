@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/plogr/R/
 -rw-r--r--	root/root	usr/lib/R/library/plogr/R/plogr
 -rw-r--r--	root/root	usr/lib/R/library/plogr/R/plogr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/plogr/R/plogr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/plogr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/plogr/help/
 -rw-r--r--	root/root	usr/lib/R/library/plogr/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/plogr/help/aliases.rds

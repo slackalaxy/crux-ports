@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/graphlayouts/R/
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/R/graphlayouts
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/R/graphlayouts.rdb
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/R/graphlayouts.rdx
+-rw-r--r--	root/root	usr/lib/R/library/graphlayouts/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/graphlayouts/data/
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/graphlayouts/data/Rdata.rds

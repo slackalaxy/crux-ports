@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/cellranger/R/
 -rw-r--r--	root/root	usr/lib/R/library/cellranger/R/cellranger
 -rw-r--r--	root/root	usr/lib/R/library/cellranger/R/cellranger.rdb
 -rw-r--r--	root/root	usr/lib/R/library/cellranger/R/cellranger.rdx
+-rw-r--r--	root/root	usr/lib/R/library/cellranger/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/cellranger/doc/
 -rw-r--r--	root/root	usr/lib/R/library/cellranger/doc/cell-references.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/cellranger/doc/cell-references.html

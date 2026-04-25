@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/renv/R/
 -rw-r--r--	root/root	usr/lib/R/library/renv/R/renv
 -rw-r--r--	root/root	usr/lib/R/library/renv/R/renv.rdb
 -rw-r--r--	root/root	usr/lib/R/library/renv/R/renv.rdx
+-rw-r--r--	root/root	usr/lib/R/library/renv/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/renv/bin/
 -rwxr-xr-x	root/root	usr/lib/R/library/renv/bin/renv
 -rw-r--r--	root/root	usr/lib/R/library/renv/bin/renv.bat

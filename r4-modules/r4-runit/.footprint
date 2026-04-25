@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RUnit/R/
 -rw-r--r--	root/root	usr/lib/R/library/RUnit/R/RUnit
 -rw-r--r--	root/root	usr/lib/R/library/RUnit/R/RUnit.rdb
 -rw-r--r--	root/root	usr/lib/R/library/RUnit/R/RUnit.rdx
+-rw-r--r--	root/root	usr/lib/R/library/RUnit/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/RUnit/doc/
 -rw-r--r--	root/root	usr/lib/R/library/RUnit/doc/RUnit.R
 -rw-r--r--	root/root	usr/lib/R/library/RUnit/doc/RUnit.Rnw

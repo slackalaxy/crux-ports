@@ -15,6 +15,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BH/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/BH/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/BH/NAMESPACE
 -rw-r--r--	root/root	usr/lib/R/library/BH/NEWS.Rd
+-rw-r--r--	root/root	usr/lib/R/library/BH/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/BH/help/
 -rw-r--r--	root/root	usr/lib/R/library/BH/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/BH/help/BH.rdb

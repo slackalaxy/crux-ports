@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/stringr/R/
 -rw-r--r--	root/root	usr/lib/R/library/stringr/R/stringr
 -rw-r--r--	root/root	usr/lib/R/library/stringr/R/stringr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/stringr/R/stringr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/stringr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/stringr/data/
 -rw-r--r--	root/root	usr/lib/R/library/stringr/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/stringr/data/Rdata.rds

@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/processx/R/
 -rw-r--r--	root/root	usr/lib/R/library/processx/R/processx
 -rw-r--r--	root/root	usr/lib/R/library/processx/R/processx.rdb
 -rw-r--r--	root/root	usr/lib/R/library/processx/R/processx.rdx
+-rw-r--r--	root/root	usr/lib/R/library/processx/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/processx/bin/
 -rwxr-xr-x	root/root	usr/lib/R/library/processx/bin/px
 -rwxr-xr-x	root/root	usr/lib/R/library/processx/bin/sock

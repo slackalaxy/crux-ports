@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/dplyr/R/
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/R/dplyr
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/R/dplyr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/R/dplyr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/dplyr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/dplyr/data/
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/dplyr/data/Rdata.rds

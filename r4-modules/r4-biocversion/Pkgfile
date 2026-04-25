@@ -5,7 +5,7 @@
 # Optional: 
 
 name=r4-biocversion
-version=3.22.0
+version=3.23.1
 release=1
 source=(https://bioconductor.org/packages/${version%.*}/bioc/src/contrib/BiocVersion_${version}.tar.gz)
 

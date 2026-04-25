@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rmarkdown/R/
 -rw-r--r--	root/root	usr/lib/R/library/rmarkdown/R/rmarkdown
 -rw-r--r--	root/root	usr/lib/R/library/rmarkdown/R/rmarkdown.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rmarkdown/R/rmarkdown.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rmarkdown/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rmarkdown/doc/
 -rw-r--r--	root/root	usr/lib/R/library/rmarkdown/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/rmarkdown/doc/lua-filters.R

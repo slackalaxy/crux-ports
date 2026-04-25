@@ -1,13 +1,13 @@
 # Description: R module SpatialDecon
-# URL: https://bioconductor.org/packages/SpatialDecon
+# URL: https://cran.r-project.org/web/packages/SpatialDecon
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-biobase r4-geomxtools r4-lognormreg r4-matrix r4-repmis r4-seuratobject
 # Optional: r4-knitr r4-qpdf r4-rmarkdown r4-seurat r4-testthat
 
 name=r4-spatialdecon
-version=1.20.1
+version=1.21.1
 release=1
-source=(https://bioconductor.org/packages/3.22/bioc/src/contrib/SpatialDecon_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/SpatialDecon_${version}.tar.gz)
 
 build() {
 	cd SpatialDecon

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mirai/R/
 -rw-r--r--	root/root	usr/lib/R/library/mirai/R/mirai
 -rw-r--r--	root/root	usr/lib/R/library/mirai/R/mirai.rdb
 -rw-r--r--	root/root	usr/lib/R/library/mirai/R/mirai.rdx
+-rw-r--r--	root/root	usr/lib/R/library/mirai/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/mirai/doc/
 -rw-r--r--	root/root	usr/lib/R/library/mirai/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/mirai/doc/mirai.Rmd

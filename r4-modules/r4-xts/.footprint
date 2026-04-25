@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/xts/R/
 -rw-r--r--	root/root	usr/lib/R/library/xts/R/xts
 -rw-r--r--	root/root	usr/lib/R/library/xts/R/xts.rdb
 -rw-r--r--	root/root	usr/lib/R/library/xts/R/xts.rdx
+-rw-r--r--	root/root	usr/lib/R/library/xts/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/xts/api_example/
 -rw-r--r--	root/root	usr/lib/R/library/xts/api_example/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/xts/api_example/NAMESPACE

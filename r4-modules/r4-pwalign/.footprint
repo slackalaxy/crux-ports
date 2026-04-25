@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pwalign/R/
 -rw-r--r--	root/root	usr/lib/R/library/pwalign/R/pwalign
 -rw-r--r--	root/root	usr/lib/R/library/pwalign/R/pwalign.rdb
 -rw-r--r--	root/root	usr/lib/R/library/pwalign/R/pwalign.rdx
+-rw-r--r--	root/root	usr/lib/R/library/pwalign/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/pwalign/data/
 -rw-r--r--	root/root	usr/lib/R/library/pwalign/data/BLOSUM100.rda
 -rw-r--r--	root/root	usr/lib/R/library/pwalign/data/BLOSUM45.rda

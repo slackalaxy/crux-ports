@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocIO/R/
 -rw-r--r--	root/root	usr/lib/R/library/BiocIO/R/BiocIO
 -rw-r--r--	root/root	usr/lib/R/library/BiocIO/R/BiocIO.rdb
 -rw-r--r--	root/root	usr/lib/R/library/BiocIO/R/BiocIO.rdx
+-rw-r--r--	root/root	usr/lib/R/library/BiocIO/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/BiocIO/doc/
 -rw-r--r--	root/root	usr/lib/R/library/BiocIO/doc/BiocIO.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocIO/doc/BiocIO.Rmd

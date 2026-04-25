@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/bluster/R/
 -rw-r--r--	root/root	usr/lib/R/library/bluster/R/bluster
 -rw-r--r--	root/root	usr/lib/R/library/bluster/R/bluster.rdb
 -rw-r--r--	root/root	usr/lib/R/library/bluster/R/bluster.rdx
+-rw-r--r--	root/root	usr/lib/R/library/bluster/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/bluster/doc/
 -rw-r--r--	root/root	usr/lib/R/library/bluster/doc/clusterRows.R
 -rw-r--r--	root/root	usr/lib/R/library/bluster/doc/clusterRows.Rmd

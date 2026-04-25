@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4-modules.pub
+RWQ2oTreAss89JkDXKNADMn63QJWeOvPVvE3lR/ChhaUdFFyX9HdXxUL6QkR3hSy3pAbBqH9QSWR0kduO5FPTdooTAr4DnKiLAk=
+SHA256 (Pkgfile) = 38ae042e997fa265fb6017418be490eb3b80cff265ddf3be7ef73c3c16165670
+SHA256 (.footprint) = d90e4827a8cfaef2202bac7409daca114dc6808808dcd379cd7a05b00f32ec5c
+SHA256 (dir.expiry_1.19.0.tar.gz) = 9f2877ebbeb28bc7bab60e48d0d632ca635c5ac453e255cd97b50d105821284a

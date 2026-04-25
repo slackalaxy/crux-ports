@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/gridGraphics/R/
 -rw-r--r--	root/root	usr/lib/R/library/gridGraphics/R/gridGraphics
 -rw-r--r--	root/root	usr/lib/R/library/gridGraphics/R/gridGraphics.rdb
 -rw-r--r--	root/root	usr/lib/R/library/gridGraphics/R/gridGraphics.rdx
+-rw-r--r--	root/root	usr/lib/R/library/gridGraphics/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/gridGraphics/help/
 -rw-r--r--	root/root	usr/lib/R/library/gridGraphics/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/gridGraphics/help/aliases.rds

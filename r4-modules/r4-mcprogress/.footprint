@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mcprogress/R/
 -rw-r--r--	root/root	usr/lib/R/library/mcprogress/R/mcprogress
 -rw-r--r--	root/root	usr/lib/R/library/mcprogress/R/mcprogress.rdb
 -rw-r--r--	root/root	usr/lib/R/library/mcprogress/R/mcprogress.rdx
+-rw-r--r--	root/root	usr/lib/R/library/mcprogress/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/mcprogress/doc/
 -rw-r--r--	root/root	usr/lib/R/library/mcprogress/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/mcprogress/doc/mcprogress.R

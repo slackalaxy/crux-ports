@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89D0J7wJBjkke877xWSHyZi8pZSxX4gDupGIM0aCByasvgsMv3DwxArUimT/IMpX1qEob4dnGYRcreJbv9fTm8gE=
-SHA256 (Pkgfile) = a1ecc63ecd516471531513bc630cdb1474e68ea504936492ce37fc5b368977e2
+RWQ2oTreAss89LYk+L8T3S0romWg0NyIPhHWqPh5cu+e6aLvkUz1dEPwDgOcXhf23WPSlfiJchlFc9UCKv44BXjxOQ3aGU9RPwk=
+SHA256 (Pkgfile) = f310e15b3be5648d398a68b83e423fe0d28854c9ec181eb42bd940c5ced8028b
 SHA256 (.footprint) = 7b2810fbec3134b2b8bcba82d68a12bd6960c2c7e567b4ab52cdd35707889120
-SHA256 (igraph_2.2.3.tar.gz) = 2c997dd6d19c40e3f638623093d482e889c30ec16742cb2a42e35195a2c053b9
+SHA256 (igraph_2.3.0.tar.gz) = 454a77fbcba0f2a4dc5be069910d1d5cde16f0c736d723aff47d32395df79923

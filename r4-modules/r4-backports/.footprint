@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/backports/R/
 -rw-r--r--	root/root	usr/lib/R/library/backports/R/backports
 -rw-r--r--	root/root	usr/lib/R/library/backports/R/backports.rdb
 -rw-r--r--	root/root	usr/lib/R/library/backports/R/backports.rdx
+-rw-r--r--	root/root	usr/lib/R/library/backports/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/backports/help/
 -rw-r--r--	root/root	usr/lib/R/library/backports/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/backports/help/aliases.rds

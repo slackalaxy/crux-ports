@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocGenerics/R/
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/R/BiocGenerics
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/R/BiocGenerics.rdb
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/R/BiocGenerics.rdx
+-rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/BiocGenerics/help/
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/help/BiocGenerics.rdb

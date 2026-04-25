@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/R/
 -rw-r--r--	root/root	usr/lib/R/library/pak/R/pak
 -rw-r--r--	root/root	usr/lib/R/library/pak/R/pak.rdb
 -rw-r--r--	root/root	usr/lib/R/library/pak/R/pak.rdx
+-rw-r--r--	root/root	usr/lib/R/library/pak/README.md
 -rw-r--r--	root/root	usr/lib/R/library/pak/WORDLIST
 -rw-r--r--	root/root	usr/lib/R/library/pak/header.md
 drwxr-xr-x	root/root	usr/lib/R/library/pak/help/
@@ -304,17 +305,20 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/HEAD
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/VERSION
 drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/Abseil.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/QuantLib.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/apparmor.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/atk.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/automake.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/berkeleydb.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/blender.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/blosc.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/boost.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/bowtie2.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/bwidget.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/cairo.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/chrome.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/cln.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/cmake.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/coin-or-clp.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/coinor-symphony.json
@@ -331,6 +335,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/gdal.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/geos.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/ggobi.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/ginac.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/git.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/glib.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/glpk.json
@@ -374,6 +379,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libssh2.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libtiff.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libtool.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libuv.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libwebp.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libxml2.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libxslt.json
@@ -399,6 +405,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/patch.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/perl.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/pkg-config.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/poppler-data.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/poppler-glib.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/poppler.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/postgresql.json

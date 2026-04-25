@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/remotes/R/
 -rw-r--r--	root/root	usr/lib/R/library/remotes/R/remotes
 -rw-r--r--	root/root	usr/lib/R/library/remotes/R/remotes.rdb
 -rw-r--r--	root/root	usr/lib/R/library/remotes/R/remotes.rdx
+-rw-r--r--	root/root	usr/lib/R/library/remotes/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/remotes/doc/
 -rw-r--r--	root/root	usr/lib/R/library/remotes/doc/dependencies.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/remotes/doc/dependencies.html

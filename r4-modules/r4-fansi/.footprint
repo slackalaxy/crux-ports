@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/fansi/R/
 -rw-r--r--	root/root	usr/lib/R/library/fansi/R/fansi
 -rw-r--r--	root/root	usr/lib/R/library/fansi/R/fansi.rdb
 -rw-r--r--	root/root	usr/lib/R/library/fansi/R/fansi.rdx
+-rw-r--r--	root/root	usr/lib/R/library/fansi/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/fansi/doc/
 -rw-r--r--	root/root	usr/lib/R/library/fansi/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/fansi/doc/sgr-in-rmd.R

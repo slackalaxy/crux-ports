@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggtangle/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggtangle/R/ggtangle
 -rw-r--r--	root/root	usr/lib/R/library/ggtangle/R/ggtangle.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggtangle/R/ggtangle.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggtangle/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggtangle/doc/
 -rw-r--r--	root/root	usr/lib/R/library/ggtangle/doc/ggtangle.R
 -rw-r--r--	root/root	usr/lib/R/library/ggtangle/doc/ggtangle.html

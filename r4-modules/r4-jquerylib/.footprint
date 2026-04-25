@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/jquerylib/R/
 -rw-r--r--	root/root	usr/lib/R/library/jquerylib/R/jquerylib
 -rw-r--r--	root/root	usr/lib/R/library/jquerylib/R/jquerylib.rdb
 -rw-r--r--	root/root	usr/lib/R/library/jquerylib/R/jquerylib.rdx
+-rw-r--r--	root/root	usr/lib/R/library/jquerylib/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/jquerylib/help/
 -rw-r--r--	root/root	usr/lib/R/library/jquerylib/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/jquerylib/help/aliases.rds

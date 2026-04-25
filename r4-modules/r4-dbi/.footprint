@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/DBI/R/
 -rw-r--r--	root/root	usr/lib/R/library/DBI/R/DBI
 -rw-r--r--	root/root	usr/lib/R/library/DBI/R/DBI.rdb
 -rw-r--r--	root/root	usr/lib/R/library/DBI/R/DBI.rdx
+-rw-r--r--	root/root	usr/lib/R/library/DBI/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/DBI/doc/
 -rw-r--r--	root/root	usr/lib/R/library/DBI/doc/DBI-1.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/DBI/doc/DBI-1.html

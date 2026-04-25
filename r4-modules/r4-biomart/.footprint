@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/biomaRt/R/
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/R/biomaRt
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/R/biomaRt.rdb
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/R/biomaRt.rdx
+-rw-r--r--	root/root	usr/lib/R/library/biomaRt/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/biomaRt/doc/
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/doc/accessing_ensembl.R
 -rw-r--r--	root/root	usr/lib/R/library/biomaRt/doc/accessing_ensembl.Rmd

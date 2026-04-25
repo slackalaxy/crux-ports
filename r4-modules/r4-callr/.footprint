@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/callr/R/
 -rw-r--r--	root/root	usr/lib/R/library/callr/R/callr
 -rw-r--r--	root/root	usr/lib/R/library/callr/R/callr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/callr/R/callr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/callr/README.md
 -rw-r--r--	root/root	usr/lib/R/library/callr/WORDLIST
 -rw-r--r--	root/root	usr/lib/R/library/callr/developer-notes.md
 drwxr-xr-x	root/root	usr/lib/R/library/callr/help/

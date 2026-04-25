@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/SummarizedExperiment/R/
 -rw-r--r--	root/root	usr/lib/R/library/SummarizedExperiment/R/SummarizedExperiment
 -rw-r--r--	root/root	usr/lib/R/library/SummarizedExperiment/R/SummarizedExperiment.rdb
 -rw-r--r--	root/root	usr/lib/R/library/SummarizedExperiment/R/SummarizedExperiment.rdx
+-rw-r--r--	root/root	usr/lib/R/library/SummarizedExperiment/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/SummarizedExperiment/doc/
 -rw-r--r--	root/root	usr/lib/R/library/SummarizedExperiment/doc/Extensions.R
 -rw-r--r--	root/root	usr/lib/R/library/SummarizedExperiment/doc/Extensions.Rmd

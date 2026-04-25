@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/dbplyr/R/
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/R/dbplyr
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/R/dbplyr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/R/dbplyr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/dbplyr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/dbplyr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/backend-2.R
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/backend-2.Rmd

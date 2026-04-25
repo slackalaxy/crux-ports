@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/munsell/R/
 -rw-r--r--	root/root	usr/lib/R/library/munsell/R/munsell.rdx
 -rw-r--r--	root/root	usr/lib/R/library/munsell/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/munsell/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/munsell/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/munsell/help/
 -rw-r--r--	root/root	usr/lib/R/library/munsell/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/munsell/help/aliases.rds

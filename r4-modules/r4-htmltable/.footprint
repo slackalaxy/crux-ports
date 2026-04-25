@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/htmlTable/R/
 -rw-r--r--	root/root	usr/lib/R/library/htmlTable/R/htmlTable
 -rw-r--r--	root/root	usr/lib/R/library/htmlTable/R/htmlTable.rdb
 -rw-r--r--	root/root	usr/lib/R/library/htmlTable/R/htmlTable.rdx
+-rw-r--r--	root/root	usr/lib/R/library/htmlTable/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/htmlTable/data/
 -rw-r--r--	root/root	usr/lib/R/library/htmlTable/data/SCB.rda
 drwxr-xr-x	root/root	usr/lib/R/library/htmlTable/doc/

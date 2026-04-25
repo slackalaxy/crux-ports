@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/R/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/R/Rcpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/R/Rcpp.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/R/Rcpp.rdx
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/announce/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/announce/ANNOUNCE-0.10.0.txt
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/announce/ANNOUNCE-0.11.0.txt

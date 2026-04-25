@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/R/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/R/shinyWidgets
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/R/shinyWidgets.rdb
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/R/shinyWidgets.rdx
+-rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/assets/
 drwxr-xr-x	root/root	usr/lib/R/library/shinyWidgets/assets/animate/
 -rw-r--r--	root/root	usr/lib/R/library/shinyWidgets/assets/animate/LICENSE

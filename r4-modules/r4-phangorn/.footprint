@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/phangorn/R/
 -rw-r--r--	root/root	usr/lib/R/library/phangorn/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/phangorn/R/sysdata.rdx
 -rw-r--r--	root/root	usr/lib/R/library/phangorn/README
+-rw-r--r--	root/root	usr/lib/R/library/phangorn/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/phangorn/data/
 -rw-r--r--	root/root	usr/lib/R/library/phangorn/data/Laurasiatherian.RData
 -rw-r--r--	root/root	usr/lib/R/library/phangorn/data/chloroplast.RData

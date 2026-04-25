@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/forcats/R/
 -rw-r--r--	root/root	usr/lib/R/library/forcats/R/forcats
 -rw-r--r--	root/root	usr/lib/R/library/forcats/R/forcats.rdb
 -rw-r--r--	root/root	usr/lib/R/library/forcats/R/forcats.rdx
+-rw-r--r--	root/root	usr/lib/R/library/forcats/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/forcats/data/
 -rw-r--r--	root/root	usr/lib/R/library/forcats/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/forcats/data/Rdata.rds

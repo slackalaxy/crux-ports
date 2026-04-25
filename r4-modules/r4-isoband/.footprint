@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/isoband/R/
 -rw-r--r--	root/root	usr/lib/R/library/isoband/R/isoband
 -rw-r--r--	root/root	usr/lib/R/library/isoband/R/isoband.rdb
 -rw-r--r--	root/root	usr/lib/R/library/isoband/R/isoband.rdx
+-rw-r--r--	root/root	usr/lib/R/library/isoband/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/isoband/doc/
 -rw-r--r--	root/root	usr/lib/R/library/isoband/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/isoband/doc/isoband1.R

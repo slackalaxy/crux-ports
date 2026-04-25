@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/crosstalk/R/
 -rw-r--r--	root/root	usr/lib/R/library/crosstalk/R/crosstalk
 -rw-r--r--	root/root	usr/lib/R/library/crosstalk/R/crosstalk.rdb
 -rw-r--r--	root/root	usr/lib/R/library/crosstalk/R/crosstalk.rdx
+-rw-r--r--	root/root	usr/lib/R/library/crosstalk/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/crosstalk/help/
 -rw-r--r--	root/root	usr/lib/R/library/crosstalk/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/crosstalk/help/aliases.rds

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rpart/R/
 -rw-r--r--	root/root	usr/lib/R/library/rpart/R/rpart
 -rw-r--r--	root/root	usr/lib/R/library/rpart/R/rpart.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rpart/R/rpart.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rpart/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rpart/data/
 -rw-r--r--	root/root	usr/lib/R/library/rpart/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rpart/data/Rdata.rds

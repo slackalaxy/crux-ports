@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/broom/R/
 -rw-r--r--	root/root	usr/lib/R/library/broom/R/broom.rdx
 -rw-r--r--	root/root	usr/lib/R/library/broom/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/broom/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/broom/README.md
 -rw-r--r--	root/root	usr/lib/R/library/broom/WORDLIST
 drwxr-xr-x	root/root	usr/lib/R/library/broom/doc/
 -rw-r--r--	root/root	usr/lib/R/library/broom/doc/adding-tidiers.Rmd

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89NOqvKwMv1A7wbWhq/mKEVdCoxOr2V2b8L18Q+ceSBtcOghbv4Jgq5bEBG0K/cpBUi2ssD3f14RJydt3gPRwWAM=
-SHA256 (Pkgfile) = 2b91e89a6ad60d84f4d0df3bc387a3c7ef42eb35e86f6b9293cf42a5823ee254
-SHA256 (.footprint) = 8a2a9fad6f4611236d1625cdfdd125b12da5b15f44a0223797ec60fdae610e93
-SHA256 (Rsamtools_2.26.0.tar.gz) = 9cda0a97ef33e0343d8c5ad6228fa043c441f20f92510ef494422a3b7b496be9
+RWQ2oTreAss89BivgCL8CX9izjXvp1XWWMhr2GxhMY5O4KVF8bVisq9Njlplp3AzkRf5DEHwumMk5a5HgRmGzSS82US/UgaQ4wk=
+SHA256 (Pkgfile) = 8752f6a0d3214cea7749574f6d5ba135a1a181d97160b2630f0d11713c9173fe
+SHA256 (.footprint) = bcb8c4a3f4d1842ae3d3cb94eb73301022d7ae2cfa39e98e8b3ef81177f62cb9
+SHA256 (Rsamtools_2.27.2.tar.gz) = c0ecb41d2dda81a188dd25a2ec8502dc1615b7789f3ed0b8560b1e7df668c259

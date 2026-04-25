@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggrastr/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggrastr/R/ggrastr
 -rw-r--r--	root/root	usr/lib/R/library/ggrastr/R/ggrastr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggrastr/R/ggrastr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggrastr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggrastr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/ggrastr/doc/Legacy_functions.R
 -rw-r--r--	root/root	usr/lib/R/library/ggrastr/doc/Legacy_functions.Rmd

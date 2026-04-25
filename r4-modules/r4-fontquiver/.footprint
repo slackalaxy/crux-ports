@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/fontquiver/R/
 -rw-r--r--	root/root	usr/lib/R/library/fontquiver/R/fontquiver
 -rw-r--r--	root/root	usr/lib/R/library/fontquiver/R/fontquiver.rdb
 -rw-r--r--	root/root	usr/lib/R/library/fontquiver/R/fontquiver.rdx
+-rw-r--r--	root/root	usr/lib/R/library/fontquiver/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/fontquiver/fonts/
 -rw-r--r--	root/root	usr/lib/R/library/fontquiver/fonts/symbola-VERSION
 drwxr-xr-x	root/root	usr/lib/R/library/fontquiver/fonts/symbola-fonts/

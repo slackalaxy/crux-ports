@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/fontLiberation/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/fontLiberation/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/fontLiberation/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/fontLiberation/NAMESPACE
+-rw-r--r--	root/root	usr/lib/R/library/fontLiberation/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/fontLiberation/fonts/
 -rw-r--r--	root/root	usr/lib/R/library/fontLiberation/fonts/Makefile
 -rw-r--r--	root/root	usr/lib/R/library/fontLiberation/fonts/liberation-VERSION

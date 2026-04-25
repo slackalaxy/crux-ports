@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggtree/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggtree/R/ggtree
 -rw-r--r--	root/root	usr/lib/R/library/ggtree/R/ggtree.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggtree/R/ggtree.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggtree/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggtree/doc/
 -rw-r--r--	root/root	usr/lib/R/library/ggtree/doc/ggtree.R
 -rw-r--r--	root/root	usr/lib/R/library/ggtree/doc/ggtree.Rmd

@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/KEGGREST/R/
 -rw-r--r--	root/root	usr/lib/R/library/KEGGREST/R/KEGGREST
 -rw-r--r--	root/root	usr/lib/R/library/KEGGREST/R/KEGGREST.rdb
 -rw-r--r--	root/root	usr/lib/R/library/KEGGREST/R/KEGGREST.rdx
+-rw-r--r--	root/root	usr/lib/R/library/KEGGREST/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/KEGGREST/doc/
 -rw-r--r--	root/root	usr/lib/R/library/KEGGREST/doc/KEGGREST-vignette.R
 -rw-r--r--	root/root	usr/lib/R/library/KEGGREST/doc/KEGGREST-vignette.Rmd

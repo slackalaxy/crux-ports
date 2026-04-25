@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/patchwork/R/
 -rw-r--r--	root/root	usr/lib/R/library/patchwork/R/patchwork
 -rw-r--r--	root/root	usr/lib/R/library/patchwork/R/patchwork.rdb
 -rw-r--r--	root/root	usr/lib/R/library/patchwork/R/patchwork.rdx
+-rw-r--r--	root/root	usr/lib/R/library/patchwork/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/patchwork/doc/
 -rw-r--r--	root/root	usr/lib/R/library/patchwork/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/patchwork/doc/patchwork.R

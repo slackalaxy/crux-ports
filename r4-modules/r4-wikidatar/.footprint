@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/WikidataR/R/
 -rw-r--r--	root/root	usr/lib/R/library/WikidataR/R/WikidataR.rdx
 -rw-r--r--	root/root	usr/lib/R/library/WikidataR/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/WikidataR/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/WikidataR/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/WikidataR/extdata/
 -rw-r--r--	root/root	usr/lib/R/library/WikidataR/extdata/WD.globalvar.RDS
 drwxr-xr-x	root/root	usr/lib/R/library/WikidataR/help/

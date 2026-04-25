@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/svglite/R/
 -rw-r--r--	root/root	usr/lib/R/library/svglite/R/svglite
 -rw-r--r--	root/root	usr/lib/R/library/svglite/R/svglite.rdb
 -rw-r--r--	root/root	usr/lib/R/library/svglite/R/svglite.rdx
+-rw-r--r--	root/root	usr/lib/R/library/svglite/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/svglite/doc/
 -rw-r--r--	root/root	usr/lib/R/library/svglite/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/svglite/doc/scaling.Rmd

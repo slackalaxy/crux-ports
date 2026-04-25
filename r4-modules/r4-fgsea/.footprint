@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/fgsea/R/
 -rw-r--r--	root/root	usr/lib/R/library/fgsea/R/fgsea
 -rw-r--r--	root/root	usr/lib/R/library/fgsea/R/fgsea.rdb
 -rw-r--r--	root/root	usr/lib/R/library/fgsea/R/fgsea.rdx
+-rw-r--r--	root/root	usr/lib/R/library/fgsea/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/fgsea/data/
 -rw-r--r--	root/root	usr/lib/R/library/fgsea/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/fgsea/data/Rdata.rds

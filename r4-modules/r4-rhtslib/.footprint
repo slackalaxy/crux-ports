@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rhtslib/R/
 -rw-r--r--	root/root	usr/lib/R/library/Rhtslib/R/Rhtslib
 -rw-r--r--	root/root	usr/lib/R/library/Rhtslib/R/Rhtslib.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Rhtslib/R/Rhtslib.rdx
+-rw-r--r--	root/root	usr/lib/R/library/Rhtslib/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/Rhtslib/doc/
 -rw-r--r--	root/root	usr/lib/R/library/Rhtslib/doc/Rhtslib.R
 -rw-r--r--	root/root	usr/lib/R/library/Rhtslib/doc/Rhtslib.Rmd

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/CellChat/R/
 -rw-r--r--	root/root	usr/lib/R/library/CellChat/R/CellChat
 -rw-r--r--	root/root	usr/lib/R/library/CellChat/R/CellChat.rdb
 -rw-r--r--	root/root	usr/lib/R/library/CellChat/R/CellChat.rdx
+-rw-r--r--	root/root	usr/lib/R/library/CellChat/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/CellChat/data/
 -rw-r--r--	root/root	usr/lib/R/library/CellChat/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/CellChat/data/Rdata.rds

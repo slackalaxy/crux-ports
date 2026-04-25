@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/DEoptim/R/
 -rw-r--r--	root/root	usr/lib/R/library/DEoptim/R/DEoptim
 -rw-r--r--	root/root	usr/lib/R/library/DEoptim/R/DEoptim.rdb
 -rw-r--r--	root/root	usr/lib/R/library/DEoptim/R/DEoptim.rdx
+-rw-r--r--	root/root	usr/lib/R/library/DEoptim/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/DEoptim/data/
 -rw-r--r--	root/root	usr/lib/R/library/DEoptim/data/SMI.rda
 -rw-r--r--	root/root	usr/lib/R/library/DEoptim/data/xrrData.rda

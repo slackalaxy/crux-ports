@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rversions/R/
 -rw-r--r--	root/root	usr/lib/R/library/rversions/R/rversions
 -rw-r--r--	root/root	usr/lib/R/library/rversions/R/rversions.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rversions/R/rversions.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rversions/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rversions/help/
 -rw-r--r--	root/root	usr/lib/R/library/rversions/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/rversions/help/aliases.rds

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FPIEx+hfDbRlisP8KMK0aX3aOSB4WueyIlluupO9AdJeaP65rli0Mo86e5gz4Nk+Rw5DrC0/QSCRXFqh65TjAo=
-SHA256 (Pkgfile) = 4c17f10380fc91fe8c3d5e9469019738b0038fbcbb7a5d2a4ef5b024117c97f2
-SHA256 (.footprint) = 126c91ac483641c23351e0a4cf8aee947d5e5bdb65beda140a14d258b153ce3b
-SHA256 (GenomicFeatures_1.62.0.tar.gz) = f7a51eacb533952f6672d2baba1899f54e7ff2017fe4ffc68fc56eedea855f67
+RWQ2oTreAss89P64A30uW18zZih6bXvAeZf+KoAHk+V1tIolB2SxlGj3GmlYI6NKTgudQlMhy8qH94keOgZVWtBpmXHgh6kZ5QA=
+SHA256 (Pkgfile) = 11332e39c1e110ae109e030db6bfe09ab41a9d82a2451e7838d692647d951b96
+SHA256 (.footprint) = b7bb802891d1f246f072b3d036ba7335acdff537af8d1ab4e7a115bbee4eb3be
+SHA256 (GenomicFeatures_1.63.2.tar.gz) = 7fdac8f62152e7e1d53010ce8050b898c2b1830e9487b6d2c65e01786f2e6b82

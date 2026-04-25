@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rrtable/R/
 -rw-r--r--	root/root	usr/lib/R/library/rrtable/R/rrtable
 -rw-r--r--	root/root	usr/lib/R/library/rrtable/R/rrtable.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rrtable/R/rrtable.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rrtable/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rrtable/chooser/
 -rw-r--r--	root/root	usr/lib/R/library/rrtable/chooser/app.R
 drwxr-xr-x	root/root	usr/lib/R/library/rrtable/chooser/rsconnect/

@@ -83,6 +83,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/R/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/R/pkgdown
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/R/pkgdown.rdb
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/R/pkgdown.rdx
+-rw-r--r--	root/root	usr/lib/R/library/pkgdown/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/pkgdown/doc/
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/accessibility.R
 -rw-r--r--	root/root	usr/lib/R/library/pkgdown/doc/accessibility.Rmd

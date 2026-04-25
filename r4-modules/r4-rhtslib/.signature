@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89PSFGJjvaCkeMfG1lYear/iAgvwVD2+r+QKFMb9vdx9DK2b7wsWekHlQwemHeOR2hkuAzZHFZjIUIijlnz2n0gU=
-SHA256 (Pkgfile) = 4a1cac880c1314b34868f56e53ec5571012055eff8a803611dd3de5ec59fe09c
-SHA256 (.footprint) = a7a17a10e2a154b4c7d72a57ebb320d7bcb312425bebe5f78bace793e7993f08
-SHA256 (Rhtslib_3.6.0.tar.gz) = 8b5fc0dfba39efb7371b5b0f930445047c7e06238d07c2293a50317612da6692
+RWQ2oTreAss89EVoKgmDoUZVHzM2Ty9mS7OdPgzHbrrolVJ1gjmKZJaemegHT0u6RlI0W/QH4SP9i6TWlVEV82t3hPWIiGiUyQI=
+SHA256 (Pkgfile) = 36d1d20718b30160f8c679ad3af045128b897f4f2edaaf73dc4d5534754cecdb
+SHA256 (.footprint) = 4f814005c22e1c8b98c560b2e64f3fc3d9d73fe0b91d9399b1ad41982e309071
+SHA256 (Rhtslib_3.7.0.tar.gz) = 3a74df6bfbc8b897daf2fb4e223804983949093eb92e586136ca279180ce0549

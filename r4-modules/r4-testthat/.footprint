@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/testthat/R/
 -rw-r--r--	root/root	usr/lib/R/library/testthat/R/testthat
 -rw-r--r--	root/root	usr/lib/R/library/testthat/R/testthat.rdb
 -rw-r--r--	root/root	usr/lib/R/library/testthat/R/testthat.rdx
+-rw-r--r--	root/root	usr/lib/R/library/testthat/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/testthat/doc/
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/challenging-tests.R
 -rw-r--r--	root/root	usr/lib/R/library/testthat/doc/challenging-tests.Rmd

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/VennDiagram/R/
 -rw-r--r--	root/root	usr/lib/R/library/VennDiagram/R/VennDiagram
 -rw-r--r--	root/root	usr/lib/R/library/VennDiagram/R/VennDiagram.rdb
 -rw-r--r--	root/root	usr/lib/R/library/VennDiagram/R/VennDiagram.rdx
+-rw-r--r--	root/root	usr/lib/R/library/VennDiagram/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/VennDiagram/data/
 -rw-r--r--	root/root	usr/lib/R/library/VennDiagram/data/plotsFive.rda
 -rw-r--r--	root/root	usr/lib/R/library/VennDiagram/data/plotsFour.rda

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/NanoStringNCTools/R/
 -rw-r--r--	root/root	usr/lib/R/library/NanoStringNCTools/R/NanoStringNCTools
 -rw-r--r--	root/root	usr/lib/R/library/NanoStringNCTools/R/NanoStringNCTools.rdb
 -rw-r--r--	root/root	usr/lib/R/library/NanoStringNCTools/R/NanoStringNCTools.rdx
+-rw-r--r--	root/root	usr/lib/R/library/NanoStringNCTools/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/NanoStringNCTools/doc/
 -rw-r--r--	root/root	usr/lib/R/library/NanoStringNCTools/doc/Introduction.R
 -rw-r--r--	root/root	usr/lib/R/library/NanoStringNCTools/doc/Introduction.Rmd

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/reactR/R/
 -rw-r--r--	root/root	usr/lib/R/library/reactR/R/reactR
 -rw-r--r--	root/root	usr/lib/R/library/reactR/R/reactR.rdb
 -rw-r--r--	root/root	usr/lib/R/library/reactR/R/reactR.rdx
+-rw-r--r--	root/root	usr/lib/R/library/reactR/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/reactR/doc/
 -rw-r--r--	root/root	usr/lib/R/library/reactR/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/reactR/doc/intro_htmlwidgets.R

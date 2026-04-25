@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/fitdistrplus/R/
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/R/fitdistrplus
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/R/fitdistrplus.rdb
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/R/fitdistrplus.rdx
+-rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/fitdistrplus/data/
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/data/danishmulti.rda
 -rw-r--r--	root/root	usr/lib/R/library/fitdistrplus/data/danishuni.rda

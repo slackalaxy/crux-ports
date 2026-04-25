@@ -1,13 +1,13 @@
 # Description: R module GO.db
-# URL: https://bioconductor.org/packages/GO.db
+# URL: https://cran.r-project.org/web/packages/GO.db
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-annotationdbi
 # Optional: r4-dbi
 
 name=r4-go-db
-version=3.22.0
+version=3.23.1
 release=1
-source=(https://bioconductor.org/packages/3.22/data/annotation/src/contrib/GO.db_${version}.tar.gz)
+source=(https://bioconductor.org/packages/3.23/data/annotation/src/contrib/GO.db_${version}.tar.gz)
 
 build() {
 	cd GO.db

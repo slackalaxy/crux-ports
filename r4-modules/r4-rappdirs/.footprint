@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rappdirs/R/
 -rw-r--r--	root/root	usr/lib/R/library/rappdirs/R/rappdirs
 -rw-r--r--	root/root	usr/lib/R/library/rappdirs/R/rappdirs.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rappdirs/R/rappdirs.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rappdirs/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rappdirs/help/
 -rw-r--r--	root/root	usr/lib/R/library/rappdirs/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/rappdirs/help/aliases.rds

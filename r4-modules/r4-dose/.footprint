@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/DOSE/R/
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/R/DOSE
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/R/DOSE.rdb
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/R/DOSE.rdx
+-rw-r--r--	root/root	usr/lib/R/library/DOSE/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/DOSE/data/
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DGN_EXTID2PATHID.rda
 -rw-r--r--	root/root	usr/lib/R/library/DOSE/data/DGN_PATHID2EXTID.rda

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/httr/R/
 -rw-r--r--	root/root	usr/lib/R/library/httr/R/httr
 -rw-r--r--	root/root	usr/lib/R/library/httr/R/httr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/httr/R/httr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/httr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/httr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/httr/doc/api-packages.R
 -rw-r--r--	root/root	usr/lib/R/library/httr/doc/api-packages.Rmd

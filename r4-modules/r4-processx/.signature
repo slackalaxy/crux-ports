@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Ka9+XKO31Mb7DcGrndPhjIDNqf7itFQTri3IjaptOrVcyAPkgiBZpge+FpeAm4+twxhGVxQMRLmMDDxD1NqlQc=
-SHA256 (Pkgfile) = cc44229c18594c77d5ec23c44a86d6c0e3e81a4dd979ba0a36b886e8b0c4781b
-SHA256 (.footprint) = 4e5ac162ff07258e6ada948c3c1a1ddae1d86574dd1ce0b42f726ab31c43f072
-SHA256 (processx_3.8.7.tar.gz) = 19990e986379abe2a756db2f68ca66b101c762b8215b27962f83f16571ed9b12
+RWQ2oTreAss89NH0QX+lhIWoSLNPvlBP9HxtoIrUG4bJ1WuiESpr9uuTlcoTlm9r4azdLhBvGzhQnXxiJP7mFg/+ifFrs9z9eQU=
+SHA256 (Pkgfile) = 58cc5f72eb1be1a71e916e90393f32f21b6c7068d68a1d8d4094fe8da7bd3427
+SHA256 (.footprint) = 1e7118ceef089182027392537a2f6019ae25101a84c3bcf9d964c15ed545990c
+SHA256 (processx_3.9.0.tar.gz) = cdfef9035405891d8b104b258a40f62656f215aba7dcdc9f3226203c4c8fb354

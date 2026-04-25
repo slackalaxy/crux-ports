@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppEigen/R/
 -rw-r--r--	root/root	usr/lib/R/library/RcppEigen/R/RcppEigen
 -rw-r--r--	root/root	usr/lib/R/library/RcppEigen/R/RcppEigen.rdb
 -rw-r--r--	root/root	usr/lib/R/library/RcppEigen/R/RcppEigen.rdx
+-rw-r--r--	root/root	usr/lib/R/library/RcppEigen/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/RcppEigen/doc/
 -rw-r--r--	root/root	usr/lib/R/library/RcppEigen/doc/RcppEigen-Introduction.R
 -rw-r--r--	root/root	usr/lib/R/library/RcppEigen/doc/RcppEigen-Introduction.Rnw

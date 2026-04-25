@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/cowplot/R/
 -rw-r--r--	root/root	usr/lib/R/library/cowplot/R/cowplot
 -rw-r--r--	root/root	usr/lib/R/library/cowplot/R/cowplot.rdb
 -rw-r--r--	root/root	usr/lib/R/library/cowplot/R/cowplot.rdx
+-rw-r--r--	root/root	usr/lib/R/library/cowplot/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/cowplot/doc/
 -rw-r--r--	root/root	usr/lib/R/library/cowplot/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/cowplot/doc/introduction.R

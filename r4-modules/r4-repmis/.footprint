@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/repmis/R/
 -rw-r--r--	root/root	usr/lib/R/library/repmis/R/repmis
 -rw-r--r--	root/root	usr/lib/R/library/repmis/R/repmis.rdb
 -rw-r--r--	root/root	usr/lib/R/library/repmis/R/repmis.rdx
+-rw-r--r--	root/root	usr/lib/R/library/repmis/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/repmis/help/
 -rw-r--r--	root/root	usr/lib/R/library/repmis/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/repmis/help/aliases.rds

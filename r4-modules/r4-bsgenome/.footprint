@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BSgenome/R/
 -rw-r--r--	root/root	usr/lib/R/library/BSgenome/R/BSgenome
 -rw-r--r--	root/root	usr/lib/R/library/BSgenome/R/BSgenome.rdb
 -rw-r--r--	root/root	usr/lib/R/library/BSgenome/R/BSgenome.rdx
+-rw-r--r--	root/root	usr/lib/R/library/BSgenome/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/BSgenome/doc/
 -rw-r--r--	root/root	usr/lib/R/library/BSgenome/doc/BSgenomeForge.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/BSgenome/doc/BSgenomeForge.pdf

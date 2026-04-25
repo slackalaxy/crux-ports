@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppTOML/R/
 -rw-r--r--	root/root	usr/lib/R/library/RcppTOML/R/RcppTOML
 -rw-r--r--	root/root	usr/lib/R/library/RcppTOML/R/RcppTOML.rdb
 -rw-r--r--	root/root	usr/lib/R/library/RcppTOML/R/RcppTOML.rdx
+-rw-r--r--	root/root	usr/lib/R/library/RcppTOML/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/RcppTOML/help/
 -rw-r--r--	root/root	usr/lib/R/library/RcppTOML/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/RcppTOML/help/RcppTOML.rdb

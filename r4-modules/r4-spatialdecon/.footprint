@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/SpatialDecon/R/
 -rw-r--r--	root/root	usr/lib/R/library/SpatialDecon/R/SpatialDecon
 -rw-r--r--	root/root	usr/lib/R/library/SpatialDecon/R/SpatialDecon.rdb
 -rw-r--r--	root/root	usr/lib/R/library/SpatialDecon/R/SpatialDecon.rdx
+-rw-r--r--	root/root	usr/lib/R/library/SpatialDecon/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/SpatialDecon/data/
 -rw-r--r--	root/root	usr/lib/R/library/SpatialDecon/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/SpatialDecon/data/Rdata.rds

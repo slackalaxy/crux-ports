@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/protodeviser/R/
 -rw-r--r--	root/root	usr/lib/R/library/protodeviser/R/protodeviser
 -rw-r--r--	root/root	usr/lib/R/library/protodeviser/R/protodeviser.rdb
 -rw-r--r--	root/root	usr/lib/R/library/protodeviser/R/protodeviser.rdx
+-rw-r--r--	root/root	usr/lib/R/library/protodeviser/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/protodeviser/data/
 -rw-r--r--	root/root	usr/lib/R/library/protodeviser/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/protodeviser/data/Rdata.rds

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/S7/R/
 -rw-r--r--	root/root	usr/lib/R/library/S7/R/S7
 -rw-r--r--	root/root	usr/lib/R/library/S7/R/S7.rdb
 -rw-r--r--	root/root	usr/lib/R/library/S7/R/S7.rdx
+-rw-r--r--	root/root	usr/lib/R/library/S7/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/S7/doc/
 -rw-r--r--	root/root	usr/lib/R/library/S7/doc/S7.R
 -rw-r--r--	root/root	usr/lib/R/library/S7/doc/S7.Rmd

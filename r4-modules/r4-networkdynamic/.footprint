@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/networkDynamic/R/
 -rw-r--r--	root/root	usr/lib/R/library/networkDynamic/R/networkDynamic
 -rw-r--r--	root/root	usr/lib/R/library/networkDynamic/R/networkDynamic.rdb
 -rw-r--r--	root/root	usr/lib/R/library/networkDynamic/R/networkDynamic.rdx
+-rw-r--r--	root/root	usr/lib/R/library/networkDynamic/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/networkDynamic/data/
 -rw-r--r--	root/root	usr/lib/R/library/networkDynamic/data/McFarland_cls33_10_16_96.rda
 -rw-r--r--	root/root	usr/lib/R/library/networkDynamic/data/nd_test_nets.rda

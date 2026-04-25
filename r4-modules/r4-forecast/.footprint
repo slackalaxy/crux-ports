@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/forecast/R/
 -rw-r--r--	root/root	usr/lib/R/library/forecast/R/forecast
 -rw-r--r--	root/root	usr/lib/R/library/forecast/R/forecast.rdb
 -rw-r--r--	root/root	usr/lib/R/library/forecast/R/forecast.rdx
+-rw-r--r--	root/root	usr/lib/R/library/forecast/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/forecast/data/
 -rw-r--r--	root/root	usr/lib/R/library/forecast/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/forecast/data/Rdata.rds

@@ -38,6 +38,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinydashboard/R/
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/R/shinydashboard
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/R/shinydashboard.rdb
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/R/shinydashboard.rdx
+-rw-r--r--	root/root	usr/lib/R/library/shinydashboard/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/shinydashboard/help/
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/shinydashboard/help/aliases.rds

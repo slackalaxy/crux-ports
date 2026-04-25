@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mime/R/
 -rw-r--r--	root/root	usr/lib/R/library/mime/R/mime
 -rw-r--r--	root/root	usr/lib/R/library/mime/R/mime.rdb
 -rw-r--r--	root/root	usr/lib/R/library/mime/R/mime.rdx
+-rw-r--r--	root/root	usr/lib/R/library/mime/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/mime/help/
 -rw-r--r--	root/root	usr/lib/R/library/mime/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/mime/help/aliases.rds

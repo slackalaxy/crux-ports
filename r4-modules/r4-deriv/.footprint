@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Deriv/R/
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/R/Deriv
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/R/Deriv.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/R/Deriv.rdx
+-rw-r--r--	root/root	usr/lib/R/library/Deriv/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/Deriv/help/
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/help/Deriv.rdb

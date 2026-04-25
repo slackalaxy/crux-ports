@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/sitmo/R/
 -rw-r--r--	root/root	usr/lib/R/library/sitmo/R/sitmo
 -rw-r--r--	root/root	usr/lib/R/library/sitmo/R/sitmo.rdb
 -rw-r--r--	root/root	usr/lib/R/library/sitmo/R/sitmo.rdx
+-rw-r--r--	root/root	usr/lib/R/library/sitmo/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/sitmo/doc/
 -rw-r--r--	root/root	usr/lib/R/library/sitmo/doc/big_crush_test.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/sitmo/doc/big_crush_test.html

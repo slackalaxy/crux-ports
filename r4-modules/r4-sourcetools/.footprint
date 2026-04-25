@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/sourcetools/R/
 -rw-r--r--	root/root	usr/lib/R/library/sourcetools/R/sourcetools
 -rw-r--r--	root/root	usr/lib/R/library/sourcetools/R/sourcetools.rdb
 -rw-r--r--	root/root	usr/lib/R/library/sourcetools/R/sourcetools.rdx
+-rw-r--r--	root/root	usr/lib/R/library/sourcetools/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/sourcetools/help/
 -rw-r--r--	root/root	usr/lib/R/library/sourcetools/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/sourcetools/help/aliases.rds

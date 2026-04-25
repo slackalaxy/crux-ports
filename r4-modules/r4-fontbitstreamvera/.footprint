@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/fontBitstreamVera/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/fontBitstreamVera/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/fontBitstreamVera/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/fontBitstreamVera/NAMESPACE
+-rw-r--r--	root/root	usr/lib/R/library/fontBitstreamVera/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/fontBitstreamVera/fonts/
 -rw-r--r--	root/root	usr/lib/R/library/fontBitstreamVera/fonts/Makefile
 -rw-r--r--	root/root	usr/lib/R/library/fontBitstreamVera/fonts/bitstream-vera-VERSION

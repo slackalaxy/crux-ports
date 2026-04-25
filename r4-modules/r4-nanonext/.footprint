@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/nanonext/R/
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/R/nanonext
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/R/nanonext.rdb
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/R/nanonext.rdx
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/nanonext/doc/
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/doc/nanonext.Rmd

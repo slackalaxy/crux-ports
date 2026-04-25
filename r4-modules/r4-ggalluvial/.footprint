@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggalluvial/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggalluvial/R/ggalluvial
 -rw-r--r--	root/root	usr/lib/R/library/ggalluvial/R/ggalluvial.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggalluvial/R/ggalluvial.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggalluvial/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggalluvial/data/
 -rw-r--r--	root/root	usr/lib/R/library/ggalluvial/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggalluvial/data/Rdata.rds

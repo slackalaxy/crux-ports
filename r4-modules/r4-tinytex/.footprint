@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/tinytex/R/
 -rw-r--r--	root/root	usr/lib/R/library/tinytex/R/tinytex
 -rw-r--r--	root/root	usr/lib/R/library/tinytex/R/tinytex.rdb
 -rw-r--r--	root/root	usr/lib/R/library/tinytex/R/tinytex.rdx
+-rw-r--r--	root/root	usr/lib/R/library/tinytex/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/tinytex/help/
 -rw-r--r--	root/root	usr/lib/R/library/tinytex/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/tinytex/help/aliases.rds

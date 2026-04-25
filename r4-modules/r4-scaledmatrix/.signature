@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89DPElf4Mph3VEDQlMx9mbKAHLTStCiavKbXusWKT4buQz1WTjbi0L3fHQhyChd/vJ2alcq+yz9F5LTfHSOMjtwg=
-SHA256 (Pkgfile) = 73456d708100ba23e936da1945dd1a4dfdd9102443e4e6600f75af0458e99b61
-SHA256 (.footprint) = c150185c33f5bc35d776d92bb23355e51a47fe5bd72f6edf0c14a16f08e714c0
-SHA256 (ScaledMatrix_1.18.0.tar.gz) = 2f1d919eddc61652f306eb4cb73500e411d4255a1eb4d29e448a7337bfc6ebaf
+RWQ2oTreAss89KVjoHuXVG4bJWDX+jQuPgIA9MFPORr/yzKHXJS8dDfgYwRzZru4PdpPEKi9RB7TYccMiq4gMHQb6a2tYA/eAgg=
+SHA256 (Pkgfile) = 614692e72a634c0d7b4cb2ddac51ae4d2f6a863687d63fb3962b163fa98cd042
+SHA256 (.footprint) = 83a9abe47d87f2b8bff81f86b424e2c431369db610411e43fc5d3b29ff3fdbd5
+SHA256 (ScaledMatrix_1.19.0.tar.gz) = f8d5bc97d0af67ecccd826a6e7981392c9ffe30ea8591cc157a312ce6ac8dbfa

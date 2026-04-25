@@ -14,7 +14,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/bit64/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/bit64/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/bit64/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/bit64/NAMESPACE
--rw-r--r--	root/root	usr/lib/R/library/bit64/NEWS
+-rw-r--r--	root/root	usr/lib/R/library/bit64/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/bit64/R/
 -rw-r--r--	root/root	usr/lib/R/library/bit64/R/bit64
 -rw-r--r--	root/root	usr/lib/R/library/bit64/R/bit64.rdb
@@ -22,10 +22,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/bit64/R/
 drwxr-xr-x	root/root	usr/lib/R/library/bit64/data/
 -rw-r--r--	root/root	usr/lib/R/library/bit64/data/benchmark64.data.rda
 -rw-r--r--	root/root	usr/lib/R/library/bit64/data/optimizer64.data.rda
-drwxr-xr-x	root/root	usr/lib/R/library/bit64/doc/
--rw-r--r--	root/root	usr/lib/R/library/bit64/doc/ANNOUNCEMENT-0.8.txt
--rw-r--r--	root/root	usr/lib/R/library/bit64/doc/ANNOUNCEMENT-0.9-Details.txt
--rw-r--r--	root/root	usr/lib/R/library/bit64/doc/ANNOUNCEMENT-0.9.txt
 drwxr-xr-x	root/root	usr/lib/R/library/bit64/help/
 -rw-r--r--	root/root	usr/lib/R/library/bit64/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/bit64/help/aliases.rds

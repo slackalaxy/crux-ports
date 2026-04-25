@@ -1,7 +1,7 @@
 # Description: R module SeuratData
 # URL: https://github.com/satijalab/seurat-data
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-cli r4-crayon r4-rappdirs r4-seuratobject
+# Depends on: r r4-cli r4-crayon r4-rappdirs r4-seurat r4-seuratobject
 # Optional: r4-azimuth
 
 name=r4-seurat-data

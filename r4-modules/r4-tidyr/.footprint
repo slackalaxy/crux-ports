@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/tidyr/R/
 -rw-r--r--	root/root	usr/lib/R/library/tidyr/R/tidyr
 -rw-r--r--	root/root	usr/lib/R/library/tidyr/R/tidyr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/tidyr/R/tidyr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/tidyr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/tidyr/data/
 -rw-r--r--	root/root	usr/lib/R/library/tidyr/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/tidyr/data/Rdata.rds

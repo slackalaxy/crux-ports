@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/doBy/R/
 -rw-r--r--	root/root	usr/lib/R/library/doBy/R/doBy
 -rw-r--r--	root/root	usr/lib/R/library/doBy/R/doBy.rdb
 -rw-r--r--	root/root	usr/lib/R/library/doBy/R/doBy.rdx
+-rw-r--r--	root/root	usr/lib/R/library/doBy/README.md
 -rw-r--r--	root/root	usr/lib/R/library/doBy/WORDLIST
 drwxr-xr-x	root/root	usr/lib/R/library/doBy/data/
 -rw-r--r--	root/root	usr/lib/R/library/doBy/data/Rdata.rdb

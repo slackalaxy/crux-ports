@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/msa/R/
 -rw-r--r--	root/root	usr/lib/R/library/msa/R/msa
 -rw-r--r--	root/root	usr/lib/R/library/msa/R/msa.rdb
 -rw-r--r--	root/root	usr/lib/R/library/msa/R/msa.rdx
+-rw-r--r--	root/root	usr/lib/R/library/msa/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/msa/doc/
 -rw-r--r--	root/root	usr/lib/R/library/msa/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/msa/doc/msa.R

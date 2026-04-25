@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/crayon/R/
 -rw-r--r--	root/root	usr/lib/R/library/crayon/R/crayon
 -rw-r--r--	root/root	usr/lib/R/library/crayon/R/crayon.rdb
 -rw-r--r--	root/root	usr/lib/R/library/crayon/R/crayon.rdx
+-rw-r--r--	root/root	usr/lib/R/library/crayon/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/crayon/help/
 -rw-r--r--	root/root	usr/lib/R/library/crayon/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/crayon/help/aliases.rds

@@ -30,7 +30,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/clusterProfiler/doc/
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/doc/clusterProfiler.qmd
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/doc/index.html
 drwxr-xr-x	root/root	usr/lib/R/library/clusterProfiler/extdata/
--rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/extdata/build_kegg_species.R
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/extdata/c5.cc.v5.0.entrez.gmt
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/extdata/kegg-mapper-blast.txt
 -rw-r--r--	root/root	usr/lib/R/library/clusterProfiler/extdata/kegg_pathway_category.r

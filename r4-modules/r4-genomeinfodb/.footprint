@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/R/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/R/GenomeInfoDb
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/R/GenomeInfoDb.rdb
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/R/GenomeInfoDb.rdx
+-rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/chrominfo_db/
 drwxr-xr-x	root/root	usr/lib/R/library/GenomeInfoDb/chrominfo_db/NCBI/
 -rw-r--r--	root/root	usr/lib/R/library/GenomeInfoDb/chrominfo_db/NCBI/GCA_000001635.9.tab

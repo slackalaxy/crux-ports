@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/sctransform/R/
 -rw-r--r--	root/root	usr/lib/R/library/sctransform/R/sctransform
 -rw-r--r--	root/root	usr/lib/R/library/sctransform/R/sctransform.rdb
 -rw-r--r--	root/root	usr/lib/R/library/sctransform/R/sctransform.rdx
+-rw-r--r--	root/root	usr/lib/R/library/sctransform/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/sctransform/data/
 -rw-r--r--	root/root	usr/lib/R/library/sctransform/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/sctransform/data/Rdata.rds

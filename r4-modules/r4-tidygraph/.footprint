@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/tidygraph/R/
 -rw-r--r--	root/root	usr/lib/R/library/tidygraph/R/tidygraph
 -rw-r--r--	root/root	usr/lib/R/library/tidygraph/R/tidygraph.rdb
 -rw-r--r--	root/root	usr/lib/R/library/tidygraph/R/tidygraph.rdx
+-rw-r--r--	root/root	usr/lib/R/library/tidygraph/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/tidygraph/help/
 -rw-r--r--	root/root	usr/lib/R/library/tidygraph/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/tidygraph/help/aliases.rds

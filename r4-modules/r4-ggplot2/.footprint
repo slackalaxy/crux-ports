@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggplot2/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggplot2/R/ggplot2
 -rw-r--r--	root/root	usr/lib/R/library/ggplot2/R/ggplot2.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggplot2/R/ggplot2.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggplot2/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggplot2/data/
 -rw-r--r--	root/root	usr/lib/R/library/ggplot2/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggplot2/data/Rdata.rds

@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shades/R/
 -rw-r--r--	root/root	usr/lib/R/library/shades/R/shades
 -rw-r--r--	root/root	usr/lib/R/library/shades/R/shades.rdb
 -rw-r--r--	root/root	usr/lib/R/library/shades/R/shades.rdx
+-rw-r--r--	root/root	usr/lib/R/library/shades/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/shades/help/
 -rw-r--r--	root/root	usr/lib/R/library/shades/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/shades/help/aliases.rds

@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/DirichletMultinomial/R/
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/R/DirichletMultinomial
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/R/DirichletMultinomial.rdb
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/R/DirichletMultinomial.rdx
+-rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/DirichletMultinomial/data/
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/data/bestgrp.rda
 -rw-r--r--	root/root	usr/lib/R/library/DirichletMultinomial/data/fit.rda

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89L/KRIZzk01WnWn/C3C/Lk+tA/dINIoK1uBOooNxt5+unWHKhHoPF3lWu1w63z9gVp89MD9VaYc1wEVkyoTqKg0=
-SHA256 (Pkgfile) = 69d9c1dfbe2db4c7bbcceef03642cb7c99d9a844e2ff69c11d64266bb463c075
-SHA256 (.footprint) = 7bf11f5bba3743b0fc896676bf672d720d79df4a6a3211fca91a41868367926b
-SHA256 (htmlTable_2.4.3.tar.gz) = 3739d01bff313ccd206b63940a8252b037f0521d041c721a4e0d195abd6ef6dd
+RWQ2oTreAss89H314SA/GqZjZPwqnArYHTBHL9YHd+dl+p5DreMBbakGEAlQdx9hbPMTNrjelRf4u/saukfANTtbChC++xFpXgI=
+SHA256 (Pkgfile) = e1f4c1371b091f3582d453852e24f7e21a51c53b0343134a4749f4fa563627df
+SHA256 (.footprint) = 97387a7e0311d553805dce579dae97357f42704b4615ca6d93d95e1f1644849b
+SHA256 (htmlTable_2.5.0.tar.gz) = 0f61b0f27408fefc09f17fa3270c8f26d10a1e5a7f0dd26c203d3f961268d828

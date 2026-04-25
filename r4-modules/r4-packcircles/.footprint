@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/packcircles/R/
 -rw-r--r--	root/root	usr/lib/R/library/packcircles/R/packcircles
 -rw-r--r--	root/root	usr/lib/R/library/packcircles/R/packcircles.rdb
 -rw-r--r--	root/root	usr/lib/R/library/packcircles/R/packcircles.rdx
+-rw-r--r--	root/root	usr/lib/R/library/packcircles/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/packcircles/data/
 -rw-r--r--	root/root	usr/lib/R/library/packcircles/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/packcircles/data/Rdata.rds

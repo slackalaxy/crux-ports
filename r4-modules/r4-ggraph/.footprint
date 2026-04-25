@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggraph/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggraph/R/ggraph
 -rw-r--r--	root/root	usr/lib/R/library/ggraph/R/ggraph.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggraph/R/ggraph.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggraph/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggraph/data/
 -rw-r--r--	root/root	usr/lib/R/library/ggraph/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggraph/data/Rdata.rds

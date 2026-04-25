@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/bslib/R/
 -rw-r--r--	root/root	usr/lib/R/library/bslib/R/bslib.rdx
 -rw-r--r--	root/root	usr/lib/R/library/bslib/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/bslib/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/bslib/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/bslib/brand/
 drwxr-xr-x	root/root	usr/lib/R/library/bslib/brand/bs5/
 -rw-r--r--	root/root	usr/lib/R/library/bslib/brand/bs5/_brand-yml.scss

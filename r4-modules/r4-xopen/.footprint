@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/xopen/R/
 -rw-r--r--	root/root	usr/lib/R/library/xopen/R/xopen
 -rw-r--r--	root/root	usr/lib/R/library/xopen/R/xopen.rdb
 -rw-r--r--	root/root	usr/lib/R/library/xopen/R/xopen.rdx
+-rw-r--r--	root/root	usr/lib/R/library/xopen/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/xopen/help/
 -rw-r--r--	root/root	usr/lib/R/library/xopen/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/xopen/help/aliases.rds

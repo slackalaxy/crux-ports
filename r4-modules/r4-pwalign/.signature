@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Iox0XamAa2tEUREDd//M1W9lNrJC66FI73hr/PIlHwBp+WW2F7YpUrDZZyQRXIIHS3h6huh1Qjv9ElqKR/VTws=
-SHA256 (Pkgfile) = 977e3c8c3fe6819d302f714d2f70e5edfe516301e799baa6699fd91d8cac8c5b
-SHA256 (.footprint) = 2e8c5a2948fed707dfc5bc7f5b4f65772119cec913b891858a1f6e8370aab2ca
-SHA256 (pwalign_1.6.0.tar.gz) = 365e29bcbee7377f1156ec4a768744d87e9d7e9f0ebaa42e16cd861b7bf1b7b8
+RWQ2oTreAss89JKEYVbRnR5e/ETAuTugXOVZGM7Ku14HxiRYrkJOaZZyCTop3diSZD7D4E6TxS9wwNOtqT5WUq0XENJnpk/QZgw=
+SHA256 (Pkgfile) = 4ceca7fd030a1774c5ef064b2857d35951da0f40355db7ce559e642291311508
+SHA256 (.footprint) = 28b03a1d69d09334f2bb78b19086faf28830adb051dcddfea9182e86cc68f2ba
+SHA256 (pwalign_1.7.0.tar.gz) = 76b40abc0eb2485376d2e13cb7505db2d455022de2667acc66970de4943ae90c

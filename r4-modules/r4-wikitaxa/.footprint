@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/wikitaxa/R/
 -rw-r--r--	root/root	usr/lib/R/library/wikitaxa/R/wikitaxa
 -rw-r--r--	root/root	usr/lib/R/library/wikitaxa/R/wikitaxa.rdb
 -rw-r--r--	root/root	usr/lib/R/library/wikitaxa/R/wikitaxa.rdx
+-rw-r--r--	root/root	usr/lib/R/library/wikitaxa/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/wikitaxa/data/
 -rw-r--r--	root/root	usr/lib/R/library/wikitaxa/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/wikitaxa/data/Rdata.rds

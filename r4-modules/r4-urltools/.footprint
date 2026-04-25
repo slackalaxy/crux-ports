@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/urltools/R/
 -rw-r--r--	root/root	usr/lib/R/library/urltools/R/urltools
 -rw-r--r--	root/root	usr/lib/R/library/urltools/R/urltools.rdb
 -rw-r--r--	root/root	usr/lib/R/library/urltools/R/urltools.rdx
+-rw-r--r--	root/root	usr/lib/R/library/urltools/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/urltools/data/
 -rw-r--r--	root/root	usr/lib/R/library/urltools/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/urltools/data/Rdata.rds

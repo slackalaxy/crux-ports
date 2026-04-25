@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/natserv/R/
 -rw-r--r--	root/root	usr/lib/R/library/natserv/R/natserv
 -rw-r--r--	root/root	usr/lib/R/library/natserv/R/natserv.rdb
 -rw-r--r--	root/root	usr/lib/R/library/natserv/R/natserv.rdx
+-rw-r--r--	root/root	usr/lib/R/library/natserv/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/natserv/data/
 -rw-r--r--	root/root	usr/lib/R/library/natserv/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/natserv/data/Rdata.rds

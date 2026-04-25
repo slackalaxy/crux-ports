@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/timechange/R/
 -rw-r--r--	root/root	usr/lib/R/library/timechange/R/timechange
 -rw-r--r--	root/root	usr/lib/R/library/timechange/R/timechange.rdb
 -rw-r--r--	root/root	usr/lib/R/library/timechange/R/timechange.rdx
+-rw-r--r--	root/root	usr/lib/R/library/timechange/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/timechange/help/
 -rw-r--r--	root/root	usr/lib/R/library/timechange/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/timechange/help/aliases.rds

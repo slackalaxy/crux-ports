@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggokabeito/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggokabeito/R/ggokabeito
 -rw-r--r--	root/root	usr/lib/R/library/ggokabeito/R/ggokabeito.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggokabeito/R/ggokabeito.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggokabeito/README.md
 -rw-r--r--	root/root	usr/lib/R/library/ggokabeito/WORDLIST
 drwxr-xr-x	root/root	usr/lib/R/library/ggokabeito/help/
 -rw-r--r--	root/root	usr/lib/R/library/ggokabeito/help/AnIndex

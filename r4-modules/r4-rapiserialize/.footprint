@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RApiSerialize/R/
 -rw-r--r--	root/root	usr/lib/R/library/RApiSerialize/R/RApiSerialize
 -rw-r--r--	root/root	usr/lib/R/library/RApiSerialize/R/RApiSerialize.rdb
 -rw-r--r--	root/root	usr/lib/R/library/RApiSerialize/R/RApiSerialize.rdx
+-rw-r--r--	root/root	usr/lib/R/library/RApiSerialize/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/RApiSerialize/help/
 -rw-r--r--	root/root	usr/lib/R/library/RApiSerialize/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/RApiSerialize/help/RApiSerialize.rdb

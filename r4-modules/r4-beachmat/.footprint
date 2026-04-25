@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/beachmat/R/
 -rw-r--r--	root/root	usr/lib/R/library/beachmat/R/beachmat
 -rw-r--r--	root/root	usr/lib/R/library/beachmat/R/beachmat.rdb
 -rw-r--r--	root/root	usr/lib/R/library/beachmat/R/beachmat.rdx
+-rw-r--r--	root/root	usr/lib/R/library/beachmat/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/beachmat/doc/
 -rw-r--r--	root/root	usr/lib/R/library/beachmat/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/beachmat/doc/linking.R

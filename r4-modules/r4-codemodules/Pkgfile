@@ -1,7 +1,7 @@
 # Description: R module codeModules
 # URL: https://github.com/statistikat/codeModules
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r r4-shiny r4-dplyr r4-dt r4-htmlwidgets r4-ggplot2 r4-shinywidgets r4-shinyjs
 
 name=r4-codemodules
 version=0f4a4ca

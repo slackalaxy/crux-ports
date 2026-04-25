@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyLP/R/
 -rw-r--r--	root/root	usr/lib/R/library/shinyLP/R/shinyLP
 -rw-r--r--	root/root	usr/lib/R/library/shinyLP/R/shinyLP.rdb
 -rw-r--r--	root/root	usr/lib/R/library/shinyLP/R/shinyLP.rdx
+-rw-r--r--	root/root	usr/lib/R/library/shinyLP/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/shinyLP/help/
 -rw-r--r--	root/root	usr/lib/R/library/shinyLP/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/shinyLP/help/aliases.rds

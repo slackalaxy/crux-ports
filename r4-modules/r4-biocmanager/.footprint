@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocManager/R/
 -rw-r--r--	root/root	usr/lib/R/library/BiocManager/R/BiocManager
 -rw-r--r--	root/root	usr/lib/R/library/BiocManager/R/BiocManager.rdb
 -rw-r--r--	root/root	usr/lib/R/library/BiocManager/R/BiocManager.rdx
+-rw-r--r--	root/root	usr/lib/R/library/BiocManager/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/BiocManager/doc/
 -rw-r--r--	root/root	usr/lib/R/library/BiocManager/doc/BiocManager.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocManager/doc/BiocManager.Rmd

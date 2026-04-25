@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/UniProt.ws/R/
 -rw-r--r--	root/root	usr/lib/R/library/UniProt.ws/R/UniProt.ws
 -rw-r--r--	root/root	usr/lib/R/library/UniProt.ws/R/UniProt.ws.rdb
 -rw-r--r--	root/root	usr/lib/R/library/UniProt.ws/R/UniProt.ws.rdx
+-rw-r--r--	root/root	usr/lib/R/library/UniProt.ws/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/UniProt.ws/doc/
 -rw-r--r--	root/root	usr/lib/R/library/UniProt.ws/doc/UniProt.ws.R
 -rw-r--r--	root/root	usr/lib/R/library/UniProt.ws/doc/UniProt.ws.Rmd

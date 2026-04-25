@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/R/ggiraph
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/R/ggiraph.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/R/ggiraph.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggiraph/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggiraph/doc/
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/ggiraph/doc/overview.Rmd

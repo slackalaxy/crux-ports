@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/fontawesome/R/
 -rw-r--r--	root/root	usr/lib/R/library/fontawesome/R/fontawesome.rdx
 -rw-r--r--	root/root	usr/lib/R/library/fontawesome/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/fontawesome/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/fontawesome/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/fontawesome/apps/
 drwxr-xr-x	root/root	usr/lib/R/library/fontawesome/apps/138-icon-fontawesome/
 -rw-r--r--	root/root	usr/lib/R/library/fontawesome/apps/138-icon-fontawesome/app.R

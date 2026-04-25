@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/nloptr/R/
 -rw-r--r--	root/root	usr/lib/R/library/nloptr/R/nloptr
 -rw-r--r--	root/root	usr/lib/R/library/nloptr/R/nloptr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/nloptr/R/nloptr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/nloptr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/nloptr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/nloptr/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/nloptr/doc/nloptr.R

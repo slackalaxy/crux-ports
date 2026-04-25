@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/janitor/R/
 -rw-r--r--	root/root	usr/lib/R/library/janitor/R/janitor
 -rw-r--r--	root/root	usr/lib/R/library/janitor/R/janitor.rdb
 -rw-r--r--	root/root	usr/lib/R/library/janitor/R/janitor.rdx
+-rw-r--r--	root/root	usr/lib/R/library/janitor/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/janitor/doc/
 -rw-r--r--	root/root	usr/lib/R/library/janitor/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/janitor/doc/janitor.R

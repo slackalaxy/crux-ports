@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ids/R/
 -rw-r--r--	root/root	usr/lib/R/library/ids/R/ids.rdx
 -rw-r--r--	root/root	usr/lib/R/library/ids/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ids/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ids/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ids/doc/
 -rw-r--r--	root/root	usr/lib/R/library/ids/doc/ids.R
 -rw-r--r--	root/root	usr/lib/R/library/ids/doc/ids.Rmd

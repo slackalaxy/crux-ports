@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/S4Vectors/R/
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/R/S4Vectors
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/R/S4Vectors.rdb
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/R/S4Vectors.rdx
+-rw-r--r--	root/root	usr/lib/R/library/S4Vectors/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/S4Vectors/doc/
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/doc/HTS_core_package_stack.txt
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/doc/RleTricks.R

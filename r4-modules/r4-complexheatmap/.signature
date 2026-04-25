@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89ImOaJeQll3JFqOdoq5mXW8KvHduC+0xxn71ls0/VXg9DO5vBaCNiteo81Ri+no0KyPri+twVXtGlRdfB3aSoA4=
-SHA256 (Pkgfile) = 1ceefee59518d8cf2bd979909078808bed4f1aafe57129efabdfcda7a2c97a12
+RWQ2oTreAss89GWpp69M8MSkPm/8WKInupgs1/lNrxnzw2aKMO8AkZlGiZo4yknxMnRZUvamvgcgLLneBGNAIH5n/64yERddpA4=
+SHA256 (Pkgfile) = f29732e18fc36691796c8d9cc855e956fc8caa3e0309275c48c20249232ab2ee
 SHA256 (.footprint) = a8a22f319cac25ccee2a9b0c48472b85c6f28f617d519d5dfb4a66f7144e95fe
-SHA256 (ComplexHeatmap_2.26.1.tar.gz) = 9ce75e86c9bbbcdc3ad253d92c1d3bd36541aacf72efa20d5c116059aa8b17da
+SHA256 (ComplexHeatmap_2.27.1.tar.gz) = 550ddf98db58586825c19b52a18b79ae0937fa28dcc254c17b6dc0a1b5c52d26

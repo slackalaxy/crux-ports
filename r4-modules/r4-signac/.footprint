@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Signac/R/
 -rw-r--r--	root/root	usr/lib/R/library/Signac/R/Signac
 -rw-r--r--	root/root	usr/lib/R/library/Signac/R/Signac.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Signac/R/Signac.rdx
+-rw-r--r--	root/root	usr/lib/R/library/Signac/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/Signac/data/
 -rw-r--r--	root/root	usr/lib/R/library/Signac/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Signac/data/Rdata.rds

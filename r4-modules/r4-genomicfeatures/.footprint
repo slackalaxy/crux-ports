@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomicFeatures/R/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/R/GenomicFeatures
 -rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/R/GenomicFeatures.rdb
 -rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/R/GenomicFeatures.rdx
+-rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicFeatures/doc/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/doc/GenomicFeatures.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/doc/GenomicFeatures.Rmd
@@ -43,6 +44,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomicFeatures/help/
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicFeatures/html/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/GenomicFeatures/libs/
+-rwxr-xr-x	root/root	usr/lib/R/library/GenomicFeatures/libs/GenomicFeatures.so
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicFeatures/script/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicFeatures/script/README
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicFeatures/unitTests/

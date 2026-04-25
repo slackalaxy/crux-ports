@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rgraphviz/R/
 -rw-r--r--	root/root	usr/lib/R/library/Rgraphviz/R/Rgraphviz
 -rw-r--r--	root/root	usr/lib/R/library/Rgraphviz/R/Rgraphviz.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Rgraphviz/R/Rgraphviz.rdx
+-rw-r--r--	root/root	usr/lib/R/library/Rgraphviz/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/Rgraphviz/doc/
 -rw-r--r--	root/root	usr/lib/R/library/Rgraphviz/doc/Rgraphviz.R
 -rw-r--r--	root/root	usr/lib/R/library/Rgraphviz/doc/Rgraphviz.Rnw

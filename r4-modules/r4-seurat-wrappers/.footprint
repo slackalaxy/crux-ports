@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/SeuratWrappers/R/
 -rw-r--r--	root/root	usr/lib/R/library/SeuratWrappers/R/SeuratWrappers
 -rw-r--r--	root/root	usr/lib/R/library/SeuratWrappers/R/SeuratWrappers.rdb
 -rw-r--r--	root/root	usr/lib/R/library/SeuratWrappers/R/SeuratWrappers.rdx
+-rw-r--r--	root/root	usr/lib/R/library/SeuratWrappers/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/SeuratWrappers/help/
 -rw-r--r--	root/root	usr/lib/R/library/SeuratWrappers/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/SeuratWrappers/help/SeuratWrappers.rdb

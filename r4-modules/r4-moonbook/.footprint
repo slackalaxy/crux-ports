@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/moonBook/R/
 -rw-r--r--	root/root	usr/lib/R/library/moonBook/R/moonBook
 -rw-r--r--	root/root	usr/lib/R/library/moonBook/R/moonBook.rdb
 -rw-r--r--	root/root	usr/lib/R/library/moonBook/R/moonBook.rdx
+-rw-r--r--	root/root	usr/lib/R/library/moonBook/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/moonBook/data/
 -rw-r--r--	root/root	usr/lib/R/library/moonBook/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/moonBook/data/Rdata.rds

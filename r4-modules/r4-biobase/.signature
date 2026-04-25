@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89K1BnPUHE9yee7qd5H2rCHQ4NnrTL5gOOKkhXfunpt6mmll/inFGiz+XWqpSL0oKY2UtnCe4kpVLyq61b3/npgE=
-SHA256 (Pkgfile) = 063ef79cd8494053953d534d1a9d6aeb27181a7f69939c71a9155744611f4bbe
-SHA256 (.footprint) = 5f624a8d8a98593a48e7b0e70ad14d37de85dc38881e867b01bff8c7e0c6f0b8
-SHA256 (Biobase_2.70.0.tar.gz) = 530a7435640e86c34db16bcc4c8a38b5046ac79512a86e7b97f66a9d57813cbc
+RWQ2oTreAss89B28H8sYVTBeNIRLo9HXaKtySLXDvhah5CzZEqkjy5mhCfbtBpkkmFoaTiufmzjovHR1gmnTFJ6BC4Jc4WIf1A0=
+SHA256 (Pkgfile) = 4b4abd259d3181d96e63c5288523362f5f9fe225bb08af80e1e4a3ea9d6b5b99
+SHA256 (.footprint) = 599be8ed1cba2fc65fe7cee5816b74bc44d69fd33c4b22c62a72e07d747dea38
+SHA256 (Biobase_2.71.0.tar.gz) = 76970379f34eb015897f23988e54c8a8432499d713a97cbbb18e97abb59e4c7b

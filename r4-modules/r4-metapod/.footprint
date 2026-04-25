@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/metapod/R/
 -rw-r--r--	root/root	usr/lib/R/library/metapod/R/metapod
 -rw-r--r--	root/root	usr/lib/R/library/metapod/R/metapod.rdb
 -rw-r--r--	root/root	usr/lib/R/library/metapod/R/metapod.rdx
+-rw-r--r--	root/root	usr/lib/R/library/metapod/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/metapod/doc/
 -rw-r--r--	root/root	usr/lib/R/library/metapod/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/metapod/doc/overview.R

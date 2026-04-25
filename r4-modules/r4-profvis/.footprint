@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/profvis/R/
 -rw-r--r--	root/root	usr/lib/R/library/profvis/R/profvis
 -rw-r--r--	root/root	usr/lib/R/library/profvis/R/profvis.rdb
 -rw-r--r--	root/root	usr/lib/R/library/profvis/R/profvis.rdx
+-rw-r--r--	root/root	usr/lib/R/library/profvis/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/profvis/doc/
 -rw-r--r--	root/root	usr/lib/R/library/profvis/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/profvis/doc/profvis.R

@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggpubr/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggpubr/R/ggpubr
 -rw-r--r--	root/root	usr/lib/R/library/ggpubr/R/ggpubr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggpubr/R/ggpubr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggpubr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggpubr/data/
 -rw-r--r--	root/root	usr/lib/R/library/ggpubr/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggpubr/data/Rdata.rds

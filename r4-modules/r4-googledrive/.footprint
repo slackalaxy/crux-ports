@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/googledrive/R/
 -rw-r--r--	root/root	usr/lib/R/library/googledrive/R/googledrive.rdx
 -rw-r--r--	root/root	usr/lib/R/library/googledrive/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/googledrive/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/googledrive/README.md
 -rw-r--r--	root/root	usr/lib/R/library/googledrive/WORDLIST
 drwxr-xr-x	root/root	usr/lib/R/library/googledrive/doc/
 -rw-r--r--	root/root	usr/lib/R/library/googledrive/doc/googledrive.Rmd

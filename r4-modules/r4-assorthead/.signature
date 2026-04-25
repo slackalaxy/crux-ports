@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BXcPNd72AOjcVsU9bHHegztgGCRnmi23nRkv9ENlRj6hv0x9qGp/7mMSM/5x7mgDedYDr/bapeEtRcyq6OiSAE=
-SHA256 (Pkgfile) = 3fcbd0f9e111d68683757c86fe5623ca868b905f58d939835b140bbf82bf4342
-SHA256 (.footprint) = e3839e035d742ea80754737a012837e47d7ff53042b8adee7546821062f11b67
-SHA256 (assorthead_1.4.0.tar.gz) = fd25a7457a5c675a06c284334781c6b9f510fae4b625896359e7dd83a61a517b
+RWQ2oTreAss89Cos/C8uA3IwslZchbVI3kznOa+snbNuaoNCiaJDyOe/yCeQDEeZe8KpI6r8BG4zKx+ymvnuq1eVLozX7iyy4gI=
+SHA256 (Pkgfile) = e9597563094ee35087672ef6a03e9339c26cdb6b90b0e8f03efb937cbf3eeff7
+SHA256 (.footprint) = 1dceed7a595d15acb4db9a02817fab8a73168a0a700c513269f44c6e3a45256e
+SHA256 (assorthead_1.5.16.tar.gz) = f49cb0d8286c2d7bd8667707b2696ff31d519d82e4bf9580c9ab0d24287feeb2

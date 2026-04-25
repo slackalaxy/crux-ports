@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/sessioninfo/R/
 -rw-r--r--	root/root	usr/lib/R/library/sessioninfo/R/sessioninfo.rdx
 -rw-r--r--	root/root	usr/lib/R/library/sessioninfo/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/sessioninfo/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/sessioninfo/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/sessioninfo/help/
 -rw-r--r--	root/root	usr/lib/R/library/sessioninfo/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/sessioninfo/help/aliases.rds

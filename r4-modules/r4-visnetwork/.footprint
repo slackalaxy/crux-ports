@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/visNetwork/R/
 -rw-r--r--	root/root	usr/lib/R/library/visNetwork/R/visNetwork
 -rw-r--r--	root/root	usr/lib/R/library/visNetwork/R/visNetwork.rdb
 -rw-r--r--	root/root	usr/lib/R/library/visNetwork/R/visNetwork.rdx
+-rw-r--r--	root/root	usr/lib/R/library/visNetwork/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/visNetwork/common-docs-files/
 drwxr-xr-x	root/root	usr/lib/R/library/visNetwork/common-docs-files/css/
 -rw-r--r--	root/root	usr/lib/R/library/visNetwork/common-docs-files/css/carousel.css

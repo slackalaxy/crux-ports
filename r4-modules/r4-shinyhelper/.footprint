@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shinyhelper/R/
 -rw-r--r--	root/root	usr/lib/R/library/shinyhelper/R/shinyhelper
 -rw-r--r--	root/root	usr/lib/R/library/shinyhelper/R/shinyhelper.rdb
 -rw-r--r--	root/root	usr/lib/R/library/shinyhelper/R/shinyhelper.rdx
+-rw-r--r--	root/root	usr/lib/R/library/shinyhelper/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/shinyhelper/assets/
 -rw-r--r--	root/root	usr/lib/R/library/shinyhelper/assets/shinyhelper.css
 -rw-r--r--	root/root	usr/lib/R/library/shinyhelper/assets/shinyhelper.js

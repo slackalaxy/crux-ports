@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Seurat/R/
 -rw-r--r--	root/root	usr/lib/R/library/Seurat/R/Seurat
 -rw-r--r--	root/root	usr/lib/R/library/Seurat/R/Seurat.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Seurat/R/Seurat.rdx
+-rw-r--r--	root/root	usr/lib/R/library/Seurat/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/Seurat/data/
 -rw-r--r--	root/root	usr/lib/R/library/Seurat/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Seurat/data/Rdata.rds

@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/modelr/R/
 -rw-r--r--	root/root	usr/lib/R/library/modelr/R/modelr
 -rw-r--r--	root/root	usr/lib/R/library/modelr/R/modelr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/modelr/R/modelr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/modelr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/modelr/data/
 -rw-r--r--	root/root	usr/lib/R/library/modelr/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/modelr/data/Rdata.rds

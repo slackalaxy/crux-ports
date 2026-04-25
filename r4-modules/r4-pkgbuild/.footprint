@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pkgbuild/R/
 -rw-r--r--	root/root	usr/lib/R/library/pkgbuild/R/pkgbuild
 -rw-r--r--	root/root	usr/lib/R/library/pkgbuild/R/pkgbuild.rdb
 -rw-r--r--	root/root	usr/lib/R/library/pkgbuild/R/pkgbuild.rdx
+-rw-r--r--	root/root	usr/lib/R/library/pkgbuild/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/pkgbuild/help/
 -rw-r--r--	root/root	usr/lib/R/library/pkgbuild/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/pkgbuild/help/aliases.rds

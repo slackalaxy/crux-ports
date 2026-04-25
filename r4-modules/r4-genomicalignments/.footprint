@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GenomicAlignments/R/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/R/GenomicAlignments
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/R/GenomicAlignments.rdb
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/R/GenomicAlignments.rdx
+-rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/GenomicAlignments/doc/
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/doc/GenomicAlignmentsIntroduction.R
 -rw-r--r--	root/root	usr/lib/R/library/GenomicAlignments/doc/GenomicAlignmentsIntroduction.Rnw

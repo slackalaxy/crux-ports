@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/hms/R/
 -rw-r--r--	root/root	usr/lib/R/library/hms/R/hms
 -rw-r--r--	root/root	usr/lib/R/library/hms/R/hms.rdb
 -rw-r--r--	root/root	usr/lib/R/library/hms/R/hms.rdx
+-rw-r--r--	root/root	usr/lib/R/library/hms/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/hms/help/
 -rw-r--r--	root/root	usr/lib/R/library/hms/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/hms/help/aliases.rds

@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/reformulas/R/
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/R/reformulas
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/R/reformulas.rdb
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/R/reformulas.rdx
+-rw-r--r--	root/root	usr/lib/R/library/reformulas/README.md
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/REFERENCES.bib
 drwxr-xr-x	root/root	usr/lib/R/library/reformulas/help/
 -rw-r--r--	root/root	usr/lib/R/library/reformulas/help/AnIndex

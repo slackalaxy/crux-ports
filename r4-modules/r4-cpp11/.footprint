@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/cpp11/R/
 -rw-r--r--	root/root	usr/lib/R/library/cpp11/R/cpp11
 -rw-r--r--	root/root	usr/lib/R/library/cpp11/R/cpp11.rdb
 -rw-r--r--	root/root	usr/lib/R/library/cpp11/R/cpp11.rdx
+-rw-r--r--	root/root	usr/lib/R/library/cpp11/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/cpp11/doc/
 -rw-r--r--	root/root	usr/lib/R/library/cpp11/doc/FAQ.R
 -rw-r--r--	root/root	usr/lib/R/library/cpp11/doc/FAQ.Rmd

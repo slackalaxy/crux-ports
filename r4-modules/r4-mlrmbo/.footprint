@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mlrMBO/R/
 -rw-r--r--	root/root	usr/lib/R/library/mlrMBO/R/mlrMBO
 -rw-r--r--	root/root	usr/lib/R/library/mlrMBO/R/mlrMBO.rdb
 -rw-r--r--	root/root	usr/lib/R/library/mlrMBO/R/mlrMBO.rdx
+-rw-r--r--	root/root	usr/lib/R/library/mlrMBO/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/mlrMBO/doc/
 -rw-r--r--	root/root	usr/lib/R/library/mlrMBO/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/mlrMBO/doc/mlrMBO.R

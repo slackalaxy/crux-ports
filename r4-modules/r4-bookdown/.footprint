@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/bookdown/R/
 -rw-r--r--	root/root	usr/lib/R/library/bookdown/R/bookdown
 -rw-r--r--	root/root	usr/lib/R/library/bookdown/R/bookdown.rdb
 -rw-r--r--	root/root	usr/lib/R/library/bookdown/R/bookdown.rdx
+-rw-r--r--	root/root	usr/lib/R/library/bookdown/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/bookdown/doc/
 -rw-r--r--	root/root	usr/lib/R/library/bookdown/doc/bookdown.R
 -rw-r--r--	root/root	usr/lib/R/library/bookdown/doc/bookdown.Rmd

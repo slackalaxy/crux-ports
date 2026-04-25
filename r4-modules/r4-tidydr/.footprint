@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/tidydr/R/
 -rw-r--r--	root/root	usr/lib/R/library/tidydr/R/tidydr
 -rw-r--r--	root/root	usr/lib/R/library/tidydr/R/tidydr.rdb
 -rw-r--r--	root/root	usr/lib/R/library/tidydr/R/tidydr.rdx
+-rw-r--r--	root/root	usr/lib/R/library/tidydr/README.md (EMPTY)
 drwxr-xr-x	root/root	usr/lib/R/library/tidydr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/tidydr/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/tidydr/doc/tidydr.R

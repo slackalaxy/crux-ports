@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/gitcreds/R/
 -rw-r--r--	root/root	usr/lib/R/library/gitcreds/R/gitcreds
 -rw-r--r--	root/root	usr/lib/R/library/gitcreds/R/gitcreds.rdb
 -rw-r--r--	root/root	usr/lib/R/library/gitcreds/R/gitcreds.rdx
+-rw-r--r--	root/root	usr/lib/R/library/gitcreds/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/gitcreds/doc/
 -rw-r--r--	root/root	usr/lib/R/library/gitcreds/doc/helper-survey.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/gitcreds/doc/helper-survey.html

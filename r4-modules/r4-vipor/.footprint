@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/vipor/R/
 -rw-r--r--	root/root	usr/lib/R/library/vipor/R/vipor
 -rw-r--r--	root/root	usr/lib/R/library/vipor/R/vipor.rdb
 -rw-r--r--	root/root	usr/lib/R/library/vipor/R/vipor.rdx
+-rw-r--r--	root/root	usr/lib/R/library/vipor/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/vipor/data/
 -rw-r--r--	root/root	usr/lib/R/library/vipor/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/vipor/data/Rdata.rds

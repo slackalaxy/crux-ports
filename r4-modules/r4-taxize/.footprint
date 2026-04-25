@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/taxize/R/
 -rw-r--r--	root/root	usr/lib/R/library/taxize/R/taxize
 -rw-r--r--	root/root	usr/lib/R/library/taxize/R/taxize.rdb
 -rw-r--r--	root/root	usr/lib/R/library/taxize/R/taxize.rdx
+-rw-r--r--	root/root	usr/lib/R/library/taxize/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/taxize/data/
 -rw-r--r--	root/root	usr/lib/R/library/taxize/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/taxize/data/Rdata.rds

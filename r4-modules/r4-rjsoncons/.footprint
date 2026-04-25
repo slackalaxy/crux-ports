@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rjsoncons/R/
 -rw-r--r--	root/root	usr/lib/R/library/rjsoncons/R/rjsoncons
 -rw-r--r--	root/root	usr/lib/R/library/rjsoncons/R/rjsoncons.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rjsoncons/R/rjsoncons.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rjsoncons/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rjsoncons/doc/
 -rw-r--r--	root/root	usr/lib/R/library/rjsoncons/doc/a_rjsoncons.R
 -rw-r--r--	root/root	usr/lib/R/library/rjsoncons/doc/a_rjsoncons.Rmd

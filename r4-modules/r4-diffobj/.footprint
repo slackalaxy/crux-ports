@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/diffobj/R/
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/R/diffobj
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/R/diffobj.rdb
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/R/diffobj.rdx
+-rw-r--r--	root/root	usr/lib/R/library/diffobj/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/css/
 -rw-r--r--	root/root	usr/lib/R/library/diffobj/css/diffobj.css
 drwxr-xr-x	root/root	usr/lib/R/library/diffobj/doc/

@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/networkD3/R/
 -rw-r--r--	root/root	usr/lib/R/library/networkD3/R/networkD3
 -rw-r--r--	root/root	usr/lib/R/library/networkD3/R/networkD3.rdb
 -rw-r--r--	root/root	usr/lib/R/library/networkD3/R/networkD3.rdx
+-rw-r--r--	root/root	usr/lib/R/library/networkD3/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/networkD3/data/
 -rw-r--r--	root/root	usr/lib/R/library/networkD3/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/networkD3/data/Rdata.rds

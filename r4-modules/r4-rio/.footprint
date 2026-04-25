@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rio/R/
 -rw-r--r--	root/root	usr/lib/R/library/rio/R/rio.rdx
 -rw-r--r--	root/root	usr/lib/R/library/rio/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rio/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rio/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rio/doc/
 -rw-r--r--	root/root	usr/lib/R/library/rio/doc/extension.R
 -rw-r--r--	root/root	usr/lib/R/library/rio/doc/extension.Rmd

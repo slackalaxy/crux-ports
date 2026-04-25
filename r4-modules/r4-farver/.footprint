@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/farver/R/
 -rw-r--r--	root/root	usr/lib/R/library/farver/R/farver.rdx
 -rw-r--r--	root/root	usr/lib/R/library/farver/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/farver/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/farver/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/farver/help/
 -rw-r--r--	root/root	usr/lib/R/library/farver/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/farver/help/aliases.rds

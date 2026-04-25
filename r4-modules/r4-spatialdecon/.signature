@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89EVwsmazs46QJDpEQEwG1Fx28ltnXUYc+b3sDUuqG5okebX7MnCaknC+xtrEey4ykwBvsjy06yBxwJx05qNZfwc=
-SHA256 (Pkgfile) = 655ff93e42b82229b5bd1f65fe0c99a2e62a671b8c8019cac8738dd4b85fe282
-SHA256 (.footprint) = 127e53988740766b393ecbea5cc00187ed00d0c1a1be7bb21b22c633703a2036
-SHA256 (SpatialDecon_1.20.1.tar.gz) = d51c34bcdc540f98fe0b211bbc23824b924e25d7ad17d5dba9f535caac9c06f6
+RWQ2oTreAss89JV4Y94O5itJv+EVkOj/FLuCKrNvNrv81hJxBTWP7qYm+/4hBEXv+bDe50/c6xLEpBZwdnPTxE7GlOz2rj3V9AQ=
+SHA256 (Pkgfile) = 27068f0a39665055805af127122daf946fdeceacdaaf9575ccb273ec79711a18
+SHA256 (.footprint) = df99c854b607657089616d9601ff02fb78c17f8850b93c3f2fbbb03a4a31e0cb
+SHA256 (SpatialDecon_1.21.1.tar.gz) = bf7c3bc0827acc51a6bf82ee5b4dab587e09599ebc4805f114ad11e1b373f019

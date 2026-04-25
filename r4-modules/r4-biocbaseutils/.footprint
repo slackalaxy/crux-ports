@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocBaseUtils/R/
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/R/BiocBaseUtils
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/R/BiocBaseUtils.rdb
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/R/BiocBaseUtils.rdx
+-rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/BiocBaseUtils/doc/
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/doc/BiocBaseUtils.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocBaseUtils/doc/BiocBaseUtils.Rmd

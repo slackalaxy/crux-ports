@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/dqrng/R/
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/R/dqrng
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/R/dqrng.rdb
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/R/dqrng.rdx
+-rw-r--r--	root/root	usr/lib/R/library/dqrng/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/dqrng/doc/
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/doc/cpp-api.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/dqrng/doc/cpp-api.html

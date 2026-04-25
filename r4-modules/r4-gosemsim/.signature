@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Bjm/ah9eFN2Kk717uN1DS2CVwDhX2BtEVYay21Nt9+JrnlgYAZRXQe2m1MONj2hlUfsA7+ph8dEPvmbZFSPwAM=
-SHA256 (Pkgfile) = 27a90aee77f875e305e5ebd8198bc5050ac1bd2b7eec27e16524f63801338516
+RWQ2oTreAss89PkE4KvOY4Bjl43LoZbnhN76xDs7z+9NCEz+rnMFxw3juQ6vbmMxXcmvEx8f/itDMVUT4MjNlGQQOEjaiylFggo=
+SHA256 (Pkgfile) = 57e35d947c1005cbe80da9a9317c773429befd427a434e56004cd7e321ae6a97
 SHA256 (.footprint) = f273441d6e21d3df734686b5dd40d8046f7bea404b1d9e7a7eab77ea731227f3
-SHA256 (GOSemSim_2.36.0.tar.gz) = 73c383b98b5fa14c2b3031f18ffc73d8654cbdbf1f518c2882654a97d4bbbf68
+SHA256 (GOSemSim_2.37.2.tar.gz) = c948b2c9cface715f04448ba0e1095ff2372fa8ab36f59bc20a91f4773eede78

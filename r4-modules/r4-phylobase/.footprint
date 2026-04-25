@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/phylobase/R/
 -rw-r--r--	root/root	usr/lib/R/library/phylobase/R/phylobase
 -rw-r--r--	root/root	usr/lib/R/library/phylobase/R/phylobase.rdb
 -rw-r--r--	root/root	usr/lib/R/library/phylobase/R/phylobase.rdx
+-rw-r--r--	root/root	usr/lib/R/library/phylobase/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/phylobase/data/
 -rw-r--r--	root/root	usr/lib/R/library/phylobase/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/phylobase/data/Rdata.rds

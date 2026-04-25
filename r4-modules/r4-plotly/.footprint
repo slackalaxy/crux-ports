@@ -24,6 +24,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/plotly/R/
 -rw-r--r--	root/root	usr/lib/R/library/plotly/R/plotly.rdx
 -rw-r--r--	root/root	usr/lib/R/library/plotly/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/plotly/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/plotly/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/plotly/data/
 -rw-r--r--	root/root	usr/lib/R/library/plotly/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/plotly/data/Rdata.rds

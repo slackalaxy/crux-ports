@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/shiny/R/
 -rw-r--r--	root/root	usr/lib/R/library/shiny/R/shiny
 -rw-r--r--	root/root	usr/lib/R/library/shiny/R/shiny.rdb
 -rw-r--r--	root/root	usr/lib/R/library/shiny/R/shiny.rdx
+-rw-r--r--	root/root	usr/lib/R/library/shiny/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/shiny/app_template/
 drwxr-xr-x	root/root	usr/lib/R/library/shiny/app_template/R/
 -rw-r--r--	root/root	usr/lib/R/library/shiny/app_template/R/example-module.R

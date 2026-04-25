@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/evaluate/R/
 -rw-r--r--	root/root	usr/lib/R/library/evaluate/R/evaluate
 -rw-r--r--	root/root	usr/lib/R/library/evaluate/R/evaluate.rdb
 -rw-r--r--	root/root	usr/lib/R/library/evaluate/R/evaluate.rdx
+-rw-r--r--	root/root	usr/lib/R/library/evaluate/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/evaluate/help/
 -rw-r--r--	root/root	usr/lib/R/library/evaluate/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/evaluate/help/aliases.rds

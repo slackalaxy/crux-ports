@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/GeomxTools/R/
 -rw-r--r--	root/root	usr/lib/R/library/GeomxTools/R/GeomxTools
 -rw-r--r--	root/root	usr/lib/R/library/GeomxTools/R/GeomxTools.rdb
 -rw-r--r--	root/root	usr/lib/R/library/GeomxTools/R/GeomxTools.rdx
+-rw-r--r--	root/root	usr/lib/R/library/GeomxTools/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/GeomxTools/doc/
 -rw-r--r--	root/root	usr/lib/R/library/GeomxTools/doc/Developer_Introduction_to_the_NanoStringGeoMxSet.R
 -rw-r--r--	root/root	usr/lib/R/library/GeomxTools/doc/Developer_Introduction_to_the_NanoStringGeoMxSet.Rmd

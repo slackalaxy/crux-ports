@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rngtools/R/
 -rw-r--r--	root/root	usr/lib/R/library/rngtools/R/rngtools
 -rw-r--r--	root/root	usr/lib/R/library/rngtools/R/rngtools.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rngtools/R/rngtools.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rngtools/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rngtools/help/
 -rw-r--r--	root/root	usr/lib/R/library/rngtools/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/rngtools/help/aliases.rds

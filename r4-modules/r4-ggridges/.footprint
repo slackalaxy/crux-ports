@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ggridges/R/
 -rw-r--r--	root/root	usr/lib/R/library/ggridges/R/ggridges
 -rw-r--r--	root/root	usr/lib/R/library/ggridges/R/ggridges.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggridges/R/ggridges.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ggridges/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ggridges/data/
 -rw-r--r--	root/root	usr/lib/R/library/ggridges/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ggridges/data/Rdata.rds

@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/assertthat/R/
 -rw-r--r--	root/root	usr/lib/R/library/assertthat/R/assertthat
 -rw-r--r--	root/root	usr/lib/R/library/assertthat/R/assertthat.rdb
 -rw-r--r--	root/root	usr/lib/R/library/assertthat/R/assertthat.rdx
+-rw-r--r--	root/root	usr/lib/R/library/assertthat/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/assertthat/help/
 -rw-r--r--	root/root	usr/lib/R/library/assertthat/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/assertthat/help/aliases.rds

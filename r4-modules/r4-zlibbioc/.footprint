@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/zlibbioc/R/
 -rw-r--r--	root/root	usr/lib/R/library/zlibbioc/R/zlibbioc
 -rw-r--r--	root/root	usr/lib/R/library/zlibbioc/R/zlibbioc.rdb
 -rw-r--r--	root/root	usr/lib/R/library/zlibbioc/R/zlibbioc.rdx
+-rw-r--r--	root/root	usr/lib/R/library/zlibbioc/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/zlibbioc/doc/
 -rw-r--r--	root/root	usr/lib/R/library/zlibbioc/doc/UsingZlibbioc.R
 -rw-r--r--	root/root	usr/lib/R/library/zlibbioc/doc/UsingZlibbioc.Rmd

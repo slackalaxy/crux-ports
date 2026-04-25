@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/progress/R/
 -rw-r--r--	root/root	usr/lib/R/library/progress/R/progress
 -rw-r--r--	root/root	usr/lib/R/library/progress/R/progress.rdb
 -rw-r--r--	root/root	usr/lib/R/library/progress/R/progress.rdx
+-rw-r--r--	root/root	usr/lib/R/library/progress/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/progress/help/
 -rw-r--r--	root/root	usr/lib/R/library/progress/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/progress/help/aliases.rds

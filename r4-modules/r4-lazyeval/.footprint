@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/lazyeval/R/
 -rw-r--r--	root/root	usr/lib/R/library/lazyeval/R/lazyeval
 -rw-r--r--	root/root	usr/lib/R/library/lazyeval/R/lazyeval.rdb
 -rw-r--r--	root/root	usr/lib/R/library/lazyeval/R/lazyeval.rdx
+-rw-r--r--	root/root	usr/lib/R/library/lazyeval/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/lazyeval/doc/
 -rw-r--r--	root/root	usr/lib/R/library/lazyeval/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/lazyeval/doc/lazyeval-old.R

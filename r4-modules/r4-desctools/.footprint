@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/DescTools/R/
 -rw-r--r--	root/root	usr/lib/R/library/DescTools/R/DescTools
 -rw-r--r--	root/root	usr/lib/R/library/DescTools/R/DescTools.rdb
 -rw-r--r--	root/root	usr/lib/R/library/DescTools/R/DescTools.rdx
+-rw-r--r--	root/root	usr/lib/R/library/DescTools/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/DescTools/data/
 -rw-r--r--	root/root	usr/lib/R/library/DescTools/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/DescTools/data/Rdata.rds

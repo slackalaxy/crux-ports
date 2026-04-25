@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/litedown/R/
 -rw-r--r--	root/root	usr/lib/R/library/litedown/R/litedown
 -rw-r--r--	root/root	usr/lib/R/library/litedown/R/litedown.rdb
 -rw-r--r--	root/root	usr/lib/R/library/litedown/R/litedown.rdx
+-rw-r--r--	root/root	usr/lib/R/library/litedown/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/litedown/doc/
 -rw-r--r--	root/root	usr/lib/R/library/litedown/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/litedown/doc/slides.R

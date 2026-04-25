@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rsamtools/R/
 -rw-r--r--	root/root	usr/lib/R/library/Rsamtools/R/Rsamtools
 -rw-r--r--	root/root	usr/lib/R/library/Rsamtools/R/Rsamtools.rdb
 -rw-r--r--	root/root	usr/lib/R/library/Rsamtools/R/Rsamtools.rdx
+-rw-r--r--	root/root	usr/lib/R/library/Rsamtools/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/Rsamtools/doc/
 -rw-r--r--	root/root	usr/lib/R/library/Rsamtools/doc/Rsamtools-Overview.R
 -rw-r--r--	root/root	usr/lib/R/library/Rsamtools/doc/Rsamtools-Overview.Rmd

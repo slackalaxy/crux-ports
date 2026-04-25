@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/packrat/R/
 -rw-r--r--	root/root	usr/lib/R/library/packrat/R/packrat
 -rw-r--r--	root/root	usr/lib/R/library/packrat/R/packrat.rdb
 -rw-r--r--	root/root	usr/lib/R/library/packrat/R/packrat.rdx
+-rw-r--r--	root/root	usr/lib/R/library/packrat/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/packrat/help/
 -rw-r--r--	root/root	usr/lib/R/library/packrat/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/packrat/help/aliases.rds

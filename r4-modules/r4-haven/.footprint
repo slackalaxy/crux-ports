@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/haven/R/
 -rw-r--r--	root/root	usr/lib/R/library/haven/R/haven
 -rw-r--r--	root/root	usr/lib/R/library/haven/R/haven.rdb
 -rw-r--r--	root/root	usr/lib/R/library/haven/R/haven.rdx
+-rw-r--r--	root/root	usr/lib/R/library/haven/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/haven/doc/
 -rw-r--r--	root/root	usr/lib/R/library/haven/doc/datetimes.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/haven/doc/datetimes.html

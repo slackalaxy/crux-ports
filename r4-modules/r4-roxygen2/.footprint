@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/roxygen2/R/
 -rw-r--r--	root/root	usr/lib/R/library/roxygen2/R/roxygen2
 -rw-r--r--	root/root	usr/lib/R/library/roxygen2/R/roxygen2.rdb
 -rw-r--r--	root/root	usr/lib/R/library/roxygen2/R/roxygen2.rdx
+-rw-r--r--	root/root	usr/lib/R/library/roxygen2/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/roxygen2/doc/
 -rw-r--r--	root/root	usr/lib/R/library/roxygen2/doc/extending.R
 -rw-r--r--	root/root	usr/lib/R/library/roxygen2/doc/extending.Rmd

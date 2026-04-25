@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89F9T4oXoPj+LQRDoOjDUYpPjrgRb5ykoLxZI+VGOUpBchRg+aDtp2DXzllPYIUmGpw8PsUp8rSOPdbgx/uBNqQE=
-SHA256 (Pkgfile) = 3c601ca4a0c9f87ea66a74387275f5d92b1cbd3270e112888a845c4118fc3a75
+RWQ2oTreAss89I4gPMUJYX1OUPhxo5Z+I9wYR05octhI6LjPIc8uwLhCr2tUL8s87OvkznbbESfN9Nw+vecwOXBt3Vm/+YUHqAk=
+SHA256 (Pkgfile) = ea1b123cfd80a1749fe9d69f303e0a0e77b5c1c67ae07350d84e5e0cab935b7f
 SHA256 (.footprint) = bb4a19d0a205c2026c115e4d7c403ec4a9a9023bcd6aad92e3bfb4e2059f868b
-SHA256 (jose_1.2.1.tar.gz) = 7894d420afff2e12e73e8fb1386c2d345fb313bf1aaf26df4f9dbb22c6ab216a
+SHA256 (jose_2.0.0.tar.gz) = 24d4e13cda736d0d16c52ed4672937c45b52771014ba427b1aef011976c0d5e2

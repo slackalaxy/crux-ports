@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rhdf5/R/
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/R/rhdf5
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/R/rhdf5.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/R/rhdf5.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rhdf5/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/rhdf5/demoChunkSize/
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/demoChunkSize/chunksize-1.png
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/demoChunkSize/chunksize.pdf
@@ -38,7 +39,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rhdf5/help/
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/rhdf5/help/figures/
--rw-r--r--	root/root	usr/lib/R/library/rhdf5/help/figures/logo.png
+-rw-r--r--	root/root	usr/lib/R/library/rhdf5/help/figures/logo.svg
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/help/paths.rds
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/help/rhdf5.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/help/rhdf5.rdx
@@ -59,3 +60,4 @@ drwxr-xr-x	root/root	usr/lib/R/library/rhdf5/testfiles/
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/testfiles/h5ex_t_enum.h5
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/testfiles/multiple_dtypes.h5
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5/testfiles/nullable_examples.h5
+-rw-r--r--	root/root	usr/lib/R/library/rhdf5/testfiles/test_issue157.h5

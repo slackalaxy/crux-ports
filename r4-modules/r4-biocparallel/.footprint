@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/R/
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/R/BiocParallel
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/R/BiocParallel.rdb
 -rw-r--r--	root/root	usr/lib/R/library/BiocParallel/R/BiocParallel.rdx
+-rw-r--r--	root/root	usr/lib/R/library/BiocParallel/README.md
 -rwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/RMPInode.sh
 -rwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/RSOCKnode.sh
 drwxr-xr-x	root/root	usr/lib/R/library/BiocParallel/doc/

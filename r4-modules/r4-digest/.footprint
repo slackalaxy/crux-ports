@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/digest/R/
 -rw-r--r--	root/root	usr/lib/R/library/digest/R/digest
 -rw-r--r--	root/root	usr/lib/R/library/digest/R/digest.rdb
 -rw-r--r--	root/root	usr/lib/R/library/digest/R/digest.rdx
+-rw-r--r--	root/root	usr/lib/R/library/digest/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/digest/demo/
 -rw-r--r--	root/root	usr/lib/R/library/digest/demo/vectorised.R
 drwxr-xr-x	root/root	usr/lib/R/library/digest/doc/

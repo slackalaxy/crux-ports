@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/tsna/R/
 -rw-r--r--	root/root	usr/lib/R/library/tsna/R/tsna
 -rw-r--r--	root/root	usr/lib/R/library/tsna/R/tsna.rdb
 -rw-r--r--	root/root	usr/lib/R/library/tsna/R/tsna.rdx
+-rw-r--r--	root/root	usr/lib/R/library/tsna/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/tsna/data/
 -rw-r--r--	root/root	usr/lib/R/library/tsna/data/moodyContactSim.rda
 drwxr-xr-x	root/root	usr/lib/R/library/tsna/doc/

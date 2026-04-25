@@ -5,7 +5,7 @@
 # Optional: r4-aplot r4-cli r4-ggiraph r4-ggnewscale r4-ggtree r4-quarto r4-scatterpie
 
 name=r4-ggtangle
-version=0.1.1
+version=0.1.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/ggtangle_${version}.tar.gz)
 

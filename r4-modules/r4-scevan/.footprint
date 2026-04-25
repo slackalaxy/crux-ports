@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/SCEVAN/R/
 -rw-r--r--	root/root	usr/lib/R/library/SCEVAN/R/SCEVAN.rdx
 -rw-r--r--	root/root	usr/lib/R/library/SCEVAN/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/SCEVAN/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/SCEVAN/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/SCEVAN/help/
 -rw-r--r--	root/root	usr/lib/R/library/SCEVAN/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/SCEVAN/help/SCEVAN.rdb

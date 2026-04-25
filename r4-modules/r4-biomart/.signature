@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Mpx2hs8f3qwv49+fF+f70llUXP4jkKZxkTLaOT3c/DT7yislRXnbFVbRttzxKaYPLm2ckz6+nxZFLOIy7O9/gU=
-SHA256 (Pkgfile) = 0090cb49543a18d97727380bc4fa5953d419137b077eb3aef67c6335c09fbf7d
-SHA256 (.footprint) = fd908f67051ffbb2a1d1f596daedf987e90cbda2f5151d3c98dc22f90782a42b
-SHA256 (biomaRt_2.66.2.tar.gz) = f0de331050847834c2046dc4940e58f1f0a47d994b043665cdbb0ccde8749aab
+RWQ2oTreAss89IA2f/qFCtrDZyUyxbQ59J313HVIpKEid4pD7YWz8z236WlsNa6UHpwjMmN6n+/lpV2sfhfRoNyQhFO+gMPzKwg=
+SHA256 (Pkgfile) = 86bc2dd3340a9071799685d06cc89740b332ae1e71b6ee71b417361f01c2f518
+SHA256 (.footprint) = 3e44a0d91ee91e8d821f5ad8cd8a9f4f11da64a97205e306807d2718e9a3af69
+SHA256 (biomaRt_2.67.7.tar.gz) = 9bfd5f4c98ab7e6c08ba965d6c91464e0b35b5ed6c89f5fe5dba129f36d642ad

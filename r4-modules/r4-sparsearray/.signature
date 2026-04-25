@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89EoCOAFJbDV1e7ESeyI7H0n84HI1wdEpNHFyxHYm+YHF5fjS24sRyd6wQeGXcJ1XMI4OrADKm7mfZ1/JgerHFw4=
-SHA256 (Pkgfile) = 851ef5a48f832f458c0f4093d4ed7ba3aa4ee46efef86939c40abcb36f2ad75b
-SHA256 (.footprint) = 2e8cce15e71978af4fcd374bbd931876d683a0c0b1662fdabf698e559fb22dcc
-SHA256 (SparseArray_1.10.10.tar.gz) = 7c516c3e2f9dab11c10c6e75caf2254463c5792b711035ca3cf8475e946b81a5
+RWQ2oTreAss89HUFupG99COQrwOCrJ0atJ2uOGSCn68wnLNYU84bVxMDON+uM/S0MyWcmA9jYiLlqxFWLKpeJFWMeEiCyW8eAwg=
+SHA256 (Pkgfile) = b0a65ec751160e71e9d340d7d963d84d842f2de05c57517fd8633b31ae8c4e4c
+SHA256 (.footprint) = 6ad93487daa898e078fea1dfaefc128ed61a358493f6c97d5f631c8ade222968
+SHA256 (SparseArray_1.11.13.tar.gz) = 0437189ad39f9c008d6050b53e01bf4ce9dbf7134e155f2acf0ca4575a6bfe52

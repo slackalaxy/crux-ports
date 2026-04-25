@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/presto/R/
 -rw-r--r--	root/root	usr/lib/R/library/presto/R/presto
 -rw-r--r--	root/root	usr/lib/R/library/presto/R/presto.rdb
 -rw-r--r--	root/root	usr/lib/R/library/presto/R/presto.rdx
+-rw-r--r--	root/root	usr/lib/R/library/presto/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/presto/data/
 -rw-r--r--	root/root	usr/lib/R/library/presto/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/presto/data/Rdata.rds

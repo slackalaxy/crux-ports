@@ -17,6 +17,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/collapsibleTree/R/
 -rw-r--r--	root/root	usr/lib/R/library/collapsibleTree/R/collapsibleTree
 -rw-r--r--	root/root	usr/lib/R/library/collapsibleTree/R/collapsibleTree.rdb
 -rw-r--r--	root/root	usr/lib/R/library/collapsibleTree/R/collapsibleTree.rdx
+-rw-r--r--	root/root	usr/lib/R/library/collapsibleTree/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/collapsibleTree/examples/
 drwxr-xr-x	root/root	usr/lib/R/library/collapsibleTree/examples/01rmd/
 -rw-r--r--	root/root	usr/lib/R/library/collapsibleTree/examples/01rmd/Example01.Rmd

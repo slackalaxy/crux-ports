@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/alakazam/R/
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/R/alakazam.rdx
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/alakazam/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/alakazam/data/
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/alakazam/data/Rdata.rds

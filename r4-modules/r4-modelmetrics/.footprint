@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/ModelMetrics/R/
 -rw-r--r--	root/root	usr/lib/R/library/ModelMetrics/R/ModelMetrics
 -rw-r--r--	root/root	usr/lib/R/library/ModelMetrics/R/ModelMetrics.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ModelMetrics/R/ModelMetrics.rdx
+-rw-r--r--	root/root	usr/lib/R/library/ModelMetrics/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/ModelMetrics/data/
 -rw-r--r--	root/root	usr/lib/R/library/ModelMetrics/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/ModelMetrics/data/Rdata.rds

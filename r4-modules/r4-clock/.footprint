@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/clock/R/
 -rw-r--r--	root/root	usr/lib/R/library/clock/R/clock.rdx
 -rw-r--r--	root/root	usr/lib/R/library/clock/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/clock/R/sysdata.rdx
+-rw-r--r--	root/root	usr/lib/R/library/clock/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/clock/data/
 -rw-r--r--	root/root	usr/lib/R/library/clock/data/Rdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/clock/data/Rdata.rds

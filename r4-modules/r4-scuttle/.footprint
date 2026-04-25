@@ -22,15 +22,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/scuttle/R/
 -rw-r--r--	root/root	usr/lib/R/library/scuttle/R/scuttle.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/scuttle/doc/
 -rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/index.html
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/misc.R
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/misc.Rmd
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/misc.html
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/norm.R
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/norm.Rmd
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/norm.html
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/qc.R
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/qc.Rmd
--rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/qc.html
+-rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/userguide.R
+-rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/userguide.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/scuttle/doc/userguide.html
 drwxr-xr-x	root/root	usr/lib/R/library/scuttle/help/
 -rw-r--r--	root/root	usr/lib/R/library/scuttle/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/scuttle/help/aliases.rds
@@ -42,7 +36,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/scuttle/html/
 -rw-r--r--	root/root	usr/lib/R/library/scuttle/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/scuttle/include/
 drwxr-xr-x	root/root	usr/lib/R/library/scuttle/include/scuttle/
--rw-r--r--	root/root	usr/lib/R/library/scuttle/include/scuttle/downsample_vector.h
+-rw-r--r--	root/root	usr/lib/R/library/scuttle/include/scuttle/downsample.h
 -rw-r--r--	root/root	usr/lib/R/library/scuttle/include/scuttle/linear_model_fit.h
 drwxr-xr-x	root/root	usr/lib/R/library/scuttle/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/scuttle/libs/scuttle.so

@@ -20,6 +20,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/textshaping/R/
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/R/textshaping
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/R/textshaping.rdb
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/R/textshaping.rdx
+-rw-r--r--	root/root	usr/lib/R/library/textshaping/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/textshaping/doc/
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/doc/c_interface.R
 -rw-r--r--	root/root	usr/lib/R/library/textshaping/doc/c_interface.Rmd

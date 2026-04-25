@@ -19,6 +19,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rlang/R/
 -rw-r--r--	root/root	usr/lib/R/library/rlang/R/rlang
 -rw-r--r--	root/root	usr/lib/R/library/rlang/R/rlang.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rlang/R/rlang.rdx
+-rw-r--r--	root/root	usr/lib/R/library/rlang/README.md
 -rw-r--r--	root/root	usr/lib/R/library/rlang/backtrace-ver
 drwxr-xr-x	root/root	usr/lib/R/library/rlang/help/
 -rw-r--r--	root/root	usr/lib/R/library/rlang/help/AnIndex
