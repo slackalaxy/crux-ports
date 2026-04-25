@@ -1,5 +1,5 @@
 # Description: An audio tag editor
-# URL: https://github.com/puddletag/puddletag
+# URL: https://github.com/puddletag/puddletag/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-pyqt5 python3-configobj python3-pyparsing python3-mutagen python3-unidecode
 # Optional: python3-distro
