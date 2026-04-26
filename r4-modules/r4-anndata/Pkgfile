@@ -1,7 +1,7 @@
 # Description: R module anndata
 # URL: https://cran.r-project.org/web/packages/anndata
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-assertthat r4-cli r4-lifecycle r4-matrix r4-r6 r4-reticulate
+# Depends on: python3-anndata r r4-assertthat r4-cli r4-lifecycle r4-matrix r4-r6 r4-reticulate
 # Optional: r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-anndata
