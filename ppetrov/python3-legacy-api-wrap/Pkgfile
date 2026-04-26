@@ -1,0 +1,22 @@
+# Description: Legacy API wrapper.
+# URL: https://github.com/flying-sheep/legacy-api-wrap
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-hatch-docstring-description
+
+name=python3-legacy-api-wrap
+version=1.5
+release=1
+source=(https://files.pythonhosted.org/packages/source/l/legacy-api-wrap/legacy_api_wrap-$version.tar.gz)
+
+build() {
+    cd legacy_api_wrap-$version
+
+    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+    find $PKG \( -iname "README*" -o \
+                 -iname INSTALLER -o \
+                 -iname REQUESTED -o \
+                 -iname "LICENSE*"   \) -delete
+
+    chmod -R g-w $PKG
+}

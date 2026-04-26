@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZeYbXFesJEkf+LBryTt7BenJbWLd9h7PXrEajfB5CeIVEbXa+ZZoI0A5klq8JmouN7zEoLZysDmEKPGbQ8qr7wo=
+SHA256 (Pkgfile) = 3833c58f80ac0309a880f5529dee9e66ea5113276f11814f00a3222597dbc389
+SHA256 (.footprint) = 7e0afd6dc8f58b415fd62edb42c023c2019f9fda77f525c08cc4013beb9cb1c5
+SHA256 (donfig-0.8.1.post1.tar.gz) = 3bef3413a4c1c601b585e8d297256d0c1470ea012afa6e8461dc28bfb7c23f52

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZdLeQ/Ni1QM3Q1LvDR7+gA+5FYZx4IuxusIoHngs4Eum6fvgP8HSSMk48D+Z6jCAmSRY0Uhz1/SMf2pwpeRJwQo=
+SHA256 (Pkgfile) = 7b4ccfa40b1c9316a2400146cf0a51bae56ba8e3d461fcdaeca9001823320958
+SHA256 (.footprint) = 51ff8c3d92113d9d5f415a40f8b13ee5c3f207e87844d9ce199075fafee7892d
+SHA256 (pandas-2.3.3.tar.gz) = e05e1af93b977f7eafa636d043f9f94c7ee3ac81af99c13508215942e64c993b

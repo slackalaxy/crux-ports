@@ -1,0 +1,23 @@
+# Description: A python wrapper of the C library 'Google CRC32C'
+# URL: https://github.com/googleapis/python-crc32c
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-setuptools python3-wheel
+
+name=python3-google-crc32c
+version=1.8.0
+release=1
+source=(https://github.com/googleapis/python-crc32c/archive/refs/tags/v$version.tar.gz)
+renames=(python-crc32c-$version.tar.gz)
+
+build() {
+    cd python-crc32c-$version
+
+    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+    find $PKG \( -iname "README*" -o \
+                 -iname INSTALLER -o \
+                 -iname REQUESTED -o \
+                 -iname "LICENSE*"   \) -delete
+
+    chmod -R g-w $PKG
+}

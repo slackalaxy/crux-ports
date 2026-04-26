@@ -1,0 +1,22 @@
+# Description: Annotated data.
+# URL: https://github.com/scverse/anndata
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-array-api-compat python3-h5py python3-legacy-api-wrap python3-natsort python3-scipy python3-scverse-misc python3-zarr
+
+name=python3-anndata
+version=0.12.11
+release=1
+source=(https://files.pythonhosted.org/packages/source/a/anndata/anndata-$version.tar.gz)
+
+build() {
+    cd ${name#*-}-$version
+
+    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+    find $PKG \( -iname "README*" -o \
+                 -iname INSTALLER -o \
+                 -iname REQUESTED -o \
+                 -iname "LICENSE*"   \) -delete
+
+    chmod -R g-w $PKG
+}

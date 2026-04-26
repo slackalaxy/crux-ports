@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZUViZXWUnDqKvWCFGLAz3FCoJOd9gs2Uc/q6MHflFbE5f56kLKBn3QyUdAL6XSKv3dJp/dHT4zNG8O575aLkOwU=
+SHA256 (Pkgfile) = bf35a4033687170d058a359bd7793c54caaa6772a0747031959269a9fbf54732
+SHA256 (.footprint) = 926c43d90a27bfe04fc1993677239aeacbbd29a9d3d9cc63563ae8159cd3a39c
+SHA256 (hatch_docstring_description-1.1.1.tar.gz) = b15d93c273ba3736abc9e2c542bb42a728a6740703ff5ed85cc072ed49458ae3

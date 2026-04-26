@@ -1,0 +1,22 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/python3.12/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap-1.5.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap-1.5.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap-1.5.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap-1.5.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap-1.5.dist-info/direct_url.json
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap/__pycache__/__init__.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/legacy_api_wrap/py.typed (EMPTY)
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/testing/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/testing/legacy_api_wrap/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/testing/legacy_api_wrap/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/testing/legacy_api_wrap/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/testing/legacy_api_wrap/__pycache__/__init__.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/testing/legacy_api_wrap/__pycache__/pytest.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/testing/legacy_api_wrap/py.typed (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/testing/legacy_api_wrap/pytest.py

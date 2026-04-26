@@ -1,0 +1,19 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/python3.12/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description-1.1.1.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description-1.1.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description-1.1.1.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description-1.1.1.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description-1.1.1.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description-1.1.1.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/__pycache__/__init__.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/__pycache__/hooks.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/__pycache__/read_description.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/hooks.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/py.typed (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/hatch_docstring_description/read_description.py

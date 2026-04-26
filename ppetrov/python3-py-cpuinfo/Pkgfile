@@ -1,0 +1,22 @@
+# Description: Get CPU info with pure Python
+# URL: https://github.com/workhorsy/py-cpuinfo
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-pip python3-wheel
+
+name=python3-py-cpuinfo
+version=9.0.0
+release=1
+source=(https://files.pythonhosted.org/packages/source/p/py-cpuinfo/py-cpuinfo-$version.tar.gz)
+
+build() {
+    cd ${name#*-}-$version
+
+    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+    find $PKG \( -iname "README*" -o \
+                 -iname INSTALLER -o \
+                 -iname REQUESTED -o \
+                 -iname "LICENSE*"   \) -delete
+
+    chmod -R g-w $PKG
+}

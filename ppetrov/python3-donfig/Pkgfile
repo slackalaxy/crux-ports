@@ -1,0 +1,22 @@
+# Description: Python package for configuring a python package
+# URL: https://github.com/pytroll/donfig
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-setuptools python3-versioneer
+
+name=python3-donfig
+version=0.8.1.post1
+release=1
+source=(https://files.pythonhosted.org/packages/source/d/donfig/donfig-$version.tar.gz)
+
+build() {
+    cd ${name#*-}-$version
+
+    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+    find $PKG \( -iname "README*" -o \
+                 -iname INSTALLER -o \
+                 -iname REQUESTED -o \
+                 -iname "LICENSE"   \) -delete
+
+    chmod -R g-w $PKG
+}

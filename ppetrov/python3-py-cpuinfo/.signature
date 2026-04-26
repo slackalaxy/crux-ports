@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZc2hHxUKOOQYHJJxSP37Ps70GzRZHCe7JVDyYceXahpGCWa6l/z7sl7uThpZsPl7VpLHe2cIdal7qR+oGj6q2gU=
+SHA256 (Pkgfile) = 8e02fa12f82dfbdcf026cf7a3d8d35430f4e4c317b41dd57282f4503c4e8d93a
+SHA256 (.footprint) = 771575e3ceb46483cb107ae53d49718b33cac5a304c78328c6336986260be374
+SHA256 (py-cpuinfo-9.0.0.tar.gz) = 3cdbbf3fac90dc6f118bfd64384f309edeadd902d7c8fb17f02ffa1fc3f49690

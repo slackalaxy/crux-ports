@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZZyaq2qyyFI7xi+sElL7jc5cHj2ALcAR7rL0ed+GK2od902gAQWuPWM+KZ2UB1mMWU5C8wTfWAsgQ0woc6E/zwg=
+SHA256 (Pkgfile) = 3115a87365d6bbf0354a967ccce3c18f61ae9aaf76a87b05ee40e6a354bbe986
+SHA256 (.footprint) = 1e5c95db46bd3eaa79b6359657035ea1d6fe0b6e5e04a33ff0a1b7258f591da5
+SHA256 (legacy_api_wrap-1.5.tar.gz) = b41ba6532f3ebfe3a897a35a7f97dec3be04b92a450f6c2bcf89f1b91c9cadf2
