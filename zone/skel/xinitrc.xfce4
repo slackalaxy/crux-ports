@@ -37,11 +37,16 @@ fi
 ##  Start xfce Desktop Environment                                    ##
 ########################################################################
 
-#exec dbus-launch startxfce4 --with-ck-launch
+# Default
+# exec dbus-launch startxfce4 --with-ck-launch
+
+# --exit-with-session is unknown and startx fails
+# exec ck-launch-session dbus-launch --exit-with-session /usr/bin/startxfce4
+# exec dbus-launch --exit-with-session /usr/bin/startxfce4
 
 if [ -z "$DESKTOP_SESSION" -a -x /usr/bin/ck-launch-session ]; then
-  exec ck-launch-session dbus-launch --exit-with-session /usr/bin/startxfce4
+  exec ck-launch-session dbus-launch /usr/bin/startxfce4
 else
-  exec dbus-launch --exit-with-session /usr/bin/startxfce4
+  exec dbus-launch /usr/bin/startxfce4
 fi
 

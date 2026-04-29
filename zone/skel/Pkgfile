@@ -6,7 +6,7 @@
 
 name=skel
 version=3.8
-release=7
+release=8
 source=(bash_logout bash_profile bashrc nanorc xinitrc.xfce4 xprofile Xresources)
 
 build() {

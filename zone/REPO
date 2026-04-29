@@ -51,12 +51,12 @@ f:ab0f4eae8c1b9f3f7792db3b71939c6f:skel/bash_profile
 f:f9739473934c1f33ca56b6381b3162f1:skel/bashrc
 f:a2a4df698d0f09f0197f1229f283bd32:skel/xprofile
 f:9a9281549f774cbbb6a2fc229f7c0b7e:skel/bash_logout
-f:1bd2725e244db431cf1a4c25d446eee9:skel/Pkgfile
+f:69651e273aabf961476a080aaa803d4c:skel/Pkgfile
 f:a0ba4e8108379770667c7c3c0a913f97:skel/README
 f:02d7ff659faac26b09941714b1eb7556:skel/Xresources
 f:b97495a4af95c5ce45a4a8950e0e58b4:skel/.footprint
-f:5667378e6fc021c12d26a45fd2f1be70:skel/.signature
-f:8dffdc5b09ccde1983825905c17b3182:skel/xinitrc.xfce4
+f:b55a4b3dfa366a001cf8972da566d6e1:skel/.signature
+f:7c96c45a8abdf336498628e7971006aa:skel/xinitrc.xfce4
 f:fcb1ad0086da22d7bc847f22b73eb341:skel/nanorc
 f:a36cad5494121166b3ee3a9d9d060ecd:xorg-conf-keyboard-fi/00-keyboard.conf
 f:14266d42f3838b794848d25a7f24b20c:xorg-conf-keyboard-fi/Pkgfile
