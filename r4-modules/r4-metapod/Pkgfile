@@ -1,11 +1,11 @@
 # Description: R module metapod
-# URL: https://cran.r-project.org/web/packages/metapod
+# URL: https://bioconductor.org/packages/metapod
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-rcpp
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown r4-testthat
 
 name=r4-metapod
-version=1.19.2
+version=1.20.0
 release=1
 source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/metapod_${version}.tar.gz)
 

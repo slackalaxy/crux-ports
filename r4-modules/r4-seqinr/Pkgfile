@@ -1,13 +1,13 @@
 # Description: R module seqinr
 # URL: https://cran.r-project.org/web/packages/seqinr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran r r4-ade4 r4-segmented
+# Depends on: r r4-ade4 r4-segmented
 # Optional: 
 
 name=r4-seqinr
-version=4.2.36
+version=4.2.44
 release=1
-source=(https://cloud.r-project.org/src/contrib/seqinr_4.2-36.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/seqinr_4.2-44.tar.gz)
 
 build() {
 	cd seqinr

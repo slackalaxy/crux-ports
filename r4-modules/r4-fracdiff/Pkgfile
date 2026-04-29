@@ -5,9 +5,9 @@
 # Optional: r4-forecast r4-longmemo r4-urca
 
 name=r4-fracdiff
-version=1.5.3
+version=1.5.4
 release=1
-source=(https://cloud.r-project.org/src/contrib/fracdiff_1.5-3.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/fracdiff_1.5-4.tar.gz)
 
 build() {
 	cd fracdiff

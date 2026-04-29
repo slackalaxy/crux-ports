@@ -5,7 +5,7 @@
 # Optional: r4-curl r4-diagrammersvg r4-knitr r4-rmarkdown r4-rsvg r4-testthat r4-withr
 
 name=r4-diagrammer
-version=1.0.11
+version=1.0.12
 release=1
 source=(https://cloud.r-project.org/src/contrib/DiagrammeR_${version}.tar.gz)
 

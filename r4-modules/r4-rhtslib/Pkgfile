@@ -1,11 +1,11 @@
 # Description: R module Rhtslib
-# URL: https://cran.r-project.org/web/packages/Rhtslib
+# URL: https://bioconductor.org/packages/Rhtslib
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown
 
 name=r4-rhtslib
-version=3.7.0
+version=3.8.0
 release=1
 source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/Rhtslib_${version}.tar.gz)
 
