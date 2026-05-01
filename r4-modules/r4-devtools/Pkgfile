@@ -5,7 +5,7 @@
 # Optional: r4-biocmanager r4-callr r4-covr r4-curl r4-digest r4-dt r4-foghorn r4-gh r4-httr2 r4-knitr r4-lintr r4-quarto r4-remotes r4-rmarkdown r4-rstudioapi r4-spelling r4-xml2
 
 name=r4-devtools
-version=2.5.1
+version=2.5.2
 release=1
 source=(https://cloud.r-project.org/src/contrib/devtools_${version}.tar.gz)
 

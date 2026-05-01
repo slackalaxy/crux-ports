@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KicKLUGm4MccbLaPD1Kjihe4l6E3+vphJqnAb8CzGoQgn5f/3j8UOM2yDb/N1ILMkA08gJ6Z9PqvNhgvYFrRQI=
-SHA256 (Pkgfile) = 34d95716752ac0273fbb2d5598dd5a763c317b197e6d62cf627a56324a84edd3
+RWQ2oTreAss89EXLwe/QTc/JVq9csaKTuhA68SguFuidsBcLRGGP0IFYqHPWeBEY2dNuEIal88HxQJ9zz1iYmCx+DNipVvWUkws=
+SHA256 (Pkgfile) = a06ec4567883b90e27752e7a61fbbe2a25e35a7e2337a9e1eca4a1f69180197d
 SHA256 (.footprint) = bf14e981a5a1d2d10830e6452d6bde41bbf3dd285ebffe0dd3ec0a3c8153e0bf
-SHA256 (BiocBaseUtils_1.13.0.tar.gz) = 331f5afa94531f5a6721c114ed066f8a9b6bc1f7c80b19fdfeab0b5014945309
+SHA256 (BiocBaseUtils_1.14.0.tar.gz) = 6c9374d2e59a542fa6d419335178d8d0c06bab9abc2f8ddd34c8068b8d087390

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89Lb5k3J+2nGq4deZXPhg2BVhADESSH7UPvEorxCX5t/Bm03V0JU1g85NnhAKzELoVHcrlH9PNTCr9SLjsWn57Ao=
-SHA256 (Pkgfile) = 997bc36ba0931bc22d6baa680f421268acbd581a3fbb742fb17ecee3308d6268
+RWQ2oTreAss89FtmzqTGhyIlun3NzOAReUGN/TOuZK7ASd3nkxfFIfmjocqDQalko+Jv3mdjyEjuYsd6V/HaE1GE1T8N3+ZOvgw=
+SHA256 (Pkgfile) = 9e088b6bbe8b8803f7bd1f8766f427062b01af192c71ad3ec47ed7e7466d7920
 SHA256 (.footprint) = f86ac5d81fe6071b128a48f96dcd6178b72b0eb36ba9c4b7b6e0503db9ec65b0
-SHA256 (S4Arrays_1.11.1.tar.gz) = 8bbdf3957f5504939015a900f0e5ee8dd18b38a84dae624805fa6955bc163c81
+SHA256 (S4Arrays_1.12.0.tar.gz) = 46f4e1514e1c35b17ae70edfdf36248e324bd770ffd5041111f2a1db0e61e338

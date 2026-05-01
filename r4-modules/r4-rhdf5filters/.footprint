@@ -50,7 +50,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/rhdf5filters/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/rhdf5filters/libs/rhdf5filters.so
 drwxr-xr-x	root/root	usr/lib/R/library/rhdf5filters/scripts/
 -rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/scripts/generate_test_data.R
-drwxr-xr-x	root/root	usr/lib/R/library/rhdf5filters/tinytest/
--rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/tinytest/test-filter-io.R
--rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/tinytest/test-filter-read.R
--rw-r--r--	root/root	usr/lib/R/library/rhdf5filters/tinytest/test-plugin-path.R

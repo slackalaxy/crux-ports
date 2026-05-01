@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89D+2e62plrBayeY85EwOOnPit+O1pzgyBca3GOsBfYpXtcoxFsoHSh2uX6QmS+xMsB2uv6YLenK+fB7L/SRbaQ0=
-SHA256 (Pkgfile) = 9fd7143e186d177012170ce0ba58fea8bcd2517514f9abd9da1dc6fda675d30e
+RWQ2oTreAss89BV5kAcJwCQjxwE9yGjG53qSITtJpWoS+3DmKNkamU/7vX5jr5889CkWIjoJWlQntPZUnqAdp3WIFCM707btRgA=
+SHA256 (Pkgfile) = 3eb3219743e2a05252f11693062b00daa2718d86c930979e47c533bdd2d14193
 SHA256 (.footprint) = a3f01c33d8ffb933045faabecb9acc94dde0ce2431a6dffccdf0d74bb064a4a4
-SHA256 (BiocParallel_1.45.0.tar.gz) = 3499785f3641b158f341bd304d46b2f5e93df1a1241d3ccd8496bf3ae6e8ab7c
+SHA256 (BiocParallel_1.46.0.tar.gz) = d06642f7b53517299a48ac68b074c28e03dd1de41159562fb8011117419e1038

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89N58zuljtiepBcHVQ6wJUt9rgIQC/ZnVf2xyneA7a70TztHntXmFgPxlLjYdINvYfnZxOSIy4ATj5wW3lEUd0g8=
-SHA256 (Pkgfile) = de38a3e3bf478ffa77bd4a83628d5581750330eacc1367c95a19724c65209228
+RWQ2oTreAss89IbJhvieoHJ049R5Qywd/S6YR/8E6EsBBk0DgD/Lsmhf2xPMweRM2qd9LYv8KvsQ2s7QzUOGvVs5UKH04TQBhQI=
+SHA256 (Pkgfile) = 8b5b7e52783fdeb9a42903da71499f7d0badbcc2ccaa93bf599bb9ae07996d02
 SHA256 (.footprint) = 76fcf89529be30043fd9d19ce5d46b88196ec0740bb08a90a273c22b49bde065
-SHA256 (AnnotationFilter_1.35.0.tar.gz) = 9b3ecc4daf36e114496ac57906e546a4ddf1767d2cd6c8a87bade0264dcd054b
+SHA256 (AnnotationFilter_1.36.0.tar.gz) = f608688c640affe50611c56032505f2988ff9892dc3a323177d2a9248cf1464e

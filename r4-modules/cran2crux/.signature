@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89EED9GMduru17fDfbOkvIRHZ/BESwrb0w+3MoX+En9H8SIoJiSEXg9I6DL8hfJHYhi9bdLqkdiR3sMmkrJN2LA0=
-SHA256 (Pkgfile) = bf7bcf4bbd7c07f2b0242597df2fe1ff981caa1e3f8710d6c03ca5957e3ee45c
+RWQ2oTreAss89C4Dhtcf3tOoHzqD/eKhIPl+WJgiEU1AyRAIGLIZ50heJiRLgw1Ajc/dnRpfhqpgjs8RTPypuo4lKi7CyT1HOwM=
+SHA256 (Pkgfile) = 69ccdb90afa8cf292aa1354087707daf6fbca22f74dceeecbff0064ec6d6a2e7
 SHA256 (.footprint) = 7caf968ebb609947f8b165011834ff03a6163675e467d26322deea7bdc8166c4
-SHA256 (cran2crux-42c90a1cb85260d458a49bf10f182465aa851aa0.tar.gz) = 1efb7c250378b51ef54ba6c9443e2652ff0f82f8148b3caff8a58d57beae699a
+SHA256 (cran2crux-df0ada073ffc9ec44ef84fb3ada14c4df9f6b039.tar.gz) = e4873e317fdf34884052aa3f42d470bb25cbe3a0f2c1be62a403b0198e98ac32

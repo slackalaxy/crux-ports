@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BBoU7fZIp6m8SGwY3dBljvd6uG0kN2B3d3dQz6JCfd9daZzwqnwU4g7pdUvAzQ6HaS5LYX9VCEOJeX8RkMScg8=
-SHA256 (Pkgfile) = 435d6912b7387e81322a7a748d7f8fb4b1ebd4b1f26383eca8a12ef4ca552cfe
+RWQ2oTreAss89LpHbnwAkmQjdzWwBR15s6urRSAGvJGt0VM4g1xCdwiF/nrmquxUS52Sly28vVxgTKbYSwY/efm6lHPYSawYmgE=
+SHA256 (Pkgfile) = 585ba8b2c4bf2e4405687d925b2f876511d8b9279df09879fa1a3db5afd05d17
 SHA256 (.footprint) = 4c3d51065f2fd8f92bd9147f49d8221c83f3ca11031466b997be174b3d050ccb
-SHA256 (DiagrammeR_1.0.11.tar.gz) = e873e3d6e198232408161661001ddcb04c9a56065bb4703c925e538462f4c4df
+SHA256 (DiagrammeR_1.0.12.tar.gz) = 4205fbf908d8318cf652dbd57f13c5846b652bab02edbaf543ba97ed25e87e36

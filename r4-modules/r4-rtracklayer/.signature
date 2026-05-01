@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89CJlL0XOOKNFl/+43mTxam00YnMvwr9w/2rYvh0w+XTu0iEAFw+G/UHURmdi3at2Re2f9d5MQKTYn1GkiITSiAo=
-SHA256 (Pkgfile) = 667c3a7c26ac0489449ecaff3fe44c7486a64752a1a2a4afec9a681bc2646115
+RWQ2oTreAss89FEjTX6i1zgYmr/5pV/B+55cxFYAuJ9SXjB1AmNSGTmexJGWC+DcwWr8N1muGgpuTiiGwvnKz3G6eesJasyEfQA=
+SHA256 (Pkgfile) = abaebb2e370e71f493a9ab04c284612ca88165dd8ac8ae100e583d25c77915c3
 SHA256 (.footprint) = 90b80a716697ec2a32703ea22496d04bd56e6967e083969c45b7c98a592b77d1
-SHA256 (rtracklayer_1.71.3.tar.gz) = 20f4d5883fc1e5513347f5922b890765dfc052d410b1c2341684b920fe57fe37
+SHA256 (rtracklayer_1.72.0.tar.gz) = dd885d8a0fe7fe0805ca73abf5f6523554f59108a578ed3c1db21efa2f5348df

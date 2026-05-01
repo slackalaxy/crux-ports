@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89AIz0IYqC9ziiFEi5ENP76pON/f9KeeXVNbgMjbFPj7wtKGgqdNLslGla3gycAYQRDkHee9HpZHdGSamlRfDTQA=
-SHA256 (Pkgfile) = 84a4541d24d04a06a7330142624ae3a30fb0496996a8a6898cbe3adaf07023bd
+RWQ2oTreAss89OJn2ovYKYZOiODv8pomNhW3vJXL9+Ihj+k6dHfOX7vX/uKuzhIWPzrnTaISFvMrOcYpRyU2K0pY4E8UN6hOhgI=
+SHA256 (Pkgfile) = 3cc90bb650aa09ee535d5ba29cbd85957e4203286a27a019a554559a7a36dd41
 SHA256 (.footprint) = 4681bad637d3b12db56aae12166fe382eb1e336dc527575779a45a5b4d9616b9
-SHA256 (GenomicRanges_1.63.2.tar.gz) = 7622ed0d4aadbae363527fa636eb0234e49ff0f0388b3d698bc533d8a649b473
+SHA256 (GenomicRanges_1.64.0.tar.gz) = 09fee555b60be2f54c8fa35b0a2238fea9a1b96dea24e9a8c52166b61d44f776

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89CqbDNdhG2JutIcRj0ERB0RvL3jG4k792J2ShDwQc2pBEJFW/h+lDpXVozSeexOLNxW6ICv64WboHUZ8vxWSIQs=
-SHA256 (Pkgfile) = 4e5ee5f349a145f48518a2d6adc37856708c9effabdd731ccad868ae6bb6f1eb
+RWQ2oTreAss89CwzeCz6+MG+5nU5mnzrRGBew+el7cIXBiWTBmH/9uBjI4yPtE1QNwjr/ki1hEf4rUx/WN03ArYFUBwFWtueCQs=
+SHA256 (Pkgfile) = 2ecef1d487bf3526e33f0bda06252a6ffa1ec4f32628ae416a5f42f09bd7e32c
 SHA256 (.footprint) = 124492dc28a9e7c579cf73f59f2907636ffd1b18935f3384bd66d3af74b043e2
-SHA256 (UCSC.utils_1.7.1.tar.gz) = 5dc2cd84dcdb79c0d330b671255f7c92bc16f4a1bdcc8bb59a95c3cdccdc3512
+SHA256 (UCSC.utils_1.8.0.tar.gz) = 1e215d70540880793065b90d513ee37ef44a29983802e4487eb5d8b6851b8a8a

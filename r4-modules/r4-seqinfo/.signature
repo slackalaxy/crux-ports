@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89BxxGxOFj5AEI4SjIetH3JIHqL4cqYgmH5exZHxFXf309LBBGHu4t+5/5sBnNoDVq0bjvbdDh9asWwmx8gbu9Q4=
-SHA256 (Pkgfile) = 406149d7dff420f65617174a983f48917fbe9d27a4fe4b1fef9b8736aa93fbfb
+RWQ2oTreAss89D7oiPnZjdZQPDhXdApXvCDVNCoC93iqbzdSgqi7+VRTlYTxQI3PtBB504iqpF6awlj1Oi0djtTsHkYcSar3cg8=
+SHA256 (Pkgfile) = 55b7aa5c80fff9ce39ad7f7bc65ea812db74605a0fa85ee82da4b52a55ca5217
 SHA256 (.footprint) = 3beb60df336c54bfcae49e07cc32fcad31cdcc3d6be473f5ecaa9c29991c645d
-SHA256 (Seqinfo_1.1.0.tar.gz) = 44ece216df5bab78f64d9302ba613a1aaac79e02d642f6d016e87e4eaad805bb
+SHA256 (Seqinfo_1.2.0.tar.gz) = f86693fd96ff24dc4f79c340040d68256be53690fe14f06330af5c356ea3a073

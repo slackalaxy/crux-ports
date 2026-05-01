@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FntkphRN0nEGlC58TQcDHNbdwNqD4x9DKyqWVfQz3u5FwuMu0BGNj34VACI9EPojT+aQtFnqVu6Ecx/3si3SQM=
-SHA256 (Pkgfile) = d48dac3f4756e61913c76d30cf2e0f11373430f582a53045ff04c06172c64c1f
+RWQ2oTreAss89GC3aa7OCl1XrXCenugMIrA/u6JQCJfDvT/LMuSS7mgVpV58ks+t4wk6zQTDWwxBxLh5Pd0LQcx5YpOnA9B29ws=
+SHA256 (Pkgfile) = 1c85f287dfe342270f5f515cc5fc5f1d88d9bc759643b4a089aef24f3aaf5be9
 SHA256 (.footprint) = 82a0a5dc9a860290430f61f0fd0f854cbcd0dc7f8f507a4d442525d80f348867
-SHA256 (GenomicAlignments_1.47.0.tar.gz) = 71d0c34dcea35aca299020000fcaf0b97af56a11828463110c3d01b94ae809cb
+SHA256 (GenomicAlignments_1.48.0.tar.gz) = a8c0f7c4aaef1c907b887ba95dd678b3400f5a564bf654fff868a745d43c503e

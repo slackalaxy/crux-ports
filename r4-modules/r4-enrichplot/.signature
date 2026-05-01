@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89KX1XZAm1eO+LpUzFQnFdncdgUvdQbY/GePo1dG87M75fIYXcc0AXJ3PMTgzzNJotSyRxSSi33UsVnQxcRsJKwQ=
-SHA256 (Pkgfile) = a2b8781059e8eeeb74f35eab48aff226fea7606aef056fc1336f132441db8ed9
+RWQ2oTreAss89PuSLmj5SsmrYg4+sDxV+cweYGLWi+wveMn6Ynyc4dVcBAzXDpsL792K8y16u+C8FYUoGaRTkwOyt9Djqq5r7AE=
+SHA256 (Pkgfile) = d5c2e15f060563879f074d364d0802eae1c45e917261b309f2ea6b30a8841120
 SHA256 (.footprint) = 4a8a9443a63a96ad63d4e146f930a4899cfe8265c486ad1f7e8e76703b22d189
-SHA256 (enrichplot_1.31.5.tar.gz) = 64cc2761965e3ccb485966286e1420f9f2a93f3a7f68a1560caf55e46b7ca22a
+SHA256 (enrichplot_1.32.0.tar.gz) = b87b1ed8f7cee54fe1c04bba2d99de0f51f71bb2c39ee495d6a7f02420c4934a
