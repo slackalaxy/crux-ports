@@ -221,6 +221,7 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/SLAC.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/SingleOmega.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/aBSREL.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/clade_support.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/contrast-fel.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/contrast-meme.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/error-filter.bf
