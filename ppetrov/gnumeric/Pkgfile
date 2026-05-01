@@ -4,8 +4,8 @@
 # Depends on: goffice
 
 name=gnumeric
-version=1.12.60
-release=2
+version=1.12.61
+release=1
 source=(https://download.gnome.org/sources/gnumeric/${version%.*}/gnumeric-$version.tar.xz)
 
 build() {
