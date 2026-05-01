@@ -1,10 +1,10 @@
 # Description: An implementation of chunked, compressed, N-dimensional arrays for Python
-# URL: https://github.com/zarr-developers/zarr-python
+# URL: https://github.com/zarr-developers/zarr-python/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-donfig python3-google-crc32c python3-hatch-vcs python3-numcodecs
 
 name=python3-zarr
-version=3.1.6
+version=3.2.0
 release=1
 source=(https://files.pythonhosted.org/packages/source/z/zarr/zarr-$version.tar.gz)
 
