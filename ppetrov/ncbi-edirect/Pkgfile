@@ -1,10 +1,10 @@
 # Description: Command line access to Entrez databases
-# URL: https://www.ncbi.nlm.nih.gov/books/NBK179288/
+# URL: https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on:
 
 name=ncbi-edirect
-version=25.3.20260410
+version=25.4.20260427
 release=1
 source=(https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/edirect-$version.tar.gz
 	https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/rchive.Linux.gz
