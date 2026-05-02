@@ -1,11 +1,11 @@
 # Description: Dummy port for the ppetrov repo
 # URL: /usr/ports/ppetrov
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: acpid aiksaurus bluecurve caps-coev datamash gbgoffice gnumeric hexchat hplip hyphy lalnview mtpaint mumsa muscle5 ncbi-blast-plus ncbi-datasets ncbi-edirect onlyoffice openvpn otf-apple-sf-mono pal2nal paml phyml polar-cursor-themes prank puddletag python3-anndata python3-tinycss2 python3-umap qt5ct qt6gtk2 rstudio-desktop seaview seqkit smplayer squizz sshpass strawberry tk treebest ucsf-chimerax ugene viber vscodium wps-office xscreensaver yt-dlp zoom-linux zotero
+# Depends on: acpid aiksaurus bluecurve caps-coev datamash gbgoffice gnumeric guidance hexchat hplip hyphy lalnview mtpaint mumsa muscle5 ncbi-blast-plus ncbi-datasets ncbi-edirect onlyoffice openvpn otf-apple-sf-mono p5-cpan-distnameinfo pal2nal paml phyml polar-cursor-themes puddletag python3-anndata python3-tinycss2 python3-umap qt5ct qt6gtk2 rstudio-desktop seaview seqkit smplayer squizz sshpass strawberry tk treebest ucsf-chimerax ugene viber vscodium wps-office xscreensaver yt-dlp zoom-linux zotero
 
 name=meta-ppetrov
 version=3.8
-release=3
+release=4
 source=()
 
 build() {
