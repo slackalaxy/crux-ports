@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZRRM01wIwQV3CJfqNwdNg+QqzcOJzLFiIe6nxc0EihKLdSJbxIFAP5PlYPoU2E4OStBo6xwmQowoiOzWiwkcdgU=
+SHA256 (Pkgfile) = 5c9a596d89ef06614aa4838ce3c403a8e6abe3297401cb59ede52a8f22a1a6f2
+SHA256 (.footprint) = fd5d109bb6ee7499878f501efc36ec853cd17aff6ba25c1af24b1ec45f142bb8
+SHA256 (libxml-perl-0.08.tar.gz) = 4571059b7b5d48b7ce52b01389e95d798bf5cf2020523c153ff27b498153c9cb

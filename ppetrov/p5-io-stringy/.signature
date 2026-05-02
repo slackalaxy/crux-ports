@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZUtdOPJb54hGE3kYKqz5B/5vvqr58sKTSqWnV8L2kEN9qNu/jX93FYHeP5RJQyNiQCeNY4erOcp/4tTMGuw1KAc=
+SHA256 (Pkgfile) = 4a40e28e8b6929f59ea2178ea991915eca5913b886b5861fe7b09b6b546c0288
+SHA256 (.footprint) = 9f02b414134c7b1dd265d9d38269eb6d8815592c7e58d076c4e1fc0f460b0bf0
+SHA256 (IO-Stringy-2.113.tar.gz) = 51220fcaf9f66a639b69d251d7b0757bf4202f4f9debd45bdd341a6aca62fe4e

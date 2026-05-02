@@ -1,0 +1,26 @@
+# Description:	Perl modules for biology
+# URL:		https://metacpan.org/release/BioPerl
+# Maintainer:	Petar Petrov, slackalaxy at gmail dot com
+# Depends on:	p5-data-stag p5-error p5-graph p5-http-message p5-io-stringy p5-ipc-run p5-list-moreutils p5-set-scalar p5-test-most p5-test-requiresinternet p5-xml-dom p5-xml-libxml p5-xml-sax-writer p5-xml-twig p5-xml-writer p5-yaml
+# Optional:	p5-bio-db-ace p5-bio-db-embl p5-bio-db-ncbihelper p5-bio-db-swissprot
+
+name=p5-bioperl
+version=1.7.8
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/C/CJ/CJFIELDS/BioPerl-${version}.tar.gz)
+
+build() {
+	cd BioPerl-$version
+
+	# PERL_MM_USE_DEFAULT=1 \
+	perl Makefile.PL
+	make OPTIMIZE="$CFLAGS" DESTDIR="$PKG" install
+
+	find "$PKG" -depth \
+		-type f \( -name .packlist -o -name \*.bs -o -name perllocal.pod \) -delete , \
+		-type f -name autosplit.ix \( -exec grep -q '^[[:space:]]*package' {} \; -o -delete \) , \
+		-type d -empty -exec rmdir {} +
+	
+	cd $PKG/usr/lib/perl5/site_perl/5.40/Bio/
+	ln -s /usr/lib/perl5/site_perl/5.40/BioPerl.pm Perl.pm
+}

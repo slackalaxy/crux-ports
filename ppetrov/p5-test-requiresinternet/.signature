@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZXCHwPKK8alDl7gEjwjuZclTh2M8OSuTDbigVst8RixIjUBt4+EMCCJ1/x7IEIHa1V5VT+xMLP8NT/3TdyW9VA8=
+SHA256 (Pkgfile) = df28e79eaca6ffcba328da8c35413a3fed2c95c522833864d3cd732960226ed0
+SHA256 (.footprint) = b3d77bcd9917a5090f70bbf085eae36b0dc5ed57d1e37dd67db83a536ebdd9cf
+SHA256 (Test-RequiresInternet-0.05.tar.gz) = bba7b32a1cc0d58ce2ec20b200a7347c69631641e8cae8ff4567ad24ef1e833e

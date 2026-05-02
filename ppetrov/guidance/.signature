@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZUyb7wlZNkK3BPHBE7Sx1eh9CBVy4UEBa4EJNcqkk0+bb0bwosKcwnAVvXu6UVyZ0TONAIqhLvGq6p21m1TYAwA=
+SHA256 (Pkgfile) = c97b04985851825170f7fb1f73fd47efc94f9969410d2377efed38ab07aed389
+SHA256 (.footprint) = 5f1cefd3b2dd15caa07aea1d032c084ecf71d941d52fe80d1c1af99a6b6b3c5a
+SHA256 (guidance.v2.02.tar.gz) = 06e7cbf335ea69f4aafb455a855d046f9bfab3715a9b6f0d589a2095b4ee60e5
+SHA256 (guidance.sh) = 6c18d04cba843270206e868f637864fcf04fd4c1810949a6a86c05f304447943
