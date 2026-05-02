@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwbqi2EiEtUpuB/orHfrl7SuPBJhFWXcdQXRGSaIStH7abPc7xdckTcgRgfplxJhnYtyAVX8aLstKRMWGL7M40AM=
+SHA256 (Pkgfile) = df43949ebddc508cb874d6c1793dec3468706d837d097a3346e4e666a5212ae4
+SHA256 (.footprint) = 04d55e8cd2075776fc096fdead490d5eaa43a93c0dd979a161c08e40c7776663
+SHA256 (cpan2crux-1.4.pl) = e71d5ebf48562b17b93f8b27c9a8c3db7b596215c4983cf62743e7eb5e0e8a23
