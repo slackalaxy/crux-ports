@@ -1,8 +1,7 @@
 # Description: BLAST+ Command Line Applications
 # URL: https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
-# Optional: lmdb
+# Depends on: lmdb
 
 name=ncbi-blast-plus
 version=2.17.0

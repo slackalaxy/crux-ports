@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZagl7Y0l3dhOWgkr1ahDICgXEMNwA4B5hGb32vsyYNE6TVom+c0Yp66LOqCCon5Chw8amjFBI8nkho/NsItfsAg=
-SHA256 (Pkgfile) = 15b6d6fcd4310d70759f98d22dff0adf16352fd04c87965e4e9fe088f170903e
+RWToVVsIkzFIZeBSlEukjGGxU4liX8DFtdnt/7RQyyyPnazfmWAcHVFFv84zRxr8vtYrNEl0R89S8Vo/Ch89UIOi2N0PLZcUKwU=
+SHA256 (Pkgfile) = 494c8b898ce07e1028d2cf594801a5199a4086b2ccbef73292be6597c89f6f7c
 SHA256 (.footprint) = 40bb63080fd200b657b07ac3e91e169311930df3005331a335178f4af9b47305
 SHA256 (ncbi-blast-2.17.0+-src.tar.gz) = 502057a88e9990e34e62758be21ea474cc0ad68d6a63a2e37b2372af1e5ea147
