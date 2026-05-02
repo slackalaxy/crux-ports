@@ -5,7 +5,7 @@
 
 name=ncbi-edirect
 version=25.4.20260427
-release=1
+release=2
 source=(https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/edirect-$version.tar.gz
 	https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/rchive.Linux.gz
 	https://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/$version/transmute.Linux.gz
@@ -18,7 +18,7 @@ build() {
 	# Move these to their proper place
 	mkdir -p $PKG/usr/share/edirect
 	mv ./{cmd,eutils,help,data} $PKG/usr/share/edirect
-	#mv readme.pdf $PKG/usr/share/edirect/manual.pdf
+	mv EDIRECT.pdf $PKG/usr/share/edirect/help/EDIRECT.pdf
 
 	mkdir -p $PKG/usr/lib/edirect
 	cp -a extern/* $PKG/usr/lib/edirect

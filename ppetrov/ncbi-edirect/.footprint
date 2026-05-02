@@ -1,6 +1,5 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/EDIRECT.pdf
 -rwxr-xr-x	root/root	usr/bin/accn-at-a-time
 -rwxr-xr-x	root/root	usr/bin/align-columns
 -rwxr-xr-x	root/root	usr/bin/amino-acid-composition
@@ -233,6 +232,7 @@ drwxr-xr-x	root/root	usr/share/edirect/eutils/
 -rw-r--r--	root/root	usr/share/edirect/eutils/xtract_test.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/yaml.go
 drwxr-xr-x	root/root	usr/share/edirect/help/
+-rw-r--r--	root/root	usr/share/edirect/help/EDIRECT.pdf
 -rw-r--r--	root/root	usr/share/edirect/help/efetch-help.txt
 -rw-r--r--	root/root	usr/share/edirect/help/efilter-help.txt
 -rw-r--r--	root/root	usr/share/edirect/help/einfo-errors.txt

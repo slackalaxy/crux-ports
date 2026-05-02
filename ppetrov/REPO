@@ -474,10 +474,10 @@ f:f8fdf3f639440700636246064c0c9f4f:python3-pythran/Pkgfile
 f:67e1582a77a13b93397d6c4e7f6e4d17:python3-scipy/.footprint
 f:cd05120c901b63fe811de38b7f74aa85:python3-scipy/.signature
 f:331ee8e1f678a58b22a3d31673360985:python3-scipy/Pkgfile
-f:f58b9e42e913299948d50cb55f32df1b:ncbi-edirect/Pkgfile
-f:66a7c0a1ecae96a73f46d57e57d6312d:ncbi-edirect/.footprint
-f:c33875da4e2f52849c16e68ed90bfa33:ncbi-edirect/.signature
-f:851a8299e77bd1f7ca67593bdae4bb9d:ncbi-edirect/README
+f:e09f0b795b0ef9fe18651484b44377ec:ncbi-edirect/Pkgfile
+f:119c2cc8aadb44d9042ab09d7a95c1a8:ncbi-edirect/.footprint
+f:f7e4bf70dbe66fec2f82ec4bdfffdeee:ncbi-edirect/.signature
+f:e7755509588df847950dbd6273200319:ncbi-edirect/README
 f:f362bb305999c44d4b2c2e9406b99733:python3-anndata/Pkgfile
 f:0db0cae7dbe2d2304cb92e7d73566e29:python3-anndata/.footprint
 f:41f9d9ffd92a6e93dd76d1ec98e5025d:python3-anndata/.signature
