@@ -5,12 +5,13 @@
 
 name=python3-llvmlite
 version=0.43.0
-release=1
+release=2
 source=(https://github.com/numba/llvmlite/archive/v${version}/llvmlite-v${version}.tar.gz)
 
 build() {
   cd ${name#*-}-$version
-
+  
+  sed -i "s/spawn(cmd, dry_run=dry_run)/spawn(cmd)/" setup.py
   ## THIS REQUIRES A SPECIFIC VERSION OF llvm
   # Find and use the llvm14 libs
   export PATH="/usr/lib/llvm14/bin:$PATH"
