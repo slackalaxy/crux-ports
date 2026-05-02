@@ -648,6 +648,9 @@ d:r4-aisdk
 d:r4-biocmake
 d:r4-dir-expiry
 d:r4-enrichit
+d:r4-biocpkgtools
+d:r4-biocviews
+d:r4-rbgl
 f:1b298a2282c2bdbf820bbe8c86dc2ea8:r4-ggplotify/Pkgfile
 f:fb3aac9d5c926cc6608398b7aab5120e:r4-ggplotify/.signature
 f:71c7851c9a269938b25e318ac8912552:r4-ggplotify/.footprint
@@ -1577,8 +1580,8 @@ f:d905ec83f3c15296184d33449462446f:r4-ztable/.footprint
 f:e5597d650e0ea2a83f155d80f0994706:r4-ztable/Pkgfile
 f:a52a4f4232f708671c851efa03619182:r4-ztable/.signature
 f:b4e187b20626aa2f9c984f0c703389ab:r4-sparsearray/.footprint
-f:b32a3b3fe621c57330854d93edc99ca0:r4-sparsearray/.signature
-f:e23c14615f19cff78e2029b432409084:r4-sparsearray/Pkgfile
+f:f7cfc2ab683ecdd72f5d93ffb5d1a8e0:r4-sparsearray/.signature
+f:c92200c4456d7f89f28062187da2dee5:r4-sparsearray/Pkgfile
 f:7ec87acdc41724c9205857d1dac45205:r4-spatstat-geom/.footprint
 f:26ece92f375c1dd6d7fec36754716b23:r4-spatstat-geom/.signature
 f:0ee352fda925b9c4bcd7964ea38093ea:r4-spatstat-geom/Pkgfile
@@ -2000,9 +2003,9 @@ f:20eb1aa9e3f092344664ad155b43e755:r4-tfmpvalue/.signature
 f:0e1e8473ed6141c56ecf1bb602d5b032:r4-anndata/.footprint
 f:8bd18dfb5375a17db7244b37bb9807ca:r4-anndata/Pkgfile
 f:2178033e85a201df7c62b9876db736e4:r4-anndata/.signature
-f:fe4c5fe89b64d75816d5781ca7450c2a:cran2crux/.footprint
-f:79003130f67d12a6f9ada1f26e58adab:cran2crux/.signature
-f:e0b8b13ca2a13349a425709994d3d899:cran2crux/Pkgfile
+f:529517f783a0b0d4ab7452578e444e27:cran2crux/.footprint
+f:9cd6a3106d39f03b9ede0a8bb7d7ecc6:cran2crux/.signature
+f:a1124a703c3a33837615fcb33f12de55:cran2crux/Pkgfile
 f:6d97a935beff3047c85787eff9262748:r4-aplot/.footprint
 f:b0c801f84d9a3e802c577e7eb6bf3eb8:r4-aplot/.signature
 f:7efa97cd31601648021442ebc661103e:r4-aplot/Pkgfile
@@ -2605,3 +2608,12 @@ f:faddb6dcb79e576a6abeb006918492d1:r4-dir-expiry/.signature
 f:e6bc7c63d63fe7305595e44b3eb3927f:r4-enrichit/Pkgfile
 f:142c2c830e7edb0e60a834d7de6ad8ff:r4-enrichit/.footprint
 f:e545e55a8dab8b70203353de905b0c9b:r4-enrichit/.signature
+f:f503f8ba8e1b8961c0f2a6a1631d0057:r4-biocpkgtools/Pkgfile
+f:0309d3a97c5fc3a6053a698359d9e22d:r4-biocpkgtools/.signature
+f:92269cf7fb2bb14ed42d6c9995f8339b:r4-biocpkgtools/.footprint
+f:3b821f5b773b8d8f65409aead05f89ab:r4-biocviews/Pkgfile
+f:319c0603f8ae4b8e6c01bd9c77adac89:r4-biocviews/.signature
+f:fd8f842c05f2792248c02467b6b790e4:r4-biocviews/.footprint
+f:790fe381e44ed079300766aebfaa1ba2:r4-rbgl/Pkgfile
+f:08727b71d602df42f0e2011c73d9206e:r4-rbgl/.signature
+f:5a7f080d4ddd2d7435848779f681626d:r4-rbgl/.footprint

@@ -1,0 +1,16 @@
+# Description: R module biocViews
+# URL: https://bioconductor.org/packages/biocViews
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biobase r4-biocmanager r4-graph r4-rbgl r4-rcurl r4-runit r4-xml
+# Optional: r4-biocgenerics r4-biocpkgtools r4-biocstyle r4-commonmark r4-knitr
+
+name=r4-biocviews
+version=1.80.0
+release=1
+source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/biocViews_${version}.tar.gz)
+
+build() {
+	cd biocViews
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
