@@ -35,6 +35,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/glmnet/doc/
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/Coxnet.R
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/Coxnet.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/Coxnet.pdf
+-rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/coxdev.R
+-rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/coxdev.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/coxdev.html
+-rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/glmnet-history.R
+-rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/glmnet-history.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/glmnet-history.pdf
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/glmnet.R
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/glmnet.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/doc/glmnet.pdf
@@ -48,8 +54,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/glmnet/doc/
 drwxr-xr-x	root/root	usr/lib/R/library/glmnet/help/
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/help/aliases.rds
-drwxr-xr-x	root/root	usr/lib/R/library/glmnet/help/figures/
--rw-r--r--	root/root	usr/lib/R/library/glmnet/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/help/glmnet.rdb
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/help/glmnet.rdx
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/help/paths.rds
@@ -61,5 +65,3 @@ drwxr-xr-x	root/root	usr/lib/R/library/glmnet/libs/
 drwxr-xr-x	root/root	usr/lib/R/library/glmnet/mortran/
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/mortran/README.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/glmnet/mortran/coxnet5dpclean.m
-drwxr-xr-x	root/root	usr/lib/R/library/glmnet/testscripts/
--rw-r--r--	root/root	usr/lib/R/library/glmnet/testscripts/save_results.R

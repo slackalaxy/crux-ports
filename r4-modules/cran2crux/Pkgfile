@@ -4,16 +4,11 @@
 # Depends on: r4-biocmanager
 
 name=cran2crux
-version=1ee8148
+version=08bfba3
 release=1
-source=(https://github.com/slackalaxy/cran2crux/archive/$version/$name-1ee8148480dd3f8c7f250f7efe018ba56c19b733.tar.gz)
+source=(https://github.com/slackalaxy/cran2crux/archive/$version/$name-08bfba395152eb084c00779590691a0274db687d.tar.gz)
 
 build() {
 	cd $name-${version}*
-	install -D -m755 $name $PKG/usr/bin/$name
-	install -D -m644 $name.conf $PKG/etc/$name.conf
-	install -D -m644 cran2pkgfile.R $PKG/usr/lib/$name/cran2pkgfile.R
-	install -D -m644 old2new.R $PKG/usr/lib/$name/old2new.R
-	install -D -m644 repos2db.R $PKG/usr/lib/$name/repos2db.R
-	install -D -m644 $name.1 $PKG/usr/share/man/man1/$name.1
+	make install DESTDIR=$PKG
 }
