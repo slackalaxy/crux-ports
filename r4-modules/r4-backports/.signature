@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89H5ehgWjWuSXVBbxegRwvXtm8r3jWwT5Sh/OIpRG0gfvvBRTPfl+3/968W+CXNlMhifJ31ofhyPmgjHJOGbRQgc=
-SHA256 (Pkgfile) = 8571bf21895d2bb00173fb883b292d2bf5cf0bd5669d9f76a3d902c3616dc3d3
-SHA256 (.footprint) = 0f72c0c44ff60cf4855b0a0da1ccd680541086b38237433710d61de67360e39b
-SHA256 (backports_1.5.1.tar.gz) = b8eeeabe3c27e1486f43e0b18dae57f0e870dd7c6979d3668df76bf0d4735bad

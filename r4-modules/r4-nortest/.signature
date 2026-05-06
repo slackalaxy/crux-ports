@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89FFpmHD78XR19iROazTdCEVvG56l0wlidLErq6XzsvdZWnVVBjRnNiVkfioTroBOL5t5EuCD3n8DBdlhyvqLWwo=
-SHA256 (Pkgfile) = 0180e609a95d83d3db48c0de73fba722c3aacafd93a21359058dc0827e9b4839
-SHA256 (.footprint) = 580eaafe2358dabb83715b5d9b55a206b01a81226a9c73153f59e758d8729848
-SHA256 (nortest_1.0-4.tar.gz) = a3850a048181d5d059c1e74903437569873b430c915b709808237d71fee5209f

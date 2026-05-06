@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89K3bAltg5Clna0EMpmbqmIYruXy+M9g3jqZxFUjuVpazf6At6uTvzpl62A1QPlmOVD2/VMbY0SkrYFcAWT01AQM=
-SHA256 (Pkgfile) = 8f62bf207e909227a5fb76c75cc5bd8e807fbdc55a311a2091bc393e20298212
-SHA256 (.footprint) = 47a6334079a090da7aeb014dcdb517012bc4498d1d068dcc6ee12af5e6d4434d
-SHA256 (foreach_1.5.2.tar.gz) = 56338d8753f9f68f262cf532fd8a6d0fe25a71a2ff0107f3ce378feb926bafe4

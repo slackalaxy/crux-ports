@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/r4-modules.pub
-RWQ2oTreAss89MVQsAS8FQBsd0RdJmkzEGGZRsbQxVl1V2AEJHd060yvyDphH3szIKRepA218jDmhBLlMMIWHmm+7zPFYpXbZg4=
-SHA256 (Pkgfile) = f611d19d524e953c55fe658474588d96216abba9a9324ca165fc3f367a380e3b
-SHA256 (.footprint) = b01f878ad9e72e2cb69080ed500937f4b1a87c6567f5beb574398af5a1a83f19
-SHA256 (rngtools_1.5.2.tar.gz) = 7f8c76ca4c7851b69a86e27be09b02ddc86357f0388659ef8787634682e8a74d
