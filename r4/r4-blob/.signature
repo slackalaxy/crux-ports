@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YkU10xRmZgg60vEY4pknroJfANbYHa/8byGp+WtRWKLYT05yzj3EilnllRa/UpEuFGxbPfsmmqjoesAb7fbUBwg=
+SHA256 (Pkgfile) = 4dd99b06b0f8c92741861b67310818ef2065683571a48204ffd1d89102f768cb
+SHA256 (.footprint) = 72fb450eaf3c7f9a180c8497c89a603f136ffd3624aeb32b103e054d7235c352
+SHA256 (blob_1.3.0.tar.gz) = d4d2aeb8d17683bbfc256a7541e282af9663a752988a21a6ba72a4ab268c7331

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YloG0xMSOZIma/L8oQeSJZvu/hT3/fCBuMwNzyPuRV/tQx0Xb7lDMQMStGaAr0L7S/p0XD1RWo1POMRxUB19ZAQ=
+SHA256 (Pkgfile) = 0b3589fd72cd0dbacc5ebd4076a4b94e1b971aafbdae98d36a6cc6f54f5d1d34
+SHA256 (.footprint) = d90e4827a8cfaef2202bac7409daca114dc6808808dcd379cd7a05b00f32ec5c
+SHA256 (dir.expiry_1.20.0.tar.gz) = 895f0c8b9eb2c2eb2276ba69faec1c65947c2f9ec0b4811ae30e995353bc645c

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YgT3vNTkEZ1zs0hgz+7Rus7lf+xXg4KEW/rcjGxCDogTZDcj2gcdHBhI4aGzbaS2tULajtkFx2wSiSqoULlZZgs=
+SHA256 (Pkgfile) = 830987c67f1b679ee17c6a952227eb206ce14f62d58f46d1dff1834879ed177c
+SHA256 (.footprint) = ee8ba4363b3d6af2b01dcf1fa3adc99e80190fbf8a1d90bfd24533f103e8b6cf
+SHA256 (splitstackshape_1.4.8.1.tar.gz) = e5755c8fc413c1de632107046e0830606229c97c3ad1b68f49bb8957a127f3e8

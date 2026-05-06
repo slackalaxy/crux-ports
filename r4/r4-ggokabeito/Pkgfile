@@ -1,0 +1,16 @@
+# Description: R module ggokabeito
+# URL: https://cran.r-project.org/web/packages/ggokabeito
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggplot2
+# Optional: r4-covr r4-ggraph r4-igraph r4-spelling r4-testthat r4-vdiffr
+
+name=r4-ggokabeito
+version=0.1.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/ggokabeito_${version}.tar.gz)
+
+build() {
+	cd ggokabeito
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YnvGPK2TwKesYEv76UoZsKOXQxWCj+rQ8fwb9ldTK+kUTKh4UWNXUq8eLzXf71cIshW0zldLRj3Sb5MRGSXFkQ8=
+SHA256 (Pkgfile) = 993b6e7666dbba98e4d59a72ca5a103463a3bea22464ed40b2330508fdb7b3c1
+SHA256 (.footprint) = 77d4d16e69405a773ba89bdcda1f6300aad7e27813cd35b8c85898808b6b2b9b
+SHA256 (crul_1.6.0.tar.gz) = c58f77ea1b5aae7ad2c10d598d50b1269596d2d78ce1ee9a80e1aca2485c5c09

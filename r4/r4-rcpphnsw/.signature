@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YsCK1mFCpTf5tQtIzfhrxibabW5zHiV6M50k+zuWA3kxDgEUDx4FPrDiO0ODSP+woTzpsotPB+UiXHIbviVdtg0=
+SHA256 (Pkgfile) = 5d98b77d01ba6fd0b5cfc4895e5fea2183fc56c75d1b9aa432b8e1cb7c8501a6
+SHA256 (.footprint) = 53deb6c81f0b2e9f975e298d7e49171e872d9e1d0e795e14e3e8fbcd90f4339f
+SHA256 (RcppHNSW_0.6.0.tar.gz) = a5a6ed00a84143aa62aa67df66fcccae657d5db0a1f9bb4b955a8e94c2ff580f

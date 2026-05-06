@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YkB2QkVwypbOlUwYvGKKoSIRoJL2099VucgPW8oXWEDZrGGGu+5rkyNqGwvDvYE4LRm+3GOitLEPfeRix79pbA4=
+SHA256 (Pkgfile) = 04c48bf42ba70be732b48854210c5660aafd016f4afec4d8d6fe991b285d89c7
+SHA256 (.footprint) = 599d1bd06b3be186477e59b547f2014ba4919cea27a409d153a7f43a3cfbea5e
+SHA256 (lazyeval_0.2.3.tar.gz) = c65db1997b195a7bb0ab3afbb834345ea277b428b2736eeded4242629e86adcb

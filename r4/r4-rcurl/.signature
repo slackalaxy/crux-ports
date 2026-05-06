@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YvCwZRRKR7KU6KjdX3ju+ASN7ngHnbxWDBTiegUoNVBzcS9GEIVKOpi/8zwGxJdq+WvDchmWzdAAM0lQgh5lLgE=
+SHA256 (Pkgfile) = 8ce3b15c178ad566a7c64fdd7f14211314891843e149d54bafbb2961a5172510
+SHA256 (.footprint) = 528622e6956b6cf7bf2e8a7e15eb3a65be0a4116287d7928449e129fb6bd1850
+SHA256 (RCurl_1.98-1.18.tar.gz) = 5c4b9e7a49b8f9a34198975fda148d390933e5f69db42c91a7d2fd68c4ebdb68

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YpcyAzko8YCXhTxbsAoJ/t/dCaMIvHkPfkl1ovEA8uTnHhQ+N2RcPfdOcgBYaYw5Ifu8pvSyTUdMRvNcKR0d+g0=
+SHA256 (Pkgfile) = 87b75268679193b9db54f3a2c57ce215fefac458802515317ee9544fad69b707
+SHA256 (.footprint) = f4d8b12424562af9e074707c1948d968988903e306b69e1b8b56a24c0065a934
+SHA256 (deldir_2.0-4.tar.gz) = d418acb28ec3707b6d64c7466d0cefbb49b098537f37558d8f7a5befd34a4653

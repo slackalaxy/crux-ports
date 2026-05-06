@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YrCQD48d12ozQ8LfHNR0XVpNw5c+DZtvECJLIVF3pNjWWM48Mz3YHi5oMYNq33Pm0poJF5FfrVyaSwcEsRzZUww=
+SHA256 (Pkgfile) = a1f975c8e0cf1af8bee45d79732a17884d8adc603443ef6d07831c05c0d50274
+SHA256 (.footprint) = 507ec73828075bd780ad46703e187aba892d21532809a85d0a2f97b94b53bed0
+SHA256 (viridisLite_0.4.3.tar.gz) = 433be9bde66234dc76301fb4ffbbc9fc74bab5c14f4548d8ef2fc0065e121ef5

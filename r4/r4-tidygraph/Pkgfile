@@ -1,0 +1,16 @@
+# Description: R module tidygraph
+# URL: https://cran.r-project.org/web/packages/tidygraph
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-cpp11 r4-dplyr r4-igraph r4-lifecycle r4-magrittr r4-pillar r4-r6 r4-rlang r4-tibble r4-tidyr
+# Optional: r4-ape r4-covr r4-data-tree r4-graph r4-influencer r4-netrankr r4-netswan r4-network r4-seriation r4-testthat
+
+name=r4-tidygraph
+version=1.3.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/tidygraph_${version}.tar.gz)
+
+build() {
+	cd tidygraph
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R package SeuratDisk
+# URL: https://github.com/mojaveazure/seurat-disk/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-crayon r4-hdf5r r4-matrix r4-r6 r4-rlang r4-seurat r4-seuratobject r4-stringi r4-withr
+
+name=r4-seurat-disk
+version=877d4e1
+release=1
+source=(https://github.com/mojaveazure/seurat-disk/archive/$version/Seurat-Disk-877d4e18ab38c686f5db54f8cd290274ccdbe295.tar.gz)
+
+build() {
+  cd ${name#r4-}-${version}*
+  mkdir -p "$PKG"/usr/lib/R/library
+  R CMD INSTALL . -l "$PKG"/usr/lib/R/library
+
+}

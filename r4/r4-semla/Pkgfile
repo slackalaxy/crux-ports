@@ -1,0 +1,17 @@
+# Description: R module semla
+# URL: https://github.com/ludvigla/semla
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-seurat r4-seuratobject r4-dplyr r4-ggplot2 r4-cli r4-forcats r4-jsonlite r4-rlang r4-tibble r4-tidyr r4-glue r4-magick r4-matrix r4-patchwork r4-scales r4-zeallot r4-dbscan r4-rcolorbrewer r4-shiny r4-shinyjs r4-reactr
+# Optional: r4-farver r4-tidygraph r4-igraph r4-leaflet r4-viridis r4-testthat r4-data-table r4-biocmanager r4-matrixextra r4-htmlwidgets r4-htmltools r4-rcppml r4-beakr r4-colourpicker r4-fs r4-shinybs r4-ggnewscale r4-ggsci r4-scico r4-ggfittext r4-hdf5r r4-spelling
+
+name=r4-semla
+version=1.1.6
+release=1
+source=(https://github.com/ludvigla/semla/releases/download/v${version}/semla_${version}.tar.gz)
+
+build() {
+  cd ${name#r4-}
+  mkdir -p "$PKG"/usr/lib/R/library
+  R CMD INSTALL . -l "$PKG"/usr/lib/R/library
+
+}

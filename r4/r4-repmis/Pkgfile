@@ -1,0 +1,16 @@
+# Description: R module repmis
+# URL: https://cran.r-project.org/web/packages/repmis
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-data-table r4-digest r4-httr r4-plyr r4-r-cache
+# Optional: r4-xlsx
+
+name=r4-repmis
+version=0.5.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/repmis_${version}.tar.gz)
+
+build() {
+	cd repmis
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

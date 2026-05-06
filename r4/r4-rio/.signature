@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yv+1VPVnMkmnoAdY2Qp/ib8P4gV8ctZJMjuRIngHXDQipSW8aFRNFvjctUk/foAg7J62eAR6O75v6AFkc9jrZwA=
+SHA256 (Pkgfile) = dd1ad317515fe4fb6d8beff34a520e41f382bb54f70eba8b5dfb0a2ef5169f27
+SHA256 (.footprint) = b08e27267bddf01912fb39c022d5672db863b7c4e051b3019e53aa39939af817
+SHA256 (rio_1.3.0.tar.gz) = fc12becd26199130c80d5b23ef234b1c1c5547328e121ea5a0d1f6f47f27ee12

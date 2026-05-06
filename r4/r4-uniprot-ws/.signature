@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YnQvnXV1z3VsHejMUkt8bES2sfNmWhZHBwmiT2fGyJ+Wk4QC9tvvJXr+nqwtdKBLkhh9vBNqVsza6D7FIwrtxgQ=
+SHA256 (Pkgfile) = 5df6733c578a06f35c21883d87dda6e6f3f47a0615977246efbd8627ea964648
+SHA256 (.footprint) = 706c84d3f250df281dbed85db4a0c7b3dc5eaf8a4d8a67022ef6a71568562ce7
+SHA256 (UniProt.ws_2.52.0.tar.gz) = a8d560d99b05bfcf85b519cd0a29a7cb3730b53d393b6571d36d6890aa13052c

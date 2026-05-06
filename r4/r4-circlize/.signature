@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yqh16AmdLtQaR9btX1M3iDYzc3AXa9oMjJk93u/9pvAK0I4qhdbgSZErpywciZfxJAYQprzu7v4ORfT0kW77sQs=
+SHA256 (Pkgfile) = f4c53aef50498a5d01b32e4356a4790cbb968c2599ca1483e3bd8ac5c77f52ad
+SHA256 (.footprint) = 03387dd24af65a28f83c856c2419c111d750d35038bdbc01a92a83ff9b892c8e
+SHA256 (circlize_0.4.18.tar.gz) = 3e875b9138763eefaa85599e287c6c1f1399f988522bc2c6270075d2cde5481b

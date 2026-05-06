@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YpmWwXGp8fEdLLLdzwzNOKYMfQ8/7/sfX+aFwcaxwymYaCok1SJLYGp7j/KbUhee1XVmfBfdq7MJxXqZTDAaNQw=
+SHA256 (Pkgfile) = 2b225908ab6e2dffdeb3d2af1594a06211b0266d52d23c309fc4ea898fac52e8
+SHA256 (.footprint) = 12feac5829d10edb65b695a7d1e7143f05e981105f2e2e3d539635ce851240b3
+SHA256 (rncl_0.8.9.tar.gz) = 8e64a0cae60010498e3aa7a858f1b18143ae2e0eff0ed7db0a76bcda05012709

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yjmgt0p79pyob3zTJJLWwzJjhe2hk2Cl/XzyvmDO/xHAYEaqN487UCKgqGqDCDAQ7j68wIGFOi8wzX3J/C0nNQk=
+SHA256 (Pkgfile) = 4878d8c1cbbcf0140f6854d1837f2010243f15fac675e7f15bfc88e65d1538f9
+SHA256 (.footprint) = 5c7bb3a5e32c0fd0dad1111f40da814d12b325b2c0a48768a0b7fa24aefe784a
+SHA256 (RcppAnnoy_0.0.23.tar.gz) = e502e8d98590a3b9dc7ec82ec7242ab737a653603ecb0fc7145798f3e7e2d1dc

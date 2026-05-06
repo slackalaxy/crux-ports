@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YiVsI4+TM3Rt+JWFdxt8fUG52CSFuPPMsidYpqu2D76SATehlHbJIDAcqIYnUcroZlJv6Wn5HVm9zMRec1+oXA0=
+SHA256 (Pkgfile) = ee031967d7307d1bfeb65e24e208b0dc0812f5839b834e05569ae941026ae262
+SHA256 (.footprint) = 7992ef29e5c214551a0e24520d73840b357ebaf21868194922dc5bc1c337fa8d
+SHA256 (sna_2.8.tar.gz) = f20adb8e505cd56ae9ed0d9675337b4fab15d5dbad1bff3562edd971872a994c

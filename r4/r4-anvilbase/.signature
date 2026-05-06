@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ykhqc/dYk258R13JAb66e4jZvbMUD+GFWFZlgQ1CEC8zE9eqs5FU2JnJ0YAzkhRkjyk9kxIV+6QlHAeksAfn5A0=
+SHA256 (Pkgfile) = bfa9d98c811bb3dc95cff3c1f27985e53d901a37ea0e2bc3fa9da4cbe223333c
+SHA256 (.footprint) = 779496602c5fce92666122c6ec294daddaf8213f9358746480218f5da1e544b3
+SHA256 (AnVILBase_1.6.0.tar.gz) = 0cef461cc39e0c3f575f739ec566c1987f7c39a07710791ec778856b3c8c6f86

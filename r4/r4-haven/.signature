@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ylcy2cJROFZCpH+6qwvH96DOSDsE5Kzk01yckDwGTmUg5OtVSKVOQHgSY3PfkZsC93g71ofcE5atErJfcHE8Ewg=
+SHA256 (Pkgfile) = a0e3044abd7d12bd825c5de86ddebf1c05ed896d8b1668369f5459cf82a668a3
+SHA256 (.footprint) = df1b9081d4a9c66c0610df221ba8bb8aa39e75307942d51227450ac0b8708e9e
+SHA256 (haven_2.5.5.tar.gz) = 9482cd9c3760e1838acf687235317fed97fa6bf79219d3216f0ea447d4b1c9a5

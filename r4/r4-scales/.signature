@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YkKqhQHGJYuz7fvEEBWYcVijAspFYl6WfEG/HdvUKEm3Qw4M9cVSpipqXO4W4GavV57v6axSlgat7qTTiVkn6Qo=
+SHA256 (Pkgfile) = bc8832587c3c0cd6ecaa1cd550be4006f3844400c2eb85395faf168e26fd5580
+SHA256 (.footprint) = 5e6a3ff5f12c78eb6bc6a8a635784cb28cc8e2b31db9ff2b4813372a3715cd39
+SHA256 (scales_1.4.0.tar.gz) = d55ef5f08c92652d7a95cfa27584024723ab17873f1b2577dd488cb7c883ceee

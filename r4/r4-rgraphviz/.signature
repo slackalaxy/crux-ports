@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YoL89K07xyBwGCYO9fwXGIPYmF15wHE9gwddyVBt5/GtkizRbSETbIXV27PlO2rzNNZ9dTDPvqIM79TFw2KVoAc=
+SHA256 (Pkgfile) = 6a779afb92f2ff89daee3d09073cf095095b6eeb343702c2b9e0680496702d90
+SHA256 (.footprint) = 439b9b7fd1ae5826e55578d59b92f99d3d0f329c231ce35fc92d44555ec67a7b
+SHA256 (Rgraphviz_2.56.0.tar.gz) = 7de4a7dc9a6dd875e236b45a336d923e8126dc7c1f6f03d0af294b6ffd8e2199

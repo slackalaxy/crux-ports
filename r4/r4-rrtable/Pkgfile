@@ -1,0 +1,16 @@
+# Description: R module rrtable
+# URL: https://cran.r-project.org/web/packages/rrtable
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-devemf r4-editdata r4-flextable r4-ggplot2 r4-ggpubr r4-magrittr r4-moonbook r4-officer r4-purrr r4-readr r4-rlang r4-rmarkdown r4-rvg r4-shiny r4-shinywidgets r4-stringr r4-ztable
+# Optional: r4-knitr
+
+name=r4-rrtable
+version=0.3.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/rrtable_${version}.tar.gz)
+
+build() {
+	cd rrtable
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

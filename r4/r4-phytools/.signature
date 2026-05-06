@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YieAzmIsCrq6ySwovOfLObzImO4RvxgwXRf/rVKyzykfXSFmLEjCZZaASJtNxJTI7mGSP7KfRdnHl6u7Ev6vqwA=
+SHA256 (Pkgfile) = 41cee4499868540891a70c460da325173cbc42e2bf692d8c90fb6ebf63e40bf7
+SHA256 (.footprint) = f5be67e45199d9eb36e937158c8c418dd86d8568716503e2db1ca2a16fca6c1d
+SHA256 (phytools_2.5-2.tar.gz) = 3c4facf55d3fffe97b9453bac3f6d398abed8b5896bc2b83bf6811957be27f01

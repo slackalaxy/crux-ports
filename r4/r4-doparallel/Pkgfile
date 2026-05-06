@@ -1,0 +1,16 @@
+# Description: R module doParallel
+# URL: https://cran.r-project.org/web/packages/doParallel
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-foreach r4-iterators
+# Optional: r4-caret r4-mlbench r4-rpart r4-runit
+
+name=r4-doparallel
+version=1.0.17
+release=1
+source=(https://cloud.r-project.org/src/contrib/doParallel_${version}.tar.gz)
+
+build() {
+	cd doParallel
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

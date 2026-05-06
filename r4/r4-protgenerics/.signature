@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YkW698466BkfEsgXkvo8eATnphC0kI8uZ/gudSfpWIzYbSTZnnwtolYljiGx1mFIrmPc2jeu9iGXhgwszsrcNwE=
+SHA256 (Pkgfile) = 30138b4ff38fd7ce56a55d574282ff1739ca092a4036ec3dfc06d109f036e561
+SHA256 (.footprint) = 8caf1582084c21e039681774217a6af1f3ac2f9c0687b9d9b74088f2d7107cb3
+SHA256 (ProtGenerics_1.44.0.tar.gz) = 12ae66900fbec21b81bdec84bbf2877f89ecf19f9c54a1756338a3e4bacba569

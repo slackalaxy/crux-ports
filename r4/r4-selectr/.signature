@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YoXvbx52boiNKQRPjzI5vDdckMQLuw+wZfrU+0qFwbasYAKwD57O45yaLeUQSOM4WBJdNMfy/WU16Q3jAXDf6gs=
+SHA256 (Pkgfile) = 118323477295dfcbb08818b2893a7a4b897402a2986411d3edcf46362711f6c6
+SHA256 (.footprint) = b58e24ac91715120ccaeeb5172d4e95f0be513322c0c8407fdb04e04f739209c
+SHA256 (selectr_0.5-1.tar.gz) = e8a6f1f4cc8b91efdf8a69dd5344b112149b5c21973c7987db63be931267f165

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ykl48NocmAakRakM51eb2OjPr4WMoZfykFotWCTjqMGcVPQD7mJBpEwdrnWO85vyzbwrKSN8AJPZQY0HRmmjmQY=
+SHA256 (Pkgfile) = f7c9ee52b7ff1790b7fad0676b202f06d332e7cd51ba8f8ca637894f7036a240
+SHA256 (.footprint) = 11ac68c819fcd3292dbeaa1679923fb22dfd60f4fd58ab40cb624f85b891d62d
+SHA256 (urltools_1.7.3.1.tar.gz) = f85bb761bb85beef98d34cef0030b589bb71c24cfebc1959b5954fb0676c8772

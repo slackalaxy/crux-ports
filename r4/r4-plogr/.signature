@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YsUj3L3vWSdzg8t4AOvYM3dEwHMwnbqZPbPY6yxMieHxDZaX+JjdVmReEer8gloFU9n9wDUTUb8/KRCfHT49wQI=
+SHA256 (Pkgfile) = 5b4739ba338e0f8a124963cdad0ab881b0663b6983a5961573e5b7a30e03727f
+SHA256 (.footprint) = 3b4d1606059cce7b251f7a4c9573e345ae5ba08fb8f4f87d09a2728343d577a2
+SHA256 (plogr_0.2.0.tar.gz) = 0e63ba2e1f624005fe25c67cdd403636a912e063d682eca07f2f1d65e9870d29

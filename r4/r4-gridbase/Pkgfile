@@ -1,0 +1,16 @@
+# Description: R module gridBase
+# URL: https://cran.r-project.org/web/packages/gridBase
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-lattice
+
+name=r4-gridbase
+version=0.4.7
+release=1
+source=(https://cloud.r-project.org/src/contrib/gridBase_0.4-7.tar.gz)
+
+build() {
+	cd gridBase
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

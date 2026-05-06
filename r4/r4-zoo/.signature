@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YsG3tOAAnKOu/iPrEAZLja0dr1xwO19rvvylun+fFVQ3iOoDPffX2On+Psje85J+mDXNu4PNjXteymU5H5iWEgw=
+SHA256 (Pkgfile) = 635f0243c34d660980b74518fe400ed06035658d4aa427cb1e5c4ac8f03ecf25
+SHA256 (.footprint) = 31086734a4685afe42d84523e40de80a504dcd96352f1f433d387830eaf5287c
+SHA256 (zoo_1.8-15.tar.gz) = c0d139b7d3dee4f28202bc8d82fd76109af26530c43e39a051b1eb145d1861ea

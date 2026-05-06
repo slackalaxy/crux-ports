@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YisbnW6khUOIOxN+jJggc1IOeJL9WXdRWvu1JQpnb29eIZB/g5SPgQwQ/lTLvZ4sx4vT3eCoQNRAAvQTDQ+fTAs=
+SHA256 (Pkgfile) = a45c789ccc0a31a8f37290c0e107588ebaa4cf85d99e23ca9de0525e7b47d2eb
+SHA256 (.footprint) = ea92a812e8f89e1a8cf101273ecc1a9be3d7a09c3c3d99695a17306d378bb615
+SHA256 (phylobase_0.8.12.tar.gz) = 9b81ca60dc6215e74b720880cc2db3abc1f7e6d8785ea7d7df95a950f0778f20

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YuBOHfalCmjHw/PpyZkDSDlD9PVqp1vwgLg1Pj04G3E3qV4OmMpEfU6DkEHqjjP/syByi7HdpgEozNAy82FmSAA=
+SHA256 (Pkgfile) = 967e39b14a11a95b80b328cc9953159a3f6235351f199081f8574326aaff08ca
+SHA256 (.footprint) = ab477b60b71df68bc207fb32b22fcfd97534a34a538962ed1b32b67781583f18
+SHA256 (EnvStats_3.1.0.tar.gz) = c743b833242193d8893d1d6d0d45af091e3c12354e6ab44a787530e83858cd02

@@ -1,0 +1,16 @@
+# Description: R module ztable
+# URL: https://cran.r-project.org/web/packages/ztable
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-flextable r4-magrittr r4-officer r4-rcolorbrewer r4-rstudioapi r4-scales r4-stringr
+# Optional: r4-knitr r4-mass r4-moonbook r4-rmarkdown r4-survival r4-testthat
+
+name=r4-ztable
+version=0.2.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/ztable_${version}.tar.gz)
+
+build() {
+	cd ztable
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

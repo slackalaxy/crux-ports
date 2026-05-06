@@ -1,0 +1,8 @@
+#
+# /etc/ports/r4-modules.httpup: r4 ports collection
+#
+ 
+ROOT_DIR=/usr/ports/r4
+URL=https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4/
+ 
+# End of file

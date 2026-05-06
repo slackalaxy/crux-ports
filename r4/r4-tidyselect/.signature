@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YgUU9DQfh98lOcY7JK+6An6uFCHtue97hL4fkC+Yuzk6fEx7yAbJFk9ocRTC6o0KPkohfM9q46vOG5DgKlcnGw0=
+SHA256 (Pkgfile) = 354caae24eae5a8280a84c8f9f236add49bd71b692e44ffa7a8e02d11b22a4f2
+SHA256 (.footprint) = c5f128062025a9e6450674294a9d0c40a936864c31b32eaa6782af177e19f730
+SHA256 (tidyselect_1.2.1.tar.gz) = 169e97ba0bbfbcdf4a80534322751f87a04370310c40e27f04aac6525d45903c

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yprywe6UlMPRdsBBsPeBIWTSuReh0Nk/xMCFMBb22ajNEu6QmvcqkpUb2MsJWxtMiTR/lF/fAlDcQok0LinNEg8=
+SHA256 (Pkgfile) = d0ea4037664ba27534370dedbdd2bc9336e4bb34fbe80781418facbc5a5e48dc
+SHA256 (.footprint) = 2ab012fac7281b05ad0c4ff6f671e6ac30bbf7673231862c705b2cc4d8e1c861
+SHA256 (h5mread_1.4.0.tar.gz) = e935a24a765a29e32d18f37b33b0d8b53e6bd3b9dac97e31bf4b8a62419b8fa6

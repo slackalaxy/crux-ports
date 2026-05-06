@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yq2EcsbyRY9f8WP+tT4lNcf+uIMiAuZkCl4q7NlBhPmXZmLKkj4y+3opgoUunU3cceU02bgRDvhNik2nAIaQ3AI=
+SHA256 (Pkgfile) = 7facc98d6681463e4485e9d8a9bf73d49a2ac1c9b2022a5c5d658eeb76241a73
+SHA256 (.footprint) = b7bb802891d1f246f072b3d036ba7335acdff537af8d1ab4e7a115bbee4eb3be
+SHA256 (GenomicFeatures_1.64.0.tar.gz) = c33233d1fc22034c71243bc20a07556623b4ede31c41c9e20b690c0ff4ed41a6

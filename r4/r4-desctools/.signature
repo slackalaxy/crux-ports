@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YvHtKwcFTqTbWaiF1g4deD5kmRxz1pr4EDzuYT+dACt5BTTFDQAWYyOhII2D6iNmp/T1DtXPeCgyjcvs0ErHCQs=
+SHA256 (Pkgfile) = deb74bf6ce88bab876b5ba56a27e035cc4cdb56f2c4200b72f26bdcc3b5354cd
+SHA256 (.footprint) = 185cf1352444462839ab999947cfa7059bbfa983781f0c256d7c2c724e3660fe
+SHA256 (DescTools_0.99.60.tar.gz) = 2c20d8579ddc6278e1069ad6d546a760f62d9e8dcc956ce09f58afadb573bcbc

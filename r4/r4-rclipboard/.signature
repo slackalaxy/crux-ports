@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YroXtLFTvC0axxtJAeGWt/xr9YCgskcX7umeY16JYcn9AqDWedB2Mt1+W+qNsVLKnoLWkFOEdQp9GeiAdPGOFAU=
+SHA256 (Pkgfile) = 5d1edd1e9a53cf956d48c8f4a7d5fdb3d18df884f1f5b5b6f87edb390e6ef429
+SHA256 (.footprint) = b47c058cd5137af55cd665ee2c6ee4d6c0e735bc350286f0bc25f634d1f67ac6
+SHA256 (rclipboard_0.2.1.tar.gz) = 023153f184db1ecf379301fc3da5fe827a4ee76b1b95daa007aff5127719b2a1

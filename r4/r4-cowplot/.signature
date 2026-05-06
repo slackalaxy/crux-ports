@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YiI7XpPRUYD3KSjuu2Y+A6lDNTweBftEXI6KGUoSdeU5VqJ4epkcJuJgwk4aR3VmfNHgHtRXm2lN6nhgF+79MwA=
+SHA256 (Pkgfile) = 19846935ddd68ea851c250cdd29a0d6200343edc73563bebf67e3408475d9bfd
+SHA256 (.footprint) = 146e7469fa43613c5a610146ad4ac20f9a0abae29a7f4cba7621b164da9913a1
+SHA256 (cowplot_1.2.0.tar.gz) = 431d582a4fb68f005f45e0d963c19daad826289374b429b05fe168ef6f231aa1

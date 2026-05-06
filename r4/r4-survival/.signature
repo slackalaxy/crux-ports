@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YjQpSX+SRFz2QJu+ejThlgqXrx1xjrgkPfAxoJHDd6pfb8GiWDzEObWvScRiLArtaA03b2wCGYWxRWzQpnRKCAI=
+SHA256 (Pkgfile) = acb05f72736597b575de4c3b3c7a80b952256f3d8d226a996d52b94b070b768c
+SHA256 (.footprint) = 5a903b60f1a7bcf36f7e1a9bdd49e4d42f1554a95aae66cb8693252b5b8aef1b
+SHA256 (survival_3.8-6.tar.gz) = 9a4c0a35d86c64ec5a6e6cf179ab22dcffb5ce1d313d2880a09f1e53422699d7

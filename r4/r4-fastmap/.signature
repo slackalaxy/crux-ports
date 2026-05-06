@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YoA2doBgoyzVpqrvYWe8mTLsiu6QhP/HcQ8RoClD0tMPHEEncZU+urn1a1WGMBHZUwxFlIT/WR1is6CXl6nkcws=
+SHA256 (Pkgfile) = 15c4796305f6225e960ff8ed03581af2903ac5e58843407474de99f3b5447c4c
+SHA256 (.footprint) = 06c277351305e78e323ab5885d7fce6380207d6e7c72ab79aa22ece3e528c995
+SHA256 (fastmap_1.2.0.tar.gz) = b1da04a2915d1d057f3c2525e295ef15016a64e6667eac83a14641bbd83b9246

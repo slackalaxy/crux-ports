@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YrNYB6/ea3HqrimElS0sOH/xCKMkd+vnRhd9c1/Z2UQgTKp5Zdy5Mc5ZQDsWgIYYQOANcjYPvBTRF0Fwe/uPHgw=
+SHA256 (Pkgfile) = ec120e38d896806b3dac533adfa5d726904ecbff6be5f4c787c07f826760f97e
+SHA256 (.footprint) = f56f4ac8ae4dad927cd56e71470136afd5303ad95e8cf38a38a37b2b638d605a
+SHA256 (packrat_0.9.3.tar.gz) = db73e62a5c536fd16b6549a61d0dd109eff4f94ac6236c52de53bde2230f81d6

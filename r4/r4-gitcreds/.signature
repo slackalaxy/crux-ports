@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YhtD/cbEQYnG1V0AUPAjVqaDznUPr+adqYCykEHrF9gLsP204x8mrDD84V/rBQ07AhTwXI6n6Lbp0Ga/+Hf0+AU=
+SHA256 (Pkgfile) = 14f6187845a341db6862465ad71369d6a644ad156ba0f22e69bba56c3e4cf851
+SHA256 (.footprint) = cb9c8a4bf303101dbc394da45fd349aeb996fe1dfc2085dba0c127b253605415
+SHA256 (gitcreds_0.1.2.tar.gz) = 41c6abcca5635062b123ffb5af2794770eca5ebd97b05c5a64b24fa1c803c75d

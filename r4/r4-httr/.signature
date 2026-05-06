@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YuAG7vAeOJaq7B6/4iZbr23t+Ezdo1rDR34XE47zap+dZ7qfRio8/lQZ6MekfNp45/Q0yegqhHAY5LlE6GDy6Aw=
+SHA256 (Pkgfile) = c903857fa2a695bb88276404ae1a0d52db6ebbfb61a656d1f22edf1b16f66c08
+SHA256 (.footprint) = 927394b086edfa24de77f3309324bb7515eed63b412fd4e654916161deafa798
+SHA256 (httr_1.4.8.tar.gz) = 62acf6759814f0a2923d18904971e16e01d6147419ceb816dac02113fc3e09f8

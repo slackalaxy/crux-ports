@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YlEEbhZuDNsMSBVaFdTV6/zdNTAjvyv8vaNFwo8yBJJrl4+jDOpyjji9d73jFxqa5GomjPW2F1avbIyPLfuq4AA=
+SHA256 (Pkgfile) = a33721ee155c3135e07e84def096d2c3249317f637eb778bb004fa9f5798d1b5
+SHA256 (.footprint) = 54bb25fb182b80a5e23d55d8c3164585537bcda1b8c8b86721f8f1057f664f90
+SHA256 (rvg_0.4.2.tar.gz) = 5402796df3ec35de2752471637436be8ad26b49b9aff8691040f009955728de9

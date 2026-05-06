@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YjZ6RmHbNmAGuh5PxuNki0g+ZTbewK1g58NYpaXPSInSMHyMCvyQ/yDPFZSYnOKQ3ENKShoHcgpQyAxCk8+osgA=
+SHA256 (Pkgfile) = 7f7825585bb824ab1cfeb962616eaa0b151653a32e62f498d42e671b425c0be3
+SHA256 (.footprint) = 8c7193b3957862c3937f8b3d46d04c15b618e5734a9ec8014898f643affff058
+SHA256 (rbibutils_2.4.1.tar.gz) = da313d920a0f35ffdf30a54929ba8904b2b5a0d7f11a519db8674148129c8f32

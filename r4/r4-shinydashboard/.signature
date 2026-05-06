@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YnvIwpDhuoYHvykAqUZ6ksTWkX8wrfnZafNxFzQXOgXz3JkxsM0XhlOzIlz6li10Te/4gz/17J9xFYWmkulUAgM=
+SHA256 (Pkgfile) = 1b4d53aa9b5a344fb54386351d41ee4266d05d7ab54b8de4dbfad3c8c2fa8d61
+SHA256 (.footprint) = 1b3e253d199abc4059ae56c2718f2657b2b4f0e40e785f3c75091ff7500d53aa
+SHA256 (shinydashboard_0.7.3.tar.gz) = 641ce851846a58ecfe3b126b401f8e59d80f578451dd33f6cf1868bffea5144c

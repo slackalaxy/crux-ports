@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YjbDPVXA06fO0Cggi0UK8KhU/UMgCmh2//sBEzaJae/nPQiY0bsR9cXCBLVWY+Pe+oKkLCQp/8umFmpBq0EltwQ=
+SHA256 (Pkgfile) = 2ff4e9713818bc14c6cfde3d6df7df750f5241f75edb155f2133d501bf158adb
+SHA256 (.footprint) = c0366bfed1aa01838f3406dc3586efb8cdf5933f16dda2d87368f7263371bce5
+SHA256 (lmerTest_3.2-1.tar.gz) = a0c5e6958940824fe09fc595383548e65ff08d3e363f4940e84a51084c025968

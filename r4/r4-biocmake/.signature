@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ymx9JIvS/ev3009Dv586CbdcbMEwEz45aKt+GJiOS5UB5nhlyvVmkwbNqN9UeF6oAEoMBhaBCcfNnQSmurX8tAo=
+SHA256 (Pkgfile) = b4e9f1845760843f5ce672998401d619d91f1d395847556380d0a70b83687805
+SHA256 (.footprint) = 91c2e794fff831b72cd85716c85a9d5204be31d6e32fe0727c110ee500bbfe7a
+SHA256 (biocmake_1.4.0.tar.gz) = 158c59fd65dca9b5e74e5c4f32a1fbe161e080d1278d99816a802980c653210d

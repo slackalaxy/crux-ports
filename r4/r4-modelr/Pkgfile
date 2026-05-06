@@ -1,0 +1,16 @@
+# Description: R module modelr
+# URL: https://cran.r-project.org/web/packages/modelr
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-broom r4-magrittr r4-purrr r4-rlang r4-tibble r4-tidyr r4-tidyselect r4-vctrs
+# Optional: r4-covr r4-ggplot2 r4-testthat
+
+name=r4-modelr
+version=0.1.11
+release=1
+source=(https://cloud.r-project.org/src/contrib/modelr_${version}.tar.gz)
+
+build() {
+	cd modelr
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yi1CrBxLxTc63c/V4pIlo4+Km/8Oh0Phk9jC+ZKOmxZu7poHG8fFKDjGf+nbCTWzJuucZDnQ1S+WL1D6flEMhgE=
+SHA256 (Pkgfile) = 889e79b9578f52fef5cf3b2fca0bd86e6e9d07b1ec6f9a38647c0a64a108f252
+SHA256 (.footprint) = 390abcee2e1fc6dd6141efe48fc443dfb904b37a297d918c5abf7730dc7cc39e
+SHA256 (networkDynamic_0.12.0.tar.gz) = ad08f65accac5a84678d2d1e8bb72e30c4f57e07be0732a11f56d0300f58bc6d

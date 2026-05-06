@@ -1,0 +1,16 @@
+# Description: R module BSgenome.Hsapiens.UCSC.hg38
+# URL: https://cran.r-project.org/web/packages/BSgenome.Hsapiens.UCSC.hg38
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-bsgenome r4-genomeinfodb
+# Optional: 
+
+name=r4-bsgenome-hsapiens-ucsc-hg38
+version=1.4.5
+release=1
+source=(https://bioconductor.org/packages/3.19/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38_${version}.tar.gz)
+
+build() {
+	cd BSgenome.Hsapiens.UCSC.hg38
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

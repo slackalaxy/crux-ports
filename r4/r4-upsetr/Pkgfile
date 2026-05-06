@@ -1,0 +1,16 @@
+# Description: R module UpSetR
+# URL: https://cran.r-project.org/web/packages/UpSetR
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ggplot2 r4-gridextra r4-plyr r4-scales
+# Optional: r4-knitr
+
+name=r4-upsetr
+version=1.4.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/UpSetR_${version}.tar.gz)
+
+build() {
+	cd UpSetR
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

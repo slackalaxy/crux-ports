@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yit6Fl3DxP4xypwlYPcGsr9O1Wyl44igFq2HCw/wmiNFSt2FKo3X3CYxeOEs9v5urVCDG9xj6tgjnil5yN2H5Ak=
+SHA256 (Pkgfile) = f935c12ea24efd93c0bf1f5a3f2ed7a36ea3da99a27fdd977bdcbcf5af353e0e
+SHA256 (.footprint) = 0a991a8efc464574f369fdb6c4cf885623e4c2d2963cf86b79d73478a78a4fd5
+SHA256 (cicerone_1.0.4.tar.gz) = b046694c964bd8cbf1bb83434693f1eba7c6b15fbcf300de67758293803871fc

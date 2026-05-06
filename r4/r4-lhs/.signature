@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YnwC1FVqIXE5lm2HcYhmQP8wnib91np0XPjcF1UoffFmGyja413kKvN207Ul2OflJvtrB0vHTm+SLxZjBN9c9AY=
+SHA256 (Pkgfile) = a45e4b8730a4beecc5ec752505cceba93e4bd4c59e8f39cfd87404ea81530a54
+SHA256 (.footprint) = fd113750866f33028ab9db6c5dcee76dc0af9dcfbd951dd3a82e1d6c46880023
+SHA256 (lhs_1.3.0.tar.gz) = a820140d3da98a20440f6ffeac8322cc9fa7453d13bcd56c896f38c5b47a8d76

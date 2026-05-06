@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YsAeo3hWCYurooQtXpLMamoti8p54LvO0v8AYGWfFO9RUKMx4bt9X1l0oloccJkYHTAzHtygBN4ExT6cJJKk5gQ=
+SHA256 (Pkgfile) = 620193ef64e860dab1b8248975945e1f86ebd805a17929b8cc5ba8aea1788a9a
+SHA256 (.footprint) = 900d330fafa2cab1c4de28c75f52af7fdad86a6cbb445dda2c4ec79fa56f5e1a
+SHA256 (ggnetwork_0.5.14.tar.gz) = caab79d85a817608e9a9d827783f157393fc3f2b9de8c20669699175a19f3ff0

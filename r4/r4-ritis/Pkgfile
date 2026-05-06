@@ -1,0 +1,16 @@
+# Description: R module ritis
+# URL: https://cran.r-project.org/web/packages/ritis
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-crul r4-data-table r4-jsonlite r4-solrium r4-tibble
+# Optional: r4-testthat r4-vcr r4-webmockr
+
+name=r4-ritis
+version=1.0.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/ritis_${version}.tar.gz)
+
+build() {
+	cd ritis
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

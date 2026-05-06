@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YiXP0OmGRj8iBlX2bXMYOmof4ft+0yyV1AccoM7tZ2R1x94GgeyY47VGxZGZtse63iDvm27cCvuO0+wOuJSzEQ0=
+SHA256 (Pkgfile) = b14e7290d531afe1fdc6cc047cf289f2723508790de8a8ddc5fd922a115734ed
+SHA256 (.footprint) = 171bcd45073023b639b1df59534bdbd5b88743d8effc2d4d832b2210d57eff34
+SHA256 (DOSE_4.6.0.tar.gz) = e0d9a3fe50b8db868434ec09f6362359f7eec8864b6fcb7a009d7fc81f3d747e

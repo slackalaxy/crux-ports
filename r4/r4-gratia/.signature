@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ypidyo8bTQFpkYu+08BYwZxHE9BufeF3QDySFJ4SbvLPn/5RqQ/QCJioo9FZpZmAqxJzOOt5WV67+0KR5FXmaQI=
+SHA256 (Pkgfile) = a448c210875a1956268c350d91c065bd16cdb5bd0b97b6613f17d0db25259fc2
+SHA256 (.footprint) = 177c156e99fe3e9c1c3c45c46304c3bca585055f79027c0dba9c3819b3d60084
+SHA256 (gratia_0.11.2.tar.gz) = f2c5f9ded3637e7748c58022651eee9987a17b9e7e815039004ea3b9e8f06e23

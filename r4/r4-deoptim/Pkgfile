@@ -1,0 +1,16 @@
+# Description: R module DEoptim
+# URL: https://cran.r-project.org/web/packages/DEoptim
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-colorspace r4-foreach r4-iterators r4-lattice r4-parallelly
+
+name=r4-deoptim
+version=2.2.8
+release=1
+source=(https://cloud.r-project.org/src/contrib/DEoptim_2.2-8.tar.gz)
+
+build() {
+	cd DEoptim
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

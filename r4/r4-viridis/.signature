@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YuOddCPVnHC6qDnL6l1/Q0MqAc/d3lTbk4KMchsZzxzRJFP2ivims/wRO73bXwWTyX2wDGvqxM4gl1FLLr2EXwM=
+SHA256 (Pkgfile) = 549c0b9e1c7f53639c8450ddd25858a3d9c343fd8a66e3f34f359068f0ab22af
+SHA256 (.footprint) = 4bfc09bb36782f69cad2f6c9201f864f90e2408bd500362dd3d9a66836c57533
+SHA256 (viridis_0.6.5.tar.gz) = 862b5cb6be115deea0207cdd3c8bb33de28552cfdc29900777512fd488d0005c

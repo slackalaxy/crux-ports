@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YsmCRknTeBlUhMdYto9dMnfPXgOyslMCaOIET9mEz29xlJ1vVz+/rnAPs9D9EvGTy+35uQGCwKnerFu//8LmKgE=
+SHA256 (Pkgfile) = 28202a38a8c1d09a4edcb3eb81b9b55c5ae55c39d5538ac93d9f4743d42c758a
+SHA256 (.footprint) = 6eff2e075500eb5efb4309b3939284cd5cf0ebf5708f3742a7b8d68e62fc8893
+SHA256 (devEMF_4.5-1.tar.gz) = cbb0f832dd59cea7c546ad0cdec100f49a7310694b3b32ef1c188bfa19dcf8e7

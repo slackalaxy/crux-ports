@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YsXnazVpSU2pbOu6GGVbU3s4MyDSs0P5XecTJcq5ouWxyni1sem82hdYyauA7zMG1cp+yd0p41zbrqeZIwIPtQA=
+SHA256 (Pkgfile) = 3869f93e5800fbd0496105a501bcc9b2c6bb5ead71f9404c842b13a1c3b26df5
+SHA256 (.footprint) = 3d9571c7f1c41c19d028952541208c64352cba49bc75768225132fa131998b44
+SHA256 (DEoptim_2.2-8.tar.gz) = 631eabdcf26ec25a759651f699db1971beca3ae193c7fbd1c63a78248fdbf54c

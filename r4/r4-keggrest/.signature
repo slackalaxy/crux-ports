@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ys7SgQ+L0yhOtCN67X1KrfM3Vw1zaOYr+pGVuLo+eOAEcgIohRiFJWn2tjGzV3ls61PKOpkP5kaWHAxj/XMByAs=
+SHA256 (Pkgfile) = bc688ea18e79b6f6a8ff13165be3d44f5f64074182a75f958448fee735a489b6
+SHA256 (.footprint) = f70605fca3ca01064632af1f99c26bff67b3b89e94daa761949d3add192ec578
+SHA256 (KEGGREST_1.52.0.tar.gz) = 44cab3d7f5979968b11dd688646f121ee7cc70c7a7aa9f57539ee13b2fb93dfd

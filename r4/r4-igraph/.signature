@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YqdzHDultxfifW1/uhby8dfjCRU60PFYnowBmb5xG6HKGTobELfBxLgUmUrhuc8aRrjQ2TDlQJ5tpssugmitsgg=
+SHA256 (Pkgfile) = a23dac335113322baa1a783d571b839c7d1130a96b7508d1f0fa35be73d5ea84
+SHA256 (.footprint) = 7b2810fbec3134b2b8bcba82d68a12bd6960c2c7e567b4ab52cdd35707889120
+SHA256 (igraph_2.3.1.tar.gz) = e800c1c65ffad8ae0b0aed418238a94e19d7361bdf0953772ddbf159b2a65bba

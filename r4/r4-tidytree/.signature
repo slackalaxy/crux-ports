@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YjJVN3jjgYtzhL0HpVAGgObbDEztQY8nJ2aGxu157ZI6iIs4bv+gpmgrn6OCZ80l1tPs0nEsmORxQlA1NeuEFAo=
+SHA256 (Pkgfile) = c1ed9341858f43d20c79299982e9afa01c6c7569bc904656cfe407295d2647a1
+SHA256 (.footprint) = cf2f7a15a9318338caee03d87b6bf232417292ccc72ce5cb3ce7d0f53c27ee5d
+SHA256 (tidytree_0.4.7.tar.gz) = 4437a98f62903cc3c1c06ce62aa905182c23cd35cbd17931d7e891c4eab0ac80

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YnG70Wy80ARh5pHTnW7e5Kyg7w94E3nJ2YVJg028muT77rOCfktDqYr3IW93P2KNh7g7ASBnUGK4n+K/AhbkkQs=
+SHA256 (Pkgfile) = 90b56ceca6adcb67b434ae28b61b62944c65b3f0fd19ee0b53ac438ac95cde24
+SHA256 (.footprint) = bd6922b75b8da33f4f4ba2664c62d0bdfbaff95b5b5f7089e65095f18dfe985f
+SHA256 (annotate_1.90.0.tar.gz) = 537332db612cee45c678ef4d15794087c4b13f1c5c3560dc7cfea067bf157b34

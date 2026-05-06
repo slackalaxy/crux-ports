@@ -1,0 +1,16 @@
+# Description: R module gnumeric
+# URL: https://cran.r-project.org/web/packages/gnumeric
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-xml
+# Optional: r4-knitr r4-rmarkdown
+
+name=r4-gnumeric
+version=0.7.10
+release=1
+source=(https://cloud.r-project.org/src/contrib/gnumeric_0.7-10.tar.gz)
+
+build() {
+	cd gnumeric
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

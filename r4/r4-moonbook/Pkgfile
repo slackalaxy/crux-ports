@@ -1,0 +1,16 @@
+# Description: R module moonBook
+# URL: https://cran.r-project.org/web/packages/moonBook
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-crayon r4-magrittr r4-nortest r4-sjmisc r4-stringr r4-survival
+# Optional: r4-ggplot2 r4-knitr r4-rmarkdown r4-sjlabelled r4-testthat r4-ztable
+
+name=r4-moonbook
+version=0.3.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/moonBook_${version}.tar.gz)
+
+build() {
+	cd moonBook
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

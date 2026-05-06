@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YtEk41ABWMVT2uS4BYTplEVX9a485pxA0K7uIyEzlTIkt0n0guDRdXf2IiuCWLwtQ4eufJ8kgjj4/VlPHHKPVAs=
+SHA256 (Pkgfile) = 839e0cd0b742cc89e12be82ce5c2d7aa8fbf578f45177ab6aa8e95969f1335a7
+SHA256 (.footprint) = 086d6d1dbadd55515b7b875d641ffa2cdc6c40a24918e2aafd1d8000c664d4ae
+SHA256 (ggnewscale_0.5.2.tar.gz) = d765754060ea00a07c0fe9bb3e82e1f8b6acd18e2cbef084218c720a916358c8

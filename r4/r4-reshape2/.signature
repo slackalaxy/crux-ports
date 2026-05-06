@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YnaEhwuHspGD37a6YCKHj6OpgS2Mmyg8PlJePwBXYONGbpPDBUvDOnJwEZlMXqUcbXdnJz8arH64TRErLEbdbwA=
+SHA256 (Pkgfile) = 51e8b5e98c664e17bfc73e8f7118f4583f30c503f05626f055c3ae1920e689b9
+SHA256 (.footprint) = af4a64327fedff1171c1c704a6e892f077d3bf20e4350d881d38e5a5729e0020
+SHA256 (reshape2_1.4.5.tar.gz) = 0ead5acd0153e5073b3c24e8e782982a4eab3aaa768ba17700d796fb13b68cef

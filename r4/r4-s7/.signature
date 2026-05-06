@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YhI0JRYJ3ywyrJd99HHIXP9bAX5AYIToykF7uzloGevWIMEbdprIh601MJp82XYm41XtBLoYNlR8t7og6ffBeAM=
+SHA256 (Pkgfile) = d34e85cf57085aa913e3b49adc5383fec7b218dad2e763557d99b2da87132495
+SHA256 (.footprint) = 966cdb448300e19f366f232aebfdde6d6ffa5d490af4777d0e5a40cd46c8e0ef
+SHA256 (S7_0.2.2.tar.gz) = 6f33245dde05b74265b1c4d379e034bc3a8923d41e7b52e6e75a75ce97d42af7

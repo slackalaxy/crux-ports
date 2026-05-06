@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YugzlH32YXh3K+yH7Q+C2HkiaRpnS56FI6BLYj33fGFg2nbdIUA82ECOlryZDaF/vXJC7TiiJP3aJnPBJ0AXUwQ=
+SHA256 (Pkgfile) = 4ae8b3c3c55f331e8114539be524887ba64df00cd9b2a6239372eaca02947ac9
+SHA256 (.footprint) = 1d74905edeee7842f64c02581eade267c9ccea85c8dd0d267b5877ca8f627359
+SHA256 (treeio_1.36.1.tar.gz) = 2efa70f1d982abcbdc10f84e4b53809bf6607b66e9e25316a7b57978d38d3e8e

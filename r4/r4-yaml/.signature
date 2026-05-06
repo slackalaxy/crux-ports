@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yprgqa6GKPK6NwAJAnYSXSquvI7/qJk38ur8Z3h6VXWb7EJb9MDA+WgE6UtIt696g0kkM93tRyS1u2ka5TSSWAg=
+SHA256 (Pkgfile) = 66de4d0e1def54b79fd96a4510525a45a9d2c6d3fd9cea4b464e8170680dc1e7
+SHA256 (.footprint) = 117d256faba5ead8f4f32818183de86caebc90ef6c2d835d2db3da4befcb3b4c
+SHA256 (yaml_2.3.12.tar.gz) = 80ccf3dde851133ef3e333b818a817c296c6ccdacfc4709cd466995289cd556c

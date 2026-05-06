@@ -1,0 +1,16 @@
+# Description: R module shinyhelper
+# URL: https://cran.r-project.org/web/packages/shinyhelper
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-markdown r4-shiny
+# Optional: 
+
+name=r4-shinyhelper
+version=0.3.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/shinyhelper_${version}.tar.gz)
+
+build() {
+	cd shinyhelper
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

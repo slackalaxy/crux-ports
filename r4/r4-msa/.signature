@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YtpZ04dLFZ6eB/Jx+oD9ygiYYbX7Qsgi4eJ57ZQTZF0rlEwzyFoEsU7npbCnopiE0l49K4ToQQFKFznbF8mFFg8=
+SHA256 (Pkgfile) = c444e9f327a072827537e1386349b1b4d3ed54841a5bca1e5a298fc55b8b44dd
+SHA256 (.footprint) = 2442af8f89b4e4a6bc700fae2cd5f132f7614f7258f8ded7f04ddd202d3fa9fd
+SHA256 (msa_1.44.0.tar.gz) = 709622993873395baafc8a43061c3b29608c1dad77e394eef1c34d3deea03370

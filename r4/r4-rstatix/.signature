@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yk94egpWHmRGfuYY9Xn3XqQTomdvzzz/PE7Mb8HqvBfQzfe7F07xjxAH3DPvCOvyGuvmRzf3Sqc/AfJt43fungY=
+SHA256 (Pkgfile) = 943883f3ecd963f85dad786dbfb2480836e76fb428d3c0034c56e909c0befdec
+SHA256 (.footprint) = 540957bfef79295b6c2ae91908c1853c19884ab8b11ba3074c2f5d0cdb78238b
+SHA256 (rstatix_0.7.3.tar.gz) = bca8906478582edb3eafa9e94f8f97df37178469bfedf163780489f99ec80e0f

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yq9Mi8agZ67gT/xbZn6hzad/EgcaHLQ4qHr+9bu+/duDhCWaC/r6/irXHvYSmnEph+LRcak6vPbqdoGHoFwTWAA=
+SHA256 (Pkgfile) = 95be36543ce1bd6caae7b3983a46a542dde3c0f7bd12edc5952b9089f1072d49
+SHA256 (.footprint) = eea9e60918c402b0973c27078c23131ff022fc7187ee67de3416e47ea79eb096
+SHA256 (iterators_1.0.14.tar.gz) = cef3075a0930e1408c764e4da56bbadd4f7d14315809df8f38dd51f80ccc677b

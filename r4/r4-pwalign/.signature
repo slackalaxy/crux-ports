@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yh5N1bU+QH8qMl0vSdDYXmR7uDfhPaqv0EzHwBiDCK9lscdGO5ZePI4lFpX74puAaf+0xo4CscHUM0crJv7LXw0=
+SHA256 (Pkgfile) = 55a1c519cdbd503344f10daf2e54500df347905703ed4b22180b677a4547dcec
+SHA256 (.footprint) = 28b03a1d69d09334f2bb78b19086faf28830adb051dcddfea9182e86cc68f2ba
+SHA256 (pwalign_1.8.0.tar.gz) = 54d97ddcba175658ca44bc813f458f7b376257cdac1341a62940a2d895062485

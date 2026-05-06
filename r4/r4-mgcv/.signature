@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yglyg3gydWgFq77+qOrnHnEW1yPoD3+UAGg5d7bJZm6H+BfUULubZ48tWs7hdZnr0LWHbixWXzB1a6bOWfsl1Q4=
+SHA256 (Pkgfile) = c4d4a375558008621aab8020f7ce8282631621bb59c5dbdba0bbb89112df82b6
+SHA256 (.footprint) = a3fb692bda9f723c6b0e347cfe4197b4f2d6ec96e2f27dee199e6e2b25defe96
+SHA256 (mgcv_1.9-4.tar.gz) = a98159698afb269e06a46cac1f945bf2b3427a2dd587c6f2efd67ede90089372

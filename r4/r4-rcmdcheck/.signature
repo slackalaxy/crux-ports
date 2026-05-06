@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YinRqSaoI5bhqhtxLL6zM/Oh1g4eYhwC/bq0kjx1VK7Q0vNWmXKyZrR+LKpBf5ItKwMh8tSQD9nNYQ0tWVsWpwg=
+SHA256 (Pkgfile) = aacc38ba7f15b7118bb04a35144e6715babba91322ea725eff795fc71a7cf9cd
+SHA256 (.footprint) = 89532165c17ed83332f8c0d87232aa887915551b5a89258b784cf4a35b508852
+SHA256 (rcmdcheck_1.4.0.tar.gz) = bbd4ef7d514b8c2076196a7c4a6041d34623d55fbe73f2771758ce61fd32c9d0

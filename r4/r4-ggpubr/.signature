@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ys/3JQj2Ecb5JOof/XhNQoy3GTssV2i2mDfTQOAfZMpgVgGsHsOSBpZ4GM71qv84l2v/vnEhrF/q+Wg3lJpJGwk=
+SHA256 (Pkgfile) = 0c03e89bfdb76c695a10ff9635543e5c6e356bba75c897ac9ca333cddd8caece
+SHA256 (.footprint) = 9dbd797c80c67652eb389c322e046750c6354812398fc453f524986bf2e86eb2
+SHA256 (ggpubr_0.6.3.tar.gz) = 0e1d44dd074d37f5543867d674e86c753269bc189eea5f7323458dcc564327c8

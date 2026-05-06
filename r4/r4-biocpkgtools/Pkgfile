@@ -1,0 +1,16 @@
+# Description: R module BiocPkgTools
+# URL: https://bioconductor.org/packages/BiocPkgTools
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocfilecache r4-biocmanager r4-biocviews r4-curl r4-dplyr r4-dt r4-gh r4-glue r4-graph r4-htmltools r4-htmlwidgets r4-httr r4-httr2 r4-igraph r4-jsonlite r4-lubridate r4-purrr r4-rbgl r4-readr r4-rlang r4-rvest r4-stringr r4-tibble r4-tidyr r4-xml2 r4-yaml
+# Optional: r4-biocstyle r4-blastula r4-clipr r4-diagrammer r4-kableextra r4-knitr r4-networkd3 r4-rmarkdown r4-summarizedexperiment r4-testthat r4-tm r4-visnetwork
+
+name=r4-biocpkgtools
+version=1.30.0
+release=1
+source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocPkgTools_${version}.tar.gz)
+
+build() {
+	cd BiocPkgTools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,17 @@
+# Description: R module SeuratData
+# URL: https://github.com/satijalab/seurat-data
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-cli r4-crayon r4-rappdirs r4-seurat r4-seuratobject
+# Optional: r4-azimuth
+
+name=r4-seurat-data
+version=3e51f44
+release=1
+source=(https://github.com/satijalab/seurat-data/archive/${version}/SeuratData-3e51f44303069b64f5dc4d68e6a3d4a343f55c39.tar.gz)
+
+build() {
+  cd ${name#r4-}-${version}*
+  mkdir -p "$PKG"/usr/lib/R/library
+  R CMD INSTALL . -l "$PKG"/usr/lib/R/library
+
+}

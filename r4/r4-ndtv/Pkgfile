@@ -1,0 +1,16 @@
+# Description: R module ndtv
+# URL: https://cran.r-project.org/web/packages/ndtv
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-animation r4-base64 r4-htmlwidgets r4-jsonlite r4-mass r4-network r4-networkdynamic r4-scatterplot3d r4-sna r4-statnet-common r4-tsna
+# Optional: r4-ergm r4-knitr r4-tergm r4-testthat
+
+name=r4-ndtv
+version=0.13.4
+release=1
+source=(https://cloud.r-project.org/src/contrib/ndtv_${version}.tar.gz)
+
+build() {
+	cd ndtv
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

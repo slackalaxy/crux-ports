@@ -1,0 +1,16 @@
+# Description: R module WikidataR
+# URL: https://cran.r-project.org/web/packages/WikidataR
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-crayon r4-dplyr r4-hmisc r4-httr r4-jsonlite r4-pbapply r4-progress r4-readr r4-stringr r4-tibble r4-wikidataqueryservicer r4-wikipedir
+# Optional: r4-knitr r4-markdown r4-testthat r4-tidyverse
+
+name=r4-wikidatar
+version=2.3.3
+release=1
+source=(https://cloud.r-project.org/src/contrib/WikidataR_${version}.tar.gz)
+
+build() {
+	cd WikidataR
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

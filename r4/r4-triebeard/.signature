@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yi2bl9N6a5offndxpgOiJT3nYJMxqP0Y4BY4Quu+iAh1S4zZaSt9q+Nm30MM6AV3j56FmIOLG+k960vTDWwPrAI=
+SHA256 (Pkgfile) = 4fe1761fe7324a163516328463e581f311aa88349fcc9e31a4c6d2e3bdcb3909
+SHA256 (.footprint) = 9e02aaeb2ec5ecef1f93d90a1e84363377c8456ed392f32b2e016035f9ad65b6
+SHA256 (triebeard_0.4.1.tar.gz) = 192f2fef6341e43bd56ef4f9841e813e07be990f4ffcf38c5606259630efe0f7

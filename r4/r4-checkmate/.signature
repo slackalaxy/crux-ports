@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ysp9INAOmFS8Of+6i9Msd35VEA23NDQDHDB3Ajm6p0AtG/fzKtYIsyp2d1+fMPY97vbjMGpodBfQyiqqk0z9aw8=
+SHA256 (Pkgfile) = 29350e409f3313e64bbd22c1f71b7e72c4f76360c734325c636c406ba4633f77
+SHA256 (.footprint) = 0ba79854a7a63448001c2d2e1fe225d51055487d95f575479311e3067d863ea0
+SHA256 (checkmate_2.3.4.tar.gz) = 95e1068dee07d95c5e616dfd66e622cf245821acd358a77e790118c34ebd85ca

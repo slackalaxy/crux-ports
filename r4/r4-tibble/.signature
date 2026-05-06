@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yi0sSPrxJ0bJFBWDQe9NmH5Cy0xoNJFLgBCvi1SZaG5O9KU1lrWJI+WDcNK53VsH5kRzDr2h+RmVLCr8vZfAgAA=
+SHA256 (Pkgfile) = 948f8f4cfcce5501cf067497e7b32d182ac74dbcad81bc4f9f58cfefe9a9a21b
+SHA256 (.footprint) = 1b27edc5f75ff13217cb646f4484c2923d73f7d9eb95e7fc6925867b335958e6
+SHA256 (tibble_3.3.1.tar.gz) = fb309f8a1939021b237c7e85ff7ad6e8ff5acd57a6230d220a452094b492b28f

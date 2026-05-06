@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YpralFyHZMsXYs/Pbc+va5ldNA7xPCqvYiEN8XOn4LNAw+q29SLFonj5osnlfkY0bono8bIwJ6GMkEUyHTBOng0=
+SHA256 (Pkgfile) = 78414b8ab5ed7ace0ca16616e7ad38e1f43e97548347e42aadede05a52d35cb1
+SHA256 (.footprint) = 4c84080c748c030e7c2e7de99be56b48baacf5c611b8a005deda1211ae08e2b7
+SHA256 (beeswarm_0.4.0.tar.gz) = 51f4339bf4080a2be84bb49a844c636625657fbed994abeaa42aead916c3d504

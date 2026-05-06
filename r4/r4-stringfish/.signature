@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yu15EvHCP+soaZjuyuZRNG4u8d/zJaTrnJ9YqaaL+k79dKjODMBB6Edai/aJCjZOuHLoWRXLk2QijZR3Xt44FwM=
+SHA256 (Pkgfile) = 749d32c9187a22b8aee5dc61e890a343acf503dc5bc388afa5211bffc12f4399
+SHA256 (.footprint) = 20c5fb3c6a6998f4af1d167448dd99098574602129b200fa9716cb83ce124601
+SHA256 (stringfish_0.19.0.tar.gz) = 07006737df89adff2673ba8a6ead64f64c391ebd646d3ee014f90a9e410c1af2

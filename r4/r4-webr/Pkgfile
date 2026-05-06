@@ -1,0 +1,16 @@
+# Description: R module webr
+# URL: https://cran.r-project.org/web/packages/webr
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-dplyr r4-flextable r4-ggforce r4-ggplot2 r4-magrittr r4-moonbook r4-psych r4-purrr r4-rlang r4-rrtable r4-scales r4-shiny r4-sjlabelled r4-stringr r4-tibble r4-tidyr r4-tidyselect r4-vcd r4-ztable
+# Optional: r4-knitr r4-rmarkdown r4-testthat
+
+name=r4-webr
+version=0.1.5
+release=1
+source=(https://cloud.r-project.org/src/contrib/webr_${version}.tar.gz)
+
+build() {
+	cd webr
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

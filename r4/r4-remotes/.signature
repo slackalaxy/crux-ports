@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YhEQDiEDYmxCj/jUbnKJv3sV4VnRE0WAqWISq1NFgcsDwpm/KI2hdjLVN7ldV/pUucCi0h6zBiylVBxu2VOBhQA=
+SHA256 (Pkgfile) = 9e73d5a7e7d1bbc9ea42ec174c42ddb2f092e985240fd4d2b3ab87b0cf8819ed
+SHA256 (.footprint) = 21df9e8352944ac8fce038359e47a6bd7a7c06feb966bf1cb5874ff94c4a3fad
+SHA256 (remotes_2.5.0.tar.gz) = 4d663f1426cd88d42f4070f23d969305c575e0499ed1397be6607b0770d2850c

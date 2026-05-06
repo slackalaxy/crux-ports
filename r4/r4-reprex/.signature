@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YgGuzzBF56YH407kF+zyV1BHDJA4FiSSAy5RYQNAAn1x9IZs+gSSIHla1vcOnqBiJmsOcDkUbxcZ2iTKrksTGgM=
+SHA256 (Pkgfile) = 0ff855f2ec954859bce6cc3fbe638fd4eebe8ce425b3156d583e05c436192592
+SHA256 (.footprint) = 8ef6d6524927f0161c5b6de956c392ad670670426e5daeeeffd8e213b503271a
+SHA256 (reprex_2.1.1.tar.gz) = c860368cbc7ef90ea786fb61ab6fa42cd89b5258be48652abc20ad414001879c

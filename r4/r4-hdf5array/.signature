@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YuUmCDnfLeiKFoPlxJzpjlvrrVzMNLFlt7JybBCrHlANQHiKcQfswmrG8x/YSGQiVQkfQmnvbIq8NPKXEb3ysQk=
+SHA256 (Pkgfile) = 18f63606a3e98ae52ef457c2ba80f81acf67a70785abb5c28a63ee9b6a0ba051
+SHA256 (.footprint) = 1702717c6de8556c23ed52a1f95eefebcacc5d5aa61fc76cf4ac6942f88a20b0
+SHA256 (HDF5Array_1.40.0.tar.gz) = 6ae65928e411a751f0ca3331c1ba20feca39389bcde08b3a4542dbbee5f12dcf

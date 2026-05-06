@@ -1,0 +1,16 @@
+# Description: R module TTR
+# URL: https://cran.r-project.org/web/packages/TTR
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-curl r4-xts r4-zoo
+# Optional: r4-runit
+
+name=r4-ttr
+version=0.24.4
+release=1
+source=(https://cloud.r-project.org/src/contrib/TTR_${version}.tar.gz)
+
+build() {
+	cd TTR
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

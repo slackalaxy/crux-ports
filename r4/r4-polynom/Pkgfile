@@ -1,0 +1,16 @@
+# Description: R module polynom
+# URL: https://cran.r-project.org/web/packages/polynom
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r
+# Optional: r4-knitr r4-rmarkdown
+
+name=r4-polynom
+version=1.4.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/polynom_1.4-1.tar.gz)
+
+build() {
+	cd polynom
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
