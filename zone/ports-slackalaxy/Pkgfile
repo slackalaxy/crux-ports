@@ -4,11 +4,11 @@
 
 name=ports-slackalaxy
 version=3.8
-release=3
+release=4
 source=(https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.httpup
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/ppetrov/ppetrov.pub
-	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4-modules/r4-modules.httpup
-	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4-modules/r4-modules.pub
+	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4/r4.httpup
+	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/r4/r4.pub
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/zone/zone.httpup
 	https://raw.githubusercontent.com/slackalaxy/crux-ports/main/zone/zone.pub)
 
@@ -16,10 +16,10 @@ build() {
 	mkdir -p $PKG/etc/ports
 	
 	install -m 0644 $SRC/ppetrov.httpup $PKG/etc/ports
-	install -m 0644 $SRC/r4-modules.httpup $PKG/etc/ports
+	install -m 0644 $SRC/r4.httpup $PKG/etc/ports
 	install -m 0644 $SRC/zone.httpup $PKG/etc/ports
 	
 	install -m 0644 $SRC/ppetrov.pub $PKG/etc/ports
-	install -m 0644 $SRC/r4-modules.pub $PKG/etc/ports
+	install -m 0644 $SRC/r4.pub $PKG/etc/ports
 	install -m 0644 $SRC/zone.pub $PKG/etc/ports	
 }
