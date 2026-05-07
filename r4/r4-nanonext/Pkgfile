@@ -1,11 +1,11 @@
-# Description: R module nanonext
+# Description: R-package nanonext
 # URL: https://cran.r-project.org/web/packages/nanonext
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: r4-later r4-litedown
 
 name=r4-nanonext
-version=1.8.2
+version=1.9.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/nanonext_${version}.tar.gz)
 

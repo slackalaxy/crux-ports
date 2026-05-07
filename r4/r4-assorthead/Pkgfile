@@ -1,11 +1,11 @@
-# Description: R module assorthead
+# Description: R-package assorthead
 # URL: https://bioconductor.org/packages/assorthead
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown
 
 name=r4-assorthead
-version=1.6.0
+version=1.6.1
 release=1
 source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/assorthead_${version}.tar.gz)
 

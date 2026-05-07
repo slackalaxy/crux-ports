@@ -1,11 +1,11 @@
-# Description: R module data.table
+# Description: R-package data.table
 # URL: https://cran.r-project.org/web/packages/data.table
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: r4-bit r4-bit64 r4-knitr r4-markdown r4-r-utils r4-xts r4-yaml r4-zoo
 
 name=r4-data-table
-version=1.18.2.1
+version=1.18.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/data.table_${version}.tar.gz)
 

@@ -1,12 +1,12 @@
-# Description: Write CRUX ports for CRAN R modules
+# Description: Write CRUX ports for R-packages from CRAN and Bioconductor
 # URL: https://github.com/slackalaxy/cran2crux
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r4-biocmanager
 
 name=cran2crux
-version=ed976a9
+version=f658be8
 release=1
-source=(https://github.com/slackalaxy/cran2crux/archive/$version/$name-ed976a974204577fdcb79174ffd13c78f3838d2a.tar.gz)
+source=(https://github.com/slackalaxy/cran2crux/archive/$version/$name-f658be80c5606021b25679519ab7346a8e9f4cd3.tar.gz)
 
 build() {
 	cd $name-${version}*
