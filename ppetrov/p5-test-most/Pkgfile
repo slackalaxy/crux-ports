@@ -4,7 +4,7 @@
 # Depends on:	p5-exception-class p5-test-deep p5-test-differences p5-test-exception p5-test-warn
 
 name=p5-test-most
-version=0.41
+version=0.42
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/D/DC/DCANTRELL/Test-Most-${version}.tar.gz)
 
