@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YkUaBclRLwX0vnhVKizskkSSWjuXVwEN3jua/ub9MocdVBCDUDV62OHlIu/6Yl/wb1wu0Ky11pGZeJ6/MxI9rAk=
-SHA256 (Pkgfile) = 4c935176e0fed62056416212c8a1c1f997ee55377d5691603ca77af81a896f7d
+RWQFYeZQgQH/YrweZojYofv8/eWZ7y5dfmldJBejDWaTqDu+6ABzoEcxECnPEb299x4Zg3PoP1L93831EzEZU32Gv79n6s6XtQc=
+SHA256 (Pkgfile) = 58bd9d09d7d1813d76e036d78ad13f656a13e5edca46c07e930918c802ac918e
 SHA256 (.footprint) = 0dde3915a865f6c8150ac614fe2cc7ebc72d62df1d1c8bc5a0e937c8ad872d88
-SHA256 (mirai_2.6.1.tar.gz) = f4dcb88a8e81745147836d7793cc3a93f1d7da79cc33af2bc6abda0469ca7e91
+SHA256 (mirai_2.7.0.tar.gz) = 7c1798e6d1f5b537681b8824f452d3cfc92496a24b36dfd6fa094e5de6765ec0

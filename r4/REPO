@@ -907,9 +907,9 @@ f:617e0763a5e7086e981e0e6cf7c2dc6e:r4-rgl/.signature
 f:30278765d57b0e7383111d8be35ab3ba:r4-rspectra/.footprint
 f:d353b2ae7d03d7f6738417513d464a78:r4-rspectra/Pkgfile
 f:f95396003453141a385b07860b141f08:r4-rspectra/.signature
-f:20f15981b1175fec6c5435f693851615:r4-sccustomize/Pkgfile
+f:138ec3f837d6ab3e1901f08b55f7d400:r4-sccustomize/Pkgfile
 f:54f40af352fd4626bad6965ad04755ed:r4-sccustomize/.footprint
-f:18b838fe2cde1a290687a344ab1942b8:r4-sccustomize/.signature
+f:19029388c94b95e139f3e74dc439fac5:r4-sccustomize/.signature
 f:3693e11603a487a20d69b65e883d6965:r4-shinydashboard/.signature
 f:390ce9f9a6f58656f7165a0a72980e33:r4-shinydashboard/.footprint
 f:419d8edbbaee8d6614900b842693f0dd:r4-shinydashboard/Pkgfile
@@ -1476,8 +1476,8 @@ f:87b7f8aebfca3bd3c03f45737606acc2:r4-seqlogo/.signature
 f:b8c36f394ebeab0509f07eec2f69e388:r4-seqlogo/Pkgfile
 f:525da533bc2df03de1d87ef06807baee:r4-seqlogo/.footprint
 f:529517f783a0b0d4ab7452578e444e27:cran2crux/.footprint
-f:66149fbf40a0778e33c74584dd5264c6:cran2crux/.signature
-f:730634356848e21ff1b6d69ac534b6ef:cran2crux/Pkgfile
+f:321c40a7ce7bc5602360aff9c69e4985:cran2crux/.signature
+f:9ed05dc6587c62c3e94fe13adce78f56:cran2crux/Pkgfile
 f:fab46eb49dbfe95de8a57ae248a3c0f7:r4-animation/.footprint
 f:3fcc09819576a636feb3de8842324e83:r4-animation/.signature
 f:eeecfe2a8237b6329548cd5694212ad9:r4-animation/Pkgfile
@@ -1856,9 +1856,9 @@ f:a0613d1e2834214aa6191d01bb44015d:r4-cner/Pkgfile
 f:c502a1e358e8f0afc9ef9f4aaf225f6e:r4-signac/Pkgfile
 f:1e81860e3f2f57ed3cc22a298c1dbd3d:r4-signac/.footprint
 f:d4b87d0ed609d35f14eb03e0c725330b:r4-signac/.signature
-f:d09fb3858b08f17fa51556acf02f9fcb:r4-mirai/.signature
+f:7c99b9ae5e42eebfbfd3435ef0fcd464:r4-mirai/.signature
 f:3e77756f8b52f8efa572cb9150cbdaf9:r4-mirai/.footprint
-f:c1d22eb54eed128b748f41e5d6e3a4a6:r4-mirai/Pkgfile
+f:2ca4e80fbde6e0d7e92d0ca0e10b4c37:r4-mirai/Pkgfile
 f:fde8eef05db5df995ab0a0ffdc8d2fc6:r4-gosemsim/.signature
 f:50b153b682df96726ec9b742a19499b9:r4-gosemsim/.footprint
 f:02cf887051545324918c81cd6525a5e8:r4-gosemsim/Pkgfile
@@ -1871,9 +1871,9 @@ f:58d5d29216af7eae44463e283b91fa00:r4-seurat-data-pbmcsca/.signature
 f:1936cd63b82f977a1aa033fbbdeef526:r4-kegggraph/.signature
 f:83bf73635949c2a4c3c01cc1c0c27c73:r4-kegggraph/.footprint
 f:a69bafbc59f880045e1bb67d456c36a7:r4-kegggraph/Pkgfile
-f:f80035f3d3f7a7d43325e04ce43e4eb0:r4-spatstat-utils/.signature
+f:bb33fbf08b0998e40a8752afa3b00641:r4-spatstat-utils/.signature
 f:235f3b4f2507200bae5f593170587769:r4-spatstat-utils/.footprint
-f:aef3275b349b82216c6a167146ca26a9:r4-spatstat-utils/Pkgfile
+f:cc674f679ffc2972342c3f0e27a41d04:r4-spatstat-utils/Pkgfile
 f:7c2c0b75275c1cfdfea210404d10dc82:r4-tibble/.signature
 f:7e2ad940e8a109b24422e3382f0f4ca1:r4-tibble/.footprint
 f:727ba0636ff44160a3b078ea9266077f:r4-tibble/Pkgfile
@@ -2048,8 +2048,8 @@ f:5d62b767070f08bfdeb139b5cb0634d1:r4-rcpptoml/.footprint
 f:ef163042f8be066b79b506a3726a99fb:r4-rhdf5/.signature
 f:b07db2b30377a6ada60483a58133fec0:r4-rhdf5/Pkgfile
 f:af4726af356064c08a9449d57e7b6427:r4-rhdf5/.footprint
-f:b47c45690f8a72d6ce9de49cb8de4a0d:r4-rsqlite/.signature
-f:0ed23a7928456a01319f26932e0cacf2:r4-rsqlite/Pkgfile
+f:eaec74d0b237ed2e29ee3f98e7047192:r4-rsqlite/.signature
+f:c8931a62fdfd5f9582338ff17cb189c2:r4-rsqlite/Pkgfile
 f:f8675f7eb23ec74540ffde36bfd97bce:r4-rsqlite/.footprint
 f:56eb91642f20d1806002153ae1659ec0:r4-sctransform/.footprint
 f:d908bc0994e169b9a676bc0e0f37bb6e:r4-sctransform/.signature
