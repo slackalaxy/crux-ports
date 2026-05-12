@@ -10,11 +10,9 @@ It would be too complicated to track back the original authors, in order
 to credit them properly. So, if someone recognised their port and wants
 to be credited, let me know!
 
----
-
 ### ppetrov
 Main collection of programs and libraries. The port for *viber* uses the
-unversioned tarball provided by upstream, therefore `.signature` and
+unversioned AppImage provided by upstream, therefore `.signature` and
 `.footprint` may mismatch. The ports for *python3-pybind11* and 
 *ncbi-blast-plus* depend respectively on *eigen* and *lmdb*, found in the
 [kde-plasma-6](https://crux.nu/portdb/?a=repo&q=kde-plasma-6) repo.
