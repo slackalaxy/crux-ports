@@ -46,6 +46,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/filter-columns
 -rwxr-xr-x	root/root	usr/bin/filter-genbank
 -rwxr-xr-x	root/root	usr/bin/filter-record
+-rwxr-xr-x	root/root	usr/bin/filter-records
 -rwxr-xr-x	root/root	usr/bin/filter-stop-words
 -rwxr-xr-x	root/root	usr/bin/find-in-gene
 -rwxr-xr-x	root/root	usr/bin/fsa2xml
@@ -98,6 +99,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/sort-uniq-count-rank
 -rwxr-xr-x	root/root	usr/bin/spdi2tbl
 -rwxr-xr-x	root/root	usr/bin/split-at-intron
+-rwxr-xr-x	root/root	usr/bin/split-records
 -rwxr-xr-x	root/root	usr/bin/systematic-mutations
 -rwxr-xr-x	root/root	usr/bin/tbl2prod
 -rwxr-xr-x	root/root	usr/bin/tbl2xml
