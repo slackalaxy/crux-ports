@@ -1,10 +1,10 @@
 # Description: Hypothesis Testing using Phylogenies
-# URL: https://github.com/veg/hyphy/
+# URL: https://github.com/veg/hyphy/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: openblas openmpi
 
 name=hyphy
-version=2.5.98
+version=2.5.99
 release=1
 source=(https://github.com/veg/hyphy/archive/$version/$name-$version.tar.gz)
 
