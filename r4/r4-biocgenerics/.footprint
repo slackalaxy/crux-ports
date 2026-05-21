@@ -36,4 +36,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/BiocGenerics/unitTests/
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/unitTests/test_mapply.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/unitTests/test_order.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/unitTests/test_paste.R
+-rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/unitTests/test_paste2.R
 -rw-r--r--	root/root	usr/lib/R/library/BiocGenerics/unitTests/test_updateObject.R

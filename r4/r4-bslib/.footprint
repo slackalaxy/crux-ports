@@ -99,6 +99,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/bslib/components/scss/mixins/
 -rw-r--r--	root/root	usr/lib/R/library/bslib/components/scss/page_sidebar.scss
 -rw-r--r--	root/root	usr/lib/R/library/bslib/components/scss/sidebar.scss
 -rw-r--r--	root/root	usr/lib/R/library/bslib/components/scss/toast.scss
+-rw-r--r--	root/root	usr/lib/R/library/bslib/components/scss/toolbar.scss
 -rw-r--r--	root/root	usr/lib/R/library/bslib/components/scss/value_box.scss
 -rw-r--r--	root/root	usr/lib/R/library/bslib/components/tag-require.js
 drwxr-xr-x	root/root	usr/lib/R/library/bslib/css-precompiled/
@@ -174,6 +175,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/bslib/examples-shiny/flights/www/
 -rw-r--r--	root/root	usr/lib/R/library/bslib/examples-shiny/flights/www/logo.png
 drwxr-xr-x	root/root	usr/lib/R/library/bslib/examples-shiny/toast/
 -rw-r--r--	root/root	usr/lib/R/library/bslib/examples-shiny/toast/app.R
+drwxr-xr-x	root/root	usr/lib/R/library/bslib/examples-shiny/toolbar/
+-rw-r--r--	root/root	usr/lib/R/library/bslib/examples-shiny/toolbar/app.R
 drwxr-xr-x	root/root	usr/lib/R/library/bslib/examples-shiny/value_box/
 -rw-r--r--	root/root	usr/lib/R/library/bslib/examples-shiny/value_box/app.R
 -rw-r--r--	root/root	usr/lib/R/library/bslib/examples-shiny/value_box/deploy.R
@@ -891,6 +894,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/bslib/lib/bsw5/
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/bsw5/LICENSE
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/bsw5/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/bslib/lib/bsw5/dist/
+drwxr-xr-x	root/root	usr/lib/R/library/bslib/lib/bsw5/dist/brite/
+-rw-r--r--	root/root	usr/lib/R/library/bslib/lib/bsw5/dist/brite/_bootswatch.scss
+-rwxr-xr-x	root/root	usr/lib/R/library/bslib/lib/bsw5/dist/brite/_variables.scss
 drwxr-xr-x	root/root	usr/lib/R/library/bslib/lib/bsw5/dist/cerulean/
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/bsw5/dist/cerulean/_bootswatch.scss
 -rwxr-xr-x	root/root	usr/lib/R/library/bslib/lib/bsw5/dist/cerulean/_variables.scss
@@ -1031,6 +1037,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/bslib/lib/prism-code-editor/prism/languag
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/prism-code-editor/prism/languages/css.js
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/prism-code-editor/prism/languages/diff.js
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/prism-code-editor/prism/languages/docker.js
+-rw-r--r--	root/root	usr/lib/R/library/bslib/lib/prism-code-editor/prism/languages/ggsql.js
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/prism-code-editor/prism/languages/ini.js
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/prism-code-editor/prism/languages/javascript.js
 -rw-r--r--	root/root	usr/lib/R/library/bslib/lib/prism-code-editor/prism/languages/json.js

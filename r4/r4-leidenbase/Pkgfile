@@ -1,11 +1,11 @@
-# Description: R module leidenbase
+# Description: R-package leidenbase
 # URL: https://cran.r-project.org/web/packages/leidenbase
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-igraph
 # Optional: r4-knitr r4-pandoc r4-rmarkdown r4-testthat
 
 name=r4-leidenbase
-version=0.1.36
+version=0.1.37
 release=1
 source=(https://cloud.r-project.org/src/contrib/leidenbase_${version}.tar.gz)
 

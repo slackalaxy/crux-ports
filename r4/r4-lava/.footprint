@@ -75,4 +75,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/lava/html/
 -rw-r--r--	root/root	usr/lib/R/library/lava/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/lava/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/lava/misc/
+-rw-r--r--	root/root	usr/lib/R/library/lava/misc/estimate_sim.R
 -rw-r--r--	root/root	usr/lib/R/library/lava/misc/zgetmplus.R
