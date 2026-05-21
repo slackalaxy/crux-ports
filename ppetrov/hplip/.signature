@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdn+Qrsb6IE7+/28cqYAH0cqwEhRsCIBflmX678sd97Gf9AZ0ErwqTkqyuzs/mESGKeNgEmOG2mTemi/57iYYww=
-SHA256 (Pkgfile) = 388375863a16f8fd97e6cf8fc92b8ec96de60707a9915db030957499bc7473c8
-SHA256 (.footprint) = 9d1b1e42dee79f7cf2a2a5c1c36fa241cd7641982a8a7f526aac8236593886f2
-SHA256 (hplip-3.25.8.tar.gz) = 1cf6d6c28735435c8eb6646e83bcfb721e51c4b1f0e8cf9105a6faf96dc9ad25
+RWToVVsIkzFIZQV685BTar+MBsVa02Ki7sTNjF8hucan/+Ep+LstZ9ioTMsIDQrEzUv2yy5sboBkuvFCSTCOJQXSZQhG3RCUMQQ=
+SHA256 (Pkgfile) = edf2f9fc9a2a1e3ff197021a97e7bec2bf1a5fadfc1eea2e96f041a8059ac5b4
+SHA256 (.footprint) = d9623ea61f591622deef65767a770ad784c82e6bb35bedf804d050a620d0fc86
+SHA256 (hplip-3.26.4.tar.gz) = b9c61252754f35b4a237396ca8961e7b3e0c56db76d66a6712b7bf3e30e69463
 SHA256 (0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch) = 002d5b075e2a93a32a48ddd93d59b811c6403e98b1ba86a5f7ab4846c0aa6450
 SHA256 (0018-Allow-non-JPEG-scanning-on-the-HP-DeskJet-3520-All-i.patch) = b4df02f4614a4b2e373390102d90cd28972c371da903c3d45cc188494e8ea0ba
 SHA256 (0021-Add-include-cups-ppd.h-in-various-places-as-CUPS-2.2.patch) = d19f1133c1ca0bd8225574eaf22a45fcb62df1b513df425c5ce6d74b3917be1e
