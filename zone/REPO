@@ -22,7 +22,6 @@ d:leafports
 d:ls_colors
 d:gtksourceview4-styles
 d:meta-ppetrov
-d:meta-r4-modules
 d:meta-misc
 d:blacklist-nouveau
 d:pbzx
@@ -32,10 +31,11 @@ d:ttf-win11
 d:ttf-sierra
 d:ttf-aptos
 d:cpan2crux
+d:meta-r4
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
-f:198298e12647e9e431ca8e5e6c71b1b5:fonts-conf/.signature
-f:465601a780231c94ba875a9359f52b1c:fonts-conf/README
-f:17c3a035870250fb30a13d760f412a44:fonts-conf/Pkgfile
+f:3719713362e8383c69afb22bb4954dd7:fonts-conf/.signature
+f:476812fd0995776b3028cebb01cef2ed:fonts-conf/README
+f:4571e321d5915eedfd867efc7dc73eee:fonts-conf/Pkgfile
 f:b95c66be425fac0c3ab535b09ef44f21:grub2-default/README
 f:4bc069851274231826766ac924a0e130:grub2-default/grub2-default
 f:9543aa8c645cadb92eb45259d477a9fa:grub2-default/.footprint
@@ -142,9 +142,6 @@ f:feb412bb1c2f56af8bcaa5a677c44e27:gtksourceview4-styles/gtksourceview4-styles-0
 f:1240b92051f2f4575943410820e19415:meta-ppetrov/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-ppetrov/.footprint
 f:04ccb6bc19205efe85501c185fb65349:meta-ppetrov/.signature
-f:2d1e1889341ef6de0b7daf6d95b43b35:meta-r4-modules/Pkgfile
-f:be28f7bcfd813622700367b7200133e6:meta-r4-modules/.footprint
-f:1428d704003cad217fc816851a327ebd:meta-r4-modules/.signature
 f:7a33f7da3a37ad5e7d41e8e0c896ebe5:meta-misc/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-misc/.footprint
 f:e28c50cd9e00cc513d508337563d9a83:meta-misc/.signature
@@ -204,3 +201,6 @@ f:7bf538285f04373f750d3311a8344d77:cpan2crux/Pkgfile
 f:d2e86e6ea7a81e58df8bff4fdf9f40e4:cpan2crux/cpan2crux-1.4.pl
 f:5e44468f8fc04d9a5f42153c4ee68156:cpan2crux/.footprint
 f:8cf5e2860c0c383cb2b176b4eb94b49d:cpan2crux/.signature
+f:767c2a4bc92ad8f68936513cb533c615:meta-r4/Pkgfile
+f:be28f7bcfd813622700367b7200133e6:meta-r4/.footprint
+f:055b744c96abb6b71ea9a7a079e0a492:meta-r4/.signature
