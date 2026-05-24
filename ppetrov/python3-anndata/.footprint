@@ -2,11 +2,11 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/anndata-0.12.13.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata-0.12.13.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata-0.12.13.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata-0.12.13.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata-0.12.13.dist-info/direct_url.json
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/anndata-0.12.16.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata-0.12.16.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata-0.12.16.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata-0.12.16.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata-0.12.16.dist-info/direct_url.json
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/anndata/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/anndata/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/anndata/__pycache__/
