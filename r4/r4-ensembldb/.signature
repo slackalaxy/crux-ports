@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YuZenU66bOuFpxjiCBvTvwObXQJoZiChTeF1ID/mGOE4qH4jaWc9yaDf0bUmL82NfQFqM4czjBUIdVQWZYeRpgo=
-SHA256 (Pkgfile) = 5e49023afda1b9db37c144bb764cc753df973ca0065280cf6d98e4f4e55fc71a
+RWQFYeZQgQH/YvMBNypqtaXNp6GnzwKontcHKeFA85kohrX/J/FH73HlPvRg1d0zk83o2mFTeqE5eNDHOCtxA/xKvkFiDK/oZAE=
+SHA256 (Pkgfile) = 61ad887f7321fb6f0e444dfdeb679319e68cbca057e12c9cfdc85cdc1d8024bd
 SHA256 (.footprint) = c32158183e54c955786b8334a85a553ff522d25ad70409f53983c04998ae58cd
-SHA256 (ensembldb_2.36.0.tar.gz) = 78137f2e025472ea9c12611c14dae0b2b459f2f29509268151a9e5bd74edbef4
+SHA256 (ensembldb_2.36.1.tar.gz) = d6fa02bb4b78fd4e3d4b899ff62c7f9af086ba561e7bd455a6d265332732fde7

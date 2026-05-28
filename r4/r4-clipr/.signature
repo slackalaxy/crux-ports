@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YsiLbbWGH0iL29n8cGRoPTaWkkUiHBrY9Ay4kgTJoEiMTWaLH3ZiNc076Co/I0mzVAGdZ4cE5q5JLffNgXjoOQc=
-SHA256 (Pkgfile) = bf5333ed15a3e0cb494b13fce0f4f52011c653fdb1213bf50800aa54c3a2c356
+RWQFYeZQgQH/Yrnt6U9UeSGyt9gwzUsKcbn4PQUy/QOFrd7PiBfP8TAF939TMI6d6IH7AmCRio4E9tflZRS9VZlB1m6u1dEV0Aw=
+SHA256 (Pkgfile) = c896e93feffe967cc581638fc4c1990cd0cb69a94814b0a811c8a64d2b2d1daa
 SHA256 (.footprint) = 415f73a6fcf8268fbdec9af83c1d03e2667a4f9cc329e098802a9ff9cc1efec3
-SHA256 (clipr_0.8.0.tar.gz) = 32c2931992fbec9c31b71de3e27059f1cbb45b4b1f45fd42e0e8dbcec6de3be9
+SHA256 (clipr_0.8.1.tar.gz) = 06e87a9c387da33f4ce8de91d037c090b924689b5ff487d3c0c7506bd4c3f1b6

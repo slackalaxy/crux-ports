@@ -579,6 +579,18 @@ drwxr-xr-x	root/root	usr/lib/R/library/assorthead/include/factorize/
 -rw-r--r--	root/root	usr/lib/R/library/assorthead/include/factorize/create_factor.hpp
 -rw-r--r--	root/root	usr/lib/R/library/assorthead/include/factorize/factorize.hpp
 -rw-r--r--	root/root	usr/lib/R/library/assorthead/include/factorize/utils.hpp
+drwxr-xr-x	root/root	usr/lib/R/library/assorthead/include/gesel/
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/check_collection_details.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/check_genes.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/check_indices.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/check_set_details.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/check_version.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/gesel.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/load_ranges.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/parse_field.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/utils.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/validate_database.hpp
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gesel/validate_genes.hpp
 drwxr-xr-x	root/root	usr/lib/R/library/assorthead/include/gsdecon/
 -rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gsdecon/Options.hpp
 -rw-r--r--	root/root	usr/lib/R/library/assorthead/include/gsdecon/Results.hpp
@@ -1115,6 +1127,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/assorthead/licenses/eminem/
 -rw-r--r--	root/root	usr/lib/R/library/assorthead/licenses/eminem/LICENSE
 drwxr-xr-x	root/root	usr/lib/R/library/assorthead/licenses/factorize/
 -rw-r--r--	root/root	usr/lib/R/library/assorthead/licenses/factorize/LICENSE
+drwxr-xr-x	root/root	usr/lib/R/library/assorthead/licenses/gesel/
+-rw-r--r--	root/root	usr/lib/R/library/assorthead/licenses/gesel/LICENSE
 drwxr-xr-x	root/root	usr/lib/R/library/assorthead/licenses/gsdecon/
 -rw-r--r--	root/root	usr/lib/R/library/assorthead/licenses/gsdecon/LICENSE
 drwxr-xr-x	root/root	usr/lib/R/library/assorthead/licenses/hnswlib/

@@ -5,7 +5,7 @@
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown
 
 name=r4-assorthead
-version=1.6.1
+version=1.6.3
 release=1
 source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/assorthead_${version}.tar.gz)
 

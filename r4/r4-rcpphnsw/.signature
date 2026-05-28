@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YsCK1mFCpTf5tQtIzfhrxibabW5zHiV6M50k+zuWA3kxDgEUDx4FPrDiO0ODSP+woTzpsotPB+UiXHIbviVdtg0=
-SHA256 (Pkgfile) = 5d98b77d01ba6fd0b5cfc4895e5fea2183fc56c75d1b9aa432b8e1cb7c8501a6
-SHA256 (.footprint) = 53deb6c81f0b2e9f975e298d7e49171e872d9e1d0e795e14e3e8fbcd90f4339f
-SHA256 (RcppHNSW_0.6.0.tar.gz) = a5a6ed00a84143aa62aa67df66fcccae657d5db0a1f9bb4b955a8e94c2ff580f
+RWQFYeZQgQH/YuxTp+kl9O20MJLoeR8glzRx9fOTXBLa4kOOrYbOFqdK8FhaP8TqnJOJtzcEi+u3ErxAD2gwcmgyBWQFXDlCcQ0=
+SHA256 (Pkgfile) = ae22c483a8fd72681eb50aeac4d710c5191946ee460d59d1789808f96c5a8a8f
+SHA256 (.footprint) = 31f63d3d3b1aac0a8ff047376717898187ddd3fbd628c32c1ea369af56391bf2
+SHA256 (RcppHNSW_0.7.0.tar.gz) = 8164785899f9e7f5ad5735fc0b7707d9ebadadc867a541816a9c2c5dd0fbac4c
