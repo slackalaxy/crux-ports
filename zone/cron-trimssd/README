@@ -1,0 +1,6 @@
+Set your mount points to be trimmed in:
+	
+	/etc/trimssd.conf
+
+By default, trimssd is installed as a cron dayly job. Check the Pkgfile
+for other options.

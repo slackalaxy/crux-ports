@@ -1,0 +1,18 @@
+# Description: Trim SSDs as a cron job
+# URL: /etc/cron/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=cron-trimssd
+version=3.8
+release=1
+source=(${name#cron-}.conf ${name#cron-}.sh)
+
+build() {
+	# Pick one...
+	#install -D -m 0755 ${name#cron-}.sh $PKG/etc/cron/daily/${name#cron-}
+	#install -D -m 0755 ${name#cron-}.sh $PKG/etc/cron/hourly/${name#cron-}
+	#install -D -m 0755 ${name#cron-}.sh $PKG/etc/cron/monthly/${name#cron-}
+	install -D -m 0755 ${name#cron-}.sh $PKG/etc/cron/weekly/${name#cron-}
+	
+	install -D -m 0644 ${name#cron-}.conf $PKG/etc/trimssd.conf
+}
