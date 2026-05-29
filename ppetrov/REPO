@@ -20,6 +20,7 @@ d:gbgoffice
 d:gblocks
 d:gcc5
 d:python3-numcodecs
+d:calibre
 d:goffice
 d:python3-hatch-docstring-description
 d:hexchat
@@ -203,6 +204,10 @@ f:04e73dd6a55a90a4fee9999a915580d3:gcc5/glibc2.30-ipc_perm.patch
 f:503c6422949f145d9a427f6cf9147547:python3-numcodecs/Pkgfile
 f:3cf12b8f1459ee639683a5a993197d5c:python3-numcodecs/.footprint
 f:0d4017919e6e82c94db11e1ae6555ab0:python3-numcodecs/.signature
+f:cc9fc47faab8d10b84f14a819dbc80a7:calibre/.footprint
+f:2f70cac5609eb703284af516762a4f02:calibre/.signature
+f:1d2b2ec2da6b8ae48be86f03e7a7609b:calibre/Pkgfile
+f:9cf4347fa5d0199afdc45a9a527a0224:calibre/calibre.desktop
 f:ed6891030b4ed9837ea7b0555d74cc4a:goffice/.footprint
 f:11021b53d90946e46ca586c16d952bee:goffice/Pkgfile
 f:7f26039bdfda206f52ecbc9244fb3a1d:goffice/.signature
@@ -270,9 +275,9 @@ f:7ca850f408360639a3035c9081d2b9a5:ncbi-blast-plus/.footprint
 f:8f673adfa29b2ea19a1626c38da91db6:ncbi-blast-plus/Pkgfile
 f:213e704d0ede3e177d5327cc473880b5:ncbi-blast-plus/.signature
 f:e73d44d67835432a99a9d9ac783b16a8:ncbi-blast-plus/README
-f:982ed1d6c54915ee33556435a2a09dea:ncbi-datasets/Pkgfile
+f:9ebf2c4121dfde56c69b5e5c51d16ea8:ncbi-datasets/Pkgfile
 f:147b81193a05924ca5ac9ba6b37838d5:ncbi-datasets/.footprint
-f:8e12c777ceb92f5175c714c0f4c4e6ab:ncbi-datasets/.signature
+f:86778de972fedd7738336f3f36188ea3:ncbi-datasets/.signature
 f:0215ee503bb0e85625710b9d315385b7:p5-ipc-run/.signature
 f:3075d486d5c68bbc1d0a32a58e0748c5:p5-ipc-run/Pkgfile
 f:f9f26e810cb086921d07205d6d886078:p5-ipc-run/.footprint
@@ -285,8 +290,8 @@ f:b7563d51d300b6e559fee10f8ea63cc9:paml/.footprint
 f:2e15f1a3f252efa224e35643ca84f586:pdflib-lite/.footprint
 f:e4a1243d658dbb59cc7bdc36f1e4e081:pdflib-lite/Pkgfile
 f:1ad841bbd4fb9f5e20a776357a9fe18f:pdflib-lite/.signature
-f:e10d0610a780bfbb1c7e9c0935a2682d:phyml/Pkgfile
-f:249dcb6f866b6d9ce642f81bfe0d8cda:phyml/.signature
+f:5eba7a56c763bd8add1fa9207e74e04d:phyml/Pkgfile
+f:32999defc8e5b7c8aa14ea9a8cb81d47:phyml/.signature
 f:c858e4e41c4b3b63d36d1bc9e936619a:phyml/.footprint
 f:46d0ca329307b4eac88f413bd62215c9:polar-cursor-themes/.footprint
 f:5c96c0581e3c72f171f7f4a3e9d22b6d:polar-cursor-themes/Pkgfile
@@ -366,9 +371,9 @@ f:b3ccf02c13ee8cb8b939f2d72e7f7a39:qt6ct/README
 f:4fedd3ff1ef1ea315b4b20eec3041630:qt6gtk2/Pkgfile
 f:7b3b7fcc65878ac0bc7a29c6b09ee63b:qt6gtk2/.signature
 f:6ba718edc91ba463b79430de85849027:qt6gtk2/.footprint
-f:d0c6dc2064f8ed8ef1d6a0d055340f0a:rstudio-desktop/.footprint
-f:14cd840597b388f021b449aafac26697:rstudio-desktop/.signature
-f:94e1d634feff7eb1997161fe6bb51ade:rstudio-desktop/Pkgfile
+f:205990809b0826eed8e7edf0848892d1:rstudio-desktop/.footprint
+f:0baf9b3ae5751ca494c516e0cae68e6e:rstudio-desktop/.signature
+f:50f489d9ebc5665786028c8ad96978a9:rstudio-desktop/Pkgfile
 f:fd5f8f987131f8e4df29787557bd8d61:rstudio-desktop/rstudio.sh
 f:29a63a6d3046b3d8cb6060d9efeef2cc:seaview/Pkgfile
 f:ff1c92b6751c7c0b18fee7ccda5cdd75:seaview/.footprint
