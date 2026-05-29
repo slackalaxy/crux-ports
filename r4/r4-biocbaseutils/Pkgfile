@@ -1,11 +1,11 @@
-# Description: R module BiocBaseUtils
+# Description: R-package BiocBaseUtils
 # URL: https://bioconductor.org/packages/BiocBaseUtils
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: r4-biocstyle r4-knitr r4-rmarkdown r4-tinytest
 
 name=r4-biocbaseutils
-version=1.14.0
+version=1.14.2
 release=1
 source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/BiocBaseUtils_${version}.tar.gz)
 
