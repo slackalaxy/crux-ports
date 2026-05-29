@@ -5,7 +5,7 @@
 # Optional: r4-learnr
 
 name=rstudio-desktop
-version=2026.04.0+526
+version=2026.05.0+218
 _pebble=a122a85
 release=1
 source=(https://download1.rstudio.org/electron/rhel9/x86_64/rstudio-${version/+/-}-x86_64.rpm
@@ -20,6 +20,9 @@ build() {
 	find $PKG/ -name "*README*" -delete
 	find $PKG/ -name "*COPYING*" -delete
 	find $PKG/ -name "*INSTALL*" -delete
+	
+	# I don't need this and the deps it wants
+	rm -rf $PKG/usr/lib/rstudio/resources/app/bin/copilot-language-server-js/
 
 	sed -i "s:/usr/lib/rstudio/rstudio:rstudio:" $PKG/usr/share/applications/rstudio.desktop
 	sed -i "s:Development:Education:" $PKG/usr/share/applications/rstudio.desktop
