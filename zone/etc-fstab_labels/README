@@ -1,0 +1,14 @@
+## I use XFS, so that's in the example fstab. To see existing labels:
+#  lsblk -o name,mountpoint,label,size
+
+## An EFI partition on /dev/sda1:
+#  mkfs.vfat -F 32 /dev/sda1
+#  fatlabel /dev/sda1 EFI
+
+## A XFS partition on /dev/sda2:
+#  mkfs.xfs /dev/sda2
+#  xfs_admin -L ROOT /dev/sda2
+
+## A SWAP partition on /dev/sda3:
+#  mkswap /dev/sda3
+#  swaplabel -L SWAP /dev/sda3

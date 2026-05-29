@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwSDCyoj5EV0BAQWhQKSkmOO4A95Eoz/Sl3QKXgbHtXXRlz1dOTboeb4AXSjLRIsozdrcxguUMDiHmtPnajOvJQY=
+SHA256 (Pkgfile) = 42a236d8406461bcaa777e1302e34639b86e60eae2a6b30431571ff905852999
+SHA256 (.footprint) = 3ef7aa0738558777238c8f20ac0e7ba604073ce1375285ce18481dff05ff3298
+SHA256 (fstab_labels) = 497d1e0fdfc1467d62e8944fdb0f6dc4217532bb6d7e4881802f54256f5ca708
