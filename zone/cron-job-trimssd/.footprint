@@ -1,5 +1,0 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/cron/
-drwxr-xr-x	root/root	etc/cron/daily/
--rwxr-xr-x	root/root	etc/cron/daily/trimssd
--rw-r--r--	root/root	etc/trimssd.conf
