@@ -11,6 +11,7 @@ d:etc-hostname
 d:ports-slackalaxy
 d:ports-extra
 d:etc-fstab_labels
+d:battery-limits
 d:backgrounds-vladstudio
 d:backgrounds-assorted
 d:prt-supplements
@@ -100,6 +101,10 @@ f:3960629d1e191c7092db8ea34cd2c84b:etc-fstab_labels/README
 f:fa70bad6e57c82bbb3db84bec49dc7a3:etc-fstab_labels/.footprint
 f:2d8f070db7df880a1ee68fed854dbf03:etc-fstab_labels/.signature
 f:e0600a2c889eef360a176af246590d5c:etc-fstab_labels/fstab_labels
+f:bb08d70e25c71253bbbd5efedb3243d1:battery-limits/Pkgfile
+f:47e1615345a9b5772a9bbe372d89a213:battery-limits/99-thinkpad-battery-threshold.rules
+f:9407c6bd0a85cccaac30517853ad9e8e:battery-limits/.footprint
+f:475627fc3f9274133b7ffd4a8507b805:battery-limits/.signature
 f:a4c2b91895adbb35d54b1e8ea5eea0f5:backgrounds-vladstudio/Pkgfile
 f:3520a4b011b3df2d578d2fb6cb644f8f:backgrounds-vladstudio/README
 f:ad952d7bd54a270228ddfea3ebb06c0b:backgrounds-vladstudio/.footprint
@@ -199,10 +204,10 @@ f:3cb463b7d2ac1bb95f18091d852a4245:cron-cleanup/.signature
 f:3258da09d143d2f4ab404edd8ba1bc75:cron-cleanup/.footprint
 f:b075ae396226fef3acc13fdd1cea475d:cron-cleanup/Pkgfile
 f:d6eb12b61894f3d3b9f765eed1202c92:cron-cleanup/cleanup.sh
-f:7d4d6771b35e8b76c5da373494063a60:cron-prtdiff/Pkgfile
-f:6f361f14223274ce9d5d0c656ff871c4:cron-prtdiff/prtdiff.sh
+f:930433aa41d85a661bd3bc39032f2fe4:cron-prtdiff/Pkgfile
+f:d8dd7af158efd62fff38a44dfd91a9f1:cron-prtdiff/prtdiff.sh
 f:7b270e0b0804ab5c290a7e3279043548:cron-prtdiff/.footprint
-f:ecae4f683c7e64d96376e6619c9b6848:cron-prtdiff/.signature
+f:7e4e649337498b73221392ac621978d0:cron-prtdiff/.signature
 f:6d7cc875658b26603d9719cb34c0ec24:cron-trimssd/.signature
 f:de43ed3a531c44a785b8bc04204e4637:cron-trimssd/README
 f:6a1fb9e00202e689503805cec306c784:cron-trimssd/trimssd.conf
