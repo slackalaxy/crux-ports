@@ -1,0 +1,12 @@
+# Description: Battery charge threshold (60-80%)
+# URL: /etc/udev/rules.d/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=battery-limits
+version=3.8
+release=1
+source=(99-thinkpad-battery-threshold.rules)
+
+build() {
+  install -D -m 0644 $SRC/99-thinkpad-battery-threshold.rules $PKG/etc/udev/rules.d/99-lenovo-battery-threshold.rules
+}

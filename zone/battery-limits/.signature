@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwcey654husplG6tWuzHXYBj/g1UopxgYr/OMZLbOLw/lwhKOGL5y5bx8v8urBxk12BC3ZG49FhVffUixhT716A8=
+SHA256 (Pkgfile) = b838e59f3d88168204c6b757c86d304d01b562a43207cdd0c4ffeb386db92596
+SHA256 (.footprint) = 4b46533d7dbaad7d67e56834ac6cbb2d2ee56e225346fa48452a33e5590f97d3
+SHA256 (99-thinkpad-battery-threshold.rules) = 8ad8cbfe413f7001f9f307a50c1c1a594e2db924b42da1dd0e98174e1667f814
