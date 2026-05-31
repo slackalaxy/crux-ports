@@ -4,7 +4,7 @@
 
 name=cron-prtdiff
 version=3.8
-release=1
+release=2
 source=(${name#cron-}.sh)
 
 build() {

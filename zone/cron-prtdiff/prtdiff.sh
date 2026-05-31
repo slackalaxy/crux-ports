@@ -22,7 +22,7 @@ echo "=== $DATE ===" >> "$LOG"
 # Silence normal output, log errors 
 "$PORTS" -u > /dev/null 2>> "$LOG" || echo "WARNING: ports -u failed" >> "$LOG"
 
-if ! "$PRTGET" diff >> "$LOG" 2>&1; then
+if ! "$PRTGET" quickdiff >> "$LOG" 2>&1; then
     echo "ERROR: prt-get diff command failed" >> "$LOG"
 fi
 
