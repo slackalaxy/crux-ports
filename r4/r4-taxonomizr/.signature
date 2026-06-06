@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Ymu4oeOWPT2Xd7PzTuQXnL1Ab+ueEsA3rccxAFvfpaI3uEdB8ajNmznTbTWhN9Yd717bou6Baqnkq7svmo7oRAA=
+SHA256 (Pkgfile) = f61338d5ded30a0413cf65877a8bf3e9f3405380083c3b16a61388e9b09dd790
+SHA256 (.footprint) = 22777afaf15a17871da1715068d2cad766c59c28af6edbcd00d8da7f2214de90
+SHA256 (taxonomizr_0.11.1.tar.gz) = 4aa09a0275976cf52b2e2356b0006228d8e20977b29e36ebfcc18fe2f8154a1a

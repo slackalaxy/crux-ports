@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/Ylgd0DpfD/hDvkj+1mO3UN2bmYCXgYgr5uC8MX5a2gvL9hk7tseCU35hr63Z0BdBKK8C8+2OTh1Giabjc1BMXAg=
-SHA256 (Pkgfile) = e09b43c3fe30be7ef49470cfb17219af2412ac2255d061b5785f88688325eb3d
+RWQFYeZQgQH/YoAp77zoxsc01JcrnF1vel0EXfD6eHoIYFgBOVKiYUfh8winoBxAlpMAygeTtV1ZCXzPH4m2+2qGsMVGDxoadQM=
+SHA256 (Pkgfile) = 10e1e2147c21141f9dbbea0ec21e68f79381f0ed21b49c3819233902b8f11453
 SHA256 (.footprint) = 8300fc37ee29e0ef0c0edd01aa5fcc110de62bf3f7d8b89af862ab7b5e37d847
-SHA256 (callr_3.7.6.tar.gz) = e4bce367e869e42eaeea05566d2033d8cee2103179b11cd9a401440b58a351f8
+SHA256 (callr_3.8.0.tar.gz) = a16b50e41ddbbf2bac236572e3e68c4ef9c76b88faf5cf840c79524c49000b06

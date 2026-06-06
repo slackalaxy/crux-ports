@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/Ygu/wDFRIDoSgtqtT/vqKH03gGCj0Dmbzb9LNtK3N7dGlmnkP3CpBaz3UZty0YMZGfyiKtolJTyVCG9NVX/zLgc=
-SHA256 (Pkgfile) = 344d7abb2276fa7bb2cc0216be8e979996152de293499d43d31d522aeead0fda
+RWQFYeZQgQH/YoqmCTXqzooosISxDDy+KosOHRx23C//GDmaZ6Kwr5w9IVXY3xuVWBjd8FSPf6tX4Sb50+kqGj9GI4t6JAAGIQc=
+SHA256 (Pkgfile) = 0961df2d2c66d2c019c5de3cde618e7a73f3081a4537ad08d4fcd9ce13db7843
 SHA256 (.footprint) = 52e40c3e4f7e24df8fce69fe5b8eaa4c515b2a8c1d0e3f458f9234f20abbb3c5
-SHA256 (rjsoncons_1.3.2.tar.gz) = 890ab3508f1dd5d4f2ac208de13d35c6c91639ef8c4ba38782d07e9606dd2721
+SHA256 (rjsoncons_1.3.3.tar.gz) = ac63edf2be9b9857fc28c1dfa6a21899dbddd2cf70d655f9d86f15a9c4f3554d

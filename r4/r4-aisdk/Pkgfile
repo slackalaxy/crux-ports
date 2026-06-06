@@ -5,7 +5,7 @@
 # Optional: r4-cli r4-dbi r4-devtools r4-dotenv r4-dplyr r4-dt r4-evaluate r4-fs r4-ggplot2 r4-httptest2 r4-pkgload r4-readr r4-readxl r4-rsqlite r4-rstudioapi r4-skimr r4-testthat r4-withr
 
 name=r4-aisdk
-version=1.4.10
+version=1.4.12
 release=1
 source=(https://cloud.r-project.org/src/contrib/aisdk_${version}.tar.gz)
 

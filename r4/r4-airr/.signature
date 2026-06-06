@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YinbfC3c4iKOP6//AIW7K1kx7tEn6stnv575P9jZOJi0Yaqo3ktXY5M2Adv5VPvskCbAq0Fckdw9CxFwLr7QuQs=
-SHA256 (Pkgfile) = 2093a34657e55531f6fce27b06a76a2144669d683acd9d788054eb831beba87a
-SHA256 (.footprint) = 2295b3a30e53423f7a583897590de3ca4919920b754e0b9f40c745703c39ec8d
-SHA256 (airr_1.6.1.tar.gz) = e466ac5fd1089fe180ab6ea31d1eb2b2db24aee758b923250c47ffaa258c2251
+RWQFYeZQgQH/YmuLNzXocEVci+67bUTIBd+6UDxq/Lh+jVduPvkttGSkml0xraC1POufd2vcxR5WDLkFq34JdUShZzfJn24uOAs=
+SHA256 (Pkgfile) = de4c59e0a800cd1f3aa93ddbae90caab077e41aa8abb8dcfadd56bb75b3ad7b2
+SHA256 (.footprint) = 7950464e8cb673f4ca0cb87e877eaf4cbef3d06fc04edd43ec9cef74787df563
+SHA256 (airr_2.0.0.tar.gz) = e4932ec84dad46d37327ab5aa5a34b95095677b6392bff2f59fd473eb942da52

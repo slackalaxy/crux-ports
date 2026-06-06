@@ -213,6 +213,7 @@ drwxr-xr-x	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/FADE.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/FEL.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/FUBAR.bf
+-rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/FitModel.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/FitMultiModel.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/MEME.bf
 -rw-r--r--	root/root	usr/share/hyphy/TemplateBatchFiles/SelectionAnalyses/PRIME.bf

@@ -1,2 +1,6 @@
 Source /etc/profile.d/bluecurve.sh to disable hiding of scrollbars in
 GTK3.
+
+If primary paste somehow does not work, do:
+
+$ gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
