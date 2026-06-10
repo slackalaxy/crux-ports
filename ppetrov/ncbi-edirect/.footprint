@@ -45,7 +45,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/exclude-uids
 -rwxr-xr-x	root/root	usr/bin/filter-columns
 -rwxr-xr-x	root/root	usr/bin/filter-genbank
--rwxr-xr-x	root/root	usr/bin/filter-record
 -rwxr-xr-x	root/root	usr/bin/filter-records
 -rwxr-xr-x	root/root	usr/bin/filter-stop-words
 -rwxr-xr-x	root/root	usr/bin/find-in-gene

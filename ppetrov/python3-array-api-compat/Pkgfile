@@ -1,10 +1,10 @@
 # Description: A wrapper around NumPy and other array libraries to make them compatible with the Array API standard
-# URL: https://github.com/data-apis/array-api-compat
+# URL: https://github.com/data-apis/array-api-compat/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-setuptools python3-setuptools-scm
 
 name=python3-array-api-compat
-version=1.14.0
+version=1.15.0
 release=1
 source=(https://files.pythonhosted.org/packages/source/a/array-api-compat/array_api_compat-$version.tar.gz)
 

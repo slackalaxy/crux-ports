@@ -1,11 +1,11 @@
-# Description: R module dbscan
+# Description: R-package dbscan
 # URL: https://cran.r-project.org/web/packages/dbscan
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-generics r4-rcpp
 # Optional: r4-dendextend r4-fpc r4-igraph r4-knitr r4-microbenchmark r4-rmarkdown r4-testthat r4-tibble
 
 name=r4-dbscan
-version=1.2.4
+version=1.2.5
 release=1
 source=(https://cloud.r-project.org/src/contrib/dbscan_${version}.tar.gz)
 

@@ -1,11 +1,11 @@
-# Description: R module pak
+# Description: R-package pak
 # URL: https://cran.r-project.org/web/packages/pak
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: r4-callr r4-cli r4-covr r4-curl r4-desc r4-filelock r4-gitcreds r4-glue r4-jsonlite r4-keyring r4-pingr r4-pkgbuild r4-pkgcache r4-pkgdepends r4-pkgload r4-pkgsearch r4-processx r4-ps r4-rstudioapi r4-testthat r4-webfakes r4-withr r4-yaml
 
 name=r4-pak
-version=0.9.5
+version=0.10.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/pak_${version}.tar.gz)
 

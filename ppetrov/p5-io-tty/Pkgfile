@@ -4,7 +4,7 @@
 # Depends on:	perl
 
 name=p5-io-tty
-version=1.29
+version=1.31
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/T/TO/TODDR/IO-Tty-${version}.tar.gz)
 

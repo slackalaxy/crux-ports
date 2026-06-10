@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZXf0DaGP7LArf3+XD2XcCjJlfRYAHsnQphEhZadkuZomK1ZiyNH0OVGiSBkr5ais34W330Jotg/wdb9MrNazQgQ=
-SHA256 (Pkgfile) = 9783fcec5a60dcd160e7351dfa3f0147e807939c96581c77b4b325096c509118
-SHA256 (.footprint) = 919e8ee3315670ceca7098b8d593ea0e008bbd214023be8e9d2679b6ffa58949
-SHA256 (Scikit-learn-1.8.0.tar.gz) = 603bff01ab8bd0a9de5a3ab0a9351b5d7f5594594cc070d763c537ecf397264f
+RWToVVsIkzFIZW8BLWRmCFNYFGb3zrXfM1gDpqLpkTb1maCims5vhaaHnLIGG7+tBDLMLpD06hhxuTgUjBaOWJfOLzFjJh9ydwk=
+SHA256 (Pkgfile) = 023f3b650bbe73181cae12a6d86168862cfd43fa71755ed3196735ce03d0b58a
+SHA256 (.footprint) = 422b3e0f362ed195f43f3976fa952d95d2c36c83a5a09829021d141267fbb926
+SHA256 (Scikit-learn-1.9.0.tar.gz) = f2abcab8a4c510714e23f96f122ba74c6f73f927aeee7753b0bbeb7dc43998ab
