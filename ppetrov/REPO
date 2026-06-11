@@ -57,14 +57,12 @@ d:p5-heap
 d:qt5ct
 d:bpp1-seq
 d:bpp1-numcalc
-d:p5-extutils-config
 d:wps-office
 d:zotero
 d:xsimd
 d:puddletag
 d:python3-legacy-api-wrap
 d:p5-bioperl
-d:p5-extutils-helpers
 d:qt6ct
 d:qt6gtk2
 d:rstudio-desktop
@@ -83,7 +81,6 @@ d:viber
 d:p5-test-deep
 d:vscodium
 d:bluecurve
-d:p5-extutils-installpaths
 d:yt-dlp
 d:zoom-linux
 d:argtable
@@ -118,7 +115,6 @@ d:python3-scverse-misc
 d:gnumeric
 d:gtkmm2
 d:p5-io-stringy
-d:p5-module-build-tiny
 d:p5-set-object
 d:p5-set-scalar
 d:p5-test-requiresinternet
@@ -333,9 +329,6 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
-f:84015571a5b0bf0d39eba7151cb2cd06:p5-extutils-config/.signature
-f:6395b14753b2dc7c726277470b4214c7:p5-extutils-config/Pkgfile
-f:fde47734c70fd5003907ce6f1e2eadff:p5-extutils-config/.footprint
 f:bd42e5c4b87fcbdd1e6b10573f10932a:wps-office/.signature
 f:aeaa4f0dc9d7d8e82058780edb6b7ccb:wps-office/README
 f:76ded15bbefe54ff74730eb4502904cb:wps-office/Pkgfile
@@ -361,9 +354,6 @@ f:1ba7b916d6569e5a91ef210de35f351e:python3-legacy-api-wrap/.signature
 f:fe195d76c0c50b73286abc21bb1c2b4e:p5-bioperl/.footprint
 f:24b6a59815e260aa665dd410b9f9a8d5:p5-bioperl/.signature
 f:099ee83a1c206ecfb953e42272e916a4:p5-bioperl/Pkgfile
-f:473f74a06def166310b77073c47a361d:p5-extutils-helpers/Pkgfile
-f:20e4ee01e00d2c4b2c1a86a8e91af85c:p5-extutils-helpers/.footprint
-f:7d4fa0d9ef2fb5afd68b044a909ed9d0:p5-extutils-helpers/.signature
 f:5c482713b3411e1796ece03eed09ee63:qt6ct/Pkgfile
 f:6a6b7dc9720425dce858ebf5fa4ee33f:qt6ct/.footprint
 f:f23d26c06cc13f7c3d17c47da0bc9612:qt6ct/.signature
@@ -431,9 +421,6 @@ f:a26d2763ebb6375234963c9551c19582:bluecurve/Pkgfile
 f:680c104a95c99650309547cca83ea388:bluecurve/.footprint
 f:57d132bda26f9fabbabc6925e6c5b7b4:bluecurve/.signature
 f:f2f431e89b0b5bcb5370e86e756c7c90:bluecurve/README
-f:3b68e712e881d7c0ce478bcb8229f08e:p5-extutils-installpaths/Pkgfile
-f:a225b94a2447f3fef8a20717850acdf2:p5-extutils-installpaths/.footprint
-f:28e8d3ba79ee09bf10089cdf73253c4a:p5-extutils-installpaths/.signature
 f:8264e5b61801be698f2071f8a7ebba8c:yt-dlp/.footprint
 f:f1da38aa5ab8e62387a78ac6d10273d7:yt-dlp/Pkgfile
 f:d28ed5b16340a4ed0ca342fb6fe1924c:yt-dlp/.signature
@@ -572,9 +559,6 @@ f:88a971c96e4eeae4860a877add7ca4b3:gtkmm2/Pkgfile
 f:b6398c17e8446a9e84605bcc093031eb:p5-io-stringy/Pkgfile
 f:030c9ed1f2f3fc49eb6168aaadebc86b:p5-io-stringy/.footprint
 f:aae39037cff1aaa8035f64c7f9d7f09a:p5-io-stringy/.signature
-f:ad7f9e71a62c5e94273e8e0f35de9611:p5-module-build-tiny/Pkgfile
-f:7697702f01e9b8805eff09dafbf2a5ec:p5-module-build-tiny/.footprint
-f:06a94271f46c7952fc5246d6071c257d:p5-module-build-tiny/.signature
 f:aa5086cc10966fc249cf6df2510aee1c:p5-set-object/Pkgfile
 f:f73969f0f4f330acd89851142bdc288b:p5-set-object/.footprint
 f:3bda0d232b6c5d9148f44f58a704a203:p5-set-object/.signature
