@@ -22,9 +22,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/dbplyr/R/
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/R/dbplyr.rdx
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/dbplyr/doc/
--rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/backend-2.R
--rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/backend-2.Rmd
--rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/backend-2.html
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/dbplyr.R
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/dbplyr.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/dbplyr.html
@@ -35,9 +32,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/dbplyr/doc/
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/reprex.R
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/reprex.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/reprex.html
--rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/sql.R
--rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/sql.Rmd
--rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/sql.html
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/translation-function.R
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/translation-function.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/dbplyr/doc/translation-function.html

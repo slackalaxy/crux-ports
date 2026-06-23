@@ -29,5 +29,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/restfulr/html/
 drwxr-xr-x	root/root	usr/lib/R/library/restfulr/libs/
 -rwxr-xr-x	root/root	usr/lib/R/library/restfulr/libs/restfulr.so
 drwxr-xr-x	root/root	usr/lib/R/library/restfulr/unitTests/
+-rw-r--r--	root/root	usr/lib/R/library/restfulr/unitTests/test_HTTP.R
 -rw-r--r--	root/root	usr/lib/R/library/restfulr/unitTests/test_RestContainer.R
 -rw-r--r--	root/root	usr/lib/R/library/restfulr/unitTests/test_RestUri.R

@@ -489,6 +489,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_expmat_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_fft_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_fft_meat.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_find_aux_bones.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_find_aux_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_find_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_find_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_find_unique_bones.hpp

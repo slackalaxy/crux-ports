@@ -1,11 +1,11 @@
-# Description: R module restfulr
+# Description: R-package restfulr
 # URL: https://cran.r-project.org/web/packages/restfulr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-rcurl r4-rjson r4-s4vectors r4-xml r4-yaml
 # Optional: r4-getpass r4-rsolr r4-runit
 
 name=r4-restfulr
-version=0.0.16
+version=0.0.17
 release=1
 source=(https://cloud.r-project.org/src/contrib/restfulr_${version}.tar.gz)
 

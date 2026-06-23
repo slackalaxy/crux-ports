@@ -1,13 +1,13 @@
 # Description: The next-generation molecular visualization program 
 # URL: https://www.cgl.ucsf.edu/chimerax/download.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: avahi brotli cups dav1d double-conversion fdk-aac gcc-fortran graphite2 gtk3 icu keyutils krb5 lame libidn2 libinput libmodplug librsvg libva libvdpau libvpx nss openjpeg2 pcsclite postgresql pulseaudio qt6-3d qt6-multimedia qt6-scxml rtmpdump speex unixodbc wayland x264 x265 xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxkbfile
+# Depends on: avahi brotli cups dav1d double-conversion fdk-aac gcc-fortran graphite2 gtk3 icu keyutils krb5 lame libidn2 libinput libmodplug librsvg libva libtiff libvdpau libvpx nss openjpeg2 pcsclite postgresql pulseaudio qt6-3d qt6-multimedia qt6-scxml rtmpdump speex unixodbc wayland x264 x265 xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxkbfile
 
 name=ucsf-chimerax
-version=1.11.1
+version=1.12
 _ubuntu=24.04
 _python=3.11
-release=2
+release=1
 source=(https://www.cgl.ucsf.edu/chimerax/cgi-bin/secure/chimerax-get.py?file=${version}/ubuntu-${_ubuntu}/ucsf-chimerax_${version}ubuntu${_ubuntu}_amd64.deb
 	$name.desktop)
 
@@ -46,6 +46,9 @@ build() {
 	# use libxcrypt
 	ln -s /usr/lib/libcrypt.so libcrypt.so.1
 	
+	# use libtiff.so.6
+	ln -s /usr/lib/libtiff.so libtiff.so.5
+	
 	# other plugins
 	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/texttospeech
 	
@@ -57,6 +60,9 @@ build() {
 	
 	# no OpenMM plugins
 	rm -rf $PKG/usr/lib/ucsf-chimerax/lib/python3.11/site-packages/OpenMM.libs/lib/plugins
+	
+	# no SQL plugins
+	rm -rf $PKG/usr/lib/ucsf-chimerax/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/sqldrivers
 	
 	# no nagware, please
 	#rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/chimerax/registration

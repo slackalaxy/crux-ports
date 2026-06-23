@@ -15,8 +15,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/webr/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/webr/Meta/vignette.rds
 -rw-r--r--	root/root	usr/lib/R/library/webr/NAMESPACE
 -rw-r--r--	root/root	usr/lib/R/library/webr/NEWS.md
-drwxr-xr-x	root/root	usr/lib/R/library/webr/PieDonut/
--rw-r--r--	root/root	usr/lib/R/library/webr/PieDonut/PieDonut.Rmd
 drwxr-xr-x	root/root	usr/lib/R/library/webr/R/
 -rw-r--r--	root/root	usr/lib/R/library/webr/R/sysdata.rdb
 -rw-r--r--	root/root	usr/lib/R/library/webr/R/sysdata.rdx
@@ -25,6 +23,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/webr/R/
 -rw-r--r--	root/root	usr/lib/R/library/webr/R/webr.rdx
 -rw-r--r--	root/root	usr/lib/R/library/webr/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/webr/doc/
+-rw-r--r--	root/root	usr/lib/R/library/webr/doc/PieDonut.R
+-rw-r--r--	root/root	usr/lib/R/library/webr/doc/PieDonut.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/webr/doc/PieDonut.html
 -rw-r--r--	root/root	usr/lib/R/library/webr/doc/descStatictics.R
 -rw-r--r--	root/root	usr/lib/R/library/webr/doc/descStatictics.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/webr/doc/descStatictics.html

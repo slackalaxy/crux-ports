@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/Ymygz2GDQFR/Klotf54D396e4J5BkwtNdv1mnBVb8gLASqfPIk2jhAh1zrgLGLbd+5pFmyz94tPngcVS4KWuVwI=
-SHA256 (Pkgfile) = 25df7df5b90091c6c4fafd2a567e4e8b71287c5aa3ce1e0f679e490c8ec52b05
+RWQFYeZQgQH/YlOmOSrwj6xLsrakJrv7ORA6YjOWx/e/QXtiU2TdsgQ9jQMUjtNL8xp1HP2IBFRo/UfRcXHKwzHaYispWkQkKQI=
+SHA256 (Pkgfile) = 9a6dafafa47cb4714ee3502fbfcee671d1b75983a82b804945bb09243e2d4084
 SHA256 (.footprint) = 9d49c3041c6ea2da1190c2d899bd028be33fdfedaba5bc515ebdf88ee0d396ac
-SHA256 (rstudioapi_0.18.0.tar.gz) = 9649eef00381d3bde3d96928782e8792d78b9be0a2968e832728b54f5886fdbd
+SHA256 (rstudioapi_0.19.0.tar.gz) = f1e3bb445a90aadc07b043493022d120493eba7ff30c0b3055442d8b77d8069a

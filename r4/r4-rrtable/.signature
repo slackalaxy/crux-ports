@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YmnInSpoHG/5CxLDaFzNznoUPAcq1vRMiTnips9czQJ8cmLb7HDepTZ1A9Suhu+TL9hcKktBcy7nWzU77MfPXgg=
-SHA256 (Pkgfile) = 30a179e1bc78b01fda1cb943752aac2e89ce01aad3bfbbacacfa12022291f993
+RWQFYeZQgQH/YuvCquKSfPmVPLI+oEuvZIqAkbVKEizfou2X9QHH5jPna2F3jeKGUVsekFKwX2BC5gNca7WM3hBpjP5fNmmQvA4=
+SHA256 (Pkgfile) = 7f955011dbe0fd8084219dbd12080ec8df2bfbc1cae389829d9f2cb99bc66f3c
 SHA256 (.footprint) = 5535a8829ee55e7c4c8c2e2a7f6045012041ba88ff6bd4bea6797559f32d31e9
-SHA256 (rrtable_0.3.0.tar.gz) = 837da1a91109e132fdd93616fa8329c8768388ba53b030fb57c6106e997630f8
+SHA256 (rrtable_0.3.4.tar.gz) = 0e8db4f23548a8dc612e4cfd8bb11fdbcd1103c2536011fc11a531342624f91a

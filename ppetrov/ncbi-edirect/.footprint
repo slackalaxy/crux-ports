@@ -201,6 +201,8 @@ drwxr-xr-x	root/root	usr/share/edirect/eutils/
 -rw-r--r--	root/root	usr/share/edirect/eutils/clean.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/eutils_test.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/fasta.go
+-rw-r--r--	root/root	usr/share/edirect/eutils/flock_u.go
+-rw-r--r--	root/root	usr/share/edirect/eutils/flock_w.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/format.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/gbff.go
 -rw-r--r--	root/root	usr/share/edirect/eutils/gcode.go

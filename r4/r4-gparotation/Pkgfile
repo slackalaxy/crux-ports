@@ -1,13 +1,13 @@
-# Description: R module GPArotation
+# Description: R-package GPArotation
 # URL: https://cran.r-project.org/web/packages/GPArotation
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: 
 
 name=r4-gparotation
-version=2026.4.1
+version=2026.6.1
 release=1
-source=(https://cloud.r-project.org/src/contrib/GPArotation_2026.4-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/GPArotation_2026.6-1.tar.gz)
 
 build() {
 	cd GPArotation

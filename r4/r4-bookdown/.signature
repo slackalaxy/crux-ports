@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YseFYGVKTxdj7+6gUmcqMnqM5PrHb6w53jDMh55w5Dmq0ifKGbQrSdTLkBwnTGZ48yN/EFoLzZZ7NpSn+vh48AY=
-SHA256 (Pkgfile) = b61ea1cf671995cf1c16e7bf572a9d37bc962d97c4d12c5b5b126ca0ffd45d64
+RWQFYeZQgQH/YgeWuVZdrbrnFur8YE5b0nUbf7NYxeLVpeAGrRVGd6IcMSzrrcw8zF7NsuEDnl+DIBG6DDGAMirOpDve+WoQiw0=
+SHA256 (Pkgfile) = f2fab5c5c7c395301dd665dd9d17c0bad8362cd1a37ccdd0cce7c6a4d3f0c4e3
 SHA256 (.footprint) = a8442482eb23dae4d43a9857a0775732b3ac0a4b837e7a6a24d090dde8cbc64f
-SHA256 (bookdown_0.46.tar.gz) = 5d94e9ffc72d63d20f88f2bdc5289bd220cd375084adf52e0f6a6787aafad363
+SHA256 (bookdown_0.47.tar.gz) = 687a06a53feb04b167a3eb086a47ec0adafab0b2a97dcfc275f933d6e979b52f
