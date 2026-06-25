@@ -57,7 +57,6 @@ d:p5-heap
 d:qt5ct
 d:bpp1-seq
 d:bpp1-numcalc
-d:wps-office
 d:zotero
 d:xsimd
 d:puddletag
@@ -81,6 +80,7 @@ d:viber
 d:p5-test-deep
 d:vscodium
 d:bluecurve
+d:wps-office
 d:yt-dlp
 d:zoom-linux
 d:argtable
@@ -329,15 +329,6 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
-f:bd42e5c4b87fcbdd1e6b10573f10932a:wps-office/.signature
-f:aeaa4f0dc9d7d8e82058780edb6b7ccb:wps-office/README
-f:76ded15bbefe54ff74730eb4502904cb:wps-office/Pkgfile
-f:aa307f3d6d24477950b259e838fa065b:wps-office/.footprint
-f:b8e285169d89da1067122bc88b083314:wps-office/post-install
-f:f0bb3bb0db1be35f2725ddcfec4d857d:wps-office/wps-office.desktop
-f:823bdaee4fdcbe632f666c54d2ecb98c:wps-office/wps-office.sh
-f:1f50a42ba7aa8c143ec5edc82f70f9c2:wps-office/en_GB.tar.xz
-f:303b9bb0a3d38120563ed69de24a15ca:wps-office/wps-office-fonts.conf
 f:883a1e0c965f7088fd679eda7594d1e1:zotero/.footprint
 f:2c492a0ef3f4fd42a50107266e60fe58:zotero/.signature
 f:7e3833eb862d41a98afd6f0a4ab10540:zotero/Pkgfile
@@ -421,6 +412,15 @@ f:a26d2763ebb6375234963c9551c19582:bluecurve/Pkgfile
 f:680c104a95c99650309547cca83ea388:bluecurve/.footprint
 f:57d132bda26f9fabbabc6925e6c5b7b4:bluecurve/.signature
 f:f2f431e89b0b5bcb5370e86e756c7c90:bluecurve/README
+f:1804246416607beeeba5fc10d04459ad:wps-office/wps-office-fonts.conf
+f:64cf1e3eaaaa3edca5910da6d74983b1:wps-office/Pkgfile
+f:b8e285169d89da1067122bc88b083314:wps-office/post-install
+f:1f50a42ba7aa8c143ec5edc82f70f9c2:wps-office/en_GB.tar.xz
+f:53c8571abba3852089a624f74a23034e:wps-office/.footprint
+f:aeaa4f0dc9d7d8e82058780edb6b7ccb:wps-office/README
+f:6870a651d3a732ffd3684587fd8e5700:wps-office/.signature
+f:823bdaee4fdcbe632f666c54d2ecb98c:wps-office/wps-office.sh
+f:f0bb3bb0db1be35f2725ddcfec4d857d:wps-office/wps-office.desktop
 f:8264e5b61801be698f2071f8a7ebba8c:yt-dlp/.footprint
 f:f1da38aa5ab8e62387a78ac6d10273d7:yt-dlp/Pkgfile
 f:d28ed5b16340a4ed0ca342fb6fe1924c:yt-dlp/.signature

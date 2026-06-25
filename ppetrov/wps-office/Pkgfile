@@ -1,11 +1,11 @@
 # Description: WPS Office for Linux
 # URL: https://www.wps.cn/product/wpslinux#
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland xorg-font-dejavu-ttf
+# Depends on: avahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland xorg-libxres
 
 name=wps-office
-version=12.1.2.25882
-_preread=662820
+version=12.1.2.26885
+_preread=715971
 _elogind=255.5
 release=1
 source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${version:7:5}/wps-office_${version}.AK.preread.sw.Personal_${_preread}_amd64.deb
