@@ -4,9 +4,9 @@
 # Depends on: otf-apple-sf-mono ttf-aptos ttf-o365 ttf-sierra ttf-win11 xorg-font-dejavu-ttf xorg-font-terminus
 
 name=fonts-conf
-version=9fa803a
+version=15c72ca
 release=1
-source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-9fa803ac72da72d8e48bdf056f375ec4a6e1570e.tar.gz)
+source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-15c72caba877e06ca240d1a4c330ad3fda658680.tar.gz)
 
 build() {
 	cd $name-${version}*

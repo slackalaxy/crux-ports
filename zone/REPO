@@ -35,9 +35,9 @@ d:cron-cleanup
 d:cron-prtdiff
 d:cron-trimssd
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
-f:3719713362e8383c69afb22bb4954dd7:fonts-conf/.signature
-f:476812fd0995776b3028cebb01cef2ed:fonts-conf/README
-f:4571e321d5915eedfd867efc7dc73eee:fonts-conf/Pkgfile
+f:db2d2ab1e526a775a9f172beb67c4619:fonts-conf/.signature
+f:2b5a06987cdd0d1ad2d5e7d35f828652:fonts-conf/README
+f:f224161939ec8f391f56f0a4d233c327:fonts-conf/Pkgfile
 f:b95c66be425fac0c3ab535b09ef44f21:grub2-default/README
 f:4bc069851274231826766ac924a0e130:grub2-default/grub2-default
 f:9543aa8c645cadb92eb45259d477a9fa:grub2-default/.footprint

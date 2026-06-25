@@ -3,9 +3,9 @@ Leave these:
 	/etc/fonts/conf.d/10-autohint.conf
 	/etc/fonts/conf.d/10-scale-bitmap-fonts.conf
 
-Remove the hinting:
+Remove the slight hinting:
 
-	/etc/fonts/conf.d/10-hinting-*.conf
+	/etc/fonts/conf.d/10-hinting-slight.conf
 	
 Remove these, as they prevent terminus otb to be used and mess others:
 
@@ -21,6 +21,6 @@ upon fontconfig update):
 	INSTALL		^etc/fonts/conf\.d/48-guessfamily\.conf			NO
 	INSTALL		^etc/fonts/conf\.d/49-sansserif\.conf			NO
 
-Set freetype (e.g. in .bash_profile):
+Set freetype (already done by /etc/profile.d/fonts-conf.sh):
 
 	export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
