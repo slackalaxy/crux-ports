@@ -1,11 +1,11 @@
-# Description: R module gridExtra
+# Description: R-package gridExtra
 # URL: https://cran.r-project.org/web/packages/gridExtra
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-gtable
 # Optional: r4-egg r4-ggplot2 r4-knitr r4-lattice r4-testthat
 
 name=r4-gridextra
-version=2.3
+version=2.3.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/gridExtra_${version}.tar.gz)
 
