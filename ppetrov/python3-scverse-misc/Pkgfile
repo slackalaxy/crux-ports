@@ -4,7 +4,7 @@
 # Depends on: python3-session-info2 python3-pandas2
 
 name=python3-scverse-misc
-version=0.0.8
+version=0.1.1
 release=1
 source=(https://files.pythonhosted.org/packages/source/s/scverse-misc/scverse_misc-$version.tar.gz)
 

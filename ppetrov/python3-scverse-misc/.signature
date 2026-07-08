@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZdl6KQ0SWG1MslK5HoqTkbd/WnAIDuoxUlzfJodfC2SxdOjtt8ZcNJ64rpDnbGDXtlcGgUxaFXrKpMzNILTHsAU=
-SHA256 (Pkgfile) = 1c63e95f89a2922d75a69dcedd81863dcaf09274c5ffbfef616f39a9799df0ff
-SHA256 (.footprint) = 832b9bb239ee8d620194b3200be422505e6d63c3424ce5f6c7e6246dc3c9b8f0
-SHA256 (scverse_misc-0.0.8.tar.gz) = 7de6d46e50fc111d366d60b07f165531de97a836a4d702bbbfa2a47a0015fd9e
+RWToVVsIkzFIZWBr4ZzDGmBXQimlmD3/lfVPSzUP+hbN/C/WkJaANp0ZNLdShXSlf1e8fxhqlM+1nwTS2Uey5bpB1k/LlVFmSAA=
+SHA256 (Pkgfile) = d247c96b5854c5e9ef3838a14137d5235a8e1862a0c5de7c4fa11e7df3a4d674
+SHA256 (.footprint) = 08b747efc02aaf3f2df87a9f45c9f7b7300cdeab30c4d14310e0667f9ab216e9
+SHA256 (scverse_misc-0.1.1.tar.gz) = 5001572763a88d962f7e40309d1e47a62ae3c358aec93e377af998e4c7e6dd97
