@@ -4,7 +4,7 @@
 # Depends on: brotli double-conversion graphite2 icu keyutils krb5 libdeflate libgpg-error libinput libxslt lua nss openjpeg2 pulseaudio qt6-multimedia snowball wayland 
 
 name=calibre
-version=9.9.0
+version=9.11.0
 release=1
 source=(https://download.calibre-ebook.com/$version/calibre-$version-x86_64.txz
 	$name.desktop)

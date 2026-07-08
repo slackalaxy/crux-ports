@@ -436,6 +436,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/catalog/
 -rw-r--r--	root/root	usr/lib/calibre/resources/changelog.json
 -rw-r--r--	root/root	usr/lib/calibre/resources/common-english-words.txt
 drwxr-xr-x	root/root	usr/lib/calibre/resources/content-server/
+-rw-r--r--	root/root	usr/lib/calibre/resources/content-server/base.css
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/calibre.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/empty.html
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/index-generated.html
@@ -512,6 +513,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/images/
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/books_in_series.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/bookshelf.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/bullhorn.png
+-rw-r--r--	root/root	usr/lib/calibre/resources/images/calibre.svg
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/catalog.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/chapters.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/character-set.png
@@ -572,6 +574,8 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/images/devices/
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/exec.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/external-link-for-dark-theme.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/external-link.png
+-rw-r--r--	root/root	usr/lib/calibre/resources/images/favicon-192.png
+-rw-r--r--	root/root	usr/lib/calibre/resources/images/favicon-512.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/filter.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/folder_saved_search.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/font.png
