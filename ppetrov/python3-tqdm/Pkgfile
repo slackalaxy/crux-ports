@@ -4,9 +4,9 @@
 # Depends on: python3-setuptools-scm python3-toml
 
 name=python3-tqdm
-version=4.68.2
+version=4.68.4
 release=1
-source=(https://files.pythonhosted.org/packages/85/05/0d5260f1f1ca784f4a4a0def9cbe6affe587f5b4025328d446c3d67765f4/tqdm-$version.tar.gz)
+source=(https://files.pythonhosted.org/packages/source/t/tqdm/tqdm-$version.tar.gz)
 
 build() {
   cd ${name#*-}-$version
