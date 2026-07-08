@@ -12,7 +12,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/enrichit/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/Meta/links.rds
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/Meta/package.rds
--rw-r--r--	root/root	usr/lib/R/library/enrichit/Meta/vignette.rds
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/NAMESPACE
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/enrichit/R/
@@ -20,11 +19,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/enrichit/R/
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/R/enrichit.rdb
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/R/enrichit.rdx
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/README.md
-drwxr-xr-x	root/root	usr/lib/R/library/enrichit/doc/
--rw-r--r--	root/root	usr/lib/R/library/enrichit/doc/enrichit.R
--rw-r--r--	root/root	usr/lib/R/library/enrichit/doc/enrichit.html
--rw-r--r--	root/root	usr/lib/R/library/enrichit/doc/enrichit.qmd
--rw-r--r--	root/root	usr/lib/R/library/enrichit/doc/index.html
 drwxr-xr-x	root/root	usr/lib/R/library/enrichit/help/
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/enrichit/help/aliases.rds

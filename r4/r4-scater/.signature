@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YknWXeQtx3FIFiZNakj5+8/CQO07EAp3TfqzkP2Rl1f9pqZNV2ptX+uLq+biyAJOys/ZaV/N62cEpUKfZP9YowU=
-SHA256 (Pkgfile) = cef271020f86a241616804f3e26bbd8e370443d8a93596fa1d59086c16ecf81b
+RWQFYeZQgQH/YiZlw9rUBdSLb3KSuUmfvmMmlSypfhzm+ACNHi7NOkS+FRXTcSXTn7tZ61dXKxMl+ELfKiHMn/O3KZ2B2gMoQQ4=
+SHA256 (Pkgfile) = fdf076359fc513a929e4293c72730618eeca43cb551bc619c6476435cdb00cf0
 SHA256 (.footprint) = 1b03e634bd5b418e7d01a9ee3db836a6caaf6112992b51be7712602b2a795891
-SHA256 (scater_1.40.1.tar.gz) = ee47836fa6fd5ccad5ce199fade8a1e9cb335285d97e0aefaa392f3bd412a74d
+SHA256 (scater_1.40.2.tar.gz) = 9591a0681cef04568ab2f847cdc905dc8fd8c4c6adac370747adcd78eabc4465

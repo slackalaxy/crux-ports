@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YjDsTg47Vtl1p/MLoyMququSFXd5zyRVt09deDLqwez3++PUc51jo7mBZzVEsdbLWe+mHWtp9cEwmcdSkk71fgo=
-SHA256 (Pkgfile) = 4733f335665715acaf4775b7ffaca4b995a0e55c5c67c5430758370605c30dfb
-SHA256 (.footprint) = 6943919995d3b1b449562584d48c72863c5a67598f56e455e07113f95caaad03
-SHA256 (shades_1.4.0.tar.gz) = 122fa09aa893cf81f95835ccf69459162dbbc14defa0c11c6d6bbb0ca52ee9fd
+RWQFYeZQgQH/YjAC/1dj1s2YGen+yzwAjNXVNHZb9jZhSunSVp4Pi4ufpPDqODHZ/4CiLysmzqu5EhYkLqSeGeEPBclkMpx/4A4=
+SHA256 (Pkgfile) = 8e06d7f24f6787ba65d4623f332cae5f4d3dbd0af6f3e01bd620430972a6c563
+SHA256 (.footprint) = b5144e48de26ba3df6bc0613a0262c185e27e5ee6c40d673a44ffcc2b1e84c89
+SHA256 (shades_1.5.0.tar.gz) = 848398c2e1c10e9c95582841867bb3d1143ff8495047fab03313fe239feed2ac

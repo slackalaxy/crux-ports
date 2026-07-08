@@ -1,11 +1,11 @@
-# Description: R module gson
+# Description: R-package gson
 # URL: https://cran.r-project.org/web/packages/gson
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-jsonlite r4-rlang r4-tidyr
-# Optional: 
+# Depends on: r r4-jsonlite r4-rlang r4-tidyr r4-yulab-utils
+# Optional: r4-digest r4-fs r4-testthat
 
 name=r4-gson
-version=0.1.0
+version=0.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/gson_${version}.tar.gz)
 

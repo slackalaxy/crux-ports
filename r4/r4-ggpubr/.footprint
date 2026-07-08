@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/ggpubr/
+-rw-r--r--	root/root	usr/lib/R/library/ggpubr/CITATION
 -rw-r--r--	root/root	usr/lib/R/library/ggpubr/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/ggpubr/INDEX
 drwxr-xr-x	root/root	usr/lib/R/library/ggpubr/Meta/

@@ -29,3 +29,14 @@ drwxr-xr-x	root/root	usr/lib/R/library/shades/help/
 drwxr-xr-x	root/root	usr/lib/R/library/shades/html/
 -rw-r--r--	root/root	usr/lib/R/library/shades/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/shades/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/shades/tinytest/
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-05-shade.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-10-scales.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-15-properties.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-20-mixtures.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-25-distance.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-30-adaptation.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-35-swatch.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-40-alpha.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-45-functions.R
+-rw-r--r--	root/root	usr/lib/R/library/shades/tinytest/test-50-missing.R

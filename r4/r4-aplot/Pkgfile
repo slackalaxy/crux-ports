@@ -1,11 +1,11 @@
 # Description: R-package aplot
 # URL: https://cran.r-project.org/web/packages/aplot
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-ggfun r4-ggplot2 r4-ggplotify r4-magrittr r4-patchwork r4-pillar r4-yulab-utils
+# Depends on: r r4-ggfun r4-ggplot2 r4-ggplotify r4-gtable r4-magrittr r4-patchwork r4-pillar r4-yulab-utils
 # Optional: r4-ggtree r4-testthat
 
 name=r4-aplot
-version=0.3.0
+version=0.3.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/aplot_${version}.tar.gz)
 

@@ -31,7 +31,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/announce/
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/bib/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/bib/Rcpp.bib
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/discovery/
--rw-r--r--	root/root	usr/lib/R/library/Rcpp/discovery/cxx0x.R
+-rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/discovery/cxx0x.R
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/doc/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/doc/Rcpp-FAQ.pdf
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/doc/Rcpp-FAQ.pdf.asis
@@ -78,8 +78,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/convolve9_cpp.cpp
 -rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/exampleRCode.r
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/loopmacro.h
--rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/overhead.r
--rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/overhead.sh
+-rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/overhead.r
+-rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/overhead.sh
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/overhead_1.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/ConvolveBenchmarks/overhead_2.c
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/FastLM/
@@ -91,13 +91,13 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/FastLM/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/FastLM/lmGSL.R
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/Misc/
 -rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/Misc/fibonacci.r
--rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/Misc/ifelseLooped.r
--rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/Misc/newFib.r
+-rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/Misc/ifelseLooped.r
+-rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/Misc/newFib.r
 -rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/Misc/piBySimulation.r
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/Misc/piSugar.cpp
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/OpenMP/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/OpenMP/GNUmakefile
--rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/OpenMP/OpenMPandInline.r
+-rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/OpenMP/OpenMPandInline.r
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/OpenMP/check.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/examples/OpenMP/piWithInterrupts.cpp
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/examples/RcppGibbs/
@@ -452,6 +452,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/include/Rcpp/sugar/operators/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/sugar/sugar_forward.h
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/include/Rcpp/sugar/tools/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/sugar/tools/iterator.h
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/sugar/tools/safe_math.h
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/sugar/undoRmath.h
 drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/include/Rcpp/traits/char_type.h
@@ -576,6 +577,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/as.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/attributes.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/attributes.hpp
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/attributes_extended.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/coerce.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/dates.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/dispatch.cpp
@@ -591,6 +593,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/stack.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/stats.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/sugar.cpp
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/sugar_safe_math.cpp
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/sugar_safe_math_fallback.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/support.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/table.cpp
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/cpp/wrap.cpp
@@ -684,12 +688,15 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/tinytest/testRcppPackage/src/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_as.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_attribute_package.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_attributes.R
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_attributes_extended.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_binary_package.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_client_package.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_coerce.R
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_compile_attributes_errors.R
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_cppfunction_errors.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_dataframe.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_date.R
--rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_dispatch.R
+-rwxr-xr-x	root/root	usr/lib/R/library/Rcpp/tinytest/test_dispatch.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_embedded_r.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_environments.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_exceptions.R
@@ -715,6 +722,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Rcpp/tinytest/testRcppPackage/src/
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_rmath.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_robject.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_s4.R
+-rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_sourcecpp_errors.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_stack.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_stats.R
 -rw-r--r--	root/root	usr/lib/R/library/Rcpp/tinytest/test_string.R

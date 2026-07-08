@@ -1,11 +1,11 @@
 # Description: R-package enrichit
 # URL: https://cran.r-project.org/web/packages/enrichit
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-rcpp r4-yulab-utils
-# Optional: r4-annotationdbi r4-clusterprofiler r4-dose r4-gson r4-quarto r4-qvalue r4-testthat
+# Depends on: r r4-matrix r4-rcpp r4-rcppeigen r4-rlang r4-yulab-utils
+# Optional: r4-annotationdbi r4-biasedurn r4-clusterprofiler r4-dose r4-fgsea r4-gson r4-qvalue r4-testthat
 
 name=r4-enrichit
-version=0.1.5
+version=0.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/enrichit_${version}.tar.gz)
 

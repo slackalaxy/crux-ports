@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YtldwyICuArX6rISqrg+fq/wZT9glWe8bL+UQUK6xwgO5o9+ghdQ7Sc7Cy8Qq0UlHBoYa/enmyCSqxWVfTHoaAI=
-SHA256 (Pkgfile) = 1b2f82a16be1f38e2e0652af55d47e587aad865036d0658810430d77743605de
+RWQFYeZQgQH/YvMBMyZYUuqrtVtH12WKTtHjV8LUqtQhIPlW39r3aW0pyaqEridiPgMPwEsMCLqPBth/mpbYerzUa0H5bc+T0A0=
+SHA256 (Pkgfile) = f94d08d40956fac1885de5d3bf814c62160acf3f4f2977a4386299ec04e0141d
 SHA256 (.footprint) = c9fba1f558c0f5a982e6735e86c5e4ca2558a271c3c366dbcb5c1b0b54177df4
-SHA256 (lava_1.9.1.tar.gz) = fd78008cdd498c1d9151e4fae3efbb221bcee156672a36fe95ab2f12bcd6f534
+SHA256 (lava_1.9.2.tar.gz) = 075e3d89ec3494dc3654b3e62b751dbd7c2181cc678a165726c2ff1d825cf14e

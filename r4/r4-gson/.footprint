@@ -18,6 +18,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/gson/R/
 -rw-r--r--	root/root	usr/lib/R/library/gson/R/gson
 -rw-r--r--	root/root	usr/lib/R/library/gson/R/gson.rdb
 -rw-r--r--	root/root	usr/lib/R/library/gson/R/gson.rdx
+-rw-r--r--	root/root	usr/lib/R/library/gson/README.md
 drwxr-xr-x	root/root	usr/lib/R/library/gson/extdata/
 -rw-r--r--	root/root	usr/lib/R/library/gson/extdata/wikipathways-20220310-gmt-Homo_sapiens.gmt
 drwxr-xr-x	root/root	usr/lib/R/library/gson/help/
