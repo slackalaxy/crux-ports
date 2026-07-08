@@ -4,12 +4,12 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba-0.65.1.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.65.1.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.65.1.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.65.1.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.65.1.dist-info/direct_url.json
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.65.1.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba-0.66.0.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.66.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.66.0.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.66.0.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.66.0.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba-0.66.0.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/__init__.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/__main__.py
@@ -23,6 +23,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/__pycache__/
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/_devicearray.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/_devicearray.h
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/_dispatcher.cpython-312-x86_64-linux-gnu.so
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/_dispatcher.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/_dynfunc.c
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/_dynfunc.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/_dynfuncmod.c
@@ -47,6 +48,8 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/cext/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/cext/dictobject.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/cext/listobject.c
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/cext/listobject.h
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/cext/setobject.c
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/cext/setobject.h
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/cext/utils.c
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/cloudpickle/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/cloudpickle/__init__.py
@@ -108,7 +111,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/__pycache__/pylowering.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/__pycache__/pythonapi.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/__pycache__/registry.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/__pycache__/removerefctpass.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/__pycache__/serialize.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/__pycache__/sigutils.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/__pycache__/ssa.cpython-312.pyc
@@ -139,6 +141,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/annotations/__p
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/callconv.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/callwrapper.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/ccallback.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/ccallback.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/cgutils.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/codegen.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/compiler.py
@@ -165,8 +168,10 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/datamodel/__pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/datamodel/testing.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/debuginfo.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/decorators.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/decorators.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/descriptors.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/dispatcher.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/dispatcher.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/entrypoints.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/environment.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/errors.py
@@ -193,7 +198,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/datamodel/__pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/pylowering.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/pythonapi.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/registry.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/removerefctpass.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/rewrites/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/rewrites/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/rewrites/__pycache__/
@@ -261,10 +265,13 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/types/__pycache
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/__pycache__/npytypes.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/__pycache__/scalars.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/abstract.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/abstract.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/common.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/containers.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/function_type.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/function_type.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/functions.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/functions.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/iterators.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/misc.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/types/npytypes.py
@@ -286,7 +293,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycach
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycache__/enumdecl.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycache__/listdecl.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycache__/mathdecl.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycache__/npdatetime.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycache__/npydecl.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycache__/setdecl.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycache__/templates.cpython-312.pyc
@@ -304,7 +310,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/core/typing/__pycach
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/enumdecl.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/listdecl.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/mathdecl.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/npdatetime.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/npydecl.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/setdecl.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/core/typing/templates.py
@@ -963,6 +968,14 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/random/__pycache_
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/random/generator_core.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/random/generator_methods.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/random/random_methods.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/types/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/types/__init__.py
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/types/__pycache__/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/types/__pycache__/__init__.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/types/__pycache__/datetime.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/types/__pycache__/datetime_registry.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/types/datetime.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/types/datetime_registry.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/__pycache__/
@@ -981,12 +994,15 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/__pycache__
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/array_exprs.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/decorators.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/dufunc.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/dufunc.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/gufunc.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/gufunc.pyi
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/omppool.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/parallel.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/sigparse.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/tbbpool.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/ufunc_base.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/ufunc_base.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/ufuncbuilder.py
 -rwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/workqueue.cpython-312-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/np/ufunc/wrappers.py
@@ -1002,13 +1018,16 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/parfors/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/parfors/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/__pycache__/__init__.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/__pycache__/array_analysis.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/__pycache__/ir_utils.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/__pycache__/parfor.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/__pycache__/parfor_lowering.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/__pycache__/parfor_lowering_utils.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/array_analysis.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/ir_utils.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/parfor.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/parfor_lowering.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/parfors/parfor_lowering_utils.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/py.typed (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/pycc/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/pycc/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/pycc/__pycache__/
@@ -1120,6 +1139,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_comprehension.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_conditions_as_predicates.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_config.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_controlflow.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_conversion.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_copy_propagate.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_ctypes.cpython-312.pyc
@@ -1240,6 +1260,8 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_return_values.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_runtests.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_serialize.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_setimpl.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_setobject.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_sets.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_slices.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/__pycache__/test_sort.cpython-312.pyc
@@ -1307,6 +1329,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/_
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/__pycache__/test_structref_usage.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/__pycache__/test_typed_dict_usage.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/__pycache__/test_typed_list_usage.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/__pycache__/test_typed_set_usage.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/test_examples.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/test_interval_example.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/test_jitclass.py
@@ -1319,6 +1342,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/_
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/test_structref_usage.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/test_typed_dict_usage.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/test_typed_list_usage.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doc_examples/test_typed_set_usage.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/doctest_usecase.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/dummy_module.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/enum_usecases.py
@@ -1438,6 +1462,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/tests/pycc_distutils
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_comprehension.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_conditions_as_predicates.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_config.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_controlflow.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_conversion.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_copy_propagate.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_ctypes.py
@@ -1558,6 +1583,8 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/tests/pycc_distutils
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_return_values.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_runtests.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_serialize.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_setimpl.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_setobject.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_sets.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_slices.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/tests/test_sort.py
@@ -1607,16 +1634,19 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/dictimpl.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/dictobject.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/listobject.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/setobject.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/typeddict.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/typedlist.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/typedobjectutils.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/__pycache__/typedset.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/dictimpl.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/dictobject.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/listobject.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/py.typed (EMPTY)
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/setobject.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/typeddict.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/typedlist.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/typedobjectutils.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/typed/typedset.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/types/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numba/types/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numba/types/__pycache__/
