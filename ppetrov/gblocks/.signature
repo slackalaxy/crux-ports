@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZSmq71Wbps9lYpwsNS/kxxuIQa2E0Ffa0ENREq7N5iJz05/eyzpI56jMcYriDR3vjNMplQgojBoEDQEkhQfTewU=
-SHA256 (Pkgfile) = 32de7010a990060f4f806eb7ca9a9a3830ceb955eabb8c560ede407160820a9d
-SHA256 (.footprint) = 6e17d20cbf1452657c1e4401d9f865938fec680d3df2c10c6413d8fad550b083
-SHA256 (Gblocks_Linux64_0.91b.tar.Z) = 563658f03cc5e76234a8aa705bdc149398defec813d3a0c172b5f94c06c880dc
+RWToVVsIkzFIZdfQoFnky84XG3MOZ0xdc5OhlhPFkMYqhE42EstUBlYgeeo/B3vyk5TTv2bgiCFlFsJasx46lBQ5wKdVzNrZ4Q0=
+SHA256 (Pkgfile) = b80e2c6a2e4cef9e18254b577ab4b5239ff74175c3b4f84878526dce64bb4fb7
+SHA256 (.footprint) = 4dafc2fa4c8bb49b9e17c0309f537de6d80a6b39e22f2102b76c6c406c4cedc3
+SHA256 (Gblocks_1.0_Linux.tar.gz) = e899015c8c6583fd6c6799539af31d55a108d7d951c992930f8c452cca371c89

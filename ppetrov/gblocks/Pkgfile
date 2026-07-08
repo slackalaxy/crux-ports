@@ -1,19 +1,19 @@
 # Description: Select blocks of evolutionarily conserved sites
-# URL: https://molevol-ibe.csic.es/
+# URL: https://molevol-ibe.csic.es/Gblocks.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=gblocks
-version=0.91b
+version=1.0
 release=1
-source=(https://raw.githubusercontent.com/slackalaxy/sources/main/Gblocks_Linux64_${version}.tar.Z)
+source=(https://molevol-ibe.csic.es/Gblocks/Gblocks_${version}_Linux.tar.gz)
 
 build() {
-	cd Gblocks_${version}
+	cd Gblocks_${version}_Linux
 	install -D -m755 Gblocks $PKG/usr/bin/Gblocks
 
+	# Yes, I want to have the documentation, included in the package
 	mkdir -p $PKG/usr/share/$name
-	cp -a more_alignments/* $PKG/usr/share/$name
-	chmod 0644 $PKG/usr/share/$name/*.pir
+	cp -a Documentation more_alignments nad3.fasta paths.txt $PKG/usr/share/$name
 
 	cd $PKG/usr/bin
 	ln -s Gblocks $name
