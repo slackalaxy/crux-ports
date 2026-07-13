@@ -1,0 +1,16 @@
+# Description: R-package hunspell
+# URL: https://cran.r-project.org/web/packages/hunspell
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-digest r4-rcpp
+# Optional: r4-knitr r4-rmarkdown r4-spelling r4-testthat
+
+name=r4-hunspell
+version=3.0.6
+release=1
+source=(https://cloud.r-project.org/src/contrib/hunspell_${version}.tar.gz)
+
+build() {
+	cd hunspell
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -652,6 +652,10 @@ d:r4-stargazer
 d:r4-upsetr
 d:r4-enrichit
 d:r4-taxonomizr
+d:r4-distill
+d:r4-hunspell
+d:r4-rjtools
+d:r4-yesno
 f:38451824a3591fb450e1e8be0c993729:r4-seurat-wrappers/.footprint
 f:5cc3b84ab374ad531a8a1f3fb7264c62:r4-seurat-wrappers/Pkgfile
 f:73a8bfbb3ce2477e657d904b01e6310d:r4-seurat-wrappers/.signature
@@ -2621,3 +2625,15 @@ f:423525ca188f2a50f23ae40d1235a332:r4-enrichit/.signature
 f:0ccd643c4df4d3cacabe7e3e566866e6:r4-taxonomizr/Pkgfile
 f:588ab8d50a9c868acdeee18c247831bb:r4-taxonomizr/.signature
 f:688906ee64ebbcd4f2c4010a1e78ba54:r4-taxonomizr/.footprint
+f:14f127ba0b0872808445c7d9e945f5d9:r4-distill/Pkgfile
+f:a38e73c6fbefccc08920ab6a92668b6d:r4-distill/.footprint
+f:34515df6b1eb4952e6130c16d06dee47:r4-distill/.signature
+f:0b828a6b45e86faddbfa4395ddee8c28:r4-hunspell/Pkgfile
+f:8b6e0a28f9932c282f17e183f3622254:r4-hunspell/.footprint
+f:f0ffe0fa16cbc17e61074e71f2922e5a:r4-hunspell/.signature
+f:8781390955637beda47c01db56668b9e:r4-rjtools/Pkgfile
+f:324bf010f1fe98bd993805a1519d0256:r4-rjtools/.footprint
+f:ae6a28a668ce24b04aa95b51a3c9395b:r4-rjtools/.signature
+f:c71c63ebe0e4b1155288cd29c18a38d7:r4-yesno/Pkgfile
+f:8f905c614c142b180bb2edf0a0c268c4:r4-yesno/.footprint
+f:a55e27b9a48fef862bcf0a47fecf3d25:r4-yesno/.signature

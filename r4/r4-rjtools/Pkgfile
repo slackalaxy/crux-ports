@@ -1,0 +1,16 @@
+# Description: R-package rjtools
+# URL: https://cran.r-project.org/web/packages/rjtools
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-biocmanager r4-bookdown r4-callr r4-cli r4-distill r4-fs r4-glue r4-here r4-hunspell r4-purrr r4-rlang r4-rmarkdown r4-stringr r4-tinytex r4-whisker r4-xfun r4-yaml r4-yesno
+# Optional: r4-knitr r4-pdftools r4-rstudioapi r4-testthat
+
+name=r4-rjtools
+version=1.0.18.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/rjtools_${version}.tar.gz)
+
+build() {
+	cd rjtools
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,0 +1,16 @@
+# Description: R-package distill
+# URL: https://cran.r-project.org/web/packages/distill
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-base64enc r4-bookdown r4-digest r4-downlit r4-htmltools r4-jsonlite r4-knitr r4-lubridate r4-mime r4-openssl r4-png r4-rmarkdown r4-rprojroot r4-rstudioapi r4-stringr r4-whisker r4-xfun r4-xml2 r4-yaml
+# Optional: r4-covr r4-diagrammer r4-htmlwidgets r4-progress r4-r2d3 r4-rsconnect r4-shiny r4-testthat r4-withr
+
+name=r4-distill
+version=1.6
+release=1
+source=(https://cloud.r-project.org/src/contrib/distill_${version}.tar.gz)
+
+build() {
+	cd distill
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}
