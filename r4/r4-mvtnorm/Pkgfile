@@ -5,9 +5,9 @@
 # Optional: r4-bibtex r4-numderiv r4-qrng
 
 name=r4-mvtnorm
-version=1.4.1
+version=1.4.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/mvtnorm_1.4-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/mvtnorm_1.4-2.tar.gz)
 
 build() {
 	cd mvtnorm

@@ -44,3 +44,15 @@ drwxr-xr-x	root/root	usr/lib/R/library/litedown/resources/
 -rw-r--r--	root/root	usr/lib/R/library/litedown/resources/server.js
 -rw-r--r--	root/root	usr/lib/R/library/litedown/resources/snap.css
 -rw-r--r--	root/root	usr/lib/R/library/litedown/resources/snap.js
+drwxr-xr-x	root/root	usr/lib/R/library/litedown/rstudio/
+drwxr-xr-x	root/root	usr/lib/R/library/litedown/rstudio/book/
+-rw-r--r--	root/root	usr/lib/R/library/litedown/rstudio/book/01-intro.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/litedown/rstudio/book/_litedown.yml
+-rw-r--r--	root/root	usr/lib/R/library/litedown/rstudio/book/index.Rmd
+drwxr-xr-x	root/root	usr/lib/R/library/litedown/rstudio/site/
+-rw-r--r--	root/root	usr/lib/R/library/litedown/rstudio/site/_litedown.yml
+-rw-r--r--	root/root	usr/lib/R/library/litedown/rstudio/site/about.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/litedown/rstudio/site/index.Rmd
+drwxr-xr-x	root/root	usr/lib/R/library/litedown/rstudio/templates/
+drwxr-xr-x	root/root	usr/lib/R/library/litedown/rstudio/templates/project/
+-rw-r--r--	root/root	usr/lib/R/library/litedown/rstudio/templates/project/skeleton.dcf

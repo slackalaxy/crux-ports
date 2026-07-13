@@ -37,7 +37,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/nanonext/help/
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/nanonext/help/figures/
--rw-r--r--	root/root	usr/lib/R/library/nanonext/help/figures/logo.png
+-rw-r--r--	root/root	usr/lib/R/library/nanonext/help/figures/logo.svg
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/help/nanonext.rdb
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/help/nanonext.rdx
 -rw-r--r--	root/root	usr/lib/R/library/nanonext/help/paths.rds

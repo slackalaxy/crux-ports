@@ -46,6 +46,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/survival/doc/
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/methods.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/methods.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/methods.pdf
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/modelframe.Rnw
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/modelframe.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/multi.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/multi.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/other.Rnw
@@ -68,6 +70,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/survival/doc/
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/timedep.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/timedep.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/timedep.pdf
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/timeline.R
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/timeline.Rnw
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/timeline.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/validate.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/validate.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/validate.pdf
