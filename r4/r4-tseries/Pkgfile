@@ -1,13 +1,13 @@
-# Description: R module tseries
+# Description: R-package tseries
 # URL: https://cran.r-project.org/web/packages/tseries
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-jsonlite r4-quadprog r4-quantmod r4-zoo
+# Depends on: r r4-quadprog r4-quantmod r4-zoo
 # Optional: 
 
 name=r4-tseries
-version=0.10.61
+version=0.10.62
 release=1
-source=(https://cloud.r-project.org/src/contrib/tseries_0.10-61.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/tseries_0.10-62.tar.gz)
 
 build() {
 	cd tseries

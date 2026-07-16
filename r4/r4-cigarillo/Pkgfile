@@ -1,11 +1,11 @@
-# Description: R module cigarillo
+# Description: R-package cigarillo
 # URL: https://bioconductor.org/packages/cigarillo
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-biocgenerics r4-biostrings r4-iranges r4-s4vectors
 # Optional: r4-biocstyle r4-bsgenome-hsapiens-ucsc-hg19 r4-genomicalignments r4-knitr r4-rmarkdown r4-rnaseqdata-hnrnpc-bam-chr14 r4-rsamtools r4-testthat
 
 name=r4-cigarillo
-version=1.2.0
+version=1.2.1
 release=1
 source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/cigarillo_${version}.tar.gz)
 

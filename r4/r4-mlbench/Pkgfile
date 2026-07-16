@@ -1,13 +1,13 @@
-# Description: R module mlbench
+# Description: R-package mlbench
 # URL: https://cran.r-project.org/web/packages/mlbench
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: r4-lattice
 
 name=r4-mlbench
-version=2.1.8
+version=2.1.9
 release=1
-source=(https://cloud.r-project.org/src/contrib/mlbench_2.1-8.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/mlbench_2.1-9.tar.gz)
 
 build() {
 	cd mlbench

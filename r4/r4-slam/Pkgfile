@@ -1,13 +1,13 @@
-# Description: R module slam
+# Description: R-package slam
 # URL: https://cran.r-project.org/web/packages/slam
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: 
 
 name=r4-slam
-version=0.1.55
+version=0.1.56
 release=1
-source=(https://cloud.r-project.org/src/contrib/slam_0.1-55.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/slam_0.1-56.tar.gz)
 
 build() {
 	cd slam

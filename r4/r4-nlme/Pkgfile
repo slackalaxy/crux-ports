@@ -1,13 +1,13 @@
-# Description: R module nlme
+# Description: R-package nlme
 # URL: https://cran.r-project.org/web/packages/nlme
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-lattice
-# Optional: r4-mass r4-sasmixed
+# Optional: r4-mass
 
 name=r4-nlme
-version=3.1.169
+version=3.1.170
 release=1
-source=(https://cloud.r-project.org/src/contrib/nlme_3.1-169.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/nlme_3.1-170.tar.gz)
 
 build() {
 	cd nlme

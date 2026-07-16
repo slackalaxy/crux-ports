@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YqUioR0SBdpOzwOus12NcM6z/enlxypAjwUm8mC/KyXaX0/i7Yf/qGU180Z41Qd1Jf6sOmUQTgQO7wBvmY4sPAA=
-SHA256 (Pkgfile) = c96c01ed529f00774e237c1aa3c8bb2db2d5c2d2539c7a7b0af0015318ad2310
+RWQFYeZQgQH/YoBVrs/tdIgw9i9JUOqR+uUgRZ/wIefLxMo2LnPhbmfUjRHoJLafUHOjGb3M4L3Ee/yTDZV+uFLi/aiDIKqL9w8=
+SHA256 (Pkgfile) = 3e5dad4df89d70a5546240b9dda8ef9ecc5c0c27bc082cb44e9621a254dce18a
 SHA256 (.footprint) = 2ed2ffb32d539766bdf1a03b7356087a470c08a417b7ba667b51391e12837d8d
-SHA256 (cigarillo_1.2.0.tar.gz) = 798eb16f09b3eb9436c5d4026d3478a6a3b8185eb7669ab7331ee7d33ed1427f
+SHA256 (cigarillo_1.2.1.tar.gz) = 38e618f95d321cc0b68b3aa65225384ee68ac8af51cc8cf3cf40bb878fd92c12

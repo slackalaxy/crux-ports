@@ -5,7 +5,7 @@
 # Optional: r4-callr r4-cli r4-curl r4-pillar r4-processx r4-r6 r4-testthat r4-webfakes r4-withr
 
 name=r4-zip
-version=3.0.0
+version=3.0.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/zip_${version}.tar.gz)
 
