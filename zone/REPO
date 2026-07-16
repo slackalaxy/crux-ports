@@ -135,9 +135,9 @@ f:47c9a640163fa538a1d870ee8e46b352:gtksourceview4-styles/Pkgfile
 f:6725e3c1dc547ada719880e881ed2739:gtksourceview4-styles/.footprint
 f:8e5c8d161d2a47b0d4ffcb84616bd506:gtksourceview4-styles/.signature
 f:feb412bb1c2f56af8bcaa5a677c44e27:gtksourceview4-styles/gtksourceview4-styles-0.25.tar.xz
-f:1240b92051f2f4575943410820e19415:meta-ppetrov/Pkgfile
+f:09bfd8fdc863b22826ceb51bfb46fa78:meta-ppetrov/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-ppetrov/.footprint
-f:04ccb6bc19205efe85501c185fb65349:meta-ppetrov/.signature
+f:03bd6e99b12061bce63865b10f04d4c3:meta-ppetrov/.signature
 f:7a33f7da3a37ad5e7d41e8e0c896ebe5:meta-misc/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-misc/.footprint
 f:e28c50cd9e00cc513d508337563d9a83:meta-misc/.signature
@@ -197,9 +197,9 @@ f:7bf538285f04373f750d3311a8344d77:cpan2crux/Pkgfile
 f:d2e86e6ea7a81e58df8bff4fdf9f40e4:cpan2crux/cpan2crux-1.4.pl
 f:5e44468f8fc04d9a5f42153c4ee68156:cpan2crux/.footprint
 f:8cf5e2860c0c383cb2b176b4eb94b49d:cpan2crux/.signature
-f:767c2a4bc92ad8f68936513cb533c615:meta-r4/Pkgfile
+f:df1cba00dc2f0465b901705932f7c123:meta-r4/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-r4/.footprint
-f:055b744c96abb6b71ea9a7a079e0a492:meta-r4/.signature
+f:42563443f6c7dec9f68310139104278f:meta-r4/.signature
 f:3cb463b7d2ac1bb95f18091d852a4245:cron-cleanup/.signature
 f:3258da09d143d2f4ab404edd8ba1bc75:cron-cleanup/.footprint
 f:b075ae396226fef3acc13fdd1cea475d:cron-cleanup/Pkgfile
