@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZX5C7E6P9gM2FSpP2SeB2USF7CJvASQwrvrM418aUFMV2+kcmrQOUhz4/t7h/MoAlS3OSnOPlhwzS3/DkRQEMgM=
-SHA256 (Pkgfile) = 2b35c48fdbda6252eb0f86bb64a20f25a775777bb363c944cf1bb3cbc4508ad7
-SHA256 (.footprint) = e32c0511d103d7e7c46a310a37459f08c2ff1d2df5c09e988a005de83ba1a43e
-SHA256 (xsimd-14.2.0.tar.gz) = 21e841ab684b05331e81e7f782431753a029ef7b7d9d6d3ddab837e7782a40ee
+RWToVVsIkzFIZbNpb2PS6dW3QNAb0AmliKydw+NmxccfYNPhaKM4rJ7YIEt8nrygPKaAl9pdnuchHX12sKNgxb51XKEXZ7mGCwE=
+SHA256 (Pkgfile) = cebe507d03471e308a4be4c0ee16e4526a49adddd9b3285c35b36bbdecd1e96f
+SHA256 (.footprint) = 5352300a9b592b5a352fce1ab26081b94ae1d0ce90313858f1a379df7a4366cb
+SHA256 (xsimd-14.3.0.tar.gz) = b3d50e7a73fbf4642ceef30131c93414901d69eee41c2a5302db650b03e2c792
