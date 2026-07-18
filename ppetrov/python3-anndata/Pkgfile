@@ -4,7 +4,7 @@
 # Depends on: python3-array-api-compat python3-h5py python3-legacy-api-wrap python3-natsort python3-scipy python3-scverse-misc python3-zarr
 
 name=python3-anndata
-version=0.13.1
+version=0.13.2
 release=1
 source=(https://files.pythonhosted.org/packages/source/a/anndata/anndata-$version.tar.gz)
 
