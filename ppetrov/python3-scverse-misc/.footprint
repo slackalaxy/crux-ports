@@ -2,11 +2,11 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.1.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.1.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.1.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.1.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.1.dist-info/direct_url.json
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.3.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.3.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.3.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.3.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.3.dist-info/direct_url.json
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/__pycache__/
@@ -38,3 +38,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/__pycache__/__init__.cpython-312.pyc
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/templates/
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/templates/autosummary/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/templates/autosummary/class.rst
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/templates/autosummary/module.rst
