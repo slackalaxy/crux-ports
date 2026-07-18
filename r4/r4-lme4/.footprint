@@ -41,6 +41,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/doc/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/covariance_structures.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/covariance_structures.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/covariance_structures.html
+-rw-r--r--	root/root	usr/lib/R/library/lme4/doc/glmer.R
+-rw-r--r--	root/root	usr/lib/R/library/lme4/doc/glmer.Rnw
+-rw-r--r--	root/root	usr/lib/R/library/lme4/doc/glmer.pdf
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/lmer.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/lmer.Rnw
@@ -48,6 +51,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/doc/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/lmerperf.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/lmerperf.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/lme4/doc/lmerperf.html
+drwxr-xr-x	root/root	usr/lib/R/library/lme4/extra_docs/
+-rw-r--r--	root/root	usr/lib/R/library/lme4/extra_docs/covariance_structure_comparison.Rmd
+-rw-r--r--	root/root	usr/lib/R/library/lme4/extra_docs/covariance_structure_comparison.html
 drwxr-xr-x	root/root	usr/lib/R/library/lme4/help/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/lme4/help/aliases.rds
@@ -74,6 +80,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/testdata/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/dat20101314.csv
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/dataEx_Glmer.txt
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/fakesim.RData
+-rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/glmmTMB_glmer_ar1_comparison.R
+-rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/glmmTMB_glmer_ar1_comparison.rds
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/gopherdat2.RData
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/gotway_hessianfly.rda
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/harmel_density.R
@@ -101,3 +109,13 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/testdata/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/tprfm1.RData
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/trees513.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/trees513.RData
+drwxr-xr-x	root/root	usr/lib/R/library/lme4/tinytest/
+-rw-r--r--	root/root	usr/lib/R/library/lme4/tinytest/test_lme4.R
+drwxr-xr-x	root/root	usr/lib/R/library/lme4/vignette_data/
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/Contraception_batch.rda
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/bootmer_test.R
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/cbpp2.csv
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/cbpp_batch.rda
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/glmer_Contraception_batch.R
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/glmer_batch_funs.R
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/glmer_cbpp_batch.R
