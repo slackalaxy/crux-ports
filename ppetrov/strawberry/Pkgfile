@@ -5,7 +5,7 @@
 # Optional: krb5 x264 x265
 
 name=strawberry
-version=1.2.23
+version=1.2.24
 release=1
 source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
 
@@ -16,6 +16,9 @@ build() {
         -DCMAKE_INSTALL_LIBDIR=lib            \
         -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
         -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -DENABLE_CHROMAPRINT=OFF              \
+        -DENABLE_SONGTRACKING=OFF             \
+        -DENABLE_TAGFETCHER=OFF               \
 	-DENABLE_AUDIOCD=OFF                  \
 	-DENABLE_MTP=OFF                      \
 	-DENABLE_GPOD=OFF                     \
@@ -25,6 +28,7 @@ build() {
 	-DENABLE_SONGFINGERPRINTING=OFF       \
 	-DENABLE_TRANSLATIONS=OFF             \
 	-DENABLE_MUSICBRAINZ=OFF              \
+	-DENABLE_MOODBAR=ON                   \
         -Wno-dev
 
   cmake --build build
