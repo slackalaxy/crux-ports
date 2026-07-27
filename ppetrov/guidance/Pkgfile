@@ -5,12 +5,21 @@
 
 name=guidance
 version=2.02
-release=4
+release=5
 source=(https://github.com/HaimAshk/GUIDANCE/archive/refs/tags/guidance.v${version}.tar.gz
 	$name.sh)
 
 build() {
 	cd GUIDANCE-$name.v${version}
+	
+	# clen up prebuilt executables
+	rm programs/msa_set_score/msa_set_score
+	rm www/Guidance/exec/msa_set_score
+	
+	# this makefile does not obey the above flags
+	sed -i "s:CFLAGS = -c -Wall -O3:CFLAGS = -c ${CFLAGS}:g" programs/msa_set_score/makefile
+	sed -i "s:LFLAGS = -g -Wall -O3:LFLAGS = -g ${CFLAGS}:g" programs/msa_set_score/makefile
+	
 	make
 	
 	find . -type f -iname '*.pl' -exec chmod 0755 {} \;
@@ -18,17 +27,44 @@ build() {
 	find . -type f -iname 'Makefile' -exec rm -rf {} \;
 	find . -type f -iname 'makefile' -exec rm -rf {} \;
 	
+	# Copy only what needed
 	mkdir -p $PKG/usr/lib/$name
-	rsync -av --exclude='*.o' \
-	          --exclude='*.cpp' \
-		  --exclude='*.h' \
-		  --exclude='*.dep' \
-		  --exclude='*.c' \
+	rsync -av \
+		--exclude='*.o' \
+		--exclude='*.a' \
+		--exclude='*.cpp' \
+		--exclude='*.h' \
+		--exclude='*.dep' \
+		--exclude='*.c' \
+		--exclude='*.sln' \
+		--exclude='*.vcproj' \
+		--exclude='*.vcxproj' \
+		--exclude='*.suo' \
+		--exclude='*.R' \
+		--exclude='*.sh' \
+		--exclude='Makefile' \
+		--exclude='Makefile.*' \
+		--exclude='makefile' \
+		--exclude='README' \
+		--exclude='ChangeLog' \
+		--exclude='tests' \
+		--exclude='*.tests*' \
+       		--exclude='knownBugs' \
+       		--exclude='*.html' \
+       		--exclude='*.txt' \
 	. $PKG/usr/lib/$name
 	
-	install -D -m755 $SRC/$name.sh $PKG/usr/bin/$name
+	# Further cleanups
+	rm -r $PKG/usr/lib/$name/programs/semphy/{profile,running,SEMPHYOptMat}
+	find $PKG/usr/lib/$name -type d -empty -delete
 	
-	# remove junk
-	find $PKG/ -name "README" -delete
-	find $PKG/ -name "ChangeLog" -delete
+	# Just in case
+	find $PKG/usr/lib/$name -type f -iname '*.pl' -exec chmod 0755 {} \;
+	find $PKG/usr/lib/$name -type f -iname '*.rb' -exec chmod 0755 {} \;
+	chmod 0755 $PKG/usr/lib/$name/programs/isEqualTree/isEqualTree
+	chmod 0755 $PKG/usr/lib/$name/programs/msa_set_score/msa_set_score
+	chmod 0755 $PKG/usr/lib/$name/programs/removeTaxa/removeTaxa
+	chmod 0755 $PKG/usr/lib/$name/programs/semphy/semphy
+	
+	install -D -m755 $SRC/$name.sh $PKG/usr/bin/$name
 }
