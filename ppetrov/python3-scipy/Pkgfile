@@ -1,7 +1,7 @@
 # Description: Open-source software for mathematics, science, and engineering.
 # URL: http://www.scipy.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: python3-pooch python3-pybind11 python3-pythran
+# Depends on: pybind11 python3-pooch python3-pythran
 
 name=python3-scipy
 version=1.18.0
