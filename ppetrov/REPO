@@ -92,7 +92,6 @@ d:python3-joblib
 d:python3-llvmlite
 d:python3-numba
 d:python3-pooch
-d:python3-pybind11
 d:python3-pynndescent
 d:python3-pythran
 d:python3-scipy
@@ -462,10 +461,6 @@ f:d36a09bfc88d776a5dacfc5add8b549f:python3-numba/Pkgfile
 f:1468598f0d306741e80a2e7767e9a5a3:python3-pooch/Pkgfile
 f:3ad68cf0a7072c82b2e63a903293702c:python3-pooch/.footprint
 f:42a435b7eee3021f7a793c7597236733:python3-pooch/.signature
-f:cc9b7768d93188b8a1cdeae04792896a:python3-pybind11/.signature
-f:184b1c6125672dc6e1cfc9dcc2955575:python3-pybind11/.footprint
-f:d4fdf565bb6b60cc24ab243f18117452:python3-pybind11/Pkgfile
-f:6cbc7d21baecb81eaed3594e433b311b:python3-pybind11/README
 f:f7dffe3ecfca5cfcc5098951d9d1f2c6:python3-pynndescent/.footprint
 f:2494471bed52ecd6eb4b33832957eb74:python3-pynndescent/.signature
 f:92c75b0e0a970a4527422723a1f146c4:python3-pynndescent/Pkgfile
@@ -473,8 +468,8 @@ f:77bcd87b49cc84dc9c08f4a1f8ca7e99:python3-pythran/.footprint
 f:6164eb972f2edc9a7eba55a0852a3a21:python3-pythran/.signature
 f:f8fdf3f639440700636246064c0c9f4f:python3-pythran/Pkgfile
 f:7133b8b10b49d76f7ef47a539306a059:python3-scipy/.footprint
-f:ea6d15cdb88f1047dad50b5bfdff2fdf:python3-scipy/.signature
-f:d8794bad13c9ece9491694aafba878b9:python3-scipy/Pkgfile
+f:5eb8638680eb452f20b2f77d23fc6125:python3-scipy/.signature
+f:e2e977e0ca99f4e4d52c4b743b774708:python3-scipy/Pkgfile
 f:807d0e3f4b55a21f6b283dc30eb084c3:ncbi-edirect/Pkgfile
 f:7885dbad2f88af825a68a47321eed2c9:ncbi-edirect/.footprint
 f:a348808b0bfc8c9c9926534599f246ca:ncbi-edirect/.signature
