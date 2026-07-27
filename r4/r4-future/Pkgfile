@@ -1,11 +1,11 @@
-# Description: R module future
+# Description: R-package future
 # URL: https://cran.r-project.org/web/packages/future
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-digest r4-globals r4-listenv r4-parallelly
 # Optional: r4-markdown r4-r-rsp r4-rhpcblasctl
 
 name=r4-future
-version=1.70.0
+version=1.75.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/future_${version}.tar.gz)
 

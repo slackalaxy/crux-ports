@@ -31,8 +31,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/mlbench/data/
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Ionosphere.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/LetterRecognition.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Ozone.rda
--rw-r--r--	root/root	usr/lib/R/library/mlbench/data/PimaIndiansDiabetes.rda
--rw-r--r--	root/root	usr/lib/R/library/mlbench/data/PimaIndiansDiabetes2.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Satellite.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Servo.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Shuttle.rda

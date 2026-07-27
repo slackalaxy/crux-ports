@@ -1,13 +1,13 @@
-# Description: R module Matrix
+# Description: R-package Matrix
 # URL: https://cran.r-project.org/web/packages/Matrix
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-lattice
 # Optional: r4-mass r4-sfsmisc
 
 name=r4-matrix
-version=1.7.5
+version=1.7.6
 release=1
-source=(https://cloud.r-project.org/src/contrib/Matrix_1.7-5.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/Matrix_1.7-6.tar.gz)
 
 build() {
 	cd Matrix

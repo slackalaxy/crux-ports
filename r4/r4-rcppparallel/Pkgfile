@@ -1,13 +1,13 @@
-# Description: R module RcppParallel
+# Description: R-package RcppParallel
 # URL: https://cran.r-project.org/web/packages/RcppParallel
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
-# Optional: r4-knitr r4-rcpp r4-rmarkdown r4-runit
+# Optional: r4-knitr r4-rcpp r4-rmarkdown
 
 name=r4-rcppparallel
-version=5.1.11.2
+version=6.1.0
 release=1
-source=(https://cloud.r-project.org/src/contrib/RcppParallel_5.1.11-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/RcppParallel_${version}.tar.gz)
 
 build() {
 	cd RcppParallel

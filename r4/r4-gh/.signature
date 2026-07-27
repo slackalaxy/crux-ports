@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YgXji4RjbPp7aIjPpAza9tONqnajIGuusN7EwFIiyj107K9sC9df9Cp5R1LUuy3Uc34N777d62UKK0jNsikYGgQ=
-SHA256 (Pkgfile) = 0487313d202709e4655b61afa642a54400edfc3cffb8c530b4baf3cef7ba25eb
+RWQFYeZQgQH/YtmjPebjZ5SDc+yA/IBf+cJONOb1dqDtOzVSp8gk2mieADBfFFtzTzmlZcxvzUB52EN33GiivKDvqbQSZycU9gk=
+SHA256 (Pkgfile) = fe6f7ced497c9f27af88573f5604c2b74c02e401e52393377a1b1d1ed0f29d31
 SHA256 (.footprint) = 9f84011956d7f8df3055413d2242c492836c7f11179cb26e7f8f9524a6df99e8
-SHA256 (gh_1.6.0.tar.gz) = 91d3e15fd10835ed0b9b74b3fefa6deb56c25553108e1e8aeaed733365ef3be4
+SHA256 (gh_1.6.1.tar.gz) = b5ad2aae31fad5cdf40ca679a4f0e560a63fe60ef2d4bd63f8ab39a669bd2fa3

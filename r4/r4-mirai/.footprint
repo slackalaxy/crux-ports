@@ -44,7 +44,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/mirai/help/
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/mirai/help/figures/
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/figures/architecture.svg
--rw-r--r--	root/root	usr/lib/R/library/mirai/help/figures/logo.png
+-rw-r--r--	root/root	usr/lib/R/library/mirai/help/figures/logo.svg
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/mirai.rdb
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/mirai.rdx
 -rw-r--r--	root/root	usr/lib/R/library/mirai/help/paths.rds

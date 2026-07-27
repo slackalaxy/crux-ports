@@ -324,8 +324,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/coinor-symphony.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/cuda.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/dcraw.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/dotnet10.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/dotnet8.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/dotnet9.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/eigen.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/exiftool.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/faiss.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/fftw3.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/flint.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/fluidsynth.json
@@ -346,6 +350,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/grpcpp.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/gsl.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/gtk.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/gtkmm2.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/harfbuzz.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/haveged.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/hdf5.json
@@ -358,6 +363,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/leptonica.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libarchive.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libavfilter.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libavif.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libbsd.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libbz2.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/libcurl.json
@@ -387,6 +393,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/mongodb.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/mpfr.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/mysql.json
+-rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/ncurses.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/netcdf4.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/nlopt.json
 -rw-r--r--	root/root	usr/lib/R/library/pak/library/pkgdepends/sysreqs/rules/odbc.json

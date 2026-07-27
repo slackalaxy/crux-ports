@@ -1,11 +1,11 @@
-# Description: R module caTools
+# Description: R-package caTools
 # URL: https://cran.r-project.org/web/packages/caTools
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-bitops
 # Optional: r4-mass r4-rpart
 
 name=r4-catools
-version=1.18.3
+version=1.18.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/caTools_${version}.tar.gz)
 

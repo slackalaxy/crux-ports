@@ -14,7 +14,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/Deriv/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/NAMESPACE
--rw-r--r--	root/root	usr/lib/R/library/Deriv/NEWS
+-rw-r--r--	root/root	usr/lib/R/library/Deriv/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/Deriv/R/
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/R/Deriv
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/R/Deriv.rdb
@@ -29,3 +29,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/Deriv/help/
 drwxr-xr-x	root/root	usr/lib/R/library/Deriv/html/
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/Deriv/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/Deriv/libs/
+-rwxr-xr-x	root/root	usr/lib/R/library/Deriv/libs/Deriv.so

@@ -1,11 +1,11 @@
-# Description: R module Deriv
+# Description: R-package Deriv
 # URL: https://cran.r-project.org/web/packages/Deriv
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: r r4-rcpp
 # Optional: r4-testthat
 
 name=r4-deriv
-version=4.2.0
+version=4.3.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/Deriv_${version}.tar.gz)
 

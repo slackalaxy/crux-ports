@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YpIwNUGM6s6Lqc9scrR3xAXcemaUjsaWvy1jKtAEhX+ZQS2QK5Mj2fETyei6VL/nJV23IE9kzxFMVn0JOxetrQI=
-SHA256 (Pkgfile) = d66626088e07dae8c98586a44aaca3233a384a6cb93101207123cfc140ddc3bc
+RWQFYeZQgQH/Ys2jpY/V1e4KtpSkEfkv5km7ewz9nssAiGMgoQzfuLBhCXuXx453+9HcR9Tcfs5ko0edzlLWzqhPll0dnnkoLgY=
+SHA256 (Pkgfile) = b950841c4a88797183fe48418466f89b4a8e358cbeb9c2b45c22f0c068d16d90
 SHA256 (.footprint) = 1af05f7eb0e6ef26195fb01a8b425cee8b7e00ac2712b93104f86846bfaa613a
-SHA256 (graphlayouts_1.2.4.tar.gz) = 89cb2d85f709ce541dd14e91548416261b21d75d1802bdbf29f489e71be3a696
+SHA256 (graphlayouts_1.2.5.tar.gz) = 1ad4bfea62128656940d28ce06473c1fbcc03b3651c98e85cc99b2119a8a2724
