@@ -6,11 +6,23 @@
 
 name=r4-torch
 version=0.17.0
-release=1
-source=(https://cloud.r-project.org/src/contrib/torch_${version}.tar.gz)
+release=2
+source=(https://cloud.r-project.org/src/contrib/torch_${version}.tar.gz
+	https://download.pytorch.org/libtorch/cpu/libtorch-shared-with-deps-2.8.0+cpu.zip
+	https://torch-cdn.mlverse.org/binaries/refs/heads/cran/v${version}/latest/lantern-$version+cpu+x86_64-Linux.zip)
 
 build() {
 	cd torch
 	mkdir -p $PKG/usr/lib/R/library
 	R CMD INSTALL . -l $PKG/usr/lib/R/library
+	
+	# The code below will automatically fetch and install libtorch and lantern at build time.
+	# Bake libtorch + lantern into the package itself at build time,
+	# so end users never hit the runtime download/permission issue.
+	#export TORCH_HOME=$PKG/usr/lib/R/library/torch
+	#Rscript -e '.libPaths(c("'"$PKG"'/usr/lib/R/library", .libPaths())); torch::install_torch()'
+	
+	# We do it manually:
+	cp -a $SRC/libtorch/* $PKG/usr/lib/R/library/torch/
+	cp -a $SRC/lantern-$version+cpu+x86_64-Linux/* $PKG/usr/lib/R/library/torch/
 }

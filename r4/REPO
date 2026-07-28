@@ -2655,9 +2655,9 @@ f:abcdfde3a336f34a535527e54028b045:r4-prroc/.signature
 f:603d8f5c1854e3216ba4bfc119661b8b:r4-safetensors/Pkgfile
 f:2c7368254b60e771b4f7f025416f317f:r4-safetensors/.footprint
 f:61ef7c87805a3597050441c065bea50a:r4-safetensors/.signature
-f:b532c1fbe28d6d7b11b203c2b1ea00b2:r4-torch/Pkgfile
-f:4b7b5558cf8b3367436aecbdacbcd4ed:r4-torch/.footprint
-f:c3b4084bfdb5fdb9ec4ce654be784098:r4-torch/.signature
+f:37c98036dcab7dd1e62cf1c1dd473fc5:r4-torch/Pkgfile
+f:40124895e9ed19b22c0396e8df6caff5:r4-torch/.footprint
+f:f09b94d8850518430ba063300418de9a:r4-torch/.signature
 f:e5deb62f316b31b482156edd95e9de7a:r4-xgboost/Pkgfile
 f:2cf0e96a1657858a0a6b34d034de3bea:r4-xgboost/.footprint
 f:8ebf53dd7adff938b1de51d0edb237c9:r4-xgboost/.signature

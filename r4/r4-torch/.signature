@@ -1,5 +1,7 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YmDkPH5T0pUPqP1riqEUyUj482hZOg4gWy3uAbCtqDYxVQdXbzlADzCDdxJvBGKZsYxER72G+uRjFjG9/8K8nQM=
-SHA256 (Pkgfile) = e420d107edae78f4c9a8f78de9458dd0576093e472068d9cc582dc34998537bf
-SHA256 (.footprint) = 3f3b1d986c102781f3547cb8a80cb3bc939c7cb5970cf4e00d5b113afec5d98f
+RWQFYeZQgQH/YoybA9kw8V8/ZLhiBqhvcr2E1BYfzRDyg8fn9LhSGD4QG3hRroP9AaBGt+9Rl6Hlg+76v7fIeUsGWgdnW2qN4go=
+SHA256 (Pkgfile) = 7393e23b6636370a3e5447f6b2b07d66f337b08e6b2103be1d6af689bcc1550c
+SHA256 (.footprint) = 6a59b2067be57fc4885f041f9ca579bb639ad5b7a4207f238850c9cbf1d2197c
 SHA256 (torch_0.17.0.tar.gz) = 8730c263892b80672b1c8bd5366471e02461cd69e472d0323b39fc9295008a94
+SHA256 (libtorch-shared-with-deps-2.8.0+cpu.zip) = 8dea5bcfed4b53ca0f6852517bea4b4d1f3ff1cc0c21da662e834d34af1ec824
+SHA256 (lantern-0.17.0+cpu+x86_64-Linux.zip) = 0d2c75fbaff3f6d29b67848396190d11a9ddc62bc31b98be043346cec300f477
