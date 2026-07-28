@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YtYw71Bg5T3Bh5k80Wzmx7+Iu5Uk2Ua4BU0PbzXQwv4VBFwL1YrVGku38j9It5ktZoHJY+fdBLim7ct3tOIBYwQ=
+SHA256 (Pkgfile) = bd72a7caff1f50751a97215bfc83cd8608da3ed388823cf9acd3c9b17acd8a9b
+SHA256 (.footprint) = 49c32cfba4c433f1aabdc5bc53123687e78464d2f2b550aaf63e82f6a5d0d834
+SHA256 (coro_1.1.0.tar.gz) = 6c9a498006a8ead71ce1a12c492d663481e88cb6805b52bfb1cd688248716acf

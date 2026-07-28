@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YrJp1SwQoRlojMJZprO+3EnU7DbLS8yNwMYN8Im1j9Cn2+ZAZPRFwWY4ca2NPhY1aQjH6OFABMa2f43wsUNFyQQ=
+SHA256 (Pkgfile) = 7b150e6973c79c849555034498000210c0010a9efe821b0b7cdfafa6beb49d56
+SHA256 (.footprint) = 2b830643e7bee6f5ba1bf7a4823aaea5897677ccbae1a8b3842b603e1dfe1562
+SHA256 (xgboost_3.2.1.1.tar.gz) = 54f3f59aa5689117977aab725b6bda88db71fff4b1b6d92289f81cb10bcee2a5

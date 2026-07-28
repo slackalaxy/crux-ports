@@ -1,0 +1,16 @@
+# Description: R-package xgboost
+# URL: https://cran.r-project.org/web/packages/xgboost
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-data-table r4-jsonlite r4-matrix
+# Optional: r4-ckmeans-1d-dp r4-diagrammer r4-diagrammersvg r4-float r4-ggplot2 r4-htmlwidgets r4-igraph r4-knitr r4-rhpcblasctl r4-rmarkdown r4-rsvg r4-survival r4-testthat r4-titanic r4-vcd
+
+name=r4-xgboost
+version=3.2.1.1
+release=1
+source=(https://cloud.r-project.org/src/contrib/xgboost_${version}.tar.gz)
+
+build() {
+	cd xgboost
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

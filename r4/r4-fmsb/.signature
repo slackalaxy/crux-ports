@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YnbaG7fntI8FR7Lremrd3ptg0vDDAI2hMkVFXinYB8qYiTE5hc0GksPSSwxMQrAT5ITrWWVp9rxP5OCK1dX93wk=
+SHA256 (Pkgfile) = e6f3c21dc320210f31f25c64a29095665ae54235402effe8e9cd01ed92dad3ed
+SHA256 (.footprint) = d83a0f3c07cc835bb9cd2a7b41c6c095e89bf27d05bc0e68d5a2a845531fd9d4
+SHA256 (fmsb_0.7.6.tar.gz) = e57df29d44d988ec977b3d7a6250e5d647ae8572bc41240bb86290252d79d3b2

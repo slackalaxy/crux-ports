@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YmDkPH5T0pUPqP1riqEUyUj482hZOg4gWy3uAbCtqDYxVQdXbzlADzCDdxJvBGKZsYxER72G+uRjFjG9/8K8nQM=
+SHA256 (Pkgfile) = e420d107edae78f4c9a8f78de9458dd0576093e472068d9cc582dc34998537bf
+SHA256 (.footprint) = 3f3b1d986c102781f3547cb8a80cb3bc939c7cb5970cf4e00d5b113afec5d98f
+SHA256 (torch_0.17.0.tar.gz) = 8730c263892b80672b1c8bd5366471e02461cd69e472d0323b39fc9295008a94

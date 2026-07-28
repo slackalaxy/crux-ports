@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yj4QjgfjNIThOWMZcTubi4182eSt+m5/4dlRX0cAnLY4fll6yd8+7mL2ZHHOuoM8Ih3c7noYm9sBmVRmSwbPjAA=
+SHA256 (Pkgfile) = 3d34210638cc2dfa18d4b266ac2f3ed0b0393b7ace0315735004be8a2f7478da
+SHA256 (.footprint) = 8da346fe58a94061542a32296d6763f3b16c74897902257de0de4e91b2da145c
+SHA256 (safetensors_0.2.1.tar.gz) = 0cbaf03a421b1f673cb20438731d4221d37b79a14d09d0f69dcaff7d49b67af9
