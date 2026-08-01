@@ -1,13 +1,13 @@
-# Description: R module zoo
+# Description: R-package zoo
 # URL: https://cran.r-project.org/web/packages/zoo
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-lattice
-# Optional: r4-aer r4-chron r4-coda r4-ggplot2 r4-mondate r4-scales r4-stinepack r4-strucchange r4-timedate r4-timeseries r4-tinyplot r4-tis r4-tseries r4-xts
+# Optional: r4-aer r4-chron r4-coda r4-ggplot2 r4-knitr r4-mondate r4-scales r4-stinepack r4-strucchange r4-timedate r4-timeseries r4-tinyplot r4-tis r4-tseries r4-xts
 
 name=r4-zoo
-version=1.8.15
+version=1.9.0
 release=1
-source=(https://cloud.r-project.org/src/contrib/zoo_1.8-15.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/zoo_1.9-0.tar.gz)
 
 build() {
 	cd zoo

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YrINQazcUL12Wbt3llmkxShqVFw/W+wzPtoVEoVDgl8MtqBpexx9ItLGABITTJ+UYU+Qgb5TGl1hZtq9cq8FAQw=
-SHA256 (Pkgfile) = 6e7fc3fa088e6ddc978d38b5fc42e5c9b9e8b7fa641d7f56ef25085bb7f67896
+RWQFYeZQgQH/YrTIJuXurvaJKLayL3dYjF9hS4kRLr73FDQMFEMiB3MM6dj2kVMdjMbuDuavYUKjmcj6HHtrZTzhIWHhS6LADAw=
+SHA256 (Pkgfile) = 1921a929c694bdc6bab32c8a4ec486aa33380c3bfbf7ba38e62d3bd3854a5c93
 SHA256 (.footprint) = 13ca9c6d07e984cd865ab098feb05af1b6a28f38ecf14d16b00df893948fe20f
-SHA256 (GPArotation_2026.6-1.tar.gz) = ab2a77df57bb2d528353822c0ef2e96f24252d18dfa437526c14a672862d94ae
+SHA256 (GPArotation_2026.7-1.tar.gz) = 8802a636005fa1d9afea11898960a574e628155edf02e63ea27ebc2d84ebe6fc

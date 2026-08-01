@@ -1,11 +1,11 @@
 # Description: R-package RcppParallel
 # URL: https://cran.r-project.org/web/packages/RcppParallel
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r 
+# Depends on: icu libdeflate onetbb r 
 # Optional: r4-knitr r4-rcpp r4-rmarkdown
 
 name=r4-rcppparallel
-version=6.1.0
+version=6.2.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/RcppParallel_${version}.tar.gz)
 
