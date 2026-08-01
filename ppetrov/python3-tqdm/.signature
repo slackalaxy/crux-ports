@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZVxZmoiQaP0HIRDjmNe6par00xHEWApGwsCtvS0d7Dq/a3dKoKLzXgLJyFkck1f3Bpdtitj1YEEABwTCQW8z9wA=
-SHA256 (Pkgfile) = 839999346fb0517f85a7d7e7f4ab49c58528dffe08b577293934156d545317aa
-SHA256 (.footprint) = 1a5f1109eaae4429c1fd856d5e2688813a0bb276489e20c8de69fe2d96b8b131
-SHA256 (tqdm-4.69.1.tar.gz) = 2be21080a0ce17e902c2f1baeb6a74bf551b67bbdfa4bc0109fad471d0b4cb0d
+RWToVVsIkzFIZaq5up/88OK19huEXLjcb0Kfpfr9w9+YAxyYieFvOAJC8JBo6Nw6edltUKcSgNspEcy6IlJCHh+91KkNxZ+yDgA=
+SHA256 (Pkgfile) = e336260118e0cd7469236c54e1f36821c315b964cbf7b86f38c75d7fed5c0ae4
+SHA256 (.footprint) = 182d57dd20a51e83a79ff63ae79e2038b008d0e2ebf8bcf5890ec7a8d61da292
+SHA256 (tqdm-4.70.0.tar.gz) = 55b0b0dbd97462d06ebee91e4dac24ed4d4702be82b24f07e6c1d27e08cea220
