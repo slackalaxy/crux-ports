@@ -441,6 +441,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/content-server/
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/empty.html
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/index-generated.html
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/index.html
+-rw-r--r--	root/root	usr/lib/calibre/resources/content-server/index.js.map
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/locales.zip
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/mobile.css
 -rw-r--r--	root/root	usr/lib/calibre/resources/content-server/reset.css
@@ -471,6 +472,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/editor-help/
 -rw-r--r--	root/root	usr/lib/calibre/resources/editor-help/opf3.json
 -rw-r--r--	root/root	usr/lib/calibre/resources/editor-help/svg.json
 -rw-r--r--	root/root	usr/lib/calibre/resources/editor.js
+-rw-r--r--	root/root	usr/lib/calibre/resources/editor.js.map
 drwxr-xr-x	root/root	usr/lib/calibre/resources/fonts/
 -rw-r--r--	root/root	usr/lib/calibre/resources/fonts/calibreSymbols.otf
 drwxr-xr-x	root/root	usr/lib/calibre/resources/fonts/liberation/
@@ -846,11 +848,9 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/mozilla-ca-certs/
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/5f15c80c.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/5f618aec.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/607986c7.0
--rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/616816f6.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/6805c744.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/68dd7389.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/6a9bdba3.0
--rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/6b99d060.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/6d41d539.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/6fa5da56.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/749e9e03.0
@@ -970,6 +970,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/templates/
 -rw-r--r--	root/root	usr/lib/calibre/resources/v8_context_snapshot.bin
 -rw-r--r--	root/root	usr/lib/calibre/resources/viewer.html
 -rw-r--r--	root/root	usr/lib/calibre/resources/viewer.js
+-rw-r--r--	root/root	usr/lib/calibre/resources/viewer.js.map
 drwxr-xr-x	root/root	usr/lib/calibre/share/
 drwxr-xr-x	root/root	usr/lib/calibre/share/espeak-ng-data/
 -rw-r--r--	root/root	usr/lib/calibre/share/espeak-ng-data/af_dict
