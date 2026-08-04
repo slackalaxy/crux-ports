@@ -1,0 +1,38 @@
+# Description: An image loading library for GTK+
+# URL: https://wiki.gnome.org/Projects/GdkPixbuf
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gdk-pixbuf
+
+name=gdk-pixbuf-compat
+version=2.44.7
+release=1
+source=(https://download.gnome.org/sources/gdk-pixbuf/${version:0:4}/gdk-pixbuf-$version.tar.xz)
+
+build() {
+    meson setup build gdk-pixbuf-$version \
+        --prefix=/usr \
+        --buildtype=plain \
+        --wrap-mode nodownload \
+        -D b_lto=true \
+        -D b_pie=true \
+        -D glycin=enabled \
+        -D builtin_loaders='all' \
+        -D tests=false \
+        -D installed_tests=false \
+        -D man=false \
+        -D png=enabled \
+        -D tiff=enabled \
+        -D jpeg=enabled \
+        -D gif=enabled \
+        -D others=enabled \
+        -D thumbnailer=enabled \
+        -D legacy_xpm=enabled
+
+    meson compile -C build -j ${JOBS:-1}
+    DESTDIR=$PKG meson install  -C build
+
+    rm -r $PKG/usr/share/{locale,gir-1.0}
+    rm $PKG/usr/bin/{gdk-pixbuf-csource,gdk-pixbuf-pixdata,gdk-pixbuf-query-loaders}
+    rm -rf $PKG/usr/{include,lib}
+}
+

@@ -1,0 +1,32 @@
+# Description: MATE Utility programs 
+# URL: https://github.com/mate-desktop/mate-utils
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 libcanberra libgtop libxkbcommon mate-panel tdb udisks2 wayland
+
+name=mate-utils
+version=1.28.1
+release=1
+source=(https://github.com/mate-desktop/mate-utils/releases/download/v$version/mate-utils-$version.tar.xz
+	screenshot.patch)
+
+build() {
+	cd $name-$version
+	
+	# Fix window screenshot including invisible borders. Taken from this commit: 
+	# https://github.com/mate-desktop/mate-utils/commit/d7b746d8faaeed50c6502c27d53fa7a895e2f2c9
+	patch -p1 -i $SRC/screenshot.patch
+	
+	#./autogen.sh
+  	./configure \
+		--prefix=/usr \
+		--libexecdir=/usr/lib/$name \
+		--sysconfdir=/etc \
+		--disable-nls \
+		--disable-gtk-doc-html \
+		--disable-maintainer-flags
+	make
+
+	make DESTDIR="${PKG}" install
+	
+	rm -rf $PKG/usr/share/gtk-doc
+}

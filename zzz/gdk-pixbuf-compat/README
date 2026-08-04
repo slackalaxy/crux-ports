@@ -1,0 +1,16 @@
+Caja does not use glycin; instead, it uses gdk-pixbuf-thumbnailer to 
+generate thumnails. Hence, this "-compat" package, which ships:
+
+  /usr/bin/gdk-pixbuf-thumbnailer
+  /usr/share/thumbnailers/gdk-pixbuf-thumbnailer.thumbnailer
+
+In addition, Caja will get confised by the presence of glycin's
+thumbnailers, so remove these (at your own risk):
+
+  /usr/share/thumbnailers/glycin-image-rs.thumbnailer
+  /usr/share/thumbnailers/glycin-svg.thumbnailer
+
+Then, consider adding the following to /etc/pkgadd.conf:
+
+  INSTALL		^usr/share/thumbnailers/glycin-image-rs\.thumbnailer	NO
+  INSTALL		^usr/share/thumbnailers/glycin-svg\.thumbnailer		NO

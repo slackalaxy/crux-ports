@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zzz.pub
+RWTLNE38Mq+LprApc9AVNa1QjIzM9ZYE3hJ6x1n3yVYBcnHrf8AG+lGWNoxYx645aaSAuLII0djkX6hfqs/I5mjThmvDPGunCQM=
+SHA256 (Pkgfile) = d60bdd39fd951e6dc7ce9aa5b30ca326a8344f71f68a856c95540e86d632c1cc
+SHA256 (.footprint) = f40a79d116f4c69e8cb6aee352e20fc4d3705dce1add8c0e3dd320f7f9c5123b
+SHA256 (caja-extensions-1.28.0.tar.xz) = d2986c5e0740835fe271cfbd5823eeeaf03291af1763203f4700abb8109e3175

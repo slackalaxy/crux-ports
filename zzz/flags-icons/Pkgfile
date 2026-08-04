@@ -1,0 +1,29 @@
+# Description: Country flags from xfce4 xkb plugin
+# URL: https://archive.xfce.org/src/panel-plugins/xfce4-xkb-plugin/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: imagemagick
+
+name=flags-icons
+version=0.9.0
+release=1
+source=(https://archive.xfce.org/src/panel-plugins/xfce4-xkb-plugin/${version%.*}/xfce4-xkb-plugin-$version.tar.xz)
+
+build() {
+    cd xfce4-xkb-plugin-$version
+
+    mkdir -p $PKG/usr/share/icons/flags
+
+    cd flags
+    for f in *.svg; do
+        name=$(basename "$f" .svg)
+
+        # Convert SVG to PNG while keeping aspect ratio and padding with
+        # transparency to a square
+        magick "$f" \
+            -background none \
+            -resize 900x550 \
+            -gravity center \
+            -extent 900x900 \
+            $PKG/usr/share/icons/flags/${name}.png
+    done
+}

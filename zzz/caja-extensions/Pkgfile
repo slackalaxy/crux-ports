@@ -1,0 +1,21 @@
+# Description: Caja extensions
+# URL: https://github.com/mate-desktop/caja-extensions
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli caja dbus-glib graphite2 gst-plugins-base libunwind startup-notification wayland xorg-libxres
+
+name=caja-extensions
+version=1.28.0
+release=1
+source=(https://github.com/mate-desktop/caja-extensions/releases/download/v${version}/caja-extensions-$version.tar.xz)
+
+build() {
+    cd caja-extensions-$version
+    ./configure --prefix=/usr \
+        --disable-nls
+
+    make
+    #make -C open-terminal DESTDIR="$PKG" install
+    make DESTDIR="$PKG" install
+    
+    rm -rf $PKG/usr/share/gtk-doc
+}
