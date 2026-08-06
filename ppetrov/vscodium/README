@@ -1,0 +1,9 @@
+To make Pkgfile-s recognised as shell scripts:
+
+- Open Settings, by clicking "Ctrl + ," (Ctrl and comma)
+- Search for "file associations"
+- Select: "Text editor" -> "Files"
+- Add Item
+- Fill:
+    Item       Value
+    Pkgfile    shellscript
