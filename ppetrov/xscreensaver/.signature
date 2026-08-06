@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQi3B9WaBK0wn7StaGe97cIDVQtHH3vnPtnf8Dswo23lGjadb+3h55qRL60X84DWvEACfTpi8hv6kBm03y6G0gg=
-SHA256 (Pkgfile) = feab6f9340fb45095cbbe4b6e17deacc3c6b0475bf615b3ec64b49e34bf271ca
-SHA256 (.footprint) = df3b28e8d679964787f0db674c1dc5dd0ee4bed5b9b3114064de74a8a6d5f9f1
+RWToVVsIkzFIZadxj8IQAxk1OQQ2zhebBYXOk9FzV8EfRO3nkqY17BpdfTlL4FNlHlSC7oJq39rffS9ezAKbifrp6qDVA0Wf0wU=
+SHA256 (Pkgfile) = 0b103bf187a68aec32d868a3061a14ef1144534af7531c018b9bc38453663743
+SHA256 (.footprint) = 901f74a295dbad0e4a5abae9a6fe71829086dc2ad273a31c3ed04d7851a5d2fd
 SHA256 (xscreensaver-6.15.tar.gz) = d2e687e56263fbfd8fca1fb9cc7c9331fd4f096ab57d3f7482565fe012c362d3
 SHA256 (xscreensaver.pam) = bf8bfc428530824f4de3582481b21bad8c6d095ffbf91aa7173dda3e158604e1
 SHA256 (electricsheep.patch) = bf56022d683ad9d38ae6382804bd6eeabd20af2db7bf9696274387db2f1fd4f3

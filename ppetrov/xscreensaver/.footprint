@@ -509,7 +509,6 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/polyominoes.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/polytopes.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/pong.desktop
--rw-r--r--	root/root	usr/share/applications/screensavers/popsquares.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/prococean.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/projectiveplane.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/protophore.desktop
@@ -598,6 +597,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/xspirograph.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/zoom.desktop
 -rwxr-xr-x	root/root	usr/share/applications/xscreensaver-settings.desktop
+-rwxr-xr-x	root/root	usr/share/applications/xscreensaver.desktop
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/xscreensaver/
 -rw-r--r--	root/root	usr/share/fonts/xscreensaver/OCRA.ttf
