@@ -1,0 +1,5 @@
+#!/bin/sh
+ update-desktop-database
+# update-mime-database /usr/share/mime
+# gtk-update-icon-cache
+# glib-compile-schemas /usr/share/glib-2.0/schemas
