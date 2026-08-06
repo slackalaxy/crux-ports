@@ -1,0 +1,12 @@
+# _require_version sets a minimum vs. _version that looks for an exact match
+--- a/configure.ac
++++ b/configure.ac
+@@ -52,7 +52,7 @@
+ # i18n / text translations
+ # The choice for version of gettext is only based on what was installed on the developers desktop (2021).
+ # If another version is more convenient, go for it.
+-AM_GNU_GETTEXT_VERSION([0.21])
++AM_GNU_GETTEXT_REQUIRE_VERSION([0.21])
+ AM_GNU_GETTEXT([external])
+ 
+ GETTEXT_PACKAGE="$PACKAGE"
