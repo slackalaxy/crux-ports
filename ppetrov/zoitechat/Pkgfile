@@ -1,0 +1,26 @@
+# Description: A GTK3 IRC client based on HexChat
+# URL: https://github.com/ZoiteChat/zoitechat/releases
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtk3 libsecret libxkbcommon lua wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
+
+name=zoitechat
+version=2.19.0
+release=1
+source=(https://github.com/ZoiteChat/zoitechat/archive/v$version/zoitechat-v$version.tar.gz)
+
+build() {
+  meson setup $name-$version build   \
+              --buildtype=plain      \
+              --prefix=/usr          \
+              --wrap-mode nodownload \
+              -Dappindicator=disabled \
+              -Dlibcanberra=disabled \
+              -Dwith-sysinfo=false   \
+              -Db_pie=true           \
+              -Db_lto=true
+
+  meson compile -C build -j ${JOBS:-1}
+  DESTDIR="$PKG" meson install -C build
+
+  rm -rf $PKG/usr/share/locale
+}
