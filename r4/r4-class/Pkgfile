@@ -1,13 +1,13 @@
-# Description: R module class
+# Description: R-package class
 # URL: https://cran.r-project.org/web/packages/class
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-mass
-# Optional: 
+# Depends on: r 
+# Optional: r4-mass
 
 name=r4-class
-version=7.3.23
+version=7.3.24
 release=1
-source=(https://cloud.r-project.org/src/contrib/class_7.3-23.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/class_7.3-24.tar.gz)
 
 build() {
 	cd class

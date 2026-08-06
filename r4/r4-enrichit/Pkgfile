@@ -5,7 +5,7 @@
 # Optional: r4-annotationdbi r4-biasedurn r4-clusterprofiler r4-dose r4-fgsea r4-gson r4-qvalue r4-testthat
 
 name=r4-enrichit
-version=0.2.0
+version=0.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/enrichit_${version}.tar.gz)
 

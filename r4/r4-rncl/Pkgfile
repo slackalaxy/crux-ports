@@ -1,11 +1,11 @@
-# Description: R module rncl
+# Description: R-package rncl
 # URL: https://cran.r-project.org/web/packages/rncl
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-progress r4-rcpp
 # Optional: r4-ape r4-testthat
 
 name=r4-rncl
-version=0.8.9
+version=0.8.10
 release=1
 source=(https://cloud.r-project.org/src/contrib/rncl_${version}.tar.gz)
 

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YvDOS9OLIYmcLSgimvOt17qPFaUNy3brqYPaSIGQ9s0sa1wh72vjcIpBeF6rgdds8zKP/re/+QlrOCyN7VRomwg=
-SHA256 (Pkgfile) = 33ccf81bcbe9df90e08c8258044379e05c392ae2d2f3c326c4d295998a68abef
+RWQFYeZQgQH/Yg5UnAl5RAUZoVDm0NcoeqOexlUA3dCIbkmsR6M233ZnySXSMVkW0A2iy11Km9terVn4SKFc9UiC81x198CnFQ8=
+SHA256 (Pkgfile) = d98e33d1d3eba7396ade06e60848737e371945ba676dfe11d3f967d0dd5274c1
 SHA256 (.footprint) = a2b114998824d4f3dc4f73462747b1752d1da87e86a05ffef295fa7bef5e8cc6
-SHA256 (nanonext_1.10.1.tar.gz) = ea575a20d6aaac3191e16d4931d08b8d5aabeca02bebc927d027d1e5cef9ed9f
+SHA256 (nanonext_1.10.2.tar.gz) = bcfe6bae45ced1cb3a9105f35addd5645b71a142096fc8870b0befc75d3b7856

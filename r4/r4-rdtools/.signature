@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yq0fWJCn/YPtFoJB93GY3Fjz47geTdT4HshkpZN7hCBIYRQFNGBX6Uu3e3c3XPkIi7FTj+u09lWpSI1Hw9FA9g8=
+SHA256 (Pkgfile) = c3a64fe4afaeaa7e1af5fe6ba6d0cc6e8ee7ffff4d0741d22fd74ce39ec6bb2d
+SHA256 (.footprint) = 1139f2e21a16003419a579eab1c5a401bd15afdaf505c02224f9deedac09aaab
+SHA256 (rdtools_0.1.0.tar.gz) = 90fdaef0c78ad322ca76f4b401c68b4028c2437cd51a1b6ccbf411d9c66c094b

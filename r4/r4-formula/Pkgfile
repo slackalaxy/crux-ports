@@ -1,13 +1,13 @@
-# Description: R module Formula
+# Description: R-package Formula
 # URL: https://cran.r-project.org/web/packages/Formula
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
-# Optional: 
+# Depends on: r 
+# Optional: r4-knitr r4-rmarkdown
 
 name=r4-formula
-version=1.2.5
+version=1.2.6
 release=1
-source=(https://cloud.r-project.org/src/contrib/Formula_1.2-5.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/Formula_1.2-6.tar.gz)
 
 build() {
 	cd Formula
