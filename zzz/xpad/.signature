@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/zzz.pub
-RWTLNE38Mq+LpjzMapLs5cc3FvbuyKOLESw6arKt7UwWz/VbnW4sfrdjc5ckUyyIjonXSE3txbNNMXE2zXSV2k52Kmpj3Mu2TQY=
-SHA256 (Pkgfile) = 419e0588f36cb2af511368a38f90bf2abf6016c847002010ea79be2086857e40
-SHA256 (.footprint) = 34255babd89179f5d5aa48ff82cb0824088fe74c570e847223cb636cb72a41a3
-SHA256 (xpad-5.8.0.tar.bz2) = f26052308850c406b15adb8d86acd3962ef10af22b427bb1a5cff4eec96f82e9
-SHA256 (01_allow_build_with_newer_gettext.diff) = 639e66278888789c6aa84c672c0710a0254b726cd7beebc54bb53517305fa75d
-SHA256 (xpad.svg) = d446bfc7ca991518ec3fe1e3d5c63afc367f0ed1f402538ad05740d00b3b7b1a
