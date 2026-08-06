@@ -1,0 +1,18 @@
+# Description: GNOME Colors with 48x48 png icons
+# URL: https://github.com/slackalaxy/gnome-colors
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gnome-icon-theme hicolor-icon-theme
+
+name=gnome-colors
+version=23026f8
+release=1
+source=(https://github.com/slackalaxy/gnome-colors/archive/$version/gnome-colors-23026f868eafde3c38bd5ca9307ad0a0b491c91a.tar.gz)
+
+build() {
+	cd $name-${version}*
+	
+	find -L . -perm 664 -exec chmod 644 {} \;
+	mkdir -p $PKG/usr/share/icons
+	cp -a gnome-* $PKG/usr/share/icons/
+}
+
