@@ -5,7 +5,7 @@
 
 name=viber
 version=27.3.0.2
-release=1
+release=2
 source=(https://download.cdn.viber.com/desktop/Linux/viber.AppImage
 	$name.sh $name.desktop $name.png)
 renames=(viber.AppImage-$version SKIP SKIP SKIP)

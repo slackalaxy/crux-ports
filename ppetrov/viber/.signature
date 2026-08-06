@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZaLYcm3qYsJNauQdTTWEK7Sk7mUpGJ3FVR2SCrkCiRPf5OMbdE6+ZLIq3cZeWXX5QZT5HnOdAp1NuFkCV9kXFws=
-SHA256 (Pkgfile) = d717e1538ecb2ce970c08a1a9ba55cca1887eb174d4e98ae0a88123534f615bb
+RWToVVsIkzFIZezOuDETAwdPowhTOr8fUwRwSzAezs+bEtwkhYEEWuHYVDNVxDx0HaB9KAHisN516lpPoFUv8ikGfEZHMSYPigI=
+SHA256 (Pkgfile) = 28dfe8eb55b71ef85ea7a4cf0f7b6e70b6e0f0b139e1b453a51ea0cbacb78a10
 SHA256 (.footprint) = 5f807940e7d31cfe896e64bfd0c8a5a217e5400f271aa697a05b5a3b619037ab
 SHA256 (viber.AppImage-27.3.0.2) = 72005fe438b45902c64845cdbfce9aa9ae689a07f220ed4c9706b06bae0daecf
-SHA256 (viber.sh) = ce0bd3baff57fb9234e1028507415f7262d9b6c1e7a03eac24d0a54b31253399
+SHA256 (viber.sh) = d1e6a4febe2251fcd1a42d61f0eaa8b452ef63695abb02b50b2534735ba5a95a
 SHA256 (viber.desktop) = 65c4e28efcf4d26253a6e0db76b058cd20769438968e339e65abeffdc80eabee
 SHA256 (viber.png) = 607eddcedb37045f584dbb3274626dfecae2e7e959e0ba56151edda1ec12b094
