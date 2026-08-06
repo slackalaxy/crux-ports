@@ -1,0 +1,16 @@
+# Description: Mist icon theme
+# URL: https://www.gnome-look.org/p/1015867/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gnome-icon-theme hicolor-icon-theme
+
+name=mist-icon-theme
+version=148172
+release=1
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/mist-icon-theme-$version.tar.xz)
+
+build() {
+  cd $name-$version
+  mkdir -p $PKG/usr/share/icons
+  cp -a Mist $PKG/usr/share/icons/
+  find $PKG -type f -exec chmod 0644 {} \;
+}
