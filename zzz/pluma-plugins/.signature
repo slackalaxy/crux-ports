@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zzz.pub
+RWTLNE38Mq+LpnS9GMM33MeCvwhKRxltflveK9SVzu85wJuNcp+rcXBJ9g7KmUvl+NXMJJiW7DP9WSVZ0vNWFRqmSxlAAuzCZwo=
+SHA256 (Pkgfile) = 6716622f91bf1e570a16c717fb62239755a7e31ce65e64cac54ad7d4ee0be9f4
+SHA256 (.footprint) = 6731962c858e7aaaf6f1bbb93718811e111226eef1c50fbb2ee73c9384d514e9
+SHA256 (pluma-plugins-1.28.0.tar.xz) = a47e8637366fffb1ba968d873f3965c988c3e620bb13362817b4be7d722a0baa
