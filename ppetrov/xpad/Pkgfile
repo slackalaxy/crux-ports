@@ -5,10 +5,10 @@
 
 name=xpad
 version=5.8.0
-release=1
+release=2
 source=(https://launchpad.net/xpad/trunk/$version/+download/xpad-${version}.tar.bz2
 	01_allow_build_with_newer_gettext.diff
-	$name.svg)
+	$name.svg $name.desktop)
 
 build() {
 	cd $name-$version
@@ -24,6 +24,9 @@ build() {
 	make DESTDIR="$PKG" install
 	
 	sed -i 's:StartupNotify=true:StartupNotify=false:g' $PKG/usr/share/applications/$name.desktop
+	
+	#mkdir -p $PKG/usr/etc/xdg/autostart
+	#cp $SRC/$name.desktop $PKG/usr/etc/xdg/autostart
 	
 	# Use this icon...
 	rm -rf $PKG/usr/share/icons/hicolor/scalable/apps/xpad.svg
