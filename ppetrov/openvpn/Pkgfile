@@ -1,10 +1,10 @@
 # Description: A Secure tunneling daemon
-# URL: https://github.com/OpenVPN/openvpn
+# URL: https://github.com/OpenVPN/openvpn/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: openssl libcap-ng lzo lz4 python3-docutils
 
 name=openvpn
-version=2.7.5
+version=2.7.6
 release=1
 source=(https://github.com/OpenVPN/$name/archive/v${version}/$name-$version.tar.gz)
 
