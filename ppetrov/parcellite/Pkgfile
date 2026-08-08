@@ -1,21 +1,18 @@
 # Description: The lightweight GTK+ clipboard manager.
-# URL: http://parcellite.sourceforge.net/
+# URL: https://github.com/rickyrockrat/parcellite/tags
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: brotli graphite2 gtk xorg-libxdamage
 
 name=parcellite
-version=1.2.1
+version=1.2.5
 release=1
-source=(http://downloads.sourceforge.net/$name/$name-$version.tar.gz)
+source=(https://github.com/rickyrockrat/parcellite/archive/refs/tags/$version.tar.gz)
+renames=($name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-
-	CPPLAGS="$CFLAGS" \
-	./configure --prefix=/usr \
-		--disable-nls \
-		--sysconfdir=/usr/etc
-
+	sed -i "/^CFLAGS/s/=/+=/" src/Makefile
 	make
 	make install DESTDIR=$PKG
+	rm -rf $PKG/usr/share/locale
 }
