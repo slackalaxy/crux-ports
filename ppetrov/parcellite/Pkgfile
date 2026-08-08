@@ -5,14 +5,19 @@
 
 name=parcellite
 version=1.2.5
-release=1
-source=(https://github.com/rickyrockrat/parcellite/archive/refs/tags/$version.tar.gz)
-renames=($name-$version.tar.gz)
+release=2
+source=(https://github.com/rickyrockrat/parcellite/archive/refs/tags/$version.tar.gz
+	port-to-gtk-3.patch)
+renames=($name-$version.tar.gz SKIP)
 
 build() {
 	cd $name-$version
+	
+	patch -Np1 -i $SRC/port-to-gtk-3.patch
+	
 	sed -i "/^CFLAGS/s/=/+=/" src/Makefile
 	make
 	make install DESTDIR=$PKG
+	
 	rm -rf $PKG/usr/share/locale
 }

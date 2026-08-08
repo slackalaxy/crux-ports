@@ -209,10 +209,11 @@ f:7f26039bdfda206f52ecbc9244fb3a1d:goffice/.signature
 f:1472c3affc1e8b6a818c6954ba779d8a:python3-hatch-docstring-description/Pkgfile
 f:9eed3974ff88803fd61f5fa18dce402c:python3-hatch-docstring-description/.footprint
 f:ba134d01fb6464a9494fe7f8582dc3b1:python3-hatch-docstring-description/.signature
-f:80f643f7cd2b056300c65f50694edd6f:parcellite/Pkgfile
+f:e29b1cb4c5893b44f13eec9d7b07c1f9:parcellite/Pkgfile
 f:c94e8d2a57065e7bbb51b2cf66d7861b:parcellite/post-install
-f:bdcb2d7956726d42c956327552ad82a7:parcellite/.signature
+f:e0a11b49a5255d2838fbfac28a541667:parcellite/.signature
 f:2274716cfaf070eb9461e8a322bd2418:parcellite/.footprint
+f:a0cf34a59bb435384e83bf13f7c03ec6:parcellite/port-to-gtk-3.patch
 f:2e866a43156349e41404b81d408e217b:hyphy/.footprint
 f:2bc3cd71aff93f3fd845f184a856f36e:hyphy/.signature
 f:b8166bc2a9e9d935d324eadf1937b3b6:hyphy/Pkgfile
