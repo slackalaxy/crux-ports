@@ -1,0 +1,11 @@
+You may have problems when sharing your screen, the desktop becoming
+unclickable (like, you can't click/select on icons, menus or windows).
+This may be Wayland-related, making Zoom confused when in X11.
+
+Try the following:
+
+- Open ~/.config/zoomus.conf
+- Change these as follows (to false):
+	
+	enableCefOsrMode=false
+	xwayland=false
