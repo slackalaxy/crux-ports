@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Xpad
-Comment=Notes Manager
-Icon=xpad
-Exec=xpad
-Terminal=false
-Type=Application
-X-GNOME-Autostart-enabled=true

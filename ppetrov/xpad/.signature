@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQgg1TD+70lG6oKjx6XQn4m3V5Xicjl/v8B6Re8Yaqukkt9n3bXzphKtUF1xP4adLJNG7EA5HMg4UEFgoV1WIA4=
-SHA256 (Pkgfile) = 60df4fdd06f29034fd24931ef609e68fc70d2df4aa0762e438a955752b85e2b0
-SHA256 (.footprint) = 34255babd89179f5d5aa48ff82cb0824088fe74c570e847223cb636cb72a41a3
-SHA256 (xpad-5.8.0.tar.bz2) = f26052308850c406b15adb8d86acd3962ef10af22b427bb1a5cff4eec96f82e9
-SHA256 (01_allow_build_with_newer_gettext.diff) = 639e66278888789c6aa84c672c0710a0254b726cd7beebc54bb53517305fa75d
-SHA256 (xpad.svg) = d446bfc7ca991518ec3fe1e3d5c63afc367f0ed1f402538ad05740d00b3b7b1a
-SHA256 (xpad.desktop) = 720dbaeefbe15540c33b87b5a0801beebc75666ff5d4ad60835a25382464d11a
