@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Zoom
 Comment=Zoom Video Conference
-Exec=/usr/bin/zoom-linux %U
+Exec=zoom-linux %U
 Icon=zoom-linux
 Terminal=false
 Type=Application

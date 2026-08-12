@@ -3,7 +3,7 @@ drwxr-xr-x	root/root	etc/revdep.d/
 -rw-r--r--	root/root	etc/revdep.d/zoom-linux
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
-lrwxrwxrwx	root/root	usr/bin/zoom-linux -> ../lib/zoom-linux/ZoomLauncher
+-rwxr-xr-x	root/root	usr/bin/zoom-linux
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/zoom-linux/
 -rw-r--r--	root/root	usr/lib/zoom-linux/Droplet.pcm
