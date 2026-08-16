@@ -36,6 +36,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/mlbench/data/
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Shuttle.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Sonar.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Soybean.rda
+-rw-r--r--	root/root	usr/lib/R/library/mlbench/data/SynthDiabetes.rda
+-rw-r--r--	root/root	usr/lib/R/library/mlbench/data/SynthDiabetes2.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Vehicle.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Vowel.rda
 -rw-r--r--	root/root	usr/lib/R/library/mlbench/data/Zoo.rda
