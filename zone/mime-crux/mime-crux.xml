@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
-  <mime-type type="application/x-shellscript">
-    <comment>CRUX tools</comment>
+  <mime-type type="text/x-pkgfile">
+    <comment>CRUX Pkgfile</comment>
+    <sub-class-of type="application/x-shellscript"/>
     <glob pattern="Pkgfile"/>
+  </mime-type>
+  <mime-type type="text/x-rsync">
+    <comment>CRUX rsync ports</comment>
+    <sub-class-of type="application/x-shellscript"/>
     <glob pattern="*.rsync"/>
+  </mime-type>
+  <mime-type type="text/x-httpup">
+    <comment>CRUX httpup ports</comment>
+    <sub-class-of type="application/x-shellscript"/>
     <glob pattern="*.httpup"/>
   </mime-type>
+  <mime-type type="text/x-repo">
+    <comment>CRUX REPO file</comment>
+    <sub-class-of type="application/x-shellscript"/>
+    <glob pattern="REPO"/>
+  </mime-type>
 </mime-info>
+
