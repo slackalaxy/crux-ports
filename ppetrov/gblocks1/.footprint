@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/Gblocks1
+lrwxrwxrwx	root/root	usr/bin/gblocks1 -> Gblocks1
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/gblocks1/
+drwxrwxr-x	root/root	usr/share/gblocks1/Documentation/
+-rw-rw-r--	root/root	usr/share/gblocks1/Documentation/Gblocks_documentation.html
+drwxrwxr-x	root/root	usr/share/gblocks1/more_alignments/
+-rw-rw-r--	root/root	usr/share/gblocks1/more_alignments/cox2.fasta
+-rw-rw-r--	root/root	usr/share/gblocks1/more_alignments/cytb.fasta
+-rw-rw-r--	root/root	usr/share/gblocks1/more_alignments/nad3.fasta
+-rw-rw-r--	root/root	usr/share/gblocks1/more_alignments/nad5.fasta
+-rw-rw-r--	root/root	usr/share/gblocks1/nad3.fasta
+-rw-rw-r--	root/root	usr/share/gblocks1/paths.txt
