@@ -3,17 +3,17 @@
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=gblocks
-version=1.0
+version=0.91b
 release=1
-source=(https://molevol-ibe.csic.es/Gblocks/Gblocks_${version}_Linux.tar.gz)
+source=(https://molevol-ibe.csic.es/Gblocks/Gblocks_Linux64_${version}.tar.Z)
 
 build() {
-	cd Gblocks_${version}_Linux
+	cd Gblocks_${version}
 	install -D -m755 Gblocks $PKG/usr/bin/Gblocks
 
-	# Yes, I want to have the documentation, included in the package
 	mkdir -p $PKG/usr/share/$name
-	cp -a Documentation more_alignments nad3.fasta paths.txt $PKG/usr/share/$name
+	cp -a more_alignments/* $PKG/usr/share/$name
+	chmod 0644 $PKG/usr/share/$name/*.pir
 
 	cd $PKG/usr/bin
 	ln -s Gblocks $name
