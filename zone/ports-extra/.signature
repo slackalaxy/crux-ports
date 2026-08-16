@@ -1,10 +1,10 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwUgO56donUpplxUcnkevx4x94L9ejD8IhOp0TyNqMCZaWuAv4FdeUGkVyZ74wWXo8CL3+1iHoODqFPNjhd5TRw4=
-SHA256 (Pkgfile) = bcbc726114db2b4aa2edcfc211fecf1f6aa7cf1034fed6c9903c40ee3c3c6bd2
+RWRPokwW0IImwaG7MHJaUChglBbTL9pnXTEmf6/nynrNZdlk2po3715PBqsPlpFoSjstRvKzMI1KP9mhQU+WshawepLICVK+WAc=
+SHA256 (Pkgfile) = a2d0c5c9f52f90794cc78420507aafb1f8f700455395a4dbf864eaead44f6484
 SHA256 (.footprint) = 9eda0fd1471f74050665c960b5caafca9dbce1392cea928ecbd796ed85627197
 SHA256 (kde-plasma-6.rsync) = d27556eb82ca939e347f291ab60142ecc144e769d7c021c0fae56bbf73a930d5
 SHA256 (kde-plasma-6.pub) = fbc4ac2621e15aab69998586b744ddeac67f72756cef694917b1cb036263fd5f
-SHA256 (mate.httpup) = 6a3c78bcf61430d941fcdfd5399b583201917bbaf229b3917b880f3f65461f7d
+SHA256 (mate.httpup) = 2ad1c454836811e442145282d615948bd9ea064f4275a342add8ea3c580c4bbd
 SHA256 (mate.pub) = 3d78b2965c22d744e072eaf8282671297b21644c967d008ac528bc55dc648236
 SHA256 (xfce4.httpup) = 0b77237ea8a89d8f8dcbbc56fee2c7dc4a66a3aa26145f6fe09431a1b6d9eeaf
 SHA256 (xfce4.pub) = 7e0a19e4d77cc576effb8619dd220f2809bdd8d43e033121c71bd658138e17d8
