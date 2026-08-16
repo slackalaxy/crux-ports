@@ -1,10 +1,10 @@
 # Description: A Lightweight LLVM Python Binding for Writing JIT Compilers
-# URL: https://github.com/numba/llvmlite
+# URL: https://github.com/numba/llvmlite/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: llvm python3-setuptools-scm
 
 name=python3-llvmlite
-version=0.48.0
+version=0.49.0
 release=1
 source=(https://github.com/numba/llvmlite/archive/v${version}/llvmlite-v${version}.tar.gz)
 
