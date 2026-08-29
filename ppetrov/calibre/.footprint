@@ -832,12 +832,14 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/mozilla-ca-certs/
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/2ccbdda3.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/30e1580d.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/32888f65.0
+-rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/36c6b318.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/3bde41ac.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/3e359ba6.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/3fb36b73.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/40193066.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/4042bcee.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/406c9bb1.0
+-rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/422cf4bf.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/48bec511.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/4b718d9b.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/4bfab552.0
@@ -876,6 +878,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/mozilla-ca-certs/
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/988a38cb.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/9b46e03d.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/9bf03295.0
+-rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/9cd9d94b.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/9d04f354.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/9e654b62.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/9ef4a08a.0
@@ -893,7 +896,6 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/mozilla-ca-certs/
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/bf53fb88.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/c01eb047.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/c28a8a30.0
--rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/ca6e4ad9.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/cbf06781.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/cc450945.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/cd58d51e.0
@@ -909,7 +911,6 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/mozilla-ca-certs/
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/de6d66f3.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/e18bfb83.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/e35234b1.0
--rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/e36a6752.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/e73d606e.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/e868b802.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/e8de2f56.0
@@ -921,6 +922,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/mozilla-ca-certs/
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/f30dd6ad.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/f44703f1.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/f51bb24c.0
+-rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/faf4fe6b.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/fb717492.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/fc5a8f99.0
 -rw-r--r--	root/root	usr/lib/calibre/resources/mozilla-ca-certs/fd64f3fc.0
