@@ -5,7 +5,7 @@
 # Optional: r4-knitr r4-rcpp r4-rmarkdown
 
 name=r4-rcppparallel
-version=6.2.0
+version=6.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/RcppParallel_${version}.tar.gz)
 

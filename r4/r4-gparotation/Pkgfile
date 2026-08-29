@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-gparotation
-version=2026.8.1
+version=2026.8.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/GPArotation_2026.8-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/GPArotation_2026.8-2.tar.gz)
 
 build() {
 	cd GPArotation

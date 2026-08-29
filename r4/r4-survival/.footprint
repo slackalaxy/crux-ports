@@ -67,9 +67,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/survival/doc/
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/tiedtimes.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/tiedtimes.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/tiedtimes.pdf
--rw-r--r--	root/root	usr/lib/R/library/survival/doc/timedep.R
--rw-r--r--	root/root	usr/lib/R/library/survival/doc/timedep.Rnw
--rw-r--r--	root/root	usr/lib/R/library/survival/doc/timedep.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/timeline.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/timeline.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/timeline.pdf

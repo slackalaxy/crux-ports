@@ -36,7 +36,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/uwot/html/
 -rw-r--r--	root/root	usr/lib/R/library/uwot/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/uwot/html/R.css
 drwxr-xr-x	root/root	usr/lib/R/library/uwot/include/
--rw-r--r--	root/root	usr/lib/R/library/uwot/include/RcppPerpendicular.h
+-rw-r--r--	root/root	usr/lib/R/library/uwot/include/pforr.h
 drwxr-xr-x	root/root	usr/lib/R/library/uwot/include/uwot/
 -rw-r--r--	root/root	usr/lib/R/library/uwot/include/uwot/connected_components.h
 -rw-r--r--	root/root	usr/lib/R/library/uwot/include/uwot/coords.h

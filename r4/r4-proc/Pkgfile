@@ -1,11 +1,11 @@
-# Description: R module pROC
+# Description: R-package pROC
 # URL: https://cran.r-project.org/web/packages/pROC
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-rcpp
-# Optional: r4-ggplot2 r4-logcondens r4-mass r4-rlang r4-testthat r4-vdiffr
+# Optional: r4-ggplot2 r4-knitr r4-logcondens r4-mass r4-rlang r4-rmarkdown r4-testthat r4-vdiffr
 
 name=r4-proc
-version=1.19.0.1
+version=1.19.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/pROC_${version}.tar.gz)
 

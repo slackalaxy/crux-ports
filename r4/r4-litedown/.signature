@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YmknglMm32SmAD2s2W0I9YGzp8uUMAvsl11sJOdwVQAxbhCb0ky4JIc8LjN9+MN1cBi1dMmWT3FlQ/jM3J0nmAI=
-SHA256 (Pkgfile) = 7ac97718ef73d9cf0eacaa9048ee75d92b4f2deb9afe37e540ea477ddb7944ef
+RWQFYeZQgQH/YoLyQ/mFMwWuGZ0mCpBCdyyR5czqLlXHquA/2p+we3/N8a14wuoHexovoRwq/iys55sIYJhQ5vXUcOW6dmE+FgM=
+SHA256 (Pkgfile) = f9dcfce8fedc0a6392cdc1461dae83f1271247e02813c52a611f3c1de3e7288c
 SHA256 (.footprint) = 45d2a8246c39371c31749c6593566e6826720d7e7e0626655fd0ed6e5a4dc421
-SHA256 (litedown_0.10.tar.gz) = 67bf33b205989ece20c02ee0082d042067a2c47a820f9e4e164e9b2edc4f4fba
+SHA256 (litedown_0.11.tar.gz) = 161d9bf1359d69bf4aa8b2d755db2b722a844a90554978612e0d4198931d574d

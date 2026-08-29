@@ -5,7 +5,7 @@
 # Optional: r4-bit64 r4-knitr r4-nycflights13 r4-readxl r4-rmarkdown r4-spelling r4-testthat r4-xml2
 
 name=r4-writexl
-version=2.0.0
+version=2.0.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/writexl_${version}.tar.gz)
 

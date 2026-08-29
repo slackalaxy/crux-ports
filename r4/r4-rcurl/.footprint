@@ -31,6 +31,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RCurl/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/RCurl/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/RCurl/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/RCurl/NAMESPACE
+-rw-r--r--	root/root	usr/lib/R/library/RCurl/NEWS.Rd
 drwxr-xr-x	root/root	usr/lib/R/library/RCurl/R/
 -rw-r--r--	root/root	usr/lib/R/library/RCurl/R/RCurl
 -rw-r--r--	root/root	usr/lib/R/library/RCurl/R/RCurl.rdb

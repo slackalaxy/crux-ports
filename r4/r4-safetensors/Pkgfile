@@ -5,7 +5,7 @@
 # Optional: r4-testthat r4-torch
 
 name=r4-safetensors
-version=0.2.1
+version=0.3.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/safetensors_${version}.tar.gz)
 

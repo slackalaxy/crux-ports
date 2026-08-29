@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YlfqTca2GDWnkqktv/Qk7K+vYtkeSgWYxeL5hDWlfx3nsUKm7tR14EGkoSpvrjIHAMBMrfmqc6y0elX31UOhDAo=
-SHA256 (Pkgfile) = 5ff2d364532747495d71ac942d8ae5621ca58d23116c315e13cdb456be14885b
+RWQFYeZQgQH/Yst9/aKxamVMHJbJzsfASVnsyKRB8rxttzPx9eKWnbs4zWwj1jQ0N66kXy55gtH6kTWdeitbpCSA72QW4nwoDAw=
+SHA256 (Pkgfile) = dcd8834b9b78ddcd7c85992e75b4c22d8e401bb5c707579386d65447024d3748
 SHA256 (.footprint) = 634a0d4705b1ea95171128b2fea7f48cc0f447b4f6958202736db8e85c7b3c7e
-SHA256 (S4Vectors_0.50.1.tar.gz) = a85dac9e625424bc06501a47ab57abb0d2b4c53aeb4714bd88397cc3cd9c690e
+SHA256 (S4Vectors_0.50.2.tar.gz) = fc6c67af9c02974db36eb55d5f84acb35cc59b0e9c3e58b09128b04fdfc866ef

@@ -5,7 +5,7 @@
 # Optional: r4-patrick r4-testthat r4-withr
 
 name=r4-bit64
-version=4.8.2
+version=4.8.4
 release=1
 source=(https://cloud.r-project.org/src/contrib/bit64_${version}.tar.gz)
 
