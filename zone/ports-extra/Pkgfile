@@ -5,7 +5,7 @@
 
 name=ports-extra
 version=3.8
-release=5
+release=6
 source=(kde-plasma-6.rsync
 	https://git.crux.nu/ports/kde-plasma-6/raw/branch/3.8/kde-plasma-6.pub
 	https://git.crux.nu/ports/mate/raw/branch/main/mate.httpup
@@ -13,7 +13,9 @@ source=(kde-plasma-6.rsync
 	https://codeberg.org/jlngn/xfce4/raw/branch/${version}/xfce4.httpup
 	https://codeberg.org/jlngn/xfce4/raw/branch/${version}/xfce4.pub
 	https://codeberg.org/jlngn/portastrophe/raw/branch/${version}/portastrophe.httpup
-	https://codeberg.org/jlngn/portastrophe/raw/branch/${version}/portastrophe.pub)
+	https://codeberg.org/jlngn/portastrophe/raw/branch/${version}/portastrophe.pub
+	https://raw.githubusercontent.com/pitill0/crux-ports-pitillo/${version}/pitillo.httpup
+	https://raw.githubusercontent.com/pitill0/crux-ports-pitillo/${version}/pitillo.pub)
 
 build() {
 	mkdir -p $PKG/etc/ports
@@ -37,4 +39,9 @@ build() {
 	# https://codeberg.org/jlngn/xfce4/
 	install -m 0644 $SRC/portastrophe.httpup $PKG/etc/ports
 	install -m 0644 $SRC/portastrophe.pub $PKG/etc/ports
+	
+	# pitill0's ports
+	# https://github.com/pitill0/crux-ports-pitillo/tree/3.8
+	install -m 0644 $SRC/pitillo.httpup $PKG/etc/ports
+	install -m 0644 $SRC/pitillo.pub $PKG/etc/ports
 }
