@@ -10,7 +10,10 @@ drwxr-xr-x	root/root	usr/share/fontconfig/conf.avail/
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/apple/
 -rw-r--r--	root/root	usr/share/fonts/apple/Apple_Emoji.ttf
--rw-r--r--	root/root	usr/share/fonts/apple/Courier.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Courier-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Courier_Bold-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Courier_Bold_Oblique-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Courier_Oblique-fixed.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Geeza_Pro_Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Geeza_Pro_Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Geneva.ttf
@@ -27,4 +30,7 @@ drwxr-xr-x	root/root	usr/share/fonts/apple/
 -rw-r--r--	root/root	usr/share/fonts/apple/Menlo_Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Menlo_Regular.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Monaco.ttf
--rw-r--r--	root/root	usr/share/fonts/apple/Times.ttc
+-rw-r--r--	root/root	usr/share/fonts/apple/Times_Bold-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Times_Bold_Italic-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Times_Italic-fixed.ttf
+-rw-r--r--	root/root	usr/share/fonts/apple/Times_Roman-fixed.ttf
