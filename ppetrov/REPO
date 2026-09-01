@@ -55,7 +55,6 @@ d:p5-heap
 d:qt5ct
 d:bpp1-seq
 d:bpp1-numcalc
-d:hexchat
 d:zotero
 d:xsimd
 d:puddletag
@@ -319,9 +318,6 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
-f:37beefe929592e5579a05a86ae4565e0:hexchat/Pkgfile
-f:fca60bc9e8955ba743cc6ac1d0deba79:hexchat/.signature
-f:0c63aaa939691cebfd422ee6b77fb2c2:hexchat/.footprint
 f:c3f31d8780d72fc368961e53997c0151:zotero/.footprint
 f:ef099cda7bcf3ab26a2e6f34d9a83784:zotero/.signature
 f:c421957bd1822798b498dae8d352b4ee:zotero/Pkgfile
