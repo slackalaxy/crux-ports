@@ -1,11 +1,11 @@
 # Description: Dummy port for misc stuff
 # URL: /usr/ports
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: atril gimp gpu-screen-recorder-gtk htop inkscape mate-calc meld ncdu qt6-tools transmission xdg-desktop-portal-gtk
+# Depends on: atril cbindgen directx-headers gimp glslang gpu-screen-recorder-gtk htop inkscape libdisplay-info libunwind lm_sensors lua mate-calc meld mesa-libclc ncdu python3-ply qt6-tools rust-bindgen transmission vulkan-loader wayland-protocols xdg-desktop-portal-gtk
 
 name=meta-misc
 version=3.8
-release=3
+release=4
 source=()
 
 build() {
