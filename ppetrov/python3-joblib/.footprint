@@ -2,14 +2,14 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib-1.5.3.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.5.3.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.5.3.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.5.3.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.5.3.dist-info/direct_url.json
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib-1.5.3.dist-info/licenses/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.5.3.dist-info/licenses/LICENSE.txt
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.5.3.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib-1.6.0.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.6.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.6.0.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.6.0.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.6.0.dist-info/direct_url.json
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib-1.6.0.dist-info/licenses/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.6.0.dist-info/licenses/LICENSE.txt
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib-1.6.0.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/__pycache__/
@@ -50,14 +50,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/externals/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/__init__.py (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/externals/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/__pycache__/__init__.cpython-312.pyc
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/externals/cloudpickle/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/cloudpickle/__init__.py
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/__init__.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/cloudpickle.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/cloudpickle/__pycache__/cloudpickle_fast.cpython-312.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/cloudpickle/cloudpickle.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/cloudpickle/cloudpickle_fast.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/__pycache__/
@@ -83,6 +75,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/back
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/reduction.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/resource_tracker.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/spawn.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/stdlib_py314_resource_tracker.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/synchronize.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/__pycache__/utils.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/_posix_reduction.py
@@ -96,6 +89,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/back
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/reduction.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/resource_tracker.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/spawn.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/stdlib_py314_resource_tracker.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/synchronize.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/backend/utils.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/joblib/externals/loky/cloudpickle_wrapper.py
