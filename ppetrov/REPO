@@ -27,6 +27,7 @@ d:hyphy
 d:aiksaurus
 d:lalnview
 d:gblocks
+d:streamripper
 d:mafft
 d:p5-cpan-distnameinfo
 d:p5-io-tty
@@ -55,6 +56,7 @@ d:p5-heap
 d:qt5ct
 d:bpp1-seq
 d:bpp1-numcalc
+d:xscreensaver
 d:zotero
 d:xsimd
 d:puddletag
@@ -69,6 +71,7 @@ d:smplayer
 d:squizz
 d:sshpass
 d:strawberry
+d:hexchat
 d:libgsf
 d:treebest
 d:p5-readonly
@@ -94,7 +97,6 @@ d:ncbi-edirect
 d:python3-anndata
 d:python3-py-cpuinfo
 d:p5-test-most
-d:xscreensaver
 d:onlyoffice
 d:python3-threadpoolctl
 d:mtpaint
@@ -226,6 +228,9 @@ f:4ac9a3fb449d88a00e6ccd3b29c87b1b:lalnview/BLOSUM62
 f:683d346f13280554c428627d67cb1629:gblocks/Pkgfile
 f:532a0314c970a7249a6c7c0d1556a258:gblocks/.footprint
 f:e273721d81cdb3e53d91ae85128fb1c0:gblocks/.signature
+f:e7f587de7b85118b88720e2192a0104e:streamripper/Pkgfile
+f:ac85692b99f49a405920064237fb2ec7:streamripper/.footprint
+f:f43adc92ff240acf83d03c60f4b55905:streamripper/.signature
 f:06e6e4fc303461e4a2b058e63aac57f1:mafft/.signature
 f:b4deee61b95817dc9b7a11ebcae88aea:mafft/.footprint
 f:9523ebf8617aff958bf48e88df4cd2b7:mafft/Pkgfile
@@ -318,6 +323,11 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
+f:5334f1819f39c57b719553790695ab84:xscreensaver/.footprint
+f:50dbd86f3c265c2e1cc1630d438b8019:xscreensaver/.signature
+f:ee9684ea2d263b3a955925512e830dda:xscreensaver/Pkgfile
+f:fcdc1fb8ddacd4fae1119c421b57894d:xscreensaver/electricsheep.patch
+f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver/xscreensaver.pam
 f:c3f31d8780d72fc368961e53997c0151:zotero/.footprint
 f:ef099cda7bcf3ab26a2e6f34d9a83784:zotero/.signature
 f:c421957bd1822798b498dae8d352b4ee:zotero/Pkgfile
@@ -353,8 +363,8 @@ f:b4c16bed5914c3493ab0d8ff3b9b9323:seqkit/.signature
 f:9bdbf114f901c0db896d53a6cefe3f81:seqkit/.footprint
 f:09b53de8069fbf2b3d0bea5b48f9536c:seqkit/Pkgfile
 f:141185764771cbb8993862ac5e6fc852:smplayer/.footprint
-f:faea1d8e65264e44f93ec61e92e2c0ce:smplayer/Pkgfile
-f:5fb0acf525f52b8ed13ebfc22fbeb71b:smplayer/.signature
+f:e388d3a43c3625fa16c90c1479898ad2:smplayer/Pkgfile
+f:bae4f512859856d255d66ab21302c139:smplayer/.signature
 f:42b08a4231d355893c7d20b85ead7c99:squizz/.signature
 f:c8710388b42134e0fb318832f53bc179:squizz/.footprint
 f:cbe5dfae1f4bdb459ba28bd41615ac95:squizz/Pkgfile
@@ -364,6 +374,12 @@ f:7b39087f8e19d9392beeb0b96386cdc2:sshpass/.footprint
 f:96692d7bf06fbe7aa924110753be579d:strawberry/Pkgfile
 f:4f8e3d808a0d0fe6d759e00333190daf:strawberry/.footprint
 f:4d3d9c6764807c63a7d8dcc95e841037:strawberry/.signature
+f:0c63aaa939691cebfd422ee6b77fb2c2:hexchat/.footprint
+f:54f440eae03531b68d8cc77f680b076a:hexchat/.signature
+f:8550a34a30f2dabfc961f3eed937c718:hexchat/Pkgfile
+f:c31e86af066ab264445896a96e03ac7c:hexchat/Add-channel-context-menu-item-to-close-the-channel.patch
+f:456e4dd16b39cc10ff6567dfa904bfb8:hexchat/Automatically-reconnect-when-there-is-a-TLS-error.patch
+f:769843665a592fc9e3e6e2c87eea0244:hexchat/Do-not-insert-an-extra-space-on-all-lines-when-loading-scrollback-with-colours.patch
 f:795e88030ca8d63e1603f97b6b13f1a2:libgsf/.footprint
 f:7fa4e093fc01ad93c46a444d97d8ea75:libgsf/.signature
 f:50a7add46d5f079bef481f3d7115840b:libgsf/Pkgfile
@@ -430,9 +446,9 @@ f:e30b29bd246298c6b267cf8e78a4a1f3:python3-beniget/Pkgfile
 f:bed2e429677d10d85a7ee9780236ec8b:python3-gast/Pkgfile
 f:5a1a1199b16e9bdb70ecac775ae34fb4:python3-gast/.footprint
 f:f37de290ea2ce373f23dc97a90d739db:python3-gast/.signature
-f:ca9742e9fba6e739c64dd89164c3c05d:python3-joblib/Pkgfile
-f:4a87aea2fa499059465d2730cb041c64:python3-joblib/.footprint
-f:99181285285ba586b2ba6fdb21fe5b88:python3-joblib/.signature
+f:737a9f1dc2f609ad865a71a37effca1a:python3-joblib/Pkgfile
+f:c13f3f8a239e8e091ba1ddebc8761985:python3-joblib/.footprint
+f:36cba8f9bebdc23db60155c15fa435f8:python3-joblib/.signature
 f:7c0e9766099b4349a981457b3e7ecb1f:python3-llvmlite/.footprint
 f:7bef5c62f53bb1868ab4f79452a96718:python3-llvmlite/.signature
 f:7e3566e1ecc3c46c3cf86a4ae7868383:python3-llvmlite/Pkgfile
@@ -451,9 +467,9 @@ f:e281dde681959e351e6fb3b29887f4c2:python3-pythran/Pkgfile
 f:b219e7f5628e5c71b12242efb7c40579:python3-scipy/.footprint
 f:412751fbaee5ac0c3d6eddd76b2960c3:python3-scipy/.signature
 f:044a51c02a9b00a2a37379bd22135258:python3-scipy/Pkgfile
-f:5ac5bfe0f89bb140532f70ff9ecfa223:ncbi-edirect/Pkgfile
+f:c8ce380646404faec479834b2d41e5d5:ncbi-edirect/Pkgfile
 f:7885dbad2f88af825a68a47321eed2c9:ncbi-edirect/.footprint
-f:91098a99e44b6d0a1005a9fe59acae3f:ncbi-edirect/.signature
+f:5f08af59597c8b0fb548581508c8679e:ncbi-edirect/.signature
 f:e7755509588df847950dbd6273200319:ncbi-edirect/README
 f:b41bd6376759a59e7e79ba24f0a436bf:python3-anndata/Pkgfile
 f:7adea464940f940aa33d97c7d6f78b26:python3-anndata/.footprint
@@ -464,11 +480,6 @@ f:6b7790fe81d7b1658e9bc718ad36e2e8:python3-py-cpuinfo/.signature
 f:ee8095e9a3288eea9dafdadc5e3613dc:p5-test-most/Pkgfile
 f:cf15e1f3e9aea80269507361055bcc6f:p5-test-most/.footprint
 f:7e63b176cc86489f29621450522d1c3b:p5-test-most/.signature
-f:ee9684ea2d263b3a955925512e830dda:xscreensaver/Pkgfile
-f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver/xscreensaver.pam
-f:5334f1819f39c57b719553790695ab84:xscreensaver/.footprint
-f:50dbd86f3c265c2e1cc1630d438b8019:xscreensaver/.signature
-f:fcdc1fb8ddacd4fae1119c421b57894d:xscreensaver/electricsheep.patch
 f:6ce21ff94f3c9b810d8c6df71c5b5b00:onlyoffice/Pkgfile
 f:27ba96531c79eec000bd2e921f8d3f9b:onlyoffice/onlyoffice.png
 f:5687d0c072794df3fb8efecd6c9fbd36:onlyoffice/onlyoffice.desktop
@@ -492,8 +503,8 @@ f:6aa582a7a03195947b18b1be73cddf32:bpp1-utils/.footprint
 f:6e9b04cc180020a35700e6b8e34e3908:bpp1-utils/Pkgfile
 f:cddc5129fc0623604f49f02b897d4b82:bpp1-utils/.signature
 f:b66eba4bc94a58b19b81cb3ba925183c:openvpn/.footprint
-f:6acb93df250deed0ad8856f296e36220:openvpn/.signature
-f:b4642b315da74bfa0ba632c4b0bc67a1:openvpn/Pkgfile
+f:ed436fe1fa66e9405241e493770edf2c:openvpn/.signature
+f:1a831b354c110670a5e4ba0d89e47276:openvpn/Pkgfile
 f:6f18342ce04684d2557ecc9f736db8fd:openvpn/README
 f:d5e1b335b6ec29867930ca548a111c24:acpid/.footprint
 f:d3ed865ccccd610aef7d9e2d8025c453:acpid/.signature
