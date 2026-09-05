@@ -1,0 +1,27 @@
+From 075e46abc4d8813ac6b778f686fa8dc940976685 Mon Sep 17 00:00:00 2001
+From: Paul Wise <pabs3@bonedaddy.net>
+Date: Wed, 21 Feb 2024 13:05:22 +0800
+Subject: [PATCH] Do not insert an extra space on all lines when loading
+ scrollback with colours
+
+---
+ src/common/text.c | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/src/common/text.c b/src/common/text.c
+index a77700fa3..52acc2986 100644
+--- a/src/common/text.c
++++ b/src/common/text.c
+@@ -290,9 +290,11 @@ scrollback_load (session *sess)
+ 				text = strchr (buf + 3, ' ');
+ 				if (text && text[1])
+ 				{
++					text++; /* Use the text *after* the space */
++
+ 					if (prefs.hex_text_stripcolor_replay)
+ 					{
+-						text = strip_color (text + 1, -1, STRIP_COLOR);
++						text = strip_color (text, -1, STRIP_COLOR);
+ 					}
+ 
+ 					fe_print_text (sess, text, stamp, TRUE);

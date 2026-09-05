@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZXVX7D7049tcinIzP1GjWNMjX+fxwL01ryzajV4ibHUNdvtv2eA+rOYDyfXYcWRpkyh1oy4kde/z3eA8IM5Ebws=
+SHA256 (Pkgfile) = 84cf51365b942d797b7a34093e9beb2808d7b6df10a64be71f3d61fe58b2f524
+SHA256 (.footprint) = 8b64448f9e8d6e77b17dc4ae633629f9ff6f8a92b92823b729cf48407ff7a540
+SHA256 (hexchat-2.16.2.tar.xz) = 2e88340a8da274b87373ec0740746da78120cc6fbfdd201a4dd6999cac790e4a
+SHA256 (Add-channel-context-menu-item-to-close-the-channel.patch) = b317dbd4723788fd2561a600248eeee9c85099b6aeb23a5a356b97219f6892f0
+SHA256 (Automatically-reconnect-when-there-is-a-TLS-error.patch) = 312023e07a060c80c7c96668c0cd2c1d65700e856b0f2d25f0393bff7bbbe22a
+SHA256 (Do-not-insert-an-extra-space-on-all-lines-when-loading-scrollback-with-colours.patch) = a70be1b900f18b1c65a8ad215e70675d0c147424dabd4b70dcb95ac29e4b3ff5

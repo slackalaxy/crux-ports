@@ -1,0 +1,24 @@
+From 07879a272b5dbf3ab03881cf58c416e7da8c5f6f Mon Sep 17 00:00:00 2001
+From: Paul Wise <pabs3@bonedaddy.net>
+Date: Tue, 20 Feb 2024 09:15:53 +0800
+Subject: [PATCH] Automatically reconnect when there is a TLS error
+
+The next server in the rotation probably will have working TLS.
+---
+ src/common/server.c | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/common/server.c b/src/common/server.c
+index c78ce9003..0defed622 100644
+--- a/src/common/server.c
++++ b/src/common/server.c
+@@ -657,6 +657,9 @@ ssl_do_connect (server * serv)
+ 
+ 			server_cleanup (serv);
+ 
++			if (prefs.hex_net_auto_reconnectonfail)
++				auto_reconnect (serv, FALSE, -1);
++
+ 			return (0);
+ 		}
+ 
