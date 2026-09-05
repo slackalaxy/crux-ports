@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/zzz.pub
-RWTLNE38Mq+Lpu1es6EPkrTiYmyLhnMIaOG+PTC1XCwgOPQXniNnuRqpEHJQQhsJtrBnNjM/dZ6TV9PO5BibkEmKZYhjW5lj+Q8=
-SHA256 (Pkgfile) = ff08bf25cbf66244c292a455f02c011c00a886ce81b08f4cfb56204667244f21
-SHA256 (.footprint) = 80131c40cc8221cda2f0024f96c5b70e1ab9c8d7d9c313544fc34458fb967945
-SHA256 (mate-screensaver-stop.sh) = 8e4f4e2c498bfd6d575e80fe8027481cdca4a29a64416c92b911445ed8793b52
-SHA256 (mate-screensaver-stop.desktop) = 788d9df513ae00b6bdf2e505f84d0029468ce9bc919a8c1d69d757406de70847

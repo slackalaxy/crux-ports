@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=Mate Screensaver Stopper
-Comment=Stop MATE screensaver when a window is fullscreen
-Exec=mate-screensaver-stop.sh
-Icon=preferences-desktop-screensaver
-Type=Application

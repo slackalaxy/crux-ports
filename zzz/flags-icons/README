@@ -1,9 +1,0 @@
-To use for MATE's keyboard layout panel indicator:
-
-* install dconf-editor:
-	
-	prt-get depinst dconf-editor
-
-* enable the flags in dconf-editor:
-	
-	org > mate > desktop > peripherals > keyboard > indicator > show-flags

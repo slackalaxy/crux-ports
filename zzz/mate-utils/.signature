@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/zzz.pub
-RWTLNE38Mq+LpjxrUSESGhZlJIDTL01U+nvdHdNcZghi2m+cKr8NbZfxeXGwqfyMCOIEHZ7GYtXkURIEKubRQtHkJf9A6DN/IAo=
-SHA256 (Pkgfile) = d485152f5d442ffc3da9b15231a2e8119525f708e9b7063f855d77f5dec9a923
-SHA256 (.footprint) = 78d1eca27022c90282f9dbf86ee810a9d4d5716ca773e2aa99d2bcafea4dc79e
-SHA256 (mate-utils-1.28.1.tar.xz) = 0dbfbee7a966ddf114e62c6d49ea8f35c1d4bf14d275a1369c324e36ff84ab9a
-SHA256 (screenshot.patch) = 49dd6f9ace35f292bd75c8006f030a2a5346392445b691e06e4cb8bf8e3f10e3
