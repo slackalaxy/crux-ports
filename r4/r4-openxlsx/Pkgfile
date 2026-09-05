@@ -1,11 +1,11 @@
-# Description: R module openxlsx
+# Description: R-package openxlsx
 # URL: https://cran.r-project.org/web/packages/openxlsx
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-rcpp r4-stringi r4-zip
-# Optional: r4-curl r4-formula-tools r4-knitr r4-rmarkdown r4-testthat
+# Optional: r4-curl r4-formula-tools r4-ggplot2 r4-jpeg r4-knitr r4-rmarkdown r4-survival r4-testthat
 
 name=r4-openxlsx
-version=4.2.8.1
+version=4.2.9
 release=1
 source=(https://cloud.r-project.org/src/contrib/openxlsx_${version}.tar.gz)
 
