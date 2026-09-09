@@ -81,6 +81,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/xts/tinytest/
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-na.locf.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-na.omit.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-parseISO8601.R
+-rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-parseTimeOfDay.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-period.apply.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-periodicity.R
 -rw-r--r--	root/root	usr/lib/R/library/xts/tinytest/test-plot.R

@@ -1,11 +1,11 @@
-# Description: R module xts
+# Description: R-package xts
 # URL: https://cran.r-project.org/web/packages/xts
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-zoo
 # Optional: r4-chron r4-timedate r4-timeseries r4-tinytest r4-tseries
 
 name=r4-xts
-version=0.14.2
+version=0.14.3
 release=1
 source=(https://cloud.r-project.org/src/contrib/xts_${version}.tar.gz)
 

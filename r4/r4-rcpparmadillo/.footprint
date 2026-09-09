@@ -220,6 +220,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_cor.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_cov.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_cross.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_cubemul.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_cumprod.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_cumsum.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_det.hpp
@@ -246,8 +247,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_histc.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_index_max.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_index_min.hpp
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_inplace_strans.hpp
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_inplace_trans.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_inplace_xtrans.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_interp1.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_interp2.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_intersect.hpp
@@ -276,6 +276,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_omit.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_ones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_orth_null.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_permute.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_pinv.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_polyfit.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_polyval.hpp
@@ -314,7 +315,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_spsolve.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_sqrtmat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_stddev.hpp
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_strans.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_sum.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_svd.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_svds.hpp
@@ -322,7 +322,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_symmat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_toeplitz.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_trace.hpp
--rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_trans.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_trapz.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_trig.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_trimat.hpp
@@ -334,6 +333,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_vecnorm.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_vectorise.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_wishrnd.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_xtrans.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/fn_zeros.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_affmul_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_affmul_meat.hpp
@@ -347,6 +347,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_cov_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_cross_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_cross_meat.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_cubemul_bones.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_cubemul_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_hist_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_hist_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/glue_histc_bones.hpp
@@ -533,6 +535,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_omit_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_orth_null_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_orth_null_meat.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_permute_bones.hpp
+-rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_permute_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_pinv_bones.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_pinv_meat.hpp
 -rw-r--r--	root/root	usr/lib/R/library/RcppArmadillo/include/armadillo_bits/op_powmat_bones.hpp

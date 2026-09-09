@@ -5,9 +5,9 @@
 # Optional: 
 
 name=r4-survival
-version=3.8.11
+version=3.8.12
 release=1
-source=(https://cloud.r-project.org/src/contrib/survival_3.8-11.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/survival_3.8-12.tar.gz)
 
 build() {
 	cd survival
