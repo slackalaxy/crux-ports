@@ -323,9 +323,9 @@ f:93b4618b2b34ebe3436e39b041f654e7:bpp1-seq/.signature
 f:c43f3d850a495b28ec0b6deee1c031ff:bpp1-numcalc/.footprint
 f:062b1069390d4cac47347de2c8ca0329:bpp1-numcalc/Pkgfile
 f:0e6b36feb075e44c3eace312c93fc1b8:bpp1-numcalc/.signature
-f:5334f1819f39c57b719553790695ab84:xscreensaver/.footprint
-f:50dbd86f3c265c2e1cc1630d438b8019:xscreensaver/.signature
-f:ee9684ea2d263b3a955925512e830dda:xscreensaver/Pkgfile
+f:61abba5caa6c5383d39c2ca700840f1c:xscreensaver/.footprint
+f:c401fac1844c8c7682d4f426a90fd789:xscreensaver/.signature
+f:17ac1bfefdabb2ed82008cfe19a871ce:xscreensaver/Pkgfile
 f:fcdc1fb8ddacd4fae1119c421b57894d:xscreensaver/electricsheep.patch
 f:9da54c3bbf7a884c197bbb33b2b3ade3:xscreensaver/xscreensaver.pam
 f:c3f31d8780d72fc368961e53997c0151:zotero/.footprint

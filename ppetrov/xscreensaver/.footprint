@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/abstractile
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/alienbeacon
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/amigajuggler
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/anemone
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/anemotaxis
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/antinspect
@@ -98,6 +99,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/flipflop
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/flipscreen3d
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/fliptext
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/floppy
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/flow
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/fluidballs
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/flurry
@@ -126,6 +128,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/gltext
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/goldenapollian
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/goop
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/graphstat
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/grav
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/gravitywell
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/greynetic
@@ -204,6 +207,7 @@ drwxr-xr-x	root/root	usr/lib/xscreensaver/
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/pinion
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/pipes
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/platonicfolding
+-rwxr-xr-x	root/root	usr/lib/xscreensaver/polarnight
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/polyhedra
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/polyominoes
 -rwxr-xr-x	root/root	usr/lib/xscreensaver/polytopes
@@ -314,6 +318,7 @@ drwxr-xr-x	root/root	usr/share/applications/
 drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/abstractile.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/alienbeacon.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/amigajuggler.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/anemone.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/anemotaxis.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/antinspect.desktop
@@ -401,6 +406,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/flipflop.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/flipscreen3d.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/fliptext.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/floppy.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/flow.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/fluidballs.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/flurry.desktop
@@ -429,6 +435,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/gltext.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/goldenapollian.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/goop.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/graphstat.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/grav.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/gravitywell.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/greynetic.desktop
@@ -505,6 +512,7 @@ drwxr-xr-x	root/root	usr/share/applications/screensavers/
 -rw-r--r--	root/root	usr/share/applications/screensavers/pinion.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/pipes.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/platonicfolding.desktop
+-rw-r--r--	root/root	usr/share/applications/screensavers/polarnight.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/polyhedra.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/polyominoes.desktop
 -rw-r--r--	root/root	usr/share/applications/screensavers/polytopes.desktop
@@ -612,6 +620,7 @@ lrwxrwxrwx	root/root	usr/share/man/man1/xscreensaver-demo.1.gz -> xscreensaver-s
 drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/abstractile.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/alienbeacon.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/amigajuggler.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/anemone.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/anemotaxis.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/antinspect.6.gz
@@ -803,6 +812,7 @@ drwxr-xr-x	root/root	usr/share/man/man6/
 -rw-r--r--	root/root	usr/share/man/man6/pinion.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/pipes.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/platonicfolding.6.gz
+-rw-r--r--	root/root	usr/share/man/man6/polarnight.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/polyhedra.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/polyominoes.6.gz
 -rw-r--r--	root/root	usr/share/man/man6/polytopes.6.gz
@@ -911,6 +921,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/
 drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/abstractile.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/alienbeacon.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/amigajuggler.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/anemone.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/anemotaxis.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/antinspect.xml
@@ -998,6 +1009,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/flipflop.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/flipscreen3d.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/fliptext.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/floppy.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/flow.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/fluidballs.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/flurry.xml
@@ -1026,6 +1038,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/gltext.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/goldenapollian.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/goop.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/graphstat.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/grav.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/gravitywell.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/greynetic.xml
@@ -1103,6 +1116,7 @@ drwxr-xr-x	root/root	usr/share/xscreensaver/config/
 -rw-r--r--	root/root	usr/share/xscreensaver/config/pinion.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/pipes.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/platonicfolding.xml
+-rw-r--r--	root/root	usr/share/xscreensaver/config/polarnight.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/polyhedra.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/polyominoes.xml
 -rw-r--r--	root/root	usr/share/xscreensaver/config/polytopes.xml
