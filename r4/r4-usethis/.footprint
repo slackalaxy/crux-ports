@@ -3,6 +3,7 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/usethis/
+-rw-r--r--	root/root	usr/lib/R/library/usethis/AGENTS.md
 -rw-r--r--	root/root	usr/lib/R/library/usethis/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/usethis/INDEX
 -rw-r--r--	root/root	usr/lib/R/library/usethis/LICENSE
@@ -21,6 +22,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/usethis/R/
 -rw-r--r--	root/root	usr/lib/R/library/usethis/R/usethis.rdx
 -rw-r--r--	root/root	usr/lib/R/library/usethis/README.md
 -rw-r--r--	root/root	usr/lib/R/library/usethis/WORDLIST
+drwxr-xr-x	root/root	usr/lib/R/library/usethis/claude/
+-rw-r--r--	root/root	usr/lib/R/library/usethis/claude/CLAUDE.md
+-rw-r--r--	root/root	usr/lib/R/library/usethis/claude/settings.json
 drwxr-xr-x	root/root	usr/lib/R/library/usethis/help/
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/usethis/help/aliases.rds
@@ -36,6 +40,10 @@ drwxr-xr-x	root/root	usr/lib/R/library/usethis/help/figures/
 drwxr-xr-x	root/root	usr/lib/R/library/usethis/html/
 -rw-r--r--	root/root	usr/lib/R/library/usethis/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/usethis/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/usethis/skills/
+-rw-r--r--	root/root	usr/lib/R/library/usethis/skills/arg-checking.md
+-rw-r--r--	root/root	usr/lib/R/library/usethis/skills/deprecate.md
+-rw-r--r--	root/root	usr/lib/R/library/usethis/skills/package-setup.md
 drwxr-xr-x	root/root	usr/lib/R/library/usethis/templates/
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/CODE_OF_CONDUCT.md
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/Jenkinsfile
@@ -68,10 +76,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/usethis/templates/
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-stable.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/lifecycle-superseded.svg
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/package-README
+-rw-r--r--	root/root	usr/lib/R/library/usethis/templates/package-README-qmd
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/packagename-data-prep.R
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/packagename-package.R
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/pipe.R
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/project-README
+-rw-r--r--	root/root	usr/lib/R/library/usethis/templates/project-README-qmd
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/readme-rmd-pre-commit.sh
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/rmarkdown-template.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/usethis/templates/rmarkdown-template.yml
