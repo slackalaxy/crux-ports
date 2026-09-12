@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwZNrr4rsB5aF+D6PjirzuAeZiov8e/Mvw9TfYG6Mgu8cLMjnZAb2myNmyGBSpl+RHacOvFCBDIvAM6zqXQbLbgE=
-SHA256 (Pkgfile) = 0570edfe88cce945d1e5eda43458f93e4fad952a937571fd3a25018bb27de22f
-SHA256 (.footprint) = aa27081e2b90e1f0579ae2c558ac809bfefb12ad335fa132bcf5b36005172a5b
-SHA256 (prt-supplements-d55971575f985c8f5bff5396bf87f68cb1c76c55.tar.gz) = e37c2c8866b3240449a34b67f91ddae8ed10e21d0027bc9a6df7e1f87e173a4c
+RWRPokwW0IImwfo9mFrw+Sozjr7UJOIXLNi12rHvfOf5W/SSS8tE1qrumHBjSo2BBX/IgQzzfx3y80yrt9NaVITVyHA0P5wonwU=
+SHA256 (Pkgfile) = 1c835ac905cc12caa1ad39a59949dc03cf61c1af291aaf3280f8dea41f4b1c06
+SHA256 (.footprint) = 7f55681ff223db913d9c87a655d230a1bd69998d8a8b38bec79381b9960ea9c6
+SHA256 (prt-supplements-c1f665b74350f41a1b723c9d20ec17b4cefa8eb8.tar.gz) = 5a39ef1a3a064db3da6a0952bd0832fba4f1987c6b6d2c088d75d8b944dd6bad
