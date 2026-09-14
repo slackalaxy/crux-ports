@@ -1,0 +1,16 @@
+# Description: R-package permute
+# URL: https://cran.r-project.org/web/packages/permute
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-bookdown r4-knitr r4-rmarkdown r4-sessioninfo r4-testthat r4-vegan
+
+name=r4-permute
+version=0.9.10
+release=1
+source=(https://cloud.r-project.org/src/contrib/permute_0.9-10.tar.gz)
+
+build() {
+	cd permute
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

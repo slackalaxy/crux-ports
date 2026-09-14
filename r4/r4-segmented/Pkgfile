@@ -1,13 +1,13 @@
-# Description: R module segmented
+# Description: R-package segmented
 # URL: https://cran.r-project.org/web/packages/segmented
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-mass r4-nlme
 # Optional: 
 
 name=r4-segmented
-version=2.2.1
+version=2.2.2
 release=1
-source=(https://cloud.r-project.org/src/contrib/segmented_2.2-1.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/segmented_2.2-2.tar.gz)
 
 build() {
 	cd segmented

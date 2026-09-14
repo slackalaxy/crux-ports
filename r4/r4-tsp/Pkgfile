@@ -1,0 +1,16 @@
+# Description: R-package TSP
+# URL: https://cran.r-project.org/web/packages/TSP
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-foreach
+# Optional: r4-doparallel r4-maps r4-testthat
+
+name=r4-tsp
+version=1.2.7
+release=1
+source=(https://cloud.r-project.org/src/contrib/TSP_${version}.tar.gz)
+
+build() {
+	cd TSP
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

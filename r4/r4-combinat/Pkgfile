@@ -1,13 +1,13 @@
-# Description: R module combinat
+# Description: R-package combinat
 # URL: https://cran.r-project.org/web/packages/combinat
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r
+# Depends on: r 
 # Optional: 
 
 name=r4-combinat
-version=0.0.8
+version=0.0.9
 release=1
-source=(https://cloud.r-project.org/src/contrib/combinat_0.0-8.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/combinat_0.0-9.tar.gz)
 
 build() {
 	cd combinat

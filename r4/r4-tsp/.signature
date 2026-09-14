@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YoAZphVFoLFLGpOyrptnv/4q79TeJ3mCBaFq5m40fQvSKYf77LUiwXEYJxuXjhWplX5/yT2NGOYLVB1CxF9cBgI=
+SHA256 (Pkgfile) = d99c50344a46ce8aeba0bca6d73ca1a0bfaa524abba2418061e37f5a91252724
+SHA256 (.footprint) = 3bcf05de6cf94d3b9d34bc3566e2e133de17b5fa59a0c92a25270081d31ea6fd
+SHA256 (TSP_1.2.7.tar.gz) = 49929c9488411d2cfdf136f99fa0ec942f0cf65d0573195897ba29b41a135f73

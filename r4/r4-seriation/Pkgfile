@@ -1,0 +1,16 @@
+# Description: R-package seriation
+# URL: https://cran.r-project.org/web/packages/seriation
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r r4-ca r4-cluster r4-colorspace r4-foreach r4-gclus r4-mass r4-qap r4-registry r4-tsp r4-vegan
+# Optional: r4-dbscan r4-dendextend r4-dendser r4-doparallel r4-ga r4-ggplot2 r4-keras r4-rtsne r4-scales r4-smacof r4-tensorflow r4-testthat r4-umap
+
+name=r4-seriation
+version=1.5.8
+release=1
+source=(https://cloud.r-project.org/src/contrib/seriation_${version}.tar.gz)
+
+build() {
+	cd seriation
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

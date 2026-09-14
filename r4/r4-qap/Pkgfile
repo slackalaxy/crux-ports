@@ -1,0 +1,16 @@
+# Description: R-package qap
+# URL: https://cran.r-project.org/web/packages/qap
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-testthat
+
+name=r4-qap
+version=0.1.2
+release=1
+source=(https://cloud.r-project.org/src/contrib/qap_0.1-2.tar.gz)
+
+build() {
+	cd qap
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

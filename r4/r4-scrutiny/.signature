@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YtN1lc51uHHOKiq1BnfHP+IBMJUvfqjIcBYellg8UJE8um2OYmcVD7ogSe4JtvwZRmJWDZeSIQtS3rnNCk5K7Qc=
+SHA256 (Pkgfile) = 537f8bda4fd12d309651dae80c4c032978d810321cc897b9cab0768c1cac97ff
+SHA256 (.footprint) = 7f7973dfeecec02c2a647e9565b65acc094eaebebb808d2c5a2c30a34e007b24
+SHA256 (scrutiny_0.6.1.tar.gz) = 06a24e1ff4e06e5657a98a91a2dad94177e16b7cf72fa49b29853b52e75f1973

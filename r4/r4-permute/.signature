@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/YmYsrbaKIp9V7f3Nx0jXpUetzoWDwfcEFXoS+9CUcEbfnrYd5Pt6cmKaAydQyG+OyAplptM6fsi5V95woAvuvgg=
+SHA256 (Pkgfile) = 540d8b03e5fd654e8e592ee2b554e16e6ef069bab14368ddee2847e2fed5905c
+SHA256 (.footprint) = 6c5db4d4125e4e1b514072e79fc54c6855fa09d336064bbbdc449037e6261a74
+SHA256 (permute_0.9-10.tar.gz) = dc182b20d2f0dcafbe0384640b949b9d70faee4cbd20bf88ab55de811b105104
