@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkfontdir /usr/share/fonts/microsoft
+mkfontscale /usr/share/fonts/microsoft
+fc-cache

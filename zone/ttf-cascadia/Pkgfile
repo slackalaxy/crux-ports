@@ -1,0 +1,15 @@
+# Description: Cascadia Code/Mono NF is a fun new coding font.
+# URL: https://github.com/microsoft/cascadia-code/releases
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=ttf-cascadia
+version=2407.24
+release=1
+source=(https://github.com/microsoft/cascadia-code/releases/download/v${version}/CascadiaCode-${version}.zip)
+
+build() {
+	mkdir -p $PKG/usr/share/fonts/microsoft
+	cp -a $SRC/ttf/{CascadiaCodeNF*,CascadiaMonoNF*} $PKG/usr/share/fonts/microsoft/
+	chmod 0644 $PKG/usr/share/fonts/microsoft/*.ttf
+}
