@@ -1,10 +1,10 @@
 # Description: A Python package providing buffer compression and transformation codecs for use in data storage and communication applications.
-# URL: https://github.com/zarr-developers/numcodecs
+# URL: https://github.com/zarr-developers/numcodecs/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: python3-numpy python3-py-cpuinfo python3-setuptools-scm python3-typing_extensions
 
 name=python3-numcodecs
-version=0.16.5
+version=0.17.0
 release=1
 source=(https://files.pythonhosted.org/packages/source/n/numcodecs/numcodecs-$version.tar.gz)
 
