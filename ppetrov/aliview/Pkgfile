@@ -1,0 +1,40 @@
+# Description: Alignment viewer and editor
+# URL: http://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: alsa-lib brotli giflib graphite2 harfbuzz lcms2 xorg-libxrender xorg-libxtst
+
+name=aliview
+version=1.32
+release=1
+source=(http://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/AliView-$version-linux-x86_64.run
+	$name.desktop)
+
+build() {
+	mkdir $name-$version
+	cd $name-$version
+	bash $SRC/AliView-$version-linux-x86_64.run --tar xfv
+	
+	rm install.sh
+	rm -rf lib/runtime/legal
+	
+	# Permissions are so messed up...
+	sudo chown -R root:root .
+	find . -type d -exec chmod 755 {} +
+	find . -type f -exec chmod 644 {} +
+	chmod 755 bin/AliView
+	
+	mkdir -p $PKG/usr/lib/$name
+	cp -a * $PKG/usr/lib/$name
+	
+	mkdir -p $PKG/usr/bin
+	cd $PKG/usr/bin
+	ln -s ../lib/$name/bin/AliView aliview
+	
+	mkdir -p $PKG/usr/share/{applications,pixmaps}
+	cp $SRC/$name.desktop $PKG/usr/share/applications
+	cp $PKG/usr/lib/$name/splash_128x128.png $PKG/usr/share/pixmaps/$name.png
+	
+	mkdir -p $PKG/etc/revdep.d
+	echo "/usr/lib/aliview/lib/runtime/lib/" > $PKG/etc/revdep.d/$name
+	echo "/usr/lib/aliview/lib/runtime/lib/server/" >> $PKG/etc/revdep.d/$name
+}
