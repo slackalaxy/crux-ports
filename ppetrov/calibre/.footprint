@@ -332,7 +332,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libopenjp2.so.7
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpcre.so.3
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpng16.so.16
--rwxr-xr-x	root/root	usr/lib/calibre/lib/libpodofo.so.2
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libpodofo.so.4
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpoppler.so.154
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpostproc.so.58
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libpython3.14.so.1.0
@@ -533,6 +533,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/images/
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/convert.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/copy-to-library.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/cover_flow.png
+-rw-r--r--	root/root	usr/lib/calibre/resources/images/cyoa.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/debug.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/default_cover.png
 drwxr-xr-x	root/root	usr/lib/calibre/resources/images/devices/
@@ -710,6 +711,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/images/plugins/
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/restart.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/rotate-right.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/save.png
+-rw-r--r--	root/root	usr/lib/calibre/resources/images/scene-divider.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/scheduler.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/scroll.png
 -rw-r--r--	root/root	usr/lib/calibre/resources/images/sd.png
