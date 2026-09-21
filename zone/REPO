@@ -12,6 +12,7 @@ d:ports-slackalaxy
 d:ports-extra
 d:etc-fstab_labels
 d:battery-limits
+d:ttf-cascadia
 d:backgrounds-vladstudio
 d:backgrounds-assorted
 d:prt-supplements
@@ -35,9 +36,10 @@ d:cron-cleanup
 d:cron-prtdiff
 d:cron-trimssd
 f:414a12b5755f7ace1fc00ff46bd0163a:fonts-conf/.footprint
-f:db2d2ab1e526a775a9f172beb67c4619:fonts-conf/.signature
+f:5e42e5668d2957574286dd0689a8a6b3:fonts-conf/.signature
 f:2b5a06987cdd0d1ad2d5e7d35f828652:fonts-conf/README
-f:f224161939ec8f391f56f0a4d233c327:fonts-conf/Pkgfile
+f:c93931195c48d70db76d4dc84934af87:fonts-conf/Pkgfile
+f:a5d7d9491805beef8a4853c211a0b3ce:fonts-conf/post-install
 f:b95c66be425fac0c3ab535b09ef44f21:grub2-default/README
 f:4bc069851274231826766ac924a0e130:grub2-default/grub2-default
 f:9543aa8c645cadb92eb45259d477a9fa:grub2-default/.footprint
@@ -105,6 +107,10 @@ f:bb08d70e25c71253bbbd5efedb3243d1:battery-limits/Pkgfile
 f:47e1615345a9b5772a9bbe372d89a213:battery-limits/99-thinkpad-battery-threshold.rules
 f:9407c6bd0a85cccaac30517853ad9e8e:battery-limits/.footprint
 f:475627fc3f9274133b7ffd4a8507b805:battery-limits/.signature
+f:95b191dfd63d8cdfdb2d96d7c7ff0f2b:ttf-cascadia/Pkgfile
+f:39cc4032937a8a4dfe97aaed58894ea3:ttf-cascadia/post-install
+f:a055e8ad26d94bb4cdd2c83385502293:ttf-cascadia/.footprint
+f:186cca68fc8b466c49d1cd1cbb3e9f83:ttf-cascadia/.signature
 f:a4c2b91895adbb35d54b1e8ea5eea0f5:backgrounds-vladstudio/Pkgfile
 f:3520a4b011b3df2d578d2fb6cb644f8f:backgrounds-vladstudio/README
 f:ad952d7bd54a270228ddfea3ebb06c0b:backgrounds-vladstudio/.footprint
@@ -135,9 +141,9 @@ f:47c9a640163fa538a1d870ee8e46b352:gtksourceview4-styles/Pkgfile
 f:6725e3c1dc547ada719880e881ed2739:gtksourceview4-styles/.footprint
 f:8e5c8d161d2a47b0d4ffcb84616bd506:gtksourceview4-styles/.signature
 f:feb412bb1c2f56af8bcaa5a677c44e27:gtksourceview4-styles/gtksourceview4-styles-0.25.tar.xz
-f:a5cb77e4f50b8110ebe786b472ab309f:meta-ppetrov/Pkgfile
+f:504211580386a5b2bf662a421683a8c5:meta-ppetrov/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-ppetrov/.footprint
-f:cbc41acff152974e314cc54b55445986:meta-ppetrov/.signature
+f:d26fefbd763bac30a32bef6b3faa07fc:meta-ppetrov/.signature
 f:3b6b06684d55f48f76d6144a4900e21f:meta-misc/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-misc/.footprint
 f:ac0f89da06dbf8364f21f3be752dc578:meta-misc/.signature
@@ -198,9 +204,9 @@ f:7bf538285f04373f750d3311a8344d77:cpan2crux/Pkgfile
 f:d2e86e6ea7a81e58df8bff4fdf9f40e4:cpan2crux/cpan2crux-1.4.pl
 f:5e44468f8fc04d9a5f42153c4ee68156:cpan2crux/.footprint
 f:8cf5e2860c0c383cb2b176b4eb94b49d:cpan2crux/.signature
-f:17d8b021dc6f1a1245e7578194261740:meta-r4/Pkgfile
+f:1d8641978a6572fecc834c806c6cb5cc:meta-r4/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-r4/.footprint
-f:4462f9f05873ba070e51e0b35f96b243:meta-r4/.signature
+f:578402320cec1b62a5ae980facd8f018:meta-r4/.signature
 f:3cb463b7d2ac1bb95f18091d852a4245:cron-cleanup/.signature
 f:3258da09d143d2f4ab404edd8ba1bc75:cron-cleanup/.footprint
 f:b075ae396226fef3acc13fdd1cea475d:cron-cleanup/Pkgfile
