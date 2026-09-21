@@ -1,6 +1,6 @@
---- ./Makefile.am.orig	2025-08-06 13:53:07.640863175 -0500
-+++ ./Makefile.am	2025-08-06 13:54:02.406860145 -0500
-@@ -306,14 +306,6 @@
+--- ./Makefile.am.orig	2026-09-17 18:45:32.075433282 -0500
++++ ./Makefile.am	2026-09-17 18:46:48.425679203 -0500
+@@ -318,14 +318,6 @@
  pcarddir = $(hplipdir)/pcard
  dist_pcard_DATA = pcard/__init__.py pcard/photocard.py
  

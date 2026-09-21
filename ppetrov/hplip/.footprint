@@ -1,5 +1,4 @@
 drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/dbus-1/
 drwxr-xr-x	root/root	etc/hp/
 -rw-r--r--	root/root	etc/hp/hplip.conf
 drwxr-xr-x	root/root	etc/xdg/
@@ -29,7 +28,6 @@ lrwxrwxrwx	root/root	usr/bin/hp-linefeedcal -> ../share/hplip/linefeedcal.py
 lrwxrwxrwx	root/root	usr/bin/hp-logcapture -> ../share/hplip/logcapture.py
 lrwxrwxrwx	root/root	usr/bin/hp-makecopies -> ../share/hplip/makecopies.py
 lrwxrwxrwx	root/root	usr/bin/hp-makeuri -> ../share/hplip/makeuri.py
-lrwxrwxrwx	root/root	usr/bin/hp-pkservice -> ../share/hplip/pkservice.py
 lrwxrwxrwx	root/root	usr/bin/hp-plugin -> ../share/hplip/plugin.py
 lrwxrwxrwx	root/root	usr/bin/hp-pqdiag -> ../share/hplip/pqdiag.py
 lrwxrwxrwx	root/root	usr/bin/hp-print -> ../share/hplip/print.py
@@ -98,11 +96,6 @@ drwxr-xr-x	root/root	usr/share/cups/drv/HP/
 drwxr-xr-x	root/root	usr/share/cups/mime/
 -rw-r--r--	root/root	usr/share/cups/mime/pstotiff.convs
 -rw-r--r--	root/root	usr/share/cups/mime/pstotiff.types
-drwxr-xr-x	root/root	usr/share/dbus-1/
-drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
--rw-r--r--	root/root	usr/share/dbus-1/system-services/com.hp.hplip.service
-drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
--rw-r--r--	root/root	usr/share/dbus-1/system.d/com.hp.hplip.conf
 drwxr-xr-x	root/root	usr/share/hplip/
 -rwxr-xr-x	root/root	usr/share/hplip/__init__.py
 -rwxr-xr-x	root/root	usr/share/hplip/align.py
@@ -131,7 +124,6 @@ drwxr-xr-x	root/root	usr/share/hplip/base/
 -rw-r--r--	root/root	usr/share/hplip/base/password.py
 drwxr-xr-x	root/root	usr/share/hplip/base/pexpect/
 -rw-r--r--	root/root	usr/share/hplip/base/pexpect/__init__.py
--rw-r--r--	root/root	usr/share/hplip/base/pkit.py
 -rw-r--r--	root/root	usr/share/hplip/base/pml.py
 -rw-r--r--	root/root	usr/share/hplip/base/queues.py
 -rw-r--r--	root/root	usr/share/hplip/base/services.py
@@ -566,7 +558,6 @@ drwxr-xr-x	root/root	usr/share/hplip/installer/
 drwxr-xr-x	root/root	usr/share/hplip/pcard/
 -rw-r--r--	root/root	usr/share/hplip/pcard/__init__.py
 -rw-r--r--	root/root	usr/share/hplip/pcard/photocard.py
--rwxr-xr-x	root/root	usr/share/hplip/pkservice.py
 -rwxr-xr-x	root/root	usr/share/hplip/plugin.py
 -rwxr-xr-x	root/root	usr/share/hplip/pqdiag.py
 -rwxr-xr-x	root/root	usr/share/hplip/print.py
@@ -665,9 +656,6 @@ drwxr-xr-x	root/root	usr/share/hplip/ui5/
 -rwxr-xr-x	root/root	usr/share/hplip/unload.py
 -rwxr-xr-x	root/root	usr/share/hplip/upgrade.py
 -rwxr-xr-x	root/root	usr/share/hplip/wificonfig.py
-drwxr-xr-x	root/root	usr/share/polkit-1/
-drwxr-xr-x	root/root	usr/share/polkit-1/actions/
--rw-r--r--	root/root	usr/share/polkit-1/actions/com.hp.hplip.policy
 drwxr-xr-x	root/root	usr/share/ppd/
 drwxr-xr-x	root/root	usr/share/ppd/HP/
 -rw-r--r--	root/root	usr/share/ppd/HP/HP-Fax-CDM-hpcups.ppd.gz
@@ -1588,6 +1576,9 @@ drwxr-xr-x	root/root	usr/share/ppd/HP/
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_4002-ps.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_4003-ps.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_4004-ps.ppd.gz
+-rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_4006-ps.ppd.gz
+-rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_4007-ps.ppd.gz
+-rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_4008-ps.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_m118-m119-ps.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_m148-m149-ps.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_m148f-m149f-ps.ppd.gz
@@ -1609,6 +1600,9 @@ drwxr-xr-x	root/root	usr/share/ppd/HP/
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_4102-ps.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_4103-ps.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_4104-ps.ppd.gz
+-rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_4112-ps.ppd.gz
+-rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_4113-ps.ppd.gz
+-rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_4114-ps.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_m125a.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_m125nr.ppd.gz
 -rw-r--r--	root/root	usr/share/ppd/HP/hp-laserjet_pro_mfp_m125nw.ppd.gz

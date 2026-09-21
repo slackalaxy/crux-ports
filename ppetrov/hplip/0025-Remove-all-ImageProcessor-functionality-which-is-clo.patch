@@ -1,8 +1,6 @@
-diff --git a/Makefile.am b/Makefile.am
-index f65afea..12317dc 100644
---- a/Makefile.am
-+++ b/Makefile.am
-@@ -167,7 +167,7 @@ if !HPLIP_CLASS_DRIVER
+--- ./Makefile.am.orig	2026-09-11 06:22:00.000000000 -0500
++++ ./Makefile.am	2026-09-17 16:19:23.014305274 -0500
+@@ -179,7 +179,7 @@
  dist_hplip_SCRIPTS = hpssd.py __init__.py hpdio.py
  endif #HPLIP_CLASS_DRIVER
  
@@ -11,16 +9,16 @@ index f65afea..12317dc 100644
  
  dist_noinst_DATA += prnt/ipp-usb/HPLIP.conf
  dist_noinst_SCRIPTS += dat2drv.py install.py  hplip-install init-suse-firewall init-iptables-firewall class_rpm_build.sh hplipclassdriver.spec createPPD.sh Makefile_dat2drv hpijs-drv
-@@ -597,7 +597,7 @@ hpcups_SOURCES = prnt/hpcups/HPCupsFilter.cpp prnt/hpcups/HPCupsFilter.h prnt/hp
- 	prnt/hpcups/ImageProcessor.h
- 
- hpcups_CXXFLAGS = $(APDK_ENDIAN_FLAG) $(DBUS_CFLAGS)
+@@ -605,7 +605,7 @@
+ hpcups_CPPFLAGS = -I$(srcdir)/prnt/hpcups -I$(srcdir)/prnt -I$(srcdir)/common -D_GNU_SOURCE
+ hpcups_CXXFLAGS = $(APDK_ENDIAN_FLAG) $(DBUS_CFLAGS) $(AM_CXXFLAGS)
+ hpcups_LDFLAGS = $(AM_LDFLAGS)
 -hpcups_LDADD = -L./prnt/hpcups/ -ljpeg -ldl -lImageProcessor -lcups -lcupsimage -lz $(DBUS_LIBS)
 +hpcups_LDADD = -L./prnt/hpcups/ -ljpeg -ldl -lcups -lcupsimage -lz $(DBUS_LIBS)
  #else
  #hpcupsdir = $(cupsfilterdir)
  #hpcups_PROGRAMS = hpcups
-@@ -687,16 +687,6 @@ endif #HPLIP_CLASS_DRIVER
+@@ -707,16 +707,6 @@
  
  install-data-hook:
  if HPLIP_BUILD

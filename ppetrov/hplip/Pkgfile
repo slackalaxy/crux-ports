@@ -6,7 +6,7 @@
 # Conflicts: hpcups
 
 name=hplip
-version=3.26.4
+version=3.26.6
 release=1
 source=(http://downloads.sourceforge.net/project/hplip/hplip/$version/hplip-$version.tar.gz
 	0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch
@@ -17,15 +17,15 @@ source=(http://downloads.sourceforge.net/project/hplip/hplip/$version/hplip-$ver
 	0026-remove-unicode-space-from-models.dat
 	fix-desktop-file.patch
 	hplip.colord.segfault.fix.patch
+	hplip.no.upgrade.diff
+	hplip.python3.shebang.diff
 	hplip-covscan.patch
 	hplip-gcc15-stdc23.patch
 	hplip-hpaio-gcc14.patch
-	hplip.no.upgrade.diff
-	hplip-pcardext-disable.patch
 	hplip-pserror-c99.patch
-	hplip.python3.shebang.diff
 	hplip-scan-hpaio-include.patch
 	hplip-scan-orblite-c99.patch
+	no.pcardext.patch
 	setup.py.lc_all.c.diff)
 
 build() {
@@ -45,7 +45,7 @@ build() {
 	patch -p1 -i $SRC/hplip-covscan.patch
 	patch -p1 -i $SRC/hplip-scan-orblite-c99.patch
 	patch -p1 -i $SRC/hplip-scan-hpaio-include.patch
-	patch -p1 -i $SRC/hplip-pcardext-disable.patch
+	patch -p1 -i $SRC/no.pcardext.patch
 	patch -p1 -i $SRC/hplip.colord.segfault.fix.patch
 	patch -p1 -i $SRC/hplip-gcc15-stdc23.patch
 
@@ -82,6 +82,7 @@ build() {
 	  --with-drvdir=/usr/share/cups/drv/HP \
 	  --enable-hpijs-install \
 	  --enable-shadow-build \
+	  --enable-dbus-build \
 	  $SCAN_OPTIONS \
 	  --enable-gui-build \
 	  --enable-fax-build \
@@ -100,9 +101,9 @@ build() {
 	make install DESTDIR=$PKG rulesdir=/lib/udev/rules.d
 
 	# Move dbus configs to system location:
-	mkdir -p $PKG/usr/share/dbus-1/system.d/
-	mv $PKG/etc/dbus-1/system.d/* $PKG/usr/share/dbus-1/system.d/
-	rm -rf $PKG/etc/dbus-1/system.d/
+	#mkdir -p $PKG/usr/share/dbus-1/system.d/
+	#mv $PKG/etc/dbus-1/system.d/* $PKG/usr/share/dbus-1/system.d/
+	#rm -rf $PKG/etc/dbus-1/system.d/
 
 	# Don't ship .la files:
 	rm -f $PKG/{,usr/}lib/*.la
