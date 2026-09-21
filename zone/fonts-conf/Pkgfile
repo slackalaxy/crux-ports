@@ -1,12 +1,12 @@
 # Description: Custom fonts configuration
 # URL: https://github.com/slackalaxy/fonts-conf
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: otf-apple-sf-mono ttf-aptos ttf-o365 ttf-sierra ttf-win11 xorg-font-dejavu-ttf xorg-font-terminus
+# Depends on: otf-apple-sf-mono ttf-aptos ttf-cascadia ttf-o365 ttf-sierra ttf-win11 xorg-font-dejavu-ttf xorg-font-terminus
 
 name=fonts-conf
-version=15c72ca
+version=3b30fad
 release=1
-source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-15c72caba877e06ca240d1a4c330ad3fda658680.tar.gz)
+source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-3b30fadef780f7503aee88ee479fa59b6d6f1b44.tar.gz)
 
 build() {
 	cd $name-${version}*
