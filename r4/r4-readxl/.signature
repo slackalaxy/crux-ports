@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YpQRP6Ix48zEKC/MwVsI+NfCGOYrW6So11alByQjIvUU1WiRRKPQuG75zsu+QjDbqt2FtAR0qC5eXjb8QqMKiwU=
-SHA256 (Pkgfile) = e2f7de63f7dd3ea649933200a54be63bde7b5985d2423c6833d08875f0d9acad
+RWQFYeZQgQH/YpicXcf59rpKXEIEYhddufz7fWTdDLhXwxlpXe4r4YBQszewYbnk+ziWgiPuPwuEnlJwM2B5ook20kjKXtO91g4=
+SHA256 (Pkgfile) = dc623ca9e1e56d257ea0a88da97998e1d7909bcfc1bf9c34e5eecd102e8cf119
 SHA256 (.footprint) = 21bfaa82b3e127a65c93854169dc1e26fd3f2a6c8b7b50e0ea10f5622a4b37d2
-SHA256 (readxl_1.5.0.tar.gz) = 908347d27f455ba6f42dc0b0619656166cfd916b3e2cffee4eff867ce5014ce7
+SHA256 (readxl_1.5.0.1.tar.gz) = 197043d965ab95717c3b524e221b17cc783bbc3db7e76376ad8ac087337abad6

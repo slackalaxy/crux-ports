@@ -65,6 +65,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/S4Vectors/unitTests/
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/unitTests/test_Vector-merge.R
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/unitTests/test_bindROWS.R
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/unitTests/test_expand-methods.R
+-rw-r--r--	root/root	usr/lib/R/library/S4Vectors/unitTests/test_integer-utils.R
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/unitTests/test_map_ranges_to_runs.R
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/unitTests/test_raw-utils.R
 -rw-r--r--	root/root	usr/lib/R/library/S4Vectors/unitTests/test_subsetting-utils.R
