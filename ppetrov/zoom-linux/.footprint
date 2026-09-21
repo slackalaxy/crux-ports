@@ -547,6 +547,7 @@ drwxr-xr-x	root/root	usr/lib/zoom-linux/cef/locales/
 -rw-r--r--	root/root	usr/lib/zoom-linux/clap-high.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/clap-medium.pcm
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/cpthost
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/crashpad_handler
 drwxr-xr-x	root/root	usr/lib/zoom-linux/diagnostic/
 -rw-r--r--	root/root	usr/lib/zoom-linux/diagnostic/diagnostic.zip
 -rw-r--r--	root/root	usr/lib/zoom-linux/dingdong.pcm
@@ -592,11 +593,13 @@ lrwxrwxrwx	root/root	usr/lib/zoom-linux/libQt6Bodymovin.so.6 -> /usr/lib/libQt6L
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libdvf.so
 -rw-r--r--	root/root	usr/lib/zoom-linux/libmkldnn.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libmpg123.so
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/liboffline_audio.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libquazip.so
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libswresample.so.5
 -rwxr-xr-x	root/root	usr/lib/zoom-linux/libswscale.so.8
 -rw-r--r--	root/root	usr/lib/zoom-linux/meeting_chat_chime.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/meeting_raisehand_chime.pcm
+-rwxr-xr-x	root/root	usr/lib/zoom-linux/minidump_processor
 -rw-r--r--	root/root	usr/lib/zoom-linux/mute.pcm
 drwxr-xr-x	root/root	usr/lib/zoom-linux/new_home_page/
 -rw-r--r--	root/root	usr/lib/zoom-linux/new_home_page/new_home_page.zip
