@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Jalview
 Comment=A Sequence Alignment Editor and Viewer
-Exec=java -jar /usr/bin/jalview.jar
+Exec=jalview
 Icon=jalview
 StartupNotify=false
 Type=Application
