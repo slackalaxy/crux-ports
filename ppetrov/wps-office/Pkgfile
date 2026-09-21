@@ -7,10 +7,12 @@ name=wps-office
 version=12.1.2.28080
 _preread=765474
 _elogind=255.5
-release=1
+_spellch=24.8.7.1
+release=2
 source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${version:7:5}/wps-office_${version}.AK.preread.sw.Personal_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
-	en_GB.tar.xz $name.sh $name.desktop $name-fonts.conf)
+	https://github.com/slackalaxy/wps-office-dicts/archive/${_spellch}/wps-office-dicts-${_spellch}.tar.gz
+	$name.sh $name.desktop $name-fonts.conf)
 
 build() {
 	ar -x $SRC/wps-office_${version}.AK.preread.sw.Personal_${_preread}_amd64.deb
@@ -30,7 +32,10 @@ build() {
 	install -D -m 755 $SRC/$name.sh $PKG/usr/bin/$name
 	
 	# British English dictionaries
-	cp -a $SRC/en_GB $PKG/usr/lib/wps-office/office6/dicts/spellcheck/
+	#cp -a $SRC/en_GB $PKG/usr/lib/wps-office/office6/dicts/spellcheck/
+	
+	# All dictionaries
+	cp -a $SRC/wps-office-dicts-${_spellch}/spellcheck $PKG/usr/lib/wps-office/office6/dicts/
 	
 	# Do not use WPS file icons, however leave them just in case
 	mkdir -p $PKG/usr/share/applications

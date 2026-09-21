@@ -21,11 +21,9 @@ Thanks to Arch Linux for this! Check link for details:
 https://wiki.archlinux.org/title/WPS_Office#WPS_Office_Overriding/Breaks_Mime
 
 DICTIONARIES
-This comes with US spellecheck and also bundles British English (en_GB)
-spell check. For more dictionaries:
+This comes with US spellecheck and also bundles all dictionaries from:
 
     https://github.com/slackalaxy/wps-office-dicts
-    https://slackalaxy.com/2021/04/03/wps-office-v11-dictionary/
 
 ZOTERO PLUG-IN
 * Get the unofficial Zotero plug-in from either GitHub or Gitee:
