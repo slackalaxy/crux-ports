@@ -4,12 +4,12 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/zarr-3.3.0.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.3.0.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.3.0.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.3.0.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.3.0.dist-info/direct_url.json
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.3.0.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/zarr-3.4.0.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.4.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.4.0.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.4.0.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.4.0.dist-info/direct_url.json
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr-3.4.0.dist-info/entry_points.txt
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/zarr/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/zarr/__pycache__/
@@ -111,6 +111,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/zarr/core/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/__pycache__/config.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/__pycache__/group.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/__pycache__/indexing.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/__pycache__/json_parse.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/__pycache__/sync.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/__pycache__/sync_group.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/_coalesce.py
@@ -170,6 +171,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/zarr/core/dtype/npy/__pyca
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/dtype/wrapper.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/group.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/indexing.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/json_parse.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/zarr/core/metadata/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/zarr/core/metadata/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/zarr/core/metadata/__pycache__/
