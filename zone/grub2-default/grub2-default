@@ -1,5 +1,8 @@
 # If you change this file, update grub.cfg by running:
 # grub-mkconfig -o /boot/grub/grub.cfg
+#
+# Boolean default settings, are indicated in brackets: (true) / (false).
+# For *my own* reference, I have marked what I uncomment.
 
 ########################################################################
 # https://wiki.gentoo.org/wiki/GRUB/Configuration_variables ############
@@ -10,7 +13,7 @@
 #GRUB_DEFAULT=0
 
 # Delay (in seconds) before booting default menu entry. Set to 0 to boot
-# immediately or -1 to wait indefinitely.
+# immediately or -1 to wait indefinitely. UNCOMMENT
 #GRUB_TIMEOUT=12
 
 # Device node for the volume containing the root filesystem. Set this to
@@ -22,8 +25,8 @@
 # UUID of the root filesystem. (detected)
 #GRUB_DEVICE_UUID=
 
-# If true, recovery menu entries will not be generated. On Linux,
-# recovery entries pass "single" on the kernel command-line. (false)
+# If true, recovery menu entries will not be generated. Recovery entries
+# pass "single" on the kernel command-line. (false) UNCOMMENT
 #GRUB_DISABLE_RECOVERY=true
 
 # Use a custom font (converted using grub-mkfont) on the graphical
@@ -34,7 +37,7 @@
 # When true, the os-prober utility is bypassed meaning additional OS
 # loaders will not be searched. Setting GRUB_DISABLE_OS_PROBER=false
 # will have grub-mkconfig search for additional installations when
-# os-prober is installed.
+# os-prober is installed. (true) UNCOMMENT
 #GRUB_DISABLE_OS_PROBER=false
 
 # List of GRUB module names separated by spaces that will be loaded at
@@ -45,7 +48,8 @@
 # Parameters to be passed on the kernel command line for all Linux menu
 # entries. For instance, to support hibernation, users will need to add
 # GRUB_CMDLINE_LINUX="resume=/dev/sdXY" with /dev/sdXY being the swap
-# partition. The options below set UTF-8 and old network device names:
+# partition. The options below set UTF-8 and bring back the traditional
+# network device names. UNCOMMENT
 #GRUB_CMDLINE_LINUX="vt.default_utf8=1 net.ifnames=0 biosdevname=0"
 
 # Parameters to be passed on the kernel command line for non-recovery
@@ -55,13 +59,14 @@
 # If true, ${GRUB_DEVICE} is passed in the root parameter on the kernel
 # command line. If false, ${GRUB_DEVICE_UUID} is passed in the root
 # parameter on the kernel command line when an initramfs is available.
-# (false)
+# (false) UNCOMMENT
 #GRUB_DISABLE_LINUX_UUID=true
 
-# If set to false, and if there is either no initramfs, or GRUB_DISABLE_LINUX_UUID=true,
+# If set to false, and if there is either no initramfs, or the option
+# above is set to true (GRUB_DISABLE_LINUX_UUID=true), then the current
 # ${GRUB_DEVICE_PARTUUID} is passed in the root parameter on the kernel
-# command line. (true)
-#GRUB_DISABLE_LINUX_PARTUUID=true
+# command line. (true) UNCOMMENT
+#GRUB_DISABLE_LINUX_PARTUUID=false
 
 # Set resolution and color depth (some examples below, use with care!).
 # Note that you can use only modes which your graphic card supports via
@@ -76,13 +81,17 @@
 # Set a background image
 #GRUB_BACKGROUND="/boot/grub/4800ea3.png"
 
+# Set background to transparent
+#GRUB_COLOR_NORMAL="white/black"
+#GRUB_COLOR_HIGHLIGHT="black/white"
+
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console
 
 # If this option is set to true, flat menu with all entries on top level
-# will be generated. (false)
+# will be generated. (false) UNCOMMENT
 #GRUB_DISABLE_SUBMENU=true
 
 # Set by distributors of GRUB to their identifying name. This is used to
-# generate more informative menu entry titles.
+# generate more informative menu entry titles. UNCOMMENT
 #GRUB_DISTRIBUTOR="CRUX"

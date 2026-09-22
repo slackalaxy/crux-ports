@@ -40,11 +40,11 @@ f:5e42e5668d2957574286dd0689a8a6b3:fonts-conf/.signature
 f:2b5a06987cdd0d1ad2d5e7d35f828652:fonts-conf/README
 f:c93931195c48d70db76d4dc84934af87:fonts-conf/Pkgfile
 f:a5d7d9491805beef8a4853c211a0b3ce:fonts-conf/post-install
-f:b95c66be425fac0c3ab535b09ef44f21:grub2-default/README
-f:4bc069851274231826766ac924a0e130:grub2-default/grub2-default
+f:7fb044435ea3441754b2afddcaf3c9b1:grub2-default/README
+f:df22fa962628612bece26c58c7310c6d:grub2-default/grub2-default
 f:9543aa8c645cadb92eb45259d477a9fa:grub2-default/.footprint
-f:21de880982176e50a08de3a5db4abb9d:grub2-default/.signature
-f:82a3df90d2df7172c0ae8e08a00b5e1d:grub2-default/Pkgfile
+f:8e93cae66c1d202beb9564ed0886d5a8:grub2-default/.signature
+f:a0f02b66aabf1e13e1f7e04321184ad0:grub2-default/Pkgfile
 f:0ca018ce7b11a39435203c182c2553d0:grub2-default/4800ea3.png
 f:a4adaa9a17332ff71d5a600f3a39e52c:kernel-modular/Pkgfile
 f:975706e2607ba0174f317b9d3f6f65cc:kernel-modular/README

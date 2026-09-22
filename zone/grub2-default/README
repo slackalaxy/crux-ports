@@ -27,6 +27,18 @@ For more info, visit Gentoo's Wiki:
   https://wiki.gentoo.org/wiki/GRUB
   https://wiki.gentoo.org/wiki/GRUB/Configuration_variables
 
+Note on PARTUUID:
+To make Grub use PARTUUID to boot from the root filesystem, instead of
+device name, e.g. /dev/sda3, make sure these are set as follows:
+
+  GRUB_DISABLE_LINUX_UUID=true
+  GRUB_DISABLE_LINUX_PARTUUID=false
+
+To verify, inspect the generated /boot/grub/grub.cfg and compare, by:
+
+  blkid -s PARTUUID -o value /dev/sda3
+  ls -l /dev/disk/by-partuuid/
+
 Note about GRUB_FONT:
 pf2 fonts can be created using the grub2-mkfont utility. For example,
 to create a GRUB2 fp2 font from a TTF (True Text Font) run:
