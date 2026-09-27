@@ -1,13 +1,13 @@
 # Description: R-package selectr
 # URL: https://cran.r-project.org/web/packages/selectr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-r6
+# Depends on: r 
 # Optional: r4-testthat r4-xml r4-xml2
 
 name=r4-selectr
-version=0.7.0
+version=0.8.0
 release=1
-source=(https://cloud.r-project.org/src/contrib/selectr_0.7-0.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/selectr_0.8-0.tar.gz)
 
 build() {
 	cd selectr

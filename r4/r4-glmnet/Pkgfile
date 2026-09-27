@@ -1,11 +1,11 @@
-# Description: R module glmnet
+# Description: R-package glmnet
 # URL: https://cran.r-project.org/web/packages/glmnet
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-foreach r4-matrix r4-rcpp r4-rcppeigen r4-shape r4-survival
 # Optional: r4-knitr r4-lars r4-nnet r4-rmarkdown r4-testthat r4-xfun
 
 name=r4-glmnet
-version=5.0
+version=5.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/glmnet_${version}.tar.gz)
 

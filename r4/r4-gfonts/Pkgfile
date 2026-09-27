@@ -1,11 +1,11 @@
-# Description: R module gfonts
+# Description: R-package gfonts
 # URL: https://cran.r-project.org/web/packages/gfonts
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-crayon r4-crul r4-glue r4-htmltools r4-jsonlite r4-shiny
 # Optional: r4-covr r4-knitr r4-rmarkdown r4-testthat r4-vcr
 
 name=r4-gfonts
-version=0.2.0
+version=0.2.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/gfonts_${version}.tar.gz)
 

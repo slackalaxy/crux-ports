@@ -28,9 +28,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/data/
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/data/Rdata.rds
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/data/Rdata.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/doc/
--rw-r--r--	root/root	usr/lib/R/library/gggenomes/doc/emales.R
--rw-r--r--	root/root	usr/lib/R/library/gggenomes/doc/emales.Rmd
--rw-r--r--	root/root	usr/lib/R/library/gggenomes/doc/emales.html
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/doc/flip.R
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/doc/flip.Rmd
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/doc/flip.html
@@ -70,7 +67,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/help/
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/gggenomes/help/figures/
--rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/emales.png
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/figures/logo.svg
 -rw-r--r--	root/root	usr/lib/R/library/gggenomes/help/gggenomes.rdb
