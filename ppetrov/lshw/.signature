@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZXsnSO3tmZVFgR0wKpapa1qzqT1cWn6jP/+lBCwHgLzZXoqo0HctuXQoNiLT4YJfxAbAFRS1+4R1lnkRQ9PEwww=
+SHA256 (Pkgfile) = edd503c0900d229a3570e9602428c85eaf6a15b60ecbe92e65cb32d4eff60e9b
+SHA256 (.footprint) = 75dc476a6c34083a10977d92ce8601758f9f2a95030d5b2ee9b6cf1576216fb2
+SHA256 (lshw-B.02.20.tar.gz) = 6b8346a89fb0f0f1798e66f6a707a881d38b9b3a67256b30fc4628dac09f291a
+SHA256 (lshw.desktop) = 82fa012745aa11e955321a992dc0322261b4a2b78c856e7ccf02e92df7961e65
+SHA256 (lshw.png) = 014baf6ff5802f3c5c09a1eac1d59b46f5a006e339cc646c61c2cd97c9cf1cb1
+SHA256 (lshw-pkexec.sh) = d390e1f985b132f4b1b3019089da3ecc9bef46ade3f0a5374de3991cdd92db8c

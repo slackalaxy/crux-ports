@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LSHW
+Comment=HardWare LiSter for Linux
+Exec=lshw-pkexec
+Icon=lshw
+StartupNotify=false
+Type=Application
+Categories=System;
