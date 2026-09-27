@@ -4,7 +4,7 @@
 # Depends on: alsa-lib avahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libinput lua nss qt6-declarative wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
 
 name=zoom-linux
-version=7.2.0.5705
+version=7.2.1.5760
 release=1
 source=(https://zoom.us/client/${version}/zoom_x86_64.tar.xz
 	$name.desktop $name.png $name.xml $name.sh)
