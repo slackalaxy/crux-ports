@@ -5,9 +5,9 @@
 
 name=vscodium
 version=1.135.06055
-release=1
+release=2
 source=(https://github.com/VSCodium/vscodium/releases/download/$version/VSCodium-linux-x64-$version.tar.gz
-	$name.desktop $name.png)
+	$name.desktop $name.sh $name.png)
 
 build() {
 	mkdir -p $PKG/usr/lib/$name
@@ -17,10 +17,8 @@ build() {
 	cp -a $SRC/$name.desktop $PKG/usr/share/applications
 	cp -a $SRC/$name.png $PKG/usr/share/pixmaps
 	
-	mkdir -p $PKG/usr/bin
-	cd $PKG/usr/bin
-	ln -s ../lib/$name/bin/codium $name
-	
+	install -D -m 0755 $SRC/$name.sh $PKG/usr/bin/$name
+		
 	# no debugging needed
 	rm -rf $PKG/usr/lib/vscodium/resources/app/out/vs/workbench/contrib/debug/
 	
@@ -38,6 +36,6 @@ build() {
 	# Remove locales, except for en_US
 	find $PKG/usr/lib/$name/locales/ -type f -not -name "en-US.pak" -delete
 	
-	# fiex a fel perms
+	# fix a few perms
 	find -L $PKG -perm 664 -exec chmod 644 {} \;
 }
