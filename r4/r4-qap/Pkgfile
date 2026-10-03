@@ -5,9 +5,9 @@
 # Optional: r4-testthat
 
 name=r4-qap
-version=0.1.2
+version=0.1.3
 release=1
-source=(https://cloud.r-project.org/src/contrib/qap_0.1-2.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/qap_0.1-3.tar.gz)
 
 build() {
 	cd qap
