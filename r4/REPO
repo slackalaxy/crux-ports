@@ -111,7 +111,6 @@ d:r4-yagst
 d:r4-enrichplot
 d:r4-reactr
 d:r4-pracma
-d:r4-anndata
 d:r4-locfit
 d:r4-bh
 d:r4-biocbaseutils
@@ -1010,9 +1009,6 @@ f:7c4438af91e7422890c2281e42f443a4:r4-reactr/.signature
 f:8db48a9edf0a23d2921c171808a88d29:r4-pracma/Pkgfile
 f:91a778e2e8a9979497db202932c98796:r4-pracma/.footprint
 f:7a6dc56761c0b2c1dd45c6d868b0b1dc:r4-pracma/.signature
-f:0e1e8473ed6141c56ecf1bb602d5b032:r4-anndata/.footprint
-f:8bd18dfb5375a17db7244b37bb9807ca:r4-anndata/Pkgfile
-f:72703c4a03365cb9c01a99a8ea32b9d8:r4-anndata/.signature
 f:f716ee02d625d9f10105add2077e7937:r4-locfit/Pkgfile
 f:203881cfa170fb779e52380e027f26c6:r4-locfit/.footprint
 f:dae1e0fe3faa5f0b37ae1e96ba6aebfd:r4-locfit/.signature
