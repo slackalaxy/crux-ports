@@ -1,11 +1,11 @@
 # Description: Dummy port for the ppetrov repo
 # URL: /usr/ports/ppetrov
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: acpid aiksaurus aline aliview bluecurve calibre caps-coev datamash emboss gbgoffice gblocks1 gnumeric guidance hexchat hplip hyphy jalview lalnview mtpaint mumsa muscle5 ncbi-blast-plus ncbi-datasets ncbi-edirect onlyoffice openvpn otf-apple-sf-mono p5-cpan-distnameinfo pal2nal paml phyml polar-cursor-themes puddletag python3-anndata python3-tinycss2 python3-umap qt5ct qt6gtk2 rstudio-desktop seaview seq-ana seqkit smplayer squizz sshpass strawberry streamripper treebest ucsf-chimerax ugene viber vscodium wps-office xscreensaver yt-dlp zoom-linux zotero
+# Depends on: acpid aiksaurus aline aliview bluecurve calibre caps-coev datamash dia dibuja emboss g3data gbgoffice gblocks1 gnumeric guidance hexchat hplip hyphy jalview lalnview lshw masterpdfeditor4 mtpaint mumsa muscle5 ncbi-blast-plus ncbi-datasets ncbi-edirect onlyoffice openvpn otf-apple-sf-mono p5-cpan-distnameinfo pal2nal paml phyml polar-cursor-themes puddletag python3-array-api-compat python3-h5py python3-legacy-api-wrap python3-scverse-misc python3-tinycss2 python3-zarr qt5ct qt6gtk2 rstudio-desktop seaview seq-ana seqkit smplayer sourcegit squizz sshpass strawberry streamripper treebest ucsf-chimerax ugene viber vscodium wps-office xscreensaver yt-dlp zoom-linux zotero
 
 name=meta-ppetrov
 version=3.8
-release=7
+release=8
 source=()
 
 build() {
