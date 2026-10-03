@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
-/usr/lib/onlyoffice/DesktopEditors-x86_64.AppImage "$@"
+exec /usr/lib/onlyoffice/DesktopEditors-x86_64.AppImage "$@"
