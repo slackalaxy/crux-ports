@@ -1,0 +1,22 @@
+# Description: An encoding detector library
+# URL: https://www.freedesktop.org/software/uchardet/releases/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=uchardet
+version=0.0.8
+release=1
+source=(https://www.freedesktop.org/software/uchardet/releases/uchardet-$version.tar.xz)
+
+build() {
+  cmake -S $name-$version -B build            \
+        -DCMAKE_BUILD_TYPE=Release            \
+        -DCMAKE_INSTALL_PREFIX=/usr           \
+        -DCMAKE_INSTALL_LIBDIR=lib            \
+        -DCMAKE_C_FLAGS_RELEASE="$CFLAGS"     \
+        -DCMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+        -Wno-dev
+
+  cmake --build build
+  DESTDIR="$PKG" cmake --install build
+
+}
