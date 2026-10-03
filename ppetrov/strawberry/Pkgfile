@@ -1,11 +1,11 @@
 # Description: Strawberry music player
 # URL: https://www.strawberrymusicplayer.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fftw gst-plugins-bad gst-plugins-good gst-plugins-ugly kdsingleapplication librsvg pulseaudio
+# Depends on: fftw gst-plugins-bad gst-plugins-good gst-plugins-ugly kdsingleapplication librsvg pulseaudio uchardet
 # Optional: krb5 x264 x265
 
 name=strawberry
-version=1.2.30
+version=1.2.31
 release=1
 source=(https://files.strawberrymusicplayer.org/$name-$version.tar.xz)
 
