@@ -4,10 +4,10 @@
 # Depends on: alsa-lib brotli giflib graphite2 harfbuzz lcms2 xorg-libxrender xorg-libxtst
 
 name=aliview
-version=1.32
+version=1.33
 release=1
 source=(http://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/AliView-$version-linux-x86_64.run
-	$name.desktop)
+	$name.desktop $name.sh)
 
 build() {
 	mkdir $name-$version
@@ -26,9 +26,7 @@ build() {
 	mkdir -p $PKG/usr/lib/$name
 	cp -a * $PKG/usr/lib/$name
 	
-	mkdir -p $PKG/usr/bin
-	cd $PKG/usr/bin
-	ln -s ../lib/$name/bin/AliView aliview
+	install -D -m 0755 $SRC/$name.sh $PKG/usr/bin/$name
 	
 	mkdir -p $PKG/usr/share/{applications,pixmaps}
 	cp $SRC/$name.desktop $PKG/usr/share/applications

@@ -3,7 +3,7 @@ drwxr-xr-x	root/root	etc/revdep.d/
 -rw-r--r--	root/root	etc/revdep.d/aliview
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
-lrwxrwxrwx	root/root	usr/bin/aliview -> ../lib/aliview/bin/AliView
+-rwxr-xr-x	root/root	usr/bin/aliview
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/aliview/
 drwxr-xr-x	root/root	usr/lib/aliview/bin/
@@ -51,6 +51,7 @@ drwxr-xr-x	root/root	usr/lib/aliview/lib/runtime/lib/
 -rw-r--r--	root/root	usr/lib/aliview/lib/runtime/lib/libawt_headless.so
 -rw-r--r--	root/root	usr/lib/aliview/lib/runtime/lib/libawt_xawt.so
 -rw-r--r--	root/root	usr/lib/aliview/lib/runtime/lib/libfontmanager.so
+-rw-r--r--	root/root	usr/lib/aliview/lib/runtime/lib/libfreetype.so
 -rw-r--r--	root/root	usr/lib/aliview/lib/runtime/lib/libjava.so
 -rw-r--r--	root/root	usr/lib/aliview/lib/runtime/lib/libjavajpeg.so
 -rw-r--r--	root/root	usr/lib/aliview/lib/runtime/lib/libjawt.so
