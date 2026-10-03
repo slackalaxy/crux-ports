@@ -1,0 +1,17 @@
+# Description: Git GUI client
+# URL: https://github.com/sourcegit-scm/sourcegit/releases
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: fuse3 xorg
+
+name=sourcegit
+version=2026.21
+release=1
+source=(https://github.com/sourcegit-scm/sourcegit/releases/download/v${version}/sourcegit-${version}.linux.amd64.AppImage
+	$name.desktop $name.sh $name.png)
+
+build() {
+	install -D -m 0755 $SRC/sourcegit-${version}.linux.amd64.AppImage $PKG/usr/lib/$name/sourcegit.AppImage
+	install -D -m 0755 $SRC/$name.sh $PKG/usr/bin/$name
+	install -D -m 0644 $SRC/$name.desktop $PKG/usr/share/applications/$name.desktop
+	install -D -m 0644 $SRC/$name.png $PKG/usr/share/pixmaps/$name.png
+}

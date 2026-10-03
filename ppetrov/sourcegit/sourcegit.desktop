@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=SourceGit
+Comment=Git GUI client
+GenericName=Git GUI
+Exec=sourcegit
+Icon=sourcegit
+Categories=Development;
+Type=Application
+Terminal=false
+StartupNotify=false
