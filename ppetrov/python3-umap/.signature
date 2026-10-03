@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/ppetrov.pub
+RWToVVsIkzFIZQkZ9ZDDoU1pdGQ5Shs+/Zq8VsaIdPVGiGLC6WfHBVaGt9g7Eh4rRHX6yuken19/ctUMNic9Y5GvWlokaQSUTAE=
+SHA256 (Pkgfile) = 68c4faaf3d3301a1e27e741f618fb56b24777d2131588a082ae28573739ead64
+SHA256 (.footprint) = 3682bff28f15775e17adeaeab68f49957c8b0e579d75d029cc2d68edd0d278d9
+SHA256 (python3-umap-0.5.12.tar.gz) = 88eab759b2300b49ca7218f1c35a9036d25cfd2494f18f66fb2980752e187227

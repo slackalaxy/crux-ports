@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZxApoAxCWJJhqqUJg2OgO/mVLC5E7DwMukn/QDM50sA7ElStHAx/uR/xraeNq/0roS2aAQA2bj8jP98BIruoQ8=
-SHA256 (Pkgfile) = 9ed7b28e6130dac073d70d3e462c92bb6f0737f05aa6276d54189d293e9a8405
-SHA256 (.footprint) = 52c5a9a7c3912595dbba978c0745375a1f4a214407d5e6efe9a409dfbecee134
-SHA256 (sourcegit-2026.21.linux.amd64.AppImage) = 2358b40402b8c389a949672a454f968ab9c4934000f5877a87fb2a5d3a5e1ec1
-SHA256 (sourcegit.desktop) = 43a3d9a893c4cb2a75b1f6839d7358d41f1e2b02c35f2ee14f79d11196c8b882
-SHA256 (sourcegit.sh) = 937302b1c4d649af396c572ceb1be5bbc033554e702df960c11cb851a4b59ed0
-SHA256 (sourcegit.png) = 9b1e8f3c89f2a6f26df3e261da2b9feb2e3a8682c9f900dc69b953e11cd380c7

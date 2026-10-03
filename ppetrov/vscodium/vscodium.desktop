@@ -5,4 +5,4 @@ Exec=vscodium
 Icon=vscodium
 StartupNotify=false
 Type=Application
-Categories=Development;
+Categories=Utility;

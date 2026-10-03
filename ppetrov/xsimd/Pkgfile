@@ -1,11 +1,12 @@
-# Description: An encoding detector library
-# URL: https://www.freedesktop.org/software/uchardet/releases/
+# Description: X Single Instruction, Multiple Data
+# URL: https://github.com/xtensor-stack/xsimd/tags
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
 
-name=uchardet
-version=0.0.8
+name=xsimd
+version=14.3.0
 release=1
-source=(https://www.freedesktop.org/software/uchardet/releases/uchardet-$version.tar.xz)
+source=(https://github.com/xtensor-stack/xsimd/archive/$version/$name-$version.tar.gz)
 
 build() {
   cmake -S $name-$version -B build            \

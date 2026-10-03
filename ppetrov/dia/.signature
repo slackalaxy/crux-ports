@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZRcGLuBYUATuiXHdddJvxeZcdS2k+mfjuqMUnFIjWTZYFNaGzwSgI33M1JlfTMNmTbCz1FwoscdjstAFnryrWgk=
-SHA256 (Pkgfile) = 68fce9addf3173e3ecfc3ddc1a7a6a5a47a409dcb4c2f737026c71883932ebe5
-SHA256 (.footprint) = 8d6d8a77055b298e796e5558e1b9660337489b9107cf9c9163795da532cb4ccd
-SHA256 (dia_0.98+git20260221.orig.tar.gz) = 5714be30223efa5f10bc658a66dc06a4935d60c12e5844c4eb98aa6df0ad99b4
-SHA256 (dia_0.98+git20260221-3.debian.tar.xz) = 6295210ce11f0fd7d7ad237491b304bddb70020e2333b3033330ee328c67e1c3

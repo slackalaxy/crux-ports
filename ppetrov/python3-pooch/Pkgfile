@@ -1,0 +1,21 @@
+# Description: A friend to fetch your data files
+# URL: https://pypi.org/project/pooch/#files
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-platformdirs python3-requests
+
+name=python3-pooch
+version=1.9.0
+release=1
+source=(https://files.pythonhosted.org/packages/83/43/85ef45e8b36c6a48546af7b266592dc32d7f67837a6514d111bced6d7d75/pooch-${version}.tar.gz)
+
+build() {
+  cd ${name#*-}-$version
+
+  /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+
+  find $PKG \( -iname "README*" -o \
+               -iname INSTALLER -o \
+               -iname REQUESTED -o \
+               -iname "LICENSE"   \) -delete
+  chmod -R g-w $PKG
+}
