@@ -24,7 +24,6 @@ d:dibuja
 d:emboss
 d:exonerate
 d:g3data
-d:gbgoffice
 d:gblocks
 d:gblocks1
 d:gcc5
@@ -121,6 +120,9 @@ d:yt-dlp
 d:zoom-linux
 d:zotero
 d:bluefish
+d:gbgoffice
+d:artha
+d:wordnet
 f:d5e1b335b6ec29867930ca548a111c24:acpid/.footprint
 f:d3ed865ccccd610aef7d9e2d8025c453:acpid/.signature
 f:0c60d5ed149ca3a28e4c6ee370c7e656:acpid/Pkgfile
@@ -219,10 +221,6 @@ f:c3e7608ad85279a0fa01e5bb92a31677:exonerate/Pkgfile
 f:c47a634e05bca5e15c316eacfb1b786c:g3data/.footprint
 f:254b5e344a26b9691f5ab68e8c87a0d3:g3data/.signature
 f:3a9b6460bc84251225e2f072447a4f87:g3data/Pkgfile
-f:0f0d100fa5aa0b9c117397a89e2b9d11:gbgoffice/.footprint
-f:db7feda974e44fff751a7f5f30f12f07:gbgoffice/.signature
-f:f83c823c981586e3353a0ce8f2d898c9:gbgoffice/Pkgfile
-f:edbcdad55233a4e77f6c7d485a2f38f3:gbgoffice/gbgoffice.desktop
 f:532a0314c970a7249a6c7c0d1556a258:gblocks/.footprint
 f:e273721d81cdb3e53d91ae85128fb1c0:gblocks/.signature
 f:683d346f13280554c428627d67cb1629:gblocks/Pkgfile
@@ -597,3 +595,13 @@ f:4c62dfd60de4225f05bfffc57129df4b:zotero/zotero.desktop
 f:e02fe3e5c6e7656012de2d95b3e1a13a:bluefish/Pkgfile
 f:ce1dde3d939f947eb1272f2bc6ea8110:bluefish/.footprint
 f:2ec5557964b251b6e35b0e25558aadd2:bluefish/.signature
+f:0f0d100fa5aa0b9c117397a89e2b9d11:gbgoffice/.footprint
+f:db7feda974e44fff751a7f5f30f12f07:gbgoffice/.signature
+f:f83c823c981586e3353a0ce8f2d898c9:gbgoffice/Pkgfile
+f:edbcdad55233a4e77f6c7d485a2f38f3:gbgoffice/gbgoffice.desktop
+f:8ec9b637829db07a34b373736a140e37:artha/Pkgfile
+f:da5d917b5e69ced51a2f79ae7f3a4838:artha/.footprint
+f:4453fe2d072bc688a01b9004894f1792:artha/.signature
+f:8e6c660f43701c237fd05d2b49625f80:wordnet/Pkgfile
+f:0f7bca09818b2dbf836a9598422d0925:wordnet/.footprint
+f:74929a83afb0692f66f1e3c92a95c2a3:wordnet/.signature
