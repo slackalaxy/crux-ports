@@ -7,7 +7,7 @@
 
 name=hplip
 version=3.26.6
-release=1
+release=2
 source=(http://downloads.sourceforge.net/project/hplip/hplip/$version/hplip-$version.tar.gz
 	0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch
 	0018-Allow-non-JPEG-scanning-on-the-HP-DeskJet-3520-All-i.patch
@@ -96,7 +96,10 @@ build() {
 	  --enable-qt5 \
 	  --enable-policykit \
 	  --enable-cups-ppd-install
-
+	
+	sed -i "s:Utility:System:" $name.desktop.in
+	sed -i "s:Utility:System:" hp-uiscan.desktop.in
+	
 	make
 	make install DESTDIR=$PKG rulesdir=/lib/udev/rules.d
 
