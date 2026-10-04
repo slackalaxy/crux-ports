@@ -1,11 +1,11 @@
-# Description: lshw: HardWare LiSter for Linux
+# Description: LiSt HardWare
 # URL: https://github.com/lyonel/lshw/tags
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: gtk3 polkit xorg-libxcomposite xorg-libxcursor xorg-libxinerama
 
 name=lshw
 version=B.02.20
-release=1
+release=2
 source=(https://github.com/lyonel/lshw/archive/$version/$name-$version.tar.gz
 	$name.desktop $name.png $name-pkexec.sh)
 
@@ -19,7 +19,7 @@ build() {
 	make DESTDIR=$PKG install-gui
 	
 	# polkit wrapper
-	install $SRC/$name-pkexec.sh -D -m 755 $PKG/usr/bin/$name-pkexec
+	install -D -m 0755 $SRC/$name-pkexec.sh $PKG/usr/bin/$name-pkexec
 	
 	mkdir -p $PKG/usr/share/{applications,pixmaps}
 	cp -a $SRC/$name.desktop $PKG/usr/share/applications
