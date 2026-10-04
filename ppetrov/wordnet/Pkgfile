@@ -1,0 +1,42 @@
+# Description: Large lexical database of English
+# URL: https://wordnet.princeton.edu/download/current-version
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=wordnet
+version=3.1
+_libver=3.0
+release=1
+source=(https://wordnetcode.princeton.edu/${_libver}/WordNet-${_libver}.tar.bz2
+	https://wordnetcode.princeton.edu/wn${version}.dict.tar.gz)
+
+build() {
+	cd WordNet-${_libver}
+	
+	# The headers first, so the library points to the right location
+	# of the dictionaries.
+	sed -i 's:/usr/local/WordNet-3.0/dict:/usr/share/wordnet/dict:' include/wn.h
+	install -D -m 0644 include/wn.h $PKG/usr/include/wn.h
+	install -D -m 0644 include/wngrind.h $PKG/usr/include/wngrind.h
+	
+	# We build the lib only. This has no requirement on tcl/tk.
+	cd lib
+	gcc -O2 -fPIC -DUNIX -I../include -c \
+	binsrch.c morph.c search.c wnglobal.c wnhelp.c wnrtl.c wnutil.c
+
+	gcc -shared -o libwordnet.so.3.0 *.o -Wl,-soname,libwordnet.so.3
+	
+	install -D -m 0644 libwordnet.so.3.0 $PKG/usr/lib/libwordnet.so.3.0
+	
+	# Bundle the updated dictionaries db, distributed separately.
+	mkdir -p $PKG/usr/share/wordnet/dict
+	chmod 0644 $SRC/dict/*
+	cp -a $SRC/dict/* $PKG/usr/share/wordnet/dict/
+	
+	# Remove the huge log file(s) that are not needed at runtime.
+	rm -f $PKG/usr/share/wordnet/dict/{log.*}
+	
+	cd $PKG/usr/lib
+	ln -s libwordnet.so.3.0 libwordnet.so.3
+	ln -s libwordnet.so.3   libwordnet.so
+}
