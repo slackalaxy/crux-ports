@@ -1,0 +1,24 @@
+# Description: A powerful editor
+# URL: http://bluefish.openoffice.nl/index.html
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: brotli graphite2 gtk3 libxkbcommon wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
+
+name=bluefish
+version=2.4.2
+release=1
+source=(http://sourceforge.net/projects/bluefish/files/bluefish/$version/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr \
+		--disable-nls \
+		--disable-update-databases \
+		--disable-xml-catalog-update \
+		--disable-spell-check
+	
+	make
+	make DESTDIR=$PKG install
+	
+	rm -rf $PKG/usr/share/{doc,xml}
+}
