@@ -120,6 +120,7 @@ d:xscreensaver
 d:yt-dlp
 d:zoom-linux
 d:zotero
+d:bluefish
 f:d5e1b335b6ec29867930ca548a111c24:acpid/.footprint
 f:d3ed865ccccd610aef7d9e2d8025c453:acpid/.signature
 f:0c60d5ed149ca3a28e4c6ee370c7e656:acpid/Pkgfile
@@ -299,9 +300,9 @@ f:3c443da7d0e777e7a5265e2a8ed196af:libgsf/Pkgfile
 f:0ec8c3b76b905edd7e53ba08e354b7fc:libgsf/.footprint
 f:224f2cc88348353be7b1a3efa377fc64:libgsf/.signature
 f:d4eb49cc8aad4b45d8fbce55bd19b2e4:lshw/.footprint
-f:31f0d9465069d5729e984769e81c6ad6:lshw/.signature
-f:170c6e3798d59505d411b287db390792:lshw/Pkgfile
-f:ddc1118023db3a84adcdf3fdd921276f:lshw/lshw-pkexec.sh
+f:533d35176b6be847bddce457c8957cdf:lshw/.signature
+f:6d2226882e0fe4f3dad7720e589b4baf:lshw/Pkgfile
+f:2dd93b08f3d07d0a516cb5ccf5178020:lshw/lshw-pkexec.sh
 f:bf8f0190175132629baaa56906e3f0b2:lshw/lshw.desktop
 f:065f5d1f5889c5bdbf6e1795e578b17c:lshw/lshw.png
 f:b4deee61b95817dc9b7a11ebcae88aea:mafft/.footprint
@@ -593,3 +594,6 @@ f:b8a7ebc38f47c467acd0f7a315d28bb1:zotero/.footprint
 f:bd4dbf55ff21a2087f0fcc58e9088f63:zotero/.signature
 f:e9ca86f84b2437a6d6503aa623bb987a:zotero/Pkgfile
 f:4c62dfd60de4225f05bfffc57129df4b:zotero/zotero.desktop
+f:e02fe3e5c6e7656012de2d95b3e1a13a:bluefish/Pkgfile
+f:ce1dde3d939f947eb1272f2bc6ea8110:bluefish/.footprint
+f:2ec5557964b251b6e35b0e25558aadd2:bluefish/.signature
