@@ -257,14 +257,14 @@ f:456e4dd16b39cc10ff6567dfa904bfb8:hexchat/Automatically-reconnect-when-there-is
 f:769843665a592fc9e3e6e2c87eea0244:hexchat/Do-not-insert-an-extra-space-on-all-lines-when-loading-scrollback-with-colours.patch
 f:8550a34a30f2dabfc961f3eed937c718:hexchat/Pkgfile
 f:523176702799764b91cf1383c00e5414:hplip/.footprint
-f:c6a6947eedebd9d91d61a0f6fe5f9530:hplip/.signature
+f:70fc872d611286f31b28df29a19a3663:hplip/.signature
 f:4953df81007bb1b329a73db97ade451d:hplip/0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch
 f:043425765320d724f22b59da307f7f00:hplip/0018-Allow-non-JPEG-scanning-on-the-HP-DeskJet-3520-All-i.patch
 f:da68c9c354415f5ab421c7670f497687:hplip/0021-Add-include-cups-ppd.h-in-various-places-as-CUPS-2.2.patch
 f:829d3d0b7e37e454328b6ec3ee2717a3:hplip/0023-Fix-handling-of-unicode-filenames-in-sixext.py.patch
 f:57cb2c3585f2eddc73e2f0f267cc6464:hplip/0025-Remove-all-ImageProcessor-functionality-which-is-clo.patch
 f:92770606694a411cc0f4ac8faa7044a2:hplip/0026-remove-unicode-space-from-models.dat
-f:6d975fc6422b99cde28c629bf399ed74:hplip/Pkgfile
+f:0ec49a28f7a31144e227d4d08f2ffdd3:hplip/Pkgfile
 f:627974e8921577fac5fa573511949133:hplip/fix-desktop-file.patch
 f:316946205379905293453de130a04ff5:hplip/hplip-covscan.patch
 f:1f587d61b073b54a0e0e303cd5b15be9:hplip/hplip-gcc15-stdc23.patch
