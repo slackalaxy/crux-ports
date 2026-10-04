@@ -1,0 +1,19 @@
+# Description: An open source thesaurus
+# URL: https://sourceforge.net/projects/artha/files/artha/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk xorg-libxdamage wordnet
+
+name=artha
+version=1.0.5
+release=1
+source=(https://sourceforge.net/projects/artha/files/artha/$version/artha-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+	
+	./configure --prefix=/usr
+	make
+	make install DESTDIR=$PKG
+	
+	sed -i "s:Utility:Office:" $PKG/usr/share/applications/$name.desktop
+}
