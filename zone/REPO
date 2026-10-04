@@ -13,6 +13,7 @@ d:ports-extra
 d:etc-fstab_labels
 d:battery-limits
 d:ttf-cascadia
+d:etc-pam-polkit
 d:backgrounds-vladstudio
 d:backgrounds-assorted
 d:prt-supplements
@@ -111,6 +112,11 @@ f:95b191dfd63d8cdfdb2d96d7c7ff0f2b:ttf-cascadia/Pkgfile
 f:39cc4032937a8a4dfe97aaed58894ea3:ttf-cascadia/post-install
 f:a055e8ad26d94bb4cdd2c83385502293:ttf-cascadia/.footprint
 f:186cca68fc8b466c49d1cd1cbb3e9f83:ttf-cascadia/.signature
+f:108b5cfe48c258c4ef9fce5bc749b7e2:etc-pam-polkit/Pkgfile
+f:37b891dcfc8f510b971d11a2a6f22b94:etc-pam-polkit/polkit-1.modified
+f:8ecb4ba9ba2d33149c35da08a77510fd:etc-pam-polkit/README
+f:9809c454c027841f68a16ef48b12161b:etc-pam-polkit/.footprint
+f:04ce5a61b4322a8161b7b28f0e729eb6:etc-pam-polkit/.signature
 f:a4c2b91895adbb35d54b1e8ea5eea0f5:backgrounds-vladstudio/Pkgfile
 f:3520a4b011b3df2d578d2fb6cb644f8f:backgrounds-vladstudio/README
 f:ad952d7bd54a270228ddfea3ebb06c0b:backgrounds-vladstudio/.footprint
