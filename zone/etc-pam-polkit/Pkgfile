@@ -1,0 +1,12 @@
+# Description: Custom /etc/pam.d/polkit-1
+# URL: https://git.crux.nu/ports/opt/issues/63
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=etc-pam-polkit
+version=3.8
+release=1
+source=(polkit-1.modified)
+
+build() {
+  install -D -m0644 $SRC/polkit-1.modified $PKG/etc/pam.d/polkit-1.modified
+}

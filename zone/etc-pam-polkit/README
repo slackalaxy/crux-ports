@@ -1,0 +1,7 @@
+# Modified for CRUX + polkit 127 + ConsoleKit
+# Original "session include common-session" caused:
+
+# ERROR:../polkit-127/src/programs/pkexec.c:144:pam_conversation_function: code should not be reached
+# Bail out! ERROR:../polkit-127/src/programs/pkexec.c:144:pam_conversation_function: code should not be reached
+#
+# Check: https://git.crux.nu/ports/opt/issues/63

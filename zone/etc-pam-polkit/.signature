@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/zone.pub
+RWRPokwW0IImwejPKVUsX9yhO7a0+ZEsbQwNqm5BzFzoFzjXTRky9KUtbRXE0ypASjH7NM5fz8+GGMd19OfCMeqol2+hN60JfAQ=
+SHA256 (Pkgfile) = c8ea84c28784ac4ac0115e7976a3a69e683e03bcfb92308dc12f07605554af7e
+SHA256 (.footprint) = eb20c664fe0cd96d6cae01fa9bd06b6964f06852e52eb0af24d3f5526e027088
+SHA256 (polkit-1.modified) = 034d893c8b6ededd620514a0c3954475d069fc1a45ab53886cff3e1e57837d72
