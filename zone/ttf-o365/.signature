@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwXoaZpnML+fXMb94ab9QxgVrKucl4L/0V/pxPVW/i9T8s9Mte+BtzL15iRIxO/UKq7V3lORTl2o0m1Af+Sk3UgM=
-SHA256 (Pkgfile) = c73e8d5911ed817af91dfb6085f9238cec0b3b36b2fec37ebbc7893f4eaa0f48
+RWRPokwW0IImwZeTz4J9t9SU3H0GqUJHUNjHh9Yx6dq7sNbPbs2R+Qxw0U6K5w3r3wp6BTAa9pbVRilkfzP0l3cG1jYkc1aTMwQ=
+SHA256 (Pkgfile) = 28fd34d688181d5493de3795457628f9fe858f434aee0b8b9addb8aab3626b82
 SHA256 (.footprint) = f16d24fb035ce24aa58e2e810e71549efbba23f85cc74c84f7c21b32f0d46fcf
-SHA256 (Microsoft_365_and_Office_16.106.26020821_Installer.pkg) = a2a94b9af07aba897850972a57bc1320da605462611714b54c34ca8d19398e03
+SHA256 (Microsoft_365_and_Office_16.113.26092714_Installer.pkg) = 2c7d6c9157d886b775a9a326c60e0638dfef137d039bad7ee9043232cfb65e8b
