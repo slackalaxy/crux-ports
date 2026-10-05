@@ -9,3 +9,6 @@ Try the following:
 	
 	enableCefOsrMode=false
 	xwayland=false
+
+
+- Disable composiotor.
