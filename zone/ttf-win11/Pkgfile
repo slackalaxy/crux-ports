@@ -4,13 +4,13 @@
 # Depends on: fontforge p7zip
 
 name=ttf-win11
-version=25H2
+version=26H2
 release=1
-source=(https://software-static.download.prss.microsoft.com/dbazure/888969d5-f34g-4e03-ac9d-1f9786c66749/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
+source=(https://software-static.download.prss.microsoft.com/dbazure/26300.9457.260913-1737.26h2_ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
  	ttc-extract.py ttf-auto-fix.py)
 
 	build() {
-	7z x $SRC/26100.1742.240906-0331.ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
+	7z x $SRC/26300.9457.260913-1737.26h2_ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
 	mkdir -p $PKG/usr/share/fonts/microsoft
 	cd $PKG/usr/share/fonts/microsoft
 	7z e -aoa $SRC/sources/install.wim Windows/Fonts/*.{ttf,ttc}
