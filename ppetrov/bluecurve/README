@@ -1,6 +1,17 @@
-Source /etc/profile.d/bluecurve.sh to disable hiding of scrollbars in
-GTK3.
+To disable hiding of scrollbars in GTK3 applications, source this:
 
-If primary paste somehow does not work, do:
+    /etc/profile.d/bluecurve.sh
 
-$ gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
+If primary paste somehow does not work, do this for your user:
+
+    gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
+
+If fonts look weird in GTK4 applications, create this file...
+
+    ~/.config/gtk-4.0/settings.ini
+
+...containing the following:
+
+[Settings]
+gtk-hint-font-metrics=true
+gtk-font-rendering=manual
