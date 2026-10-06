@@ -7,11 +7,6 @@ lrwxrwxrwx	root/root	etc/fonts/conf.d/40-wps-office.conf -> /etc/fonts/conf.avai
 -rw-r--r--	root/root	etc/fonts/wps-office-fonts.conf
 drwxr-xr-x	root/root	etc/revdep.d/
 -rw-r--r--	root/root	etc/revdep.d/wps-office
-drwxr-xr-x	root/root	etc/xdg/
-drwxr-xr-x	root/root	etc/xdg/autostart/
-drwxr-xr-x	root/root	etc/xdg/menus/
-drwxr-xr-x	root/root	etc/xdg/menus/applications-merged/
--rwxr-xr-x	root/root	etc/xdg/menus/applications-merged/wps-office.menu
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/wps-office

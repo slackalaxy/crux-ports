@@ -1,5 +1,5 @@
 # Description: WPS Office for Linux
-# URL: https://www.wps.cn/product/wpslinux#
+# URL: https://www.wps.cn/product/wpslinux
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: avahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland xorg-libxres
 
@@ -8,7 +8,7 @@ version=12.1.2.28080
 _preread=765474
 _elogind=255.5
 _spellch=24.8.7.1
-release=2
+release=3
 source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${version:7:5}/wps-office_${version}.AK.preread.sw.Personal_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
 	https://github.com/slackalaxy/wps-office-dicts/archive/${_spellch}/wps-office-dicts-${_spellch}.tar.gz
@@ -121,6 +121,9 @@ build() {
 	rm -rf $PKG/usr/lib/wps-office/office6/libbz2.so
 	rm -rf $PKG/usr/lib/wps-office/office6/{libstdc++.so,libstdc++.so*}
 	rm -rf $PKG/usr/lib/wps-office/office6/{libjpeg.so,libjpeg.so*}
+	
+	# We don't need this, actually, since we have our own wrapper
+	rm -rf $PKG/etc/xdg
 	
 	# Install out custom FONTCONFIG_FILE
 	install -D -m 0644 $SRC/$name-fonts.conf $PKG/etc/fonts/$name-fonts.conf

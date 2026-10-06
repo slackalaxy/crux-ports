@@ -1,10 +1,10 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZY+L0zIiWbtNUOAN25WELPtLrWkEsXFRmm3Rgq0JLU2ZIraMyUOktNcAlHtxrrlwqRXxMEPyj3/BQT58xRnmEgE=
-SHA256 (Pkgfile) = fefe192df2b79ba3311b96f5bc269e9635883140af2f5dec3b0a3fce1049993a
-SHA256 (.footprint) = 5d5f8b07ed76200d26d9e16231950e212d0773d44d361869ba5bde9afc74eebd
+RWToVVsIkzFIZUrG3rkFsjaN3S8wl0xJTTHoTrxfesecayAZ0Hf0z1cjidSplt8+R75TL1Dr6h11ExwaNcfgB1is1p3VtAjgZQs=
+SHA256 (Pkgfile) = b3cd20f543b47fa4c85cadfcfce486b90bec53b9a213770e427fb73a88ff6ac6
+SHA256 (.footprint) = cac6f164acdd2ef4782066f0d66e7c1fccea7797e250a49df4064661ab776175
 SHA256 (wps-office_12.1.2.28080.AK.preread.sw.Personal_765474_amd64.deb) = 2fa999f60a71e21093ab49ef6d7f61d7668c844bfebf30907d2c290e460f9be0
 SHA256 (v255.5.tar.gz) = ef83beb381064516c29290f0fedcbbe36de052f313d72d120eade69ab26b82fe
 SHA256 (wps-office-dicts-24.8.7.1.tar.gz) = 2e5c49b7b42d1bb21d3935e3a9eadb1974f366d8c7fe1be01562af621ab488ff
 SHA256 (wps-office.sh) = 165a004e18d7c8c617103d89307eba8451aaab2926606f3f84f5d22bb028f045
 SHA256 (wps-office.desktop) = ee59d60468af74726b586d03d75a3a188a594b3c181f7d37685c9876fc6e7a6f
-SHA256 (wps-office-fonts.conf) = bc96cad431e50e6b08d7f37b3b2d4ad00822845891c14800568efaed5b436264
+SHA256 (wps-office-fonts.conf) = 3f8fa79d25f68fd3367b20cecc9039901a0b88081e685efdd1995e01d7ff73fb
