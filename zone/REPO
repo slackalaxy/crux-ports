@@ -14,6 +14,7 @@ d:etc-fstab_labels
 d:battery-limits
 d:ttf-cascadia
 d:etc-pam-polkit
+d:ttf-win11
 d:backgrounds-vladstudio
 d:backgrounds-assorted
 d:prt-supplements
@@ -28,7 +29,6 @@ d:blacklist-nouveau
 d:pbzx
 d:xar
 d:ttf-o365
-d:ttf-win11
 d:ttf-sierra
 d:ttf-aptos
 d:cpan2crux
@@ -117,6 +117,13 @@ f:37b891dcfc8f510b971d11a2a6f22b94:etc-pam-polkit/polkit-1.modified
 f:dc70c801d43ffd3837c2961051cdfeee:etc-pam-polkit/README
 f:9809c454c027841f68a16ef48b12161b:etc-pam-polkit/.footprint
 f:04ce5a61b4322a8161b7b28f0e729eb6:etc-pam-polkit/.signature
+f:1534dd998d3d8e6922b0829ac45c4538:ttf-win11/.footprint
+f:61815f80d37c5c7584956dab296cdd9d:ttf-win11/.signature
+f:c454d6dceb41abf2584f12c5ac43f357:ttf-win11/Pkgfile
+f:18f45cc14276cd99a00596144775afeb:ttf-win11/README
+f:39cc4032937a8a4dfe97aaed58894ea3:ttf-win11/post-install
+f:d684e345661fc11d01f8523ab1049fe2:ttf-win11/ttc-extract.py
+f:4c0dac74d3a87bf2fd54662faf924023:ttf-win11/ttf-auto-fix.py
 f:a4c2b91895adbb35d54b1e8ea5eea0f5:backgrounds-vladstudio/Pkgfile
 f:3520a4b011b3df2d578d2fb6cb644f8f:backgrounds-vladstudio/README
 f:ad952d7bd54a270228ddfea3ebb06c0b:backgrounds-vladstudio/.footprint
@@ -187,13 +194,6 @@ f:1b26bf9e8723f3bf3afd3919ffe9cfbd:ttf-o365/.footprint
 f:bc08fa28db5bab55804145306589ebf3:ttf-o365/.signature
 f:39cc4032937a8a4dfe97aaed58894ea3:ttf-o365/post-install
 f:96ac44576ce5176011afa3fc5787aac5:ttf-o365/README
-f:61815f80d37c5c7584956dab296cdd9d:ttf-win11/.signature
-f:c454d6dceb41abf2584f12c5ac43f357:ttf-win11/Pkgfile
-f:18f45cc14276cd99a00596144775afeb:ttf-win11/README
-f:39cc4032937a8a4dfe97aaed58894ea3:ttf-win11/post-install
-f:1534dd998d3d8e6922b0829ac45c4538:ttf-win11/.footprint
-f:d684e345661fc11d01f8523ab1049fe2:ttf-win11/ttc-extract.py
-f:4c0dac74d3a87bf2fd54662faf924023:ttf-win11/ttf-auto-fix.py
 f:0c17128580ee5460e47b95ff983885ee:ttf-sierra/Pkgfile
 f:187548d673a33dd5a85ce015baea238e:ttf-sierra/post-install
 f:96ac44576ce5176011afa3fc5787aac5:ttf-sierra/README
