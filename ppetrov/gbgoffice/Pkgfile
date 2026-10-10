@@ -1,37 +1,17 @@
-# Description: Bgoffice dictionary frontend
-# URL: http://gbgoffice.info/
+# Description: GBGoffice dictionary GTK3 frontend
+# URL: http://github.com/slackalaxy/gbgoffice3
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtkmm2
+# Depends on: brotli graphite2 gtkmm3 libxkbcommon xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
 
 name=gbgoffice
-version=1.4
-_debian=12
+version=6e68645
 release=1
-source=(https://ftp.debian.org/debian/pool/main/g/gbgoffice/gbgoffice_${version}.orig.tar.gz
-	https://ftp.debian.org/debian/pool/main/g/gbgoffice/gbgoffice_${version}-${_debian}.debian.tar.xz
-	http://downloads.sourceforge.net/bgoffice/full-pack.tar.bz2
-	$name.desktop)
+source=(https://github.com/slackalaxy/gbgoffice3/archive/$version/gbgoffice3-6e686456f9095392021717cacff68fbb73f855ca.tar.gz)
 
 build() {
-	cd $name-$version
-	
-	# Thanks to Debian for the source and patches
-	cat $SRC/debian/patches/series | while read -r i ; do
-		patch -p1 -i $SRC/debian/patches/$i
-	done
+	cd gbgoffice3-${version}*
 	
 	./configure --prefix=/usr
-
 	make
-	make -k check
 	make install DESTDIR=$PKG
-	
-	mkdir -p $PKG/usr/share/applications
-	cp $SRC/$name.desktop $PKG/usr/share/applications
-
-	# install dictionaries
-	cd $SRC/full-pack/data
-	for f in * ; do
-		install -m 0644 $f $PKG/usr/share/bgoffice/$f
-	done
 }
