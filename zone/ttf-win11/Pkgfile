@@ -1,7 +1,7 @@
 # Description: Microsoft Windows 11 fonts
 # URL: https://www.microsoft.com/en-us/evalcenter/evaluate-windows-11-enterprise
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fontforge p7zip
+# Depends on: fontforge 7z
 
 name=ttf-win11
 version=26H2
