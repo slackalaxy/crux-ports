@@ -122,6 +122,7 @@ d:artha
 d:wordnet
 d:gbgoffice
 d:aiksaurus
+d:7z
 f:d5e1b335b6ec29867930ca548a111c24:acpid/.footprint
 f:d3ed865ccccd610aef7d9e2d8025c453:acpid/.signature
 f:0c60d5ed149ca3a28e4c6ee370c7e656:acpid/Pkgfile
@@ -336,8 +337,8 @@ f:6de7b892f0ad37cd6074f3159f9f7a1c:openvpn/.signature
 f:21d63e69b6db26d00ec0ed6ae43166f9:openvpn/Pkgfile
 f:6f18342ce04684d2557ecc9f736db8fd:openvpn/README
 f:43111237ccbcb8933be0cab5bff23d98:otf-apple-sf-mono/.footprint
-f:53729637d92a3ec6835bd9a307d8c188:otf-apple-sf-mono/.signature
-f:1ffa5eb68aaeb29048f5c9fb0ec33713:otf-apple-sf-mono/Pkgfile
+f:56b2e07c89b11b5e09eccbe7e34b18b5:otf-apple-sf-mono/.signature
+f:161ce8667ea10cf53c190f00b8c06d0b:otf-apple-sf-mono/Pkgfile
 f:ff9c856e9d2635fbbc6675cc3da76b84:otf-apple-sf-mono/post-install
 f:fe195d76c0c50b73286abc21bb1c2b4e:p5-bioperl/.footprint
 f:24b6a59815e260aa665dd410b9f9a8d5:p5-bioperl/.signature
@@ -597,3 +598,6 @@ f:0116eee5046f069c4dbcee29492f996b:gbgoffice/.signature
 f:0a559927dfab27ddfba7ec637159ee53:aiksaurus/Pkgfile
 f:9d8ed50b56aeb4d76e8dfdae633a2f41:aiksaurus/.footprint
 f:f624290048420517abab84dd4919b573:aiksaurus/.signature
+f:732ef6d3d51f4865b042202c41dd5390:7z/Pkgfile
+f:9a94d348eb54b527efbaed9080c0dca4:7z/.footprint
+f:4cd6e18bfe4cd05b21ee45481965882c:7z/.signature
