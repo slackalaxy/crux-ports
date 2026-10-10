@@ -1,7 +1,7 @@
 # Description: Base Mac OS X Sierra fonts
 # URL: https://support.apple.com/en-us/102662
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p7zip pbzx fontforge
+# Depends on: 7z pbzx fontforge
 
 name=ttf-sierra
 version=10.12
