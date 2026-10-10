@@ -1,7 +1,7 @@
 # Description: Office 365 fonts
 # URL: https://www.microsoft.com/en-us/microsoft-365/download-office
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p7zip fontforge ttf-win11
+# Depends on: 7z fontforge ttf-win11
 
 name=ttf-o365
 version=16.113.26092714
