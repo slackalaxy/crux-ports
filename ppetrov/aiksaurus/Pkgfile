@@ -1,27 +1,21 @@
-# Description: CLI/GTK thesaurus
-# URL: https://sourceforge.net/projects/aiksaurus/files/aiksaurus/
+# Description: CLI/GTK3 thesaurus
+# URL: https://github.com/slackalaxy/gaiksaurus3
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk xorg-libxdamage
+# Depends on: brotli graphite2 gtk3 libxkbcommon xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
 
 name=aiksaurus
-version=1.2.1
+version=fe88099
 release=1
-source=(https://sourceforge.net/projects/aiksaurus/files/$name/$version/$name-$version.tar.gz
-	include-fixes.patch
-	gaiksaurus.png
-	gaiksaurus.desktop)
+source=(https://github.com/slackalaxy/gaiksaurus3/archive/$version/gaiksaurus3-fe880996189553487f5d12a685d702b4c787f914.tar.gz)
 
 build() {
-	cd $name-$version
-	patch -p1 < $SRC/include-fixes.patch
-	CXXFLAGS+=' -std=c++14' \
+	cd gaiksaurus3-${version}*
 	./configure --prefix=/usr
 	make
-	make install DESTDIR=$PKG
-	
-	mkdir -p $PKG/usr/share/{pixmaps,applications}
-	cp $SRC/gaiksaurus.png $PKG/usr/share/pixmaps
-	cp $SRC/gaiksaurus.desktop $PKG/usr/share/applications
+	make DESTDIR="$PKG" install
 	
 	rm -f $PKG/{,usr/}lib/*.la
+	
+	# start in systray by default
+	sed -i 's:Exec=gaiksaurus:Exec=gaiksaurus -t:' $PKG/usr/share/applications/gaiksaurus.desktop
 }
