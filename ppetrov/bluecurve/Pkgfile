@@ -5,7 +5,7 @@
 
 name=bluecurve
 version=3.1.0
-release=1
+release=2
 source=(https://github.com/neeeeow/Bluecurve/archive/v$version/Bluecurve-$version.tar.gz)
 
 build() {
@@ -20,7 +20,7 @@ build() {
   cmake --build build
   DESTDIR="$PKG" cmake --install build
   
-  sed -i 's:Inherits=mate,gnome,crystalsvg:Inherits=gnome:' $PKG/usr/share/icons/Bluecurve/index.theme
+  #sed -i 's:Inherits=mate,gnome,crystalsvg:Inherits=gnome:' $PKG/usr/share/icons/Bluecurve/index.theme
   
   # Fix the following warning:
   # Gtk-WARNING **: 10:33:05.470: Theme parsing error: gtk-style.css:127:18:
