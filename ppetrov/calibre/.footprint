@@ -192,6 +192,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/apsw.__init__.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/apsw._unicode.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/array.so
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/avif.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/bcj._bcj.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/binascii.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/bzzdec.so
@@ -292,6 +293,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libavdevice.so.61
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libavfilter.so.10
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libavformat.so.61
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libavif.so.16
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libavutil.so.59
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libbrotlicommon.so.1
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libbrotlidec.so.1
@@ -300,6 +302,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libcalibre-launcher.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libchm.so.0
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libcrypto.so.3
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libdav1d.so.7
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libdbus-1.so.3
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libdbus-glib-1.so.2
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libdeflate.so.0
@@ -352,6 +355,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/lib/calibre-extensions/
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libwebpmux.so.3
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libxml2.so.16
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libxslt.so.1
+-rwxr-xr-x	root/root	usr/lib/calibre/lib/libyuv.so
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libz.so.1
 -rwxr-xr-x	root/root	usr/lib/calibre/lib/libzstd.so.1
 drwxr-xr-x	root/root	usr/lib/calibre/lib/ossl-modules/
@@ -760,6 +764,7 @@ drwxr-xr-x	root/root	usr/lib/calibre/resources/images/textures/
 drwxr-xr-x	root/root	usr/lib/calibre/resources/jacket/
 -rw-r--r--	root/root	usr/lib/calibre/resources/jacket/stylesheet.css
 -rw-r--r--	root/root	usr/lib/calibre/resources/jacket/template.xhtml
+-rw-r--r--	root/root	usr/lib/calibre/resources/kokoro-voices.json
 drwx------	root/root	usr/lib/calibre/resources/locales/
 drwxr-xr-x	root/root	usr/lib/calibre/resources/localization/
 -rw-r--r--	root/root	usr/lib/calibre/resources/localization/iso3166.calibre_msgpack
