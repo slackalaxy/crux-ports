@@ -1,0 +1,15 @@
+# Description: 7-Zip is a file archiver with a high compression ratio.
+# URL: https://sourceforge.net/projects/sevenzip/files/7-Zip/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=7z
+version=26.04
+release=1
+source=(https://sourceforge.net/projects/sevenzip/files/7-Zip/${version}/7z${version/./}-linux-x64.tar.xz)
+
+build() {
+  install -D -m 755 7zz $PKG/usr/bin/7zz
+  cd $PKG/usr/bin
+  ln -s 7zz 7z
+}
