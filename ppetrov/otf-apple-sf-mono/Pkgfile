@@ -1,7 +1,7 @@
 # Description: Apple San Francisco mono font
 # URL: https://developer.apple.com/fonts/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: p7zip
+# Depends on: 7z
 
 name=otf-apple-sf-mono
 version=6.0.1.1726709071
