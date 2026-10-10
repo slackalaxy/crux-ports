@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/r4.pub
+RWQFYeZQgQH/Yox7RpnYEHtJCqbAvnXObAnar3MyVagRjJ/s5z4OmsxRu4XoTo3me1EBKGv/BOUXEx9ja1WtZ+cW1PVZ/Uhn8Q0=
+SHA256 (Pkgfile) = 60038bd8a0e738a370d62352577f5d126a2a86b770f5a9a95f632f3dfacf6540
+SHA256 (.footprint) = 20006ad2204d54e84b759fd0be323ea91a2c98117b038aa4c020807d663806be
+SHA256 (RcppThread_2.4.0.tar.gz) = 29e8955a0e1cad0775bcb6f29bde76f34cc2e1fa9c5f5d5d8d4962b91c3feaeb

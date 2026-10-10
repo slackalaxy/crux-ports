@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YnXQgYLI5vfLQPYBP0CyEWE6H6Bf3undstvgRnx16eC5Xx8dZspwp3qNppwwcto07gqmIgKEqUP6J3syH8Fx9Ac=
-SHA256 (Pkgfile) = 7ac0cea051266eedfdee50dd40377a9a036e6edda9e44ccf73da386d394b5235
-SHA256 (.footprint) = 1a54231b3009c7a6146d09a773fdf8e94a9b871d022b5bb5cd9fef67f8d5efd4
-SHA256 (ggthemes_6.0.0.tar.gz) = 0b9c7b0583f6ce224bf1819fabbd92efa4f3c938ed7077d388153832fc1e8208
+RWQFYeZQgQH/YrxhxQR6NEFV2DXElq63guvlxnC1zxBpYgFEgx1SsJRbO2d0LVuFZwjludn0fdmcVFd4wgymuIBmPOeKawZvCgo=
+SHA256 (Pkgfile) = 50220de348da5ab5665963c64bc8d0ad4bb3f7f93563359cffd7382661564a04
+SHA256 (.footprint) = e6199cfd0bf0e15d4c1aad90fb7fe097cdf57597e2fd7a8d6916574da811a3ba
+SHA256 (ggthemes_7.0.0.tar.gz) = 3027f347541a7cd77d72af688c85d24c863814758e4e3d4dfa0a0642ed0c104f

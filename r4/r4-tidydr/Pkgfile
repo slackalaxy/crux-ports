@@ -1,11 +1,11 @@
-# Description: R module tidydr
+# Description: R-package tidydr
 # URL: https://cran.r-project.org/web/packages/tidydr
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-cluster r4-ggfun r4-ggplot2 r4-rlang
-# Optional: r4-knitr r4-prettydoc r4-rmarkdown r4-singlecellexperiment r4-summarizedexperiment
+# Optional: r4-ade4 r4-ape r4-ecodist r4-knitr r4-labdsv r4-mass r4-prettydoc r4-rmarkdown r4-rtsne r4-singlecellexperiment r4-smacof r4-summarizedexperiment r4-testthat r4-uwot r4-vegan
 
 name=r4-tidydr
-version=0.0.6
+version=0.0.7
 release=1
 source=(https://cloud.r-project.org/src/contrib/tidydr_${version}.tar.gz)
 

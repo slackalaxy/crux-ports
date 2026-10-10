@@ -5,7 +5,7 @@
 # Optional: r4-httpuv r4-keyring r4-testthat r4-withr
 
 name=r4-snowflakeauth
-version=0.3.0
+version=0.3.1
 release=1
 source=(https://cloud.r-project.org/src/contrib/snowflakeauth_${version}.tar.gz)
 

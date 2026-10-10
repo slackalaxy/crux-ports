@@ -1,11 +1,11 @@
 # Description: R-package seriation
 # URL: https://cran.r-project.org/web/packages/seriation
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: r r4-ca r4-cluster r4-colorspace r4-foreach r4-gclus r4-mass r4-qap r4-registry r4-tsp r4-vegan
-# Optional: r4-dbscan r4-dendextend r4-dendser r4-doparallel r4-ga r4-ggplot2 r4-keras r4-rtsne r4-scales r4-smacof r4-tensorflow r4-testthat r4-umap
+# Depends on: r r4-ca r4-cluster r4-colorspace r4-foreach r4-gclus r4-mass r4-qap r4-registry r4-tsp
+# Optional: r4-cba r4-corrgram r4-corrplot r4-corrr r4-dbscan r4-dendextend r4-dendser r4-doparallel r4-dplyr r4-dt r4-ga r4-ggplot2 r4-heatmaply r4-keras r4-knitr r4-rmarkdown r4-rtsne r4-scales r4-smacof r4-tensorflow r4-testthat r4-umap r4-vegan r4-viridis
 
 name=r4-seriation
-version=1.5.8
+version=1.6.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/seriation_${version}.tar.gz)
 
