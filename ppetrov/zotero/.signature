@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZbnf3IfuKqJ2qbrlMPkRPhev8K1WoH+sPSRyILHUsHy5BCnKRpsamAk7omAvmysLzlZBPz/jjlGvxdU9sFv2ZwQ=
-SHA256 (Pkgfile) = f3cbe5d2ae8ce4ef1f1320b04ea4b7c466a9007056382c65ed15f4a6c95e7d0f
-SHA256 (.footprint) = 5aae31644e845a2497564a8d3b5f8eee3c72f1d9afd78383b67464970b873ac6
-SHA256 (Zotero-10.0.5_linux-x86_64.tar.xz) = bfc414d8cd03aa2cc3b710ec84b78e02cfc119efc14d28112af74599d309ec0f
+RWToVVsIkzFIZVp9+M2g1WvvQoxD0WiPUl+0wSpGQg6wCKpW3Zm4jakPCD+7PQWUcTO8PM1zSD8N91BzkEdT05r613DSxRpmoAU=
+SHA256 (Pkgfile) = af39f16b3899bcae19b49aa802af49fbf8f9bf5946dcc949b1b63d9e2d088e4b
+SHA256 (.footprint) = 39c7bf2b9cb986bddff9a91b6617d77bd4bae2bfb635524d09901d50914fe30a
+SHA256 (Zotero-10.0.6_linux-x86_64.tar.xz) = 246c2574a9ac526abeaf3027ffd22fc45536a5ab25f227bb1df932fca9cedd63
 SHA256 (zotero.desktop) = e9dfdfb795886758c44f6bd6710ef9b423cac0ef55c340cdb101b60986cd63a3
