@@ -1,10 +1,11 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZVVlI0nJc8RM3pi7lH1nMX1f2C7UkZsgJuVFqyVm3u7tllc6MMhQhnz/JrdyFiVneGwiPkdRoORB/gfdA8BmxA8=
-SHA256 (Pkgfile) = 496a9bc944edc0d7a0c96cf84c22a26ecf8ea44f1155d03e68e38e84f2aeeb15
+RWToVVsIkzFIZWWSKvJe743Xqb/gOiJV56Pl3l+uVMXXQnmFROTngCRSQdcTpOtdAY+Tao7xtoOk7lvZ+m9pQv+v5eYqWdFUag8=
+SHA256 (Pkgfile) = 74b5d00ea5f6e9e8d2f476438dba2f4e908605a2ef048cfaa88b1bb4a3d5adb2
 SHA256 (.footprint) = b45a400bcc3ad4ab653d3d9e01c2b5e8e406eb70b62cf27d8027043cea7ff161
 SHA256 (lalnview-3.0.tar) = 97510497fb9661ef3486b532bc2389d196f5231debae9516013e9070f1ca7cc3
-SHA256 (lalnview.desktop) = 323f5bebd14ec7f65cb18a514bd0aedd747235127f6ef12cfd70b4f790cfbd07
+SHA256 (lalnview.desktop) = e0a2595a1e23fd141f3110e8f24c7c87ddd940ffd830eeda807b3af12e459793
 SHA256 (lalnview.png) = d95117336a1ba50e3bea1d91103b0e4c83be9579ea9450fbdb6e1dd2e1621d3d
 SHA256 (sim204.c) = e92234b6e9a603cc82bb84ae0ef8b73e7154ae868dfcfb8750a22ac4c67a1db7
 SHA256 (sim.help) = fae334915961e04365f7acbffed962ae42cd84e0e78e6349271b6c32e85c9c19
 SHA256 (BLOSUM62) = 299e983dfef3c898522cd1a7895c76a4c275a3038315b8590884674679d1e25b
+SHA256 (lalnview-scheme.patch) = 106b9380617078bc8ac48007133c0c8719f73763ae1d0250e376624a23d955bd

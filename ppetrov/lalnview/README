@@ -1,0 +1,8 @@
+The program is patched for FLTK theming. The desktop file starts it by
+parsing the FLTK_SCHEME variable. Colours are read from ~/.Xresources,
+for example set something like:
+
+fltk.background:       #E1E1E1
+fltk.foreground:       #000000
+Text.background:       #ffffff
+Text.selectBackground: #486888

@@ -5,12 +5,13 @@
 
 name=lalnview
 version=3.0
-release=4
+release=5
 source=(ftp://pbil.univ-lyon1.fr/pub/logiciel/$name/sources/sources20050615.tar
-	$name.desktop $name.png sim204.c sim.help BLOSUM62)
-renames=($name-$version.tar SKIP SKIP SKIP SKIP SKIP)
+	$name.desktop $name.png sim204.c sim.help BLOSUM62 lalnview-scheme.patch)
+renames=($name-$version.tar SKIP SKIP SKIP SKIP SKIP SKIP)
 
 build() {
+	patch -p0 -i $SRC/lalnview-scheme.patch
 	# I _do_ want to include this
 	sed -i "s:$name.help:/usr/share/$name/$name.help:" MF_MainWindow.cxx
 

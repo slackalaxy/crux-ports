@@ -1,0 +1,19 @@
+--- lalnview.cxx.orig	2026-10-13 16:31:40.343610117 +0300
++++ lalnview.cxx	2026-10-13 16:31:40.347699576 +0300
+@@ -3,6 +3,7 @@
+ #include <FL/Fl_Output.H>
+ #include <FL/Fl_Scroll.H>
+ #include <FL/fl_ask.H>
++#include <FL/Fl.H>
+ 
+ #include "lalnview.h"
+ #include "def_globals.h"
+@@ -33,6 +34,8 @@
+ 
+ int main(int argc, char **argv)
+ {
++  if (const char *fs = getenv("FLTK_SCHEME")) Fl::scheme(fs);
++  Fl::get_system_colors();
+   _MAINW_ = NULL;
+   _SECW_ = NULL;
+ 

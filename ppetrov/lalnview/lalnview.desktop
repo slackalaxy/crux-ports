@@ -1,6 +1,8 @@
 [Desktop Entry]
 Categories=Education;
-Exec=lalnview
+#Exec=env FLTK_SCHEME=plastic lalnview %f
+Exec=env FLTK_SCHEME=gtk+ lalnview %f
+#Exec=env FLTK_SCHEME=gleam lalnview %f
 Icon=lalnview
 Name=LalnView
 StartupNotify=false
