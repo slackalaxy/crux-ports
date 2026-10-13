@@ -4,11 +4,11 @@
 # Depends on: avahi brotli cups double-conversion gnutls graphite2 gtk3 icu keyutils krb5 libidn2 libsdl2 nss openssl11 qrencode qt5 unixodbc wayland xorg-libxres
 
 name=wps-office
-version=12.1.2.28080
-_preread=765474
+version=12.1.2.29183
+_preread=806791
 _elogind=255.5
 _spellch=24.8.7.1
-release=3
+release=1
 source=(https://wps-linux-personal.wpscdn.cn/wps/download/ep/Linux2023/${version:7:5}/wps-office_${version}.AK.preread.sw.Personal_${_preread}_amd64.deb
 	https://github.com/elogind/elogind/archive/refs/tags/v${_elogind}.tar.gz
 	https://github.com/slackalaxy/wps-office-dicts/archive/${_spellch}/wps-office-dicts-${_spellch}.tar.gz
