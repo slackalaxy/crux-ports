@@ -45,3 +45,9 @@ xterm*scrollTtyOutput: false
 ! https://groups.google.com/g/linux.debian.user/c/k1u30pargYA
 xterm*cursorBlink: true
 xterm*cursorUnderLine: true
+
+! Colours for FLTK themes
+fltk.background:       #f6f6f6
+fltk.foreground:       #000000
+Text.background:       #ffffff
+Text.selectBackground: #486888

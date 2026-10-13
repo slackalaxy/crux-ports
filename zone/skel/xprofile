@@ -2,9 +2,6 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
-## I like to set gamma a bit low...
-xgamma -gamma 0.8
-
 if [ -f /etc/profile.d/vte.sh ]; then
   source /etc/profile.d/vte.sh
 fi
@@ -23,11 +20,19 @@ if [ -f /etc/profile.d/qt5ct.sh ]; then
   source /etc/profile.d/qt5ct.sh
 fi
 
-# Disable hiding GTK3 scrollbars
+# Disable hiding GTK3 scrollbars. If you have both Bluecurve and
+# gtk-classic-themes, only one is enough
 if [ -f /etc/profile.d/bluecurve.sh ]; then
   source /etc/profile.d/bluecurve.sh
 fi
 
+#if [ -f /etc/profile.d/gtk-classic-themes.sh ]; then
+#  source /etc/profile.d/gtk-classic-themes.sh
+#fi
+
 ## Locale
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8  # Uncomment if you need to force all categories
+
+## I like to set gamma a bit low...
+xgamma -gamma 0.8

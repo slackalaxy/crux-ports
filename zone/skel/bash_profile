@@ -20,10 +20,15 @@ if [ -f /etc/profile.d/qt5ct.sh ]; then
   source /etc/profile.d/qt5ct.sh
 fi
 
-# Disable hiding GTK3 scrollbars
+# Disable hiding GTK3 scrollbars. If you have both Bluecurve and
+# gtk-classic-themes, only one is enough
 if [ -f /etc/profile.d/bluecurve.sh ]; then
   source /etc/profile.d/bluecurve.sh
 fi
+
+#if [ -f /etc/profile.d/gtk-classic-themes.sh ]; then
+#  source /etc/profile.d/gtk-classic-themes.sh
+#fi
 
 ## Locale
 export LANG=en_US.UTF-8

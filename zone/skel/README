@@ -5,7 +5,9 @@ You may wish to manually copy these to /root:
   /etc/skel/.nanorc
 
 I use Xfce, therefore the .xinitrc runs /usr/bin/startxfce4 by default.
+Load the X resources with no log off:
 
+  xrdb -merge ~/.Xresources
 
 Adding a normal user can be done by:
 
