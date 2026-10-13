@@ -1,0 +1,19 @@
+--- seaview.cxx.orig	2026-10-13 15:25:03.518840388 +0300
++++ seaview.cxx	2026-10-13 15:26:00.323842344 +0300
+@@ -69,6 +69,7 @@
+ #include <string.h>
+ #include <stdio.h>
+ #include <stdlib.h>
++#include <FL/Fl.H>
+ #include <ctype.h>
+ #include <FL/Fl_Double_Window.H>
+ #include <FL/Fl_Pack.H>
+@@ -257,6 +258,8 @@
+ #if defined(_WIN32)	
+   argv = getutf8args(&argc);
+ #endif
++  if (const char *fs = getenv("FLTK_SCHEME")) Fl::scheme(fs);
++  if (getenv("DISPLAY")) Fl::get_system_colors();
+   if (isarg(argc, argv, "-h")) {
+     fputs("Usage:\nseaview [options] [alignment-or-tree-file]\n"
+ 	    "where alignment-or-tree-file is an optional sequence alignment or tree file to be read (always the last argument) and options are:\n"

@@ -1,6 +1,7 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZYbpnlRnOB8My7xSv2oWNSn2k60KhGa09jsm3eG6haoTBBwkoFsZAs8+GPsqBfxNl2vRPvnmEFqheuOlT5o8VA0=
-SHA256 (Pkgfile) = d5f7fa2f9f587a4b2ac9cd30b8680b19de06f2c0251ee628a291e77606132b21
+RWToVVsIkzFIZZkDDhQ07fcRDluEDK5EqjPhJwEo5gRuOnF/GGsulqksp/m/avmjUEsfQf2XPBbRHxVhBPCQTA3GC+o0du2ILQQ=
+SHA256 (Pkgfile) = 21a73572fc211cf92d697008ea4213c627521269ee54f96626ea0222268fdc9d
 SHA256 (.footprint) = dd0153a0576ab553be5ad613876cc509549b8e3436ec059fffdd67547479dee2
 SHA256 (seaview_5.1.tar.gz) = b4bf58401e30814382c825b13a4c3eea8ca29c314ed5c4a1f43459b78ed6f98b
-SHA256 (seaview.desktop) = 2d2df25d933fd83577bd9eec398db433af045f33bd4d9b25fa557cdb62d03551
+SHA256 (seaview.desktop) = 30991d04ddb07d1a5ce8c3af6d9c9e181f7aa182dbfb68db523759f7e64c6a67
+SHA256 (seaview-scheme.patch) = a7ba47faa4555a5f6f9e8b225d609c6e44ca38b17d13a873b6e1c5cac75f8e29

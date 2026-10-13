@@ -1,6 +1,8 @@
 [Desktop Entry]
 Categories=Education;
-Exec=seaview
+#Exec=env FLTK_SCHEME=plastic seaview %f
+Exec=env FLTK_SCHEME=gtk+ seaview %f
+#Exec=env FLTK_SCHEME=gleam seaview %f
 Icon=seaview
 Name=SeaView
 StartupNotify=false

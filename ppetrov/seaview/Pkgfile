@@ -5,12 +5,13 @@
 
 name=seaview
 version=5.1
-release=2
+release=3
 source=(ftp://pbil.univ-lyon1.fr/pub/mol_phylogeny/seaview/archive/seaview_${version}.tar.gz
-	$name.desktop)
+	$name.desktop seaview-scheme.patch)
 
 build() {
 	cd $name
+	patch -p0 -i $SRC/seaview-scheme.patch
 	
 	# Use our CFLAGS
 	sed -i "/^CFLAGS/s/=/+=/" Makefile
