@@ -4,7 +4,7 @@
 # Depends on: ffmpeg glu gnutls graphite2 gtk3 libidn2 librsvg libvorbis opus xorg-font-bh-ttf xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxt
 
 name=xscreensaver
-version=6.16
+version=6.17
 release=1
 source=(https://www.jwz.org/xscreensaver/xscreensaver-$version.tar.gz
 	$name.pam electricsheep.patch)
@@ -14,8 +14,8 @@ build() {
 	cd xscreensaver-$version
 	
 	# hopefully we don't need these in the future...
-	sed -i 's: driver po: driver:' Makefile.in
-	autoreconf -fiv
+	#sed -i 's: driver po: driver:' Makefile.in
+	#autoreconf -fiv
 	
 	patch -p1 -i $SRC/electricsheep.patch
 	
