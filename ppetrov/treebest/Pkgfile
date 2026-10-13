@@ -5,12 +5,13 @@
 
 name=treebest
 version=347fa82
-release=1
+release=2
 source=(https://github.com/Ensembl/$name/archive/$version/$name-347fa82a0ce1c169849053fdc9ff7d19d221f290.tar.gz
-	$name.png $name.desktop)
+	$name.png $name.desktop treebest-scheme.patch)
 
 build() {
 	cd $name-347fa82a0ce1c169849053fdc9ff7d19d221f290
+	patch -p0 -i $SRC/treebest-scheme.patch
 	
 	# Use our CFLAGS
 	sed -i "/^CFLAGS/s/=/+=/" Makefile
