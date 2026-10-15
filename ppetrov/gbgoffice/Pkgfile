@@ -1,5 +1,5 @@
 # Description: GBGoffice dictionary GTK3 frontend
-# URL: http://github.com/slackalaxy/gbgoffice3
+# URL: https://github.com/slackalaxy/gbgoffice3
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: brotli graphite2 gtkmm3 libxkbcommon xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
 
