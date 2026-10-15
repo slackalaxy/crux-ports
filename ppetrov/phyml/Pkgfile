@@ -5,7 +5,7 @@
 
 name=phyml
 version=3.3.20260528
-release=1
+release=2
 source=(https://github.com/stephaneguindon/phyml/archive/v${version}/$name-$version.tar.gz)
 
 build() {
@@ -24,6 +24,10 @@ build() {
 	make install DESTDIR=$PKG
 	mv $PKG/usr/bin/phyml $PKG/usr/bin/phyml-mpi
 	
+	# This deletes everything the first build produced: object files,
+	# binaries, and the Makefiles that configure generated. The serial
+	# build then starts from a clean source tree.
+	make distclean
 	./autogen.sh
 	./configure --prefix=/usr --enable-phyml
 
