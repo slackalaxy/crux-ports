@@ -1,27 +1,17 @@
 # Description: Multiple sequence alignment and phylogeny GUI
-# URL: http://doua.prabi.fr/software/seaview
+# URL: https://doua.prabi.fr/software/seaview
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: clustalo fltk gblocks muscle pdflib-lite xorg-libsm xorg-libxcursor
+# Depends on: clustalo fltk gblocks muscle xorg-libsm xorg-libxcursor
 
 name=seaview
 version=5.1
-release=3
+release=4
 source=(ftp://pbil.univ-lyon1.fr/pub/mol_phylogeny/seaview/archive/seaview_${version}.tar.gz
 	$name.desktop seaview-scheme.patch)
 
 build() {
 	cd $name
 	patch -p0 -i $SRC/seaview-scheme.patch
-	
-	# Use our CFLAGS
-	sed -i "/^CFLAGS/s/=/+=/" Makefile
-	
-	# Enable PDF output. If you do not want it, comment out the next four
-	# lines. Then you do not need to install PDFlib-Lite.
-	sed -i "8 c PDF_INC = /usr/include" Makefile
-	sed -i "9 c PDF_LIB = /usr/lib" Makefile
-	sed -i "s:#PDF_PS_FLAGS:PDF_PS_FLAGS:" Makefile
-	sed -i "s:#LPDF:LPDF:" Makefile
 
 	# Point to the correct documentation path and phyml executable name
 	sed -i "s:#HELPFILE:HELPFILE:" Makefile
