@@ -71,7 +71,6 @@ drw-r--r--	root/root	usr/share/wordnet/dict/dbfiles/
 -rw-r--r--	root/root	usr/share/wordnet/dict/index.noun
 -rw-r--r--	root/root	usr/share/wordnet/dict/index.sense
 -rw-r--r--	root/root	usr/share/wordnet/dict/index.verb
--rw-r--r--	root/root	usr/share/wordnet/dict/log.grind.3.1
 -rw-r--r--	root/root	usr/share/wordnet/dict/noun.exc
 -rw-r--r--	root/root	usr/share/wordnet/dict/sentidx.vrb
 -rw-r--r--	root/root	usr/share/wordnet/dict/sents.vrb
