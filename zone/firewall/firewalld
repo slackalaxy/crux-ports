@@ -1,24 +1,39 @@
 #!/bin/sh
 #
-# /etc/rc.d/firewalld: startʒstop|restart|status firewall
+# /etc/rc.d/firewalld: start|stop|restart|status firewall
+#
+# Add "firewalld" to the SERVICES line in /etc/rc.conf to start it at boot.
 #
 
+# Open the firewall completely: allow everything, for IPv4 and IPv6.
+# The policies must be set back to ACCEPT before the rules are removed,
+# otherwise the machine is left blocking ALL incoming traffic, including
+# replies to its own connections (no browsing, no downloads).
+open() {
+	for t in iptables ip6tables; do
+		$t -P INPUT ACCEPT
+		$t -P FORWARD ACCEPT
+		$t -P OUTPUT ACCEPT
+		$t -F
+		$t -X
+	done
+}
+
 case $1 in
-start)
+start|restart)
+	# The firewall script clears the old rules itself before adding the
+	# new ones, so start and restart are the same thing.
 	/usr/sbin/firewall
 	echo "Firewall started."
 	;;
 stop)
-	iptables --flush
+	open
 	echo "Firewall stopped."
 	;;
-restart)
-	iptables --flush
-	/usr/sbin/firewall
-	echo "Firewall restarted."
-	;;
 status)
-	iptables --list-rules
+	# Show the active rules, first for IPv4, then for IPv6
+	echo "== IPv4"; iptables -S
+	echo "== IPv6"; ip6tables -S
 	;;
 *)
 	echo "usage: $0 [start|stop|restart|status]"

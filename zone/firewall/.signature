@@ -1,9 +1,7 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwdzZT2+fht9ehLTLWWJOsf+lZNdl5Rtc+OLvIRbYsaSKdNdFIwo6AowvnmsJZ4fCY9WUZx4MsKI0OBcLTLXCCQ4=
-SHA256 (Pkgfile) = 6dcbed8453160a203952837e24a1c20b3e26c8a20a00b92e026ab01d65fcb257
-SHA256 (.footprint) = 20be6f813ecd7fa9661daf1b8f380dcc4d7fd5c590a8ecc8827d83d2a9922a75
-SHA256 (firewall.conf) = 31cda91e3e998912c3fb48d8540f9704cd7ab11fa35017acaa68807d0f8bff7b
-SHA256 (firewall.sh) = 0d2d01c55ab4caef96ebc5667db36f923abdb4f0dcb4751dd75b1426dd8fcd5b
-SHA256 (firewalld) = b50eb2ed3ff7c8c8368b1a111b5b108babaeb1494cfdec01fca253c0223f9b26
-SHA256 (hosts.allow) = 4416f11dbc8590d6c5eb6b3266c786bf543ecca77bb21b00947fdf1b00b732c9
-SHA256 (hosts.deny) = 380ad81c12e61efebb01d1169810ebf5fb4b786bfded83125ccdd9da7f30223c
+RWRPokwW0IImwRmRJiP8rlZg/yS5XjpZQIWInGLQR9l9Tm1uVKAbaGBdXEyThUrpq1WO3iqbGcmW0Lkl0W62q+MWQP+c8u3gYwI=
+SHA256 (Pkgfile) = 3ba5a54df4181e0bedba7017af70a11a66a0cd877c9a417666e3a0168947da62
+SHA256 (.footprint) = 533c14b74687c3bbf32d35fcfbdf86018a7c2679a7f3e69e6ad8b2c5a00434db
+SHA256 (firewall.conf) = 105372d2cc8f82f8ae4e361c3a25a0677f5cbe93919d4413b36f974babc9eb3b
+SHA256 (firewall.sh) = cc1b43fecb30b44c6ba885d1fa070ce182dd2a23c9abd2e69da651d033a81a97
+SHA256 (firewalld) = 89c60e46f7368a8ca8b050360413765e74ab87e3504059c1e18c7523ea052e22
