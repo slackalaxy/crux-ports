@@ -5,7 +5,7 @@
 name=acpid
 version=2.0.34
 release=1
-source=(https://sourceforge.net/projects/acpid2/files/acpid-2.0.34.tar.xz
+source=(https://sourceforge.net/projects/acpid2/files/acpid-$version.tar.xz
 	acpi_handler.sh default $name.rc)
 
 build() {
