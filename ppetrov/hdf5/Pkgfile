@@ -1,11 +1,11 @@
 # Description: Hierarchical Data Format 5
 # URL: https://github.com/HDFGroup/hdf5
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc-fortran
+# Depends on:
 
 name=hdf5
 version=1.14.6
-release=1
+release=2
 source=(https://github.com/HDFGroup/hdf5/releases/download/hdf5_${version}/hdf5-${version}.tar.gz)
 
 build() {
@@ -17,4 +17,5 @@ build() {
 	make DESTDIR=$PKG install
 	
 	find $PKG/ -name "README" -delete
+	rm -f $PKG/usr/lib/*.la
 }
