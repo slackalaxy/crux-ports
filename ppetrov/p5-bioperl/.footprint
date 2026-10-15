@@ -256,7 +256,7 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.40/Bio/OntologyIO/Handlers/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.40/Bio/OntologyIO/simplehierarchy.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.40/Bio/OntologyIO/soflat.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.40/Bio/ParameterBaseI.pm
-lrwxrwxrwx	root/root	usr/lib/perl5/site_perl/5.40/Bio/Perl.pm -> /usr/lib/perl5/site_perl/5.40/BioPerl.pm
+lrwxrwxrwx	root/root	usr/lib/perl5/site_perl/5.40/Bio/Perl.pm -> ../BioPerl.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.40/Bio/PrimarySeq.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.40/Bio/PrimarySeqI.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.40/Bio/PullParserI.pm
