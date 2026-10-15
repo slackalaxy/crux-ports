@@ -6,7 +6,7 @@
 name=masterpdfeditor4
 version=4.3.89
 release=1
-source=(http://code-industry.net/public/master-pdf-editor-${version}_qt5.amd64.tar.gz)
+source=(https://code-industry.net/public/master-pdf-editor-${version}_qt5.amd64.tar.gz)
 
 build() {
 	cd master-pdf-editor-${version%.*.*}
