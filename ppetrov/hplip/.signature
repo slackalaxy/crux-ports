@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZWYiZtTV09j84T/VtOqRgOw0olnMGuT+bsV6qplb4ezy13o2KKBK3aEKRnEZPXcDgcXXOIvas7N9lJn4pjnWZQk=
-SHA256 (Pkgfile) = 3789d167fb13d43ebdabb3e532e5ff0afd241000a678a55c4d9e08b2a8cc5c61
+RWToVVsIkzFIZYZf3bAbaiWO77+VkPiuSYceaqSFC6CeiaL86RZS78ICDJg29bGvMxLiq2CBf012H4N/mBAnmxM2hjhz0aOLjQE=
+SHA256 (Pkgfile) = f359afb0ede908c112ac48b435f2bc3864af5483e3287af1493e971865e7003f
 SHA256 (.footprint) = 9258cf4af1d6c8df4bdba00899c4e6e8ee1a3f23e1709c75a504bc2a5ca2c504
 SHA256 (hplip-3.26.6.tar.gz) = 5fb2235a9cb6ec07cb4786c4066b151359c301324d54aaabf69ae7eef35606b3
 SHA256 (0003-models.dat-Re-add-drivers-missing-from-3.19.1.patch) = 002d5b075e2a93a32a48ddd93d59b811c6403e98b1ba86a5f7ab4846c0aa6450
