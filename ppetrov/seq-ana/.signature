@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZWjJoQDDusdVSTYD8bH0zXnLtKYi60JElc/STl81MM7o1EkEzUbMHWNc5Kir2FWeeQFsduxFr7UofWmMIFiudQQ=
-SHA256 (Pkgfile) = 36d742fb63d3b4fe376511da495b43b5f9ab5641157d80df3e553df20790ac65
+RWToVVsIkzFIZSaOf66UAO7GmNnGy6vAn91jaAUwvxRTbuuNDbdA2jrz04Sz4/nfrfkTnhVybQRxmRB/czapPIPlwjyKc6JE3Qk=
+SHA256 (Pkgfile) = 2ff67845b92339e06be62897e252cdea4f0065e41efb1e4d21a7d20e6ee25310
 SHA256 (.footprint) = d9f97a34665475cc2f0fdc1368cc7d542aa156ea4b941aa78e3aeadb73a996c8
 SHA256 (seq-ana-1.7.2.jar) = 0d0c7c7facb98782cafdf47e1fa7260efca3ae0f6e72d39ee8af4139821cdf9a
 SHA256 (seq-ana.desktop) = f204b3bdad9c15c4815b255408e4b94ade4ed52fe2369526fcc73b013d48c5f4
