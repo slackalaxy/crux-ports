@@ -4,9 +4,8 @@
 
 name=muscle
 version=3.8.1551
-release=1
-source=(http://www.drive5.com/$name/${name}_src_${version}.tar.gz
-	http://www.drive5.com/$name/stable.tar.gz
+release=4
+source=(https://www.drive5.com/$name/${name}_src_${version}.tar.gz
 	$name.1)
 
 build() {
@@ -16,7 +15,6 @@ build() {
 	make
 
 	install -D -m755 $name $PKG/usr/bin/$name
-	install -D -m755 stable.py $PKG/usr/bin/$name-stable.py
 
 	# Thanks to Debian for the man page
 	mkdir -p $PKG/usr/share/man/man1/
