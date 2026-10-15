@@ -5,8 +5,8 @@
 
 name=squizz
 version=0.99d
-release=1
-source=(ftp://ftp.pasteur.fr/pub/gensoft/projects/$name/$name-$version.tar.gz)
+release=2
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
@@ -16,4 +16,5 @@ build() {
 	make install DESTDIR=$PKG
 	
 	rm -rf $PKG/usr/share/doc
+	rm -f $PKG/usr/lib/*.la
 }

@@ -27,12 +27,10 @@ drwxr-xr-x	root/root	usr/include/squizz/sequence/
 -rw-r--r--	root/root	usr/include/squizz/sequence/sprot.h
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libbioali.a
--rwxr-xr-x	root/root	usr/lib/libbioali.la
 lrwxrwxrwx	root/root	usr/lib/libbioali.so -> libbioali.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libbioali.so.0 -> libbioali.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libbioali.so.0.0.0
 -rw-r--r--	root/root	usr/lib/libbioseq.a
--rwxr-xr-x	root/root	usr/lib/libbioseq.la
 lrwxrwxrwx	root/root	usr/lib/libbioseq.so -> libbioseq.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libbioseq.so.0 -> libbioseq.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libbioseq.so.0.0.0
