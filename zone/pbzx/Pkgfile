@@ -5,12 +5,12 @@
 
 name=pbzx
 version=1.0.2
-release=1
+release=2
 source=(https://github.com/NiklasRosenstein/pbzx/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 	
-	gcc $CFLAGS -llzma -lxar -I /usr/include pbzx.c -o pbzx
+	gcc $CFLAGS -I/usr/include pbzx.c -o pbzx -llzma -lxar
 	install -D -m 755 pbzx $PKG/usr/bin/pbzx
 }
