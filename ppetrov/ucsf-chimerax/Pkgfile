@@ -1,13 +1,13 @@
 # Description: The next-generation molecular visualization program 
 # URL: https://www.cgl.ucsf.edu/chimerax/download.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: avahi brotli cups dav1d double-conversion fdk-aac gcc-fortran graphite2 gtk3 icu keyutils krb5 lame libidn2 libinput libmodplug librsvg libva libvdpau libvpx nss openjpeg2 pcsclite postgresql pulseaudio qt6-3d qt6-multimedia qt6-scxml rtmpdump speex unixodbc wayland x264 x265 xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxkbfile
+# Depends on: avahi brotli cups double-conversion gcc-fortran gnutls graphite2 gtk3 icu keyutils krb5 libdeflate libidn2 libinput lua nss patchelf pcsclite pulseaudio qt6-3d qt6-multimedia qt6-scxml qt6-tools wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxkbfile xorg-libxres
 
 name=ucsf-chimerax
 version=1.12
 _ubuntu=24.04
 _python=3.11
-release=1
+release=2
 source=(https://www.cgl.ucsf.edu/chimerax/cgi-bin/secure/chimerax-get.py?file=${version}/ubuntu-${_ubuntu}/ucsf-chimerax_${version}ubuntu${_ubuntu}_amd64.deb
 	$name.desktop)
 
@@ -37,8 +37,8 @@ build() {
 	#patchelf --replace-needed "libnsl.so.2" "libnsl.so.3" \
 	#	$PKG/usr/lib/$name/lib/python${_python}/lib-dynload/nis.cpython-${_python//./}-x86_64-linux-gnu.so
 	
-	# use this from mariadb
-	ln -s /usr/lib/libmysqlclient.so libmysqlclient.so.21
+	# use this from mariadb? no need, since we delete SQL plugins...
+	#ln -s /usr/lib/libmysqlclient.so libmysqlclient.so.21
 	
 	# get libbz2.so.1
 	ln -s /usr/lib/libbz2.so.1.0 libbz2.so.1
@@ -50,16 +50,16 @@ build() {
 	ln -s /usr/lib/libtiff.so libtiff.so.5
 	
 	# other plugins
-	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/texttospeech
+	rm -r $PKG/usr/lib/ucsf-chimerax/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/texttospeech
 	
-	# libmimerapi.so was forgotten by QT6 during deployment
-	rm -r $PKG/usr/lib/$name/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/sqldrivers/libqsqlmimer.so
+	# libmimerapi.so was forgotten by QT6 during deployment, however, we delete the whole folder below
+	#rm -r $PKG/usr/lib/ucsf-chimerax/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/sqldrivers/libqsqlmimer.so
 	
 	# no dependency on qt6-webengine
-	rm -rf $PKG/usr/lib/ucsf-chimerax/lib/python3.11/site-packages/PyQt6/Qt6/plugins/webview/
+	rm -rf $PKG/usr/lib/ucsf-chimerax/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/webview/
 	
 	# no OpenMM plugins
-	rm -rf $PKG/usr/lib/ucsf-chimerax/lib/python3.11/site-packages/OpenMM.libs/lib/plugins
+	rm -rf $PKG/usr/lib/ucsf-chimerax/lib/python${_python}/site-packages/OpenMM.libs/lib/plugins
 	
 	# no SQL plugins
 	rm -rf $PKG/usr/lib/ucsf-chimerax/lib/python${_python}/site-packages/PyQt6/Qt6/plugins/sqldrivers
