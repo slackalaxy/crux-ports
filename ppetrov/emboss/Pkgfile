@@ -1,5 +1,5 @@
 # Description: The European Molecular Biology Open Software Suite
-# URL: http://emboss.sourceforge.net/
+# URL: https://emboss.sourceforge.net/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: brotli graphite2 jdk8-bin keyutils krb5 libdeflate libgd libwebp mariadb postgresql
 
