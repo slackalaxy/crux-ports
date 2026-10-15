@@ -1,12 +1,12 @@
 # Description: Visualize local alignments (includes SIM)
 # URL: https://doua.prabi.fr/software/lalnview
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gcc5 fltk pdflib-lite xorg-libsm xorg-libxcursor
+# Depends on: fltk pdflib-lite xorg-libsm xorg-libxcursor
 
 name=lalnview
 version=3.0
-release=5
-source=(ftp://pbil.univ-lyon1.fr/pub/logiciel/$name/sources/sources20050615.tar
+release=6
+source=(https://raw.githubusercontent.com/slackalaxy/sources/main/sources20050615.tar
 	$name.desktop $name.png sim204.c sim.help BLOSUM62 lalnview-scheme.patch)
 renames=($name-$version.tar SKIP SKIP SKIP SKIP SKIP SKIP)
 
@@ -27,7 +27,8 @@ build() {
 	cp -a $name.help $PKG/usr/share/$name
 	
 	# compile SIM, as well
-	gcc-5 $CFLAGS -o sim sim204.c -lm
+	#gcc-5 $CFLAGS -o sim sim204.c -lm
+	gcc $CFLAGS -std=gnu89 -o sim sim204.c -lm
 	install -D -m 755 sim $PKG/usr/bin/sim
 	
 	# Add BLOSUM62 matrix, used by https://web.expasy.org/sim/
