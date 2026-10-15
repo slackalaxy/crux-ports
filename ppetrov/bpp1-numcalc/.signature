@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQ851ZfaDBg/IMwIrIhNLF5UoqaIq2niaX2XktC3Hy+dqnRB1CPDH9lG/dLH0y25PeWJDvr2pFdVXGtcCzujeQ8=
-SHA256 (Pkgfile) = ec1e820bb4cbb393a8c1cafeb58c4135f2c4e1b7b8f0f15f43be030c5daea237
+RWToVVsIkzFIZWD3glk0YiDKStAuQt2q0tNvWMENUVqiGpLmG/pf/U06e22PA2vpgI9jbh5R4nDhVwnfPc9BlLCq6CUAYLQ2hAg=
+SHA256 (Pkgfile) = e9fbaf32f1c7c11a2066a49cc1318dbe74ed2ccdd9e125672774efbe098ea1da
 SHA256 (.footprint) = 1e9d8d18334a13ec124418b624ab0f16ce15781c8a3aad2044cb186e4256c6af
 SHA256 (bpp-numcalc-1.8.0.tar.gz) = d6b68bf1362696dda02ae5e8712219d782af96eca2f2028dbd0adee0046ed9fe
