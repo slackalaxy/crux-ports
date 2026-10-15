@@ -5,7 +5,7 @@
 
 name=treebest
 version=347fa82
-release=2
+release=3
 source=(https://github.com/Ensembl/$name/archive/$version/$name-347fa82a0ce1c169849053fdc9ff7d19d221f290.tar.gz
 	$name.png $name.desktop treebest-scheme.patch)
 
@@ -16,10 +16,10 @@ build() {
 	# Use our CFLAGS
 	sed -i "/^CFLAGS/s/=/+=/" Makefile
 	
-	CFLAGS="$CFLAGS -fcommon"
+	CFLAGS="$CFLAGS -fcommon" \
 	make
 	
-	CFLAGS="$CFLAGS -fcommon"
+	CFLAGS="$CFLAGS -fcommon" \
 	make fltreebest
 
 	install -D -m755 treebest $PKG/usr/bin/treebest
