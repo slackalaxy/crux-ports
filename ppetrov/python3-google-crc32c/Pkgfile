@@ -5,19 +5,19 @@
 
 name=python3-google-crc32c
 version=1.8.0
-release=1
+release=2
 source=(https://github.com/googleapis/python-crc32c/archive/refs/tags/v$version.tar.gz)
 renames=(python-crc32c-$version.tar.gz)
 
 build() {
     cd python-crc32c-$version
 
-    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+    /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+    /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
 
-    find $PKG \( -iname "README*" -o \
-                 -iname INSTALLER -o \
-                 -iname REQUESTED -o \
-                 -iname "LICENSE*"   \) -delete
+    find $PKG -iname "README*" -delete
+    rm -rf $PKG/usr/lib/python3*/site-packages/*.dist-info/licenses
+    find $PKG -path "*.dist-info/*" -type f \( -iname "LICENSE*" -o -iname "COPYING*" \) -delete
 
     chmod -R g-w $PKG
 }

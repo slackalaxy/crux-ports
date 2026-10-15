@@ -1,22 +1,22 @@
 # Description: Print versions of imported packages.
 # URL: https://pypi.org/project/session-info2/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: python3-build
+# Depends on: python3-build python3-hatch-docstring-description
 
 name=python3-session-info2
 version=0.4.2
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/s/session-info2/session_info2-$version.tar.gz)
 
 build() {
     cd session_info2-$version
 
-    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+    /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+    /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
 
-    find $PKG \( -iname "README*" -o \
-                 -iname INSTALLER -o \
-                 -iname REQUESTED -o \
-                 -iname "LICENSE*"   \) -delete
+    find $PKG -iname "README*" -delete
+    rm -rf $PKG/usr/lib/python3*/site-packages/*.dist-info/licenses
+    find $PKG -path "*.dist-info/*" -type f \( -iname "LICENSE*" -o -iname "COPYING*" \) -delete
 
     chmod -R g-w $PKG
 }

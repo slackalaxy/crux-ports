@@ -1,0 +1,22 @@
+# Description: Python interface to the pkg-config command line tool
+# URL: https://github.com/matze/pkgconfig
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: python3-poetry-core
+
+name=python3-pkgconfig
+version=1.5.5
+release=1
+source=(https://files.pythonhosted.org/packages/source/p/pkgconfig/pkgconfig-$version.tar.gz)
+
+build() {
+    cd ${name#*-}-$version
+
+    /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+    /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
+
+    find $PKG -iname "README*" -delete
+    rm -rf $PKG/usr/lib/python3*/site-packages/*.dist-info/licenses
+    find $PKG -path "*.dist-info/*" -type f \( -iname "LICENSE*" -o -iname "COPYING*" \) -delete
+
+    chmod -R g-w $PKG
+}

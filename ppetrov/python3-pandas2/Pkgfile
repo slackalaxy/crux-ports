@@ -1,22 +1,22 @@
 # Description: Powerful data structures for data analysis, time series, and statistics
 # URL: https://pandas.pydata.org/docs/getting_started/install.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: python3-numpy python3-dateutil python3-tzdata
+# Depends on: python3-cython meson-python python3-versioneer python3-dateutil python3-numpy python3-pytz python3-tzdata
 
 name=python3-pandas2
 version=2.3.3
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/p/pandas/pandas-$version.tar.gz)
 
 build() {
     cd pandas-$version
 
-    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+    /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+    /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
 
-    find $PKG \( -iname "README*" -o \
-                 -iname INSTALLER -o \
-                 -iname REQUESTED -o \
-                 -iname "LICENSE*"   \) -delete
+    find $PKG -iname "README*" -delete
+    rm -rf $PKG/usr/lib/python3*/site-packages/*.dist-info/licenses
+    find $PKG -path "*.dist-info/*" -type f \( -iname "LICENSE*" -o -iname "COPYING*" \) -delete
 
     chmod -R g-w $PKG
 }

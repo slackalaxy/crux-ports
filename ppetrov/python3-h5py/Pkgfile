@@ -1,22 +1,22 @@
 # Description: Read and write HDF5 files from Python
 # URL: https://www.h5py.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: hdf5 liblzf python3-numpy
+# Depends on: hdf5 liblzf python3-numpy python3-pkgconfig python3-cython
 
 name=python3-h5py
 version=3.16.0
-release=1
+release=2
 source=(https://files.pythonhosted.org/packages/source/h/h5py/h5py-$version.tar.gz)
 
 build() {
     cd ${name#*-}-$version
 
-    /usr/bin/pip3 install --isolate --root="$PKG" --ignore-installed --no-deps .
+    /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+    /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
 
-    find $PKG \( -iname "README*" -o \
-                 -iname INSTALLER -o \
-                 -iname REQUESTED -o \
-                 -iname "LICENSE"   \) -delete
+    find $PKG -iname "README*" -delete
+    rm -rf $PKG/usr/lib/python3*/site-packages/*.dist-info/licenses
+    find $PKG -path "*.dist-info/*" -type f \( -iname "LICENSE*" -o -iname "COPYING*" \) -delete
 
     chmod -R g-w $PKG
 }

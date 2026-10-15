@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZTaEn6jEAKU5UtSVJ1ZKSQVGmXUQOlRg0OajfF/G99onGAG42q3PQjJi9vHHrhGRSpIlbR75CiPc5Y4WsF/eiA4=
-SHA256 (Pkgfile) = aec660d5779235d47f5f2dbc11119b16362c8ec5c3cd25ba4f387a6f3fa46cf6
-SHA256 (.footprint) = 6ee75c24531cd5a743cc3d3d48c7fdc7c69bf01ccf8f012770b676e3f4b92e99
+RWToVVsIkzFIZTgcKXeuSDysZeK/LoKEAh0kS7QGci6vOu9d3nvqzVVuchE37pEg+fpQK28E5j3csYzp626PJWfyS1ItUC6Exwc=
+SHA256 (Pkgfile) = f4253d835b4c4afca2585b504bea97ab33bf14485c96adc0350c647b79a140ca
+SHA256 (.footprint) = f5a95af0c7e00a85cd05472de5cdf7c63c09dce2015495d373ca11b8a3a3c12c
 SHA256 (array_api_compat-1.15.0.tar.gz) = 53c5f922491bf15f62847afafc4e39eedfae57d218988fefb8cce39c2a9b3dea
