@@ -1,7 +1,6 @@
 # Description: Polar cursor themes
-# URL: http://gnome-look.org/content/show.php/Polar+Cursor+Theme?content=27913
+# URL: https://gnome-look.org/content/show.php/Polar+Cursor+Theme?content=27913
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: xorg-server
 
 name=polar-cursor-themes
 version=1.4
