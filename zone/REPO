@@ -79,7 +79,7 @@ f:4b9a06baf1785a80dc00300c83dfff67:pulse-blueman/.footprint
 f:08094fcb9482d4073f2a9fbb11f36f66:pulse-blueman/.signature
 f:e86534abf27395097658280f7e10091b:pulse-blueman/README
 f:c67b3b48fe910b2b1a2d547f18968604:firewall/Pkgfile
-f:71d9e1666086e86674b5c2d1e4b2fc4a:firewall/README
+f:656d03c0cea890201edf2e3047eacfb7:firewall/README
 f:39f51282264602703f80a9a108a05e24:firewall/firewall.conf
 f:35dfa34669b1e59f13342c49a5dccc62:firewall/firewall.sh
 f:ba44652cdccad68f67ceb03f9b625964:firewall/.footprint
