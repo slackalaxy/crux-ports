@@ -7656,9 +7656,6 @@ lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libicuuc.so.69 -> libicuuc.so.69
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libkprometheus.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libkqingaccountsdk.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libkrt.so
-lrwxrwxrwx	root/root	usr/lib/wps-office/office6/libksaiengine.so -> libksaiengine.so.1.0.0
--rw-r--r--	root/root	usr/lib/wps-office/office6/libksaiengine.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/wps-office/office6/libksaitoolkits.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libkshell.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libksnprivilege.so
 -rwxr-xr-x	root/root	usr/lib/wps-office/office6/libkso.so
