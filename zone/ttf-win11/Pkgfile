@@ -5,7 +5,7 @@
 
 name=ttf-win11
 version=26H2
-release=1
+release=2
 source=(https://software-static.download.prss.microsoft.com/dbazure/26300.9457.260913-1737.26h2_ge_release_svc_refresh_CLIENTENTERPRISEEVAL_OEMRET_x64FRE_en-us.iso
  	ttc-extract.py ttf-auto-fix.py)
 
@@ -72,7 +72,6 @@ source=(https://software-static.download.prss.microsoft.com/dbazure/26300.9457.2
 		rm $h
 	done
 
-	# To lower case
 	for f in *; do
 
 		# Compute lowercase name
@@ -80,7 +79,15 @@ source=(https://software-static.download.prss.microsoft.com/dbazure/26300.9457.2
 
 		# Only rename if different
 		if [ "$f" != "$newname" ]; then
-			mv -i -- "$f" "$newname"
+
+			# Stop the build if a file with the lowercase name already
+			# exists, instead of overwriting it
+			if [ -e "$newname" ]; then
+				echo "ERROR: $newname already exists, not overwriting it with $f"
+				exit 1
+			fi
+
+			mv -- "$f" "$newname"
 		fi
 	done
 
