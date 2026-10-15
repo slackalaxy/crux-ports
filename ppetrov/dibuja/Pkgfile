@@ -1,7 +1,7 @@
 # Description: Simple to use paint program
 # URL: https://launchpad.net/dibuja
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on:
+# Depends on: gtk3
 
 name=dibuja
 version=0.26.0
