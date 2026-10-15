@@ -1,12 +1,12 @@
 # Description: Exonerate: a generic tool for sequence alignment
-# URL: http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/
+# URL: https://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: glib
 
 name=exonerate
 version=2.4.0
 release=1
-source=(http://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/exonerate-$version.tar.gz)
+source=(https://ftp.ebi.ac.uk/pub/software/vertebrategenomics/exonerate/exonerate-$version.tar.gz)
 
 build() {
 	cd $name-$version
