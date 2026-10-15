@@ -6,7 +6,7 @@
 name=p5-readonly
 version=2.05
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/S/SA/SANKO/Readonly-${version}.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/S/SA/SANKO/Readonly-${version}.tar.gz)
 
 build() {
 	cd Readonly-$version

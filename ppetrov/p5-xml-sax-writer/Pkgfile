@@ -6,7 +6,7 @@
 name=p5-xml-sax-writer
 version=0.57
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/P/PE/PERIGRIN/XML-SAX-Writer-${version}.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/P/PE/PERIGRIN/XML-SAX-Writer-${version}.tar.gz)
 
 build() {
 	cd XML-SAX-Writer-$version

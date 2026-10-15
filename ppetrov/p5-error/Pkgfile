@@ -1,12 +1,12 @@
 # Description:	Error/exception handling in an OO-ish way
-# URL:		http://metacpan.org/release/Error
+# URL:		https://metacpan.org/release/Error
 # Maintainer:	Petar Petrov, slackalaxy at gmail dot com
 # Depends on:	p5-module-build
 
 name=p5-error
 version=0.17030
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/S/SH/SHLOMIF/Error-${version}.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Error-${version}.tar.gz)
 
 build() {
 	cd Error-$version

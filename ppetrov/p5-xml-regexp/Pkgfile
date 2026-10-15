@@ -1,12 +1,12 @@
 # Description:	XML::RegExp
-# URL:		http://search.cpan.org/~tjmather/XML-RegExp/
+# URL:		https://metacpan.org/dist/XML-RegExp
 # Maintainer:	Petar Petrov, slackalaxy at gmail dot com
 # Depends on:	perl
 
 name=p5-xml-regexp
 version=0.04
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/T/TJ/TJMATHER/XML-RegExp-${version}.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-RegExp-${version}.tar.gz)
 
 build() {
 	cd XML-RegExp-$version

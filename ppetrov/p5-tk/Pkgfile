@@ -1,12 +1,12 @@
 # Description: Perl Tk module
-# URL: http://search.cpan.org/~srezic/Tk/
+# URL: https://metacpan.org/dist/Tk
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: perl tk
 
 name=p5-tk
 version=804.036
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/S/SR/SREZIC/Tk-${version}.tar.gz
+source=(https://cpan.metacpan.org/authors/id/S/SR/SREZIC/Tk-${version}.tar.gz
 	gcc-14.patch)
 
 build() {

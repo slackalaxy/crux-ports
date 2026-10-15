@@ -1,11 +1,11 @@
 # Description: Extract distribution name and version from a distribution filename
-# URL: http://github.com/gbarr/CPAN-DistnameInfo
+# URL: https://github.com/gbarr/CPAN-DistnameInfo
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=p5-cpan-distnameinfo
 version=0.12
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/G/GB/GBARR/CPAN-DistnameInfo-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/G/GB/GBARR/CPAN-DistnameInfo-$version.tar.gz)
 
 build(){
 	cd CPAN-DistnameInfo-$version

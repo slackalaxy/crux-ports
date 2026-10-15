@@ -1,12 +1,12 @@
 # Description:	XML::DOM
-# URL:		http://search.cpan.org/~tjmather/XML-DOM/
+# URL:		https://metacpan.org/dist/XML-DOM
 # Maintainer:	Petar Petrov, slackalaxy at gmail dot com
 # Depends on:	p5-libwww p5-libxml p5-xml-parser p5-xml-regexp
 
 name=p5-xml-dom
 version=1.46
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/T/TJ/TJMATHER/XML-DOM-${version}.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/T/TJ/TJMATHER/XML-DOM-${version}.tar.gz)
 
 build() {
 	cd XML-DOM-$version

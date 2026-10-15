@@ -1,12 +1,12 @@
 # Description:	Heap
-# URL:		http://search.cpan.org/~jmm/Heap/
+# URL:		https://metacpan.org/dist/Heap
 # Maintainer:	Petar Petrov, slackalaxy at gmail dot com
 # Depends on:	perl
 
 name=p5-heap
 version=0.80
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/J/JM/JMM/Heap-${version}.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/J/JM/JMM/Heap-${version}.tar.gz)
 
 build() {
 	cd Heap-$version

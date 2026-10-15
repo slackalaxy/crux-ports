@@ -6,7 +6,7 @@
 name=p5-io-stringy
 version=2.113
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/C/CA/CAPOEIRAB/IO-Stringy-${version}.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/C/CA/CAPOEIRAB/IO-Stringy-${version}.tar.gz)
 
 build() {
 	cd IO-Stringy-$version

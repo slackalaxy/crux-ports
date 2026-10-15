@@ -1,12 +1,12 @@
 # Description:	XML, The Perl Way
-# URL:		http://search.cpan.org/~mirod/XML-Twig/
+# URL:		https://metacpan.org/dist/XML-Twig
 # Maintainer:	Petar Petrov, slackalaxy at gmail dot com
 # Depends on:	p5-xml-parser
 
 name=p5-xml-twig
 version=3.55
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/M/MI/MIROD/XML-Twig-${version}.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/M/MI/MIROD/XML-Twig-${version}.tar.gz)
 
 build() {
 	cd XML-Twig-$version
