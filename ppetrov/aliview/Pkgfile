@@ -1,12 +1,12 @@
 # Description: Alignment viewer and editor
-# URL: http://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/
+# URL: https://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: alsa-lib brotli giflib graphite2 harfbuzz lcms2 xorg-libxrender xorg-libxtst
 
 name=aliview
 version=1.33
-release=1
-source=(http://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/AliView-$version-linux-x86_64.run
+release=2
+source=(https://www.ormbunkar.se/aliview/downloads/linux/linux-versions-all/AliView-$version-linux-x86_64.run
 	$name.desktop $name.sh)
 
 build() {
@@ -18,7 +18,7 @@ build() {
 	rm -rf lib/runtime/legal
 	
 	# Permissions are so messed up...
-	sudo chown -R root:root .
+	chown -R root:root .
 	find . -type d -exec chmod 755 {} +
 	find . -type f -exec chmod 644 {} +
 	chmod 755 bin/AliView
