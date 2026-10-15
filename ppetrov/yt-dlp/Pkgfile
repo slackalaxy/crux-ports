@@ -1,7 +1,8 @@
 # Description: CLI program to access YouTub and other data content
 # URL: https://github.com/yt-dlp/yt-dlp/releases
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: python3-setuptools
+# Depends on:
+# Optional: ffmpeg
 
 name=yt-dlp
 version=2026.08.19
