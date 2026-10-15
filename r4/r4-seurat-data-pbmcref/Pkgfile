@@ -6,7 +6,7 @@
 name=r4-seurat-data-pbmcref
 version=1.0.0
 release=1
-source=(http://seurat.nygenome.org/src/contrib/pbmcref.SeuratData_${version}.tar.gz)
+source=(https://seurat.nygenome.org/src/contrib/pbmcref.SeuratData_${version}.tar.gz)
 
 build() {
   cd pbmcref.SeuratData

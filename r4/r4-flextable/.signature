@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YnRLM/JOiPP5sDVMGv1CijH7lp6ze7/oA0fgsi0WPkyQhZluEZRjesZGx+XJIBQA0Nobmd/utPRb/On9xvU+Wwo=
-SHA256 (Pkgfile) = f564f3f6fb6611106aae30296ae03948edf67c174beea2a9e5991b15835b0ffa
+RWQFYeZQgQH/YiHRZptuLvRpBNmiCI0ezr8wVsASphrYDW/R2JBtGSR+nFLEttI39KUDv08RBmlCIWd2jGeQSMvd2hi8OF1nNgc=
+SHA256 (Pkgfile) = 1692ba1fc6a34d2c6a46adb74bd02809c253e429f16811d9ea49f937182764b2
 SHA256 (.footprint) = 00ecf0fd5d399b0b9e4f2fb753690bd9853374c6547dfeb19e87fca2f0e8f6fe
-SHA256 (flextable_0.10.1.tar.gz) = d25b1edb1c64112f08d5ae378756490beac91bb17c905303bfcc88f46222182c
+SHA256 (flextable_0.10.3.tar.gz) = e3156b72638fa426d28fe172a78633458d56dd6588d1debb4084bbf4bf1a6a47

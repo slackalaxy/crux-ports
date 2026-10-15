@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YjB6RFYkPCrmCmoIeWJgYdwZb4X42rlG1UrbQ6o9tPTKKnTxHxm5knZfhzm5wYBl1PQk93DYhr/VBDWb6s8jHgc=
-SHA256 (Pkgfile) = 92b36b2a654aed10d8c483d59d802bc8e839e1186d87f1b0a6519aed150f8006
+RWQFYeZQgQH/Yn6POak39MstWD/Lvo7OBXF9wwpxVOJ4CjQaxOL3u1SnAoUtMSB20tNo1cQ45n9OF7ikV3f9NYodIq5qAQJC+Ac=
+SHA256 (Pkgfile) = 2b021efac8c0a5a3f4790978f1499243a4bb0e6cea33af64dd74b1d36f1c9483
 SHA256 (.footprint) = afe09c567f03916436699df6559654623aafd3f9faccf521104df4db037ed84c
-SHA256 (gdtools_0.5.1.tar.gz) = 94c15014fcfa7a83de863b7d690a98a05a8cb929dcb056af8f304632dc4441e7
+SHA256 (gdtools_0.5.2.tar.gz) = 1d7e11d47bcb4bfc43c8a1a518810e4b62f743bf2b0c9bff9fc053644be8eef6

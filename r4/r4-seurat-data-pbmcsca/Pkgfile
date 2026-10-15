@@ -6,7 +6,7 @@
 name=r4-seurat-data-pbmcsca
 version=3.0.0
 release=1
-source=(http://seurat.nygenome.org/src/contrib/pbmcsca.SeuratData_${version}.tar.gz)
+source=(https://seurat.nygenome.org/src/contrib/pbmcsca.SeuratData_${version}.tar.gz)
 
 build() {
   cd pbmcsca.SeuratData
