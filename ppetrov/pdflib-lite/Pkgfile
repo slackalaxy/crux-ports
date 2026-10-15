@@ -1,5 +1,5 @@
 # Description: A library for generating PDF files
-# URL: http://www.pdflib.com/download/pdflib-family/pdflib-lite-7/
+# URL: https://www.pdflib.com/download/pdflib-family/pdflib-lite-7/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=pdflib-lite
