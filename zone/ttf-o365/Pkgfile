@@ -5,7 +5,7 @@
 
 name=ttf-o365
 version=16.113.26092714
-release=1
+release=2
 source=(https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_${version}_Installer.pkg)
 
 build() {
@@ -15,14 +15,22 @@ build() {
 	cd DFonts
 	
 	for f in *; do
-    
-    		# Compute lowercase name
-    		newname=$(echo "$f" | tr '[:upper:]' '[:lower:]')
-    
-    		# Only rename if different
-    		if [ "$f" != "$newname" ]; then
-        		mv -i -- "$f" "$newname"
-    		fi
+
+		# Compute lowercase name
+		newname=$(echo "$f" | tr '[:upper:]' '[:lower:]')
+
+		# Only rename if different
+		if [ "$f" != "$newname" ]; then
+
+			# Stop the build if a file with the lowercase name already
+			# exists, instead of overwriting it
+			if [ -e "$newname" ]; then
+				echo "ERROR: $newname already exists, not overwriting it with $f"
+				exit 1
+			fi
+
+			mv -- "$f" "$newname"
+		fi
 	done
 	
 	# These are provided by fonts-win11 and Aptos we get directly
