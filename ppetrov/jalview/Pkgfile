@@ -6,7 +6,7 @@
 name=jalview
 version=2.11.5.2
 release=2
-source=(http://www.jalview.org/getdown/release/$name-all-$version-j1.8.jar
+source=(https://www.jalview.org/getdown/release/$name-all-$version-j1.8.jar
 	$name.desktop $name.png $name.sh)
 
 build() {

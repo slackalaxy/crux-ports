@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZSZYdDV600XlSTnnacmYVUFFdynQ4GGCDHAv+iSUrYMlBbe76z4PqMVfbAPWKb+vmAU3gre/gQJW/6TZpevAwgc=
-SHA256 (Pkgfile) = ca826b7cc30d813981e31609b87fd10e9c1ab293d950dd5dbad169eb0852553a
+RWToVVsIkzFIZTaqqTiJcc8A+JzqQvKnzDN+OBLYeJjIpwWhro7xtPJTRjR7nTS8FXHXQ/UHmyyibhvwjtVDMZe+cF+hrXvyPwc=
+SHA256 (Pkgfile) = 9a0d6cbf4fafd240ddb2510450b73ebf553a42179cf471ecb9842d10d07dc646
 SHA256 (.footprint) = 47bf8b52dbbe67695001242b675405ae5b452fd560c1c1ee3c2e48cb10077dda
 SHA256 (jalview-all-2.11.5.2-j1.8.jar) = 164aa45dc18649cf990403bc2c7593e8cfcfdf2160d33e78bfd15a910f30d352
 SHA256 (jalview.desktop) = 9e5de97fded86dcda9deccc115c1a278e64eba3cedb81500759ec13588fef840
