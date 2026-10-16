@@ -1,15 +1,7 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/fonts/
-drwxr-xr-x	root/root	etc/fonts/conf.d/
-lrwxrwxrwx	root/root	etc/fonts/conf.d/75-apple-emoji.conf -> ../../../usr/share/fontconfig/conf.avail/75-apple-emoji.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/fontconfig/
-drwxr-xr-x	root/root	usr/share/fontconfig/conf.avail/
--rw-r--r--	root/root	usr/share/fontconfig/conf.avail/75-apple-emoji.conf
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/apple/
--rw-r--r--	root/root	usr/share/fonts/apple/Apple_Emoji.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Courier-fixed.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Courier_Bold-fixed.ttf
 -rw-r--r--	root/root	usr/share/fonts/apple/Courier_Bold_Oblique-fixed.ttf
