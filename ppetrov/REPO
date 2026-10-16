@@ -124,6 +124,7 @@ d:gbgoffice
 d:aiksaurus
 d:7z
 d:python3-pkgconfig
+d:ttf-apple-emoji
 f:d5e1b335b6ec29867930ca548a111c24:acpid/.footprint
 f:95cf1c015d965065845566389a177bb1:acpid/.signature
 f:ec7c5dd59a01eb138c7fcd0ba668ee94:acpid/Pkgfile
@@ -610,3 +611,9 @@ f:4cd6e18bfe4cd05b21ee45481965882c:7z/.signature
 f:41a660a3ad948f5377ddfb452e78173f:python3-pkgconfig/Pkgfile
 f:3b3f3c129d3174cfb16275b6a0ec5b3c:python3-pkgconfig/.footprint
 f:0e236afcb9af9840614b1a98292c5de2:python3-pkgconfig/.signature
+f:b24d92c81a319477a3d7b9ac75af31f8:ttf-apple-emoji/README
+f:049c247463f74499d38312abed307d1f:ttf-apple-emoji/75-apple-emoji.conf
+f:b56ef3d4e21a4ca547b65152d60a758b:ttf-apple-emoji/Pkgfile
+f:ec94fd189292d4005cad6ace7dcd46aa:ttf-apple-emoji/post-install
+f:c64c4bc3cf3be7b32dd95246a7e35f9a:ttf-apple-emoji/.footprint
+f:15c3b71fccc617fa47971bad693fa47c:ttf-apple-emoji/.signature
