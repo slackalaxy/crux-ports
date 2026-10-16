@@ -1,0 +1,11 @@
+Firefox does not always follow the fontconfig settings for emoji. To make
+it use Apple Color Emoji as well:
+
+  1. Open about:config in the address bar and accept the warning.
+  2. Search for:  font.name-list.emoji
+  3. Set its value to:  Apple Color Emoji
+  4. Restart Firefox.
+
+The setting is stored in your Firefox profile, so it has to be done once
+per user (and again for a new profile). If you reset it, Firefox goes
+back to its own default emoji font.

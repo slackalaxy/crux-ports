@@ -1,0 +1,21 @@
+# Description: Brings Apple's vibrant color emojis
+# URL: https://github.com/samuelngs/apple-emoji-ttf/releases
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on:
+
+name=ttf-apple-emoji
+version=26.20260722.484daf4e
+release=1
+source=(https://github.com/samuelngs/apple-emoji-ttf/releases/download/macos-${version//./-}/AppleColorEmoji-Linux.ttf
+	75-apple-emoji.conf)
+renames=(AppleColorEmoji-Linux-$version.ttf SKIP)
+
+build() {
+	install -D -m 0644 $SRC/AppleColorEmoji-Linux-$version.ttf $PKG/usr/share/fonts/X11/TTF/AppleColorEmoji.ttf
+	
+	install -D -m 0644 $SRC/75-apple-emoji.conf $PKG/usr/share/fontconfig/conf.avail/75-apple-emoji.conf
+	
+	mkdir -p $PKG/etc/fonts/conf.d
+	cd $PKG/etc/fonts/conf.d
+	ln -s ../../../usr/share/fontconfig/conf.avail/75-apple-emoji.conf .
+}
