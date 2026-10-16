@@ -1,16 +1,15 @@
 # Description: Custom fonts configuration
 # URL: https://github.com/slackalaxy/fonts-conf
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: otf-apple-sf-mono ttf-aptos ttf-cascadia ttf-o365 ttf-sierra ttf-win11 xorg-font-dejavu-ttf xorg-font-terminus
+# Depends on: otf-apple-sf-mono ttf-apple-emoji ttf-aptos ttf-cascadia ttf-o365 ttf-sierra ttf-win11 xorg-font-dejavu-ttf xorg-font-terminus
 
 name=fonts-conf
-version=3b30fad
+version=3.8
 release=1
-source=(https://github.com/slackalaxy/fonts-conf/archive/$version/$name-3b30fadef780f7503aee88ee479fa59b6d6f1b44.tar.gz)
+source=(fonts.conf)
 
 build() {
-	cd $name-${version}*
-	install -D -m644 fonts.conf $PKG/etc/fonts/local.conf
+	install -D -m644 $SRC/fonts.conf $PKG/etc/fonts/local.conf
 	
 	mkdir -p $PKG/etc/profile.d
 	echo 'export FREETYPE_PROPERTIES="truetype:interpreter-version=35 cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"' > $PKG/etc/profile.d/fonts-conf.sh

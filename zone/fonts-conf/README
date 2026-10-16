@@ -21,6 +21,26 @@ upon fontconfig update):
 	INSTALL		^etc/fonts/conf\.d/48-guessfamily\.conf			NO
 	INSTALL		^etc/fonts/conf\.d/49-sansserif\.conf			NO
 
-Set freetype (already done by /etc/profile.d/fonts-conf.sh):
+This sets freetype by /etc/profile.d/fonts-conf.sh, as:
+
+	export FREETYPE_PROPERTIES="truetype:interpreter-version=35 cff:no-stem-darkening=0 autofitter:no-stem-darkening=0
+
+Another option is simply:
 
 	export FREETYPE_PROPERTIES="truetype:interpreter-version=35"
+
+NOTE:
+truetype:interpreter-version=35 makes TrueType fonts (most .ttf files,
+including the Microsoft fonts) use FreeType's older hinting engine. Text
+looks sharper and crisper, closer to Windows XP/7. FreeType’s current
+default (version 40) gives softer, slightly blurrier but smoother text.
+
+cff:no-stem-darkening=0 switches on "stem darkening" for CFF fonts,
+the PostScript-style .otf fonts such as Apple SF fonts. It makes thin
+strokes a little heavier, so small text looks less spindly. The double
+negative (no-...=0) is FreeType's naming: "no darkening" = false, so
+darkening is on.
+
+autofitter:no-stem-darkening=0 does the same for fonts drawn with
+FreeType's autohinter. The fonts.conf turns autohinting on for many 
+fonts, so this affects all of those.
