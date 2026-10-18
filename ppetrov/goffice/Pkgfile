@@ -1,7 +1,7 @@
 # Description: A glib/gtk set of document centric objects and utilities
 # URL: https://download.gnome.org/sources/goffice/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk3 libgsf librsvg libxslt xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+# Depends on: gtk3 libgsf librsvg libxslt
 
 name=goffice
 version=0.10.62

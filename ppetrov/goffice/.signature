@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQkYatYGNYvfGmNwJPsuyIdmVR+bU7ocyWTevzkzZxIWw2t1IXNW9ChETi3zrirVq51/OGy7kn/JVVcPhFX59wk=
-SHA256 (Pkgfile) = e51babe11e93428c6258245d1bad27994d4ae130aca0b9555c3165a66da393d8
+RWToVVsIkzFIZbtg/raImllZFQyvEb1Po7Hwh1o7Ly2mJA6OybTbkA8XG4q8ieF84kwenmjrbDIvn5jYVca8vJh7VpvytevA5A0=
+SHA256 (Pkgfile) = d63cc66f2b4be0ddfaa85614112cbb9fbb8dff6a7caff23bededa966e25a74a1
 SHA256 (.footprint) = f3acb8cf9cbe9c2420cef8526c1ee394840c2c0cfca9e4f4d2d6b7deaeca9e6b
 SHA256 (goffice-0.10.62.tar.xz) = 500eaff50628faa75adb3cd560236a4db498d9e7c52c036b78fa9a57f21805b3
