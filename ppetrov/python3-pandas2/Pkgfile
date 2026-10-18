@@ -1,7 +1,7 @@
 # Description: Powerful data structures for data analysis, time series, and statistics
 # URL: https://pandas.pydata.org/docs/getting_started/install.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: python3-cython meson-python python3-versioneer python3-dateutil python3-numpy python3-pytz python3-tzdata
+# Depends on: python3-dateutil python3-numpy python3-pytz python3-tzdata python3-versioneer
 
 name=python3-pandas2
 version=2.3.3
