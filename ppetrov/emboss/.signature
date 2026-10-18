@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZeQ+QTterR+5oYgAd1KldESYCYQyL/Ek+tyz7Wbg2u39Y4yqslRy9wqJX8YLy/gXXoZ/oQQ+RQaI65Zsupx9vQA=
-SHA256 (Pkgfile) = 2a8be0755c0c782f8681091e19a1586ba357fff81940060be0b3314f564e7af2
+RWToVVsIkzFIZZfuVV0nM85keCSNZzmz09ZigYa5wo5g1qBrIuknGQt04aqiM1IBlkegt8TZoPsVbDs0ETcmy4D9W9WDrQF01QM=
+SHA256 (Pkgfile) = 12fd6ddf4a1560d360c6f002125b8936b1a3142f1172ca7b376185aef2e56387
 SHA256 (.footprint) = a9a6064357d19f7174edc0314d36bed7b3aea28eff16fff3c0baacb5bba343dc
 SHA256 (EMBOSS-6.6.0.tar.gz) = 7184a763d39ad96bb598bfd531628a34aa53e474db9e7cac4416c2a40ab10c6e
 SHA256 (emboss.desktop) = 0c729a44c5c10e3f42dc939bdc9c2f92d5c6b1b3131423e74a00e13231ffb310
