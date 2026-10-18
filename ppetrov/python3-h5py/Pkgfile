@@ -1,7 +1,7 @@
 # Description: Read and write HDF5 files from Python
 # URL: https://www.h5py.org/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: hdf5 liblzf python3-numpy python3-pkgconfig python3-cython
+# Depends on: hdf5 liblzf python3-numpy python3-pkgconfig
 
 name=python3-h5py
 version=3.16.0
