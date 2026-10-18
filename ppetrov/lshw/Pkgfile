@@ -1,7 +1,7 @@
 # Description: LiSt HardWare
 # URL: https://github.com/lyonel/lshw/tags
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk3 polkit xorg-libxcomposite xorg-libxcursor xorg-libxinerama
+# Depends on: gtk3 polkit
 
 name=lshw
 version=B.02.20
