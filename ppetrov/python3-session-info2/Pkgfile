@@ -1,7 +1,7 @@
 # Description: Print versions of imported packages.
 # URL: https://pypi.org/project/session-info2/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: python3-build python3-hatch-docstring-description
+# Depends on: python3-hatch-docstring-description
 
 name=python3-session-info2
 version=0.4.2
