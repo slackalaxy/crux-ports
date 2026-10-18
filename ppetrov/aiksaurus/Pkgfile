@@ -1,7 +1,7 @@
 # Description: CLI/GTK3 thesaurus
 # URL: https://github.com/slackalaxy/gaiksaurus3
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli graphite2 gtk3 libxkbcommon xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
+# Depends on: gtk3
 
 name=aiksaurus
 version=fe88099
