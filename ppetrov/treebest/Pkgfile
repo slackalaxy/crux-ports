@@ -5,7 +5,7 @@
 
 name=treebest
 version=347fa82
-release=3
+release=4
 source=(https://github.com/Ensembl/$name/archive/$version/$name-347fa82a0ce1c169849053fdc9ff7d19d221f290.tar.gz
 	$name.png $name.desktop treebest-scheme.patch)
 
@@ -15,6 +15,10 @@ build() {
 	
 	# Use our CFLAGS
 	sed -i "/^CFLAGS/s/=/+=/" Makefile
+	
+	# Link fltk as a shared library instead of copying it into the
+	# program, so fltk updates reach fltreebest without a rebuild
+	sed -i 's/--ldstaticflags/--ldflags/' Makefile
 	
 	CFLAGS="$CFLAGS -fcommon" \
 	make
