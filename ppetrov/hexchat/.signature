@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZXVX7D7049tcinIzP1GjWNMjX+fxwL01ryzajV4ibHUNdvtv2eA+rOYDyfXYcWRpkyh1oy4kde/z3eA8IM5Ebws=
-SHA256 (Pkgfile) = 84cf51365b942d797b7a34093e9beb2808d7b6df10a64be71f3d61fe58b2f524
+RWToVVsIkzFIZcssZ83/ADbLVw/nVTtk0E7Hr1A3UQwSlMi8IiV8P8Z1yFB+MgvE3LGDaGmx1p1soXdqzJpQfePgeaPlfymLxgA=
+SHA256 (Pkgfile) = f1e65f5cf6b57630950a15cd91915bad9a24e294fe81f8c7ee06c1ba7c1326ca
 SHA256 (.footprint) = 8b64448f9e8d6e77b17dc4ae633629f9ff6f8a92b92823b729cf48407ff7a540
 SHA256 (hexchat-2.16.2.tar.xz) = 2e88340a8da274b87373ec0740746da78120cc6fbfdd201a4dd6999cac790e4a
 SHA256 (Add-channel-context-menu-item-to-close-the-channel.patch) = b317dbd4723788fd2561a600248eeee9c85099b6aeb23a5a356b97219f6892f0
