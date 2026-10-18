@@ -1,7 +1,7 @@
 # Description: Visualize local alignments (includes SIM)
 # URL: https://doua.prabi.fr/software/lalnview
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: fltk pdflib-lite xorg-libsm xorg-libxcursor
+# Depends on: fltk pdflib-lite
 
 name=lalnview
 version=3.0

@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZZZiNY6ERxonWNm+7ZTsGA8xyv9G4Bc9wVyLssDSpg3XTMqLXx7DS0UWxU4RcLi9ESsj0LfC8unq1m2ZBzXDYwE=
-SHA256 (Pkgfile) = 41ae2ea4061c7b80cb72bb284a875fabef702bafcae8ceff7f7160736a05ecdb
+RWToVVsIkzFIZdjrZ9EjxPCLf1NPxVjK5/FqCJJi6VZgeqZH2zTPfzNlzLpxvaXclGy/xb1GZlCI9YMQuk1sQTvCZCitddoDLQQ=
+SHA256 (Pkgfile) = 84d9ecad9d2b0a18bd67e19b7a91128ed733801955ede1f7224b6e55651cdad2
 SHA256 (.footprint) = b45a400bcc3ad4ab653d3d9e01c2b5e8e406eb70b62cf27d8027043cea7ff161
 SHA256 (lalnview-3.0.tar) = 97510497fb9661ef3486b532bc2389d196f5231debae9516013e9070f1ca7cc3
 SHA256 (lalnview.desktop) = e0a2595a1e23fd141f3110e8f24c7c87ddd940ffd830eeda807b3af12e459793
