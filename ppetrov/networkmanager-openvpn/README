@@ -1,0 +1,6 @@
+The plugin runs openvpn as an unprivileged user called "nm-openvpn"
+and locks it into /var/lib/openvpn/chroot. On systemd systems these
+are created automatically from sysusers.d/tmpfiles.d; CRUX has no
+systemd, so we create them here automatically by post-install.
+
+Commands skip if already done.

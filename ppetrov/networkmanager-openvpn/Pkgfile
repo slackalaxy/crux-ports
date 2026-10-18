@@ -1,0 +1,28 @@
+# Description: NetworkManager VPN plugin for OpenVPN
+# URL: https://github.com/NetworkManager/NetworkManager-openvpn/tags
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: libnma openvpn
+
+name=networkmanager-openvpn
+version=1.12.5
+release=1
+source=(https://github.com/NetworkManager/NetworkManager-openvpn/archive/refs/tags/${version}.tar.gz)
+renames=(NetworkManager-openvpn-$version.tar.gz)
+
+build() {
+	cd NetworkManager-openvpn-$version
+	
+	autoreconf -vif
+	./configure --prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--libexecdir=/usr/lib \
+		--disable-static \
+		--disable-nls
+
+	make
+	make DESTDIR="$PKG" install
+	mkdir -p $PKG/var/lib/openvpn/chroot
+	
+	rm -rf $PKG/usr/lib/{sysusers.d,tmpfiles.d}
+}
