@@ -1,7 +1,7 @@
 # Description: A tool for extracting data from graphs
 # URL: https://github.com/pn2200/g3data
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk xorg-libxdamage
+# Depends on: gtk
 
 name=g3data
 version=47a1e64
