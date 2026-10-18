@@ -1,7 +1,7 @@
 # Description: MPlayer/MPV frontend
 # URL: https://www.smplayer.info/en/downloads
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: double-conversion icu mpv qt5
+# Depends on: mpv qt5
 
 name=smplayer
 version=26.8.29
