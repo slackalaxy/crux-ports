@@ -1,7 +1,7 @@
 # Description: A powerful editor
 # URL: https://bluefish.openoffice.nl/index.html
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli graphite2 gtk3 libxkbcommon wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
+# Depends on: gtk3
 
 name=bluefish
 version=2.4.2
