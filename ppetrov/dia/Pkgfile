@@ -1,7 +1,7 @@
 # Description: Dia is an editor for diagrams, graphs, charts etc. 
 # URL: https://packages.debian.org/sid/dia
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: brotli graphene graphite2 gtk3 libdeflate libwebp libxkbcommon libxslt nss openjpeg2 poppler wayland xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxres
+# Depends on: graphene gtk3 libxslt poppler
 
 name=dia
 version=0.98+git20260221
