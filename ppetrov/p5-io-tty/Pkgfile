@@ -5,22 +5,8 @@
 
 name=p5-io-tty
 version=1.31
-release=1
+release=2
 source=(https://cpan.metacpan.org/authors/id/T/TO/TODDR/IO-Tty-${version}.tar.gz)
-
-unpack_source() {
-  for file in ${source[@]}; do
-    case ${file##*/} in
-    IO-Tty-$version.tar.gz)
-      echo "Unpacking $(get_filename $file)"
-      bsdtar -p -o -C $SRC -xf $(get_filename $file)
-      ;;
-    *)
-      cp $(get_filename $file) $SRC
-      ;;
-    esac
-  done
-}
 
 build() {
 	cd IO-Tty-$version
