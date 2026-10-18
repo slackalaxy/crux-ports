@@ -1,7 +1,7 @@
 # Description: An open source thesaurus
 # URL: https://sourceforge.net/projects/artha/files/artha/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: gtk xorg-libxdamage wordnet
+# Depends on: dbus-glib gtk wordnet
 
 name=artha
 version=1.0.5
