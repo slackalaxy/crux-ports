@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwdHW7GIPTK+PrhjjMJEkGsQTr5rzHmzVa5hfJuDqaw0nvpoof/KWKzlIs2wUz6tKvaH+IkBOfle9+W/VjP1s/g0=
-SHA256 (Pkgfile) = e51fa3e9e3a93279d41ffc6c64b4d0cee324ed466a2bf3507e739a9b6e5a65e2
+RWRPokwW0IImwdTrrx2wGaaaSlLXCYIV4ExwY3ipPfxqmc51r2iMrv9WFQA5txfypV43iowJYovo35e5de98Zwq//KTNFisjVw0=
+SHA256 (Pkgfile) = bed9b5d8ad6af34d595bc3fc6d327a57a80caaac782f4ad9709f19ff2df2a47e
 SHA256 (.footprint) = 3315a09a0342102404f0ed59b9913b4dfb3d69f8b1f809a9381a05841167beff
-SHA256 (mime-crux.xml) = 6cd8bb4046609897d76f7b4cea0fa7fc8a49a7a5cf9147d0c4974667e6202cf3
+SHA256 (mime-crux.xml) = 986970effc2b0faf2652a15e62a2247f2d96ab472aac71a9efa2319c92670485

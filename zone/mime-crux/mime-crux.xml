@@ -3,22 +3,25 @@
   <mime-type type="text/x-pkgfile">
     <comment>CRUX Pkgfile</comment>
     <sub-class-of type="application/x-shellscript"/>
+    <generic-icon name="text-x-script"/>
     <glob pattern="Pkgfile"/>
   </mime-type>
   <mime-type type="text/x-rsync">
     <comment>CRUX rsync ports</comment>
     <sub-class-of type="application/x-shellscript"/>
+    <generic-icon name="text-x-script"/>
     <glob pattern="*.rsync"/>
   </mime-type>
   <mime-type type="text/x-httpup">
     <comment>CRUX httpup ports</comment>
     <sub-class-of type="application/x-shellscript"/>
+    <generic-icon name="text-x-script"/>
     <glob pattern="*.httpup"/>
   </mime-type>
   <mime-type type="text/x-repo">
     <comment>CRUX REPO file</comment>
     <sub-class-of type="application/x-shellscript"/>
+    <generic-icon name="text-x-script"/>
     <glob pattern="REPO"/>
   </mime-type>
 </mime-info>
-

@@ -4,7 +4,7 @@
 
 name=mime-crux
 version=3.8
-release=2
+release=3
 source=($name.xml)
 
 build() {
