@@ -1,10 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 update-mime-database /usr/share/mime
-update-desktop-database
-for i in /usr/share/icons/* ; do
-	gtk-update-icon-cache -q -t -f $i
-done
-
-#mkfontdir /usr/share/fonts/wps-office/
-#mkfontscale /usr/share/fonts/wps-office/
-#fc-cache
+update-desktop-database -q
+gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor
