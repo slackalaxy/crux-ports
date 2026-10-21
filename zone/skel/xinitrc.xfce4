@@ -1,12 +1,20 @@
 #!/bin/sh
-#  xinitrc.xfce - modified to work around xfce4session bug
-#                 https://bugzilla.xfce.org/show_bug.cgi?id=8841
 
-# Clean up session cache first?
+# Clean up session cache first? Only enable if you don't use session
+# saving.
 # rm -rf ~/.cache/sessions
 
 # Set a different value for Xgamma?
 xgamma -gamma 0.8
+
+# Remove a stale hp-systray lock left by an unclean shutdown,
+# otherwise hp-systray refuses to start
+rm -f ~/.hplip/hp-systray.lock
+
+# Remove bash history temp files left behind by killed shells.
+# Only files older than a day (-mtime +0), so a file another shell is
+# writing right now is never touched. -maxdepth 1: only in ~ itself.
+find ~ -maxdepth 1 -name '.bash_history-*.tmp' -mtime +0 -delete
 
 ########################################################################
 ##  Merge in defaults and keymaps                                     ##
@@ -33,18 +41,19 @@ if [ -f $usermodmap ]; then
     /usr/bin/xmodmap $usermodmap
 fi
 
+# Some programs (Zoom, Firefox, Electron apps) check these to tell X11
+# from Wayland or to detect the desktop. Uncomment if one of them
+# misbehaves (they were once tried for a Zoom problem).
+#export XDG_SESSION_TYPE=x11
+#export XDG_CURRENT_DESKTOP=XFCE
+
 ########################################################################
 ##  Start xfce Desktop Environment                                    ##
 ########################################################################
 
-# Default
-# exec dbus-launch startxfce4 --with-ck-launch
+# "dbus-launch --exit-with-session" makes startx fail, so it is not used
 
-# --exit-with-session is unknown and startx fails
-# exec ck-launch-session dbus-launch --exit-with-session /usr/bin/startxfce4
-# exec dbus-launch --exit-with-session /usr/bin/startxfce4
-
-if [ -z "$DESKTOP_SESSION" -a -x /usr/bin/ck-launch-session ]; then
+if [ -z "$DESKTOP_SESSION" ] && [ -x /usr/bin/ck-launch-session ]; then
   exec ck-launch-session dbus-launch /usr/bin/startxfce4
 else
   exec dbus-launch /usr/bin/startxfce4

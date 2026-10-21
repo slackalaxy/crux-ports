@@ -1,20 +1,19 @@
 ! xrdb -merge ~/.Xresources
- 
-! Use a nice truetype font and size by default... 
-!xterm*faceName: Terminus
 
-xterm*faceName: DejaVu Sans Mono Book
+! Use a nice truetype font and size by default... 
+xterm*faceName: DejaVu Sans Mono
 xterm*faceSize: 10
 
-! Every shell is a login shell by default (for inclusion of all necessary environment variables)
-xterm*loginshell: true
- 
+! Uncomment to make every xterm a login shell (reads ~/.bash_profile).
+! Do not combine with the rm lines in ~/.bash_logout.
+!xterm*loginshell: true
+
 ! I like a LOT of scrollback...
 xterm*savelines: 16384
- 
+
 ! double-click to select whole URLs :D
 !xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
- 
+
 ! DOS-box colours...
 xterm*foreground: rgb:ff/ff/ff
 xterm*background: rgb:00/00/00
@@ -34,14 +33,14 @@ xterm*color12: rgb:54/54/fc
 xterm*color13: rgb:fc/54/fc
 xterm*color14: rgb:54/fc/fc
 xterm*color15: rgb:fc/fc/fc
- 
+
 ! right hand side scrollbar...
 xterm*rightScrollBar: false
 xterm*ScrollBar: false
- 
+
 ! stop output to terminal from jumping down to bottom of scroll again
 xterm*scrollTtyOutput: false
- 
+
 ! https://groups.google.com/g/linux.debian.user/c/k1u30pargYA
 xterm*cursorBlink: true
 xterm*cursorUnderLine: true

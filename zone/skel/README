@@ -4,6 +4,11 @@ You may wish to manually copy these to /root:
   /etc/skel/.bashrc
   /etc/skel/.nanorc
 
+Uncomment the desired locales in /etc/locale.gen (e.g en_US.UTF-8 UTF-8
+and/or en_GB.UTF-8 UTF-8), then run:
+
+  /usr/sbin/locale-gen
+
 I use Xfce, therefore the .xinitrc runs /usr/bin/startxfce4 by default.
 Load the X resources with no log off:
 

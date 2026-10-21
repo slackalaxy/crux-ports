@@ -1,6 +1,8 @@
+#!/bin/bash
+
 ## Use colour by default
 alias ls="ls --color=auto"
-alias ll="ls --color=auto -al"
+alias ll="ls -al"
 alias cd..='cd ..'
 alias ..='cd ..'
 
@@ -10,4 +12,28 @@ export EDITOR=nano
 
 if [ -f /etc/profile.d/lscolors.sh ]; then
   source /etc/profile.d/lscolors.sh
+fi
+
+if [ -f /etc/profile.d/vte.sh ]; then
+  source /etc/profile.d/vte.sh
+fi
+
+# when a shell saves its history, it adds to ~/.bash_history instead of
+# overwriting it, so no terminal wipes out another's commands.
+shopt -s histappend
+
+# A command typed in one terminal is immediately available when
+# pressing UP in every other terminal.
+# PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+
+# Each terminal's UP shows its own commands, everything still gets saved
+# right away, and new terminals start with the full history.
+PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
+
+# Simple default prompt, where "$" is in cyan.
+PS1='\[\e[1;36m\]\$\[\e[0m\] '
+
+# Over SSH: the computer name in yellow, then "$" in cyan.
+if [ -n "$SSH_CONNECTION" ]; then
+	PS1='\[\e[1;33m\]\h\[\e[1;36m\]\$\[\e[0m\] '
 fi

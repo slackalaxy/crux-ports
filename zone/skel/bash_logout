@@ -1,4 +1,10 @@
-#rm -rf ~/.bash_history-*.tmp
+#!/bin/bash
+
+# Clean up X auth files on logout. Only safe if you use console login +
+# startx, xterm is NOT a login shell (see .Xresources), and you do not
+# log out of SSH sessions while X is running on this machine.
+
 #rm -rf ~/.Xauthority
 #rm -rf ~/.serverauth.*
+
 clear

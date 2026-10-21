@@ -1,35 +1,40 @@
+#!/bin/bash
+
 if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
-if [ -f /etc/profile.d/vte.sh ]; then
-  source /etc/profile.d/vte.sh
-fi
-
 # Prefer my own freetype2 settings from the fonts-conf port
 if [ -f /etc/profile.d/fonts-conf.sh ]; then
-  source /etc/profile.d/fonts-conf.sh
+  . /etc/profile.d/fonts-conf.sh
 fi
 
 # If you have both qt5ct and qt6ct installed, qt5ct is enough
 #if [ -f /etc/profile.d/qt6ct.sh ]; then
-#  source /etc/profile.d/qt6ct.sh
+#  . /etc/profile.d/qt6ct.sh
 #fi
 
 if [ -f /etc/profile.d/qt5ct.sh ]; then
-  source /etc/profile.d/qt5ct.sh
+  . /etc/profile.d/qt5ct.sh
 fi
 
 # Disable hiding GTK3 scrollbars. If you have both Bluecurve and
 # gtk-classic-themes, only one is enough
 if [ -f /etc/profile.d/bluecurve.sh ]; then
-  source /etc/profile.d/bluecurve.sh
+  . /etc/profile.d/bluecurve.sh
 fi
 
 #if [ -f /etc/profile.d/gtk-classic-themes.sh ]; then
-#  source /etc/profile.d/gtk-classic-themes.sh
+#  . /etc/profile.d/gtk-classic-themes.sh
 #fi
 
-## Locale
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8  # Uncomment if you need to force all categories
+## Locale settings
+#export LANG=en_US.UTF-8       # the default, if not set individually
+export LANG=en_GB.UTF-8        # swap commented lines to change
+
+#export LC_PAPER=en_GB.UTF-8   # A4 paper
+#export LC_TIME=en_GB.UTF-8    # 21/10/2026, 24-hour clock
+
+# Uncomment this to force all categories. This overrides everything,
+# including en_GB and any LC_PAPER or LC_TIME. Use only for testing.
+#export LC_ALL=en_US.UTF-8
