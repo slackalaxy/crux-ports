@@ -1,0 +1,21 @@
+# Description: GNOME-Colors icon theme unofficial update
+# URL: https://github.com/slackalaxy/gnome-colors
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gnome-icon-theme
+
+name=gnome-colors-icons
+version=578c167
+release=1
+source=(https://github.com/slackalaxy/gnome-colors/archive/$version/gnome-colors-578c167e17d76a6ba74034e897e5980999c5a212.tar.gz)
+
+build() {
+	cd gnome-colors-${version}*
+	mkdir -p $PKG/usr/share/icons
+	cp -a icons/* $PKG/usr/share/icons/
+	
+	# gnome-colors have their own folders, so we do this already in
+	# the package.
+	for d in $PKG/usr/share/icons/*/; do
+  		gtk-update-icon-cache -q -t -f "$d"
+  	done
+}
