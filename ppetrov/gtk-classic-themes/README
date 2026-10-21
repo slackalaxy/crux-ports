@@ -1,0 +1,33 @@
+To disable hiding of scrollbars in GTK3 applications, source this:
+
+    /etc/profile.d/bluecurve.sh
+
+If primary paste somehow does not work, do this for your user:
+
+$ gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
+
+To fix fonts appearance and make scrollbars always visible, create this
+file (if it does not exist):
+
+    ~/.config/gtk-4.0/settings.ini
+
+...containing the following:
+
+[Settings]
+gtk-hint-font-metrics=true
+gtk-font-rendering=manual
+gtk-overlay-scrolling=false
+
+By default, Xfce’s desktop cuts the names of unselected icons to one
+line with "..." and only shows the full name when you click on the icon.
+A GTK style setting turns the cutting off, so every name shows in full,
+wrapped over several lines. Add it to your GTK3 user stylesheet, create
+this file (if it does not exist):
+
+    ~/.config/gtk-3.0/gtk.css
+
+...containing the following:
+
+/* Desktop: show full icon names over several lines instead of cutting
+   them to one line with "..." */
+XfdesktopIconView.view { -XfdesktopIconView-ellipsize-icon-labels: 0; }

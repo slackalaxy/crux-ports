@@ -1,0 +1,25 @@
+# Description: GTK3 and GTK4 ports of the classic GTK2 themes
+# URL: https://github.com/slackalaxy/gtk-classic-themes
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: gtk-engines
+
+name=gtk-classic-themes
+version=59e7e6e
+release=1
+source=(https://github.com/slackalaxy/gtk-classic-themes/archive/$version/$name-59e7e6e4cb541b9a8076f509221e05136399ee69.tar.gz)
+
+build() {
+	cd $name-${version}*
+	mkdir -p $PKG/usr/share/themes
+	cp -a themes/* $PKG/usr/share/themes/
+	
+	# These are shipped by gtk-engines
+	rm -r $PKG/usr/share/themes/{Clearlooks,Crux,Industrial,Mist,Redmond,ThinIce}/gtk-2.0
+	rm -r $PKG/usr/share/themes/{Crux,Redmond}/xfwm4
+	
+	find "$PKG" -type f -name "*README*" -delete
+	find "$PKG" -type f -name "AUTHORS" -delete
+	
+	mkdir -p $PKG/etc/profile.d
+	echo "export GTK_OVERLAY_SCROLLING=0" > $PKG/etc/profile.d/$name.sh
+}
