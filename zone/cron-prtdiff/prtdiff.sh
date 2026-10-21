@@ -23,7 +23,10 @@ echo "=== $DATE ===" >> "$LOG"
 "$PORTS" -u > /dev/null 2>> "$LOG" || echo "WARNING: ports -u failed" >> "$LOG"
 
 if ! "$PRTGET" quickdiff >> "$LOG" 2>&1; then
-    echo "ERROR: prt-get diff command failed" >> "$LOG"
+    echo "ERROR: prt-get quickdiff command failed" >> "$LOG"
 fi
 
 echo "" >> "$LOG"
+
+# Keep only the last 2000 lines, so the log doesn't grow forever
+tail -n 2000 "$LOG" > "$LOG.tmp" && mv "$LOG.tmp" "$LOG"
