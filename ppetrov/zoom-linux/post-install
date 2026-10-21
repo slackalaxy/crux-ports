@@ -1,6 +1,4 @@
-#!/bin/bash
-xdg-mime install /usr/share/mime/packages/zoom-linux.xml
+#!/bin/sh
 update-desktop-database -q /usr/share/applications
 update-mime-database /usr/share/mime
-gtk-update-icon-cache -f /usr/share/icons/hicolor
-# EOF
+gtk-update-icon-cache -q -t -f /usr/share/icons/hicolor
