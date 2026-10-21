@@ -22,13 +22,13 @@ fi
 
 echo "=== $DATE ===" >> "$LOG"
 
-# Check if mountpoint array is set and not empty
-if [ ${#mountpoint[@]} -eq 0 ]; then
-    echo "ERROR: No mount points defined in $CONFIG" >> "$LOG"
+# Check if MOUNTPOINTS array is set (/etc/trimssd.conf) and not empty
+if [ ${#MOUNTPOINTS[@]} -eq 0 ]; then
+    echo "ERROR: No MOUNTPOINTS defined in $CONFIG" >> "$LOG"
     exit 1
 fi
 
-for mp in "${mountpoint[@]}"; do
+for mp in "${MOUNTPOINTS[@]}"; do
     if mountpoint -q "$mp" 2>/dev/null; then
         if ! fstrim -v "$mp" >> "$LOG" 2>&1; then
             echo "WARNING: fstrim failed on $mp" >> "$LOG"
@@ -37,3 +37,6 @@ for mp in "${mountpoint[@]}"; do
         echo "WARNING: $mp is not mounted - skipping" >> "$LOG"
     fi
 done
+
+# Keep only the last 2000 lines, so the log doesn't grow forever
+tail -n 2000 "$LOG" > "$LOG.tmp" && mv "$LOG.tmp" "$LOG"
