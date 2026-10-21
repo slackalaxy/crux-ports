@@ -5,7 +5,7 @@
 
 name=grub2-default
 version=3.8
-release=3
+release=4
 source=($name 4800ea3.png)
 
 build() {

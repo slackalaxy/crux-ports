@@ -17,7 +17,7 @@
 #GRUB_TIMEOUT=12
 
 # Device node for the volume containing the root filesystem. Set this to
-# override the grub2-mkconfig command's root device auto-detection. For
+# override the grub-mkconfig command's root device auto-detection. For
 # example, GRUB_DEVICE=/dev/ram0 will force root=/dev/ram0 to be used
 # in the kernel command line. (detected)
 #GRUB_DEVICE=
@@ -70,8 +70,9 @@
 
 # Set resolution and color depth (some examples below, use with care!).
 # Note that you can use only modes which your graphic card supports via
-# VBE you can see them in real GRUB with the command 'vbeinfo':
-#GRUB_GFXMODE=2560x1440x32,1920x1080x32,1368x768x32,auto
+# VBE you can see them in real GRUB with the command 'vbeinfo' on BIOS
+# systems or 'videoinfo' on UEFI and/or recent GRUB.
+#GRUB_GFXMODE=2560x1440x32,1920x1080x32,1366x768x32,auto
 
 # Controls the video mode in which the Linux kernel starts. May be set
 # to "text", "keep", or a display resolution. Set to "keep", in order to
