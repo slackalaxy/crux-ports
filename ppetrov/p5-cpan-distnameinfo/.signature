@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZTvdpeOvHXJrEU35QCp0wog53H6say2k+cWXiYX2t4Py/sP7iSQPo8OJnIIcq0ZcrNgyb2xnUIL3TXWw0cnzygw=
-SHA256 (Pkgfile) = 84b38311d35c52f9f22b993531d52e0f588a3499396d19fe46ce3c3c2bd9afee
+RWToVVsIkzFIZRrthcW1LY27vw6VrrDc2ymWOJ0Z2zRxGdS8pfjbNMoXR9NcY8MhCo842qlffFt8ouAD/HvXh5H6VZf+NjM60Q4=
+SHA256 (Pkgfile) = ec54b6a65ee635db37407bfd7b4df4b0d3ffd2b67c146b2f7cca78bdfe1041d2
 SHA256 (.footprint) = 62fab700bbab9cf03b01b2a7f6e632bac78f1b5bfea95ca1f70ba8b1d91b9149
 SHA256 (CPAN-DistnameInfo-0.12.tar.gz) = 2f24fbe9f7eeacbc269d35fc61618322fc17be499ee0cd9018f370934a9f2435
