@@ -4,8 +4,8 @@
 # Depends on: python3-numpy python3-py-cpuinfo python3-setuptools-scm python3-typing_extensions
 
 name=python3-numcodecs
-version=0.17.0
-release=2
+version=0.17.1
+release=1
 source=(https://files.pythonhosted.org/packages/source/n/numcodecs/numcodecs-$version.tar.gz)
 
 build() {

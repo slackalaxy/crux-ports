@@ -2,10 +2,10 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numcodecs-0.17.0.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numcodecs-0.17.0.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numcodecs-0.17.0.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/numcodecs-0.17.0.dist-info/WHEEL
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numcodecs-0.17.1.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numcodecs-0.17.1.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numcodecs-0.17.1.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/numcodecs-0.17.1.dist-info/WHEEL
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numcodecs/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/numcodecs/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/numcodecs/__pycache__/
