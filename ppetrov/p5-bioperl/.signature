@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZcDkylfvWiACyFRm/k08Mw2yF9AEpv3SCyRdwT5ApGEDLa0EkNz7vzKOZ3G471ngbCqwtK7Cd+a7UUVA7ZoQrAM=
-SHA256 (Pkgfile) = 94bd6570f6587388cda902476e92b0bf96798e4bc50a22982fce318c526a0c50
+RWToVVsIkzFIZaQJxcK2UeYtOXFUQ6q8dp5lEX4LhhmDgxSzfscMEt0V/lWZ9KAhf6+qABGc+AarX9MZC5pcIniDJ4I+iVCUPg4=
+SHA256 (Pkgfile) = c384edb5176ee4ba9e41549e29b34cdaff778aa27f123a3f8ea33cab434814d6
 SHA256 (.footprint) = e7938bc7b95fb19be44304a2dbe1ab2452f72a402a6828a5f2368ef43f90d9ee
 SHA256 (BioPerl-1.7.8.tar.gz) = c490a3be7715ea6e4305efd9710e5edab82dabc55fd786b6505b550a30d71738
