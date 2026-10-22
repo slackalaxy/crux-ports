@@ -5,10 +5,10 @@
 
 name=pulse-blueman
 version=3.8
-release=1
+release=2
 source=()
 
 build() {
 	mkdir -p $PKG/etc/pulse/default.pa.d
-	echo "load-module module-bluetooth-discover" >> $PKG/etc/pulse/default.pa.d/blueman.pa
+	echo "load-module module-bluetooth-discover" > $PKG/etc/pulse/default.pa.d/blueman.pa
 }
