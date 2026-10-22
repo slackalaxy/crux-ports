@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZabRGQATNlmgi0Z7yuB2Om+mDfoqCggxI8G63vQ69mE1a5qLoNZnX/1SvstkXqV0C4OU08BfiHH8dp4SSZKKAAM=
-SHA256 (Pkgfile) = 8f39ce98597d655c63d9571ed2c0713807ce38bd76f74fc817668eccc6a5b5b8
+RWToVVsIkzFIZR4pml/5JHK3DHg4f+YmZRa90Ek6SBEIC7FtjgGeeIdoJnojfT+FdvpAnwbGhTJRihdduXvrIlQZlE+krit/jQw=
+SHA256 (Pkgfile) = 5f627e3edf5f15fce929e61dc7f62df65c6aa9859c914db345840eeaae580427
 SHA256 (.footprint) = 657f38e8de0efa7dae3a34f0935dbf4fd3ced2939f8ecc7443ecb361e5086105
-SHA256 (onlyoffice-DesktopEditors-x86_64.AppImage-9.4.0) = f5faf24552665262fe94486a510b997d2e5a24bde14df94c802c79bf17f9254c
+SHA256 (onlyoffice-DesktopEditors-x86_64.AppImage-10.0.0) = 3e4668d44f6881d1d8873b38ea9c9fd81b9c77132facdb735bfebfe960edb745
 SHA256 (onlyoffice.desktop) = 0dc3c606b5319852c52a8685fed4cb8daf7d08a0f4b586150836bd8406e12f96
 SHA256 (onlyoffice.sh) = 55b3567304bca72cce7a8854e175dfb64d958a8dbf4f0199e430eb30b7efc6d6
 SHA256 (onlyoffice.png) = 3ed28b907d88e61c9aac838c7914d03828dbb2591f03fa43d1e5fe8af30fea05
