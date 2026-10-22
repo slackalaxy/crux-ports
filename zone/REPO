@@ -78,7 +78,7 @@ f:c999cc225856e4de68206ec91347270b:pulse-autospawn/.footprint
 f:419a57a201edd6e877d6dea021beca4d:pulse-autospawn/.signature
 f:8cc4ce2b4fce0e47d2af4efae54d6ea1:pulse-blueman/Pkgfile
 f:4b9a06baf1785a80dc00300c83dfff67:pulse-blueman/.footprint
-f:08094fcb9482d4073f2a9fbb11f36f66:pulse-blueman/.signature
+f:f32775dc6f7f715a36cee8157995bc1f:pulse-blueman/.signature
 f:5c059f957cfc76094ce84ed0743aa251:pulse-blueman/README
 f:c67b3b48fe910b2b1a2d547f18968604:firewall/Pkgfile
 f:656d03c0cea890201edf2e3047eacfb7:firewall/README
@@ -102,7 +102,7 @@ f:ef2e592ed8588f2fbc61321465a67223:ports-extra/README
 f:beb0c8e7c66306d7b38fcab4927e7f1e:etc-fstab_labels/Pkgfile
 f:b83e5cfaf548686bed99a5775e91ad48:etc-fstab_labels/README
 f:fa70bad6e57c82bbb3db84bec49dc7a3:etc-fstab_labels/.footprint
-f:2d8f070db7df880a1ee68fed854dbf03:etc-fstab_labels/.signature
+f:f1ce6a7054a556bd9b271e922a57fe9b:etc-fstab_labels/.signature
 f:f07b39d7787c01e06dfa0f6aa9ac5d91:etc-fstab_labels/fstab_labels
 f:bb08d70e25c71253bbbd5efedb3243d1:battery-limits/Pkgfile
 f:47e1615345a9b5772a9bbe372d89a213:battery-limits/99-thinkpad-battery-threshold.rules
