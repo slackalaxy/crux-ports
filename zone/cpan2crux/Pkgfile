@@ -4,7 +4,7 @@
 # Depends on: p5-cpan-distnameinfo
 
 name=cpan2crux
-version=1.4
+version=1.5un
 release=1
 source=($name-$version.pl)
 

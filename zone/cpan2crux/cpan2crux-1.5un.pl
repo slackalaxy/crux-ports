@@ -9,7 +9,6 @@ use Getopt::Long;
 use Pod::Usage;
 use Pod::Man;
 use Cwd;
-use Digest::MD5;
 use Data::Dumper;
 use Term::ANSIColor;
 $Data::Dumper::Indent   = 3;
@@ -144,7 +143,7 @@ while ( scalar( grep { $dists->{$_}{status} eq 'pending' } keys %{$dists}) > 0 )
 			name         => dist2port($dists->{$name}{info}{dist}),
 			version      => $dists->{$name}{info}{version},
 			release      => '1',
-			source       => '(http://search.cpan.org/CPAN/authors/id/'. $dist->id=~s{$dists->{$name}{info}{version}}{\${version}}r .')',
+			source       => '(https://cpan.metacpan.org/authors/id/'. $dist->id=~s{\Q$dists->{$name}{info}{version}\E}{\${version}}r .')',
 			build        => {
 				dir => "$name-\$version",
 				cmd => '# Write your compilation commands here',
@@ -164,17 +163,9 @@ while ( scalar( grep { $dists->{$_}{status} eq 'pending' } keys %{$dists}) > 0 )
 			$port{description} = $ns;
 		}
 		
-		# find the distribution's URL
-		if ( defined $meta->{resources}{homepage} ) {
-			$port{url} = $meta->{resources}{homepage};
-		} elsif ( defined $dists->{$name}{info}{cpanid} ) {
-			# TODO: is it necessary to encode the cpanid or name?
-			$port{url} = sprintf('http://search.cpan.org/~%s/%s/', lc $dists->{$name}{info}{cpanid}, $name);
-		} elsif ( defined $meta->{resources}{repository}{web} ) {
-			$port{url} = $meta->{resources}{repository}{web};
-		} elsif ( defined $meta->{resources}{repository}{url} ) {
-			$port{url} = $meta->{resources}{repository}{url};
-		}
+		# metacpan page of the distribution: it shows the current CPAN
+		# version, which is what source= downloads
+		$port{url} = "https://metacpan.org/dist/$name";
 		
 		if ( $meta->{dynamic_config} ) {
 			warn "WARNING: $ns uses dynamic config, please verify dependencies in $port{name}/Pkgfile\n";
@@ -308,28 +299,7 @@ PART2
 		print PKGFILE $pkgfile;
 		close PKGFILE;
 		
-		# Calculate md5 of source file
-		print "Writing $port{name}/.md5sum\n" if $verbose >= 1;
-		my $md5 = Digest::MD5->new;
-		my $fh;
-		if (! open($fh, "<$dist->{localfile}")) {
-			print "Error reading from $dist->{localfile}: $!\n";
-			$dists->{$name}{status} = 'failed';
-			next DIST;
-		}
-		$md5->addfile($fh);
-		close($fh);
-
-		# Create .md5sum
-		open (MD5SUM, ">$port{name}/.md5sum") or do {
-			print "Error creating $port{name}/.md5sum: $!\n";
-			$dists->{$name}{status} = 'failed';
-			next DIST;
-		};
-		my ($basename) = $dist->{localfile} =~ /\/([^\/]+)$/;
-		print MD5SUM $md5->hexdigest, "  $basename\n"; 
-		close(MD5SUM);
-		print "=======> Created $port{name}\n";
+		print "=======> Created $port{name}, run 'pkgmk -us' in it to create .signature\n";
 		$dists->{$name}{status} = 'done';
 	}
 }

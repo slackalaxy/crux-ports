@@ -1,0 +1,15 @@
+Run as a normal user. Upon first run, answer:
+- configure automatically? -> yes (press Enter)
+- What approach do you want? -> type "manual"
+
+NOTE!
+That's an unofficial update, made by Claude. Changes:
+
+1) Download link (now line 146): https://cpan.metacpan.org/authors/id/..., 
+with the version matched literally (\Q...\E).
+
+2) URL (now lines 166–168): always https://metacpan.org/dist/<Name>,
+replacing the old chain that ended at the dead search.cpan.org.
+
+3) .md5sum removed (old lines 311–331 and use Digest::MD5). The final
+message now says to run pkgmk -us in the new port to create its .signature.
