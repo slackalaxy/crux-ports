@@ -1,5 +1,5 @@
 # Description:	SAX2 XML Writer
-# URL:		https://github.com/perigrin/xml-sax-writer
+# URL:		https://metacpan.org/dist/XML-SAX-Writer
 # Maintainer:	Petar Petrov, slackalaxy at gmail dot com
 # Depends on:	p5-xml-filter-buffertext p5-xml-namespacesupport p5-xml-sax-base
 
