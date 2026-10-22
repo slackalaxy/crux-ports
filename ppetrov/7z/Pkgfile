@@ -4,7 +4,7 @@
 # Depends on:
 
 name=7z
-version=26.04
+version=26.05
 release=1
 source=(https://sourceforge.net/projects/sevenzip/files/7-Zip/${version}/7z${version/./}-linux-x64.tar.xz)
 
