@@ -1,0 +1,25 @@
+# ~/.inputrc: settings for readline, the line editing used by bash
+# (and other programs such as R's console). Uncomment what you want.
+# Changes apply to new terminals, or now with: bind -f ~/.inputrc
+
+# Keep the system-wide settings (Home/End/Delete keys, Page Up/Down,
+# history search on Alt+P/Alt+N). Having a ~/.inputrc makes readline
+# skip /etc/inputrc, so it has to be included here.
+$include /etc/inputrc
+
+# Tab completion ignores upper/lower case: "cd desk<Tab>" -> Desktop.
+# Downside: "cd de<Tab>" then matches both Desktop and development.
+#set completion-ignore-case on
+
+# Show all matches on the first Tab press, instead of beeping first
+# and needing a second Tab: "cd D<Tab>" lists Desktop/ Documents/ ...
+#set show-all-if-ambiguous on
+
+# Note: history search already works via /etc/inputrc. Type the start
+# of a command (e.g. "pkgmk"), then Alt+P steps back through earlier
+# commands starting with it; Alt+N steps forward again.
+
+# Put the same history search on the Up / Down arrows (replaces their
+# normal behaviour: with text typed, they only show matching commands)
+#"\e[A": history-search-backward
+#"\e[B": history-search-forward

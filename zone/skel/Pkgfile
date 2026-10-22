@@ -6,8 +6,8 @@
 
 name=skel
 version=3.8
-release=10
-source=(bash_logout bash_profile bashrc nanorc xinitrc.xfce4 xprofile Xresources)
+release=11
+source=(bash_logout bash_profile bashrc inputrc nanorc xinitrc.xfce4 xprofile Xresources)
 
 build() {
 	mkdir -p $PKG/etc/skel
@@ -15,6 +15,7 @@ build() {
 	install -m 0644 bash_profile $PKG/etc/skel/.bash_profile
 	install -m 0644 bashrc $PKG/etc/skel/.bashrc
 	install -m 0644 nanorc $PKG/etc/skel/.nanorc
+	install -m 0644 inputrc $PKG/etc/skel/.inputrc
 	install -m 0644 xinitrc.xfce4 $PKG/etc/skel/.xinitrc
 	install -m 0644 xprofile $PKG/etc/skel/.xprofile
 	install -m 0644 Xresources $PKG/etc/skel/.Xresources

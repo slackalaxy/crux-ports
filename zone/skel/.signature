@@ -1,11 +1,12 @@
 untrusted comment: verify with /etc/ports/zone.pub
-RWRPokwW0IImwV3a+meHsTM5XyKAt4rtwpO2/n1VWEOFrRy1u2alZCI+Si3U71DpQ/gRoMSxccc1vbpi3ZzO/uGJSnQk5cGTcQM=
-SHA256 (Pkgfile) = 21c1418bea70f62307cb6814fba7feb8ebe71df675c48d6c808937d75a9989e5
-SHA256 (.footprint) = 1c5f06e4e6abaca087ba201a9ebe5809fc889acea546cbf983dccc9ba21f5b3b
+RWRPokwW0IImwbXYD5lV/N95qCot2hzBzBeAyF63BgjaDCxMEoQDUUmLxRUqVHbSB8a6X/vkDiHYE8nJhfv+MPn7m+y/nxKtuA0=
+SHA256 (Pkgfile) = 14a31e7f802c7d97820628b79b8a10217dfb12a7ac005ebfdf36b49f5fe1f365
+SHA256 (.footprint) = eb7b8fb60068a23fec33e4eba49cc9b6c9be9aaa6604f4940db21f805e68c677
 SHA256 (bash_logout) = 6bc5d755749b4df91f38538f9a5e41e110b651d4b44f5ce6d980af12a124505c
 SHA256 (bash_profile) = 61ecc74f099e0fe198fb959003ce489b68d8420aaab2ec1dd6cef042f90bb1d8
 SHA256 (bashrc) = ebe9d20ddb9e4ae4432b3201453d72c314fdc611dbdccfbef13c178be22aeee0
-SHA256 (nanorc) = c1366a5ad6c9a3ac3c585a53b48d19ef2152f6f5379c0f7bddceabe9bd3a0a27
+SHA256 (inputrc) = 96825572d82a93fdd6117fbb20b87537e4e23ea6577c8e56f5e3433c9bbd3834
+SHA256 (nanorc) = 3fbf14909191f3219b60e10c4423cdebe1624d59439036cff5480b16e32482a3
 SHA256 (xinitrc.xfce4) = 7661f1b3e9385631f8ca2cc7d8f04eaaad4ec01c4cd83047e3492bed684e6066
 SHA256 (xprofile) = 49fd2e4ea09199976abe6c02570af5e5f0de451dbad7066719b479fd9a5f855b
 SHA256 (Xresources) = 9dc801b28a504afb6da347f1b608f3b7791be71e0a1f1cd6ab30ed6a6770c1b2
