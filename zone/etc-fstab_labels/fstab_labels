@@ -6,15 +6,15 @@
 # Basic partition scheme
 #LABEL=SWAP             swap     swap      defaults                         0      0
 #LABEL=ROOT             /        xfs       defaults                         1      1
-#LABEL=BOOT             /boot    xfs       defaults                         1      2
+#LABEL=BOOT             /boot    ext4      defaults                         1      2
 #LABEL=HOME             /home    xfs       defaults                         1      2
 #LABEL=VAR              /var     xfs       defaults                         1      2
 #LABEL=TMP              /tmp     xfs       defaults                         1      2
 
-# Data stora in non-standart place
+# Data storage in non-standard place
 #LABEL=DATAA        /mnt/data0   xfs       defaults                         1      2
 #LABEL=DATAB        /mnt/data1   xfs       defaults                         1      2
-#LABEL=DATAC        /mnt/data0   xfs       defaults                         1      2
+#LABEL=DATAC        /mnt/data2   xfs       defaults                         1      2
 
 # Packages dedicated partition and building in RAM
 #LABEL=BUILD        /var/build   xfs       defaults                         1      2
