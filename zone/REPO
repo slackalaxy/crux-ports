@@ -55,13 +55,13 @@ f:40de97595274d9dad20c4fcd6d0abc46:kernel-modular/.signature
 f:b2671e6fc20f6117a68d6e1d0f08691e:kernel-modular/config-6.12.28
 f:da7c0e6781b57699abb6c9112b409fba:skel/.footprint
 f:b7f7d2c4c3d12fbab5138261939f4dc4:skel/nanorc
-f:84abd413706d6794c3eeb193f35e2ba9:skel/.signature
-f:6e37da9818aa62067b7325cd894bf2c9:skel/Pkgfile
+f:a0c065dd012baf09fb8a9cd61453af7d:skel/.signature
+f:4499fdb765cb75d069293d5e303bcef5:skel/Pkgfile
 f:dba770e4f47675e2816c67577e942def:skel/README
-f:133304b52ab7dea0703516ce24300453:skel/Xresources
+f:924beaceebe69466859430c6a24c5f02:skel/Xresources
 f:45c44aff477427ee9a4c4a82b6cf2d1a:skel/bash_logout
 f:616e98b5116bb4bb1ba3b638fa9832d5:skel/bash_profile
-f:68b8d7e29caa07bba72a83da10911495:skel/bashrc
+f:0ff66c28b8a8c149288bdbafcd6cb03d:skel/bashrc
 f:5371c0917c6a0127d118e4f460504376:skel/xinitrc.xfce4
 f:624c1ec66d664648146954a6f04212ad:skel/xprofile
 f:1b3f893a77c6c4c6c662f5e3396eae3c:skel/inputrc
