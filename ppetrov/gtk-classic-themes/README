@@ -1,6 +1,6 @@
 To disable hiding of scrollbars in GTK3 applications, source this:
 
-    /etc/profile.d/bluecurve.sh
+    /etc/profile.d/gtk-classic-themes.sh
 
 If primary paste somehow does not work, do this for your user:
 

@@ -4,9 +4,9 @@
 # Depends on: gtk-engines
 
 name=gtk-classic-themes
-version=59e7e6e
+version=381bcd2
 release=1
-source=(https://github.com/slackalaxy/gtk-classic-themes/archive/$version/$name-59e7e6e4cb541b9a8076f509221e05136399ee69.tar.gz)
+source=(https://github.com/slackalaxy/gtk-classic-themes/archive/$version/$name-381bcd23bcd48954e91ffade34b6779c58f54e5a.tar.gz)
 
 build() {
 	cd $name-${version}*
