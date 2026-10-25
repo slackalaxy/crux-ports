@@ -637,7 +637,7 @@ f:75c801d127a6b73b8077556e461087c7:networkmanager-openvpn/.signature
 f:e0e1e4096e2af3fecfae5aa975178fc4:networkmanager-openvpn/Pkgfile
 f:a3844cbdf7b692e0e374cc5516cb4044:networkmanager-openvpn/README
 f:6465db6e24fea741ab11bf1f60897835:networkmanager-openvpn/post-install
-f:fda0255b5d7c1e495d63c65547b85309:gtk-classic-themes/Pkgfile
+f:8670c006217b8990a6ff23833c48b645:gtk-classic-themes/Pkgfile
 f:4815793093ce4931033e56df6517f98f:gtk-classic-themes/.footprint
-f:4e9168ff7ad771f859448a3398df429e:gtk-classic-themes/.signature
-f:78367c5ef8f4ee774c2c45a82ddcaf0f:gtk-classic-themes/README
+f:02709bfe52a2044e8b1a6cb5204254c2:gtk-classic-themes/.signature
+f:dce034c7a7cd329ade83de75dd9cd107:gtk-classic-themes/README
