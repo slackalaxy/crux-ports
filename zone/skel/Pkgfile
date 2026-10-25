@@ -2,11 +2,11 @@
 # URL: /etc/skel/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: ls_colors
-# Optional: bluecurve gtk-classic-themes qt5ct qt6ct qt6gtk2 fonts-conf vte3 xfce4 xorg-font-dejavu-ttf
+# Optional: bluecurve gtk-classic-themes qt5ct qt6ct qt6gtk2 fonts-conf vte3 xfce4 xorg-font-terminus
 
 name=skel
 version=3.8
-release=11
+release=12
 source=(bash_logout bash_profile bashrc inputrc nanorc xinitrc.xfce4 xprofile Xresources)
 
 build() {

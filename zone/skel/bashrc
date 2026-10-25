@@ -31,7 +31,7 @@ shopt -s histappend
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
 # Simple default prompt, where "$" is in cyan.
-PS1='\[\e[1;36m\]\$\[\e[0m\] '
+PS1='\[\e[1;32m\]\$\[\e[0m\] '
 
 # Over SSH: the computer name in yellow, then "$" in cyan.
 if [ -n "$SSH_CONNECTION" ]; then

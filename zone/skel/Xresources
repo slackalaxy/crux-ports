@@ -1,8 +1,20 @@
+! "-merge" only ever adds or changes settings
 ! xrdb -merge ~/.Xresources
 
-! Use a nice truetype font and size by default... 
-xterm*faceName: DejaVu Sans Mono
-xterm*faceSize: 10
+! "-load" replaces all loaded X settings with exactly what is in the file
+!xrdb -load ~/.Xresources
+
+! The xterm built-in default: misc-fixed 6x13 (same as "fixed").
+! Bigger: 7x14, 8x13, 9x15, 10x20.
+xterm*font: 7x14
+
+! This comes with CRUX installation media.
+!xterm*faceName: Bitstream Vera Sans Mono:pixelsize=12
+
+! This is in contrib. Terminus is a bitmap font: give an exact pixel
+! size (12, 14, 16...), not a point size. 14 px matches "Terminus 10"
+! in Xfce Terminal.
+!xterm*faceName: Terminus:pixelsize=14
 
 ! Uncomment to make every xterm a login shell (reads ~/.bash_profile).
 ! Do not combine with the rm lines in ~/.bash_logout.
