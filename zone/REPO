@@ -55,10 +55,10 @@ f:40de97595274d9dad20c4fcd6d0abc46:kernel-modular/.signature
 f:b2671e6fc20f6117a68d6e1d0f08691e:kernel-modular/config-6.12.28
 f:da7c0e6781b57699abb6c9112b409fba:skel/.footprint
 f:b7f7d2c4c3d12fbab5138261939f4dc4:skel/nanorc
-f:a0c065dd012baf09fb8a9cd61453af7d:skel/.signature
-f:4499fdb765cb75d069293d5e303bcef5:skel/Pkgfile
+f:b27e6eaf23af2781fb9c3eb7f1e9c1d0:skel/.signature
+f:9e3bd5d41627b351649e5169edf625d5:skel/Pkgfile
 f:dba770e4f47675e2816c67577e942def:skel/README
-f:924beaceebe69466859430c6a24c5f02:skel/Xresources
+f:96f2b5d06a8d04203d0a9dfe16e77ac3:skel/Xresources
 f:45c44aff477427ee9a4c4a82b6cf2d1a:skel/bash_logout
 f:616e98b5116bb4bb1ba3b638fa9832d5:skel/bash_profile
 f:0ff66c28b8a8c149288bdbafcd6cb03d:skel/bashrc
