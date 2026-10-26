@@ -5,14 +5,16 @@
 
 name=prank
 version=251117
-release=1
-source=(https://raw.githubusercontent.com/ariloytynoja/prank-msa/master/binaries/prank.source.$version.tgz)
+release=2
+source=(https://raw.githubusercontent.com/ariloytynoja/prank-msa/master/binaries/prank.source.$version.tgz
+	$name-io.sh)
 
 build() {
 	cd $name-msa/src
 
 	CPPFLAGS="$CXXFLAGS" make
 	
-	install -D -m755 $name $PKG/usr/bin/$name
-	install -D -m644 $name.1 $PKG/usr/share/man/man1/$name.1
+	install -D -m 755 $name $PKG/usr/bin/$name
+	install -D -m 755 $SRC/$name-io.sh $PKG/usr/bin/$name-io
+	install -D -m 644 $name.1 $PKG/usr/share/man/man1/$name.1
 }

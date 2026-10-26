@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZQWDUSwXajjcqMBrmdUeK9xrLQwjDcxPwuw6ZxizeXBwCSrJHWNn0WLixWy4D0Igzt6rgWMcbkli8eexZbPGsA8=
-SHA256 (Pkgfile) = 6522191ede5f031ef5a84f90c291d388873037b8300432a0062d869f9b64e63e
-SHA256 (.footprint) = df9d7f2391f20fb1a7bb5abf688ea6c6da99d1492089c1282a064f6e2f1c5b69
+RWToVVsIkzFIZYK6yvpiwqZKU6Z9nm2MlutggiIj9JwzZ1W4Hyuu9zNo/AI9364b40J2SFfSBCebrNcnuvRwWO0Iu+lRej8XIg8=
+SHA256 (Pkgfile) = 0ee84adf06bf1afb2b4995f3cdb6f68d552c09acc9550a110b610b6eefbe0322
+SHA256 (.footprint) = b5460524f28aa2898fa33ab1bac5ad3266ed6812acb884d3952936806128d60c
 SHA256 (prank.source.251117.tgz) = d8a2165b001d89506e75bb28c1a3fbdc39e32b06ceb865da2e6fffe976844c95
+SHA256 (prank-io.sh) = 68450c7a1aedb96e304d22ac45edb7365eebc56bac1059fae58be443333cde7d

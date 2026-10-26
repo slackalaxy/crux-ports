@@ -1,0 +1,6 @@
+PRANK always writes appends ".best.fas" to the result. Therefore, this
+ships a wrapper, which run PRANK with plain input/output file names:
+
+	prank-io in.fa out.fa [prank options]
+
+SeaView uses prank-io.
