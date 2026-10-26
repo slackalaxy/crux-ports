@@ -1,17 +1,22 @@
 # Description: Multiple sequence alignment and phylogeny GUI
 # URL: https://doua.prabi.fr/software/seaview
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: clustalo fltk gblocks muscle xorg-libxcursor
+# Depends on: clustalo fltk gblocks kalign mafft muscle muscle5 prank t_coffee xorg-libxcursor
 
 name=seaview
 version=5.1
-release=4
+release=5
 source=(ftp://pbil.univ-lyon1.fr/pub/mol_phylogeny/seaview/archive/seaview_${version}.tar.gz
-	$name.desktop seaview-scheme.patch)
+	$name.desktop 
+	seaview-scheme.patch 
+	seaview-msa-methods.patch 
+	seaview-interrupt.patch)
 
 build() {
 	cd $name
 	patch -p0 -i $SRC/seaview-scheme.patch
+	patch -p1 -i $SRC/seaview-msa-methods.patch
+	patch -p1 -i $SRC/seaview-interrupt.patch
 
 	# Point to the correct documentation path and phyml executable name
 	sed -i "s:#HELPFILE:HELPFILE:" Makefile

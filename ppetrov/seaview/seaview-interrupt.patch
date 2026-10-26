@@ -1,0 +1,29 @@
+--- a/pseudoterminal.cxx
++++ b/pseudoterminal.cxx
+@@ -63,7 +63,9 @@
+ 	  while ( WaitForSingleObject(data->pid, 0) != WAIT_OBJECT_0) Fl::wait(0.1);
+ 	  }
+ #else
+-	kill(data->pid, SIGKILL);
++	/* kill the whole process group, so that helper processes started by the
++	   program (e.g. t_coffee's worker processes) are stopped too */
++	kill(-data->pid, SIGKILL);
+ #endif
+ }
+ 
+@@ -345,11 +347,15 @@
+ 	  return 1;
+ 	  }
+ 	else if(pid > 0) {// the parent
++		setpgid(pid, pid); // also done in the child; whichever runs first wins
+ 		data.pid = pid;
+ 		data.fd = masterfd;
+ 		w = create_and_run_pseudoterminal(label, &data);
+ 	}
+ 	else {//the child
++		/* own process group (id = our pid), so that Interrupt can kill
++		   this program and everything it starts in one go */
++		setpgid(0, 0);
+                 // when dialogfname = NULL, make stdin a tty, useful for kalign
+                 freopen( (dialogfname ? dialogfname : slavename), "r", stdin);
+ 		freopen(slavename, "a", stderr);

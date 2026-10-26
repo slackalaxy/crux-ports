@@ -1,0 +1,82 @@
+--- a/align.cxx
++++ b/align.cxx
+@@ -10,7 +10,7 @@
+ #define tempnam _tempnam
+ #endif
+ 
+-#define MAX_MSA_ALGOS 10 //max # of alignment methods allowed in Props menu
++#define MAX_MSA_ALGOS 15 //max # of alignment methods allowed in Props menu
+ 
+ /* local prototypes */
+ int save_part_as_pir(int debut, int fin, char **sequence, char **seqname, 
+@@ -757,7 +757,8 @@
+   if(name == NULL) attr |= FL_MENU_INACTIVE;
+   alignitems[clustalopt + MAX_MSA_ALGOS].label(strdup(options));
+   alignitems[clustalopt + MAX_MSA_ALGOS].flags = attr;
+-  if (view->alignment_algorithm < 2) alignitems[clustalopt + MAX_MSA_ALGOS + 3].flags = FL_MENU_INACTIVE;
++  /* "Delete method" is disabled for all 10 built-in methods, not just the first 2 */
++  if (view->alignment_algorithm < 10) alignitems[clustalopt + MAX_MSA_ALGOS + 3].flags = FL_MENU_INACTIVE;
+   delete[] options;
+   view->menu_align = alignitems;
+   view->menubar->add("Align", 0, NULL, (void*)view->menu_align, FL_SUBMENU_POINTER);
+@@ -975,7 +976,7 @@
+ 	view->alignment_algorithm = reponse;
+ 	opts = get_algo_opts(view->alignment_algorithm, NULL);
+ 	set_algo_option_item(opts, (Fl_Menu_Item*)view->menu_align, clustalopt + MAX_MSA_ALGOS, FALSE);
+-	if(view->alignment_algorithm >= 2) ((Fl_Menu_Item *)view->menu_align + clustalopt + MAX_MSA_ALGOS + 3)->activate();
++	if(view->alignment_algorithm >= 10) ((Fl_Menu_Item *)view->menu_align + clustalopt + MAX_MSA_ALGOS + 3)->activate();
+ 	else ((Fl_Menu_Item *)view->menu_align + clustalopt + MAX_MSA_ALGOS + 3)->deactivate();
+   char tmp[5];
+   snprintf(tmp, 5, "%d", reponse);
+@@ -1021,8 +1022,50 @@
+   set_res_value("msa_args_1", "-v -i %f.pir -o %f.out --outfmt=fasta");
+   set_res_value("msa_name_2", "muscle"); 
+   set_res_value("msa_args_2", "-in %f.pir -out %f.out");
++  /* Extra built-in alignment methods, slots 3 to 10.
++     Like slots 1 and 2 above, they are rewritten every time this runs,
++     so methods added by hand in the GUI should go into slots 11 to 15.
++     Each name is the program Seaview runs; it must be in PATH.
++     %f is replaced by a temporary file name: Seaview writes the sequences
++     to %f.pir (FASTA content) and reads the result back from %f.out. */
++  set_res_value("msa_name_3", "muscle5");
++  set_res_value("msa_args_3", "-align %f.pir -output %f.out");
++  /* MAFFT writes to standard output; Seaview handles the ">" itself */
++  set_res_value("msa_name_4", "mafft");
++  set_res_value("msa_args_4", "--auto %f.pir > %f.out");
++  set_res_value("msa_name_5", "mafft-linsi");
++  set_res_value("msa_args_5", "%f.pir > %f.out");
++  set_res_value("msa_name_6", "mafft-einsi");
++  set_res_value("msa_args_6", "%f.pir > %f.out");
++  set_res_value("msa_name_7", "mafft-ginsi");
++  set_res_value("msa_args_7", "%f.pir > %f.out");
++  /* -newtree: write the guide tree next to the temporary files (removed
++     afterwards) instead of into the current directory, usually $HOME */
++  set_res_value("msa_name_8", "t_coffee");
++  set_res_value("msa_args_8", "%f.pir -outfile=%f.out -output=fasta_aln -newtree=%f.dnd");
++  set_res_value("msa_name_9", "kalign");
++  set_res_value("msa_args_9", "-i %f.pir -o %f.out");
++  /* prank-io: wrapper from the prank port (prank -d=in -o=out, then
++     renames out.best.fas to out), because Seaview expects exactly %f.out */
++  set_res_value("msa_name_10", "prank-io");
++  set_res_value("msa_args_10", "%f.pir %f.out");
++  /* Default optional arguments for the MAFFT entries: "--thread -1" lets
++     MAFFT use all CPU cores. They show up as a tick box under the method in
++     Align > Alignment options and are only used when ticked. Seaview puts
++     them in front of the arguments for commands containing ">", as MAFFT
++     needs. Only set if empty, so changes made in "Edit options" are kept. */
++  if (get_res_value("msa_opt_args_4", NULL) == NULL) set_res_value("msa_opt_args_4", "--thread -1");
++  if (get_res_value("msa_opt_args_5", NULL) == NULL) set_res_value("msa_opt_args_5", "--thread -1");
++  if (get_res_value("msa_opt_args_6", NULL) == NULL) set_res_value("msa_opt_args_6", "--thread -1");
++  if (get_res_value("msa_opt_args_7", NULL) == NULL) set_res_value("msa_opt_args_7", "--thread -1");
++  /* Same for T-Coffee: "-thread 0" uses all CPU cores (default is 1).
++     Seaview appends it at the end of the T-Coffee arguments. */
++  if (get_res_value("msa_opt_args_8", NULL) == NULL) set_res_value("msa_opt_args_8", "-thread 0");
++  /* make the menu show all 10 built-in methods */
++  if (count < 10) {
++    set_res_value("msa_algo_count", "10");
++  }
+   if (count < 2) {
+-    set_res_value("msa_algo_count", "2");
+     set_res_value("alignment", "0"); /* clustal-omega is default starting msa method */
+   }
+ }

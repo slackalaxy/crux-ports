@@ -1,8 +1,40 @@
-The program is patched for FLTK theming. The desktop file starts it by
-parsing the FLTK_SCHEME variable. Colours are read from ~/.Xresources,
-for example set something like:
+# Patches
 
-fltk.background:       #E1E1E1
-fltk.foreground:       #000000
-Text.background:       #ffffff
-Text.selectBackground: #486888
+- seaview-scheme.patch -- honours $FLTK_SCHEME and X resource colours.
+  The desktop file starts it by parsing the FLTK_SCHEME variable. The
+  colours are read from ~/.Xresources, for example set something like:
+
+  fltk.background:       #D3D7CF
+  fltk.foreground:       #000000
+  Text.background:       #ffffff
+  Text.selectBackground: #145BA6
+  
+  Then run:
+  
+  xrdb -merge ~/.Xresources
+
+- seaview-msa-methods.patch -- adds built-in external alignment methods
+  and raises the method limit from 10 to 15:
+
+  | Slot | Method        | Default option (tick box) |
+  |------|---------------|---------------------------|
+  | 1    | clustalo      |                           |
+  | 2    | muscle        |                           |
+  | 3    | muscle5       |                           |
+  | 4    | mafft --auto  | `--thread -1`             |
+  | 5    | mafft-linsi   | `--thread -1`             |
+  | 6    | mafft-einsi   | `--thread -1`             |
+  | 7    | mafft-ginsi   | `--thread -1`             |
+  | 8    | t_coffee      | `-thread 0`               |
+  | 9    | kalign        |                           |
+  | 10   | prank-io      |                           |
+
+  Slots 1-10 are reserved and cannot be deleted; add your own methods in
+  slots 11-15. Methods whose program is not in $PATH are greyed out.
+  
+  prank-io is a wrapper shipped with the prank port, since PRANK always
+  appends `.best.fas` to its output name.
+
+- seaview-interrupt.patch -- Interrupt now stops the aligner's whole
+  process group, so helper processes (e.g. T-Coffee workers) are killed
+  too, not just the main process.
