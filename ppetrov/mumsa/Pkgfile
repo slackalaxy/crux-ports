@@ -1,15 +1,25 @@
 # Description: Assessment of the quality of multiple sequence alignments
-# URL: http://msa.sbc.su.se/cgi-bin/msa.cgi
+# URL: https://github.com/TimoLassmann/mumsa
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 
 name=mumsa
-version=1.0
+version=ace1ac7
 release=1
-source=(https://raw.githubusercontent.com/slackalaxy/sources/main/$name-$version.tgz)
+source=(https://github.com/TimoLassmann/mumsa/archive/$version/mumsa-ace1ac7a2ea004a901d08d18965adf351ebd35a5.tar.gz
+	https://github.com/TimoLassmann/tldevel/archive/9cbfcc6/tldevel-9cbfcc68d553a90ff462b6e1c7ea1358ebeef4f2.tar.gz)
 
 build() {
-	cd $name-$version
-	sed -i "/^CFLAGS/s/=/+=/" Makefile
-	PREFIX=/usr make
-	install -D -m755 $name $PKG/usr/bin/$name
+	cd $name-${version}*
+	
+	# tldevel pinned to 9cbfcc6, the commit mumsa's submodule points to
+	# bash ./configure, because the script uses the Bash-only +=
+	# --with-hdf5=no, because the old HDF5 code breaks against current HDF5.
+
+	cp -a $SRC/tldevel-*/* tldevel/
+	./autogen.sh
+	bash ./configure --prefix=/usr --with-hdf5=no
+
+	make
+	make check
+	make DESTDIR=$PKG install
 }

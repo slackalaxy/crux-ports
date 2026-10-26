@@ -1,5 +1,6 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZeQnZo/1//6/v3w2YWpmuGmvSkFiKe2ZLdeV1tGEifGWgntrpbDdXdscO4k+hKYluijneNcN1fIKPZmBQNVNCAc=
-SHA256 (Pkgfile) = 0e62aff0bdde5bcf8711ea1727de2916887e2d8a8b1f211302af20e01af79216
-SHA256 (.footprint) = e229ce5ab13b98042f151f9d6bf44828480c48b68406ed7bdd95dd94554a7548
-SHA256 (mumsa-1.0.tgz) = 7083e45fc28219a7ceea808feedbb83a911a02e1e4b808deb6e7a22c302f9be6
+RWToVVsIkzFIZabs6DjcFt27CgMdf7wlIfFCiJtp+eppV6UX5BTupXaeTdhnFkab1g5lgaPhPSGeZhH8xLzM/nDJigIrDwuKzAU=
+SHA256 (Pkgfile) = ef8492a219850ebb05f266e6f293dce3f0c383801db9e4cf11fcb8b9c53c5989
+SHA256 (.footprint) = 87c49a3353d7c488387b337165d38e02a8815a2d632394b70340cac09381c197
+SHA256 (mumsa-ace1ac7a2ea004a901d08d18965adf351ebd35a5.tar.gz) = 814406e4ff1d43d6c48e33994a1ba60440745e82e43977bbe63380fc5ef87f3f
+SHA256 (tldevel-9cbfcc68d553a90ff462b6e1c7ea1358ebeef4f2.tar.gz) = 039055580a227947489cb0c8f33cb9c58c950672a6261b0b5ae961e19566a57d
