@@ -1,0 +1,12 @@
+# Description: A multiple sequence alignment program
+# URL: https://s3.eu-central-1.amazonaws.com/tcoffee-packages/Binaries/tcoffee/linux/
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+
+name=t_coffee
+version=13.46.2.7c9e712d
+release=1
+source=(https://s3.eu-central-1.amazonaws.com/tcoffee-packages/Binaries/tcoffee/linux/t_coffee.Version_${version})
+
+build() {
+	install -D -m 755 $SRC/t_coffee.Version_${version} $PKG/usr/bin/$name
+}
