@@ -51,7 +51,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/future.apply/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/_prologue/090.options.R
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/_prologue/091.envvars.R
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/_prologue/099.future-setup.R
--rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/_prologue/995.detrius-connections.R
+-rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/_prologue/995.detritus-connections.R
 -rwxr-xr-x	root/root	usr/lib/R/library/future.apply/testme/deploy.R
 -rwxr-xr-x	root/root	usr/lib/R/library/future.apply/testme/run.R
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-fold.R
@@ -71,7 +71,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/future.apply/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-future_vapply.R
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-globals,tricky2.R
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-globals,tricky_recursive.R
+-rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-makeChunks.R
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-options,nested.R
--rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-rng.R
+-rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-rng,disposable.R
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-stdout.R
 -rw-r--r--	root/root	usr/lib/R/library/future.apply/testme/test-utils.R

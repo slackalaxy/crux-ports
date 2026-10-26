@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/YlTKJackrO3p2wQVPAfuU/55an/bYTmGLWldjrvoT3obbSWKCxq0F5HcSrEQjL7MYXE2uB1/WThAKudIqYtVEQQ=
-SHA256 (Pkgfile) = c8efc85285dbaad887bae15a1971ee0cf465d038fdc5c8f97034e4d9f6587c1c
-SHA256 (.footprint) = 258ebb90e3484f02db5ace6e62fa91effd0586e5eaf273c2ccb520ca72f298f2
-SHA256 (rsvd_1.0.5.tar.gz) = e40686b869acd4f71fdb1e8e7a6c64cd6792fc9d52a78f9e559a7176ab84e21e
+RWQFYeZQgQH/YvaBvwi0rzZF4avfyCvM3B4eES1CuxKyWaOQXB4h9tInDxjsHqvR25Tge3wN7icinNR0ufVgQ8SgkWG2yhPidAs=
+SHA256 (Pkgfile) = 1ecdfe41744de437de84e0e66fc049e42c3a0b640a53d7d1e05a4e825a7da72b
+SHA256 (.footprint) = 976bc1b30a84089dedb3942ae3862106c88a1709059748b3d202855814d92941
+SHA256 (rsvd_1.0.6.tar.gz) = df9a27edc2d133c15925b95566c9ffec8ff4e77dd446097f03e2f7e080907e8d

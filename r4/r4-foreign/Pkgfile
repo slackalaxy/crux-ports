@@ -1,13 +1,13 @@
-# Description: R module foreign
+# Description: R-package foreign
 # URL: https://cran.r-project.org/web/packages/foreign
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r 
 # Optional: 
 
 name=r4-foreign
-version=0.8.91
+version=0.8.92
 release=1
-source=(https://cloud.r-project.org/src/contrib/foreign_0.8-91.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/foreign_0.8-92.tar.gz)
 
 build() {
 	cd foreign

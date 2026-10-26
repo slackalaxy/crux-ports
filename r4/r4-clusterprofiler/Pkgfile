@@ -5,7 +5,7 @@
 # Optional: r4-annotationhub r4-biocmanager r4-dose r4-ggtangle r4-org-hs-eg-db r4-quarto r4-readr r4-testthat
 
 name=r4-clusterprofiler
-version=4.20.2
+version=4.20.3
 release=1
 source=(https://bioconductor.org/packages/3.23/bioc/src/contrib/clusterProfiler_${version}.tar.gz)
 

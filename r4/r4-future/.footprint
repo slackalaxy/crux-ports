@@ -97,6 +97,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/future/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-demo-fibonacci.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-demo-mandelbrot.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-deprecation.R
+-rw-r--r--	root/root	usr/lib/R/library/future/testme/test-dotdotdot,envir.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-dotdotdot.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-early-signaling.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-error_on_warn_2.R
@@ -126,6 +127,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/future/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-globals,tricky.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-globals,tricky2.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-globals,tricky_recursive.R
+-rw-r--r--	root/root	usr/lib/R/library/future/testme/test-globals,where.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-globalsOf,tweaks.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-immediateCondition.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-import_from.R
@@ -189,6 +191,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/future/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-value-list-options.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-value.R
 -rw-r--r--	root/root	usr/lib/R/library/future/testme/test-whichIndex.R
+-rw-r--r--	root/root	usr/lib/R/library/future/testme/test-worker-connection-leak-on-error.R
 drwxr-xr-x	root/root	usr/lib/R/library/future/vignettes-static/
 -rw-r--r--	root/root	usr/lib/R/library/future/vignettes-static/future-1-overview.md.rsp.rsp
 drwxr-xr-x	root/root	usr/lib/R/library/future/vignettes-static/incl/

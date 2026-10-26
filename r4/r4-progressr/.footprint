@@ -95,6 +95,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/progressr/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-demo.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-exceptions.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-globals,relay.R
+-rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-handler_callback.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-handler_cli.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-handler_filesize.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-handler_make_progression.R
@@ -114,8 +115,10 @@ drwxr-xr-x	root/root	usr/lib/R/library/progressr/testme/_prologue/
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-progress_aggregator.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-progression.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-progressor.R
+-rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-rstudio-console.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-slow.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-toc.R
+-rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-update_package_options,handlers.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-utils.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-with_progress,delay.R
 -rw-r--r--	root/root	usr/lib/R/library/progressr/testme/test-with_progress,delay_stdout.R

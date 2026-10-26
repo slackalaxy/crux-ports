@@ -1,11 +1,11 @@
-# Description: R module rsvd
+# Description: R-package rsvd
 # URL: https://cran.r-project.org/web/packages/rsvd
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-matrix
 # Optional: r4-ggplot2 r4-testthat
 
 name=r4-rsvd
-version=1.0.5
+version=1.0.6
 release=1
 source=(https://cloud.r-project.org/src/contrib/rsvd_${version}.tar.gz)
 

@@ -109,8 +109,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/testdata/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/tprfm1.RData
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/trees513.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/testdata/trees513.RData
-drwxr-xr-x	root/root	usr/lib/R/library/lme4/tinytest/
--rw-r--r--	root/root	usr/lib/R/library/lme4/tinytest/test_lme4.R
 drwxr-xr-x	root/root	usr/lib/R/library/lme4/vignette_data/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/Contraception_batch.rda
 -rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/bootmer_test.R
@@ -119,3 +117,5 @@ drwxr-xr-x	root/root	usr/lib/R/library/lme4/vignette_data/
 -rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/glmer_Contraception_batch.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/glmer_batch_funs.R
 -rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/glmer_cbpp_batch.R
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/lmer_batch.rda
+-rw-r--r--	root/root	usr/lib/R/library/lme4/vignette_data/lmer_batch_funs.R
