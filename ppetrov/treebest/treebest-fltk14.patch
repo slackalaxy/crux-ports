@@ -1,0 +1,13 @@
+--- flcallback.cc.orig
++++ flcallback.cc
+@@ -222,7 +222,9 @@
+ 	else g->b_merge->deactivate();
+ 	g->b_spec->value(ws->get_pp()->show_spec);
+ 	g->b_real->value(ws->get_pp()->is_real);
+-	Fl::flush();
++	/* no Fl::flush() here: this function is called from Workspace::draw(),
++	   and flushing from inside draw() recurses endlessly with FLTK 1.4
++	   (stack overflow / segfault). The buttons are redrawn by the event loop. */
+ }
+ void cb_open(Fl_Widget *w, void *global)
+ {
