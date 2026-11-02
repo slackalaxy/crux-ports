@@ -288,9 +288,9 @@ f:51da8973df446fbee26a0a2b7ec6ede3:jalview/jalview.desktop
 f:0625b488c1455475f9a515e39311176f:jalview/jalview.png
 f:5f050d20b738db6f9711c778a6084fe0:jalview/jalview.sh
 f:4be1ebed2618fe1021a6f6f7fcbc21a5:lalnview/.footprint
-f:6ee5f1f2924a6bf7f94b6d9d4a173d86:lalnview/.signature
+f:7dbc9a643f2126bbd9f46c8cdac9d596:lalnview/.signature
 f:4ac9a3fb449d88a00e6ccd3b29c87b1b:lalnview/BLOSUM62
-f:6fcff9c85003ccfcb1599ba38e01d506:lalnview/Pkgfile
+f:9092c17a9c1ecd686a0a872d6867c77c:lalnview/Pkgfile
 f:d07f235ca9399a9092ef2b7b6f467577:lalnview/lalnview.desktop
 f:726d069d7db4025113db67824cdafd8e:lalnview/lalnview.png
 f:b650af43ccc77ae23609e562e659cb53:lalnview/sim.help
@@ -548,8 +548,9 @@ f:3ce7cf8c2915677f3b699b3c72bc4a66:treebest/treebest.desktop
 f:0eba9d7685f3219dc4138452feeb8b34:treebest/treebest.png
 f:6af7b0d07aaea4e5ee345651f110baaa:treebest/treebest-scheme.patch
 f:f791e5f541e7299d025a8e68a8b794c8:treebest/README
-f:589d388687b8f4c0b90a77028f300150:treebest/.signature
-f:f28cf1bff3bc6479599839a8c0e4c3b9:treebest/Pkgfile
+f:47797ca93e9d874b0835497155873d18:treebest/.signature
+f:61aefb240b19f40d1b1f07cd5a3b7147:treebest/Pkgfile
+f:e3c4c5895ccfdc9391e9858feabde3d1:treebest/treebest-fltk14.patch
 f:4e4094aa230c94f404baf266699e6416:uchardet/.footprint
 f:2240059b35471235540e674d828ccbb2:uchardet/.signature
 f:19ed0f7fb4591a5c93b402de6c1574e3:uchardet/Pkgfile
