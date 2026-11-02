@@ -5,15 +5,19 @@
 
 name=lalnview
 version=3.0
-release=6
+release=7
 source=(https://raw.githubusercontent.com/slackalaxy/sources/main/sources20050615.tar
 	$name.desktop $name.png sim204.c sim.help BLOSUM62 lalnview-scheme.patch)
 renames=($name-$version.tar SKIP SKIP SKIP SKIP SKIP SKIP)
 
 build() {
 	patch -p0 -i $SRC/lalnview-scheme.patch
+	
 	# I _do_ want to include this
 	sed -i "s:$name.help:/usr/share/$name/$name.help:" MF_MainWindow.cxx
+	
+	# let FLTK supply the right list itself
+	sed -i 's|-lfltk -lfltk_images|$(shell fltk-config --use-images --ldstaticflags)|' makefile
 
 	OPT="$CFLAGS" make -j1
 	install -D -m755 $name $PKG/usr/bin/$name
