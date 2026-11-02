@@ -35,14 +35,21 @@ export LANG=en_GB.UTF-8        # swap commented lines to change
 # including en_GB and any LC_PAPER or LC_TIME. Use only for testing.
 #export LC_ALL=en_US.UTF-8
 
-## I like to set gamma a bit low...
-xgamma -gamma 0.8
-
 # Some programs (Zoom, Firefox, Electron apps) check these to tell X11
 # from Wayland or to detect the desktop. Uncomment if one of them
 # misbehaves (they were once tried for a Zoom problem).
 #export XDG_SESSION_TYPE=x11
 #export XDG_CURRENT_DESKTOP=XFCE
+
+# Apply the settings saved in nvidia-settings (gamma, OpenGL options, etc.).
+# nvidia-settings only saves them to ~/.nvidia-settings-rc and doesn't
+# load them by itself. Without the NVIDIA driver or a saved settings
+# file, set the gamma with xgamma instead. I like to set gamma a bit low...
+if [ -x /usr/bin/nvidia-settings ] && [ -f "$HOME/.nvidia-settings-rc" ]; then
+  nvidia-settings --load-config-only
+else
+  xgamma -gamma 0.8
+fi
 
 # Remove a stale hp-systray lock left by an unclean shutdown,
 # otherwise hp-systray refuses to start
