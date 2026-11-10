@@ -2,10 +2,10 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/array_api_compat-1.15.0.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat-1.15.0.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat-1.15.0.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat-1.15.0.dist-info/WHEEL
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/array_api_compat-1.16.0.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat-1.16.0.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat-1.16.0.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat-1.16.0.dist-info/WHEEL
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/array_api_compat/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/array_api_compat/__pycache__/
@@ -96,6 +96,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/array_api_compat/numpy/__p
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat/numpy/_typing.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat/numpy/fft.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat/numpy/linalg.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat/py.typed (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/array_api_compat/tests/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/array_api_compat/tests/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/array_api_compat/tests/__pycache__/

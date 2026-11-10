@@ -4,8 +4,8 @@
 # Depends on: python3-setuptools python3-setuptools-scm
 
 name=python3-array-api-compat
-version=1.15.0
-release=2
+version=1.16.0
+release=1
 source=(https://files.pythonhosted.org/packages/source/a/array-api-compat/array_api_compat-$version.tar.gz)
 
 build() {
