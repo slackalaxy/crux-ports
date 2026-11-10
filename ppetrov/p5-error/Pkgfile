@@ -4,7 +4,7 @@
 # Depends on:	p5-module-build
 
 name=p5-error
-version=0.17030
+version=0.17031
 release=1
 source=(https://cpan.metacpan.org/authors/id/S/SH/SHLOMIF/Error-${version}.tar.gz)
 
