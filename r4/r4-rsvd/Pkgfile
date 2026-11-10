@@ -5,7 +5,7 @@
 # Optional: r4-ggplot2 r4-testthat
 
 name=r4-rsvd
-version=1.0.6
+version=2.0.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/rsvd_${version}.tar.gz)
 

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/Yr1kKFUtDY4ypHpY455dqt/P5rYCzNXls78eX58JlKPJOer01bTDY+6oGrDoElR7dM2Tr1WncZhk+lMMQ30bdws=
-SHA256 (Pkgfile) = 07adf6ae3a5f3b8765a1a5d6264935f23ab72e12639e00c3f669212814cbe345
+RWQFYeZQgQH/YqqMlsdrWAvOvz7Qog60D3Mtv9Xerj9UbMl3+U8LqhN82V6Xf2NOawQIe6e/yLs5aUfzG6PIadeMAE6V4qYKvw0=
+SHA256 (Pkgfile) = 8338ca7f296c92f763e8ccbf8bd98c67fd7c886a27ccbdbaa89fbbc5f6f8f67a
 SHA256 (.footprint) = 61577165dc907896cf6198e90d4d0aee8d86cf01441b7a7f314a874709a5d155
-SHA256 (enrichit_0.2.6.tar.gz) = 7e985cf6a10d63a2469e8db289d40ea1b2ba5c5bc6c5ecfb68cfb2c17f1268a7
+SHA256 (enrichit_0.2.7.tar.gz) = c1927d888ea260a103b9921b68fa2db3db24386695550ddf3a3e6666dfe487f2

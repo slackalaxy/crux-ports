@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/Ykdcqo6jp3/RQ/pu3A+QxezV+GWX3Qejo2fNZx4/BnNN3b6fUhk3qtJUFi7BqNjqWM9MOgQjoUVT8MGmpJMlKA4=
-SHA256 (Pkgfile) = 4e1d011a63f4959facf09cbf5ffcf35ed7de46cfc1e2ab3f7d76ce8ef5bf17e9
+RWQFYeZQgQH/Yoks1j/3GQ7cJsipHjvZl/oeQ82zqqGKdOe225vld03GDn763Rv4uFKOX7IZ05smbJNE4CZ4XfHSf6660vp3EgU=
+SHA256 (Pkgfile) = 3584a677df7851e1977db72dec6d02397d708eb98dbd306e99fc4d31e07d012e
 SHA256 (.footprint) = 72f6b18532e3d4f29e07b0cea7725ec8d27190f5a8a7c351db9c0b67a9c48534
-SHA256 (HGNChelper_0.8.15.tar.gz) = 76f8a15bc2d7d70059d0fabdd51e92c917c9a238e7d3ba6cb7ebbb66fd467518
+SHA256 (HGNChelper_0.8.16.tar.gz) = 91d4c90bf54b4b49a4aaf58cbef3f23eae7c5e93c6b19f48e986495d9a8a93e9

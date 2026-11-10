@@ -1,11 +1,11 @@
-# Description: R module sparsevctrs
+# Description: R-package sparsevctrs
 # URL: https://cran.r-project.org/web/packages/sparsevctrs
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
 # Depends on: r r4-cli r4-rlang r4-vctrs
 # Optional: r4-knitr r4-matrix r4-rmarkdown r4-testthat r4-tibble r4-withr
 
 name=r4-sparsevctrs
-version=0.3.6
+version=0.4.0
 release=1
 source=(https://cloud.r-project.org/src/contrib/sparsevctrs_${version}.tar.gz)
 

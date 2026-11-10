@@ -5,9 +5,9 @@
 # Optional: r4-bookdown r4-knitr r4-rmarkdown r4-sessioninfo r4-testthat r4-vegan
 
 name=r4-permute
-version=0.9.10
+version=0.10.0
 release=1
-source=(https://cloud.r-project.org/src/contrib/permute_0.9-10.tar.gz)
+source=(https://cloud.r-project.org/src/contrib/permute_0.10-0.tar.gz)
 
 build() {
 	cd permute

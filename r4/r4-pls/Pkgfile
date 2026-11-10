@@ -1,0 +1,16 @@
+# Description: R-package pls
+# URL: https://cran.r-project.org/web/packages/pls
+# Maintainer: Petar Petrov, slackalaxy at gmail dot com
+# Depends on: r 
+# Optional: r4-knitr r4-mass r4-rmpi r4-runit r4-testthat
+
+name=r4-pls
+version=2.9.0
+release=1
+source=(https://cloud.r-project.org/src/contrib/pls_2.9-0.tar.gz)
+
+build() {
+	cd pls
+	mkdir -p $PKG/usr/lib/R/library
+	R CMD INSTALL . -l $PKG/usr/lib/R/library
+}

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/r4.pub
-RWQFYeZQgQH/Yl/LuWDpgk0YesBXkQKEP+gxmxNBhpYo09U92fANYYl2O29mLRK3WLNeLHEmESzyD3AFtZWmY3jluko9SEU0MQ4=
-SHA256 (Pkgfile) = b1979e1d3192ad6a89f6fef56e92dca5ae9d961552eaab1832c4cce5844c14ad
+RWQFYeZQgQH/YqgmnOH6wM7Neu5eDoY4ECWeBTO9DUOYa5WXwrd4Z1I26x0nks0r3+6v9SnU7I9FXllTmFtDmwMZz6eKphmniQY=
+SHA256 (Pkgfile) = 94a1d58519ce3b63af04aa0cf647824bc4e05faf143d9de988c480e2c11e5069
 SHA256 (.footprint) = c7434e43662bd3afeff0ed31cecd2864d23cd8aee8b0f48d7abdeed7732cbea4
-SHA256 (Seurat_5.6.0.tar.gz) = 8366190e8fe26e79efc18be5391308ff00cde673d298bc7b39e7a84816718f39
+SHA256 (Seurat_6.0.0.tar.gz) = a2273d1828059ae1ec19e84c25838facbec4b6e97c17a6ca4e6cb6b5d5a8387a

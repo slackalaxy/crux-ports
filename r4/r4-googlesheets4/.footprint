@@ -30,16 +30,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/googlesheets4/help/
 -rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/aliases.rds
 drwxr-xr-x	root/root	usr/lib/R/library/googlesheets4/help/figures/
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-archived.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-defunct.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-deprecated.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-experimental.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-maturing.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-questioning.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-retired.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-soft-deprecated.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-stable.svg
--rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/lifecycle-superseded.svg
 -rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/googlesheets4.rdb
 -rw-r--r--	root/root	usr/lib/R/library/googlesheets4/help/googlesheets4.rdx

@@ -15,6 +15,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/rsvd/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/Meta/nsInfo.rds
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/Meta/package.rds
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/NAMESPACE
+-rw-r--r--	root/root	usr/lib/R/library/rsvd/NEWS.md
 drwxr-xr-x	root/root	usr/lib/R/library/rsvd/R/
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/R/rsvd
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/R/rsvd.rdb
@@ -27,6 +28,12 @@ drwxr-xr-x	root/root	usr/lib/R/library/rsvd/data/
 drwxr-xr-x	root/root	usr/lib/R/library/rsvd/help/
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/help/aliases.rds
+drwxr-xr-x	root/root	usr/lib/R/library/rsvd/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/rsvd/help/figures/benchmark-pca-scaling.svg
+-rw-r--r--	root/root	usr/lib/R/library/rsvd/help/figures/benchmark-svd-scaling.svg
+-rw-r--r--	root/root	usr/lib/R/library/rsvd/help/figures/iris-pca-biplot.svg
+-rw-r--r--	root/root	usr/lib/R/library/rsvd/help/figures/logo.png
+-rw-r--r--	root/root	usr/lib/R/library/rsvd/help/figures/tiger-rank-comparison.png
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/help/paths.rds
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/help/rsvd.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rsvd/help/rsvd.rdx

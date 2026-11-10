@@ -23,7 +23,6 @@ drwxr-xr-x	root/root	usr/lib/R/library/permute/R/
 -rw-r--r--	root/root	usr/lib/R/library/permute/R/permute.rdb
 -rw-r--r--	root/root	usr/lib/R/library/permute/R/permute.rdx
 -rw-r--r--	root/root	usr/lib/R/library/permute/README.md
--rw-r--r--	root/root	usr/lib/R/library/permute/TODO.md
 drwxr-xr-x	root/root	usr/lib/R/library/permute/data/
 -rw-r--r--	root/root	usr/lib/R/library/permute/data/jackal.rda
 drwxr-xr-x	root/root	usr/lib/R/library/permute/doc/
@@ -34,6 +33,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/permute/doc/
 drwxr-xr-x	root/root	usr/lib/R/library/permute/help/
 -rw-r--r--	root/root	usr/lib/R/library/permute/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/permute/help/aliases.rds
+drwxr-xr-x	root/root	usr/lib/R/library/permute/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/permute/help/figures/logo.png
+-rw-r--r--	root/root	usr/lib/R/library/permute/help/figures/logo.svg
 -rw-r--r--	root/root	usr/lib/R/library/permute/help/paths.rds
 -rw-r--r--	root/root	usr/lib/R/library/permute/help/permute.rdb
 -rw-r--r--	root/root	usr/lib/R/library/permute/help/permute.rdx
