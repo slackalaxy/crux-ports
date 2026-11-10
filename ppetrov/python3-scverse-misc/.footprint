@@ -2,10 +2,10 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.12/
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.7.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.7.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.7.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.7.dist-info/WHEEL
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.8.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.8.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.8.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc-0.1.8.dist-info/WHEEL
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/__pycache__/
@@ -21,6 +21,8 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/__pycache__/_utils.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/__pycache__/constants.cpython-312.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/__pycache__/constants.cpython-312.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/__pycache__/logging.cpython-312.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/__pycache__/logging.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/_arg_alias.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/_deprecated/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/_deprecated/__init__.py
@@ -45,6 +47,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/datasets/__py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/datasets/__pycache__/_registry.cpython-312.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/datasets/_fetcher.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/datasets/_registry.py
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/logging.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/py.typed (EMPTY)
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scverse_misc/sphinx_ext/__init__.py
