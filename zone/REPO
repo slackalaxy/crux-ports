@@ -25,7 +25,6 @@ d:ls_colors
 d:gtksourceview4-styles
 d:meta-ppetrov
 d:meta-misc
-d:blacklist-nouveau
 d:pbzx
 d:xar
 d:ttf-o365
@@ -161,9 +160,6 @@ f:8366a657efbb86f920cb94a90d01be75:meta-ppetrov/.signature
 f:3b6b06684d55f48f76d6144a4900e21f:meta-misc/Pkgfile
 f:be28f7bcfd813622700367b7200133e6:meta-misc/.footprint
 f:ac0f89da06dbf8364f21f3be752dc578:meta-misc/.signature
-f:2ab109ccded9793aa1aea42b60f3f29e:blacklist-nouveau/Pkgfile
-f:00d2ad971daf6cb2c4597d2dd170b342:blacklist-nouveau/.footprint
-f:2b824401e84ed1a30111a17137c82432:blacklist-nouveau/.signature
 f:1241da448bd9dad0458d047b9be13d2e:pbzx/.footprint
 f:54a82e07d0ce6ebc908869335ee6dc75:pbzx/Pkgfile
 f:240a1062f972755f51156a63249580e8:pbzx/.signature
@@ -228,11 +224,12 @@ f:1a347be349cb69016604c2f9e7723aac:cron-trimssd/trimssd.conf
 f:de67593f178d84af099445395c8cae2e:cron-trimssd/trimssd.sh
 f:134db2b2d94c228665c17d44a2498650:cron-trimssd/.footprint
 f:6383d37c057144417dd835b11884c823:cron-trimssd/Pkgfile
-f:e4295937f50d1c2b0510dd62a7e36398:nvidia-580xx/.footprint
-f:c91ca6beebcdf0f04a8b7000e3b5571e:nvidia-580xx/.signature
+f:e8d406495a8818b19e354af5fd702d84:nvidia-580xx/.footprint
+f:652ec11319ef52875d0aee7ca7a57292:nvidia-580xx/.signature
 f:2097834b5b5f1fca0b82dd5518e11cb6:nvidia-580xx/10-nvidia-drm-outputclass.conf
 f:4511024cc556d0c6e7c467b6789524e2:nvidia-580xx/90-nvidia-uvm.rules
-f:0f5429931330bd106e82338bdd9aa8d6:nvidia-580xx/Pkgfile
-f:41a9cec55097fcbbe46a49cd02edc60a:nvidia-580xx/README
+f:2cc999d46158d458b44ef0048f7131bb:nvidia-580xx/Pkgfile
+f:bd4dc90a3c4adfe5c2976fdbcabca818:nvidia-580xx/README
 f:9039b819cb09373c7ba1767514529f58:nvidia-580xx/nvidia-powerd.rc
 f:4f8b72915c1f46bc2f93d5003dbd54a3:nvidia-580xx/pre-install
+f:db7ef70a3a55f3a2d9d1245910170aca:nvidia-580xx/nvidia-580xx.conf
