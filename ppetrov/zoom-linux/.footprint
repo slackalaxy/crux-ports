@@ -603,6 +603,8 @@ lrwxrwxrwx	root/root	usr/lib/zoom-linux/libQt6Bodymovin.so.6 -> /usr/lib/libQt6L
 -rw-r--r--	root/root	usr/lib/zoom-linux/mute.pcm
 drwxr-xr-x	root/root	usr/lib/zoom-linux/new_home_page/
 -rw-r--r--	root/root	usr/lib/zoom-linux/new_home_page/new_home_page.zip
+drwxr-xr-x	root/root	usr/lib/zoom-linux/ossl-modules/
+-rw-r--r--	root/root	usr/lib/zoom-linux/ossl-modules/fips.so
 -rw-r--r--	root/root	usr/lib/zoom-linux/qt.conf
 -rw-r--r--	root/root	usr/lib/zoom-linux/record_start.pcm
 -rw-r--r--	root/root	usr/lib/zoom-linux/record_stop.pcm
