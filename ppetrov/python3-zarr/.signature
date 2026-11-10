@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/ppetrov.pub
-RWToVVsIkzFIZSJBP8mCk2a243txEg1FLEBV0dO+udi2x0SVrOcPCgCVxboM1jIjnq4NO4IWqcFBex3Kqv3qF9hbo2u3BwgvfgI=
-SHA256 (Pkgfile) = 16dbbf70db5fd672ee44707bf19b03fdb82e5717151d66556e189db8b5c9507c
-SHA256 (.footprint) = 1bbcd3783fd04e69b7ae676c7dbfbf844c8684aaf3dfe0c87514c5bd72f902ea
-SHA256 (zarr-3.4.1.tar.gz) = b34bda11ceb199c81ee78ecd42cd02f46c7f67a6d8a1e9bc501cafd5a1795356
+RWToVVsIkzFIZdpux/t7tLU0qcuVC4O6OUHSTPTHqPXiflQmYMVKma0YoxcWBa2pSV6dK565GUaJYPLhXdmMWcCY3U0R9X6aUQ8=
+SHA256 (Pkgfile) = 35120028fa11ad75f6e87ab47ef7be301ba7dbcb31e6fffb77f6e862cbfe3575
+SHA256 (.footprint) = ba863b05ac088ec3d32d020de89dc99dba6e822fe51fdcdb61e42be6584a9925
+SHA256 (zarr-3.4.2.tar.gz) = 645d64f292f457120fc0ca18dbe38f665b4c21aaea38a2a88b5eead8f06f3d28
