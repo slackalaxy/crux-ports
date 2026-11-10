@@ -4,8 +4,8 @@
 # Depends on: jdk8-bin
 
 name=jalview
-version=2.11.5.2
-release=2
+version=2.11.5.3
+release=1
 source=(https://www.jalview.org/getdown/release/$name-all-$version-j1.8.jar
 	$name.desktop $name.png $name.sh)
 
