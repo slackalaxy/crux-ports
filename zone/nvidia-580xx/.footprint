@@ -2,14 +2,11 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/OpenCL/
 drwxr-xr-x	root/root	etc/OpenCL/vendors/
 -rw-r--r--	root/root	etc/OpenCL/vendors/nvidia.icd
+drwxr-xr-x	root/root	etc/modprobe.d/
+-rw-r--r--	root/root	etc/modprobe.d/nvidia-580xx.conf
 drwxr-xr-x	root/root	etc/rc.d/
 -rwxr-xr-x	root/root	etc/rc.d/nvidia-powerd
 drwxr-xr-x	root/root	lib/
-drwxr-xr-x	root/root	lib/firmware/
-drwxr-xr-x	root/root	lib/firmware/nvidia-580xx/
-drwxr-xr-x	root/root	lib/firmware/nvidia-580xx/580.196.07/
--rw-r--r--	root/root	lib/firmware/nvidia-580xx/580.196.07/gsp_ga10x.bin
--rw-r--r--	root/root	lib/firmware/nvidia-580xx/580.196.07/gsp_tu10x.bin
 drwxr-xr-x	root/root	lib/modules/
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/
 drwxr-xr-x	root/root	lib/modules/<kernel-version>/extra/
@@ -121,7 +118,6 @@ drwxr-xr-x	root/root	usr/lib/xorg/
 drwxr-xr-x	root/root	usr/lib/xorg/modules/
 drwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/
 -rwxr-xr-x	root/root	usr/lib/xorg/modules/drivers/nvidia_drv.so
-drwxr-xr-x	root/root	usr/lib/xorg/modules/extensions/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/X11/
 drwxr-xr-x	root/root	usr/share/X11/xorg.conf.d/

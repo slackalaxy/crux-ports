@@ -1,3 +1,19 @@
+---------------
+Supported GPUs:
+---------------
+
+This port is meant for the following cards that are no longer supported
+by the current NVIDIA driver (590 and newer): Maxwell, Pascal and Volta.
+For these, the 580 branch is the last one NVIDIA released, e.g.:
+
+  Maxwell: GeForce GTX 750/750 Ti, GTX 900 series, Quadro M-series
+  Pascal:  GeForce GTX 10 series, Quadro P-series
+  Volta:   Titan V, Quadro GV100
+
+For Turing (RTX 20 / GTX 16) and newer cards, use the official 'nvidia'
+port. Kepler cards (GTX 600/700, Quadro K-series) need the 470 driver
+branch and are not supported by this port.
+
 -----------------------------------------
 NOTE about groups and device permissions:
 -----------------------------------------
@@ -5,10 +21,32 @@ NOTE about groups and device permissions:
 Add your user to the "video" group to be able to
 use the nvidia devices required for 3D to function properly.
 
-
 ---------------------------------
 NOTE about wayland and eglstream:
 ---------------------------------
 
 If wayland is installed and eglstream support is desired/needed,
 additionally install the 'egl-wayland' port.
+
+--------------------
+NOTE about Settings:
+--------------------
+
+Settings file that blacklists the nouveau kernel module and enables the
+high-resolution console is installed as /etc/modprobe.d/nvidia-580xx.conf
+
+--------
+NOUVEAU:
+--------
+
+Remove xorg-xf86-video-nouveau if installed.
+
+-------
+Kernel:
+-------
+
+This builds against the running kernel, which will likely be different
+from what I am running. Therefore, ignore the footprint mismatch. To
+build for a different kernel, set KVER, e.g.:
+
+  KVER=6.18.56 pkgmk -d

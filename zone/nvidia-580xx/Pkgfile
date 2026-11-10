@@ -1,20 +1,20 @@
-# Description: NVIDIA Linux Display Driver (production branch)
-# URL: https://www.nvidia.com/
+# Description: NVIDIA Linux Display Driver (580xx branch)
+# URL: https://download.nvidia.com/XFree86/Linux-x86_64/
 # Maintainer: Petar Petrov, slackalaxy at gmail dot com
-# Depends on: blacklist-nouveau gtk gtk3 libglvnd
+# Depends on: gtk gtk3 libglvnd
 
 name=nvidia-580xx
 version=580.196.07
-release=1
+release=2
 source=(https://us.download.nvidia.com/XFree86/Linux-x86_64/$version/NVIDIA-Linux-x86_64-$version.run \
-	90-nvidia-uvm.rules 10-nvidia-drm-outputclass.conf nvidia-powerd.rc)
+	90-nvidia-uvm.rules 10-nvidia-drm-outputclass.conf $name.conf nvidia-powerd.rc)
 
 build() {
 	sh NVIDIA-Linux-x86_64-$version.run --extract-only
 	cd NVIDIA-Linux-x86_64-$version
 
 	# X driver and GLX extension
-	install -d $PKG/usr/lib/xorg/modules/{drivers,extensions}
+	install -d $PKG/usr/lib/xorg/modules/drivers
 	install -m 0755 nvidia_drv.so $PKG/usr/lib/xorg/modules/drivers/
 	install -d -m 0755 $PKG/usr/lib/nvidia/xorg
 	install -m 0755 libglxserver_nvidia.so.$version $PKG/usr/lib/nvidia/xorg/
@@ -146,10 +146,6 @@ build() {
 	ln -s libnvidia-gpucomp.so.$version $PKG/usr/lib/libnvidia-gpucomp.so.1
 	ln -s libnvidia-gpucomp.so.$version $PKG/usr/lib/libnvidia-gpucomp.so
 
-	# GSP firmware
-	install -d $PKG/lib/firmware/$name/$version
-	install -m 0644 firmware/gsp_*.bin $PKG/lib/firmware/$name/$version/
-
 	# X driver config
 	install -D -m 0644 $SRC/10-nvidia-drm-outputclass.conf \
 		$PKG/usr/share/X11/xorg.conf.d/10-nvidia-drm-outputclass.conf
@@ -173,10 +169,11 @@ build() {
 	# modules don't support Maxwell/Pascal/Volta cards, which are the
 	# reason this 580 port exists.
 	cd kernel
+	export SYSSRC=/lib/modules/${KVER:-$(uname -r)}/build
 	IGNORE_CC_MISMATCH=1 make module
 	install -d $PKG/lib/modules/${KVER:-$(uname -r)}/extra
 	install -m 0644 *.ko $PKG/lib/modules/${KVER:-$(uname -r)}/extra/
-	
-	#mkdir -p $PKG/etc/modprobe.d
-	#echo "blacklist nouveau" > $PKG/etc/modprobe.d/blacklist-nouveau.conf
+
+	# Install the settings file
+	install -D -m 0644 $SRC/$name.conf $PKG/etc/modprobe.d/$name.conf
 }
