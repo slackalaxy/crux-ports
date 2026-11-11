@@ -10,8 +10,13 @@ alias ..='cd ..'
 export VISUAL=nano
 export EDITOR=nano
 
+# Colours for ls. If the ls_colors port is installed, use its big
+# extension:colour mapping. Otherwise fall back to the database built
+# into dircolors (coreutils), which covers the common file types.
 if [ -f /etc/profile.d/lscolors.sh ]; then
   source /etc/profile.d/lscolors.sh
+else
+  eval "$(dircolors -b)"
 fi
 
 if [ -f /etc/profile.d/vte.sh ]; then
@@ -30,7 +35,15 @@ shopt -s histappend
 # right away, and new terminals start with the full history.
 PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
 
-# Simple default prompt, where "$" is in cyan.
+# Prompt colour, where '$' is green. Replace XX with one of these:
+#   30  black    90  dark grey
+#   31  red      91  bright red
+#   32  green    92  bright green
+#   33  yellow   93  bright yellow
+#   34  blue     94  bright blue
+#   35  magenta  95  bright magenta
+#   36  cyan     96  bright cyan
+#   37  grey     97  white
 PS1='\[\e[1;32m\]\$\[\e[0m\] '
 
 # Over SSH: the computer name in yellow, then "$" in cyan.
