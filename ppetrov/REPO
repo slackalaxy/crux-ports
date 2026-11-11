@@ -47,7 +47,6 @@ d:ncbi-datasets
 d:ncbi-edirect
 d:onlyoffice
 d:openvpn
-d:otf-apple-sf-mono
 d:p5-bioperl
 d:p5-cpan-distnameinfo
 d:p5-data-stag
@@ -124,7 +123,6 @@ d:gbgoffice
 d:aiksaurus
 d:7z
 d:python3-pkgconfig
-d:ttf-apple-emoji
 d:gnome-colors-icons
 d:kalign
 d:networkmanager-openvpn
@@ -347,10 +345,6 @@ f:b66eba4bc94a58b19b81cb3ba925183c:openvpn/.footprint
 f:6f18342ce04684d2557ecc9f736db8fd:openvpn/README
 f:f5655efe9aacca417bc173b96ced4127:openvpn/.signature
 f:c1dcef10ddd834af388e9137a2bbce7c:openvpn/Pkgfile
-f:43111237ccbcb8933be0cab5bff23d98:otf-apple-sf-mono/.footprint
-f:56b2e07c89b11b5e09eccbe7e34b18b5:otf-apple-sf-mono/.signature
-f:161ce8667ea10cf53c190f00b8c06d0b:otf-apple-sf-mono/Pkgfile
-f:459b7d6bca38427c9a44364601a5fc25:otf-apple-sf-mono/post-install
 f:569c555dd98466929075047a3f2535cd:p5-bioperl/.footprint
 f:b0db64e234ad051884142254c227d494:p5-bioperl/.signature
 f:1daba56c2af632f625abc13cb21bd5f5:p5-bioperl/Pkgfile
@@ -631,12 +625,6 @@ f:a7e139930278771594396b6b6615f070:7z/.signature
 f:d4401521bfe7748fe7c0863ade8d1185:python3-pkgconfig/Pkgfile
 f:6089ac090ca159705e7771ce7983e73f:python3-pkgconfig/.footprint
 f:3b41e0f95cc547c299e60f5a07f415d1:python3-pkgconfig/.signature
-f:b24d92c81a319477a3d7b9ac75af31f8:ttf-apple-emoji/README
-f:049c247463f74499d38312abed307d1f:ttf-apple-emoji/75-apple-emoji.conf
-f:b56ef3d4e21a4ca547b65152d60a758b:ttf-apple-emoji/Pkgfile
-f:ec94fd189292d4005cad6ace7dcd46aa:ttf-apple-emoji/post-install
-f:c64c4bc3cf3be7b32dd95246a7e35f9a:ttf-apple-emoji/.footprint
-f:15c3b71fccc617fa47971bad693fa47c:ttf-apple-emoji/.signature
 f:275bc96cef425540e09a10dbdb29448d:gnome-colors-icons/Pkgfile
 f:98a56c470e5cc9b46fea39ac5b943f6f:gnome-colors-icons/.footprint
 f:9a2e965fdf60a3a603631b1287eea57a:gnome-colors-icons/.signature
