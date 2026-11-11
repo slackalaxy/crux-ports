@@ -5,18 +5,22 @@
 
 name=otf-apple-sf-mono
 version=6.0.1.1726709071
-release=1
+release=2
 source=(https://devimages-cdn.apple.com/design/resources/download/SF-Mono.dmg)
 renames=(SF-Mono-$version.dmg)
 
 build() {
 	7z x $SRC/SF-Mono-$version.dmg
-	mkdir -p $PKG/usr/share/fonts/X11/OTF
+	mkdir -p $PKG/usr/share/fonts/apple
 	
 	cd $SRC/SFMonoFonts
-	7z x SF\ Mono\ Fonts.pkg
+	7z x "SF Mono Fonts.pkg"
+	# Newer 7-Zip leaves the Payload gzip-compressed in a subfolder,
+	# so unpack that layer first; it produces Payload~ as before
+	7z x SFMonoFonts.pkg/Payload
 	7z x Payload~
 	cd Library/Fonts
-	cp -a *.otf $PKG/usr/share/fonts/X11/OTF/
-	chmod 0644 $PKG/usr/share/fonts/X11/OTF/*.otf
+	
+	cp -a *.otf $PKG/usr/share/fonts/apple/
+	chmod 0644 $PKG/usr/share/fonts/apple/*.otf
 }

@@ -1,4 +1,5 @@
 #!/bin/sh
-mkfontscale /usr/share/fonts/X11/OTF
-mkfontdir /usr/share/fonts/X11/OTF
+
+mkfontdir /usr/share/fonts/apple
+mkfontscale /usr/share/fonts/apple
 fc-cache
