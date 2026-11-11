@@ -126,10 +126,10 @@ f:18f45cc14276cd99a00596144775afeb:ttf-win11/README
 f:39cc4032937a8a4dfe97aaed58894ea3:ttf-win11/post-install
 f:d684e345661fc11d01f8523ab1049fe2:ttf-win11/ttc-extract.py
 f:4c0dac74d3a87bf2fd54662faf924023:ttf-win11/ttf-auto-fix.py
-f:43111237ccbcb8933be0cab5bff23d98:otf-apple-sf-mono/.footprint
-f:7583010277d49a8bb342621712d7ae42:otf-apple-sf-mono/.signature
-f:161ce8667ea10cf53c190f00b8c06d0b:otf-apple-sf-mono/Pkgfile
-f:459b7d6bca38427c9a44364601a5fc25:otf-apple-sf-mono/post-install
+f:88c7591c209301c4fd9707004ffa1b36:otf-apple-sf-mono/.footprint
+f:c103f6c66f47f52df9af56b89ad1dcbf:otf-apple-sf-mono/.signature
+f:20e9c2bf182db6cae8af96c613a0d8f6:otf-apple-sf-mono/Pkgfile
+f:187548d673a33dd5a85ce015baea238e:otf-apple-sf-mono/post-install
 f:a4c2b91895adbb35d54b1e8ea5eea0f5:backgrounds-vladstudio/Pkgfile
 f:3520a4b011b3df2d578d2fb6cb644f8f:backgrounds-vladstudio/README
 f:ad952d7bd54a270228ddfea3ebb06c0b:backgrounds-vladstudio/.footprint
@@ -241,7 +241,7 @@ f:4f8b72915c1f46bc2f93d5003dbd54a3:nvidia-580xx/pre-install
 f:db7ef70a3a55f3a2d9d1245910170aca:nvidia-580xx/nvidia-580xx.conf
 f:b24d92c81a319477a3d7b9ac75af31f8:ttf-apple-emoji/README
 f:049c247463f74499d38312abed307d1f:ttf-apple-emoji/75-apple-emoji.conf
-f:b56ef3d4e21a4ca547b65152d60a758b:ttf-apple-emoji/Pkgfile
+f:a3b5f01d3f8778bab356bc8d843acd1d:ttf-apple-emoji/Pkgfile
 f:ec94fd189292d4005cad6ace7dcd46aa:ttf-apple-emoji/post-install
-f:c64c4bc3cf3be7b32dd95246a7e35f9a:ttf-apple-emoji/.footprint
-f:5ba5899ff7b8ad6442565586d219f815:ttf-apple-emoji/.signature
+f:1a88ec3d044c813fba37c765303c6669:ttf-apple-emoji/.footprint
+f:87142638bdef141e971fbc490e2ab3ba:ttf-apple-emoji/.signature
